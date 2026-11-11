@@ -1,0 +1,24 @@
+// The accounts API: a Cloudflare Worker on api.<site domain>, with a D1 database.
+// See README.md for first-time setup (creating the database and filling in its id).
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "cspnews-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "observability": { "enabled": false },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cspnews-accounts",
+      // Filled in once, from `wrangler d1 create cspnews-accounts`. Not a secret.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "vars": {
+    // Pages that may call the API, comma-separated. Local dev adds the Astro dev server.
+    "ALLOWED_ORIGINS": "http://localhost:4321",
+    // The site's own domain, for the readable "signed in" hint cookie. Empty in local dev.
+    "COOKIE_DOMAIN": "",
+  },
+}
