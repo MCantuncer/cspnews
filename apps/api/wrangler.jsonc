@@ -20,5 +20,10 @@
     "ALLOWED_ORIGINS": "http://localhost:4321",
     // The site's own domain, for the readable "signed in" hint cookie. Empty in local dev.
     "COOKIE_DOMAIN": "",
+    // Where sign-in sends readers back to.
+    "SITE_URL": "http://localhost:4321",
+    // From the Google Cloud sign-in client (see README.md). Public; the secret is set with
+    // `wrangler secret put GOOGLE_CLIENT_SECRET`, or in .dev.vars for local dev.
+    "GOOGLE_CLIENT_ID": "709594445277-dv9itd3vp2guk43ei3fd2vnhrdnnjsbt.apps.googleusercontent.com",
   },
 }
