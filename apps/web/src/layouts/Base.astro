@@ -1,0 +1,40 @@
+---
+import '../styles/base.css';
+
+import type { EditionHour } from '../lib/edition';
+
+interface Props {
+  title: string;
+  description?: string;
+  hour?: EditionHour;
+}
+
+const { title, description = 'A personal newsroom: four calm bulletins a day.', hour = 'dawn' } =
+  Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-hour={hour} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="dark light" />
+    <title>{title}</title>
+    <script is:inline>
+      // Apply saved reading settings before first paint, so the page never flashes the wrong theme.
+      try {
+        const root = document.documentElement;
+        const theme = localStorage.getItem('cspnews:theme');
+        const size = localStorage.getItem('cspnews:text-size');
+        if (theme === 'light' || theme === 'device') root.dataset.theme = theme;
+        if (size) root.dataset.textSize = size;
+      } catch {
+        // Storage can be unavailable (private mode); the defaults still work.
+      }
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
