@@ -7,3 +7,6 @@ coverage/
 *.log
 .DS_Store
 .astro/
+data/candidates/
+.wrangler/
+.dev.vars

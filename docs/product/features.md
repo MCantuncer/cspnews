@@ -33,6 +33,7 @@ The feature list behind [the user stories](user-stories.md). Each feature names 
 | F-21 | Email bulletin                                                                                          | US-60          | Later |
 | F-22 | Listen mode                                                                                             | US-61          | Later |
 | F-23 | Reader accounts: Google or passkey sign-in, Stations avatars, sync of reading, settings and word game   | US-18          | Next  |
+| F-24 | Daily word game in English and Turkish, with streaks and stats, at `/word`                              | US-70, US-71   | Next  |
 
 ## Shared systems
 

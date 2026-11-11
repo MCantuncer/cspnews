@@ -131,6 +131,17 @@ Format: _As the reader, I want …, so that …_, followed by acceptance criteri
 
 **US-52 Switch the model provider.** As the owner, I want the AI model behind one interface, so that I can move between my Claude subscription, the paid API, another model or no model with a config change.
 
+## Daily word
+
+**US-70 Play a daily word.** As the reader, I want one five-letter word to find each day in English and one in Turkish, so that I have a short break that sharpens my languages.
+
+- Six tries; green means the right letter in the right place, yellow means the letter is elsewhere in the word.
+- Everyone gets the same word; a new one starts at 00:00 Istanbul time.
+- A word that isn't in the list never costs a try. Turkish letters (I and İ, Ğ, Ş, Ç, Ö, Ü) are their own keys.
+- Answers are common words: no names, slang, swear words or plural forms.
+
+**US-71 Keep a streak.** As the reader, I want to see my streak and stats, with one rest day a week, so that a busy day doesn't wipe out my progress.
+
 ## Later
 
 **US-60 Email bulletin.** As the reader, I want the bulletin in my inbox at bulletin time, so that I can read it without opening the site.
