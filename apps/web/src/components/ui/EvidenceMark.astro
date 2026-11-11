@@ -1,0 +1,47 @@
+---
+/**
+ * The evidence mark: the label's Stations glyph plus its word, in the label's colour.
+ * `inline` sits in running text, optically centred on the line (glyph at -0.24em);
+ * `glyph` is the glyph alone (Contents spine) and keeps the word for screen readers.
+ */
+import { EVIDENCE, evidenceWord, type EvidenceLabel, type InterfaceLanguage } from '../../lib/evidence';
+import Icon from './Icon.astro';
+
+interface Props {
+  label: EvidenceLabel;
+  lang?: InterfaceLanguage;
+  variant?: 'inline' | 'glyph';
+}
+
+const { label, lang = 'en', variant = 'inline' } = Astro.props;
+const { icon, token } = EVIDENCE[label];
+const word = evidenceWord(label, lang);
+---
+
+<span class:list={['ev', `ev--${variant}`]} style={`--ev: var(${token})`} data-label={label}>
+  <Icon name={icon} size={18} class="ev__g" />
+  {variant === 'inline' ? word : <span class="visually-hidden">{word}</span>}
+</span>
+
+<style>
+  .ev {
+    color: var(--ev);
+    font: 600 14px / 1 var(--f-body);
+    white-space: nowrap;
+  }
+
+  .ev--inline {
+    display: inline;
+  }
+
+  .ev--inline :global(.ev__g) {
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: -0.24em;
+  }
+
+  .ev--glyph {
+    display: inline-grid;
+    place-items: center;
+  }
+</style>

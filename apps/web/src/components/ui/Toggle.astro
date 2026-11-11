@@ -1,0 +1,129 @@
+---
+/**
+ * The Day line toggle: a short piece of the day line with one station that fills with the
+ * edition colour when on. A native button with role="switch"; the tap area is 52 × 44.
+ * The click handler flips `aria-checked` and fires a `change` event with `detail.checked`.
+ */
+interface Props {
+  label: string;
+  checked?: boolean;
+  id?: string;
+  name?: string;
+}
+
+const { label, checked = false, id, name } = Astro.props;
+---
+
+<button
+  type="button"
+  class="tsw"
+  role="switch"
+  aria-checked={checked ? 'true' : 'false'}
+  aria-label={label}
+  id={id}
+  data-name={name}
+>
+  <span class="trk"><span class="kn"></span></span>
+</button>
+
+<script>
+  for (const button of document.querySelectorAll<HTMLButtonElement>('button.tsw')) {
+    button.addEventListener('click', () => {
+      const checked = button.getAttribute('aria-checked') !== 'true';
+      button.setAttribute('aria-checked', String(checked));
+      button.dispatchEvent(new CustomEvent('change', { bubbles: true, detail: { checked } }));
+    });
+  }
+</script>
+
+<style>
+  .tsw {
+    display: inline-grid;
+    flex: none;
+    place-items: center;
+    min-width: 52px;
+    min-height: 44px;
+    margin: 0;
+    padding: 0 2px;
+    border: 0;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    appearance: none;
+  }
+
+  .tsw:focus-visible {
+    border-radius: 8px;
+  }
+
+  .trk {
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 24px;
+    border: 1.75px solid var(--meta);
+    border-radius: 12px;
+    transition:
+      background-color var(--dur-base) var(--ease-out),
+      border-color var(--dur-base) var(--ease-out);
+  }
+
+  /* The day line running through the track. */
+  .trk::before {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    left: 6px;
+    height: 1.75px;
+    margin-top: -0.875px;
+    background: var(--meta2);
+    content: '';
+  }
+
+  .kn {
+    position: absolute;
+    top: 2.25px;
+    left: 2.25px;
+    width: 16px;
+    height: 16px;
+    border: 1.75px solid var(--meta);
+    border-radius: 50%;
+    background: var(--bg);
+    transition:
+      transform var(--dur-base) var(--ease-out),
+      border-color var(--dur-base) var(--ease-out);
+  }
+
+  .kn::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin: -3px 0 0 -3px;
+    border-radius: 50%;
+    background: var(--hour);
+    content: '';
+    transform: scale(0);
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+
+  .tsw[aria-checked='true'] .trk {
+    border-color: var(--hour);
+    background: var(--hour);
+  }
+
+  .tsw[aria-checked='true'] .trk::before {
+    background: var(--bg);
+    opacity: 0.5;
+  }
+
+  .tsw[aria-checked='true'] .kn {
+    border-color: var(--bg);
+    transform: translateX(20.5px);
+  }
+
+  .tsw[aria-checked='true'] .kn::after {
+    transform: scale(1);
+  }
+</style>
