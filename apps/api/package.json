@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@cspnews/accounts": "workspace:*",
+    "@simplewebauthn/server": "14.0.3",
     "hono": "4.13.18",
     "jose": "6.2.13",
     "zod": "4.6.7"

@@ -9,8 +9,8 @@
  *   DELETE /me             delete the account and every row
  *   POST   /auth/signout   sign out here, or everywhere with {"everywhere": true}
  *   GET    /auth/google    sign in with Google (auth-google.ts)
- *
- * Passkey routes arrive in the next step.
+ *   POST   /auth/passkey/* make an account or sign in with a passkey (auth-passkey.ts)
+ *   GET    /me/passkeys    your passkeys; DELETE /me/passkeys/:id removes one
  */
 import { ProfilePatchSchema, profileToJson } from '@cspnews/accounts';
 import { Hono } from 'hono';
@@ -19,11 +19,14 @@ import { cors } from 'hono/cors';
 import { z } from 'zod';
 
 import { googleRoutes } from './auth-google.js';
+import { passkeyAccountRoutes, passkeyRoutes } from './auth-passkey.js';
 import { clearSignInCookies, readSessionCookie, setSignInCookies } from './cookies.js';
 import { allowedOrigins } from './env.js';
 import type { Env } from './env.js';
 import { createGoogleSignIn } from './google.js';
 import type { GoogleSignIn } from './google.js';
+import { createPasskeyCeremonies } from './passkeys.js';
+import type { PasskeyCeremonies } from './passkeys.js';
 import {
   deleteAccount,
   deleteAllSessions,
@@ -48,12 +51,16 @@ export interface AppOptions {
   readonly clock?: () => Date;
   /** How to talk to Google. Tests pass a fake. */
   readonly google?: (env: Env) => GoogleSignIn;
+  /** How to check passkeys. Tests pass a fake. */
+  readonly passkeys?: (env: Env) => PasskeyCeremonies;
 }
 
 export function createApp({
   clock = () => new Date(),
   google = (env) =>
     createGoogleSignIn({ clientId: env.GOOGLE_CLIENT_ID, clientSecret: env.GOOGLE_CLIENT_SECRET }),
+  passkeys = (env) =>
+    createPasskeyCeremonies({ rpId: env.PASSKEY_RP_ID, origins: allowedOrigins(env) }),
 }: AppOptions = {}) {
   const app = new Hono<App>();
 
@@ -90,6 +97,10 @@ export function createApp({
   app.route(
     '/',
     googleRoutes((c) => google(c.env), clock),
+  );
+  app.route(
+    '/',
+    passkeyRoutes((c) => passkeys(c.env), clock),
   );
 
   const signedIn = new Hono<App>();
@@ -152,6 +163,7 @@ export function createApp({
     return c.body(null, 204);
   });
 
+  signedIn.route('/', passkeyAccountRoutes());
   app.route('/', signedIn);
   app.notFound((c) => c.json({ error: 'Not found.' }, 404));
 

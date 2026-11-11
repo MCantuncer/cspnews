@@ -19,6 +19,7 @@ import type {
 } from '@cspnews/accounts';
 
 import type { D1Database } from './d1.js';
+import type { StoredPasskey } from './passkeys.js';
 
 /** A sign-in is refreshed at most once a day, so reading pages costs no database writes. */
 const REFRESH_AFTER_MS = 24 * 60 * 60 * 1000;
@@ -185,9 +186,13 @@ export async function getProfile(db: D1Database, accountId: string): Promise<Rea
   if (!row) return null;
 
   const methods = await db
-    .prepare('SELECT DISTINCT provider FROM identities WHERE account_id = ? ORDER BY provider')
+    .prepare(
+      `SELECT DISTINCT provider AS method FROM identities WHERE account_id = ?1
+       UNION SELECT 'passkey' FROM passkeys WHERE account_id = ?1
+       ORDER BY method`,
+    )
     .bind(accountId)
-    .all<{ provider: SignInMethod }>();
+    .all<{ method: SignInMethod }>();
 
   return {
     id: row.id,
@@ -195,7 +200,7 @@ export async function getProfile(db: D1Database, accountId: string): Promise<Rea
     // A stored code always parses; fall back to a fresh avatar rather than fail if one ever doesn't.
     avatar: parseAvatar(row.avatar) ?? randomAvatar(),
     settings: { lang: row.lang, theme: row.theme },
-    signInMethods: methods.results.map((method) => method.provider),
+    signInMethods: methods.results.map((row) => row.method),
   };
 }
 
@@ -243,7 +248,16 @@ export async function exportAccount(db: D1Database, accountId: string) {
     .prepare('SELECT created_at, refreshed_at, expires_at FROM sessions WHERE account_id = ?')
     .bind(accountId)
     .all();
-  return { account, identities: identities.results, sessions: sessions.results };
+  const passkeys = await db
+    .prepare('SELECT id, backed_up, created_at, last_used_at FROM passkeys WHERE account_id = ?')
+    .bind(accountId)
+    .all();
+  return {
+    account,
+    identities: identities.results,
+    passkeys: passkeys.results,
+    sessions: sessions.results,
+  };
 }
 
 /** Deletes an account and every row that belongs to it, in one transaction. */
@@ -251,6 +265,184 @@ export async function deleteAccount(db: D1Database, accountId: string): Promise<
   await db.batch([
     db.prepare('DELETE FROM sessions WHERE account_id = ?').bind(accountId),
     db.prepare('DELETE FROM identities WHERE account_id = ?').bind(accountId),
+    db.prepare('DELETE FROM passkeys WHERE account_id = ?').bind(accountId),
+    db.prepare('DELETE FROM passkey_challenges WHERE account_id = ?').bind(accountId),
     db.prepare('DELETE FROM accounts WHERE id = ?').bind(accountId),
   ]);
+}
+
+interface PasskeyRow {
+  id: string;
+  public_key: string;
+  counter: number;
+  transports: string | null;
+  backed_up: number;
+  account_id: string;
+  created_at: string;
+  last_used_at: string | null;
+}
+
+function toPasskey(row: PasskeyRow): StoredPasskey {
+  return {
+    id: row.id,
+    publicKey: row.public_key,
+    counter: row.counter,
+    transports: row.transports ? (JSON.parse(row.transports) as string[]) : [],
+    backedUp: row.backed_up === 1,
+  };
+}
+
+const insertPasskey = (db: D1Database, accountId: string, passkey: StoredPasskey, now: Date) =>
+  db
+    .prepare(
+      'INSERT INTO passkeys (id, account_id, public_key, counter, transports, backed_up, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
+    )
+    .bind(
+      passkey.id,
+      accountId,
+      passkey.publicKey,
+      passkey.counter,
+      JSON.stringify(passkey.transports),
+      passkey.backedUp ? 1 : 0,
+      now.toISOString(),
+    );
+
+/** An account's passkeys, oldest first. */
+export async function listPasskeys(db: D1Database, accountId: string) {
+  const rows = await db
+    .prepare('SELECT * FROM passkeys WHERE account_id = ? ORDER BY created_at, id')
+    .bind(accountId)
+    .all<PasskeyRow>();
+  return rows.results.map((row) => ({
+    ...toPasskey(row),
+    createdAt: row.created_at,
+    lastUsedAt: row.last_used_at,
+  }));
+}
+
+/** A passkey by its credential id, with the account it belongs to. */
+export async function findPasskey(
+  db: D1Database,
+  id: string,
+): Promise<{ accountId: string; passkey: StoredPasskey } | null> {
+  const row = await db.prepare('SELECT * FROM passkeys WHERE id = ?').bind(id).first<PasskeyRow>();
+  return row ? { accountId: row.account_id, passkey: toPasskey(row) } : null;
+}
+
+export async function addPasskey(
+  db: D1Database,
+  accountId: string,
+  passkey: StoredPasskey,
+  now: Date,
+) {
+  await insertPasskey(db, accountId, passkey, now).run();
+}
+
+/** Creates an account that signs in with a passkey, in one transaction. */
+export async function createAccountWithPasskey(
+  db: D1Database,
+  accountId: string,
+  passkey: StoredPasskey,
+  now: Date,
+): Promise<void> {
+  await db.batch([
+    db
+      .prepare('INSERT INTO accounts (id, avatar, created_at) VALUES (?, ?, ?)')
+      .bind(accountId, formatAvatar(randomAvatar()), now.toISOString()),
+    insertPasskey(db, accountId, passkey, now),
+  ]);
+}
+
+/** Records a sign-in with a passkey: its new counter and when it was used. */
+export async function touchPasskey(
+  db: D1Database,
+  id: string,
+  counter: number,
+  now: Date,
+): Promise<void> {
+  await db
+    .prepare('UPDATE passkeys SET counter = ?, last_used_at = ? WHERE id = ?')
+    .bind(counter, now.toISOString(), id)
+    .run();
+}
+
+/** How many ways an account can sign in: Google accounts plus passkeys. */
+export async function countSignInWays(db: D1Database, accountId: string): Promise<number> {
+  const row = await db
+    .prepare(
+      `SELECT (SELECT count(*) FROM identities WHERE account_id = ?1)
+            + (SELECT count(*) FROM passkeys WHERE account_id = ?1) AS n`,
+    )
+    .bind(accountId)
+    .first<{ n: number }>();
+  return row?.n ?? 0;
+}
+
+/** Removes one of an account's passkeys. Returns false when the account has no such passkey. */
+export async function deletePasskey(
+  db: D1Database,
+  accountId: string,
+  id: string,
+): Promise<boolean> {
+  const result = await db
+    .prepare('DELETE FROM passkeys WHERE id = ? AND account_id = ?')
+    .bind(id, accountId)
+    .run();
+  return (result.meta.changes ?? 0) > 0;
+}
+
+/** How long a passkey challenge can be answered. */
+export const CHALLENGE_SECONDS = 300;
+
+/** A passkey ceremony in progress: the challenge we handed out, and for whom. */
+export interface PendingCeremony {
+  readonly purpose: 'register' | 'login';
+  readonly challenge: string;
+  /** For registration: the account the passkey will belong to (new or signed in). */
+  readonly accountId: string | null;
+  /** For registration: true when adding to the signed-in account, false for a new account. */
+  readonly existing: boolean;
+}
+
+/** Records an open challenge, and clears out any that have expired. */
+export async function saveChallenge(
+  db: D1Database,
+  ceremony: PendingCeremony,
+  now: Date,
+): Promise<void> {
+  const expiresAt = new Date(now.getTime() + CHALLENGE_SECONDS * 1000).toISOString();
+  await db.batch([
+    db.prepare('DELETE FROM passkey_challenges WHERE expires_at <= ?').bind(now.toISOString()),
+    db
+      .prepare(
+        'INSERT INTO passkey_challenges (challenge, purpose, account_id, existing, expires_at) VALUES (?, ?, ?, ?, ?)',
+      )
+      .bind(
+        ceremony.challenge,
+        ceremony.purpose,
+        ceremony.accountId,
+        ceremony.existing ? 1 : 0,
+        expiresAt,
+      ),
+  ]);
+}
+
+/**
+ * Uses up an open challenge: it is deleted as it is read, so each can be answered once. Returns
+ * null when it is unknown, already used, expired, or for another purpose.
+ */
+export async function takeChallenge(
+  db: D1Database,
+  challenge: string,
+  purpose: PendingCeremony['purpose'],
+  now: Date,
+): Promise<PendingCeremony | null> {
+  const row = await db
+    .prepare(
+      'DELETE FROM passkey_challenges WHERE challenge = ? RETURNING purpose, account_id, existing, expires_at',
+    )
+    .bind(challenge)
+    .first<{ purpose: string; account_id: string | null; existing: number; expires_at: string }>();
+  if (row?.purpose !== purpose || new Date(row.expires_at) <= now) return null;
+  return { purpose, challenge, accountId: row.account_id, existing: row.existing === 1 };
 }
