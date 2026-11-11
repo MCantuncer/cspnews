@@ -1,0 +1,389 @@
+---
+/**
+ * The reader corner: one button at the right end of the header for everything about the
+ * reader. Signed out it shows the settings mark; signed in, the reader's avatar. It opens a
+ * sheet over the page (a side panel on wide screens, a bottom sheet on phones) with the account
+ * row, language, theme, text size and the reading ruler. Changes apply at once, so the reader
+ * never leaves the story. The full Settings page keeps the evidence legend and the rest.
+ */
+import AccountSlot from './account/AccountSlot.astro';
+import Icon from './ui/Icon.astro';
+import Toggle from './ui/Toggle.astro';
+import type { InterfaceLanguage } from '../lib/evidence';
+import { wordsFor } from '../lib/i18n';
+import { INTERFACE_LANGUAGES, languagePath, localePath } from '../lib/locale';
+import { TEXT_SIZES, THEMES } from '../lib/settings';
+
+interface Props {
+  lang: InterfaceLanguage;
+  /** True on the Settings page, where the button carries the hour mark. */
+  inSettings?: boolean;
+}
+
+const { lang, inSettings = false } = Astro.props;
+const words = wordsFor(lang);
+const path = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/') || '/';
+const LANGUAGE_NAMES = { en: 'English', tr: 'Türkçe' } as const;
+const sizeLabels = Object.fromEntries(
+  TEXT_SIZES.map((size) => [size.id, `${words.textSizes[size.id]}, ${String(size.px)}px`]),
+);
+---
+
+<button
+  type="button"
+  class:list={['rc-button', { on: inSettings }]}
+  aria-haspopup="dialog"
+  aria-label={words.settings}
+  data-reader-corner
+>
+  <span class="rc-mark"><Icon name="settings" size={24} /></span>
+  <span class="acc-me-avatar rc-avatar" data-account-avatar></span>
+</button>
+
+<dialog class="rc-sheet" aria-labelledby="rc-title" data-reader-sheet>
+  <div class="rc-panel" tabindex="-1">
+    <div class="rc-top">
+      <h2 id="rc-title">{words.settings}</h2>
+      <form method="dialog">
+        <button type="submit" class="rc-close" aria-label={words.close}>
+          <Icon name="close" size={22} />
+        </button>
+      </form>
+    </div>
+
+    <AccountSlot lang={lang} />
+
+    <div class="rc-controls" data-reader-settings>
+      <section class="rc-group" aria-labelledby="rc-language">
+        <h3 id="rc-language">{words.language}</h3>
+        <div class="rc-seg" role="radiogroup" aria-labelledby="rc-language">
+          {
+            INTERFACE_LANGUAGES.map((option) => (
+              <a
+                class="rc-choice"
+                role="radio"
+                aria-checked={option === lang ? 'true' : 'false'}
+                href={languagePath(path, option)}
+                lang={option}
+                data-lang-option={option}
+              >
+                {LANGUAGE_NAMES[option]}
+              </a>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="rc-group" aria-labelledby="rc-theme">
+        <h3 id="rc-theme">{words.theme}</h3>
+        <div class="rc-seg" role="radiogroup" aria-labelledby="rc-theme">
+          {
+            THEMES.map((theme) => (
+              <button
+                type="button"
+                class="rc-choice"
+                role="radio"
+                aria-checked={theme === 'dark' ? 'true' : 'false'}
+                data-theme-option={theme}
+              >
+                {words.themes[theme]}
+              </button>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="rc-group" aria-labelledby="rc-size">
+        <h3 id="rc-size">{words.textSize}</h3>
+        <div class="rc-size" data-size={JSON.stringify(sizeLabels)}>
+          <button type="button" class="rc-step" aria-label={words.smallerText} data-step="-1">
+            A<span aria-hidden="true">−</span>
+          </button>
+          <output aria-live="polite">{sizeLabels['default']}</output>
+          <button type="button" class="rc-step" aria-label={words.largerText} data-step="1">
+            A<span aria-hidden="true">+</span>
+          </button>
+        </div>
+      </section>
+
+      <div class="rc-group rc-switch">
+        <span class="rc-switch-text">
+          <b>{words.ruler}</b>
+          <span>{words.rulerHint}</span>
+        </span>
+        <Toggle label={words.ruler} name="ruler" />
+      </div>
+    </div>
+
+    <a class="rc-more" href={localePath('/settings', lang)}>
+      <span>{words.moreSettings}</span>
+      <Icon name="more" size={20} />
+    </a>
+  </div>
+</dialog>
+
+<script>
+  import { bindSettings } from '../lib/settings-ui';
+
+  const button = document.querySelector<HTMLButtonElement>('[data-reader-corner]');
+  const sheet = document.querySelector<HTMLDialogElement>('[data-reader-sheet]');
+  const controls = sheet?.querySelector<HTMLElement>('[data-reader-settings]');
+  if (button && sheet && controls) {
+    bindSettings(controls);
+    button.addEventListener('click', () => {
+      sheet.showModal();
+      sheet.querySelector<HTMLElement>('.rc-panel')?.focus();
+    });
+    sheet.addEventListener('click', (event) => {
+      // A tap on the dimmed page closes the sheet.
+      if (event.target === sheet) sheet.close();
+    });
+    // Signing in opens its own sheet; this one steps aside.
+    sheet.querySelector('[data-account-signin]')?.addEventListener('click', () => {
+      sheet.close();
+    });
+  }
+</script>
+
+<style>
+  .rc-button {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    margin: 0 -12px 0 auto;
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+    background: none;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .rc-button:hover {
+    background: var(--surf);
+  }
+
+  /* While Settings is open, the button carries the hour mark. */
+  .rc-button.on {
+    border-radius: 0;
+    box-shadow: inset 0 -3px 0 -1px var(--hour);
+  }
+
+  .rc-button .rc-avatar,
+  :global(:root[data-signed-in]) .rc-button .rc-mark {
+    display: none;
+  }
+
+  :global(:root[data-signed-in]) .rc-button .rc-avatar {
+    display: block;
+  }
+
+  .rc-mark {
+    display: grid;
+  }
+
+  /* The sheet: a bottom sheet on phones, a side panel from 720px. */
+  .rc-sheet {
+    width: 100%;
+    max-width: 100%;
+    max-height: 92dvh;
+    margin: auto 0 0;
+    padding: 0;
+    border: 0;
+    border-top: 1px solid var(--line);
+    border-radius: 16px 16px 0 0;
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  .rc-sheet::backdrop {
+    background: var(--scrim);
+  }
+
+  .rc-sheet[open] {
+    animation: rc-up var(--dur-base) var(--ease-out);
+  }
+
+  @keyframes rc-up {
+    from {
+      transform: translateY(24px);
+      opacity: 0;
+    }
+  }
+
+  @media (width >= 720px) {
+    .rc-sheet {
+      width: 380px;
+      height: 100dvh;
+      max-height: 100dvh;
+      margin: 0 0 0 auto;
+      border-top: 0;
+      border-left: 1px solid var(--line);
+      border-radius: 0;
+    }
+
+    .rc-sheet[open] {
+      animation-name: rc-in;
+    }
+
+    @keyframes rc-in {
+      from {
+        transform: translateX(24px);
+        opacity: 0;
+      }
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rc-sheet[open] {
+      animation: none;
+    }
+  }
+
+  .rc-panel {
+    display: grid;
+    gap: 0;
+    padding: 12px 24px max(24px, env(safe-area-inset-bottom));
+    outline: none;
+  }
+
+  .rc-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 52px;
+    margin-bottom: 8px;
+  }
+
+  .rc-top h2 {
+    font: 800 22px / 1.2 var(--f-head);
+    letter-spacing: -0.015em;
+  }
+
+  .rc-close {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-right: -10px;
+    border: 0;
+    border-radius: 10px;
+    background: none;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .rc-close:hover {
+    background: var(--surf);
+  }
+
+  .rc-group {
+    display: grid;
+    gap: 10px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .rc-group h3 {
+    color: var(--meta);
+    font: 700 13px / 1.2 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .rc-seg {
+    display: flex;
+    gap: 8px;
+  }
+
+  .rc-choice {
+    display: grid;
+    flex: 1;
+    place-items: center;
+    min-height: 44px;
+    padding: 0 8px;
+    border: 1.5px solid var(--line);
+    border-radius: 10px;
+    background: none;
+    color: var(--meta);
+    font: 600 15px / 1.2 var(--f-body);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .rc-choice:hover {
+    border-color: var(--line2);
+    color: var(--ink);
+  }
+
+  .rc-choice[aria-checked='true'] {
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+
+  .rc-size {
+    display: grid;
+    grid-template-columns: 52px 1fr 52px;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .rc-size output {
+    color: var(--ink);
+    font: 500 15px / 1.2 var(--f-body);
+    text-align: center;
+  }
+
+  .rc-step {
+    height: 44px;
+    border: 1.5px solid var(--line2);
+    border-radius: 10px;
+    background: none;
+    color: var(--ink);
+    font: 700 15px / 1 var(--f-body);
+    cursor: pointer;
+  }
+
+  .rc-step:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+
+  .rc-switch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .rc-switch-text {
+    display: grid;
+    gap: 2px;
+  }
+
+  .rc-switch-text b {
+    color: var(--ink);
+    font: 600 15px / 1.3 var(--f-body);
+  }
+
+  .rc-switch-text span {
+    color: var(--meta);
+    font: 400 13px / 1.35 var(--f-body);
+  }
+
+  .rc-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+    color: var(--meta);
+    font: 500 15px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  .rc-more:hover {
+    color: var(--ink);
+  }
+</style>

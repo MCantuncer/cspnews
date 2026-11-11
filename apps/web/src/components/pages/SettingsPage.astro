@@ -84,7 +84,7 @@ const sizeLabels = Object.fromEntries(
 
     <section class="group" aria-labelledby="set-size">
       <h2 id="set-size"><Icon name="text-size" size={22} />{words.textSize}</h2>
-      <div class="size" data-size-labels={JSON.stringify(sizeLabels)}>
+      <div class="size" data-size={JSON.stringify(sizeLabels)}>
         <button type="button" class="step small" aria-label={words.smallerText} data-step="-1">
           A
         </button>
@@ -100,7 +100,7 @@ const sizeLabels = Object.fromEntries(
         <h2 id="set-ruler"><Icon name="ruler" size={22} />{words.ruler}</h2>
         <p class="hint">{words.rulerHint}</p>
       </div>
-      <Toggle label={words.ruler} id="ruler-toggle" />
+      <Toggle label={words.ruler} id="ruler-toggle" name="ruler" />
     </div>
 
     <section class="group" aria-labelledby="set-evidence">
@@ -114,104 +114,10 @@ const sizeLabels = Object.fromEntries(
 </Base>
 
 <script>
-  import { LANGUAGE_KEY } from '../../lib/locale';
-  import {
-    SETTINGS_KEYS,
-    TEXT_SIZES,
-    isTextSize,
-    isTheme,
-    stepTextSize,
-    type TextSize,
-  } from '../../lib/settings';
+  import { bindSettings } from '../../lib/settings-ui';
 
-  const root = document.documentElement;
   const page = document.querySelector<HTMLElement>('[data-settings]');
-
-  function read(key: string): string | null {
-    try {
-      return localStorage.getItem(key);
-    } catch {
-      return null;
-    }
-  }
-
-  function write(key: string, value: string | undefined) {
-    try {
-      if (value === undefined) localStorage.removeItem(key);
-      else localStorage.setItem(key, value);
-    } catch {
-      // Without storage the change still applies to this page.
-    }
-  }
-
-  if (page) {
-    // Language: remember the choice; the link then opens Settings in that language.
-    for (const option of page.querySelectorAll<HTMLAnchorElement>('[data-lang-option]')) {
-      option.addEventListener('click', () => {
-        write(LANGUAGE_KEY, option.getAttribute('data-lang-option') ?? 'en');
-      });
-    }
-
-    // Theme.
-    const themeOptions = [...page.querySelectorAll<HTMLButtonElement>('[data-theme-option]')];
-    const showTheme = (theme: string) => {
-      for (const option of themeOptions) {
-        const on = option.getAttribute('data-theme-option') === theme;
-        option.setAttribute('aria-checked', String(on));
-        option.tabIndex = on ? 0 : -1;
-      }
-    };
-    const savedTheme = read(SETTINGS_KEYS.theme);
-    showTheme(isTheme(savedTheme) ? savedTheme : 'dark');
-    for (const option of themeOptions) {
-      option.addEventListener('click', () => {
-        const theme = option.getAttribute('data-theme-option');
-        if (!isTheme(theme)) return;
-        root.dataset.theme = theme;
-        write(SETTINGS_KEYS.theme, theme === 'dark' ? undefined : theme);
-        showTheme(theme);
-      });
-    }
-
-    // Text size.
-    const size = page.querySelector<HTMLElement>('.size');
-    const value = size?.querySelector('output');
-    const labels: Partial<Record<TextSize, string>> = JSON.parse(
-      size?.getAttribute('data-size-labels') ?? '{}',
-    ) as Partial<Record<TextSize, string>>;
-    const savedSize = read(SETTINGS_KEYS.textSize);
-    let current: TextSize = isTextSize(savedSize) ? savedSize : 'default';
-    const showSize = () => {
-      if (value) value.textContent = labels[current] ?? current;
-      for (const button of size?.querySelectorAll<HTMLButtonElement>('[data-step]') ?? []) {
-        const step = button.getAttribute('data-step') === '1' ? 1 : -1;
-        button.disabled = stepTextSize(current, step) === current;
-      }
-    };
-    showSize();
-    for (const button of size?.querySelectorAll<HTMLButtonElement>('[data-step]') ?? []) {
-      button.addEventListener('click', () => {
-        current = stepTextSize(current, button.getAttribute('data-step') === '1' ? 1 : -1);
-        if (current === 'default') delete root.dataset.textSize;
-        else root.dataset.textSize = current;
-        write(SETTINGS_KEYS.textSize, current === 'default' ? undefined : current);
-        showSize();
-      });
-    }
-    void TEXT_SIZES;
-
-    // Reading ruler.
-    const ruler = page.querySelector<HTMLButtonElement>('#ruler-toggle');
-    if (ruler) {
-      ruler.setAttribute('aria-checked', String(read(SETTINGS_KEYS.ruler) === 'on'));
-      ruler.addEventListener('change', (event) => {
-        const on = event instanceof CustomEvent && (event.detail as { checked: boolean }).checked;
-        if (on) root.dataset.ruler = 'on';
-        else delete root.dataset.ruler;
-        write(SETTINGS_KEYS.ruler, on ? 'on' : undefined);
-      });
-    }
-  }
+  if (page) bindSettings(page);
 </script>
 
 <style>

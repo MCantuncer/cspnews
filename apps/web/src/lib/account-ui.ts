@@ -82,8 +82,15 @@ export function startAccount(slot: HTMLElement): void {
     profile = next;
     saveProfile(storage(), next ?? null, Date.now());
     setSignedIn(next !== undefined);
-    const spot = slot.querySelector<HTMLElement>('[data-account-avatar]');
-    if (spot) spot.innerHTML = next ? avatarHtml(next.avatar, 32, next.name, lang, 'hdr') : '';
+    // The avatar shows twice: on the reader corner button and in the sheet's account row.
+    for (const [i, spot] of [
+      ...document.querySelectorAll<HTMLElement>('[data-account-avatar]'),
+    ].entries()) {
+      spot.innerHTML = next ? avatarHtml(next.avatar, 32, next.name, lang, `hdr${String(i)}`) : '';
+    }
+    for (const name of slot.querySelectorAll<HTMLElement>('[data-account-name]')) {
+      name.textContent = next?.name ?? words.noName;
+    }
     if (page) {
       renderPage();
       if (!next) passkeysAsked = false;
