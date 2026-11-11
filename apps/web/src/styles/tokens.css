@@ -1,0 +1,115 @@
+/*
+ * Design tokens (docs/design/system.md, "Tokens").
+ * Components use these only, never raw colours. Dark is the default theme; light is its own
+ * palette, not an inversion. `data-theme="device"` follows the reader's system setting.
+ */
+
+:root {
+  --f-head: 'Funnel Display', system-ui, sans-serif;
+  --f-body: 'Funnel Sans', system-ui, sans-serif;
+
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur-base: 180ms;
+
+  --gutter: 24px;
+  --measure: 66ch;
+  --text-size: 17px;
+
+  /* Dark (default) */
+  --bg: #11100e;
+  --surf: #1c1a17;
+  --ink: #f5f0e8;
+  --ink2: #e2dbcf;
+  --meta: #c9c2b6;
+  --line: #2f2b27;
+  --line2: #6a6258;
+  --scrim: rgb(0 0 0 / 0.62);
+  --conf: #7cc48f;
+  --rep: #e2dbcf;
+  --single: #e0ad4c;
+  --disp: #d26a5c;
+  --hot: #ff5c45;
+  --dawn: #e9b04a;
+  --noon: #d9c79a;
+  --dusk: #f39a4a;
+  --night: #86a2ea;
+  --hour: var(--dawn);
+
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #f7f4ee;
+  --surf: #fff;
+  --ink: #12100d;
+  --ink2: #2b2722;
+  --meta: #48423a;
+  --line: #e0d9cd;
+  --line2: #9a9183;
+  --scrim: rgb(18 16 13 / 0.45);
+  --conf: #1d7339;
+  --rep: #2b2722;
+  --single: #835700;
+  --disp: #a5402f;
+  --hot: #b3261e;
+  --dawn: #8a5a00;
+  --noon: #6b5e3a;
+  --dusk: #b5531a;
+  --night: #3a5bb0;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: light) {
+  :root[data-theme='device'] {
+    --bg: #f7f4ee;
+    --surf: #fff;
+    --ink: #12100d;
+    --ink2: #2b2722;
+    --meta: #48423a;
+    --line: #e0d9cd;
+    --line2: #9a9183;
+    --scrim: rgb(18 16 13 / 0.45);
+    --conf: #1d7339;
+    --rep: #2b2722;
+    --single: #835700;
+    --disp: #a5402f;
+    --hot: #b3261e;
+    --dawn: #8a5a00;
+    --noon: #6b5e3a;
+    --dusk: #b5531a;
+    --night: #3a5bb0;
+
+    color-scheme: light;
+  }
+}
+
+:root[data-hour='dawn'] {
+  --hour: var(--dawn);
+}
+:root[data-hour='noon'] {
+  --hour: var(--noon);
+}
+:root[data-hour='dusk'] {
+  --hour: var(--dusk);
+}
+:root[data-hour='night'] {
+  --hour: var(--night);
+}
+
+:root[data-text-size='small'] {
+  --text-size: 16px;
+}
+:root[data-text-size='large'] {
+  --text-size: 19px;
+}
+:root[data-text-size='larger'] {
+  --text-size: 21px;
+}
+
+@media (width < 640px) {
+  :root {
+    --gutter: 24px;
+  }
+}

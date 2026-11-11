@@ -1,0 +1,25 @@
+---
+import Header from '../components/Header.astro';
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="CSPNews">
+  <Header />
+  <main class="empty">
+    <h1>No bulletin yet</h1>
+    <p>The first bulletin appears here as soon as it is published.</p>
+  </main>
+</Base>
+
+<style>
+  .empty {
+    display: grid;
+    gap: 12px;
+    max-width: var(--measure);
+    padding: 64px var(--gutter);
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+</style>

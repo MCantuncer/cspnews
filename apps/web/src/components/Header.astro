@@ -1,0 +1,55 @@
+---
+/**
+ * The header on every screen: the wordmark, then the bulletin name (which will open Contents),
+ * over the day line. The edition hour colours the 3px top edge (docs/design/system.md).
+ */
+interface Props {
+  bulletinName?: string;
+}
+
+const { bulletinName } = Astro.props;
+---
+
+<header class="header">
+  <div class="bar">
+    <a class="wordmark" href="/" aria-label="CSPNews, home"><b>CSP</b>News</a>
+    {bulletinName && <span class="bulletin">{bulletinName}</span>}
+  </div>
+  <div class="dayline" aria-hidden="true"></div>
+</header>
+
+<style>
+  .header {
+    border-top: 3px solid var(--hour);
+    padding: 0 var(--gutter);
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 56px;
+  }
+
+  .wordmark {
+    color: var(--ink);
+    font: 700 20px / 1 var(--f-head);
+    letter-spacing: -0.03em;
+    text-decoration: none;
+  }
+
+  .wordmark b {
+    font-weight: 800;
+  }
+
+  .bulletin {
+    color: var(--ink);
+    font: 600 15px / 1.2 var(--f-body);
+  }
+
+  .dayline {
+    height: 1px;
+    background: var(--line2);
+  }
+</style>
