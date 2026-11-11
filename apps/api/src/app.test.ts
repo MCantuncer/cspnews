@@ -11,7 +11,7 @@ const T0 = new Date('2026-11-11T12:00:00Z');
 let now: Date;
 let db: ReturnType<typeof createTestDatabase>;
 let env: Env;
-const app = createApp(() => now);
+const app = createApp({ clock: () => now });
 
 beforeEach(() => {
   now = T0;
@@ -20,6 +20,9 @@ beforeEach(() => {
     DB: db,
     ALLOWED_ORIGINS: `${SITE}, http://localhost:4321`,
     COOKIE_DOMAIN: 'cspnews.example',
+    SITE_URL: SITE,
+    GOOGLE_CLIENT_ID: 'client-id',
+    GOOGLE_CLIENT_SECRET: 'client-secret',
   };
 });
 
@@ -212,6 +215,12 @@ describe('POST /auth/signout', () => {
     });
     expect(res.status).toBe(204);
     expect(rowCount('sessions')).toBe(0);
+  });
+});
+
+describe('unknown paths', () => {
+  it('answer 404, signed in or not', async () => {
+    expect((await call('/nope')).status).toBe(404);
   });
 });
 

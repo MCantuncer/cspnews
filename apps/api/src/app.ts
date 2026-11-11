@@ -8,17 +8,22 @@
  *   GET    /me/export      everything stored, as one JSON file
  *   DELETE /me             delete the account and every row
  *   POST   /auth/signout   sign out here, or everywhere with {"everywhere": true}
+ *   GET    /auth/google    sign in with Google (auth-google.ts)
  *
- * Sign-in routes (Google, passkeys) arrive in later steps.
+ * Passkey routes arrive in the next step.
  */
 import { ProfilePatchSchema, profileToJson } from '@cspnews/accounts';
 import { Hono } from 'hono';
+import type { MiddlewareHandler } from 'hono';
 import { cors } from 'hono/cors';
 import { z } from 'zod';
 
+import { googleRoutes } from './auth-google.js';
 import { clearSignInCookies, readSessionCookie, setSignInCookies } from './cookies.js';
 import { allowedOrigins } from './env.js';
 import type { Env } from './env.js';
+import { createGoogleSignIn } from './google.js';
+import type { GoogleSignIn } from './google.js';
 import {
   deleteAccount,
   deleteAllSessions,
@@ -38,7 +43,18 @@ export interface App {
 
 const SignOutSchema = z.object({ everywhere: z.boolean().optional() }).strict();
 
-export function createApp(clock: () => Date = () => new Date()) {
+export interface AppOptions {
+  /** The current time. Tests pass a fixed clock. */
+  readonly clock?: () => Date;
+  /** How to talk to Google. Tests pass a fake. */
+  readonly google?: (env: Env) => GoogleSignIn;
+}
+
+export function createApp({
+  clock = () => new Date(),
+  google = (env) =>
+    createGoogleSignIn({ clientId: env.GOOGLE_CLIENT_ID, clientSecret: env.GOOGLE_CLIENT_SECRET }),
+}: AppOptions = {}) {
   const app = new Hono<App>();
 
   // Nothing here may be cached: every answer belongs to one reader.
@@ -71,9 +87,15 @@ export function createApp(clock: () => Date = () => new Date()) {
 
   app.get('/health', (c) => c.json({ ok: true }));
 
+  app.route(
+    '/',
+    googleRoutes((c) => google(c.env), clock),
+  );
+
   const signedIn = new Hono<App>();
 
-  signedIn.use(async (c, next) => {
+  // Routes below need a sign-in. Listed by path, so unknown paths still answer 404.
+  const requireSession: MiddlewareHandler<App> = async (c, next) => {
     const token = readSessionCookie(c);
     const session = token ? await findSession(c.env.DB, token, clock()) : null;
     if (!session || !token) {
@@ -85,7 +107,10 @@ export function createApp(clock: () => Date = () => new Date()) {
     }
     c.set('session', session);
     await next();
-  });
+  };
+  signedIn.use('/me', requireSession);
+  signedIn.use('/me/*', requireSession);
+  signedIn.use('/auth/signout', requireSession);
 
   signedIn.get('/me', async (c) => {
     const profile = await getProfile(c.env.DB, c.get('session').accountId);

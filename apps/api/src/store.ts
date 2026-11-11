@@ -57,6 +57,56 @@ export async function createAccount(db: D1Database, now: Date): Promise<string> 
   return id;
 }
 
+/** The account a Google (or later, other) sign-in belongs to, if any. */
+export async function findAccountByIdentity(
+  db: D1Database,
+  provider: 'google',
+  subject: string,
+): Promise<string | null> {
+  const row = await db
+    .prepare('SELECT account_id FROM identities WHERE provider = ? AND subject = ?')
+    .bind(provider, subject)
+    .first<{ account_id: string }>();
+  return row?.account_id ?? null;
+}
+
+/** Lets an existing account also sign in with Google. */
+export async function linkIdentity(
+  db: D1Database,
+  accountId: string,
+  provider: 'google',
+  subject: string,
+  now: Date,
+): Promise<void> {
+  await db
+    .prepare(
+      'INSERT INTO identities (provider, subject, account_id, created_at) VALUES (?, ?, ?, ?)',
+    )
+    .bind(provider, subject, accountId, now.toISOString())
+    .run();
+}
+
+/** Creates an account that signs in with Google, in one transaction. Returns its id. */
+export async function createAccountWithIdentity(
+  db: D1Database,
+  provider: 'google',
+  subject: string,
+  now: Date,
+): Promise<string> {
+  const id = newAccountId();
+  await db.batch([
+    db
+      .prepare('INSERT INTO accounts (id, avatar, created_at) VALUES (?, ?, ?)')
+      .bind(id, formatAvatar(randomAvatar()), now.toISOString()),
+    db
+      .prepare(
+        'INSERT INTO identities (provider, subject, account_id, created_at) VALUES (?, ?, ?, ?)',
+      )
+      .bind(provider, subject, id, now.toISOString()),
+  ]);
+  return id;
+}
+
 /** Starts a sign-in for an account. Returns the token for the cookie; only its hash is stored. */
 export async function createSession(
   db: D1Database,
