@@ -3,10 +3,13 @@ import { join } from 'node:path';
 
 import type { Bulletin } from '@cspnews/core';
 
+import { articlePhotoUrl, photoWidth } from './photo-size.js';
+
 /**
  * Story photos are served from the site, never hot-linked (apps/web/src/lib/media.ts): the
  * publishing run saves each story's chosen photo as `<media>/<story id>.<ext>`. A photo that
- * can't be saved is left out, and the site falls back to the story's next visual.
+ * can't be saved is left out, and the site falls back to the story's next visual. A feed
+ * thumbnail is swapped for the article's own full-size photo when the page has one.
  */
 
 /** Bytes of a downloaded file and its content type, or an error the run reports. */
@@ -30,10 +33,51 @@ export function photoExtension(contentType: string | null): string | undefined {
   return type ? PHOTO_TYPES[type] : undefined;
 }
 
+/**
+ * Feed photos narrower than this are thumbnails: the article page's own photo is tried instead,
+ * and kept when it is wider.
+ */
+export const MIN_PHOTO_WIDTH = 800;
+
 export interface SavedPhoto {
   readonly storyId: string;
   readonly file?: string;
+  /** Set when the article's full-size photo replaced the feed thumbnail. */
+  readonly url?: string;
   readonly error?: string;
+}
+
+interface Photo {
+  readonly url: string;
+  readonly bytes: Uint8Array;
+  readonly extension: string;
+}
+
+async function downloadPhoto(url: string, fetchBytes: FetchBytes): Promise<Photo> {
+  const { bytes, contentType } = await fetchBytes(url);
+  const extension = photoExtension(contentType);
+  if (!extension) throw new Error(`not a photo (${contentType ?? 'no content type'})`);
+  if (bytes.length === 0 || bytes.length > MAX_PHOTO_BYTES) {
+    throw new Error(`unexpected size, ${String(bytes.length)} bytes`);
+  }
+  return { url, bytes, extension };
+}
+
+/** The article page's photo when it is wider than the feed's thumbnail; otherwise undefined. */
+async function fullSizePhoto(
+  articleUrl: string,
+  thumbnailWidth: number,
+  fetchBytes: FetchBytes,
+): Promise<Photo | undefined> {
+  try {
+    const page = await fetchBytes(articleUrl);
+    const url = articlePhotoUrl(new TextDecoder().decode(page.bytes), articleUrl);
+    if (!url) return undefined;
+    const photo = await downloadPhoto(url, fetchBytes);
+    return (photoWidth(photo.bytes) ?? 0) > thumbnailWidth ? photo : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 /** Saves every story's photo into `mediaDirectory`, replacing an older copy of the same story. */
@@ -47,16 +91,19 @@ export async function saveStoryPhotos(
   for (const story of bulletin.stories) {
     if (!story.image) continue;
     try {
-      const { bytes, contentType } = await fetchBytes(story.image.url);
-      const extension = photoExtension(contentType);
-      if (!extension) throw new Error(`not a photo (${contentType ?? 'no content type'})`);
-      if (bytes.length === 0 || bytes.length > MAX_PHOTO_BYTES) {
-        throw new Error(`unexpected size, ${String(bytes.length)} bytes`);
-      }
+      const feedPhoto = await downloadPhoto(story.image.url, fetchBytes);
+      const width = photoWidth(feedPhoto.bytes);
+      const better =
+        width !== undefined && width < MIN_PHOTO_WIDTH
+          ? await fullSizePhoto(story.image.articleUrl, width, fetchBytes)
+          : undefined;
+      const photo = better ?? feedPhoto;
       removeOlderCopies(mediaDirectory, story.id);
-      const file = `${story.id}.${extension}`;
-      writeFileSync(join(mediaDirectory, file), bytes);
-      results.push({ storyId: story.id, file });
+      const file = `${story.id}.${photo.extension}`;
+      writeFileSync(join(mediaDirectory, file), photo.bytes);
+      results.push(
+        better ? { storyId: story.id, file, url: better.url } : { storyId: story.id, file },
+      );
     } catch (error) {
       results.push({
         storyId: story.id,

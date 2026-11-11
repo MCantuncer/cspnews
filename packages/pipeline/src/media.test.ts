@@ -6,6 +6,7 @@ import { parseBulletin, type Bulletin } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
 import { MAX_PHOTO_BYTES, photoExtension, saveStoryPhotos, type FetchBytes } from './media.js';
+import { jpeg } from './photo-size.test.js';
 
 const SAMPLE = join(
   import.meta.dirname,
@@ -73,5 +74,43 @@ describe('saveStoryPhotos', () => {
       expect(results.every((result) => result.error && !result.file)).toBe(true);
       expect(readdirSync(directory)).toEqual([]);
     }
+  });
+
+  it('swaps a feed thumbnail for the article page photo when that one is wider', async () => {
+    const story = withImage[0];
+    if (!story?.image) throw new Error('the sample needs a story with a photo');
+    const big = 'https://news.example/big.jpg';
+    const responses = new Map<string, Awaited<ReturnType<FetchBytes>>>([
+      [story.image.url, { bytes: jpeg(140), contentType: 'image/jpeg' }],
+      [
+        story.image.articleUrl,
+        {
+          bytes: new TextEncoder().encode(`<meta property="og:image" content="${big}">`),
+          contentType: 'text/html',
+        },
+      ],
+      [big, { bytes: jpeg(1400), contentType: 'image/jpeg' }],
+    ]);
+    const fetchBytes: FetchBytes = (url) => {
+      const response = responses.get(url);
+      return response ? Promise.resolve(response) : Promise.reject(new Error('HTTP 404'));
+    };
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
+    expect(result).toEqual({ storyId: story.id, file: `${story.id}.jpg`, url: big });
+    expect(readFileSync(join(directory, `${story.id}.jpg`))).toEqual(Buffer.from(jpeg(1400)));
+  });
+
+  it('keeps the thumbnail when the article has no bigger photo', async () => {
+    const story = withImage[0];
+    if (!story?.image) throw new Error('the sample needs a story with a photo');
+    const image = story.image;
+    const fetchBytes: FetchBytes = (url) =>
+      url === image.url
+        ? Promise.resolve({ bytes: jpeg(140), contentType: 'image/jpeg' })
+        : Promise.reject(new Error('HTTP 403'));
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
+    expect(result).toEqual({ storyId: story.id, file: `${story.id}.jpg` });
   });
 });
