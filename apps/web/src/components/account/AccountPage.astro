@@ -1,0 +1,109 @@
+---
+/**
+ * The account page: avatar and name, the ways to sign in, and the reader's data (download,
+ * sign out, delete). The page is static; the header's account script fills it in the browser.
+ */
+import Header from '../Header.astro';
+import Icon from '../ui/Icon.astro';
+import GoogleMark from './GoogleMark.astro';
+import Base from '../../layouts/Base.astro';
+import { apiBase } from '../../lib/account';
+import { accountWords } from '../../lib/account-words';
+import '../../styles/account.css';
+
+interface Props {
+  lang: 'en' | 'tr';
+}
+
+const { lang } = Astro.props;
+const words = accountWords(lang);
+const api = apiBase();
+---
+
+<Base title={`${words.account} | CSPNews`} lang={lang}>
+  <Header bulletinName={words.account} lang={lang} />
+  <main class="acc-page" data-account-page>
+    {
+      api ? (
+        <>
+          <p class="acc-state" data-state="loading" />
+          <div class="acc-state" data-state="signed-out" hidden>
+            <h1>{words.signedOutTitle}</h1>
+            <p>{words.signedOutBody}</p>
+            <button type="button" class="acc-button acc-primary" data-open-signin>
+              {words.signIn}
+            </button>
+          </div>
+          <div class="acc-state" data-state="error" hidden>
+            <p>{words.loadFailed}</p>
+            <button type="button" class="acc-button" data-retry>
+              {words.tryAgain}
+            </button>
+          </div>
+
+          <div class="acc-account" data-state="account" hidden>
+            <div class="acc-profile">
+              <span class="acc-profile-avatar" data-me-avatar />
+              <h1 data-me-name />
+              <button type="button" class="acc-quiet" data-edit>
+                {words.edit}
+              </button>
+            </div>
+
+            <p class="acc-note" data-page-note role="status" />
+
+            <section class="acc-group" aria-labelledby="acc-ways">
+              <h2 id="acc-ways">{words.signInWith}</h2>
+              <ul class="acc-rows">
+                <li class="acc-row">
+                  <GoogleMark />
+                  <span class="acc-row-name">{words.googleName}</span>
+                  <span class="acc-row-value" data-google-connected hidden>
+                    {words.connected}
+                  </span>
+                  <a class="acc-row-action" href={`${api}/auth/google`} data-google-connect hidden>
+                    {words.connect}
+                  </a>
+                </li>
+              </ul>
+              <ul class="acc-rows" data-passkeys aria-label={words.passkeys} />
+              <button type="button" class="acc-quiet" data-add-passkey>
+                <Icon name="passkey" size={20} />
+                {words.addPasskey}
+              </button>
+            </section>
+
+            <div class="acc-actions">
+              <button type="button" class="acc-quiet" data-download>
+                <Icon name="download" size={20} />
+                {words.downloadData}
+              </button>
+              <button type="button" class="acc-quiet" data-signout>
+                <Icon name="signout" size={20} />
+                {words.signOut}
+              </button>
+              <button type="button" class="acc-quiet acc-danger" data-delete>
+                <Icon name="close" size={20} />
+                {words.deleteAccount}
+              </button>
+            </div>
+
+            <div class="acc-confirm" data-delete-confirm hidden>
+              <p>{words.deleteConfirm}</p>
+              <div class="acc-confirm-buttons">
+                <button type="button" class="acc-button acc-danger-button" data-delete-yes>
+                  {words.deleteYes}
+                </button>
+                <button type="button" class="acc-button" data-delete-cancel>
+                  {words.cancel}
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+      ) : (
+        <p class="acc-state">{words.accountsOff}</p>
+      )
+    }
+  </main>
+</Base>

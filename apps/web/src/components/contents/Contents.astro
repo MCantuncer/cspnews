@@ -33,13 +33,14 @@ interface Props {
 const { published, lang, currentId, compact = false } = Astro.props;
 const words = wordsFor(lang);
 const SECTION_ICON: Record<Section, IconName> = { turkey: 'turkiye', tech: 'tech', world: 'world' };
+const groups = storiesBySection(published);
 const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).publishAt.toISOString(), lang);
 ---
 
 <nav class:list={['contents', { compact }]} aria-label={words.contents} data-contents data-lang={lang}>
-  <ol class="spine">
+  <ol class="spine" style={`--sections: ${String(groups.length)}`}>
     {
-      storiesBySection(published).map((group) => (
+      groups.map((group) => (
         <li class="section">
           <h2 class="station">
             <Icon name={SECTION_ICON[group.section]} size={22} class="section-icon" />
@@ -450,6 +451,76 @@ const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).pub
 
     .contents:not(.compact) .stories:has(> .lead[hidden]) > li::before {
       display: block;
+    }
+  }
+
+  /* The widest screens lay the day line flat, like the story timeline: the sections become
+     stations along it, each one a column of its own, so the whole bulletin fits on one
+     screen without any line growing longer than it reads well. */
+  @media (width >= 1400px) {
+    .contents:not(.compact) .spine {
+      display: grid;
+      grid-template-columns: repeat(var(--sections), minmax(0, 1fr));
+      column-gap: 56px;
+      padding: 0;
+    }
+
+    .contents:not(.compact) .spine::before {
+      top: 27px;
+      right: 8px;
+      bottom: auto;
+      left: 8px;
+      width: auto;
+      height: 2px;
+    }
+
+    .contents:not(.compact) .section:first-child .station,
+    .contents:not(.compact) .station {
+      padding-top: 54px;
+    }
+
+    .contents:not(.compact) .station::before {
+      top: 20px;
+      left: 0;
+    }
+
+    .contents:not(.compact) .stories {
+      display: block;
+    }
+
+    .contents:not(.compact) .stories > li::before {
+      display: none;
+    }
+
+    .contents:not(.compact) .lead a {
+      padding-top: 18px;
+    }
+
+    .contents:not(.compact) .lead .title {
+      font-size: 27px;
+    }
+
+    .contents:not(.compact) .row:not(.lead) {
+      border-top: 1px solid var(--line);
+    }
+
+    .contents:not(.compact) .row:not(.lead) a {
+      padding: 14px 0;
+    }
+
+    /* The end of the line: a last station at the right, the next bulletin under the columns. */
+    .contents:not(.compact) .end {
+      position: static;
+      grid-column: 1 / -1;
+      margin-top: 32px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .contents:not(.compact) .end::before {
+      top: 21px;
+      right: 0;
+      left: auto;
     }
   }
 

@@ -45,6 +45,14 @@ export const ICONS = {
     '<path d="M2.5 20h19M6.5 20v-5M12 20v-9.75M17.5 20v-7.5"/><circle cx="12" cy="6" r="2.25" fill="currentColor"/>',
   share:
     '<path d="M4.5 13.5v5.75h15V13.5M12 15.5V8.5"/><circle cx="12" cy="5.5" r="2.5" fill="currentColor"/>',
+  /** Accounts: a passkey, the word game streak, a new avatar draw, your data, signing out. */
+  passkey: '<circle cx="8" cy="12" r="4"/><path d="M12 12h9.5M18.5 12v3M15.5 12v2"/>',
+  streak:
+    '<path d="M2 12h1.5M20.5 12H22"/><rect x="3.5" y="8.5" width="5" height="7" rx="1.5" fill="currentColor"/><rect x="9.5" y="8.5" width="5" height="7" rx="1.5"/><rect x="15.5" y="8.5" width="5" height="7" rx="1.5" fill="currentColor"/>',
+  shuffle:
+    '<path d="M3 7.5h4.5c4.5 0 4.5 9 9 9H21M3 16.5h4.5c1.6 0 2.6-1.1 3.4-2.5M13.1 10c.8-1.4 1.8-2.5 3.4-2.5H21M18.5 5l2.5 2.5-2.5 2.5M18.5 14l2.5 2.5-2.5 2.5"/>',
+  download: '<path d="M4.5 15.5v3.75h15V15.5M12 4.5v10M7.75 10.5L12 14.75l4.25-4.25"/>',
+  signout: '<path d="M14 7.5l4.5 4.5-4.5 4.5M18.5 12H9.5M10 4.75H5.25v14.5H10"/>',
   /** An empty logo slot, for an outlet whose logo is not saved. */
   word: '<path d="M2.5 9h5v6h-5zM9.5 9h5v6h-5zM16.5 9h5v6h-5z"/>',
   slot: '<circle cx="12" cy="12" r="9.25" />',
