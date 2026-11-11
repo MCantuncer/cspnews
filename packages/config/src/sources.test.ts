@@ -10,8 +10,10 @@ describe('source registry', () => {
     }
   });
 
-  it('gives Turkish news at least two sources from each political camp', () => {
-    const turkish = SOURCES.filter((source) => source.sections.includes('turkey'));
+  it('gives Turkish news at least two enabled sources from each political camp', () => {
+    const turkish = SOURCES.filter(
+      (source) => source.enabled && source.sections.includes('turkey'),
+    );
     for (const camp of ['pro-government', 'opposition', 'mainstream', 'independent'] as const) {
       expect(turkish.filter((source) => source.camp === camp).length).toBeGreaterThanOrEqual(2);
     }

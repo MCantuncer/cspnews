@@ -133,6 +133,8 @@ export const SOURCES = defineSources([
     ownerGroup: 'halk-tv',
     camp: 'opposition',
     tier: 'partisan',
+    // Answers 403 to automated requests (source health check, 2026-11-11).
+    enabled: false,
   },
   {
     id: 'cumhuriyet',
@@ -149,7 +151,7 @@ export const SOURCES = defineSources([
     id: 't24',
     name: 'T24',
     kind: 'rss',
-    url: 'https://t24.com.tr/rss',
+    url: 'https://t24.com.tr/rss/haber/gundem',
     sections: ['turkey'],
     language: 'tr',
     ownerGroup: 't24',
@@ -175,6 +177,19 @@ export const SOURCES = defineSources([
     sections: ['turkey'],
     language: 'tr',
     ownerGroup: 'bianet',
+    camp: 'independent',
+    tier: 'established',
+    // Answers 403 to automated requests (source health check, 2026-11-11).
+    enabled: false,
+  },
+  {
+    id: 'diken',
+    name: 'Diken',
+    kind: 'rss',
+    url: 'https://www.diken.com.tr/feed/',
+    sections: ['turkey'],
+    language: 'tr',
+    ownerGroup: 'diken',
     camp: 'independent',
     tier: 'established',
   },
