@@ -19,3 +19,14 @@ export function otherLanguagePath(pathname: string): string {
   if (pathname.startsWith('/tr/')) return pathname.slice(3);
   return localePath(pathname, 'tr');
 }
+
+/** Pages that carry their language as a `/tr` suffix instead of a prefix: `/word/tr`. */
+const SUFFIXED = /^\/(word|account|privacy)(\/tr)?\/?$/;
+
+/** The page at `pathname` in the `target` language, for the language choice. */
+export function languagePath(pathname: string, target: InterfaceLanguage): string {
+  const suffixed = SUFFIXED.exec(pathname);
+  if (suffixed) return `/${suffixed[1] ?? ''}${target === 'tr' ? '/tr' : ''}`;
+  const base = pathname === '/tr' || pathname === '/tr/' ? '/' : pathname.replace(/^\/tr\//, '/');
+  return localePath(base, target);
+}

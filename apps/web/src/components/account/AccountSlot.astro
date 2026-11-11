@@ -1,7 +1,8 @@
 ---
 /**
- * The account corner of the header: "Sign in" for signed-out readers, the reader's avatar once
- * signed in (it opens the account page). Also holds the sign-in sheet and the avatar sheet.
+ * The account row at the top of the reader corner sheet: "Sign in" for signed-out readers, the
+ * reader's avatar and name once signed in (it opens the account page). Also holds the sign-in
+ * sheet and the avatar sheet. The header button shows the same avatar (src/lib/account-ui.ts).
  *
  * It is only drawn when the accounts API is configured (PUBLIC_CSPNEWS_API), so the site works as
  * before without it. Signed-out readers make no API call: the page asks for the profile only when
@@ -26,16 +27,25 @@ const words = accountWords(lang);
 {
   api && (
     <div class="acc-slot" data-account data-api={api} data-lang={lang}>
-      <button type="button" class="acc-signin" data-account-signin>
-        {words.signIn}
-      </button>
-      <a
-        class="acc-me"
-        href={accountPath(lang)}
-        data-account-me
-        aria-label={words.yourAccount}
-      >
+      <div class="acc-row acc-out">
+        <span class="acc-row-mark" aria-hidden="true">
+          <Icon name="passkey" size={20} />
+        </span>
+        <span class="acc-row-text">
+          <b>{words.sheetTitle}</b>
+          <span>{words.syncReading}, {words.syncSettings.toLowerCase()}, {words.syncStreak.toLowerCase()}</span>
+        </span>
+        <button type="button" class="acc-signin" data-account-signin>
+          {words.signIn}
+        </button>
+      </div>
+      <a class="acc-row acc-in" href={accountPath(lang)} data-account-me>
         <span class="acc-me-avatar" data-account-avatar />
+        <span class="acc-row-text">
+          <b data-account-name>{words.noName}</b>
+          <span>{words.yourAccount}</span>
+        </span>
+        <Icon name="more" size={20} />
       </a>
 
       <dialog class="acc-dialog" data-account-dialog aria-labelledby="acc-title">
