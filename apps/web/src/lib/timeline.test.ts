@@ -34,8 +34,8 @@ describe('timelineFor', () => {
     const timeline = timelineFor(story, 'en', name);
     expect(timeline?.kind).toBe('life');
     expect(timeline?.points).toEqual([
-      { when: '09:12', title: 'First report', detail: 'A', current: false },
-      { when: '09:40', title: '2nd source', detail: 'B', current: false },
+      { when: '09:12', title: 'First report', detail: 'A', sourceIds: ['a'], current: false },
+      { when: '09:40', title: '2nd source', detail: 'B', sourceIds: ['b'], current: false },
       {
         when: '10:00',
         title: 'Disputed',
@@ -44,6 +44,34 @@ describe('timelineFor', () => {
         current: true,
       },
     ]);
+  });
+
+  it('folds outlets joining within an hour into one step and marks the Confirmed moment', () => {
+    const at = (minute: number) => new Date(Date.UTC(2026, 10, 11, 7, minute)).toISOString();
+    const story = {
+      ...base,
+      label: 'confirmed',
+      timeline: [
+        { kind: 'first-reported', at: at(53), sourceId: 'a' },
+        { kind: 'outlet-joined', at: at(56), sourceId: 'b' },
+        { kind: 'label-changed', at: at(57), from: 'single-source', to: 'confirmed' },
+        { kind: 'outlet-joined', at: at(58), sourceId: 'c' },
+        { kind: 'outlet-joined', at: at(62), sourceId: 'd' },
+        { kind: 'outlet-joined', at: at(84), sourceId: 'e' },
+        { kind: 'outlet-joined', at: at(150), sourceId: 'f' },
+      ],
+    } as WrittenStory;
+    const titles = timelineFor(story, 'en', name)?.points.map((p) => p.title);
+    expect(titles).toEqual([
+      'First report',
+      '2nd source',
+      'Confirmed',
+      '+3 outlets in 26 min',
+      '6th source',
+    ]);
+    const points = timelineFor(story, 'en', name)?.points ?? [];
+    expect(points[2]?.confirmed).toBe(true);
+    expect(points[3]).toMatchObject({ detail: 'C, D and E', sourceIds: ['c', 'd', 'e'] });
   });
 
   it('shows nothing for fewer than two points', () => {

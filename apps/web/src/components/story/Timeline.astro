@@ -7,7 +7,8 @@
 import '../../styles/timeline.css';
 
 import { EVIDENCE, evidenceWord } from '../../lib/evidence';
-import { compactStations, type Timeline } from '../../lib/timeline';
+import { logosFor } from '../../lib/media';
+import { compactStations, type Timeline, type TimelinePoint } from '../../lib/timeline';
 import Icon from '../ui/Icon.astro';
 
 interface Props {
@@ -17,6 +18,7 @@ interface Props {
 
 const { timeline, lang } = Astro.props;
 const across = compactStations(timeline.points);
+const pointLogos = (point: TimelinePoint) => logosFor(point.sourceIds ?? [], 5);
 ---
 
 <details class:list={['tl', `tl--${timeline.kind}`]}>
@@ -34,7 +36,12 @@ const across = compactStations(timeline.points);
               <span class="tl__dot">+{station.hidden}</span>
             </li>
           ) : (
-            <li class:list={['tl__station', { tl__current: station.point.current }]}>
+            <li
+              class:list={[
+                'tl__station',
+                { tl__current: station.point.current, tl__confirmed: station.point.confirmed },
+              ]}
+            >
               <span class="tl__when">{station.point.when}</span>
               <span class="tl__dot" />
               <span class="tl__title">
@@ -56,7 +63,12 @@ const across = compactStations(timeline.points);
   <ol class="tl__down">
     {
       timeline.points.map((point) => (
-        <li class:list={['tl__station', { tl__current: point.current }]}>
+        <li
+          class:list={[
+            'tl__station',
+            { tl__current: point.current, tl__confirmed: point.confirmed },
+          ]}
+        >
           <span class="tl__when">{point.when}</span>
           <span class="tl__dot" aria-hidden="true" />
           <span class="tl__title">
@@ -69,7 +81,18 @@ const across = compactStations(timeline.points);
               point.title
             )}
           </span>
-          {point.detail && <span class="tl__detail">{point.detail}</span>}
+          {point.detail && (
+            <span class="tl__detail">
+              {pointLogos(point).length > 0 && (
+                <span class="tl__logos" aria-hidden="true">
+                  {pointLogos(point).map((logo) => (
+                    <img src={logo.src} alt="" loading="lazy" decoding="async" />
+                  ))}
+                </span>
+              )}
+              {point.detail}
+            </span>
+          )}
         </li>
       ))
     }

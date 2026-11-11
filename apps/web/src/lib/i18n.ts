@@ -130,6 +130,27 @@ export function sourceOrdinal(n: number, language: InterfaceLanguage): string {
   return `${String(n)}${suffix} source`;
 }
 
+/** A run of outlets joining close together: "+4 outlets in 40 min". */
+export function moreOutlets(count: number, minutes: number, language: InterfaceLanguage): string {
+  const n = String(count);
+  const m = String(minutes);
+  if (language === 'tr') return minutes >= 1 ? `+${n} kaynak, ${m} dakikada` : `+${n} kaynak`;
+  return minutes >= 1 ? `+${n} outlets in ${m} min` : `+${n} outlets`;
+}
+
+/** Up to three names, then a count: "NTV, Habertürk, DW Türkçe and 2 more". */
+export function nameList(names: readonly string[], language: InterfaceLanguage): string {
+  const shown = names.slice(0, 3);
+  const rest = names.length - shown.length;
+  const and = language === 'tr' ? 've' : 'and';
+  if (rest > 0) {
+    const more = language === 'tr' ? `${String(rest)} kaynak daha` : `${String(rest)} more`;
+    return `${shown.join(', ')} ${and} ${more}`;
+  }
+  if (shown.length <= 1) return shown.join('');
+  return `${shown.slice(0, -1).join(', ')} ${and} ${shown.at(-1) ?? ''}`;
+}
+
 /** The evidence line's accessible name: "Confirmed, 5 sources: AA, NTV, BBC Türkçe and 2 more". */
 export function evidenceSummary(
   label: EvidenceLabel,

@@ -1,7 +1,10 @@
 import { existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 
+import type { StorySource } from '@cspnews/core';
+
 import { bulletinsDirectory } from './bulletins.js';
+import { sourceName } from './sources.js';
 
 /**
  * Photos and organisation logos are served from the site itself, never hot-linked: the run
@@ -45,4 +48,43 @@ export function logoUrl(orgId: string, directory = mediaDirectory()): string | u
 export function outletLogoUrl(sourceId: string, directory = mediaDirectory()): string | undefined {
   const file = find(join(directory, 'logos'), sourceId, LOGO);
   return file && `${MEDIA_URL}/logos/${encodeURIComponent(file)}`;
+}
+
+/** An outlet logo to show beside a story: its name stays as the image's text alternative. */
+export interface OutletLogo {
+  readonly sourceId: string;
+  readonly name: string;
+  readonly src: string;
+}
+
+/**
+ * Up to `max` logos of the outlets reporting a story, confirming outlets first, skipping
+ * outlets whose logo is not saved. Shown as images only; outlet names are on the story page.
+ */
+export function outletLogos(
+  sources: readonly StorySource[],
+  max = 3,
+  directory = mediaDirectory(),
+): OutletLogo[] {
+  const ordered = [...sources.filter((s) => s.confirms), ...sources.filter((s) => !s.confirms)];
+  return logosFor(
+    ordered.map((s) => s.sourceId),
+    max,
+    directory,
+  );
+}
+
+/** Saved logos for these outlets, in order, without repeats, at most `max`. */
+export function logosFor(
+  sourceIds: readonly string[],
+  max: number,
+  directory = mediaDirectory(),
+): OutletLogo[] {
+  const logos: OutletLogo[] = [];
+  for (const sourceId of new Set(sourceIds)) {
+    if (logos.length >= max) break;
+    const src = outletLogoUrl(sourceId, directory);
+    if (src) logos.push({ sourceId, name: sourceName(sourceId), src });
+  }
+  return logos;
 }

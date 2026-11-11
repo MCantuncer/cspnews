@@ -208,6 +208,35 @@
   font-weight: 700;
 }
 
+/* The moment the story became Confirmed: its station takes the Confirmed colour. */
+.tl__confirmed .tl__dot {
+  background: var(--conf);
+}
+
+.tl__down .tl__confirmed .tl__title {
+  font-size: 19px;
+}
+
+.tl__logos {
+  display: inline-flex;
+  margin-right: 8px;
+  vertical-align: -5px;
+}
+
+.tl__logos img {
+  width: 20px;
+  height: 20px;
+  margin-left: -5px;
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+  background: #fff;
+  object-fit: contain;
+}
+
+.tl__logos img:first-child {
+  margin-left: 0;
+}
+
 .tl__ev {
   color: var(--ev);
   white-space: nowrap;
