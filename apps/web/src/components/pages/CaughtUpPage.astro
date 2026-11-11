@@ -1,0 +1,226 @@
+---
+/**
+ * The end of a bulletin (docs/design/system.md, "Caught up"): one calm screen after the last
+ * story. Three things to remember (each section's lead), when the next bulletin comes, and two
+ * quiet ways on: back over the stories, or the day's word game. An open Hot story shows in the
+ * Hot line above, as on every page.
+ */
+import { nextBulletin } from '@cspnews/core';
+
+import Header from '../Header.astro';
+import HotLine from '../hot/HotLine.astro';
+import Icon from '../ui/Icon.astro';
+import Base from '../../layouts/Base.astro';
+import {
+  bulletinPath,
+  storiesBySection,
+  storyPath,
+  type PublishedBulletin,
+} from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatTime } from '../../lib/format';
+import { bulletinName, nextBulletinAt, sectionName, wordsFor } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const words = wordsFor(lang);
+const name = bulletinName(published.slot, lang);
+const leads = storiesBySection(published, lang)
+  .map((group) => ({ section: group.section, story: group.stories[0]?.story }))
+  .flatMap(({ section, story }) => (story ? [{ section, story }] : []))
+  .slice(0, 3);
+const next = formatTime(
+  nextBulletin(new Date(published.bulletin.publishAt)).publishAt.toISOString(),
+  lang,
+);
+const wordHref = lang === 'tr' ? '/word/tr' : '/word';
+---
+
+<Base title={`${words.caughtUp} | CSPNews`} hour={editionHourFor(published.slot)} lang={lang}>
+  <Header
+    lang={lang}
+    bulletinName={name}
+    progress={1}
+    contentsHref={bulletinPath(published, lang)}
+    contentsLabel={words.contents}
+  />
+  <HotLine lang={lang} />
+  <main class="done">
+    <p class="mark" aria-hidden="true"><Icon name="tick" size={22} /></p>
+    <h1>{words.caughtUp}.</h1>
+    <p class="next">{name}. {nextBulletinAt(next, lang)}</p>
+
+    <h2>{words.toRemember}</h2>
+    <ol class="remember">
+      {
+        leads.map(({ section, story }) => (
+          <li>
+            <span class="section">{sectionName(section, lang)}</span>
+            <a href={storyPath(published, story, lang)} lang={story.language}>
+              <span class="title">{story.shortTitle}</span>
+              <span class="gist">{story.summary.what}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+
+    <nav class="ways" aria-label={words.caughtUp}>
+      <a class="way" href={bulletinPath(published, lang)}>
+        <Icon name="contents" size={20} />
+        <span>{words.reviewStories}</span>
+      </a>
+      <a class="way" href={wordHref}>
+        <Icon name="word" size={20} />
+        <span>
+          {words.wordGame}
+          <small>{words.wordGameHint}</small>
+        </span>
+      </a>
+    </nav>
+  </main>
+</Base>
+
+<style>
+  .done {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 48px var(--gutter) 64px;
+  }
+
+  .mark {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 2px solid var(--hour);
+    border-radius: 50%;
+    color: var(--hour);
+  }
+
+  h1 {
+    margin-top: 20px;
+    font: 800 34px / 1.1 var(--f-head);
+    letter-spacing: -0.025em;
+  }
+
+  .next {
+    margin-top: 8px;
+    color: var(--meta);
+    font: 400 17px / 1.5 var(--f-body);
+  }
+
+  h2 {
+    margin-top: 44px;
+    color: var(--meta);
+    font: 700 14px / 1.3 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .remember {
+    display: grid;
+    margin: 14px 0 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: remember;
+  }
+
+  .remember li {
+    position: relative;
+    display: grid;
+    gap: 4px;
+    padding: 18px 0 18px 44px;
+    border-top: 1px solid var(--line);
+    counter-increment: remember;
+  }
+
+  .remember li::before {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    color: var(--hour);
+    font: 800 22px / 1.2 var(--f-head);
+    content: counter(remember);
+  }
+
+  .section {
+    color: var(--meta);
+    font: 600 14px / 1.3 var(--f-body);
+  }
+
+  .remember a {
+    display: grid;
+    gap: 6px;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .remember a:hover .title {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .title {
+    font: 700 20px / 1.25 var(--f-head);
+    letter-spacing: -0.012em;
+  }
+
+  .gist {
+    color: var(--meta);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+
+  .ways {
+    display: grid;
+    gap: 12px;
+    margin-top: 36px;
+  }
+
+  .way {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 56px;
+    padding: 12px 16px;
+    border: 1.5px solid var(--line2);
+    border-radius: 12px;
+    color: var(--ink);
+    font: 600 16px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  .way:hover {
+    border-color: var(--ink);
+  }
+
+  .way span {
+    display: grid;
+    gap: 2px;
+  }
+
+  .way small {
+    color: var(--meta);
+    font: 400 14px / 1.3 var(--f-body);
+  }
+
+  @media (width >= 1024px) {
+    .done {
+      padding-top: 80px;
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+
+    .ways {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

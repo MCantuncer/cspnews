@@ -566,3 +566,12 @@
 .acc-danger-button:hover {
   background: color-mix(in srgb, var(--disp) 85%, var(--ink));
 }
+
+.acc-small a {
+  color: var(--ink2);
+  text-underline-offset: 3px;
+}
+
+.acc-privacy {
+  text-align: left;
+}

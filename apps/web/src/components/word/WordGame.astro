@@ -31,7 +31,7 @@ const days = wordWindow(lang, gameDayAt(new Date()));
 const latest = loadBulletins()[0];
 const lead = latest?.bulletin.stories[0];
 const story = lead && storyIn(lead, lang);
-const news = latest && story ? { href: storyPath(latest, story), title: story.title, lang: story.language } : undefined;
+const news = latest && story ? { href: storyPath(latest, story, lang), title: story.title, lang: story.language } : undefined;
 
 const rows = Array.from({ length: MAX_TRIES }, (_, index) => index);
 const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
@@ -44,7 +44,7 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
   lang={lang}
 >
   <div class="wg" data-word-game data-lang={lang} data-window={JSON.stringify(days)}>
-    <Header bulletinName={words.name} lang={lang} />
+    <Header lang={lang} bulletinName={words.name} />
 
     <div class="wg-top">
       <nav class="wg-langs" aria-label={words.languages}>

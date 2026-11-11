@@ -20,6 +20,11 @@ export const ICONS = {
     '<path d="M5 8.25v1.5M5 14.25v1.5M10 6h10M10 12h10M10 18h6.5"/><circle cx="5" cy="6" r="2"/><circle cx="5" cy="12" r="2" fill="currentColor"/><circle cx="5" cy="18" r="2"/>',
   settings:
     '<path d="M3 8h9M18 8h3M3 16h3M12 16h9"/><circle cx="15" cy="8" r="3"/><circle cx="9" cy="16" r="3"/>',
+  language: '<path d="M4 5h16v11h-9l-5 4v-4H4z"/><path d="M8 10.5h8"/>',
+  theme: '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/>',
+  'text-size': '<path d="M3 18l4-11 4 11M4.5 14h5M14 18l3-7.5 3 7.5M15 16h4"/>',
+  ruler:
+    '<path d="M4 8h16a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1zM7 8v3M11 8v4M15 8v3M19 8v4"/>',
   close: '<path d="M6 6l12 12M18 6L6 18"/>',
   back: '<path d="M10 7.5L5.5 12l4.5 4.5M5.5 12H15.5"/><circle cx="18.25" cy="12" r="2.25"/>',
   next: '<path d="M14 7.5l4.5 4.5-4.5 4.5M18.5 12H8.5"/><circle cx="5.75" cy="12" r="2.25"/>',
@@ -49,6 +54,7 @@ export const ICONS = {
   download: '<path d="M4.5 15.5v3.75h15V15.5M12 4.5v10M7.75 10.5L12 14.75l4.25-4.25"/>',
   signout: '<path d="M14 7.5l4.5 4.5-4.5 4.5M18.5 12H9.5M10 4.75H5.25v14.5H10"/>',
   /** An empty logo slot, for an outlet whose logo is not saved. */
+  word: '<path d="M2.5 9h5v6h-5zM9.5 9h5v6h-5zM16.5 9h5v6h-5z"/>',
   slot: '<circle cx="12" cy="12" r="9.25" />',
 } as const;
 

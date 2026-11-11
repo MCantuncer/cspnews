@@ -10,10 +10,11 @@ interface Props {
   next?: { href: string; title: string };
   previousLabel: string;
   nextLabel: string;
-  endLabel: string;
+  /** After the last story: the caught-up screen. */
+  end: { href: string; label: string };
 }
 
-const { previous, next, previousLabel, nextLabel, endLabel } = Astro.props;
+const { previous, next, previousLabel, nextLabel, end } = Astro.props;
 ---
 
 <nav class="story-nav" aria-label={`${previousLabel}, ${nextLabel}`}>
@@ -37,7 +38,10 @@ const { previous, next, previousLabel, nextLabel, endLabel } = Astro.props;
         <Icon name="next" />
       </a>
     ) : (
-      <span class="next end">{endLabel}</span>
+      <a class="next end" href={end.href} rel="next">
+        <span>{end.label}</span>
+        <Icon name="tick" />
+      </a>
     )
   }
 </nav>
@@ -92,12 +96,6 @@ const { previous, next, previousLabel, nextLabel, endLabel } = Astro.props;
     white-space: nowrap;
   }
 
-  .next.end {
-    justify-content: center;
-    border: 1.5px solid var(--line2);
-    background: none;
-    color: var(--meta);
-  }
 
   @media (width >= 1024px) {
     .story-nav {
