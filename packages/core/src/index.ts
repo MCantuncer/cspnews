@@ -62,3 +62,6 @@ export type {
   TimelineEntry,
   WrittenStory,
 } from './story.js';
+
+export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
+export type { HotFeed, HotStory } from './hot.js';

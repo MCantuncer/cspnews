@@ -8,6 +8,7 @@ import type { WrittenStory } from '@cspnews/core';
 import Contents from '../../../components/contents/Contents.astro';
 import EvidenceDrawer from '../../../components/evidence/EvidenceDrawer.astro';
 import Header from '../../../components/Header.astro';
+import HotLine from '../../../components/hot/HotLine.astro';
 import Body from '../../../components/story/Body.astro';
 import EvidenceLine from '../../../components/story/EvidenceLine.astro';
 import Facts from '../../../components/story/Facts.astro';
@@ -24,7 +25,8 @@ import {
   type PublishedBulletin,
 } from '../../../lib/bulletins';
 import { editionHourFor } from '../../../lib/edition';
-import { bulletinName, sectionName, storyPosition, wordsFor } from '../../../lib/i18n';
+import { formatTime } from '../../../lib/format';
+import { bulletinName, sectionName, storyPosition, updatedAt, wordsFor } from '../../../lib/i18n';
 import { outletNames, sourceName } from '../../../lib/sources';
 import { storyVisual } from '../../../lib/story-visual';
 import { timelineFor } from '../../../lib/timeline';
@@ -70,6 +72,7 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     contentsHref={bulletinPath(published)}
     contentsLabel={words.contents}
   />
+  <HotLine lang={lang} />
   <div class="layout">
   <aside class="rail">
     <Contents published={published} lang={lang} currentId={story.id} compact />
@@ -84,6 +87,11 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
           developing={story.developing}
           lang={lang}
           developingWord={words.developing}
+          updated={
+            Date.parse(story.updatedAt) <= Date.parse(story.publishedAt)
+              ? undefined
+              : updatedAt(formatTime(story.updatedAt, lang), lang)
+          }
           drawerId="evidence"
           openLabel={words.openEvidence}
         />

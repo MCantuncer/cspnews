@@ -47,6 +47,11 @@ a {
   color: inherit;
 }
 
+/* An element's own display must never beat the hidden attribute. */
+[hidden] {
+  display: none !important;
+}
+
 :focus-visible {
   outline: 2px solid var(--hour);
   outline-offset: 2px;

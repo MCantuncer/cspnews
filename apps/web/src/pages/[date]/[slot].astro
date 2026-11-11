@@ -2,6 +2,7 @@
 /** A bulletin's Contents. The header's bulletin name on every story leads here. */
 import BulletinContents from '../../components/contents/BulletinContents.astro';
 import Header from '../../components/Header.astro';
+import HotLine from '../../components/hot/HotLine.astro';
 import Base from '../../layouts/Base.astro';
 import { loadBulletins, type PublishedBulletin } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
@@ -30,5 +31,6 @@ const name = bulletinName(published.slot, lang);
   lang={lang}
 >
   <Header />
+  <HotLine lang={lang} />
   <BulletinContents published={published} lang={lang} />
 </Base>

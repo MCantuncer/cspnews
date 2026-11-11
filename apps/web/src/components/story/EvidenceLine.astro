@@ -15,12 +15,15 @@ interface Props {
   developing: boolean;
   lang: InterfaceLanguage;
   developingWord: string;
+  /** "Updated 19:05", shown when the story changed after it was published. */
+  updated?: string | undefined;
   /** The id of the evidence drawer this line opens. */
   drawerId: string;
   openLabel: string;
 }
 
-const { label, outlets, developing, lang, developingWord, drawerId, openLabel } = Astro.props;
+const { label, outlets, developing, lang, developingWord, updated, drawerId, openLabel } =
+  Astro.props;
 const SHOWN = 3;
 const shown = outlets.slice(0, SHOWN);
 const rest = outlets.length - shown.length;
@@ -40,10 +43,20 @@ const rest = outlets.length - shown.length;
   <Icon name="more" size={18} class="chevron" />
 </button>
 {
-  developing && (
-    <p class="developing">
-      <Icon name="developing" size={20} />
-      {developingWord}
+  (developing || updated) && (
+    <p class="status">
+      {developing && (
+        <span class="developing">
+          <Icon name="developing" size={20} />
+          {developingWord}
+        </span>
+      )}
+      {updated && (
+        <span class="updated">
+          <Icon name="updated" size={20} />
+          {updated}
+        </span>
+      )}
     </p>
   )
 }
@@ -83,12 +96,29 @@ const rest = outlets.length - shown.length;
     color: var(--meta);
   }
 
-  .developing {
+  .status {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 8px;
+    gap: 6px 18px;
     margin-top: 8px;
     color: var(--ink);
     font: 600 15px / 1.4 var(--f-body);
+  }
+
+  .developing,
+  .updated {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .developing :global(.icon) {
+    color: var(--hot);
+  }
+
+  .updated {
+    color: var(--meta);
+    font-weight: 500;
   }
 </style>

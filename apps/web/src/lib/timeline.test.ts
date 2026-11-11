@@ -2,7 +2,7 @@ import type { WrittenStory } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
 import { sourceOrdinal } from './i18n.js';
-import { timelineFor } from './timeline.js';
+import { compactStations, timelineFor, type TimelinePoint } from './timeline.js';
 
 const name = (id: string) => id.toUpperCase();
 const base = { label: 'reported' } as WrittenStory;
@@ -63,5 +63,26 @@ describe('sourceOrdinal', () => {
       '21st source',
     ]);
     expect(sourceOrdinal(2, 'tr')).toBe('2. kaynak');
+  });
+});
+
+describe('compactStations', () => {
+  const points = (n: number): TimelinePoint[] =>
+    Array.from({ length: n }, (_, i) => ({
+      when: String(i),
+      title: `p${String(i)}`,
+      current: i === n - 1,
+    }));
+
+  it('keeps every station when they fit', () => {
+    expect(compactStations(points(6)).map((s) => s.kind)).toEqual(Array(6).fill('point'));
+  });
+
+  it('folds the middle into a +N marker, keeping the first and the latest', () => {
+    const stations = compactStations(points(10));
+    expect(stations).toHaveLength(6);
+    expect(stations[0]).toMatchObject({ kind: 'point', point: { title: 'p0' } });
+    expect(stations[1]).toEqual({ kind: 'gap', hidden: 5 });
+    expect(stations.at(-1)).toMatchObject({ kind: 'point', point: { title: 'p9', current: true } });
   });
 });
