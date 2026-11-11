@@ -92,3 +92,23 @@ export function timelineFor(
 
   return undefined;
 }
+
+/** A station on the folded, horizontal line, or the marker for stations folded away. */
+export type CompactStation =
+  | { readonly kind: 'point'; readonly point: TimelinePoint }
+  | { readonly kind: 'gap'; readonly hidden: number };
+
+/**
+ * The horizontal line a timeline starts as: every station when they fit, otherwise the first
+ * one, a "+N" marker and the latest ones, so the line never gets squeezed.
+ */
+export function compactStations(points: readonly TimelinePoint[], max = 6): CompactStation[] {
+  const all = points.map((point): CompactStation => ({ kind: 'point', point }));
+  if (points.length <= max) return all;
+  const tail = max - 2;
+  return [
+    ...all.slice(0, 1),
+    { kind: 'gap', hidden: points.length - 1 - tail },
+    ...all.slice(-tail),
+  ];
+}

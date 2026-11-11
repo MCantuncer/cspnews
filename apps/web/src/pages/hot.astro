@@ -8,6 +8,7 @@ import Header from '../components/Header.astro';
 import EvidenceMark from '../components/ui/EvidenceMark.astro';
 import Icon from '../components/ui/Icon.astro';
 import Base from '../layouts/Base.astro';
+import '../styles/timeline.css';
 import { wordsFor } from '../lib/i18n';
 
 const lang = 'en' as const;
@@ -39,10 +40,7 @@ const words = wordsFor(lang);
         <span class="outlets" data-field="outlets"></span>
       </p>
 
-      <section class="so-far" data-field="so-far-section">
-        <h2>{words.storySoFar}</h2>
-        <ol class="events" data-field="events"></ol>
-      </section>
+      <div data-field="timeline"></div>
 
       <section class="sources">
         <h2>{words.sources}</h2>
@@ -57,9 +55,10 @@ const words = wordsFor(lang);
 <script>
   import { formatTime } from '../lib/format';
   import { loadHotFeed, safeUrl } from '../lib/hot';
-  import { updatedAt } from '../lib/i18n';
+  import { updatedAt, wordsFor } from '../lib/i18n';
   import { outletNames, sourceName } from '../lib/sources';
   import { timelineFor } from '../lib/timeline';
+  import { timelineElement } from '../lib/timeline-view';
 
   const page = document.querySelector<HTMLElement>('[data-hot-page]');
   const field = (name: string) => page?.querySelector<HTMLElement>(`[data-field="${name}"]`);
@@ -100,31 +99,12 @@ const words = wordsFor(lang);
     const outlets = field('outlets');
     if (outlets) outlets.textContent = outletNames(story.sources).join(', ');
 
-    const events = field('events');
+    const slot = field('timeline');
     const timeline = timelineFor(story, lang, sourceName);
-    if (events) {
-      events.replaceChildren(
-        ...(timeline?.points ?? []).map((point) => {
-          const li = document.createElement('li');
-          li.className = point.current ? 'current' : '';
-          const when = document.createElement('span');
-          when.className = 'when';
-          when.textContent = point.when;
-          const what = document.createElement('b');
-          what.textContent = point.title;
-          li.append(when, what);
-          if (point.detail) {
-            const detail = document.createElement('span');
-            detail.className = 'detail';
-            detail.textContent = point.detail;
-            li.append(detail);
-          }
-          return li;
-        }),
-      );
+    if (slot) {
+      const view = timeline && timelineElement({ ...timeline, heading: wordsFor(lang).storySoFar }, lang);
+      slot.replaceChildren(...(view ? [view] : []));
     }
-    const soFar = field('so-far-section');
-    if (soFar) soFar.hidden = !timeline;
 
     const sources = field('sources');
     if (sources) {
@@ -228,68 +208,6 @@ const words = wordsFor(lang);
     letter-spacing: 0;
   }
 
-  .events {
-    position: relative;
-    display: grid;
-    gap: 18px;
-    margin: 16px 0 0;
-    padding: 0 0 0 32px;
-    list-style: none;
-  }
-
-  .events :global(li) {
-    position: relative;
-    display: grid;
-    grid-template-columns: 56px 1fr;
-    column-gap: 14px;
-  }
-
-  .events :global(li)::before {
-    position: absolute;
-    top: 6px;
-    left: -29px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: var(--ink);
-    content: '';
-  }
-
-  .events :global(li:not(:last-child))::after {
-    position: absolute;
-    top: 12px;
-    bottom: -30px;
-    left: -24px;
-    width: 2px;
-    background: var(--ink);
-    content: '';
-  }
-
-  .events :global(li.current)::before {
-    top: 3px;
-    left: -32px;
-    width: 18px;
-    height: 18px;
-    background: var(--hour);
-  }
-
-  .events :global(.when) {
-    grid-row: span 2;
-    padding-top: 2px;
-    color: var(--meta);
-    font: 500 14px / 1.4 var(--f-body);
-  }
-
-  .events :global(b) {
-    color: var(--ink);
-    font: 700 17px / 1.35 var(--f-body);
-  }
-
-  .events :global(.detail) {
-    grid-column: 2;
-    color: var(--meta);
-    font: 500 14px / 1.4 var(--f-body);
-  }
 
   .sources ul {
     margin: 12px 0 0;
