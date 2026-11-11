@@ -1,0 +1,28 @@
+name: Source health
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # daily, 06:00 Istanbul time
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'packages/config/**'
+      - '.github/workflows/source-health.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - run: pnpm --filter @cspnews/config check-sources
