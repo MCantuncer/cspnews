@@ -1,0 +1,115 @@
+---
+/**
+ * Previous and next story. On phones it is a bar fixed to the bottom of the screen, clear of the
+ * home indicator; on wide screens it sits under the story.
+ */
+import Icon from '../ui/Icon.astro';
+
+interface Props {
+  previous?: { href: string };
+  next?: { href: string; title: string };
+  previousLabel: string;
+  nextLabel: string;
+  endLabel: string;
+}
+
+const { previous, next, previousLabel, nextLabel, endLabel } = Astro.props;
+---
+
+<nav class="story-nav" aria-label={`${previousLabel}, ${nextLabel}`}>
+  {
+    previous ? (
+      <a class="prev" href={previous.href} aria-label={previousLabel} rel="prev">
+        <Icon name="back" />
+      </a>
+    ) : (
+      <span class="prev off" aria-hidden="true">
+        <Icon name="back" />
+      </span>
+    )
+  }
+  {
+    next ? (
+      <a class="next" href={next.href} rel="next">
+        <span>
+          {nextLabel}: {next.title}
+        </span>
+        <Icon name="next" />
+      </a>
+    ) : (
+      <span class="next end">{endLabel}</span>
+    )
+  }
+</nav>
+
+<style>
+  .story-nav {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    margin: 32px calc(var(--gutter) * -1) 0;
+    padding: 12px var(--gutter) max(16px, env(safe-area-inset-bottom));
+    border-top: 1px solid var(--line);
+    background: var(--bg);
+  }
+
+  .prev {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1.5px solid var(--line2);
+    border-radius: 12px;
+    color: var(--ink);
+  }
+
+  .prev.off {
+    opacity: 0.4;
+  }
+
+  .next {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    min-width: 0;
+    height: 52px;
+    padding: 0 16px;
+    border-radius: 12px;
+    background: var(--ink);
+    color: var(--bg);
+    font: 700 15px / 1 var(--f-body);
+    text-decoration: none;
+  }
+
+  .next span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .next.end {
+    justify-content: center;
+    border: 1.5px solid var(--line2);
+    background: none;
+    color: var(--meta);
+  }
+
+  @media (width >= 1024px) {
+    .story-nav {
+      position: static;
+      margin: 40px 0 0;
+      padding: 24px 0 0;
+    }
+
+    .next {
+      flex: 0 1 auto;
+      gap: 12px;
+      padding: 0 20px;
+    }
+  }
+</style>

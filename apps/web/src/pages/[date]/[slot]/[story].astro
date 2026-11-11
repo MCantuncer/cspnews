@@ -1,0 +1,141 @@
+---
+/**
+ * The story page (docs/design/system.md, "Story page"). Desktop: the fact sheet, with the key
+ * numbers in their own column. Phone: the same layers, one story per screen.
+ */
+import type { WrittenStory } from '@cspnews/core';
+
+import Header from '../../../components/Header.astro';
+import Body from '../../../components/story/Body.astro';
+import EvidenceLine from '../../../components/story/EvidenceLine.astro';
+import Facts from '../../../components/story/Facts.astro';
+import StoryNav from '../../../components/story/StoryNav.astro';
+import Summary from '../../../components/story/Summary.astro';
+import TimelineView from '../../../components/story/Timeline.astro';
+import Base from '../../../layouts/Base.astro';
+import { loadBulletins, storyPath, type PublishedBulletin } from '../../../lib/bulletins';
+import { editionHourFor } from '../../../lib/edition';
+import { bulletinName, sectionName, storyPosition, wordsFor } from '../../../lib/i18n';
+import { outletNames, sourceName } from '../../../lib/sources';
+import { timelineFor } from '../../../lib/timeline';
+
+interface Props {
+  published: PublishedBulletin;
+  story: WrittenStory;
+  index: number;
+}
+
+export function getStaticPaths() {
+  return loadBulletins().flatMap((published) =>
+    published.bulletin.stories.map((story, index) => ({
+      params: { date: published.date, slot: published.slot, story: story.id },
+      props: { published, story, index },
+    })),
+  );
+}
+
+const { published, story, index } = Astro.props;
+// The interface language comes from Settings (step 9); English until then.
+const lang = 'en' as const;
+const words = wordsFor(lang);
+const { stories } = published.bulletin;
+const previous = stories[index - 1];
+const next = stories[index + 1];
+const timeline = timelineFor(story, lang, sourceName);
+const name = bulletinName(published.slot, lang);
+---
+
+<Base
+  title={`${story.title} | CSPNews`}
+  description={story.summary.what}
+  hour={editionHourFor(published.slot)}
+  lang={lang}
+>
+  <Header
+    bulletinName={name}
+    detail={`${sectionName(story.section, lang)}, ${storyPosition(index, stories.length, lang)}`}
+    progress={stories.length > 1 ? index / (stories.length - 1) : 0}
+  />
+  <main class="page">
+    <article class="story">
+      <div class="lead" lang={story.language}>
+        <h1>{story.title}</h1>
+        <EvidenceLine
+          label={story.label}
+          outlets={outletNames(story.sources)}
+          developing={story.developing}
+          lang={lang}
+          developingWord={words.developing}
+        />
+      </div>
+      <div class="main">
+        {timeline && <TimelineView timeline={timeline} lang={lang} />}
+        <Summary summary={story.summary} words={words} lang={story.language} />
+      </div>
+      {
+        story.facts && story.facts.length > 0 && (
+          <aside class="side">
+            <Facts facts={story.facts} heading={words.facts} lang={story.language} />
+          </aside>
+        )
+      }
+      <div class="body">
+        <Body body={story.body} heading={words.fullStory} lang={story.language} sourceName={sourceName} />
+      </div>
+    </article>
+    <StoryNav
+      {...(previous && { previous: { href: storyPath(published, previous) } })}
+      {...(next && { next: { href: storyPath(published, next), title: next.shortTitle } })}
+      previousLabel={words.previous}
+      nextLabel={words.nextStory}
+      endLabel={words.endOfBulletin}
+    />
+  </main>
+</Base>
+
+<style>
+  .page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px var(--gutter) 0;
+  }
+
+  .story {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  h1 {
+    font: 800 30px / 1.12 var(--f-head);
+    letter-spacing: -0.022em;
+  }
+
+  @media (width >= 1024px) {
+    .page {
+      padding: 48px 56px 56px;
+    }
+
+    .story {
+      grid-template-columns: minmax(0, 1fr) 260px;
+      column-gap: 64px;
+      align-items: start;
+    }
+
+    .lead,
+    .main,
+    .body {
+      grid-column: 1;
+    }
+
+    .side {
+      grid-row: 1 / span 3;
+      grid-column: 2;
+      padding-top: 8px;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 1.1;
+    }
+  }
+</style>

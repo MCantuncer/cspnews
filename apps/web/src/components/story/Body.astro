@@ -1,0 +1,126 @@
+---
+/**
+ * The full story: 3 or 4 sections under short subheads, with attributed quotes. It sits behind
+ * "Full story"; on wide screens it starts open, so the page reads as a whole article.
+ */
+import type { BodySection } from '@cspnews/core';
+
+import Icon from '../ui/Icon.astro';
+
+interface Props {
+  body: readonly BodySection[];
+  heading: string;
+  lang: string;
+  sourceName: (id: string) => string;
+}
+
+const { body, heading, lang, sourceName } = Astro.props;
+---
+
+<details class="full" data-full-story>
+  <summary class="toggle">
+    {heading}
+    <Icon name="more" size={20} class="chevron" />
+  </summary>
+  <div class="text" lang={lang}>
+    {
+      body.map((section) => (
+        <section>
+          <h2>{section.subhead}</h2>
+          {section.blocks.map((block) =>
+            'text' in block ? (
+              <p>{block.text}</p>
+            ) : (
+              <blockquote>
+                <p>“{block.quote}”</p>
+                <cite>
+                  {block.speaker}, {sourceName(block.sourceId)}
+                </cite>
+              </blockquote>
+            ),
+          )}
+        </section>
+      ))
+    }
+  </div>
+</details>
+
+<script is:inline>
+  // Wide screens read the whole article; phones keep the gist first and open it on demand.
+  if (matchMedia('(width >= 1024px)').matches) {
+    for (const details of document.querySelectorAll('[data-full-story]')) details.open = true;
+  }
+</script>
+
+<style>
+  .full {
+    margin-top: 24px;
+  }
+
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    color: var(--ink);
+    font: 700 16px / 1 var(--f-body);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  .toggle :global(.chevron) {
+    transform: rotate(90deg);
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+
+  .full[open] .toggle :global(.chevron) {
+    transform: rotate(-90deg);
+  }
+
+  .text {
+    max-width: 680px;
+    padding-top: 4px;
+  }
+
+  h2 {
+    margin: 32px 0 4px;
+    font: 800 22px / 1.2 var(--f-head);
+    letter-spacing: -0.01em;
+  }
+
+  section:first-child h2 {
+    margin-top: 12px;
+  }
+
+  p {
+    max-width: 36em;
+    margin-top: 12px;
+    color: var(--ink2);
+    font: 400 18px / 1.68 var(--f-body);
+  }
+
+  blockquote {
+    margin: 28px 0 8px;
+    padding: 2px 0 2px 22px;
+    border-left: 3px solid var(--ink);
+  }
+
+  blockquote p {
+    margin: 0;
+    color: var(--ink);
+    font: 700 23px / 1.35 var(--f-head);
+    letter-spacing: -0.01em;
+  }
+
+  cite {
+    display: block;
+    margin-top: 10px;
+    color: var(--meta);
+    font: 500 15px / 1.4 var(--f-body);
+    font-style: normal;
+  }
+</style>

@@ -35,6 +35,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@cspnews/config':
+        specifier: workspace:*
+        version: link:../../packages/config
       '@cspnews/core':
         specifier: workspace:*
         version: link:../../packages/core

@@ -1,0 +1,67 @@
+---
+/** The three short lines for scanning: what happened, why it matters, what's next. */
+import type { WrittenStory } from '@cspnews/core';
+
+import type { Words } from '../../lib/i18n';
+
+interface Props {
+  summary: WrittenStory['summary'];
+  words: Words;
+  lang: string;
+}
+
+const { summary, words, lang } = Astro.props;
+const rows = [
+  [words.what, summary.what],
+  [words.why, summary.why],
+  [words.next, summary.next],
+] as const;
+---
+
+<dl class="summary">
+  {
+    rows.map(([term, text]) => (
+      <div class="row">
+        <dt>{term}</dt>
+        <dd lang={lang}>{text}</dd>
+      </div>
+    ))
+  }
+</dl>
+
+<style>
+  .summary {
+    margin-top: 32px;
+    border-top: 1px solid var(--line);
+  }
+
+  .row {
+    display: grid;
+    gap: 4px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  dt {
+    color: var(--ink);
+    font: 700 15px / 1.5 var(--f-body);
+  }
+
+  dd {
+    margin: 0;
+    color: var(--ink);
+    font: 400 18px / 1.5 var(--f-body);
+  }
+
+  @media (width >= 720px) {
+    .row {
+      grid-template-columns: 140px 1fr;
+      gap: 20px;
+    }
+
+    dt {
+      font-size: 16px;
+      line-height: 1.7;
+    }
+  }
+</style>
