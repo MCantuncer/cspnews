@@ -58,7 +58,9 @@ const words = wordsFor(lang);
   import { updatedAt, wordsFor } from '../lib/i18n';
   import { outletNames, sourceName } from '../lib/sources';
   import { timelineFor } from '../lib/timeline';
-  import { timelineElement } from '../lib/timeline-view';
+  import { closeTimelinesOnClick, timelineElement } from '../lib/timeline-view';
+
+  closeTimelinesOnClick();
 
   const page = document.querySelector<HTMLElement>('[data-hot-page]');
   const field = (name: string) => page?.querySelector<HTMLElement>(`[data-field="${name}"]`);
