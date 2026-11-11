@@ -1,4 +1,4 @@
-import type { KeyNumber, Place, StoryImage, WrittenStory } from '@cspnews/core';
+import type { KeyNumber, LocalStory, Place, StoryImage } from '@cspnews/core';
 
 /**
  * Each story gets one visual, in this order (docs/design/system.md, "Visuals"): the lead
@@ -17,7 +17,7 @@ export interface MediaLookup {
   logo: (orgId: string) => string | undefined;
 }
 
-export function visualFor(story: WrittenStory, media: MediaLookup): Visual {
+export function visualFor(story: LocalStory, media: MediaLookup): Visual {
   const photo = story.image && media.photo(story.id);
   if (story.image && photo) return { kind: 'photo', src: photo, image: story.image };
   if (story.keyNumber) return { kind: 'chart', keyNumber: story.keyNumber };

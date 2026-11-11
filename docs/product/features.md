@@ -11,7 +11,7 @@ The feature list behind [the user stories](user-stories.md). Each feature names 
 | ID   | Feature                                                                                                 | Stories        | Stage |
 | ---- | ------------------------------------------------------------------------------------------------------- | -------------- | ----- |
 | F-01 | Bulletin schedule: weekdays 07:30, 12:30, 18:30, 22:30; weekends 07:30 and 18:30 (Istanbul time)        | US-01 to US-04 | MVP   |
-| F-02 | Three sections in a fixed order with language rules (Turkish stays Turkish, everything else in English) | US-01          | MVP   |
+| F-02 | Three sections in a fixed order; each story in both Turkish and English, shown in the reader's language | US-01          | MVP   |
 | F-03 | Finite bulletins: story caps, progress indicator, "You're caught up" screen                             | US-05          | MVP   |
 | F-04 | Focus reader: one story per screen, swipe and `j`/`k` navigation                                        | US-10          | MVP   |
 | F-05 | Layered story: headline, gist, summary, evidence                                                        | US-11, US-12   | MVP   |

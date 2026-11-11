@@ -3,8 +3,8 @@ import type { EvidenceLabel, InterfaceLanguage } from './evidence.js';
 import { evidenceWord } from './evidence.js';
 
 /**
- * Interface words in English and Turkish. Stories keep their own language; only the frame
- * around them (headings, buttons, dates) follows the reader's interface language.
+ * Interface words in English and Turkish. The frame around a story (headings, buttons, dates)
+ * and the story itself (each is written in both languages) follow the reader's language.
  */
 const WORDS = {
   en: {
@@ -51,10 +51,11 @@ const WORDS = {
     hotGone: 'This story is no longer in Hot News.',
     hotError: 'Hot News could not be loaded. Check your connection and try again.',
     tryAgain: 'Try again',
+    translatedQuote: 'translated',
     home: 'CSPNews, home',
     settings: 'Settings',
-    language: 'Interface language',
-    languageHint: 'Menus and labels. Stories keep their own language.',
+    language: 'Language',
+    languageHint: 'Menus, labels and every story.',
     theme: 'Theme',
     themes: { dark: 'Dark', light: 'Light', device: 'Match device' },
     textSize: 'Text size',
@@ -118,10 +119,11 @@ const WORDS = {
     hotGone: 'Bu haber artık son dakikada değil.',
     hotError: 'Son dakika yüklenemedi. Bağlantını kontrol edip yeniden dene.',
     tryAgain: 'Yeniden dene',
+    translatedQuote: 'çeviri',
     home: 'CSPNews, ana sayfa',
     settings: 'Ayarlar',
-    language: 'Arayüz dili',
-    languageHint: 'Menüler ve etiketler. Haberler kendi dillerinde kalır.',
+    language: 'Dil',
+    languageHint: 'Menüler, etiketler ve tüm haberler.',
     theme: 'Tema',
     themes: { dark: 'Koyu', light: 'Açık', device: 'Cihaza uy' },
     textSize: 'Yazı boyutu',

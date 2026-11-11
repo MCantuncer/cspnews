@@ -30,7 +30,7 @@ interface Props {
 const { published, lang } = Astro.props;
 const words = wordsFor(lang);
 const name = bulletinName(published.slot, lang);
-const leads = storiesBySection(published)
+const leads = storiesBySection(published, lang)
   .map((group) => ({ section: group.section, story: group.stories[0]?.story }))
   .flatMap(({ section, story }) => (story ? [{ section, story }] : []))
   .slice(0, 3);

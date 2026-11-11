@@ -1,5 +1,8 @@
-export { SECTIONS, storyLanguageFor } from './sections.js';
-export type { Section, StoryLanguage } from './sections.js';
+export { LANGUAGES } from './language.js';
+export type { Language } from './language.js';
+
+export { SECTIONS } from './sections.js';
+export type { Section } from './sections.js';
 
 export {
   BULLETIN_SLOTS,
@@ -32,10 +35,9 @@ export type { Camp, Source, SourceInput, SourceKind, Tier } from './sources.js';
 export type { Article } from './article.js';
 
 export {
+  BODY_WORDS,
   BodySectionSchema,
   BulletinSchema,
-  MAX_BODY_WORDS,
-  MIN_BODY_WORDS,
   ParagraphSchema,
   QuoteSchema,
   EVIDENCE_LABEL_VALUES,
@@ -45,9 +47,13 @@ export {
   SeriesPointSchema,
   StoryImageSchema,
   StorySourceSchema,
+  StoryTimelineEventSchema,
+  StoryVersionSchema,
   TimelineEventSchema,
   WrittenStorySchema,
   parseBulletin,
+  storyIn,
+  versionMismatches,
 } from './story.js';
 export type {
   BodySection,
@@ -55,10 +61,12 @@ export type {
   Quote,
   Fact,
   KeyNumber,
+  LocalStory,
   Place,
   SeriesPoint,
   StoryImage,
   StorySource,
+  StoryVersion,
   TimelineEntry,
   WrittenStory,
 } from './story.js';

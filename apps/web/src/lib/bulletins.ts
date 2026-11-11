@@ -1,7 +1,13 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-import { parseBulletin, type Bulletin, type WrittenStory } from '@cspnews/core';
+import {
+  parseBulletin,
+  storyIn,
+  type Bulletin,
+  type Language,
+  type LocalStory,
+} from '@cspnews/core';
 
 import type { InterfaceLanguage } from './evidence.js';
 import { localePath } from './locale.js';
@@ -64,7 +70,7 @@ export function caughtUpPath(published: PublishedBulletin, lang: InterfaceLangua
 /** The URL of one story: `/2026-11-11/evening/<story id>`. */
 export function storyPath(
   published: PublishedBulletin,
-  story: WrittenStory,
+  story: { id: string },
   lang: InterfaceLanguage = 'en',
 ): string {
   return `${bulletinPath(published, lang)}/${encodeURIComponent(story.id)}`;
@@ -72,9 +78,14 @@ export function storyPath(
 
 const WORDS_PER_MINUTE = 230;
 
-/** Minutes to read every story in full, rounded up. */
-export function readingMinutes(published: PublishedBulletin): number {
-  const words = published.bulletin.stories
+/** Every story of the bulletin in the reader's language, in reading order. */
+export function storiesIn(published: PublishedBulletin, language: Language): LocalStory[] {
+  return published.bulletin.stories.map((story) => storyIn(story, language));
+}
+
+/** Minutes to read every story in full in the reader's language, rounded up. */
+export function readingMinutes(published: PublishedBulletin, language: Language): number {
+  const words = storiesIn(published, language)
     .flatMap((story) => story.body.flatMap((section) => section.blocks))
     .map((block) => ('text' in block ? block.text : block.quote))
     .join(' ')
@@ -86,9 +97,10 @@ export function readingMinutes(published: PublishedBulletin): number {
 /** Stories grouped by section, in reading order, keeping each story's place in the bulletin. */
 export function storiesBySection(
   published: PublishedBulletin,
-): { section: WrittenStory['section']; stories: { story: WrittenStory; index: number }[] }[] {
+  language: Language,
+): { section: LocalStory['section']; stories: { story: LocalStory; index: number }[] }[] {
   const groups: ReturnType<typeof storiesBySection> = [];
-  published.bulletin.stories.forEach((story, index) => {
+  storiesIn(published, language).forEach((story, index) => {
     const last = groups.at(-1);
     if (last?.section === story.section) last.stories.push({ story, index });
     else groups.push({ section: story.section, stories: [{ story, index }] });
@@ -97,6 +109,6 @@ export function storiesBySection(
 }
 
 /** The key the reader's browser uses to remember a story as read. */
-export function readKey(published: PublishedBulletin, story: WrittenStory): string {
+export function readKey(published: PublishedBulletin, story: { id: string }): string {
   return `${published.date}/${published.slot}/${story.id}`;
 }

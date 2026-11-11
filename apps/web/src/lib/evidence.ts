@@ -1,10 +1,11 @@
-import { EVIDENCE_LABEL_VALUES } from '@cspnews/core';
+import { EVIDENCE_LABEL_VALUES, type Language } from '@cspnews/core';
 import type { IconName } from './icons.js';
 
 /** The four evidence labels a story can carry (docs/design/system.md, "Evidence"). */
 export type EvidenceLabel = (typeof EVIDENCE_LABEL_VALUES)[number];
 
-export type InterfaceLanguage = 'en' | 'tr';
+/** The reader's language: the interface and the story version both follow it. */
+export type InterfaceLanguage = Language;
 
 interface EvidenceStyle {
   /** The Stations glyph that marks the label. */

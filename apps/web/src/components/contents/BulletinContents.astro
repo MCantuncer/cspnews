@@ -21,7 +21,7 @@ const words = wordsFor(lang);
   <h1>{bulletinName(published.slot, lang)}</h1>
   <p class="meta">
     {
-      `${formatLongDate(publishAt, lang)}, ${formatTime(publishAt, lang)}. ${bulletinSize(stories.length, readingMinutes(published), lang)}.`
+      `${formatLongDate(publishAt, lang)}, ${formatTime(publishAt, lang)}. ${bulletinSize(stories.length, readingMinutes(published, lang), lang)}.`
     }
   </p>
   <a class="resume" href="#" data-resume hidden>

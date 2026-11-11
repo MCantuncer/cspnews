@@ -3,7 +3,7 @@
  * The story page (docs/design/system.md, "Story page"). Desktop: the fact sheet, with the key
  * numbers in their own column. Phone: the same layers, one story per screen.
  */
-import type { WrittenStory } from '@cspnews/core';
+import { storyIn, type WrittenStory } from '@cspnews/core';
 
 import Contents from '../contents/Contents.astro';
 import EvidenceDrawer from '../evidence/EvidenceDrawer.astro';
@@ -21,6 +21,7 @@ import {
   bulletinPath,
   caughtUpPath,
   readKey,
+  storiesIn,
   storyPath,
   type PublishedBulletin,
 } from '../../lib/bulletins';
@@ -40,9 +41,11 @@ interface Props {
 }
 
 
-const { published, story, index, lang } = Astro.props;
+const { published, index, lang } = Astro.props;
 const words = wordsFor(lang);
-const { stories } = published.bulletin;
+// Every story is written in both languages: the reader gets theirs.
+const story = storyIn(Astro.props.story, lang);
+const stories = storiesIn(published, lang);
 const previous = stories[index - 1];
 const next = stories[index + 1];
 const timeline = timelineFor(story, lang, sourceName);
@@ -110,7 +113,13 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
         )
       }
       <div class="body">
-        <Body body={story.body} heading={words.fullStory} lang={story.language} sourceName={sourceName} />
+        <Body
+          body={story.body}
+          heading={words.fullStory}
+          lang={story.language}
+          sourceName={sourceName}
+          translatedLabel={words.translatedQuote}
+        />
       </div>
     </article>
     <EvidenceDrawer
