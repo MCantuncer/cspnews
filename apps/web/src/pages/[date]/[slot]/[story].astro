@@ -71,6 +71,7 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     progress={stories.length > 1 ? index / (stories.length - 1) : 0}
     contentsHref={bulletinPath(published)}
     contentsLabel={words.contents}
+    lang={lang}
   />
   <HotLine lang={lang} />
   <div class="layout">

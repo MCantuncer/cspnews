@@ -42,7 +42,7 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
   lang={lang}
 >
   <div class="wg" data-word-game data-lang={lang} data-window={JSON.stringify(days)}>
-    <Header bulletinName={words.name} />
+    <Header bulletinName={words.name} lang={lang} />
 
     <div class="wg-top">
       <nav class="wg-langs" aria-label={words.languages}>

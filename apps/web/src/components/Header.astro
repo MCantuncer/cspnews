@@ -1,10 +1,12 @@
 ---
+import AccountSlot from './account/AccountSlot.astro';
 import Icon from './ui/Icon.astro';
 
 /**
  * The header on every screen: the wordmark, then the bulletin name (which will open Contents),
  * over the day line. The edition hour colours the 3px top edge (docs/design/system.md).
- * With `progress`, the day line shows how far the reader is through the bulletin.
+ * With `progress`, the day line shows how far the reader is through the bulletin. The account
+ * corner (sign in, or the reader's avatar) sits at the right end when accounts are on.
  */
 interface Props {
   bulletinName?: string;
@@ -15,9 +17,11 @@ interface Props {
   /** Where the bulletin name leads: the bulletin's Contents. */
   contentsHref?: string;
   contentsLabel?: string;
+  /** The interface language, for the account corner. */
+  lang?: 'en' | 'tr';
 }
 
-const { bulletinName, detail, progress, contentsHref, contentsLabel } = Astro.props;
+const { bulletinName, detail, progress, contentsHref, contentsLabel, lang = 'en' } = Astro.props;
 const position = progress === undefined ? undefined : Math.min(1, Math.max(0, progress));
 ---
 
@@ -47,6 +51,7 @@ const position = progress === undefined ? undefined : Math.min(1, Math.max(0, pr
           </p>
         ))
     }
+    <AccountSlot lang={lang} />
   </div>
   <div
     class="dayline"

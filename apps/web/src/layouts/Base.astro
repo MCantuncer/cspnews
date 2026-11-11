@@ -35,6 +35,8 @@ const {
         const size = localStorage.getItem('cspnews:text-size');
         if (theme === 'light' || theme === 'device') root.dataset.theme = theme;
         if (size) root.dataset.textSize = size;
+        // The accounts API's readable hint: show the avatar spot, not "Sign in", from the first paint.
+        if (/(?:^|;\s*)cspn_signed_in=1(?:;|$)/.test(document.cookie)) root.dataset.signedIn = '';
       } catch {
         // Storage can be unavailable (private mode); the defaults still work.
       }
