@@ -40,3 +40,9 @@ export function logoUrl(orgId: string, directory = mediaDirectory()): string | u
   const file = find(join(directory, 'org'), orgId, LOGO);
   return file && `${MEDIA_URL}/org/${encodeURIComponent(file)}`;
 }
+
+/** The site URL of an outlet's saved logo (`logos/<source id>`, from the fetch-logos job). */
+export function outletLogoUrl(sourceId: string, directory = mediaDirectory()): string | undefined {
+  const file = find(join(directory, 'logos'), sourceId, LOGO);
+  return file && `${MEDIA_URL}/logos/${encodeURIComponent(file)}`;
+}

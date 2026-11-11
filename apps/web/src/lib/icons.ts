@@ -36,6 +36,8 @@ export const ICONS = {
     '<path d="M2 12h5.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/><circle cx="12" cy="12" r="4.5"/><path d="M12 7.5a4.5 4.5 0 0 0 0 9z" fill="currentColor" stroke="none"/>',
   updated:
     '<path d="M2 12h2M9.5 12h4.25" /><circle cx="6.75" cy="12" r="2.5" style="stroke:var(--meta2)"/><circle cx="17.25" cy="12" r="3.25" fill="currentColor"/>',
+  /** An empty logo slot, for an outlet whose logo is not saved. */
+  slot: '<circle cx="12" cy="12" r="9.25" />',
 } as const;
 
 export type IconName = keyof typeof ICONS;

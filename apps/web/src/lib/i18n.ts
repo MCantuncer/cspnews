@@ -38,6 +38,11 @@ const WORDS = {
     now: 'Now',
     photo: 'Photo',
     logo: 'Logo',
+    close: 'Close',
+    whoReports: 'Who reports it',
+    noOutlet: 'No outlet from this camp',
+    republished: 'republished it',
+    openEvidence: 'Show sources',
   },
   tr: {
     bulletin: {
@@ -70,6 +75,11 @@ const WORDS = {
     now: 'Şimdi',
     photo: 'Fotoğraf',
     logo: 'Logo',
+    close: 'Kapat',
+    whoReports: 'Kimler bildiriyor',
+    noOutlet: 'Bu kesimden kaynak yok',
+    republished: 'yeniden yayımladı',
+    openEvidence: 'Kaynakları göster',
   },
 } as const;
 
@@ -143,4 +153,17 @@ export function nextBulletinAt(time: string, language: InterfaceLanguage): strin
 /** "4 read" / "4 okundu", for read stories folded into one line. */
 export function readCount(count: number, language: InterfaceLanguage): string {
   return `${String(count)} ${language === 'tr' ? 'okundu' : 'read'}`;
+}
+
+/** "5 outlets" / "5 kaynak". */
+export function outletCount(count: number, language: InterfaceLanguage): string {
+  if (language === 'tr') return `${String(count)} kaynak`;
+  return `${String(count)} outlet${count === 1 ? '' : 's'}`;
+}
+
+/** "Reliability 2 of 3" / "Güvenilirlik 3 üzerinden 2". */
+export function reliabilityLabel(steps: number, language: InterfaceLanguage): string {
+  return language === 'tr'
+    ? `Güvenilirlik 3 üzerinden ${String(steps)}`
+    : `Reliability ${String(steps)} of 3`;
 }

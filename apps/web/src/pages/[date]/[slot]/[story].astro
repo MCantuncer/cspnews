@@ -6,6 +6,7 @@
 import type { WrittenStory } from '@cspnews/core';
 
 import Contents from '../../../components/contents/Contents.astro';
+import EvidenceDrawer from '../../../components/evidence/EvidenceDrawer.astro';
 import Header from '../../../components/Header.astro';
 import Body from '../../../components/story/Body.astro';
 import EvidenceLine from '../../../components/story/EvidenceLine.astro';
@@ -83,6 +84,8 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
           developing={story.developing}
           lang={lang}
           developingWord={words.developing}
+          drawerId="evidence"
+          openLabel={words.openEvidence}
         />
       </div>
       <div class="main">
@@ -109,6 +112,13 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
         <Body body={story.body} heading={words.fullStory} lang={story.language} sourceName={sourceName} />
       </div>
     </article>
+    <EvidenceDrawer
+      id="evidence"
+      label={story.label}
+      sources={story.sources}
+      section={story.section}
+      lang={lang}
+    />
     <StoryNav
       {...(previous && { previous: { href: storyPath(published, previous) } })}
       {...(next && { next: { href: storyPath(published, next), title: next.shortTitle } })}
