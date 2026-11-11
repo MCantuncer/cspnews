@@ -1,36 +1,16 @@
 ---
-/** A bulletin's Contents. The header's bulletin name on every story leads here. */
-import BulletinContents from '../../components/contents/BulletinContents.astro';
-import Header from '../../components/Header.astro';
-import HotLine from '../../components/hot/HotLine.astro';
-import Base from '../../layouts/Base.astro';
-import { loadBulletins, type PublishedBulletin } from '../../lib/bulletins';
-import { editionHourFor } from '../../lib/edition';
-import { formatLongDate } from '../../lib/format';
-import { bulletinName } from '../../lib/i18n';
+/** A bulletin's Contents. */
+import BulletinPage from '../../components/pages/BulletinPage.astro';
+import type { PublishedBulletin } from '../../lib/bulletins';
+import { bulletinRoutes } from '../../lib/routes';
+
+export const getStaticPaths = bulletinRoutes;
 
 interface Props {
   published: PublishedBulletin;
 }
 
-export function getStaticPaths() {
-  return loadBulletins().map((published) => ({
-    params: { date: published.date, slot: published.slot },
-    props: { published },
-  }));
-}
-
 const { published } = Astro.props;
-const lang = 'en' as const;
-const name = bulletinName(published.slot, lang);
 ---
 
-<Base
-  title={`${name}, ${formatLongDate(published.bulletin.publishAt, lang)} | CSPNews`}
-  hour={editionHourFor(published.slot)}
-  lang={lang}
->
-  <Header lang={lang} />
-  <HotLine lang={lang} />
-  <BulletinContents published={published} lang={lang} />
-</Base>
+<BulletinPage published={published} lang="en" />

@@ -1,0 +1,16 @@
+---
+/** A bulletin's Contents (Turkish interface). */
+import BulletinPage from '../../../components/pages/BulletinPage.astro';
+import type { PublishedBulletin } from '../../../lib/bulletins';
+import { bulletinRoutes } from '../../../lib/routes';
+
+export const getStaticPaths = bulletinRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+}
+
+const { published } = Astro.props;
+---
+
+<BulletinPage published={published} lang="tr" />

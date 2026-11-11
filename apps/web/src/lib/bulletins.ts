@@ -3,6 +3,9 @@ import { join, resolve } from 'node:path';
 
 import { parseBulletin, type Bulletin, type WrittenStory } from '@cspnews/core';
 
+import type { InterfaceLanguage } from './evidence.js';
+import { localePath } from './locale.js';
+
 /**
  * Published bulletins, read at build time. Each file is `<yyyy-mm-dd>-<slot>.json`, as the
  * Verify and Write run saves it. A file that fails validation stops the build: a broken
@@ -48,14 +51,23 @@ export function loadBulletins(directory = bulletinsDirectory()): PublishedBullet
     .sort((a, b) => b.bulletin.publishAt.localeCompare(a.bulletin.publishAt));
 }
 
-/** The URL of a bulletin: `/2026-11-11/evening`. */
-export function bulletinPath(published: PublishedBulletin): string {
-  return `/${published.date}/${published.slot}`;
+/** The URL of a bulletin: `/2026-11-11/evening`, under `/tr` for the Turkish interface. */
+export function bulletinPath(published: PublishedBulletin, lang: InterfaceLanguage = 'en'): string {
+  return localePath(`/${published.date}/${published.slot}`, lang);
+}
+
+/** The end screen after a bulletin's last story: `/2026-11-11/evening/done`. */
+export function caughtUpPath(published: PublishedBulletin, lang: InterfaceLanguage = 'en'): string {
+  return `${bulletinPath(published, lang)}/done`;
 }
 
 /** The URL of one story: `/2026-11-11/evening/<story id>`. */
-export function storyPath(published: PublishedBulletin, story: WrittenStory): string {
-  return `${bulletinPath(published)}/${encodeURIComponent(story.id)}`;
+export function storyPath(
+  published: PublishedBulletin,
+  story: WrittenStory,
+  lang: InterfaceLanguage = 'en',
+): string {
+  return `${bulletinPath(published, lang)}/${encodeURIComponent(story.id)}`;
 }
 
 const WORDS_PER_MINUTE = 230;

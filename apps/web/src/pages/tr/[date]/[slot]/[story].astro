@@ -1,0 +1,20 @@
+---
+/** One story (Turkish interface). */
+import type { WrittenStory } from '@cspnews/core';
+
+import StoryPage from '../../../../components/pages/StoryPage.astro';
+import type { PublishedBulletin } from '../../../../lib/bulletins';
+import { storyRoutes } from '../../../../lib/routes';
+
+export const getStaticPaths = storyRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+  story: WrittenStory;
+  index: number;
+}
+
+const { published, story, index } = Astro.props;
+---
+
+<StoryPage published={published} story={story} index={index} lang="tr" />

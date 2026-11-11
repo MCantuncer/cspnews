@@ -1,0 +1,47 @@
+---
+/** Home: the latest bulletin's Contents, or the empty state before the first one. */
+import BulletinContents from '../contents/BulletinContents.astro';
+import Header from '../Header.astro';
+import HotLine from '../hot/HotLine.astro';
+import Base from '../../layouts/Base.astro';
+import { loadBulletins } from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { wordsFor } from '../../lib/i18n';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const words = wordsFor(lang);
+const latest = loadBulletins()[0];
+---
+
+<Base title="CSPNews" hour={latest ? editionHourFor(latest.slot) : 'dawn'} lang={lang}>
+  <Header lang={lang} />
+  <HotLine lang={lang} />
+  {
+    latest ? (
+      <BulletinContents published={latest} lang={lang} />
+    ) : (
+      <main class="empty">
+        <h1>{words.noBulletin}</h1>
+        <p>{words.noBulletinBody}</p>
+      </main>
+    )
+  }
+</Base>
+
+<style>
+  .empty {
+    display: grid;
+    gap: 12px;
+    max-width: var(--measure);
+    padding: 64px var(--gutter);
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+</style>

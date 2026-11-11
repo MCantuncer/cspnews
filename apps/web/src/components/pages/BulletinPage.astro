@@ -1,0 +1,31 @@
+---
+/** A bulletin's Contents. The header's bulletin name on every story leads here. */
+import BulletinContents from '../contents/BulletinContents.astro';
+import Header from '../Header.astro';
+import HotLine from '../hot/HotLine.astro';
+import Base from '../../layouts/Base.astro';
+import type { PublishedBulletin } from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatLongDate } from '../../lib/format';
+import { bulletinName } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+
+const { published, lang } = Astro.props;
+const name = bulletinName(published.slot, lang);
+---
+
+<Base
+  title={`${name}, ${formatLongDate(published.bulletin.publishAt, lang)} | CSPNews`}
+  hour={editionHourFor(published.slot)}
+  lang={lang}
+>
+  <Header lang={lang} />
+  <HotLine lang={lang} />
+  <BulletinContents published={published} lang={lang} />
+</Base>
