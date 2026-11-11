@@ -8,6 +8,8 @@ The rules of the daily word game (US-70, US-71), with no I/O. The page in `apps/
 | `score.ts`    | Green, yellow and grey marks with correct repeated letters, keyboard colours, hard mode               |
 | `day.ts`      | Game days in Istanbul time, the puzzle number, the day's answer, a fixed shuffle for new word lists   |
 | `progress.ts` | Streak with one rest day per week, the last seven days, stats                                         |
+| `hide.ts`     | Scrambles a day's answer for the page, so it is not readable at a glance in the source                |
+| `lists.ts`    | Reads and checks the word lists; `FIRST_DAY`, the day puzzle 1 was played                             |
 
 ## The word lists
 

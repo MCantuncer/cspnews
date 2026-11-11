@@ -1,0 +1,195 @@
+---
+/**
+ * The daily word game (feature F-24): guess the five-letter word in six tries. Green is the right
+ * letter in the right spot, yellow is in the word elsewhere, grey is not in the word.
+ *
+ * The page is static. The build ships a short window of scrambled answers (lib/word-data.ts);
+ * the browser picks today's by the Istanbul date and keeps the game, streak and stats in
+ * localStorage until reader accounts can sync them.
+ */
+import { GAME_LANGUAGES, MAX_TRIES, WORD_LENGTH, gameDayAt, type GameLanguage } from '@cspnews/wordgame';
+
+import Header from '../Header.astro';
+import Icon from '../ui/Icon.astro';
+import Base from '../../layouts/Base.astro';
+import { loadBulletins, storyPath } from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import { GAME_PATHS, KEYBOARD, gameWordsFor } from '../../lib/word';
+import { wordWindow } from '../../lib/word-data';
+import '../../styles/word.css';
+
+interface Props {
+  lang: GameLanguage;
+}
+
+const { lang } = Astro.props;
+const words = gameWordsFor(lang);
+const days = wordWindow(lang, gameDayAt(new Date()));
+
+// One story from the latest bulletin, in the puzzle's language when there is one.
+const latest = loadBulletins()[0];
+const story = latest?.bulletin.stories.find((s) => s.language === lang) ?? latest?.bulletin.stories[0];
+const news = latest && story ? { href: storyPath(latest, story), title: story.title, lang: story.language } : undefined;
+
+const rows = Array.from({ length: MAX_TRIES }, (_, index) => index);
+const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
+---
+
+<Base
+  title={`${words.name} | CSPNews`}
+  description={words.helpTitle}
+  hour={latest ? editionHourFor(latest.slot) : 'dawn'}
+  lang={lang}
+>
+  <div class="wg" data-word-game data-lang={lang} data-window={JSON.stringify(days)}>
+    <Header bulletinName={words.name} />
+
+    <div class="wg-top">
+      <nav class="wg-langs" aria-label={words.languages}>
+        {
+          GAME_LANGUAGES.map((other) => (
+            <a
+              href={GAME_PATHS[other]}
+              lang={other}
+              aria-current={other === lang ? 'page' : undefined}
+            >
+              <span class="wg-dot" data-done-dot={other} />
+              {gameWordsFor(other).language}
+            </a>
+          ))
+        }
+      </nav>
+      <div class="wg-tools">
+        <button type="button" class="wg-icon" data-open="help" aria-label={words.howToPlay}>
+          <Icon name="help" />
+        </button>
+        <button type="button" class="wg-icon" data-open="stats" aria-label={words.stats}>
+          <Icon name="stats" />
+        </button>
+      </div>
+    </div>
+
+    <main class="wg-stage" data-stage>
+      <div class="wg-line" data-line>
+        <p class="wg-puzzle" data-puzzle>
+          <span class="wg-no" data-number></span>
+          <span class="wg-date" data-date></span>
+          <span class="wg-pips" data-pips>
+            {rows.map(() => <i />)}
+          </span>
+        </p>
+        <p class="wg-msg" data-msg role="status" hidden>
+          <span class="wg-msg-icon"><Icon name="close" size={20} /></span>
+          <b data-msg-main></b>
+          <small data-msg-note></small>
+        </p>
+      </div>
+
+      <div class="wg-board" data-board>
+        {
+          rows.map(() => (
+            <div class="wg-row">
+              {tiles.map(() => (
+                <span class="wg-t" />
+              ))}
+            </div>
+          ))
+        }
+      </div>
+      <p class="wg-sr" aria-live="polite" data-announce></p>
+    </main>
+
+    <div class="wg-kb" data-keyboard data-layout={lang}>
+      {
+        KEYBOARD[lang].map((row) => (
+          <div class="wg-kr">
+            {row.map((key) =>
+              key === 'enter' ? (
+                <button type="button" class="wg-key wg-wide" data-key="enter">
+                  {words.enter}
+                </button>
+              ) : key === 'delete' ? (
+                <button type="button" class="wg-key wg-wide" data-key="delete" aria-label={words.delete}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M8 5h12v14H8l-6-7z" />
+                    <path d="M12 9.5l5 5M17 9.5l-5 5" />
+                  </svg>
+                </button>
+              ) : (
+                <button type="button" class="wg-key" data-key={key}>
+                  {key}
+                </button>
+              ),
+            )}
+          </div>
+        ))
+      }
+    </div>
+
+    <section class="wg-sheet" data-sheet hidden>
+      <div class="wg-sheet-body" data-sheet-body></div>
+      {
+        news && (
+          <a class="wg-news" href={news.href}>
+            <small>{words.inBulletin}</small>
+            <span lang={news.lang}>{news.title}</span>
+          </a>
+        )
+      }
+    </section>
+
+    <dialog class="wg-dialog" data-dialog="help" aria-labelledby="wg-help-title">
+      <div class="wg-sheet" tabindex="-1" autofocus>
+        <h2 id="wg-help-title">{words.helpTitle}</h2>
+        {
+          (
+            [
+              ['correct', lang === 'tr' ? 'KALEM' : 'LIGHT', words.helpCorrect],
+              ['present', lang === 'tr' ? 'SİRKE' : 'CRANE', words.helpPresent],
+              ['absent', lang === 'tr' ? 'ÇORBA' : 'PLUMB', words.helpAbsent],
+            ] as const
+          ).map(([mark, example, note]) => {
+            const at = mark === 'present' ? 1 : 0;
+            const letters = Array.from(example);
+            return (
+              <div class="wg-ex">
+                <div class="wg-row wg-small">
+                  {letters.map((letter, index) => (
+                    <span class:list={['wg-t', index === at ? mark : 'typed']}>{letter}</span>
+                  ))}
+                </div>
+                <p>
+                  <b>{letters[at]}</b> {note}
+                </p>
+              </div>
+            );
+          })
+        }
+        <p class="wg-note">{words.helpNote}</p>
+        <form method="dialog">
+          <button class="wg-btn">{words.play}</button>
+        </form>
+      </div>
+    </dialog>
+
+    <dialog class="wg-dialog" data-dialog="stats" aria-labelledby="wg-stats-title">
+      <div class="wg-sheet" tabindex="-1" autofocus>
+        <div class="wg-dialog-head">
+          <h2 id="wg-stats-title">{words.stats}</h2>
+          <form method="dialog">
+            <button class="wg-icon" aria-label={words.close}><Icon name="close" /></button>
+          </form>
+        </div>
+        <div data-stats-body></div>
+        <p class="wg-note">{words.restDayNote}</p>
+      </div>
+    </dialog>
+  </div>
+</Base>
+
+<script>
+  import { startWordGame } from '../../lib/word-play';
+
+  const root = document.querySelector<HTMLElement>('[data-word-game]');
+  if (root) startWordGame(root);
+</script>

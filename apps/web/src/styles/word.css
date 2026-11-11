@@ -1,0 +1,812 @@
+/*
+ * The daily word game (components/word/WordGame.astro). Global, because the finish sheet and the
+ * stats are built in the browser; every class starts with `wg-`.
+ * Muted tile colours, each theme its own: green = right spot, yellow = elsewhere, grey = not in it.
+ */
+
+:root {
+  --wg-green: #4f8763;
+  --wg-on-green: #f5f0e8;
+  --wg-yellow: #b8924a;
+  --wg-on-yellow: #15110a;
+  --wg-grey: #1d1b18;
+  --wg-on-grey: #6f675c;
+  --wg-key: #2a2723;
+  --wg-sheet: #1c1a17;
+}
+
+:root[data-theme='light'] {
+  --wg-green: #4a7d5a;
+  --wg-on-green: #fff;
+  --wg-yellow: #c99b45;
+  --wg-on-yellow: #1a1306;
+  --wg-grey: #e9e3d9;
+  --wg-on-grey: #a39a8c;
+  --wg-key: #e6dfd3;
+  --wg-sheet: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root[data-theme='device'] {
+    --wg-green: #4a7d5a;
+    --wg-on-green: #fff;
+    --wg-yellow: #c99b45;
+    --wg-on-yellow: #1a1306;
+    --wg-grey: #e9e3d9;
+    --wg-on-grey: #a39a8c;
+    --wg-key: #e6dfd3;
+    --wg-sheet: #fff;
+  }
+}
+
+.wg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+/* The header spans the page like everywhere else; the game keeps to a phone-wide column. */
+:where(.wg > :not(header)) {
+  width: 100%;
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+/* Language links and the two tools. */
+.wg-top {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 6px var(--gutter) 0;
+}
+
+.wg-langs {
+  display: flex;
+  grid-column: 2;
+  gap: 28px;
+}
+
+.wg-langs a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  color: var(--meta);
+  font: 500 15px / 1 var(--f-body);
+  text-decoration: none;
+}
+
+.wg-langs a[aria-current='page'] {
+  color: var(--ink);
+  box-shadow: inset 0 -2px 0 var(--ink);
+}
+
+.wg-dot {
+  width: 8px;
+  height: 8px;
+  border: 1.5px solid var(--line2);
+  border-radius: 50%;
+}
+
+.wg-dot.done {
+  border-color: var(--wg-green);
+  background: var(--wg-green);
+}
+
+.wg-tools {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -10px;
+}
+
+.wg-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  color: var(--ink2);
+  cursor: pointer;
+}
+
+.wg-icon:hover {
+  background: var(--surf);
+}
+
+/* The board. */
+.wg-stage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px 0;
+}
+
+.wg-line {
+  display: flex;
+  width: 284px;
+  min-height: 40px;
+}
+
+.wg-puzzle,
+.wg-msg {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.wg-no {
+  color: var(--ink);
+  font: 700 16px / 1 var(--f-head);
+  white-space: nowrap;
+}
+
+.wg-date {
+  overflow: hidden;
+  color: var(--meta);
+  font-size: 15px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wg-pips {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.wg-pips i {
+  display: block;
+  width: 14px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--ink2);
+  transition: background var(--dur-base);
+}
+
+.wg-pips i.used {
+  background: var(--line);
+}
+
+.wg-msg b {
+  overflow: hidden;
+  color: var(--ink);
+  font: 600 15px / 1.2 var(--f-body);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wg-msg small {
+  margin-left: auto;
+  color: var(--meta);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.wg-msg-icon {
+  display: none;
+  color: var(--hot);
+}
+
+.wg-msg[data-kind='error'] {
+  padding: 0 14px 0 12px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--hot) 16%, var(--bg));
+}
+
+.wg-msg[data-kind='error'] .wg-msg-icon {
+  display: block;
+}
+
+.wg-msg[data-kind='good'] b {
+  color: var(--wg-green);
+}
+
+.wg-msg[data-kind='plain'] b {
+  font-weight: 500;
+  white-space: normal;
+}
+
+.wg-board {
+  display: grid;
+  gap: 6px;
+  perspective: 600px;
+}
+
+.wg-row {
+  display: grid;
+  grid-template-columns: repeat(5, 52px);
+  gap: 6px;
+}
+
+.wg-t {
+  display: grid;
+  place-items: center;
+  height: 52px;
+  padding-top: 0.08em;
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  font: 600 24px / 1 var(--f-body);
+}
+
+.wg-t.typed {
+  border-color: var(--line2);
+}
+
+.wg-row.bad .wg-t.typed {
+  border-color: color-mix(in srgb, var(--hot) 70%, var(--line2));
+}
+
+.wg-t.correct,
+.wg-t.present,
+.wg-t.absent {
+  border-color: transparent;
+}
+
+.wg-t.correct {
+  background: var(--wg-green);
+  color: var(--wg-on-green);
+}
+
+.wg-t.present {
+  background: var(--wg-yellow);
+  color: var(--wg-on-yellow);
+}
+
+.wg-t.absent {
+  background: var(--wg-grey);
+  color: var(--wg-on-grey);
+}
+
+.wg-row.wg-small,
+.wg-stage.done .wg-row {
+  grid-template-columns: repeat(5, 40px);
+  gap: 4px;
+}
+
+.wg-small .wg-t,
+.wg-stage.done .wg-t {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.wg-stage.done {
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 16px 0 14px;
+}
+
+.wg-stage.done .wg-board {
+  gap: 4px;
+}
+
+.wg-stage.done .wg-line {
+  width: 216px;
+}
+
+.wg-stage.done .wg-pips {
+  display: none;
+}
+
+.wg-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* The keyboard. */
+.wg-kb {
+  display: grid;
+  gap: 7px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 8px max(16px, env(safe-area-inset-bottom));
+}
+
+.wg-kr {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.wg-key {
+  flex: 1 1 0;
+  max-width: 34px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: var(--wg-key);
+  color: var(--ink);
+  font: 400 18px / 1 var(--f-body);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition:
+    transform 70ms,
+    background var(--dur-fast);
+}
+
+.wg-key:active {
+  transform: translateY(1px) scale(0.97);
+}
+
+.wg-key.wg-wide {
+  display: grid;
+  flex-basis: 54px;
+  place-items: center;
+  max-width: 54px;
+  font-size: 13px;
+}
+
+.wg-kb[data-layout='tr'] .wg-key {
+  max-width: 31px;
+  font-size: 17px;
+}
+
+.wg-kb[data-layout='tr'] .wg-key.wg-wide {
+  flex-basis: 50px;
+  max-width: 50px;
+  font-size: 13px;
+}
+
+.wg-key.correct {
+  background: var(--wg-green);
+  color: var(--wg-on-green);
+}
+
+.wg-key.present {
+  background: var(--wg-yellow);
+  color: var(--wg-on-yellow);
+}
+
+.wg-key.absent {
+  background: transparent;
+  color: var(--wg-on-grey);
+}
+
+.wg-key:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* The finish sheet and the dialogs. */
+.wg-sheet {
+  display: grid;
+  gap: 18px;
+  margin-block-start: auto;
+  padding: 24px 22px max(24px, env(safe-area-inset-bottom));
+  border-radius: 24px 24px 0 0;
+  background: var(--wg-sheet);
+  box-shadow: 0 -10px 30px rgb(0 0 0 / 0.25);
+}
+
+.wg-sheet-body {
+  display: grid;
+  gap: 18px;
+}
+
+.wg-sheet h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.wg-sheet h2 + p {
+  margin-top: 6px;
+  color: var(--meta);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.wg-praise {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.wg-mini {
+  display: grid;
+  flex: none;
+  gap: 3px;
+}
+
+.wg-mini div {
+  display: grid;
+  grid-template-columns: repeat(5, 12px);
+  gap: 3px;
+}
+
+.wg-mini i {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--line);
+}
+
+.wg-mini i.correct {
+  background: var(--wg-green);
+}
+
+.wg-mini i.present {
+  background: var(--wg-yellow);
+}
+
+.wg-mini i.absent {
+  background: var(--wg-grey);
+}
+
+.wg-answer {
+  display: grid;
+  gap: 14px;
+  justify-items: start;
+}
+
+.wg-streak {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--bg);
+}
+
+.wg-streak-n {
+  min-width: 44px;
+  color: var(--ink);
+  font: 700 34px / 1 var(--f-head);
+  text-align: center;
+}
+
+.wg-streak-label {
+  display: grid;
+  gap: 2px;
+  color: var(--meta);
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.wg-streak-label small {
+  color: var(--meta2);
+  font-size: 12px;
+}
+
+.wg-week {
+  display: grid;
+  grid-template-columns: repeat(7, 22px);
+  gap: 4px;
+  margin: 0 0 0 auto;
+  padding: 0;
+  color: var(--meta);
+  font-size: 11px;
+  line-height: 1.2;
+  list-style: none;
+  text-align: center;
+}
+
+.wg-week i {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  background: var(--wg-grey);
+}
+
+.wg-week i.solved {
+  background: var(--wg-green);
+}
+
+.wg-week i.rest {
+  border: 2px dashed var(--line2);
+  background: transparent;
+}
+
+.wg-week i.none {
+  border: 1.5px solid var(--line);
+  background: transparent;
+}
+
+.wg-week i.open {
+  border: 1.5px solid var(--line2);
+  background: transparent;
+}
+
+.wg-week li:last-child i {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.wg-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.wg-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 52px;
+  border: 0;
+  border-radius: 14px;
+  background: var(--ink);
+  color: var(--bg);
+  font: 600 16px / 1 var(--f-body);
+  cursor: pointer;
+}
+
+.wg-next {
+  color: var(--meta);
+  font-size: 13px;
+  line-height: 1.25;
+  text-align: right;
+}
+
+.wg-next b {
+  display: block;
+  color: var(--ink);
+  font: 700 20px / 1.2 var(--f-head);
+  font-variant-numeric: tabular-nums;
+}
+
+.wg-news {
+  display: grid;
+  gap: 2px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font: 600 15.5px / 1.3 var(--f-body);
+  text-decoration: none;
+}
+
+.wg-news small {
+  color: var(--meta);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wg-note {
+  color: var(--meta);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.wg-dialog {
+  width: 100%;
+  max-width: 520px;
+  max-height: 100dvh;
+  margin: auto auto 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+}
+
+.wg-dialog .wg-sheet:focus {
+  outline: none;
+}
+
+.wg-dialog::backdrop {
+  background: var(--scrim);
+}
+
+.wg-dialog h2 {
+  font-size: 23px;
+}
+
+.wg-dialog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -6px -10px -6px 0;
+}
+
+.wg-ex {
+  display: grid;
+  gap: 8px;
+}
+
+.wg-ex p {
+  color: var(--ink2);
+  font-size: 15.5px;
+  line-height: 1.4;
+}
+
+.wg-ex b {
+  color: var(--ink);
+}
+
+.wg-stats {
+  display: grid;
+  gap: 18px;
+}
+
+.wg-totals {
+  display: flex;
+  gap: 32px;
+}
+
+.wg-totals dt {
+  color: var(--meta);
+  font-size: 13px;
+}
+
+.wg-totals dd {
+  margin: 0;
+  color: var(--ink);
+  font: 700 24px / 1.2 var(--f-head);
+}
+
+.wg-dist {
+  display: grid;
+  gap: 5px;
+}
+
+.wg-dist-title {
+  margin-bottom: 4px;
+  color: var(--meta);
+  font-size: 13px;
+}
+
+.wg-dist div {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  align-items: center;
+  gap: 8px;
+  color: var(--meta);
+  font: 600 13px / 1 var(--f-body);
+}
+
+.wg-dist span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 22px;
+  height: 18px;
+  padding-right: 6px;
+  border-radius: 4px;
+  background: var(--wg-grey);
+  color: var(--wg-on-grey);
+  font-size: 12px;
+}
+
+.wg-dist span.now {
+  background: var(--wg-green);
+  color: var(--wg-on-green);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .wg-row.reveal .wg-t {
+    animation: wg-flip 460ms var(--d, 0ms) ease-in-out both;
+  }
+
+  .wg-row.shake {
+    animation: wg-shake 360ms ease-out;
+  }
+
+  .wg-row.win .wg-t {
+    animation: wg-hop 420ms var(--d, 0ms) var(--ease-out) both;
+  }
+
+  .wg-t.pop {
+    animation: wg-pop 100ms ease-out;
+  }
+
+  .wg-msg.drop {
+    animation: wg-drop 180ms var(--ease-out);
+  }
+
+  .wg-sheet.rise {
+    animation: wg-rise 460ms var(--ease-out) both;
+  }
+
+  .wg-streak-n.bump {
+    animation: wg-bump 380ms var(--ease-out);
+  }
+
+  .wg-dialog[open] .wg-sheet {
+    animation: wg-rise 280ms var(--ease-out) both;
+  }
+}
+
+@keyframes wg-flip {
+  0%,
+  49.9% {
+    border-color: var(--ink2);
+    background: transparent;
+    color: var(--ink);
+  }
+
+  0% {
+    transform: rotateX(0);
+  }
+
+  50% {
+    transform: rotateX(90deg);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes wg-rise {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes wg-bump {
+  40% {
+    transform: scale(1.12);
+  }
+}
+
+@keyframes wg-shake {
+  20% {
+    transform: translateX(-7px);
+  }
+
+  40% {
+    transform: translateX(7px);
+  }
+
+  60% {
+    transform: translateX(-4px);
+  }
+
+  80% {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes wg-pop {
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+@keyframes wg-drop {
+  from {
+    transform: translateY(-4px);
+    opacity: 0;
+  }
+}
+
+@keyframes wg-hop {
+  35% {
+    transform: translateY(-8px);
+  }
+
+  70% {
+    transform: translateY(1px);
+  }
+}
+
+@media (width < 360px) {
+  .wg-row {
+    grid-template-columns: repeat(5, 46px);
+  }
+
+  .wg-t {
+    height: 46px;
+    font-size: 22px;
+  }
+}
