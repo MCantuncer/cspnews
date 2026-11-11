@@ -1,0 +1,178 @@
+---
+/** The privacy page: what CSPNews keeps, why, where, and how to download or delete it. */
+import Header from '../Header.astro';
+import Base from '../../layouts/Base.astro';
+import { accountPath } from '../../lib/account-words';
+import { PRIVACY_UPDATED, privacyPath, privacyText } from '../../lib/privacy';
+
+interface Props {
+  lang: 'en' | 'tr';
+}
+
+const { lang } = Astro.props;
+const t = privacyText(lang);
+const other = lang === 'tr' ? 'en' : 'tr';
+const updated = new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : 'en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${PRIVACY_UPDATED}T00:00:00Z`));
+---
+
+<Base title={`${t.title} | CSPNews`} lang={lang} description={t.intro}>
+  <Header bulletinName={t.title} lang={lang} />
+  <main class="privacy">
+    <h1>{t.title}</h1>
+    <p class="lead">{t.intro}</p>
+    <p class="meta">
+      {t.updated}: <time datetime={PRIVACY_UPDATED}>{updated}</time>{" · "}
+      <a href={privacyPath(other)} hreflang={other} lang={other}>
+        {other === 'tr' ? 'Türkçe' : 'English'}
+      </a>
+    </p>
+
+    <section>
+      <h2>{t.readingHeading}</h2>
+      {t.reading.map((p) => <p>{p}</p>)}
+    </section>
+
+    <section>
+      <h2>{t.accountHeading}</h2>
+      <p>{t.accountIntro}</p>
+      <dl class="rows">
+        {
+          t.rows.map((row) => (
+            <div class="row">
+              <dt>{row.item}</dt>
+              <dd>
+                {row.what}
+                <span class="why">{row.why}</span>
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+
+    <section>
+      <h2>{t.neverHeading}</h2>
+      <ul class="never">{t.never.map((item) => <li>{item}</li>)}</ul>
+    </section>
+
+    <section>
+      <h2>{t.cookiesHeading}</h2>
+      <dl class="rows">
+        {
+          t.cookies.map((row) => (
+            <div class="row">
+              <dt>{row.item}</dt>
+              <dd>
+                {row.what}
+                <span class="why">{row.why}</span>
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+      <p>{t.cookiesNote}</p>
+    </section>
+
+    <section>
+      <h2>{t.whereHeading}</h2>
+      {t.where.map((p) => <p>{p}</p>)}
+    </section>
+
+    <section>
+      <h2>{t.controlHeading}</h2>
+      {t.control.map((p) => <p>{p}</p>)}
+      <p><a href={accountPath(lang)}>{t.accountLink}</a></p>
+    </section>
+
+    <section>
+      <h2>{t.lawHeading}</h2>
+      {t.law.map((p) => <p>{p}</p>)}
+    </section>
+  </main>
+</Base>
+
+<style>
+  .privacy {
+    display: grid;
+    gap: 36px;
+    max-width: var(--measure);
+    padding: 36px var(--gutter) 72px;
+  }
+
+  h1 {
+    margin-bottom: -24px;
+    font-size: 34px;
+  }
+
+  .lead {
+    color: var(--ink);
+    font-size: calc(var(--text-size) + 2px);
+    line-height: 1.5;
+  }
+
+  .meta {
+    margin-top: -24px;
+    color: var(--meta);
+    font-size: 14px;
+  }
+
+  section {
+    display: grid;
+    gap: 12px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .rows {
+    display: grid;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: minmax(0, 9rem) minmax(0, 1fr);
+    gap: 4px 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  dt {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  dd {
+    display: grid;
+    gap: 2px;
+    margin: 0;
+  }
+
+  .why {
+    color: var(--meta);
+    font-size: 15px;
+  }
+
+  @media (max-width: 480px) {
+    .row {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  .never {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 6px 24px;
+    padding-left: 1.2em;
+  }
+
+  a {
+    color: var(--ink);
+    text-underline-offset: 3px;
+  }
+</style>

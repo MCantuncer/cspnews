@@ -165,3 +165,15 @@ describe('account words', () => {
     expect(accountPath('tr')).toBe('/account/tr');
   });
 });
+
+describe('the privacy page text', () => {
+  it('says the same things in both languages', async () => {
+    const { privacyText, privacyPath } = await import('./privacy.js');
+    const en = privacyText('en');
+    const tr = privacyText('tr');
+    expect(tr.rows).toHaveLength(en.rows.length);
+    expect(tr.cookies).toHaveLength(en.cookies.length);
+    expect(tr.never).toHaveLength(en.never.length);
+    expect(privacyPath('tr')).toBe('/privacy/tr');
+  });
+});
