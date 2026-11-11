@@ -1,7 +1,8 @@
 ---
 /**
  * A story's one visual (docs/design/system.md, "Visuals"). `full` sits on the story page with
- * its credit; `thumb` is the 64px square on a section's lead row in Contents.
+ * its credit; `wide` is the same 16:9 picture without a caption, for a section's lead in
+ * Contents; `thumb` is the small square beside every other row.
  */
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { wordsFor } from '../../lib/i18n';
@@ -13,12 +14,13 @@ interface Props {
   lang: InterfaceLanguage;
   /** The story's language, for numbers and captions taken from the story. */
   storyLang: 'en' | 'tr';
-  size?: 'full' | 'thumb';
+  size?: 'full' | 'wide' | 'thumb';
 }
 
 const { visual, lang, storyLang, size = 'full' } = Astro.props;
 const words = wordsFor(lang);
 const thumb = size === 'thumb';
+const captioned = size === 'full';
 
 const W = thumb ? 64 : 640;
 const H = thumb ? 64 : 360;
@@ -48,7 +50,7 @@ const chart =
           alt=""
           width={W}
           height={H}
-          loading={thumb ? 'lazy' : 'eager'}
+          loading={captioned ? 'eager' : 'lazy'}
           decoding="async"
         />
       )}
@@ -105,7 +107,7 @@ const chart =
         </span>
       )}
 
-      {!thumb && (
+      {captioned && (
         <figcaption>
           {visual.kind === 'photo' && (
             <>
@@ -141,7 +143,9 @@ const chart =
   }
 
   .full img,
-  .full.is-map svg {
+  .full.is-map svg,
+  .wide img,
+  .wide.is-map svg {
     aspect-ratio: 16 / 9;
     border-radius: 6px;
     background: var(--surf);
