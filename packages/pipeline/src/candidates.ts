@@ -2,6 +2,8 @@ import type { Camp, Section, Source, Tier } from '@cspnews/core';
 import type { Story } from '@cspnews/grouping';
 import { evidenceFor, type Evidence, type EvidenceLabel } from '@cspnews/verify';
 
+import { pickImage, type StoryImage } from './image.js';
+
 /**
  * Candidates file: everything the scheduled Verify and Write run needs for one bulletin,
  * as plain JSON. Rules did the collecting, grouping and labelling; the run reads this,
@@ -25,6 +27,8 @@ export interface Candidate {
   readonly score: number;
   readonly firstSeenAt: string;
   readonly lastUpdatedAt: string;
+  /** The story's picture with its credit; absent when no outlet had a real photo. */
+  readonly image?: StoryImage;
   readonly sources: readonly CandidateSource[];
   readonly articles: readonly CandidateArticle[];
 }
@@ -84,6 +88,7 @@ export function toCandidates(
     const evidence = evidenceFor(story, sources, { now });
     const confirming = new Set(evidence.confirmingSourceIds);
     const sourceIds = [...new Set(story.articles.map((member) => member.article.sourceId))];
+    const image = pickImage(story, sources, evidence.confirmingSourceIds);
     const candidate: Candidate = {
       storyId: story.id,
       language: story.language,
@@ -93,6 +98,7 @@ export function toCandidates(
       score: scoreStory(story, evidence, now),
       firstSeenAt: story.firstSeenAt.toISOString(),
       lastUpdatedAt: story.lastUpdatedAt.toISOString(),
+      ...(image ? { image } : {}),
       sources: sourceIds.flatMap((id) => {
         const source = sources.get(id);
         return source
