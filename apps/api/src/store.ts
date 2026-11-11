@@ -11,6 +11,8 @@ import {
   sessionExpiry,
 } from '@cspnews/accounts';
 import type {
+  GameLanguage,
+  GameResult,
   InterfaceLanguage,
   ProfilePatch,
   ReaderProfile,
@@ -252,11 +254,18 @@ export async function exportAccount(db: D1Database, accountId: string) {
     .prepare('SELECT id, backed_up, created_at, last_used_at FROM passkeys WHERE account_id = ?')
     .bind(accountId)
     .all();
+  const games = await db
+    .prepare(
+      'SELECT lang, day, tries, solved, saved_at FROM game_results WHERE account_id = ? ORDER BY lang, day',
+    )
+    .bind(accountId)
+    .all();
   return {
     account,
     identities: identities.results,
     passkeys: passkeys.results,
     sessions: sessions.results,
+    wordGame: games.results,
   };
 }
 
@@ -267,6 +276,7 @@ export async function deleteAccount(db: D1Database, accountId: string): Promise<
     db.prepare('DELETE FROM identities WHERE account_id = ?').bind(accountId),
     db.prepare('DELETE FROM passkeys WHERE account_id = ?').bind(accountId),
     db.prepare('DELETE FROM passkey_challenges WHERE account_id = ?').bind(accountId),
+    db.prepare('DELETE FROM game_results WHERE account_id = ?').bind(accountId),
     db.prepare('DELETE FROM accounts WHERE id = ?').bind(accountId),
   ]);
 }
@@ -445,4 +455,45 @@ export async function takeChallenge(
     .first<{ purpose: string; account_id: string | null; existing: number; expires_at: string }>();
   if (row?.purpose !== purpose || new Date(row.expires_at) <= now) return null;
   return { purpose, challenge, accountId: row.account_id, existing: row.existing === 1 };
+}
+
+interface GameResultRow {
+  day: string;
+  tries: number;
+  solved: number;
+}
+
+/** The account's finished word game days in one language, oldest first. */
+export async function listGameResults(
+  db: D1Database,
+  accountId: string,
+  lang: GameLanguage,
+): Promise<GameResult[]> {
+  const rows = await db
+    .prepare(
+      'SELECT day, tries, solved FROM game_results WHERE account_id = ? AND lang = ? ORDER BY day',
+    )
+    .bind(accountId, lang)
+    .all<GameResultRow>();
+  return rows.results.map((row) => ({ day: row.day, tries: row.tries, solved: row.solved === 1 }));
+}
+
+/** Saves new days. A day that is already saved keeps its first result. */
+export async function addGameResults(
+  db: D1Database,
+  accountId: string,
+  lang: GameLanguage,
+  results: readonly GameResult[],
+  now: Date,
+): Promise<void> {
+  if (results.length === 0) return;
+  await db.batch(
+    results.map((result) =>
+      db
+        .prepare(
+          'INSERT OR IGNORE INTO game_results (account_id, lang, day, tries, solved, saved_at) VALUES (?, ?, ?, ?, ?, ?)',
+        )
+        .bind(accountId, lang, result.day, result.tries, result.solved ? 1 : 0, now.toISOString()),
+    ),
+  );
 }

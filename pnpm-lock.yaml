@@ -38,6 +38,9 @@ importers:
       '@cspnews/accounts':
         specifier: workspace:*
         version: link:../../packages/accounts
+      '@cspnews/wordgame':
+        specifier: workspace:*
+        version: link:../../packages/wordgame
       '@simplewebauthn/server':
         specifier: 14.0.3
         version: 14.0.3

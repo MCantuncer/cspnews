@@ -30,6 +30,13 @@ export interface Profile {
   readonly signInMethods: readonly ('google' | 'passkey')[];
 }
 
+/** One finished word game day, as the API keeps it. */
+export interface WordResult {
+  readonly day: string;
+  readonly tries: number;
+  readonly solved: boolean;
+}
+
 export interface PasskeyInfo {
   readonly id: string;
   readonly backedUp: boolean;
@@ -189,6 +196,9 @@ export function accountApi(base: string, fetcher: typeof fetch = fetch.bind(glob
     registerVerify: (response: unknown) =>
       call<{ result: 'welcome' | 'added' }>('POST', '/auth/passkey/register/verify', response),
     loginOptions: () => call<unknown>('POST', '/auth/passkey/login/options'),
+    /** Sends finished word game days; answers with every day saved to the account. */
+    syncGame: (lang: 'en' | 'tr', results: readonly WordResult[]) =>
+      call<{ results: WordResult[] }>('POST', `/me/game/${lang}`, { results }),
     loginVerify: (response: unknown) =>
       call<{ result: 'signed-in' }>('POST', '/auth/passkey/login/verify', response),
   };
