@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSPNews Type Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700&family=Schibsted+Grotesk:wght@500;700;800&family=Funnel+Display:wght@500;700;800&family=Funnel+Sans:wght@400;500;700&family=Familjen+Grotesk:wght@500;600;700&family=Mona+Sans:wdth,wght@75..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#121110; --surface:#1a1816; --line:#2c2925; --ink:#f1ece4; --ink2:#d6cfc4; --muted:#b9b1a5; --hour:#e9a25a;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){--bg:#f4f0e8;--surface:#fbf8f2;--line:#e1dace;--ink:#191714;--ink2:#36312b;--muted:#514a41;--hour:#a2541a}
+}
+:root[data-theme="light"]{--bg:#f4f0e8;--surface:#fbf8f2;--line:#e1dace;--ink:#191714;--ink2:#36312b;--muted:#514a41;--hour:#a2541a}
+:root[data-theme="dark"]{--bg:#121110;--surface:#1a1816;--line:#2c2925;--ink:#f1ece4;--ink2:#d6cfc4;--muted:#b9b1a5;--hour:#e9a25a}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:500 16px/1.55 "Atkinson Hyperlegible Next",system-ui,sans-serif;font-variant-numeric:tabular-nums;padding:48px 16px 64px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:40px}
+header h1{font:700 32px/1.15 "Atkinson Hyperlegible Next";letter-spacing:-.01em}
+header p{color:var(--ink2);max-width:62ch;margin-top:12px}
+.opt{border-top:3px solid var(--hour);background:var(--surface);padding:32px 28px 36px;display:grid;grid-template-columns:260px 1fr;gap:40px}
+@media (max-width:820px){.opt{grid-template-columns:1fr;gap:24px;padding:24px 20px 28px}}
+.meta .k{font-size:15px;color:var(--muted)}
+.meta h2{font:700 24px/1.2 "Atkinson Hyperlegible Next";margin:6px 0 10px}
+.meta p{color:var(--ink2);font-size:15px}
+.meta .rec{display:inline-block;margin-top:14px;font-weight:700;color:var(--hour)}
+.mark{font-size:30px;line-height:1;margin-bottom:22px;letter-spacing:-.02em}
+.mark b{font-weight:800}
+.mark span{font-weight:500}
+.spec h3{font-size:40px;line-height:1.08;letter-spacing:-.022em;max-width:20ch}
+.spec .en{font-size:28px;line-height:1.15;letter-spacing:-.015em;margin-top:22px;max-width:28ch}
+.spec .gist{font-size:18px;line-height:1.55;color:var(--ink2);margin-top:18px;max-width:62ch}
+.spec .gist b{color:var(--ink);font-weight:700}
+.facts{display:flex;flex-wrap:wrap;gap:12px 40px;margin-top:26px}
+.facts div{display:grid}
+.facts strong{font-size:34px;line-height:1.1;letter-spacing:-.02em}
+.facts small{font-size:14px;color:var(--muted)}
+.shorts{margin-top:26px;border-top:1px solid var(--line)}
+.shorts li{list-style:none;padding:12px 0;border-bottom:1px solid var(--line);font-size:18px}
+.chars{margin-top:20px;font-size:22px;color:var(--ink2);word-break:break-word}
+@media (max-width:820px){.spec h3{font-size:30px}.spec .en{font-size:23px}.facts strong{font-size:28px}}
+/* families */
+.a .d{font-family:"Schibsted Grotesk";font-weight:800}
+.a .b{font-family:"Atkinson Hyperlegible Next"}
+.b .d{font-family:"Funnel Display";font-weight:700}
+.b .b{font-family:"Funnel Sans"}
+.c .d{font-family:"Familjen Grotesk";font-weight:700}
+.c .b{font-family:"Atkinson Hyperlegible Next"}
+.dd .d{font-family:"Mona Sans";font-weight:760;font-stretch:112%}
+.dd .b{font-family:"Mona Sans";font-stretch:100%;font-weight:430}
+.d{font-variant-numeric:proportional-nums lining-nums}
+.shorts{padding:0}
+.note{color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Type options for CSPNews</h1>
+  <p>The same illustrative stories set four ways, including the Turkish letters ş, ğ, ı, İ and ç. The top line in each option is the headline face, the paragraph is the reading face. All are free Google Fonts with full Turkish support, so the site can self-host them. A custom-drawn CSPNews wordmark can sit on top of whichever you choose.</p>
+</header>
+
+<section class="opt a">
+  <div class="meta">
+    <div class="k">A, current</div>
+    <h2>Schibsted Grotesk + Atkinson</h2>
+    <p>Drawn for a Norwegian news publisher. Sturdy and a little narrow; reads like a newsroom, not a startup. Atkinson is built for legibility.</p>
+  </div>
+  <div class="spec">
+    <div class="mark d"><b>CSP</b><span>News</span></div>
+    <h3 class="d">Merkez Bankası faizi yüzde 31,5’e indirdi; piyasa şaşırdı</h3>
+    <p class="en d">EU fines a major cloud provider €1.2B under the Digital Markets Act</p>
+    <p class="gist b">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b>yüzde 29,8</b>’e gerilemesi gerekçe gösterildi. İstanbul’da <b>M2</b> hattında seferler <b>40 dakika</b> aksadı.</p>
+    <div class="facts d"><div><strong>%31,5</strong><small class="b">Politika faizi</small></div><div><strong>−150 bp</strong><small class="b">İndirim</small></div><div><strong>€1.2B</strong><small class="b">EU fine</small></div></div>
+    <ul class="shorts b"><li>Malatya’da 4,9 deprem</li><li>Japan snap election 14 Dec</li></ul>
+  </div>
+</section>
+
+<section class="opt b">
+  <div class="meta">
+    <div class="k">B</div>
+    <h2>Funnel Display + Funnel Sans</h2>
+    <p>One family from 2024, still rarely seen. Squared-off curves give it a voice of its own; the Sans keeps the same shapes calm for reading.</p>
+    <span class="rec">Recommended</span>
+  </div>
+  <div class="spec">
+    <div class="mark d"><b>CSP</b><span>News</span></div>
+    <h3 class="d">Merkez Bankası faizi yüzde 31,5’e indirdi; piyasa şaşırdı</h3>
+    <p class="en d">EU fines a major cloud provider €1.2B under the Digital Markets Act</p>
+    <p class="gist b">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b>yüzde 29,8</b>’e gerilemesi gerekçe gösterildi. İstanbul’da <b>M2</b> hattında seferler <b>40 dakika</b> aksadı.</p>
+    <div class="facts d"><div><strong>%31,5</strong><small class="b">Politika faizi</small></div><div><strong>−150 bp</strong><small class="b">İndirim</small></div><div><strong>€1.2B</strong><small class="b">EU fine</small></div></div>
+    <ul class="shorts b"><li>Malatya’da 4,9 deprem</li><li>Japan snap election 14 Dec</li></ul>
+  </div>
+</section>
+
+<section class="opt c">
+  <div class="meta">
+    <div class="k">C</div>
+    <h2>Familjen Grotesk + Atkinson</h2>
+    <p>A Scandinavian grotesk with ink-trap details and a slightly quirky g and a. Warm and editorial without looking like a newspaper.</p>
+  </div>
+  <div class="spec">
+    <div class="mark d"><b>CSP</b><span>News</span></div>
+    <h3 class="d">Merkez Bankası faizi yüzde 31,5’e indirdi; piyasa şaşırdı</h3>
+    <p class="en d">EU fines a major cloud provider €1.2B under the Digital Markets Act</p>
+    <p class="gist b">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b>yüzde 29,8</b>’e gerilemesi gerekçe gösterildi. İstanbul’da <b>M2</b> hattında seferler <b>40 dakika</b> aksadı.</p>
+    <div class="facts d"><div><strong>%31,5</strong><small class="b">Politika faizi</small></div><div><strong>−150 bp</strong><small class="b">İndirim</small></div><div><strong>€1.2B</strong><small class="b">EU fine</small></div></div>
+    <ul class="shorts b"><li>Malatya’da 4,9 deprem</li><li>Japan snap election 14 Dec</li></ul>
+  </div>
+</section>
+
+<section class="opt dd">
+  <div class="meta">
+    <div class="k">D</div>
+    <h2>Mona Sans, wide headlines</h2>
+    <p>One variable family with a width axis: slightly wide, heavy headlines and normal-width reading text. Confident and modern; the width becomes the signature.</p>
+  </div>
+  <div class="spec">
+    <div class="mark d"><b>CSP</b><span>News</span></div>
+    <h3 class="d">Merkez Bankası faizi yüzde 31,5’e indirdi; piyasa şaşırdı</h3>
+    <p class="en d">EU fines a major cloud provider €1.2B under the Digital Markets Act</p>
+    <p class="gist b">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b>yüzde 29,8</b>’e gerilemesi gerekçe gösterildi. İstanbul’da <b>M2</b> hattında seferler <b>40 dakika</b> aksadı.</p>
+    <div class="facts d"><div><strong>%31,5</strong><small class="b">Politika faizi</small></div><div><strong>−150 bp</strong><small class="b">İndirim</small></div><div><strong>€1.2B</strong><small class="b">EU fine</small></div></div>
+    <ul class="shorts b"><li>Malatya’da 4,9 deprem</li><li>Japan snap election 14 Dec</li></ul>
+  </div>
+</section>
+<p class="note">Illustrative stories. Fonts load from Google Fonts here; the site will self-host them.</p>
+</div>
+</body>
+</html>
