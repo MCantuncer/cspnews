@@ -49,6 +49,13 @@ export const DEFAULT_GROUP_OPTIONS: Required<GroupOptions> = {
   maxGapHours: 36,
 };
 
+/**
+ * Copy detection needs enough text to tell copying from coincidence: two outlets often
+ * write the same short headline ("Malatya'da 5,8 büyüklüğünde deprem") independently.
+ * Below this many 3-word phrases, an article is never marked as a copy.
+ */
+const MIN_SHINGLES_FOR_COPY = 8;
+
 /** Only the start of the summary: it carries the facts; the rest drifts into background. */
 const SUMMARY_LEAD_LENGTH = 300;
 
@@ -147,6 +154,7 @@ export function groupStories(articles: readonly Article[], options: GroupOptions
     const original = best.prepared.find(
       (earlier) =>
         earlier.article.sourceId !== item.article.sourceId &&
+        Math.min(earlier.shingles.size, item.shingles.size) >= MIN_SHINGLES_FOR_COPY &&
         containment(earlier.shingles, item.shingles) >= copyThreshold,
     );
     best.members.push(

@@ -147,3 +147,14 @@ describe('groupStories', () => {
     expect(groupStories([])).toEqual([]);
   });
 });
+
+describe('copy detection', () => {
+  it('does not mark two outlets with the same short headline as copies', () => {
+    const [quake] = groupStories([
+      article('aa-tr', '08:00', 'Malatya’da 5,8 büyüklüğünde deprem'),
+      article('ntv', '08:05', 'Malatya’da 5,8 büyüklüğünde deprem'),
+    ]);
+    expect(quake?.articles.map((member) => member.copyOf)).toEqual([undefined, undefined]);
+    expect(quake && reportingSourceIds(quake)).toEqual(['aa-tr', 'ntv']);
+  });
+});

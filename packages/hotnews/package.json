@@ -1,0 +1,22 @@
+{
+  "name": "@cspnews/hotnews",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@cspnews/core": "workspace:*",
+    "@cspnews/grouping": "workspace:*",
+    "@cspnews/verify": "workspace:*"
+  }
+}
