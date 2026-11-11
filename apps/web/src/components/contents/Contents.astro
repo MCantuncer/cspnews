@@ -17,8 +17,10 @@ import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatTime } from '../../lib/format';
 import { nextBulletinAt, sectionName, wordsFor } from '../../lib/i18n';
 import type { IconName } from '../../lib/icons';
+import { storyVisual } from '../../lib/story-visual';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
+import VisualView from '../visual/Visual.astro';
 
 interface Props {
   published: PublishedBulletin;
@@ -52,6 +54,7 @@ const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).pub
             </li>
             {group.stories.map(({ story }, i) => {
               const current = story.id === currentId;
+              const visual = i === 0 && !compact ? storyVisual(story) : undefined;
               return (
                 <li
                   class:list={['row', { lead: i === 0, current }]}
@@ -62,6 +65,9 @@ const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).pub
                     aria-current={current ? 'page' : undefined}
                     lang={story.language}
                   >
+                    {visual && visual.kind !== 'none' && (
+                      <VisualView visual={visual} lang={lang} storyLang={story.language} size="thumb" />
+                    )}
                     <span class="title">{story.shortTitle}</span>
                     <EvidenceMark label={story.label} lang={lang} variant="glyph" />
                   </a>

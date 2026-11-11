@@ -34,6 +34,10 @@ const WORDS = {
     noBulletin: 'No bulletin yet',
     noBulletinBody: 'The first bulletin appears here as soon as it is published.',
     contents: 'Contents',
+    before: 'Before',
+    now: 'Now',
+    photo: 'Photo',
+    logo: 'Logo',
   },
   tr: {
     bulletin: {
@@ -62,6 +66,10 @@ const WORDS = {
     noBulletin: 'Henüz bülten yok',
     noBulletinBody: 'İlk bülten yayımlanır yayımlanmaz burada görünür.',
     contents: 'İçindekiler',
+    before: 'Önce',
+    now: 'Şimdi',
+    photo: 'Fotoğraf',
+    logo: 'Logo',
   },
 } as const;
 

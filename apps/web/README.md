@@ -9,7 +9,7 @@ pnpm --filter @cspnews/web typecheck  # astro check
 pnpm --filter @cspnews/web dev:sample # the dev server with the sample bulletin
 ```
 
-Bulletins are read at build time from `data/bulletins/<yyyy-mm-dd>-<slot>.json` at the repository root, or from the folder in `CSPNEWS_BULLETINS`. Each file is validated with `parseBulletin`; a bad file stops the build. `fixtures/bulletins` holds an illustrative sample (not real reporting) for development and tests.
+Bulletins are read at build time from `data/bulletins/<yyyy-mm-dd>-<slot>.json` at the repository root, or from the folder in `CSPNEWS_BULLETINS`. Each file is validated with `parseBulletin`; a bad file stops the build. Photos and organisation logos are served from the site, never hot-linked: the publishing run saves them in `<bulletins>/media` (`<story id>.jpg` for a story's photo, `org/<org id>.svg` for a logo), and the build copies that folder to `/media`. Locator maps are drawn at build time from Natural Earth shapes (`world-atlas`). `fixtures/bulletins` holds an illustrative sample (not real reporting) for development and tests.
 
 | Path             | What lives there                                           |
 | ---------------- | ---------------------------------------------------------- |
