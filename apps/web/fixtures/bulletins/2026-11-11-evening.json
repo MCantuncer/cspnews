@@ -281,7 +281,13 @@
         }
       ],
       "publishedAt": "2026-11-11T18:30:00+03:00",
-      "updatedAt": "2026-11-11T18:30:00+03:00"
+      "updatedAt": "2026-11-11T18:30:00+03:00",
+      "image": {
+        "url": "https://techcrunch.com/example-photo.jpg",
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "articleUrl": "https://techcrunch.com/"
+      }
     },
     {
       "id": "doha-talks-resume",

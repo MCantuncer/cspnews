@@ -1,10 +1,57 @@
+import { cpSync, createReadStream, existsSync, statSync } from 'node:fs';
+import { extname, join, normalize, resolve, sep } from 'node:path';
+import process from 'node:process';
+import { fileURLToPath } from 'node:url';
+
 import { defineConfig } from 'astro/config';
+
+// Photos and logos saved next to the bulletins (src/lib/media.ts), served at /media.
+const bulletins = resolve(
+  process.env.CSPNEWS_BULLETINS ?? resolve(process.cwd(), '../../data/bulletins'),
+);
+const media = join(bulletins, 'media');
+const TYPES = new Map([
+  ['.avif', 'image/avif'],
+  ['.jpeg', 'image/jpeg'],
+  ['.jpg', 'image/jpeg'],
+  ['.png', 'image/png'],
+  ['.svg', 'image/svg+xml'],
+  ['.webp', 'image/webp'],
+]);
+
+/** @type {import('astro').AstroIntegration} */
+const bulletinMedia = {
+  name: 'cspnews-bulletin-media',
+  hooks: {
+    'astro:server:setup': ({ server }) => {
+      server.middlewares.use('/media', (req, res, next) => {
+        const file = normalize(join(media, decodeURIComponent((req.url ?? '/').split('?')[0])));
+        const type = TYPES.get(extname(file));
+        if (
+          !file.startsWith(media + sep) ||
+          !type ||
+          !existsSync(file) ||
+          !statSync(file).isFile()
+        ) {
+          next();
+          return;
+        }
+        res.setHeader('content-type', type);
+        createReadStream(file).pipe(res);
+      });
+    },
+    'astro:build:done': ({ dir }) => {
+      if (existsSync(media)) cpSync(media, join(fileURLToPath(dir), 'media'), { recursive: true });
+    },
+  },
+};
 
 // A static site: every bulletin is built into plain pages when it is published (see docs/design/system.md).
 export default defineConfig({
   output: 'static',
   trailingSlash: 'never',
   build: { format: 'file' },
+  integrations: [bulletinMedia],
   vite: {
     resolve: {
       // Use workspace packages' TypeScript source, so the site builds without building them first.
