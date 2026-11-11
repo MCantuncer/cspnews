@@ -12,11 +12,13 @@
     "build:sample": "CSPNEWS_BULLETINS=fixtures/bulletins astro build"
   },
   "dependencies": {
+    "@cspnews/accounts": "workspace:*",
     "@cspnews/config": "workspace:*",
     "@cspnews/core": "workspace:*",
     "@cspnews/wordgame": "workspace:*",
     "@fontsource/funnel-display": "5.3.0",
     "@fontsource/funnel-sans": "5.3.0",
+    "@simplewebauthn/browser": "14.0.0",
     "astro": "7.4.2"
   },
   "devDependencies": {

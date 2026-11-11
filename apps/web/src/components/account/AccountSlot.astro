@@ -1,0 +1,143 @@
+---
+/**
+ * The account corner of the header: "Sign in" for signed-out readers, the reader's avatar once
+ * signed in (it opens the account page). Also holds the sign-in sheet and the avatar sheet.
+ *
+ * It is only drawn when the accounts API is configured (PUBLIC_CSPNEWS_API), so the site works as
+ * before without it. Signed-out readers make no API call: the page asks for the profile only when
+ * the API's "signed in" hint cookie is there (see src/lib/account.ts).
+ */
+import Icon from '../ui/Icon.astro';
+import GoogleMark from './GoogleMark.astro';
+import { apiBase } from '../../lib/account';
+import { accountPath, accountWords } from '../../lib/account-words';
+import '../../styles/account.css';
+
+interface Props {
+  lang?: 'en' | 'tr';
+}
+
+const { lang = 'en' } = Astro.props;
+const api = apiBase();
+const words = accountWords(lang);
+---
+
+{
+  api && (
+    <div class="acc-slot" data-account data-api={api} data-lang={lang}>
+      <button type="button" class="acc-signin" data-account-signin>
+        {words.signIn}
+      </button>
+      <a
+        class="acc-me"
+        href={accountPath(lang)}
+        data-account-me
+        aria-label={words.yourAccount}
+      >
+        <span class="acc-me-avatar" data-account-avatar />
+      </a>
+
+      <dialog class="acc-dialog" data-account-dialog aria-labelledby="acc-title">
+        <div class="acc-sheet" tabindex="-1">
+          <form method="dialog" class="acc-close">
+            <button type="submit" class="acc-icon-button" aria-label={words.close}>
+              <Icon name="close" size={22} />
+            </button>
+          </form>
+
+          <section class="acc-view" data-view="signin">
+            <div class="acc-line" aria-hidden="true">
+              <div class="acc-line-track" data-line />
+            </div>
+            <h2 id="acc-title">{words.sheetTitle}</h2>
+            <ul class="acc-syncs">
+              <li>
+                <Icon name="contents" size={22} />
+                {words.syncReading}
+              </li>
+              <li>
+                <Icon name="settings" size={22} />
+                {words.syncSettings}
+              </li>
+              <li>
+                <Icon name="streak" size={22} />
+                {words.syncStreak}
+              </li>
+            </ul>
+            <div class="acc-buttons">
+              <a class="acc-google" href={`${api}/auth/google`} data-google>
+                <GoogleMark />
+                {words.google}
+              </a>
+              <button type="button" class="acc-button" data-passkey-login>
+                <Icon name="passkey" size={20} />
+                <span data-label>{words.passkey}</span>
+              </button>
+            </div>
+            <div class="acc-create" data-create hidden>
+              <p>{words.noPasskey}</p>
+              <button type="button" class="acc-button" data-passkey-create>
+                <Icon name="passkey" size={20} />
+                <span data-label>{words.createPasskey}</span>
+              </button>
+            </div>
+            <p class="acc-note" data-note role="status" />
+            <p class="acc-small">{words.promise}</p>
+          </section>
+
+          <section
+            class="acc-view"
+            data-view="avatar"
+            hidden
+            data-title-welcome={words.yourStop}
+            data-title-edit={words.editTitle}
+            data-done-welcome={words.done}
+            data-done-edit={words.save}
+            data-ok-google={words.signedInGoogle}
+            data-ok-passkey={words.signedInPasskey}
+          >
+            <p class="acc-ok" data-ok hidden>
+              <Icon name="tick" size={18} />
+              <span data-ok-text />
+            </p>
+            <div class="acc-hero" aria-hidden="true">
+              <span data-hero />
+            </div>
+            <div class="acc-center">
+              <h2 data-avatar-title>{words.yourStop}</h2>
+              <p class="acc-sub" data-avatar-sub>
+                {words.pickedForYou}
+              </p>
+            </div>
+            <div class="acc-alts" role="radiogroup" aria-label={words.avatarChosen} data-alts />
+            <button type="button" class="acc-quiet" data-shuffle>
+              <Icon name="shuffle" size={18} />
+              {words.shuffle}
+            </button>
+            <label class="acc-field">
+              <span>{words.nameLabel}</span>
+              <input
+                type="text"
+                maxlength="40"
+                autocomplete="nickname"
+                placeholder={words.namePlaceholder}
+                data-name
+              />
+            </label>
+            <p class="acc-note" data-avatar-note role="status" />
+            <button type="button" class="acc-button acc-primary" data-avatar-done>
+              {words.done}
+            </button>
+          </section>
+        </div>
+      </dialog>
+    </div>
+  )
+}
+
+<script>
+  import { startAccount } from '../../lib/account-ui';
+
+  const slot = document.querySelector<HTMLElement>('[data-account]');
+  if (slot) startAccount(slot);
+</script>

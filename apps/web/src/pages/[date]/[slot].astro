@@ -30,7 +30,7 @@ const name = bulletinName(published.slot, lang);
   hour={editionHourFor(published.slot)}
   lang={lang}
 >
-  <Header />
+  <Header lang={lang} />
   <HotLine lang={lang} />
   <BulletinContents published={published} lang={lang} />
 </Base>

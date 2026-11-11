@@ -8,6 +8,11 @@
       "source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./avatar": {
+      "source": "./src/avatar.ts",
+      "types": "./dist/avatar.d.ts",
+      "default": "./dist/avatar.js"
     }
   },
   "scripts": {
