@@ -30,16 +30,16 @@ These should make CSPNews feel like its own product. They're starting points for
 
 ## Screens to design
 
-| Screen | Features |
-| --- | --- |
-| Bulletin reader (phone and desktop) | F-03, F-04, F-05, F-06, F-08 |
-| Evidence drawer | F-07 |
-| Hot News strip and Developing state | F-11 |
-| "You're caught up" | F-03 |
-| Monitor | F-12 |
-| Settings: language, theme, text size, ruler | F-09, F-10, F-18 |
-| Archive | F-16 |
-| Loading, empty, error and stale states for each of the above | All |
+| Screen                                                       | Features                     |
+| ------------------------------------------------------------ | ---------------------------- |
+| Bulletin reader (phone and desktop)                          | F-03, F-04, F-05, F-06, F-08 |
+| Evidence drawer                                              | F-07                         |
+| Hot News strip and Developing state                          | F-11                         |
+| "You're caught up"                                           | F-03                         |
+| Monitor                                                      | F-12                         |
+| Settings: language, theme, text size, ruler                  | F-09, F-10, F-18             |
+| Archive                                                      | F-16                         |
+| Loading, empty, error and stale states for each of the above | All                          |
 
 ## How the design is made
 
