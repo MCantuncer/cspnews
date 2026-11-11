@@ -1,15 +1,5 @@
-import type { Source, Tier } from '@cspnews/core';
+import type { Source, StoryImage, Tier } from '@cspnews/core';
 import type { Story } from '@cspnews/grouping';
-
-/** The picture shown with a story, always with credit to the outlet it came from. */
-export interface StoryImage {
-  readonly url: string;
-  /** Outlet that published the picture, shown as the credit line. */
-  readonly sourceId: string;
-  readonly sourceName: string;
-  /** Article the picture belongs to; the credit links there. */
-  readonly articleUrl: string;
-}
 
 const TIER_ORDER: readonly Tier[] = ['wire', 'established', 'partisan', 'low'];
 

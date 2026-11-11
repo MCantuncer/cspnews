@@ -1,8 +1,8 @@
-import type { Camp, Section, Source, Tier } from '@cspnews/core';
+import type { Camp, Section, Source, StoryImage, Tier } from '@cspnews/core';
 import type { Story } from '@cspnews/grouping';
 import { evidenceFor, type Evidence, type EvidenceLabel } from '@cspnews/verify';
 
-import { pickImage, type StoryImage } from './image.js';
+import { pickImage } from './image.js';
 
 /**
  * Candidates file: everything the scheduled Verify and Write run needs for one bulletin,
