@@ -1,8 +1,8 @@
 ---
 /**
  * The evidence line under the headline: the mark with its word, then up to three outlets by
- * name and a count for the rest (docs/design/system.md, "Badges"). It will open the evidence
- * drawer (step 7); for now it is a plain line.
+ * name and a count for the rest (docs/design/system.md, "Badges"). It opens the evidence
+ * drawer with the camp map.
  */
 import type { EvidenceLabel, InterfaceLanguage } from '../../lib/evidence';
 import { evidenceSummary } from '../../lib/i18n';
@@ -15,21 +15,30 @@ interface Props {
   developing: boolean;
   lang: InterfaceLanguage;
   developingWord: string;
+  /** The id of the evidence drawer this line opens. */
+  drawerId: string;
+  openLabel: string;
 }
 
-const { label, outlets, developing, lang, developingWord } = Astro.props;
+const { label, outlets, developing, lang, developingWord, drawerId, openLabel } = Astro.props;
 const SHOWN = 3;
 const shown = outlets.slice(0, SHOWN);
 const rest = outlets.length - shown.length;
 ---
 
-<p class="evidence" aria-label={evidenceSummary(label, outlets, SHOWN, lang)}>
+<button
+  type="button"
+  class="evidence"
+  popovertarget={drawerId}
+  aria-label={`${evidenceSummary(label, outlets, SHOWN, lang)}. ${openLabel}`}
+>
   <span aria-hidden="true" class="mark"><EvidenceMark label={label} lang={lang} /></span>
   <span aria-hidden="true" class="outlets">
     {shown.join(', ')}
     {rest > 0 && <span class="rest">+{rest}</span>}
   </span>
-</p>
+  <Icon name="more" size={18} class="chevron" />
+</button>
 {
   developing && (
     <p class="developing">
@@ -43,11 +52,22 @@ const rest = outlets.length - shown.length;
   .evidence {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     gap: 4px 12px;
-    margin-top: 16px;
+    min-height: 44px;
+    margin: 12px 0 0 -8px;
+    padding: 6px 8px;
+    border: 0;
+    border-radius: 10px;
+    background: none;
     color: var(--ink);
     font: 600 15px / 1.4 var(--f-body);
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .evidence:hover {
+    background: var(--surf);
   }
 
   .mark :global(.ev) {
@@ -56,6 +76,10 @@ const rest = outlets.length - shown.length;
 
   .rest {
     margin-left: 6px;
+    color: var(--meta);
+  }
+
+  .evidence :global(.chevron) {
     color: var(--meta);
   }
 
