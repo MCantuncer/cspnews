@@ -60,6 +60,15 @@ importers:
         specifier: workspace:*
         version: link:../core
 
+  packages/verify:
+    dependencies:
+      '@cspnews/core':
+        specifier: workspace:*
+        version: link:../core
+      '@cspnews/grouping':
+        specifier: workspace:*
+        version: link:../grouping
+
 packages:
 
   '@cacheable/memory@2.2.0':
