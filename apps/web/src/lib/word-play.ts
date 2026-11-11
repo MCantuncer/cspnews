@@ -27,6 +27,7 @@ import {
   GAME_PATHS,
   countdown,
   gameWordsFor,
+  lostLineFor,
   msUntilNextWord,
   parseResults,
   parseSavedGame,
@@ -346,7 +347,10 @@ export function startWordGame(root: HTMLElement): void {
           ? words.newStreak
           : words.tryTomorrow;
       const text = element('div');
-      text.append(element('h2', undefined, words.notToday), element('p', undefined, note));
+      text.append(
+        element('h2', undefined, lostLineFor(today, language)),
+        element('p', undefined, note),
+      );
       reveal.append(row, text);
       sheetBody.append(reveal);
     }

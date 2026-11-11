@@ -53,10 +53,17 @@ const WORDS = {
       'Last try. Made it.',
     ],
     solvedIn: (n: number) => `Solved in ${String(n)} of ${String(MAX_TRIES)}`,
-    notToday: 'Not today.',
-    restDayKept: 'This week’s rest day keeps your streak.',
-    newStreak: 'A new streak starts tomorrow.',
-    tryTomorrow: 'A new word comes at midnight.',
+    lost: [
+      'The word got away.',
+      'Today the word won.',
+      'The word hid well today.',
+      'Six tries, zero mercy.',
+      'The word was one step ahead.',
+      'Not today. Tomorrow, though.',
+    ],
+    restDayKept: 'Your streak is safe. This week’s rest day took the hit.',
+    newStreak: 'Streak back to zero. The word owes you one.',
+    tryTomorrow: 'Rematch at midnight.',
     streak: 'day streak',
     best: (n: number) => `Best ${String(n)}`,
     share: 'Share',
@@ -111,10 +118,17 @@ const WORDS = {
       'Son hakta. Yetiştin.',
     ],
     solvedIn: (n: number) => `${String(MAX_TRIES)} hakta ${String(n)}`,
-    notToday: 'Bugün olmadı.',
-    restDayKept: 'Bu haftanın dinlenme günü serini korudu.',
-    newStreak: 'Yarın yeni bir seri başlar.',
-    tryTomorrow: 'Yeni kelime gece yarısı gelir.',
+    lost: [
+      'Kelime bugün kaçtı.',
+      'Bugün kelime kazandı.',
+      'Kelime iyi saklandı.',
+      'Altı hak, sıfır merhamet.',
+      'Kelime bir adım öndeydi.',
+      'Bugün olmadı, yarın olur.',
+    ],
+    restDayKept: 'Serin güvende. Bu haftanın dinlenme günü yükü aldı.',
+    newStreak: 'Seri sıfırlandı. Kelime sana bir tane borçlu.',
+    tryTomorrow: 'Rövanş gece yarısı.',
     streak: 'günlük seri',
     best: (n: number) => `En iyi ${String(n)}`,
     share: 'Paylaş',
@@ -159,6 +173,13 @@ export function gameWordsFor(language: GameLanguage): GameWords {
 export function praiseFor(tries: number, language: GameLanguage): string {
   const lines = WORDS[language].praise;
   return lines[Math.min(lines.length, Math.max(1, tries)) - 1] ?? '';
+}
+
+/** The headline for an unsolved day: a dry joke, the same for everyone on that day. */
+export function lostLineFor(day: GameDay, language: GameLanguage): string {
+  const lines = WORDS[language].lost;
+  const seed = Array.from(day).reduce((sum, char) => sum + (char.codePointAt(0) ?? 0), 0);
+  return lines[seed % lines.length] ?? '';
 }
 
 /** The page of each puzzle language. */

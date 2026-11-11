@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 import {
   KEYBOARD,
   countdown,
+  lostLineFor,
   msUntilNextWord,
   parseResults,
   parseSavedGame,
@@ -29,6 +30,17 @@ describe('praiseFor', () => {
       for (let tries = 1; tries <= 6; tries += 1)
         expect(praiseFor(tries, language)).not.toMatch('!');
     }
+  });
+});
+
+describe('lostLineFor', () => {
+  it('gives everyone the same calm line on a day, and changes it between days', () => {
+    expect(lostLineFor('2026-11-11', 'tr')).toBe(lostLineFor('2026-11-11', 'tr'));
+    const week = ['11', '12', '13', '14', '15', '16', '17'].map((d) =>
+      lostLineFor(`2026-11-${d}`, 'en'),
+    );
+    expect(new Set(week).size).toBeGreaterThan(3);
+    for (const line of week) expect(line).not.toMatch('!');
   });
 });
 
