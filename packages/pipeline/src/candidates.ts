@@ -1,6 +1,12 @@
 import type { Camp, Section, Source, StoryImage, Tier } from '@cspnews/core';
 import type { Story } from '@cspnews/grouping';
-import { evidenceFor, type Evidence, type EvidenceLabel } from '@cspnews/verify';
+import {
+  evidenceFor,
+  storyLifecycle,
+  type Evidence,
+  type EvidenceLabel,
+  type LifecycleEvent,
+} from '@cspnews/verify';
 
 import { pickImage } from './image.js';
 
@@ -30,8 +36,13 @@ export interface Candidate {
   /** The story's picture with its credit; absent when no outlet had a real photo. */
   readonly image?: StoryImage;
   readonly sources: readonly CandidateSource[];
+  /** The story's own life: first report, outlets joining, label changes. Oldest first. */
+  readonly timeline: readonly TimelineEvent[];
   readonly articles: readonly CandidateArticle[];
 }
+
+/** A lifecycle event with its time as an ISO string, for JSON. */
+export type TimelineEvent = Omit<LifecycleEvent, 'at'> & { readonly at: string };
 
 export interface CandidateSource {
   readonly id: string;
@@ -113,6 +124,10 @@ export function toCandidates(
             ]
           : [];
       }),
+      timeline: storyLifecycle(story, sources).map((event) => ({
+        ...event,
+        at: event.at.toISOString(),
+      })),
       articles: story.articles.map(({ article, copyOf }) => ({
         sourceId: article.sourceId,
         url: article.url,
