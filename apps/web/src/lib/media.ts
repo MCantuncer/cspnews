@@ -67,11 +67,22 @@ export function outletLogos(
   directory = mediaDirectory(),
 ): OutletLogo[] {
   const ordered = [...sources.filter((s) => s.confirms), ...sources.filter((s) => !s.confirms)];
-  const seen = new Set<string>();
+  return logosFor(
+    ordered.map((s) => s.sourceId),
+    max,
+    directory,
+  );
+}
+
+/** Saved logos for these outlets, in order, without repeats, at most `max`. */
+export function logosFor(
+  sourceIds: readonly string[],
+  max: number,
+  directory = mediaDirectory(),
+): OutletLogo[] {
   const logos: OutletLogo[] = [];
-  for (const { sourceId } of ordered) {
-    if (logos.length >= max || seen.has(sourceId)) continue;
-    seen.add(sourceId);
+  for (const sourceId of new Set(sourceIds)) {
+    if (logos.length >= max) break;
     const src = outletLogoUrl(sourceId, directory);
     if (src) logos.push({ sourceId, name: sourceName(sourceId), src });
   }
