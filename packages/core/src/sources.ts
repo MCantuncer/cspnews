@@ -78,3 +78,11 @@ export function defineSources(input: readonly SourceInput[]): Source[] {
 
   return sources;
 }
+
+/** Kinds whose `url` is an RSS, RDF or Atom feed. */
+export const FEED_KINDS: readonly SourceKind[] = ['rss', 'primary', 'fact-check'];
+
+/** True for sources read as a feed (as opposed to an API such as GDELT). */
+export function isFeedSource(source: Source): boolean {
+  return FEED_KINDS.includes(source.kind);
+}

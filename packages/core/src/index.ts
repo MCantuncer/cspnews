@@ -18,5 +18,15 @@ export type {
   SlotDays,
 } from './schedule.js';
 
-export { CAMPS, SOURCE_KINDS, SourceSchema, TIERS, defineSources } from './sources.js';
+export {
+  CAMPS,
+  FEED_KINDS,
+  SOURCE_KINDS,
+  SourceSchema,
+  TIERS,
+  defineSources,
+  isFeedSource,
+} from './sources.js';
 export type { Camp, Source, SourceInput, SourceKind, Tier } from './sources.js';
+
+export type { Article } from './article.js';
