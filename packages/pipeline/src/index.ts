@@ -8,3 +8,5 @@ export type {
 } from './candidates.js';
 export { bulletinKey, prepareBulletin } from './prepare.js';
 export type { PrepareOptions } from './prepare.js';
+export { looksLikePhoto, pickImage } from './image.js';
+export type { StoryImage } from './image.js';
