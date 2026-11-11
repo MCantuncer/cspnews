@@ -83,7 +83,7 @@ pnpm check   # format, lint, typecheck and tests
 
 ## Deploying
 
-The website is hosted on Vercel. [`vercel.json`](vercel.json) holds the whole setup, so importing the repository needs no settings: Vercel installs with pnpm, builds `@cspnews/web` and the packages it uses, and serves `apps/web/dist`. Every push to `main` deploys the site, and every pull request gets its own preview link. Bulletins are read at build time from `data/bulletins` (see [`apps/web`](apps/web/README.md)), so publishing a bulletin means committing it to `main`.
+The website is hosted on Vercel. [`vercel.json`](vercel.json) holds the whole setup, so importing the repository needs no settings: Vercel installs with pnpm, builds `@cspnews/web` and the packages it uses, and serves `apps/web/dist`. Only `main` is deployed, and only when a push changes something the site is built from ([`scripts/vercel-ignore-build.sh`](scripts/vercel-ignore-build.sh)); pull requests get no Vercel preview, because CI already builds them. To see a change before merging, run `pnpm --filter @cspnews/web dev:sample` locally. Bulletins are read at build time from `data/bulletins` (see [`apps/web`](apps/web/README.md)), so publishing a bulletin means committing it to `main`.
 
 ## Project structure
 
