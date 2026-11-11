@@ -14,7 +14,7 @@ Format: _As the reader, I want …, so that …_, followed by acceptance criteri
 
 - Published by 07:30 Istanbul time on weekdays and weekends.
 - Sections appear in order: Turkish news, Tech, Around the World.
-- Turkish stories are in Turkish. All other stories are in English.
+- Every story is available in Turkish and in English, each written natively from the sources, and shows in the reader's language. A quote given in another language than the speaker used is marked as translated.
 
 **US-02 Catch up at lunch.** As the reader, I want a short side bulletin at 12:30, so that I see what changed since the morning without rereading it.
 

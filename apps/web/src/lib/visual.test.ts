@@ -1,4 +1,4 @@
-import type { WrittenStory } from '@cspnews/core';
+import type { LocalStory } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
 import { locatorMap } from './map.js';
@@ -14,7 +14,7 @@ const keyNumber = { label: 'Rate', unit: '%', before: 33, after: 31.5, source: '
 const place = { name: 'Doha', lat: 25.29, lon: 51.53, region: 'Qatar' };
 const saved = { photo: () => '/media/s.jpg', logo: () => '/media/org/o.svg' };
 const missing = { photo: () => undefined, logo: () => undefined };
-const story = (fields: Partial<WrittenStory>) => ({ id: 's', ...fields }) as WrittenStory;
+const story = (fields: Partial<LocalStory>) => ({ id: 's', ...fields }) as LocalStory;
 
 describe('visualFor', () => {
   it('prefers a saved photo, then chart, map, logo, nothing', () => {

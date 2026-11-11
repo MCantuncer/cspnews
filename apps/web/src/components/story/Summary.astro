@@ -1,11 +1,11 @@
 ---
 /** The three short lines for scanning: what happened, why it matters, what's next. */
-import type { WrittenStory } from '@cspnews/core';
+import type { StoryVersion } from '@cspnews/core';
 
 import type { Words } from '../../lib/i18n';
 
 interface Props {
-  summary: WrittenStory['summary'];
+  summary: StoryVersion['summary'];
   words: Words;
   lang: string;
 }

@@ -1,11 +1,11 @@
-import type { WrittenStory } from '@cspnews/core';
+import type { LocalStory } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
 import { sourceOrdinal } from './i18n.js';
 import { compactStations, timelineFor, type TimelinePoint } from './timeline.js';
 
 const name = (id: string) => id.toUpperCase();
-const base = { label: 'reported' } as WrittenStory;
+const base = { label: 'reported' } as LocalStory;
 
 describe('timelineFor', () => {
   it('shows earlier values for a series story, oldest first', () => {
@@ -15,7 +15,7 @@ describe('timelineFor', () => {
         { date: '2026-10-23', value: '%33', label: 'Ekim' },
         { date: '2026-07-24', value: '%36,5', label: 'Temmuz' },
       ],
-    } as WrittenStory;
+    } as LocalStory;
     const timeline = timelineFor(story, 'tr', name);
     expect(timeline?.kind).toBe('series');
     expect(timeline?.points.map((p) => p.when)).toEqual(['24 Tem', '23 Eki']);
@@ -30,7 +30,7 @@ describe('timelineFor', () => {
         { kind: 'first-reported', at: '2026-11-11T06:12:00Z', sourceId: 'a' },
         { kind: 'label-changed', at: '2026-11-11T07:00:00Z', from: 'reported', to: 'disputed' },
       ],
-    } as WrittenStory;
+    } as LocalStory;
     const timeline = timelineFor(story, 'en', name);
     expect(timeline?.kind).toBe('life');
     expect(timeline?.points).toEqual([
@@ -60,7 +60,7 @@ describe('timelineFor', () => {
         { kind: 'outlet-joined', at: at(84), sourceId: 'e' },
         { kind: 'outlet-joined', at: at(150), sourceId: 'f' },
       ],
-    } as WrittenStory;
+    } as LocalStory;
     const titles = timelineFor(story, 'en', name)?.points.map((p) => p.title);
     expect(titles).toEqual([
       'First report',

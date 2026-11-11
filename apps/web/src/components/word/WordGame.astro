@@ -7,6 +7,7 @@
  * the browser picks today's by the Istanbul date and keeps the game, streak and stats in
  * localStorage until reader accounts can sync them.
  */
+import { storyIn } from '@cspnews/core';
 import { GAME_LANGUAGES, MAX_TRIES, WORD_LENGTH, gameDayAt, type GameLanguage } from '@cspnews/wordgame';
 
 import Header from '../Header.astro';
@@ -26,9 +27,10 @@ const { lang } = Astro.props;
 const words = gameWordsFor(lang);
 const days = wordWindow(lang, gameDayAt(new Date()));
 
-// One story from the latest bulletin, in the puzzle's language when there is one.
+// The latest bulletin's lead story, in the puzzle's language.
 const latest = loadBulletins()[0];
-const story = latest?.bulletin.stories.find((s) => s.language === lang) ?? latest?.bulletin.stories[0];
+const lead = latest?.bulletin.stories[0];
+const story = lead && storyIn(lead, lang);
 const news = latest && story ? { href: storyPath(latest, story), title: story.title, lang: story.language } : undefined;
 
 const rows = Array.from({ length: MAX_TRIES }, (_, index) => index);

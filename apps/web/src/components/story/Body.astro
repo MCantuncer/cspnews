@@ -12,9 +12,11 @@ interface Props {
   heading: string;
   lang: string;
   sourceName: (id: string) => string;
+  /** Said after the outlet of a quote given in translation. */
+  translatedLabel: string;
 }
 
-const { body, heading, lang, sourceName } = Astro.props;
+const { body, heading, lang, sourceName, translatedLabel } = Astro.props;
 ---
 
 <details class="full" data-full-story>
@@ -35,6 +37,7 @@ const { body, heading, lang, sourceName } = Astro.props;
                 <p>“{block.quote}”</p>
                 <cite>
                   {block.speaker}, {sourceName(block.sourceId)}
+                  {block.translated && <span class="translated">({translatedLabel})</span>}
                 </cite>
               </blockquote>
             ),
@@ -122,5 +125,9 @@ const { body, heading, lang, sourceName } = Astro.props;
     color: var(--meta);
     font: 500 15px / 1.4 var(--f-body);
     font-style: normal;
+  }
+
+  .translated {
+    margin-left: 0.3em;
   }
 </style>

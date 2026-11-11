@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "slot": "evening",
   "publishAt": "2026-11-11T18:30:00+03:00",
   "writtenAt": "2026-11-11T18:05:00+03:00",
@@ -7,120 +7,239 @@
     {
       "id": "tcmb-faiz-indirimi",
       "section": "turkey",
-      "language": "tr",
+      "sourceLanguage": "tr",
       "label": "confirmed",
       "developing": false,
-      "shortTitle": "Faiz yüzde 31,5'e indi",
-      "title": "Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5'e çekti",
-      "summary": {
-        "what": "Para Politikası Kurulu faizi yüzde 33'ten yüzde 31,5'e indirdi.",
-        "why": "Piyasa 100 baz puan bekliyordu; kurul gevşemeyi hızlandırdı.",
-        "next": "Sonraki karar 11 Aralık'ta, kasım enflasyonu 3 Aralık'ta açıklanacak."
-      },
-      "body": [
-        {
-          "subhead": "Karar",
-          "blocks": [
+      "versions": {
+        "en": {
+          "shortTitle": "Policy rate cut to 31.5%",
+          "title": "Turkey's central bank cuts its policy rate by 150 basis points to 31.5%",
+          "summary": {
+            "what": "The Monetary Policy Committee cut the rate from 33% to 31.5%.",
+            "why": "Markets expected 100 basis points; the committee sped up its easing.",
+            "next": "The next decision is on 11 December; November inflation comes on 3 December."
+          },
+          "body": [
             {
-              "text": "Para Politikası Kurulu, çarşamba günkü toplantısında politika faizini yüzde 33'ten yüzde 31,5'e indirdi. Böylece temmuzdan bu yana yapılan toplam indirim 500 baz puana ulaştı. Kurul, gecelik borç verme faizini de yüzde 34,5'ten yüzde 33'e çekti. Karar oy birliğiyle alındı."
+              "subhead": "The decision",
+              "blocks": [
+                {
+                  "text": "At its meeting on Wednesday, the Monetary Policy Committee cut the policy rate from 33% to 31.5%, bringing the total reduction since July to 500 basis points. The committee also lowered the overnight lending rate from 34.5% to 33%. The decision was unanimous."
+                },
+                {
+                  "text": "The statement pointed to annual inflation falling to 29.8% in October and to leading indicators showing the underlying trend slowing. The committee stressed that its tight policy stance will stay in place until disinflation is complete."
+                },
+                {
+                  "text": "For the first time, the statement said the size of each step will be set by the data. Analysts read the removal of the word \"measured\", used in the two previous decisions, as a sign that the cutting cycle is speeding up."
+                }
+              ]
             },
             {
-              "text": "Karar metninde, ekim ayında yıllık enflasyonun yüzde 29,8'e gerilemesi ve öncü göstergelerde ana eğilimin yavaşlaması gerekçe olarak gösterildi. Kurul, sıkı para politikası duruşunun dezenflasyon süreci tamamlanana kadar korunacağını vurguladı."
+              "subhead": "Market reaction",
+              "blocks": [
+                {
+                  "text": "The median forecast of 18 economists in a survey was a 100 basis point cut; only three expected 150. After the decision the dollar rose 0.4% against the lira. The BIST 100 index closed the day up 2.1%, with the banking index the best performing sector at 3.8%. The two-year bond yield fell 45 basis points."
+                },
+                {
+                  "text": "Market participants put the lira's limited move down to the central bank's growing reserves; gross reserves rose by $2.4 billion last week."
+                },
+                {
+                  "text": "Foreign investors bought a net $310 million of shares in the week before the decision. Banks expect to start lowering deposit rates gradually over the coming days, and some large banks cut their three-month deposit rates by 100 basis points after the decision. Changes to credit card and consumer loan rates are expected at the end of November."
+                }
+              ]
             },
             {
-              "text": "Metinde ilk kez adımların büyüklüğünün verilere göre belirleneceği ifadesine yer verildi. Önceki iki kararda kullanılan ölçülü sözcüğünün çıkarılması, analistlerce hızlanan bir indirim döngüsünün işareti olarak yorumlandı."
+              "subhead": "What economists say",
+              "blocks": [
+                {
+                  "text": "Some economists think the committee took the fall in inflation as a chance to make bigger steps. Others point to sticky rent and service prices and say fast easing could put the year-end target at risk. The central bank's interim target for the end of the year is 27%, while the market participants survey expects 28.6%."
+                },
+                {
+                  "quote": "The committee has made clear it sees the fall in inflation as lasting. Another cut is on the table for December.",
+                  "speaker": "A bank economist",
+                  "sourceId": "ntv",
+                  "translated": true
+                },
+                {
+                  "text": "Industry representatives welcomed the decision. Exporters' associations said loan rates have not yet reflected the fall in the policy rate."
+                }
+              ]
+            },
+            {
+              "subhead": "What's next",
+              "blocks": [
+                {
+                  "text": "The committee meets next on 11 December. November inflation data is due on 3 December, and markets expect it to decide the size of the next step. The central bank's quarterly Inflation Report will be published on 28 November."
+                }
+              ]
             }
-          ]
+          ],
+          "facts": [
+            {
+              "label": "Policy rate",
+              "value": "31.5%",
+              "source": "CBRT decision statement"
+            },
+            {
+              "label": "Cut; expected −100",
+              "value": "−150 bp",
+              "source": "CBRT, economist survey"
+            },
+            {
+              "label": "Annual inflation, October",
+              "value": "29.8%",
+              "source": "TurkStat"
+            },
+            {
+              "label": "BIST 100, close",
+              "value": "+2.1%",
+              "source": "Borsa Istanbul"
+            }
+          ],
+          "series": [
+            {
+              "date": "2026-07-24",
+              "value": "36.5%",
+              "label": "July decision"
+            },
+            {
+              "date": "2026-09-11",
+              "value": "35%",
+              "label": "September decision"
+            },
+            {
+              "date": "2026-10-23",
+              "value": "33%",
+              "label": "October decision"
+            },
+            {
+              "date": "2026-11-11",
+              "value": "31.5%",
+              "label": "Today's decision"
+            }
+          ],
+          "keyNumber": {
+            "label": "Policy rate",
+            "unit": "%",
+            "before": 33,
+            "after": 31.5,
+            "source": "CBRT"
+          }
         },
-        {
-          "subhead": "Piyasa tepkisi",
-          "blocks": [
+        "tr": {
+          "shortTitle": "Faiz yüzde 31,5'e indi",
+          "title": "Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5'e çekti",
+          "summary": {
+            "what": "Para Politikası Kurulu faizi yüzde 33'ten yüzde 31,5'e indirdi.",
+            "why": "Piyasa 100 baz puan bekliyordu; kurul gevşemeyi hızlandırdı.",
+            "next": "Sonraki karar 11 Aralık'ta, kasım enflasyonu 3 Aralık'ta açıklanacak."
+          },
+          "body": [
             {
-              "text": "Ankete katılan 18 ekonomistin medyan beklentisi 100 baz puanlık indirimdi; yalnızca üç ekonomist 150 baz puan öngörmüştü. Kararın ardından dolar/TL yüzde 0,4 yükseldi. BIST 100 endeksi günü yüzde 2,1 artıda tamamladı; bankacılık endeksi yüzde 3,8 ile en çok yükselen sektör oldu. İki yıllık tahvil faizi 45 baz puan geriledi."
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "Para Politikası Kurulu, çarşamba günkü toplantısında politika faizini yüzde 33'ten yüzde 31,5'e indirdi. Böylece temmuzdan bu yana yapılan toplam indirim 500 baz puana ulaştı. Kurul, gecelik borç verme faizini de yüzde 34,5'ten yüzde 33'e çekti. Karar oy birliğiyle alındı."
+                },
+                {
+                  "text": "Karar metninde, ekim ayında yıllık enflasyonun yüzde 29,8'e gerilemesi ve öncü göstergelerde ana eğilimin yavaşlaması gerekçe olarak gösterildi. Kurul, sıkı para politikası duruşunun dezenflasyon süreci tamamlanana kadar korunacağını vurguladı."
+                },
+                {
+                  "text": "Metinde ilk kez adımların büyüklüğünün verilere göre belirleneceği ifadesine yer verildi. Önceki iki kararda kullanılan ölçülü sözcüğünün çıkarılması, analistlerce hızlanan bir indirim döngüsünün işareti olarak yorumlandı."
+                }
+              ]
             },
             {
-              "text": "Piyasa aktörleri, kurdaki sınırlı hareketi Merkez Bankası'nın rezerv birikimine bağladı; brüt rezervler geçen hafta 2,4 milyar dolar artmıştı."
+              "subhead": "Piyasa tepkisi",
+              "blocks": [
+                {
+                  "text": "Ankete katılan 18 ekonomistin medyan beklentisi 100 baz puanlık indirimdi; yalnızca üç ekonomist 150 baz puan öngörmüştü. Kararın ardından dolar/TL yüzde 0,4 yükseldi. BIST 100 endeksi günü yüzde 2,1 artıda tamamladı; bankacılık endeksi yüzde 3,8 ile en çok yükselen sektör oldu. İki yıllık tahvil faizi 45 baz puan geriledi."
+                },
+                {
+                  "text": "Piyasa aktörleri, kurdaki sınırlı hareketi Merkez Bankası'nın rezerv birikimine bağladı; brüt rezervler geçen hafta 2,4 milyar dolar artmıştı."
+                },
+                {
+                  "text": "Yabancı yatırımcıların karar öncesindeki hafta hisse senedi piyasasında 310 milyon dolarlık net alım yaptığı biliniyor. Bankalar, mevduat faizlerini önümüzdeki günlerde kademeli olarak düşürmeye başlamayı bekliyor; bazı büyük bankalar karar sonrasında üç aylık mevduat faizlerini 100 baz puan indirdi. Kredi kartı ve tüketici kredisi faizlerinde ise değişiklik için kasım sonu bekleniyor."
+                }
+              ]
             },
             {
-              "text": "Yabancı yatırımcıların karar öncesindeki hafta hisse senedi piyasasında 310 milyon dolarlık net alım yaptığı biliniyor. Bankalar, mevduat faizlerini önümüzdeki günlerde kademeli olarak düşürmeye başlamayı bekliyor; bazı büyük bankalar karar sonrasında üç aylık mevduat faizlerini 100 baz puan indirdi. Kredi kartı ve tüketici kredisi faizlerinde ise değişiklik için kasım sonu bekleniyor."
+              "subhead": "Ekonomistler ne diyor",
+              "blocks": [
+                {
+                  "text": "Ekonomistlerin bir kısmı, kurulun enflasyondaki düşüşü fırsat bilerek adımları büyüttüğünü düşünüyor. Diğerleri kira ve hizmet fiyatlarındaki katılığa dikkat çekiyor; hızlı gevşemenin yıl sonu hedefini riske atabileceğini söylüyor. Merkez Bankası'nın yıl sonu ara hedefi yüzde 27, piyasa katılımcıları anketindeki beklenti ise yüzde 28,6."
+                },
+                {
+                  "quote": "Kurul, enflasyondaki düşüşü kalıcı saydığını açıkça gösterdi. Aralık'ta bir indirim daha masada.",
+                  "speaker": "Bir banka ekonomisti",
+                  "sourceId": "ntv"
+                },
+                {
+                  "text": "Sanayi temsilcileri kararı olumlu karşıladı. İhracatçı birlikleri, kredi faizlerinin politika faizindeki düşüşü henüz yansıtmadığını belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var",
+              "blocks": [
+                {
+                  "text": "Kurulun bir sonraki toplantısı 11 Aralık'ta. Kasım ayı enflasyon verisi 3 Aralık'ta açıklanacak; piyasa, bu verinin bir sonraki adımın büyüklüğünü belirleyeceğini düşünüyor. Merkez Bankası'nın üç aylık Enflasyon Raporu ise 28 Kasım'da yayımlanacak."
+                }
+              ]
             }
-          ]
-        },
-        {
-          "subhead": "Ekonomistler ne diyor",
-          "blocks": [
+          ],
+          "facts": [
             {
-              "text": "Ekonomistlerin bir kısmı, kurulun enflasyondaki düşüşü fırsat bilerek adımları büyüttüğünü düşünüyor. Diğerleri kira ve hizmet fiyatlarındaki katılığa dikkat çekiyor; hızlı gevşemenin yıl sonu hedefini riske atabileceğini söylüyor. Merkez Bankası'nın yıl sonu ara hedefi yüzde 27, piyasa katılımcıları anketindeki beklenti ise yüzde 28,6."
+              "label": "Politika faizi",
+              "value": "%31,5",
+              "source": "TCMB karar metni"
             },
             {
-              "quote": "Kurul, enflasyondaki düşüşü kalıcı saydığını açıkça gösterdi. Aralık'ta bir indirim daha masada.",
-              "speaker": "Bir banka ekonomisti",
-              "sourceId": "ntv"
+              "label": "İndirim; beklenti −100",
+              "value": "−150 bp",
+              "source": "TCMB, ekonomist anketi"
             },
             {
-              "text": "Sanayi temsilcileri kararı olumlu karşıladı. İhracatçı birlikleri, kredi faizlerinin politika faizindeki düşüşü henüz yansıtmadığını belirtti."
-            }
-          ]
-        },
-        {
-          "subhead": "Sırada ne var",
-          "blocks": [
+              "label": "Yıllık enflasyon, ekim",
+              "value": "%29,8",
+              "source": "TÜİK"
+            },
             {
-              "text": "Kurulun bir sonraki toplantısı 11 Aralık'ta. Kasım ayı enflasyon verisi 3 Aralık'ta açıklanacak; piyasa, bu verinin bir sonraki adımın büyüklüğünü belirleyeceğini düşünüyor. Merkez Bankası'nın üç aylık Enflasyon Raporu ise 28 Kasım'da yayımlanacak."
+              "label": "BIST 100, gün sonu",
+              "value": "+%2,1",
+              "source": "Borsa İstanbul"
             }
-          ]
+          ],
+          "series": [
+            {
+              "date": "2026-07-24",
+              "value": "%36,5",
+              "label": "Temmuz kararı"
+            },
+            {
+              "date": "2026-09-11",
+              "value": "%35",
+              "label": "Eylül kararı"
+            },
+            {
+              "date": "2026-10-23",
+              "value": "%33",
+              "label": "Ekim kararı"
+            },
+            {
+              "date": "2026-11-11",
+              "value": "%31,5",
+              "label": "Bugünkü karar"
+            }
+          ],
+          "keyNumber": {
+            "label": "Politika faizi",
+            "unit": "%",
+            "before": 33,
+            "after": 31.5,
+            "source": "TCMB"
+          }
         }
-      ],
-      "facts": [
-        {
-          "label": "Politika faizi",
-          "value": "%31,5",
-          "source": "TCMB karar metni"
-        },
-        {
-          "label": "İndirim; beklenti −100",
-          "value": "−150 bp",
-          "source": "TCMB, ekonomist anketi"
-        },
-        {
-          "label": "Yıllık enflasyon, ekim",
-          "value": "%29,8",
-          "source": "TÜİK"
-        },
-        {
-          "label": "BIST 100, gün sonu",
-          "value": "+%2,1",
-          "source": "Borsa İstanbul"
-        }
-      ],
-      "series": [
-        {
-          "date": "2026-07-24",
-          "value": "%36,5",
-          "label": "Temmuz kararı"
-        },
-        {
-          "date": "2026-09-11",
-          "value": "%35",
-          "label": "Eylül kararı"
-        },
-        {
-          "date": "2026-10-23",
-          "value": "%33",
-          "label": "Ekim kararı"
-        },
-        {
-          "date": "2026-11-11",
-          "value": "%31,5",
-          "label": "Bugünkü karar"
-        }
-      ],
-      "keyNumber": {
-        "label": "Politika faizi",
-        "unit": "%",
-        "before": 33,
-        "after": 31.5,
-        "source": "TCMB"
       },
       "sources": [
         {
@@ -155,86 +274,170 @@
     {
       "id": "eu-cloud-dma-fine",
       "section": "tech",
-      "language": "en",
+      "sourceLanguage": "en",
       "label": "reported",
       "developing": false,
-      "shortTitle": "EU fines cloud giant €1.2B",
-      "title": "EU fines a major cloud provider €1.2B under the Digital Markets Act",
-      "summary": {
-        "what": "The Commission fined the provider €1.2B for tying discounts to its own marketplace.",
-        "why": "The remedy matters more: customers must be able to use rival billing within 60 days.",
-        "next": "The company will appeal; the 60-day deadline still runs."
+      "versions": {
+        "en": {
+          "shortTitle": "EU fines cloud giant €1.2B",
+          "title": "EU fines a major cloud provider €1.2B under the Digital Markets Act",
+          "summary": {
+            "what": "The Commission fined the provider €1.2B for tying discounts to its own marketplace.",
+            "why": "The remedy matters more: customers must be able to use rival billing within 60 days.",
+            "next": "The company will appeal; the 60-day deadline still runs."
+          },
+          "body": [
+            {
+              "subhead": "The fine",
+              "blocks": [
+                {
+                  "text": "The European Commission fined the provider €1.2 billion, its first penalty on cloud services under the Digital Markets Act. Officials said the company tied discounts to exclusive use of its own marketplace, which the act's anti-steering rules forbid for gatekeepers. Customers who bought rival tools lost volume discounts worth up to 30 percent, according to the decision."
+                },
+                {
+                  "text": "The investigation opened in March 2025 after complaints from European software firms, who said the discount terms made it uneconomic for large customers to buy anything outside the provider's own store."
+                }
+              ]
+            },
+            {
+              "subhead": "Why it matters",
+              "blocks": [
+                {
+                  "text": "The fine equals 0.9 percent of global turnover, well below the 10 percent cap, but the remedy may matter more. The company has 60 days to let customers pay rival vendors through their own billing, and to stop linking discounts to marketplace spending. Smaller software sellers say the change could cut the fees they pay by a third."
+                },
+                {
+                  "quote": "The money is small for them. Opening the marketplace is the real penalty.",
+                  "speaker": "A competition lawyer",
+                  "sourceId": "the-verge"
+                },
+                {
+                  "text": "It is also a test of how the act applies to infrastructure rather than consumer apps, an area where the Commission had been slower to act."
+                }
+              ]
+            },
+            {
+              "subhead": "Reaction",
+              "blocks": [
+                {
+                  "text": "The company said it strongly disagrees with the decision and will appeal to the EU General Court. An appeal does not pause the 60-day deadline unless the court grants interim measures, which it rarely does. Rival providers welcomed the decision but said the fine was too small to change behaviour across the market on its own."
+                },
+                {
+                  "text": "Industry groups representing large cloud customers asked the Commission to publish the compliance plan so buyers can check whether the new terms actually remove the penalty for using other vendors."
+                }
+              ]
+            },
+            {
+              "subhead": "What's next",
+              "blocks": [
+                {
+                  "text": "If the deadline is missed, the Commission can add daily penalties of up to 5 percent of average daily turnover. Two other cloud providers are under separate review under the same act, with decisions expected in early 2027. The Commission said it would assess the company's changes before the deadline ends and report on them publicly."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Fine",
+              "value": "€1.2B",
+              "source": "European Commission"
+            },
+            {
+              "label": "Share of global turnover",
+              "value": "0.9%",
+              "source": "European Commission"
+            },
+            {
+              "label": "Cap under the act",
+              "value": "10%",
+              "source": "DMA, Article 30"
+            },
+            {
+              "label": "Deadline to open billing",
+              "value": "60 days",
+              "source": "European Commission"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "AB'den bulut devine 1,2 milyar avro",
+          "title": "AB, büyük bir bulut sağlayıcısına Dijital Piyasalar Yasası kapsamında 1,2 milyar avro ceza verdi",
+          "summary": {
+            "what": "Komisyon, indirimleri kendi pazar yerine bağlayan sağlayıcıya 1,2 milyar avro ceza kesti.",
+            "why": "Asıl önemli olan çözüm: müşteriler 60 gün içinde rakiplerin faturalamasını kullanabilmeli.",
+            "next": "Şirket itiraz edecek; 60 günlük süre yine de işliyor."
+          },
+          "body": [
+            {
+              "subhead": "Ceza",
+              "blocks": [
+                {
+                  "text": "Avrupa Komisyonu, sağlayıcıya 1,2 milyar avro ceza verdi. Bu, Dijital Piyasalar Yasası kapsamında bulut hizmetlerine verilen ilk ceza. Yetkililere göre şirket, indirimleri yalnızca kendi pazar yerinin kullanılması şartına bağladı; yasa, \"kapı bekçisi\" sayılan şirketlerin müşterileri bu şekilde yönlendirmesini yasaklıyor. Karara göre rakip araçları satın alan müşteriler yüzde 30'a varan hacim indirimlerini kaybetti."
+                },
+                {
+                  "text": "Soruşturma, Mart 2025'te Avrupalı yazılım şirketlerinin şikâyetleri üzerine açılmıştı. Bu şirketler, indirim koşulları yüzünden büyük müşteriler için sağlayıcının kendi mağazası dışından alım yapmanın ekonomik olmaktan çıktığını söylüyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden önemli",
+              "blocks": [
+                {
+                  "text": "Ceza, şirketin küresel cirosunun yüzde 0,9'una denk geliyor; bu, yüzde 10'luk üst sınırın çok altında. Ancak getirilen çözüm daha önemli olabilir. Şirketin, müşterilerin rakip satıcılara kendi faturalama sistemleri üzerinden ödeme yapabilmesini sağlamak ve indirimleri pazar yeri harcamasına bağlamayı bırakmak için 60 günü var. Küçük yazılım satıcıları, bu değişikliğin ödedikleri komisyonları üçte bir oranında azaltabileceğini söylüyor."
+                },
+                {
+                  "quote": "Para onlar için küçük. Asıl ceza, pazar yerini açmak zorunda kalmaları.",
+                  "speaker": "Bir rekabet hukukçusu",
+                  "sourceId": "the-verge",
+                  "translated": true
+                },
+                {
+                  "text": "Karar aynı zamanda yasanın tüketici uygulamaları yerine altyapıya nasıl uygulanacağının da bir sınavı. Komisyon bu alanda şimdiye kadar daha yavaş davranmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Tepkiler",
+              "blocks": [
+                {
+                  "text": "Şirket, karara kesinlikle katılmadığını ve AB Genel Mahkemesi'ne itiraz edeceğini açıkladı. Mahkeme geçici tedbir kararı vermedikçe itiraz 60 günlük süreyi durdurmuyor; mahkeme bu tür tedbirlere nadiren hükmediyor. Rakip sağlayıcılar kararı memnuniyetle karşıladı, ancak cezanın tek başına piyasadaki davranışları değiştirmeye yetmeyecek kadar küçük olduğunu söyledi."
+                },
+                {
+                  "text": "Büyük bulut müşterilerini temsil eden sektör grupları, Komisyon'dan uyum planını yayımlamasını istedi. Böylece alıcılar, yeni koşulların başka satıcıları kullanmanın cezasını gerçekten kaldırıp kaldırmadığını kontrol edebilecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var",
+              "blocks": [
+                {
+                  "text": "Süre kaçırılırsa Komisyon, ortalama günlük cironun yüzde 5'ine kadar günlük ceza ekleyebilir. İki bulut sağlayıcısı daha aynı yasa kapsamında ayrı ayrı inceleniyor; bu dosyalarda kararların 2027'nin başında çıkması bekleniyor. Komisyon, şirketin yaptığı değişiklikleri süre dolmadan değerlendireceğini ve sonucu kamuoyuyla paylaşacağını açıkladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ceza",
+              "value": "1,2 milyar €",
+              "source": "Avrupa Komisyonu"
+            },
+            {
+              "label": "Küresel ciroya oranı",
+              "value": "%0,9",
+              "source": "Avrupa Komisyonu"
+            },
+            {
+              "label": "Yasadaki üst sınır",
+              "value": "%10",
+              "source": "DMA, 30. madde"
+            },
+            {
+              "label": "Faturalamayı açma süresi",
+              "value": "60 gün",
+              "source": "Avrupa Komisyonu"
+            }
+          ]
+        }
       },
-      "body": [
-        {
-          "subhead": "The fine",
-          "blocks": [
-            {
-              "text": "The European Commission fined the provider €1.2 billion, its first penalty on cloud services under the Digital Markets Act. Officials said the company tied discounts to exclusive use of its own marketplace, which the act's anti-steering rules forbid for gatekeepers. Customers who bought rival tools lost volume discounts worth up to 30 percent, according to the decision."
-            },
-            {
-              "text": "The investigation opened in March 2025 after complaints from European software firms, who said the discount terms made it uneconomic for large customers to buy anything outside the provider's own store."
-            }
-          ]
-        },
-        {
-          "subhead": "Why it matters",
-          "blocks": [
-            {
-              "text": "The fine equals 0.9 percent of global turnover, well below the 10 percent cap, but the remedy may matter more. The company has 60 days to let customers pay rival vendors through their own billing, and to stop linking discounts to marketplace spending. Smaller software sellers say the change could cut the fees they pay by a third."
-            },
-            {
-              "quote": "The money is small for them. Opening the marketplace is the real penalty.",
-              "speaker": "A competition lawyer",
-              "sourceId": "the-verge"
-            },
-            {
-              "text": "It is also a test of how the act applies to infrastructure rather than consumer apps, an area where the Commission had been slower to act."
-            }
-          ]
-        },
-        {
-          "subhead": "Reaction",
-          "blocks": [
-            {
-              "text": "The company said it strongly disagrees with the decision and will appeal to the EU General Court. An appeal does not pause the 60-day deadline unless the court grants interim measures, which it rarely does. Rival providers welcomed the decision but said the fine was too small to change behaviour across the market on its own."
-            },
-            {
-              "text": "Industry groups representing large cloud customers asked the Commission to publish the compliance plan so buyers can check whether the new terms actually remove the penalty for using other vendors."
-            }
-          ]
-        },
-        {
-          "subhead": "What's next",
-          "blocks": [
-            {
-              "text": "If the deadline is missed, the Commission can add daily penalties of up to 5 percent of average daily turnover. Two other cloud providers are under separate review under the same act, with decisions expected in early 2027. The Commission said it would assess the company's changes before the deadline ends and report on them publicly."
-            }
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "label": "Fine",
-          "value": "€1.2B",
-          "source": "European Commission"
-        },
-        {
-          "label": "Share of global turnover",
-          "value": "0.9%",
-          "source": "European Commission"
-        },
-        {
-          "label": "Cap under the act",
-          "value": "10%",
-          "source": "DMA, Article 30"
-        },
-        {
-          "label": "Deadline to open billing",
-          "value": "60 days",
-          "source": "European Commission"
-        }
-      ],
       "timeline": [
         {
           "kind": "first-reported",
@@ -254,10 +457,19 @@
         {
           "kind": "updated",
           "at": "2026-11-11T14:30:00+03:00",
-          "note": "The company says it will appeal"
+          "note": {
+            "en": "The company says it will appeal",
+            "tr": "Şirket karara itiraz edeceğini söyledi"
+          }
         }
       ],
       "orgId": "european-commission",
+      "image": {
+        "url": "https://techcrunch.com/example-photo.jpg",
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "articleUrl": "https://techcrunch.com/"
+      },
       "sources": [
         {
           "sourceId": "techcrunch",
@@ -281,89 +493,171 @@
         }
       ],
       "publishedAt": "2026-11-11T18:30:00+03:00",
-      "updatedAt": "2026-11-11T18:30:00+03:00",
-      "image": {
-        "url": "https://techcrunch.com/example-photo.jpg",
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "articleUrl": "https://techcrunch.com/"
-      }
+      "updatedAt": "2026-11-11T18:30:00+03:00"
     },
     {
       "id": "doha-talks-resume",
       "section": "world",
-      "language": "en",
+      "sourceLanguage": "en",
       "label": "disputed",
       "developing": true,
-      "shortTitle": "Doha talks resume, terms disputed",
-      "title": "Ceasefire talks resume in Doha as both sides dispute what was agreed",
-      "summary": {
-        "what": "Negotiators met again in Doha after a two-week pause.",
-        "why": "Each side describes a different draft, so no outlet can confirm the terms.",
-        "next": "Mediators expect a written text by the end of the week."
+      "versions": {
+        "en": {
+          "shortTitle": "Doha talks resume, terms disputed",
+          "title": "Ceasefire talks resume in Doha as both sides dispute what was agreed",
+          "summary": {
+            "what": "Negotiators met again in Doha after a two-week pause.",
+            "why": "Each side describes a different draft, so no outlet can confirm the terms.",
+            "next": "Mediators expect a written text by the end of the week."
+          },
+          "body": [
+            {
+              "subhead": "What happened",
+              "blocks": [
+                {
+                  "text": "Negotiators returned to Doha on Wednesday after a two-week pause, mediators said, in a new attempt to agree a ceasefire and the exchange of detainees. The talks were held in separate rooms, with mediators carrying proposals between the delegations for most of the day."
+                },
+                {
+                  "text": "Both delegations confirmed that the meeting took place. What they agreed, if anything, is where the accounts split. One side said a first phase of 42 days had been accepted in principle. The other said no phase had been agreed and that its conditions had not changed since the last round."
+                }
+              ]
+            },
+            {
+              "subhead": "Why the accounts differ",
+              "blocks": [
+                {
+                  "text": "The two descriptions cannot both be right, and neither has been backed by a published text. Outlets close to each side repeat their own side's version; international outlets report both and say the terms cannot yet be checked. That is why this story carries the Disputed label rather than Confirmed or Reported."
+                },
+                {
+                  "quote": "There is movement, but there is no paper yet, and until there is paper there is no deal.",
+                  "speaker": "A mediator speaking on condition of anonymity",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "Analysts note that public disagreement during talks is common and is often aimed at audiences at home rather than at the other delegation."
+                }
+              ]
+            },
+            {
+              "subhead": "On the ground",
+              "blocks": [
+                {
+                  "text": "Aid agencies said the pause in talks had coincided with fewer convoys reaching the worst affected areas. The United Nations said 61 trucks entered on Tuesday, against a target of at least 500 a day. Agencies called on both sides to agree a corridor arrangement even if the wider deal takes longer. Hospitals in the area reported shortages of fuel for generators."
+                }
+              ]
+            },
+            {
+              "subhead": "What's next",
+              "blocks": [
+                {
+                  "text": "Mediators said they hope to present a written text by the end of the week. If both delegations accept it, the first phase would start within days. We will update this story, and its label, when a text is published or when independent outlets can confirm what was agreed. Until then, treat both sides' descriptions as claims, not facts."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Pause before this round",
+              "value": "14 days",
+              "source": "Mediators"
+            },
+            {
+              "label": "Aid trucks on Tuesday",
+              "value": "61",
+              "source": "United Nations"
+            },
+            {
+              "label": "Daily target",
+              "value": "500",
+              "source": "United Nations"
+            }
+          ],
+          "place": {
+            "name": "Doha",
+            "lat": 25.29,
+            "lon": 51.53,
+            "region": "Qatar"
+          }
+        },
+        "tr": {
+          "shortTitle": "Doha'da görüşmeler yeniden başladı",
+          "title": "Doha'da ateşkes görüşmeleri yeniden başladı, taraflar neyin kabul edildiği konusunda ayrışıyor",
+          "summary": {
+            "what": "Müzakereciler iki haftalık aranın ardından Doha'da yeniden bir araya geldi.",
+            "why": "Her taraf farklı bir taslak anlatıyor; hiçbir kaynak şartları doğrulayamıyor.",
+            "next": "Arabulucular hafta sonuna kadar yazılı bir metin bekliyor."
+          },
+          "body": [
+            {
+              "subhead": "Ne oldu",
+              "blocks": [
+                {
+                  "text": "Arabuluculara göre müzakereciler, iki haftalık aranın ardından çarşamba günü Doha'ya döndü. Amaç, ateşkes ve tutuklu değişimi konusunda yeniden uzlaşma aramak. Görüşmeler ayrı odalarda yapıldı; arabulucular günün büyük bölümünde teklifleri heyetler arasında taşıdı."
+                },
+                {
+                  "text": "İki heyet de toplantının yapıldığını doğruladı. Anlatımlar, neyin kabul edildiği noktasında ayrışıyor. Taraflardan biri, 42 günlük ilk aşamanın prensipte kabul edildiğini söyledi. Diğeri ise hiçbir aşamanın kabul edilmediğini ve şartlarının son turdan bu yana değişmediğini açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Anlatımlar neden farklı",
+              "blocks": [
+                {
+                  "text": "İki anlatım aynı anda doğru olamaz ve ikisi de yayımlanmış bir metne dayanmıyor. Taraflara yakın yayın organları kendi tarafının anlatımını tekrarlıyor; uluslararası yayın organları ise ikisini de aktarıp şartların henüz doğrulanamadığını belirtiyor. Bu haberin Doğrulandı ya da Bildirildi yerine Tartışmalı etiketi taşımasının nedeni bu."
+                },
+                {
+                  "quote": "Bir hareketlilik var ama henüz kâğıt yok. Kâğıt olmadan da anlaşma yok.",
+                  "speaker": "Adının verilmemesi koşuluyla konuşan bir arabulucu",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Analistler, görüşmeler sürerken tarafların açıkça ayrışmasının alışılmadık olmadığını, bunun çoğu zaman karşı heyetten çok iç kamuoyuna yönelik olduğunu hatırlatıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Sahada durum",
+              "blocks": [
+                {
+                  "text": "Yardım kuruluşları, görüşmelere verilen aranın en çok etkilenen bölgelere ulaşan konvoyların azalmasıyla aynı döneme denk geldiğini söyledi. Birleşmiş Milletler'e göre salı günü bölgeye 61 tır girdi; hedef ise günde en az 500 tır. Kuruluşlar, kapsamlı anlaşma daha uzun sürse bile iki tarafa bir koridor düzenlemesi üzerinde uzlaşma çağrısı yaptı. Bölgedeki hastaneler jeneratörler için yakıt sıkıntısı yaşandığını bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var",
+              "blocks": [
+                {
+                  "text": "Arabulucular, hafta sonuna kadar yazılı bir metin sunmayı umduklarını söyledi. İki heyet de metni kabul ederse ilk aşama birkaç gün içinde başlayacak. Bir metin yayımlandığında ya da bağımsız yayın organları neyin kabul edildiğini doğrulayabildiğinde bu haberi ve etiketini güncelleyeceğiz. O zamana kadar iki tarafın anlatımını da olgu değil, iddia olarak okuyun."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bu turdan önceki ara",
+              "value": "14 gün",
+              "source": "Arabulucular"
+            },
+            {
+              "label": "Salı günü giren yardım tırı",
+              "value": "61",
+              "source": "Birleşmiş Milletler"
+            },
+            {
+              "label": "Günlük hedef",
+              "value": "500",
+              "source": "Birleşmiş Milletler"
+            }
+          ],
+          "place": {
+            "name": "Doha",
+            "lat": 25.29,
+            "lon": 51.53,
+            "region": "Katar"
+          }
+        }
       },
-      "body": [
-        {
-          "subhead": "What happened",
-          "blocks": [
-            {
-              "text": "Negotiators returned to Doha on Wednesday after a two-week pause, mediators said, in a new attempt to agree a ceasefire and the exchange of detainees. The talks were held in separate rooms, with mediators carrying proposals between the delegations for most of the day."
-            },
-            {
-              "text": "Both delegations confirmed that the meeting took place. What they agreed, if anything, is where the accounts split. One side said a first phase of 42 days had been accepted in principle. The other said no phase had been agreed and that its conditions had not changed since the last round."
-            }
-          ]
-        },
-        {
-          "subhead": "Why the accounts differ",
-          "blocks": [
-            {
-              "text": "The two descriptions cannot both be right, and neither has been backed by a published text. Outlets close to each side repeat their own side's version; international outlets report both and say the terms cannot yet be checked. That is why this story carries the Disputed label rather than Confirmed or Reported."
-            },
-            {
-              "quote": "There is movement, but there is no paper yet, and until there is paper there is no deal.",
-              "speaker": "A mediator speaking on condition of anonymity",
-              "sourceId": "al-jazeera"
-            },
-            {
-              "text": "Analysts note that public disagreement during talks is common and is often aimed at audiences at home rather than at the other delegation."
-            }
-          ]
-        },
-        {
-          "subhead": "On the ground",
-          "blocks": [
-            {
-              "text": "Aid agencies said the pause in talks had coincided with fewer convoys reaching the worst affected areas. The United Nations said 61 trucks entered on Tuesday, against a target of at least 500 a day. Agencies called on both sides to agree a corridor arrangement even if the wider deal takes longer. Hospitals in the area reported shortages of fuel for generators."
-            }
-          ]
-        },
-        {
-          "subhead": "What's next",
-          "blocks": [
-            {
-              "text": "Mediators said they hope to present a written text by the end of the week. If both delegations accept it, the first phase would start within days. We will update this story, and its label, when a text is published or when independent outlets can confirm what was agreed. Until then, treat both sides' descriptions as claims, not facts."
-            }
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "label": "Pause before this round",
-          "value": "14 days",
-          "source": "Mediators"
-        },
-        {
-          "label": "Aid trucks on Tuesday",
-          "value": "61",
-          "source": "United Nations"
-        },
-        {
-          "label": "Daily target",
-          "value": "500",
-          "source": "United Nations"
-        }
-      ],
       "timeline": [
         {
           "kind": "first-reported",
@@ -387,12 +681,6 @@
           "sourceId": "guardian-world"
         }
       ],
-      "place": {
-        "name": "Doha",
-        "lat": 25.29,
-        "lon": 51.53,
-        "region": "Qatar"
-      },
       "sources": [
         {
           "sourceId": "al-jazeera",

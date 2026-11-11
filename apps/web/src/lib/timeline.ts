@@ -1,4 +1,4 @@
-import type { WrittenStory } from '@cspnews/core';
+import type { LocalStory } from '@cspnews/core';
 
 import { evidenceWord, type EvidenceLabel, type InterfaceLanguage } from './evidence.js';
 import { formatShortDate, formatTime } from './format.js';
@@ -24,7 +24,7 @@ export interface TimelinePoint {
 /** Outlets joining within this many minutes of the first in a run share one step. */
 export const JOIN_WINDOW_MINUTES = 60;
 
-type TimelineEvent = NonNullable<WrittenStory['timeline']>[number];
+type TimelineEvent = NonNullable<LocalStory['timeline']>[number];
 
 /**
  * Folds runs of outlets joining close together into one step, so nine arrivals in an hour
@@ -64,7 +64,7 @@ export interface Timeline {
  * values; every other story shows its own life. Fewer than two points is no timeline.
  */
 export function timelineFor(
-  story: Pick<WrittenStory, 'series' | 'timeline' | 'label'>,
+  story: Pick<LocalStory, 'series' | 'timeline' | 'label'>,
   language: InterfaceLanguage,
   sourceName: (id: string) => string,
 ): Timeline | undefined {
