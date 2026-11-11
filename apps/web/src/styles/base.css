@@ -2,10 +2,7 @@
 @import '@fontsource/funnel-sans/latin-ext-400.css';
 @import '@fontsource/funnel-sans/latin-600.css';
 @import '@fontsource/funnel-sans/latin-ext-600.css';
-@import '@fontsource/funnel-display/latin-700.css';
-@import '@fontsource/funnel-display/latin-ext-700.css';
-@import '@fontsource/funnel-display/latin-800.css';
-@import '@fontsource/funnel-display/latin-ext-800.css';
+@import './fonts.css';
 @import './tokens.css';
 
 *,
