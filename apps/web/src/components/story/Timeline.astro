@@ -1,0 +1,181 @@
+---
+/**
+ * A story's timeline on the day line: earlier values for series stories, the story's own life
+ * for the rest. Stations sit on a horizontal line on wide screens and stand upright on phones,
+ * or whenever there are more than five, so nothing is squeezed.
+ */
+import type { Timeline } from '../../lib/timeline';
+import EvidenceMark from '../ui/EvidenceMark.astro';
+
+interface Props {
+  timeline: Timeline;
+  lang: 'en' | 'tr';
+}
+
+const { timeline, lang } = Astro.props;
+const across = timeline.points.length <= 5;
+---
+
+<section class="timeline" aria-label={timeline.heading}>
+  <h2 class="heading">{timeline.heading}</h2>
+  <ol
+    class:list={['line', timeline.kind, { across }]}
+    style={`--n: ${String(timeline.points.length)}`}
+  >
+    {
+      timeline.points.map((point) => (
+        <li class:list={['station', { current: point.current }]}>
+          <span class="when">{point.when}</span>
+          <span class="dot" aria-hidden="true" />
+          <span class="title">
+            {point.label ? (
+              <EvidenceMark label={point.label} lang={lang} />
+            ) : (
+              point.title
+            )}
+          </span>
+          {point.detail && <span class="detail">{point.detail}</span>}
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<style>
+  .timeline {
+    margin-top: 32px;
+  }
+
+  .heading {
+    color: var(--meta);
+    font: 500 15px / 1.3 var(--f-body);
+    letter-spacing: 0;
+  }
+
+  .line {
+    position: relative;
+    display: grid;
+    gap: 0;
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* Upright: the line runs down the left from each station to the next. */
+  .station:not(:last-child)::before {
+    position: absolute;
+    top: 12px;
+    bottom: -12px;
+    left: 8px;
+    width: 2px;
+    background: var(--ink);
+    content: '';
+  }
+
+  .station {
+    position: relative;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    column-gap: 16px;
+    padding: 0 0 18px 32px;
+  }
+
+  .station:last-child {
+    padding-bottom: 0;
+  }
+
+  .when {
+    grid-row: span 2;
+    padding-top: 2px;
+    color: var(--meta);
+    font: 500 14px / 1.4 var(--f-body);
+  }
+
+  .dot {
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--ink);
+  }
+
+  .current .dot {
+    top: 3px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background: var(--hour);
+  }
+
+  .current .when {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .title {
+    color: var(--ink);
+    font: 700 17px / 1.35 var(--f-body);
+  }
+
+  .series .title {
+    font: 800 22px / 1.1 var(--f-head);
+    letter-spacing: -0.02em;
+  }
+
+  .detail {
+    grid-column: 2;
+    color: var(--meta);
+    font: 500 14px / 1.4 var(--f-body);
+  }
+
+  /* Across: stations spaced evenly on a horizontal line. */
+  @media (width >= 720px) {
+    .line.across {
+      grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+    }
+
+    .across .station::before {
+      display: none;
+    }
+
+    .line.across::before {
+      position: absolute;
+      background: var(--ink);
+      content: '';
+      top: 42px;
+      right: calc(50% / var(--n));
+      bottom: auto;
+      left: calc(50% / var(--n));
+      width: auto;
+      height: 2px;
+    }
+
+    .across .station {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 8px;
+      text-align: center;
+    }
+
+    .across .when {
+      height: 24px;
+      padding: 0;
+    }
+
+    .across .dot {
+      position: static;
+      margin: 12px 0 14px;
+    }
+
+    .across .current .dot {
+      margin: 9px 0 11px;
+    }
+
+    .across .detail {
+      margin-top: 6px;
+    }
+  }
+</style>

@@ -1,25 +1,75 @@
 ---
 import Header from '../components/Header.astro';
+import Icon from '../components/ui/Icon.astro';
 import Base from '../layouts/Base.astro';
+import { loadBulletins, storyPath } from '../lib/bulletins';
+import { editionHourFor } from '../lib/edition';
+import { formatLongDate, formatTime } from '../lib/format';
+import { bulletinName, wordsFor } from '../lib/i18n';
+
+// Contents (step 5) replaces this page; until then it opens the latest bulletin.
+const lang = 'en' as const;
+const words = wordsFor(lang);
+const latest = loadBulletins()[0];
+const first = latest?.bulletin.stories[0];
 ---
 
-<Base title="CSPNews">
+<Base title="CSPNews" hour={latest ? editionHourFor(latest.slot) : 'dawn'} lang={lang}>
   <Header />
-  <main class="empty">
-    <h1>No bulletin yet</h1>
-    <p>The first bulletin appears here as soon as it is published.</p>
+  <main class="home">
+    {
+      latest && first ? (
+        <>
+          <p class="kicker">{words.latest}</p>
+          <h1>{bulletinName(latest.slot, lang)}</h1>
+          <p>
+            {formatLongDate(latest.bulletin.publishAt, lang)},{' '}
+            {formatTime(latest.bulletin.publishAt, lang)}
+          </p>
+          <a class="start" href={storyPath(latest, first)}>
+            {words.startReading}
+            <Icon name="next" />
+          </a>
+        </>
+      ) : (
+        <>
+          <h1>{words.noBulletin}</h1>
+          <p>{words.noBulletinBody}</p>
+        </>
+      )
+    }
   </main>
 </Base>
 
 <style>
-  .empty {
+  .home {
     display: grid;
+    justify-items: start;
     gap: 12px;
     max-width: var(--measure);
     padding: 64px var(--gutter);
   }
 
+  .kicker {
+    color: var(--meta);
+    font: 500 15px / 1.3 var(--f-body);
+  }
+
   h1 {
     font-size: 34px;
+  }
+
+  .start {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 52px;
+    margin-top: 16px;
+    padding: 0 20px;
+    border-radius: 12px;
+    background: var(--ink);
+    color: var(--bg);
+    font: 700 16px / 1 var(--f-body);
+    text-decoration: none;
   }
 </style>

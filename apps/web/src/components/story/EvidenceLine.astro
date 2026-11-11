@@ -1,0 +1,70 @@
+---
+/**
+ * The evidence line under the headline: the mark with its word, then up to three outlets by
+ * name and a count for the rest (docs/design/system.md, "Badges"). It will open the evidence
+ * drawer (step 7); for now it is a plain line.
+ */
+import type { EvidenceLabel, InterfaceLanguage } from '../../lib/evidence';
+import { evidenceSummary } from '../../lib/i18n';
+import EvidenceMark from '../ui/EvidenceMark.astro';
+import Icon from '../ui/Icon.astro';
+
+interface Props {
+  label: EvidenceLabel;
+  outlets: readonly string[];
+  developing: boolean;
+  lang: InterfaceLanguage;
+  developingWord: string;
+}
+
+const { label, outlets, developing, lang, developingWord } = Astro.props;
+const SHOWN = 3;
+const shown = outlets.slice(0, SHOWN);
+const rest = outlets.length - shown.length;
+---
+
+<p class="evidence" aria-label={evidenceSummary(label, outlets, SHOWN, lang)}>
+  <span aria-hidden="true" class="mark"><EvidenceMark label={label} lang={lang} /></span>
+  <span aria-hidden="true" class="outlets">
+    {shown.join(', ')}
+    {rest > 0 && <span class="rest">+{rest}</span>}
+  </span>
+</p>
+{
+  developing && (
+    <p class="developing">
+      <Icon name="developing" size={20} />
+      {developingWord}
+    </p>
+  )
+}
+
+<style>
+  .evidence {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 12px;
+    margin-top: 16px;
+    color: var(--ink);
+    font: 600 15px / 1.4 var(--f-body);
+  }
+
+  .mark :global(.ev) {
+    font-size: 15px;
+  }
+
+  .rest {
+    margin-left: 6px;
+    color: var(--meta);
+  }
+
+  .developing {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    color: var(--ink);
+    font: 600 15px / 1.4 var(--f-body);
+  }
+</style>

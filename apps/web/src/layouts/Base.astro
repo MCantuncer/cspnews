@@ -7,14 +7,20 @@ interface Props {
   title: string;
   description?: string;
   hour?: EditionHour;
+  /** The interface language. */
+  lang?: 'en' | 'tr';
 }
 
-const { title, description = 'A personal newsroom: four calm bulletins a day.', hour = 'dawn' } =
-  Astro.props;
+const {
+  title,
+  description = 'A personal newsroom: four calm bulletins a day.',
+  hour = 'dawn',
+  lang = 'en',
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" data-hour={hour} data-theme="dark">
+<html lang={lang} data-hour={hour} data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
