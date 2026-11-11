@@ -157,6 +157,9 @@ export const SOURCES = defineSources([
     ownerGroup: 't24',
     camp: 'independent',
     tier: 'established',
+
+    // Answers 403 to automated requests (source health check, 2026-11-11).
+    enabled: false,
   },
   {
     id: 'medyascope',
