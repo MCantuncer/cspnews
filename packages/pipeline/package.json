@@ -1,0 +1,25 @@
+{
+  "name": "@cspnews/pipeline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepare-bulletin": "node dist/prepare-bulletin.js"
+  },
+  "dependencies": {
+    "@cspnews/collector": "workspace:*",
+    "@cspnews/config": "workspace:*",
+    "@cspnews/core": "workspace:*",
+    "@cspnews/grouping": "workspace:*",
+    "@cspnews/verify": "workspace:*"
+  }
+}
