@@ -82,3 +82,25 @@ function icon(name: IconName, className = '') {
   svg.innerHTML = ICONS[name];
   return svg;
 }
+
+let closing = false;
+
+/**
+ * An open timeline closes with a click anywhere on it, the same way it opened. The heading
+ * (the summary) stays the keyboard control; links, buttons and selected text are left alone.
+ */
+export function closeTimelinesOnClick(root: Document = document) {
+  if (closing) return;
+  closing = true;
+  root.addEventListener('click', (event) => {
+    const { target } = event;
+    if (!(target instanceof Element)) return;
+    const list = target.closest('.tl[open] > .tl__down');
+    const details = list?.parentElement;
+    if (!(details instanceof HTMLDetailsElement)) return;
+    if (target.closest('a, button, input, select, textarea')) return;
+    if (root.getSelection()?.toString()) return;
+    details.open = false;
+    details.querySelector('summary')?.focus({ preventScroll: true });
+  });
+}

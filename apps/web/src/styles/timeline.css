@@ -129,9 +129,10 @@
   white-space: nowrap;
 }
 
-/* Open: the upright list, every step with its detail. */
+/* Open: the upright list, every step with its detail. A click anywhere on it folds it again. */
 .tl__down {
   display: grid;
+  cursor: pointer;
   margin: 8px 0 0;
   padding: 0;
   list-style: none;
