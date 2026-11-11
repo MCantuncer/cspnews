@@ -83,11 +83,26 @@ describe('WrittenStorySchema', () => {
     const timeline = [
       { kind: 'first-reported', at: '2026-11-11T08:00:00Z', sourceId: 'aa-tr' },
       { kind: 'label-changed', at: '2026-11-11T08:30:00Z', from: 'single-source', to: 'confirmed' },
+      { kind: 'updated', at: '2026-11-11T14:30:00Z', note: 'Şirket karara itiraz edecek' },
+      {
+        kind: 'updated',
+        at: '2026-11-11T15:00:00Z',
+        note: 'Bakanlık açıklama yaptı',
+        sourceId: 'aa-tr',
+      },
     ];
     expect(issues({ ...STORY, timeline })).toEqual([]);
     expect(
       issues({ ...STORY, timeline: [{ kind: 'label-changed', at: '2026-11-11T08:30:00Z' }] }),
-    ).toContain('A label change needs from and to; every other event needs a source');
+    ).toContain(
+      'A label change needs from and to, an update needs a note, every other event a source',
+    );
+  });
+
+  it('needs a note on an update', () => {
+    expect(
+      issues({ ...STORY, timeline: [{ kind: 'updated', at: '2026-11-11T14:30:00Z' }] }),
+    ).not.toEqual([]);
   });
 
   it('treats the visual and timeline fields as optional', () => {

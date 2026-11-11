@@ -100,7 +100,9 @@ export const StoryImageSchema = z
 
 /**
  * The story's own life, for stories without a key number: first report, outlets joining,
- * primary source, fact-checks and label changes. Copied from the bulletin candidates.
+ * primary source, fact-checks and label changes come from the bulletin candidates.
+ * `updated` is added by the Write run when a published story gets new material facts
+ * ("the company will appeal"), with a short note and, when known, the source.
  */
 export const TimelineEventSchema = z
   .object({
@@ -110,20 +112,24 @@ export const TimelineEventSchema = z
       'primary-source',
       'fact-check',
       'label-changed',
+      'updated',
     ]),
     at: isoDateTime,
     sourceId: text(64).optional(),
+    note: text(140).optional(),
     from: z.enum(EVIDENCE_LABEL_VALUES).optional(),
     to: z.enum(EVIDENCE_LABEL_VALUES).optional(),
   })
   .strict()
-  .refine(
-    (event) =>
-      event.kind === 'label-changed'
-        ? event.from !== undefined && event.to !== undefined
-        : event.sourceId !== undefined,
-    'A label change needs from and to; every other event needs a source',
-  );
+  .refine((event) => {
+    if (event.kind === 'label-changed') {
+      return event.from !== undefined && event.to !== undefined && event.note === undefined;
+    }
+    if (event.kind === 'updated') {
+      return event.note !== undefined && event.from === undefined && event.to === undefined;
+    }
+    return event.sourceId !== undefined && event.note === undefined;
+  }, 'A label change needs from and to, an update needs a note, every other event a source');
 
 export const StorySourceSchema = z
   .object({
