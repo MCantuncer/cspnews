@@ -4,6 +4,7 @@
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "pnpm --filter @cspnews/web... build",
   "outputDirectory": "apps/web/dist",
+  "ignoreCommand": "bash scripts/vercel-ignore-build.sh",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
