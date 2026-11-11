@@ -31,10 +31,9 @@ const WORDS = {
     nextStory: 'Next',
     endOfBulletin: 'End of the bulletin',
     sources: 'Sources',
-    latest: 'Latest bulletin',
-    startReading: 'Start reading',
     noBulletin: 'No bulletin yet',
     noBulletinBody: 'The first bulletin appears here as soon as it is published.',
+    contents: 'Contents',
   },
   tr: {
     bulletin: {
@@ -60,10 +59,9 @@ const WORDS = {
     nextStory: 'Sıradaki',
     endOfBulletin: 'Bülten sonu',
     sources: 'Kaynaklar',
-    latest: 'Son bülten',
-    startReading: 'Okumaya başla',
     noBulletin: 'Henüz bülten yok',
     noBulletinBody: 'İlk bülten yayımlanır yayımlanmaz burada görünür.',
+    contents: 'İçindekiler',
   },
 } as const;
 
@@ -115,4 +113,26 @@ export function evidenceSummary(
   const count = `${String(names.length)} source${names.length === 1 ? '' : 's'}`;
   const tail = rest > 0 ? ` and ${String(rest)} more` : '';
   return `${word}, ${count}: ${visible}${tail}`;
+}
+
+/** "3 stories, about 4 minutes" / "3 haber, yaklaşık 4 dakika". */
+export function bulletinSize(
+  stories: number,
+  minutes: number,
+  language: InterfaceLanguage,
+): string {
+  const m = String(Math.max(1, minutes));
+  if (language === 'tr') return `${String(stories)} haber, yaklaşık ${m} dakika`;
+  const s = stories === 1 ? 'story' : 'stories';
+  return `${String(stories)} ${s}, about ${m} minute${m === '1' ? '' : 's'}`;
+}
+
+/** "Next at 22:30." / "Sıradaki 22:30'da." */
+export function nextBulletinAt(time: string, language: InterfaceLanguage): string {
+  return language === 'tr' ? `Sıradaki ${time}’da.` : `Next at ${time}.`;
+}
+
+/** "4 read" / "4 okundu", for read stories folded into one line. */
+export function readCount(count: number, language: InterfaceLanguage): string {
+  return `${String(count)} ${language === 'tr' ? 'okundu' : 'read'}`;
 }
