@@ -45,6 +45,7 @@ export {
   SeriesPointSchema,
   StoryImageSchema,
   StorySourceSchema,
+  TimelineEventSchema,
   WrittenStorySchema,
   parseBulletin,
 } from './story.js';
@@ -58,5 +59,6 @@ export type {
   SeriesPoint,
   StoryImage,
   StorySource,
+  TimelineEntry,
   WrittenStory,
 } from './story.js';

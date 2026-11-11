@@ -98,6 +98,33 @@ export const StoryImageSchema = z
   })
   .strict();
 
+/**
+ * The story's own life, for stories without a key number: first report, outlets joining,
+ * primary source, fact-checks and label changes. Copied from the bulletin candidates.
+ */
+export const TimelineEventSchema = z
+  .object({
+    kind: z.enum([
+      'first-reported',
+      'outlet-joined',
+      'primary-source',
+      'fact-check',
+      'label-changed',
+    ]),
+    at: isoDateTime,
+    sourceId: text(64).optional(),
+    from: z.enum(EVIDENCE_LABEL_VALUES).optional(),
+    to: z.enum(EVIDENCE_LABEL_VALUES).optional(),
+  })
+  .strict()
+  .refine(
+    (event) =>
+      event.kind === 'label-changed'
+        ? event.from !== undefined && event.to !== undefined
+        : event.sourceId !== undefined,
+    'A label change needs from and to; every other event needs a source',
+  );
+
 export const StorySourceSchema = z
   .object({
     sourceId: text(64),
@@ -155,6 +182,7 @@ export const WrittenStorySchema = z
 
     facts: z.array(FactSchema).max(5).optional(),
     series: z.array(SeriesPointSchema).max(12).optional(),
+    timeline: z.array(TimelineEventSchema).max(40).optional(),
     keyNumber: KeyNumberSchema.optional(),
     place: PlaceSchema.optional(),
     /** Organisation the story is about, for a logo when there is no photo. */
@@ -178,6 +206,7 @@ export type KeyNumber = z.infer<typeof KeyNumberSchema>;
 export type Place = z.infer<typeof PlaceSchema>;
 export type StoryImage = z.infer<typeof StoryImageSchema>;
 export type StorySource = z.infer<typeof StorySourceSchema>;
+export type TimelineEntry = z.infer<typeof TimelineEventSchema>;
 export type WrittenStory = z.infer<typeof WrittenStorySchema>;
 
 /** A published bulletin: its slot and its stories, in reading order. */

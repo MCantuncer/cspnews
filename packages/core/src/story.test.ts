@@ -79,6 +79,17 @@ describe('WrittenStorySchema', () => {
     expect(issues({ ...STORY, teaser: 'x' })).not.toEqual([]);
   });
 
+  it('accepts a story timeline and checks each event', () => {
+    const timeline = [
+      { kind: 'first-reported', at: '2026-11-11T08:00:00Z', sourceId: 'aa-tr' },
+      { kind: 'label-changed', at: '2026-11-11T08:30:00Z', from: 'single-source', to: 'confirmed' },
+    ];
+    expect(issues({ ...STORY, timeline })).toEqual([]);
+    expect(
+      issues({ ...STORY, timeline: [{ kind: 'label-changed', at: '2026-11-11T08:30:00Z' }] }),
+    ).toContain('A label change needs from and to; every other event needs a source');
+  });
+
   it('treats the visual and timeline fields as optional', () => {
     const { facts, series, keyNumber, place, orgId, ...bare } = STORY;
     expect([facts, series, keyNumber, place, orgId].every(Boolean)).toBe(true);

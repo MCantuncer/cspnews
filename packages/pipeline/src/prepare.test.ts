@@ -99,6 +99,16 @@ describe('prepareBulletin', async () => {
     expect(file.sections.tech).toEqual([]);
   });
 
+  it('includes the story timeline', () => {
+    const [top] = file.sections.turkey;
+    expect(top?.timeline.map((event) => event.kind)).toEqual([
+      'first-reported',
+      'outlet-joined',
+      'label-changed',
+      'outlet-joined',
+    ]);
+  });
+
   it('keeps articles outside the window out', () => {
     const titles = file.sections.turkey.flatMap((c) => c.articles.map((a) => a.title));
     expect(titles).not.toContain('Dün akşamki maçın özeti');
