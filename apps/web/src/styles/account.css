@@ -25,23 +25,56 @@
   }
 }
 
-/* ---- Header corner ---- */
+/* ---- The account row in the reader corner sheet ---- */
 
-.acc-slot {
+.acc-row {
   display: flex;
-  flex: none;
   align-items: center;
-  margin-left: auto;
+  gap: 12px;
+  min-height: 64px;
+  padding: 4px 0 16px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.acc-row-mark {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid var(--line2);
+  border-radius: 50%;
+  color: var(--meta);
+}
+
+.acc-row-text {
+  display: grid;
+  flex: 1;
+  gap: 2px;
+  min-width: 0;
+}
+
+.acc-row-text b {
+  color: var(--ink);
+  font: 600 15px / 1.3 var(--f-body);
+}
+
+.acc-row-text span {
+  color: var(--meta);
+  font: 400 13px / 1.35 var(--f-body);
 }
 
 .acc-signin {
-  min-height: 36px;
-  padding: 0 14px;
-  border: 1px solid var(--line2);
+  flex: none;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1.5px solid var(--line2);
   border-radius: 999px;
   background: none;
   color: var(--ink);
-  font: 600 13px / 1 var(--f-body);
+  font: 600 14px / 1 var(--f-body);
   cursor: pointer;
 }
 
@@ -49,17 +82,18 @@
   background: var(--surf);
 }
 
-.acc-me {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  margin-right: -6px;
-  border-radius: 50%;
+a.acc-row:hover .acc-row-text b {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.acc-in > .icon {
+  color: var(--meta);
 }
 
 .acc-me-avatar {
   display: block;
+  flex: none;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -67,8 +101,18 @@
   line-height: 0;
 }
 
-:root[data-signed-in] .acc-signin,
-:root:not([data-signed-in]) .acc-me {
+.acc-in .acc-me-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.acc-in .acc-me-avatar svg {
+  width: 40px;
+  height: 40px;
+}
+
+:root[data-signed-in] .acc-out,
+:root:not([data-signed-in]) .acc-in {
   display: none;
 }
 
