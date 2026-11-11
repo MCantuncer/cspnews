@@ -1,4 +1,4 @@
-import type { Source } from '@cspnews/core';
+import { isFeedSource, type Source } from '@cspnews/core';
 
 export type FeedHealth =
   { readonly ok: true; readonly items: number } | { readonly ok: false; readonly reason: string };
@@ -8,7 +8,7 @@ const FEED_ITEM = /<(item|entry)[\s>]/gi;
 
 /** Sources whose `url` is an RSS, RDF or Atom feed the health check can read. */
 export function isFeed(source: Source): boolean {
-  return source.kind === 'rss' || source.kind === 'primary' || source.kind === 'fact-check';
+  return isFeedSource(source);
 }
 
 /** Judges a fetched feed: it must answer 2xx, look like RSS/RDF/Atom and contain items. */
