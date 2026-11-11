@@ -24,6 +24,6 @@
     "SITE_URL": "http://localhost:4321",
     // From the Google Cloud sign-in client (see README.md). Public; the secret is set with
     // `wrangler secret put GOOGLE_CLIENT_SECRET`, or in .dev.vars for local dev.
-    "GOOGLE_CLIENT_ID": "",
+    "GOOGLE_CLIENT_ID": "709594445277-dv9itd3vp2guk43ei3fd2vnhrdnnjsbt.apps.googleusercontent.com",
   },
 }
