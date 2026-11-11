@@ -32,6 +32,7 @@ The feature list behind [the user stories](user-stories.md). Each feature names 
 | F-20 | Installable app with offline reading                                                                    | US-13          | Next  |
 | F-21 | Email bulletin                                                                                          | US-60          | Later |
 | F-22 | Listen mode                                                                                             | US-61          | Later |
+| F-24 | Daily word game in English and Turkish, with streaks and stats                                          | US-70, US-71   | Next  |
 
 ## Shared systems
 
