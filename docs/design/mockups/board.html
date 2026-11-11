@@ -1,0 +1,1261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Meridian, round 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500;600;700;800&family=Funnel+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --f-head:"Funnel Display",system-ui,sans-serif;
+  --f-body:"Funnel Sans",system-ui,sans-serif;
+  --ease:cubic-bezier(.2,.8,.2,1);
+}
+.dark{
+  --bg:#11100e; --surf:#1c1a17; --ink:#f5f0e8; --ink2:#e2dbcf; --meta:#c9c2b6;
+  --line:#2f2b27; --line2:#6a6258; --scrim:rgba(0,0,0,.62);
+  --land:#3a352f; --landhi:#5a5249; --coast:#8a8174;
+  --conf:#7cc48f; --rep:#e2dbcf; --single:#e0ad4c; --disp:#d26a5c; --hot:#ff5c45;
+  --dawn:#e9b04a; --noon:#d9c79a; --dusk:#f39a4a; --night:#86a2ea;
+  color-scheme:dark;
+}
+.light{
+  --bg:#f7f4ee; --surf:#ffffff; --ink:#12100d; --ink2:#2b2722; --meta:#48423a;
+  --line:#e0d9cd; --line2:#9a9183; --scrim:rgba(18,16,13,.45);
+  --land:#e9e3d7; --landhi:#d2c8b6; --coast:#9a9183;
+  --conf:#1d7339; --rep:#2b2722; --single:#835700; --disp:#a5402f; --hot:#b3261e;
+  --dawn:#8a5a00; --noon:#6b5e3a; --dusk:#b5531a; --night:#3a5bb0;
+  color-scheme:light;
+}
+[data-hour=dawn]{--hour:var(--dawn)} [data-hour=noon]{--hour:var(--noon)}
+[data-hour=dusk]{--hour:var(--dusk)} [data-hour=night]{--hour:var(--night)}
+
+/* ============ BOARD ============ */
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#1e1c19}
+body{font-family:var(--f-body);color:#ece6dc;padding:64px 48px 120px;-webkit-font-smoothing:antialiased}
+.board{width:1376px;margin:0 auto;display:flex;flex-direction:column;gap:96px}
+.tag{font:500 16px/1.4 var(--f-body);color:#d8d1c5;margin-bottom:16px;display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.tag b{font:800 20px/1 var(--f-head);color:#f5f0e8;font-variant-numeric:tabular-nums}
+.tag .il{margin-left:auto;font-size:14px;color:#d8d1c5}
+.row{display:flex;gap:48px;align-items:flex-start;flex-wrap:wrap}
+.col{display:flex;flex-direction:column;width:390px}.col.n360{width:360px}.col .tag .il{margin-left:0}
+.note{font-size:15px;line-height:1.55;color:#d8d1c5;margin-top:18px;max-width:390px}
+.note b{color:#f5f0e8;font-weight:700}
+.wide .note{max-width:820px}
+.frame{position:relative;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--f-body);display:flex;flex-direction:column}
+.phone{width:390px;height:844px;border-radius:16px;outline:1px solid #57514a}
+.p360{width:360px;height:760px;border-radius:16px;outline:1px solid #57514a}
+.desk{width:1280px;border-radius:12px;outline:1px solid #57514a}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* intro */
+.intro{display:grid;grid-template-columns:520px 1fr;gap:72px;padding:56px 56px 52px;border-radius:12px;background:#11100e;border-top:3px solid #f39a4a}
+.intro .wmk{font:900 34px/1 var(--f-head);letter-spacing:-.03em;color:#f5f0e8}
+.intro .wmk span{font-weight:500}
+.intro h1{font:800 56px/1.02 var(--f-head);letter-spacing:-.035em;color:#f5f0e8;margin-top:36px}
+.intro p{font-size:18px;line-height:1.6;color:#e2dbcf;margin-top:18px;max-width:500px}
+.intro p b{color:#f5f0e8}
+.intro h2{font:800 22px/1.2 var(--f-head);color:#f5f0e8;margin-bottom:14px}
+.changes{list-style:none;display:grid;gap:10px}
+.changes li{font-size:16px;line-height:1.5;color:#e2dbcf;display:grid;grid-template-columns:150px 1fr;gap:16px;padding-top:10px;border-top:1px solid #2f2b27}
+.changes li b{color:#f5f0e8;font-weight:700}
+.kit{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:48px;padding-top:32px;border-top:1px solid #2f2b27}
+.kit h3{font:700 16px/1.3 var(--f-body);color:#f5f0e8;margin-bottom:14px}
+.kit .gl{display:grid;gap:12px}
+.kit .gl div{display:flex;gap:10px;align-items:center;font-size:16px;color:#f5f0e8}
+.kit .gl small{font-size:14px;color:#c9c2b6;margin-left:auto}
+.hours{display:grid;gap:14px}
+.hours div{display:grid;grid-template-columns:64px 1fr;align-items:center;gap:14px;font-size:16px;color:#f5f0e8;font-variant-numeric:tabular-nums}
+.hours i{height:3px;background:var(--c)}
+.type .h{font:800 30px/1.1 var(--f-head);letter-spacing:-.02em;color:#f5f0e8}
+.type .b{font-size:17px;line-height:1.5;color:#e2dbcf;margin-top:10px}
+.type .b b{font-weight:700;color:#f5f0e8}
+
+/* ============ SHARED UI ============ */
+.g{width:18px;height:18px;flex:none;display:inline-block;vertical-align:-3px}
+.g.c{color:var(--conf)} .g.r{color:var(--rep)} .g.s{color:var(--single)} .g.d{color:var(--disp)}
+.ic{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ev{display:inline;white-space:nowrap;font:600 14px/1 var(--f-body);color:var(--ink);margin-left:4px}
+.ev .g{vertical-align:-0.24em;margin-right:6px}
+.f{font-weight:700}
+.t{font-variant-numeric:tabular-nums}
+button,a{font:inherit;color:inherit}
+button{all:unset;box-sizing:border-box;cursor:pointer}
+a{text-decoration:none}
+button:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+.sb{height:44px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 26px 0 30px;font:600 15px/1 var(--f-body);color:var(--ink)}
+.sb svg{width:26px;height:12px}
+.edge{height:3px;flex:none;background:var(--hour)}
+.hd{flex:none;height:60px;display:flex;align-items:center;gap:4px;padding:0 6px 0 20px}
+.wm{font:900 19px/1 var(--f-head);letter-spacing:-.03em;color:var(--ink);margin-right:10px;white-space:nowrap}
+.wm span{font-weight:500}
+.bul{display:flex;flex-direction:column;justify-content:center;gap:3px;min-height:48px;padding:2px 10px;border-radius:10px;flex:1;min-width:0}
+.bul .b1{font:500 13px/1.2 var(--f-body);color:var(--meta)}
+.bul .b2{font:700 15px/1.2 var(--f-body);color:var(--ink);display:flex;align-items:center;gap:4px;white-space:nowrap}
+.bul .b2 .ic{width:16px;height:16px}
+.ico{width:44px;height:44px;display:grid;place-items:center;border-radius:10px;color:var(--ink);flex:none}
+.ico.on{position:relative}.ico.on::after{content:"";position:absolute;left:10px;right:10px;bottom:0;height:3px;background:var(--hour)}
+.ml{flex:none;position:relative;height:12px;margin:0 20px 4px}
+.ml::before{content:"";position:absolute;left:0;right:0;top:5px;height:2px;background:var(--line)}
+.ml .el{position:absolute;left:0;top:5px;height:2px;background:var(--ink)}
+.ml .cur{position:absolute;top:3px;width:18px;height:6px;margin-left:-9px;background:var(--hour);border-radius:1px}
+
+.pg{flex:1;min-height:0;overflow:hidden;padding:20px 20px 0}
+.ph{height:150px;margin:0 -20px 24px;background:var(--surf);position:relative;display:flex;align-items:flex-end;padding:12px 20px;border-bottom:1px solid var(--line)}
+.ph span{font:500 13px/1 var(--f-body);color:var(--meta)}
+.hl{font:800 28px/1.14 var(--f-head);letter-spacing:-.022em;color:var(--ink)}
+.evb{display:flex;align-items:center;gap:8px;min-height:44px;margin:12px 0 6px;font:600 15px/1.3 var(--f-body);color:var(--ink)}
+.evb .g{width:20px;height:20px}
+.evb .ic{width:16px;height:16px;color:var(--meta)}
+.gist{font:400 19px/1.5 var(--f-body);color:var(--ink)}
+.more{display:flex;align-items:center;gap:6px;min-height:44px;margin-top:8px;font:700 16px/1 var(--f-body);color:var(--ink)}
+.more .ic{width:18px;height:18px}
+.sum{font:400 17px/1.6 var(--f-body);color:var(--ink2);margin-top:4px}
+
+.bb{flex:none;display:flex;gap:10px;padding:12px 16px 16px;background:var(--bg);border-top:1px solid var(--line)}
+.bb.safe{padding-bottom:34px}
+.prev{width:52px;height:52px;border-radius:12px;border:1.5px solid var(--line2);display:grid;place-items:center;color:var(--ink);flex:none}
+.next{flex:1;min-width:0;height:52px;border-radius:12px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 16px;font:700 15px/1 var(--f-body)}
+.next span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hi{position:absolute;bottom:8px;left:50%;width:134px;height:5px;margin-left:-67px;border-radius:3px;background:var(--ink);z-index:9}
+
+/* Safari bottom toolbar (system chrome, drawn for context) */
+.saf{flex:none;background:#efede8;border-top:1px solid #d9d4ca;padding:8px 12px 30px;display:flex;align-items:center;gap:6px;color:#0b5fca}
+.saf .ad{flex:1;height:44px;border-radius:12px;background:#e2dfd8;display:flex;align-items:center;justify-content:center;font:500 16px/1 -apple-system,system-ui,sans-serif;color:#12100d}
+.saf .si{width:40px;height:44px;display:grid;place-items:center}
+.saf .si .ic{width:22px;height:22px}
+.saf .si.off{color:#6d6a64}
+
+/* collapsed header */
+.hdc{flex:none;height:44px;display:flex;align-items:center;justify-content:center}
+.hdc .b2{font:700 15px/1 var(--f-body);display:flex;align-items:center;gap:4px;min-height:44px;padding:0 10px}
+.hdc .b2 .ic{width:16px;height:16px}
+
+/* ============ CONTENTS (Meridian spine) ============ */
+.toc{list-style:none;position:relative;padding-left:40px}
+.toc::before{content:"";position:absolute;left:13px;top:36px;bottom:34px;width:2px;background:var(--line2)}
+.toc li{position:relative}
+.toc .st{display:flex;align-items:baseline;gap:10px;padding:28px 0 8px}
+.toc .st:first-child{padding-top:20px}
+.toc .st::before{content:"";position:absolute;left:-34px;top:calc(var(--pt,28px) + 7px);width:16px;height:16px;border-radius:50%;border:2px solid var(--ink);background:var(--bg);box-sizing:border-box}
+.toc .st:first-child{--pt:20px}
+.toc .st h3{font:800 24px/1.15 var(--f-head);letter-spacing:-.02em}
+.toc .st span{font:500 14px/1 var(--f-body);color:var(--meta)}
+.toc .rd button{display:flex;align-items:center;gap:8px;min-height:44px;font:600 15px/1 var(--f-body);color:var(--meta)}
+.toc .rd button .ic{width:16px;height:16px}
+.toc .rd::before{content:"";position:absolute;left:-30px;top:21px;width:10px;height:2px;background:var(--line2)}
+.toc .s a{display:block;padding:10px 0;min-height:44px;font:500 17px/1.42 var(--f-body);color:var(--ink)}
+.toc .s::before{content:"";position:absolute;left:-27px;top:21px;width:12px;height:2px;background:var(--line2)}
+.toc .s.lead a{padding:12px 0 14px}
+.toc .s.lead h4{font:800 21px/1.22 var(--f-head);letter-spacing:-.015em;color:var(--ink)}
+.toc .s.lead p{font:400 16px/1.5 var(--f-body);color:var(--ink2);margin-top:6px}
+.toc .s.lead::before{top:25px;width:16px}
+.toc .s.cur::after{content:"";position:absolute;left:-29px;top:10px;bottom:12px;width:6px;background:var(--hour);border-radius:1px}
+.toc .s.cur::before{display:none}
+.toc .end{padding:26px 0 8px;font:500 16px/1.4 var(--f-body);color:var(--meta)}
+.toc .end b{color:var(--ink);font-weight:700}
+.toc .end::before{content:"";position:absolute;left:-33px;top:28px;width:14px;height:14px;border-radius:50%;border:2px solid var(--line2);background:var(--bg);box-sizing:border-box}
+/* small variant for desktop rail */
+.toc.sm .st h3{font-size:19px}
+.toc.sm .s a{font-size:15px;line-height:1.42;padding:8px 0}
+.toc.sm .s.lead h4{font-size:17px}
+.toc.sm .s.lead p{font-size:14px}
+.toc.sm .st::before{top:calc(var(--pt,28px) + 4px)}
+.toc.sm .s::before{top:18px}
+.toc.sm .s.lead::before{top:22px}
+
+/* contents page head */
+.ch{padding:18px 20px 0}
+.ch h2{font:800 32px/1.08 var(--f-head);letter-spacing:-.03em}
+.ch p{font:400 16px/1.5 var(--f-body);color:var(--meta);margin-top:8px}
+
+/* ============ DESKTOP ============ */
+.desk .hd{height:68px;padding:0 20px 0 28px}
+.desk .wm{font-size:22px;margin-right:18px}
+.desk .bul{flex:none}
+.desk .ml{margin:0 28px 0}
+.dbody{display:grid;grid-template-columns:348px 1fr;border-top:1px solid var(--line);margin-top:8px}
+.rail{border-right:1px solid var(--line);padding:6px 24px 0 20px;overflow:hidden;height:0;min-height:100%}
+.rail .rh{padding:18px 0 0 0}
+.rail .rh h2{font:800 22px/1.1 var(--f-head);letter-spacing:-.02em}
+.rail .rh p{font:400 14px/1.5 var(--f-body);color:var(--meta);margin-top:6px}
+.dcol{width:640px;margin:0 auto;padding:44px 0 48px}
+.chart{display:block;width:640px;height:170px;margin-bottom:26px}
+.desk .hl{font-size:40px;line-height:1.1;letter-spacing:-.028em}
+.desk .gist{font-size:21px;line-height:1.5}
+.desk .sum{font-size:18px;line-height:1.62;max-width:620px}
+.desk .evb{font-size:16px}
+.dnext{display:flex;gap:12px;margin-top:36px;padding-top:24px;border-top:1px solid var(--line)}
+.dnext .next{flex:none;padding:0 20px;gap:12px}
+.dnext .lbl{font:500 15px/1 var(--f-body);color:var(--meta);align-self:center;margin-left:auto}
+
+/* panel (desktop evidence) */
+.dbody.pan{grid-template-columns:1fr 420px}
+.dbody.pan .dcol{padding-top:52px}
+.panel{border-left:1px solid var(--line);background:var(--surf);padding:20px 28px 32px}
+
+/* ============ EVIDENCE (sheet + panel shared) ============ */
+.ev-h{display:flex;align-items:center;gap:12px;min-height:48px}
+.ev-h .g{width:26px;height:26px}
+.ev-h h3{font:800 26px/1 var(--f-head);letter-spacing:-.02em;flex:1}
+.ev-p{font:400 16px/1.55 var(--f-body);color:var(--ink2);margin-top:10px}
+.ev-k{font:700 16px/1.2 var(--f-body);margin:24px 0 4px}
+.camp{padding:12px 0 6px;border-top:1px solid var(--line)}
+.camp .cn{display:flex;justify-content:space-between;font:700 15px/1.3 var(--f-body);color:var(--ink);margin-bottom:4px}
+.camp .cn span{font-weight:500;color:var(--meta)}
+.ol{display:flex;justify-content:space-between;font:400 15px/1.7 var(--f-body);color:var(--ink2)}
+.ol span{color:var(--meta)}
+.lk{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:52px;border-top:1px solid var(--line);font:400 15px/1.35 var(--f-body);color:var(--ink2)}
+.lk b{display:block;color:var(--ink);font-weight:700;margin-bottom:2px}
+.lk .ic{width:18px;height:18px;color:var(--ink)}
+.sheet{position:absolute;left:0;right:0;bottom:0;top:150px;background:var(--surf);border-radius:16px 16px 0 0;padding:14px 20px 40px;z-index:5;border-top:1px solid var(--line2)}
+.scrim{position:absolute;left:0;right:0;top:123px;bottom:0;background:var(--scrim);z-index:4}
+
+/* ============ HOT / DEVELOPING ============ */
+.hot{flex:none;height:40px;display:flex;align-items:center;gap:10px;padding:0 4px 0 20px;margin-top:2px}
+.hot .sp{width:3px;height:16px;background:var(--hot);border-radius:1px;flex:none}
+.hot a{flex:1;min-width:0;display:flex;align-items:center;gap:12px;min-height:44px;margin:-2px 0;font:600 15px/1 var(--f-body);color:var(--ink);white-space:nowrap}
+.hot a .ev{margin:0;font-weight:500;color:var(--ink2);font-size:14px}
+.hot .x{width:44px;height:44px;display:grid;place-items:center;color:var(--meta);flex:none}
+.hot .x .ic{width:18px;height:18px}
+.dv{display:flex;align-items:center;gap:10px;font:600 15px/1.3 var(--f-body);color:var(--ink);margin-bottom:12px}
+.dv .sp{width:3px;height:16px;background:var(--hot);border-radius:1px}
+.dv span{font-weight:400;color:var(--meta)}
+.kn{margin-top:22px}
+.kn h3{font:800 19px/1.2 var(--f-head);letter-spacing:-.01em;margin-bottom:6px}
+.kn ul{list-style:none}
+.kn li{font:400 17px/1.5 var(--f-body);color:var(--ink);padding:7px 0 7px 18px;position:relative}
+.kn li::before{content:"";position:absolute;left:0;top:18px;width:8px;height:2px;background:var(--ink)}
+.kn.nk li{color:var(--ink2)}
+.kn.nk li::before{background:var(--line2)}
+.upd{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+.upd button{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:44px;font:700 16px/1 var(--f-body)}
+.upd button .ic{width:18px;height:18px}
+.upd p{font:400 16px/1.55 var(--f-body);color:var(--ink2)}
+
+/* ============ CAUGHT UP ============ */
+.cu h2{font:800 34px/1.05 var(--f-head);letter-spacing:-.03em;margin-top:8px}
+.cu .sub{font:400 17px/1.5 var(--f-body);color:var(--meta);margin-top:8px}
+.rem{list-style:none;counter-reset:r}
+.remh{margin-top:26px;font:700 16px/1.2 var(--f-body);margin-bottom:6px;color:var(--ink)}
+.rem li{display:grid;grid-template-columns:26px 1fr;font:400 17px/1.45 var(--f-body);color:var(--ink);padding:10px 0;border-top:1px solid var(--line)}
+.rem li::before{counter-increment:r;content:counter(r);font:800 17px/1.45 var(--f-head);color:var(--meta)}
+.still{display:flex;align-items:center;gap:12px;min-height:56px;margin-top:18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font:400 16px/1.4 var(--f-body);color:var(--ink)}
+.still .sp{width:3px;height:18px;background:var(--hot);border-radius:1px;flex:none}
+.still b{font-weight:700}
+.still .ic{width:18px;height:18px;margin-left:auto}
+.day{position:relative;height:62px;margin:30px 6px 0}
+.day .ax{position:absolute;left:0;right:0;top:22px;height:1px;background:var(--line2)}
+.day .el{position:absolute;left:0;top:21px;height:2px;background:var(--ink)}
+.day .n{position:absolute;top:22px;transform:translate(-50%,-50%);width:9px;height:9px;border-radius:50%;background:var(--ink)}
+.day .n.cur{width:14px;height:14px;background:var(--hour)}
+.day .n.fut{width:11px;height:11px;background:var(--bg);border:2px solid var(--ink)}
+.day .lb{position:absolute;top:38px;transform:translateX(-50%);font:500 13px/1 var(--f-body);color:var(--meta);font-variant-numeric:tabular-nums;white-space:nowrap}
+.day .lb.cur{color:var(--ink);font-weight:700}
+.day .lb.first{transform:none;left:-6px !important}
+.day .lb.last{transform:none;left:auto !important;right:-6px}
+.day .hk{position:absolute;top:13px;width:3px;height:18px;margin-left:-1px;background:var(--hot)}
+.nb{font:400 17px/1.5 var(--f-body);color:var(--ink);margin-top:6px}
+.nb b{font-weight:700}
+.rv{display:inline-flex;align-items:center;min-height:44px;margin-top:10px;font:600 16px/1 var(--f-body);color:var(--ink);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line2)}
+
+/* ============ SETTINGS ============ */
+.set h2{font:800 32px/1.08 var(--f-head);letter-spacing:-.03em;margin:6px 0 4px}
+.grp{margin-top:24px}
+.grp h3{font:700 16px/1.3 var(--f-body);color:var(--ink)}
+.grp .hint{font:400 15px/1.45 var(--f-body);color:var(--meta);margin-top:2px}
+.opt{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:48px;border-bottom:1px solid var(--line);font:400 17px/1 var(--f-body);color:var(--ink)}
+.grp .opts{margin-top:6px;border-top:1px solid var(--line)}
+.opt .ic{width:20px;height:20px}
+.opt[aria-checked=true]{font-weight:700}
+.ts{display:flex;align-items:center;gap:10px;margin-top:10px}
+.ts button{width:48px;height:48px;border:1.5px solid var(--line2);border-radius:12px;display:grid;place-items:center;font-family:var(--f-head);font-weight:800;color:var(--ink)}
+.ts .v{flex:1;text-align:center;font:400 17px/1 var(--f-body)}
+.sw{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:56px;margin-top:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sw .l b{display:block;font:700 16px/1.3 var(--f-body)}
+.sw .l span{font:400 15px/1.4 var(--f-body);color:var(--meta)}
+.tg{width:52px;height:32px;border-radius:16px;border:2px solid var(--ink);position:relative;flex:none}
+.tg::after{content:"";position:absolute;left:4px;top:4px;width:20px;height:20px;border-radius:50%;background:var(--ink)}
+
+
+/* ============ ROUND 3: one frame shape (4px radius) for every visual ============ */
+.vis{position:relative;width:100%;aspect-ratio:16/9;border-radius:4px;overflow:hidden;background:var(--surf)}
+.vis>svg{display:block;width:100%;height:100%}
+.vis.photo{display:flex;align-items:center;justify-content:center;text-align:center;padding:20px 28px}
+.vis.photo b{display:block;font:600 16px/1.4 var(--f-body);color:var(--ink)}
+.vis.photo span{display:block;font:500 13px/1.4 var(--f-body);color:var(--meta);margin-top:6px}
+.cred{display:flex;align-items:center;gap:6px;min-height:44px;margin:0 0 8px;font:500 13px/1.3 var(--f-body);color:var(--meta)}
+.cred .ic{width:14px;height:14px}
+span.cred{min-height:36px}
+.thumb{float:right;width:64px;height:64px;border-radius:4px;overflow:hidden;background:var(--surf);margin:3px 0 8px 14px}
+.thumb svg{display:block;width:100%;height:100%}
+.tiles{display:inline-flex;gap:4px;align-items:center;flex:none}
+.tile{display:block;width:20px;height:20px;border-radius:4px;background:var(--ink);color:var(--bg);font:800 12px/20px var(--f-head);font-style:normal;text-align:center;letter-spacing:-.05em}
+.mn{font:600 14px/1 var(--f-body);color:var(--meta);flex:none}
+.evb .tiles{margin-left:4px}
+.toc .srcs{display:flex;align-items:center;gap:6px;margin-top:10px;clear:both}
+.toc .s.lead a::after{content:"";display:block;clear:both}
+.hl.big{font-size:34px;line-height:1.08;letter-spacing:-.03em}
+.sys{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:52px 56px;border-radius:12px;background:#11100e;color:#f5f0e8}
+.sys h2{font:800 24px/1.2 var(--f-head);letter-spacing:-.02em;margin-bottom:6px}
+.sys .lede{font-size:16px;line-height:1.55;color:#e2dbcf;margin-bottom:18px}
+.rules{width:100%;border-collapse:collapse}
+.rules td{padding:14px 0;border-top:1px solid #2f2b27;vertical-align:top;font-size:15px;line-height:1.45;color:#e2dbcf}
+.rules td:first-child{width:84px}
+.rules td:nth-child(2){width:210px;padding-right:18px}
+.rules b{display:block;color:#f5f0e8;font-size:16px}
+.rules .need{color:#f5f0e8;font-weight:700}
+.rules .thumb{float:none;display:block;margin:0}
+.rules .thumb.none{display:grid;place-items:center;font:800 26px/1 var(--f-head);color:#f5f0e8;border:1px solid #2f2b27;background:transparent}
+.rules .thumb.ph{display:grid;place-items:center;font:600 12px/1 var(--f-body);color:#c9c2b6}
+.badges{list-style:none}
+.badges li{display:grid;grid-template-columns:200px 1fr;gap:16px;align-items:center;padding:14px 0;border-top:1px solid #2f2b27;font-size:15px;line-height:1.45;color:#e2dbcf}
+.badges .bx{display:flex;align-items:center;gap:6px;font:600 15px/1.2 var(--f-body);color:#f5f0e8}
+.shapes{display:flex;align-items:flex-end;gap:24px;margin-top:26px}
+.shapes div{display:flex;flex-direction:column;gap:8px;font-size:14px;color:#c9c2b6}
+.shapes i{display:block;border-radius:4px;background:#2b2824}
+.gal{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;padding-top:28px;border-top:1px solid #2f2b27}
+.gal .vis{background:#1c1a17}
+
+
+/* ============ ROUND 4: Contents = one short line per story ============ */
+.toc .st{padding:30px 0 4px}
+.toc .s a{display:flex;align-items:center;gap:14px;min-height:56px;padding:6px 0;font:500 17px/1.3 var(--f-body);color:var(--ink)}
+.toc .s .tt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toc .s a>.g{width:20px;height:20px;flex:none;margin-right:2px}
+.toc .s::before{top:27px}
+.toc .s.lead a{min-height:88px;padding:12px 0}
+.toc .s.lead .thumb{float:none;margin:0;flex:none}
+.toc .s.lead a::after{display:none}
+.toc .s.lead .tt{white-space:normal;font:800 21px/1.18 var(--f-head);letter-spacing:-.015em}
+.toc .s.lead::before{top:43px;width:12px}
+.toc .s.cur::after{top:12px;bottom:12px}
+.toc.sm .s a{font-size:16px}
+.toc.sm .s::before{top:27px}
+.toc.sm .s.lead .tt{font-size:18px}
+.toc.sm .s.lead::before{top:43px}
+.toc.sm .st{padding-top:26px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;font:500 15px/1.3 var(--f-body);color:var(--ink)}
+.legend span{display:inline-flex;align-items:center;gap:6px;min-height:28px}
+
+
+/* ============ ROUND 4: story-detail candidates ============ */
+.cand .cbody{border-top:1px solid var(--line);margin-top:8px}
+.cand .hl{font-size:42px;line-height:1.08}
+.cand .dnext{margin-top:32px;padding-top:0;border-top:0}
+.cA{display:grid;grid-template-columns:1fr 360px;gap:96px;padding:56px 80px 60px}
+.wh{margin-top:26px;border-top:1px solid var(--line)}
+.wh div{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:15px 0;border-bottom:1px solid var(--line);font:400 18px/1.5 var(--f-body);color:var(--ink)}
+.wh .l{font:700 16px/1.6 var(--f-body);color:var(--ink)}
+.facts{border-left:1px solid var(--line);padding-left:40px}
+.fx{padding:18px 0;border-bottom:1px solid var(--line)}
+.fx:first-child{padding-top:4px}
+.fx:last-child{border-bottom:0}
+.fx .v{font:800 38px/1 var(--f-head);letter-spacing:-.025em;color:var(--ink)}
+.fx .k{font:600 16px/1.3 var(--f-body);color:var(--ink);margin-top:8px}
+.fx .src{font:400 14px/1.3 var(--f-body);color:var(--meta);margin-top:3px}
+.cB{padding:52px 80px 60px}
+.cB .hl{max-width:960px}
+.strip{display:grid;grid-template-columns:260px repeat(4,1fr);margin-top:30px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip>div{padding:18px 20px 16px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.strip>div.lead{border-left:0;padding-left:0}
+.strip .ew{display:flex;align-items:center;gap:10px;font:800 24px/1 var(--f-head);color:var(--ink)}
+.strip .ew .g{width:24px;height:24px}
+.strip .cn{display:flex;justify-content:space-between;font:700 15px/1.2 var(--f-body);color:var(--ink)}
+.strip .cn span{font-weight:500;color:var(--meta)}
+.strip .on{font:400 14px/1.4 var(--f-body);color:var(--meta)}
+.strip .pin{display:flex;align-items:center;gap:6px;min-height:44px;font:600 14px/1.2 var(--f-body);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line2)}
+.strip .pin .ic{width:14px;height:14px}
+.bgrid{display:grid;grid-template-columns:1fr 480px;gap:72px;margin-top:36px}
+.bgrid .kn{margin-top:14px}
+.cC{padding:52px 80px 60px}
+.cC .hl{max-width:960px}
+.tl{position:relative;height:150px;margin:40px 12px 12px}
+.tl .ax{position:absolute;left:0;right:0;top:44px;height:2px;background:var(--line)}
+.tl .el{position:absolute;left:0;top:44px;height:2px;background:var(--ink)}
+.tst{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;text-align:center;white-space:nowrap}
+.tst.first{transform:translateX(-12px);align-items:flex-start;text-align:left}
+.tst.last{transform:translateX(calc(-100% + 12px));align-items:flex-end;text-align:right}
+.tst .d{font:500 15px/1 var(--f-body);color:var(--meta);height:24px}
+.tst i{display:block;width:12px;height:12px;border-radius:50%;background:var(--ink);margin:10px 6px 16px}
+.tst.cur i{width:18px;height:18px;margin:7px 6px 13px;background:var(--hour)}
+.tst.cur .d{color:var(--ink);font-weight:700}
+.tst.fut i{background:var(--bg);border:2px solid var(--ink)}
+.tst .v{font:800 28px/1 var(--f-head);letter-spacing:-.02em;color:var(--ink)}
+.tst.fut .v{font:600 16px/1.75 var(--f-body);color:var(--meta)}
+.tst .dl{font:500 14px/1 var(--f-body);color:var(--meta);margin-top:8px}
+.cgrid{display:grid;grid-template-columns:1fr 360px;gap:96px;margin-top:28px;padding-top:28px;border-top:1px solid var(--line)}
+.kf div{display:flex;justify-content:space-between;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
+.kf div:first-child{padding-top:4px}
+.kf dt{font:400 16px/1.3 var(--f-body);color:var(--ink2)}
+.kf dd{font:800 22px/1 var(--f-head);color:var(--ink)}
+
+
+/* ============ ROUND 4b: chosen story page = fact sheet (+ timeline for series) ============ */
+.fs{display:grid;grid-template-columns:1fr 250px;gap:56px;padding:44px 56px 56px;align-content:start}
+.fs .hl{font-size:38px;line-height:1.1}
+.fs .wh div{grid-template-columns:130px 1fr}
+.fs .facts{padding-left:32px}
+.fs .fx .v{font-size:30px}
+.fs .dnext{border-top:0;padding-top:0;margin-top:32px}
+.fs.pan{grid-template-columns:1fr 210px;gap:40px;padding:44px 48px 48px}
+.fs.pan .fx .v{font-size:26px}
+.fs.wide{grid-template-columns:1fr 340px;gap:88px;padding:52px 80px 56px}
+.fs.wide .fx .v{font-size:34px}
+.fs.wide .hl{font-size:42px}
+.fs .vis{margin-bottom:6px}
+.tlh{font:500 15px/1.3 var(--f-body);color:var(--meta);margin-top:26px}
+.tl.sm{height:104px;margin:14px 10px 0}
+.tl.sm .tst .d{font-size:14px;height:22px}
+.tl.sm .tst .v{font-size:22px}
+.tl.sm .tst.fut .v{font:600 14px/1.6 var(--f-body);color:var(--meta)}
+.tl.sm .tst .dl{font-size:13px;margin-top:6px}
+.tl.sm .ax,.tl.sm .el{top:42px}
+.full{grid-column:1/-1;max-width:680px;margin-top:8px;padding-top:12px;border-top:1px solid var(--line)}
+.full h3{font:800 22px/1.2 var(--f-head);letter-spacing:-.01em;color:var(--ink);margin:30px 0 4px}
+.full p{font:400 18px/1.68 var(--f-body);color:var(--ink2);margin-top:12px;max-width:36em}
+.full p .f{color:var(--ink)}
+.full blockquote{margin:28px 0 8px;padding:2px 0 2px 22px;border-left:3px solid var(--ink)}
+.full blockquote p{font:700 23px/1.35 var(--f-head);color:var(--ink);margin:0;letter-spacing:-.01em}
+.full cite{display:block;font:500 15px/1.4 var(--f-body);font-style:normal;color:var(--meta);margin-top:10px}
+.full.mob{max-width:none;border-top:0;padding-top:0}
+.full.mob h3{font-size:20px;margin-top:26px}
+.full.mob p{font-size:17px;line-height:1.62}
+.full.mob blockquote p{font-size:20px}
+.board-h{font:800 34px/1.1 var(--f-head);letter-spacing:-.02em;color:#f5f0e8}
+
+
+/* ============ ROUND 4c: visual anchors (one line family, 1.5px, ink) ============ */
+.ic2{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:var(--ink)}
+.grp h3,.sw .l b{display:flex;align-items:center;gap:10px}
+.grp .hint{padding-left:30px}
+.sw .l>span{padding-left:30px;display:block}
+.sg{flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:var(--ink)}
+.sg.sq{width:24px;height:24px}
+.sg.tr{width:38px;height:17px}
+.toc .st h3{display:flex;align-items:center;gap:12px}
+.toc.sm .sg.sq{width:21px;height:21px}
+.toc.sm .sg.tr{width:33px;height:15px}
+.hm{width:34px;height:12px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linejoin:round;color:var(--ink)}
+.hot a{gap:8px}
+.hot{gap:8px}
+.rem li{grid-template-columns:40px 1fr;gap:14px;align-items:center}
+.rem li::before{display:none}
+.rem .thumb{float:none;width:40px;height:40px;margin:0}
+.cm{display:grid;grid-template-columns:repeat(4,1fr);margin-top:18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cm>div{display:flex;flex-direction:column;gap:8px;padding:14px 0 16px 12px;border-left:1px solid var(--line)}
+.cm>div:first-child{border-left:0;padding-left:0}
+.cm .n{font:600 13px/1.25 var(--f-body);color:var(--ink2);min-height:32px}
+.cm .c{font:800 34px/1 var(--f-head);letter-spacing:-.02em;color:var(--ink)}
+.cm .empty .c{color:var(--meta)}
+.cm .ots{display:flex;flex-direction:column;gap:10px;margin-top:4px}
+.ot{display:flex;flex-direction:column;gap:4px;width:28px}
+.tile.lg{width:28px;height:28px;font-size:13px;line-height:28px}
+.mt{display:inline-flex;gap:3px;align-items:flex-end;height:10px;vertical-align:middle}
+.mt i{display:block;width:5px;height:4px;background:var(--line2);border-radius:1px}
+.mt i:nth-child(2){height:7px}.mt i:nth-child(3){height:10px}
+.ot .mt{margin-left:4px}
+.doc>span.slot{flex:none}
+.mt i.on{background:var(--ink)}
+.slot{display:block;width:28px;height:28px;border-radius:4px;border:1.5px solid var(--line2);flex:none}
+.rl{font:500 14px/1.3 var(--f-body);color:var(--meta);margin:12px 0 6px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rl .mt{margin-left:6px}
+.doc{display:flex;align-items:center;gap:12px;min-height:56px;border-top:1px solid var(--line);font:400 14px/1.3 var(--f-body);color:var(--meta)}
+.doc>span{flex:1;min-width:0}
+.doc b{display:block;font:700 15px/1.3 var(--f-body);color:var(--ink)}
+.doc .ic{width:18px;height:18px;color:var(--ink)}
+.doc.fc>span:not(.fl):not(.slot){color:var(--ink);font-size:15px}
+.doc .fl{flex:none;font:700 15px/1.3 var(--f-body);color:var(--ink)}
+.doc .none{color:var(--meta)!important}
+
+
+/* ============ ROUND 4d: outlets by name, logo slot from the source registry ============ */
+.srcn{display:inline-flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin-left:6px;font:500 15px/1.3 var(--f-body);color:var(--ink)}
+.sn{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.lg16{display:inline-block;width:16px;height:16px;flex:none;border-radius:3px;background:var(--line2);vertical-align:-3px}
+.srcn .mn{margin-left:0}
+.strip .srcn{margin-left:0;flex-direction:column;align-items:flex-start;gap:6px}
+.strip .srcn+.on{display:none}
+.cr{margin-top:16px;border-top:1px solid var(--line)}
+.cr>div{display:grid;grid-template-columns:118px 1fr;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.cr .cn2{display:flex;flex-direction:column;gap:6px}
+.cr .n{font:600 14px/1.25 var(--f-body);color:var(--ink2)}
+.cr .c{font:800 28px/1 var(--f-head);color:var(--ink)}
+.cr .empty .c{color:var(--meta)}
+.cr .ol2{display:flex;flex-direction:column;gap:9px;justify-content:center}
+.cr .on{display:flex;align-items:center;gap:8px;font:500 15px/1.25 var(--f-body);color:var(--ink)}
+.cr .on .mt{margin-left:auto}
+.cr .on.none{color:var(--meta)}
+.slot.sm{width:16px;height:16px;border-radius:3px}
+.doc b{display:flex;align-items:center;gap:6px}
+
+
+/* ============ ROUND 4e: story lifecycle on the Meridian line ============ */
+.tl.life{height:112px}
+.tl.life .tst .v{display:flex;align-items:center;gap:6px;font:700 15px/1.2 var(--f-body);color:var(--ink)}
+.tl.life .tst .v .g{width:16px;height:16px}
+.tl.life .tst .dl{font:400 14px/1.2 var(--f-body);color:var(--meta)}
+.tl.life .tst .d{color:var(--ink2)}
+.tl.life .tst.cur .d{color:var(--ink)}
+.lh{font:800 19px/1.2 var(--f-head);letter-spacing:-.01em;color:var(--ink);margin:14px 0 6px}
+.vl{list-style:none;position:relative;padding-left:76px;margin-bottom:6px}
+.vl::before{content:"";position:absolute;left:61px;top:20px;bottom:44px;width:2px;background:var(--line2)}
+.vl li{position:relative;padding:8px 0;min-height:44px}
+.vl li::before{content:"";position:absolute;left:-19px;top:15px;width:10px;height:10px;border-radius:50%;background:var(--ink)}
+.vl li.cur::before{left:-21px;top:13px;width:14px;height:14px;background:var(--hour)}
+.vl .tm{position:absolute;left:-76px;top:9px;font:600 15px/1.3 var(--f-body);color:var(--ink)}
+.vl b{display:flex;align-items:center;gap:6px;font:700 16px/1.3 var(--f-body);color:var(--ink)}
+.vl b .g{width:16px;height:16px}
+.vl li>span:last-child{display:block;font:400 14px/1.3 var(--f-body);color:var(--meta);margin-top:2px}
+
+@media (hover:hover){ .bul:hover,.ico:hover,.toc a:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)} }
+@media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
+
+/* ============ STATIONS ICON SET ============ */
+.ic{stroke-width:1.75}
+.ic2,.sg,.hm{stroke-width:1.75}
+.g.n{color:var(--meta)}
+.sg.tr{width:24px;height:24px}
+.toc.sm .sg.tr{width:21px;height:21px}
+.lg16{display:inline-grid;place-items:center;width:16px;height:16px;flex:none;border-radius:50%;background:none;border:1.25px solid var(--meta);box-sizing:border-box;vertical-align:-3px;font:700 8.5px/1 var(--f-body);font-style:normal;color:var(--meta);letter-spacing:0}
+.slot{border-radius:50%}
+.hoti{color:var(--hot)} .dvi{color:var(--hot)}
+.hot .hoti,.still .hoti{width:20px;height:20px}
+.dv .dvi{width:20px;height:20px}
+.dv .u{display:inline-flex;align-items:center;gap:6px}
+.dv .updi,.bx .updi{width:18px;height:18px;color:var(--meta)}
+.bx .dvi{width:18px;height:18px}
+.hdc .b2 .ic:first-child{width:18px;height:18px;margin-right:2px}
+.opt .rad{width:22px;height:22px;color:var(--meta)}
+.opt[aria-checked=true] .rad{color:var(--hour,var(--ink))}
+.kit .icrow{display:flex;flex-wrap:wrap;gap:12px 18px}
+.kit .icrow span{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:#c9c2b6}
+.kit .icrow .ic{width:22px;height:22px;color:#f5f0e8}
+.kit .icrow .hoti,.kit .icrow .dvi{color:#ff5c45}
+.kit .icrow .lg16{width:22px;height:22px;font-size:11px;border-color:#6a6258;color:#c9c2b6}
+/* Day line switch (recommended toggle) */
+.tsw{display:inline-grid;place-items:center;min-width:52px;min-height:44px;flex:none}
+.tsw .trk{position:relative;display:block;width:44px;height:24px;box-sizing:border-box;border:1.75px solid var(--meta);border-radius:12px;transition:background-color .18s ease,border-color .18s ease}
+.tsw .trk::before{content:"";position:absolute;left:6px;right:6px;top:50%;height:1.75px;margin-top:-.875px;background:var(--line2);transition:opacity .18s ease}
+.tsw .tkn{position:absolute;top:2.25px;left:2.25px;width:16px;height:16px;box-sizing:border-box;border-radius:50%;border:1.75px solid var(--meta);background:var(--bg);transition:transform .18s ease,border-color .18s ease}
+.tsw .tkn::after{content:"";position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:var(--hour,var(--ink));transform:scale(0);transition:transform .18s ease}
+[aria-checked=true]>.tsw .trk,[aria-checked=true].tsw .trk{background:var(--hour,var(--ink));border-color:var(--hour,var(--ink))}
+[aria-checked=true]>.tsw .trk::before,[aria-checked=true].tsw .trk::before{background:var(--bg);opacity:.5}
+[aria-checked=true]>.tsw .tkn,[aria-checked=true].tsw .tkn{transform:translateX(20.5px);border-color:var(--bg)}
+[aria-checked=true]>.tsw .tkn::after,[aria-checked=true].tsw .tkn::after{transform:scale(1)}
+@media (prefers-reduced-motion: reduce){.tsw .trk,.tsw .trk::before,.tsw .tkn,.tsw .tkn::after{transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <mask id="m-conf" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="#fff"/><path d="M6 10.3l2.8 2.8 5.3-5.6" stroke="#000" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></mask>
+    <mask id="m-disp" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="#fff"/><path d="M2 18L18 2" stroke="#000" stroke-width="6.5"/></mask>
+
+  <g id="geo-tr"><path d="M131.9 92.1 L169.5 92.9 L202.6 89.0 L229.7 72.8 L259.8 61.9 L286.9 63.1 L314.0 61.2 L326.0 75.1 L344.1 73.6 L359.1 89.0 L389.2 96.0 L413.3 102.6 L446.4 98.7 L473.5 100.6 L506.6 80.5 L539.8 79.0 L566.8 96.0 L569.9 120.0 L581.9 137.4 L606.0 150.2 L593.9 162.6 L584.9 181.9 L590.9 205.2 L606.0 247.7 L587.9 243.9 L551.8 241.5 L532.2 251.6 L497.6 252.4 L461.5 261.3 L422.4 267.1 L401.3 261.3 L362.1 263.2 L359.1 286.4 L341.1 300.0 L335.1 282.6 L345.6 270.2 L326.0 271.0 L298.9 263.2 L268.8 288.4 L244.7 292.3 L220.7 274.8 L190.6 260.9 L175.5 278.7 L148.4 288.4 L130.4 271.0 L106.3 267.1 L82.2 255.5 L76.2 232.3 L52.1 207.1 L67.1 193.5 L61.1 166.5 L43.1 158.7 L46.1 137.4 L61.1 123.9 L85.2 125.8 L127.3 116.1 L157.4 110.3 L130.4 99.9 Z M131.9 97.6 L100.2 98.3 L70.1 103.7 L58.1 115.4 L46.1 135.5 L41.5 112.3 L58.1 87.1 L49.1 72.8 L70.1 61.2 L100.2 63.9 L127.3 88.3 Z" fill="var(--land)" stroke="var(--coast)" stroke-width="1.5" stroke-linejoin="round"/></g>
+  <g id="geo-cr"><path d="M82.9 139.5 L96.2 78.7 L121.0 94.9 L179.1 92.9 L203.9 78.7 L228.8 109.1 L286.8 115.1 L344.9 131.4 L394.6 139.5 L444.4 135.4 L460.9 159.7 L494.1 155.7 L543.8 139.5 L547.2 190.1 L510.7 200.3 L444.4 200.3 L411.2 204.3 L328.3 214.5 L286.8 200.3 L262.0 169.9 L212.2 163.8 L162.5 153.7 L112.7 153.7 L87.9 149.6 Z" fill="var(--land)" stroke="var(--coast)" stroke-width="1.5" stroke-linejoin="round"/></g>
+  <g id="geo-qa"><path d="M12.1 -45.8 L95.0 -23.6 L154.2 19.6 L166.0 52.4 L160.1 104.7 L189.7 157.1 L213.4 216.0 L237.1 242.2 L254.9 261.8 L284.5 265.7 L314.1 259.2 L331.8 307.6 L402.9 314.2 L497.6 320.7 L627.9 314.2 L627.9 360.0 L12.1 360.0 Z M195.7 47.1 L215.8 45.8 L217.0 78.5 L207.5 104.7 L198.0 85.1 Z" fill="var(--land)" stroke="var(--coast)" stroke-width="1.5" stroke-linejoin="round"/><path d="M237.1 242.2 L243.0 209.5 L233.5 150.5 L243.0 130.9 L254.9 85.1 L270.3 68.1 L290.4 58.9 L310.5 72.0 L325.9 98.2 L331.8 130.9 L320.0 154.5 L334.2 176.7 L331.8 209.5 L317.6 229.1 L314.1 259.2 L284.5 265.7 L254.9 261.8 Z" fill="var(--landhi)" stroke="var(--coast)" stroke-width="1.5" stroke-linejoin="round"/></g>
+  <g id="eu-flag"><rect width="300" height="200" fill="#003399"/><path d="M216.7 88.9 L219.19 96.57 L227.26 96.57 L220.73 101.31 L223.22 108.98 L216.7 104.24 L210.18 108.98 L212.67 101.31 L206.14 96.57 L214.21 96.57 Z M207.76 122.25 L210.26 129.92 L218.32 129.92 L211.8 134.66 L214.29 142.33 L207.76 137.59 L201.24 142.33 L203.73 134.66 L197.21 129.92 L205.27 129.92 Z M183.35 146.66 L185.84 154.33 L193.91 154.33 L187.38 159.07 L189.87 166.74 L183.35 162.0 L176.83 166.74 L179.32 159.07 L172.79 154.33 L180.86 154.33 Z M150.0 155.6 L152.49 163.27 L160.56 163.27 L154.03 168.01 L156.52 175.68 L150.0 170.94 L143.48 175.68 L145.97 168.01 L139.44 163.27 L147.51 163.27 Z M116.65 146.66 L119.14 154.33 L127.21 154.33 L120.68 159.07 L123.17 166.74 L116.65 162.0 L110.13 166.74 L112.62 159.07 L106.09 154.33 L114.16 154.33 Z M92.24 122.25 L94.73 129.92 L102.79 129.92 L96.27 134.66 L98.76 142.33 L92.24 137.59 L85.71 142.33 L88.2 134.66 L81.68 129.92 L89.74 129.92 Z M83.3 88.9 L85.79 96.57 L93.86 96.57 L87.33 101.31 L89.82 108.98 L83.3 104.24 L76.78 108.98 L79.27 101.31 L72.74 96.57 L80.81 96.57 Z M92.24 55.55 L94.73 63.22 L102.79 63.22 L96.27 67.96 L98.76 75.63 L92.24 70.89 L85.71 75.63 L88.2 67.96 L81.68 63.22 L89.74 63.22 Z M116.65 31.14 L119.14 38.81 L127.21 38.81 L120.68 43.55 L123.17 51.22 L116.65 46.48 L110.13 51.22 L112.62 43.55 L106.09 38.81 L114.16 38.81 Z M150.0 22.2 L152.49 29.87 L160.56 29.87 L154.03 34.61 L156.52 42.28 L150.0 37.54 L143.48 42.28 L145.97 34.61 L139.44 29.87 L147.51 29.87 Z M183.35 31.14 L185.84 38.81 L193.91 38.81 L187.38 43.55 L189.87 51.22 L183.35 46.48 L176.83 51.22 L179.32 43.55 L172.79 38.81 L180.86 38.81 Z M207.76 55.55 L210.26 63.22 L218.32 63.22 L211.8 67.96 L214.29 75.63 L207.76 70.89 L201.24 75.63 L203.73 67.96 L197.21 63.22 L205.27 63.22 Z" fill="#ffcc00"/></g>
+  </defs>
+  <symbol id="g-conf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h5.5M16.5 12H22"/><circle cx="12" cy="12" r="4.5" fill="currentColor"/></g></symbol>
+  <symbol id="g-rep" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h5.5M16.5 12H22"/><circle cx="12" cy="12" r="4.5"/></g></symbol>
+  <symbol id="g-sing" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h5.5M16.5 12H22M12 2.25v2.5"/><circle cx="12" cy="12" r="4.5"/></g></symbol>
+  <symbol id="g-disp" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10.5h4.75M11.25 6A4.5 4.5 0 0 0 11.25 15M12.75 9A4.5 4.5 0 0 1 12.75 18M17.25 13.5H22"/></g></symbol>
+
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-lang" viewBox="0 0 24 24"><path d="M4 5h16v11h-9l-5 4v-4H4z"/><path d="M8 10.5h8"/></symbol>
+  <symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></symbol>
+  <symbol id="i-size" viewBox="0 0 24 24"><path d="M3 18l4-11 4 11M4.5 14h5M14 18l3-7.5 3 7.5M15 16h4"/></symbol>
+  <symbol id="i-ruler" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="1"/><path d="M7 8v3M11 8v4M15 8v3M19 8v4"/></symbol>
+  <symbol id="s-chip" viewBox="0 0 24 24"><path d="M2.5 12h4M11.5 12c2.5 0 2.5-6 4.75-6M11.5 12c2.5 0 2.5 6 4.75 6"/><circle cx="9" cy="12" r="2.5"/><circle cx="18.5" cy="6" r="2.25"/><circle cx="18.5" cy="18" r="2.25" fill="currentColor"/></symbol>
+  <symbol id="s-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 1.5v7.5M12 15v7.5"/><circle cx="12" cy="12" r="2.25" fill="currentColor"/></symbol>
+  <symbol id="s-tr" viewBox="0 0 24 24"><path d="M2 17h20M7 8v9M17 8v9M7 8Q12 15.5 17 8"/><circle cx="7" cy="6" r="1.5" fill="currentColor" stroke="none"/><circle cx="17" cy="6" r="1.5" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="s-cr" viewBox="40 80 560 190"><path d="M82.9 139.5 L96.2 78.7 L121.0 94.9 L179.1 92.9 L203.9 78.7 L228.8 109.1 L286.8 115.1 L344.9 131.4 L394.6 139.5 L444.4 135.4 L460.9 159.7 L494.1 155.7 L543.8 139.5 L547.2 190.1 L510.7 200.3 L444.4 200.3 L411.2 204.3 L328.3 214.5 L286.8 200.3 L262.0 169.9 L212.2 163.8 L162.5 153.7 L112.7 153.7 L87.9 149.6 Z" vector-effect="non-scaling-stroke"/><circle cx="353.2" cy="240.8" r="16" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M7.5 10l4.5 4.5 4.5-4.5"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M7.5 14l4.5-4.5 4.5 4.5"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M10 7.5L5.5 12l4.5 4.5M5.5 12H15.5"/><circle cx="18.25" cy="12" r="2.25"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M10 7.5l4.5 4.5-4.5 4.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M7.75 16.25L17 7M10.5 7H17v6.5"/><circle cx="6" cy="18" r="2.25"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l4.75 4.75L19.5 7"/></symbol>
+  <symbol id="i-set" viewBox="0 0 24 24"><path d="M3 8h9M18 8h3M3 16h3M12 16h9"/><circle cx="15" cy="8" r="3"/><circle cx="9" cy="16" r="3"/></symbol>
+  <symbol id="i-q" viewBox="0 0 24 24"><path d="M9 9.25a3 3 0 1 1 4.6 2.55c-.95.6-1.6 1.25-1.6 2.45v.5"/><circle cx="12" cy="18.25" r="1.25" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 4v11M8 8l4-4 4 4M6 12v7h12v-7"/></symbol>
+  <symbol id="i-tabs" viewBox="0 0 24 24"><rect x="8" y="4" width="12" height="12" rx="2"/><path d="M16 20H6a2 2 0 0 1-2-2V8"/></symbol>
+    <symbol id="g-none" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h6.5M15.5 12H22" style="stroke:var(--line2)"/><circle cx="12" cy="12" r="3.5"/></g></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="M14 7.5l4.5 4.5-4.5 4.5M18.5 12H8.5"/><circle cx="5.75" cy="12" r="2.25"/></symbol>
+  <symbol id="i-contents" viewBox="0 0 24 24"><path d="M5 8.25v1.5M5 14.25v1.5M10 6h10M10 12h10M10 18h6.5"/><circle cx="5" cy="6" r="2"/><circle cx="5" cy="12" r="2" fill="currentColor"/><circle cx="5" cy="18" r="2"/></symbol>
+  <symbol id="i-hot" viewBox="0 0 24 24"><path d="M2 18h5.5l3.1-7.6M13.4 10.4l3.1 7.6H22"/><circle cx="12" cy="6.75" r="2.75" fill="currentColor"/></symbol>
+  <symbol id="i-dev" viewBox="0 0 24 24"><path d="M2 12h5.5"/><path d="M16.5 12H22" style="stroke:var(--line2)"/><circle cx="12" cy="12" r="4.5"/><path d="M12 7.5a4.5 4.5 0 0 0 0 9z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-upd" viewBox="0 0 24 24"><path d="M2 12h2M9.5 12h4.25"/><circle cx="6.75" cy="12" r="2.5" style="stroke:var(--line2)"/><circle cx="17.25" cy="12" r="3.25" fill="currentColor"/></symbol>
+  <symbol id="i-rad0" viewBox="0 0 24 24"><path d="M1.5 12h3.75M18.75 12h3.75" style="stroke:var(--line2)"/><circle cx="12" cy="12" r="5.75"/></symbol>
+  <symbol id="i-rad1" viewBox="0 0 24 24"><path d="M1.5 12h3.75M18.75 12h3.75" style="stroke:var(--line2)"/><circle cx="12" cy="12" r="5.75"/><circle cx="12" cy="12" r="2.5" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-bat" viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="currentColor" opacity=".5"/><rect x="2.5" y="2.5" width="16" height="7" rx="1.5" fill="currentColor"/><rect x="23.5" y="4" width="1.8" height="4" rx=".8" fill="currentColor" opacity=".5"/></symbol>
+</svg>
+
+<div class="board">
+
+<!-- ================= 01 ================= -->
+<section>
+  <div class="tag"><b>01</b> Direction and what changed after review</div>
+  <div class="intro">
+    <div>
+      <div class="wmk">CSP<span>News</span></div>
+      <h1>Meridian,<br>round 3</h1>
+      <p>The bulletin is <b>one line through the day</b>. On every screen it appears as the plain stroke under the header; in Contents it stands upright as a spine with a station per section.</p>
+      <p>The only colour is the <b>edition hour</b>, used flat: a 3px top edge and the mark on the current story. Everything else is ink on warm black or paper, set large, with room around it.</p>
+      <p>Type is one family, <b>Funnel</b>: Funnel Display for headlines and facts, with squared-off curves that give CSPNews its own voice; Funnel Sans for calm reading. No monospace.</p>
+    </div>
+    <div>
+      <h2>What changed after review</h2>
+      <ul class="changes">
+        <li><b>Evidence</b>Four distinct glyphs, always with their word in the reader. Confirmed is quiet in Contents.</li>
+        <li><b>Contents</b>Vertical spine, a lead story per section with its gist, full headlines, read stories fold into one line.</li>
+        <li><b>Navigation</b>Bulletin and position is one button to Contents. Each story has a URL. Swipe, or Prev and “Next: headline”.</li>
+        <li><b>Layers</b>Gist, then one “Read more”. Evidence opens from its mark. No stepper.</li>
+        <li><b>Language</b>EN/TR lives in Settings only. Each frame uses one interface language.</li>
+        <li><b>Hot News</b>A 40px line above the story, in the interface language, dismissable.</li>
+        <li><b>Caught up</b>Three things to remember, the open Hot story, the next bulletin.</li>
+        <li><b>Visuals</b>One visual per story, picked by type: outlet photo, chart, map or logo. Nothing fits, no image.</li>
+        <li><b>Badges</b>Five, no pills: evidence mark, outlet names with logos, section, Developing, Updated.</li>
+        <li><b>Removed</b>Glows, orb, gradients, mono meta, dot-joined lines, chips, key hints, stat row.</li>
+      </ul>
+    </div>
+    <div class="kit">
+      <div class="dark" style="background:transparent">
+        <h3>Evidence marks</h3>
+        <div class="gl">
+          <div><svg class="g c" style="width:22px;height:22px"><use href="#g-conf"/></svg>Confirmed<small>3+ independent sources</small></div>
+          <div><svg class="g r" style="width:22px;height:22px"><use href="#g-rep"/></svg>Reported<small>2+ sources, not verified</small></div>
+          <div><svg class="g s" style="width:22px;height:22px"><use href="#g-sing"/></svg>Single source<small>one outlet or claimant</small></div>
+          <div><svg class="g d" style="width:22px;height:22px"><use href="#g-disp"/></svg>Disputed<small>sources contradict</small></div>
+          <div><svg class="g n" style="width:22px;height:22px"><use href="#g-none"/></svg>None yet<small>empty slot, e.g. no fact-check</small></div>
+        </div>
+        <h3 style="margin-top:28px">Icons, Stations set</h3><div class="icrow"><span><svg class="ic" aria-hidden="true"><use href="#i-contents"/></svg>Contents</span><span><svg class="ic" aria-hidden="true"><use href="#i-set"/></svg>Settings</span><span><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg>Close</span><span><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg>Back</span><span><svg class="ic" aria-hidden="true"><use href="#i-next"/></svg>Next</span><span><svg class="ic" aria-hidden="true"><use href="#i-right"/></svg>Read more</span><span><svg class="ic" aria-hidden="true"><use href="#i-out"/></svg>External</span><span><svg class="ic" aria-hidden="true"><use href="#i-q"/></svg>Help</span><span><svg class="ic" aria-hidden="true"><use href="#s-tr"/></svg>Türkiye</span><span><svg class="ic" aria-hidden="true"><use href="#s-chip"/></svg>Tech and AI</span><span><svg class="ic" aria-hidden="true"><use href="#s-globe"/></svg>World</span><span><svg class="ic hoti" aria-hidden="true"><use href="#i-hot"/></svg>Hot</span><span><svg class="ic dvi" aria-hidden="true"><use href="#i-dev"/></svg>Developing</span><span><svg class="ic" aria-hidden="true"><use href="#i-upd"/></svg>Updated</span><span><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Selected</span><span><i class="lg16" aria-hidden="true">A</i>Outlet, no logo</span></div>
+      </div>
+      <div>
+        <h3>Edition hour, used flat</h3>
+        <div class="hours">
+          <div style="--c:#e9b04a"><span>07:30</span><i></i></div>
+          <div style="--c:#d9c79a"><span>12:30</span><i></i></div>
+          <div style="--c:#f39a4a"><span>18:30</span><i></i></div>
+          <div style="--c:#86a2ea"><span>22:30</span><i></i></div>
+        </div>
+      </div>
+      <div class="type">
+        <h3>Type</h3>
+        <div class="h">Faiz yüzde 31,5’e indi</div>
+        <div class="b">Funnel Sans for reading. Facts are set in <b>semibold: 150 baz puan, €1.2B, 17:52</b>. No underlines, no boxes.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= 01b SYSTEM ================= -->
+<section>
+  <div class="tag"><b>01b</b> Visuals and badges <span class="il">Illustrative stories</span></div>
+  <div class="sys dark">
+    <div>
+      <h2>One visual per story, chosen by type</h2>
+      <p class="lede">Checked top to bottom; the first that fits wins. Photo comes first whenever the pipeline has one.</p>
+      <table class="rules">
+        <tr><td><span class="thumb ph">Photo</span></td><td><b>Outlet photo</b>The strongest confirming outlet has a real photo</td><td>image.url, sourceName, articleUrl. Credit “Photo: Anadolu Ajansı” links to the original. <span class="need">Available now.</span></td></tr>
+        <tr><td><span class="thumb"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 22 H38 V44 H54" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round"/></svg></span></td><td><b>Chart</b>One number drives the story</td><td>Drawn by us, labelled with unit and change. <span class="need">Needs pipeline field: key-number series.</span></td></tr>
+        <tr><td><span class="thumb"><svg viewBox="301 93 220 220" aria-hidden="true"><use href="#geo-tr"/><circle cx="410.6" cy="203.2" r="34" fill="none" stroke="var(--ink)" stroke-width="7"/><circle cx="410.6" cy="203.2" r="16" fill="var(--ink)"/></svg></span></td><td><b>Locator map</b>A place drives it: quake, flood, election</td><td>Country or region outline, the point, the place name. <span class="need">Needs pipeline field: place with coordinates.</span></td></tr>
+        <tr><td><span class="thumb"><svg viewBox="50 0 200 200" aria-hidden="true"><use href="#eu-flag"/></svg></span></td><td><b>Logo</b>A company or organisation is the subject</td><td>From the source registry, shown whole in the frame. <span class="need">Needs pipeline field: organisation id.</span></td></tr>
+        <tr><td><span class="thumb none">Aa</span></td><td><b>No image</b>Nothing fits</td><td>A type-led story: larger headline, no filler, no stock picture. See 03b.</td></tr>
+        <tr><td><span class="thumb ph">Title</span></td><td><b>Short title</b>Every Contents row</td><td>3 to 6 words, one line, the key fact in it: “Malatya’da 4,9 deprem”. The full headline appears only in the reader. <span class="need">Needs pipeline field: shortTitle.</span></td></tr>
+        <tr><td><span class="thumb ph">Facts</span></td><td><b>Fact column</b>Every story page</td><td>Up to five numbers, each with label and source. <span class="need">Needs pipeline field: facts[] (label, value, source).</span></td></tr>
+        <tr><td><span class="thumb ph">Series</span></td><td><b>Timeline row</b>Series stories only</td><td>Earlier values on the Meridian line, today as the current station. <span class="need">Needs pipeline field: series[] (date, value).</span></td></tr>
+        <tr><td><span class="thumb ph">Logo</span></td><td><b>Outlet logo</b>Beside every outlet name</td><td>The outlet’s own mark at 16px, from the source registry; until it loads, a ring with the outlet’s initial. <span class="need">Needs registry field: logoUrl per source.</span></td></tr>
+        <tr><td><span class="thumb ph">Time</span></td><td><b>Story timeline</b>Every story page</td><td>series[] when the type has a key item; otherwise the story’s own lifecycle from article times and label history. <span class="need">No extra field.</span></td></tr>
+      </table>
+    </div>
+    <div>
+      <h2>The whole badge set</h2>
+      <p class="lede">Five marks and nothing else. None is a pill; outlets are named, never abbreviated.</p>
+      <ul class="badges">
+        <li><span class="bx"><svg class="g s"><use href="#g-sing"/></svg>Single source</span>Evidence. Mark always with its word in the reader; Confirmed is mark-only in Contents.</li>
+        <li><span class="bx"><span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV,</span><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters</span><span class="mn">+6</span></span></span>Outlet names, each with its logo from the source registry, at most 3, then a count. Opens the evidence drawer.</li>
+        <li><span class="bx">Tech and AI, 5 of 12</span>Section name, only in the bulletin button.</li>
+        <li><span class="bx"><svg class="ic dvi" aria-hidden="true"><use href="#i-dev"/></svg>Developing</span>Hot stories only, plain text with the spark.</li>
+        <li><span class="bx"><svg class="ic updi" aria-hidden="true"><use href="#i-upd"/></svg>Updated 18:04</span>Only when a story has changed since it was first shown.</li>
+      </ul>
+      <div class="shapes">
+        <div><i style="width:160px;height:90px"></i>16:9 in the reader</div>
+        <div><i style="width:64px;height:64px"></i>64px in Contents</div>
+        <div><i style="width:16px;height:16px"></i>16px outlet logo</div>
+      </div>
+    </div>
+    <div class="gal">
+      <div><div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Chile lithium output: 272,000 tonnes in 2025, 310,000 in 2026, up 14%"><text x="32" y="52" font-family="Funnel Sans" font-size="30" font-weight="500" fill="var(--meta)" text-anchor="start">Lithium output, tonnes</text><rect x="70" y="146" width="150" height="154" fill="var(--line2)"/><rect x="290" y="124" width="150" height="176" fill="var(--ink)"/><line x1="40" y1="300" x2="600" y2="300" stroke="var(--line2)" stroke-width="2"/><text x="145" y="132" font-family="Funnel Sans" font-size="30" font-weight="600" fill="var(--ink2)" text-anchor="middle">272,000</text><text x="365" y="110" font-family="Funnel Sans" font-size="34" font-weight="800" fill="var(--ink)" text-anchor="middle">310,000</text><text x="145" y="338" font-family="Funnel Sans" font-size="30" font-weight="500" fill="var(--meta)" text-anchor="middle">2025</text><text x="365" y="338" font-family="Funnel Sans" font-size="30" font-weight="700" fill="var(--ink)" text-anchor="middle">2026</text><text x="590" y="200" font-family="Funnel Display" font-size="42" font-weight="800" fill="var(--ink)" text-anchor="end">+14%</text></svg></div><span class="cred">Chart: CSPNews, data from Chile’s mining ministry</span></div>
+      <div><div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Map of Crete, epicentre about 60 km south of Heraklion"><use href="#geo-cr"/><circle cx="349.8" cy="131.4" r="6" fill="var(--ink2)"/><text x="349.8" y="111.4" font-family="Funnel Sans" font-size="30" font-weight="500" fill="var(--ink2)" text-anchor="middle">Heraklion</text><circle cx="353.2" cy="240.8" r="15" fill="none" stroke="var(--ink)" stroke-width="2.5"/><circle cx="353.2" cy="240.8" r="7" fill="var(--ink)"/><text x="379.2" y="249.8" font-family="Funnel Sans" font-size="32" font-weight="700" fill="var(--ink)" text-anchor="start">Epicentre, 6.1</text><text x="32" y="330" font-family="Funnel Sans" font-size="30" font-weight="500" fill="var(--meta)" text-anchor="start">Crete, Greece</text></svg></div><span class="cred">Map: CSPNews, epicentre from EMSC</span></div>
+      <div><div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Map of Qatar, Doha marked"><use href="#geo-qa"/><circle cx="323.6" cy="171.5" r="15" fill="none" stroke="var(--ink)" stroke-width="2.5"/><circle cx="323.6" cy="171.5" r="7" fill="var(--ink)"/><text x="349.6" y="180.5" font-family="Funnel Sans" font-size="34" font-weight="700" fill="var(--ink)" text-anchor="start">Doha</text><text x="392" y="110" font-family="Funnel Sans" font-size="30" font-weight="500" fill="var(--meta)" text-anchor="start">Qatar</text><text x="90" y="320" font-family="Funnel Sans" font-size="30" font-weight="500" fill="var(--ink2)" text-anchor="start">Saudi Arabia</text></svg></div><span class="cred">Map: CSPNews</span></div>
+      <div><div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Made-up startup mark, illustrative"><rect x="170" y="128" width="88" height="88" rx="18" fill="var(--ink)"/><rect x="190" y="160" width="10" height="24" rx="5" fill="var(--surf)"/><rect x="209" y="146" width="10" height="52" rx="5" fill="var(--surf)"/><rect x="228" y="156" width="10" height="32" rx="5" fill="var(--surf)"/><text x="278" y="196" font-family="Funnel Display" font-size="64" font-weight="800" fill="var(--ink)" text-anchor="start">sesra</text><text x="320" y="320" font-family="Funnel Sans" font-size="28" font-weight="500" fill="var(--meta)" text-anchor="middle">Made-up mark, illustrative</text></svg></div><span class="cred">Logo: source registry</span></div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ================= 02 DESKTOP ================= -->
+<section class="wide">
+  <div class="tag"><b>02</b> Desktop story page, 1280, dark, Turkish interface, Contents rail open, series story, full story open <span class="il">Illustrative stories</span></div>
+  <div class="frame desk dark" data-hour="dusk" lang="tr">
+    <div class="edge"></div>
+    <header class="hd">
+      <span class="wm">CSP<span>News</span></span>
+      <button class="bul" aria-expanded="true" aria-controls="rail"><span class="b1">Akşam bülteni, 18:30</span><span class="b2">Türkiye, haber 1 / 12 <svg class="ic"><use href="#i-up"/></svg></span></button>
+      <span style="flex:1"></span>
+      <button class="ico" aria-label="Klavye kısayolları"><svg class="ic"><use href="#i-q"/></svg></button>
+      <button class="ico" aria-label="Ayarlar"><svg class="ic"><use href="#i-set"/></svg></button>
+    </header>
+    <div class="ml"><span class="el" style="width:0%"></span><span class="cur" style="left:4%"></span></div>
+    <div class="dbody">
+      <nav class="rail" id="rail" aria-label="İçindekiler">
+        <div class="rh"><h2>Akşam bülteni</h2><p>Çarşamba 11 Kasım, 18:30. 12 haber, yaklaşık 9 dakika.</p></div>
+        <ol class="toc sm">
+          <li class="st"><h3><svg class="sg tr" aria-hidden="true"><use href="#s-tr"/></svg>Türkiye</h3></li>
+          <li class="s lead cur"><a href="#" aria-current="page"><span class="thumb"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 22 H38 V44 H54" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round"/></svg></span><span class="tt">Faiz <b class="f">%31,5</b>’e indi</span><svg class="g c" role="img" aria-label="Doğrulandı"><use href="#g-conf"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Malatya’da <b class="f">4,9</b> deprem</span><svg class="g c" role="img" aria-label="Doğrulandı"><use href="#g-conf"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">M2 metroda <b class="f">40 dk</b> aksama</span><svg class="g s" role="img" aria-label="Tek kaynak"><use href="#g-sing"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Ara zam önergesi reddedildi</span><svg class="g c" role="img" aria-label="Doğrulandı"><use href="#g-conf"/></svg></a></li>
+          <li class="st"><h3><svg class="sg sq" aria-hidden="true"><use href="#s-chip"/></svg>Teknoloji ve yapay zekâ</h3></li>
+          <li class="s lead"><a href="#"><span class="thumb"><svg viewBox="50 0 200 200" aria-hidden="true"><use href="#eu-flag"/></svg></span><span class="tt">EU fines cloud giant <b class="f">€1.2B</b></span><svg class="g r" role="img" aria-label="Bildirildi"><use href="#g-rep"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Lab claims coding lead</span><svg class="g s" role="img" aria-label="Tek kaynak"><use href="#g-sing"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Speech AI raises <b class="f">$40M</b></span><svg class="g r" role="img" aria-label="Bildirildi"><use href="#g-rep"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">US widens chip export rules</span><svg class="g c" role="img" aria-label="Doğrulandı"><use href="#g-conf"/></svg></a></li>
+          <li class="st"><h3><svg class="sg sq" aria-hidden="true"><use href="#s-globe"/></svg>Dünya</h3></li>
+          <li class="s lead"><a href="#"><span class="thumb"><svg viewBox="134 20 330 330" aria-hidden="true"><use href="#geo-qa"/><circle cx="323.6" cy="171.5" r="40" fill="none" stroke="var(--ink)" stroke-width="9"/><circle cx="323.6" cy="171.5" r="18" fill="var(--ink)"/></svg></span><span class="tt">Doha talks resume, terms disputed</span><svg class="g d" role="img" aria-label="Tartışmalı"><use href="#g-disp"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Chile lithium hits record</span><svg class="g c" role="img" aria-label="Doğrulandı"><use href="#g-conf"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Japan snap election <b class="f">14 Dec</b></span><svg class="g c" role="img" aria-label="Doğrulandı"><use href="#g-conf"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Valencia floods close roads</span><svg class="g r" role="img" aria-label="Bildirildi"><use href="#g-rep"/></svg></a></li>
+          <li class="end"><b>Bülten sonu.</b> Sıradaki <span class="t">22:30</span>’da.</li>
+        </ol>
+      </nav>
+      <article class="fs">
+      <div>
+        <h1 class="hl">Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5’e çekti</h1>
+        <button class="evb" aria-label="Doğrulandı, 9 kaynak: AA, NTV, Reuters ve 6 kaynak daha"><svg class="g c"><use href="#g-conf"/></svg>Doğrulandı<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV,</span><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters</span><span class="mn">+6</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b class="f">yüzde 29,8</b>’e gerilemesi gerekçe gösterildi.</p>
+        <div class="tlh">Politika faizi kararları, %</div><div class="tl sm" role="img" aria-label="Politika faizi kararları: 24 Temmuz yüzde 36,5; 11 Eylül yüzde 35; 23 Ekim yüzde 33; bugün yüzde 31,5; sonraki karar 11 Aralık"><span class="ax"></span><span class="el" style="width:75%"></span><div class="tst first " style="left:0%"><span class="d">24 Tem</span><i></i><span class="v">%36,5</span></div><div class="tst  " style="left:25%"><span class="d">11 Eyl</span><i></i><span class="v">%35</span><span class="dl">−150</span></div><div class="tst  " style="left:50%"><span class="d">23 Eki</span><i></i><span class="v">%33</span><span class="dl">−200</span></div><div class="tst  cur" style="left:75%"><span class="d">Bugün</span><i></i><span class="v">%31,5</span><span class="dl">−150</span></div><div class="tst last fut" style="left:100%"><span class="d">11 Ara</span><i></i><span class="v">Sonraki</span></div></div>
+        <div class="wh">
+          <div><b class="l">Ne oldu</b><span>PPK faizi <b class="f">yüzde 33</b>’ten <b class="f">yüzde 31,5</b>’e indirdi.</span></div>
+          <div><b class="l">Neden önemli</b><span>Piyasa <b class="f">100 baz puan</b> bekliyordu; kurul gevşemeyi hızlandırdı.</span></div>
+          <div><b class="l">Sırada ne var</b><span>Sonraki karar <b class="f">11 Aralık</b>’ta.</span></div>
+        </div>
+      </div>
+      <aside class="facts" aria-label="Rakamlar"><div class="fx"><div class="v">%31,5</div><div class="k">Politika faizi</div><div class="src">TCMB karar metni</div></div><div class="fx"><div class="v">−150 bp</div><div class="k">İndirim; beklenti −100</div><div class="src">TCMB, Reuters anketi</div></div><div class="fx"><div class="v">%29,8</div><div class="k">Yıllık enflasyon, ekim</div><div class="src">TÜİK</div></div><div class="fx"><div class="v">+%2,1</div><div class="k">BIST 100, gün sonu</div><div class="src">Borsa İstanbul</div></div><div class="fx"><div class="v">+%0,4</div><div class="k">Dolar/TL, karar sonrası</div><div class="src">Reuters</div></div></aside>
+      <section class="full" aria-label="Haberin tamamı">
+          <button class="more" aria-expanded="true">Haberin tamamı <svg class="ic"><use href="#i-up"/></svg></button>
+          <h3>Karar</h3>
+          <p>Para Politikası Kurulu (PPK), çarşamba günkü toplantısında politika faizini <b class="f">yüzde 33</b>’ten <b class="f">yüzde 31,5</b>’e indirdi. Böylece temmuzdan bu yana yapılan toplam indirim <b class="f">500 baz puana</b> ulaştı. Kurul, gecelik borç verme faizini de <b class="f">yüzde 34,5</b>’ten <b class="f">yüzde 33</b>’e çekti. Karar oy birliğiyle alındı.</p>
+          <p>Karar metninde, ekim ayında yıllık enflasyonun <b class="f">yüzde 29,8</b>’e gerilemesi ve öncü göstergelerde ana eğilimin yavaşlaması gerekçe olarak gösterildi. Kurul, sıkı para politikası duruşunun dezenflasyon süreci tamamlanana kadar korunacağını vurguladı.</p>
+          <p>Metinde ilk kez “adımların büyüklüğü verilere göre belirlenecek” ifadesine yer verildi. Önceki iki kararda kullanılan “ölçülü” sözcüğünün çıkarılması, analistlerce hızlanan bir indirim döngüsünün işareti olarak yorumlandı. Kurul ayrıca zorunlu karşılık oranlarında bir değişikliğe gitmedi.</p>
+          <h3>Piyasa tepkisi</h3>
+          <p>Reuters’ın anketine katılan <b class="f">18 ekonomistin</b> medyan beklentisi <b class="f">100 baz puanlık</b> indirimdi; yalnızca <b class="f">üç</b> ekonomist 150 baz puan öngörmüştü. Kararın ardından dolar/TL <b class="f">yüzde 0,4</b> yükseldi. BIST 100 endeksi günü <b class="f">yüzde 2,1</b> artıda tamamladı; bankacılık endeksi <b class="f">yüzde 3,8</b> ile en çok yükselen sektör oldu. İki yıllık tahvil faizi <b class="f">45 baz puan</b> geriledi.</p>
+          <p>Yabancı yatırımcıların karar öncesindeki hafta hisse senedi piyasasında <b class="f">310 milyon dolarlık</b> net alım yaptığı biliniyor. Piyasa aktörleri, kurdaki sınırlı hareketi Merkez Bankası’nın rezerv birikimine bağladı; brüt rezervler geçen hafta <b class="f">2,4 milyar dolar</b> artmıştı.</p>
+          <h3>Ekonomistler ne diyor</h3>
+          <p>Ekonomistlerin bir kısmı, kurulun enflasyondaki düşüşü fırsat bilerek adımları büyüttüğünü düşünüyor. Diğerleri kira ve hizmet fiyatlarındaki katılığa dikkat çekiyor; hızlı gevşemenin yıl sonu hedefini riske atabileceğini söylüyor. Merkez Bankası’nın yıl sonu ara hedefi <b class="f">yüzde 27</b>; piyasa katılımcıları anketindeki beklenti ise <b class="f">yüzde 28,6</b>.</p>
+          <blockquote><p>“Kurul, enflasyondaki düşüşü kalıcı saydığını açıkça gösterdi. Aralık’ta bir indirim daha masada.”</p><cite>Bir banka ekonomisti, Bloomberg HT’ye</cite></blockquote>
+          <p>Kredi derecelendirme kuruluşlarından gelen ilk yorumlar ise temkinli. Kuruluşlar, döviz rezervlerindeki artışın sürmesini not değerlendirmelerinde belirleyici göreceklerini açıkladı.</p>
+          <p>Sanayi temsilcileri ise kararı olumlu karşıladı. İhracatçı birlikleri, finansmana erişimdeki zorlukların sürdüğünü, kredi faizlerinin politika faizindeki düşüşü henüz yansıtmadığını belirtti; bankaların ticari kredi faizleri ortalama <b class="f">yüzde 38</b> civarında seyrediyor. Tüketici kredilerinde ise büyüme sınırlarının korunması bekleniyor.</p>
+          <h3>Sırada ne var</h3>
+          <p>Kurulun bir sonraki toplantısı <b class="f">11 Aralık</b>’ta. Kasım ayı enflasyon verisi <b class="f">3 Aralık</b>’ta açıklanacak; piyasa, bu verinin bir sonraki adımın büyüklüğünü belirleyeceğini düşünüyor. Merkez Bankası’nın üç aylık Enflasyon Raporu ise <b class="f">28 Kasım</b>’da yayımlanacak. Başkanın raporun sunumunda ara hedefleri güncelleyip güncellemeyeceği de yakından izleniyor.</p>
+        </section>
+      <div style="grid-column:1/-1;margin-top:-8px"><div class="dnext">
+          <button class="prev" aria-label="Önceki haber" style="opacity:.5" aria-disabled="true"><svg class="ic"><use href="#i-left"/></svg></button>
+          <a class="next" href="#"><span>Sıradaki: Malatya’da 4,9 büyüklüğünde deprem</span><svg class="ic"><use href="#i-next"/></svg></a>
+        </div></div>
+    </article>
+    </div>
+  </div>
+  <p class="note"><b>Chosen story page: fact sheet.</b> Headline, evidence with outlet names (ring with initial = logo from source registry) and gist, then the decision timeline (shown because this is a <b>series story</b>), three short lines, and the key numbers in a column with their sources. Below, the full story is open: <b>about 400 words</b> under four subheads, 60 to 70 characters a line, with one attributed quote. Turkish interface throughout; Next sits under the story. Help sheet behind “?” lists j/k, ←/→, Esc. Each story has its own URL.</p>
+</section>
+
+<section class="wide">
+  <div class="tag"><b>02d</b> Desktop story page, non-series story: plain fact sheet, no timeline, 1280, dark, Turkish interface, rail folded <span class="il">Illustrative stories</span></div>
+  <div class="frame desk dark" data-hour="dusk" lang="tr">
+    <div class="edge"></div>
+    <header class="hd">
+      <span class="wm">CSP<span>News</span></span>
+      <button class="bul" aria-expanded="false"><span class="b1">Akşam bülteni, 18:30</span><span class="b2">Teknoloji ve yapay zekâ, haber 5 / 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+      <span style="flex:1"></span>
+      <button class="ico" aria-label="Klavye kısayolları"><svg class="ic"><use href="#i-q"/></svg></button>
+      <button class="ico" aria-label="Ayarlar"><svg class="ic"><use href="#i-set"/></svg></button>
+    </header>
+    <div class="ml"><span class="el" style="width:33%"></span><span class="cur" style="left:37%"></span></div>
+    <div class="cbody" style="border-top:1px solid var(--line);margin-top:8px">
+    <article class="fs wide">
+      <div>
+        <h1 class="hl" lang="en">EU fines a major cloud provider €1.2B under the Digital Markets Act</h1>
+        <button class="evb" aria-label="Bildirildi, 4 kaynak: Reuters, The Verge, Ars Technica ve 1 kaynak daha"><svg class="g r"><use href="#g-rep"/></svg>Bildirildi<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters,</span><span class="sn"><i class="lg16" aria-hidden="true">T</i>The Verge,</span><span class="sn"><i class="lg16" aria-hidden="true">A</i>Ars Technica</span><span class="mn">+1</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist" lang="en">First DMA fine on cloud services; the company has <b class="f">60 days</b> to open its marketplace to rival billing.</p>
+        <div class="tlh">Haberin seyri, bugün</div><div class="tl sm life" role="img" aria-label="09:12 Reuters ilk haber; 09:40 The Verge ikinci kaynak; 10:05 Avrupa Komisyonu basın açıklaması; 10:05 Bildirildi etiketi; 14:30 şirket itiraz edeceğini açıkladı"><span class="ax"></span><span class="el" style="width:100%"></span><div class="tst first " style="left:0%"><span class="d t">09:12</span><i></i><span class="v">İlk haber</span><span class="dl">Reuters</span></div><div class="tst  " style="left:25%"><span class="d t">09:40</span><i></i><span class="v">2. kaynak</span><span class="dl">The Verge</span></div><div class="tst  " style="left:50%"><span class="d t">10:05</span><i></i><span class="v">Birincil kaynak</span><span class="dl">AK basın açıklaması</span></div><div class="tst  " style="left:75%"><span class="d t">10:05</span><i></i><span class="v"><svg class="g r" aria-hidden="true"><use href="#g-rep"/></svg>Bildirildi</span><span class="dl">4 kaynak</span></div><div class="tst last cur" style="left:100%"><span class="d t">14:30</span><i></i><span class="v">Güncellendi</span><span class="dl">Şirket itiraz edecek</span></div></div>
+        <div class="wh">
+          <div><b class="l">Ne oldu</b><span lang="en">Fined <b class="f">€1.2B</b> for tying discounts to its own marketplace.</span></div>
+          <div><b class="l">Neden önemli</b><span lang="en">The remedy matters more: rival billing within <b class="f">60 days</b>.</span></div>
+          <div><b class="l">Sırada ne var</b><span lang="en">The company will appeal; the deadline still runs.</span></div>
+        </div>
+        <button class="more" aria-expanded="false" style="margin-top:20px">Haberin tamamı <svg class="ic"><use href="#i-down"/></svg></button>
+        <div class="dnext"><button class="prev" aria-label="Önceki haber"><svg class="ic"><use href="#i-left"/></svg></button><a class="next" href="#"><span>Sıradaki: Lab claims coding lead</span><svg class="ic"><use href="#i-next"/></svg></a></div>
+      </div>
+      <aside><div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Avrupa Birliği bayrağı"><g transform="translate(170 80)"><use href="#eu-flag"/></g></svg></div><span class="cred">Logo: kaynak kaydı</span><aside class="facts" aria-label="Rakamlar"><div class="fx"><div class="v">€1.2B</div><div class="k">Para cezası</div><div class="src">Avrupa Komisyonu</div></div><div class="fx"><div class="v">%0,9</div><div class="k">Küresel cironun oranı</div><div class="src">Avrupa Komisyonu</div></div><div class="fx"><div class="v">%10</div><div class="k">DMA’daki üst sınır</div><div class="src">DMA, madde 30</div></div><div class="fx"><div class="v">60 gün</div><div class="k">Pazar yerini açma süresi</div><div class="src">Avrupa Komisyonu</div></div></aside></aside>
+    </article>
+    </div>
+  </div>
+  <p class="note"><b>No series, so the timeline shows the story’s own life:</b> first report, second source, primary source, the label it earned, the latest update. Built from article times and label history, no extra field. Otherwise the same fact sheet; the story’s one visual (here the organisation logo) heads the number column. The full story sits behind “Haberin tamamı” as in 02.</p>
+</section>
+
+<!-- ================= 02b / 03 / 03b ================= -->
+<div class="row">
+  <section class="col">
+    <div class="tag"><b>02b</b> Phone Contents, 390, dark, full length <span class="il">Illustrative stories</span></div>
+    <div class="frame phone dark" data-hour="dusk" style="height:auto">
+      <div class="sb"><span class="t">18:41</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul" aria-expanded="true"><span class="b1">Evening bulletin</span><span class="b2">Tech and AI, 5 of 12 <svg class="ic"><use href="#i-up"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:33%"></span><span class="cur" style="left:37%"></span></div>
+      <div class="ch"><h2>Evening bulletin</h2><p>Wednesday 11 November, 18:30. 12 stories, about 9 minutes.</p></div>
+      <div style="padding:6px 20px 44px">
+        <ol class="toc">
+          <li class="st"><h3><svg class="sg tr" aria-hidden="true"><use href="#s-tr"/></svg>Türkiye</h3></li>
+          <li class="rd"><button aria-expanded="false"><svg class="ic"><use href="#i-check"/></svg>4 read<svg class="ic"><use href="#i-down"/></svg></button></li>
+          <li class="st"><h3><svg class="sg sq" aria-hidden="true"><use href="#s-chip"/></svg>Tech and AI</h3></li>
+          <li class="s lead cur"><a href="#" aria-current="page"><span class="thumb"><svg viewBox="50 0 200 200" aria-hidden="true"><use href="#eu-flag"/></svg></span><span class="tt">EU fines cloud giant <b class="f">€1.2B</b></span><svg class="g r" role="img" aria-label="Reported"><use href="#g-rep"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Lab claims coding lead</span><svg class="g s" role="img" aria-label="Single source"><use href="#g-sing"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Speech AI raises <b class="f">$40M</b></span><svg class="g r" role="img" aria-label="Reported"><use href="#g-rep"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">US widens chip export rules</span><svg class="g c" role="img" aria-label="Confirmed"><use href="#g-conf"/></svg></a></li>
+          <li class="st"><h3><svg class="sg sq" aria-hidden="true"><use href="#s-globe"/></svg>Around the World</h3></li>
+          <li class="s lead"><a href="#"><span class="thumb"><svg viewBox="134 20 330 330" aria-hidden="true"><use href="#geo-qa"/><circle cx="323.6" cy="171.5" r="40" fill="none" stroke="var(--ink)" stroke-width="9"/><circle cx="323.6" cy="171.5" r="18" fill="var(--ink)"/></svg></span><span class="tt">Doha talks resume, terms disputed</span><svg class="g d" role="img" aria-label="Disputed"><use href="#g-disp"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Chile lithium hits record</span><svg class="g c" role="img" aria-label="Confirmed"><use href="#g-conf"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Japan snap election <b class="f">14 Dec</b></span><svg class="g c" role="img" aria-label="Confirmed"><use href="#g-conf"/></svg></a></li>
+          <li class="s"><a href="#"><span class="tt">Valencia floods close roads</span><svg class="g r" role="img" aria-label="Reported"><use href="#g-rep"/></svg></a></li>
+          <li class="end"><b>End of bulletin.</b> Next one at <span class="t">22:30</span>.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="note"><b>One short line per story.</b> Each row is a 3 to 6 word short title with its key fact, plus the evidence mark alone; the word, gist, full headline and outlet tiles live in the reader. Section leads get a 64px visual and larger type. Sections are stations on the spine, named only. Rows are 56px; read stories fold into “4 read”.</p>
+  </section>
+
+  <section class="col">
+    <div class="tag"><b>03</b> Phone reader, 390, light, Read more open, full length, in Safari <span class="il">Illustrative stories</span></div>
+    <div class="frame phone light" data-hour="dusk" style="height:auto">
+      <div class="sb"><span class="t">18:41</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <div class="hdc"><button class="b2" aria-label="Contents: Evening bulletin, Tech and AI, 5 of 12"><svg class="ic" aria-hidden="true"><use href="#i-contents"/></svg>Tech and AI, 5 of 12<svg class="ic"><use href="#i-down"/></svg></button></div>
+      <div class="ml" style="margin-bottom:0"><span class="el" style="width:33%"></span><span class="cur" style="left:37%"></span></div>
+      <main class="pg" style="padding-top:22px;flex:none;padding-bottom:28px">
+        <h1 class="hl">EU fines a major cloud provider €1.2B under the Digital Markets Act</h1>
+        <button class="evb" aria-label="Reported by 4 sources: Reuters, The Verge, Ars Technica and 1 more"><svg class="g r"><use href="#g-rep"/></svg>Reported<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters,</span><span class="sn"><i class="lg16" aria-hidden="true">T</i>The Verge</span><span class="mn">+2</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist">First DMA fine on cloud services; the company has <b class="f">60 days</b> to open its marketplace to rival billing.</p>
+        <button class="more" aria-expanded="true">Show less <svg class="ic"><use href="#i-up"/></svg></button>
+        <section class="full mob" aria-label="Full story">
+          <h3>The fine</h3>
+          <p>The European Commission fined the provider <b class="f">€1.2 billion</b>, its first penalty on cloud services under the Digital Markets Act. Officials said the company tied discounts to exclusive use of its own marketplace, which the DMA’s anti-steering rules forbid for gatekeepers. Customers who bought rival tools lost volume discounts worth up to <b class="f">30%</b>, according to the decision. The investigation opened in <b class="f">March 2025</b> after complaints from European software firms.</p>
+          <h3>Why it matters</h3>
+          <p>The fine equals <b class="f">0.9%</b> of global turnover, well below the <b class="f">10%</b> cap, but the remedy may matter more: the company has <b class="f">60 days</b> to let customers pay rival vendors through their own billing. Smaller software sellers say the change could cut their fees by a third.</p>
+          <blockquote><p>“The money is small for them. Opening the marketplace is the real penalty.”</p><cite>A competition lawyer, to Reuters</cite></blockquote>
+          <h3>Reaction</h3>
+          <p>The company said it strongly disagrees and will appeal to the EU General Court. An appeal does not pause the 60-day deadline unless the court grants interim measures. Rival providers welcomed the decision but said the fine was too small to change behaviour across the market.</p>
+          <h3>What’s next</h3>
+          <p>If the deadline is missed, the Commission can add daily penalties of up to <b class="f">5%</b> of average daily turnover. Two other cloud providers are under separate DMA review, with decisions expected in <b class="f">early 2027</b>.</p>
+        </section>
+        <a class="lk" href="#" style="margin-top:18px"><span><b>Primary source</b>ec.europa.eu press release</span><svg class="ic"><use href="#i-out"/></svg></a>
+      </main>
+      <nav class="bb">
+        <button class="prev" aria-label="Previous story"><svg class="ic"><use href="#i-left"/></svg></button>
+        <a class="next" href="#"><span>Next: Open-weights claim</span><svg class="ic"><use href="#i-next"/></svg></a>
+      </nav>
+      <div class="saf" aria-hidden="true">
+        <span class="si"><svg class="ic"><use href="#i-left"/></svg></span>
+        <span class="si off"><svg class="ic"><use href="#i-right"/></svg></span>
+        <span class="ad">cspnews.app</span>
+        <span class="si"><svg class="ic"><use href="#i-share"/></svg></span>
+        <span class="si"><svg class="ic"><use href="#i-tabs"/></svg></span>
+      </div>
+      <div class="hi" style="background:#12100d"></div>
+    </div>
+    <p class="note"><b>Read more open, full length: about 250 words</b> under four subheads with one attributed quote; facts in semibold. The header has folded to the scrolled state (edge, bulletin button, line) and returns on scroll up. Safari’s toolbar sits below the bar; Safari’s Back returns to Contents. Swipe for next and previous, starting 24px or more from the edge.</p>
+  </section>
+
+  <section class="col n360">
+    <div class="tag"><b>03b</b> No-photo story, 360, light, gist only <span class="il">Illustrative stories</span></div>
+    <div class="frame p360 light" data-hour="dusk">
+      <div class="sb"><span class="t">18:42</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul" aria-expanded="false"><span class="b1">Evening bulletin</span><span class="b2">Tech and AI, 6 of 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:41%"></span><span class="cur" style="left:46%"></span></div>
+      <main class="pg">
+        <h1 class="hl big" style="margin-top:24px">Open-weights model matches frontier systems on coding benchmark, lab claims</h1>
+        <button class="evb"><svg class="g s"><use href="#g-sing"/></svg>Single source: the lab’s own paper<svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist" style="font-size:20px">Results come from the lab’s own paper; no independent replication yet.</p>
+        <button class="more" aria-expanded="false">Read more <svg class="ic"><use href="#i-down"/></svg></button>
+        <a class="lk" href="#" style="margin-top:22px"><span><b>Primary source</b>The lab’s paper on arXiv</span><svg class="ic"><use href="#i-out"/></svg></a>
+      </main>
+      <nav class="bb safe">
+        <button class="prev" aria-label="Previous story"><svg class="ic"><use href="#i-left"/></svg></button>
+        <a class="next" href="#"><span>Next: $40M for speech AI</span><svg class="ic"><use href="#i-next"/></svg></a>
+      </nav>
+      <div class="hi"></div>
+    </div>
+    <p class="note"><b>No outlet had a real photo, so no image.</b> The headline moves up and grows to 34px; evidence, gist and the primary source carry the story. Never a stock picture or filler. Gist only by default. Installed to the Home Screen, so the bar adds the 34px home-indicator inset: padding-bottom max(16px, env(safe-area-inset-bottom)), height 100dvh.</p>
+  </section>
+</div>
+
+<!-- ================= 04 / 05 / 05b ================= -->
+<div class="row">
+  <section class="col">
+    <div class="tag"><b>04</b> Evidence drawer, phone, dark <span class="il">Illustrative stories</span></div>
+    <div class="frame phone dark" data-hour="dusk">
+      <div class="sb"><span class="t">18:43</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul"><span class="b1">Evening bulletin</span><span class="b2">Türkiye, 2 of 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:8%"></span><span class="cur" style="left:12%"></span></div>
+      <main class="pg" lang="tr" style="padding-top:40px">
+        <h1 class="hl">Malatya’da 4,9 büyüklüğünde deprem; can kaybı bildirilmedi</h1>
+      </main>
+      <div class="scrim"></div>
+      <div class="sheet" role="dialog" aria-label="Evidence">
+        <div class="ev-h"><svg class="g c"><use href="#g-conf"/></svg><h3>Confirmed</h3><button class="ico" aria-label="Close evidence" style="margin-right:-10px"><svg class="ic"><use href="#i-x"/></svg></button></div>
+        <p class="ev-p"><b class="f">6 independent sources</b>; no opposition outlet has reported it yet.</p>
+        <div class="cr"><div><span class="cn2"><span class="n">Gov-aligned</span><span class="c">3</span></span><span class="ol2"><span class="on" role="img" aria-label="Anadolu Ajansı, High reliability"><i class="lg16" aria-hidden="true">A</i>Anadolu Ajansı<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span><span class="on" role="img" aria-label="TRT Haber, Medium reliability"><i class="lg16" aria-hidden="true">T</i>TRT Haber<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span></span><span class="on" role="img" aria-label="NTV, High reliability"><i class="lg16" aria-hidden="true">N</i>NTV<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span></span></div><div class="empty"><span class="cn2"><span class="n">Opposition</span><span class="c">0</span></span><span class="ol2"><span class="on none"><svg class="g n" aria-hidden="true"><use href="#g-none"/></svg>No outlet from this camp</span></span></div><div><span class="cn2"><span class="n">Independent</span><span class="c">1</span></span><span class="ol2"><span class="on" role="img" aria-label="Medyascope, High reliability"><i class="lg16" aria-hidden="true">M</i>Medyascope<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span></span></div><div><span class="cn2"><span class="n">International</span><span class="c">2</span></span><span class="ol2"><span class="on" role="img" aria-label="Reuters, High reliability"><i class="lg16" aria-hidden="true">R</i>Reuters<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span><span class="on" role="img" aria-label="BBC Türkçe, High reliability"><i class="lg16" aria-hidden="true">B</i>BBC Türkçe<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span></span></div></div>
+        <p class="rl">Reliability: <span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span> high <span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span> medium <span class="mt" aria-hidden="true"><i class=on></i><i></i><i></i></span> low</p>
+        <a class="doc" href="#"><svg class="ic2"><use href="#i-doc"/></svg><span><b><i class="lg16" aria-hidden="true">A</i>AFAD</b>earthquake bulletin, deprem.afad.gov.tr</span><svg class="ic"><use href="#i-out"/></svg></a>
+        <a class="doc fc" href="#"><span class="fl">Fact-check</span><span><b><i class="lg16" aria-hidden="true">T</i>Teyit</b>old quake video misattributed</span><svg class="ic"><use href="#i-out"/></svg></a>
+      </div>
+      <div class="hi" style="z-index:9"></div>
+    </div>
+    <p class="note"><b>The camp map.</b> One row per camp: the count large, then each outlet by name with a 3-step reliability meter. The small ring before each name holds the logo from source registry, or the outlet’s initial until it loads. An empty outlined slot shows at a glance that no opposition outlet carried the story. Primary source as a document row with the issuer’s logo; fact-check the same way. Closes with ×, a scrim tap or a swipe down.</p>
+  </section>
+
+  <section class="col">
+    <div class="tag"><b>05</b> Hot News line over a story, dark <span class="il">Illustrative stories</span></div>
+    <div class="frame phone dark" data-hour="dusk">
+      <div class="sb"><span class="t">18:05</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul"><span class="b1">Evening bulletin</span><span class="b2">Türkiye, 2 of 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:8%"></span><span class="cur" style="left:12%"></span></div>
+      <div class="hot" role="status">
+        <svg class="ic hoti" aria-hidden="true"><use href="#i-hot"/></svg>
+        <a href="#"><svg class="hm" role="img" aria-label="Map: Crete, epicentre south of Heraklion"><use href="#s-cr"/></svg><span>Crete quake <b class="f">6.1</b>, <span class="t">17:52</span></span><span class="ev"><svg class="g r"><use href="#g-rep"/></svg>Reported</span></a>
+        <button class="x" aria-label="Dismiss Hot News"><svg class="ic"><use href="#i-x"/></svg></button>
+      </div>
+      <main class="pg" lang="tr" style="padding-top:12px">
+        <div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Map of Türkiye, Malatya marked"><use href="#geo-tr"/><circle cx="246.5" cy="142.1" r="6" fill="var(--ink2)"/><text x="246.5" y="126.1" font-family="Funnel Sans" font-size="26" font-weight="500" fill="var(--ink2)" text-anchor="middle">Ankara</text><circle cx="410.6" cy="203.2" r="15" fill="none" stroke="var(--ink)" stroke-width="2.5"/><circle cx="410.6" cy="203.2" r="7" fill="var(--ink)"/><text x="434.6" y="205.2" font-family="Funnel Sans" font-size="30" font-weight="700" fill="var(--ink)" text-anchor="start">Malatya</text><text x="434.6" y="237.2" font-family="Funnel Sans" font-size="26" font-weight="500" fill="var(--ink2)" text-anchor="start">4,9</text></svg></div><span class="cred" lang="en">Map: CSPNews, epicentre from AFAD</span>
+        <h1 class="hl" style="margin-top:4px">Malatya’da 4,9 büyüklüğünde deprem; can kaybı bildirilmedi</h1>
+        <button class="evb" lang="en" aria-label="Confirmed by 6 sources: AA, NTV, BBC Türkçe and 3 more"><svg class="g c"><use href="#g-conf"/></svg>Confirmed<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV</span><span class="mn">+4</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist">AFAD’a göre deprem <b class="f">7 km</b> derinlikte, Yeşilyurt merkezli. Hasar tespiti sürüyor.</p>
+        <button class="more" lang="en">Read more <svg class="ic"><use href="#i-down"/></svg></button>
+      </main>
+      <nav class="bb safe">
+        <button class="prev" aria-label="Previous story"><svg class="ic"><use href="#i-left"/></svg></button>
+        <a class="next" href="#"><span>Next: M2 metroda aksama</span><svg class="ic"><use href="#i-next"/></svg></a>
+      </nav>
+      <div class="hi"></div>
+    </div>
+    <p class="note"><b>Map story: a place drives it.</b> Türkiye outline with Malatya marked. <b>One 40px Hot line, no box</b>, between the header and the story. English, because the interface is English. Magnitude, time and evidence word in one glance; tap opens the developing story, × hides it until the next update.</p>
+  </section>
+
+  <section class="col">
+    <div class="tag"><b>05b</b> Developing story, light, full length <span class="il">Illustrative stories</span></div>
+    <div class="frame phone light" data-hour="dusk" style="height:auto">
+      <div class="sb"><span class="t">18:06</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul"><span class="b1">Evening bulletin</span><span class="b2">Paused at 2 of 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:8%"></span><span class="cur" style="left:12%"></span></div>
+      <main class="pg">
+        <div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Map of Crete, epicentre about 60 km south of Heraklion"><use href="#geo-cr"/><circle cx="349.8" cy="131.4" r="6" fill="var(--ink2)"/><text x="349.8" y="111.4" font-family="Funnel Sans" font-size="26" font-weight="500" fill="var(--ink2)" text-anchor="middle">Heraklion</text><circle cx="353.2" cy="240.8" r="15" fill="none" stroke="var(--ink)" stroke-width="2.5"/><circle cx="353.2" cy="240.8" r="7" fill="var(--ink)"/><text x="379.2" y="249.8" font-family="Funnel Sans" font-size="28" font-weight="700" fill="var(--ink)" text-anchor="start">Epicentre, 6.1</text><text x="32" y="330" font-family="Funnel Sans" font-size="26" font-weight="500" fill="var(--meta)" text-anchor="start">Crete, Greece</text></svg></div><span class="cred">Map: CSPNews, epicentre from EMSC</span>
+        <div class="dv"><svg class="ic dvi" aria-hidden="true"><use href="#i-dev"/></svg>Developing <span class="u"><svg class="ic updi" aria-hidden="true"><use href="#i-upd"/></svg>Updated <span class="t">18:04</span></span></div>
+        <h1 class="hl" style="font-size:26px">Strong earthquake reported off the coast of Crete, magnitude 6.1</h1>
+        <button class="evb" style="margin-top:6px" aria-label="Reported by 2 sources: Reuters and AP"><svg class="g r"><use href="#g-rep"/></svg>Reported<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters,</span><span class="sn"><i class="lg16" aria-hidden="true">A</i>AP</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <div class="kn" style="margin-top:10px"><h3>Known</h3><ul>
+          <li>Magnitude <b class="f">6.1</b> at <b class="f t">17:52</b>, about <b class="f">60 km</b> south of Heraklion</li>
+          <li>Felt in İzmir and Antalya</li></ul></div>
+        <div class="kn nk"><h3>Not yet known</h3><ul>
+          <li>Damage or casualties</li>
+          <li>Tsunami assessment from Greek authorities</li></ul></div>
+        <div class="upd"><h3 class="lh">Story so far</h3>
+          <ol class="vl">
+            <li><span class="tm t">17:52</span><b>First report, magnitude 6.3</b><span>EMSC</span></li>
+            <li><span class="tm t">17:58</span><b>Second source</b><span>Reuters</span></li>
+            <li><span class="tm t">18:01</span><b>Magnitude revised to <span class="f">6.1</span></b><span>EMSC</span></li>
+            <li class="cur"><span class="tm t">18:04</span><b><svg class="g r" aria-hidden="true"><use href="#g-rep"/></svg>Labelled Reported</b><span>2 sources</span></li>
+          </ol></div>
+      </main><div style="height:20px"></div>
+      <nav class="bb safe">
+        <a class="next" href="#"><svg class="ic"><use href="#i-left"/></svg><span style="flex:1">Back to bulletin</span></a>
+      </nav>
+      <div class="hi"></div>
+    </div>
+    <p class="note"><b>Known and Not yet known</b> are split, so the gaps are as visible as the facts. The story’s life runs down the Meridian line: first report, sources joining, the revision, the label; newest carries the hour mark. The bulletin waits at story 2, shown in the header.</p>
+  </section>
+</div>
+
+<!-- ================= 04b DESKTOP PANEL ================= -->
+<section class="wide">
+  <div class="tag"><b>04b</b> Desktop evidence panel, 1280, dark, Turkish interface, rail folded <span class="il">Illustrative stories</span></div>
+  <div class="frame desk dark" data-hour="dusk" lang="tr">
+    <div class="edge"></div>
+    <header class="hd">
+      <span class="wm">CSP<span>News</span></span>
+      <button class="bul" aria-expanded="false"><span class="b1">Akşam bülteni, 18:30</span><span class="b2">Türkiye, haber 1 / 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+      <span style="flex:1"></span>
+      <button class="ico" aria-label="Klavye kısayolları"><svg class="ic"><use href="#i-q"/></svg></button>
+      <button class="ico" aria-label="Ayarlar"><svg class="ic"><use href="#i-set"/></svg></button>
+    </header>
+    <div class="ml"><span class="el" style="width:0%"></span><span class="cur" style="left:4%"></span></div>
+    <div class="dbody pan">
+      <article class="fs pan">
+      <div>
+        <h1 class="hl">Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5’e çekti</h1>
+        <button class="evb" aria-expanded="true" aria-label="Doğrulandı, 9 kaynak: AA, NTV, Reuters ve 6 kaynak daha"><svg class="g c"><use href="#g-conf"/></svg>Doğrulandı<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV,</span><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters</span><span class="mn">+6</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b class="f">yüzde 29,8</b>’e gerilemesi gerekçe gösterildi.</p>
+        <div class="tlh">Politika faizi kararları, %</div><div class="tl sm" role="img" aria-label="Politika faizi kararları: 24 Temmuz yüzde 36,5; 11 Eylül yüzde 35; 23 Ekim yüzde 33; bugün yüzde 31,5; sonraki karar 11 Aralık"><span class="ax"></span><span class="el" style="width:75%"></span><div class="tst first " style="left:0%"><span class="d">24 Tem</span><i></i><span class="v">%36,5</span></div><div class="tst  " style="left:25%"><span class="d">11 Eyl</span><i></i><span class="v">%35</span><span class="dl">−150</span></div><div class="tst  " style="left:50%"><span class="d">23 Eki</span><i></i><span class="v">%33</span><span class="dl">−200</span></div><div class="tst  cur" style="left:75%"><span class="d">Bugün</span><i></i><span class="v">%31,5</span><span class="dl">−150</span></div><div class="tst last fut" style="left:100%"><span class="d">11 Ara</span><i></i><span class="v">Sonraki</span></div></div>
+        <div class="dnext">
+          <button class="prev" aria-label="Önceki haber" style="opacity:.5" aria-disabled="true"><svg class="ic"><use href="#i-left"/></svg></button>
+          <a class="next" href="#"><span>Sıradaki: Malatya’da 4,9 büyüklüğünde deprem</span><svg class="ic"><use href="#i-next"/></svg></a>
+        </div>
+      </div>
+      <aside class="facts" aria-label="Rakamlar"><div class="fx"><div class="v">%31,5</div><div class="k">Politika faizi</div><div class="src">TCMB karar metni</div></div><div class="fx"><div class="v">−150 bp</div><div class="k">İndirim; beklenti −100</div><div class="src">TCMB, Reuters anketi</div></div><div class="fx"><div class="v">%29,8</div><div class="k">Yıllık enflasyon, ekim</div><div class="src">TÜİK</div></div></aside>
+    </article>
+      <aside class="panel" aria-label="Kanıt">
+        <div class="ev-h"><svg class="g c"><use href="#g-conf"/></svg><h3>Doğrulandı</h3><button class="ico" aria-label="Kapat" style="margin-right:-10px"><svg class="ic"><use href="#i-x"/></svg></button></div>
+        <p class="ev-p"><b class="f">9 bağımsız kaynak</b>, dört kesimin hepsinden.</p>
+        <div class="cr"><div><span class="cn2"><span class="n">Hükümete yakın</span><span class="c">3</span></span><span class="ol2"><span class="on" role="img" aria-label="Anadolu Ajansı, Yüksek güvenilirlik"><i class="lg16" aria-hidden="true">A</i>Anadolu Ajansı<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span><span class="on" role="img" aria-label="Sabah, Orta güvenilirlik"><i class="lg16" aria-hidden="true">S</i>Sabah<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span></span><span class="on" role="img" aria-label="NTV, Yüksek güvenilirlik"><i class="lg16" aria-hidden="true">N</i>NTV<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span></span></div><div><span class="cn2"><span class="n">Muhalif</span><span class="c">2</span></span><span class="ol2"><span class="on" role="img" aria-label="Sözcü, Orta güvenilirlik"><i class="lg16" aria-hidden="true">S</i>Sözcü<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span></span><span class="on" role="img" aria-label="Halk TV, Orta güvenilirlik"><i class="lg16" aria-hidden="true">H</i>Halk TV<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span></span></span></div><div><span class="cn2"><span class="n">Bağımsız</span><span class="c">2</span></span><span class="ol2"><span class="on" role="img" aria-label="Medyascope, Yüksek güvenilirlik"><i class="lg16" aria-hidden="true">M</i>Medyascope<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span><span class="on" role="img" aria-label="T24, Yüksek güvenilirlik"><i class="lg16" aria-hidden="true">T</i>T24<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span></span></div><div><span class="cn2"><span class="n">Uluslararası</span><span class="c">2</span></span><span class="ol2"><span class="on" role="img" aria-label="Reuters, Yüksek güvenilirlik"><i class="lg16" aria-hidden="true">R</i>Reuters<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span><span class="on" role="img" aria-label="BBC Türkçe, Yüksek güvenilirlik"><i class="lg16" aria-hidden="true">B</i>BBC Türkçe<span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span></span></span></div></div>
+        <p class="rl">Güvenilirlik: <span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i class=on></i></span> yüksek <span class="mt" aria-hidden="true"><i class=on></i><i class=on></i><i></i></span> orta <span class="mt" aria-hidden="true"><i class=on></i><i></i><i></i></span> düşük</p>
+        <a class="doc" href="#"><svg class="ic2"><use href="#i-doc"/></svg><span><b><i class="lg16" aria-hidden="true">T</i>TCMB</b>PPK karar metni, tcmb.gov.tr</span><svg class="ic"><use href="#i-out"/></svg></a>
+        <div class="doc fc"><span class="fl">Doğruluk kontrolü</span><svg class="g n" aria-hidden="true"><use href="#g-none"/></svg><span class="none">Henüz yok</span></div>
+      </aside>
+    </div>
+  </div>
+  <p class="note"><b>420px panel on the right</b> with the same camp map (rings with initials = logo from source registry): all four camps covered, so no empty slot; no fact-check yet, so an empty slot reads “Henüz yok”. Closed with ×, or Esc. The story stays readable beside it; the rail folds away so only two columns show.</p>
+</section>
+
+<!-- ================= 03c / 06 / 07 ================= -->
+<div class="row">
+  <section class="col">
+    <div class="tag"><b>03c</b> Photo story, phone, dark <span class="il">Illustrative stories</span></div>
+    <div class="frame phone dark" data-hour="dusk">
+      <div class="sb"><span class="t">18:44</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul"><span class="b1">Evening bulletin</span><span class="b2">Türkiye, 4 of 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:25%"></span><span class="cur" style="left:29%"></span></div>
+      <main class="pg" lang="tr">
+        <div class="vis photo"><div><b>TBMM Genel Kurulu, Ankara</b><span>Photo placeholder: the real site uses the outlet’s image</span></div></div><a class="cred" href="#">Photo: Anadolu Ajansı<svg class="ic"><use href="#i-out"/></svg></a>
+        <h1 class="hl" style="margin-top:4px">Meclis, asgari ücrete ara zam önergesini reddetti</h1>
+        <button class="evb" lang="en" aria-label="Confirmed by 5 sources: AA, Sözcü, T24 and 2 more"><svg class="g c"><use href="#g-conf"/></svg>Confirmed<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">S</i>Sözcü</span><span class="mn">+3</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist">Önerge <b class="f">187</b>’ye karşı <b class="f">248</b> oyla reddedildi; yeni asgari ücret <b class="f">aralıkta</b> belirlenecek.</p>
+        <button class="more" lang="en">Read more <svg class="ic"><use href="#i-down"/></svg></button>
+      </main>
+      <nav class="bb safe">
+        <button class="prev" aria-label="Previous story"><svg class="ic"><use href="#i-left"/></svg></button>
+        <a class="next" href="#"><span>Next: EU fines cloud provider</span><svg class="ic"><use href="#i-next"/></svg></a>
+      </nav>
+      <div class="hi"></div>
+    </div>
+    <p class="note"><b>Photo from the strongest confirming outlet</b>, in the 16:9 frame, with a credit that links to the original article. The sandbox has no real photos, so the slot names its subject. Outlet names (ring with initial = logo from source registry) sit beside the evidence word and open the drawer.</p>
+  </section>
+
+  <section class="col">
+    <div class="tag"><b>06</b> Caught up, phone, dark <span class="il">Illustrative stories</span></div>
+    <div class="frame phone dark" data-hour="dusk">
+      <div class="sb"><span class="t">18:39</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul"><span class="b1">Evening bulletin</span><span class="b2">All 12 read <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico" aria-label="Settings"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:100%"></span></div>
+      <main class="pg cu">
+        <h2>You’re caught up</h2>
+        <h3 class="remh">3 things to remember</h3>
+        <ol class="rem">
+          <li><span class="thumb"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 22 H38 V44 H54" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round"/></svg></span><span>Policy rate cut to <b class="f">31.5%</b>, <b class="f">150 bp</b> more than expected</span></li>
+          <li><span class="thumb"><svg viewBox="50 0 200 200" aria-hidden="true"><use href="#eu-flag"/></svg></span><span>EU fines a cloud provider <b class="f">€1.2B</b>; appeal planned</span></li>
+          <li><span class="thumb"><svg viewBox="134 20 330 330" aria-hidden="true"><use href="#geo-qa"/><circle cx="323.6" cy="171.5" r="40" fill="none" stroke="var(--ink)" stroke-width="9"/><circle cx="323.6" cy="171.5" r="18" fill="var(--ink)"/></svg></span><span>Doha talks resume on a <b class="f">30-day</b> pause; terms disputed</span></li>
+        </ol>
+        <a class="still" href="#"><svg class="ic hoti" aria-hidden="true"><use href="#i-hot"/></svg><span>Still developing: <b>Crete earthquake, 6.1</b>, updated <span class="t">18:04</span></span><svg class="ic"><use href="#i-right"/></svg></a>
+        <div class="day" aria-label="Today's bulletins: 07:30, 12:30, 18:30 read; next at 22:30">
+          <span class="ax"></span><span class="el" style="width:73.3%"></span>
+          <span class="n" style="left:0"></span><span class="n" style="left:33.3%"></span>
+          <span class="hk" style="left:69.1%"></span>
+          <span class="n cur" style="left:73.3%"></span><span class="n fut" style="left:100%"></span>
+          <span class="lb first" style="left:0">07:30</span><span class="lb" style="left:33.3%">12:30</span><span class="lb cur" style="left:73.3%">18:30</span><span class="lb last">22:30</span>
+        </div>
+        <p class="nb">Next bulletin at <b class="t">22:30</b>, in <span class="t">3 h 51 min</span>.</p>
+        <a class="rv" href="#">Review stories</a>
+      </main>
+      <div class="hi"></div>
+    </div>
+    <p class="note"><b>A recap, not a reward.</b> Three lines worth keeping, the one open Hot story, and the day line showing where this bulletin sits; the hot tick marks 17:52. Same header as every screen.</p>
+  </section>
+
+  <section class="col">
+    <div class="tag"><b>07</b> Settings, phone, light</div>
+    <div class="frame phone light" data-hour="dusk" style="height:auto;min-height:844px">
+      <div class="sb"><span class="t">18:44</span><svg><use href="#i-bat"/></svg></div>
+      <div class="edge"></div>
+      <header class="hd">
+        <span class="wm">CSP<span>News</span></span>
+        <button class="bul"><span class="b1">Evening bulletin</span><span class="b2">Tech and AI, 5 of 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+        <button class="ico on" aria-label="Settings" aria-pressed="true"><svg class="ic"><use href="#i-set"/></svg></button>
+      </header>
+      <div class="ml"><span class="el" style="width:33%"></span><span class="cur" style="left:37%"></span></div>
+      <main class="pg set">
+        <h2>Settings</h2>
+        <div class="grp"><h3><svg class="ic2" aria-hidden="true"><use href="#i-lang"/></svg>Interface language</h3><p class="hint">Menus and labels. Stories keep their own language.</p>
+          <div class="opts" role="radiogroup"><button class="opt" role="radio" aria-checked="true">English<svg class="ic"><use href="#i-check"/></svg></button><button class="opt" role="radio" aria-checked="false" lang="tr">Türkçe</button></div></div>
+        <div class="grp"><h3><svg class="ic2" aria-hidden="true"><use href="#i-theme"/></svg>Theme</h3>
+          <div class="opts" role="radiogroup"><button class="opt" role="radio" aria-checked="false">Dark<svg class="ic rad" aria-hidden="true"><use href="#i-rad0"/></svg></button><button class="opt" role="radio" aria-checked="true">Light<svg class="ic rad" aria-hidden="true"><use href="#i-rad1"/></svg></button><button class="opt" role="radio" aria-checked="false">Match device<svg class="ic rad" aria-hidden="true"><use href="#i-rad0"/></svg></button></div></div>
+        <div class="grp"><h3><svg class="ic2" aria-hidden="true"><use href="#i-size"/></svg>Text size</h3>
+          <div class="ts"><button aria-label="Smaller text" style="font-size:15px">A</button><span class="v">Default, 17px</span><button aria-label="Larger text" style="font-size:22px">A</button></div></div>
+        <button class="sw" role="switch" aria-checked="false"><span class="l"><b><svg class="ic2" aria-hidden="true"><use href="#i-ruler"/></svg>Reading ruler</b><span>Highlights the line you are on</span></span><span class="tsw tA" aria-hidden="true"><span class="trk"><span class="tkn"></span></span></span></button>
+        <div class="grp" style="padding-bottom:48px"><h3><svg class="ic2" aria-hidden="true"><use href="#g-sing"/></svg>Evidence marks</h3><p class="legend"><span><svg class="g c" aria-hidden="true"><use href="#g-conf"/></svg>Confirmed</span><span><svg class="g r" aria-hidden="true"><use href="#g-rep"/></svg>Reported</span><span><svg class="g s" aria-hidden="true"><use href="#g-sing"/></svg>Single source</span><span><svg class="g d" aria-hidden="true"><use href="#g-disp"/></svg>Disputed</span><span><svg class="g n" aria-hidden="true"><use href="#g-none"/></svg>None yet</span></p></div>
+      </main>
+      <div class="hi"></div>
+    </div>
+    <p class="note"><b>Language lives here only, and the evidence legend lives here</b> (and in the desktop help sheet), never on the list. Plain rows with a check for language, station radios for theme, the Day line switch (a station knob that fills when on), 48px targets. The settings icon carries the hour mark while open.</p>
+  </section>
+</div>
+
+<section><h2 class="board-h">Explored candidates</h2><p class="note" style="max-width:900px;margin-top:8px">Three story-detail directions tried in round 4. <b>Chosen: A + C’s timeline for series stories.</b></p></section>
+<section class="wide">
+  <div class="tag"><b>02-A</b> Story detail candidate A: Fact sheet, 1280, dark, Turkish interface, rail folded <span class="il">Illustrative stories</span></div>
+  <div class="frame desk dark cand" data-hour="dusk" lang="tr">
+    <div class="edge"></div>
+    <header class="hd">
+      <span class="wm">CSP<span>News</span></span>
+      <button class="bul" aria-expanded="false"><span class="b1">Akşam bülteni, 18:30</span><span class="b2">Türkiye, haber 1 / 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+      <span style="flex:1"></span>
+      <button class="ico" aria-label="Klavye kısayolları"><svg class="ic"><use href="#i-q"/></svg></button>
+      <button class="ico" aria-label="Ayarlar"><svg class="ic"><use href="#i-set"/></svg></button>
+    </header>
+    <div class="ml"><span class="el" style="width:0%"></span><span class="cur" style="left:4%"></span></div>
+    <div class="cbody"><div class="cA">
+      <article>
+        <h1 class="hl">Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5’e çekti</h1>
+        <button class="evb" aria-label="Doğrulandı, 9 kaynak: AA, NTV, Reuters ve 6 kaynak daha"><svg class="g c"><use href="#g-conf"/></svg>Doğrulandı<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV,</span><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters</span><span class="mn">+6</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+        <p class="gist">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b class="f">yüzde 29,8</b>’e gerilemesi gerekçe gösterildi.</p>
+        <div class="wh">
+          <div><b class="l">Ne oldu</b><span>PPK faizi <b class="f">yüzde 33</b>’ten <b class="f">yüzde 31,5</b>’e indirdi.</span></div>
+          <div><b class="l">Neden önemli</b><span>Piyasa <b class="f">100 baz puan</b> bekliyordu; kurul gevşemeyi hızlandırdı.</span></div>
+          <div><b class="l">Sırada ne var</b><span>Sonraki karar <b class="f">11 Aralık</b>’ta.</span></div>
+        </div>
+        <div class="dnext">
+          <button class="prev" aria-label="Önceki haber" style="opacity:.5" aria-disabled="true"><svg class="ic"><use href="#i-left"/></svg></button>
+          <a class="next" href="#"><span>Sıradaki: Malatya’da 4,9 büyüklüğünde deprem</span><svg class="ic"><use href="#i-next"/></svg></a>
+        </div>
+      </article>
+      <aside class="facts" aria-label="Rakamlar">
+        <div class="fx"><div class="v">%31,5</div><div class="k">Politika faizi</div><div class="src">TCMB karar metni</div></div><div class="fx"><div class="v">−150 baz puan</div><div class="k">İndirim; beklenti −100</div><div class="src">TCMB, Reuters anketi</div></div><div class="fx"><div class="v">%29,8</div><div class="k">Yıllık enflasyon, ekim</div><div class="src">TÜİK</div></div><div class="fx"><div class="v">+%2,1</div><div class="k">BIST 100, gün sonu</div><div class="src">Borsa İstanbul</div></div><div class="fx"><div class="v">+%0,4</div><div class="k">Dolar/TL, karar sonrası</div><div class="src">Reuters</div></div>
+      </aside>
+    </div></div>
+  </div>
+</section>
+<section class="wide">
+  <div class="tag"><b>02-B</b> Story detail candidate B: Evidence first, 1280, dark, Turkish interface, rail folded <span class="il">Illustrative stories</span></div>
+  <div class="frame desk dark cand" data-hour="dusk" lang="tr">
+    <div class="edge"></div>
+    <header class="hd">
+      <span class="wm">CSP<span>News</span></span>
+      <button class="bul" aria-expanded="false"><span class="b1">Akşam bülteni, 18:30</span><span class="b2">Türkiye, haber 1 / 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+      <span style="flex:1"></span>
+      <button class="ico" aria-label="Klavye kısayolları"><svg class="ic"><use href="#i-q"/></svg></button>
+      <button class="ico" aria-label="Ayarlar"><svg class="ic"><use href="#i-set"/></svg></button>
+    </header>
+    <div class="ml"><span class="el" style="width:0%"></span><span class="cur" style="left:4%"></span></div>
+    <div class="cbody"><div class="cB">
+      <h1 class="hl">Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5’e çekti</h1>
+      <div class="strip" role="group" aria-label="Kanıt">
+        <div class="lead"><span class="ew"><svg class="g c"><use href="#g-conf"/></svg>Doğrulandı</span><span class="on">9 bağımsız kaynak, dört kesim</span>
+          <a class="pin" href="#">Birincil kaynak: tcmb.gov.tr<svg class="ic"><use href="#i-out"/></svg></a></div>
+        <div><span class="cn">Hükümete yakın<span>3</span></span><span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">S</i>Sabah,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV</span></span><span class="on">AA, Sabah, NTV</span></div><div><span class="cn">Muhalif<span>2</span></span><span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">S</i>Sözcü,</span><span class="sn"><i class="lg16" aria-hidden="true">H</i>Halk TV</span></span><span class="on">Sözcü, Halk TV</span></div><div><span class="cn">Bağımsız<span>2</span></span><span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">M</i>Medyascope,</span><span class="sn"><i class="lg16" aria-hidden="true">T</i>T24</span></span><span class="on">Medyascope, T24</span></div><div><span class="cn">Uluslararası<span>2</span></span><span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters,</span><span class="sn"><i class="lg16" aria-hidden="true">B</i>BBC Türkçe</span></span><span class="on">Reuters, BBC Türkçe</span></div>
+      </div>
+      <div class="bgrid">
+        <div>
+          <p class="gist">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b class="f">yüzde 29,8</b>’e gerilemesi gerekçe gösterildi.</p>
+          <div class="kn"><ul>
+            <li>Faiz <b class="f">yüzde 33</b>’ten <b class="f">yüzde 31,5</b>’e indi.</li>
+            <li>Piyasa beklentisi <b class="f">100 baz puanlık</b> indirimdi.</li>
+            <li>Dolar/TL <b class="f">%0,4</b> yükseldi; BIST 100 <b class="f">%2,1</b> arttı.</li></ul></div>
+          <div class="dnext">
+          <button class="prev" aria-label="Önceki haber" style="opacity:.5" aria-disabled="true"><svg class="ic"><use href="#i-left"/></svg></button>
+          <a class="next" href="#"><span>Sıradaki: Malatya’da 4,9 büyüklüğünde deprem</span><svg class="ic"><use href="#i-next"/></svg></a>
+        </div>
+        </div>
+        <div><div class="vis"><svg viewBox="0 0 640 360" role="img" aria-label="Politika faizi yüzde 33'ten yüzde 31,5'e indi, eksi 150 baz puan"><text x="32" y="50" font-family="Funnel Sans" font-size="16" font-weight="500" fill="var(--meta)" text-anchor="start">Politika faizi, %</text><path d="M32 130 H452 V262 H608" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round"/><text x="32" y="116" font-family="Funnel Display" font-size="36" font-weight="800" fill="var(--ink)" text-anchor="start">33</text><text x="32" y="160" font-family="Funnel Sans" font-size="16" font-weight="500" fill="var(--meta)" text-anchor="start">Ekim kararı</text><text x="436" y="208" font-family="Funnel Sans" font-size="19" font-weight="700" fill="var(--ink)" text-anchor="end">−150 baz puan</text><text x="608" y="246" font-family="Funnel Display" font-size="48" font-weight="800" fill="var(--ink)" text-anchor="end">31,5</text><text x="608" y="298" font-family="Funnel Sans" font-size="16" font-weight="500" fill="var(--meta)" text-anchor="end">Bugün</text></svg></div><span class="cred">Grafik: CSPNews, veri TCMB</span></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+<section class="wide">
+  <div class="tag"><b>02-C</b> Story detail candidate C: Timeline, 1280, dark, Turkish interface, rail folded <span class="il">Illustrative stories</span></div>
+  <div class="frame desk dark cand" data-hour="dusk" lang="tr">
+    <div class="edge"></div>
+    <header class="hd">
+      <span class="wm">CSP<span>News</span></span>
+      <button class="bul" aria-expanded="false"><span class="b1">Akşam bülteni, 18:30</span><span class="b2">Türkiye, haber 1 / 12 <svg class="ic"><use href="#i-down"/></svg></span></button>
+      <span style="flex:1"></span>
+      <button class="ico" aria-label="Klavye kısayolları"><svg class="ic"><use href="#i-q"/></svg></button>
+      <button class="ico" aria-label="Ayarlar"><svg class="ic"><use href="#i-set"/></svg></button>
+    </header>
+    <div class="ml"><span class="el" style="width:0%"></span><span class="cur" style="left:4%"></span></div>
+    <div class="cbody"><div class="cC">
+      <h1 class="hl">Merkez Bankası politika faizini 150 baz puan indirerek yüzde 31,5’e çekti</h1>
+      <button class="evb" aria-label="Doğrulandı, 9 kaynak: AA, NTV, Reuters ve 6 kaynak daha"><svg class="g c"><use href="#g-conf"/></svg>Doğrulandı<span class="srcn"><span class="sn"><i class="lg16" aria-hidden="true">A</i>AA,</span><span class="sn"><i class="lg16" aria-hidden="true">N</i>NTV,</span><span class="sn"><i class="lg16" aria-hidden="true">R</i>Reuters</span><span class="mn">+6</span></span><svg class="ic"><use href="#i-right"/></svg></button>
+      <div class="tl" role="img" aria-label="Politika faizi kararları: 24 Temmuz yüzde 36,5; 11 Eylül yüzde 35; 23 Ekim yüzde 33; bugün yüzde 31,5; sonraki karar 11 Aralık">
+        <span class="ax"></span><span class="el" style="width:75%"></span>
+        <div class="tst first " style="left:0%"><span class="d">24 Temmuz</span><i></i><span class="v">%36,5</span></div><div class="tst  " style="left:25%"><span class="d">11 Eylül</span><i></i><span class="v">%35</span><span class="dl">−150 bp</span></div><div class="tst  " style="left:50%"><span class="d">23 Ekim</span><i></i><span class="v">%33</span><span class="dl">−200 bp</span></div><div class="tst  cur" style="left:75%"><span class="d">Bugün</span><i></i><span class="v">%31,5</span><span class="dl">−150 bp</span></div><div class="tst last fut" style="left:100%"><span class="d">11 Aralık</span><i></i><span class="v">Sonraki karar</span></div>
+      </div>
+      <div class="cgrid">
+        <div><p class="gist">Kurul beklentilerin üzerinde indirim yaptı; enflasyonun ekimde <b class="f">yüzde 29,8</b>’e gerilemesi gerekçe gösterildi.</p>
+          <button class="more" aria-expanded="false">Devamını oku <svg class="ic"><use href="#i-down"/></svg></button>
+          <div class="dnext">
+          <button class="prev" aria-label="Önceki haber" style="opacity:.5" aria-disabled="true"><svg class="ic"><use href="#i-left"/></svg></button>
+          <a class="next" href="#"><span>Sıradaki: Malatya’da 4,9 büyüklüğünde deprem</span><svg class="ic"><use href="#i-next"/></svg></a>
+        </div></div>
+        <dl class="kf">
+          <div><dt>Beklenti</dt><dd>−100 baz puan</dd></div>
+          <div><dt>Enflasyon, ekim</dt><dd>%29,8</dd></div>
+          <div><dt>Temmuz’dan bu yana</dt><dd>−500 baz puan</dd></div>
+        </dl>
+      </div>
+    </div></div>
+  </div>
+</section>
+<p class="note" style="max-width:900px;margin-top:-56px"><b>Chosen: A + C’s timeline for series stories.</b> The fact sheet is the story page; the timeline row appears only when the pipeline sends a series (see 02 and 02d). B’s camp strip stays in the evidence drawer.</p>
+</div>
+</body>
+</html>
