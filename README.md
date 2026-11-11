@@ -8,4 +8,14 @@ A personal newsroom. CSPNews gathers news from around the world, verifies it aga
 
 Breaking stories arrive between bulletins through **Hot News**.
 
-> Status: early development. The product docs are in [`docs/product`](docs/product).
+> Status: early development.
+
+## Getting started
+
+```sh
+corepack enable
+pnpm install
+pnpm check
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the repository layout and how changes are made.
