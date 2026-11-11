@@ -54,3 +54,34 @@ export function bulletinPath(published: PublishedBulletin): string {
 export function storyPath(published: PublishedBulletin, story: WrittenStory): string {
   return `${bulletinPath(published)}/${encodeURIComponent(story.id)}`;
 }
+
+const WORDS_PER_MINUTE = 230;
+
+/** Minutes to read every story in full, rounded up. */
+export function readingMinutes(published: PublishedBulletin): number {
+  const words = published.bulletin.stories
+    .flatMap((story) => story.body.flatMap((section) => section.blocks))
+    .map((block) => ('text' in block ? block.text : block.quote))
+    .join(' ')
+    .split(/\s+/)
+    .filter(Boolean).length;
+  return Math.ceil(words / WORDS_PER_MINUTE);
+}
+
+/** Stories grouped by section, in reading order, keeping each story's place in the bulletin. */
+export function storiesBySection(
+  published: PublishedBulletin,
+): { section: WrittenStory['section']; stories: { story: WrittenStory; index: number }[] }[] {
+  const groups: ReturnType<typeof storiesBySection> = [];
+  published.bulletin.stories.forEach((story, index) => {
+    const last = groups.at(-1);
+    if (last?.section === story.section) last.stories.push({ story, index });
+    else groups.push({ section: story.section, stories: [{ story, index }] });
+  });
+  return groups;
+}
+
+/** The key the reader's browser uses to remember a story as read. */
+export function readKey(published: PublishedBulletin, story: WrittenStory): string {
+  return `${published.date}/${published.slot}/${story.id}`;
+}

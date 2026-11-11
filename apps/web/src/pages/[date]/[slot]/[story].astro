@@ -5,6 +5,7 @@
  */
 import type { WrittenStory } from '@cspnews/core';
 
+import Contents from '../../../components/contents/Contents.astro';
 import Header from '../../../components/Header.astro';
 import Body from '../../../components/story/Body.astro';
 import EvidenceLine from '../../../components/story/EvidenceLine.astro';
@@ -13,7 +14,13 @@ import StoryNav from '../../../components/story/StoryNav.astro';
 import Summary from '../../../components/story/Summary.astro';
 import TimelineView from '../../../components/story/Timeline.astro';
 import Base from '../../../layouts/Base.astro';
-import { loadBulletins, storyPath, type PublishedBulletin } from '../../../lib/bulletins';
+import {
+  bulletinPath,
+  loadBulletins,
+  readKey,
+  storyPath,
+  type PublishedBulletin,
+} from '../../../lib/bulletins';
 import { editionHourFor } from '../../../lib/edition';
 import { bulletinName, sectionName, storyPosition, wordsFor } from '../../../lib/i18n';
 import { outletNames, sourceName } from '../../../lib/sources';
@@ -55,8 +62,14 @@ const name = bulletinName(published.slot, lang);
     bulletinName={name}
     detail={`${sectionName(story.section, lang)}, ${storyPosition(index, stories.length, lang)}`}
     progress={stories.length > 1 ? index / (stories.length - 1) : 0}
+    contentsHref={bulletinPath(published)}
+    contentsLabel={words.contents}
   />
-  <main class="page">
+  <div class="layout">
+  <aside class="rail">
+    <Contents published={published} lang={lang} currentId={story.id} compact />
+  </aside>
+  <main class="page" data-read-key={readKey(published, story)}>
     <article class="story">
       <div class="lead" lang={story.language}>
         <h1>{story.title}</h1>
@@ -91,9 +104,42 @@ const name = bulletinName(published.slot, lang);
       endLabel={words.endOfBulletin}
     />
   </main>
+  </div>
 </Base>
 
+<script>
+  import { rememberStory } from '../../../lib/read';
+
+  const key = document.querySelector('[data-read-key]')?.getAttribute('data-read-key');
+  if (key) rememberStory(key);
+</script>
+
 <style>
+  .rail {
+    display: none;
+  }
+
+  /* Wide screens keep Contents beside the story, as a left rail. */
+  @media (width >= 1280px) {
+    .layout {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      max-width: 1520px;
+      margin: 0 auto;
+    }
+
+    .rail {
+      position: sticky;
+      top: 0;
+      display: block;
+      max-height: 100dvh;
+      overflow-y: auto;
+      padding: 16px 24px 32px var(--gutter);
+      border-right: 1px solid var(--line);
+      overscroll-behavior: contain;
+    }
+  }
+
   .page {
     max-width: 1200px;
     margin: 0 auto;

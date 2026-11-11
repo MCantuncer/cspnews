@@ -1,0 +1,55 @@
+---
+/** A whole Contents screen: the bulletin's name, its date and size, then the spine. */
+import { readingMinutes, type PublishedBulletin } from '../../lib/bulletins';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatLongDate, formatTime } from '../../lib/format';
+import { bulletinName, bulletinSize } from '../../lib/i18n';
+import Contents from './Contents.astro';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const { publishAt, stories } = published.bulletin;
+---
+
+<main class="screen">
+  <h1>{bulletinName(published.slot, lang)}</h1>
+  <p class="meta">
+    {
+      `${formatLongDate(publishAt, lang)}, ${formatTime(publishAt, lang)}. ${bulletinSize(stories.length, readingMinutes(published), lang)}.`
+    }
+  </p>
+  <Contents published={published} lang={lang} />
+</main>
+
+<style>
+  .screen {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 28px var(--gutter) 48px;
+  }
+
+  h1 {
+    font: 800 32px / 1.08 var(--f-head);
+    letter-spacing: -0.03em;
+  }
+
+  .meta {
+    margin-top: 8px;
+    color: var(--meta);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+
+  @media (width >= 1024px) {
+    .screen {
+      padding-top: 56px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+</style>
