@@ -43,6 +43,14 @@ const WORDS = {
     noOutlet: 'No outlet from this camp',
     republished: 'republished it',
     openEvidence: 'Show sources',
+    hotNews: 'Hot News',
+    dismissHot: 'Dismiss Hot News',
+    storySoFar: 'Story so far',
+    backToBulletin: 'Back to the bulletin',
+    hotLoading: 'Loading Hot News…',
+    hotGone: 'This story is no longer in Hot News.',
+    hotError: 'Hot News could not be loaded. Check your connection and try again.',
+    tryAgain: 'Try again',
   },
   tr: {
     bulletin: {
@@ -80,6 +88,14 @@ const WORDS = {
     noOutlet: 'Bu kesimden kaynak yok',
     republished: 'yeniden yayımladı',
     openEvidence: 'Kaynakları göster',
+    hotNews: 'Son Dakika',
+    dismissHot: 'Son dakikayı kapat',
+    storySoFar: 'Şu ana kadar',
+    backToBulletin: 'Bültene dön',
+    hotLoading: 'Son dakika yükleniyor…',
+    hotGone: 'Bu haber artık son dakikada değil.',
+    hotError: 'Son dakika yüklenemedi. Bağlantını kontrol edip yeniden dene.',
+    tryAgain: 'Yeniden dene',
   },
 } as const;
 
@@ -166,4 +182,9 @@ export function reliabilityLabel(steps: number, language: InterfaceLanguage): st
   return language === 'tr'
     ? `Güvenilirlik 3 üzerinden ${String(steps)}`
     : `Reliability ${String(steps)} of 3`;
+}
+
+/** "Updated 18:04" / "Güncellendi 18:04". */
+export function updatedAt(time: string, language: InterfaceLanguage): string {
+  return `${WORDS[language].updated} ${time}`;
 }

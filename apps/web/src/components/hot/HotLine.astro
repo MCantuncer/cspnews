@@ -1,0 +1,187 @@
+---
+/**
+ * The Hot News line (docs/design/system.md, "Hot News"): one quiet 40px line under the header,
+ * in the interface language, never a pop-up. It fills itself from the Hot News feed and stays
+ * hidden when there is nothing hot. Tapping it opens the developing story; × hides it until
+ * the story is updated. Its mark draws once when a story arrives.
+ */
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { wordsFor } from '../../lib/i18n';
+import EvidenceMark from '../ui/EvidenceMark.astro';
+import Icon from '../ui/Icon.astro';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const words = wordsFor(lang);
+---
+
+<aside class="hot" data-hot-line data-lang={lang} aria-label={words.hotNews} hidden>
+  <div class="inner" role="status">
+    <Icon name="hot" size={20} class="hot-icon" />
+    <a class="link" href="/hot">
+      <span class="title"></span>
+      <span class="time"></span>
+      <span class="marks" aria-hidden="true">
+        <span data-mark="confirmed" hidden><EvidenceMark label="confirmed" lang={lang} /></span>
+        <span data-mark="reported" hidden><EvidenceMark label="reported" lang={lang} /></span>
+      </span>
+    </a>
+    <button type="button" class="dismiss" aria-label={words.dismissHot}>
+      <Icon name="close" size={18} />
+    </button>
+  </div>
+</aside>
+
+<script>
+  import { formatTime } from '../../lib/format';
+  import {
+    POLL_MINUTES,
+    dismiss,
+    loadHotFeed,
+    pickHotStory,
+    readDismissed,
+    safeStorage,
+  } from '../../lib/hot';
+
+  const line = document.querySelector<HTMLElement>('[data-hot-line]');
+  if (line) {
+    const lang = line.getAttribute('data-lang') === 'tr' ? 'tr' : 'en';
+    const link = line.querySelector<HTMLAnchorElement>('.link');
+    const title = line.querySelector<HTMLElement>('.title');
+    const time = line.querySelector<HTMLElement>('.time');
+    const button = line.querySelector<HTMLButtonElement>('.dismiss');
+    let shownKey = '';
+
+    const refresh = async () => {
+      const feed = await loadHotFeed();
+      const story = feed && pickHotStory(feed, readDismissed(safeStorage()));
+      if (!feed || !story || !link || !title || !time || !button) {
+        line.hidden = true;
+        shownKey = '';
+        return;
+      }
+      const key = `${story.id}@${story.updatedAt}`;
+      if (key === shownKey) return;
+      title.textContent = story.shortTitle;
+      title.lang = story.language;
+      time.textContent = formatTime(story.firstSeenAt, lang);
+      link.href = `/hot?id=${encodeURIComponent(story.id)}`;
+      for (const mark of line.querySelectorAll<HTMLElement>('[data-mark]')) {
+        mark.hidden = mark.getAttribute('data-mark') !== story.label;
+      }
+      button.onclick = () => {
+        dismiss(safeStorage(), story, feed);
+        line.hidden = true;
+        void refresh();
+      };
+      line.classList.remove('arrive');
+      line.hidden = false;
+      void line.offsetWidth;
+      line.classList.add('arrive');
+      shownKey = key;
+    };
+
+    void refresh();
+    setInterval(() => {
+      if (document.visibilityState === 'visible') void refresh();
+    }, POLL_MINUTES * 60_000);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') void refresh();
+    });
+  }
+</script>
+
+<style>
+  .hot {
+    padding: 0 var(--gutter);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 40px;
+  }
+
+  .inner :global(.hot-icon) {
+    color: var(--hot);
+  }
+
+  .link {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    min-height: 44px;
+    color: var(--ink);
+    font: 600 15px / 1 var(--f-body);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .link:hover .title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .title {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .time {
+    flex: none;
+    color: var(--meta);
+    font-weight: 500;
+  }
+
+  .marks {
+    flex: none;
+  }
+
+  .marks :global(.ev) {
+    font-weight: 500;
+  }
+
+  .dismiss {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-right: -12px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--meta);
+    cursor: pointer;
+  }
+
+  /* The mark draws once when a story arrives; reduced motion skips it (base.css). */
+  .arrive .inner :global(.hot-icon) {
+    animation: arrive 600ms var(--ease-out) 1;
+  }
+
+  @keyframes arrive {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+  }
+
+  @media (width < 420px) {
+    .marks :global(.ev) {
+      font-size: 0;
+    }
+
+    .marks :global(.ev__g) {
+      margin-right: 0;
+    }
+  }
+</style>

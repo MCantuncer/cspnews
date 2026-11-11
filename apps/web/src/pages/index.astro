@@ -2,6 +2,7 @@
 /** Home: the latest bulletin's Contents, or the empty state before the first one. */
 import BulletinContents from '../components/contents/BulletinContents.astro';
 import Header from '../components/Header.astro';
+import HotLine from '../components/hot/HotLine.astro';
 import Base from '../layouts/Base.astro';
 import { loadBulletins } from '../lib/bulletins';
 import { editionHourFor } from '../lib/edition';
@@ -14,6 +15,7 @@ const latest = loadBulletins()[0];
 
 <Base title="CSPNews" hour={latest ? editionHourFor(latest.slot) : 'dawn'} lang={lang}>
   <Header />
+  <HotLine lang={lang} />
   {
     latest ? (
       <BulletinContents published={latest} lang={lang} />

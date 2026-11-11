@@ -29,7 +29,7 @@ export interface Timeline {
  * values; every other story shows its own life. Fewer than two points is no timeline.
  */
 export function timelineFor(
-  story: WrittenStory,
+  story: Pick<WrittenStory, 'series' | 'timeline' | 'label'>,
   language: InterfaceLanguage,
   sourceName: (id: string) => string,
 ): Timeline | undefined {

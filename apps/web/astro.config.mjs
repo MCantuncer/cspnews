@@ -5,11 +5,14 @@ import { fileURLToPath } from 'node:url';
 
 import { defineConfig } from 'astro/config';
 
-// Photos and logos saved next to the bulletins (src/lib/media.ts), served at /media.
+// Photos and logos saved next to the bulletins (src/lib/media.ts), served at /media, and the
+// Hot News feed (src/lib/hot.ts), served at /hot.json.
 const bulletins = resolve(
   process.env.CSPNEWS_BULLETINS ?? resolve(process.cwd(), '../../data/bulletins'),
 );
 const media = join(bulletins, 'media');
+// The Hot News feed. In production the monitor publishes it; locally a saved copy is served.
+const hotFeed = join(bulletins, 'hot.json');
 const TYPES = new Map([
   ['.avif', 'image/avif'],
   ['.jpeg', 'image/jpeg'],
@@ -20,10 +23,19 @@ const TYPES = new Map([
 ]);
 
 /** @type {import('astro').AstroIntegration} */
-const bulletinMedia = {
-  name: 'cspnews-bulletin-media',
+const bulletinFiles = {
+  name: 'cspnews-bulletin-files',
   hooks: {
     'astro:server:setup': ({ server }) => {
+      server.middlewares.use('/hot.json', (_req, res, next) => {
+        if (!existsSync(hotFeed)) {
+          next();
+          return;
+        }
+        res.setHeader('content-type', 'application/json');
+        res.setHeader('cache-control', 'no-store');
+        createReadStream(hotFeed).pipe(res);
+      });
       server.middlewares.use('/media', (req, res, next) => {
         const file = normalize(join(media, decodeURIComponent((req.url ?? '/').split('?')[0])));
         const type = TYPES.get(extname(file));
@@ -41,7 +53,9 @@ const bulletinMedia = {
       });
     },
     'astro:build:done': ({ dir }) => {
-      if (existsSync(media)) cpSync(media, join(fileURLToPath(dir), 'media'), { recursive: true });
+      const out = fileURLToPath(dir);
+      if (existsSync(media)) cpSync(media, join(out, 'media'), { recursive: true });
+      if (existsSync(hotFeed)) cpSync(hotFeed, join(out, 'hot.json'));
     },
   },
 };
@@ -51,7 +65,7 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'never',
   build: { format: 'file' },
-  integrations: [bulletinMedia],
+  integrations: [bulletinFiles],
   vite: {
     resolve: {
       // Use workspace packages' TypeScript source, so the site builds without building them first.

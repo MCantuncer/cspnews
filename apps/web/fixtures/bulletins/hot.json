@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-11T20:14:00+03:00",
+  "stories": [
+    {
+      "id": "istanbul-vapur-seferleri-firtina",
+      "section": "turkey",
+      "language": "tr",
+      "shortTitle": "Fırtına nedeniyle vapur seferleri iptal",
+      "title": "İstanbul'da fırtına nedeniyle tüm vapur seferleri iptal edildi",
+      "label": "confirmed",
+      "firstSeenAt": "2026-11-11T19:42:00+03:00",
+      "updatedAt": "2026-11-11T20:10:00+03:00",
+      "sources": [
+        { "sourceId": "aa-tr", "url": "https://www.aa.com.tr/tr", "confirms": true },
+        { "sourceId": "ntv", "url": "https://www.ntv.com.tr/", "confirms": true },
+        { "sourceId": "bbc-turkce", "url": "https://www.bbc.com/turkce", "confirms": true }
+      ],
+      "timeline": [
+        { "kind": "first-reported", "at": "2026-11-11T19:42:00+03:00", "sourceId": "aa-tr" },
+        { "kind": "outlet-joined", "at": "2026-11-11T19:51:00+03:00", "sourceId": "ntv" },
+        { "kind": "outlet-joined", "at": "2026-11-11T19:58:00+03:00", "sourceId": "bbc-turkce" },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-11T20:02:00+03:00",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "updated",
+          "at": "2026-11-11T20:10:00+03:00",
+          "note": "Evening crossings to the islands also cancelled"
+        }
+      ]
+    }
+  ]
+}
