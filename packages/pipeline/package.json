@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "prepare-bulletin": "node dist/prepare-bulletin.js"
+    "prepare-bulletin": "node dist/prepare-bulletin.js",
+    "save-media": "node dist/save-media.js"
   },
   "dependencies": {
     "@cspnews/collector": "workspace:*",
