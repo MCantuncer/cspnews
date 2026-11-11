@@ -13,6 +13,12 @@ Bulletins are read at build time from `data/bulletins/<yyyy-mm-dd>-<slot>.json` 
 
 The daily word game lives at `/word` (English) and `/word/tr` (Turkish). Each build ships only a short window of answers, from yesterday to ten days ahead, scrambled with `hideWord` (`src/lib/word-data.ts`); the browser picks today's by the Istanbul date. Every bulletin build refreshes the window, so the site needs a build at least every ten days, which publishing gives it. The accepted guesses are served as `/word/guesses-<language>.txt`. Games, streaks and stats are kept in the reader's browser.
 
+Reader accounts (sign-in, avatar, the account page at `/account` and `/account/tr`) appear only when `PUBLIC_CSPNEWS_API` names the accounts API (`apps/api`). Without it, as on the live site today, the header has no sign-in button and the site makes no API calls. Signed-out readers never call the API either: the browser asks for the profile only when the API's `cspn_signed_in` hint cookie is there. To try it locally, run the API (`pnpm --filter @cspnews/api dev`) and then:
+
+```sh
+PUBLIC_CSPNEWS_API=http://localhost:8787 pnpm --filter @cspnews/web dev:sample
+```
+
 | Path             | What lives there                                            |
 | ---------------- | ----------------------------------------------------------- |
 | `src/styles`     | Design tokens (both themes, edition hours) and base styles  |

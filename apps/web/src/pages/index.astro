@@ -14,7 +14,7 @@ const latest = loadBulletins()[0];
 ---
 
 <Base title="CSPNews" hour={latest ? editionHourFor(latest.slot) : 'dawn'} lang={lang}>
-  <Header />
+  <Header lang={lang} />
   <HotLine lang={lang} />
   {
     latest ? (

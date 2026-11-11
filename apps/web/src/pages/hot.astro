@@ -16,7 +16,7 @@ const words = wordsFor(lang);
 ---
 
 <Base title={`${words.hotNews} | CSPNews`} lang={lang}>
-  <Header bulletinName={words.hotNews} />
+  <Header bulletinName={words.hotNews} lang={lang} />
   <main class="page" data-hot-page data-lang={lang}>
     <p class="state" data-state="loading">{words.hotLoading}</p>
     <div class="state" data-state="gone" hidden>
