@@ -7,7 +7,7 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
    - stories in section order (Türkiye, Tech and AI, Around the World); Turkish stories in Turkish, the rest in English;
    - only facts from the candidate articles, each claim and quote attributed to its outlet; optional fields left out when the sources don't support them;
    - keep each candidate's label, sources, timeline and `image` (the photo the rules picked, with its credit).
-3. **Save the photos.** `pnpm --filter @cspnews/pipeline save-media data/bulletins/<file>.json` downloads each story's photo to `data/bulletins/media/<story id>.<ext>`. A photo that fails is reported and the story falls back to its next visual.
+3. **Save the photos.** `pnpm --filter @cspnews/pipeline save-media "$PWD/data/bulletins/<file>.json"` downloads each story's photo to `data/bulletins/media/<story id>.<ext>`. A photo that fails is reported and the story falls back to its next visual.
 4. **Save the outlet logos** (first time, then when sources change). `pnpm --filter @cspnews/config fetch-logos "$PWD/data/bulletins/media/logos"`. The site shows `svg`, `png` and `webp` logos; convert any other format to `png`.
 5. **Check.** `pnpm --filter @cspnews/web build` validates every bulletin with `parseBulletin` and fails on a bad file. Look at it with `pnpm --filter @cspnews/web dev`.
 6. **Publish.** Commit `data/bulletins` (JSON and `media/`) to `main`. Vercel deploys it; nothing else is needed.
