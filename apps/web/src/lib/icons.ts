@@ -36,6 +36,10 @@ export const ICONS = {
     '<path d="M2 12h5.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/><circle cx="12" cy="12" r="4.5"/><path d="M12 7.5a4.5 4.5 0 0 0 0 9z" fill="currentColor" stroke="none"/>',
   updated:
     '<path d="M2 12h2M9.5 12h4.25" /><circle cx="6.75" cy="12" r="2.5" style="stroke:var(--meta2)"/><circle cx="17.25" cy="12" r="3.25" fill="currentColor"/>',
+  stats:
+    '<path d="M2.5 20h19M6.5 20v-5M12 20v-9.75M17.5 20v-7.5"/><circle cx="12" cy="6" r="2.25" fill="currentColor"/>',
+  share:
+    '<path d="M4.5 13.5v5.75h15V13.5M12 15.5V8.5"/><circle cx="12" cy="5.5" r="2.5" fill="currentColor"/>',
   /** An empty logo slot, for an outlet whose logo is not saved. */
   slot: '<circle cx="12" cy="12" r="9.25" />',
 } as const;

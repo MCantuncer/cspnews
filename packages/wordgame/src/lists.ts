@@ -11,10 +11,10 @@
 import type { GameDay } from './day.js';
 import { isPlayableWord, normalizeWord, type GameLanguage } from './language.js';
 
-/** Puzzle 1 of each language is played on this day. */
+/** Puzzle 1 of each language is played on this day, the day the game opened. Never change it. */
 export const FIRST_DAY: Readonly<Record<GameLanguage, GameDay>> = {
-  en: '2026-11-23',
-  tr: '2026-11-23',
+  en: '2026-11-11',
+  tr: '2026-11-11',
 };
 
 /** CI fails when fewer days of answers than this are left, so the list never runs out. */
