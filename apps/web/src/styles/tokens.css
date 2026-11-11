@@ -5,7 +5,7 @@
  */
 
 :root {
-  --f-head: 'Funnel Display', system-ui, sans-serif;
+  --f-head: 'CSP Display', system-ui, sans-serif;
   --f-body: 'Funnel Sans', system-ui, sans-serif;
 
   --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
