@@ -60,6 +60,18 @@ importers:
         specifier: workspace:*
         version: link:../core
 
+  packages/hotnews:
+    dependencies:
+      '@cspnews/core':
+        specifier: workspace:*
+        version: link:../core
+      '@cspnews/grouping':
+        specifier: workspace:*
+        version: link:../grouping
+      '@cspnews/verify':
+        specifier: workspace:*
+        version: link:../verify
+
   packages/pipeline:
     dependencies:
       '@cspnews/collector':
