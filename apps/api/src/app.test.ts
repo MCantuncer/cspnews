@@ -23,6 +23,7 @@ beforeEach(() => {
     SITE_URL: SITE,
     GOOGLE_CLIENT_ID: 'client-id',
     GOOGLE_CLIENT_SECRET: 'client-secret',
+    PASSKEY_RP_ID: 'cspnews.example',
   };
 });
 

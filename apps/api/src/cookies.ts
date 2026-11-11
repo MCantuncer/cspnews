@@ -7,6 +7,7 @@
  *   to call the API at all, so readers who never signed in cause no API calls.
  * - The pending sign-in cookie lives for ten minutes while the reader is at Google. It holds the
  *   state, PKCE verifier and nonce for that one attempt, and only this API sees it.
+ * - The passkey ceremony cookie lives for five minutes and names one open WebAuthn challenge.
  */
 import type { Context } from 'hono';
 import { deleteCookie, getCookie, setCookie } from 'hono/cookie';
@@ -83,4 +84,29 @@ export function takePendingSignIn<E extends { Bindings: Env }>(
   } catch {
     return undefined;
   }
+}
+
+const CEREMONY_COOKIE = 'cspn_passkey';
+
+/** The open passkey challenge's key; the challenge itself is checked and used up in the database. */
+export function setCeremonyCookie<E extends { Bindings: Env }>(
+  c: Context<E>,
+  challenge: string,
+  maxAge: number,
+): void {
+  setCookie(c, CEREMONY_COOKIE, challenge, {
+    prefix: 'host',
+    path: '/',
+    secure: true,
+    httpOnly: true,
+    sameSite: 'Strict', // only our own pages start and finish a ceremony
+    maxAge,
+  });
+}
+
+/** The open challenge, if any. The cookie is removed as it is read. */
+export function takeCeremonyCookie<E extends { Bindings: Env }>(c: Context<E>): string | undefined {
+  const challenge = getCookie(c, CEREMONY_COOKIE, 'host');
+  deleteCookie(c, CEREMONY_COOKIE, { prefix: 'host', path: '/', secure: true });
+  return challenge;
 }
