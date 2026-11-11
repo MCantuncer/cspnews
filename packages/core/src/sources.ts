@@ -38,6 +38,10 @@ export const SourceSchema = z
     name: z.string().min(1),
     kind: z.enum(SOURCE_KINDS),
     url: z.url(),
+    /** The outlet's own site: credit links and the logo shown next to its name come from here. */
+    homepage: z.url({ protocol: /^https$/ }),
+    /** Logo override, for outlets whose site icon is not their brand mark. */
+    logoUrl: z.url({ protocol: /^https$/ }).optional(),
     /** Sections this source feeds. */
     sections: z.array(z.enum(SECTIONS)).min(1),
     /** ISO 639-1 language code of the source's articles. */
