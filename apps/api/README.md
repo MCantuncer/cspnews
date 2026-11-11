@@ -42,7 +42,7 @@ and the client id in `GOOGLE_CLIENT_ID` in `wrangler.jsonc`.
 
 1. `pnpm --filter @cspnews/api exec wrangler login`
 2. `pnpm --filter @cspnews/api exec wrangler d1 create cspnews-accounts --location weur`, then copy the printed `database_id` into `wrangler.jsonc`.
-3. In `wrangler.jsonc`, set `ALLOWED_ORIGINS` to the site's address (for example `https://example.com,https://www.example.com`), `SITE_URL` to the main address (`https://example.com`) `COOKIE_DOMAIN` to the domain (`example.com`) and `PASSKEY_RP_ID` to the domain too (`example.com`), so passkeys work on every subdomain.
+3. In `wrangler.jsonc`, set `ALLOWED_ORIGINS` to the site's address (for example `https://example.com,https://www.example.com`), `SITE_URL` to the main address (`https://example.com`), `COOKIE_DOMAIN` to the domain (`example.com`) and `PASSKEY_RP_ID` to the domain too (`example.com`), so passkeys work on every subdomain.
 4. `pnpm --filter @cspnews/api db:migrate:remote`, then `pnpm --filter @cspnews/api deploy`.
 5. In the Cloudflare dashboard, add the custom domain `api.<domain>` to the `cspnews-api` Worker.
 
