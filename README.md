@@ -101,5 +101,6 @@ cspnews/
 
 - 📖 [User stories](docs/product/user-stories.md): what the reader needs
 - 🧩 [Features and shared systems](docs/product/features.md): what we're building, and in which release
+- 📰 [Publishing a bulletin](docs/publishing.md): from feeds to the live site, step by step
 - 🎨 [Design brief](docs/design/brief.md): the focus principles behind the interface
 - 🤝 [Contributing](CONTRIBUTING.md): layout, conventions and how changes are made
