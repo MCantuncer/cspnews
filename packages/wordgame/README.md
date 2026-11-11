@@ -9,6 +9,18 @@ The rules of the daily word game (US-70, US-71), with no I/O. The page in `apps/
 | `day.ts`      | Game days in Istanbul time, the puzzle number, the day's answer, a fixed shuffle for new word lists   |
 | `progress.ts` | Streak with one rest day per week, the last seven days, stats                                         |
 
-## The answer lists
+## The word lists
 
-Each language's answers are kept in play order: entry 1 is puzzle 1, played on the language's first day. New words are appended. A word that has to go is replaced in place, so a day that has been played never changes its word.
+`data/<language>/` holds three files, checked by the tests on every change:
+
+- `answers.txt`: the answers in play order, one per line. Line 1 is puzzle 1, played on the language's first day (`FIRST_DAY`). The order was shuffled once with a fixed seed, so it is not alphabetical, and it is stored, so no word ever repeats.
+- `guesses.txt`: every word accepted as a guess, answers included. Swear words are left out.
+- `blocked.txt`: words that must never be an answer, each with its reason.
+
+Rules for changing them:
+
+- **Add** new answers at the end of `answers.txt` (propose them with `scripts/candidates.py`, check them by hand, shuffle the batch with `seededShuffle`).
+- **Remove** an answer that has not been played yet by replacing its line with a new word, and add the old word to `blocked.txt`. A day that has been played never changes its word.
+- The tests fail when an answer repeats, is blocked or is not a guess, and when fewer than 90 days of answers are left.
+
+Sources and licences: [data/SOURCES.md](data/SOURCES.md).

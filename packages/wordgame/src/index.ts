@@ -26,3 +26,6 @@ export type { GameDay } from './day.js';
 
 export { recentDays, statsOf, streakOn } from './progress.js';
 export type { DayStatus, GameResult, Stats, Streak } from './progress.js';
+
+export { FIRST_DAY, MIN_DAYS_LEFT, listProblems, parseWordList } from './lists.js';
+export type { WordLists } from './lists.js';
