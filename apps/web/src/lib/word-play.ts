@@ -37,6 +37,7 @@ import {
   type GameWords,
   type WindowDay,
 } from './word';
+import { sameResults, syncWordResults } from './word-sync';
 
 const FLIP_STEP_MS = 170;
 const FLIP_MS = 460;
@@ -404,6 +405,21 @@ export function startWordGame(root: HTMLElement): void {
     results = [...results, { day: today, tries: guesses.length, solved }];
     write(resultsKey(language), JSON.stringify(results));
     root.querySelector(`[data-done-dot="${language}"]`)?.classList.add('done');
+    void sync();
+  }
+
+  /** Signed in: send this browser's days to the account and take in days from other devices. */
+  async function sync(): Promise<void> {
+    const combined = await syncWordResults(language, results);
+    if (!combined || sameResults(combined, results)) return;
+    results = combined;
+    write(resultsKey(language), JSON.stringify(results));
+    root.querySelector(`[data-done-dot="${language}"]`)?.classList.toggle(
+      'done',
+      results.some((r) => r.day === today),
+    );
+    // The finish sheet shows the streak; draw it again with the account's days.
+    if (sheet && !sheet.hidden) showSheet(false);
   }
 
   function describe(guess: string, marks: readonly Mark[]): string {
@@ -563,6 +579,10 @@ export function startWordGame(root: HTMLElement): void {
     write(HELP_SEEN, '1');
     openDialog('help');
   }
+
+  void sync();
+  // Signing in on this page brings in the account's days straight away.
+  document.addEventListener('cspnews:signed-in', () => void sync());
 
   // The countdown, and a fresh page when the new word arrives.
   window.setInterval(() => {

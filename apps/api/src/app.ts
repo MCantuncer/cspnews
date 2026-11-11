@@ -11,6 +11,7 @@
  *   GET    /auth/google    sign in with Google (auth-google.ts)
  *   POST   /auth/passkey/* make an account or sign in with a passkey (auth-passkey.ts)
  *   GET    /me/passkeys    your passkeys; DELETE /me/passkeys/:id removes one
+ *   GET    /me/game/:lang  word game results; POST saves new days (game.ts)
  */
 import { ProfilePatchSchema, profileToJson } from '@cspnews/accounts';
 import { Hono } from 'hono';
@@ -20,6 +21,7 @@ import { z } from 'zod';
 
 import { googleRoutes } from './auth-google.js';
 import { passkeyAccountRoutes, passkeyRoutes } from './auth-passkey.js';
+import { gameRoutes } from './game.js';
 import { clearSignInCookies, readSessionCookie, setSignInCookies } from './cookies.js';
 import { allowedOrigins } from './env.js';
 import type { Env } from './env.js';
@@ -164,6 +166,7 @@ export function createApp({
   });
 
   signedIn.route('/', passkeyAccountRoutes());
+  signedIn.route('/', gameRoutes(clock));
   app.route('/', signedIn);
   app.notFound((c) => c.json({ error: 'Not found.' }, 404));
 

@@ -73,6 +73,11 @@ const TEXT: Record<InterfaceLanguage, PrivacyText> = {
       { item: 'Avatar', what: 'Which avatar you picked', why: 'The header and account page' },
       { item: 'Settings', what: 'Interface language and theme', why: 'The same site everywhere' },
       {
+        item: 'Word game',
+        what: 'One row per day and language: tries, and whether you found the word',
+        why: 'Your streak and stats on every device',
+      },
+      {
         item: 'Sign-ins',
         what: 'A scrambled (hashed) copy of each sign-in token, and when it expires',
         why: 'Keep you signed in for up to 90 days',
@@ -163,6 +168,11 @@ const TEXT: Record<InterfaceLanguage, PrivacyText> = {
       },
       { item: 'Avatar', what: 'Seçtiğin avatar', why: 'Üst bilgi ve hesap sayfası' },
       { item: 'Ayarlar', what: 'Arayüz dili ve tema', why: 'Her yerde aynı site' },
+      {
+        item: 'Kelime oyunu',
+        what: 'Her gün ve dil için bir satır: deneme sayısı ve kelimeyi bulup bulmadığın',
+        why: 'Serin ve istatistiklerin her cihazda',
+      },
       {
         item: 'Girişler',
         what: 'Her giriş anahtarının karıştırılmış (hash) bir kopyası ve bitiş tarihi',

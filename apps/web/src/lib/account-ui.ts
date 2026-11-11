@@ -32,6 +32,9 @@ import type { AccountWords } from './account-words';
 
 type Lang = 'en' | 'tr';
 
+/** Sent on the document when the page finds the reader signed in. */
+export const SIGNED_IN_EVENT = 'cspnews:signed-in';
+
 /** How many other avatars the avatar sheet offers at a time. */
 const CHOICES = 5;
 
@@ -79,7 +82,10 @@ export function startAccount(slot: HTMLElement): void {
   }
 
   function showProfile(next: Profile | undefined) {
+    const signedInNow = next !== undefined && profile === undefined;
     profile = next;
+    // Lets other parts of the page (the word game) bring in the account's data.
+    if (signedInNow) document.dispatchEvent(new CustomEvent(SIGNED_IN_EVENT));
     saveProfile(storage(), next ?? null, Date.now());
     setSignedIn(next !== undefined);
     // The avatar shows twice: on the reader corner button and in the sheet's account row.
