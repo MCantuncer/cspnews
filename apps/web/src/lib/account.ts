@@ -15,7 +15,9 @@ import type { Avatar, AvatarDesignId, AvatarGround } from '@cspnews/accounts/ava
 
 /** The accounts API address, such as https://api.example.com. Unset means accounts are off. */
 export function apiBase(): string | undefined {
-  const value: unknown = import.meta.env.PUBLIC_CSPNEWS_API;
+  // Read through a plain type, so linting doesn't depend on Astro's generated env types.
+  const env = (import.meta as { env?: Record<string, unknown> }).env;
+  const value = env?.PUBLIC_CSPNEWS_API;
   return typeof value === 'string' && value !== '' ? value.replace(/\/+$/, '') : undefined;
 }
 
