@@ -1,0 +1,45 @@
+---
+/**
+ * The reading ruler (Settings): a soft band that marks the line being read. With a mouse it
+ * follows the pointer; on touch it rests a little above the middle and the text scrolls under
+ * it. Shown only while `data-ruler="on"` is set on the root.
+ */
+---
+
+<div class="ruler" aria-hidden="true" data-ruler></div>
+
+<script>
+  const ruler = document.querySelector<HTMLElement>('[data-ruler]');
+  if (ruler && matchMedia('(pointer: fine)').matches) {
+    let frame = 0;
+    document.addEventListener(
+      'pointermove',
+      (event) => {
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(() => {
+          ruler.style.top = `${String(event.clientY)}px`;
+        });
+      },
+      { passive: true },
+    );
+  }
+</script>
+
+<style>
+  .ruler {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+    height: calc(var(--text-size) * 1.6 + 8px);
+    background: color-mix(in srgb, var(--hour) 13%, transparent);
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+
+  :global(:root[data-ruler='on']) .ruler {
+    display: block;
+  }
+</style>

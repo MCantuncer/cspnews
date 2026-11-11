@@ -3,7 +3,8 @@
 import { readingMinutes, type PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate, formatTime } from '../../lib/format';
-import { bulletinName, bulletinSize } from '../../lib/i18n';
+import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
+import Icon from '../ui/Icon.astro';
 import Contents from './Contents.astro';
 
 interface Props {
@@ -13,6 +14,7 @@ interface Props {
 
 const { published, lang } = Astro.props;
 const { publishAt, stories } = published.bulletin;
+const words = wordsFor(lang);
 ---
 
 <main class="screen">
@@ -22,8 +24,21 @@ const { publishAt, stories } = published.bulletin;
       `${formatLongDate(publishAt, lang)}, ${formatTime(publishAt, lang)}. ${bulletinSize(stories.length, readingMinutes(published), lang)}.`
     }
   </p>
+  <a class="resume" href="#" data-resume hidden>
+    <span class="resume-text">
+      <span class="resume-label">{words.resume}</span>
+      <span class="resume-title" data-resume-title></span>
+    </span>
+    <Icon name="next" />
+  </a>
   <Contents published={published} lang={lang} />
 </main>
+
+<script>
+  import { showResume } from '../../lib/read';
+
+  showResume(document);
+</script>
 
 <style>
   .screen {
@@ -41,6 +56,45 @@ const { publishAt, stories } = published.bulletin;
     margin-top: 8px;
     color: var(--meta);
     font: 400 16px / 1.5 var(--f-body);
+  }
+
+  /* Once the reader has started, one quiet line back to where they stopped. */
+  .resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: 560px;
+    margin-top: 20px;
+    padding: 12px 16px;
+    border: 1.5px solid var(--line2);
+    border-left: 4px solid var(--hour);
+    border-radius: 10px;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .resume:hover {
+    border-color: var(--ink);
+    border-left-color: var(--hour);
+  }
+
+  .resume-text {
+    display: grid;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .resume-label {
+    color: var(--meta);
+    font: 500 14px / 1.3 var(--f-body);
+  }
+
+  .resume-title {
+    overflow: hidden;
+    font: 700 17px / 1.3 var(--f-body);
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   @media (width >= 1024px) {

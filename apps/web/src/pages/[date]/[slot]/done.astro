@@ -1,0 +1,16 @@
+---
+/** The end of a bulletin: what to remember, and what comes next. */
+import CaughtUpPage from '../../../components/pages/CaughtUpPage.astro';
+import type { PublishedBulletin } from '../../../lib/bulletins';
+import { bulletinRoutes } from '../../../lib/routes';
+
+export const getStaticPaths = bulletinRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+}
+
+const { published } = Astro.props;
+---
+
+<CaughtUpPage published={published} lang="en" />

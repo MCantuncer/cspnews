@@ -67,7 +67,7 @@ const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).pub
                   data-read-key={readKey(published, story)}
                 >
                   <a
-                    href={storyPath(published, story)}
+                    href={storyPath(published, story, lang)}
                     aria-current={current ? 'page' : undefined}
                     lang={story.language}
                   >
@@ -441,6 +441,15 @@ const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).pub
 
     .contents:not(.compact) .stories > li:not(.lead)::before {
       display: none;
+    }
+
+    /* Once the lead is read and folded away, the rest take the whole width. */
+    .contents:not(.compact) .stories:has(> .lead[hidden]) > li {
+      grid-column: 1 / -1;
+    }
+
+    .contents:not(.compact) .stories:has(> .lead[hidden]) > li::before {
+      display: block;
     }
   }
 

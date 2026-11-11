@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { markRead, readStories } from './read.js';
+import { markRead, readStories, resumeIndex } from './read.js';
 
 function memory(initial?: string) {
   const data = new Map<string, string>(initial ? [['cspnews:read', initial]] : []);
@@ -26,5 +26,26 @@ describe('read stories', () => {
     expect(() => {
       markRead(undefined, 'a');
     }).not.toThrow();
+  });
+});
+
+describe('resumeIndex', () => {
+  const keys = ['a', 'b', 'c', 'd'];
+
+  it('offers nothing before the first story is read', () => {
+    expect(resumeIndex(keys, [])).toBeUndefined();
+  });
+
+  it('continues after the story read last', () => {
+    expect(resumeIndex(keys, ['a', 'b'])).toBe(2);
+    expect(resumeIndex(keys, ['c', 'a'])).toBe(1);
+  });
+
+  it('goes back to the first unread story at the end', () => {
+    expect(resumeIndex(keys, ['b', 'c', 'd'])).toBe(0);
+  });
+
+  it('offers nothing once everything is read', () => {
+    expect(resumeIndex(keys, ['a', 'b', 'c', 'd'])).toBeUndefined();
   });
 });

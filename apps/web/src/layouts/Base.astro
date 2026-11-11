@@ -1,6 +1,8 @@
 ---
 import '../styles/base.css';
 
+import Ruler from '../components/Ruler.astro';
+
 import type { EditionHour } from '../lib/edition';
 
 interface Props {
@@ -29,12 +31,22 @@ const {
     <title>{title}</title>
     <script is:inline>
       // Apply saved reading settings before first paint, so the page never flashes the wrong theme.
+      // A reader who chose a language in Settings stays on that side of the site (src/lib/locale.ts).
       try {
         const root = document.documentElement;
+        const lang = localStorage.getItem('cspnews:lang');
+        const path = location.pathname;
+        const onTr = path === '/tr' || path.startsWith('/tr/');
+        // The word game picks its puzzle language itself (/word, /word/tr), so it never moves.
+        const fixed = path === '/word' || path.startsWith('/word/');
+        const rest = location.search + location.hash;
+        if (!fixed && lang === 'tr' && !onTr) location.replace((path === '/' ? '/tr' : '/tr' + path) + rest);
+        if (!fixed && lang === 'en' && onTr) location.replace((path.slice(3) || '/') + rest);
         const theme = localStorage.getItem('cspnews:theme');
         const size = localStorage.getItem('cspnews:text-size');
         if (theme === 'light' || theme === 'device') root.dataset.theme = theme;
-        if (size) root.dataset.textSize = size;
+        if (size === 'small' || size === 'large' || size === 'larger') root.dataset.textSize = size;
+        if (localStorage.getItem('cspnews:ruler') === 'on') root.dataset.ruler = 'on';
       } catch {
         // Storage can be unavailable (private mode); the defaults still work.
       }
@@ -42,5 +54,6 @@ const {
   </head>
   <body>
     <slot />
+    <Ruler />
   </body>
 </html>
