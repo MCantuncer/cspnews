@@ -17,6 +17,7 @@ const SOURCES = new Map(
       name,
       kind: 'rss' as const,
       url: `https://${id}.example/feed`,
+      homepage: `https://${id}.example`,
       sections: ['turkey' as const],
       language: 'tr',
       ownerGroup: id,

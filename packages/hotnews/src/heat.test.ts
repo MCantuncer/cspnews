@@ -20,6 +20,7 @@ const SOURCES = new Map(
       name: id,
       kind,
       url: `https://${id}.example/feed`,
+      homepage: `https://${id}.example`,
       sections: ['turkey'],
       language: 'tr',
       ownerGroup,

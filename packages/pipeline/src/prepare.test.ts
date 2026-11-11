@@ -13,6 +13,7 @@ function source(
     name: id.toUpperCase(),
     kind: 'rss' as const,
     url: `https://${id}.example/rss`,
+    homepage: `https://${id}.example`,
     sections: ['turkey' as const],
     language: 'tr',
     ownerGroup,

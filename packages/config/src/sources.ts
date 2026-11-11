@@ -7,6 +7,8 @@ import { defineSources } from '@cspnews/core';
  * - `camp`: for Turkish outlets, the political alignment. Turkish politics needs confirmation
  *   across camps to be labelled Confirmed.
  * - `tier`: wire > established > partisan > low.
+ * - `homepage`: the outlet's site. The site's logo is taken from it at build time; set
+ *   `logoUrl` only when that picks the wrong image.
  *
  * Feeds are checked by the Source health workflow. A feed that keeps failing should be fixed
  * or set to `enabled: false`, never silently left broken.
@@ -16,6 +18,7 @@ export const SOURCES = defineSources([
   {
     id: 'aa-tr',
     name: 'Anadolu Ajansı',
+    homepage: 'https://www.aa.com.tr/tr',
     kind: 'rss',
     url: 'https://www.aa.com.tr/tr/rss/default?cat=guncel',
     sections: ['turkey'],
@@ -27,6 +30,7 @@ export const SOURCES = defineSources([
   {
     id: 'bbc-turkce',
     name: 'BBC Türkçe',
+    homepage: 'https://www.bbc.com/turkce',
     kind: 'rss',
     url: 'https://feeds.bbci.co.uk/turkce/rss.xml',
     sections: ['turkey'],
@@ -38,6 +42,7 @@ export const SOURCES = defineSources([
   {
     id: 'dw-turkce',
     name: 'DW Türkçe',
+    homepage: 'https://www.dw.com/tr',
     kind: 'rss',
     url: 'https://rss.dw.com/rdf/rss-tur-all',
     sections: ['turkey'],
@@ -49,6 +54,7 @@ export const SOURCES = defineSources([
   {
     id: 'euronews-tr',
     name: 'Euronews Türkçe',
+    homepage: 'https://tr.euronews.com',
     kind: 'rss',
     url: 'https://tr.euronews.com/rss',
     sections: ['turkey'],
@@ -60,6 +66,7 @@ export const SOURCES = defineSources([
   {
     id: 'ntv',
     name: 'NTV',
+    homepage: 'https://www.ntv.com.tr',
     kind: 'rss',
     url: 'https://www.ntv.com.tr/gundem.rss',
     sections: ['turkey'],
@@ -71,6 +78,7 @@ export const SOURCES = defineSources([
   {
     id: 'haberturk',
     name: 'Habertürk',
+    homepage: 'https://www.haberturk.com',
     kind: 'rss',
     url: 'https://www.haberturk.com/rss',
     sections: ['turkey'],
@@ -82,6 +90,7 @@ export const SOURCES = defineSources([
   {
     id: 'hurriyet',
     name: 'Hürriyet',
+    homepage: 'https://www.hurriyet.com.tr',
     kind: 'rss',
     url: 'https://www.hurriyet.com.tr/rss/anasayfa',
     sections: ['turkey'],
@@ -93,6 +102,7 @@ export const SOURCES = defineSources([
   {
     id: 'sabah',
     name: 'Sabah',
+    homepage: 'https://www.sabah.com.tr',
     kind: 'rss',
     url: 'https://www.sabah.com.tr/rss/anasayfa.xml',
     sections: ['turkey'],
@@ -104,6 +114,7 @@ export const SOURCES = defineSources([
   {
     id: 'a-haber',
     name: 'A Haber',
+    homepage: 'https://www.ahaber.com.tr',
     kind: 'rss',
     url: 'https://www.ahaber.com.tr/rss/gundem.xml',
     sections: ['turkey'],
@@ -115,6 +126,7 @@ export const SOURCES = defineSources([
   {
     id: 'sozcu',
     name: 'Sözcü',
+    homepage: 'https://www.sozcu.com.tr',
     kind: 'rss',
     url: 'https://www.sozcu.com.tr/feeds-rss-category-gundem',
     sections: ['turkey'],
@@ -126,6 +138,7 @@ export const SOURCES = defineSources([
   {
     id: 'halk-tv',
     name: 'Halk TV',
+    homepage: 'https://halktv.com.tr',
     kind: 'rss',
     url: 'https://halktv.com.tr/service/rss.php',
     sections: ['turkey'],
@@ -139,6 +152,7 @@ export const SOURCES = defineSources([
   {
     id: 'cumhuriyet',
     name: 'Cumhuriyet',
+    homepage: 'https://www.cumhuriyet.com.tr',
     kind: 'rss',
     url: 'https://www.cumhuriyet.com.tr/rss/son_dakika.xml',
     sections: ['turkey'],
@@ -150,6 +164,7 @@ export const SOURCES = defineSources([
   {
     id: 't24',
     name: 'T24',
+    homepage: 'https://t24.com.tr',
     kind: 'rss',
     url: 'https://t24.com.tr/rss/haber/gundem',
     sections: ['turkey'],
@@ -164,6 +179,7 @@ export const SOURCES = defineSources([
   {
     id: 'medyascope',
     name: 'Medyascope',
+    homepage: 'https://medyascope.tv',
     kind: 'rss',
     url: 'https://medyascope.tv/feed/',
     sections: ['turkey'],
@@ -175,6 +191,7 @@ export const SOURCES = defineSources([
   {
     id: 'bianet',
     name: 'Bianet',
+    homepage: 'https://bianet.org',
     kind: 'rss',
     url: 'https://bianet.org/rss/bianet',
     sections: ['turkey'],
@@ -188,6 +205,7 @@ export const SOURCES = defineSources([
   {
     id: 'diken',
     name: 'Diken',
+    homepage: 'https://www.diken.com.tr',
     kind: 'rss',
     url: 'https://www.diken.com.tr/feed/',
     sections: ['turkey'],
@@ -199,6 +217,7 @@ export const SOURCES = defineSources([
   {
     id: 'teyit',
     name: 'Teyit',
+    homepage: 'https://teyit.org',
     kind: 'fact-check',
     url: 'https://teyit.org/feed',
     sections: ['turkey'],
@@ -212,6 +231,7 @@ export const SOURCES = defineSources([
   {
     id: 'the-verge',
     name: 'The Verge',
+    homepage: 'https://www.theverge.com',
     kind: 'rss',
     url: 'https://www.theverge.com/rss/index.xml',
     sections: ['tech'],
@@ -223,6 +243,7 @@ export const SOURCES = defineSources([
   {
     id: 'ars-technica',
     name: 'Ars Technica',
+    homepage: 'https://arstechnica.com',
     kind: 'rss',
     url: 'https://feeds.arstechnica.com/arstechnica/index',
     sections: ['tech'],
@@ -234,6 +255,7 @@ export const SOURCES = defineSources([
   {
     id: 'wired',
     name: 'Wired',
+    homepage: 'https://www.wired.com',
     kind: 'rss',
     url: 'https://www.wired.com/feed/rss',
     sections: ['tech'],
@@ -245,6 +267,7 @@ export const SOURCES = defineSources([
   {
     id: 'techcrunch',
     name: 'TechCrunch',
+    homepage: 'https://techcrunch.com',
     kind: 'rss',
     url: 'https://techcrunch.com/feed/',
     sections: ['tech'],
@@ -256,6 +279,7 @@ export const SOURCES = defineSources([
   {
     id: 'mit-technology-review',
     name: 'MIT Technology Review',
+    homepage: 'https://www.technologyreview.com',
     kind: 'rss',
     url: 'https://www.technologyreview.com/feed/',
     sections: ['tech'],
@@ -267,6 +291,7 @@ export const SOURCES = defineSources([
   {
     id: 'hacker-news',
     name: 'Hacker News (front page)',
+    homepage: 'https://news.ycombinator.com',
     kind: 'rss',
     url: 'https://hnrss.org/frontpage',
     sections: ['tech'],
@@ -278,6 +303,7 @@ export const SOURCES = defineSources([
   {
     id: 'openai-news',
     name: 'OpenAI News',
+    homepage: 'https://openai.com',
     kind: 'primary',
     url: 'https://openai.com/news/rss.xml',
     sections: ['tech'],
@@ -289,6 +315,7 @@ export const SOURCES = defineSources([
   {
     id: 'google-deepmind-blog',
     name: 'Google DeepMind Blog',
+    homepage: 'https://deepmind.google',
     kind: 'primary',
     url: 'https://deepmind.google/blog/rss.xml',
     sections: ['tech'],
@@ -300,6 +327,7 @@ export const SOURCES = defineSources([
   {
     id: 'hugging-face-blog',
     name: 'Hugging Face Blog',
+    homepage: 'https://huggingface.co',
     kind: 'primary',
     url: 'https://huggingface.co/blog/feed.xml',
     sections: ['tech'],
@@ -311,6 +339,7 @@ export const SOURCES = defineSources([
   {
     id: 'arxiv-cs-ai',
     name: 'arXiv cs.AI',
+    homepage: 'https://arxiv.org',
     kind: 'primary',
     url: 'https://rss.arxiv.org/rss/cs.AI',
     sections: ['tech'],
@@ -322,6 +351,7 @@ export const SOURCES = defineSources([
   {
     id: 'webrazzi',
     name: 'Webrazzi',
+    homepage: 'https://webrazzi.com',
     kind: 'rss',
     url: 'https://webrazzi.com/feed/',
     sections: ['tech'],
@@ -335,6 +365,7 @@ export const SOURCES = defineSources([
   {
     id: 'bbc-world',
     name: 'BBC News World',
+    homepage: 'https://www.bbc.com/news',
     kind: 'rss',
     url: 'https://feeds.bbci.co.uk/news/world/rss.xml',
     sections: ['world'],
@@ -346,6 +377,7 @@ export const SOURCES = defineSources([
   {
     id: 'guardian-world',
     name: 'The Guardian World',
+    homepage: 'https://www.theguardian.com',
     kind: 'rss',
     url: 'https://www.theguardian.com/world/rss',
     sections: ['world'],
@@ -357,6 +389,7 @@ export const SOURCES = defineSources([
   {
     id: 'al-jazeera',
     name: 'Al Jazeera English',
+    homepage: 'https://www.aljazeera.com',
     kind: 'rss',
     url: 'https://www.aljazeera.com/xml/rss/all.xml',
     sections: ['world'],
@@ -368,6 +401,7 @@ export const SOURCES = defineSources([
   {
     id: 'dw-world',
     name: 'DW World',
+    homepage: 'https://www.dw.com/en',
     kind: 'rss',
     url: 'https://rss.dw.com/rdf/rss-en-world',
     sections: ['world'],
@@ -379,6 +413,7 @@ export const SOURCES = defineSources([
   {
     id: 'france-24',
     name: 'France 24',
+    homepage: 'https://www.france24.com/en',
     kind: 'rss',
     url: 'https://www.france24.com/en/rss',
     sections: ['world'],
@@ -390,6 +425,7 @@ export const SOURCES = defineSources([
   {
     id: 'npr-world',
     name: 'NPR World',
+    homepage: 'https://www.npr.org',
     kind: 'rss',
     url: 'https://feeds.npr.org/1004/rss.xml',
     sections: ['world'],
@@ -401,6 +437,7 @@ export const SOURCES = defineSources([
   {
     id: 'scmp-world',
     name: 'South China Morning Post',
+    homepage: 'https://www.scmp.com',
     kind: 'rss',
     url: 'https://www.scmp.com/rss/91/feed',
     sections: ['world'],
@@ -412,6 +449,7 @@ export const SOURCES = defineSources([
   {
     id: 'gdelt',
     name: 'GDELT',
+    homepage: 'https://www.gdeltproject.org',
     kind: 'gdelt',
     url: 'https://api.gdeltproject.org/api/v2/doc/doc',
     sections: ['world', 'tech'],

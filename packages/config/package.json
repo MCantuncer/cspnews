@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "check-sources": "node dist/check-sources.js"
+    "check-sources": "node dist/check-sources.js",
+    "fetch-logos": "node dist/fetch-logos.js"
   },
   "dependencies": {
     "@cspnews/core": "workspace:*"

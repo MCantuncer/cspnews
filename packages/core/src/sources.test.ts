@@ -7,6 +7,7 @@ const bbcTurkce: SourceInput = {
   name: 'BBC Türkçe',
   kind: 'rss',
   url: 'https://feeds.bbci.co.uk/turkce/rss.xml',
+  homepage: 'https://www.bbc.com/turkce',
   sections: ['turkey'],
   language: 'tr',
   ownerGroup: 'bbc',
@@ -40,5 +41,19 @@ describe('defineSources', () => {
 
   it('rejects unknown fields so typos are caught', () => {
     expect(() => defineSources([{ ...bbcTurkce, teir: 'wire' } as SourceInput])).toThrow();
+  });
+});
+
+describe('source homepage and logo', () => {
+  it('requires an https homepage', () => {
+    const { homepage, ...withoutHomepage } = bbcTurkce;
+    expect(homepage).toBeTruthy();
+    expect(() => defineSources([withoutHomepage as SourceInput])).toThrow();
+    expect(() => defineSources([{ ...bbcTurkce, homepage: 'http://www.bbc.com' }])).toThrow();
+  });
+
+  it('accepts an optional https logo override', () => {
+    const [source] = defineSources([{ ...bbcTurkce, logoUrl: 'https://cdn.example/bbc.png' }]);
+    expect(source?.logoUrl).toBe('https://cdn.example/bbc.png');
   });
 });
