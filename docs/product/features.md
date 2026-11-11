@@ -32,6 +32,7 @@ The feature list behind [the user stories](user-stories.md). Each feature names 
 | F-20 | Installable app with offline reading                                                                    | US-13          | Next  |
 | F-21 | Email bulletin                                                                                          | US-60          | Later |
 | F-22 | Listen mode                                                                                             | US-61          | Later |
+| F-23 | Reader accounts: Google or passkey sign-in, Stations avatars, sync of reading, settings and word game   | US-18          | Next  |
 | F-24 | Daily word game in English and Turkish, with streaks and stats                                          | US-70, US-71   | Next  |
 
 ## Shared systems
@@ -49,11 +50,10 @@ These systems sit under several features. They're built once and reused, so each
 | **Scheduler**           | Runs bulletins on the schedule and the Hot News monitor every 2 minutes (4 on weekends)                                                   | Bulletins, Hot News                                |
 | **Health monitor**      | Records every run, source failure and late bulletin, and sends alerts                                                                     | Monitor page, failure alerts                       |
 | **Design system**       | Tokens, type, icons and components shared by every page                                                                                   | Every page                                         |
-| **Reader state**        | Position, saved stories, settings and last visit, kept in the browser                                                                     | Resume, since last visit, save, settings           |
+| **Reader state**        | Position, saved stories, settings and last visit, kept in the browser and synced to an account when signed in                             | Resume, since last visit, save, settings           |
 | **Localisation**        | Interface strings in English and Turkish                                                                                                  | Every page                                         |
 
 ## Out of scope for now
 
-- Accounts and sign-in (one reader; state lives in the browser)
 - Comments or social features
 - Ads or tracking

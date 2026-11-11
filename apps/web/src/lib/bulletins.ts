@@ -36,11 +36,14 @@ export function readBulletinFile(fileName: string, contents: string): PublishedB
   return { date: match[1], slot: match[2], bulletin };
 }
 
+/** The Hot News feed lives next to the bulletins but is not one (src/lib/hot.ts). */
+const NOT_BULLETINS = new Set(['hot.json']);
+
 /** Every published bulletin, newest first. A missing directory means nothing is published yet. */
 export function loadBulletins(directory = bulletinsDirectory()): PublishedBulletin[] {
   if (!existsSync(directory)) return [];
   return readdirSync(directory)
-    .filter((name) => name.endsWith('.json'))
+    .filter((name) => name.endsWith('.json') && !NOT_BULLETINS.has(name))
     .map((name) => readBulletinFile(name, readFileSync(join(directory, name), 'utf8')))
     .sort((a, b) => b.bulletin.publishAt.localeCompare(a.bulletin.publishAt));
 }

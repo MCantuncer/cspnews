@@ -75,6 +75,13 @@ Format: _As the reader, I want …, so that …_, followed by acceptance criteri
 
 - Switching changes interface text only. Story language follows the section rule (US-01).
 
+**US-18 Keep my place on every device.** As a reader, I want to sign in with Google or a passkey, so that my reading, settings and word game streak follow me between devices.
+
+- Reading never needs an account. Signing in only adds sync.
+- We keep the least we can: no email, no password, no phone number. A name is optional and only I see it.
+- A default avatar is given at sign-up and can be changed. No photo uploads.
+- I can download everything as one file, and delete my account in one step.
+
 ## Trust and verification
 
 **US-20 Know how solid a story is.** As the reader, I want every story to carry a clear evidence label, so that I know how much to trust it at a glance.
