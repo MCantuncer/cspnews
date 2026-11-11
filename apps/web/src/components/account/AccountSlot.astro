@@ -11,6 +11,7 @@ import Icon from '../ui/Icon.astro';
 import GoogleMark from './GoogleMark.astro';
 import { apiBase } from '../../lib/account';
 import { accountPath, accountWords } from '../../lib/account-words';
+import { privacyPath } from '../../lib/privacy';
 import '../../styles/account.css';
 
 interface Props {
@@ -82,7 +83,9 @@ const words = accountWords(lang);
               </button>
             </div>
             <p class="acc-note" data-note role="status" />
-            <p class="acc-small">{words.promise}</p>
+            <p class="acc-small">
+              {words.promise} <a href={privacyPath(lang)}>{words.whatWeKeep}</a>
+            </p>
           </section>
 
           <section

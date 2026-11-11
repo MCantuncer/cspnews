@@ -9,6 +9,7 @@ import GoogleMark from './GoogleMark.astro';
 import Base from '../../layouts/Base.astro';
 import { apiBase } from '../../lib/account';
 import { accountWords } from '../../lib/account-words';
+import { privacyPath } from '../../lib/privacy';
 import '../../styles/account.css';
 
 interface Props {
@@ -87,6 +88,10 @@ const api = apiBase();
                 {words.deleteAccount}
               </button>
             </div>
+
+            <p class="acc-small acc-privacy">
+              <a href={privacyPath(lang)}>{words.whatWeKeep}</a>
+            </p>
 
             <div class="acc-confirm" data-delete-confirm hidden>
               <p>{words.deleteConfirm}</p>
