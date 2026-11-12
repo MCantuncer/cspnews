@@ -1,0 +1,139 @@
+---
+/** About: what CSPNews is, how a story is made, what the evidence marks mean, corrections. */
+import Header from '../Header.astro';
+import EvidenceMark from '../ui/EvidenceMark.astro';
+import Base from '../../layouts/Base.astro';
+import { ABOUT_MARKS, ABOUT_UPDATED, aboutText, type AboutSection } from '../../lib/about';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { privacyPath } from '../../lib/privacy';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const t = aboutText(lang);
+const updated = new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : 'en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${ABOUT_UPDATED}T00:00:00Z`));
+const before: AboutSection[] = [t.what, t.how];
+const after: AboutSection[] = [t.hot, t.corrections, t.money];
+---
+
+<Base title={`${t.title} | CSPNews`} lang={lang} description={t.intro}>
+  <Header lang={lang} />
+  <main class="about">
+    <h1>{t.title}</h1>
+    <p class="lead">{t.intro}</p>
+    <p class="meta">{t.updated}: <time datetime={ABOUT_UPDATED}>{updated}</time></p>
+
+    {
+      before.map((section) => (
+        <section>
+          <h2>{section.heading}</h2>
+          {section.paragraphs.map((p) => (
+            <p>{p}</p>
+          ))}
+        </section>
+      ))
+    }
+
+    <section>
+      <h2>{t.marksHeading}</h2>
+      <p>{t.marksIntro}</p>
+      <dl class="marks">
+        {
+          ABOUT_MARKS.map((label) => (
+            <div class="mark">
+              <dt>
+                <EvidenceMark label={label} lang={lang} />
+              </dt>
+              <dd>{t.marks[label]}</dd>
+            </div>
+          ))
+        }
+      </dl>
+      {t.marksNotes.map((p) => <p>{p}</p>)}
+    </section>
+
+    {
+      after.map((section) => (
+        <section>
+          <h2>{section.heading}</h2>
+          {section.paragraphs.map((p) => (
+            <p>{p}</p>
+          ))}
+        </section>
+      ))
+    }
+
+    <p><a href={privacyPath(lang)}>{t.privacyLink}</a></p>
+  </main>
+</Base>
+
+<style>
+  .about {
+    display: grid;
+    gap: 36px;
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 36px var(--gutter) 72px;
+  }
+
+  h1 {
+    margin-bottom: -24px;
+    font-size: 34px;
+  }
+
+  .lead {
+    color: var(--ink);
+    font-size: calc(var(--text-size) + 2px);
+    line-height: 1.5;
+  }
+
+  .meta {
+    margin-top: -24px;
+    color: var(--meta);
+    font-size: 14px;
+  }
+
+  section {
+    display: grid;
+    gap: 12px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .marks {
+    display: grid;
+  }
+
+  .mark {
+    display: grid;
+    gap: 8px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .mark:first-child {
+    border-top: 1px solid var(--line);
+  }
+
+  dt :global(.ev) {
+    font-size: 16px;
+  }
+
+  dd {
+    margin: 0;
+  }
+
+  a {
+    color: var(--ink);
+    text-underline-offset: 3px;
+  }
+</style>
