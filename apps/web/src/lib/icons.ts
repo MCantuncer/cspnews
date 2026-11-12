@@ -41,6 +41,9 @@ export const ICONS = {
     '<path d="M2 12h5.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/><circle cx="12" cy="12" r="4.5"/><path d="M12 7.5a4.5 4.5 0 0 0 0 9z" fill="currentColor" stroke="none"/>',
   updated:
     '<path d="M2 12h2M9.5 12h4.25" /><circle cx="6.75" cy="12" r="2.5" style="stroke:var(--meta2)"/><circle cx="17.25" cy="12" r="3.25" fill="currentColor"/>',
+  /* A station on the line with a plus: follow where this story goes next. */
+  follow:
+    '<path d="M2 12h5.5"/><circle cx="12" cy="12" r="4.5"/><path d="M12 9.75v4.5M9.75 12h4.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/>',
   stats:
     '<path d="M2.5 20h19M6.5 20v-5M12 20v-9.75M17.5 20v-7.5"/><circle cx="12" cy="6" r="2.25" fill="currentColor"/>',
   share:

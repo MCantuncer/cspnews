@@ -12,6 +12,7 @@ import HotLine from '../hot/HotLine.astro';
 import Body from '../story/Body.astro';
 import EvidenceLine from '../story/EvidenceLine.astro';
 import Facts from '../story/Facts.astro';
+import Follow from '../story/Follow.astro';
 import StoryNav from '../story/StoryNav.astro';
 import Summary from '../story/Summary.astro';
 import TimelineView from '../story/Timeline.astro';
@@ -102,22 +103,21 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
           </div>
         )
       }
-      {
-        (visual.kind !== 'none' || hasFacts) && (
-          <aside class="side">
-            {visual.kind !== 'none' && (
-              <div class="visual">
-                <VisualView visual={visual} lang={lang} storyLang={story.language} />
-              </div>
-            )}
-            {story.facts && hasFacts && (
-              <div class="facts">
-                <Facts facts={story.facts} heading={words.facts} lang={story.language} />
-              </div>
-            )}
-          </aside>
-        )
-      }
+      <aside class="side">
+        {visual.kind !== 'none' && (
+          <div class="visual">
+            <VisualView visual={visual} lang={lang} storyLang={story.language} />
+          </div>
+        )}
+        {story.facts && hasFacts && (
+          <div class="facts">
+            <Facts facts={story.facts} heading={words.facts} lang={story.language} />
+          </div>
+        )}
+        <div class="follow-slot">
+          <Follow story={story} href={storyPath(published, story, lang)} lang={lang} />
+        </div>
+      </aside>
       <div class="body">
         <Body
           body={story.body}
@@ -224,6 +224,11 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     order: 6;
   }
 
+  /* On a phone, following is offered once the story has been read. */
+  .follow-slot {
+    order: 7;
+  }
+
   /* Under the headline the summary needs less air than it does under a picture. */
   .summary :global(.summary) {
     margin-top: 20px;
@@ -266,6 +271,10 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
 
     .visual {
       margin: 0 0 28px;
+    }
+
+    .follow-slot:first-child :global(.follow) {
+      margin-top: 0;
     }
 
     h1 {
