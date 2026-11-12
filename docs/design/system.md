@@ -86,10 +86,6 @@ One button at the right end of the header: the settings mark, or the reader's av
 
 One quiet card at the end of a story on a phone, beside it on wide screens: a title, one line and one button. Following keeps what the reader saw (outlets, evidence label, last update) in this browser only, no account needed, and forgets a story nobody opened for 30 days. The next Contents that carries the story opens with **Since you last read**: one card per followed story that moved, with one line per change (a new label first, then the outlets that joined and the new total, else the update time). Opening the story clears it. Stories are matched by their id, which is the first article of the group, so a story that loses its first article in a later collection starts over as a new one.
 
-### Day lanes
-
-Under a bulletin's title: **When each story broke**. One lane per section, one dot per story at its first report, from the hour before the day's first story to the bulletin's time, which ends the scale in the hour colour. A developing story's dot carries a soft ring. Wide screens (1100 px and up) name the dots above or below, only where a name fits without touching a neighbour; the rest keep their name in the tooltip and the accessible label. Phones show the dots alone. Every dot opens its story.
-
 ### Navigation
 
 The bulletin name in the header opens Contents. Every story has its own URL; browser Back returns to Contents. Swipe or Next for the next story. Desktop shows Contents as a left rail and evidence as a right panel. `j`/`k` and the arrow keys do the same on a keyboard, and `e` opens the evidence. On phones the Next bar hides while the reader scrolls down, returns on a scroll up, and is only filled once the end of the story is in view.

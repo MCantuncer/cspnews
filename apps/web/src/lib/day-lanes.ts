@@ -1,5 +1,5 @@
 /**
- * "When each story broke" (docs/design/system.md, "Day lanes"): one lane per section, one dot
+ * "When each story broke" (docs/design/decisions/day-lanes.md): one lane per section, one dot
  * per story at the time it was first reported, from the first story of the day to the
  * bulletin's publishing time. Pure layout: positions are fractions of the width, and labels are
  * placed above or below their dot only where they fit, so nothing ever overlaps.
