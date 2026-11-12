@@ -1,7 +1,10 @@
 ---
 /**
- * Previous and next story. On phones it is a bar fixed to the bottom of the screen, clear of the
- * home indicator; on wide screens it sits under the story.
+ * Previous and next story. On phones it is a bar at the bottom of the screen, clear of the
+ * home indicator: it steps out of the way while the reader scrolls down, returns on a scroll
+ * up, and only turns into the filled button once the end of the story is in view, so it never
+ * competes with the text. On wide screens it sits under the story. Either way, `j`/`k`, the
+ * arrow keys and a sideways swipe do the same moves (US-10), and `e` opens the evidence.
  */
 import Icon from '../ui/Icon.astro';
 
@@ -17,7 +20,8 @@ interface Props {
 const { previous, next, previousLabel, nextLabel, end } = Astro.props;
 ---
 
-<nav class="story-nav" aria-label={`${previousLabel}, ${nextLabel}`}>
+<span class="story-end" data-story-end aria-hidden="true"></span>
+<nav class="story-nav" aria-label={`${previousLabel}, ${nextLabel}`} data-story-nav>
   {
     previous ? (
       <a class="prev" href={previous.href} aria-label={previousLabel} rel="prev">
@@ -46,7 +50,117 @@ const { previous, next, previousLabel, nextLabel, end } = Astro.props;
   }
 </nav>
 
+<script>
+  import { barHidden, moveForKey, moveForSwipe, type Move } from '../../lib/story-moves';
+
+  const nav = document.querySelector<HTMLElement>('[data-story-nav]');
+  const end = document.querySelector<HTMLElement>('[data-story-end]');
+
+  if (nav) {
+    const link = (rel: 'next' | 'prev') => nav.querySelector<HTMLAnchorElement>(`a[rel="${rel}"]`);
+
+    /** A sheet, drawer or dialog is open: keys and swipes belong to it. */
+    const layerOpen = () => document.querySelector(':popover-open, dialog[open]') !== null;
+
+    const go = (move: Move) => {
+      if (move === 'evidence') {
+        document.getElementById('evidence')?.togglePopover();
+        return;
+      }
+      link(move === 'next' ? 'next' : 'prev')?.click();
+    };
+
+    // The next story is the most likely next page: fetch it while this one is read.
+    const nextHref = link('next')?.getAttribute('href');
+    if (nextHref) {
+      const hint = document.createElement('link');
+      hint.rel = 'prefetch';
+      hint.href = nextHref;
+      document.head.append(hint);
+    }
+
+    document.addEventListener('keydown', (event) => {
+      const target = event.target;
+      if (target instanceof HTMLElement && target.closest('input, textarea, select, [contenteditable]')) return;
+      const move = moveForKey(event);
+      if (!move) return;
+      // `e` may close the open drawer; the other keys wait until it is closed.
+      if (layerOpen() && move !== 'evidence') return;
+      event.preventDefault();
+      go(move);
+    });
+
+    let start: { x: number; y: number; at: number } | undefined;
+    document.addEventListener(
+      'touchstart',
+      (event) => {
+        const touch = event.touches.length === 1 ? event.touches[0] : undefined;
+        const target = event.target;
+        // Leave alone: anything that scrolls sideways itself, and the screen edges, where the
+        // browser's own back gesture lives.
+        const blocked =
+          !touch ||
+          layerOpen() ||
+          touch.clientX < 24 ||
+          touch.clientX > window.innerWidth - 24 ||
+          (target instanceof Element && target.closest('[data-no-swipe], input, textarea'));
+        start = blocked || !touch ? undefined : { x: touch.clientX, y: touch.clientY, at: event.timeStamp };
+      },
+      { passive: true },
+    );
+    document.addEventListener(
+      'touchend',
+      (event) => {
+        const touch = event.changedTouches[0];
+        if (!start || !touch) return;
+        const move = moveForSwipe({
+          dx: touch.clientX - start.x,
+          dy: touch.clientY - start.y,
+          ms: event.timeStamp - start.at,
+        });
+        start = undefined;
+        if (move && String(window.getSelection() ?? '') === '') go(move);
+      },
+      { passive: true },
+    );
+
+    // The bar: out of the way on the way down, back on the way up, filled at the end.
+    let atEnd = false;
+    let hidden = false;
+    let lastY = window.scrollY;
+    const apply = () => {
+      nav.toggleAttribute('data-hidden', hidden);
+      nav.toggleAttribute('data-end', atEnd);
+    };
+    if (end && 'IntersectionObserver' in window) {
+      new IntersectionObserver((entries) => {
+        atEnd = entries.some((entry) => entry.isIntersecting);
+        if (atEnd) hidden = false;
+        apply();
+      }).observe(end);
+    } else {
+      atEnd = true;
+      apply();
+    }
+    window.addEventListener(
+      'scroll',
+      () => {
+        const y = window.scrollY;
+        hidden = barHidden({ y, lastY, hidden, atEnd });
+        lastY = y;
+        apply();
+      },
+      { passive: true },
+    );
+  }
+</script>
+
 <style>
+  .story-end {
+    display: block;
+    height: 1px;
+  }
+
   .story-nav {
     position: sticky;
     bottom: 0;
@@ -57,6 +171,12 @@ const { previous, next, previousLabel, nextLabel, end } = Astro.props;
     padding: 12px var(--gutter) max(16px, env(safe-area-inset-bottom));
     border-top: 1px solid var(--line);
     background: var(--bg);
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+
+  /* Out of the way while the reader scrolls down; never while it holds the keyboard focus. */
+  .story-nav[data-hidden]:not(:focus-within) {
+    transform: translateY(100%);
   }
 
   .prev {
@@ -83,11 +203,28 @@ const { previous, next, previousLabel, nextLabel, end } = Astro.props;
     min-width: 0;
     height: 52px;
     padding: 0 16px;
+    border: 1.5px solid var(--line2);
     border-radius: 12px;
-    background: var(--ink);
-    color: var(--bg);
+    color: var(--ink);
     font: 700 15px / 1 var(--f-body);
     text-decoration: none;
+    transition:
+      background-color var(--dur-base) var(--ease-out),
+      color var(--dur-base) var(--ease-out);
+  }
+
+  /* Quiet while the story is being read; the filled button once its end is in view. */
+  .story-nav[data-end] .next {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .story-nav,
+    .next {
+      transition: none;
+    }
   }
 
   .next span {
@@ -102,6 +239,14 @@ const { previous, next, previousLabel, nextLabel, end } = Astro.props;
       position: static;
       margin: 40px 0 0;
       padding: 24px 0 0;
+      transform: none;
+    }
+
+    /* Under the story on wide screens it is already at the end: always the filled button. */
+    .next {
+      border-color: var(--ink);
+      background: var(--ink);
+      color: var(--bg);
     }
 
     .next {
