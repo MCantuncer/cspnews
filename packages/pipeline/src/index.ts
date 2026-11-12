@@ -1,3 +1,4 @@
+export { articleText, MAX_ARTICLE_TEXT } from './article-text.js';
 export { scoreStory, toCandidates } from './candidates.js';
 export type {
   Candidate,
