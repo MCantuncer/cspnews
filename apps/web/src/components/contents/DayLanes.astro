@@ -1,14 +1,14 @@
 ---
 /**
- * When each story broke (docs/design/decisions/day-lanes.md): one lane per section, a dot per
- * story at its first report, up to the bulletin's time. Wide screens name the dots where the
- * names fit; phones show the dots alone. Every dot opens its story.
+ * When each story broke (docs/design/decisions/day-lanes.md). Wide screens: one lane per section,
+ * a dot per story at its first report, every title written beside its dot, up to the bulletin's
+ * time. Narrow screens: the same day as a short list in time order. Every story opens.
  */
 import { storiesBySection, storyPath, type PublishedBulletin } from '../../lib/bulletins';
-import { dayLanes, dayWindow, brokeAt } from '../../lib/day-lanes';
+import { brokeAt, dayLanes, dayWindow } from '../../lib/day-lanes';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatTime } from '../../lib/format';
-import { sectionName, wordsFor } from '../../lib/i18n';
+import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
 
 interface Props {
   published: PublishedBulletin;
@@ -26,51 +26,77 @@ const window = dayWindow(
   time,
 );
 const lanes = dayLanes(groups, window, time);
-const hrefs = new Map(groups.flatMap((g) => g.stories.map(({ story }) => [story.id, storyPath(published, story, lang)])));
-const anyDeveloping = lanes.some((lane) => lane.dots.some((dot) => dot.developing));
+const hrefs = new Map(
+  groups.flatMap((g) => g.stories.map(({ story }) => [story.id, storyPath(published, story, lang)])),
+);
+const inOrder = lanes
+  .flatMap((lane) => lane.dots.map((dot) => ({ ...dot, section: lane.section })))
+  .sort((a, b) => a.at - b.at);
+const end = `${time(publishAt)} ${words.dayLanesEnd}`;
+const anyDeveloping = inOrder.some((dot) => dot.developing);
 ---
 
 <section class="lanes" aria-labelledby="lanes-title">
   <h2 id="lanes-title">{words.dayLanes}</h2>
-  <div class="chart" style={`--lanes: ${String(lanes.length)}`}>
+
+  <div class="chart">
     {
       lanes.map((lane) => (
         <div class="lane" data-section={lane.section}>
           <span class="name">{sectionName(lane.section, lang)}</span>
-          <ol class="track">
+          <div class="track" style={`--above: ${String(lane.above)}; --below: ${String(lane.below)}`}>
             {lane.dots.map((dot) => (
-              <li
-                class:list={['dot', dot.label, { developing: dot.developing, end: dot.at > 0.86, start: dot.at < 0.08 }]}
-                style={`--at: ${dot.at.toFixed(4)}`}
+              <a
+                href={hrefs.get(dot.id)}
+                class:list={['story', dot.side, { developing: dot.developing }]}
+                style={`--at: ${dot.at.toFixed(4)}; --label-at: ${dot.labelAt.toFixed(4)}; --row-index: ${String(dot.row)}`}
+                aria-label={`${dot.time} ${dot.title}`}
               >
-                <a href={hrefs.get(dot.id)} aria-label={`${dot.title}, ${dot.time}`} title={`${dot.time} ${dot.title}`}>
-                  <span class="mark" />
-                  {dot.label !== 'none' && (
-                    <span class="label" aria-hidden="true">
-                      {dot.title}
-                    </span>
-                  )}
-                </a>
-              </li>
+                <span class="stem" />
+                <span class="mark" />
+                <span class="label" aria-hidden="true">{dot.title}</span>
+              </a>
             ))}
-          </ol>
+          </div>
         </div>
       ))
     }
     <div class="scale" aria-hidden="true">
-      <span class="name" />
+      <span />
       <span class="ticks">
         {window.ticks.map((tick) => <span style={`--at: ${tick.at.toFixed(4)}`}>{tick.time}</span>)}
-        <span class="now" style="--at: 1">{time(publishAt)}</span>
+        <span class="now">{end}</span>
       </span>
     </div>
+    <span class="end-line" />
   </div>
+
+  <ol class="list">
+    {
+      inOrder.map((dot) => (
+        <li data-section={dot.section} class:list={{ developing: dot.developing }}>
+          <a href={hrefs.get(dot.id)}>
+            <span class="time">{dot.time}</span>
+            <span class="mark" />
+            <span class="title">{dot.title}</span>
+          </a>
+        </li>
+      ))
+    }
+    <li class="list-end">
+      <span class="time">{time(publishAt)}</span>
+      <span class="mark" />
+      <span class="title">{bulletinName(published.slot, lang)}</span>
+    </li>
+  </ol>
+
   {anyDeveloping && <p class="note">{words.dayLanesNote}</p>}
 </section>
 
 <style>
   .lanes {
-    max-width: 1000px;
+    --row: 22px;
+
     margin-top: 28px;
   }
 
@@ -79,63 +105,8 @@ const anyDeveloping = lanes.some((lane) => lane.dots.some((dot) => dot.developin
     font: 700 15px / 1.3 var(--f-body);
   }
 
-  .chart {
-    position: relative;
-    margin-top: 10px;
-  }
-
-  .lane,
-  .scale {
-    display: grid;
-    grid-template-columns: 88px minmax(0, 1fr);
-    align-items: center;
-    column-gap: 16px;
-  }
-
-  .lane {
-    border-top: 1px solid var(--line);
-  }
-
-  .lane:last-of-type {
-    border-bottom: 1px solid var(--line);
-  }
-
-  .name {
-    color: var(--sec, var(--ink));
-    font: 700 13px / 1.2 var(--f-body);
-  }
-
-  .track {
-    position: relative;
-    height: 40px;
-    margin: 0 8px;
-    padding: 0;
-    list-style: none;
-  }
-
-  .dot {
-    position: absolute;
-    top: 50%;
-    left: calc(var(--at) * 100%);
-  }
-
-  .dot a {
-    display: block;
-    color: var(--ink2);
-    text-decoration: none;
-  }
-
-  /* A generous tap area around a small dot. */
-  .dot a::before {
-    position: absolute;
-    inset: -16px;
-    content: '';
-  }
-
   .mark {
-    position: absolute;
-    top: -6px;
-    left: -6px;
+    flex: none;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -146,50 +117,64 @@ const anyDeveloping = lanes.some((lane) => lane.dots.some((dot) => dot.developin
     box-shadow: 0 0 0 5px color-mix(in srgb, var(--sec, var(--ink)) 25%, transparent);
   }
 
-  .dot a:hover .mark,
-  .dot a:focus-visible .mark {
-    outline: 2px solid var(--ink);
-    outline-offset: 3px;
-  }
-
-  .label {
+  /* Narrow screens: the day as a list, earliest first, ending at the bulletin. */
+  .chart,
+  .stem {
     display: none;
   }
 
-  .scale {
-    height: 26px;
-    color: var(--meta2);
-    font: 500 12px / 1 var(--f-body);
-  }
-
-  .ticks {
+  .list {
     position: relative;
-    height: 100%;
-    margin: 0 8px;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
   }
 
-  .ticks > span {
+  .list::before {
     position: absolute;
-    top: 8px;
-    left: calc(var(--at) * 100%);
-    transform: translateX(-50%);
+    top: 14px;
+    bottom: 14px;
+    left: 61px;
+    width: 2px;
+    background: var(--line);
+    content: '';
   }
 
-  /* The bulletin's own time ends the scale; it leans left so it stays inside the screen. */
-  .ticks .now {
+  .list a,
+  .list-end {
+    position: relative;
+    display: grid;
+    grid-template-columns: 44px 12px minmax(0, 1fr);
+    align-items: center;
+    column-gap: 12px;
+    min-height: 44px;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .list a:hover .title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .time {
+    color: var(--meta);
+    font: 500 14px / 1.3 var(--f-body);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .title {
+    font: 600 16px / 1.35 var(--f-body);
+  }
+
+  .list-end .time,
+  .list-end .title {
     color: var(--hour);
     font-weight: 700;
-    transform: translateX(-80%);
   }
 
-  .ticks .now::before {
-    position: absolute;
-    bottom: 18px;
-    left: 80%;
-    width: 2px;
-    height: calc(var(--lanes) * 41px);
+  .list-end .mark {
     background: var(--hour);
-    content: '';
   }
 
   .note {
@@ -198,55 +183,141 @@ const anyDeveloping = lanes.some((lane) => lane.dots.some((dot) => dot.developin
     font: 400 13px / 1.4 var(--f-body);
   }
 
-  /* Wide screens have room to name the stories, above or below their dot. */
+  /* Wide screens: lanes, with every title written beside its dot in as many rows as needed. */
   @media (width >= 1100px) {
+    .list {
+      display: none;
+    }
+
+    .stem {
+      display: block;
+    }
+
+    .chart {
+      position: relative;
+      display: block;
+      margin-top: 10px;
+    }
+
     .lane,
     .scale {
+      display: grid;
       grid-template-columns: 120px minmax(0, 1fr);
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    .lane {
+      border-top: 1px solid var(--line);
+    }
+
+    .lane:last-of-type {
+      border-bottom: 1px solid var(--line);
     }
 
     .name {
-      font-size: 14px;
+      color: var(--sec, var(--ink));
+      font: 700 14px / 1.2 var(--f-body);
     }
 
     .track {
-      height: 76px;
+      position: relative;
+      height: calc((var(--above) + var(--below)) * var(--row) + 40px);
+      margin: 0 8px;
+    }
+
+    .story {
+      color: var(--ink2);
+      text-decoration: none;
+    }
+
+    .story .mark {
+      position: absolute;
+      top: calc(var(--above) * var(--row) + 14px);
+      left: calc(var(--at) * 100% - 6px);
     }
 
     .label {
       position: absolute;
-      left: 0;
-      display: block;
-      color: var(--ink2);
-      font: 600 13px / 1 var(--f-body);
+      left: calc(var(--label-at) * 100%);
+      font: 600 13px / 16px var(--f-body);
       white-space: nowrap;
-      transform: translateX(-50%);
     }
 
     .above .label {
-      bottom: 12px;
+      top: calc((var(--above) - var(--row-index, 0) - 1) * var(--row) + 2px);
     }
 
     .below .label {
-      top: 12px;
+      top: calc(var(--above) * var(--row) + 38px + var(--row-index, 0) * var(--row));
     }
 
-    .start .label {
-      transform: translateX(-8px);
+    /* A hairline from each dot to its title, so a title a row or two out still points home. */
+    .stem {
+      position: absolute;
+      left: calc(var(--at) * 100%);
+      width: 1px;
+      background: var(--line2);
     }
 
-    .end .label {
-      transform: translateX(calc(-100% + 8px));
+    .above .stem {
+      top: calc((var(--above) - var(--row-index, 0) - 1) * var(--row) + 20px);
+      height: calc((var(--row-index, 0) + 1) * var(--row) - 8px);
     }
 
-    .ticks .now::before {
-      height: calc(var(--lanes) * 77px);
+    .below .stem {
+      top: calc(var(--above) * var(--row) + 28px);
+      height: calc(var(--row-index, 0) * var(--row) + 8px);
     }
 
-    .dot a:hover .label {
+    .story:hover .label {
       color: var(--ink);
       text-decoration: underline;
       text-underline-offset: 3px;
+    }
+
+    .story:hover .mark {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    .scale {
+      height: 26px;
+      color: var(--meta2);
+      font: 500 12px / 1 var(--f-body);
+    }
+
+    .ticks {
+      position: relative;
+      height: 100%;
+      margin: 0 8px;
+    }
+
+    .ticks > span {
+      position: absolute;
+      top: 8px;
+      left: calc(var(--at) * 100%);
+      transform: translateX(-50%);
+    }
+
+    /* The scale ends at the bulletin itself, named, so a quiet stretch before it reads as
+       "nothing new broke", not as a chart cut short. */
+    .ticks .now {
+      right: 0;
+      left: auto;
+      color: var(--hour);
+      font-weight: 700;
+      white-space: nowrap;
+      transform: none;
+    }
+
+    .end-line {
+      position: absolute;
+      top: 0;
+      right: 8px;
+      bottom: 26px;
+      width: 2px;
+      background: var(--hour);
     }
   }
 </style>
