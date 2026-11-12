@@ -1,0 +1,62 @@
+name: Bulletin photos
+
+# Saves the photos of a bulletin that arrives in a pull request, where news sites can be reached
+# (docs/publishing.md, step 3), and adds them to that pull request's branch:
+#
+#   data/bulletins/media/<story id>.<ext>
+#
+# A photo that fails is reported in the log and the story falls back to its next visual.
+
+on:
+  pull_request:
+    paths:
+      - 'data/bulletins/*.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bulletin-photos-${{ github.head_ref }}
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    # A pull request from a fork cannot be pushed to.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/pipeline... build
+
+      - name: Save the photos
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git diff --name-only --diff-filter=AM "origin/$BASE_REF...HEAD" -- 'data/bulletins/*.json' |
+            while read -r file; do
+              pnpm --filter @cspnews/pipeline save-media "$PWD/$file"
+            done
+
+      - name: Add them to the pull request
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          git config user.name "$(git log -1 --format=%an)"
+          git config user.email "$(git log -1 --format=%ae)"
+          git add data/bulletins
+          if git diff --cached --quiet; then
+            echo "No new photos."
+          else
+            git commit -m "Save the bulletin photos"
+            git push origin "HEAD:$HEAD_REF"
+          fi

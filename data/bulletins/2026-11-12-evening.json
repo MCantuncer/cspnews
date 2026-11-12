@@ -1,0 +1,1427 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-12T18:30:00+03:00",
+  "writtenAt": "2026-11-12T14:02:43.612Z",
+  "stories": [
+    {
+      "id": "076bad4b3704f287",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Central bank lifts inflation forecast",
+          "title": "Turkey's central bank raises its 2026 inflation forecast to 29.5% and lifts its targets for the next two years",
+          "summary": {
+            "what": "The central bank raised its 2026 year-end inflation forecast from 28% to 29.5% in its last Inflation Report of the year.",
+            "why": "It also raised its 2027 and 2028 targets sharply, while this year's 24% interim target stayed, now 5.5 points below the bank's own forecast.",
+            "next": "Governor Fatih Karahan said policy will stay tight and that the fall in annual inflation may pause in November."
+          },
+          "body": [
+            {
+              "subhead": "The new numbers",
+              "blocks": [
+                {
+                  "text": "Turkey's central bank (TCMB) raised its inflation forecasts again on Thursday, 12 November, in its fourth and last Inflation Report of 2026. Governor Fatih Karahan, who presented the report in Istanbul, said the bank now expects inflation to end this year at 29.5%, up from the 28% it forecast in August."
+                },
+                {
+                  "text": "The outlook for the following years moved by more. The 2027 forecast and interim target went from 15% to 21%, and the 2028 target from 9% to 13.5%. The bank now expects inflation to fall to 9% only at the end of 2029, before settling at its medium-term target of 5%."
+                },
+                {
+                  "text": "According to Euronews Türkçe, the 24% interim target for this year was left unchanged, which puts the gap between what the bank aims for and what it expects at 5.5 points."
+                }
+              ]
+            },
+            {
+              "subhead": "What the bank blames",
+              "blocks": [
+                {
+                  "text": "Karahan put the slower fall in inflation down to energy. He said crude oil and natural gas prices rose markedly in September and October and remain above both the level of the previous report and the level before the war, and that annual inflation in the energy group has reached 51.4%. By October, he said, annual inflation was falling in every main group except energy, while food prices stayed volatile."
+                },
+                {
+                  "quote": "Supply-side shocks caused by geopolitical developments are limiting the fall in headline inflation. If this continues, it keeps the upside risks to the inflation outlook alive and calls for a cautious stance.",
+                  "speaker": "Fatih Karahan",
+                  "sourceId": "euronews-tr",
+                  "translated": true
+                },
+                {
+                  "text": "He said the bank would keep its tight monetary policy stance. He added that early data for November show vegetable prices still rising, so the fall in annual inflation may pause this month. The report also said the lira’s “moderate course” had eased cost pressure from imports."
+                }
+              ]
+            },
+            {
+              "subhead": "The eighteenth revision",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet counted this as the 18th time since 2021 that the bank has raised a year-end forecast: ten times under former governor Şahap Kavcıoğlu between 2021 and 2023, once under Hafize Gaye Erkan in July 2023, and seven times under Karahan since 2024."
+                },
+                {
+                  "text": "The newspaper noted that the bank's first forecast for 2026 was 9%. It was raised to 26% in May, to 28% in August and now to 29.5%, which is 20.5 points above where it started."
+                },
+                {
+                  "text": "DW Türkçe reported the revision under a headline saying the war with Iran had upset the bank's calculations. In a second piece, Cumhuriyet argued that the war does not explain the gap, pointing to official inflation figures in countries that are directly involved in the fighting."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Merkez Bankası enflasyon tahminini yükseltti",
+          "title": "Merkez Bankası 2026 sonu enflasyon tahminini yüzde 29,5’e çıkardı, sonraki iki yılın hedeflerini de yükseltti",
+          "summary": {
+            "what": "Merkez Bankası, yılın son Enflasyon Raporu’nda 2026 sonu enflasyon tahminini yüzde 28’den yüzde 29,5’e yükseltti.",
+            "why": "2027 ve 2028 hedefleri de belirgin biçimde artırıldı; bu yılın yüzde 24’lük ara hedefi ise değişmedi ve tahminin 5,5 puan altında kaldı.",
+            "next": "Başkan Fatih Karahan sıkı para politikasının süreceğini, kasımda yıllık enflasyondaki gerilemenin duraklayabileceğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Yeni rakamlar",
+              "blocks": [
+                {
+                  "text": "Türkiye Cumhuriyet Merkez Bankası (TCMB), 12 Kasım Perşembe günü açıkladığı 2026’nın dördüncü ve son Enflasyon Raporu’nda enflasyon tahminlerini bir kez daha yükseltti. Raporu İstanbul’da sunan Başkan Fatih Karahan, yıl sonu tahmininin ağustostaki yüzde 28’den yüzde 29,5’e çıkarıldığını açıkladı."
+                },
+                {
+                  "text": "Sonraki yıllara ilişkin değişiklik daha büyük oldu. 2027 tahmini ve ara hedefi yüzde 15’ten yüzde 21’e, 2028 hedefi yüzde 9’dan yüzde 13,5’e yükseltildi. Banka, enflasyonun ancak 2029 sonunda yüzde 9’a gerilemesini, ardından orta vadede yüzde 5 hedefinde istikrar kazanmasını bekliyor."
+                },
+                {
+                  "text": "Euronews Türkçe’nin aktardığına göre bu yıl için belirlenen yüzde 24’lük ara hedef değiştirilmedi. Böylece bankanın hedefi ile beklentisi arasındaki fark 5,5 puana çıktı."
+                }
+              ]
+            },
+            {
+              "subhead": "Banka neyi gerekçe gösteriyor",
+              "blocks": [
+                {
+                  "text": "Karahan, enflasyondaki düşüşün yavaşlamasını enerjiye bağladı. Eylül ve ekimde ham petrol ile doğal gaz fiyatlarının belirgin biçimde arttığını, fiyatların hem önceki rapor döneminin hem de savaş öncesinin üzerinde kaldığını, enerji grubunda yıllık enflasyonun yüzde 51,4’e ulaştığını söyledi. Ekim itibarıyla enerji dışındaki tüm ana gruplarda yıllık enflasyonun gerilediğini, gıdanın ise oynak seyrettiğini belirtti."
+                },
+                {
+                  "quote": "Jeopolitik gelişmelerin yol açtığı arz yönlü şoklar, manşet enflasyondaki düşüşü sınırlıyor. Bu durumun devam etmesi, enflasyon görünümüne ilişkin yukarı yönlü riskleri canlı tutuyor ve ihtiyatlı bir duruş gerektiriyor.",
+                  "speaker": "Fatih Karahan",
+                  "sourceId": "euronews-tr"
+                },
+                {
+                  "text": "Karahan sıkı para politikası duruşunun sürdürüleceğini vurguladı. Kasıma ilişkin öncü verilerin sebze fiyatlarındaki artışın sürdüğünü gösterdiğini, bu nedenle yıllık enflasyondaki gerilemenin bu ay duraklayabileceğini ekledi. Raporda, Türk lirasının “ılımlı seyrinin” ithalat kaynaklı maliyet baskılarını hafiflettiği de belirtildi."
+                }
+              ]
+            },
+            {
+              "subhead": "On sekizinci revizyon",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’in hesabına göre banka 2021’den bu yana yıl sonu tahminlerini 18 kez yukarı çekti: 2021-2023 arasında Şahap Kavcıoğlu döneminde on, Temmuz 2023’te Hafize Gaye Erkan döneminde bir, 2024’ten bu yana Karahan döneminde yedi kez."
+                },
+                {
+                  "text": "Gazete, 2026 için ilk tahminin yüzde 9 olduğunu hatırlattı. Tahmin mayısta yüzde 26’ya, ağustosta yüzde 28’e, şimdi de yüzde 29,5’e çıkarıldı; yani başlangıcın 20,5 puan üzerine."
+                },
+                {
+                  "text": "DW Türkçe revizyonu, İran savaşının bankanın hesaplarını bozduğu başlığıyla verdi. Cumhuriyet ise ikinci bir haberinde, savaşın doğrudan tarafı olan ülkelerin resmî enflasyon verilerine işaret ederek bu gerekçenin farkı açıklamadığını savundu."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T08:12:37.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T08:13:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T08:13:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T09:11:58.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T09:58:19.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T10:45:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:31:06.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/a01c45fb-8189-4fe8-b182-0ada598bd258.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/ekonomi/tcmb-enflasyon-tahminlerini-18-kez-yukseltti-2026-sonu-yuzde-29-5-2555568"
+      },
+      "sources": [
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/merkez-bankasinin-yil-sonu-enflasyon-tahmini-295e-yukseldi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/tcmb-enflasyon-tahminlerini-18-kez-yukseltti-2026-sonu-yuzde-29-5-2555568",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/12/tcmb-yil-sonu-enflasyon-tahminini-15-puan-artisla-yuzde-295e-yukseltti",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/ck1l05363jevo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/i%CC%87ran-sava%C5%9F%C4%B1-hesaplar%C4%B1-bozdu-tcmb-enflasyon-tahminini-y%C3%BCkseltti/a-79928231?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/bilgi/foto/enflasyon-tahmi-ni-yukseldi-emekli-ve-memur-zammi-yuzde-kac-olacak-2026-yil-sonu-enflasyon-beklentisi-belli-oldu-3926860",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "11be1df8e83a06dd",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Manifest founder Tolga Akış released",
+          "title": "Court releases Manifest founder Tolga Akış at the first hearing of his obscenity trial",
+          "summary": {
+            "what": "An Istanbul court released Tolga Akış, founder and manager of the pop group Manifest, at the first hearing of his trial.",
+            "why": "He had spent 77 days in jail on a charge of helping to publish obscene material, which carries six months to three years in prison.",
+            "next": "He may not leave the country, and the trial resumes on 18 March 2027."
+          },
+          "body": [
+            {
+              "subhead": "The hearing",
+              "blocks": [
+                {
+                  "text": "Tolga Akış, the founder and manager of the pop group Manifest, was released on Thursday at the first hearing of his trial. He appeared before the Istanbul 43rd Criminal Court of First Instance with his lawyer, and several people from the music world came to the courthouse, Cumhuriyet reported."
+                },
+                {
+                  "text": "According to NTV, the hearing prosecutor asked for his release after Akış gave his defence. The court agreed and adjourned the trial until 18 March. Euronews Türkçe reported that the release comes with a ban on leaving the country."
+                },
+                {
+                  "text": "Akış was detained on 28 August as part of an investigation by the Istanbul Chief Public Prosecutor’s Office, and the indictment was prepared in October. He is charged with helping to publish obscene material, for which prosecutors ask for six months to three years in prison."
+                }
+              ]
+            },
+            {
+              "subhead": "His defence",
+              "blocks": [
+                {
+                  "quote": "I have been in prison for 77 days for a crime that, in my view, I did not commit.",
+                  "speaker": "Tolga Akış",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Akış told the court he found the indictment unclear about which act the obscenity charge rests on. Speaking about the group’s concert at Küçükçiftlik Park, he said producers know the general flow of a show but cannot plan or know every moment in advance."
+                },
+                {
+                  "text": "He said nobody under 18 was in the audience, and that the concert was announced as adults-only because the venue has an age limit, not because of its theme. He added that the group’s official accounts shared nothing from the concert and that they had filed a complaint against people who spread footage of it. He denied the charge and asked to be acquitted."
+                }
+              ]
+            },
+            {
+              "subhead": "The case behind it",
+              "blocks": [
+                {
+                  "text": "The indictment alleges that Akış caused Manifest’s “obscene images and performances” to be created and helped to publish them. BBC Türkçe reported that the investigation into him was also run on suspicion of drug use and of laundering the proceeds of crime."
+                },
+                {
+                  "text": "Manifest was formed from the winners of the talent show Big5 Türkiye and released its first song in early 2025. An investigation was opened after the group’s concert at Küçükçiftlik Park in Istanbul on 6 September 2025, over the members’ clothes and dancing. Many municipalities then cancelled the group’s concerts, and the group called off its Turkey tour."
+                },
+                {
+                  "text": "In that case the members were each sentenced to three months and 22 days in prison, and the court placed the six members under supervision for five years. According to NTV, the singer Ayça Dalaklı, who was on stage with them that night, received the same measure."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Manifest’in kurucusu Tolga Akış tahliye edildi",
+          "title": "Manifest’in kurucusu Tolga Akış, müstehcenlik davasının ilk duruşmasında tahliye edildi",
+          "summary": {
+            "what": "Manifest grubunun kurucusu ve menajeri Tolga Akış, yargılandığı davanın ilk duruşmasında tahliye edildi.",
+            "why": "Akış, altı aydan üç yıla kadar hapis istenen “müstehcen yayınların yayımlanmasına aracılık” suçlamasıyla 77 gündür cezaevindeydi.",
+            "next": "Akış’a yurt dışına çıkış yasağı getirildi; duruşma 18 Mart 2027’ye ertelendi."
+          },
+          "body": [
+            {
+              "subhead": "Duruşma",
+              "blocks": [
+                {
+                  "text": "Manifest grubunun kurucusu ve menajeri Tolga Akış, perşembe günü görülen ilk duruşmada tahliye edildi. Cumhuriyet’in haberine göre İstanbul 43. Asliye Ceza Mahkemesi’ndeki duruşmaya Akış ve avukatı katıldı, müzik camiasından bazı isimler de adliyeye geldi."
+                },
+                {
+                  "text": "NTV’nin aktardığına göre Akış’ın savunmasının ardından duruşma savcısı tahliye talebinde bulundu. Mahkeme tahliyeye karar vererek duruşmayı 18 Mart’a erteledi. Euronews Türkçe, tahliyenin yurt dışına çıkış yasağıyla birlikte verildiğini bildirdi."
+                },
+                {
+                  "text": "Akış, İstanbul Cumhuriyet Başsavcılığı’nın yürüttüğü soruşturma kapsamında 28 Ağustos’ta gözaltına alınmış, iddianame ekimde hazırlanmıştı. Hakkında “müstehcen yayınların yayımlanmasına aracılık etmek” suçundan altı aydan üç yıla kadar hapis isteniyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Savunması",
+              "blocks": [
+                {
+                  "quote": "77 gündür, bence işlemediğim bir suç nedeniyle cezaevinde yatıyorum.",
+                  "speaker": "Tolga Akış",
+                  "sourceId": "cumhuriyet"
+                },
+                {
+                  "text": "Akış mahkemede, iddianamede müstehcenlik suçunun hangi fiile dayandırıldığını muallak bulduğunu söyledi. Grubun Küçükçiftlik Park’taki konserinden söz ederek yapımcıların genel akışı bildiğini, ancak her anı önceden planlamalarının ve bilmelerinin mümkün olmadığını belirtti."
+                },
+                {
+                  "text": "İzleyiciler arasında 18 yaşından küçük kimsenin bulunmadığını, konserin 18 yaş üstü olarak duyurulmasının temadan değil mekânın yaş sınırından kaynaklandığını anlattı. Grubun resmî hesaplarından konserle ilgili paylaşım yapılmadığını, görüntüleri yayanlar hakkında suç duyurusunda bulunduklarını ekledi. Suçlamayı reddederek beraatini istedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Davanın arka planı",
+              "blocks": [
+                {
+                  "text": "İddianamede Akış’ın, Manifest’e ait “müstehcen görüntü ve performansların” oluşmasına sebebiyet verdiği ve bunların yayımlanmasına aracılık ettiği öne sürülüyor. BBC Türkçe’ye göre Akış hakkındaki soruşturma “uyuşturucu madde kullanma” ve “suçtan kaynaklanan mal varlığı değerlerini aklama” şüphesiyle de yürütülüyordu."
+                },
+                {
+                  "text": "Big5 Türkiye yarışmasının kazananlarından oluşan Manifest, ilk şarkısını 2025 başında yayımladı. Grubun 6 Eylül 2025’te İstanbul Küçükçiftlik Park’ta verdiği konserin ardından, kıyafetler ve danslar gerekçesiyle soruşturma açıldı. Birçok belediye grubun konserlerini iptal etti, grup da Türkiye turnesinden vazgeçti."
+                },
+                {
+                  "text": "O davada üyelere ayrı ayrı üç ay 22 gün hapis cezası verildi; mahkeme altı üyenin beş yıl denetim süresine tabi tutulmasına hükmetti. NTV’ye göre o gece sahneye çıkan şarkıcı Ayça Dalaklı için de aynı karar verildi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T11:34:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:39:18.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T11:39:18.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:44:46.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:50:39.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:07:35.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T13:17:21.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/053911ac-fe15-4714-89f0-64930cf4d9a6.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/manifest-in-kurucusu-tolga-akis-tahliye-edildi-2555625"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/manifest-in-kurucusu-tolga-akis-tahliye-edildi-2555625",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/12/manifestin-kurucusu-tolga-akis-tahliye-edildi/",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-manifestin-kurucusu-tolga-akis-tahliye-edildi-1750576",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c93eqpwjd7wo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/manifestin-kurucusu-tolga-akis-icin-tahliye-karari-cikti-43375737",
+          "confirms": false
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/12/manifest-grubunun-kurucusu-tolga-akis-hakkinda-karar",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-tolga-akis-tahliye-edildi-3926837",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/manifestin-kurucusu-tolga-akis-hakkinda-tahliye-karari/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/manifest-in-kurucusu-tolga-akis-a-tahliye-p380658",
+          "confirms": false
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/12/manifestin-kurucusu-ve-menajeri-tolga-akis-yurt-disi-cikis-yasagiyla-tahliye-edildi",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "32ba2197881b2e88",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Erdoğan urges Iran-US talks in Antalya",
+          "title": "Erdoğan meets Iran’s Pezeshkian at the COP31 summit in Antalya and calls for talks to end the war with the US",
+          "summary": {
+            "what": "President Erdoğan met Iranian President Masoud Pezeshkian on Thursday on the sidelines of the COP31 leaders’ summit in Antalya.",
+            "why": "He called for a negotiating table to be set up without delay to end the fighting between Iran and the United States.",
+            "next": "Erdoğan is continuing his meetings with other leaders who are in Antalya for the summit."
+          },
+          "body": [
+            {
+              "subhead": "The meeting",
+              "blocks": [
+                {
+                  "text": "President Recep Tayyip Erdoğan met Iranian President Masoud Pezeshkian on Thursday in Antalya, where both are attending the leaders’ summit of the UN climate conference COP31. The Presidency’s Communications Directorate said the two discussed relations between Turkey and Iran as well as regional and global matters."
+                },
+                {
+                  "text": "According to the statement, Erdoğan said he hoped the conflict between Iran and the United States would end as soon as possible and that a lasting peace would follow. He said common ground had to be strengthened and diplomacy given a chance, and that it was important to set up a negotiating table without losing more time. Turkey, he added, would go on supporting efforts for peace together with other countries in the region."
+                },
+                {
+                  "text": "Foreign Minister Hakan Fidan, Defence Minister Yaşar Güler and intelligence chief İbrahim Kalın were among those in the room, Sabah and Hürriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Iran’s account",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe, citing a statement from the Iranian president’s office carried by the state news agency IRNA, reported that the two leaders also discussed political, economic and trade ties. Raising the volume of trade and strengthening links between the two private sectors were named as priorities, and both stressed dialogue to prevent further escalation."
+                },
+                {
+                  "text": "In his own speech at COP31 on Wednesday, Pezeshkian accused the United States and Israel of causing heavy environmental damage in their attacks on Iran. He claimed that strikes on fuel facilities at a large gas field in the south released about 500,000 tonnes of carbon dioxide, and strikes on fuel depots near Tehran about a million tonnes more. Euronews noted that these figures and accusations could not be independently verified."
+                }
+              ]
+            },
+            {
+              "subhead": "A day of diplomacy",
+              "blocks": [
+                {
+                  "text": "The meeting was one of several. Erdoğan also met the Democratic Republic of Congo’s President Félix Tshisekedi and said the partnership between the two countries was growing in trade, transport and the defence industry, and that Turkey supports the DRC’s territorial integrity."
+                },
+                {
+                  "text": "According to Hürriyet, he also held talks with Pakistan’s Prime Minister Shehbaz Sharif, the head of Sudan’s Sovereignty Council Abdel Fattah al-Burhan, Libya’s Prime Minister Abdul Hamid Dbeibah and Georgia’s President Mikheil Kavelashvili. Sabah added Somalia’s leader to the list."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Erdoğan Antalya’da İran-ABD müzakeresi istedi",
+          "title": "Erdoğan, Antalya’daki COP31 zirvesinde Pezeşkiyan’la görüştü; İran-ABD savaşı için müzakere çağrısı yaptı",
+          "summary": {
+            "what": "Cumhurbaşkanı Erdoğan, perşembe günü Antalya’daki COP31 Liderler Zirvesi kapsamında İran Cumhurbaşkanı Mesud Pezeşkiyan’la görüştü.",
+            "why": "Erdoğan, İran ile ABD arasındaki çatışmaların sona ermesi için vakit kaybetmeden müzakere masasının kurulmasını istedi.",
+            "next": "Erdoğan’ın zirve için Antalya’da bulunan diğer liderlerle görüşmeleri sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Görüşme",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanı Recep Tayyip Erdoğan, BM iklim konferansı COP31’in Liderler Zirvesi için Antalya’da bulunan İran Cumhurbaşkanı Mesud Pezeşkiyan’la perşembe günü bir araya geldi. Cumhurbaşkanlığı İletişim Başkanlığı, görüşmede Türkiye-İran ilişkileri ile bölgesel ve küresel konuların ele alındığını bildirdi."
+                },
+                {
+                  "text": "Açıklamaya göre Erdoğan, İran ile ABD arasındaki çatışmaların bir an evvel sona ermesini ve kalıcı barışın sağlanmasını temenni etti. Uzlaşı zemininin güçlendirilmesi ve diplomasiye şans verilmesi gerektiğini, daha fazla vakit kaybetmeden müzakere masasının kurulmasının önem taşıdığını söyledi. Türkiye’nin barış odaklı çabaları bölgedeki ülkelerle birlikte desteklemeyi sürdüreceğini de vurguladı."
+                },
+                {
+                  "text": "Sabah ve Hürriyet’in haberlerine göre görüşmede Dışişleri Bakanı Hakan Fidan, Millî Savunma Bakanı Yaşar Güler ve MİT Başkanı İbrahim Kalın da yer aldı."
+                }
+              ]
+            },
+            {
+              "subhead": "İran tarafının anlatımı",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe’nin, İran resmî haber ajansı IRNA’nın Cumhurbaşkanlığı Ofisi’ne dayandırdığı açıklamadan aktardığına göre iki lider siyasi, ekonomik ve ticari ilişkileri de görüştü. Ticaret hacminin artırılması ve özel sektörler arasındaki bağların güçlendirilmesi öncelikler arasında sayıldı; gerilimin tırmanmasını önlemek için diyaloğun sürmesi gerektiği vurgulandı."
+                },
+                {
+                  "text": "Pezeşkiyan çarşamba günü COP31’de yaptığı konuşmada ABD ve İsrail’i İran’a yönelik saldırılarda ağır çevre tahribatına yol açmakla suçlamıştı. Ülkenin güneyindeki büyük bir doğal gaz sahasındaki yakıt tesislerine yönelik saldırıların yaklaşık 500 bin ton, Tahran yakınlarındaki yakıt depolarına yönelik saldırıların ise yaklaşık bir milyon ton karbondioksit salımına neden olduğunu öne sürdü. Euronews, bu rakamların ve suçlamaların bağımsız olarak doğrulanamadığını not etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Diplomasi trafiği",
+              "blocks": [
+                {
+                  "text": "Görüşme, günün temaslarından yalnızca biriydi. Erdoğan, Kongo Demokratik Cumhuriyeti Cumhurbaşkanı Félix Tshisekedi ile de bir araya geldi; iki ülke ortaklığının ticaret, ulaştırma ve savunma sanayisinde geliştiğini, Türkiye’nin KDC’nin toprak bütünlüğünü desteklediğini söyledi."
+                },
+                {
+                  "text": "Hürriyet’e göre Erdoğan ayrıca Pakistan Başbakanı Şahbaz Şerif, Sudan Egemenlik Konseyi Başkanı Abdulfettah el-Burhan, Libya Başbakanı Abdulhamid Dibeybe ve Gürcistan Cumhurbaşkanı Mikheil Kavelashvili ile görüştü. Sabah, listeye Somali liderini de ekledi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T08:17:01.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T08:18:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T08:18:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T10:00:34.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T10:34:38.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:28:54.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af57616c813a6f07cce74f5.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-iran-cumhurbaskani-pezeskiyan-ile-gorustu-43375334"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/dunya/baskan-erdogan-pezeskiyan-ile-gorustu-7700178",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-iran-cumhurbaskani-pezeskiyan-ile-gorustu-43375334",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/12/erdogan-ve-pezeskiyan-antalyada-gorustu-ankaradan-iran-abd-savasi-icin-muzakere-cagrisi",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-pezeskiyan-ile-gorustu-1750554",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/cumhurbaskani-erdogan-iran-cumhurbaskani-pezeskiyan-ile-gorustu-3926781",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "ce5e1fa823cbaec2",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Nvidia’s Jensen Huang steps down",
+          "title": "Jensen Huang is out as Nvidia chief after reports of two affairs, one with a woman suspected of spying for China",
+          "summary": {
+            "what": "Jensen Huang has resigned as chief executive of Nvidia with immediate effect, The Verge reports, citing a company press release.",
+            "why": "He co-founded the chipmaker in 1993 and ran it for 33 years, and outlets report that it has no clear succession plan.",
+            "next": "Finance chief Colette Kress steps in on an interim basis, according to The Verge, while an independent investigation continues."
+          },
+          "body": [
+            {
+              "subhead": "The resignation",
+              "blocks": [
+                {
+                  "text": "Jensen Huang, who co-founded Nvidia in 1993 and has run it ever since, is no longer its chief executive. The Verge reported on Thursday that the board had ousted him and that a company press release announced his resignation, effective immediately, with chief financial officer Colette Kress appointed on an interim basis."
+                },
+                {
+                  "text": "The decision followed a board meeting on Wednesday night, US time. The Wall Street Journal had reported that the board was preparing to remove him, and Reuters, citing a person familiar with the matter, said the directors met to decide whether to do so, according to Euronews Türkçe."
+                }
+              ]
+            },
+            {
+              "subhead": "How it got here",
+              "blocks": [
+                {
+                  "text": "The crisis began with reports that Huang had been the target of a foreign intelligence operation. On Sunday he admitted in a message to Nvidia staff that he had been unfaithful to his wife, in a relationship with Alice Huang, a senior executive at the Singapore-based data centre company Megaspeed. The two are not related, the Guardian notes. According to the reports, US intelligence agencies circulated a note last spring alleging that she works for China’s Ministry of State Security."
+                },
+                {
+                  "text": "The same day, the board announced an independent investigation. Webrazzi reported that it is being run by the law firm Wachtell, Lipton, Rosen & Katz under former federal prosecutor Joon H. Kim, and that Huang was expected to cooperate."
+                },
+                {
+                  "text": "On Wednesday the New York Times, citing five people who had worked at Nvidia, reported a second relationship, with Kimberly Powell, the company’s vice-president for healthcare. Powell reported directly to Huang, which turned a private matter into a question of corporate governance."
+                }
+              ]
+            },
+            {
+              "subhead": "Markets and succession",
+              "blocks": [
+                {
+                  "text": "Nvidia shares fell 8.6% in after-hours trading on Wednesday and European chip stocks slipped on Thursday morning, with ASML down 1.9%, Euronews Türkçe reported. According to Webrazzi, the shares have lost about 11% in five days, and Reuters estimated that the after-hours fall could wipe about $600 billion off a company valued at roughly $4 trillion."
+                },
+                {
+                  "text": "The Guardian pointed out that Huang does not hold the special voting rights common among tech founders; his stake is 3.6%. France 24 and the BBC both focused on what the scandal exposed: the lack of a clear successor at the company at the centre of the AI boom."
+                },
+                {
+                  "text": "China has rejected the spying claims. According to France 24 and Al Jazeera, Beijing accused the United States of fabricating them to push a technology “blockade”."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Nvidia’da Jensen Huang dönemi bitti",
+          "title": "Jensen Huang, biri Çin adına casuslukla suçlanan bir kadınla olmak üzere iki ilişki iddiasının ardından Nvidia’nın başından ayrıldı",
+          "summary": {
+            "what": "The Verge’ün şirket açıklamasına dayandırdığı habere göre Jensen Huang, Nvidia CEO’luğundan derhal geçerli olmak üzere istifa etti.",
+            "why": "Huang şirketi 1993’te kurmuş ve 33 yıl yönetmişti; haberlere göre şirketin net bir halefiyet planı yok.",
+            "next": "The Verge’e göre finans direktörü Colette Kress geçici olarak görevi devralıyor; bağımsız soruşturma sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "İstifa",
+              "blocks": [
+                {
+                  "text": "Nvidia’yı 1993’te kuran ve o günden beri yöneten Jensen Huang artık şirketin CEO’su değil. The Verge perşembe günü, yönetim kurulunun Huang’ı görevden uzaklaştırdığını, şirketin yayımladığı basın açıklamasında istifasının derhal geçerli olduğunun duyurulduğunu ve finans direktörü Colette Kress’in geçici olarak atandığını bildirdi."
+                },
+                {
+                  "text": "Karar, yönetim kurulunun ABD saatiyle çarşamba gecesi yaptığı toplantının ardından geldi. Euronews Türkçe’nin aktardığına göre Wall Street Journal kurulun Huang’ı görevden almaya hazırlandığını yazmış, Reuters da konuyu bilen bir kişiye dayanarak kurulun bu kararı vermek üzere toplandığını bildirmişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Buraya nasıl gelindi",
+              "blocks": [
+                {
+                  "text": "Kriz, Huang’ın yabancı bir istihbarat operasyonunun hedefi olduğuna dair haberlerle başladı. Huang pazar günü çalışanlara gönderdiği mesajda, Singapur merkezli veri merkezi şirketi Megaspeed’in üst düzey yöneticisi Alice Huang’la ilişkisi olduğunu ve eşine sadık kalmadığını kabul etti. Guardian’ın belirttiğine göre ikili akraba değil. Haberlere göre ABD istihbarat birimleri geçen ilkbaharda, Alice Huang’ın Çin Devlet Güvenlik Bakanlığı adına çalıştığını öne süren bir notu kurumlar arasında paylaştı."
+                },
+                {
+                  "text": "Yönetim kurulu aynı gün bağımsız bir soruşturma başlatıldığını açıkladı. Webrazzi’ye göre soruşturmayı Wachtell, Lipton, Rosen & Katz hukuk firması, eski federal savcı Joon H. Kim yönetiminde yürütüyor; Huang’ın iş birliği yapacağı belirtilmişti."
+                },
+                {
+                  "text": "New York Times çarşamba günü, Nvidia’da çalışmış beş kişiye dayanarak ikinci bir ilişkiyi yazdı: şirketin sağlık alanından sorumlu başkan yardımcısı Kimberly Powell. Powell’ın doğrudan Huang’a bağlı çalışması, konuyu özel hayattan kurumsal yönetişim sorununa taşıdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Piyasalar ve halefiyet",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe’ye göre Nvidia hisseleri çarşamba günü mesai sonrası işlemlerde yüzde 8,6 düştü, perşembe sabahı Avrupa çip hisseleri de geriledi; ASML yüzde 1,9 kaybetti. Webrazzi, hisselerin beş günde yaklaşık yüzde 11 değer yitirdiğini, Reuters’ın ise mesai sonrası düşüşün yaklaşık 4 trilyon dolar değerindeki şirkette 600 milyar dolar civarında kayba yol açabileceğini hesapladığını aktardı."
+                },
+                {
+                  "text": "Guardian, Huang’ın teknoloji kurucularında sık görülen imtiyazlı oy haklarına sahip olmadığına, payının yüzde 3,6 olduğuna dikkat çekti. France 24 ve BBC ise skandalın açığa çıkardığı zaafa odaklandı: yapay zekâ patlamasının merkezindeki şirkette net bir halef yok."
+                },
+                {
+                  "text": "Çin casusluk iddialarını reddediyor. France 24 ve Al Jazeera’ya göre Pekin, ABD’yi bu iddiaları teknoloji “ablukası” için uydurmakla suçladı."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T06:43:31.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T10:28:26.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T10:28:26.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T10:30:04.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:21:25.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:43:19.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T13:53:16.000Z",
+          "sourceId": "the-verge"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/b76023068afd6989a4d83782e8ad21ac88094570/335_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=ae6e7cc781873a609353d81df20f9e53",
+        "sourceId": "guardian-world",
+        "sourceName": "The Guardian World",
+        "articleUrl": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261112-who-is-jensen-huang-nvidia-chief-under-scrutiny-over-affair-and-spying-reports",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374203/loyalty-vs-accountability-look-nvidia-board-deciding-ceo-jensen-huangs-fate",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/nvidia-board-weighs-jensen-huangs-future-can-it-remove-its-founder?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-fired-nvidia",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "49481844381eed21",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Amazon’s AI shopping assistant reaches Türkiye",
+          "title": "Amazon opens Alexa for Shopping, its AI shopping assistant, to customers in Türkiye in beta",
+          "summary": {
+            "what": "Amazon Türkiye has opened Alexa for Shopping, an AI assistant that answers shopping questions in conversation, to its customers in beta.",
+            "why": "It is free for anyone signed in to an Amazon account and works in the mobile app and on Amazon.com.tr.",
+            "next": "Amazon says it will keep adding features in line with what customers expect."
+          },
+          "body": [
+            {
+              "subhead": "What it does",
+              "blocks": [
+                {
+                  "text": "Amazon Türkiye announced on Thursday that Alexa for Shopping, its AI-powered shopping assistant, is now available in beta to customers in Türkiye. Webrazzi and Habertürk both reported the launch. The assistant runs in the Amazon Türkiye mobile app and on Amazon.com.tr, and works through conversation in everyday language."
+                },
+                {
+                  "text": "A customer exploring an unfamiliar product category can ask what to look out for, such as capacity, power and ease of use. Someone looking for a gift can describe the person’s age and interests and get suggestions. A customer torn between two products can ask for a comparison of their features, prices and the points that stand out in customer reviews."
+                }
+              ]
+            },
+            {
+              "subhead": "Where the answers come from",
+              "blocks": [
+                {
+                  "text": "According to Amazon, the beta draws on product information and millions of customer reviews on Amazon Türkiye, as well as on information from across the web, and puts these together to make shopping decisions easier."
+                },
+                {
+                  "text": "The feature is free for every customer signed in to an Amazon account. Habertürk explained how to reach it: after updating the mobile app, customers tap the Alexa icon in the bottom right corner of the screen; on the website, the Alexa field is at the top of the page."
+                }
+              ]
+            },
+            {
+              "subhead": "What Amazon says",
+              "blocks": [
+                {
+                  "quote": "We are very happy to bring this experience, used by more than 350 million customers around the world in the last 12 months, to our customers in Türkiye.",
+                  "speaker": "Burak Erdem, Amazon Türkiye country manager",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Erdem described the assistant as a concrete example of the company’s investment in artificial intelligence, and said Amazon would keep improving it with new features."
+                },
+                {
+                  "text": "Amazon published the launch alongside a survey it commissioned from the research firm Veri Enstitüsü. The E-Commerce Standards Index study was carried out in August 2026 with a sample of 2,530 people representing Türkiye. It found that 50% of consumers who had shopped online in the previous six months were open to using AI-powered shopping features. Both the announcement and the survey come from Amazon itself."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Amazon’un yapay zekâ asistanı Türkiye’de",
+          "title": "Amazon, yapay zekâ destekli alışveriş asistanı Alexa ile Alışveriş’i Türkiye’de beta olarak kullanıma açtı",
+          "summary": {
+            "what": "Amazon Türkiye, alışveriş sorularını sohbet içinde yanıtlayan yapay zekâ asistanı Alexa ile Alışveriş’i beta sürümüyle kullanıma sundu.",
+            "why": "Özellik, Amazon hesabında oturum açmış herkes için ücretsiz; mobil uygulamada ve Amazon.com.tr’de çalışıyor.",
+            "next": "Amazon, asistanı müşteri beklentilerine göre yeni özelliklerle geliştirmeyi sürdüreceğini söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Ne yapıyor",
+              "blocks": [
+                {
+                  "text": "Amazon Türkiye perşembe günü, yapay zekâ destekli alışveriş asistanı Alexa ile Alışveriş’in (Alexa for Shopping) beta sürümüyle Türkiye’deki müşterilerin kullanımına açıldığını duyurdu. Gelişmeyi Webrazzi ve Habertürk aktardı. Asistan, Amazon Türkiye mobil uygulamasında ve Amazon.com.tr’de, gündelik dille yapılan sohbet üzerinden çalışıyor."
+                },
+                {
+                  "text": "Yeni bir ürün kategorisini araştıran kullanıcı kapasite, güç ve kullanım kolaylığı gibi nelere dikkat etmesi gerektiğini sorabiliyor. Hediye arayanlar, hediyeyi alacak kişinin yaşı ve ilgi alanları gibi bilgileri vererek öneri alabiliyor. İki ürün arasında kalanlar ise özelliklerin, fiyatların ve müşteri yorumlarında öne çıkan noktaların karşılaştırılmasını isteyebiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Yanıtlar nereden geliyor",
+              "blocks": [
+                {
+                  "text": "Amazon’a göre beta sürümü, Amazon Türkiye’deki ürün bilgilerinden ve milyonlarca müşteri yorumundan, ayrıca internet genelindeki verilerden yararlanıyor; bunları bir araya getirerek alışveriş kararını kolaylaştırmayı amaçlıyor. Şirket, asistanın şimdilik beta aşamasında olduğunu, yani denenmeye ve geliştirilmeye devam edildiğini vurguluyor."
+                },
+                {
+                  "text": "Özellik, Amazon hesabında oturum açmış tüm müşterilere ücretsiz sunuluyor. Habertürk’ün aktardığına göre mobil uygulamanın güncel sürümünde ekranın sağ alt köşesindeki Alexa simgesinden, web sitesinde ise sayfanın üst bölümündeki Alexa alanından ulaşılabiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Amazon ne diyor",
+              "blocks": [
+                {
+                  "quote": "Dünya genelinde son 12 ayda 350 milyondan fazla müşterinin kullandığı bu deneyimi, şimdi Türkiye’deki müşterilerimizle buluşturmaktan büyük mutluluk duyuyoruz.",
+                  "speaker": "Burak Erdem, Amazon Türkiye Ülke Müdürü",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "Erdem, asistanı şirketin yapay zekâ yatırımlarının somut bir örneği olarak tanımladı ve yeni özelliklerle geliştirilmeye devam edeceğini söyledi."
+                },
+                {
+                  "text": "Amazon, duyuruyla birlikte Veri Enstitüsü’ne yaptırdığı E-Ticaret Standartları Endeksi araştırmasını da paylaştı. Ağustos 2026’da Türkiye’yi temsil eden 2 bin 530 kişilik örneklemle yapılan araştırmaya göre, son altı ayda internetten alışveriş yapan tüketicilerin yüzde 50’si yapay zekâ destekli alışveriş özelliklerini kullanmaya açık. Hem duyurunun hem araştırmanın kaynağı Amazon’un kendisi; rakamlar bağımsız bir kaynak tarafından doğrulanmış değil."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T10:37:00.000Z",
+          "sourceId": "webrazzi"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:04:27.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T11:04:27.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "webrazzi",
+          "url": "https://webrazzi.com/2026/11/12/amazon-un-yapay-zeka-destekli-alisveris-asistani-alexa-ile-alisveris-turkiye-de-kullanima-sunuldu/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/amazon-alisveris-asistanini-turkiye-de-kullanima-sundu-3926822",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "4b1d44aca4783819",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Israeli strike hits Gaza’s Nasser Hospital",
+          "title": "Israeli airstrike on Nasser Hospital in southern Gaza kills six people, including a surgeon",
+          "summary": {
+            "what": "An Israeli airstrike hit the surgical wing of Nasser Hospital in Khan Younis early on Thursday, killing six people, Gaza’s Health Ministry said.",
+            "why": "Nasser is one of the few hospitals still working in Gaza, and four of its departments have now suspended services.",
+            "next": "Israel says it struck a Hamas commander inside the hospital but has given no evidence; the ceasefire looks increasingly fragile."
+          },
+          "body": [
+            {
+              "subhead": "The strike",
+              "blocks": [
+                {
+                  "text": "An Israeli airstrike hit Nasser Hospital in Khan Younis, in southern Gaza, shortly after midnight on Thursday. Gaza’s Health Ministry said six people were killed and at least 28 wounded. Among the dead was Rizk Abu Shaira, a 52-year-old general surgeon, and, according to the hospital’s director, a disabled man."
+                },
+                {
+                  "text": "The bomb struck the surgery department. NPR and the Guardian described parts of several floors as severely damaged or destroyed, with debris across beds and equipment and a hole where the munition went through the building. The hospital’s director, Dr Ahmed al-Fara, told the Guardian that services were suspended in four departments: radiology, laboratories, surgical operations and the inpatient surgical wards."
+                }
+              ]
+            },
+            {
+              "subhead": "What Israel says",
+              "blocks": [
+                {
+                  "text": "The Israeli military confirmed that it carried out the strike. It said it had targeted Muhammad Abu Ismail, whom it described as a senior Hamas member responsible for directing attacks and for holding hostages during the war, along with other militants. It said Hamas was running a command centre inside the hospital and used the complex to store weapons and conduct interrogations."
+                },
+                {
+                  "text": "NPR, DW and the Guardian all noted that the military provided no evidence for these claims. DW added that hospitals are protected under international humanitarian law but can lose that protection if they are used for military purposes. NPR recalled that the Israeli military has raided or besieged hospitals across Gaza, accusing Hamas of using them to hide fighters."
+                }
+              ]
+            },
+            {
+              "subhead": "Inside the hospital",
+              "blocks": [
+                {
+                  "text": "Goher Rahbour, a British surgeon volunteering at Nasser, told NPR he was on the fourth floor of the surgical department when the bomb hit, and that the recovery area on that floor was reduced to rubble."
+                },
+                {
+                  "quote": "It was extremely smoky.",
+                  "speaker": "Goher Rahbour, surgeon",
+                  "sourceId": "npr-world"
+                },
+                {
+                  "text": "He said he had operated alongside Abu Shaira only hours earlier. Dr Ayman Abu Ubaid, a surgical specialist who was wounded, told the Guardian the strike came at about 12.30am without warning, when the patients, all waiting for operations, should have been asleep."
+                },
+                {
+                  "text": "Nasser is the largest hospital in southern Gaza, according to the BBC, and one of the few still functioning in a territory whose health system has been devastated by years of war. DW said the strike came during an increasingly fragile ceasefire."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İsrail Gazze’de Nasır Hastanesi’ni vurdu",
+          "title": "İsrail’in Gazze’nin güneyindeki Nasır Hastanesi’ne hava saldırısında biri cerrah altı kişi öldü",
+          "summary": {
+            "what": "Gazze Sağlık Bakanlığı’na göre İsrail, perşembe gece yarısından sonra Han Yunus’taki Nasır Hastanesi’nin cerrahi bölümünü vurdu; altı kişi öldü.",
+            "why": "Nasır, Gazze’de hâlâ çalışan az sayıdaki hastaneden biri; dört bölümünde hizmet durduruldu.",
+            "next": "İsrail hastanede bir Hamas komutanını hedef aldığını söylüyor ama kanıt sunmadı; ateşkes giderek kırılganlaşıyor."
+          },
+          "body": [
+            {
+              "subhead": "Saldırı",
+              "blocks": [
+                {
+                  "text": "İsrail, perşembe günü gece yarısından kısa süre sonra Gazze’nin güneyindeki Han Yunus’ta bulunan Nasır Hastanesi’ne hava saldırısı düzenledi. Gazze Sağlık Bakanlığı altı kişinin öldüğünü, en az 28 kişinin yaralandığını açıkladı. Ölenler arasında 52 yaşındaki genel cerrah Rızk Ebu Şaira ve hastane müdürüne göre engelli bir erkek de var."
+                },
+                {
+                  "text": "Bomba cerrahi bölümüne isabet etti. NPR ve Guardian, birkaç katın bazı bölümlerinin ağır hasar gördüğünü ya da yıkıldığını, yatakların ve cihazların enkazla kaplandığını, mühimmatın binayı deldiği yerde bir delik kaldığını aktardı. Hastane müdürü Dr. Ahmed el-Fara Guardian’a, radyoloji, laboratuvar, ameliyathane ve cerrahi yataklı servislerde hizmetin durdurulduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "İsrail ne diyor",
+              "blocks": [
+                {
+                  "text": "İsrail ordusu saldırıyı doğruladı. Savaş boyunca saldırıları yönlendirmekten ve rehineleri tutmaktan sorumlu üst düzey bir Hamas üyesi olarak tanımladığı Muhammed Ebu İsmail’i ve diğer militanları hedef aldığını açıkladı. Hamas’ın hastanede bir komuta merkezi işlettiğini, yerleşkeyi silah depolamak ve sorgu yapmak için kullandığını öne sürdü."
+                },
+                {
+                  "text": "NPR, DW ve Guardian, ordunun bu iddialar için kanıt sunmadığını not etti. DW, hastanelerin uluslararası insancıl hukukla korunduğunu, ancak askerî amaçla kullanılırlarsa bu korumayı yitirebileceklerini hatırlattı. NPR ise İsrail ordusunun Gazze genelinde hastanelere baskın düzenlediğini ya da onları kuşattığını, Hamas’ı buraları savaşçı saklamak için kullanmakla suçladığını anımsattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Hastanenin içinden",
+              "blocks": [
+                {
+                  "text": "Nasır’da gönüllü çalışan İngiliz cerrah Goher Rahbour NPR’a, bomba düştüğünde cerrahi bölümünün dördüncü katında olduğunu, aynı kattaki derlenme alanının enkaza döndüğünü anlattı."
+                },
+                {
+                  "quote": "Her yer yoğun duman içindeydi.",
+                  "speaker": "Cerrah Goher Rahbour",
+                  "sourceId": "npr-world",
+                  "translated": true
+                },
+                {
+                  "text": "Rahbour, saatler önce Ebu Şaira ile birlikte ameliyata girdiğini söyledi. Saldırıda yaralanan cerrahi uzmanı Dr. Eymen Ebu Ubeyd de Guardian’a, bombanın 00.30 sularında uyarı yapılmadan, ameliyat bekleyen hastaların uyuyor olması gereken saatte düştüğünü anlattı."
+                },
+                {
+                  "text": "BBC’ye göre Nasır, Gazze’nin güneyindeki en büyük hastane; yıllardır süren savaşın sağlık sistemini çökerttiği bölgede hâlâ çalışan az sayıdaki tesisten biri. DW, saldırının giderek kırılganlaşan bir ateşkes sırasında geldiğini belirtti."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T09:29:30.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T11:27:00.000Z",
+          "sourceId": "dw-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T11:27:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:19:01.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:26:01.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/cc960bc22a7c7d203df22f0e132ed334f1daa1b3/252_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=01c9d4e288a31993bc15bd45c0766af5",
+        "sourceId": "guardian-world",
+        "sourceName": "The Guardian World",
+        "articleUrl": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon"
+      },
+      "sources": [
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/israel-strikes-gaza-hospital-says-hamas-senior-figure-inside/a-79927645?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "8fbc71d19e2ee03c",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "US envoys meet Putin in Moscow",
+          "title": "Kushner and Witkoff meet Putin at the Kremlin after Abu Dhabi talks end without a breakthrough",
+          "summary": {
+            "what": "US envoys Jared Kushner and Steve Witkoff met Vladimir Putin at the Kremlin on Thursday in a new push for a peace deal in Ukraine.",
+            "why": "Two days of US-mediated talks between Russia and Ukraine ended in Abu Dhabi on Wednesday with a planned prisoner exchange but no breakthrough.",
+            "next": "The envoys are expected to travel on to Dublin to meet Ukraine’s President Volodymyr Zelensky."
+          },
+          "body": [
+            {
+              "subhead": "The Moscow visit",
+              "blocks": [
+                {
+                  "text": "Jared Kushner and Steve Witkoff, the United States envoys, met Russian President Vladimir Putin at the Kremlin on Thursday. Putin’s special envoy Kirill Dmitriev met them at their plane in the morning and went with them into central Moscow; videos shared by Russian media showed handshakes and hugs, the BBC reported. The talks with Putin began a few hours later."
+                },
+                {
+                  "text": "Al Jazeera’s correspondent in Moscow, Yulia Shapovalova, said the American team would bring Putin an updated proposal for a peace plan, and that one of its aims was to persuade him to let European countries into the negotiations. Ukraine and the US want the Europeans involved, she said, while Moscow insists on talks without them."
+                },
+                {
+                  "text": "On Tuesday Kushner had said the US saw “some openings and some opportunities”. After Moscow, the two envoys are expected to fly to Dublin to meet Ukraine’s President Volodymyr Zelensky."
+                }
+              ]
+            },
+            {
+              "subhead": "What Abu Dhabi produced",
+              "blocks": [
+                {
+                  "text": "The visit follows two days of three-way talks in the United Arab Emirates that ended in Abu Dhabi on Wednesday. According to Al Jazeera, they were the first direct negotiations between Russia and Ukraine mediated by the US in nine months. They produced news of another large prisoner exchange, but no breakthrough on ending a war that has lasted nearly five years."
+                },
+                {
+                  "text": "The US said differences remained on the main issues, including territory, though some progress had been made on security guarantees after the war. Kyiv has firmly rejected Putin’s demand that it give up the whole of its eastern Donbas region in return for peace. The Guardian reported that Putin also repeated Moscow’s opposition to Western troops in Ukraine."
+                }
+              ]
+            },
+            {
+              "subhead": "Starlink trouble at the front",
+              "blocks": [
+                {
+                  "text": "While the envoys were in Moscow, Zelensky said Ukraine’s military was again facing “systematic” restrictions on Starshield, the military-grade Starlink service owned by Elon Musk’s SpaceX. He said the disruption had lasted several days and was making it harder to intercept Russian jet-powered drones."
+                },
+                {
+                  "text": "Zelensky said Kyiv was trying to get details from the American side and so far knew very little. According to the BBC, a similar problem hit the front line in late October and lasted about a week; it was never made clear who ordered it, and US officials and SpaceX gave different explanations."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "ABD’li temsilciler Moskova’da Putin’le görüştü",
+          "title": "Kushner ve Witkoff, Abu Dabi görüşmelerinden sonuç çıkmamasının ardından Kremlin’de Putin’le görüştü",
+          "summary": {
+            "what": "ABD’nin temsilcileri Jared Kushner ve Steve Witkoff, Ukrayna’da barış anlaşması için perşembe günü Kremlin’de Vladimir Putin’le görüştü.",
+            "why": "ABD arabuluculuğunda Rusya ile Ukrayna arasında Abu Dabi’de yapılan iki günlük görüşme çarşamba günü esir takası planıyla ama atılım olmadan bitti.",
+            "next": "Temsilcilerin Moskova’dan sonra Dublin’e geçerek Ukrayna Devlet Başkanı Volodimir Zelenski ile görüşmesi bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Moskova ziyareti",
+              "blocks": [
+                {
+                  "text": "ABD’nin temsilcileri Jared Kushner ve Steve Witkoff, perşembe günü Kremlin’de Rusya Devlet Başkanı Vladimir Putin’le görüştü. Putin’in özel temsilcisi Kirill Dmitriyev ikiliyi sabah uçakta karşıladı ve Moskova’nın merkezine kadar eşlik etti. BBC’nin aktardığına göre Rus medyasının paylaştığı görüntülerde el sıkışma ve kucaklaşmalar yer aldı. Putin’le görüşme birkaç saat sonra başladı."
+                },
+                {
+                  "text": "Al Jazeera’nın Moskova muhabiri Yulia Shapovalova, Amerikan heyetinin Putin’e güncellenmiş bir barış planı önerisi götürdüğünü, hedeflerden birinin de Avrupa ülkelerinin müzakerelere dahil edilmesi için Putin’i ikna etmek olduğunu söyledi. Muhabire göre Ukrayna ve ABD Avrupalıların sürece katılmasını istiyor, Moskova ise görüşmelerin onlarsız yapılmasında ısrar ediyor."
+                },
+                {
+                  "text": "Kushner salı günü ABD’nin “bazı açılımlar ve bazı fırsatlar” gördüğünü söylemişti. İkilinin Moskova’dan sonra Dublin’e giderek Ukrayna Devlet Başkanı Volodimir Zelenski ile görüşmesi bekleniyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Abu Dabi’den ne çıktı",
+              "blocks": [
+                {
+                  "text": "Ziyaret, Birleşik Arap Emirlikleri’nde iki gün süren ve çarşamba günü Abu Dabi’de sona eren üçlü görüşmelerin ardından geldi. Al Jazeera’ya göre bunlar, Rusya ile Ukrayna arasında ABD arabuluculuğunda dokuz ay sonra yapılan ilk doğrudan müzakerelerdi. Görüşmelerden büyük bir esir takası daha çıktı, ancak beş yıla yaklaşan savaşı bitirecek bir atılım sağlanamadı."
+                },
+                {
+                  "text": "ABD, toprak dahil temel konularda görüş ayrılıklarının sürdüğünü, savaş sonrası güvenlik garantilerinde ise bir miktar ilerleme kaydedildiğini açıkladı. Kiev, Putin’in barış karşılığında Donbas bölgesinin tamamının bırakılması talebini kesin biçimde reddediyor. Guardian’a göre Putin, Batılı askerlerin Ukrayna’da bulunmasına karşı olduğunu da yineledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Cephede Starlink sorunu",
+              "blocks": [
+                {
+                  "text": "Temsilciler Moskova’dayken Zelenski, Ukrayna ordusunun Elon Musk’ın şirketi SpaceX’e ait askerî düzeydeki Starlink hizmeti Starshield’de yeniden “sistematik” kısıtlamalarla karşılaştığını söyledi. Kesintinin birkaç gündür sürdüğünü ve Rusya’nın jet motorlu insansız hava araçlarını önlemeyi zorlaştırdığını belirtti."
+                },
+                {
+                  "text": "Zelenski, Kiev’in Amerikan tarafından ayrıntı almaya çalıştığını ama şimdilik çok az şey bildiğini ifade etti. BBC’ye göre benzer bir sorun ekim sonunda cephe hattını etkilemiş ve yaklaşık bir hafta sürmüştü; kısıtlamayı kimin emrettiği netleşmemiş, ABD’li yetkililer ile SpaceX farklı açıklamalar yapmıştı."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T09:01:24.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:14:51.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T12:14:51.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T13:41:21.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0196/live/ef110310-de9c-11f1-a701-fddedf244c16.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    },
+    {
+      "id": "5968731e3530a6cc",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Mississippi elects Democrat Scott Colom",
+          "title": "Democrat Scott Colom wins Mississippi’s US Senate seat, the state’s first Black senator since Reconstruction",
+          "summary": {
+            "what": "Democrat Scott Colom defeated Republican senator Cindy Hyde-Smith in Mississippi after more than a week of vote counting.",
+            "why": "He is the state’s first Black senator since the 1870s and the first Democrat to win a Senate seat there since 1982.",
+            "next": "Democrats now hold 55 Senate seats to the Republicans’ 44, with a close race in Alaska still being counted."
+          },
+          "body": [
+            {
+              "subhead": "A narrow win",
+              "blocks": [
+                {
+                  "text": "Scott Colom, a Democrat, has won the US Senate race in Mississippi, one of the most reliably Republican states in the country. The result was declared late on Wednesday, more than a week after the midterm elections. According to Al Jazeera, he beat the Republican incumbent Cindy Hyde-Smith, an ally of President Donald Trump, by fewer than 5,000 votes with 99% of ballots counted."
+                },
+                {
+                  "text": "Hyde-Smith had led in the polls, and Trump carried the state by more than 20 points in 2024. The Guardian called the result a stunning upset."
+                }
+              ]
+            },
+            {
+              "subhead": "What it changes",
+              "blocks": [
+                {
+                  "text": "Colom will be Mississippi’s first Black senator since Reconstruction, the period after the Civil War; the last one left office in the 1870s. France 24 noted that the state has been run mostly by white conservatives for generations, although it has the largest share of Black residents of any US state."
+                },
+                {
+                  "text": "It is also the first time since 1982 that a Democrat has won a Senate seat in Mississippi. Al Jazeera reported that the win puts the Democrats’ majority in the Senate at 55 seats to 44, with a tight race in Alaska, where Democrat Mary Peltola leads by a slim margin, still being counted. The outlet added that only 14 Black senators have ever been elected or appointed in the United States, and that Colom will be one of seven new ones."
+                }
+              ]
+            },
+            {
+              "subhead": "Who he is",
+              "blocks": [
+                {
+                  "text": "Colom is 43 and a lawyer. He served as a prosecutor in Mississippi from 2016 until this year. He was born in the city of Columbus into a family of lawyers, is married and has two children, and his identical twin brother Andrew played a major part in his campaign, Al Jazeera reported."
+                },
+                {
+                  "text": "He spoke to supporters at his victory party in Jackson, at the historically Black Tougaloo College, and said there had been times when he was tired and felt he could not keep going."
+                },
+                {
+                  "quote": "I had the courage to believe in Mississippi. I had the courage to understand that we can show the country that Mississippi matters.",
+                  "speaker": "Scott Colom",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "On Thursday he thanked his supporters again in a series of posts on X, writing that the victory “belongs to all of us”."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Mississippi’de Demokrat Scott Colom kazandı",
+          "title": "Demokrat Scott Colom Mississippi’de Senato koltuğunu kazandı; eyaletin iç savaş sonrası dönemden beri ilk siyah senatörü",
+          "summary": {
+            "what": "Demokrat Scott Colom, bir haftayı aşan oy sayımının ardından Mississippi’de Cumhuriyetçi senatör Cindy Hyde-Smith’i yendi.",
+            "why": "Colom, eyaletin 1870’lerden beri ilk siyah senatörü ve 1982’den beri Senato koltuğu kazanan ilk Demokrat oldu.",
+            "next": "Demokratların Senato’daki sandalye sayısı 55’e çıktı, Cumhuriyetçilerinki 44; Alaska’daki çekişmeli yarışta sayım sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Kıl payı zafer",
+              "blocks": [
+                {
+                  "text": "Demokrat Scott Colom, ABD’nin en sağlam Cumhuriyetçi eyaletlerinden Mississippi’de Senato yarışını kazandı. Sonuç, ara seçimlerden bir haftadan uzun süre sonra, çarşamba günü geç saatlerde ilan edildi. Al Jazeera’ya göre Colom, Başkan Donald Trump’ın müttefiki olan mevcut Cumhuriyetçi senatör Cindy Hyde-Smith’i, oyların yüzde 99’u sayılmışken 5 binden az farkla geçti."
+                },
+                {
+                  "text": "Anketlerde Hyde-Smith öndeydi; Trump da 2024’te eyaleti 20 puandan fazla farkla kazanmıştı. Guardian sonucu çarpıcı bir sürpriz olarak nitelendirdi; eyalet onlarca yıldır Senato’ya yalnızca Cumhuriyetçi gönderiyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Neyi değiştiriyor",
+              "blocks": [
+                {
+                  "text": "Colom, Mississippi’nin iç savaş sonrasındaki Yeniden İnşa döneminden beri ilk siyah senatörü olacak; sonuncusu 1870’lerde görevden ayrılmıştı. France 24, eyaletin ABD’de siyah nüfus oranının en yüksek olduğu yer olmasına rağmen kuşaklardır çoğunlukla beyaz muhafazakârlarca yönetildiğini hatırlattı."
+                },
+                {
+                  "text": "Bir Demokrat’ın Mississippi’de Senato koltuğu kazanması da 1982’den beri ilk. Al Jazeera’nın aktardığına göre bu sonuçla Demokratların Senato’daki çoğunluğu 44’e karşı 55 sandalyeye ulaştı; Demokrat Mary Peltola’nın az farkla önde olduğu Alaska’da ise sayım sürüyor. Yayın, ABD tarihinde yalnızca 14 siyah senatörün seçildiğini ya da atandığını, Colom’un yedi yeni siyah senatörden biri olacağını ekledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Colom kimdir",
+              "blocks": [
+                {
+                  "text": "43 yaşındaki Colom avukat. 2016’dan bu yıla kadar Mississippi’de bölge savcısı olarak görev yaptı. Al Jazeera’ya göre Columbus kentinde, avukatlardan oluşan bir ailede doğdu; eşi Nadia ile iki çocukları var. Tek yumurta ikizi Andrew kampanyasında önemli rol oynadı."
+                },
+                {
+                  "text": "Colom, Jackson’da, tarihsel olarak siyahların okuduğu Tougaloo College’da düzenlenen zafer kutlamasında destekçilerine seslendi; yorulduğu ve devam edemeyeceğini hissettiği zamanlar olduğunu söyledi."
+                },
+                {
+                  "quote": "Mississippi’ye inanma cesaretini gösterdim. Mississippi’nin önemli olduğunu ülkeye gösterebileceğimizi anlama cesaretini gösterdim.",
+                  "speaker": "Scott Colom",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Perşembe günü X’teki paylaşımlarında destekçilerine yeniden teşekkür etti ve zaferin “hepimize ait” olduğunu yazdı."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T08:12:40.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T10:26:54.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T10:26:54.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:15:48.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:56:55.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T13:33:08.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/648ee90a-de7e-11f1-9083-3f371022a770/w:1024/p:16x9/EN-20261112-100448-100642-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/video/20261112-mississippi-elects-democrat-colom-as-state-s-first-post-civil-war-black-senator"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/mississippi-elects-first-black-senator-since-1874?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261112-mississippi-elects-democrat-colom-as-state-s-first-post-civil-war-black-senator",
+          "confirms": true
+        },
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T18:30:00+03:00",
+      "updatedAt": "2026-11-12T18:30:00+03:00"
+    }
+  ]
+}
