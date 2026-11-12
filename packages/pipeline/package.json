@@ -14,6 +14,7 @@
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "prepare-bulletin": "node dist/prepare-bulletin.js",
+    "fetch-articles": "node dist/fetch-articles.js",
     "save-media": "node dist/save-media.js",
     "check-edition": "node dist/check-edition.js"
   },

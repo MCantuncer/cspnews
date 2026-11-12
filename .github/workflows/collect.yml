@@ -1,0 +1,62 @@
+name: Collect
+
+# Collects the news for the next bulletin where news sites can be reached, and saves it on the
+# `candidates` branch for the Verify and Write run (docs/publishing.md, step 1):
+#
+#   candidates/<yyyy-mm-dd>-<slot>.json           the grouped, labelled stories
+#   candidates/<yyyy-mm-dd>-<slot>.articles.json  the readable text of their articles
+#
+# Runs 45 minutes before each bulletin, and by hand from the Actions tab.
+
+on:
+  schedule:
+    # 06:45 and 17:45 Istanbul time every day (UTC+3 all year)...
+    - cron: '45 3,14 * * *'
+    # ...and 11:45 and 21:45 on weekdays.
+    - cron: '45 8,18 * * 1-5'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/collect.yml'
+      - 'packages/pipeline/src/fetch-articles.ts'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/pipeline... build
+
+      - name: Collect, group and label
+        run: pnpm --filter @cspnews/pipeline prepare-bulletin "$RUNNER_TEMP/candidates"
+
+      - name: Read the articles
+        run: |
+          for file in "$RUNNER_TEMP"/candidates/*.json; do
+            pnpm --filter @cspnews/pipeline fetch-articles "$file"
+          done
+
+      - name: Save on the candidates branch
+        run: |
+          git config user.name "$(git log -1 --format=%an)"
+          git config user.email "$(git log -1 --format=%ae)"
+          git fetch origin candidates:candidates 2>/dev/null && git switch candidates || git switch --orphan candidates
+          mkdir -p candidates
+          cp "$RUNNER_TEMP"/candidates/*.json candidates/
+          git add candidates
+          git commit -m "Collect $(basename "$(ls "$RUNNER_TEMP"/candidates/*.json | head -1)" .json)"
+          git push origin candidates
