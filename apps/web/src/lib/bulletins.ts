@@ -67,6 +67,11 @@ export function caughtUpPath(published: PublishedBulletin, lang: InterfaceLangua
   return `${bulletinPath(published, lang)}/done`;
 }
 
+/** Every story in one sentence: `/2026-11-11/evening/brief`. */
+export function briefPath(published: PublishedBulletin, lang: InterfaceLanguage = 'en'): string {
+  return `${bulletinPath(published, lang)}/brief`;
+}
+
 /** The URL of one story: `/2026-11-11/evening/<story id>`. */
 export function storyPath(
   published: PublishedBulletin,

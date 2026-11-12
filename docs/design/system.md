@@ -66,6 +66,10 @@ Five only: evidence mark, outlet names (up to 3, then a count), section, Develop
 
 One quiet 40 px line above the reader, in the interface language, dismissable. Never a pop-up. Its mark animates once on arrival.
 
+### In one minute
+
+The short way through a bulletin, linked from the top of Contents: every story as its short title, its evidence mark and the one sentence that says what happened. Each line opens the full story. No pictures, no outlet logos.
+
 ### Caught up
 
 Three things to remember, any open Hot story, and the next bulletin time.

@@ -1,0 +1,185 @@
+---
+/**
+ * A bulletin in one minute (docs/design/system.md, "In one minute"): every story as its short
+ * title and the one sentence that says what happened, with its evidence mark. Each line opens
+ * the full story; the end leads back to the whole bulletin.
+ */
+import Header from '../Header.astro';
+import HotLine from '../hot/HotLine.astro';
+import EvidenceMark from '../ui/EvidenceMark.astro';
+import Icon from '../ui/Icon.astro';
+import NextEdition from '../ui/NextEdition.astro';
+import Base from '../../layouts/Base.astro';
+import {
+  bulletinPath,
+  storiesBySection,
+  storyPath,
+  type PublishedBulletin,
+} from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatLongDate } from '../../lib/format';
+import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const words = wordsFor(lang);
+const name = bulletinName(published.slot, lang);
+const groups = storiesBySection(published, lang);
+---
+
+<Base
+  title={`${words.brief}: ${name}, ${formatLongDate(published.bulletin.publishAt, lang)} | CSPNews`}
+  hour={editionHourFor(published.slot)}
+  lang={lang}
+>
+  <Header
+    lang={lang}
+    bulletinName={name}
+    contentsHref={bulletinPath(published, lang)}
+    contentsLabel={words.contents}
+  />
+  <HotLine lang={lang} />
+  <main class="brief">
+    <h1>{words.brief}</h1>
+    <p class="meta">{name}, {formatLongDate(published.bulletin.publishAt, lang)}. {words.briefHint}</p>
+
+    {
+      groups.map((group) => (
+        <section>
+          <h2>{sectionName(group.section, lang)}</h2>
+          <ol>
+            {group.stories.map(({ story }) => (
+              <li>
+                <a href={storyPath(published, story, lang)} lang={story.language}>
+                  <span class="title">
+                    <EvidenceMark label={story.label} lang={lang} variant="glyph" />
+                    {story.shortTitle}
+                  </span>
+                  <span class="what">{story.summary.what}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
+
+    <p class="end"><b>{words.endOfBulletin}.</b>{' '}<NextEdition published={published} lang={lang} /></p>
+    <a class="way" href={bulletinPath(published, lang)}>
+      <Icon name="contents" size={20} />
+      <span>{words.fullBulletin}</span>
+    </a>
+  </main>
+</Base>
+
+<style>
+  .brief {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 28px var(--gutter) 64px;
+  }
+
+  h1 {
+    font: 800 32px / 1.08 var(--f-head);
+    letter-spacing: -0.03em;
+  }
+
+  .meta {
+    margin-top: 8px;
+    color: var(--meta);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+
+  h2 {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ink);
+    font: 800 20px / 1.2 var(--f-head);
+    letter-spacing: -0.015em;
+  }
+
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li + li {
+    border-top: 1px solid var(--line);
+  }
+
+  li a {
+    display: grid;
+    gap: 6px;
+    padding: 16px 0;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .title {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font: 700 18px / 1.3 var(--f-body);
+  }
+
+  /* The mark stays on the title's first line when the title wraps. */
+  .title :global(.ev) {
+    flex: none;
+    margin-top: 3px;
+  }
+
+  li a:hover .title {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .what {
+    font: 400 17px / 1.5 var(--f-body);
+  }
+
+  .end {
+    margin-top: 40px;
+    color: var(--meta);
+    font: 500 16px / 1.4 var(--f-body);
+  }
+
+  .end b {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .way {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 56px;
+    margin-top: 16px;
+    padding: 12px 16px;
+    border: 1.5px solid var(--line2);
+    border-radius: 12px;
+    color: var(--ink);
+    font: 600 16px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  .way:hover {
+    border-color: var(--ink);
+  }
+
+  @media (width >= 1024px) {
+    .brief {
+      padding-top: 56px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+</style>

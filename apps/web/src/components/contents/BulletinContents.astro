@@ -1,6 +1,6 @@
 ---
 /** A whole Contents screen: the bulletin's name, its date and size, then the spine. */
-import { readingMinutes, type PublishedBulletin } from '../../lib/bulletins';
+import { briefPath, readingMinutes, type PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
@@ -24,6 +24,10 @@ const words = wordsFor(lang);
       `${formatLongDate(publishAt, lang)}, ${formatTime(publishAt, lang)}. ${bulletinSize(stories.length, readingMinutes(published, lang), lang)}.`
     }
   </p>
+  <a class="brief" href={briefPath(published, lang)}>
+    <Icon name="next" size={18} />
+    <span><b>{words.brief}.</b> {words.briefHint}</span>
+  </a>
   <a class="resume" href="#" data-resume hidden>
     <span class="resume-text">
       <span class="resume-label">{words.resume}</span>
@@ -56,6 +60,31 @@ const words = wordsFor(lang);
     margin-top: 8px;
     color: var(--meta);
     font: 400 16px / 1.5 var(--f-body);
+  }
+
+  /* The short way through: the whole bulletin in one sentence a story. */
+  .brief {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    margin-top: 10px;
+    color: var(--meta);
+    font: 400 16px / 1.4 var(--f-body);
+    text-decoration: none;
+  }
+
+  .brief b {
+    color: var(--ink);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .brief :global(svg) {
+    flex: none;
+    color: var(--hour);
   }
 
   /* Once the reader has started, one quiet line back to where they stopped. */

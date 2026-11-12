@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 
 import { describe, expect, it } from 'vitest';
 
-import { loadBulletins, readBulletinFile, storyPath } from './bulletins.js';
+import { briefPath, loadBulletins, readBulletinFile, storyPath } from './bulletins.js';
 
 const FIXTURES = fileURLToPath(new URL('../../fixtures/bulletins', import.meta.url));
 const SAMPLE = '2026-11-11-evening.json';
@@ -33,5 +33,11 @@ describe('bulletins', () => {
     const published = readBulletinFile(SAMPLE, sample());
     const story = published.bulletin.stories[0];
     expect(story && storyPath(published, story)).toBe('/2026-11-11/evening/tcmb-faiz-indirimi');
+  });
+
+  it('puts the one-minute page under the bulletin, in either language', () => {
+    const published = readBulletinFile(SAMPLE, sample());
+    expect(briefPath(published)).toBe('/2026-11-11/evening/brief');
+    expect(briefPath(published, 'tr')).toBe('/tr/2026-11-11/evening/brief');
   });
 });
