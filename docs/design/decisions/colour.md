@@ -1,0 +1,3 @@
+# Colour
+
+Warm black (dark, the default) or paper (light). The **edition hour** colours the edition: the 3 px top edge and the header's progress. Each **section** owns one hue (Türkiye coral, Tech sky, World teal), set with `data-section` on any element, which points `--sec` at it. A section hue lives only in lines, dots, labels and faint fields (8% at most): its stretch of the Contents line and station, the section name above a headline, the field behind the three summary lines. Never body text, never buttons. Evidence marks and Hot News keep their own hues and always carry a shape, so a hue alone never carries meaning.

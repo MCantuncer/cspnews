@@ -1,7 +1,7 @@
 import type { KeyNumber, LocalStory, Place, StoryImage } from '@cspnews/core';
 
 /**
- * Each story gets one visual, in this order (docs/design/system.md, "Visuals"): the lead
+ * Each story gets one visual, in this order (docs/design/decisions/visuals.md): the lead
  * outlet's credited photo, a labelled chart of the key number, a locator map, the
  * organisation's logo, or nothing. Never a stock or decorative image.
  */

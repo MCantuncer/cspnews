@@ -1,0 +1,3 @@
+# Follow
+
+One quiet card at the end of a story on a phone, beside it on wide screens: a title, one line and one button. Following keeps what the reader saw (outlets, evidence label, last update) in this browser only, no account needed, and forgets a story nobody opened for 30 days. The next Contents that carries the story opens with **Since you last read**: one card per followed story that moved, with one line per change (a new label first, then the outlets that joined and the new total, else the update time). Opening the story clears it. Stories are matched by their id, which is the first article of the group, so a story that loses its first article in a later collection starts over as a new one.

@@ -1,5 +1,5 @@
 /**
- * The Stations icon set (docs/design/system.md, "Icons"): every icon is a station on a short
+ * The Stations icon set (docs/design/decisions/icons.md): every icon is a station on a short
  * piece of the day line. 24px grid, 1.75px stroke, round caps. Each entry is the inner SVG
  * markup, drawn with `currentColor`; `--faint` and `--meta2` mark the quiet parts.
  */

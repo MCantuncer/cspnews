@@ -4,7 +4,7 @@ import type { Section, Source, StorySource } from '@cspnews/core';
 import type { EvidenceLabel, InterfaceLanguage } from './evidence.js';
 
 /**
- * The evidence drawer's camp map (docs/design/system.md, "Evidence drawer"): one row per
+ * The evidence drawer's camp map (docs/design/decisions/evidence-drawer.md): one row per
  * editorial camp, each outlet by name with a three-step reliability meter. For Türkiye stories
  * the political camps always show, so an empty camp is visible as an empty slot; elsewhere only
  * camps with outlets show.

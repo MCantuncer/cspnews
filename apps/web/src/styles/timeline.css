@@ -1,5 +1,5 @@
 /*
- * A story's timeline (docs/design/system.md, "Timeline"). It starts folded as one horizontal
+ * A story's timeline (docs/design/decisions/timeline.md). It starts folded as one horizontal
  * line of stations; the whole line is the toggle and opens the upright list with every step
  * and its detail. Shared by the story page (Timeline.astro) and the Hot News page, which builds
  * the same markup in the browser (src/lib/timeline-view.ts).
