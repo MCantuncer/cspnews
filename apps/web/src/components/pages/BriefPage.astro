@@ -50,7 +50,7 @@ const groups = storiesBySection(published, lang);
 
     {
       groups.map((group) => (
-        <section>
+        <section data-section={group.section}>
           <h2>{sectionName(group.section, lang)}</h2>
           <ol>
             {group.stories.map(({ story }) => (
@@ -98,7 +98,8 @@ const groups = storiesBySection(published, lang);
   h2 {
     margin-top: 40px;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--ink);
+    border-bottom: 2px solid var(--sec);
+    color: var(--sec);
     font: 800 20px / 1.2 var(--f-head);
     letter-spacing: -0.015em;
   }

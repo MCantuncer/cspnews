@@ -40,6 +40,10 @@
   --dusk: #f39a4a;
   --night: #86a2ea;
   --hour: var(--dawn);
+  --sec-turkey: #f08a72;
+  --sec-tech: #7fb3f0;
+  --sec-world: #62c2b2;
+  --sec: var(--line2);
 
   color-scheme: dark;
 }
@@ -67,6 +71,9 @@
   --noon: #6b5e3a;
   --dusk: #b5531a;
   --night: #3a5bb0;
+  --sec-turkey: #a8432c;
+  --sec-tech: #1f5f9e;
+  --sec-world: #13695d;
 
   color-scheme: light;
 }
@@ -95,9 +102,24 @@
     --noon: #6b5e3a;
     --dusk: #b5531a;
     --night: #3a5bb0;
+    --sec-turkey: #a8432c;
+    --sec-tech: #1f5f9e;
+    --sec-world: #13695d;
 
     color-scheme: light;
   }
+}
+
+/* Each section owns one hue, used in lines, dots, labels and faint fields only, never for body
+   text. `data-section` on any element points `--sec` at it for everything inside. */
+[data-section='turkey'] {
+  --sec: var(--sec-turkey);
+}
+[data-section='tech'] {
+  --sec: var(--sec-tech);
+}
+[data-section='world'] {
+  --sec: var(--sec-world);
 }
 
 :root[data-hour='dawn'] {
