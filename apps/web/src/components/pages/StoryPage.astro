@@ -73,9 +73,10 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
   <aside class="rail">
     <Contents published={published} lang={lang} currentId={story.id} compact />
   </aside>
-  <main class="page" data-read-key={readKey(published, story)}>
+  <main class="page" data-read-key={readKey(published, story)} data-section={story.section}>
     <article class="story">
       <div class="lead" lang={story.language}>
+        <p class="section-name" lang={lang}>{sectionName(story.section, lang)}</p>
         <h1>{story.title}</h1>
         <EvidenceLine
           label={story.label}
@@ -227,6 +228,24 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
   /* Under the headline the summary needs less air than it does under a picture. */
   .summary :global(.summary) {
     margin-top: 20px;
+  }
+
+  /* The section's name in its own hue, on a short line of the same colour. */
+  .section-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 12px;
+    color: var(--sec);
+    font: 700 14px / 1.3 var(--f-body);
+  }
+
+  .section-name::before {
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: currentcolor;
+    content: '';
   }
 
   h1 {
