@@ -1,7 +1,16 @@
 ---
 /** A whole Contents screen: the bulletin's name, its date and size, then the spine. */
-import { briefPath, readingMinutes, type PublishedBulletin } from '../../lib/bulletins';
-import type { InterfaceLanguage } from '../../lib/evidence';
+import {
+  briefPath,
+  readingMinutes,
+  storiesIn,
+  storyPath,
+  type PublishedBulletin,
+} from '../../lib/bulletins';
+import { evidenceWord, type InterfaceLanguage } from '../../lib/evidence';
+import type { StoryNow } from '../../lib/follow';
+import { followWords } from '../../lib/follow-words';
+import { sourceName } from '../../lib/sources';
 import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import { GAME_PATHS, todayLine } from '../../lib/word';
@@ -16,6 +25,17 @@ interface Props {
 const { published, lang } = Astro.props;
 const { publishAt, stories } = published.bulletin;
 const words = wordsFor(lang);
+// Followed stories are compared in the browser; the page carries what each story is now.
+const now: StoryNow[] = storiesIn(published, lang).map((story) => ({
+  id: story.id,
+  title: story.shortTitle,
+  href: storyPath(published, story, lang),
+  section: story.section,
+  label: story.label,
+  labelWord: evidenceWord(story.label, lang),
+  sources: story.sources.map((s) => ({ id: s.sourceId, name: sourceName(s.sourceId) })),
+  updatedAt: story.updatedAt,
+}));
 ---
 
 <main class="screen">
@@ -33,6 +53,10 @@ const words = wordsFor(lang);
     <Icon name="word" size={18} />
     <span><b>{words.wordToday}.</b> <span data-word-line>{todayLine({ kind: 'new' }, lang)}</span></span>
   </a>
+  <section class="since" data-since={JSON.stringify(now)} data-lang={lang} hidden>
+    <h2>{followWords(lang).since}</h2>
+    <ul data-since-list></ul>
+  </section>
   <a class="resume" href="#" data-resume hidden>
     <span class="resume-text">
       <span class="resume-label">{words.resume}</span>
@@ -46,10 +70,12 @@ const words = wordsFor(lang);
 <script>
   import { showResume } from '../../lib/read';
 
+  import { showMoved } from '../../lib/follow-view';
   import { showWordToday } from '../../lib/word-entry';
 
   showResume(document);
   showWordToday(document);
+  showMoved(document);
 </script>
 
 <style>
@@ -100,6 +126,63 @@ const words = wordsFor(lang);
   .brief :global(svg) {
     flex: none;
     color: var(--hour);
+  }
+
+  /* Followed stories that moved since they were read come first, each with what changed. */
+  .since {
+    max-width: 560px;
+    margin-top: 28px;
+  }
+
+  .since h2 {
+    font: 800 22px / 1.15 var(--f-head);
+    letter-spacing: -0.015em;
+  }
+
+  .since ul {
+    display: grid;
+    gap: 10px;
+    margin: 14px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .since :global(a) {
+    display: grid;
+    gap: 8px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--sec, var(--hour)) 8%, transparent);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .since :global(a:hover .since-title) {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .since :global(.since-title) {
+    font: 700 19px / 1.25 var(--f-head);
+  }
+
+  .since :global(.since-change) {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    color: var(--ink2);
+    font: 400 15px / 1.45 var(--f-body);
+  }
+
+  .since :global(.since-change::before) {
+    flex: none;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--sec, var(--hour));
+    transform: translateY(-2px);
+    content: '';
   }
 
   /* A finished day tints the mark and the note: green when solved, red when out of tries. */
