@@ -102,6 +102,25 @@ export async function loadHotFeed(url = HOT_FEED_URL): Promise<HotFeed | undefin
   }
 }
 
+export type HotPageState = 'story' | 'quiet' | 'gone';
+
+/**
+ * What the Hot News page shows for a feed and the `?id=` it was opened with. With no id it
+ * shows the newest story, or says that nothing is breaking; a story that has left the feed
+ * is "gone", which is different from there being no news.
+ */
+export function hotPageStory(
+  feed: HotFeed,
+  id: string | null,
+): { state: HotPageState; story?: HotStory } {
+  if (id) {
+    const story = feed.stories.find((candidate) => candidate.id === id);
+    return story ? { state: 'story', story } : { state: 'gone' };
+  }
+  const [newest] = [...feed.stories].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  return newest ? { state: 'story', story: newest } : { state: 'quiet' };
+}
+
 /** Only https links from the feed are ever followed. */
 export function safeUrl(url: string): string | undefined {
   try {

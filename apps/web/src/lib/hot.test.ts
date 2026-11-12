@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { parseHotFeed, type HotFeed, type HotStory } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
-import { dismiss, isHotFeed, pickHotStory, readDismissed, safeUrl } from './hot.js';
+import { dismiss, hotPageStory, isHotFeed, pickHotStory, readDismissed, safeUrl } from './hot.js';
 
 const story = (id: string, updatedAt: string) => ({ id, updatedAt }) as HotStory;
 const feed = (stories: HotStory[]) => ({ version: 1, generatedAt: '', stories }) as HotFeed;
@@ -66,5 +66,26 @@ describe('isHotFeed', () => {
     expect(
       isHotFeed({ ...feed, stories: [{ ...story, sources: story?.sources.slice(0, 1) }] }),
     ).toBe(false);
+  });
+});
+
+describe('hotPageStory', () => {
+  const a = story('a', '2026-11-11T18:00:00+03:00');
+  const b = story('b', '2026-11-11T18:04:00+03:00');
+
+  it('shows the story the page was opened for', () => {
+    expect(hotPageStory(feed([a, b]), 'a')).toEqual({ state: 'story', story: a });
+  });
+
+  it('says a story has gone when it left the feed', () => {
+    expect(hotPageStory(feed([a]), 'b')).toEqual({ state: 'gone' });
+  });
+
+  it('shows the newest story when no story is named', () => {
+    expect(hotPageStory(feed([a, b]), null)).toEqual({ state: 'story', story: b });
+  });
+
+  it('is quiet when nothing is breaking', () => {
+    expect(hotPageStory(feed([]), null)).toEqual({ state: 'quiet' });
   });
 });

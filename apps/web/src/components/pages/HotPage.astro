@@ -26,6 +26,10 @@ const words = wordsFor(lang);
   <Header lang={lang} bulletinName={words.hotNews} />
   <main class="page" data-hot-page data-lang={lang}>
     <p class="state" data-state="loading">{words.hotLoading}</p>
+    <div class="state" data-state="quiet" hidden>
+      <h1 class="quiet">{words.hotQuiet}</h1>
+      <a class="action" href={home}>{words.backToBulletin}</a>
+    </div>
     <div class="state" data-state="gone" hidden>
       <p>{words.hotGone}</p>
       <a class="action" href={home}>{words.backToBulletin}</a>
@@ -61,7 +65,7 @@ const words = wordsFor(lang);
 
 <script>
   import { formatTime } from '../../lib/format';
-  import { loadHotFeed, safeUrl } from '../../lib/hot';
+  import { hotPageStory, loadHotFeed, safeUrl } from '../../lib/hot';
   import { updatedAt, wordsFor } from '../../lib/i18n';
   import { outletNames, sourceName } from '../../lib/sources';
   import { timelineFor } from '../../lib/timeline';
@@ -72,7 +76,7 @@ const words = wordsFor(lang);
   const page = document.querySelector<HTMLElement>('[data-hot-page]');
   const field = (name: string) => page?.querySelector<HTMLElement>(`[data-field="${name}"]`);
 
-  function show(state: 'loading' | 'gone' | 'error' | 'story') {
+  function show(state: 'loading' | 'quiet' | 'gone' | 'error' | 'story') {
     for (const el of page?.querySelectorAll<HTMLElement>('[data-state]') ?? []) {
       el.hidden = el.getAttribute('data-state') !== state;
     }
@@ -87,10 +91,9 @@ const words = wordsFor(lang);
       show('error');
       return;
     }
-    const id = new URLSearchParams(location.search).get('id');
-    const story = feed.stories.find((s) => s.id === id);
+    const { state, story } = hotPageStory(feed, new URLSearchParams(location.search).get('id'));
     if (!story) {
-      show('gone');
+      show(state === 'quiet' ? 'quiet' : 'gone');
       return;
     }
 
@@ -144,6 +147,11 @@ const words = wordsFor(lang);
     max-width: 680px;
     margin: 0 auto;
     padding: 28px var(--gutter) 48px;
+  }
+
+  .quiet {
+    font: 800 26px / 1.15 var(--f-head);
+    letter-spacing: -0.02em;
   }
 
   .state {
