@@ -26,6 +26,7 @@ import { ICONS } from './icons';
 import {
   GAME_PATHS,
   countdown,
+  gameKey,
   gameWordsFor,
   lostLineFor,
   msUntilNextWord,
@@ -33,6 +34,7 @@ import {
   parseSavedGame,
   praiseFor,
   puzzleDate,
+  resultsKey,
   shareText,
   type GameWords,
   type WindowDay,
@@ -43,9 +45,6 @@ const FLIP_STEP_MS = 170;
 const FLIP_MS = 460;
 const MESSAGE_MS = 2200;
 const HELP_SEEN = 'cspnews:word:help-seen';
-
-const gameKey = (language: GameLanguage) => `cspnews:word:${language}:game`;
-const resultsKey = (language: GameLanguage) => `cspnews:word:${language}:results`;
 
 function read(key: string): string | null {
   try {
