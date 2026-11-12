@@ -31,13 +31,39 @@ describe('labels', () => {
     developing: false,
   });
 
-  it('alternates rows for neighbours and drops a label that fits nowhere', () => {
+  it('gives every title a row: beside the line first, then further out', () => {
     const placed = placeLabels(
       [dot('a', 0.5), dot('b', 0.52), dot('c', 0.54), dot('d', 0.9)],
       1000,
       8,
     );
-    expect(placed.map((d) => d.label)).toEqual(['above', 'below', 'none', 'above']);
+    expect(placed.map((d) => [d.side, d.row])).toEqual([
+      ['above', 0],
+      ['below', 0],
+      ['above', 1],
+      ['above', 0],
+    ]);
+  });
+
+  it('keeps titles inside the lane and never overlapping in a row', () => {
+    const placed = placeLabels(
+      [dot('a', 0.99, 'A long title at the end'), dot('b', 0.0, 'Start'), dot('c', 0.01, 'Next')],
+      400,
+      8,
+    );
+    for (const d of placed) {
+      expect(d.labelAt).toBeGreaterThanOrEqual(0);
+      expect(d.labelAt * 400 + d.title.length * 8).toBeLessThanOrEqual(400);
+    }
+    for (const a of placed) {
+      for (const b of placed) {
+        if (a === b || a.side !== b.side || a.row !== b.row) continue;
+        const [first, second] = a.labelAt < b.labelAt ? [a, b] : [b, a];
+        expect(first.labelAt * 400 + first.title.length * 8).toBeLessThanOrEqual(
+          second.labelAt * 400,
+        );
+      }
+    }
   });
 
   it('places in time order whatever the input order', () => {

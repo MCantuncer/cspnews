@@ -85,6 +85,7 @@ const WORDS = {
     fullBulletin: 'Read the full bulletin',
     dayLanes: 'When each story broke',
     dayLanesNote: 'A ringed dot is still developing.',
+    dayLanesEnd: 'bulletin',
   },
   tr: {
     bulletin: {
@@ -164,6 +165,7 @@ const WORDS = {
     fullBulletin: 'Bültenin tamamını oku',
     dayLanes: 'Her haber ne zaman çıktı',
     dayLanesNote: 'Halkalı nokta: haber hâlâ gelişiyor.',
+    dayLanesEnd: 'bülteni',
   },
 } as const;
 
