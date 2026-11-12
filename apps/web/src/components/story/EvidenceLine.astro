@@ -38,9 +38,11 @@ const rest = outlets.length - shown.length;
   <span aria-hidden="true" class="mark"><EvidenceMark label={label} lang={lang} /></span>
   <span aria-hidden="true" class="outlets">
     {shown.join(', ')}
-    {rest > 0 && <span class="rest">+{rest}</span>}
+    <span class="tail">
+      {rest > 0 && <span class="rest">+{rest}</span>}
+      <Icon name="more" size={18} class="chevron" />
+    </span>
   </span>
-  <Icon name="more" size={18} class="chevron" />
 </button>
 {
   (developing || updated) && (
@@ -87,8 +89,17 @@ const rest = outlets.length - shown.length;
     font-size: 15px;
   }
 
-  .rest {
+  /* The count and the chevron stay together, so the chevron never wraps onto a line alone. */
+  .tail {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     margin-left: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .rest {
     color: var(--meta);
   }
 

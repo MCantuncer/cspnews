@@ -2,7 +2,8 @@
 /**
  * The evidence drawer (docs/design/system.md, "Evidence drawer"): what the label means, then
  * the camp map, one row per camp with a large count and each outlet by logo, name and a
- * three-step reliability meter. A bottom sheet on phones, a right panel on wide screens.
+ * three-step reliability meter. The count says what it counts (independent reports), copies
+ * are set apart and carry no meter, and a short key under the list explains the meter. A bottom sheet on phones, a right panel on wide screens.
  * Built on the popover attribute, so it opens, closes on Esc and on a tap outside, without
  * any script.
  */
@@ -10,7 +11,7 @@ import type { Section, StorySource } from '@cspnews/core';
 
 import { campMap, labelMeaning } from '../../lib/camps';
 import type { EvidenceLabel, InterfaceLanguage } from '../../lib/evidence';
-import { outletCount, reliabilityLabel, wordsFor } from '../../lib/i18n';
+import { independentReports, reliabilityLabel, reportTotals, wordsFor } from '../../lib/i18n';
 import { outletLogoUrl } from '../../lib/media';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
@@ -26,7 +27,9 @@ interface Props {
 const { id, label, sources, section, lang } = Astro.props;
 const words = wordsFor(lang);
 const rows = campMap(sources, section, lang);
-const total = rows.reduce((sum, row) => sum + row.count, 0);
+const independent = rows.reduce((sum, row) => sum + row.count, 0);
+const copies = rows.reduce((sum, row) => sum + row.copies, 0);
+const METER_STEPS = [3, 2, 1] as const;
 ---
 
 <div class="drawer" id={id} popover role="dialog" aria-labelledby={`${id}-title`}>
@@ -44,7 +47,8 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
   </div>
   <p class="meaning">{labelMeaning(label, lang)}</p>
 
-  <h3 class="who">{words.whoReports}<span class="total">{outletCount(total, lang)}</span></h3>
+  <h3 class="who">{words.whoReports}<span class="total">{reportTotals(independent, copies, lang)}</span></h3>
+  <p class="meter-head" aria-hidden="true">{words.reliability}</p>
   <ol class="camps">
     {
       rows.map((row) => (
@@ -53,10 +57,10 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
             {row.count}
           </span>
           <div class="camp-body">
-            <h4 class="camp-name">
-              {row.name}
-              <span class="visually-hidden">, {outletCount(row.count, lang)}</span>
-            </h4>
+            <h4 class="camp-name">{row.name}</h4>
+            {row.outlets.length > 0 && (
+              <p class="counted">{independentReports(row.count, lang)}</p>
+            )}
             {row.outlets.length === 0 ? (
               <p class="none">{words.noOutlet}</p>
             ) : (
@@ -75,16 +79,18 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
                           {outlet.name}
                           {!outlet.confirms && <span class="copy-note">, {words.republished}</span>}
                         </span>
-                        <span
-                          class="meter"
-                          role="img"
-                          aria-label={reliabilityLabel(outlet.steps, lang)}
-                          data-steps={outlet.steps}
-                        >
-                          <i />
-                          <i />
-                          <i />
-                        </span>
+                        {outlet.confirms && (
+                          <span
+                            class="meter"
+                            role="img"
+                            aria-label={reliabilityLabel(outlet.steps, lang)}
+                            data-steps={outlet.steps}
+                          >
+                            <i />
+                            <i />
+                            <i />
+                          </span>
+                        )}
                       </a>
                     </li>
                   );
@@ -96,6 +102,23 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
       ))
     }
   </ol>
+  <div class="key">
+    <ul class="key-steps" aria-label={words.reliability}>
+      {
+        METER_STEPS.map((steps, index) => (
+          <li>
+            <span class="meter" aria-hidden="true" data-steps={steps}>
+              <i />
+              <i />
+              <i />
+            </span>
+            {words.reliabilityKey[index]}
+          </li>
+        ))
+      }
+    </ul>
+    {copies > 0 && <p class="key-note">{words.copyNote}</p>}
+  </div>
 </div>
 
 <style>
@@ -185,8 +208,17 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
     font-weight: 500;
   }
 
+  /* The caption of the meter column, at its right edge. */
+  .meter-head {
+    margin-top: 10px;
+    color: var(--meta);
+    font: 500 14px / 1.3 var(--f-body);
+    text-align: right;
+  }
+
   .camps,
-  .outlets {
+  .outlets,
+  .key-steps {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -214,6 +246,12 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
     color: var(--ink);
     font: 700 16px / 1.3 var(--f-body);
     letter-spacing: 0;
+  }
+
+  .counted {
+    margin-top: 2px;
+    color: var(--meta);
+    font: 500 14px / 1.4 var(--f-body);
   }
 
   .none {
@@ -262,6 +300,34 @@ const total = rows.reduce((sum, row) => sum + row.count, 0);
 
   .copy-note {
     font-size: 14px;
+  }
+
+  /* A copy is not a second report: quieter, and without a reliability meter. */
+  .copy .logo {
+    opacity: 0.55;
+  }
+
+  .key {
+    margin-top: 20px;
+    color: var(--meta);
+    font: 400 14px / 1.5 var(--f-body);
+  }
+
+  .key-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+  }
+
+  .key-steps li {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .key-note {
+    max-width: 38em;
+    margin-top: 10px;
   }
 
   /* Three steps, filled by reliability. */

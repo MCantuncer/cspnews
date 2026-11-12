@@ -79,6 +79,8 @@ export interface CampRow {
   readonly name: string;
   /** Outlets that confirm the story independently. */
   readonly count: number;
+  /** Outlets that only republished another outlet's text: listed, never counted. */
+  readonly copies: number;
   readonly outlets: readonly CampOutlet[];
 }
 
@@ -114,6 +116,7 @@ export function campMap(
       camp,
       name: CAMP_NAMES[language][camp],
       count: outlets.filter((outlet) => outlet.confirms).length,
+      copies: outlets.filter((outlet) => !outlet.confirms).length,
       outlets,
     };
   });
