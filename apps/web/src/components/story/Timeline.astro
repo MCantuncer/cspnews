@@ -7,6 +7,7 @@
 import '../../styles/timeline.css';
 
 import { EVIDENCE, evidenceWord } from '../../lib/evidence';
+import { wordsFor } from '../../lib/i18n';
 import { logosFor } from '../../lib/media';
 import { compactStations, type Timeline, type TimelinePoint } from '../../lib/timeline';
 import Icon from '../ui/Icon.astro';
@@ -18,6 +19,7 @@ interface Props {
 
 const { timeline, lang } = Astro.props;
 const across = compactStations(timeline.points);
+const latest = wordsFor(lang).latest;
 const pointLogos = (point: TimelinePoint) => logosFor(point.sourceIds ?? [], 5);
 ---
 
@@ -43,7 +45,7 @@ const pointLogos = (point: TimelinePoint) => logosFor(point.sourceIds ?? [], 5);
               ]}
             >
               <span class="tl__when">{station.point.when}</span>
-              <span class="tl__dot" />
+              <span class="tl__dot" title={station.point.current ? latest : undefined} />
               <span class="tl__title">
                 {station.point.label ? (
                   <span class="tl__ev" style={`--ev: var(${EVIDENCE[station.point.label].token})`}>
@@ -69,8 +71,11 @@ const pointLogos = (point: TimelinePoint) => logosFor(point.sourceIds ?? [], 5);
             { tl__current: point.current, tl__confirmed: point.confirmed },
           ]}
         >
-          <span class="tl__when">{point.when}</span>
-          <span class="tl__dot" aria-hidden="true" />
+          <span class="tl__when">
+            {point.when}
+            {point.current && <span class="tl__latest">{latest}</span>}
+          </span>
+          <span class="tl__dot" aria-hidden="true" title={point.current ? latest : undefined} />
           <span class="tl__title">
             {point.label ? (
               <span class="tl__ev" style={`--ev: var(${EVIDENCE[point.label].token})`}>

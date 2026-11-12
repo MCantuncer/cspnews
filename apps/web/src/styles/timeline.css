@@ -209,6 +209,15 @@
   font-weight: 700;
 }
 
+/* The big dot in the hour colour is the latest step; the open list says so in words. */
+.tl__latest {
+  display: block;
+  color: var(--hour);
+  font: 700 12px / 1.3 var(--f-body);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 /* The moment the story became Confirmed: its station takes the Confirmed colour. */
 .tl__confirmed .tl__dot {
   background: var(--conf);
