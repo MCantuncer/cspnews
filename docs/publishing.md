@@ -27,3 +27,8 @@ Every reader gets the whole bulletin in their own language, so both versions mus
 - **Timeline updates** carry their note in both languages: `"note": { "en": "…", "tr": "…" }`.
 
 Hot News is not written by the Write run (it runs on rules only), so a Hot story shows the lead outlet's headline in its own language until the next bulletin covers it.
+
+## When an edition is late
+
+- **On the site.** The end-of-bulletin line is corrected in the browser: ten minutes after the next edition was due with nothing published it reads "The 22:30 edition is running late", and after six hours "No newer edition has been published yet" (`apps/web/src/lib/next-edition.ts`).
+- **For the owner.** `.github/workflows/late-edition.yml` runs 20 minutes after each slot and checks that the edition's file is on `main` (`pnpm --filter @cspnews/pipeline check-edition "$PWD/data/bulletins"`). A missing edition opens one issue labelled `late-edition`, which GitHub emails to the repository owner, and the issue closes itself when an edition is next on time. The check is off until the repository variable `LATE_EDITION_ALERT` is set to `on`.

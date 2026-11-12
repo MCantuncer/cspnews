@@ -104,6 +104,23 @@ export function nextBulletin(
   throw new Error('The schedule has no bulletin slots');
 }
 
+/** The most recent bulletin due at or before `now`: the one that should be published by now. */
+export function lastDueBulletin(
+  now: Date,
+  slots: readonly BulletinSlot[] = BULLETIN_SLOTS,
+): ScheduledBulletin {
+  for (let offset = 0; offset <= 7; offset += 1) {
+    const date = istanbulDateOf(new Date(now.getTime() - offset * MS_PER_DAY));
+    const due = bulletinsOn(date, slots)
+      .filter((b) => b.publishAt <= now)
+      .at(-1);
+    if (due) {
+      return due;
+    }
+  }
+  throw new Error('The schedule has no bulletin slots');
+}
+
 /** Minutes between Hot News checks: every 2 minutes on weekdays, every 4 on weekends. */
 export function hotNewsIntervalMinutes(now: Date): number {
   return isWeekend(istanbulDateOf(now)) ? 4 : 2;

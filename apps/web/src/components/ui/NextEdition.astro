@@ -1,0 +1,45 @@
+---
+/**
+ * "Next at 22:30." The time is written at build; on the latest edition the browser corrects
+ * the line once that time has passed with nothing new published (lib/next-edition.ts), so the
+ * page never promises an edition that did not come. Older editions keep the plain line: what
+ * followed them is already published.
+ */
+import { nextBulletin } from '@cspnews/core';
+
+import { loadBulletins, type PublishedBulletin } from '../../lib/bulletins';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatTime } from '../../lib/format';
+import { nextBulletinAt } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const dueAt = nextBulletin(new Date(published.bulletin.publishAt)).publishAt;
+const time = formatTime(dueAt.toISOString(), lang);
+const newest = loadBulletins()
+  .map((other) => Date.parse(other.bulletin.publishAt))
+  .reduce((latest, at) => Math.max(latest, at), 0);
+const isLatest = Date.parse(published.bulletin.publishAt) >= newest;
+---
+
+<span
+  data-next-edition={isLatest ? dueAt.toISOString() : undefined}
+  data-time={time}
+  data-lang={lang}>{nextBulletinAt(time, lang)}</span
+>
+
+<script>
+  import { editionState, nextEditionLine } from '../../lib/next-edition';
+
+  for (const line of document.querySelectorAll<HTMLElement>('[data-next-edition]')) {
+    const due = Date.parse(line.dataset.nextEdition ?? '');
+    const lang = line.dataset.lang === 'tr' ? 'tr' : 'en';
+    if (Number.isNaN(due)) continue;
+    const state = editionState(new Date(due), new Date());
+    if (state !== 'due') line.textContent = nextEditionLine(state, line.dataset.time ?? '', lang);
+  }
+</script>
