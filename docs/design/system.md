@@ -24,7 +24,7 @@ One family, Funnel. **Funnel Display** for headlines, facts and the wordmark (as
 
 ### Colour
 
-Warm black (dark, the default) or paper (light). The only colour is the **edition hour**, used flat: a 3 px top edge and the current station. Evidence marks and Hot News are the only other hues.
+Warm black (dark, the default) or paper (light). The **edition hour** colours the edition: the 3 px top edge and the header's progress. Each **section** owns one hue (Türkiye coral, Tech sky, World teal), set with `data-section` on any element, which points `--sec` at it. A section hue lives only in lines, dots, labels and faint fields (8% at most): its stretch of the Contents line and station, the section name above a headline, the field behind the three summary lines. Never body text, never buttons. Evidence marks and Hot News keep their own hues and always carry a shape, so a hue alone never carries meaning.
 
 ### Icons
 
@@ -113,7 +113,15 @@ Values are taken from the mockups. Components use tokens only, never raw colours
 | `--dusk`   | `#f39a4a` | `#b5531a` | 18:30 edition             |
 | `--night`  | `#86a2ea` | `#3a5bb0` | 22:30 edition             |
 
-`--hour` points at the current edition's colour.
+Section hues:
+
+| Token          | Dark      | Light     | Use             |
+| -------------- | --------- | --------- | --------------- |
+| `--sec-turkey` | `#f08a72` | `#a8432c` | Türkiye section |
+| `--sec-tech`   | `#7fb3f0` | `#1f5f9e` | Tech section    |
+| `--sec-world`  | `#62c2b2` | `#13695d` | World section   |
+
+`--hour` points at the current edition's colour; `--sec` at the section's hue inside `data-section`.
 
 ## Never
 

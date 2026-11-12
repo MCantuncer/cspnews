@@ -30,20 +30,28 @@ const rows = [
 </dl>
 
 <style>
+  /* A faint field in the section's hue holds the three lines together (falls back to plain
+     hairlines outside a section). */
   .summary {
     margin-top: 32px;
-    border-top: 1px solid var(--line);
+    padding: 4px 20px;
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--sec) 8%, transparent);
   }
 
   .row {
     display: grid;
     gap: 4px;
     padding: 16px 0;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid color-mix(in srgb, var(--sec) 22%, transparent);
+  }
+
+  .row:last-child {
+    border-bottom: 0;
   }
 
   dt {
-    color: var(--ink);
+    color: color-mix(in srgb, var(--sec) 55%, var(--ink));
     font: 700 15px / 1.5 var(--f-body);
   }
 
