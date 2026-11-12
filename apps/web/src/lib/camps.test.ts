@@ -37,6 +37,7 @@ describe('campMap', () => {
     expect(rows).toHaveLength(1);
     expect(rows[0]?.name).toBe('Uzman yayınlar');
     expect(rows[0]?.count).toBe(1);
+    expect(rows[0]?.copies).toBe(1);
     expect(rows[0]?.outlets.map((o) => [o.name, o.confirms])).toEqual([
       ['The Verge', true],
       ['Wired', false],

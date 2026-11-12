@@ -43,6 +43,9 @@ const WORDS = {
     whoReports: 'Who reports it',
     noOutlet: 'No outlet from this camp',
     republished: 'republished it',
+    reliability: 'Reliability',
+    reliabilityKey: ['News agency', 'Established outlet', 'Other outlet'],
+    copyNote: 'An outlet that republished another outlet\u2019s text is listed, but not counted.',
     openEvidence: 'Show sources',
     hotNews: 'Hot News',
     dismissHot: 'Dismiss Hot News',
@@ -112,6 +115,9 @@ const WORDS = {
     whoReports: 'Kimler bildiriyor',
     noOutlet: 'Bu kesimden kaynak yok',
     republished: 'yeniden yayımladı',
+    reliability: 'Güvenilirlik',
+    reliabilityKey: ['Haber ajansı', 'Köklü yayın', 'Diğer yayın'],
+    copyNote: 'Başka bir yayının metnini yeniden yayımlayan kaynak listelenir, ama sayılmaz.',
     openEvidence: 'Kaynakları göster',
     hotNews: 'Son Dakika',
     dismissHot: 'Son dakikayı kapat',
@@ -244,6 +250,33 @@ export function readCount(count: number, language: InterfaceLanguage): string {
 export function outletCount(count: number, language: InterfaceLanguage): string {
   if (language === 'tr') return `${String(count)} kaynak`;
   return `${String(count)} outlet${count === 1 ? '' : 's'}`;
+}
+
+/**
+ * "2 independent reports" / "2 bağımsız haber": what a camp's large number counts. An outlet
+ * that only republished another's text is listed under the camp but is not one of these.
+ */
+export function independentReports(count: number, language: InterfaceLanguage): string {
+  if (language === 'tr') return `${String(count)} bağımsız haber`;
+  return `${String(count)} independent report${count === 1 ? '' : 's'}`;
+}
+
+/**
+ * The drawer's total, in the same terms as the evidence line that opens it: every listed
+ * outlet is either independent or a copy, so the two numbers add up to the line's count.
+ * "9 independent, 1 copy" / "9 bağımsız, 1 kopya"; with no copies, "9 independent".
+ */
+export function reportTotals(
+  independent: number,
+  copies: number,
+  language: InterfaceLanguage,
+): string {
+  if (language === 'tr') {
+    const base = `${String(independent)} bağımsız`;
+    return copies > 0 ? `${base}, ${String(copies)} kopya` : base;
+  }
+  const base = `${String(independent)} independent`;
+  return copies > 0 ? `${base}, ${String(copies)} ${copies === 1 ? 'copy' : 'copies'}` : base;
 }
 
 /** "Reliability 2 of 3" / "Güvenilirlik 3 üzerinden 2". */
