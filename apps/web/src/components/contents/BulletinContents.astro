@@ -53,6 +53,7 @@ const now: StoryNow[] = storiesIn(published, lang).map((story) => ({
   <a class="brief word" href={GAME_PATHS[lang]} data-word-today={lang}>
     <Icon name="word" size={18} />
     <span><b>{words.wordToday}.</b> <span data-word-line>{todayLine({ kind: 'new' }, lang)}</span></span>
+    <span class="word-marks" data-word-marks aria-hidden="true" hidden></span>
   </a>
   <section class="since" data-since={JSON.stringify(now)} data-lang={lang} hidden>
     <h2>{followWords(lang).since}</h2>
@@ -187,15 +188,67 @@ const now: StoryNow[] = storiesIn(published, lang).map((story) => ({
     content: '';
   }
 
-  /* A finished day tints the mark and the note: green when solved, red when out of tries. */
-  .word[data-state='solved'] :global(svg),
-  .word[data-state='solved'] [data-word-line] {
-    color: var(--conf);
+  /* After a first guess: a badge for a finished day, then the six tries as in the game. */
+  .word-marks {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 4px;
   }
 
-  .word[data-state='lost'] :global(svg),
-  .word[data-state='lost'] [data-word-line] {
-    color: var(--disp);
+  .word-marks[hidden] {
+    display: none;
+  }
+
+  .word-marks :global(.word-badge) {
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: var(--bg);
+  }
+
+  .word-marks :global(.word-badge svg) {
+    color: inherit;
+  }
+
+  .word-marks :global(.word-pips) {
+    display: inline-flex;
+    gap: 4px;
+  }
+
+  .word-marks :global(.word-pips i) {
+    display: block;
+    width: 14px;
+    height: 6px;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1.5px var(--line2);
+  }
+
+  .word-marks :global(.word-pips i.used) {
+    background: var(--meta2);
+    box-shadow: none;
+  }
+
+  /* Green when solved, red when out of tries: the mark, the badge and the tries used. */
+  .word[data-state='solved'] {
+    --tone: var(--conf);
+  }
+
+  .word[data-state='lost'] {
+    --tone: var(--disp);
+  }
+
+  .word[data-state='solved'] > :global(svg),
+  .word[data-state='lost'] > :global(svg) {
+    color: var(--tone);
+  }
+
+  .word[data-state] .word-marks :global(.word-badge),
+  .word[data-state='solved'] .word-marks :global(.word-pips i.used),
+  .word[data-state='lost'] .word-marks :global(.word-pips i.used) {
+    background: var(--tone);
   }
 
   /* Once the reader has started, one quiet line back to where they stopped. */
