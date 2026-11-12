@@ -11,6 +11,8 @@ import {
   praiseFor,
   puzzleDate,
   shareText,
+  todayLine,
+  todayState,
   windowDays,
 } from './word.js';
 
@@ -112,5 +114,36 @@ describe('msUntilNextWord and countdown', () => {
     expect(msUntilNextWord(new Date('2026-11-11T21:00:00Z'))).toBe(86_400_000);
     expect(countdown(3_600_000 + 4 * 60_000 + 9_000)).toBe('01:04:09');
     expect(countdown(-5)).toBe('00:00:00');
+  });
+});
+
+describe('the line to today’s word', () => {
+  const today = '2026-11-12';
+
+  it('invites a reader who has not played', () => {
+    expect(todayState(undefined, [], today)).toEqual({ kind: 'new' });
+    expect(todayState({ day: '2026-11-11', guesses: ['apple'] }, [], today)).toEqual({
+      kind: 'new',
+    });
+    expect(todayLine({ kind: 'new' }, 'en')).toBe('Five letters, six tries.');
+  });
+
+  it('counts the tries left while a game is open', () => {
+    const state = todayState({ day: today, guesses: ['apple', 'crane'] }, [], today);
+    expect(state).toEqual({ kind: 'playing', tries: 2 });
+    expect(todayLine(state, 'en')).toBe('4 tries left.');
+    expect(todayLine({ kind: 'playing', tries: 5 }, 'en')).toBe('One try left.');
+    expect(todayLine(state, 'tr')).toBe('Kalan deneme: 4.');
+  });
+
+  it('prefers the finished day over the saved board', () => {
+    const saved = { day: today, guesses: ['apple', 'crane', 'stone'] };
+    const solved = todayState(saved, [{ day: today, tries: 3, solved: true }], today);
+    expect(solved).toEqual({ kind: 'solved', tries: 3 });
+    expect(todayLine(solved, 'en')).toBe('Solved in 3.');
+    expect(todayLine(solved, 'tr')).toBe('3. denemede bildin.');
+    expect(todayState(saved, [{ day: today, tries: 6, solved: false }], today)).toEqual({
+      kind: 'lost',
+    });
   });
 });

@@ -4,6 +4,7 @@ import { briefPath, readingMinutes, type PublishedBulletin } from '../../lib/bul
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
+import { GAME_PATHS, todayLine } from '../../lib/word';
 import Icon from '../ui/Icon.astro';
 import Contents from './Contents.astro';
 
@@ -28,6 +29,10 @@ const words = wordsFor(lang);
     <Icon name="next" size={18} />
     <span><b>{words.brief}.</b> {words.briefHint}</span>
   </a>
+  <a class="brief word" href={GAME_PATHS[lang]} data-word-today={lang}>
+    <Icon name="word" size={18} />
+    <span><b>{words.wordToday}.</b> <span data-word-line>{todayLine({ kind: 'new' }, lang)}</span></span>
+  </a>
   <a class="resume" href="#" data-resume hidden>
     <span class="resume-text">
       <span class="resume-label">{words.resume}</span>
@@ -41,7 +46,10 @@ const words = wordsFor(lang);
 <script>
   import { showResume } from '../../lib/read';
 
+  import { showWordToday } from '../../lib/word-entry';
+
   showResume(document);
+  showWordToday(document);
 </script>
 
 <style>
@@ -80,6 +88,13 @@ const words = wordsFor(lang);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
+  }
+
+  /* The day's word game sits right under it, so it can be played before, or instead of, reading. */
+  .word {
+    display: flex;
+    width: fit-content;
+    margin-top: 0;
   }
 
   .brief :global(svg) {
