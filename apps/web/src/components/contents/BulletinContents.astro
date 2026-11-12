@@ -16,6 +16,7 @@ import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import { GAME_PATHS, todayLine } from '../../lib/word';
 import Icon from '../ui/Icon.astro';
 import Contents from './Contents.astro';
+import DayLanes from './DayLanes.astro';
 
 interface Props {
   published: PublishedBulletin;
@@ -65,6 +66,7 @@ const now: StoryNow[] = storiesIn(published, lang).map((story) => ({
     </span>
     <Icon name="next" />
   </a>
+  <DayLanes published={published} lang={lang} />
   <Contents published={published} lang={lang} />
 </main>
 
