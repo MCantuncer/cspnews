@@ -1,5 +1,5 @@
 /**
- * Followed stories, remembered in this browser only (docs/design/system.md, "Follow"). For each
+ * Followed stories, remembered in this browser only (docs/design/decisions/follow.md). For each
  * one we keep what the reader last saw: its outlets, its evidence label and when it was last
  * updated. The next bulletin that carries the same story compares against that and says what
  * moved. Storage can be unavailable (private mode, blocked site data): then following simply

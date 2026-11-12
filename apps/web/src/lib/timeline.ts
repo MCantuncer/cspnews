@@ -60,7 +60,7 @@ export interface Timeline {
 }
 
 /**
- * The timeline a story shows (docs/design/system.md, "Timeline"): series stories show earlier
+ * The timeline a story shows (docs/design/decisions/timeline.md): series stories show earlier
  * values; every other story shows its own life. Fewer than two points is no timeline.
  */
 export function timelineFor(

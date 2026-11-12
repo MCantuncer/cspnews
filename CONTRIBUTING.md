@@ -26,7 +26,7 @@ pnpm check   # format, lint, typecheck and tests: the same gates as CI
 - **Link the why.** Reference the user story or feature a change serves (for example `US-20`, `F-06`) in the PR description.
 - **Green CI before merge.** `pnpm check` must pass locally and in CI.
 - **Tests with behaviour.** New logic comes with unit tests next to it (`*.test.ts`).
-- **Docs that merge cleanly.** Write decisions as short sections under their own heading, not as long cells in a table. The formatter re-pads every row of a table when one cell changes, so two PRs that touch different rows still conflict.
+- **Docs that merge cleanly.** Each design decision is its own file in `docs/design/decisions/`, so a new area means a new file and parallel PRs never edit the same lines. Don't add index lists that every PR appends to, and keep prose out of tables: the formatter re-pads every row of a table when one cell changes, so two PRs that touch different rows still conflict.
 
 ## Code conventions
 

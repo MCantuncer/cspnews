@@ -2,7 +2,7 @@ import { BULLETIN_SLOTS } from '@cspnews/core';
 
 /**
  * The edition hour: each bulletin has its own colour, used flat for the top edge and the
- * current station on the day line (docs/design/system.md, "Colour").
+ * current station on the day line (docs/design/decisions/colour.md).
  */
 export type EditionHour = 'dawn' | 'noon' | 'dusk' | 'night';
 

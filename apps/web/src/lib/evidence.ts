@@ -1,7 +1,7 @@
 import { EVIDENCE_LABEL_VALUES, type Language } from '@cspnews/core';
 import type { IconName } from './icons.js';
 
-/** The four evidence labels a story can carry (docs/design/system.md, "Evidence"). */
+/** The four evidence labels a story can carry (docs/design/decisions/evidence.md). */
 export type EvidenceLabel = (typeof EVIDENCE_LABEL_VALUES)[number];
 
 /** The reader's language: the interface and the story version both follow it. */
