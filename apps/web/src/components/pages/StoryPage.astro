@@ -92,10 +92,16 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
           openLabel={words.openEvidence}
         />
       </div>
-      <div class="main">
-        {timeline && <TimelineView timeline={timeline} lang={lang} />}
+      <div class="summary">
         <Summary summary={story.summary} words={words} lang={story.language} />
       </div>
+      {
+        timeline && (
+          <div class="timeline">
+            <TimelineView timeline={timeline} lang={lang} />
+          </div>
+        )
+      }
       {
         (visual.kind !== 'none' || hasFacts) && (
           <aside class="side">
@@ -179,7 +185,11 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     padding: 28px var(--gutter) 0;
   }
 
-  /* Phone order: headline, visual, timeline and summary, numbers, full story. */
+  /*
+   * Phone order: headline, summary, visual, timeline, numbers, full story. The three summary
+   * lines come straight after the headline so the first screen already tells the story
+   * (US-11); how the story spread is a second question, so the timeline follows the picture.
+   */
   .story {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
@@ -193,26 +203,36 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     order: 1;
   }
 
-  .visual {
+  .summary {
     order: 2;
-    margin-top: 24px;
   }
 
-  .main {
+  .visual {
     order: 3;
+    margin-top: 28px;
   }
 
-  .facts {
+  .timeline {
     order: 4;
   }
 
-  .body {
+  .facts {
     order: 5;
   }
 
+  .body {
+    order: 6;
+  }
+
+  /* Under the headline the summary needs less air than it does under a picture. */
+  .summary :global(.summary) {
+    margin-top: 20px;
+  }
+
   h1 {
-    font: 800 30px / 1.12 var(--f-head);
+    font: 800 27px / 1.14 var(--f-head);
     letter-spacing: -0.022em;
+    text-wrap: balance;
   }
 
   @media (width >= 1024px) {
@@ -227,14 +247,19 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     }
 
     .lead,
-    .main,
+    .summary,
+    .timeline,
     .body {
       grid-column: 1;
     }
 
+    .summary :global(.summary) {
+      margin-top: 28px;
+    }
+
     .side {
       display: block;
-      grid-row: 1 / span 3;
+      grid-row: 1 / span 4;
       grid-column: 2;
       padding-top: 8px;
     }
