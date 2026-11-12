@@ -1,4 +1,5 @@
 import { EVIDENCE, evidenceWord, type InterfaceLanguage } from './evidence.js';
+import { wordsFor } from './i18n.js';
 import { ICONS, type IconName } from './icons.js';
 import { compactStations, type Timeline, type TimelinePoint } from './timeline.js';
 
@@ -38,6 +39,8 @@ function stationElement(point: TimelinePoint, lang: InterfaceLanguage, open: boo
   const li = el('li', point.current ? 'tl__station tl__current' : 'tl__station');
   const dot = el('span', 'tl__dot');
   dot.setAttribute('aria-hidden', 'true');
+  const latest = wordsFor(lang).latest;
+  if (point.current) dot.title = latest;
   const title = el('span', 'tl__title');
   if (point.label) {
     const style = EVIDENCE[point.label];
@@ -49,7 +52,9 @@ function stationElement(point: TimelinePoint, lang: InterfaceLanguage, open: boo
   } else {
     title.textContent = point.title;
   }
-  li.append(el('span', 'tl__when', point.when), dot, title);
+  const when = el('span', 'tl__when', point.when);
+  if (open && point.current) when.append(el('span', 'tl__latest', latest));
+  li.append(when, dot, title);
   if (open && point.detail) li.append(el('span', 'tl__detail', point.detail));
   return li;
 }
