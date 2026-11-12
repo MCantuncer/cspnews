@@ -1,4 +1,4 @@
-import { cpSync, createReadStream, existsSync, statSync } from 'node:fs';
+import { cpSync, createReadStream, existsSync, statSync, writeFileSync } from 'node:fs';
 import { extname, join, normalize, resolve, sep } from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
@@ -55,7 +55,13 @@ const bulletinFiles = {
     'astro:build:done': ({ dir }) => {
       const out = fileURLToPath(dir);
       if (existsSync(media)) cpSync(media, join(out, 'media'), { recursive: true });
+      // With no saved feed, publish an empty one: the site then asks for /hot.json and gets
+      // "nothing breaking" instead of a 404 on every page, until the monitor publishes its own.
       if (existsSync(hotFeed)) cpSync(hotFeed, join(out, 'hot.json'));
+      else {
+        const empty = { version: 1, generatedAt: new Date().toISOString(), stories: [] };
+        writeFileSync(join(out, 'hot.json'), `${JSON.stringify(empty)}\n`);
+      }
     },
   },
 };
