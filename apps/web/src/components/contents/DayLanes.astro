@@ -1,0 +1,252 @@
+---
+/**
+ * When each story broke (docs/design/system.md, "Day lanes"): one lane per section, a dot per
+ * story at its first report, up to the bulletin's time. Wide screens name the dots where the
+ * names fit; phones show the dots alone. Every dot opens its story.
+ */
+import { storiesBySection, storyPath, type PublishedBulletin } from '../../lib/bulletins';
+import { dayLanes, dayWindow, brokeAt } from '../../lib/day-lanes';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatTime } from '../../lib/format';
+import { sectionName, wordsFor } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const words = wordsFor(lang);
+const groups = storiesBySection(published, lang);
+const time = (iso: string) => formatTime(iso, lang);
+const publishAt = published.bulletin.publishAt;
+const window = dayWindow(
+  groups.flatMap((g) => g.stories.map(({ story }) => brokeAt(story))),
+  publishAt,
+  time,
+);
+const lanes = dayLanes(groups, window, time);
+const hrefs = new Map(groups.flatMap((g) => g.stories.map(({ story }) => [story.id, storyPath(published, story, lang)])));
+const anyDeveloping = lanes.some((lane) => lane.dots.some((dot) => dot.developing));
+---
+
+<section class="lanes" aria-labelledby="lanes-title">
+  <h2 id="lanes-title">{words.dayLanes}</h2>
+  <div class="chart" style={`--lanes: ${String(lanes.length)}`}>
+    {
+      lanes.map((lane) => (
+        <div class="lane" data-section={lane.section}>
+          <span class="name">{sectionName(lane.section, lang)}</span>
+          <ol class="track">
+            {lane.dots.map((dot) => (
+              <li
+                class:list={['dot', dot.label, { developing: dot.developing, end: dot.at > 0.86, start: dot.at < 0.08 }]}
+                style={`--at: ${dot.at.toFixed(4)}`}
+              >
+                <a href={hrefs.get(dot.id)} aria-label={`${dot.title}, ${dot.time}`} title={`${dot.time} ${dot.title}`}>
+                  <span class="mark" />
+                  {dot.label !== 'none' && (
+                    <span class="label" aria-hidden="true">
+                      {dot.title}
+                    </span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))
+    }
+    <div class="scale" aria-hidden="true">
+      <span class="name" />
+      <span class="ticks">
+        {window.ticks.map((tick) => <span style={`--at: ${tick.at.toFixed(4)}`}>{tick.time}</span>)}
+        <span class="now" style="--at: 1">{time(publishAt)}</span>
+      </span>
+    </div>
+  </div>
+  {anyDeveloping && <p class="note">{words.dayLanesNote}</p>}
+</section>
+
+<style>
+  .lanes {
+    max-width: 1000px;
+    margin-top: 28px;
+  }
+
+  h2 {
+    color: var(--meta);
+    font: 700 15px / 1.3 var(--f-body);
+  }
+
+  .chart {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .lane,
+  .scale {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    align-items: center;
+    column-gap: 16px;
+  }
+
+  .lane {
+    border-top: 1px solid var(--line);
+  }
+
+  .lane:last-of-type {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .name {
+    color: var(--sec, var(--ink));
+    font: 700 13px / 1.2 var(--f-body);
+  }
+
+  .track {
+    position: relative;
+    height: 40px;
+    margin: 0 8px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .dot {
+    position: absolute;
+    top: 50%;
+    left: calc(var(--at) * 100%);
+  }
+
+  .dot a {
+    display: block;
+    color: var(--ink2);
+    text-decoration: none;
+  }
+
+  /* A generous tap area around a small dot. */
+  .dot a::before {
+    position: absolute;
+    inset: -16px;
+    content: '';
+  }
+
+  .mark {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--sec, var(--ink));
+  }
+
+  .developing .mark {
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--sec, var(--ink)) 25%, transparent);
+  }
+
+  .dot a:hover .mark,
+  .dot a:focus-visible .mark {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+
+  .label {
+    display: none;
+  }
+
+  .scale {
+    height: 26px;
+    color: var(--meta2);
+    font: 500 12px / 1 var(--f-body);
+  }
+
+  .ticks {
+    position: relative;
+    height: 100%;
+    margin: 0 8px;
+  }
+
+  .ticks > span {
+    position: absolute;
+    top: 8px;
+    left: calc(var(--at) * 100%);
+    transform: translateX(-50%);
+  }
+
+  /* The bulletin's own time ends the scale; it leans left so it stays inside the screen. */
+  .ticks .now {
+    color: var(--hour);
+    font-weight: 700;
+    transform: translateX(-80%);
+  }
+
+  .ticks .now::before {
+    position: absolute;
+    bottom: 18px;
+    left: 80%;
+    width: 2px;
+    height: calc(var(--lanes) * 41px);
+    background: var(--hour);
+    content: '';
+  }
+
+  .note {
+    margin-top: 6px;
+    color: var(--meta2);
+    font: 400 13px / 1.4 var(--f-body);
+  }
+
+  /* Wide screens have room to name the stories, above or below their dot. */
+  @media (width >= 1100px) {
+    .lane,
+    .scale {
+      grid-template-columns: 120px minmax(0, 1fr);
+    }
+
+    .name {
+      font-size: 14px;
+    }
+
+    .track {
+      height: 76px;
+    }
+
+    .label {
+      position: absolute;
+      left: 0;
+      display: block;
+      color: var(--ink2);
+      font: 600 13px / 1 var(--f-body);
+      white-space: nowrap;
+      transform: translateX(-50%);
+    }
+
+    .above .label {
+      bottom: 12px;
+    }
+
+    .below .label {
+      top: 12px;
+    }
+
+    .start .label {
+      transform: translateX(-8px);
+    }
+
+    .end .label {
+      transform: translateX(calc(-100% + 8px));
+    }
+
+    .ticks .now::before {
+      height: calc(var(--lanes) * 77px);
+    }
+
+    .dot a:hover .label {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+</style>

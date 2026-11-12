@@ -82,6 +82,10 @@ The reader's language (English or Turkish) is set in the reader corner sheet and
 
 One button at the right end of the header: the settings mark, or the reader's avatar once signed in. It opens a sheet (bottom sheet on phones, side panel from 720px) with the account row, language, theme, text size and the reading ruler. Changes apply at once.
 
+### Day lanes
+
+Under a bulletin's title: **When each story broke**. One lane per section, one dot per story at its first report, from the hour before the day's first story to the bulletin's time, which ends the scale in the hour colour. A developing story's dot carries a soft ring. Wide screens (1100 px and up) name the dots above or below, only where a name fits without touching a neighbour; the rest keep their name in the tooltip and the accessible label. Phones show the dots alone. Every dot opens its story.
+
 ### Navigation
 
 The bulletin name in the header opens Contents. Every story has its own URL; browser Back returns to Contents. Swipe or Next for the next story. Desktop shows Contents as a left rail and evidence as a right panel. `j`/`k` and the arrow keys do the same on a keyboard, and `e` opens the evidence. On phones the Next bar hides while the reader scrolls down, returns on a scroll up, and is only filled once the end of the story is in view.

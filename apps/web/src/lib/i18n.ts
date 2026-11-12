@@ -82,6 +82,8 @@ const WORDS = {
     brief: 'In one minute',
     briefHint: 'Every story in one sentence.',
     fullBulletin: 'Read the full bulletin',
+    dayLanes: 'When each story broke',
+    dayLanesNote: 'A ringed dot is still developing.',
   },
   tr: {
     bulletin: {
@@ -158,6 +160,8 @@ const WORDS = {
     brief: 'Bir dakikada',
     briefHint: 'Her haber tek cümlede.',
     fullBulletin: 'Bültenin tamamını oku',
+    dayLanes: 'Her haber ne zaman çıktı',
+    dayLanesNote: 'Halkalı nokta: haber hâlâ gelişiyor.',
   },
 } as const;
 

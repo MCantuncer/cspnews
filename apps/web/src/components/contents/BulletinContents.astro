@@ -6,6 +6,7 @@ import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import Icon from '../ui/Icon.astro';
 import Contents from './Contents.astro';
+import DayLanes from './DayLanes.astro';
 
 interface Props {
   published: PublishedBulletin;
@@ -35,6 +36,7 @@ const words = wordsFor(lang);
     </span>
     <Icon name="next" />
   </a>
+  <DayLanes published={published} lang={lang} />
   <Contents published={published} lang={lang} />
 </main>
 
