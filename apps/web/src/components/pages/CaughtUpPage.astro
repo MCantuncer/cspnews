@@ -5,11 +5,10 @@
  * quiet ways on: back over the stories, or the day's word game. An open Hot story shows in the
  * Hot line above, as on every page.
  */
-import { nextBulletin } from '@cspnews/core';
-
 import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
 import Icon from '../ui/Icon.astro';
+import NextEdition from '../ui/NextEdition.astro';
 import Base from '../../layouts/Base.astro';
 import {
   bulletinPath,
@@ -19,8 +18,7 @@ import {
 } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
-import { formatTime } from '../../lib/format';
-import { bulletinName, nextBulletinAt, sectionName, wordsFor } from '../../lib/i18n';
+import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
 
 interface Props {
   published: PublishedBulletin;
@@ -34,10 +32,6 @@ const leads = storiesBySection(published, lang)
   .map((group) => ({ section: group.section, story: group.stories[0]?.story }))
   .flatMap(({ section, story }) => (story ? [{ section, story }] : []))
   .slice(0, 3);
-const next = formatTime(
-  nextBulletin(new Date(published.bulletin.publishAt)).publishAt.toISOString(),
-  lang,
-);
 const wordHref = lang === 'tr' ? '/word/tr' : '/word';
 ---
 
@@ -53,7 +47,7 @@ const wordHref = lang === 'tr' ? '/word/tr' : '/word';
   <main class="done">
     <p class="mark" aria-hidden="true"><Icon name="tick" size={22} /></p>
     <h1>{words.caughtUp}.</h1>
-    <p class="next">{name}. {nextBulletinAt(next, lang)}</p>
+    <p class="next">{name}. <NextEdition published={published} lang={lang} /></p>
 
     <h2>{words.toRemember}</h2>
     <ol class="remember">

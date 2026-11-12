@@ -5,6 +5,7 @@ import {
   hotNewsIntervalMinutes,
   istanbulDateOf,
   isWeekend,
+  lastDueBulletin,
   nextBulletin,
 } from './schedule.js';
 
@@ -90,5 +91,30 @@ describe('hotNewsIntervalMinutes', () => {
   it('checks every 2 minutes on weekdays and every 4 on weekends', () => {
     expect(hotNewsIntervalMinutes(new Date('2026-11-11T12:00:00Z'))).toBe(2);
     expect(hotNewsIntervalMinutes(new Date('2026-11-14T12:00:00Z'))).toBe(4);
+  });
+});
+
+describe('lastDueBulletin', () => {
+  it('is the slot whose time has just passed', () => {
+    // 22:50 in Istanbul on a Wednesday: the late bulletin was due at 22:30.
+    const due = lastDueBulletin(new Date('2026-11-11T19:50:00Z'));
+    expect(due.slot.id).toBe('late');
+    expect(due.publishAt.toISOString()).toBe('2026-11-11T19:30:00.000Z');
+  });
+
+  it('counts a bulletin as due at its exact time', () => {
+    expect(lastDueBulletin(new Date('2026-11-11T15:30:00Z')).slot.id).toBe('evening');
+  });
+
+  it('reaches back to the previous day before the morning bulletin', () => {
+    // 06:00 in Istanbul on Thursday: the last one due was Wednesday's late bulletin.
+    const due = lastDueBulletin(new Date('2026-11-12T03:00:00Z'));
+    expect(due.slot.id).toBe('late');
+    expect(istanbulDateOf(due.publishAt)).toEqual(WEDNESDAY);
+  });
+
+  it('skips the side bulletins at the weekend', () => {
+    // 12:50 in Istanbul on a Saturday: no midday bulletin, so the morning one is the last due.
+    expect(lastDueBulletin(new Date('2026-11-14T09:50:00Z')).slot.id).toBe('morning');
   });
 });

@@ -5,7 +5,7 @@
  * section leads, in larger type. Stories already read fold into one line ("2 read") that opens
  * again on tap. `compact` is the desktop rail beside a story.
  */
-import { nextBulletin, type Section } from '@cspnews/core';
+import type { Section } from '@cspnews/core';
 
 import {
   readKey,
@@ -14,13 +14,13 @@ import {
   type PublishedBulletin,
 } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
-import { formatTime } from '../../lib/format';
-import { nextBulletinAt, sectionName, wordsFor } from '../../lib/i18n';
+import { sectionName, wordsFor } from '../../lib/i18n';
 import type { IconName } from '../../lib/icons';
 import { outletLogos } from '../../lib/media';
 import { storyVisual } from '../../lib/story-visual';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
+import NextEdition from '../ui/NextEdition.astro';
 import VisualView from '../visual/Visual.astro';
 
 interface Props {
@@ -34,7 +34,6 @@ const { published, lang, currentId, compact = false } = Astro.props;
 const words = wordsFor(lang);
 const SECTION_ICON: Record<Section, IconName> = { turkey: 'turkiye', tech: 'tech', world: 'world' };
 const groups = storiesBySection(published, lang);
-const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).publishAt.toISOString(), lang);
 ---
 
 <nav class:list={['contents', { compact }]} aria-label={words.contents} data-contents data-lang={lang}>
@@ -113,7 +112,7 @@ const next = formatTime(nextBulletin(new Date(published.bulletin.publishAt)).pub
       ))
     }
     <li class="end">
-      <b>{words.endOfBulletin}.</b>{' '}{nextBulletinAt(next, lang)}
+      <b>{words.endOfBulletin}.</b>{' '}<NextEdition published={published} lang={lang} />
     </li>
   </ol>
 </nav>

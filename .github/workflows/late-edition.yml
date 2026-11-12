@@ -1,0 +1,68 @@
+name: Late edition
+
+# Checks, 20 minutes after each bulletin slot, that the edition was published (F-13, US-41).
+# A missing edition opens one issue, which GitHub emails to the repository owner; the issue is
+# closed again by the first run that finds the edition in place.
+#
+# Off until the repository variable LATE_EDITION_ALERT is set to "on"
+# (Settings > Secrets and variables > Actions > Variables), so it stays quiet until bulletins
+# are published on a schedule.
+
+on:
+  schedule:
+    # 07:50, 12:50, 18:50 and 22:50 Istanbul time (UTC+3 all year).
+    - cron: '50 4,9,15,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: late-edition
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: vars.LATE_EDITION_ALERT == 'on' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      LABEL: late-edition
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/pipeline... build
+
+      - name: Is the last due edition published?
+        id: edition
+        continue-on-error: true
+        run: pnpm --filter @cspnews/pipeline check-edition "$PWD/data/bulletins"
+
+      - name: Open one issue for a late edition
+        if: steps.edition.outcome == 'failure'
+        run: |
+          gh label create "$LABEL" --color B3261E --description "A bulletin was not published on time" 2>/dev/null || true
+          if [ -z "$(gh issue list --state open --label "$LABEL" --json number --jq '.[0].number')" ]; then
+            gh issue create --label "$LABEL" \
+              --title "Late edition: ${{ steps.edition.outputs.edition }}" \
+              --body "The bulletin was due and \`data/bulletins/${{ steps.edition.outputs.file }}\` is not on \`main\`. See docs/publishing.md for the steps. This issue closes itself once an edition is published on time again."
+          fi
+
+      - name: Close the issue once editions are on time again
+        if: steps.edition.outcome == 'success'
+        run: |
+          for number in $(gh issue list --state open --label "$LABEL" --json number --jq '.[].number'); do
+            gh issue close "$number" --reason completed
+          done
+
+      - name: Fail the run when the edition is late
+        if: steps.edition.outcome == 'failure'
+        run: exit 1

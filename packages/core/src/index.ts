@@ -11,6 +11,7 @@ export {
   hotNewsIntervalMinutes,
   istanbulDateOf,
   isWeekend,
+  lastDueBulletin,
   nextBulletin,
 } from './schedule.js';
 export type {
