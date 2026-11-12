@@ -78,6 +78,9 @@ const WORDS = {
     wordGame: 'Today’s word game',
     wordGameHint: 'Five letters, six tries.',
     resume: 'Continue where you left off',
+    brief: 'In one minute',
+    briefHint: 'Every story in one sentence.',
+    fullBulletin: 'Read the full bulletin',
   },
   tr: {
     bulletin: {
@@ -150,6 +153,9 @@ const WORDS = {
     wordGame: 'Günün kelime oyunu',
     wordGameHint: 'Beş harf, altı deneme.',
     resume: 'Kaldığın yerden devam et',
+    brief: 'Bir dakikada',
+    briefHint: 'Her haber tek cümlede.',
+    fullBulletin: 'Bültenin tamamını oku',
   },
 } as const;
 

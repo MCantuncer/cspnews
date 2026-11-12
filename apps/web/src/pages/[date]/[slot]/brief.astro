@@ -1,0 +1,16 @@
+---
+/** A bulletin in one minute: every story in one sentence. */
+import BriefPage from '../../../components/pages/BriefPage.astro';
+import type { PublishedBulletin } from '../../../lib/bulletins';
+import { bulletinRoutes } from '../../../lib/routes';
+
+export const getStaticPaths = bulletinRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+}
+
+const { published } = Astro.props;
+---
+
+<BriefPage published={published} lang="en" />
