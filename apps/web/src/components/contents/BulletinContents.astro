@@ -102,6 +102,17 @@ const words = wordsFor(lang);
     color: var(--hour);
   }
 
+  /* A finished day tints the mark and the note: green when solved, red when out of tries. */
+  .word[data-state='solved'] :global(svg),
+  .word[data-state='solved'] [data-word-line] {
+    color: var(--conf);
+  }
+
+  .word[data-state='lost'] :global(svg),
+  .word[data-state='lost'] [data-word-line] {
+    color: var(--disp);
+  }
+
   /* Once the reader has started, one quiet line back to where they stopped. */
   .resume {
     display: flex;

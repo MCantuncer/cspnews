@@ -28,4 +28,5 @@ export function showWordToday(root: ParentNode): void {
     gameDayAt(new Date()),
   );
   line.textContent = todayLine(state, language);
+  link.dataset.state = state.kind;
 }
