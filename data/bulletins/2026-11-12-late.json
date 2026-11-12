@@ -1,0 +1,886 @@
+{
+  "version": 2,
+  "slot": "late",
+  "publishAt": "2026-11-12T22:30:00+03:00",
+  "writtenAt": "2026-11-12T19:17:51.870Z",
+  "stories": [
+    {
+      "id": "10fa9126f03608ad",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Army helicopter crashes in Malatya",
+          "title": "Four soldiers killed as a military helicopter crashes in Malatya; the cause is not yet known",
+          "summary": {
+            "what": "An S-70 military helicopter crashed in the Yeşilyurt district of Malatya on Thursday evening, killing the four soldiers on board, the Defence Ministry said.",
+            "why": "The ministry says the cause has not been determined; the wreck started a fire that spread to a nearby house.",
+            "next": "The Malatya chief prosecutor’s office has opened an investigation and assigned three prosecutors to it."
+          },
+          "body": [
+            {
+              "subhead": "The crash",
+              "blocks": [
+                {
+                  "text": "A Turkish military helicopter crashed on Thursday evening in Malatya, in eastern Türkiye, killing all four soldiers on board. The Ministry of National Defence (MSB) announced the deaths in a written statement."
+                },
+                {
+                  "text": "According to Euronews Türkçe and Habertürk, the helicopter came down at about 18:45 in the Samanköy area of the Yeşilyurt district. Medyascope reported that it was on a duty flight. Cumhuriyet said a fire broke out where it fell and the flames spread to a nearby house; fire crews sent to the scene put them out. Fire, ambulance and disaster agency AFAD teams were dispatched in large numbers."
+                }
+              ]
+            },
+            {
+              "subhead": "What the ministry said",
+              "blocks": [
+                {
+                  "text": "In its first statement the ministry said that one S-70 helicopter had crashed in Malatya for a reason not yet known, that the wreckage had been reached and that search and rescue work had begun immediately. A second statement confirmed the deaths."
+                },
+                {
+                  "quote": "As a result of our S-70 helicopter crashing in Malatya for a reason that has not yet been determined, four of our heroic comrades in arms on board were martyred.",
+                  "speaker": "Ministry of National Defence",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "The ministry offered its condolences to the families, the armed forces and the nation. It did not give the soldiers’ names or say where the helicopter was flying from. Police and military officials were examining the site on Thursday night."
+                }
+              ]
+            },
+            {
+              "subhead": "Investigation and reaction",
+              "blocks": [
+                {
+                  "text": "The Malatya chief public prosecutor’s office opened an investigation into the crash and assigned one deputy chief prosecutor and two prosecutors to it, Hürriyet and Cumhuriyet reported."
+                },
+                {
+                  "text": "The S-70 is a twin-engine Sikorsky helicopter developed in the 1970s that entered service in 1979. Euronews Türkçe noted that it is generally used for carrying personnel, air assault, medical evacuation, search and rescue and carrying external loads, and was designed to manoeuvre in difficult weather and terrain."
+                },
+                {
+                  "text": "Politicians from across the spectrum published messages of condolence, Sabah, Hürriyet and Habertürk reported. Among them was the leader of the main opposition CHP, Özgür Özel, who, according to Cumhuriyet, offered his condolences to the nation."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Malatya’da askerî helikopter düştü",
+          "title": "Malatya’da askerî helikopter düştü, dört asker hayatını kaybetti; kazanın nedeni henüz bilinmiyor",
+          "summary": {
+            "what": "Millî Savunma Bakanlığı’na göre S-70 tipi askerî helikopter perşembe akşamı Malatya’nın Yeşilyurt ilçesinde düştü; içindeki dört asker hayatını kaybetti.",
+            "why": "Bakanlık kazanın nedeninin henüz belirlenemediğini açıkladı; düşen helikopterin çıkardığı yangın yakındaki bir eve sıçradı.",
+            "next": "Malatya Cumhuriyet Başsavcılığı soruşturma başlattı ve üç savcı görevlendirdi."
+          },
+          "body": [
+            {
+              "subhead": "Kaza",
+              "blocks": [
+                {
+                  "text": "Malatya’da perşembe akşamı bir askerî helikopter düştü, helikopterdeki dört askerin tamamı hayatını kaybetti. Ölümleri Millî Savunma Bakanlığı (MSB) akşam saatlerinde yaptığı yazılı açıklamayla duyurdu."
+                },
+                {
+                  "text": "Euronews Türkçe ve Habertürk’e göre helikopter saat 18.45 sıralarında Yeşilyurt ilçesinin Samanköy mevkiinde düştü. Medyascope, helikopterin görev uçuşunda olduğunu bildirdi. Cumhuriyet’in aktardığına göre düştüğü yerde yangın çıktı, alevler yakındaki bir eve sıçradı; olay yerine gönderilen ekipler yangını söndürdü. Bölgeye çok sayıda itfaiye, sağlık ve AFAD ekibi sevk edildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Bakanlık ne dedi",
+              "blocks": [
+                {
+                  "text": "Bakanlık ilk açıklamasında bir S-70 tipi helikopterin Malatya’da henüz bilinmeyen bir nedenle kaza kırıma uğradığını, enkaza ulaşıldığını ve arama kurtarma çalışmalarına derhal başlandığını bildirdi. İkinci açıklamada can kaybı doğrulandı."
+                },
+                {
+                  "quote": "S-70 tipi helikopterimizin henüz belirlenemeyen bir sebeple Malatya’da kaza kırıma uğraması sonucu, helikopterde bulunan 4 kahraman silah arkadaşımız şehit olmuştur.",
+                  "speaker": "Millî Savunma Bakanlığı",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Bakanlık ailelere, Türk Silahlı Kuvvetleri’ne ve millete başsağlığı diledi. Askerlerin kimlikleri ve helikopterin nereden havalandığı açıklanmadı. Kazanın nedenine ilişkin başka bir bilgi verilmedi; bakanlık yalnızca sebebin henüz belirlenemediğini belirtti. Emniyet ve askerî yetkililer perşembe gecesi kaza yerinde inceleme yapıyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Soruşturma ve tepkiler",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Cumhuriyet’in haberine göre Malatya Cumhuriyet Başsavcılığı kazayla ilgili soruşturma başlattı; bir başsavcı vekili ile iki cumhuriyet savcısı görevlendirildi."
+                },
+                {
+                  "text": "S-70, 1970’lerde geliştirilen ve 1979’da hizmete giren çift motorlu bir Sikorsky helikopteri. Euronews Türkçe, bu helikopterlerin genellikle personel nakli, hava hücum harekâtı, tıbbi tahliye, arama kurtarma ve harici yük taşıma görevlerinde kullanıldığını, zorlu hava ve arazi koşullarında manevra yapabilecek biçimde tasarlandığını hatırlattı."
+                },
+                {
+                  "text": "Sabah, Hürriyet ve Habertürk’e göre farklı partilerden siyasetçiler başsağlığı mesajları yayımladı. Cumhuriyet’in aktardığına göre CHP Genel Başkanı Özgür Özel de millete başsağlığı diledi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T16:16:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T16:19:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T16:19:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T16:48:17.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T16:57:54.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T17:00:15.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T17:10:10.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T17:39:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T18:30:31.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T18:34:37.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T18:46:01.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T18:58:36.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/48c1add3-e37d-4b0c-b601-2a0b6cae24c5.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-malatya-da-helikopter-dustu-2555715"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-malatya-da-helikopter-dustu-2555715",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/malatyada-helikopter-dustu-43376177",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/12/msb-malatyada-askeri-helikopter-dustu-4-asker-sehit-oldu",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/malatyada-askeri-helikopter-dustu-saglik-ekipleri-ve-itfaiye-sevk-edildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/12/malatyadaki-helikopter-kazasi-turkiyeyi-yasa-bogdu-siyasilerden-taziye-mesajlari",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/12/malatyada-askeri-helikopter-dustu-4-asker-yasamini-yitirdi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/malatya-da-askeri-helikopter-d%C3%BC%C5%9Ft%C3%BC/a-79934763?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/sehit-askerler-icin-taziye-mesajlari-3926928",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/malatyadan-aci-haber-helikopter-kazasinda-4-asker-sehit-oldu-1750611",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/malatya-da-helikopter-dustu-p380752",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cj4gn99v0693o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T22:30:00+03:00",
+      "updatedAt": "2026-11-12T22:30:00+03:00"
+    },
+    {
+      "id": "fc4482eb86da327c",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Bill would erase old health debts",
+          "title": "AKP submits a bill to parliament that would write off health insurance premium debts from before 2017",
+          "summary": {
+            "what": "The ruling AKP has submitted a 15-article omnibus bill to parliament that would cancel unpaid general health insurance premiums from before 1 January 2017.",
+            "why": "The party says between 2.2 and 2.8 million people would be freed of the debt; the same bill narrows a corporate tax break.",
+            "next": "The bill now goes through parliament; the tax change is planned to apply from 1 January 2027."
+          },
+          "body": [
+            {
+              "subhead": "What the bill does",
+              "blocks": [
+                {
+                  "text": "The ruling Justice and Development Party (AKP) submitted an omnibus bill of 15 articles to the Speaker’s office of the Turkish parliament on Thursday. Its most widely felt measure concerns general health insurance, known in Türkiye as GSS, the scheme through which people who are not covered through a job pay premiums for public healthcare."
+                },
+                {
+                  "text": "The bill adds temporary provisions to the Social Insurance and General Health Insurance Law. Under them, the state would give up collecting all unpaid GSS premiums for the period before 1 January 2017, together with the late-payment penalties and interest attached to them, Diken and Habertürk reported. Premiums that have already been paid for those years would not be refunded or offset."
+                }
+              ]
+            },
+            {
+              "subhead": "How many people",
+              "blocks": [
+                {
+                  "text": "The outlets carried two different figures, both attributed to the AKP’s parliamentary group chair, Abdullah Güler. Cumhuriyet and NTV reported that 2,199,860 people would benefit. Habertürk quoted Güler as saying that the premium debt of 2.8 million citizens would be written off."
+                },
+                {
+                  "text": "Güler presented the measure as a way of restoring people’s access to health services by lifting the burden of old debt from them, according to Habertürk."
+                }
+              ]
+            },
+            {
+              "subhead": "What else is in it",
+              "blocks": [
+                {
+                  "text": "The bill also narrows the reduced corporate tax rate of 12.5%. According to Cumhuriyet, precious metal businesses engaged in production, oil refineries and producers of tobacco and alcoholic drinks would no longer be able to use it. That change is planned to apply from 1 January 2027."
+                },
+                {
+                  "text": "Public university hospitals that work with the Social Security Institution (SGK) on a fixed budget would not have to repay the difference if they deliver less care than budgeted until the end of 2026, Diken reported; that debt would be cancelled and covered from the ministry budget."
+                },
+                {
+                  "text": "Habertürk listed further measures: bank staff carrying out a liquidation of funds under a legal mandate would be shielded from financial and administrative liability, an employment incentive for women, young people and holders of vocational certificates would run until the end of 2028, and rules for recruiting gendarmerie and coast guard officers would be rewritten in line with a Constitutional Court ruling."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Eski GSS borçları için kanun teklifi",
+          "title": "AKP, 2017 öncesine ait genel sağlık sigortası prim borçlarını silen kanun teklifini Meclis’e sundu",
+          "summary": {
+            "what": "AKP, 1 Ocak 2017 öncesine ait ödenmemiş genel sağlık sigortası primlerinin silinmesini içeren 15 maddelik torba kanun teklifini TBMM’ye sundu.",
+            "why": "Partiye göre 2,2 ila 2,8 milyon kişi borçtan kurtulacak; aynı teklif indirimli kurumlar vergisinin kapsamını daraltıyor.",
+            "next": "Teklif Meclis’te görüşülecek; vergi düzenlemesinin 1 Ocak 2027’den itibaren uygulanması planlanıyor."
+          },
+          "body": [
+            {
+              "subhead": "Teklif ne getiriyor",
+              "blocks": [
+                {
+                  "text": "AKP, 15 maddelik torba kanun teklifini perşembe günü TBMM Başkanlığı’na sundu. Teklifin en geniş kesimi ilgilendiren maddesi, bir iş üzerinden sigortalı olmayanların kamu sağlık hizmetlerinden yararlanmak için prim ödediği genel sağlık sigortasıyla (GSS) ilgili."
+                },
+                {
+                  "text": "Teklifle Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na geçici hükümler ekleniyor. Diken ve Habertürk’ün aktardığına göre 1 Ocak 2017’den öncesine ait ödenmemiş GSS primleri ile bunlara bağlı gecikme cezası ve gecikme zammı gibi alacakların tamamının tahsilinden vazgeçilecek. Bu dönemler için ödenmiş primler ise iade ya da mahsup edilmeyecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Kaç kişi yararlanacak",
+              "blocks": [
+                {
+                  "text": "Haberlerde, ikisi de AKP Grup Başkanı Abdullah Güler’e dayandırılan iki farklı rakam yer aldı. Cumhuriyet ve NTV düzenlemeden 2 milyon 199 bin 860 kişinin yararlanacağını bildirdi. Habertürk ise Güler’in 2,8 milyon vatandaşın prim borcunun terkin edileceğini söylediğini aktardı."
+                },
+                {
+                  "text": "Habertürk’e göre Güler düzenlemeyi, eski borç yükünü kaldırarak vatandaşların sağlık hizmetlerine erişimini sağlamaya dönük bir adım olarak sundu."
+                }
+              ]
+            },
+            {
+              "subhead": "Teklifte başka neler var",
+              "blocks": [
+                {
+                  "text": "Teklif, yüzde 12,5 olarak uygulanan indirimli kurumlar vergisinin kapsamını da daraltıyor. Cumhuriyet’e göre üretim yapan kıymetli maden işletmeleri, petrol rafinerileri ile tütün ve alkollü içki üreticileri bu indirimden yararlanamayacak. Düzenlemenin 1 Ocak 2027’den itibaren uygulanması planlanıyor."
+                },
+                {
+                  "text": "Diken’in haberine göre Sosyal Güvenlik Kurumu (SGK) ile sabit bütçe üzerinden anlaşan kamu üniversite hastaneleri, 2026 sonuna kadar bütçelerinin altında hizmet verseler de aradaki farkı geri ödemeyecek; bu borç silinecek ve bakanlık bütçesinden karşılanacak."
+                },
+                {
+                  "text": "Habertürk diğer maddeleri de sıraladı: kanunla verilen görev gereği fon tasfiyesini yürüten banka personeline mali ve idari sorumsuzluk getiriliyor, kadınlar, gençler ve mesleki belge sahipleri için istihdam teşviki 2028 sonuna kadar sürdürülüyor, jandarma ve sahil güvenlik subay alımına ilişkin kurallar Anayasa Mahkemesi kararı doğrultusunda yeniden düzenleniyor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T12:31:02.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T12:34:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T12:34:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T13:19:18.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T14:46:50.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T15:15:45.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/4d0fc003-9d54-4449-ae28-97bc546d44c3.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/ekonomi/gss-prim-borclari-silinecek-15-maddelik-torba-yasa-meclis-te-2555633"
+      },
+      "sources": [
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/gss-prim-borclarinin-silinmesi-icin-kanun-teklifi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/gss-prim-borclari-silinecek-15-maddelik-torba-yasa-meclis-te-2555633",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-gss-borclarinin-silinmesi-icin-kanun-teklifi-3926856",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/12/gss-prim-borclari-silinmesini-ongoren-teklif-tbmmye-sunuldu",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/meclise-sunuldu-22-milyon-kisinin-gss-borcu-silinecek-1750609",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T22:30:00+03:00",
+      "updatedAt": "2026-11-12T22:30:00+03:00"
+    },
+    {
+      "id": "c7a410ad3b862809",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Google launches Gemini 4 Hydrogen",
+          "title": "Google introduces Gemini 4 Hydrogen, a faster and cheaper model for everyday coding and agent work",
+          "summary": {
+            "what": "Google has introduced Gemini 4 Hydrogen, a model built for speed and low cost in everyday coding and agent tasks, according to its own announcement.",
+            "why": "It brings the Gemini 4 generation to all users, including free tiers, and Google says it edges past the larger Argon model on one index.",
+            "next": "It is rolling out across Google’s apps and developer tools, alongside a new Orchestrator mode that switches between models."
+          },
+          "body": [
+            {
+              "subhead": "What was announced",
+              "blocks": [
+                {
+                  "text": "Google introduced Gemini 4 Hydrogen on Thursday, the smallest model so far in its Gemini 4 family. Everything known about it at this point comes from Google’s own blog posts; no outside outlet in our sources has tested the claims yet."
+                },
+                {
+                  "text": "According to the announcement, the two frontier models in the family, Gemini 4 Carbon and Gemini 4 Argon, are meant for deep, long-running reasoning on the hardest problems, while Hydrogen is built for quick execution in everyday coding and in agentic workflows, where a model carries out a chain of steps on its own."
+                },
+                {
+                  "text": "Google says Hydrogen brings Gemini 4 to everyone: it is available in all tiers of Google AI Studio, in the Gemini API, in Gemini for business, in the Gemini app and in Google Search, and to paying Google AI Pro and Ultra subscribers in its coding tool Antigravity."
+                }
+              ]
+            },
+            {
+              "subhead": "Numbers and price",
+              "blocks": [
+                {
+                  "text": "The company says Hydrogen scores 51 on the Artificial Analysis Intelligence Index at its default thinking level, against 50 for the larger Argon, and reaches 54 at its highest setting, while often finishing tasks faster than models in its class."
+                },
+                {
+                  "text": "The price is flat across the whole context window of one million tokens: $1.50 per million input tokens and $7.50 per million output tokens. Google describes it as a major upgrade for teams moving from Gemini 3.8 Flash."
+                }
+              ]
+            },
+            {
+              "subhead": "Orchestrator",
+              "blocks": [
+                {
+                  "text": "Alongside the model, Google added an option called Orchestrator to Antigravity. Instead of using one model from start to finish, it switches between Carbon and Hydrogen inside the same session. In Google’s example, Carbon first explores the code and makes a plan, Hydrogen writes the edits and runs the tests, and the work is handed back to Carbon if Hydrogen gets stuck."
+                },
+                {
+                  "text": "Google says that on the Terminal-Bench coding benchmark, Orchestrator came close to Carbon’s success rate while using 24% less quota and finishing 19% faster on average. The company contrasts this with a static “model router”, which guesses a task’s difficulty from the first prompt and sends the whole task to one model."
+                },
+                {
+                  "text": "The Antigravity post adds that Carbon was introduced earlier this week together with a feature for running teams of parallel agents, and that tens of thousands of such runs have been launched since."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Google, Gemini 4 Hydrogen’i tanıttı",
+          "title": "Google, gündelik kodlama ve ajan işleri için daha hızlı ve ucuz modeli Gemini 4 Hydrogen’i tanıttı",
+          "summary": {
+            "what": "Google, kendi duyurusuna göre gündelik kodlama ve ajan görevlerinde hız ve düşük maliyet için tasarlanan Gemini 4 Hydrogen modelini tanıttı.",
+            "why": "Model, Gemini 4 kuşağını ücretsiz katmanlar dahil tüm kullanıcılara getiriyor; Google’a göre bir endekste daha büyük Argon modelini geçiyor.",
+            "next": "Model, Google’ın uygulamalarında ve geliştirici araçlarında kullanıma açılıyor; modeller arasında geçiş yapan Orchestrator modu da geliyor."
+          },
+          "body": [
+            {
+              "subhead": "Ne duyuruldu",
+              "blocks": [
+                {
+                  "text": "Google perşembe günü, Gemini 4 ailesinin şimdiye kadarki en küçük modeli olan Gemini 4 Hydrogen’i tanıttı. Model hakkında şu an bilinenlerin tamamı Google’ın kendi blog yazılarına dayanıyor; kaynaklarımız arasında iddiaları henüz bağımsız olarak sınayan bir yayın yok."
+                },
+                {
+                  "text": "Duyuruya göre ailenin iki öncü modeli Gemini 4 Carbon ve Gemini 4 Argon en zor problemlerde derin ve uzun soluklu akıl yürütme için tasarlandı. Hydrogen ise gündelik kodlamada ve modelin bir dizi adımı kendi başına yürüttüğü ajan iş akışlarında hızlı uygulama için geliştirildi."
+                },
+                {
+                  "text": "Google, Hydrogen ile Gemini 4’ü herkese ulaştırdığını söylüyor: model Google AI Studio’nun tüm katmanlarında, Gemini API’de, kurumsal Gemini’de, Gemini uygulamasında ve Google Arama’da; ayrıca kodlama aracı Antigravity’de ücretli Google AI Pro ve Ultra abonelerine sunuluyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Rakamlar ve fiyat",
+              "blocks": [
+                {
+                  "text": "Şirkete göre Hydrogen, Artificial Analysis Intelligence Index’te varsayılan düşünme düzeyinde 51 puan alıyor; daha büyük Argon’un puanı 50. En yüksek ayarda 54’e çıkıyor ve görevleri çoğu zaman kendi sınıfındaki modellerden daha hızlı tamamlıyor."
+                },
+                {
+                  "text": "Fiyat, bir milyon token’lık bağlam penceresinin tamamında sabit: milyon girdi token’ı başına 1,50 dolar, milyon çıktı token’ı başına 7,50 dolar. Google, modeli Gemini 3.8 Flash’tan geçen ekipler için büyük bir yükseltme olarak tanımlıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Orchestrator",
+              "blocks": [
+                {
+                  "text": "Google, modelle birlikte Antigravity’ye Orchestrator adlı bir seçenek ekledi. Bu seçenek baştan sona tek model kullanmak yerine aynı oturum içinde Carbon ile Hydrogen arasında geçiş yapıyor. Google’ın örneğinde Carbon önce kodu inceleyip plan çıkarıyor, Hydrogen değişiklikleri yazıp testleri çalıştırıyor, takıldığında iş yeniden Carbon’a dönüyor."
+                },
+                {
+                  "text": "Google’a göre Orchestrator, Terminal-Bench kodlama testinde Carbon’un başarı oranına yaklaşırken ortalama yüzde 24 daha az kota kullandı ve işleri yüzde 19 daha hızlı bitirdi. Şirket bunu, görevin zorluğunu ilk komuttan tahmin edip tüm işi tek modele yönlendiren sabit “model yönlendirici” yaklaşımıyla karşılaştırıyor."
+                },
+                {
+                  "text": "Antigravity yazısında, Carbon’un bu haftanın başında paralel ajan ekipleri çalıştırmayı sağlayan bir özellikle birlikte tanıtıldığı ve o günden beri on binlerce böyle çalıştırma başlatıldığı da belirtiliyor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T18:00:50.000Z",
+          "sourceId": "google-deepmind-blog"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "google-deepmind-blog",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hacker-news",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-12T22:30:00+03:00",
+      "updatedAt": "2026-11-12T22:30:00+03:00"
+    },
+    {
+      "id": "8edda465f74b7b6b",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Gunman shoots five in Washington",
+          "title": "Gunman shoots five people, killing one, about a mile from the White House before shooting himself",
+          "summary": {
+            "what": "A gunman shot five people, killing one, in Washington’s Logan Circle neighbourhood on Thursday morning, then barricaded himself in a flat and shot himself.",
+            "why": "It happened in the rush hour about a mile from the White House, in a city where President Trump has made crime a central issue.",
+            "next": "The Guardian reports the suspect has died and one of the wounded is in a critical condition; police have not named a motive."
+          },
+          "body": [
+            {
+              "subhead": "What happened",
+              "blocks": [
+                {
+                  "text": "Five people were shot, one of them fatally, in the centre of Washington, DC on Thursday morning. Police said the shooting was reported at 8.23am near Logan Circle, around the junction of 15th Street NW and P Street, about a mile (1.6km) north of the White House, during the morning commute."
+                },
+                {
+                  "text": "According to a law enforcement official quoted by the Associated Press and carried by France 24, investigators believe the gunman shot at least one person inside a gym, went outside and fired again, shot another person in a parking garage lift, and then barricaded himself on the seventh floor of a nearby apartment building."
+                },
+                {
+                  "text": "Interim police chief Jeffery Carroll said officers were negotiating with the suspect, a white man, by phone when they heard gunshots. When they entered the room they found he had shot himself, Al Jazeera reported. The Guardian later reported that the suspect had died and that one of the injured was in a critical condition."
+                }
+              ]
+            },
+            {
+              "subhead": "Inside the gym",
+              "blocks": [
+                {
+                  "text": "James Spellman was at the gym shortly after 8am, with about 50 other people, when he heard shots. He said he heard about two shots inside and five or six more outside as members ran out."
+                },
+                {
+                  "quote": "Within seconds there was a man who fell to the ground, and a pool of blood came out. One gym member rushed to help him. He was instantly dead.",
+                  "speaker": "James Spellman, witness",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "Police ordered people in the area to shelter in place, telling them to go into the nearest building and stay away from windows. Schools nearby were locked down and much of the block was cordoned off. Local police, the FBI and the Secret Service all took part in the operation, Al Jazeera’s correspondent at the scene said."
+                }
+              ]
+            },
+            {
+              "subhead": "The background",
+              "blocks": [
+                {
+                  "text": "No official motive has been given. France 24 reported that the suspect is believed to have been in a dispute with the homeowners’ association of the building."
+                },
+                {
+                  "text": "The shooting comes as President Donald Trump’s administration has made crime in the capital a key issue of his second term. Al Jazeera recalled that Trump deployed the National Guard across the city after a former government official said he had been assaulted there in August 2025."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Washington’da silahlı saldırı: Bir ölü",
+          "title": "Washington’da Beyaz Saray’a yaklaşık 1,6 kilometre uzaklıkta beş kişiyi vuran saldırgan kendini vurdu; bir kişi öldü",
+          "summary": {
+            "what": "Washington’ın Logan Circle semtinde perşembe sabahı bir saldırgan beş kişiyi vurdu, biri öldü; saldırgan bir daireye kapandıktan sonra kendini vurdu.",
+            "why": "Saldırı sabah trafiğinde, Beyaz Saray’a yaklaşık 1,6 kilometre mesafede yaşandı; Başkan Trump başkentte suçu ana gündem yapmıştı.",
+            "next": "Guardian’a göre şüpheli öldü, yaralılardan birinin durumu kritik; polis henüz bir saik açıklamadı."
+          },
+          "body": [
+            {
+              "subhead": "Ne oldu",
+              "blocks": [
+                {
+                  "text": "ABD’nin başkenti Washington’ın merkezinde perşembe sabahı beş kişi vuruldu, biri hayatını kaybetti. Polise göre saldırı ihbarı yerel saatle 08.23’te, Logan Circle yakınında, 15. Cadde ile P Caddesi’nin kesiştiği bölgeden geldi. Olay yeri Beyaz Saray’ın yaklaşık 1,6 kilometre kuzeyinde ve saldırı sabah işe gidiş saatinde yaşandı."
+                },
+                {
+                  "text": "France 24’ün Associated Press’ten aktardığı bir güvenlik yetkilisine göre soruşturmacılar, saldırganın bir spor salonunda en az bir kişiyi vurduğunu, dışarı çıkıp yeniden ateş ettiğini, bir otopark asansöründe bir kişiyi daha vurduğunu ve ardından yakındaki bir apartmanın yedinci katına kapandığını düşünüyor."
+                },
+                {
+                  "text": "Al Jazeera’nın haberine göre geçici emniyet müdürü Jeffery Carroll, polisin beyaz bir erkek olan şüpheliyle telefonda görüştüğü sırada silah sesleri duyduğunu, odaya girildiğinde şüphelinin kendini vurmuş hâlde bulunduğunu söyledi. Guardian daha sonra şüphelinin öldüğünü, yaralılardan birinin durumunun kritik olduğunu bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Spor salonunda",
+              "blocks": [
+                {
+                  "text": "James Spellman, saat 08.00’den kısa süre sonra yaklaşık 50 kişiyle birlikte spor salonundayken silah sesleri duyduğunu anlattı. İçeride iki, üyeler dışarı kaçarken de beş altı el ateş edildiğini söyledi."
+                },
+                {
+                  "quote": "Saniyeler içinde bir adam yere yığıldı, yerde kan gölü oluştu. Bir üye yardımına koştu. Adam o anda ölmüştü.",
+                  "speaker": "Görgü tanığı James Spellman",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "Polis bölgedekilere bulundukları yerde kalmaları, en yakın binaya girip pencerelerden uzak durmaları çağrısı yaptı. Yakındaki okullar kapatıldı, sokağın büyük bölümü şeritle çevrildi. Al Jazeera muhabirine göre operasyona yerel polisle birlikte FBI ve Gizli Servis de katıldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Arka plan",
+              "blocks": [
+                {
+                  "text": "Saldırının nedeni konusunda resmî bir açıklama yapılmadı. France 24, şüphelinin oturduğu binanın site yönetimiyle anlaşmazlık yaşadığının düşünüldüğünü bildirdi."
+                },
+                {
+                  "text": "Saldırı, Başkan Donald Trump yönetiminin başkentteki suçu ikinci döneminin ana başlıklarından biri yaptığı bir sırada geldi. Al Jazeera, eski bir hükümet yetkilisinin Ağustos 2025’te kentte saldırıya uğradığını söylemesinin ardından Trump’ın Ulusal Muhafızları Washington’a konuşlandırdığını hatırlattı."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T14:19:37.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T14:23:48.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T14:23:48.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T16:01:57.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T18:31:45.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/e0e7178a-deaa-11f1-a92b-5f54d898a954/w:1024/p:16x9/AP26316527860423.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261112-at-least-five-people-shot-in-dc-neighbourhood-near-the-white-house"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/police-say-at-least-five-people-shot-at-busy-thoroughfare-in-washington-dc?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261112-at-least-five-people-shot-in-dc-neighbourhood-near-the-white-house",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T22:30:00+03:00",
+      "updatedAt": "2026-11-12T22:30:00+03:00"
+    },
+    {
+      "id": "18a6c58e68d017c6",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "UK court convicts two Iranian spies",
+          "title": "UK court finds two Iranian men guilty of spying on London-based journalists for Iran’s Revolutionary Guard",
+          "summary": {
+            "what": "A London court has found two Iranian men guilty of carrying out surveillance on journalists at the broadcaster Iran International to assist Iran’s intelligence service.",
+            "why": "Police say it is the fourth recent case of direct threats to Iranian journalists in the UK, and that Iran increasingly works through hired proxies.",
+            "next": "Sentencing is scheduled for mid-December, DW reports; a third defendant was acquitted of all charges."
+          },
+          "body": [
+            {
+              "subhead": "The verdict",
+              "blocks": [
+                {
+                  "text": "Two Iranian men were convicted on Thursday at Woolwich Crown Court in south London of engaging in conduct likely to assist Iran’s intelligence service. The verdicts against Mostafa Sepahvand, 41, and Farhad Javadi Manesh, 46, followed a six-week trial, Al Jazeera reported."
+                },
+                {
+                  "text": "According to DW, one of the two was also convicted of planning a violent attack, while the other, who had faced the same charge, was convicted only of the surveillance. A third defendant, a 57-year-old Iranian man, was acquitted of all charges. Sentencing is scheduled for mid-December."
+                },
+                {
+                  "text": "DW reported that one of the convicted men said he had acted under duress after his family was threatened, and that the other said he did not know his actions were helping Iranian intelligence. Iran has repeatedly rejected the allegations."
+                }
+              ]
+            },
+            {
+              "subhead": "Who was targeted",
+              "blocks": [
+                {
+                  "text": "The court heard that between August 2024 and March last year the men visited addresses linked to their targets, took photos and videos and researched them online, including with ChatGPT. The targets included two journalists at the London-based Persian-language broadcaster Iran International, Mojtaba Pourmohsen and Kambiz Hosseini, and Jonathan Turner, a founding member of UK Lawyers for Israel."
+                },
+                {
+                  "text": "The Guardian reported that Sepahvand used ChatGPT to find Pourmohsen’s home address and hoped to be paid £150,000 to carry out a violent attack on him. He exchanged WhatsApp messages with a handler, a Revolutionary Guard commander known as Amin, while watching the journalist in December 2024. Hosseini, a satirist, eventually had to leave his home because of the threats."
+                },
+                {
+                  "text": "According to the Guardian, both men had entered the UK illegally between 2016 and 2022, and were recruited through social media."
+                }
+              ]
+            },
+            {
+              "subhead": "A wider pattern",
+              "blocks": [
+                {
+                  "text": "Frank Ferguson of the Crown Prosecution Service called it a calculated operation to spy on critics of the Iranian government. London’s Metropolitan Police said it was the fourth case in recent years involving direct threats to Iranian journalists in the UK."
+                },
+                {
+                  "text": "Vicki Evans, a deputy assistant commissioner at the Met, said the threat from hostile states was increasing and that Iran keeps adapting its use of “proxies”, people hired to act for it who often know little about whom they are targeting."
+                },
+                {
+                  "text": "The UK outlawed the Islamic Revolutionary Guard Corps in July under new state-threat powers; supporting or assisting it can now bring up to 14 years in prison."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İngiltere’de İran casusluğundan iki mahkûmiyet",
+          "title": "İngiliz mahkemesi, Londra’daki gazetecileri İran Devrim Muhafızları adına izleyen iki İranlıyı suçlu buldu",
+          "summary": {
+            "what": "Londra’da bir mahkeme, İran International kanalının gazetecilerini İran istihbaratına yardım amacıyla izleyen iki İranlı erkeği suçlu buldu.",
+            "why": "Polise göre bu, İngiltere’deki İranlı gazetecilere doğrudan tehdit içeren son yıllardaki dördüncü dava; İran giderek daha çok kiralık aracılar kullanıyor.",
+            "next": "DW’ye göre cezalar aralık ortasında açıklanacak; üçüncü sanık tüm suçlamalardan beraat etti."
+          },
+          "body": [
+            {
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "Londra’nın güneyindeki Woolwich Kraliyet Mahkemesi perşembe günü iki İranlı erkeği, İran istihbarat servisine yardım etmesi muhtemel faaliyetlerde bulunmaktan suçlu buldu. Al Jazeera’ya göre 41 yaşındaki Mostafa Sepahvand ve 46 yaşındaki Farhad Javadi Manesh hakkındaki karar altı hafta süren yargılamanın sonunda verildi."
+                },
+                {
+                  "text": "DW’nin aktardığına göre ikiliden biri ayrıca şiddet içeren bir saldırı planlamaktan da mahkûm edildi; aynı suçlamayla yargılanan diğeri ise yalnızca izleme faaliyetinden suçlu bulundu. 57 yaşındaki üçüncü İranlı sanık tüm suçlamalardan beraat etti. Cezaların aralık ortasında açıklanması bekleniyor."
+                },
+                {
+                  "text": "DW’ye göre mahkûm edilenlerden biri ailesi tehdit edildiği için baskı altında hareket ettiğini, diğeri ise yaptıklarının İran istihbaratına yardım ettiğini bilmediğini savundu. İran suçlamaları defalarca reddetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Hedefler kimdi",
+              "blocks": [
+                {
+                  "text": "Mahkemede anlatılanlara göre ikili, Ağustos 2024 ile geçen yılın mart ayı arasında hedeflerle bağlantılı adreslere gitti, fotoğraf ve video çekti, ChatGPT dahil çevrimiçi araçlarla araştırma yaptı. Hedefler arasında Londra merkezli Farsça yayın kuruluşu Iran International’ın iki gazetecisi Mojtaba Pourmohsen ile Kambiz Hosseini ve UK Lawyers for Israel’in kurucu üyelerinden Jonathan Turner vardı."
+                },
+                {
+                  "text": "Guardian’a göre Sepahvand, Pourmohsen’in ev adresini bulmak için ChatGPT’yi kullandı ve ona yönelik şiddet içeren bir saldırı karşılığında 150 bin sterlin almayı umuyordu. Aralık 2024’te gazeteciyi izlerken “Amin” olarak bilinen bir Devrim Muhafızları komutanıyla WhatsApp üzerinden yazıştı. Hicivci Hosseini ise tehditler yüzünden sonunda evinden ayrılmak zorunda kaldı."
+                },
+                {
+                  "text": "Guardian, iki adamın da 2016 ile 2022 arasında İngiltere’ye yasa dışı yollardan girdiğini ve sosyal medya üzerinden devşirildiğini bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Daha geniş tablo",
+              "blocks": [
+                {
+                  "text": "Kraliyet Savcılık Servisi’nden Frank Ferguson olayı, İran yönetimini eleştirenleri izlemeye yönelik planlı bir operasyon olarak tanımladı. Londra Metropolitan Polisi, bunun son yıllarda İngiltere’deki İranlı gazetecilere doğrudan tehdit içeren dördüncü dava olduğunu açıkladı."
+                },
+                {
+                  "text": "Polis yetkilisi Vicki Evans, düşman devletlerden gelen tehdidin arttığını ve İran’ın “aracı” kullanma yöntemini sürekli uyarladığını söyledi; bu kişiler çoğu zaman kimi neden hedef aldıklarını pek bilmeden kiralanıyor."
+                },
+                {
+                  "text": "İngiltere, İslam Devrim Muhafızları Ordusu’nu temmuzda yeni devlet tehdidi yetkileri kapsamında yasakladı; örgüte destek ya da yardım artık 14 yıla kadar hapisle cezalandırılabiliyor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T14:07:42.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T15:15:48.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T15:15:48.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T15:23:00.000Z",
+          "sourceId": "dw-world"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/3de1032b43ea112cddfd255faa0e038c469f9729/537_0_3947_3160/master/3947.jpg?width=140&quality=85&auto=format&fit=max&s=c99f7bf49b1c360d215904daa6c93878",
+        "sourceId": "guardian-world",
+        "sourceName": "The Guardian World",
+        "articleUrl": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/uk-court-finds-two-iranian-men-guilty-of-spying-for-iran?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-12T22:30:00+03:00",
+      "updatedAt": "2026-11-12T22:30:00+03:00"
+    }
+  ]
+}
