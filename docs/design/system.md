@@ -24,7 +24,7 @@ One family, Funnel. **Funnel Display** for headlines, facts and the wordmark (as
 
 ### Colour
 
-Warm black (dark, the default) or paper (light). The only colour is the **edition hour**, used flat: a 3 px top edge and the current station. Evidence marks and Hot News are the only other hues.
+Warm black (dark, the default) or paper (light). The **edition hour** colours the edition: the 3 px top edge and the header's progress. Each **section** owns one hue (Türkiye coral, Tech sky, World teal), set with `data-section` on any element, which points `--sec` at it. A section hue lives only in lines, dots, labels and faint fields (8% at most): its stretch of the Contents line and station, the section name above a headline, the field behind the three summary lines. Never body text, never buttons. Evidence marks and Hot News keep their own hues and always carry a shape, so a hue alone never carries meaning.
 
 ### Icons
 
@@ -82,6 +82,10 @@ The reader's language (English or Turkish) is set in the reader corner sheet and
 
 One button at the right end of the header: the settings mark, or the reader's avatar once signed in. It opens a sheet (bottom sheet on phones, side panel from 720px) with the account row, language, theme, text size and the reading ruler. Changes apply at once.
 
+### Follow
+
+One quiet card at the end of a story on a phone, beside it on wide screens: a title, one line and one button. Following keeps what the reader saw (outlets, evidence label, last update) in this browser only, no account needed, and forgets a story nobody opened for 30 days. The next Contents that carries the story opens with **Since you last read**: one card per followed story that moved, with one line per change (a new label first, then the outlets that joined and the new total, else the update time). Opening the story clears it. Stories are matched by their id, which is the first article of the group, so a story that loses its first article in a later collection starts over as a new one.
+
 ### Day lanes
 
 Under a bulletin's title: **When each story broke**. One lane per section, one dot per story at its first report, from the hour before the day's first story to the bulletin's time, which ends the scale in the hour colour. A developing story's dot carries a soft ring. Wide screens (1100 px and up) name the dots above or below, only where a name fits without touching a neighbour; the rest keep their name in the tooltip and the accessible label. Phones show the dots alone. Every dot opens its story.
@@ -113,7 +117,15 @@ Values are taken from the mockups. Components use tokens only, never raw colours
 | `--dusk`   | `#f39a4a` | `#b5531a` | 18:30 edition             |
 | `--night`  | `#86a2ea` | `#3a5bb0` | 22:30 edition             |
 
-`--hour` points at the current edition's colour.
+Section hues:
+
+| Token          | Dark      | Light     | Use             |
+| -------------- | --------- | --------- | --------------- |
+| `--sec-turkey` | `#f08a72` | `#a8432c` | Türkiye section |
+| `--sec-tech`   | `#7fb3f0` | `#1f5f9e` | Tech section    |
+| `--sec-world`  | `#62c2b2` | `#13695d` | World section   |
+
+`--hour` points at the current edition's colour; `--sec` at the section's hue inside `data-section`.
 
 ## Never
 

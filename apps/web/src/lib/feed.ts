@@ -1,4 +1,4 @@
-import { bulletinPath, storiesIn, storyPath } from './bulletins.js';
+import { briefPath, bulletinPath, storiesIn, storyPath } from './bulletins.js';
 import type { PublishedBulletin } from './bulletins.js';
 import { evidenceWord, type InterfaceLanguage } from './evidence.js';
 import { sectionName } from './i18n.js';
@@ -88,7 +88,7 @@ export function rssFeed(
 
 /**
  * Every page worth finding, in both languages: the front page, each bulletin's Contents and
- * each story. Settings, account and the Hot News shell are left out: they hold nothing to
+ * one-minute page, and each story. Settings, account and the Hot News shell are left out: they hold nothing to
  * search for.
  */
 export function sitemapPaths(bulletins: readonly PublishedBulletin[]): string[] {
@@ -96,6 +96,7 @@ export function sitemapPaths(bulletins: readonly PublishedBulletin[]): string[] 
     localePath('/', lang),
     ...bulletins.flatMap((published) => [
       bulletinPath(published, lang),
+      briefPath(published, lang),
       ...published.bulletin.stories.map((story) => storyPath(published, story, lang)),
     ]),
   ]);

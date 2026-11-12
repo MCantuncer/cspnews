@@ -185,6 +185,50 @@ export function lostLineFor(day: GameDay, language: GameLanguage): string {
 /** The page of each puzzle language. */
 export const GAME_PATHS: Readonly<Record<GameLanguage, string>> = { en: '/word', tr: '/word/tr' };
 
+/** Where the browser keeps the puzzle in progress and the finished days, per language. */
+export const gameKey = (language: GameLanguage) => `cspnews:word:${language}:game`;
+export const resultsKey = (language: GameLanguage) => `cspnews:word:${language}:results`;
+
+/** Where the reader is with today's puzzle, for the line that leads to the game. */
+export type TodayState =
+  | { readonly kind: 'new' }
+  | { readonly kind: 'playing'; readonly tries: number }
+  | { readonly kind: 'solved'; readonly tries: number }
+  | { readonly kind: 'lost' };
+
+/** Today's state from what the browser kept: a finished day wins over a game in progress. */
+export function todayState(
+  saved: SavedGame | undefined,
+  results: readonly GameResult[],
+  today: GameDay,
+): TodayState {
+  const finished = results.find((result) => result.day === today);
+  if (finished)
+    return finished.solved ? { kind: 'solved', tries: finished.tries } : { kind: 'lost' };
+  if (saved?.day === today && saved.guesses.length > 0) {
+    return { kind: 'playing', tries: saved.guesses.length };
+  }
+  return { kind: 'new' };
+}
+
+/** The short note after "Today's word" on the home page, in the game's language. */
+export function todayLine(state: TodayState, language: GameLanguage): string {
+  const tr = language === 'tr';
+  switch (state.kind) {
+    case 'new':
+      return tr ? 'Beş harf, altı deneme.' : 'Five letters, six tries.';
+    case 'playing': {
+      const left = MAX_TRIES - state.tries;
+      if (tr) return `Kalan deneme: ${String(left)}.`;
+      return left === 1 ? 'One try left.' : `${String(left)} tries left.`;
+    }
+    case 'solved':
+      return tr ? `${String(state.tries)}. denemede bildin.` : `Solved in ${String(state.tries)}.`;
+    case 'lost':
+      return tr ? 'Bu sefer olmadı.' : 'Not this time.';
+  }
+}
+
 /** One day of the word window shipped with the page: the day, its puzzle number and its word. */
 export interface WindowDay {
   readonly day: GameDay;

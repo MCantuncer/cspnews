@@ -40,7 +40,7 @@ const groups = storiesBySection(published, lang);
   <ol class="spine" style={`--sections: ${String(groups.length)}`}>
     {
       groups.map((group) => (
-        <li class="section">
+        <li class="section" data-section={group.section}>
           <h2 class="station">
             <Icon name={SECTION_ICON[group.section]} size={22} class="section-icon" />
             {sectionName(group.section, lang)}
@@ -154,11 +154,27 @@ const groups = storiesBySection(published, lang);
     position: relative;
   }
 
+  /* Each section colours its own stretch of the line. */
+  .stories {
+    position: relative;
+  }
+
+  .stories::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -27px;
+    width: 2px;
+    background: color-mix(in srgb, var(--sec) 60%, var(--line2));
+    content: '';
+  }
+
   .station {
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 30px 0 4px;
+    color: var(--sec);
     font: 800 24px / 1.15 var(--f-head);
     letter-spacing: -0.02em;
   }
@@ -173,14 +189,15 @@ const groups = storiesBySection(published, lang);
     left: -34px;
     width: 16px;
     height: 16px;
-    border: 2px solid var(--ink);
+    border: 2px solid var(--sec);
     border-radius: 50%;
-    background: var(--bg);
+    background: var(--sec);
+    box-shadow: 0 0 0 4px var(--bg);
     content: '';
   }
 
   .station :global(.section-icon) {
-    color: var(--meta);
+    color: var(--sec);
   }
 
   .row a {
@@ -306,7 +323,7 @@ const groups = storiesBySection(published, lang);
     left: -27px;
     width: 12px;
     height: 2px;
-    background: var(--line2);
+    background: color-mix(in srgb, var(--sec) 60%, var(--line2));
     content: '';
   }
 
@@ -325,7 +342,7 @@ const groups = storiesBySection(published, lang);
     left: -29px;
     width: 6px;
     border-radius: 1px;
-    background: var(--hour);
+    background: var(--sec);
     content: '';
   }
 
@@ -485,6 +502,10 @@ const groups = storiesBySection(published, lang);
 
     .contents:not(.compact) .stories {
       display: block;
+    }
+
+    .contents:not(.compact) .stories::before {
+      display: none;
     }
 
     .contents:not(.compact) .stories > li::before {

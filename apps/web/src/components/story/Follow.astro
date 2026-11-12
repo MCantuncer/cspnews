@@ -1,0 +1,138 @@
+---
+/**
+ * Follow a story (docs/design/system.md, "Follow"): one quiet card, one button. Followed
+ * stories open the next bulletin that carries them, with what changed. Kept in this browser
+ * only; without storage the button does nothing harmful and the page still reads.
+ */
+import type { LocalStory } from '@cspnews/core';
+
+import { evidenceWord, type InterfaceLanguage } from '../../lib/evidence';
+import type { StoryNow } from '../../lib/follow';
+import { followWords } from '../../lib/follow-words';
+import { sourceName } from '../../lib/sources';
+import Icon from '../ui/Icon.astro';
+
+interface Props {
+  story: LocalStory;
+  href: string;
+  lang: InterfaceLanguage;
+}
+
+const { story, href, lang } = Astro.props;
+const words = followWords(lang);
+const now: StoryNow = {
+  id: story.id,
+  title: story.shortTitle,
+  href,
+  section: story.section,
+  label: story.label,
+  labelWord: evidenceWord(story.label, lang),
+  sources: story.sources.map((s) => ({ id: s.sourceId, name: sourceName(s.sourceId) })),
+  updatedAt: story.updatedAt,
+};
+---
+
+<section class="follow" data-follow={JSON.stringify(now)} data-lang={lang} aria-labelledby="follow-title">
+  <h2 id="follow-title">{words.title}</h2>
+  <p data-follow-hint>{words.hint}</p>
+  <button type="button" aria-pressed="false" data-follow-button>
+    <span class="plus"><Icon name="follow" size={20} /></span>
+    <span class="tick"><Icon name="tick" size={18} /></span>
+    <span data-follow-word>{words.follow}</span>
+  </button>
+</section>
+
+<script>
+  import { follow, isFollowed, markSeen, safeStorage, seenNow, unfollow, type StoryNow } from '../../lib/follow';
+  import { followWords } from '../../lib/follow-words';
+
+  for (const card of document.querySelectorAll<HTMLElement>('[data-follow]')) {
+    const story = JSON.parse(card.dataset['follow'] ?? '{}') as StoryNow;
+    const words = followWords(card.dataset['lang'] === 'tr' ? 'tr' : 'en');
+    const button = card.querySelector<HTMLButtonElement>('[data-follow-button]');
+    const word = card.querySelector('[data-follow-word]');
+    const hint = card.querySelector('[data-follow-hint]');
+    const storage = safeStorage();
+    if (!button || !word || !hint || !storage) continue;
+
+    const show = (on: boolean) => {
+      button.setAttribute('aria-pressed', String(on));
+      word.textContent = on ? words.following : words.follow;
+      hint.textContent = on ? words.followingHint : words.hint;
+    };
+
+    // Reading a followed story again is "seeing" it: the next bulletin compares with this.
+    markSeen(storage, seenNow(story, new Date()));
+    show(isFollowed(storage, story.id));
+
+    button.addEventListener('click', () => {
+      const on = button.getAttribute('aria-pressed') !== 'true';
+      if (on) follow(storage, seenNow(story, new Date()));
+      else unfollow(storage, story.id);
+      show(on);
+    });
+  }
+</script>
+
+<style>
+  .follow {
+    display: grid;
+    gap: 10px;
+    margin-top: 32px;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+  }
+
+  h2 {
+    font: 700 18px / 1.25 var(--f-head);
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    color: var(--ink2);
+    font: 400 15px / 1.5 var(--f-body);
+  }
+
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    margin-top: 4px;
+    padding: 0 18px;
+    border: 1.5px solid var(--ink);
+    border-radius: 10px;
+    background: var(--ink);
+    color: var(--bg);
+    font: 700 15px / 1 var(--f-body);
+    cursor: pointer;
+  }
+
+  /* Following: the button steps back to an outline, so the page goes quiet again. */
+  button[aria-pressed='true'] {
+    border-color: var(--line2);
+    background: none;
+    color: var(--ink);
+  }
+
+  .tick,
+  button[aria-pressed='true'] .plus {
+    display: none;
+  }
+
+  button[aria-pressed='true'] .tick {
+    display: inline-flex;
+  }
+
+  .plus {
+    display: inline-flex;
+  }
+
+  @media (width >= 1024px) {
+    .follow {
+      margin-top: 28px;
+    }
+  }
+</style>
