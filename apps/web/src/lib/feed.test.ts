@@ -49,8 +49,9 @@ describe('sitemap', () => {
     expect(paths).toContain('/');
     expect(paths).toContain('/tr');
     expect(paths).toContain('/2026-11-11/evening');
+    expect(paths).toContain('/tr/2026-11-11/evening/brief');
     expect(paths).toContain(`/tr/2026-11-11/evening/${stories[0]?.id ?? ''}`);
-    expect(paths).toHaveLength(2 * (1 + bulletins.length + stories.length));
+    expect(paths).toHaveLength(2 * (1 + 2 * bulletins.length + stories.length));
     expect(new Set(paths).size).toBe(paths.length);
   });
 
