@@ -15,6 +15,15 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
 
 `data/candidates` is a working file for step 2 and is not committed.
 
+## How it runs by itself
+
+The machine that writes the bulletin cannot reach news sites, so the two steps that need them run on GitHub:
+
+- **Collect** (`.github/workflows/collect.yml`) runs step 1 and saves `candidates/<yyyy-mm-dd>-<slot>.json`, plus the readable text of the articles in `<yyyy-mm-dd>-<slot>.articles.json`, on the `candidates` branch.
+- **The Verify and Write run** is a scheduled task that starts forty minutes before each bulletin (the two main bulletins every day, the two side bulletins on weekdays). Its first action is to start Collect, because GitHub's own timer runs late or not at all; the timer in the workflow stays only as a backup, and Collect can also be started by hand from the Actions tab. The run then reads the new pair from the `candidates` branch, writes the bulletin, runs step 5 and opens a pull request with only the bulletin file.
+- **Bulletin photos** (`.github/workflows/bulletin-photos.yml`) runs step 3 on that pull request and adds the photos to its branch.
+- The run then merges the pull request, which is step 6.
+
 ## Writing in two languages
 
 Every reader gets the whole bulletin in their own language, so both versions must read as if a good editor wrote them in that language. They are two versions of one story, not an original and a copy.
