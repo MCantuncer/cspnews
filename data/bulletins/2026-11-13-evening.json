@@ -1,0 +1,1344 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-13T18:30:00+03:00",
+  "writtenAt": "2026-11-13T15:00:00.000Z",
+  "stories": [
+    {
+      "id": "d9f61916b99873b3",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "HABAŞ workers protest phone ban",
+          "title": "Gendarmes detain workers protesting a phone ban at the HABAŞ steel plant where 19 died in an explosion",
+          "summary": {
+            "what": "Workers at the HABAŞ steel plant in Aliağa, İzmir, stopped work on Friday after being told to hand in their phones, and gendarmes detained some of them.",
+            "why": "The protest came four days after an explosion at the plant killed 19 workers; workers say production has continued and want the site independently inspected.",
+            "next": "A workers’ group says nearly 20 people were detained; the investigation into the blast continues, with nine suspects in jail."
+          },
+          "body": [
+            {
+              "subhead": "A ban at the gate",
+              "blocks": [
+                {
+                  "text": "Workers on the morning shift at the HABAŞ iron and steel plant in Aliağa, İzmir, refused to go in on Friday after a notice at the entrance said employees who did not hand over their mobile phones would not be let through the turnstiles, Hürriyet, NTV and Habertürk reported. The workers stopped work and began waiting in front of the plant."
+                },
+                {
+                  "text": "According to the claim carried by the outlets, the ban was ordered by the company’s chairman, Mehmet Rüştü Başaran, who is under house arrest. Medyascope also reported that Başaran had given the instruction."
+                },
+                {
+                  "text": "Tension rose during the protest. Hürriyet and NTV said a scuffle broke out when a person identified as a factory official attacked a union official, and workers were then seen beating that person."
+                }
+              ]
+            },
+            {
+              "subhead": "Detentions on the road",
+              "blocks": [
+                {
+                  "text": "Workers blocked the road in front of the plant, and gendarmes intervened, Medyascope and Diken reported. Videos carried by news agencies showed some workers being detained by security forces, BBC Türkçe said."
+                },
+                {
+                  "text": "The Ege İşçi Birliği (Aegean Workers’ Union), a workers’ group, said on social media that nearly 20 people had been detained, among them its spokesperson Yücel Memiş. Earlier in the day Memiş said attempts had been made to take workers’ phones at the gate, and that production had continued for days in some parts of the plant. The group’s spokesperson accused state officials and the factory’s management of failing to explain what happened and of a lack of transparency."
+                },
+                {
+                  "quote": "Let the factory be inspected by independent bodies and made safe for workers. Until then, let the workers be given paid leave.",
+                  "speaker": "Ege İşçi Birliği spokesperson",
+                  "sourceId": "bbc-turkce",
+                  "translated": true
+                },
+                {
+                  "text": "Workers also clashed with representatives of Türk Metal, the union they belong to, and drove them from the site, the spokesperson said. The union had been criticised by workers for issuing only a message of condolence after the explosion, BBC Türkçe reported."
+                }
+              ]
+            },
+            {
+              "subhead": "The explosion and the investigation",
+              "blocks": [
+                {
+                  "text": "The explosion happened at around 11:46 on 9 November during work to replace a boiler, when an overhead crane fell and debris struck a natural gas line, according to Hürriyet and Habertürk. Nineteen workers were killed and 14 injured; NTV put the death toll at 18. HABAŞ said the accident happened during planned maintenance on one of its electric arc furnaces."
+                },
+                {
+                  "text": "Of 11 suspects detained by the Aliağa Chief Public Prosecutor’s Office, nine were jailed pending trial, while Başaran and one other suspect were placed under house arrest. The broadcasting regulator RTÜK banned coverage of the incident, BBC Türkçe reported."
+                },
+                {
+                  "text": "According to the Health and Safety Labour Watch (İSİG), which records workplace deaths, at least 45 workers have died at HABAŞ since the plant was founded, and two more died in separate accidents there in the past two weeks. HABAŞ executives face at least two cases over fatal accidents that are now on appeal; in one, heard in May 2026, Başaran and other officials were sentenced to four years, 10 months and 10 days in prison for causing death by negligence."
+                }
+              ]
+            }
+          ],
+          "place": {
+            "name": "Aliağa, İzmir",
+            "lat": 38.7997,
+            "lon": 26.9707,
+            "region": "Turkey"
+          }
+        },
+        "tr": {
+          "shortTitle": "HABAŞ’ta telefon yasağına tepki",
+          "title": "19 işçinin öldüğü HABAŞ’ta telefon yasağını protesto eden işçilere jandarma müdahalesi",
+          "summary": {
+            "what": "İzmir Aliağa’daki HABAŞ Demir Çelik Fabrikası’nda cep telefonu yasağına tepki gösteren işçiler cuma günü iş bıraktı; jandarma bazı işçileri gözaltına aldı.",
+            "why": "Eylem, fabrikada 19 işçinin öldüğü patlamadan dört gün sonra geldi; işçiler üretimin sürdüğünü söylüyor ve bağımsız denetim istiyor.",
+            "next": "Bir işçi örgütüne göre 20’ye yakın kişi gözaltında; patlamaya ilişkin soruşturma sürüyor, dokuz şüpheli tutuklu."
+          },
+          "body": [
+            {
+              "subhead": "Turnikede yasak",
+              "blocks": [
+                {
+                  "text": "İzmir’in Aliağa ilçesindeki HABAŞ Demir Çelik Fabrikası’nda sabah vardiyasına gelen işçiler, cuma günü fabrikaya girmedi. Hürriyet, NTV ve Habertürk’ün aktardığına göre girişe asılan duyuruda cep telefonlarını teslim etmeyen çalışanların turnikelerden içeri alınmayacağı bildirildi. İşçiler iş bırakarak tesis önünde beklemeye başladı."
+                },
+                {
+                  "text": "Haberlerdeki iddiaya göre yasak, ev hapsindeki Yönetim Kurulu Başkanı Mehmet Rüştü Başaran’ın talimatıyla getirildi. Medyascope da talimatı Başaran’ın verdiğini yazdı."
+                },
+                {
+                  "text": "Eylem sırasında tansiyon yükseldi. Hürriyet ve NTV’ye göre fabrika yetkilisi olduğu öğrenilen bir kişinin sendika yetkilisine saldırması üzerine arbede çıktı; işçilerin bu kişiyi darp ettiği görüldü."
+                }
+              ]
+            },
+            {
+              "subhead": "Yol kapatma ve gözaltılar",
+              "blocks": [
+                {
+                  "text": "Medyascope ve Diken’in haberine göre fabrika önündeki yolu trafiğe kapatan işçilere jandarma müdahale etti. BBC Türkçe, ajanslara yansıyan videolarda bazı işçilerin kolluk müdahalesiyle gözaltına alındığını aktardı."
+                },
+                {
+                  "text": "Ege İşçi Birliği, sosyal medya hesaplarından 20’ye yakın kişinin gözaltına alındığını, aralarında birliğin sözcüsü Yücel Memiş’in de bulunduğunu açıkladı. Memiş sabah yaptığı açıklamada fabrika girişinde işçilerin telefonlarına el konmaya çalışıldığını ve fabrikanın bazı bölümlerinde üretimin günlerdir sürdüğünü söylemişti. Sözcü, devlet yetkililerini ve fabrika yönetimini yeterli açıklama yapmamak ve şeffaf olmamakla eleştirdi."
+                },
+                {
+                  "quote": "Fabrika bağımsız kurumlar tarafından denetlensin, işçilerin güvenliğine uygun hale getirilsin. Bu hale gelene kadar işçilere ücretli izin verilsin.",
+                  "speaker": "Ege İşçi Birliği sözcüsü",
+                  "sourceId": "bbc-turkce"
+                },
+                {
+                  "text": "Sözcüye göre işçiler, üyesi oldukları Türk Metal sendikasının temsilcileriyle de tartıştı ve onları alandan kovdu. BBC Türkçe’nin aktardığına göre sendika, patlamanın ardından yalnızca taziye mesajı yayımladığı için işçilerin tepkisini çekmişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Patlama ve soruşturma",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Habertürk’e göre 9 Kasım’da saat 11.46 sıralarında kazan değişimi sırasında tavan vinci düştü, düşen malzemeler doğalgaz hattına çarptı ve büyük bir patlama yaşandı. Patlamada 19 işçi hayatını kaybetti, 14 işçi yaralandı; NTV ölü sayısını 18 olarak verdi. HABAŞ, kazanın elektrik ark ocaklarından birindeki planlı bakım sırasında meydana geldiğini açıkladı."
+                },
+                {
+                  "text": "Aliağa Cumhuriyet Başsavcılığının soruşturmasında gözaltına alınan 11 şüpheliden dokuzu tutuklandı; Başaran ile bir şüpheliye ev hapsi verildi. BBC Türkçe’ye göre RTÜK olayla ilgili yayın yasağı getirdi."
+                },
+                {
+                  "text": "İşçi Sağlığı ve İş Güvenliği Meclisi’ne (İSİG) göre fabrika kurulduğundan bu yana HABAŞ’ta en az 45 işçi öldü; son iki haftada ayrı kazalarda iki işçi daha hayatını kaybetti. HABAŞ yöneticileri hakkında ölümlü iş kazaları nedeniyle açılan ve istinaf aşamasında olan en az iki dava var. Mayıs 2026’daki bir davada Başaran ve diğer yetkililer “taksirle ölüme neden olma” suçundan dört yıl 10 ay 10 gün hapis cezası aldı."
+                }
+              ]
+            }
+          ],
+          "place": {
+            "name": "Aliağa, İzmir",
+            "lat": 38.7997,
+            "lon": 26.9707,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T10:38:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T10:38:13.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T10:38:13.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T11:07:54.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T12:56:59.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T13:07:15.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T13:22:28.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T14:35:13.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e879c813a6f07cce7f5d.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/19-isci-patlamada-hayatini-kaybetmisti-habasta-iscilere-telefon-yasagi-iddiasi-43376974"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/19-isci-patlamada-hayatini-kaybetmisti-habasta-iscilere-telefon-yasagi-iddiasi-43376974",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/13/habas-yonetim-kurulu-baskani-mehmet-rustu-basaran-talimat-verdi-fabrikaya-telefon-yasagi-getirildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-18-iscinin-oldugu-habasta-telefon-yasagi-iddiasi-fabrika-onunde-arbede-cikti-1750712",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-habas-iscileri-telefon-yasagini-protesto-etti-gozaltilar-var-3927147",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c539gl7dw2l0o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/habas-onunde-eylem-yapan-iscilere-jandarma-mudahalesi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/19-isciye-mezar-olan-habas-ta-kavga-cikti-telefon-yasagi-iscileri-ayaga-kaldirdi-p380948",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "fe16b895109e7c66",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Storm disrupts Istanbul ferries, cable cars",
+          "title": "A strong lodos storm halts ferries and cable cars in Istanbul and closes the Dardanelles to shipping",
+          "summary": {
+            "what": "A strong south-westerly lodos wind with gusts of up to 90 km/h swept the Marmara region on Friday, cancelling ferries and cable cars and closing parks in Istanbul.",
+            "why": "Istanbul’s governor’s office received 74 reports of blown-off roofs and fallen trees, and the Dardanelles was closed to shipping in both directions.",
+            "next": "The wind is expected to last until around midday on Saturday, when forecasters warn of heavy thunderstorms in the region until Sunday morning."
+          },
+          "body": [
+            {
+              "subhead": "Gusts of up to 90 km/h",
+              "blocks": [
+                {
+                  "text": "A strong lodos, the south-westerly wind that regularly batters the Marmara region, swept across Istanbul from the early hours of Friday after warnings from the Turkish State Meteorological Service (MGM) and the city’s disaster coordination centre AKOM, NTV reported. AKOM said gusts would reach 60 to 90 km/h and that the storm was expected to continue until midday on Saturday."
+                },
+                {
+                  "text": "The meteorological service issued a yellow warning for strong wind and storms across Istanbul from 02:00 on 13 November to 05:00 on 14 November, Cumhuriyet and Diken reported. NTV said the wind reached 68 km/h in the city, making it hard for pedestrians to walk."
+                }
+              ]
+            },
+            {
+              "subhead": "Ferries, trams and cable cars",
+              "blocks": [
+                {
+                  "text": "The city ferry operator Şehir Hatları cancelled many services. Ferries between Maltepe, Beşiktaş and Kabataş and the Princes’ Islands were suspended until further notice, and the Eminönü–Rumeli Kavağı line stopped calling at Beşiktaş and Ortaköy, NTV and Diken reported."
+                },
+                {
+                  "text": "Several sea bus crossings to Bandırma, Yalova and Bursa were also cancelled. The T1 Kabataş–Bağcılar tram ran for a time only between Kabataş and Yusufpaşa and between Çapa and Bağcılar, and the Maçka–Taşkışla and Eyüp–Piyer Loti cable cars were halted from 08:00. Flights at Istanbul Airport and Sabiha Gökçen continued as planned, the governor’s office said."
+                }
+              ]
+            },
+            {
+              "subhead": "Roofs, trees and closed parks",
+              "blocks": [
+                {
+                  "text": "By 13:00 the 112 emergency line had received 74 reports of blown-off roofs, fallen trees and dangerous debris, and all were dealt with, the Istanbul governor’s office said. Cumhuriyet reported no deaths or injuries in the city. In Eyüpsultan, debris from the roof of a five-storey building damaged four parked cars, and fallen trees damaged cars in Güngören, Bahçelievler and Sultangazi, NTV reported."
+                },
+                {
+                  "text": "The governor’s office temporarily closed groves and parks including Emirgan, Yıldız, Gülhane, Küçük Çamlıca and Büyük Çamlıca, as well as the Atatürk and Florya Atatürk urban forests, Diken reported. The gas distributor İGDAŞ warned subscribers by text message to keep vents open and to switch off flued boilers and stoves before going to bed, because of the risk of flue-gas poisoning in strong wind."
+                }
+              ]
+            },
+            {
+              "subhead": "Bursa, the Dardanelles and the weekend",
+              "blocks": [
+                {
+                  "text": "In Bursa, where the wind reached 74 km/h, a 13-year-old pupil lost a finger when a door slammed shut in the wind at a school in İnegöl, Habertürk reported. The Dardanelles was closed to shipping in both directions from 16:45 as gusts reached up to 90 km/h, the strait’s vessel traffic service told ships by radio."
+                },
+                {
+                  "text": "The meteorological service warned of thunderstorms from midday on Saturday in Kırklareli, Edirne, Tekirdağ, Istanbul, Çanakkale, Yalova, Bursa, Kocaeli, Sakarya, Bilecik and parts of Balıkesir, with a risk of flash floods, lightning, hail and disruption to transport until Sunday morning."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Lodos İstanbul’da ulaşımı aksattı",
+          "title": "İstanbul’da kuvvetli lodos: vapur ve teleferik seferleri durdu, Çanakkale Boğazı gemi trafiğine kapandı",
+          "summary": {
+            "what": "Cuma günü Marmara’da hızı saatte 90 kilometreyi bulan kuvvetli lodos etkili oldu; İstanbul’da vapur ve teleferik seferleri iptal edildi, korular kapatıldı.",
+            "why": "İstanbul Valiliği’ne çatı uçması ve ağaç devrilmesi gibi 74 ihbar ulaştı; Çanakkale Boğazı çift yönlü gemi trafiğine kapatıldı.",
+            "next": "Fırtınanın cumartesi öğlene kadar sürmesi, ardından bölgede pazar sabahına kadar kuvvetli sağanak bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Saatte 90 kilometreye varan rüzgar",
+              "blocks": [
+                {
+                  "text": "NTV’nin haberine göre Meteoroloji Genel Müdürlüğü (MGM) ve İBB Afet Koordinasyon Merkezi’nin (AKOM) uyarılarının ardından Marmara Bölgesi’nde cuma sabahının erken saatlerinden itibaren kuvvetli lodos etkili oldu. AKOM, rüzgarın kısa süreli hamlelerle saatte 60 ila 90 kilometre hızla eseceğini ve fırtınanın cumartesi öğle saatlerine kadar süreceğini açıkladı."
+                },
+                {
+                  "text": "Cumhuriyet ve Diken’e göre MGM, İstanbul genelinde 13 Kasım saat 02.00 ile 14 Kasım saat 05.00 arası için kuvvetli rüzgar ve fırtına uyarısıyla sarı kod verdi. NTV, kentte rüzgarın hızının saatte 68 kilometreye ulaştığını ve yayaların yürümekte zorlandığını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Vapur, tramvay ve teleferik",
+              "blocks": [
+                {
+                  "text": "NTV ve Diken’in aktardığına göre Şehir Hatları birçok seferi iptal etti. Maltepe-Adalar, Beşiktaş-Adalar ve Kabataş-Adalar seferleri ikinci bir duyuruya kadar yapılamayacak; Eminönü-Rumeli Kavağı hattının Beşiktaş ve Ortaköy uğramaları da iptal edildi."
+                },
+                {
+                  "text": "Bandırma, Yalova ve Bursa bağlantılı bazı deniz otobüsü seferleri yapılmadı. T1 Kabataş-Bağcılar tramvayı bir süre yalnızca Kabataş-Yusufpaşa ile Çapa-Bağcılar arasında çalıştı; Maçka-Taşkışla ve Eyüp-Piyer Loti teleferik hatlarında seferler saat 08.00’den itibaren durduruldu. Valiliğe göre İstanbul ve Sabiha Gökçen havalimanlarında planlı uçuşlar sürdü."
+                }
+              ]
+            },
+            {
+              "subhead": "Çatılar, ağaçlar ve kapanan korular",
+              "blocks": [
+                {
+                  "text": "İstanbul Valiliği, saat 13.00 itibarıyla 112 Acil Çağrı Merkezi’ne çatı uçması, ağaç devrilmesi ve tehlike arz eden parçalar nedeniyle 74 ihbar ulaştığını ve hepsine müdahale edildiğini açıkladı. Cumhuriyet’e göre kentte can kaybı ya da yaralanma yaşanmadı. NTV’nin haberine göre Eyüpsultan’da 5 katlı bir binanın çatısından uçan parçalar park halindeki 4 araca zarar verdi; Güngören, Bahçelievler ve Sultangazi’de devrilen ağaçlar araçlarda hasara yol açtı."
+                },
+                {
+                  "text": "Diken’e göre valilik Emirgan, Yıldız, Gülhane, Küçük Çamlıca ve Büyük Çamlıca korularını, Atatürk ve Florya Atatürk kent ormanlarını da kapsayan alanları geçici olarak ziyarete kapattı. İGDAŞ da abonelerine SMS göndererek havalandırma menfezlerinin açık tutulmasını, bacalı kombi, şofben ve sobaların yatmadan önce kapatılmasını istedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Bursa, Çanakkale ve hafta sonu",
+              "blocks": [
+                {
+                  "text": "Habertürk’ün haberine göre rüzgarın saatte 74 kilometreyi bulduğu Bursa’nın İnegöl ilçesinde 13 yaşındaki bir öğrencinin parmağı, rüzgarla aniden kapanan sınıf kapısına sıkışarak koptu. Çanakkale Boğazı da hızı yer yer saatte 90 kilometreyi bulan lodos nedeniyle saat 16.45’ten itibaren çift yönlü gemi trafiğine kapatıldı."
+                },
+                {
+                  "text": "Meteoroloji, cumartesi öğleden itibaren Kırklareli, Edirne, Tekirdağ, İstanbul, Çanakkale, Yalova, Bursa, Kocaeli, Sakarya, Bilecik ve Balıkesir’in bazı kesimleri için gök gürültülü sağanak uyarısı yaptı. Pazar sabahına kadar ani sel, yıldırım, dolu ve ulaşımda aksamalara karşı dikkatli olunması istendi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T10:22:45.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T10:30:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T10:30:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T10:59:40.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T14:15:30.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AA-20261113-43063442-43063440-BURSADA_LODOS_ETKILI_OLUYOR-403626.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-istanbulda-lodos-firtinasi-catilar-uctu-agaclar-devrildi-yolda-yurumek-zorlasti-1750672"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-istanbulda-lodos-firtinasi-catilar-uctu-agaclar-devrildi-yolda-yurumek-zorlasti-1750672",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-da-firtina-alarmi-74-ihbar-yapildi-korular-ziyarete-kapatildi-2555875",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/istanbulda-firtina-vapur-teleferik-ve-deniz-otobusleri-iptal/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-hizi-saatte-90-km-yi-bulacak-istanbul-da-firtina-3927043",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "107d8859b269b2a9",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Alleged gang leader Sayal jailed",
+          "title": "Sercan Sayal, wanted for 116 crimes, is jailed in İzmir after being sent back from Greece",
+          "summary": {
+            "what": "A court in İzmir on Friday ordered Sercan Sayal, described by police as the leader of a “new-generation” criminal gang, held in jail pending trial.",
+            "why": "Sayal was wanted on an Interpol red notice and in 116 separate cases, including murder, and police say he organised 90 shootings in İzmir.",
+            "next": "He was caught in Greece and flown to Türkiye on Thursday; he now stays in custody while the case against him proceeds."
+          },
+          "body": [
+            {
+              "subhead": "From Greece to the courthouse",
+              "blocks": [
+                {
+                  "text": "Sercan Sayal, whom Turkish police describe as the leader of a “new-generation organised crime group”, was sent to the courthouse in İzmir on Friday after police completed their procedures, Anadolu Agency, Sözcü, Hürriyet and NTV reported. A duty court then ordered him held in jail pending trial, Cumhuriyet and NTV reported."
+                },
+                {
+                  "text": "Sayal had been caught in Greece and was handed over to Türkiye on Thursday. He was flown to Istanbul Airport on Turkish Airlines flight TK1844, received there by the airport police and then taken to İzmir, Sözcü and Cumhuriyet reported. Cumhuriyet said he was held at the Yeşilyurt building of the İzmir police headquarters. NTV said tight security measures were in place as he was taken to court. His case had been handled by the organised crime branch of the İzmir police, Anadolu Agency said."
+                }
+              ]
+            },
+            {
+              "subhead": "Wanted in 116 cases",
+              "blocks": [
+                {
+                  "text": "Sayal was wanted internationally on an Interpol red notice and had 116 separate warrants against him, according to the outlets. The charges include premeditated murder, intentional killing, forming an organisation to commit crimes, aggravated robbery and armed robbery by more than one person."
+                },
+                {
+                  "text": "The Interior Ministry said on Thursday that investigators had found Sayal organised 90 shootings, three woundings, one killing and 164 threats in İzmir, Anadolu Agency reported. The figures come from the ministry; the accusations have not yet been tested in court."
+                }
+              ]
+            },
+            {
+              "subhead": "A joint operation",
+              "blocks": [
+                {
+                  "text": "The operation was run by the intelligence and anti-smuggling and organised crime departments of the General Directorate of Security, its Interpol-Europol department, the İzmir police organised crime branch and the Justice Ministry, the Interior Ministry said."
+                },
+                {
+                  "text": "The Interior Ministry had announced on Thursday that Sayal, caught in Greece, would be brought back to Türkiye. Sözcü and Cumhuriyet also described his gang as a “new-generation organised crime group”. Before the hearing, NTV reported that he was expected to appear before a judge within hours, and the court ordered him jailed the same afternoon."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Sercan Sayal tutuklandı",
+          "title": "116 suçtan aranan Sercan Sayal, Yunanistan’dan iadesinin ardından İzmir’de tutuklandı",
+          "summary": {
+            "what": "Polisin “yeni nesil suç örgütü” elebaşı olarak tanımladığı Sercan Sayal, cuma günü İzmir’de çıkarıldığı nöbetçi mahkemece tutuklandı.",
+            "why": "Kırmızı bültenle aranan ve 116 ayrı suçtan kaydı bulunan Sayal’ın İzmir’de 90 kurşunlama eylemini organize ettiği belirlendi.",
+            "next": "Yunanistan’da yakalanan ve perşembe günü Türkiye’ye getirilen Sayal, yargılama sürecinde tutuklu kalacak."
+          },
+          "body": [
+            {
+              "subhead": "Yunanistan’dan adliyeye",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı, Sözcü, Hürriyet ve NTV’nin haberine göre “yeni nesil organize suç örgütü” elebaşı olduğu belirtilen Sercan Sayal, İzmir İl Emniyet Müdürlüğündeki işlemlerinin tamamlanmasının ardından cuma günü adliyeye sevk edildi. Cumhuriyet ve NTV, Sayal’ın çıkarıldığı nöbetçi mahkemece tutuklandığını bildirdi."
+                },
+                {
+                  "text": "Yunanistan’da yakalanan Sayal, perşembe günü Türkiye’ye iade edildi. Sözcü ve Cumhuriyet’e göre Türk Hava Yolları’nın TK1844 sefer sayılı uçağıyla İstanbul Havalimanı’na getirilen Sayal, Havalimanı Emniyet Şube Müdürlüğü ekiplerince teslim alınarak İzmir’e götürüldü. Cumhuriyet, Sayal’ın İzmir İl Emniyet Müdürlüğü Yeşilyurt Hizmet Binası’na götürüldüğünü yazdı. NTV, adliyeye sevk sırasında geniş güvenlik önlemleri alındığını aktardı. AA’ya göre Sayal’ın işlemleri İzmir İl Emniyet Müdürlüğü Organize Suçlarla Mücadele Şube Müdürlüğünde tamamlandı."
+                }
+              ]
+            },
+            {
+              "subhead": "116 ayrı suç kaydı",
+              "blocks": [
+                {
+                  "text": "Haberlere göre Sayal, kırmızı bültenle uluslararası düzeyde aranıyordu ve hakkında 116 ayrı suçtan aranma kaydı bulunuyordu. Suçlamalar arasında tasarlayarak öldürme, kasten öldürme, suç işlemek amacıyla örgüt kurma, nitelikli yağma ve birden fazla kişi tarafından silahla yağma yer alıyor."
+                },
+                {
+                  "text": "Anadolu Ajansı’nın aktardığına göre İçişleri Bakanlığı perşembe günü yaptığı açıklamada, yürütülen çalışmalarda Sayal’ın İzmir’de 90 kurşunlama, 3 yaralama, bir kasten öldürme ve 164 tehdit eylemini organize ettiğinin belirlendiğini duyurdu. Bu rakamlar bakanlığa ait; suçlamalar henüz mahkemede sınanmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ortak operasyon",
+              "blocks": [
+                {
+                  "text": "İçişleri Bakanlığı’na göre çalışmalar Emniyet Genel Müdürlüğü İstihbarat ile Kaçakçılık ve Organize Suçlarla Mücadele başkanlıkları, Interpol-Europol Daire Başkanlığı, İzmir İl Emniyet Müdürlüğü Organize Suçlarla Mücadele Şube Müdürlüğü ve Adalet Bakanlığı koordinasyonunda yürütüldü."
+                },
+                {
+                  "text": "İçişleri Bakanlığı, Yunanistan’da yakalanan Sayal’ın Türkiye’ye getirileceğini perşembe günü duyurmuştu. Sözcü ve Cumhuriyet de Sayal’ın örgütünü “yeni nesil organize suç örgütü” olarak tanımladı. NTV, duruşmadan önce Sayal’ın saatler içinde hakim karşısına çıkmasının beklendiğini yazmıştı; mahkeme aynı öğleden sonra tutuklama kararı verdi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T12:16:00.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T12:16:42.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T12:16:42.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T12:48:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T14:16:21.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/b159b06c-72e0-4d7c-a937-554de9d551c1.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/116-suctan-kirmizi-bultenle-aranan-sercan-sayal-tutuklandi-2555907"
+      },
+      "sources": [
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/turkiyeye-getirilen-yeni-nesil-suc-orgutu-elebasi-sercan-sayal-adliyede/4124076",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/116-suctan-aranan-yunanistanda-yakalanan-suc-orgutu-elebasi-adliyede-p381054",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/yunanistanda-yakalanip-turkiyeye-getirilmisti-yeni-nesil-suc-orgutu-elebasi-sercan-sayal-adliyede-43377152",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/116-suctan-kirmizi-bultenle-aranan-sercan-sayal-tutuklandi-2555907",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-turkiyeye-iade-edilen-sercan-sayal-adliyeye-sevk-edildi-1750725",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "607d4d7557c40807",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Congress summons Jensen Huang",
+          "title": "Senate and House committees summon former Nvidia chief Jensen Huang over his alleged affair with a suspected Chinese spy",
+          "summary": {
+            "what": "The Senate Banking Committee has asked Jensen Huang to testify on 3 December, and three House committees want a closed-door interview on 1 December.",
+            "why": "Lawmakers say the affair raises national security concerns, and Nvidia has lost $550bn in market value in five days as the scandal unfolded.",
+            "next": "The Justice Department says it has not concluded whether Alice Huang spied for China, and Nvidia is searching for a permanent chief executive."
+          },
+          "body": [
+            {
+              "subhead": "Two summonses",
+              "blocks": [
+                {
+                  "text": "Jensen Huang, who resigned as Nvidia’s chief executive on Thursday, has been summoned to testify next month before the US Senate Banking Committee about his alleged affair with a woman suspected of being a Chinese spy, the BBC reported. The committee’s chairman, Senator Tim Scott, sent letters on Thursday to Huang and to Commerce Secretary Howard Lutnick requesting their testimony."
+                },
+                {
+                  "quote": "Recent reports raise serious concerns about our national security and the protection of sensitive US technology.",
+                  "speaker": "Tim Scott, US senator",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "Scott asked Huang to appear voluntarily on 3 December but warned that the committee could issue a subpoena to compel him. Three House of Representatives committees, on intelligence, on foreign affairs and on China, have also asked Huang for a closed-door interview on 1 December. A Commerce Department spokesperson said Lutnick had “proactively” agreed to appear before the Senate committee."
+                }
+              ]
+            },
+            {
+              "subhead": "Spy suspicions not proven",
+              "blocks": [
+                {
+                  "text": "Huang admitted on Sunday to having been “unfaithful” to his wife after reports of an affair with Alice Huang, no relation, an executive at the Singaporean firm Megaspeed whom the New York Times reported was suspected of being a Chinese intelligence asset. China has rejected the allegation as a smear. US media later reported a second relationship, with the long-time Nvidia executive Kimberly Powell, and the Times of London reported a third affair, according to a France 24 press review."
+                },
+                {
+                  "text": "US Attorney General Todd Blanche said on Thursday that the Justice Department had not yet drawn any conclusions about whether Alice Huang was spying for Beijing, the BBC reported. France 24 cited CNN as reporting that sources across the US intelligence community said there was no definitive proof she was an intelligence asset. Nvidia has said it has “no reason to believe that either national security or Nvidia secrets were compromised”."
+                }
+              ]
+            },
+            {
+              "subhead": "Pressure on Lutnick and the White House",
+              "blocks": [
+                {
+                  "text": "Lutnick is under scrutiny after unnamed administration officials told US media that he had stalled efforts to tighten exports of advanced AI chips to China. The Verge noted reports that President Donald Trump was warned about Alice Huang’s possible links to Chinese intelligence last year and again before his trip to China in May, and that Nvidia intervened in a Commerce Department investigation into her company. Democrats are planning an inquiry into how much Trump knew, France 24 said, citing the Times."
+                }
+              ]
+            },
+            {
+              "subhead": "A record fall for Nvidia",
+              "blocks": [
+                {
+                  "text": "Nvidia has lost $550bn in stock market value in five days, its biggest five-day drop since it went public 27 years ago, and its shares are down 31% from a peak only weeks ago, the BBC reported. The chief financial officer, Colette Kress, is interim chief executive while the company looks for a permanent replacement."
+                },
+                {
+                  "text": "Analysts told the South China Morning Post that Huang’s departure could lead Nvidia to scale back its spending on open-weight AI models, and could deprive Chinese developers of one of their most influential advocates in Washington."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Kongre Jensen Huang’ı ifadeye çağırdı",
+          "title": "ABD Kongresi komiteleri, eski Nvidia CEO’su Jensen Huang’ı Çinli casus şüphelisiyle ilişkisi nedeniyle ifadeye çağırdı",
+          "summary": {
+            "what": "Senato Bankacılık Komitesi Jensen Huang’dan 3 Aralık’ta ifade vermesini istedi; Temsilciler Meclisi’nin üç komitesi de 1 Aralık’ta kapalı görüşme talep etti.",
+            "why": "Milletvekilleri ilişkinin ulusal güvenlik kaygısı doğurduğunu söylüyor; Nvidia skandal boyunca beş günde 550 milyar dolar piyasa değeri kaybetti.",
+            "next": "Adalet Bakanlığı Alice Huang’ın Çin adına casusluk yapıp yapmadığına dair henüz sonuca varmadı; Nvidia kalıcı CEO arıyor."
+          },
+          "body": [
+            {
+              "subhead": "İki ayrı çağrı",
+              "blocks": [
+                {
+                  "text": "BBC’nin haberine göre perşembe günü Nvidia CEO’luğundan istifa eden Jensen Huang, Çin casusu olduğundan şüphelenilen bir kadınla yaşadığı iddia edilen ilişki hakkında gelecek ay ABD Senatosu Bankacılık Komitesi’nde ifade vermeye çağrıldı. Komite başkanı Senatör Tim Scott, perşembe günü Huang’a ve Ticaret Bakanı Howard Lutnick’e mektup göndererek ifade vermelerini istedi."
+                },
+                {
+                  "quote": "Son haberler ulusal güvenliğimiz ve hassas ABD teknolojisinin korunması konusunda ciddi endişeler doğuruyor.",
+                  "speaker": "Tim Scott, ABD senatörü",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "Scott, Huang’dan 3 Aralık’ta gönüllü olarak gelmesini istedi, ancak komitenin zorunlu celp çıkarabileceği uyarısında bulundu. Temsilciler Meclisi’nin istihbarat, dış ilişkiler ve Çin komiteleri de Huang’dan 1 Aralık’ta kapalı kapılar ardında görüşme talep etti. Ticaret Bakanlığı sözcüsü, Lutnick’in Senato komitesine çıkmayı “kendiliğinden” kabul ettiğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Casusluk şüphesi kanıtlanmadı",
+              "blocks": [
+                {
+                  "text": "Huang, Singapurlu Megaspeed şirketinde yönetici olan ve New York Times’a göre Çin istihbaratının unsuru olduğundan şüphelenilen Alice Huang (akrabalığı yok) ile ilişkisi ortaya çıkınca pazar günü eşini “aldattığını” kabul etmişti. Çin bu iddiayı karalama olarak reddetti. ABD basını ardından Nvidia’nın uzun süreli yöneticilerinden Kimberly Powell ile ikinci bir ilişkiyi duyurdu; France 24’ün basın özetine göre The Times da üçüncü bir ilişki olduğunu yazdı."
+                },
+                {
+                  "text": "BBC’ye göre ABD Başsavcısı Todd Blanche perşembe günü, Adalet Bakanlığı’nın Alice Huang’ın Pekin adına casusluk yapıp yapmadığı konusunda henüz bir sonuca varmadığını söyledi. France 24, CNN’in ABD istihbarat camiasındaki kaynaklara dayanarak onun istihbarat unsuru olduğuna dair kesin kanıt bulunmadığını bildirdiğini aktardı. Nvidia ise “ulusal güvenliğin ya da Nvidia sırlarının tehlikeye girdiğine inanmak için hiçbir neden olmadığını” açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Lutnick ve Beyaz Saray üzerinde baskı",
+              "blocks": [
+                {
+                  "text": "Lutnick, adı açıklanmayan yönetim yetkililerinin ABD basınına, gelişmiş yapay zeka çiplerinin Çin’e ihracatını sıkılaştırma çabalarını onun yavaşlattığını söylemesinin ardından mercek altında. The Verge, Başkan Donald Trump’ın Alice Huang’ın Çin istihbaratıyla olası bağlantıları konusunda geçen yıl ve mayıstaki Çin ziyareti öncesinde uyarıldığına, Nvidia’nın da onun şirketine yönelik bir Ticaret Bakanlığı soruşturmasına müdahale ettiğine dair haberleri hatırlattı. France 24’ün The Times’tan aktardığına göre Demokratlar, Trump’ın ne kadarını bildiğine dair bir soruşturma hazırlıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Nvidia’da rekor düşüş",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Nvidia beş günde 550 milyar dolar piyasa değeri kaybetti; bu, şirketin 27 yıl önce halka açılmasından bu yana en sert beş günlük düşüşü. Hisseler yalnızca birkaç hafta önceki zirvesinin %31 altında. Finans Direktörü Colette Kress, kalıcı bir isim bulunana kadar CEO’luğa vekalet ediyor."
+                },
+                {
+                  "text": "South China Morning Post’a konuşan analistler, Huang’ın ayrılışının Nvidia’nın açık ağırlıklı yapay zeka modellerine yaptığı harcamaları azaltmasına yol açabileceğini ve Çinli geliştiricileri Washington’daki en etkili savunucularından birinden yoksun bırakabileceğini söyledi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T03:57:01.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T11:56:27.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T11:56:27.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T12:00:00.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T14:00:09.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261113-it-s-game-over-for-jensen-huang-king-of-ai-chips",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374376/will-jensen-huangs-downfall-tip-scales-against-open-source-ai",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "6841e619fcd7e8d9",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "llama.cpp reaches version 1.0",
+          "title": "llama.cpp, the engine behind much of local AI, releases version 1.0 and promises stable interfaces",
+          "summary": {
+            "what": "The llama.cpp project, which lets people run large language models on their own hardware, has released version 1.0.0 of its libraries.",
+            "why": "Many applications depend on llama.cpp, and the team says major version numbers will now signal any change that breaks its interfaces.",
+            "next": "The team plans to widen how its software is packaged and distributed, and to keep expanding testing across hardware makers."
+          },
+          "body": [
+            {
+              "subhead": "A milestone after three and a half years",
+              "blocks": [
+                {
+                  "text": "The team behind llama.cpp announced on Friday on the Hugging Face blog that it has released version 1.0.0 of its libraries, three and a half years after the project began. llama.cpp makes it possible to run large language models, including ones that handle images as well as text, on hardware ranging from consumer laptops and desktops to enterprise servers."
+                },
+                {
+                  "text": "It does so through quantization, which shrinks models so they need less memory, through backends optimised for different chips, and through a portable implementation written in C and C++. The team says this makes AI inference available at every level of the software stack."
+                },
+                {
+                  "quote": "We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products.",
+                  "speaker": "The llama.cpp team",
+                  "sourceId": "hugging-face-blog"
+                }
+              ]
+            },
+            {
+              "subhead": "What version 1.0 changes",
+              "blocks": [
+                {
+                  "text": "The team says many downstream applications already depend on its work, and that it expects more to follow as local AI and privacy become more important in everyday life. Each new integration means more developers relying on the library’s interfaces, so a flexible but stable API matters more than before."
+                },
+                {
+                  "text": "From now on, llama.cpp and ggml, the machine-learning engine underneath it, will mark any incompatible change to their API or binary interface with a new major version number, following semantic versioning across all ggml-org projects. The team says it will be stricter about making those boundaries visible to developers who build on its code, and that it wants to widen the ways its software is packaged and reaches developers and users."
+                }
+              ]
+            },
+            {
+              "subhead": "Hardware, models and the use of AI in its own code",
+              "blocks": [
+                {
+                  "text": "ggml is designed to run on almost any hardware through dedicated backends, each of which can be compiled as a separate library and loaded when the program runs. llama.cpp currently supports more than 150 model architecture variants and all mainstream speculative decoding methods, which speed up text generation."
+                },
+                {
+                  "text": "To keep up with a faster pace of development, the team is investing more in the testing infrastructure behind the project, using Hugging Face’s Buckets and Jobs services, and has hardware support from Nvidia, AMD, Qualcomm, Arm, IBM and Intel for self-hosted test machines. It says it uses AI models in its own development in what it calls a thoughtful manner."
+                },
+                {
+                  "quote": "Maintaining a high quality codebase, staying in control of the architecture and understanding the implementation details will remain our top priorities.",
+                  "speaker": "The llama.cpp team",
+                  "sourceId": "hugging-face-blog"
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "llama.cpp 1.0 sürümüne ulaştı",
+          "title": "Yerel yapay zekanın temel motorlarından llama.cpp 1.0 sürümünü yayımladı, kararlı arayüz sözü verdi",
+          "summary": {
+            "what": "Büyük dil modellerini kişinin kendi donanımında çalıştırmayı sağlayan llama.cpp projesi, kütüphanelerinin 1.0.0 sürümünü yayımladı.",
+            "why": "Pek çok uygulama llama.cpp’ye dayanıyor; ekip artık arayüzü bozan her değişikliği ana sürüm numarasıyla duyuracağını söylüyor.",
+            "next": "Ekip yazılımın paketlenme ve dağıtım yollarını genişletmeyi, farklı donanım üreticileriyle testleri artırmayı planlıyor."
+          },
+          "body": [
+            {
+              "subhead": "Üç buçuk yılın ardından",
+              "blocks": [
+                {
+                  "text": "llama.cpp ekibi cuma günü Hugging Face blogunda, proje başladıktan üç buçuk yıl sonra kütüphanelerinin 1.0.0 sürümünü yayımladığını duyurdu. llama.cpp, metnin yanı sıra görselleri de işleyebilen büyük dil modellerini tüketici bilgisayarlarından kurumsal sunuculara kadar geniş bir donanım yelpazesinde çalıştırmayı mümkün kılıyor."
+                },
+                {
+                  "text": "Bunu, modelleri küçülterek daha az bellek gerektirmesini sağlayan nicemleme (quantization), farklı çiplere göre optimize edilmiş arka uçlar ve C ile C++ ile yazılmış taşınabilir bir uygulama sayesinde yapıyor. Ekip, böylece yapay zeka çıkarımını yazılım yığınının her katmanında erişilebilir kıldıklarını söylüyor."
+                },
+                {
+                  "quote": "Bunun, platformlar arası ve gizliliği koruyan yapay zeka ürünleri geliştirmek için en hafif, en çok yönlü ve en makul platform olduğuna inanıyoruz.",
+                  "speaker": "llama.cpp ekibi",
+                  "sourceId": "hugging-face-blog",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "1.0 sürümüyle ne değişiyor",
+              "blocks": [
+                {
+                  "text": "Ekibe göre pek çok uygulama şimdiden llama.cpp’ye dayanıyor ve yerel yapay zeka ile gizlilik günlük hayatta önem kazandıkça bu sayının artması bekleniyor. Her yeni entegrasyon, kütüphanenin arayüzlerine güvenen geliştirici sayısını artırıyor; bu yüzden esnek ama kararlı bir API her zamankinden önemli."
+                },
+                {
+                  "text": "Bundan sonra llama.cpp ve altındaki makine öğrenimi motoru ggml, API ya da ikili arayüzdeki uyumsuz her değişikliği yeni bir ana sürüm numarasıyla gösterecek; tüm ggml-org projelerinde anlamsal sürümleme kuralları geçerli olacak. Ekip, bu sınırları kendi kodunu kullanan geliştiricilere daha görünür kılma konusunda daha katı olacağını ve yazılımın geliştiricilere ve kullanıcılara ulaşma yollarını çoğaltmak istediğini belirtiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Donanım, modeller ve yapay zeka kullanımı",
+              "blocks": [
+                {
+                  "text": "ggml, ayrı kütüphaneler olarak derlenip program çalışırken yüklenebilen özel arka uçlar sayesinde neredeyse her donanımda çalışacak şekilde tasarlandı. llama.cpp şu anda 150’den fazla model mimarisi varyantını ve metin üretimini hızlandıran yaygın spekülatif kod çözme yöntemlerinin tamamını destekliyor."
+                },
+                {
+                  "text": "Ekip, artan geliştirme hızına ayak uydurmak için Hugging Face’in Buckets ve Jobs hizmetleriyle test altyapısına daha fazla kaynak ayırıyor; kendi test makineleri için Nvidia, AMD, Qualcomm, Arm, IBM ve Intel’den donanım desteği alıyor. Ekip, geliştirme sürecinde yapay zeka modellerini düşünülmüş bir biçimde kullandığını söylüyor."
+                },
+                {
+                  "quote": "Yüksek kaliteli bir kod tabanını korumak, mimarinin kontrolünü elde tutmak ve uygulama ayrıntılarını anlamak en önemli önceliklerimiz olmaya devam edecek.",
+                  "speaker": "llama.cpp ekibi",
+                  "sourceId": "hugging-face-blog",
+                  "translated": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T14:05:22.000Z",
+          "sourceId": "hugging-face-blog"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "hugging-face-blog",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "8ec3be04a5be1a15",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Iran says it hit US radar",
+          "title": "Iran says it destroyed a US radar in Bahrain in revenge for a strike near the Strait of Hormuz; the US denies it",
+          "summary": {
+            "what": "Iran’s Revolutionary Guards say they destroyed a US early-warning radar in Bahrain after a US airstrike on a communications tower overlooking the Strait of Hormuz.",
+            "why": "It is Iran’s first direct attack on US military installations for months, and the Guards threatened to respond “without constraint” to further strikes.",
+            "next": "US Central Command denies the radar was hit; Donald Trump says he will attack Iran only if necessary."
+          },
+          "body": [
+            {
+              "subhead": "Strike and counter-strike",
+              "blocks": [
+                {
+                  "text": "Iran’s Islamic Revolutionary Guard Corps (IRGC) said on Friday it had targeted and destroyed a US early-warning radar in Bahrain, in response to a US airstrike on a communications tower in Sirik, overlooking the Strait of Hormuz, the Guardian and Al Jazeera reported. It is Iran’s first direct attack on US military installations for months, the Guardian said."
+                },
+                {
+                  "quote": "This is a serious warning to the aggressor enemy to end its aerial mischief and oil smuggling in the strait of Hormuz. In the event of repeated violations and aggression, the IRGC aerospace force is on full alert to confront the enemy without constraint.",
+                  "speaker": "Islamic Revolutionary Guard Corps",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "US Central Command denied that the radar had been destroyed and said US forces had intercepted two Iranian drones heading for Bahrain."
+                }
+              ]
+            },
+            {
+              "subhead": "Trump holds back, for now",
+              "blocks": [
+                {
+                  "text": "In a series of interviews over the past 24 hours, President Donald Trump said he would attack Iran only if necessary, and claimed that Gulf countries such as Saudi Arabia had urged him to hold back from planned large-scale strikes, the Guardian reported."
+                },
+                {
+                  "text": "Trump said he had asked Vice-President JD Vance to drop his interest in negotiating a new deal with Iran. Iran had seen Vance as the most trustworthy figure close to Trump, but had rejected his request for a personal meeting with its negotiators. Trump also said he was disappointed in the American public, because higher diesel prices were a small price to pay to stop Iran getting a nuclear weapon."
+                }
+              ]
+            },
+            {
+              "subhead": "Doubts in Britain, doctrine in Tehran",
+              "blocks": [
+                {
+                  "text": "A YouGov poll for the Council for Arab-British Understanding found that 65% of Britons would oppose the US resuming the war in Iran and 14% would back it, while 54% opposed the US using UK bases for attacks on Iran and 29% supported it."
+                },
+                {
+                  "text": "In Tehran, the Assembly of Experts, the 88-member body of clerics that chooses the supreme leader, called on Thursday for a review of Iran’s membership of the nuclear non-proliferation treaty, describing it as an “unavoidable necessity”. The Guardian said it was the first governing institution in Iran to call for a review of the country’s defence doctrine, a step that could lead to religious permission to seek a nuclear weapon, despite a long-standing fatwa against such weapons issued by the late supreme leader Ali Khamenei."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İran ABD radarını vurduğunu söyledi",
+          "title": "İran, Hürmüz Boğazı yakınındaki saldırıya misilleme olarak Bahreyn’deki bir ABD radarını vurduğunu açıkladı; ABD yalanladı",
+          "summary": {
+            "what": "İran Devrim Muhafızları, ABD’nin Hürmüz Boğazı’na bakan bir iletişim kulesine düzenlediği hava saldırısının ardından Bahreyn’deki bir ABD erken uyarı radarını imha ettiğini açıkladı.",
+            "why": "Bu, İran’ın aylardır ABD askeri tesislerine yönelik ilk doğrudan saldırısı; Devrim Muhafızları yeni saldırılara “sınırsız” karşılık vermekle tehdit etti.",
+            "next": "ABD Merkez Kuvvetler Komutanlığı radarın vurulduğunu yalanladı; Donald Trump İran’a ancak gerekirse saldıracağını söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Saldırı ve misilleme",
+              "blocks": [
+                {
+                  "text": "Guardian ve Al Jazeera’nın haberine göre İran İslam Devrim Muhafızları Ordusu (DMO), ABD’nin Hürmüz Boğazı’na bakan Sirik’teki bir iletişim kulesine düzenlediği hava saldırısına karşılık Bahreyn’deki bir ABD erken uyarı radarını hedef alıp imha ettiğini cuma günü açıkladı. Guardian’a göre bu, İran’ın aylardır ABD askeri tesislerine yönelik ilk doğrudan saldırısı."
+                },
+                {
+                  "quote": "Bu, saldırgan düşmana Hürmüz Boğazı’ndaki hava haylazlıklarına ve petrol kaçakçılığına son vermesi için ciddi bir uyarıdır. İhlal ve saldırıların tekrarlanması halinde DMO hava-uzay kuvvetleri düşmanla sınırsızca karşı karşıya gelmek için tam alarmdadır.",
+                  "speaker": "İslam Devrim Muhafızları Ordusu",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "ABD Merkez Kuvvetler Komutanlığı (CENTCOM) radarın imha edildiğini yalanladı ve ABD kuvvetlerinin Bahreyn’e yönelen iki İran insansız hava aracını düşürdüğünü açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Trump şimdilik bekliyor",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre Başkan Donald Trump son 24 saatte verdiği bir dizi röportajda İran’a ancak gerekirse saldıracağını söyledi ve Suudi Arabistan gibi Körfez ülkelerinin kendisinden planlanan büyük çaplı saldırılardan vazgeçmesini istediğini öne sürdü."
+                },
+                {
+                  "text": "Trump, Başkan Yardımcısı JD Vance’ten İran’la yeni bir anlaşma müzakere etme ilgisini bırakmasını istediğini açıkladı. İranlılar Vance’i Trump’ın çevresindeki en güvenilir isim olarak görüyordu, ancak onun müzakerecilerle yüz yüze görüşme talebini reddetmişti. Trump ayrıca, yüksek motorin fiyatlarının İran’ın nükleer silah edinmesini önlemek için küçük bir bedel olduğunu söyleyerek Amerikan halkından hayal kırıklığına uğradığını belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "İngiltere’de kuşku, Tahran’da doktrin tartışması",
+              "blocks": [
+                {
+                  "text": "Arap-İngiliz Anlayış Konseyi için YouGov’un yaptığı ankete göre İngilizlerin %65’i ABD’nin İran’la savaşı yeniden başlatmasına karşı çıkarken %14’ü destekliyor. Katılımcıların %54’ü İngiliz üslerinin İran’a saldırılarda ABD tarafından kullanılmasına karşı, %29’u ise destekliyor."
+                },
+                {
+                  "text": "Tahran’da ise dini lideri seçen 88 üyeli din adamları kurulu Uzmanlar Meclisi, perşembe günü İran’ın Nükleer Silahların Yayılmasını Önleme Antlaşması’ndaki üyeliğinin gözden geçirilmesini “kaçınılmaz bir zorunluluk” olarak nitelendirdi. Guardian’a göre bu, İran’da ülkenin savunma doktrininin gözden geçirilmesini isteyen ilk yönetim kurumu. Adım, merhum dini lider Ali Hamaney’in nükleer silahları yasaklayan fetvasına rağmen nükleer silah edinmeye dini izin verilmesinin yolunu açabilir."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T10:54:25.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T13:52:11.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T13:52:11.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=140&quality=85&auto=format&fit=max&s=1827173b1be92a1da7873febef1104d0",
+        "sourceId": "guardian-world",
+        "sourceName": "The Guardian World",
+        "articleUrl": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "97a30dc29e82cf30",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "IAEA urges Iran to reopen inspections",
+          "title": "UN nuclear watchdog says it is increasingly concerned about an Iranian enrichment plant it has never inspected",
+          "summary": {
+            "what": "The International Atomic Energy Agency urged Iran in a report on Friday to let its inspectors back in, saying it does not even know where Iran’s Isfahan enrichment plant is.",
+            "why": "Since the US and Israeli strikes of June 2025 the agency has been unable to verify Iran’s stock of near-weapons-grade uranium.",
+            "next": "Iran told the agency inspections cannot resume while the US president threatens further attacks; the IAEA says it can return at short notice."
+          },
+          "body": [
+            {
+              "subhead": "A plant no one has seen",
+              "blocks": [
+                {
+                  "text": "The International Atomic Energy Agency (IAEA) called on Iran to restore access for its inspectors in a report circulated to member states on Friday, saying this was essential for it to monitor the Iranian nuclear programme, Al Jazeera and the BBC reported. The agency said it was “increasingly concerned” about a uranium enrichment plant near Isfahan that it has not been allowed to inspect."
+                },
+                {
+                  "text": "Iran told the IAEA about plans for the Isfahan Fuel Enrichment Plant on 12 June 2025, a day before Israel began attacking its nuclear sites; the United States joined the strikes later that month. An inspection was agreed but cancelled after the attacks began, the BBC said. According to the report, inspectors still do not know the plant’s exact location or whether it holds nuclear material, and the report did not establish that enrichment is taking place there."
+                },
+                {
+                  "quote": "The Agency’s lack of information about [Iran’s] nuclear material and access to facilities to verify it is a matter of serious proliferation concern... and needs to be rectified with the utmost urgency.",
+                  "speaker": "IAEA report",
+                  "sourceId": "bbc-world"
+                }
+              ]
+            },
+            {
+              "subhead": "The missing uranium",
+              "blocks": [
+                {
+                  "text": "Since the strikes the agency has been unable to verify the status of Iran’s stockpile of highly enriched uranium. Under the 2015 nuclear deal Iran agreed to limit its stockpile to 300kg and enrichment to 3.67% purity, but later exceeded both. Before the June 2025 strikes it had an estimated 441kg enriched to 60%, close to weapons grade, the BBC reported."
+                },
+                {
+                  "text": "The Isfahan complex was badly damaged in the strikes, especially above ground, and the state of its underground facilities is unclear. The IAEA believes much of Iran’s highly enriched uranium was stored there. Almost a year ago the agency said it had inspected only some of the 13 Iranian nuclear facilities unaffected by the attacks and none of the seven that were hit."
+                }
+              ]
+            },
+            {
+              "subhead": "Iran’s answer",
+              "blocks": [
+                {
+                  "text": "Iran told the agency this month that talks on resuming inspections could not take place amid “persistent, explicit, and public threats by the President of the United States of America … to commit further acts of armed aggression”, according to the report cited by Al Jazeera. The IAEA withdrew its inspectors for safety reasons, and Iran later passed a law suspending cooperation with it."
+                },
+                {
+                  "text": "The IAEA director general, Rafael Grossi, urged Iran to consider limited technical measures that would make visits possible, AFP reported. The agency said it was “fully prepared to resume its safeguards activities in Iran at short notice”. Iran’s foreign ministry spokesperson, Esmaeil Baghaei, said on Monday that Iran remained committed to the Non-Proliferation Treaty but blamed the US and Israeli attacks for limiting cooperation. Iran says its programme is purely civilian."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "UAEA İran’dan denetim istedi",
+          "title": "BM nükleer denetim kuruluşu, hiç denetleyemediği İsfahan zenginleştirme tesisi konusunda endişesinin arttığını açıkladı",
+          "summary": {
+            "what": "Uluslararası Atom Enerjisi Ajansı cuma günkü raporunda İran’dan denetçilerine yeniden erişim istedi; ajans İsfahan’daki tesisin yerini bile bilmiyor.",
+            "why": "ABD ve İsrail’in Haziran 2025’teki saldırılarından bu yana ajans, İran’ın silah düzeyine yakın uranyum stokunu doğrulayamıyor.",
+            "next": "İran, ABD başkanının saldırı tehditleri sürerken denetimlerin başlayamayacağını bildirdi; UAEA kısa sürede dönmeye hazır olduğunu söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Kimsenin görmediği tesis",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve BBC’nin haberine göre Uluslararası Atom Enerjisi Ajansı (UAEA), cuma günü üye ülkelere dağıttığı raporda İran’dan denetçilerine erişimi yeniden sağlamasını istedi ve bunun İran’ın nükleer programını izleme görevi için şart olduğunu vurguladı. Ajans, denetlemesine izin verilmeyen İsfahan yakınlarındaki uranyum zenginleştirme tesisi konusunda “giderek daha fazla endişe duyduğunu” belirtti."
+                },
+                {
+                  "text": "BBC’ye göre İran, İsfahan Yakıt Zenginleştirme Tesisi planını İsrail’in nükleer tesislerine saldırılarından bir gün önce, 12 Haziran 2025’te UAEA’ya bildirmişti; ABD de aynı ay saldırılara katıldı. Kararlaştırılan denetim, saldırılar başlayınca iptal edildi. Rapora göre denetçiler tesisin tam yerini ve nükleer madde barındırıp barındırmadığını hâlâ bilmiyor; rapor tesiste zenginleştirme yapıldığını da tespit etmedi."
+                },
+                {
+                  "quote": "Ajansın [İran’ın] nükleer maddesine ve bunu doğrulamak için tesislere erişimine dair bilgi eksikliği ciddi bir nükleer yayılma endişesi konusudur... ve en acil şekilde giderilmelidir.",
+                  "speaker": "UAEA raporu",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Kayıp uranyum",
+              "blocks": [
+                {
+                  "text": "Saldırılardan bu yana ajans, İran’ın yüksek zenginleştirilmiş uranyum stokunun durumunu doğrulayamıyor. BBC’ye göre İran 2015 nükleer anlaşmasıyla stokunu 300 kilogramla ve zenginleştirmeyi %3,67 saflıkla sınırlamayı kabul etmiş, sonra iki sınırı da aşmıştı. Haziran 2025 saldırılarından önce silah düzeyine yakın %60 oranında zenginleştirilmiş tahmini 441 kilogram uranyumu vardı."
+                },
+                {
+                  "text": "İsfahan kompleksi saldırılarda özellikle yer üstünde ağır hasar gördü; yer altındaki tesislerin durumu belirsiz. UAEA, İran’ın yüksek zenginleştirilmiş uranyumunun büyük kısmının burada depolandığını düşünüyor. Ajans yaklaşık bir yıl önce saldırılardan “etkilenmeyen” 13 tesisin yalnızca bir kısmını, etkilenen yedi tesisin ise hiçbirini denetleyebildiğini açıklamıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "İran’ın yanıtı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın aktardığı rapora göre İran bu ay ajansa, “ABD Başkanı’nın yeni silahlı saldırı eylemlerine yönelik ısrarlı, açık ve alenen dile getirdiği tehditler” sürerken denetimlerin yeniden başlatılmasının konuşulamayacağını bildirdi. UAEA denetçilerini güvenlik gerekçesiyle geri çekmiş, İran da ardından ajansla işbirliğini askıya alan bir yasa çıkarmıştı."
+                },
+                {
+                  "text": "AFP’ye göre UAEA Genel Direktörü Rafael Grossi, İran’ı denetim ziyaretlerini mümkün kılacak sınırlı teknik önlemleri değerlendirmeye çağırdı. Ajans, “İran’daki güvence faaliyetlerine kısa sürede yeniden başlamaya tamamen hazır” olduğunu belirtti. İran Dışişleri Bakanlığı Sözcüsü Esmaeil Baghaei pazartesi günü İran’ın Nükleer Silahların Yayılmasını Önleme Antlaşması’na bağlı kaldığını söyledi, ancak işbirliğinin sınırlanmasından ABD ve İsrail saldırılarını sorumlu tuttu. İran programının yalnızca sivil amaçlı olduğunu savunuyor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T11:51:57.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T12:28:28.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T12:28:28.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06a/live/954609a0-df57-11f1-93e1-3b657b665bcf.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    },
+    {
+      "id": "89a03082b79be26a",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Building collapse kills six near Nairobi",
+          "title": "Six people die as an unfinished eight-storey building collapses in Syokimau, on the edge of Nairobi",
+          "summary": {
+            "what": "The top floor of an eight-storey building under construction gave way in Syokimau, near Nairobi, on Friday morning, killing six people.",
+            "why": "It is Kenya’s second deadly building collapse in three weeks, after eight people died in Nairobi on 23 October, and it has revived calls for stricter oversight.",
+            "next": "Rescue teams are still searching the rubble, because it is not yet confirmed how many workers were on site."
+          },
+          "body": [
+            {
+              "subhead": "The collapse",
+              "blocks": [
+                {
+                  "text": "Six people died on Friday morning when part of an unfinished eight-storey building collapsed in Syokimau, on the outskirts of Kenya’s capital Nairobi, the South China Morning Post and Al Jazeera reported. Construction workers were at the site when the uppermost concrete slab gave way, bringing down part of the structure, according to a preliminary report by Nairobi City County’s emergency team. The report did not establish why the slab failed."
+                },
+                {
+                  "quote": "So far we have confirmed six bodies, but also five people have been rushed to Imara Daima Hospital.",
+                  "speaker": "Duncan Ochieng, Kenya Police",
+                  "sourceId": "scmp-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Search for survivors",
+              "blocks": [
+                {
+                  "text": "Duncan Ochieng is the assistant inspector general of police in charge of disaster management, and spoke to reporters at the scene. The Kenya Red Cross first reported that three people had been rescued and one was missing; television reports later said five people had been pulled alive from the rubble and taken to hospital, Al Jazeera said."
+                },
+                {
+                  "text": "Accounts differ on how many people were at work. The South China Morning Post reported that 405 workers were on site, while the emergency team’s report said the number present when the building fell had not been confirmed, leaving open the possibility that others were trapped. Firefighters and specialist rescue teams were still searching for survivors."
+                },
+                {
+                  "text": "Patrick Makau, the member of parliament for Mavoko, the constituency that includes Syokimau, urged rescue agencies on social media to act quickly and offered condolences to the victims’ families."
+                }
+              ]
+            },
+            {
+              "subhead": "Calls for tighter rules",
+              "blocks": [
+                {
+                  "quote": "Every second counts.",
+                  "speaker": "Patrick Makau, Kenyan MP",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "The accident follows a deadly building collapse in Nairobi on 23 October that killed eight people, and the two disasters have prompted calls for tougher oversight of construction sites. The South China Morning Post described it as the latest in a string of construction accidents in the country."
+                },
+                {
+                  "text": "The Kenya Institute for Public Policy Research and Analysis, a state research body, has named poor workmanship, inadequate supervision, substandard materials and faulty designs as wider causes of building collapses in Kenya, Al Jazeera reported."
+                }
+              ]
+            }
+          ],
+          "place": {
+            "name": "Syokimau",
+            "lat": -1.3667,
+            "lon": 36.9333,
+            "region": "Kenya"
+          }
+        },
+        "tr": {
+          "shortTitle": "Nairobi yakınında bina çöktü: 6 ölü",
+          "title": "Nairobi yakınlarındaki Syokimau’da inşaatı süren sekiz katlı bina çöktü, altı kişi hayatını kaybetti",
+          "summary": {
+            "what": "Kenya’nın başkenti Nairobi yakınlarındaki Syokimau’da cuma sabahı inşaatı süren sekiz katlı bir binanın en üst katı çöktü, altı kişi öldü.",
+            "why": "Bu, Kenya’da üç hafta içinde ikinci ölümlü bina çökmesi; 23 Ekim’de Nairobi’de sekiz kişi ölmüştü ve daha sıkı denetim çağrıları yeniden yükseldi.",
+            "next": "Olay anında sahada kaç işçi olduğu doğrulanmadığı için arama kurtarma ekipleri enkazda çalışmayı sürdürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Çökme",
+              "blocks": [
+                {
+                  "text": "South China Morning Post ve Al Jazeera’nın haberine göre Kenya’nın başkenti Nairobi’nin eteklerindeki Syokimau’da cuma sabahı inşaatı tamamlanmamış sekiz katlı bir binanın bir kısmı çöktü, altı kişi hayatını kaybetti. Nairobi İl Yönetimi acil durum ekibinin ön raporuna göre işçiler sahadayken en üstteki beton döşeme çöktü ve yapının bir bölümünü de beraberinde götürdü. Rapor, döşemenin neden çöktüğünü belirlemedi."
+                },
+                {
+                  "quote": "Şu ana kadar altı cesedi doğruladık, ayrıca beş kişi Imara Daima Hastanesi’ne kaldırıldı.",
+                  "speaker": "Duncan Ochieng, Kenya Polisi",
+                  "sourceId": "scmp-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Hayatta kalanlar aranıyor",
+              "blocks": [
+                {
+                  "text": "Duncan Ochieng, polisin afet yönetiminden sorumlu genel müdür yardımcısı ve açıklamayı olay yerinde gazetecilere yaptı. Al Jazeera’ya göre Kenya Kızılhaçı önce üç kişinin kurtarıldığını, bir kişinin kayıp olduğunu bildirdi; televizyon haberleri ise daha sonra beş kişinin enkazdan sağ çıkarılıp hastaneye kaldırıldığını aktardı."
+                },
+                {
+                  "text": "Sahada kaç kişinin çalıştığı konusunda farklı bilgiler var. South China Morning Post sahada 405 işçi olduğunu yazarken, acil durum ekibinin raporu bina çöktüğünde orada bulunanların sayısının doğrulanmadığını belirtti; bu da başkalarının enkaz altında kalmış olabileceği anlamına geliyor. İtfaiye ve özel kurtarma ekipleri aramayı sürdürüyor."
+                },
+                {
+                  "text": "Syokimau’yu da kapsayan Mavoko seçim bölgesinin milletvekili Patrick Makau, sosyal medyadan kurtarma ekiplerini hızlı davranmaya çağırdı ve hayatını kaybedenlerin ailelerine başsağlığı diledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Daha sıkı denetim çağrısı",
+              "blocks": [
+                {
+                  "quote": "Her saniye önemli.",
+                  "speaker": "Patrick Makau, Kenyalı milletvekili",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Kaza, 23 Ekim’de Nairobi’de sekiz kişinin öldüğü bina çökmesinin ardından geldi; iki felaket inşaat alanlarında daha sıkı denetim çağrılarına yol açtı. South China Morning Post olayı, ülkede son dönemde art arda yaşanan inşaat kazalarının sonuncusu olarak nitelendirdi."
+                },
+                {
+                  "text": "Al Jazeera’ya göre devlete bağlı araştırma kurumu Kenya Kamu Politikası Araştırma ve Analiz Enstitüsü, Kenya’daki bina çökmelerinin genel nedenleri arasında kötü işçilik, yetersiz denetim, standart dışı malzeme ve hatalı tasarımı sayıyor."
+                }
+              ]
+            }
+          ],
+          "place": {
+            "name": "Syokimau",
+            "lat": -1.3667,
+            "lon": 36.9333,
+            "region": "Kenya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T13:10:08.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T13:11:24.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T13:11:24.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T18:30:00+03:00",
+      "updatedAt": "2026-11-13T18:30:00+03:00"
+    }
+  ]
+}
