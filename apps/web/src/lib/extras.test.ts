@@ -93,9 +93,9 @@ describe('And finally', () => {
   });
 
   it('has its words in both languages', () => {
-    expect(extrasWords('en').andFinally).toBe('And finally');
-    expect(extrasWords('tr').andFinally).toBe('Biraz da magazin');
-    expect(extrasWords('en').count(1)).toBe('1 light story');
+    expect(extrasWords('en').andFinally).toBe('Spotlight');
+    expect(extrasWords('tr').andFinally).toBe('Magazin');
+    expect(extrasWords('en').count(1)).toBe('1 story');
   });
 });
 

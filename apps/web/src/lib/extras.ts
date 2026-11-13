@@ -89,8 +89,8 @@ export function transferReporters(move: LocalTransferMove) {
 
 const WORDS = {
   en: {
-    andFinally: 'And finally',
-    count: (n: number) => (n === 1 ? '1 light story' : `${String(n)} light stories`),
+    andFinally: 'Spotlight',
+    count: (n: number) => (n === 1 ? '1 story' : `${String(n)} stories`),
     note: 'The lighter side of today. Facts stay checked; the jokes are ours.',
     backstage: 'Backstage talk',
     backstageNote: 'Not confirmed. We name who is saying it.',
@@ -113,8 +113,8 @@ const WORDS = {
       town: 'Around town',
     },
     rumour: 'Rumour',
-    lightSetting: 'Light stories',
-    lightHint: '“And finally” at the end of each bulletin.',
+    lightSetting: 'Spotlight',
+    lightHint: 'Screen, music, people and odd news at the end of each bulletin.',
     leagues: {
       'super-lig': 'Süper Lig',
       'premier-league': 'Premier League',
@@ -127,8 +127,8 @@ const WORDS = {
     },
   },
   tr: {
-    andFinally: 'Biraz da magazin',
-    count: (n: number) => `${String(n)} hafif haber`,
+    andFinally: 'Magazin',
+    count: (n: number) => `${String(n)} haber`,
     note: 'Günün hafif tarafı. Bilgiler yine doğrulanır, espriler bizden.',
     backstage: 'Kulis',
     backstageNote: 'Doğrulanmadı. Kimin söylediğini yazıyoruz.',
@@ -151,8 +151,8 @@ const WORDS = {
       town: 'Şehirden',
     },
     rumour: 'Söylenti',
-    lightSetting: 'Hafif haberler',
-    lightHint: 'Her bültenin sonunda “Biraz da magazin”.',
+    lightSetting: 'Magazin',
+    lightHint: 'Her bültenin sonunda ekran, müzik, ünlüler ve ilginç haberler.',
     leagues: {
       'super-lig': 'Süper Lig',
       'premier-league': 'Premier Lig',
