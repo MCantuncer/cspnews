@@ -47,6 +47,7 @@ Two parts sit outside the news sections, in `andFinally` and `transfers` (format
 - `light`: true light stories (celebrities and television, odd records, animals, small local wonders) that are Confirmed or Reported. The `title` and `gist` are written straight. The `aside` is one line of wit in our own voice, at most 140 characters: dry, about the situation, never about a person's looks, body, age, accent or private life, never about a private person, no emoji. Write a separate joke in each language rather than translating one.
 - `rumours`: talk we could not confirm, each with `heardFrom`, the outlet that is saying it. Leave out a rumour about someone's health, relationships or private life, a rumour that accuses anyone of a crime, and any rumour about a private person.
 - Never put death, illness, crime victims, children, disasters or war in And finally, however odd the story is.
+- Give every item a `kind` for its badge: `screen`, `music`, `people`, `odd`, `animals` or `town`. Give a light story an `image` when one of its sources has a real news photo (same rules as a story photo), and keep the `gist` to one sentence.
 
 **Transfers** covers moves to clubs in the Süper Lig, Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie and Primeira Liga, at most six per bulletin: the ones that moved forward since the last bulletin.
 
