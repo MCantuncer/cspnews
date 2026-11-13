@@ -3,6 +3,7 @@ import { join } from 'node:path';
 
 import type { Bulletin } from '@cspnews/core';
 
+import { looksLikePhoto } from './image.js';
 import { articlePhotoUrl, photoWidth } from './photo-size.js';
 
 /**
@@ -39,6 +40,15 @@ export function photoExtension(contentType: string | null): string | undefined {
  */
 export const MIN_PHOTO_WIDTH = 800;
 
+/**
+ * A photo narrower than this, after trying the article's own photo, is a thumbnail that would
+ * look blurred on the story page: it is not saved, and the story shows its next visual.
+ */
+export const SMALLEST_PHOTO_WIDTH = 400;
+
+/** Share images with a logo or banner drawn over the photo (image-server overlay parameters). */
+const STAMPED = /[?&](?:overlay-[a-z0-9]+|blend-[a-z0-9]+|txt|mark)=/i;
+
 export interface SavedPhoto {
   readonly storyId: string;
   readonly file?: string;
@@ -72,7 +82,7 @@ async function fullSizePhoto(
   try {
     const page = await fetchBytes(articleUrl);
     const url = articlePhotoUrl(new TextDecoder().decode(page.bytes), articleUrl);
-    if (!url) return undefined;
+    if (!url || !looksLikePhoto(url) || STAMPED.test(url)) return undefined;
     const photo = await downloadPhoto(url, fetchBytes);
     return (photoWidth(photo.bytes) ?? 0) > thumbnailWidth ? photo : undefined;
   } catch {
@@ -105,6 +115,10 @@ export async function saveStoryPhotos(
           ? await fullSizePhoto(story.image.articleUrl, width, fetchBytes)
           : undefined;
       const photo = better ?? feedPhoto;
+      const finalWidth = better ? photoWidth(better.bytes) : width;
+      if (finalWidth !== undefined && finalWidth < SMALLEST_PHOTO_WIDTH) {
+        throw new Error(`only a ${String(finalWidth)}px thumbnail`);
+      }
       removeOlderCopies(mediaDirectory, story.id);
       const file = `${story.id}.${photo.extension}`;
       writeFileSync(join(mediaDirectory, file), photo.bytes);
