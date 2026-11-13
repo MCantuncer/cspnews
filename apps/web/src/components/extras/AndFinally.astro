@@ -90,7 +90,7 @@ const leadId = light.find((item) => item.photo)?.story.id;
                     )}
                     <p class="kind">{kindWord(story.kind, lang)}</p>
                     <h3>
-                      <a class="read" href={story.sources[0]?.url} rel="noopener">
+                      <a class="read" href={story.sources[0]?.url} target="_blank" rel="noopener">
                         {story.title}
                         <Icon name="external" size={16} class="read-mark" />
                       </a>
@@ -102,7 +102,7 @@ const leadId = light.find((item) => item.photo)?.story.id;
                       {story.sources.map((source) => {
                         const logo = logoOf(source.sourceId);
                         return (
-                          <a class="outlet" href={source.url} rel="noopener">
+                          <a class="outlet" href={source.url} target="_blank" rel="noopener">
                             {logo && <img src={logo.src} alt="" loading="lazy" decoding="async" />}
                             {sourceName(source.sourceId)}
                           </a>
@@ -140,14 +140,14 @@ const leadId = light.find((item) => item.photo)?.story.id;
                           {kindWord(rumour.kind, lang)}, {words.rumour.toLocaleLowerCase(lang)}
                         </p>
                         <p class="title">
-                          <a class="read" href={rumour.heardFrom.url} rel="noopener">
+                          <a class="read" href={rumour.heardFrom.url} target="_blank" rel="noopener">
                             {rumour.title}
                             <Icon name="external" size={16} class="read-mark" />
                           </a>
                         </p>
                         <p class="meta">
                           <span>{words.heardFrom}</span>
-                          <a class="outlet" href={rumour.heardFrom.url} rel="noopener">
+                          <a class="outlet" href={rumour.heardFrom.url} target="_blank" rel="noopener">
                             {logo && <img src={logo.src} alt="" loading="lazy" decoding="async" />}
                             {sourceName(rumour.heardFrom.sourceId)}
                           </a>

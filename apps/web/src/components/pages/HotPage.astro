@@ -127,6 +127,7 @@ const words = wordsFor(lang);
           const el = document.createElement(href ? 'a' : 'span');
           if (el instanceof HTMLAnchorElement && href) {
             el.href = href;
+            el.target = '_blank';
             el.rel = 'noopener noreferrer';
           }
           el.textContent = sourceName(source.sourceId);

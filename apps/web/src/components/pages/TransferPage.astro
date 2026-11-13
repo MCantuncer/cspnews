@@ -122,7 +122,7 @@ const photo = move.image ? photoUrl(move.id) : undefined;
       {
         reporters.map((report) => (
           <li>
-            <a href={report.url} rel="noopener">{report.name}</a>
+            <a href={report.url} target="_blank" rel="noopener">{report.name}</a>
             <span>{extras.reported(stageWord(report.stage, lang), formatShortDate(report.on, lang))}</span>
           </li>
         ))
