@@ -57,6 +57,9 @@ jobs:
           git fetch origin candidates:candidates 2>/dev/null && git switch candidates || git switch --orphan candidates
           mkdir -p candidates
           cp "$RUNNER_TEMP"/candidates/*.json candidates/
-          git add candidates
+          # The branch shares no history with main, so main's vercel.json (which skips every
+          # branch but main) is not here. This one stops Vercel deploying the branch at all.
+          echo '{ "git": { "deploymentEnabled": false } }' > vercel.json
+          git add candidates vercel.json
           git commit -m "Collect $(basename "$(ls "$RUNNER_TEMP"/candidates/*.json | head -1)" .json)"
           git push origin candidates
