@@ -1149,5 +1149,261 @@
       "publishedAt": "2026-11-14T07:30:00+03:00",
       "updatedAt": "2026-11-14T07:30:00+03:00"
     }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "light-uefa-exxen",
+        "kind": "screen",
+        "label": "confirmed",
+        "versions": {
+          "en": {
+            "title": "UEFA matches move to Exxen for four seasons from 2027",
+            "gist": "Acun Ilıcalı announced that Exxen will show the Champions League, Europa League, Conference League and Super Cup in Türkiye, taking over from TRT.",
+            "aside": "Diken recalls that earlier Exxen streams often froze. Fans are hoping that part is not in the contract."
+          },
+          "tr": {
+            "title": "UEFA maçları 2027’den itibaren dört sezon Exxen’de",
+            "gist": "Acun Ilıcalı, Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi ve Süper Kupa’nın TRT’den sonra Exxen’de yayınlanacağını duyurdu.",
+            "aside": "Diken, önceki Exxen yayınlarının sık sık donduğunu hatırlatıyor. Taraftar, o kısmın sözleşmede olmamasını umuyor."
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/avrupa-kupalarinin-yayin-haklari-el-degistirdi-ve-haberi-acun-ilicali-duyurdu-1395045"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/uefa-turnuvalari-gelecek-sezondan-itibaren-exxende/"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/spor/4-yillik-anlasma-avrupa-kupalarinin-yeni-yayincisi-belli-oldu-2555977"
+          }
+        ]
+      },
+      {
+        "id": "light-aygen-leaves",
+        "kind": "screen",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Murat Aygen explains why he left Kızılcık Şerbeti",
+            "gist": "The actor told ÇAPA TV he decided to go once the new script said “Lider’s true face is revealed.”",
+            "aside": "Told he had left before his character could die, he replied that for him, Lider already had."
+          },
+          "tr": {
+            "title": "Murat Aygen, Kızılcık Şerbeti’nden neden ayrıldığını anlattı",
+            "gist": "Oyuncu, ÇAPA TV’de yeni senaryoda “Liderin gerçek yüzü ortaya çıkar” cümlesini görünce ayrılmaya karar verdiğini söyledi.",
+            "aside": "“Ölmeden çıktınız” denince cevabı hazırdı: “Benim için Lider öldü.” Senaryo ekibine bir sahne az kaldı."
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/kizilcik-serbeti-nin-lider-i-murat-aygen-diziden-neden-ayrildigini-acikladi-1394988"
+          }
+        ]
+      },
+      {
+        "id": "light-sevtap-returns",
+        "kind": "screen",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Sevtap returns to Kızılcık Şerbeti after seven episodes",
+            "gist": "Neslihan Yeldan, written out at the start of the season, is back in the 13 November episode to visit her grandson Abdullah.",
+            "aside": "She promises Sevtap’s joy, passions and leopard print. The leopard print, to be fair, never really left."
+          },
+          "tr": {
+            "title": "Sevtap, yedi bölüm sonra Kızılcık Şerbeti’ne dönüyor",
+            "gist": "Sezon başında hikâyesi kesilen Neslihan Yeldan, 13 Kasım bölümünde torunu Abdullah’ı görmeye geliyor.",
+            "aside": "Neşesi, tutkuları ve leopar deseniyle dönüyormuş. Leopar desen zaten hiç gitmemişti."
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/kizilcik-serbeti-ne-geri-donen-neslihan-yeldan-dan-aciklama-1395048"
+          }
+        ]
+      }
+    ],
+    "rumours": [
+      {
+        "id": "rumour-tunca-joins",
+        "kind": "screen",
+        "versions": {
+          "en": {
+            "title": "Birand Tunca said to join Kızılcık Şerbeti as the new boss of a TV channel"
+          },
+          "tr": {
+            "title": "Birand Tunca’nın Kızılcık Şerbeti’ne kanalın yeni patronu olarak katılacağı konuşuluyor"
+          }
+        },
+        "heardFrom": {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/kimin-partneri-olacagi-merak-edildi-kizilcik-serbeti-ne-yeni-guclu-patron-geliyor-1395010"
+        }
+      }
+    ]
+  },
+  "transfers": [
+    {
+      "id": "move-pochettino-man-utd",
+      "league": "premier-league",
+      "from": "USA",
+      "to": "Manchester United",
+      "stage": "signed",
+      "clubConfirmed": true,
+      "steps": [
+        {
+          "stage": "talks",
+          "on": "2026-11-08"
+        },
+        {
+          "stage": "agreed",
+          "on": "2026-11-12"
+        },
+        {
+          "stage": "signed",
+          "on": "2026-11-13"
+        }
+      ],
+      "reports": [
+        {
+          "sourceId": "sky-sports-transfers",
+          "url": "https://www.skysports.com/football/news/11095/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford",
+          "stage": "signed",
+          "on": "2026-11-13"
+        },
+        {
+          "sourceId": "bbc-sport-football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
+          "stage": "signed",
+          "on": "2026-11-13"
+        },
+        {
+          "sourceId": "guardian-football",
+          "url": "https://www.theguardian.com/football/2026/nov/13/mauricio-pochettino-usmnt-manchester-united",
+          "stage": "signed",
+          "on": "2026-11-13"
+        }
+      ],
+      "versions": {
+        "en": {
+          "shortTitle": "Pochettino leaves the USA to coach Man Utd",
+          "title": "Manchester United appoint Mauricio Pochettino as head coach until 2029",
+          "now": "United announced the appointment after sacking Michael Carrick. Pochettino leads the USA in two games against Haiti first and starts at United on 18 November.",
+          "facts": [
+            {
+              "value": "2029",
+              "label": "Contract runs until the summer"
+            },
+            {
+              "value": "£7.4m",
+              "label": "Paid to US Soccer to release him, Sky Sports reports"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Pochettino ABD’den ayrılıp Man Utd’ye geçti",
+          "title": "Manchester United, Mauricio Pochettino’yu 2029’a kadar teknik direktör yaptı",
+          "now": "United, Michael Carrick’i görevden aldıktan sonra atamayı duyurdu. Pochettino önce ABD’yi Haiti’ye karşı iki maçta yönetecek, 18 Kasım’da United’da başlayacak.",
+          "facts": [
+            {
+              "value": "2029",
+              "label": "Sözleşme yaz sonuna kadar"
+            },
+            {
+              "value": "7,4 milyon £",
+              "label": "ABD federasyonuna ödenen serbest kalma bedeli (Sky Sports)"
+            }
+          ]
+        }
+      },
+      "updatedAt": "2026-11-14T02:45:00+03:00"
+    },
+    {
+      "id": "move-paz-man-utd",
+      "league": "premier-league",
+      "from": "Como",
+      "to": "Manchester United",
+      "stage": "talk",
+      "clubConfirmed": false,
+      "steps": [
+        {
+          "stage": "talk",
+          "on": "2026-11-13"
+        }
+      ],
+      "reports": [
+        {
+          "sourceId": "bbc-sport-football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
+          "stage": "talk",
+          "on": "2026-11-13"
+        },
+        {
+          "sourceId": "sky-sports-transfers",
+          "url": "https://www.skysports.com/football/news/11095/13611965/man-utd-transfer-news-como-star-nico-paz-emerges-as-target-ahead-of-summer-transfer-window-paper-talk",
+          "stage": "talk",
+          "on": "2026-11-13"
+        }
+      ],
+      "versions": {
+        "en": {
+          "shortTitle": "Man Utd track Como’s Nico Paz",
+          "title": "Manchester United track Como midfielder Nico Paz ahead of next summer",
+          "now": "The Sun, quoted by BBC Sport and Sky Sports, says United are watching the 22-year-old Argentina midfielder, who scored twice against them in the Champions League last month.",
+          "signedWhen": "Talks between United and Como, then an announcement from United."
+        },
+        "tr": {
+          "shortTitle": "Man Utd, Como’dan Nico Paz’ı izliyor",
+          "title": "Manchester United, Como’nun orta sahası Nico Paz’ı gelecek yaz için izliyor",
+          "now": "BBC Sport ve Sky Sports’un aktardığı The Sun haberine göre United, geçen ay Şampiyonlar Ligi’nde kendilerine iki gol atan 22 yaşındaki Arjantinli oyuncuyu takip ediyor.",
+          "signedWhen": "United ile Como arasında görüşme, ardından United’ın açıklaması."
+        }
+      },
+      "updatedAt": "2026-11-14T02:45:00+03:00"
+    },
+    {
+      "id": "move-kounde-chelsea",
+      "league": "premier-league",
+      "from": "Barcelona",
+      "to": "Chelsea",
+      "stage": "talk",
+      "clubConfirmed": false,
+      "steps": [
+        {
+          "stage": "talk",
+          "on": "2026-11-13"
+        }
+      ],
+      "reports": [
+        {
+          "sourceId": "bbc-sport-football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
+          "stage": "talk",
+          "on": "2026-11-13"
+        }
+      ],
+      "versions": {
+        "en": {
+          "shortTitle": "Chelsea target Barcelona’s Jules Koundé",
+          "title": "Chelsea target Jules Koundé as Barcelona open the door to a January sale",
+          "now": "Teamtalk, quoted in BBC Sport’s gossip column, says Barcelona are willing to sell the 28-year-old France defender in January.",
+          "signedWhen": "An agreed fee between Chelsea and Barcelona, then a statement from Chelsea."
+        },
+        "tr": {
+          "shortTitle": "Chelsea, Barcelona’dan Jules Koundé’yi istiyor",
+          "title": "Chelsea, Barcelona’nın ocakta satmaya açık olduğu Jules Koundé’yi hedefliyor",
+          "now": "BBC Sport’un transfer söylentileri köşesinde aktarılan Teamtalk haberine göre Barcelona, 28 yaşındaki Fransız savunmacıyı ocakta satmaya hazır.",
+          "signedWhen": "Chelsea ile Barcelona’nın bonservis anlaşması, ardından Chelsea’nin açıklaması."
+        }
+      },
+      "updatedAt": "2026-11-14T02:45:00+03:00"
+    }
   ]
 }
