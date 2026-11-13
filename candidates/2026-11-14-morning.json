@@ -4,10 +4,10 @@
     "slot": "morning",
     "publishAt": "2026-11-14T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-13T22:43:32.999Z",
+  "generatedAt": "2026-11-13T23:24:03.067Z",
   "window": {
-    "since": "2026-11-13T08:43:32.999Z",
-    "until": "2026-11-13T22:43:32.999Z"
+    "since": "2026-11-13T09:24:03.067Z",
+    "until": "2026-11-13T23:24:03.067Z"
   },
   "sections": {
     "turkey": [
@@ -20,11 +20,11 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.97,
+        "score": 16.91,
         "firstSeenAt": "2026-11-13T21:17:44.000Z",
         "lastUpdatedAt": "2026-11-13T22:20:55.000Z",
         "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/17e8a0e2-c640-435c-b417-a319f87fda53.jpg",
+          "url": "https://media.cumhuriyet.com.tr/Archive/1a5e31d7-09c1-49ac-ae01-c1f12063632b.jpg",
           "sourceId": "cumhuriyet",
           "sourceName": "Cumhuriyet",
           "articleUrl": "https://www.cumhuriyet.com.tr/dunya/abd-de-radyo-frekans-kesintisi-nedeniyle-tum-ucuslar-durduruldu-2556035"
@@ -125,7 +125,7 @@
             "title": "ABD'de radyo frekans kesintisi nedeniyle tüm uçuşlar durduruldu",
             "summary": "ABD Federal Havacılık İdaresi, radyo frekansı kesintisi nedeniyle ABD'de tüm uçuşların durdurulduğunu açıkladı.",
             "publishedAt": "2026-11-13T21:32:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/17e8a0e2-c640-435c-b417-a319f87fda53.jpg"
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/1a5e31d7-09c1-49ac-ae01-c1f12063632b.jpg"
           },
           {
             "sourceId": "aa-tr",
@@ -156,7 +156,7 @@
             "title": "ABD'de tüm uçuşlar durduruldu: 'Bu yeni bir 11 Eylül değil'",
             "summary": "ABD İç Güvenlik Bakanı Markwayne Mullin, \"uçakların yerde tutulması kararına bir telekomünikasyon kesintisinin yol açtığını\" söyledi. Mullin, \"Bu yeni bir 11 Eylül değil\" dedi.",
             "publishedAt": "2026-11-13T22:20:55.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/467b/live/44176640-dfa8-11f1-b441-2b33b063138f.jpg"
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6e32/live/525bb5e0-dfb6-11f1-93e1-3b657b665bcf.jpg"
           }
         ]
       },
@@ -170,7 +170,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.82,
+        "score": 16.77,
         "firstSeenAt": "2026-11-13T12:22:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:36:09.000Z",
         "image": {
@@ -353,7 +353,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.5,
+        "score": 16.44,
         "firstSeenAt": "2026-11-13T15:52:17.000Z",
         "lastUpdatedAt": "2026-11-13T16:42:50.000Z",
         "image": {
@@ -520,9 +520,9 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.94,
+        "score": 14.97,
         "firstSeenAt": "2026-11-13T21:09:07.000Z",
-        "lastUpdatedAt": "2026-11-13T21:58:32.000Z",
+        "lastUpdatedAt": "2026-11-13T22:59:46.000Z",
         "image": {
           "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af77d653516f14679cc7bc0.jpg",
           "sourceId": "hurriyet",
@@ -576,6 +576,13 @@
             "id": "haberturk",
             "name": "Habertürk",
             "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
+          },
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
             "tier": "established",
             "confirms": false
           }
@@ -670,6 +677,15 @@
             "publishedAt": "2026-11-13T21:58:32.000Z",
             "copyOf": "481d6e587fd9555b",
             "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794606955/3927254/jpg/1920x1080"
+          },
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/cm3elqk438e2o?at_medium=RSS&at_campaign=rss",
+            "title": "Mekke Anlaşması Resmi Gazete'de yayımlanarak yürürlüğe girdi",
+            "summary": "Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke Anlaşması, TBMM Genel Kurulu'nda kabul edilmesinin ardından 14 Kasım'da Resmi Gazete'de yayımlanarak yürürlüğe girdi.",
+            "publishedAt": "2026-11-13T22:59:46.000Z",
+            "copyOf": "428659b848116f1f",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7f98/live/93599450-d8f3-11f1-a701-fddedf244c16.jpg"
           }
         ]
       },
@@ -682,7 +698,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.84,
+        "score": 14.78,
         "firstSeenAt": "2026-11-13T11:07:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:46:55.000Z",
         "image": {
@@ -834,6 +850,157 @@
         ]
       },
       {
+        "storyId": "5ecd6516781a8e70",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 14.61,
+        "firstSeenAt": "2026-11-13T13:33:54.000Z",
+        "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
+        },
+        "sources": [
+          {
+            "id": "euronews-tr",
+            "name": "Euronews Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T13:33:54.000Z",
+            "sourceId": "euronews-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:22:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:22:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:27:39.000Z",
+            "sourceId": "bbc-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T17:34:09.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T18:44:32.000Z",
+            "sourceId": "diken"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "euronews-tr",
+            "url": "https://tr.euronews.com/2026/11/13/microsoft-365-arizasi-portekiz-hukumeti-okullar-ve-saglik-bakanligi-hizmetleri-etkilendi",
+            "title": "Microsoft 365 arızası: Portekiz hükümeti, okullar ve sağlık bakanlığı hizmetleri etkilendi",
+            "summary": "Microsoft hizmetlerindeki küresel bir arıza Portekiz’de birçok sektörde aksamalara neden oluyor. Perşembe başlayan kesinti Outlook ve Teams erişimini etkiliyor, şirket ise hizmetlerin yeniden sağlanmasında ilerleme kaydedildiğini bildiriyor.",
+            "publishedAt": "2026-11-13T13:33:54.000Z"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
+            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
+            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
+            "publishedAt": "2026-11-13T14:22:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/microsoft-ta-kuresel-kesinti-de-outlook-teams-ve-copilot-a-erisim-sorunu-yasaniyor-1395011",
+            "title": "Microsoft'ta Küresel Kesinti'de Outlook, Teams Ve Copilot'a Erişim Sorunu Yaşanıyor",
+            "summary": "Dünyanın en büyük teknoloji şirketlerinden Microsoft'un hizmetlerinde yaşanan küresel kesinti, farklı ülkelerde günlük hayatı ve iş süreçlerini aksattı. Microsoft 365 uygulamalarına erişimde yaşanan sorunlar nedeniyle kullanıcılar e-posta gönderme, dosya açma ve takvim bilgilerine ulaşma gibi temel işlemleri gerçekleştirmekte zorlandı.Kesintiden Microsoft'un iletişim ve üretkenlik uygulamaları Outlook, Teams ve yapay zekâ aracı Copilot da etkilendi. Bazı kullanıcılar Teams üzerinden mesajlaşma ve toplantı özelliklerini kullanabilirken bazıları hizmetlere tamamen erişemedi.",
+            "publishedAt": "2026-11-13T15:44:20.000Z",
+            "imageUrl": "https://img-s3.onedio.com/id-6af72492a0ffdca94d13d398/rev-0/w-1200/h-675/f-jpg/s-8ee1366142cbbef282b26d29fc9396c53d9f918e.jpg"
+          },
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
+            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
+            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
+            "publishedAt": "2026-11-13T16:27:39.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/microsoft-kesintiyle-ilgili-ozur-diledi-sorun-siber-saldiri-degil-ag-kapasitesi-yukseltmesinden-kaynaklandi-1395044",
+            "title": "Microsoft Kesintiyle İlgili Özür Diledi: Sorun Siber Saldırı Değil, Ağ Kapasitesi Yükseltmesinden Kaynaklandı",
+            "summary": "Microsoft, 12 Kasım'dan beri Microsoft 365 hizmetlerini aksatan küresel kesintiyle ilgili müşterilerinden ve iş ortaklarından özür diledi. Şirket, yaşananın siber saldırı ya da yapay zekâ ajanlarıyla ilgili olmadığını, daha önce yapılan bir ağ kapasitesi yükseltmesinden kaynaklanan teknik bir sorun olduğunu açıkladı.Kök nedenin giderildiğini duyuran Microsoft, hizmetlerin kalan müşteri ve bölgelerde aşamalı olarak geri getirildiğini belirtti.Kaynak: Microsoft (X), Windows Latest",
+            "publishedAt": "2026-11-13T17:13:13.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6af744a34ab4ec692b2a56fe/rev-0/w-1200/h-675/f-jpg/s-7fde9147c58520aecd728e3f846690dc40fc3897.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-sorun-yasanan-hizmetlerinde-genis-capli-iyilesme-saglandigini-acikladi/4124635",
+            "title": "Microsoft, sorun yaşanan hizmetlerinde geniş çaplı iyileşme sağlandığını açıkladı",
+            "summary": "ABD merkezli teknoloji şirketi Microsoft, bazı hizmetlerinde yaşanan erişim sorununun ardından hizmetlerinin genelinde geniş çaplı iyileşme ve istikrar sağlandığını bildirdi.",
+            "publishedAt": "2026-11-13T17:34:09.000Z"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/microsoft-erisim-sorunu-teknik-nedenlerden-kaynakli/",
+            "title": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı",
+            "summary": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı 13.11.2026 Diken ABD merkezli teknoloji şirketi hizmetlerindeki erişim sorunun 'teknik' nedenlerden kaynaklandığını, büyük ölçüde çözüldüğünü duyurdu. The post Microsoft: Erişim sorunu teknik nedenlerden kaynaklı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T18:44:32.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "8b9956b43fb710be",
         "language": "tr",
         "label": "confirmed",
@@ -842,7 +1009,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.43,
+        "score": 14.37,
         "firstSeenAt": "2026-11-13T12:16:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:53:10.000Z",
         "image": {
@@ -967,15 +1134,15 @@
         "storyId": "34d21a5047502e62",
         "language": "tr",
         "label": "confirmed",
-        "developing": false,
+        "developing": true,
         "reasons": [
           "copies-not-counted",
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.82,
+        "score": 12.95,
         "firstSeenAt": "2026-11-13T17:55:10.000Z",
-        "lastUpdatedAt": "2026-11-13T20:36:41.000Z",
+        "lastUpdatedAt": "2026-11-13T22:49:14.000Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/7e6a772b-f7a6-4738-8cbf-0566eb8f3d04.jpg",
           "sourceId": "cumhuriyet",
@@ -998,13 +1165,6 @@
             "confirms": true
           },
           {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": false
-          },
-          {
             "id": "diken",
             "name": "Diken",
             "camp": "independent",
@@ -1024,6 +1184,13 @@
             "camp": "opposition",
             "tier": "partisan",
             "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
           }
         ],
         "timeline": [
@@ -1072,15 +1239,6 @@
             "imageUrl": "https://media.cumhuriyet.com.tr/Archive/7e6a772b-f7a6-4738-8cbf-0566eb8f3d04.jpg"
           },
           {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/gundem/cafer-mahiroglu-sorusturmasinda-6-supheliye-tutuklama-talebi-3927240",
-            "title": "Cafer Mahiroğlu soruşturmasında tutuklama talebi",
-            "summary": "İş insanı Cafer Mahiroğlu'na yönelik \"rüşvet\", \"ihaleye fesat karıştırma\" ve \"suçtan kaynaklanan mal varlığı değerlerini aklama\" suçlarından yürütülen soruşturma kapsamında düzenlenen ikinci dalga operasyonda gözaltına alınan 6 şüpheli, tutuklama talebiyle sulh ceza hakimliğine sevk edildi.",
-            "publishedAt": "2026-11-13T18:12:37.000Z",
-            "copyOf": "e238797f01e231db",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794593530/3927240/jpg/1920x1080"
-          },
-          {
             "sourceId": "diken",
             "url": "https://www.diken.com.tr/cafer-mahiroglu-sorusturmasi-bes-kisi-tutuklandi/",
             "title": "Cafer Mahiroğlu soruşturması: Beş kişi tutuklandı",
@@ -1102,151 +1260,15 @@
             "summary": "Halk TV'nin sahibi Cafer Mahiroğlu hakkında yürütülen soruşturmada gözaltına alınan 8 şüpheliden 5’i tutuklanırken, 3 ki...",
             "publishedAt": "2026-11-13T20:36:41.000Z",
             "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/cafer-mahiroglu-jpg-jVCttxUgzUSTRPPW69JXMg.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "23147c3f228debfc",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 12.67,
-        "firstSeenAt": "2026-11-13T08:50:33.000Z",
-        "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
-        },
-        "sources": [
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
           },
           {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "diken",
-            "name": "Diken",
-            "camp": "independent",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T08:50:33.000Z",
-            "sourceId": "onedio"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T14:22:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T16:27:39.000Z",
-            "sourceId": "bbc-turkce"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T16:27:39.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T17:34:09.000Z",
-            "sourceId": "aa-tr"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T18:44:32.000Z",
-            "sourceId": "diken"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-un-cokmesini-firsat-bilen-dunya-capindaki-calisanlar-kendini-goygoya-vurdu-1394923",
-            "title": "Microsoft'un Çökmesini Fırsat Bilen Dünya Çapındaki Çalışanlar Kendini Goygoya Vurdu",
-            "summary": "Küresel Microsoft kesintisi 12 Kasım akşamı başladı ve 13 Kasım Cuma sabahı itibarıyla da devam ediyor. Outlook başta olmak üzere Teams ve diğer Microsoft 365 hizmetlerindeki erişim sorunu, 74 ülkeye yayıldı. Çalışanlar 'Microsoft neden çöktü, ne zaman düzelecek?' sorularına cevap ararken aynı zamanda goygoy yapmayı da ihmal etmedi!İşte çalışanların yüzünü güldüren Microsoft kesintisi...",
-            "publishedAt": "2026-11-13T08:50:33.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af6cf3336bafb1c55e57318/rev-0/w-1200/h-675/f-jpg/s-041424e537fa8ec06a4364ee8297833d0f069ef8.jpg"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
-            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
-            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
-            "publishedAt": "2026-11-13T14:22:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-ta-kuresel-kesinti-de-outlook-teams-ve-copilot-a-erisim-sorunu-yasaniyor-1395011",
-            "title": "Microsoft'ta Küresel Kesinti'de Outlook, Teams Ve Copilot'a Erişim Sorunu Yaşanıyor",
-            "summary": "Dünyanın en büyük teknoloji şirketlerinden Microsoft'un hizmetlerinde yaşanan küresel kesinti, farklı ülkelerde günlük hayatı ve iş süreçlerini aksattı. Microsoft 365 uygulamalarına erişimde yaşanan sorunlar nedeniyle kullanıcılar e-posta gönderme, dosya açma ve takvim bilgilerine ulaşma gibi temel işlemleri gerçekleştirmekte zorlandı.Kesintiden Microsoft'un iletişim ve üretkenlik uygulamaları Outlook, Teams ve yapay zekâ aracı Copilot da etkilendi. Bazı kullanıcılar Teams üzerinden mesajlaşma ve toplantı özelliklerini kullanabilirken bazıları hizmetlere tamamen erişemedi.",
-            "publishedAt": "2026-11-13T15:44:20.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af72492a0ffdca94d13d398/rev-0/w-1200/h-675/f-jpg/s-8ee1366142cbbef282b26d29fc9396c53d9f918e.jpg"
-          },
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
-            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
-            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
-            "publishedAt": "2026-11-13T16:27:39.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-kesintiyle-ilgili-ozur-diledi-sorun-siber-saldiri-degil-ag-kapasitesi-yukseltmesinden-kaynaklandi-1395044",
-            "title": "Microsoft Kesintiyle İlgili Özür Diledi: Sorun Siber Saldırı Değil, Ağ Kapasitesi Yükseltmesinden Kaynaklandı",
-            "summary": "Microsoft, 12 Kasım'dan beri Microsoft 365 hizmetlerini aksatan küresel kesintiyle ilgili müşterilerinden ve iş ortaklarından özür diledi. Şirket, yaşananın siber saldırı ya da yapay zekâ ajanlarıyla ilgili olmadığını, daha önce yapılan bir ağ kapasitesi yükseltmesinden kaynaklanan teknik bir sorun olduğunu açıkladı.Kök nedenin giderildiğini duyuran Microsoft, hizmetlerin kalan müşteri ve bölgelerde aşamalı olarak geri getirildiğini belirtti.Kaynak: Microsoft (X), Windows Latest",
-            "publishedAt": "2026-11-13T17:13:13.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af744a34ab4ec692b2a56fe/rev-0/w-1200/h-675/f-jpg/s-7fde9147c58520aecd728e3f846690dc40fc3897.jpg"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-sorun-yasanan-hizmetlerinde-genis-capli-iyilesme-saglandigini-acikladi/4124635",
-            "title": "Microsoft, sorun yaşanan hizmetlerinde geniş çaplı iyileşme sağlandığını açıkladı",
-            "summary": "ABD merkezli teknoloji şirketi Microsoft, bazı hizmetlerinde yaşanan erişim sorununun ardından hizmetlerinin genelinde geniş çaplı iyileşme ve istikrar sağlandığını bildirdi.",
-            "publishedAt": "2026-11-13T17:34:09.000Z"
-          },
-          {
-            "sourceId": "diken",
-            "url": "https://www.diken.com.tr/microsoft-erisim-sorunu-teknik-nedenlerden-kaynakli/",
-            "title": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı",
-            "summary": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı 13.11.2026 Diken ABD merkezli teknoloji şirketi hizmetlerindeki erişim sorunun 'teknik' nedenlerden kaynaklandığını, büyük ölçüde çözüldüğünü duyurdu. The post Microsoft: Erişim sorunu teknik nedenlerden kaynaklı appeared first on #site_linkat 13.11.2026 .",
-            "publishedAt": "2026-11-13T18:44:32.000Z"
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/cafer-mahiroglu-sorusturmasinda-6-supheliye-tutuklama-talebi-3927240",
+            "title": "Cafer Mahiroğlu soruşturmasında 5 tutuklama",
+            "summary": "İş insanı Cafer Mahiroğlu hakkında \"rüşvet\", \"ihaleye fesat karıştırma\" ve \"suçtan kaynaklanan mal varlığı değerlerini aklama\" suçlarından yürütülen soruşturma kapsamında düzenlenen ikinci dalga operasyonda gözaltına alınan 8 şüpheliden 5'i tutuklandı",
+            "publishedAt": "2026-11-13T22:49:14.000Z",
+            "copyOf": "e238797f01e231db",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794593530/3927240/jpg/1920x1080"
           }
         ]
       },
@@ -1259,7 +1281,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.25,
+        "score": 12.2,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:42.000Z",
         "image": {
@@ -1399,7 +1421,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.94,
+        "score": 10.88,
         "firstSeenAt": "2026-11-13T12:41:08.000Z",
         "lastUpdatedAt": "2026-11-13T21:58:56.000Z",
         "image": {
@@ -1498,7 +1520,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.87,
+        "score": 10.81,
         "firstSeenAt": "2026-11-13T10:52:33.000Z",
         "lastUpdatedAt": "2026-11-13T21:07:57.000Z",
         "image": {
@@ -1609,7 +1631,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.84,
+        "score": 10.79,
         "firstSeenAt": "2026-11-13T19:33:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:50:30.000Z",
         "image": {
@@ -1708,7 +1730,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.82,
+        "score": 10.76,
         "firstSeenAt": "2026-11-13T12:59:51.000Z",
         "lastUpdatedAt": "2026-11-13T20:33:15.000Z",
         "image": {
@@ -1816,7 +1838,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.82,
+        "score": 10.76,
         "firstSeenAt": "2026-11-13T09:57:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:32:15.000Z",
         "image": {
@@ -1939,7 +1961,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.71,
+        "score": 10.66,
         "firstSeenAt": "2026-11-13T13:01:10.000Z",
         "lastUpdatedAt": "2026-11-13T19:17:28.000Z",
         "image": {
@@ -2054,9 +2076,9 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.98,
+        "score": 18.99,
         "firstSeenAt": "2026-11-13T21:05:53.000Z",
-        "lastUpdatedAt": "2026-11-13T22:26:12.000Z",
+        "lastUpdatedAt": "2026-11-13T23:17:38.000Z",
         "image": {
           "url": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg",
           "sourceId": "wired",
@@ -2119,6 +2141,13 @@
             "camp": "international",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": false
           }
         ],
         "timeline": [
@@ -2165,7 +2194,7 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T22:22:51.000Z",
+            "at": "2026-11-13T23:01:06.000Z",
             "sourceId": "guardian-world"
           }
         ],
@@ -2174,14 +2203,14 @@
             "sourceId": "hacker-news",
             "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
             "title": "FAA Issues National Ground Stop",
-            "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 698 # Comments: 365",
+            "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 934 # Comments: 549",
             "publishedAt": "2026-11-13T21:05:53.000Z"
           },
           {
             "sourceId": "hacker-news",
             "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
             "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 81 # Comments: 22",
+            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 92 # Comments: 26",
             "publishedAt": "2026-11-13T21:08:49.000Z"
           },
           {
@@ -2201,10 +2230,10 @@
           {
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
-            "title": "Flights grounded across US due to ‘extraordinary circumstances’, FAA says",
-            "summary": "The US Federal Aviation Administration grounded all flights nationwide on Friday afternoon because of communications problems at regional air traffic control centres. The FAA notice said the ground stop was being imposed “due to extraordinary circumstances and for reasons of safety”. Transport Secretary Sean Duffy said there was a communications issue affecting the 22 regional air traffic control centres that direct planes en route between airports nationwide. He said FAA technicians were...",
+            "title": "All US flights grounded due to communication issues: homeland security head",
+            "summary": "Air travel across the United States came to a halt on Friday afternoon after the Federal Aviation Administration (FAA) ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. Citing “extraordinary circumstances” and “reasons of safety”, the FAA said in a notice that the halt would stay in place until at least 11pm Eastern time on Friday (noon on Saturday in Hong Kong). In a social media post, the agency described the...",
             "publishedAt": "2026-11-13T21:33:43.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/e4752fc0-38c0-4772-af61-5c677db3ce32_c490cce4.jpg?itok=_e5kPcX1&v=1794606019"
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/98439ed6-1baa-410b-ad3a-c5a662707f91_ae6dba71.jpg?itok=CpoGjeF4&v=1794611867"
           },
           {
             "sourceId": "the-verge",
@@ -2238,18 +2267,26 @@
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-            "title": "Nationwide FAA ground stop: nearly 7,000 flights delayed or canceled at airports across the US",
-            "summary": "Transportation secretary said stoppage is due to ‘communication issue’ and homeland security says there’s no indication of ‘nefarious attack’ Flights grounded at all US airports due to communications outage – live The Federal Aviation Administration (FAA) has issued a nationwide ground stop for all flights that are due to take off in the US on Friday, delaying or canceling nearly 7,000 US flights, according to aviation tracker FlightAware. In a post on X, Sean Duffy, the US transportation secretary, said the stoppage is due to “a communication issue impacting all Air Route Traffic Control Centers” and that the FAA’s technicians are looking into the matter. Continue reading...",
-            "publishedAt": "2026-11-13T22:22:51.000Z",
+            "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+            "summary": "Transportation secretary said stoppage is due to ‘communication issue’ and homeland security says there’s no indication of ‘nefarious attack’ Flights grounded at all US airports due to communications outage – live The Federal Aviation Administration (FAA) has issued a nationwide ground stop for all flights that are due to take off in the US on Friday, delaying or canceling more than 11,000 US flights, according to aviation tracker FlightAware . In a post on X, Sean Duffy, the US transportation secretary, said the stoppage is due to “a communication issue impacting all Air Route Traffic Control Centers” and that the FAA’s technicians are looking into the matter. Continue reading...",
+            "publishedAt": "2026-11-13T23:01:06.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/e0ab041b575c8eedc802a6fc41aa64352628fae1/0_0_3024_2420/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=ba8fdc5781587a131e79485a0c361fae"
           },
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-            "title": "Flights grounded at all US airports due to communications outage as Trump administration looks to determine cause - live",
+            "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
             "summary": "Sean Duffy says technicians from Federal Aviation Administration are investigating; Trump’s homeland security secretary says ‘no indication as of yet’ of cyberattack FAA issues nationwide ground-stop order, delaying or canceling nearly 7,000 flights Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
-            "publishedAt": "2026-11-13T22:26:12.000Z",
+            "publishedAt": "2026-11-13T23:10:48.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=f11dd51ed640dac66df42ee7190c2ac3"
+          },
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+            "title": "FAA orders third nationwide ground stop in its history",
+            "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+            "publishedAt": "2026-11-13T23:17:38.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
           }
         ]
       },
@@ -2261,7 +2298,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.88,
+        "score": 18.82,
         "firstSeenAt": "2026-11-13T11:43:27.000Z",
         "lastUpdatedAt": "2026-11-13T21:14:22.000Z",
         "image": {
@@ -2467,7 +2504,7 @@
           "independent-sources",
           "primary-source"
         ],
-        "score": 10.84,
+        "score": 10.78,
         "firstSeenAt": "2026-11-13T15:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:45:10.000Z",
         "sources": [
@@ -2541,6 +2578,43 @@
         ]
       },
       {
+        "storyId": "41bbca50b49f8038",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.97,
+        "firstSeenAt": "2026-11-13T23:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T23:00:00.000Z",
+        "sources": [
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T23:00:00.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+            "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+            "summary": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
+            "publishedAt": "2026-11-13T23:00:00.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "a53b6d6797d1d8ce",
         "language": "en",
         "label": "single-source",
@@ -2548,7 +2622,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 4,
+        "score": 3.94,
         "firstSeenAt": "2026-11-13T22:43:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:43:00.000Z",
         "sources": [
@@ -2585,7 +2659,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.98,
+        "score": 3.93,
         "firstSeenAt": "2026-11-13T19:58:41.000Z",
         "lastUpdatedAt": "2026-11-13T22:30:29.000Z",
         "image": {
@@ -2637,7 +2711,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.88,
         "firstSeenAt": "2026-11-13T21:59:01.000Z",
         "lastUpdatedAt": "2026-11-13T21:59:01.000Z",
         "image": {
@@ -2677,11 +2751,11 @@
         "storyId": "d594c39e97738b7d",
         "language": "en",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.89,
+        "score": 3.83,
         "firstSeenAt": "2026-11-13T21:20:47.000Z",
         "lastUpdatedAt": "2026-11-13T21:20:47.000Z",
         "image": {
@@ -2725,7 +2799,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.81,
+        "score": 3.76,
         "firstSeenAt": "2026-11-13T20:30:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:30:00.000Z",
         "sources": [
@@ -2762,7 +2836,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.78,
+        "score": 3.73,
         "firstSeenAt": "2026-11-13T20:07:24.000Z",
         "lastUpdatedAt": "2026-11-13T20:07:24.000Z",
         "sources": [
@@ -2799,7 +2873,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.78,
+        "score": 3.72,
         "firstSeenAt": "2026-11-13T20:03:13.000Z",
         "lastUpdatedAt": "2026-11-13T20:03:13.000Z",
         "image": {
@@ -2843,7 +2917,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.77,
+        "score": 3.71,
         "firstSeenAt": "2026-11-13T19:57:56.000Z",
         "lastUpdatedAt": "2026-11-13T19:57:56.000Z",
         "image": {
@@ -2887,7 +2961,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.76,
+        "score": 3.7,
         "firstSeenAt": "2026-11-13T19:49:16.000Z",
         "lastUpdatedAt": "2026-11-13T19:49:16.000Z",
         "image": {
@@ -2931,7 +3005,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.74,
+        "score": 3.69,
         "firstSeenAt": "2026-11-13T19:37:57.000Z",
         "lastUpdatedAt": "2026-11-13T19:37:57.000Z",
         "sources": [
@@ -2968,7 +3042,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.71,
+        "score": 3.65,
         "firstSeenAt": "2026-11-13T19:14:38.000Z",
         "lastUpdatedAt": "2026-11-13T19:14:38.000Z",
         "sources": [
@@ -2996,43 +3070,6 @@
             "publishedAt": "2026-11-13T19:14:38.000Z"
           }
         ]
-      },
-      {
-        "storyId": "6669a4d19d8d9722",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.66,
-        "firstSeenAt": "2026-11-13T18:40:30.000Z",
-        "lastUpdatedAt": "2026-11-13T18:40:30.000Z",
-        "sources": [
-          {
-            "id": "techcrunch",
-            "name": "TechCrunch",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T18:40:30.000Z",
-            "sourceId": "techcrunch"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "techcrunch",
-            "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-            "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-            "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-            "publishedAt": "2026-11-13T18:40:30.000Z"
-          }
-        ]
       }
     ],
     "world": [
@@ -3044,9 +3081,9 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.98,
+        "score": 18.99,
         "firstSeenAt": "2026-11-13T21:05:53.000Z",
-        "lastUpdatedAt": "2026-11-13T22:26:12.000Z",
+        "lastUpdatedAt": "2026-11-13T23:17:38.000Z",
         "image": {
           "url": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg",
           "sourceId": "wired",
@@ -3109,6 +3146,13 @@
             "camp": "international",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": false
           }
         ],
         "timeline": [
@@ -3155,7 +3199,7 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T22:22:51.000Z",
+            "at": "2026-11-13T23:01:06.000Z",
             "sourceId": "guardian-world"
           }
         ],
@@ -3164,14 +3208,14 @@
             "sourceId": "hacker-news",
             "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
             "title": "FAA Issues National Ground Stop",
-            "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 698 # Comments: 365",
+            "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 934 # Comments: 549",
             "publishedAt": "2026-11-13T21:05:53.000Z"
           },
           {
             "sourceId": "hacker-news",
             "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
             "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 81 # Comments: 22",
+            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 92 # Comments: 26",
             "publishedAt": "2026-11-13T21:08:49.000Z"
           },
           {
@@ -3191,10 +3235,10 @@
           {
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
-            "title": "Flights grounded across US due to ‘extraordinary circumstances’, FAA says",
-            "summary": "The US Federal Aviation Administration grounded all flights nationwide on Friday afternoon because of communications problems at regional air traffic control centres. The FAA notice said the ground stop was being imposed “due to extraordinary circumstances and for reasons of safety”. Transport Secretary Sean Duffy said there was a communications issue affecting the 22 regional air traffic control centres that direct planes en route between airports nationwide. He said FAA technicians were...",
+            "title": "All US flights grounded due to communication issues: homeland security head",
+            "summary": "Air travel across the United States came to a halt on Friday afternoon after the Federal Aviation Administration (FAA) ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. Citing “extraordinary circumstances” and “reasons of safety”, the FAA said in a notice that the halt would stay in place until at least 11pm Eastern time on Friday (noon on Saturday in Hong Kong). In a social media post, the agency described the...",
             "publishedAt": "2026-11-13T21:33:43.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/e4752fc0-38c0-4772-af61-5c677db3ce32_c490cce4.jpg?itok=_e5kPcX1&v=1794606019"
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/98439ed6-1baa-410b-ad3a-c5a662707f91_ae6dba71.jpg?itok=CpoGjeF4&v=1794611867"
           },
           {
             "sourceId": "the-verge",
@@ -3228,18 +3272,26 @@
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-            "title": "Nationwide FAA ground stop: nearly 7,000 flights delayed or canceled at airports across the US",
-            "summary": "Transportation secretary said stoppage is due to ‘communication issue’ and homeland security says there’s no indication of ‘nefarious attack’ Flights grounded at all US airports due to communications outage – live The Federal Aviation Administration (FAA) has issued a nationwide ground stop for all flights that are due to take off in the US on Friday, delaying or canceling nearly 7,000 US flights, according to aviation tracker FlightAware. In a post on X, Sean Duffy, the US transportation secretary, said the stoppage is due to “a communication issue impacting all Air Route Traffic Control Centers” and that the FAA’s technicians are looking into the matter. Continue reading...",
-            "publishedAt": "2026-11-13T22:22:51.000Z",
+            "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+            "summary": "Transportation secretary said stoppage is due to ‘communication issue’ and homeland security says there’s no indication of ‘nefarious attack’ Flights grounded at all US airports due to communications outage – live The Federal Aviation Administration (FAA) has issued a nationwide ground stop for all flights that are due to take off in the US on Friday, delaying or canceling more than 11,000 US flights, according to aviation tracker FlightAware . In a post on X, Sean Duffy, the US transportation secretary, said the stoppage is due to “a communication issue impacting all Air Route Traffic Control Centers” and that the FAA’s technicians are looking into the matter. Continue reading...",
+            "publishedAt": "2026-11-13T23:01:06.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/e0ab041b575c8eedc802a6fc41aa64352628fae1/0_0_3024_2420/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=ba8fdc5781587a131e79485a0c361fae"
           },
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-            "title": "Flights grounded at all US airports due to communications outage as Trump administration looks to determine cause - live",
+            "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
             "summary": "Sean Duffy says technicians from Federal Aviation Administration are investigating; Trump’s homeland security secretary says ‘no indication as of yet’ of cyberattack FAA issues nationwide ground-stop order, delaying or canceling nearly 7,000 flights Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
-            "publishedAt": "2026-11-13T22:26:12.000Z",
+            "publishedAt": "2026-11-13T23:10:48.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=f11dd51ed640dac66df42ee7190c2ac3"
+          },
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+            "title": "FAA orders third nationwide ground stop in its history",
+            "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+            "publishedAt": "2026-11-13T23:17:38.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
           }
         ]
       },
@@ -3251,7 +3303,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.88,
+        "score": 18.82,
         "firstSeenAt": "2026-11-13T11:43:27.000Z",
         "lastUpdatedAt": "2026-11-13T21:14:22.000Z",
         "image": {
@@ -3456,9 +3508,9 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.98,
+        "score": 12.97,
         "firstSeenAt": "2026-11-13T20:49:15.000Z",
-        "lastUpdatedAt": "2026-11-13T22:29:05.000Z",
+        "lastUpdatedAt": "2026-11-13T23:03:17.000Z",
         "image": {
           "url": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=dc3ae36c16dfe11867a2547932e2dc11",
           "sourceId": "guardian-world",
@@ -3486,6 +3538,13 @@
             "camp": "international",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
           }
         ],
         "timeline": [
@@ -3509,22 +3568,27 @@
             "kind": "outlet-joined",
             "at": "2026-11-13T21:49:50.000Z",
             "sourceId": "guardian-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T22:47:16.000Z",
+            "sourceId": "al-jazeera"
           }
         ],
         "articles": [
           {
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-            "title": "Tanker hits New Orleans cruise boat carrying 129 passengers",
-            "summary": "A tanker struck a New Orleans river cruise with 129 passengers on board on Friday, partially submerging the boat. Rescues were under way on the Mississippi River, officials said in the US state of Louisiana. Authorities did not immediately release whether there were injuries or deaths. Video from the scene showed the much larger Atlantic Asphalt tanker hit the paddlewheel cruise boat while it appeared to be docked as metal and glass crashed and crunched. More than a dozen people in life jackets...",
+            "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+            "summary": "At least 180 passengers and crew members were rescued Friday after a tanker lost control, hit and sank a paddleboat on the Mississippi River, the mayor of New Orleans said. Video from the scene showed the much larger Atlantic Asphalt tanker hit the cruise boat while it was docked as metal and glass crashed and crunched. Tugboat operators, nearby workers, police and several other rescuers rushed to help. New Orleans Mayor Helena Moreno called it “a miracle on the Mississippi”. The mayor said 32...",
             "publishedAt": "2026-11-13T20:49:15.000Z",
             "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/4768064f-4b29-4406-b530-e2f26d2b6497_30e92c5d.jpg?itok=Sr8dao9W&v=1794602943"
           },
           {
             "sourceId": "dw-world",
-            "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf",
-            "title": "Tanker collides with cruise ship on Mississippi near New Orleans",
-            "summary": "A freighter collided with a cruise ship carrying around 130 people near New Orleans, causing the paddlewheel vessel to capsize. Rescue operations are underway.",
+            "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf",
+            "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+            "summary": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for.",
             "publishedAt": "2026-11-13T21:31:00.000Z"
           },
           {
@@ -3536,12 +3600,19 @@
             "imageUrl": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=dc3ae36c16dfe11867a2547932e2dc11"
           },
           {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+            "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
+            "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+            "publishedAt": "2026-11-13T22:47:16.000Z"
+          },
+          {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
             "title": "New Orleans boat crash live: all passengers and crew found alive in ‘miracle on the Mississippi’",
             "summary": "New Orleans mayor says 32 people are being treated for minor injuries after ship narrowly missed striking a major bridge Tanker collides with cruise ship on Mississippi River in New Orleans A video circulating around social media shows a different angle during the moment the ship was falling on its side into the water. Passengers can be seen climbing onto the balconies’ railing to avoid sliding into the river as the ship turned horizontally. Several uniformed people can be seen running away from the scene, likely to gather equipment that would help rescue efforts. Martin J Davies, a maritime expert at Tulane University, told local news outlet Fox 8 that he suspected the incident was caused by either steerage failure or engine failure. Continue reading...",
-            "publishedAt": "2026-11-13T22:29:05.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/b1ae0fc91d5b094fbe8c34dcbd7057984449ef70/130_0_1071_857/master/1071.jpg?width=140&quality=85&auto=format&fit=max&s=2ba66c2ec5ac20c3dc00042e0a530831"
+            "publishedAt": "2026-11-13T23:03:17.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/c8e77aee359cc4c5de7c6aaa1f2da566b12be4bd/211_0_3840_3072/master/3840.jpg?width=140&quality=85&auto=format&fit=max&s=3f89d09a3547d4763a9dd6b7e03b920e"
           }
         ]
       },
@@ -3553,7 +3624,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.85,
+        "score": 10.79,
         "firstSeenAt": "2026-11-13T18:05:38.000Z",
         "lastUpdatedAt": "2026-11-13T20:52:31.000Z",
         "image": {
@@ -3649,7 +3720,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.8,
+        "score": 10.75,
         "firstSeenAt": "2026-11-13T19:51:28.000Z",
         "lastUpdatedAt": "2026-11-13T20:20:33.000Z",
         "image": {
@@ -3739,7 +3810,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.44,
+        "score": 10.39,
         "firstSeenAt": "2026-11-13T13:02:08.000Z",
         "lastUpdatedAt": "2026-11-13T16:01:45.000Z",
         "image": {
@@ -3821,21 +3892,91 @@
         ]
       },
       {
-        "storyId": "13422bd7d17cd707",
+        "storyId": "8573d9e8e576a4ad",
         "language": "en",
         "label": "confirmed",
-        "developing": false,
+        "developing": true,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.91,
-        "firstSeenAt": "2026-11-13T15:43:39.000Z",
-        "lastUpdatedAt": "2026-11-13T21:38:52.000Z",
+        "score": 9,
+        "firstSeenAt": "2026-11-13T20:12:02.000Z",
+        "lastUpdatedAt": "2026-11-13T23:23:21.000Z",
         "image": {
-          "url": "https://s.france24.com/media/display/b484b08c-dfa7-11f1-aaa1-f71d22e7fea9/w:1024/p:16x9/2026-10-16T084030Z-885766991-RC274OADTRVQ-RTRMADP-3-UKRAINE-CRISIS-EU.jpg",
-          "sourceId": "france-24",
-          "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/14a168f0-de92-11f1-9afe-1f03bfe02283.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T20:12:02.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:23:21.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T23:23:21.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+            "title": "SpaceX to attempt double catch of huge Starship rocket",
+            "summary": "Elon Musk’s company will try to grab both parts of the rocket for the first time.",
+            "publishedAt": "2026-11-13T20:12:02.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/14a168f0-de92-11f1-9afe-1f03bfe02283.jpg"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
+            "title": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
+            "summary": "SpaceX launched Starship towards orbit on Friday in its boldest test yet: a 22-hour flight that aimed to capture the entire rocket in a move meant to accelerate moon and Mars travel. But Elon Musk’s company had to lower its expectations when the first part of the double catch flopped. The first-stage booster malfunctioned and instead of returning to its Texas pad several minutes after lift-off, it ended up in the Gulf of Mexico after an automatic abort. Despite the setback, the bullet-shaped...",
+            "publishedAt": "2026-11-13T23:23:21.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/b1e848bd-16b3-40bd-9445-55a49b31e145_265c7ec9.jpg?itok=evnSO9wu&v=1794612195"
+          }
+        ]
+      },
+      {
+        "storyId": "5c72f80bff0030af",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.93,
+        "firstSeenAt": "2026-11-13T18:04:22.000Z",
+        "lastUpdatedAt": "2026-11-13T22:36:38.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/caafae25c0bca6314b12439ac03f6e61770f8341/308_0_3083_2466/master/3083.jpg?width=140&quality=85&auto=format&fit=max&s=94d792291c0caa876c75116721318aaf",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority"
         },
         "sources": [
           {
@@ -3846,8 +3987,8 @@
             "confirms": true
           },
           {
-            "id": "france-24",
-            "name": "France 24",
+            "id": "guardian-world",
+            "name": "The Guardian World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3856,17 +3997,17 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T15:43:39.000Z",
+            "at": "2026-11-13T18:04:22.000Z",
             "sourceId": "al-jazeera"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T21:38:52.000Z",
-            "sourceId": "france-24"
+            "at": "2026-11-13T22:36:38.000Z",
+            "sourceId": "guardian-world"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-13T21:38:52.000Z",
+            "at": "2026-11-13T22:36:38.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
@@ -3874,18 +4015,18 @@
         "articles": [
           {
             "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
-            "title": "EU agrees on five countries to represent Europe in Ukraine peace talks",
-            "summary": "European leaders believe a US-backed process will allow Moscow and Washington to decide the fate of the conflict.",
-            "publishedAt": "2026-11-13T15:43:39.000Z"
+            "url": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis?traffic_source=rss",
+            "title": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+            "summary": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
+            "publishedAt": "2026-11-13T18:04:22.000Z"
           },
           {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-            "title": "France among five major powers to represent EU in Ukraine talks",
-            "summary": "European Council President Antonio Costa on Friday said that Brussels will send diplomats from the bloc and five countries, including the UK, France, Germany, Italy and Poland, to upcoming Ukraine talks.",
-            "publishedAt": "2026-11-13T21:38:52.000Z",
-            "imageUrl": "https://s.france24.com/media/display/b484b08c-dfa7-11f1-aaa1-f71d22e7fea9/w:1024/p:16x9/2026-10-16T084030Z-885766991-RC274OADTRVQ-RTRMADP-3-UKRAINE-CRISIS-EU.jpg"
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+            "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+            "summary": "Statement a rare instance of a prominent Jewish political leader taking a strong stand in defence of Arab Israelis Israeli prime ministerial hopeful Gadi Eisenkot accused caretaker premier Benjamin Netanyahu on Friday of fuelling a “racist” campaign against the country’s Arab minority, after he sought to delegitimise the community’s lawmakers by linking them to Hamas. Eisenkot’s statement was a rare instance of a prominent Jewish political leader taking a strong stand in defence of Arab Israelis, who make up more than 20% of the population. Continue reading...",
+            "publishedAt": "2026-11-13T22:36:38.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/caafae25c0bca6314b12439ac03f6e61770f8341/308_0_3083_2466/master/3083.jpg?width=140&quality=85&auto=format&fit=max&s=94d792291c0caa876c75116721318aaf"
           }
         ]
       },
@@ -3893,11 +4034,11 @@
         "storyId": "ab9ad422964dc7e5",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.9,
+        "score": 8.85,
         "firstSeenAt": "2026-11-13T19:03:10.000Z",
         "lastUpdatedAt": "2026-11-13T21:34:14.000Z",
         "image": {
@@ -3967,7 +4108,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.84,
+        "score": 8.78,
         "firstSeenAt": "2026-11-13T15:49:51.000Z",
         "lastUpdatedAt": "2026-11-13T20:48:02.000Z",
         "image": {
@@ -4043,7 +4184,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.68,
+        "score": 8.63,
         "firstSeenAt": "2026-11-13T16:53:50.000Z",
         "lastUpdatedAt": "2026-11-13T18:55:08.000Z",
         "image": {
@@ -4113,7 +4254,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.5,
+        "score": 8.45,
         "firstSeenAt": "2026-11-13T13:11:23.000Z",
         "lastUpdatedAt": "2026-11-13T16:44:56.000Z",
         "image": {
@@ -4182,7 +4323,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.4,
+        "score": 8.34,
         "firstSeenAt": "2026-11-13T13:52:11.000Z",
         "lastUpdatedAt": "2026-11-13T15:32:00.000Z",
         "image": {
@@ -4244,7 +4385,7 @@
         ]
       },
       {
-        "storyId": "954e63659ad80cba",
+        "storyId": "59d35bd98e0729bd",
         "language": "en",
         "label": "single-source",
         "developing": true,
@@ -4252,8 +4393,52 @@
           "single-owner"
         ],
         "score": 3.97,
-        "firstSeenAt": "2026-11-13T22:18:43.000Z",
-        "lastUpdatedAt": "2026-11-13T22:18:43.000Z",
+        "firstSeenAt": "2026-11-13T23:00:31.000Z",
+        "lastUpdatedAt": "2026-11-13T23:00:31.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c559/live/a40793d0-df4a-11f1-a48c-75dd2efdacb5.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T23:00:31.000Z",
+            "sourceId": "bbc-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+            "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+            "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
+            "publishedAt": "2026-11-13T23:00:31.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c559/live/a40793d0-df4a-11f1-a48c-75dd2efdacb5.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "954e63659ad80cba",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.93,
+        "firstSeenAt": "2026-11-13T22:31:05.000Z",
+        "lastUpdatedAt": "2026-11-13T22:31:05.000Z",
         "image": {
           "url": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=140&quality=85&auto=format&fit=max&s=9b539226855b0f6819e574ce7da82ee2",
           "sourceId": "guardian-world",
@@ -4272,7 +4457,7 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T22:18:43.000Z",
+            "at": "2026-11-13T22:31:05.000Z",
             "sourceId": "guardian-world"
           }
         ],
@@ -4280,92 +4465,10 @@
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
-            "title": "US air force responds to suspected drone activity at RAF Lakenheath",
-            "summary": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US air force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastructure were affected, the air force said. Continue reading...",
-            "publishedAt": "2026-11-13T22:18:43.000Z",
+            "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
+            "summary": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US Air Force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastructure were affected, the air force said. Continue reading...",
+            "publishedAt": "2026-11-13T22:31:05.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=140&quality=85&auto=format&fit=max&s=9b539226855b0f6819e574ce7da82ee2"
-          }
-        ]
-      },
-      {
-        "storyId": "5ec51c21ed95e468",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.96,
-        "firstSeenAt": "2026-11-13T22:16:27.000Z",
-        "lastUpdatedAt": "2026-11-13T22:16:27.000Z",
-        "sources": [
-          {
-            "id": "scmp-world",
-            "name": "South China Morning Post",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T22:16:27.000Z",
-            "sourceId": "scmp-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials",
-            "title": "US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials",
-            "summary": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for Chinese intelligence. Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang. “As reports continue to come to light...",
-            "publishedAt": "2026-11-13T22:16:27.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/b4a3019c-82af-4dad-8081-61130d1d6aef_deb15cd6.jpg?itok=0WIzL_Li&v=1794608176"
-          }
-        ]
-      },
-      {
-        "storyId": "e7b299eff0f699e4",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.96,
-        "firstSeenAt": "2026-11-13T22:12:54.000Z",
-        "lastUpdatedAt": "2026-11-13T22:12:54.000Z",
-        "image": {
-          "url": "https://i.guim.co.uk/img/media/6461a8e9e85b3a0f988ecc183b0798b784a32524/512_0_2566_2052/master/2566.jpg?width=140&quality=85&auto=format&fit=max&s=983e1129eb4afed3c581d7bf7308ca4c",
-          "sourceId": "guardian-world",
-          "sourceName": "The Guardian World",
-          "articleUrl": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry"
-        },
-        "sources": [
-          {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T22:12:54.000Z",
-            "sourceId": "guardian-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
-            "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
-            "summary": "Anti-corruption agency carried out searches as part of investigation into Orbán-era minister accused of taking bribes Hungary’s anti-corruption agency said on Friday it had seized cash worth $19.5m (£14.8m) buried in forests and hidden elsewhere while investigating an ex-minister of nationalist former leader Viktor Orbán. Miklós Seszták, Hungary’s minister of national development between 2014 and 2018, is accused of taking bribes in a scheme involving the state transport company, purchasing secondhand buses at inflated prices. Continue reading...",
-            "publishedAt": "2026-11-13T22:12:54.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/6461a8e9e85b3a0f988ecc183b0798b784a32524/512_0_2566_2052/master/2566.jpg?width=140&quality=85&auto=format&fit=max&s=983e1129eb4afed3c581d7bf7308ca4c"
           }
         ]
       }
@@ -4382,7 +4485,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.84,
+        "score": 14.78,
         "firstSeenAt": "2026-11-13T11:07:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:46:55.000Z",
         "image": {
@@ -4534,7 +4637,7 @@
         ]
       },
       {
-        "storyId": "23147c3f228debfc",
+        "storyId": "5ecd6516781a8e70",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
@@ -4542,8 +4645,8 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.67,
-        "firstSeenAt": "2026-11-13T08:50:33.000Z",
+        "score": 14.61,
+        "firstSeenAt": "2026-11-13T13:33:54.000Z",
         "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
@@ -4553,11 +4656,11 @@
         },
         "sources": [
           {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
+            "id": "euronews-tr",
+            "name": "Euronews Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
           },
           {
             "id": "cumhuriyet",
@@ -4565,6 +4668,13 @@
             "camp": "opposition",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
           },
           {
             "id": "bbc-turkce",
@@ -4591,8 +4701,8 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T08:50:33.000Z",
-            "sourceId": "onedio"
+            "at": "2026-11-13T13:33:54.000Z",
+            "sourceId": "euronews-tr"
           },
           {
             "kind": "outlet-joined",
@@ -4600,15 +4710,15 @@
             "sourceId": "cumhuriyet"
           },
           {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:22:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
             "kind": "outlet-joined",
             "at": "2026-11-13T16:27:39.000Z",
             "sourceId": "bbc-turkce"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T16:27:39.000Z",
-            "from": "single-source",
-            "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
@@ -4623,12 +4733,11 @@
         ],
         "articles": [
           {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-un-cokmesini-firsat-bilen-dunya-capindaki-calisanlar-kendini-goygoya-vurdu-1394923",
-            "title": "Microsoft'un Çökmesini Fırsat Bilen Dünya Çapındaki Çalışanlar Kendini Goygoya Vurdu",
-            "summary": "Küresel Microsoft kesintisi 12 Kasım akşamı başladı ve 13 Kasım Cuma sabahı itibarıyla da devam ediyor. Outlook başta olmak üzere Teams ve diğer Microsoft 365 hizmetlerindeki erişim sorunu, 74 ülkeye yayıldı. Çalışanlar 'Microsoft neden çöktü, ne zaman düzelecek?' sorularına cevap ararken aynı zamanda goygoy yapmayı da ihmal etmedi!İşte çalışanların yüzünü güldüren Microsoft kesintisi...",
-            "publishedAt": "2026-11-13T08:50:33.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af6cf3336bafb1c55e57318/rev-0/w-1200/h-675/f-jpg/s-041424e537fa8ec06a4364ee8297833d0f069ef8.jpg"
+            "sourceId": "euronews-tr",
+            "url": "https://tr.euronews.com/2026/11/13/microsoft-365-arizasi-portekiz-hukumeti-okullar-ve-saglik-bakanligi-hizmetleri-etkilendi",
+            "title": "Microsoft 365 arızası: Portekiz hükümeti, okullar ve sağlık bakanlığı hizmetleri etkilendi",
+            "summary": "Microsoft hizmetlerindeki küresel bir arıza Portekiz’de birçok sektörde aksamalara neden oluyor. Perşembe başlayan kesinti Outlook ve Teams erişimini etkiliyor, şirket ise hizmetlerin yeniden sağlanmasında ilerleme kaydedildiğini bildiriyor.",
+            "publishedAt": "2026-11-13T13:33:54.000Z"
           },
           {
             "sourceId": "cumhuriyet",
@@ -4687,7 +4796,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.25,
+        "score": 12.2,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:42.000Z",
         "image": {
@@ -4827,7 +4936,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.87,
+        "score": 10.81,
         "firstSeenAt": "2026-11-13T10:52:33.000Z",
         "lastUpdatedAt": "2026-11-13T21:07:57.000Z",
         "image": {
@@ -4938,7 +5047,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.39,
+        "score": 10.33,
         "firstSeenAt": "2026-11-13T15:15:00.000Z",
         "lastUpdatedAt": "2026-11-13T15:24:12.000Z",
         "image": {
@@ -5039,12 +5148,12 @@
         "storyId": "00a2c87ca0c13fea",
         "language": "tr",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.88,
+        "score": 8.82,
         "firstSeenAt": "2026-11-13T17:31:30.000Z",
         "lastUpdatedAt": "2026-11-13T21:16:00.000Z",
         "image": {
@@ -5115,7 +5224,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.84,
+        "score": 8.78,
         "firstSeenAt": "2026-11-13T12:53:57.000Z",
         "lastUpdatedAt": "2026-11-13T20:48:02.000Z",
         "image": {
@@ -5229,7 +5338,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.68,
+        "score": 8.63,
         "firstSeenAt": "2026-11-13T16:53:50.000Z",
         "lastUpdatedAt": "2026-11-13T18:55:08.000Z",
         "image": {
@@ -5292,77 +5401,6 @@
         ]
       },
       {
-        "storyId": "0650bd1795cf06e3",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 8.58,
-        "firstSeenAt": "2026-11-13T09:18:40.000Z",
-        "lastUpdatedAt": "2026-11-13T17:37:40.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6d5ed8c01a1364d06881c.jpg",
-          "sourceId": "hurriyet",
-          "sourceName": "Hürriyet",
-          "articleUrl": "https://www.hurriyet.com.tr/kelebek/televizyon/27-yildir-ayni-dizide-basrol-oynuyor-bolum-basi-aldigi-ucret-dudak-ucuklatti-43376835"
-        },
-        "sources": [
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "ntv-yasam",
-            "name": "NTV Yaşam",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T09:18:40.000Z",
-            "sourceId": "hurriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T17:37:40.000Z",
-            "sourceId": "ntv-yasam"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T17:37:40.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/kelebek/televizyon/27-yildir-ayni-dizide-basrol-oynuyor-bolum-basi-aldigi-ucret-dudak-ucuklatti-43376835",
-            "title": "27 yıldır aynı dizide başrol oynuyor… Bölüm başı aldığı ücret dudak uçuklattı!",
-            "summary": "Televizyon ekranlarının en sevilen polisiye dizilerinden birinin hem başrol oyuncusu hem de yapımcısı olan ünlü oyuncu bu büyük başarısı bir yana üstlendiği bu rol ile büyük bir servet de kazandı.",
-            "publishedAt": "2026-11-13T09:18:40.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6d5ed8c01a1364d06881c.jpg"
-          },
-          {
-            "sourceId": "ntv-yasam",
-            "url": "https://www.ntv.com.tr/yasam/galeri-27-yildir-ayni-dizide-oynuyor-bolum-basi-kazandigi-para-dudak-ucuklatti-1750702",
-            "title": "27 yıldır aynı dizide oynuyor, bölüm başı kazandığı para dudak uçuklattı",
-            "summary": "1999'dan beri Law & Order: Special Victims Unit dizisinde Olivia Benson karakterine hayat veren Mariska Hargitay'in bölüm başı kazandığı ücret ortaya çıktı.",
-            "publishedAt": "2026-11-13T17:37:40.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/MariskaHargitay4-378366.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "ff28dcd26d15dbc3",
         "language": "tr",
         "label": "confirmed",
@@ -5371,7 +5409,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.56,
+        "score": 8.5,
         "firstSeenAt": "2026-11-13T16:45:52.000Z",
         "lastUpdatedAt": "2026-11-13T17:26:19.000Z",
         "image": {
@@ -5456,7 +5494,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.5,
+        "score": 8.45,
         "firstSeenAt": "2026-11-13T14:07:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:45:11.000Z",
         "image": {
@@ -5542,7 +5580,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.14,
+        "score": 8.08,
         "firstSeenAt": "2026-11-13T10:45:11.000Z",
         "lastUpdatedAt": "2026-11-13T12:24:02.000Z",
         "image": {
@@ -5617,9 +5655,397 @@
             "publishedAt": "2026-11-13T12:24:02.000Z"
           }
         ]
+      },
+      {
+        "storyId": "11db30f8bb1847fb",
+        "language": "tr",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.99,
+        "firstSeenAt": "2026-11-13T20:33:12.000Z",
+        "lastUpdatedAt": "2026-11-13T23:14:28.000Z",
+        "image": {
+          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/lodos1jpg-s__HtxUzKUG92A6DcH5faQ.jpg",
+          "sourceId": "sozcu",
+          "sourceName": "Sözcü",
+          "articleUrl": "https://www.sozcu.com.tr/salacakta-lodos-dalgalari-insan-boyunu-asti-p381150"
+        },
+        "sources": [
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T20:33:12.000Z",
+            "sourceId": "onedio"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:14:28.000Z",
+            "sourceId": "sozcu"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/istanbul-da-lodos-dalgalari-insan-boyunu-astirdi-sariyer-de-agac-otomobilin-ustune-devrildi-1395067",
+            "title": "İstanbul'da Lodos Salacak'ta Dalgaları İnsan Boyunu Aştırdı, Fotoğraf Çeken Gençler Zor Anlar Yaşadı",
+            "summary": "İstanbul'da dün başlayan lodos bugün etkisini artırdı. Salacak sahilinde yükselerek kıyıya vuran dalgalar insanların boyunu aştı. Kentte fırtına nedeniyle bazı alanlar ziyarete kapatılırken ağaçlar araçların üzerine devrildi. Meteoroloji ve AKOM ise yarın için ayrı bir uyarıda bulundu.",
+            "publishedAt": "2026-11-13T20:33:12.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6af77383e85215c5ee417c46/rev-0/w-1200/h-675/f-jpg/s-cd7ac9f3676e70c08f7da6dfd7093c43016ad25b.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/salacakta-lodos-dalgalari-insan-boyunu-asti-p381150",
+            "title": "Görüntüler İstanbul'dan! Dalgalar insan boyunu aştı",
+            "summary": "İstanbul'da bir gün önce başlayan lodos, 13 Kasım'da etkisini artırdı. Salacak sahilinde kıyıya vuran dalgalar insan boy...",
+            "publishedAt": "2026-11-13T23:14:28.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/lodos1jpg-s__HtxUzKUG92A6DcH5faQ.jpg"
+          }
+        ]
       }
     ],
     "transfers": [
+      {
+        "storyId": "ab0abb7efc28d758",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.46,
+        "firstSeenAt": "2026-11-13T14:49:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:53:14.000Z",
+        "image": {
+          "url": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-man-utd_7405890.jpg?20261113150042",
+          "sourceId": "sky-sports-transfers",
+          "sourceName": "Sky Sports",
+          "articleUrl": "https://www.skysports.com/watch/video/13611928/mauricio-pochettino-left-in-tears-on-leaving-us-job-most-difficult-decision"
+        },
+        "sources": [
+          {
+            "id": "sky-sports-transfers",
+            "name": "Sky Sports",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-sport-football",
+            "name": "BBC Sport",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-football",
+            "name": "The Guardian Football",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:49:00.000Z",
+            "sourceId": "sky-sports-transfers"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:28:06.000Z",
+            "sourceId": "bbc-sport-football"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T15:28:06.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:53:14.000Z",
+            "sourceId": "guardian-football"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sky-sports-transfers",
+            "url": "https://www.skysports.com/watch/video/13611928/mauricio-pochettino-left-in-tears-on-leaving-us-job-most-difficult-decision",
+            "title": "Pochettino left in tears on leaving US job - 'Most difficult decision'",
+            "summary": "New Manchester United boss Mauricio Pochettino was very emotional when thanking the US Soccer Federation.",
+            "publishedAt": "2026-11-13T14:49:00.000Z",
+            "imageUrl": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-man-utd_7405890.jpg?20261113150042"
+          },
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
+            "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
+            "summary": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the Manchester United job.",
+            "publishedAt": "2026-11-13T15:28:06.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcb8/live/8a5ea400-df72-11f1-b844-3146c4983677.png"
+          },
+          {
+            "sourceId": "guardian-football",
+            "url": "https://www.theguardian.com/football/2026/nov/13/mauricio-pochettino-usmnt-manchester-united",
+            "title": "Tearful Pochettino says United job was ‘difficult to turn down’ in USMNT farewell",
+            "summary": "Coach was ‘transparent’ in dealings with club, federation Pochettino had signed deal to stay with US through 2030 There were always going to be tears at Mauricio Pochettino’s news conference at US Soccer’s national training center on Friday. It was only a matter of when. Pochettino is famously emotional, and nobody in attendance had to wait long for the waterworks – they came during his introductory remarks, as he thanked the US Soccer executives flanking him for the opportunity to guide the US men. He grew emotional again as he addressed his impending departure for Manchester United, one announced just hours earlier. “I think [the decision was],” Pochettino said, pausing to compose himself, “one of the most difficult decisions of our careers. Thank you guys. Thank you so much.” Continue reading...",
+            "publishedAt": "2026-11-13T16:53:14.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/d1100864cadf6d7e1c234b31c7686300f7d10df6/294_0_2133_1706/master/2133.jpg?width=140&quality=85&auto=format&fit=max&s=9d05b177324a4382a985b545bcef19d4"
+          }
+        ]
+      },
+      {
+        "storyId": "8a5ea04da8b52184",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.96,
+        "firstSeenAt": "2026-11-13T12:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T22:53:17.000Z",
+        "image": {
+          "url": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-mauricio_7405773.png?20261113122444",
+          "sourceId": "sky-sports-transfers",
+          "sourceName": "Sky Sports",
+          "articleUrl": "https://www.skysports.com/football/news/11095/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford"
+        },
+        "sources": [
+          {
+            "id": "sky-sports-transfers",
+            "name": "Sky Sports",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-sport-football",
+            "name": "BBC Sport",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:00:00.000Z",
+            "sourceId": "sky-sports-transfers"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:09:48.000Z",
+            "sourceId": "bbc-sport-football"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T12:09:48.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sky-sports-transfers",
+            "url": "https://www.skysports.com/football/news/11095/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford",
+            "title": "Man Utd appoint Pochettino as head coach",
+            "summary": "Mauricio Pochettino has been appointed as the new Manchester United head coach, following the sacking of Michael Carrick.",
+            "publishedAt": "2026-11-13T12:00:00.000Z",
+            "imageUrl": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-mauricio_7405773.png?20261113122444"
+          },
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss",
+            "title": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
+            "summary": "With Mauricio Pochettino set to become Man Utd manager, we analyse if he can clear the tactical hurdles others haven't.",
+            "publishedAt": "2026-11-13T12:09:48.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f043/live/468fa2e0-dddf-11f1-b465-b9821c2582d4.jpg"
+          },
+          {
+            "sourceId": "sky-sports-transfers",
+            "url": "https://www.skysports.com/watch/video/13611911/from-usa-to-manchester-utd-mauricio-pochettinos-hectic-schedule-explained",
+            "title": "The HECTIC schedule Pochettino will face ahead of new life at Man Utd!",
+            "summary": "Sky Sports's Rob Dorsett explains why the new Manchester United head coach, Mauricio Pochettino, has a VERY busy few days ahead of him.",
+            "publishedAt": "2026-11-13T13:48:00.000Z",
+            "imageUrl": "https://e0.365dm.com/26/11/1920x1080/skysports-mauricio-pochettino_7405857.jpg?20261113141506"
+          },
+          {
+            "sourceId": "sky-sports-transfers",
+            "url": "https://www.skysports.com/football/news/11095/13611887/mauricio-pochettino-new-man-utd-head-coach-in-tears-as-he-labels-leaving-usmnt-toughest-decision-of-career",
+            "title": "Tearful Pochettino admits he 'couldn't say no to Man Utd'",
+            "summary": "An emotional Mauricio Pochettino said that leaving his role with the United States was the \"toughest decision of his career\" but admitted he couldn't turn down the chance to become head coach of Manchester United.",
+            "publishedAt": "2026-11-13T15:00:00.000Z",
+            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-mauricio-pochettinp_7405898.jpg?20261113153009"
+          },
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss",
+            "title": "Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?",
+            "summary": "What can Manchester United fans expect from their new manager Mauricio Pochettino? BBC Sport gets an insight from Toby Alderweireld, who played under him at Spurs.",
+            "publishedAt": "2026-11-13T22:53:17.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8125/live/1aaff900-dfb9-11f1-b154-657b8bcda5ea.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "b3c4f5b3e8295850",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.95,
+        "firstSeenAt": "2026-11-13T22:05:14.000Z",
+        "lastUpdatedAt": "2026-11-13T22:51:00.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ed/live/b5eb8580-dfb2-11f1-a701-fddedf244c16.png",
+          "sourceId": "bbc-sport-football",
+          "sourceName": "BBC Sport",
+          "articleUrl": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-sport-football",
+            "name": "BBC Sport",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sky-sports-transfers",
+            "name": "Sky Sports",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T22:05:14.000Z",
+            "sourceId": "bbc-sport-football"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T22:51:00.000Z",
+            "sourceId": "sky-sports-transfers"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T22:51:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
+            "title": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
+            "summary": "Manchester United are targeting Como midfielder Nico Paz as new manager Mauricio Pochettino prepares to receive backing in the transfer market at Old Trafford.",
+            "publishedAt": "2026-11-13T22:05:14.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ed/live/b5eb8580-dfb2-11f1-a701-fddedf244c16.png"
+          },
+          {
+            "sourceId": "sky-sports-transfers",
+            "url": "https://www.skysports.com/football/news/11095/13611965/man-utd-transfer-news-como-star-nico-paz-emerges-as-target-ahead-of-summer-transfer-window-paper-talk",
+            "title": "Papers: Man Utd eyeing move for Como star Paz",
+            "summary": "The top stories and transfer rumours from Saturday's newspapers...",
+            "publishedAt": "2026-11-13T22:51:00.000Z",
+            "imageUrl": "https://e2.365dm.com/26/08/1920x1080/skysports-paper-talk-football_7317647.jpg?20260809160824"
+          }
+        ]
+      },
+      {
+        "storyId": "23a1006edff6f424",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.94,
+        "firstSeenAt": "2026-11-13T22:04:08.000Z",
+        "lastUpdatedAt": "2026-11-13T22:37:30.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/453e6400c2bc16c241756c75b571d743be0c220b/328_0_3280_2624/master/3280.jpg?width=140&quality=85&auto=format&fit=max&s=3dfc8be7821bec58c2fb2e520ce7d5fa",
+          "sourceId": "guardian-football",
+          "sourceName": "The Guardian Football",
+          "articleUrl": "https://www.theguardian.com/football/2026/nov/13/jesus-owono-given-12-match-ban-for-tackle-that-resulted-in-jesus-de-miguels-death"
+        },
+        "sources": [
+          {
+            "id": "guardian-football",
+            "name": "The Guardian Football",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-sport-football",
+            "name": "BBC Sport",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T22:04:08.000Z",
+            "sourceId": "guardian-football"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T22:37:30.000Z",
+            "sourceId": "bbc-sport-football"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T22:37:30.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-football",
+            "url": "https://www.theguardian.com/football/2026/nov/13/jesus-owono-given-12-match-ban-for-tackle-that-resulted-in-jesus-de-miguels-death",
+            "title": "Jesús Owono given 12-match ban for tackle that resulted in Jesús de Miguel’s death",
+            "summary": "FC Andorra goalkeeper collided with De Miguel Owono: ‘I feel immense pain over the loss of Jesús’ The FC Andorra goalkeeper Jesús Owono was suspended for 12 matches by the Spanish football federation’s disciplinary committee on Friday after his challenge on Jesús de Miguel resulted in the death of the Tenerife striker last week. Owono, an Equatorial Guinea international, was sent off in the second division match on 2 November after racing into midfield and colliding with De Miguel while trying to clear an aerial ball. After the collision, De Miguel, 30, was placed in intensive care in hospital and the Spanish forward died on 3 November. Continue reading...",
+            "publishedAt": "2026-11-13T22:04:08.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/453e6400c2bc16c241756c75b571d743be0c220b/328_0_3280_2624/master/3280.jpg?width=140&quality=85&auto=format&fit=max&s=3dfc8be7821bec58c2fb2e520ce7d5fa"
+          },
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss",
+            "title": "Goalkeeper involved in fatal collision gets 12-game ban",
+            "summary": "Jesus Owono is given a 12-match suspension by the Spanish football federation's disciplinary committee after his challenge which resulted in the death of Jesus de Miguel.",
+            "publishedAt": "2026-11-13T22:37:30.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e32e/live/2f147b80-dfa7-11f1-a701-fddedf244c16.jpg"
+          }
+        ]
+      },
       {
         "storyId": "6d033c849513a8ec",
         "language": "en",
@@ -5628,7 +6054,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.96,
+        "score": 8.91,
         "firstSeenAt": "2026-11-13T21:35:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:16:31.000Z",
         "image": {
@@ -5684,79 +6110,9 @@
             "sourceId": "guardian-football",
             "url": "https://www.theguardian.com/football/2026/nov/13/scotland-north-macedonia-nations-league-match-report",
             "title": "John McGinn double saves Scotland’s blushes against North Macedonia",
-            "summary": "A special occasion for Andy Robertson saw Scotland flirt with embarrassment. Collection of his 102nd cap moves Robertson level with Kenny Dalglish in the all-time Scottish list. By Monday night, Robertson will be a record holder. This was, however, John McGinn’s night. A double from McGinn, the second a penalty, spared Scottish blushes against a North Macedonia team who threatened to gatecrash Robertson’s celebration. This proved an almighty struggle for Scotland. Questions – and plenty of them – surround whether or not Sébastien Pocognoli can build on the excellent work of his predecessor Steve Clarke. For now, Scotland are a tough watch. Pocognoli looks tactically inflexible and this is not the new dawn many predicted. Pocognoli must be careful not to deliver a lesson in being careful what you wish for. Continue reading...",
+            "summary": "A special occasion for Andy Robertson saw Scotland flirt with embarrassment. Collection of his 102nd cap moves him level with Kenny Dalglish in the all-time Scottish list. Robertson will soon be a record holder. This was, however, John McGinn’s night. A double from McGinn, the second a penalty, spared Scottish blushes against a North Macedonia team who threatened to administer red faces to those in navy blue. This proved an almighty struggle for Scotland. Questions – and plenty of them – surround whether or not Sébastien Pocognoli can build on the excellent work of his predecessor Steve Clarke. For now, Scotland are a tough watch. Pocognoli looks tactically inflexible and this is not the new dawn many predicted. Continue reading...",
             "publishedAt": "2026-11-13T22:16:31.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/9289760f3f20ca01a576a2b6aedf1210513307f2/529_0_3604_2883/master/3604.jpg?width=140&quality=85&auto=format&fit=max&s=542a710e1a5a45e0aacdd86eebf80db3"
-          }
-        ]
-      },
-      {
-        "storyId": "ab0abb7efc28d758",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.51,
-        "firstSeenAt": "2026-11-13T14:49:00.000Z",
-        "lastUpdatedAt": "2026-11-13T16:53:14.000Z",
-        "image": {
-          "url": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-man-utd_7405890.jpg?20261113150042",
-          "sourceId": "sky-sports-transfers",
-          "sourceName": "Sky Sports",
-          "articleUrl": "https://www.skysports.com/watch/video/13611928/mauricio-pochettino-left-in-tears-on-leaving-us-job-most-difficult-decision"
-        },
-        "sources": [
-          {
-            "id": "sky-sports-transfers",
-            "name": "Sky Sports",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "guardian-football",
-            "name": "The Guardian Football",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T14:49:00.000Z",
-            "sourceId": "sky-sports-transfers"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T16:53:14.000Z",
-            "sourceId": "guardian-football"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T16:53:14.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/watch/video/13611928/mauricio-pochettino-left-in-tears-on-leaving-us-job-most-difficult-decision",
-            "title": "Pochettino left in tears on leaving US job - 'Most difficult decision'",
-            "summary": "New Manchester United boss Mauricio Pochettino was very emotional when thanking the US Soccer Federation.",
-            "publishedAt": "2026-11-13T14:49:00.000Z",
-            "imageUrl": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-man-utd_7405890.jpg?20261113150042"
-          },
-          {
-            "sourceId": "guardian-football",
-            "url": "https://www.theguardian.com/football/2026/nov/13/mauricio-pochettino-usmnt-manchester-united",
-            "title": "Tearful Pochettino says United job was ‘difficult to turn down’ in USMNT farewell",
-            "summary": "Coach was ‘transparent’ in dealings with club, federation Pochettino had signed deal to stay with US through 2030 There were always going to be tears at Mauricio Pochettino’s news conference at US Soccer’s national training center on Friday. It was only a matter of when. Pochettino is famously emotional, and nobody in attendance had to wait long for the waterworks – they came during his introductory remarks, as he thanked the US Soccer executives flanking him for the opportunity to guide the US men. He grew emotional again as he addressed his impending departure for Manchester United, one announced just hours earlier. “I think [the decision was],” Pochettino said, pausing to compose himself, “one of the most difficult decisions of our careers. Thank you guys. Thank you so much.” Continue reading...",
-            "publishedAt": "2026-11-13T16:53:14.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/d1100864cadf6d7e1c234b31c7686300f7d10df6/294_0_2133_1706/master/2133.jpg?width=140&quality=85&auto=format&fit=max&s=9d05b177324a4382a985b545bcef19d4"
+            "imageUrl": "https://i.guim.co.uk/img/media/9289760f3f20ca01a576a2b6aedf1210513307f2/737_406_2866_2293/master/2866.jpg?width=140&quality=85&auto=format&fit=max&s=124c62217c090485f7d963af8beada7c"
           }
         ]
       },
@@ -5770,7 +6126,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.42,
+        "score": 8.37,
         "firstSeenAt": "2026-11-13T15:02:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:48:00.000Z",
         "image": {
@@ -5848,30 +6204,23 @@
         ]
       },
       {
-        "storyId": "8a5ea04da8b52184",
+        "storyId": "e83a5a91f16bded2",
         "language": "en",
-        "label": "confirmed",
-        "developing": false,
+        "label": "single-source",
+        "developing": true,
         "reasons": [
-          "independent-sources"
+          "single-owner"
         ],
-        "score": 8.4,
-        "firstSeenAt": "2026-11-13T12:00:00.000Z",
-        "lastUpdatedAt": "2026-11-13T15:28:06.000Z",
+        "score": 3.96,
+        "firstSeenAt": "2026-11-13T22:54:49.000Z",
+        "lastUpdatedAt": "2026-11-13T22:54:49.000Z",
         "image": {
-          "url": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-mauricio_7405773.png?20261113122444",
-          "sourceId": "sky-sports-transfers",
-          "sourceName": "Sky Sports",
-          "articleUrl": "https://www.skysports.com/football/news/11095/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f8/live/229b49c0-dfab-11f1-be1f-9dae57fabf82.jpg",
+          "sourceId": "bbc-sport-football",
+          "sourceName": "BBC Sport",
+          "articleUrl": "https://www.bbc.co.uk/sport/football/articles/c95y10z6rpj8o?at_medium=RSS&at_campaign=rss"
         },
         "sources": [
-          {
-            "id": "sky-sports-transfers",
-            "name": "Sky Sports",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
           {
             "id": "bbc-sport-football",
             "name": "BBC Sport",
@@ -5883,61 +6232,18 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T12:00:00.000Z",
-            "sourceId": "sky-sports-transfers"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T12:09:48.000Z",
+            "at": "2026-11-13T22:54:49.000Z",
             "sourceId": "bbc-sport-football"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T12:09:48.000Z",
-            "from": "single-source",
-            "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/football/news/11095/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford",
-            "title": "Man Utd appoint Pochettino as head coach",
-            "summary": "Mauricio Pochettino has been appointed as the new Manchester United head coach, following the sacking of Michael Carrick.",
-            "publishedAt": "2026-11-13T12:00:00.000Z",
-            "imageUrl": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-mauricio_7405773.png?20261113122444"
-          },
-          {
             "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss",
-            "title": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
-            "summary": "With Mauricio Pochettino set to become Man Utd manager, we analyse if he can clear the tactical hurdles others haven't.",
-            "publishedAt": "2026-11-13T12:09:48.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f043/live/468fa2e0-dddf-11f1-b465-b9821c2582d4.jpg"
-          },
-          {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/watch/video/13611911/from-usa-to-manchester-utd-mauricio-pochettinos-hectic-schedule-explained",
-            "title": "The HECTIC schedule Pochettino will face ahead of new life at Man Utd!",
-            "summary": "Sky Sports's Rob Dorsett explains why the new Manchester United head coach, Mauricio Pochettino, has a VERY busy few days ahead of him.",
-            "publishedAt": "2026-11-13T13:48:00.000Z",
-            "imageUrl": "https://e0.365dm.com/26/11/1920x1080/skysports-mauricio-pochettino_7405857.jpg?20261113141506"
-          },
-          {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/football/news/11095/13611887/mauricio-pochettino-new-man-utd-head-coach-in-tears-as-he-labels-leaving-usmnt-toughest-decision-of-career",
-            "title": "Tearful Pochettino admits he 'couldn't say no to Man Utd'",
-            "summary": "An emotional Mauricio Pochettino said that leaving his role with the United States was the \"toughest decision of his career\" but admitted he couldn't turn down the chance to become head coach of Manchester United.",
-            "publishedAt": "2026-11-13T15:00:00.000Z",
-            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-mauricio-pochettinp_7405898.jpg?20261113153009"
-          },
-          {
-            "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
-            "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
-            "summary": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the Manchester United job.",
-            "publishedAt": "2026-11-13T15:28:06.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcb8/live/8a5ea400-df72-11f1-b844-3146c4983677.png"
+            "url": "https://www.bbc.co.uk/sport/football/articles/c95y10z6rpj8o?at_medium=RSS&at_campaign=rss",
+            "title": "Ferguson 'made up' with first win as Glentoran boss",
+            "summary": "Glentoran manager Duncan Ferguson said he is \"made up\" with his first three points on his home debut, after a 2-1 win over Bangor.",
+            "publishedAt": "2026-11-13T22:54:49.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f8/live/229b49c0-dfab-11f1-be1f-9dae57fabf82.jpg"
           }
         ]
       },
@@ -5949,7 +6255,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.99,
+        "score": 3.93,
         "firstSeenAt": "2026-11-13T22:34:20.000Z",
         "lastUpdatedAt": "2026-11-13T22:34:20.000Z",
         "image": {
@@ -5993,7 +6299,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.96,
+        "score": 3.9,
         "firstSeenAt": "2026-11-13T22:14:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:14:00.000Z",
         "image": {
@@ -6037,7 +6343,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.96,
+        "score": 3.9,
         "firstSeenAt": "2026-11-13T22:11:27.000Z",
         "lastUpdatedAt": "2026-11-13T22:11:27.000Z",
         "image": {
@@ -6074,94 +6380,6 @@
         ]
       },
       {
-        "storyId": "b3c4f5b3e8295850",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.95,
-        "firstSeenAt": "2026-11-13T22:05:14.000Z",
-        "lastUpdatedAt": "2026-11-13T22:05:14.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5052/live/03436570-dfb1-11f1-a701-fddedf244c16.png",
-          "sourceId": "bbc-sport-football",
-          "sourceName": "BBC Sport",
-          "articleUrl": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-sport-football",
-            "name": "BBC Sport",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T22:05:14.000Z",
-            "sourceId": "bbc-sport-football"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
-            "title": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
-            "summary": "Manchester United are targeting Como midfielder Nico Paz as new manager Mauricio Pochettino prepares to receive backing in the transfer market at Old Trafford.",
-            "publishedAt": "2026-11-13T22:05:14.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5052/live/03436570-dfb1-11f1-a701-fddedf244c16.png"
-          }
-        ]
-      },
-      {
-        "storyId": "23a1006edff6f424",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.95,
-        "firstSeenAt": "2026-11-13T22:04:08.000Z",
-        "lastUpdatedAt": "2026-11-13T22:04:08.000Z",
-        "image": {
-          "url": "https://i.guim.co.uk/img/media/453e6400c2bc16c241756c75b571d743be0c220b/328_0_3280_2624/master/3280.jpg?width=140&quality=85&auto=format&fit=max&s=3dfc8be7821bec58c2fb2e520ce7d5fa",
-          "sourceId": "guardian-football",
-          "sourceName": "The Guardian Football",
-          "articleUrl": "https://www.theguardian.com/football/2026/nov/13/jesus-owono-given-12-match-ban-for-tackle-that-resulted-in-jesus-de-miguels-death"
-        },
-        "sources": [
-          {
-            "id": "guardian-football",
-            "name": "The Guardian Football",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T22:04:08.000Z",
-            "sourceId": "guardian-football"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "guardian-football",
-            "url": "https://www.theguardian.com/football/2026/nov/13/jesus-owono-given-12-match-ban-for-tackle-that-resulted-in-jesus-de-miguels-death",
-            "title": "Jesús Owono given 12-match ban for tackle that resulted in Jesús de Miguel’s death",
-            "summary": "FC Andorra goalkeeper collided with De Miguel Owono: ‘I feel immense pain over the loss of Jesús’ The FC Andorra goalkeeper Jesús Owono was suspended for 12 matches by the Spanish football federation’s disciplinary committee on Friday after his challenge on Jesús de Miguel resulted in the death of the Tenerife striker last week. Owono, an Equatorial Guinea international, was sent off in the second division match on 2 November after racing into midfield and colliding with De Miguel while trying to clear an aerial ball. After the collision, De Miguel, 30, was placed in intensive care in hospital and the Spanish forward died on 3 November. Continue reading...",
-            "publishedAt": "2026-11-13T22:04:08.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/453e6400c2bc16c241756c75b571d743be0c220b/328_0_3280_2624/master/3280.jpg?width=140&quality=85&auto=format&fit=max&s=3dfc8be7821bec58c2fb2e520ce7d5fa"
-          }
-        ]
-      },
-      {
         "storyId": "b02e0b824bd24b53",
         "language": "en",
         "label": "single-source",
@@ -6169,7 +6387,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.88,
         "firstSeenAt": "2026-11-13T22:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:00:00.000Z",
         "image": {
@@ -6213,7 +6431,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.77,
+        "score": 3.72,
         "firstSeenAt": "2026-11-13T12:43:51.000Z",
         "lastUpdatedAt": "2026-11-13T19:59:40.000Z",
         "image": {
@@ -6254,50 +6472,6 @@
             "summary": "Norway's golden generation host Wales in a crunch Nations League clash on Saturday, aiming to end a rare losing streak for Erling Haaland and company.",
             "publishedAt": "2026-11-13T19:59:40.000Z",
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af0b/live/28b62340-df7c-11f1-b844-3146c4983677.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "770b461f73278150",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.71,
-        "firstSeenAt": "2026-11-13T19:12:37.000Z",
-        "lastUpdatedAt": "2026-11-13T19:12:37.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a24/live/9b132b20-df92-11f1-a9ad-6774a3284d10.jpg",
-          "sourceId": "bbc-sport-football",
-          "sourceName": "BBC Sport",
-          "articleUrl": "https://www.bbc.co.uk/sport/football/articles/cqz0k4e00v0mo?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-sport-football",
-            "name": "BBC Sport",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T19:12:37.000Z",
-            "sourceId": "bbc-sport-football"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cqz0k4e00v0mo?at_medium=RSS&at_campaign=rss",
-            "title": "Ronaldinho, 46, to play first game since 2015",
-            "summary": "Brazil great Ronaldinho is set to make his first competitive start in more than a decade when Ravenna face local rivals Forli in Italy's third division on Sunday.",
-            "publishedAt": "2026-11-13T19:12:37.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a24/live/9b132b20-df92-11f1-a9ad-6774a3284d10.jpg"
           }
         ]
       }
