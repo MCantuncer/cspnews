@@ -4,10 +4,10 @@
     "slot": "morning",
     "publishAt": "2026-11-14T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-13T23:24:49.249Z",
+  "generatedAt": "2026-11-13T23:55:53.039Z",
   "window": {
-    "since": "2026-11-13T09:24:49.249Z",
-    "until": "2026-11-13T23:24:49.249Z"
+    "since": "2026-11-13T09:55:53.039Z",
+    "until": "2026-11-13T23:55:53.039Z"
   },
   "sections": {
     "turkey": [
@@ -20,9 +20,9 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.91,
+        "score": 16.99,
         "firstSeenAt": "2026-11-13T21:17:44.000Z",
-        "lastUpdatedAt": "2026-11-13T22:20:55.000Z",
+        "lastUpdatedAt": "2026-11-13T23:48:25.000Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/1a5e31d7-09c1-49ac-ae01-c1f12063632b.jpg",
           "sourceId": "cumhuriyet",
@@ -59,16 +59,16 @@
             "confirms": true
           },
           {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
             "tier": "established",
             "confirms": true
           }
@@ -102,13 +102,13 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T22:04:49.000Z",
-            "sourceId": "haberturk"
+            "at": "2026-11-13T23:36:46.000Z",
+            "sourceId": "bbc-turkce"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T22:20:55.000Z",
-            "sourceId": "bbc-turkce"
+            "at": "2026-11-13T23:48:25.000Z",
+            "sourceId": "haberturk"
           }
         ],
         "articles": [
@@ -143,20 +143,20 @@
             "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af786fdc813a6f07cce8234.jpg"
           },
           {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss",
+            "title": "ABD'de tüm uçuşlar durduruldu: 'Bu yeni bir 11 Eylül değil'",
+            "summary": "ABD İç Güvenlik Bakanı Markwayne Mullin, \"uçakların yerde tutulması kararına bir telekomünikasyon kesintisinin yol açtığını\" söyledi. Kaç uçuşun durdurulduğu ve sorunun ne zaman çözülebileceği netlik kazanmadı.",
+            "publishedAt": "2026-11-13T23:36:46.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6e32/live/525bb5e0-dfb6-11f1-93e1-3b657b665bcf.jpg"
+          },
+          {
             "sourceId": "haberturk",
             "url": "https://www.haberturk.com/dunya/abd-genelinde-tum-ucuslar-durduruldu-3927258",
             "title": "ABD genelinde tüm uçuşlar durduruldu",
             "summary": "ABD Federal Havacılık İdaresi (FAA), “olağanüstü koşullar ve güvenlik gerekçesiyle” ülke genelindeki tüm havalimanlarında uçak kalkışlarının bir sonraki duyuruya kadar durdurulduğunu bildirdi. ABD’ye gelen uluslararası uçuşların ise ayrı ayrı değerlendirileceği belirtildi",
-            "publishedAt": "2026-11-13T22:04:49.000Z",
+            "publishedAt": "2026-11-13T23:48:25.000Z",
             "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794607472/3927258/jpg/1920x1080"
-          },
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss",
-            "title": "ABD'de tüm uçuşlar durduruldu: 'Bu yeni bir 11 Eylül değil'",
-            "summary": "ABD İç Güvenlik Bakanı Markwayne Mullin, \"uçakların yerde tutulması kararına bir telekomünikasyon kesintisinin yol açtığını\" söyledi. Mullin, \"Bu yeni bir 11 Eylül değil\" dedi.",
-            "publishedAt": "2026-11-13T22:20:55.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6e32/live/525bb5e0-dfb6-11f1-93e1-3b657b665bcf.jpg"
           }
         ]
       },
@@ -170,7 +170,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.77,
+        "score": 16.72,
         "firstSeenAt": "2026-11-13T12:22:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:36:09.000Z",
         "image": {
@@ -344,6 +344,168 @@
         ]
       },
       {
+        "storyId": "5ecd6516781a8e70",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 16.57,
+        "firstSeenAt": "2026-11-13T13:33:54.000Z",
+        "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
+        },
+        "sources": [
+          {
+            "id": "euronews-tr",
+            "name": "Euronews Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "dw-turkce",
+            "name": "DW Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T13:33:54.000Z",
+            "sourceId": "euronews-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:22:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:22:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:27:39.000Z",
+            "sourceId": "bbc-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T17:27:00.000Z",
+            "sourceId": "dw-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T17:34:09.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T18:44:32.000Z",
+            "sourceId": "diken"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "euronews-tr",
+            "url": "https://tr.euronews.com/2026/11/13/microsoft-365-arizasi-portekiz-hukumeti-okullar-ve-saglik-bakanligi-hizmetleri-etkilendi",
+            "title": "Microsoft 365 arızası: Portekiz hükümeti, okullar ve sağlık bakanlığı hizmetleri etkilendi",
+            "summary": "Microsoft hizmetlerindeki küresel bir arıza Portekiz’de birçok sektörde aksamalara neden oluyor. Perşembe başlayan kesinti Outlook ve Teams erişimini etkiliyor, şirket ise hizmetlerin yeniden sağlanmasında ilerleme kaydedildiğini bildiriyor.",
+            "publishedAt": "2026-11-13T13:33:54.000Z"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
+            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
+            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
+            "publishedAt": "2026-11-13T14:22:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/microsoft-ta-kuresel-kesinti-de-outlook-teams-ve-copilot-a-erisim-sorunu-yasaniyor-1395011",
+            "title": "Microsoft'ta Küresel Kesinti'de Outlook, Teams Ve Copilot'a Erişim Sorunu Yaşanıyor",
+            "summary": "Dünyanın en büyük teknoloji şirketlerinden Microsoft'un hizmetlerinde yaşanan küresel kesinti, farklı ülkelerde günlük hayatı ve iş süreçlerini aksattı. Microsoft 365 uygulamalarına erişimde yaşanan sorunlar nedeniyle kullanıcılar e-posta gönderme, dosya açma ve takvim bilgilerine ulaşma gibi temel işlemleri gerçekleştirmekte zorlandı.Kesintiden Microsoft'un iletişim ve üretkenlik uygulamaları Outlook, Teams ve yapay zekâ aracı Copilot da etkilendi. Bazı kullanıcılar Teams üzerinden mesajlaşma ve toplantı özelliklerini kullanabilirken bazıları hizmetlere tamamen erişemedi.",
+            "publishedAt": "2026-11-13T15:44:20.000Z",
+            "imageUrl": "https://img-s3.onedio.com/id-6af72492a0ffdca94d13d398/rev-0/w-1200/h-675/f-jpg/s-8ee1366142cbbef282b26d29fc9396c53d9f918e.jpg"
+          },
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
+            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
+            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
+            "publishedAt": "2026-11-13T16:27:39.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
+          },
+          {
+            "sourceId": "dw-turkce",
+            "url": "https://www.dw.com/tr/microsoft-normale-d%C3%B6n%C3%BCyor-eri%C5%9Fim-%C3%B6nemli-%C3%B6l%C3%A7%C3%BCde-iyile%C5%9Fti/a-79936765?maca=tur-rss-tur-all-1495-rdf",
+            "title": "Microsoft normale dönüyor: Erişim önemli ölçüde iyileşti",
+            "summary": "Microsoft'taki küresel erişim sorunu önemli ölçüde hafifledi. Outlook, Teams ve Copilot'ta hizmetler kademeli olarak normale dönüyor.",
+            "publishedAt": "2026-11-13T17:27:00.000Z"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-sorun-yasanan-hizmetlerinde-genis-capli-iyilesme-saglandigini-acikladi/4124635",
+            "title": "Microsoft, sorun yaşanan hizmetlerinde geniş çaplı iyileşme sağlandığını açıkladı",
+            "summary": "ABD merkezli teknoloji şirketi Microsoft, bazı hizmetlerinde yaşanan erişim sorununun ardından hizmetlerinin genelinde geniş çaplı iyileşme ve istikrar sağlandığını bildirdi.",
+            "publishedAt": "2026-11-13T17:34:09.000Z"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/microsoft-erisim-sorunu-teknik-nedenlerden-kaynakli/",
+            "title": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı",
+            "summary": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı 13.11.2026 Diken ABD merkezli teknoloji şirketi hizmetlerindeki erişim sorunun 'teknik' nedenlerden kaynaklandığını, büyük ölçüde çözüldüğünü duyurdu. The post Microsoft: Erişim sorunu teknik nedenlerden kaynaklı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T18:44:32.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "cfd180a6c6cecbb8",
         "language": "tr",
         "label": "confirmed",
@@ -353,7 +515,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.44,
+        "score": 16.4,
         "firstSeenAt": "2026-11-13T15:52:17.000Z",
         "lastUpdatedAt": "2026-11-13T16:42:50.000Z",
         "image": {
@@ -520,7 +682,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.97,
+        "score": 14.92,
         "firstSeenAt": "2026-11-13T21:09:07.000Z",
         "lastUpdatedAt": "2026-11-13T22:59:46.000Z",
         "image": {
@@ -698,7 +860,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.78,
+        "score": 14.74,
         "firstSeenAt": "2026-11-13T11:07:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:46:55.000Z",
         "image": {
@@ -850,157 +1012,6 @@
         ]
       },
       {
-        "storyId": "5ecd6516781a8e70",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 14.61,
-        "firstSeenAt": "2026-11-13T13:33:54.000Z",
-        "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
-        },
-        "sources": [
-          {
-            "id": "euronews-tr",
-            "name": "Euronews Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "diken",
-            "name": "Diken",
-            "camp": "independent",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T13:33:54.000Z",
-            "sourceId": "euronews-tr"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T14:22:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T14:22:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T16:27:39.000Z",
-            "sourceId": "bbc-turkce"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T17:34:09.000Z",
-            "sourceId": "aa-tr"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T18:44:32.000Z",
-            "sourceId": "diken"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "euronews-tr",
-            "url": "https://tr.euronews.com/2026/11/13/microsoft-365-arizasi-portekiz-hukumeti-okullar-ve-saglik-bakanligi-hizmetleri-etkilendi",
-            "title": "Microsoft 365 arızası: Portekiz hükümeti, okullar ve sağlık bakanlığı hizmetleri etkilendi",
-            "summary": "Microsoft hizmetlerindeki küresel bir arıza Portekiz’de birçok sektörde aksamalara neden oluyor. Perşembe başlayan kesinti Outlook ve Teams erişimini etkiliyor, şirket ise hizmetlerin yeniden sağlanmasında ilerleme kaydedildiğini bildiriyor.",
-            "publishedAt": "2026-11-13T13:33:54.000Z"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
-            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
-            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
-            "publishedAt": "2026-11-13T14:22:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-ta-kuresel-kesinti-de-outlook-teams-ve-copilot-a-erisim-sorunu-yasaniyor-1395011",
-            "title": "Microsoft'ta Küresel Kesinti'de Outlook, Teams Ve Copilot'a Erişim Sorunu Yaşanıyor",
-            "summary": "Dünyanın en büyük teknoloji şirketlerinden Microsoft'un hizmetlerinde yaşanan küresel kesinti, farklı ülkelerde günlük hayatı ve iş süreçlerini aksattı. Microsoft 365 uygulamalarına erişimde yaşanan sorunlar nedeniyle kullanıcılar e-posta gönderme, dosya açma ve takvim bilgilerine ulaşma gibi temel işlemleri gerçekleştirmekte zorlandı.Kesintiden Microsoft'un iletişim ve üretkenlik uygulamaları Outlook, Teams ve yapay zekâ aracı Copilot da etkilendi. Bazı kullanıcılar Teams üzerinden mesajlaşma ve toplantı özelliklerini kullanabilirken bazıları hizmetlere tamamen erişemedi.",
-            "publishedAt": "2026-11-13T15:44:20.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af72492a0ffdca94d13d398/rev-0/w-1200/h-675/f-jpg/s-8ee1366142cbbef282b26d29fc9396c53d9f918e.jpg"
-          },
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
-            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
-            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
-            "publishedAt": "2026-11-13T16:27:39.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-kesintiyle-ilgili-ozur-diledi-sorun-siber-saldiri-degil-ag-kapasitesi-yukseltmesinden-kaynaklandi-1395044",
-            "title": "Microsoft Kesintiyle İlgili Özür Diledi: Sorun Siber Saldırı Değil, Ağ Kapasitesi Yükseltmesinden Kaynaklandı",
-            "summary": "Microsoft, 12 Kasım'dan beri Microsoft 365 hizmetlerini aksatan küresel kesintiyle ilgili müşterilerinden ve iş ortaklarından özür diledi. Şirket, yaşananın siber saldırı ya da yapay zekâ ajanlarıyla ilgili olmadığını, daha önce yapılan bir ağ kapasitesi yükseltmesinden kaynaklanan teknik bir sorun olduğunu açıkladı.Kök nedenin giderildiğini duyuran Microsoft, hizmetlerin kalan müşteri ve bölgelerde aşamalı olarak geri getirildiğini belirtti.Kaynak: Microsoft (X), Windows Latest",
-            "publishedAt": "2026-11-13T17:13:13.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af744a34ab4ec692b2a56fe/rev-0/w-1200/h-675/f-jpg/s-7fde9147c58520aecd728e3f846690dc40fc3897.jpg"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-sorun-yasanan-hizmetlerinde-genis-capli-iyilesme-saglandigini-acikladi/4124635",
-            "title": "Microsoft, sorun yaşanan hizmetlerinde geniş çaplı iyileşme sağlandığını açıkladı",
-            "summary": "ABD merkezli teknoloji şirketi Microsoft, bazı hizmetlerinde yaşanan erişim sorununun ardından hizmetlerinin genelinde geniş çaplı iyileşme ve istikrar sağlandığını bildirdi.",
-            "publishedAt": "2026-11-13T17:34:09.000Z"
-          },
-          {
-            "sourceId": "diken",
-            "url": "https://www.diken.com.tr/microsoft-erisim-sorunu-teknik-nedenlerden-kaynakli/",
-            "title": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı",
-            "summary": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı 13.11.2026 Diken ABD merkezli teknoloji şirketi hizmetlerindeki erişim sorunun 'teknik' nedenlerden kaynaklandığını, büyük ölçüde çözüldüğünü duyurdu. The post Microsoft: Erişim sorunu teknik nedenlerden kaynaklı appeared first on #site_linkat 13.11.2026 .",
-            "publishedAt": "2026-11-13T18:44:32.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "8b9956b43fb710be",
         "language": "tr",
         "label": "confirmed",
@@ -1009,7 +1020,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.37,
+        "score": 14.33,
         "firstSeenAt": "2026-11-13T12:16:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:53:10.000Z",
         "image": {
@@ -1134,13 +1145,13 @@
         "storyId": "34d21a5047502e62",
         "language": "tr",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "copies-not-counted",
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.95,
+        "score": 12.91,
         "firstSeenAt": "2026-11-13T17:55:10.000Z",
         "lastUpdatedAt": "2026-11-13T22:49:14.000Z",
         "image": {
@@ -1281,7 +1292,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.2,
+        "score": 12.15,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:42.000Z",
         "image": {
@@ -1421,7 +1432,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.88,
+        "score": 10.84,
         "firstSeenAt": "2026-11-13T12:41:08.000Z",
         "lastUpdatedAt": "2026-11-13T21:58:56.000Z",
         "image": {
@@ -1520,7 +1531,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.81,
+        "score": 10.77,
         "firstSeenAt": "2026-11-13T10:52:33.000Z",
         "lastUpdatedAt": "2026-11-13T21:07:57.000Z",
         "image": {
@@ -1631,7 +1642,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.79,
+        "score": 10.74,
         "firstSeenAt": "2026-11-13T19:33:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:50:30.000Z",
         "image": {
@@ -1730,7 +1741,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.76,
+        "score": 10.72,
         "firstSeenAt": "2026-11-13T12:59:51.000Z",
         "lastUpdatedAt": "2026-11-13T20:33:15.000Z",
         "image": {
@@ -1838,7 +1849,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.76,
+        "score": 10.72,
         "firstSeenAt": "2026-11-13T09:57:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:32:15.000Z",
         "image": {
@@ -1961,7 +1972,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.66,
+        "score": 10.61,
         "firstSeenAt": "2026-11-13T13:01:10.000Z",
         "lastUpdatedAt": "2026-11-13T19:17:28.000Z",
         "image": {
@@ -2069,7 +2080,7 @@
     ],
     "tech": [
       {
-        "storyId": "19b4225c025fc4ae",
+        "storyId": "13ce7dccaab394f0",
         "language": "en",
         "label": "confirmed",
         "developing": true,
@@ -2078,7 +2089,7 @@
         ],
         "score": 18.99,
         "firstSeenAt": "2026-11-13T21:05:53.000Z",
-        "lastUpdatedAt": "2026-11-13T23:17:38.000Z",
+        "lastUpdatedAt": "2026-11-13T23:47:27.000Z",
         "image": {
           "url": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg",
           "sourceId": "wired",
@@ -2115,13 +2126,6 @@
             "confirms": true
           },
           {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          },
-          {
             "id": "wired",
             "name": "Wired",
             "camp": "specialist",
@@ -2148,6 +2152,13 @@
             "camp": "specialist",
             "tier": "established",
             "confirms": false
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
           }
         ],
         "timeline": [
@@ -2179,11 +2190,6 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T21:38:25.000Z",
-            "sourceId": "the-verge"
-          },
-          {
-            "kind": "outlet-joined",
             "at": "2026-11-13T21:42:57.000Z",
             "sourceId": "wired"
           },
@@ -2196,21 +2202,26 @@
             "kind": "outlet-joined",
             "at": "2026-11-13T23:01:06.000Z",
             "sourceId": "guardian-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:47:27.000Z",
+            "sourceId": "the-verge"
           }
         ],
         "articles": [
           {
             "sourceId": "hacker-news",
-            "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
-            "title": "FAA Issues National Ground Stop",
-            "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 934 # Comments: 549",
+            "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+            "title": "FAA issues national ground stop",
+            "summary": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&a... https://www.nytimes.com/live/2026/11/13/us/ground-stop-natio... Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 1056 # Comments: 627",
             "publishedAt": "2026-11-13T21:05:53.000Z"
           },
           {
             "sourceId": "hacker-news",
             "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
             "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 92 # Comments: 26",
+            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 98 # Comments: 28",
             "publishedAt": "2026-11-13T21:08:49.000Z"
           },
           {
@@ -2224,23 +2235,16 @@
             "sourceId": "al-jazeera",
             "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
             "title": "FAA grounds US flights nationwide after ‘communication issue’",
-            "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is 'investigating the issue'.",
+            "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is ‘investigating the issue’.",
             "publishedAt": "2026-11-13T21:32:08.000Z"
           },
           {
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
             "title": "All US flights grounded due to communication issues: homeland security head",
-            "summary": "Air travel across the United States came to a halt on Friday afternoon after the Federal Aviation Administration (FAA) ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. Citing “extraordinary circumstances” and “reasons of safety”, the FAA said in a notice that the halt would stay in place until at least 11pm Eastern time on Friday (noon on Saturday in Hong Kong). In a social media post, the agency described the...",
+            "summary": "Air travel across the United States came to a halt on Friday afternoon after the Federal Aviation Administration (FAA) ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. Citing “extraordinary circumstances” and “reasons of safety”, the FAA said in a notice that the halt would stay in place until at least 11pm Eastern time on Friday. In a social media post, the agency described the problem as a temporary...",
             "publishedAt": "2026-11-13T21:33:43.000Z",
             "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/98439ed6-1baa-410b-ad3a-c5a662707f91_ae6dba71.jpg?itok=CpoGjeF4&v=1794611867"
-          },
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
-            "title": "FAA ground stop shuts down flights nationwide",
-            "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. US Transportation Secretary Sean Duffy tweeted: The FAA issued a nationwide ground stop for all U.S. airports following […]",
-            "publishedAt": "2026-11-13T21:38:25.000Z"
           },
           {
             "sourceId": "wired",
@@ -2265,6 +2269,13 @@
             "publishedAt": "2026-11-13T22:02:07.000Z"
           },
           {
+            "sourceId": "hacker-news",
+            "url": "https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13/",
+            "title": "US National Weather Service reports nationwide internet, communications issues",
+            "summary": "Article URL: https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13/ Comments URL: https://news.ycombinator.com/item?id=50491209 Points: 16 # Comments: 5",
+            "publishedAt": "2026-11-13T22:46:53.000Z"
+          },
+          {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
             "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
@@ -2273,20 +2284,27 @@
             "imageUrl": "https://i.guim.co.uk/img/media/e0ab041b575c8eedc802a6fc41aa64352628fae1/0_0_3024_2420/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=ba8fdc5781587a131e79485a0c361fae"
           },
           {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-            "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
-            "summary": "Sean Duffy says technicians from Federal Aviation Administration are investigating; Trump’s homeland security secretary says ‘no indication as of yet’ of cyberattack FAA issues nationwide ground-stop order, delaying or canceling nearly 7,000 flights Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
-            "publishedAt": "2026-11-13T23:10:48.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=f11dd51ed640dac66df42ee7190c2ac3"
-          },
-          {
             "sourceId": "ars-technica",
             "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
             "title": "FAA orders third nationwide ground stop in its history",
             "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
             "publishedAt": "2026-11-13T23:17:38.000Z",
             "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+            "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
+            "summary": "Sean Duffy says technicians from Federal Aviation Administration are investigating; Trump’s homeland security secretary says ‘no indication as of yet’ of cyberattack FAA issues nationwide ground-stop order, delaying or canceling nearly 7,000 flights Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
+            "publishedAt": "2026-11-13T23:43:41.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=f11dd51ed640dac66df42ee7190c2ac3"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+            "title": "FAA ground stop shuts down flights nationwide",
+            "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecommunications outage - out of […]",
+            "publishedAt": "2026-11-13T23:47:27.000Z"
           }
         ]
       },
@@ -2298,7 +2316,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.82,
+        "score": 18.78,
         "firstSeenAt": "2026-11-13T11:43:27.000Z",
         "lastUpdatedAt": "2026-11-13T21:14:22.000Z",
         "image": {
@@ -2442,8 +2460,8 @@
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
-            "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
-            "summary": "Tech firm says it is ‘deeply sorry’ for disruption and has now addressed the underlying issue Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by the outage? Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”. The company said the outage was a “technical issue” not related to cyber-attacks or AI agents, and that it continued to gradually restore services. Continue reading...",
+            "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+            "summary": "Tech firm says it is ‘deeply sorry’ for disruption that took services down and has now addressed the underlying issue What caused the outage and when will it be fixed? Microsoft outage hits UK hospitals, GPs, schools and police Tell us: have you been affected by the outage? Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”. The company said the outage was a “technical issue” not related to cyber-attacks or AI agents, and that it continued to gradually restore services. Continue reading...",
             "publishedAt": "2026-11-13T17:41:15.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/dfa589c16097054908f431498d8161b7edbee12f/399_0_6288_5030/master/6288.jpg?width=140&quality=85&auto=format&fit=max&s=3759adfe789d05387c776999255cfb34"
           },
@@ -2504,7 +2522,7 @@
           "independent-sources",
           "primary-source"
         ],
-        "score": 10.78,
+        "score": 10.74,
         "firstSeenAt": "2026-11-13T15:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:45:10.000Z",
         "sources": [
@@ -2578,6 +2596,43 @@
         ]
       },
       {
+        "storyId": "96048276e5de0ccf",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.99,
+        "firstSeenAt": "2026-11-13T23:49:11.000Z",
+        "lastUpdatedAt": "2026-11-13T23:49:11.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T23:49:11.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+            "title": "Amazon has a plan to index the world’s online shopping data",
+            "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+            "publishedAt": "2026-11-13T23:49:11.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "41bbca50b49f8038",
         "language": "en",
         "label": "single-source",
@@ -2585,7 +2640,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.92,
         "firstSeenAt": "2026-11-13T23:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T23:00:00.000Z",
         "sources": [
@@ -2622,7 +2677,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.9,
         "firstSeenAt": "2026-11-13T22:43:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:43:00.000Z",
         "sources": [
@@ -2659,7 +2714,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.92,
+        "score": 3.88,
         "firstSeenAt": "2026-11-13T19:58:41.000Z",
         "lastUpdatedAt": "2026-11-13T22:30:29.000Z",
         "image": {
@@ -2707,11 +2762,11 @@
         "storyId": "c628f8ad3420da2b",
         "language": "en",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.88,
+        "score": 3.84,
         "firstSeenAt": "2026-11-13T21:59:01.000Z",
         "lastUpdatedAt": "2026-11-13T21:59:01.000Z",
         "image": {
@@ -2755,7 +2810,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.83,
+        "score": 3.78,
         "firstSeenAt": "2026-11-13T21:20:47.000Z",
         "lastUpdatedAt": "2026-11-13T21:20:47.000Z",
         "image": {
@@ -2799,7 +2854,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.76,
+        "score": 3.71,
         "firstSeenAt": "2026-11-13T20:30:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:30:00.000Z",
         "sources": [
@@ -2836,7 +2891,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.73,
+        "score": 3.68,
         "firstSeenAt": "2026-11-13T20:07:24.000Z",
         "lastUpdatedAt": "2026-11-13T20:07:24.000Z",
         "sources": [
@@ -2873,7 +2928,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.72,
+        "score": 3.68,
         "firstSeenAt": "2026-11-13T20:03:13.000Z",
         "lastUpdatedAt": "2026-11-13T20:03:13.000Z",
         "image": {
@@ -2917,7 +2972,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.71,
+        "score": 3.67,
         "firstSeenAt": "2026-11-13T19:57:56.000Z",
         "lastUpdatedAt": "2026-11-13T19:57:56.000Z",
         "image": {
@@ -2961,7 +3016,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.7,
+        "score": 3.66,
         "firstSeenAt": "2026-11-13T19:49:16.000Z",
         "lastUpdatedAt": "2026-11-13T19:49:16.000Z",
         "image": {
@@ -3005,7 +3060,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.68,
+        "score": 3.64,
         "firstSeenAt": "2026-11-13T19:37:57.000Z",
         "lastUpdatedAt": "2026-11-13T19:37:57.000Z",
         "sources": [
@@ -3033,48 +3088,11 @@
             "publishedAt": "2026-11-13T19:37:57.000Z"
           }
         ]
-      },
-      {
-        "storyId": "07fb101d77d4b8cb",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.65,
-        "firstSeenAt": "2026-11-13T19:14:38.000Z",
-        "lastUpdatedAt": "2026-11-13T19:14:38.000Z",
-        "sources": [
-          {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T19:14:38.000Z",
-            "sourceId": "the-verge"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-            "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
-            "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series […]",
-            "publishedAt": "2026-11-13T19:14:38.000Z"
-          }
-        ]
       }
     ],
     "world": [
       {
-        "storyId": "19b4225c025fc4ae",
+        "storyId": "13ce7dccaab394f0",
         "language": "en",
         "label": "confirmed",
         "developing": true,
@@ -3083,7 +3101,7 @@
         ],
         "score": 18.99,
         "firstSeenAt": "2026-11-13T21:05:53.000Z",
-        "lastUpdatedAt": "2026-11-13T23:17:38.000Z",
+        "lastUpdatedAt": "2026-11-13T23:47:27.000Z",
         "image": {
           "url": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg",
           "sourceId": "wired",
@@ -3120,13 +3138,6 @@
             "confirms": true
           },
           {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          },
-          {
             "id": "wired",
             "name": "Wired",
             "camp": "specialist",
@@ -3153,6 +3164,13 @@
             "camp": "specialist",
             "tier": "established",
             "confirms": false
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
           }
         ],
         "timeline": [
@@ -3184,11 +3202,6 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T21:38:25.000Z",
-            "sourceId": "the-verge"
-          },
-          {
-            "kind": "outlet-joined",
             "at": "2026-11-13T21:42:57.000Z",
             "sourceId": "wired"
           },
@@ -3201,21 +3214,26 @@
             "kind": "outlet-joined",
             "at": "2026-11-13T23:01:06.000Z",
             "sourceId": "guardian-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:47:27.000Z",
+            "sourceId": "the-verge"
           }
         ],
         "articles": [
           {
             "sourceId": "hacker-news",
-            "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
-            "title": "FAA Issues National Ground Stop",
-            "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 934 # Comments: 549",
+            "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+            "title": "FAA issues national ground stop",
+            "summary": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&a... https://www.nytimes.com/live/2026/11/13/us/ground-stop-natio... Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 1056 # Comments: 627",
             "publishedAt": "2026-11-13T21:05:53.000Z"
           },
           {
             "sourceId": "hacker-news",
             "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
             "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 92 # Comments: 26",
+            "summary": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop Comments URL: https://news.ycombinator.com/item?id=50489678 Points: 98 # Comments: 28",
             "publishedAt": "2026-11-13T21:08:49.000Z"
           },
           {
@@ -3229,23 +3247,16 @@
             "sourceId": "al-jazeera",
             "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
             "title": "FAA grounds US flights nationwide after ‘communication issue’",
-            "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is 'investigating the issue'.",
+            "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is ‘investigating the issue’.",
             "publishedAt": "2026-11-13T21:32:08.000Z"
           },
           {
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
             "title": "All US flights grounded due to communication issues: homeland security head",
-            "summary": "Air travel across the United States came to a halt on Friday afternoon after the Federal Aviation Administration (FAA) ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. Citing “extraordinary circumstances” and “reasons of safety”, the FAA said in a notice that the halt would stay in place until at least 11pm Eastern time on Friday (noon on Saturday in Hong Kong). In a social media post, the agency described the...",
+            "summary": "Air travel across the United States came to a halt on Friday afternoon after the Federal Aviation Administration (FAA) ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. Citing “extraordinary circumstances” and “reasons of safety”, the FAA said in a notice that the halt would stay in place until at least 11pm Eastern time on Friday. In a social media post, the agency described the problem as a temporary...",
             "publishedAt": "2026-11-13T21:33:43.000Z",
             "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/98439ed6-1baa-410b-ad3a-c5a662707f91_ae6dba71.jpg?itok=CpoGjeF4&v=1794611867"
-          },
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
-            "title": "FAA ground stop shuts down flights nationwide",
-            "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. US Transportation Secretary Sean Duffy tweeted: The FAA issued a nationwide ground stop for all U.S. airports following […]",
-            "publishedAt": "2026-11-13T21:38:25.000Z"
           },
           {
             "sourceId": "wired",
@@ -3270,6 +3281,13 @@
             "publishedAt": "2026-11-13T22:02:07.000Z"
           },
           {
+            "sourceId": "hacker-news",
+            "url": "https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13/",
+            "title": "US National Weather Service reports nationwide internet, communications issues",
+            "summary": "Article URL: https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13/ Comments URL: https://news.ycombinator.com/item?id=50491209 Points: 16 # Comments: 5",
+            "publishedAt": "2026-11-13T22:46:53.000Z"
+          },
+          {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
             "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
@@ -3278,20 +3296,27 @@
             "imageUrl": "https://i.guim.co.uk/img/media/e0ab041b575c8eedc802a6fc41aa64352628fae1/0_0_3024_2420/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=ba8fdc5781587a131e79485a0c361fae"
           },
           {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-            "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
-            "summary": "Sean Duffy says technicians from Federal Aviation Administration are investigating; Trump’s homeland security secretary says ‘no indication as of yet’ of cyberattack FAA issues nationwide ground-stop order, delaying or canceling nearly 7,000 flights Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
-            "publishedAt": "2026-11-13T23:10:48.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=f11dd51ed640dac66df42ee7190c2ac3"
-          },
-          {
             "sourceId": "ars-technica",
             "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
             "title": "FAA orders third nationwide ground stop in its history",
             "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
             "publishedAt": "2026-11-13T23:17:38.000Z",
             "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+            "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
+            "summary": "Sean Duffy says technicians from Federal Aviation Administration are investigating; Trump’s homeland security secretary says ‘no indication as of yet’ of cyberattack FAA issues nationwide ground-stop order, delaying or canceling nearly 7,000 flights Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
+            "publishedAt": "2026-11-13T23:43:41.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=f11dd51ed640dac66df42ee7190c2ac3"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+            "title": "FAA ground stop shuts down flights nationwide",
+            "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecommunications outage - out of […]",
+            "publishedAt": "2026-11-13T23:47:27.000Z"
           }
         ]
       },
@@ -3303,7 +3328,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.82,
+        "score": 18.78,
         "firstSeenAt": "2026-11-13T11:43:27.000Z",
         "lastUpdatedAt": "2026-11-13T21:14:22.000Z",
         "image": {
@@ -3447,8 +3472,8 @@
           {
             "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
-            "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
-            "summary": "Tech firm says it is ‘deeply sorry’ for disruption and has now addressed the underlying issue Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by the outage? Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”. The company said the outage was a “technical issue” not related to cyber-attacks or AI agents, and that it continued to gradually restore services. Continue reading...",
+            "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+            "summary": "Tech firm says it is ‘deeply sorry’ for disruption that took services down and has now addressed the underlying issue What caused the outage and when will it be fixed? Microsoft outage hits UK hospitals, GPs, schools and police Tell us: have you been affected by the outage? Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”. The company said the outage was a “technical issue” not related to cyber-attacks or AI agents, and that it continued to gradually restore services. Continue reading...",
             "publishedAt": "2026-11-13T17:41:15.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/dfa589c16097054908f431498d8161b7edbee12f/399_0_6288_5030/master/6288.jpg?width=140&quality=85&auto=format&fit=max&s=3759adfe789d05387c776999255cfb34"
           },
@@ -3501,26 +3526,116 @@
         ]
       },
       {
-        "storyId": "d501cf1f411c739d",
+        "storyId": "8573d9e8e576a4ad",
         "language": "en",
         "label": "confirmed",
         "developing": true,
         "reasons": [
           "independent-sources"
         ],
-        "score": 12.97,
-        "firstSeenAt": "2026-11-13T20:49:15.000Z",
-        "lastUpdatedAt": "2026-11-13T23:03:17.000Z",
+        "score": 10.98,
+        "firstSeenAt": "2026-11-13T20:12:02.000Z",
+        "lastUpdatedAt": "2026-11-13T23:38:09.000Z",
         "image": {
-          "url": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=dc3ae36c16dfe11867a2547932e2dc11",
-          "sourceId": "guardian-world",
-          "sourceName": "The Guardian World",
-          "articleUrl": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/14a168f0-de92-11f1-9afe-1f03bfe02283.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
         },
         "sources": [
           {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
             "id": "scmp-world",
             "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T20:12:02.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:23:21.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T23:23:21.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:38:09.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+            "title": "SpaceX to attempt double catch of huge Starship rocket",
+            "summary": "Elon Musk’s company will try to grab both parts of the rocket for the first time.",
+            "publishedAt": "2026-11-13T20:12:02.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/14a168f0-de92-11f1-9afe-1f03bfe02283.jpg"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
+            "title": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
+            "summary": "SpaceX launched Starship towards orbit on Friday in its boldest test yet: a 22-hour flight that aimed to capture the entire rocket in a move meant to accelerate moon and Mars travel. But Elon Musk’s company had to lower its expectations when the first part of the double catch flopped. The first-stage booster malfunctioned and instead of returning to its Texas pad several minutes after lift-off, it ended up in the Gulf of Mexico after an automatic abort. Despite the setback, the bullet-shaped...",
+            "publishedAt": "2026-11-13T23:23:21.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/b1e848bd-16b3-40bd-9445-55a49b31e145_265c7ec9.jpg?itok=evnSO9wu&v=1794612195"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+            "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
+            "summary": "Flight 15 expected to orbit Earth about 14 times over 22 hours, before company catches it at Starbase, Texas SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon, as the aerospace company sought to make history with a double catch of its reusable rocket. Starship Flight 15 is expected to orbit the Earth about 14 times over the course of 22 hours, before the company catches the rocket at its launchpad at Starbase, in south Texas. Continue reading...",
+            "publishedAt": "2026-11-13T23:38:09.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/e49347059f6c48431222b1105f2ca576e92c1c82/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5c0c6d7edd01447ecc6dda30577aeb3d"
+          }
+        ]
+      },
+      {
+        "storyId": "101d44ffbb4da315",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.97,
+        "firstSeenAt": "2026-11-13T21:15:24.000Z",
+        "lastUpdatedAt": "2026-11-13T23:36:21.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880d/live/7334ea60-dfad-11f1-b441-2b33b063138f.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3538,20 +3653,13 @@
             "camp": "international",
             "tier": "established",
             "confirms": true
-          },
-          {
-            "id": "al-jazeera",
-            "name": "Al Jazeera English",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
           }
         ],
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T20:49:15.000Z",
-            "sourceId": "scmp-world"
+            "at": "2026-11-13T21:15:24.000Z",
+            "sourceId": "bbc-world"
           },
           {
             "kind": "outlet-joined",
@@ -3566,23 +3674,18 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T21:49:50.000Z",
+            "at": "2026-11-13T23:03:17.000Z",
             "sourceId": "guardian-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T22:47:16.000Z",
-            "sourceId": "al-jazeera"
           }
         ],
         "articles": [
           {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-            "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
-            "summary": "At least 180 passengers and crew members were rescued Friday after a tanker lost control, hit and sank a paddleboat on the Mississippi River, the mayor of New Orleans said. Video from the scene showed the much larger Atlantic Asphalt tanker hit the cruise boat while it was docked as metal and glass crashed and crunched. Tugboat operators, nearby workers, police and several other rescuers rushed to help. New Orleans Mayor Helena Moreno called it “a miracle on the Mississippi”. The mayor said 32...",
-            "publishedAt": "2026-11-13T20:49:15.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/4768064f-4b29-4406-b530-e2f26d2b6497_30e92c5d.jpg?itok=Sr8dao9W&v=1794602943"
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+            "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+            "summary": "All passengers have been accounted for after a cargo ship collided with a docked cruise ship.",
+            "publishedAt": "2026-11-13T21:15:24.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880d/live/7334ea60-dfad-11f1-b441-2b33b063138f.jpg"
           },
           {
             "sourceId": "dw-world",
@@ -3593,26 +3696,19 @@
           },
           {
             "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
-            "title": "Tanker collides with cruise ship on Mississippi River in New Orleans",
-            "summary": "Large emergency response under way to rescue people from the water, with overnight cruise ship on its side New Orleans river collision – latest updates A tanker collided with a river cruise ship docked on the Mississippi River in New Orleans on Friday afternoon, prompting an emergency effort to rescue people from the water, according to officials. The Atlantic Asphalt tanker collided with American Cruise Lines’ American Heritage at about 12.30pm, said Kimberly Curth, the Port of New Orleans press secretary, in a statement. Continue reading...",
-            "publishedAt": "2026-11-13T21:49:50.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=dc3ae36c16dfe11867a2547932e2dc11"
-          },
-          {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-            "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
-            "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
-            "publishedAt": "2026-11-13T22:47:16.000Z"
+            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
+            "title": "New Orleans boat crash live: all passengers and crew found alive in ‘miracle on the Mississippi’ – as it happened",
+            "summary": "This live blog is now closed. You can read our full report here: ‘Miracle on the Mississippi’: all accounted for after tanker collides with cruise ship in New Orleans A video circulating around social media shows a different angle during the moment the ship was falling on its side into the water. Passengers can be seen climbing onto the balconies’ railing to avoid sliding into the river as the ship turned horizontally. Several uniformed people can be seen running away from the scene, likely to gather equipment that would help rescue efforts. Martin J Davies, a maritime expert at Tulane University, told local news outlet Fox 8 that he suspected the incident was caused by either steerage failure or engine failure. Continue reading...",
+            "publishedAt": "2026-11-13T23:03:17.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/c8e77aee359cc4c5de7c6aaa1f2da566b12be4bd/211_0_3840_3072/master/3840.jpg?width=140&quality=85&auto=format&fit=max&s=3f89d09a3547d4763a9dd6b7e03b920e"
           },
           {
             "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
-            "title": "New Orleans boat crash live: all passengers and crew found alive in ‘miracle on the Mississippi’",
-            "summary": "New Orleans mayor says 32 people are being treated for minor injuries after ship narrowly missed striking a major bridge Tanker collides with cruise ship on Mississippi River in New Orleans A video circulating around social media shows a different angle during the moment the ship was falling on its side into the water. Passengers can be seen climbing onto the balconies’ railing to avoid sliding into the river as the ship turned horizontally. Several uniformed people can be seen running away from the scene, likely to gather equipment that would help rescue efforts. Martin J Davies, a maritime expert at Tulane University, told local news outlet Fox 8 that he suspected the incident was caused by either steerage failure or engine failure. Continue reading...",
-            "publishedAt": "2026-11-13T23:03:17.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/c8e77aee359cc4c5de7c6aaa1f2da566b12be4bd/211_0_3840_3072/master/3840.jpg?width=140&quality=85&auto=format&fit=max&s=3f89d09a3547d4763a9dd6b7e03b920e"
+            "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+            "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+            "summary": "No passengers or crew were killed or critically hurt after a tanker collided with a river cruise ship on the Mississippi River, officials say New Orleans river collision – latest updates In what the city’s mayor declared a “miracle on the Mississippi”, all passengers were accounted for – with none killed or critically hurt – after a tanker collided with a river cruise ship docked on the Mississippi River in New Orleans on Friday afternoon. Thirty-two people were taken to local hospitals after the Atlantic Asphalt tanker struck American Cruise Lines’s American Heritage at about 12.30pm – but none of their injuries were considered critical, New Orleans’s mayor, Helena Moreno, said at a news conference. Continue reading...",
+            "publishedAt": "2026-11-13T23:36:21.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=dc3ae36c16dfe11867a2547932e2dc11"
           }
         ]
       },
@@ -3624,7 +3720,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.79,
+        "score": 10.75,
         "firstSeenAt": "2026-11-13T18:05:38.000Z",
         "lastUpdatedAt": "2026-11-13T20:52:31.000Z",
         "image": {
@@ -3720,7 +3816,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.74,
+        "score": 10.7,
         "firstSeenAt": "2026-11-13T19:51:28.000Z",
         "lastUpdatedAt": "2026-11-13T20:20:33.000Z",
         "image": {
@@ -3810,7 +3906,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.38,
+        "score": 10.34,
         "firstSeenAt": "2026-11-13T13:02:08.000Z",
         "lastUpdatedAt": "2026-11-13T16:01:45.000Z",
         "image": {
@@ -3892,26 +3988,26 @@
         ]
       },
       {
-        "storyId": "8573d9e8e576a4ad",
+        "storyId": "954e63659ad80cba",
         "language": "en",
         "label": "confirmed",
         "developing": true,
         "reasons": [
           "independent-sources"
         ],
-        "score": 9,
-        "firstSeenAt": "2026-11-13T20:12:02.000Z",
-        "lastUpdatedAt": "2026-11-13T23:23:21.000Z",
+        "score": 8.99,
+        "firstSeenAt": "2026-11-13T22:31:05.000Z",
+        "lastUpdatedAt": "2026-11-13T23:47:51.000Z",
         "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/14a168f0-de92-11f1-9afe-1f03bfe02283.jpg",
-          "sourceId": "bbc-world",
-          "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+          "url": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=140&quality=85&auto=format&fit=max&s=9b539226855b0f6819e574ce7da82ee2",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath"
         },
         "sources": [
           {
-            "id": "bbc-world",
-            "name": "BBC News World",
+            "id": "guardian-world",
+            "name": "The Guardian World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3927,37 +4023,100 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T20:12:02.000Z",
-            "sourceId": "bbc-world"
+            "at": "2026-11-13T22:31:05.000Z",
+            "sourceId": "guardian-world"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T23:23:21.000Z",
+            "at": "2026-11-13T23:47:51.000Z",
             "sourceId": "scmp-world"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-13T23:23:21.000Z",
+            "at": "2026-11-13T23:47:51.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-            "title": "SpaceX to attempt double catch of huge Starship rocket",
-            "summary": "Elon Musk’s company will try to grab both parts of the rocket for the first time.",
-            "publishedAt": "2026-11-13T20:12:02.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/14a168f0-de92-11f1-9afe-1f03bfe02283.jpg"
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
+            "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
+            "summary": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US Air Force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastructure were affected, the air force said. Continue reading...",
+            "publishedAt": "2026-11-13T22:31:05.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=140&quality=85&auto=format&fit=max&s=9b539226855b0f6819e574ce7da82ee2"
           },
           {
             "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
-            "title": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
-            "summary": "SpaceX launched Starship towards orbit on Friday in its boldest test yet: a 22-hour flight that aimed to capture the entire rocket in a move meant to accelerate moon and Mars travel. But Elon Musk’s company had to lower its expectations when the first part of the double catch flopped. The first-stage booster malfunctioned and instead of returning to its Texas pad several minutes after lift-off, it ended up in the Gulf of Mexico after an automatic abort. Despite the setback, the bullet-shaped...",
-            "publishedAt": "2026-11-13T23:23:21.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/b1e848bd-16b3-40bd-9445-55a49b31e145_265c7ec9.jpg?itok=evnSO9wu&v=1794612195"
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374414/us-air-force-responds-suspected-drone-activity-over-uk-airbase",
+            "title": "US Air Force responds to suspected drone activity over UK airbase",
+            "summary": "US Air Force personnel at the RAF Lakenheath base in Britain responded to “suspected unauthorised drone activity” on Friday evening, although no personnel, aircraft or infrastructure were affected, a US Air Force spokesman said. “We continue ‌to work closely with our host nation counterparts to ensure the safety and security of our US service members, US and host nation civilians, contractors and all of our families,” the spokesman added by email. The British Ministry of Defence was not...",
+            "publishedAt": "2026-11-13T23:47:51.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/57e9d0cb-d165-4c67-a2ad-621090e47173_f1d255bd.jpg?itok=lFb5djNG&v=1794613661"
+          }
+        ]
+      },
+      {
+        "storyId": "d501cf1f411c739d",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.9,
+        "firstSeenAt": "2026-11-13T20:49:15.000Z",
+        "lastUpdatedAt": "2026-11-13T22:47:16.000Z",
+        "sources": [
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T20:49:15.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T22:47:16.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T22:47:16.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
+            "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+            "summary": "At least 180 passengers and crew members were rescued Friday after a tanker lost control, hit and sank a paddleboat on the Mississippi River, the mayor of New Orleans said. Video from the scene showed the much larger Atlantic Asphalt tanker hit the cruise boat while it was docked as metal and glass crashed and crunched. Tugboat operators, nearby workers, police and several other rescuers rushed to help. New Orleans Mayor Helena Moreno called it “a miracle on the Mississippi”. The mayor said 32...",
+            "publishedAt": "2026-11-13T20:49:15.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/4768064f-4b29-4406-b530-e2f26d2b6497_30e92c5d.jpg?itok=Sr8dao9W&v=1794602943"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+            "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
+            "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+            "publishedAt": "2026-11-13T22:47:16.000Z"
           }
         ]
       },
@@ -3969,7 +4128,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.93,
+        "score": 8.89,
         "firstSeenAt": "2026-11-13T18:04:22.000Z",
         "lastUpdatedAt": "2026-11-13T22:36:38.000Z",
         "image": {
@@ -4031,76 +4190,6 @@
         ]
       },
       {
-        "storyId": "ab9ad422964dc7e5",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.85,
-        "firstSeenAt": "2026-11-13T19:03:10.000Z",
-        "lastUpdatedAt": "2026-11-13T21:34:14.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8015/live/4a0196d0-df4d-11f1-b441-2b33b063138f.png",
-          "sourceId": "bbc-world",
-          "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-world",
-            "name": "BBC News World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T19:03:10.000Z",
-            "sourceId": "bbc-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T21:34:14.000Z",
-            "sourceId": "guardian-world"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T21:34:14.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-            "title": "Democratic Senate leader Schumer set to face leadership challenge",
-            "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
-            "publishedAt": "2026-11-13T19:03:10.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8015/live/4a0196d0-df4d-11f1-b441-2b33b063138f.png"
-          },
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/democrats-midterms-senate-leader",
-            "title": "As Van Hollen wages a challenge, Senate Democrats are torn on whom to elect as their leader",
-            "summary": "Maryland senator’s bid against Chuck Schumer for leadership could decide direction of the Democratic party US politics live – latest updates Ever since Donald Trump returned to the White House, Democratic officeholders and voters alike have been divided over whether their leader in the Senate, Chuck Schumer , is up to the task of taking the president on. That debate intensified on Thursday, when the Maryland senator Chris Van Hollen announced he will challenge Schumer for the post of Democratic Senate leader, which will become one of the most powerful jobs in Washington when the party takes control of Congress ’s upper chamber next year. Continue reading...",
-            "publishedAt": "2026-11-13T21:34:14.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/48fa66a20eacc798793f8c3b942b6715a99fe639/394_0_3929_3145/master/3929.jpg?width=140&quality=85&auto=format&fit=max&s=6492bacf627eef1865b546aceb5e63b2"
-          }
-        ]
-      },
-      {
         "storyId": "9ece6a28d13756cc",
         "language": "en",
         "label": "confirmed",
@@ -4108,7 +4197,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.78,
+        "score": 8.74,
         "firstSeenAt": "2026-11-13T15:49:51.000Z",
         "lastUpdatedAt": "2026-11-13T20:48:02.000Z",
         "image": {
@@ -4184,7 +4273,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.63,
+        "score": 8.58,
         "firstSeenAt": "2026-11-13T16:53:50.000Z",
         "lastUpdatedAt": "2026-11-13T18:55:08.000Z",
         "image": {
@@ -4254,7 +4343,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.44,
+        "score": 8.4,
         "firstSeenAt": "2026-11-13T13:11:23.000Z",
         "lastUpdatedAt": "2026-11-13T16:44:56.000Z",
         "image": {
@@ -4323,7 +4412,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.34,
+        "score": 8.3,
         "firstSeenAt": "2026-11-13T13:52:11.000Z",
         "lastUpdatedAt": "2026-11-13T15:32:00.000Z",
         "image": {
@@ -4392,7 +4481,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.92,
         "firstSeenAt": "2026-11-13T23:00:31.000Z",
         "lastUpdatedAt": "2026-11-13T23:00:31.000Z",
         "image": {
@@ -4427,29 +4516,76 @@
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c559/live/a40793d0-df4a-11f1-a48c-75dd2efdacb5.jpg"
           }
         ]
-      },
+      }
+    ]
+  },
+  "desks": {
+    "light": [
       {
-        "storyId": "954e63659ad80cba",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
+        "storyId": "5ecd6516781a8e70",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
         "reasons": [
-          "single-owner"
+          "independent-sources",
+          "cross-camp"
         ],
-        "score": 3.93,
-        "firstSeenAt": "2026-11-13T22:31:05.000Z",
-        "lastUpdatedAt": "2026-11-13T22:31:05.000Z",
+        "score": 16.57,
+        "firstSeenAt": "2026-11-13T13:33:54.000Z",
+        "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
         "image": {
-          "url": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=140&quality=85&auto=format&fit=max&s=9b539226855b0f6819e574ce7da82ee2",
-          "sourceId": "guardian-world",
-          "sourceName": "The Guardian World",
-          "articleUrl": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath"
+          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
         },
         "sources": [
           {
-            "id": "guardian-world",
-            "name": "The Guardian World",
+            "id": "euronews-tr",
+            "name": "Euronews Türkçe",
             "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "dw-turkce",
+            "name": "DW Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
             "tier": "established",
             "confirms": true
           }
@@ -4457,25 +4593,96 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T22:31:05.000Z",
-            "sourceId": "guardian-world"
+            "at": "2026-11-13T13:33:54.000Z",
+            "sourceId": "euronews-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:22:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:22:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:27:39.000Z",
+            "sourceId": "bbc-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T17:27:00.000Z",
+            "sourceId": "dw-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T17:34:09.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T18:44:32.000Z",
+            "sourceId": "diken"
           }
         ],
         "articles": [
           {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
-            "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
-            "summary": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US Air Force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastructure were affected, the air force said. Continue reading...",
-            "publishedAt": "2026-11-13T22:31:05.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=140&quality=85&auto=format&fit=max&s=9b539226855b0f6819e574ce7da82ee2"
+            "sourceId": "euronews-tr",
+            "url": "https://tr.euronews.com/2026/11/13/microsoft-365-arizasi-portekiz-hukumeti-okullar-ve-saglik-bakanligi-hizmetleri-etkilendi",
+            "title": "Microsoft 365 arızası: Portekiz hükümeti, okullar ve sağlık bakanlığı hizmetleri etkilendi",
+            "summary": "Microsoft hizmetlerindeki küresel bir arıza Portekiz’de birçok sektörde aksamalara neden oluyor. Perşembe başlayan kesinti Outlook ve Teams erişimini etkiliyor, şirket ise hizmetlerin yeniden sağlanmasında ilerleme kaydedildiğini bildiriyor.",
+            "publishedAt": "2026-11-13T13:33:54.000Z"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
+            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
+            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
+            "publishedAt": "2026-11-13T14:22:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/microsoft-ta-kuresel-kesinti-de-outlook-teams-ve-copilot-a-erisim-sorunu-yasaniyor-1395011",
+            "title": "Microsoft'ta Küresel Kesinti'de Outlook, Teams Ve Copilot'a Erişim Sorunu Yaşanıyor",
+            "summary": "Dünyanın en büyük teknoloji şirketlerinden Microsoft'un hizmetlerinde yaşanan küresel kesinti, farklı ülkelerde günlük hayatı ve iş süreçlerini aksattı. Microsoft 365 uygulamalarına erişimde yaşanan sorunlar nedeniyle kullanıcılar e-posta gönderme, dosya açma ve takvim bilgilerine ulaşma gibi temel işlemleri gerçekleştirmekte zorlandı.Kesintiden Microsoft'un iletişim ve üretkenlik uygulamaları Outlook, Teams ve yapay zekâ aracı Copilot da etkilendi. Bazı kullanıcılar Teams üzerinden mesajlaşma ve toplantı özelliklerini kullanabilirken bazıları hizmetlere tamamen erişemedi.",
+            "publishedAt": "2026-11-13T15:44:20.000Z",
+            "imageUrl": "https://img-s3.onedio.com/id-6af72492a0ffdca94d13d398/rev-0/w-1200/h-675/f-jpg/s-8ee1366142cbbef282b26d29fc9396c53d9f918e.jpg"
+          },
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
+            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
+            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
+            "publishedAt": "2026-11-13T16:27:39.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
+          },
+          {
+            "sourceId": "dw-turkce",
+            "url": "https://www.dw.com/tr/microsoft-normale-d%C3%B6n%C3%BCyor-eri%C5%9Fim-%C3%B6nemli-%C3%B6l%C3%A7%C3%BCde-iyile%C5%9Fti/a-79936765?maca=tur-rss-tur-all-1495-rdf",
+            "title": "Microsoft normale dönüyor: Erişim önemli ölçüde iyileşti",
+            "summary": "Microsoft'taki küresel erişim sorunu önemli ölçüde hafifledi. Outlook, Teams ve Copilot'ta hizmetler kademeli olarak normale dönüyor.",
+            "publishedAt": "2026-11-13T17:27:00.000Z"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-sorun-yasanan-hizmetlerinde-genis-capli-iyilesme-saglandigini-acikladi/4124635",
+            "title": "Microsoft, sorun yaşanan hizmetlerinde geniş çaplı iyileşme sağlandığını açıkladı",
+            "summary": "ABD merkezli teknoloji şirketi Microsoft, bazı hizmetlerinde yaşanan erişim sorununun ardından hizmetlerinin genelinde geniş çaplı iyileşme ve istikrar sağlandığını bildirdi.",
+            "publishedAt": "2026-11-13T17:34:09.000Z"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/microsoft-erisim-sorunu-teknik-nedenlerden-kaynakli/",
+            "title": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı",
+            "summary": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı 13.11.2026 Diken ABD merkezli teknoloji şirketi hizmetlerindeki erişim sorunun 'teknik' nedenlerden kaynaklandığını, büyük ölçüde çözüldüğünü duyurdu. The post Microsoft: Erişim sorunu teknik nedenlerden kaynaklı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T18:44:32.000Z"
           }
         ]
-      }
-    ]
-  },
-  "desks": {
-    "light": [
+      },
       {
         "storyId": "50078457f3572943",
         "language": "tr",
@@ -4485,7 +4692,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.78,
+        "score": 14.74,
         "firstSeenAt": "2026-11-13T11:07:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:46:55.000Z",
         "image": {
@@ -4637,157 +4844,6 @@
         ]
       },
       {
-        "storyId": "5ecd6516781a8e70",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 14.61,
-        "firstSeenAt": "2026-11-13T13:33:54.000Z",
-        "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
-        },
-        "sources": [
-          {
-            "id": "euronews-tr",
-            "name": "Euronews Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "diken",
-            "name": "Diken",
-            "camp": "independent",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T13:33:54.000Z",
-            "sourceId": "euronews-tr"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T14:22:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T14:22:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T16:27:39.000Z",
-            "sourceId": "bbc-turkce"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T17:34:09.000Z",
-            "sourceId": "aa-tr"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T18:44:32.000Z",
-            "sourceId": "diken"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "euronews-tr",
-            "url": "https://tr.euronews.com/2026/11/13/microsoft-365-arizasi-portekiz-hukumeti-okullar-ve-saglik-bakanligi-hizmetleri-etkilendi",
-            "title": "Microsoft 365 arızası: Portekiz hükümeti, okullar ve sağlık bakanlığı hizmetleri etkilendi",
-            "summary": "Microsoft hizmetlerindeki küresel bir arıza Portekiz’de birçok sektörde aksamalara neden oluyor. Perşembe başlayan kesinti Outlook ve Teams erişimini etkiliyor, şirket ise hizmetlerin yeniden sağlanmasında ilerleme kaydedildiğini bildiriyor.",
-            "publishedAt": "2026-11-13T13:33:54.000Z"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
-            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
-            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
-            "publishedAt": "2026-11-13T14:22:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-ta-kuresel-kesinti-de-outlook-teams-ve-copilot-a-erisim-sorunu-yasaniyor-1395011",
-            "title": "Microsoft'ta Küresel Kesinti'de Outlook, Teams Ve Copilot'a Erişim Sorunu Yaşanıyor",
-            "summary": "Dünyanın en büyük teknoloji şirketlerinden Microsoft'un hizmetlerinde yaşanan küresel kesinti, farklı ülkelerde günlük hayatı ve iş süreçlerini aksattı. Microsoft 365 uygulamalarına erişimde yaşanan sorunlar nedeniyle kullanıcılar e-posta gönderme, dosya açma ve takvim bilgilerine ulaşma gibi temel işlemleri gerçekleştirmekte zorlandı.Kesintiden Microsoft'un iletişim ve üretkenlik uygulamaları Outlook, Teams ve yapay zekâ aracı Copilot da etkilendi. Bazı kullanıcılar Teams üzerinden mesajlaşma ve toplantı özelliklerini kullanabilirken bazıları hizmetlere tamamen erişemedi.",
-            "publishedAt": "2026-11-13T15:44:20.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af72492a0ffdca94d13d398/rev-0/w-1200/h-675/f-jpg/s-8ee1366142cbbef282b26d29fc9396c53d9f918e.jpg"
-          },
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
-            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
-            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
-            "publishedAt": "2026-11-13T16:27:39.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/microsoft-kesintiyle-ilgili-ozur-diledi-sorun-siber-saldiri-degil-ag-kapasitesi-yukseltmesinden-kaynaklandi-1395044",
-            "title": "Microsoft Kesintiyle İlgili Özür Diledi: Sorun Siber Saldırı Değil, Ağ Kapasitesi Yükseltmesinden Kaynaklandı",
-            "summary": "Microsoft, 12 Kasım'dan beri Microsoft 365 hizmetlerini aksatan küresel kesintiyle ilgili müşterilerinden ve iş ortaklarından özür diledi. Şirket, yaşananın siber saldırı ya da yapay zekâ ajanlarıyla ilgili olmadığını, daha önce yapılan bir ağ kapasitesi yükseltmesinden kaynaklanan teknik bir sorun olduğunu açıkladı.Kök nedenin giderildiğini duyuran Microsoft, hizmetlerin kalan müşteri ve bölgelerde aşamalı olarak geri getirildiğini belirtti.Kaynak: Microsoft (X), Windows Latest",
-            "publishedAt": "2026-11-13T17:13:13.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af744a34ab4ec692b2a56fe/rev-0/w-1200/h-675/f-jpg/s-7fde9147c58520aecd728e3f846690dc40fc3897.jpg"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-sorun-yasanan-hizmetlerinde-genis-capli-iyilesme-saglandigini-acikladi/4124635",
-            "title": "Microsoft, sorun yaşanan hizmetlerinde geniş çaplı iyileşme sağlandığını açıkladı",
-            "summary": "ABD merkezli teknoloji şirketi Microsoft, bazı hizmetlerinde yaşanan erişim sorununun ardından hizmetlerinin genelinde geniş çaplı iyileşme ve istikrar sağlandığını bildirdi.",
-            "publishedAt": "2026-11-13T17:34:09.000Z"
-          },
-          {
-            "sourceId": "diken",
-            "url": "https://www.diken.com.tr/microsoft-erisim-sorunu-teknik-nedenlerden-kaynakli/",
-            "title": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı",
-            "summary": "Microsoft: Erişim sorunu teknik nedenlerden kaynaklı 13.11.2026 Diken ABD merkezli teknoloji şirketi hizmetlerindeki erişim sorunun 'teknik' nedenlerden kaynaklandığını, büyük ölçüde çözüldüğünü duyurdu. The post Microsoft: Erişim sorunu teknik nedenlerden kaynaklı appeared first on #site_linkat 13.11.2026 .",
-            "publishedAt": "2026-11-13T18:44:32.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "c8f9eba6cac63f5c",
         "language": "tr",
         "label": "confirmed",
@@ -4796,7 +4852,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.2,
+        "score": 12.15,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:42.000Z",
         "image": {
@@ -4936,7 +4992,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.81,
+        "score": 10.77,
         "firstSeenAt": "2026-11-13T10:52:33.000Z",
         "lastUpdatedAt": "2026-11-13T21:07:57.000Z",
         "image": {
@@ -5047,7 +5103,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.33,
+        "score": 10.29,
         "firstSeenAt": "2026-11-13T15:15:00.000Z",
         "lastUpdatedAt": "2026-11-13T15:24:12.000Z",
         "image": {
@@ -5153,7 +5209,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.82,
+        "score": 8.78,
         "firstSeenAt": "2026-11-13T17:31:30.000Z",
         "lastUpdatedAt": "2026-11-13T21:16:00.000Z",
         "image": {
@@ -5224,7 +5280,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.78,
+        "score": 8.74,
         "firstSeenAt": "2026-11-13T12:53:57.000Z",
         "lastUpdatedAt": "2026-11-13T20:48:02.000Z",
         "image": {
@@ -5338,7 +5394,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.63,
+        "score": 8.58,
         "firstSeenAt": "2026-11-13T16:53:50.000Z",
         "lastUpdatedAt": "2026-11-13T18:55:08.000Z",
         "image": {
@@ -5409,7 +5465,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.5,
+        "score": 8.46,
         "firstSeenAt": "2026-11-13T16:45:52.000Z",
         "lastUpdatedAt": "2026-11-13T17:26:19.000Z",
         "image": {
@@ -5494,7 +5550,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.44,
+        "score": 8.4,
         "firstSeenAt": "2026-11-13T14:07:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:45:11.000Z",
         "image": {
@@ -5580,7 +5636,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.08,
+        "score": 8.04,
         "firstSeenAt": "2026-11-13T10:45:11.000Z",
         "lastUpdatedAt": "2026-11-13T12:24:02.000Z",
         "image": {
@@ -5664,7 +5720,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.99,
+        "score": 3.94,
         "firstSeenAt": "2026-11-13T20:33:12.000Z",
         "lastUpdatedAt": "2026-11-13T23:14:28.000Z",
         "image": {
@@ -5730,7 +5786,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.46,
+        "score": 10.41,
         "firstSeenAt": "2026-11-13T14:49:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:53:14.000Z",
         "image": {
@@ -5813,6 +5869,76 @@
         ]
       },
       {
+        "storyId": "c3db6069237a58d1",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.94,
+        "firstSeenAt": "2026-11-13T22:14:00.000Z",
+        "lastUpdatedAt": "2026-11-13T23:14:45.000Z",
+        "image": {
+          "url": "https://e2.365dm.com/26/11/1920x1080/skysports-netherlands-nations-league_7406126.jpg?20261113221316",
+          "sourceId": "sky-sports-transfers",
+          "sourceName": "Sky Sports",
+          "articleUrl": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
+        },
+        "sources": [
+          {
+            "id": "sky-sports-transfers",
+            "name": "Sky Sports",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-football",
+            "name": "The Guardian Football",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T22:14:00.000Z",
+            "sourceId": "sky-sports-transfers"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T23:14:45.000Z",
+            "sourceId": "guardian-football"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T23:14:45.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sky-sports-transfers",
+            "url": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+            "title": "Reijnders scores hat-trick as Netherlands beat Greece by seven",
+            "summary": "",
+            "publishedAt": "2026-11-13T22:14:00.000Z",
+            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-netherlands-nations-league_7406126.jpg?20261113221316"
+          },
+          {
+            "sourceId": "guardian-football",
+            "url": "https://www.theguardian.com/football/2026/nov/13/nations-league-germany-set-up-netherlands-clash-serbia-greece",
+            "title": "Nations League: Germany set up Netherlands clash after beating Serbia",
+            "summary": "Florian Wirtz on target in Germany’s 3-1 win in Serbia Tijjani Reijnders hat-trick as Netherlands hammer Greece Germany cruised to a 3-1 win against Serbia in Belgrade on Friday, setting up a crunch encounter with the Netherlands in Berlin on Monday to decide who tops Group A2. In teeming rain in an almost empty stadium, the Germans forced Serbia’s Srdan Babic into an early own goal with Florian Wirtz and debutant Brajan Gruda also scoring. Continue reading...",
+            "publishedAt": "2026-11-13T23:14:45.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/c9bf409991173ef602ad966fbd4cae78dfd3cddc/168_0_1686_1349/master/1686.jpg?width=140&quality=85&auto=format&fit=max&s=e099f4b9f91b9ce55d1827d99a590e24"
+          }
+        ]
+      },
+      {
         "storyId": "8a5ea04da8b52184",
         "language": "en",
         "label": "confirmed",
@@ -5820,7 +5946,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.96,
+        "score": 8.91,
         "firstSeenAt": "2026-11-13T12:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:53:17.000Z",
         "image": {
@@ -5914,7 +6040,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.95,
+        "score": 8.91,
         "firstSeenAt": "2026-11-13T22:05:14.000Z",
         "lastUpdatedAt": "2026-11-13T22:51:00.000Z",
         "image": {
@@ -5984,7 +6110,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.93,
+        "score": 8.89,
         "firstSeenAt": "2026-11-13T22:04:08.000Z",
         "lastUpdatedAt": "2026-11-13T22:37:30.000Z",
         "image": {
@@ -6050,11 +6176,11 @@
         "storyId": "6d033c849513a8ec",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.91,
+        "score": 8.86,
         "firstSeenAt": "2026-11-13T21:35:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:16:31.000Z",
         "image": {
@@ -6126,7 +6252,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.37,
+        "score": 8.32,
         "firstSeenAt": "2026-11-13T15:02:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:48:00.000Z",
         "image": {
@@ -6211,7 +6337,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.96,
+        "score": 3.92,
         "firstSeenAt": "2026-11-13T22:54:49.000Z",
         "lastUpdatedAt": "2026-11-13T22:54:49.000Z",
         "image": {
@@ -6255,7 +6381,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.93,
+        "score": 3.89,
         "firstSeenAt": "2026-11-13T22:34:20.000Z",
         "lastUpdatedAt": "2026-11-13T22:34:20.000Z",
         "image": {
@@ -6292,58 +6418,14 @@
         ]
       },
       {
-        "storyId": "c3db6069237a58d1",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.9,
-        "firstSeenAt": "2026-11-13T22:14:00.000Z",
-        "lastUpdatedAt": "2026-11-13T22:14:00.000Z",
-        "image": {
-          "url": "https://e2.365dm.com/26/11/1920x1080/skysports-netherlands-nations-league_7406126.jpg?20261113221316",
-          "sourceId": "sky-sports-transfers",
-          "sourceName": "Sky Sports",
-          "articleUrl": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
-        },
-        "sources": [
-          {
-            "id": "sky-sports-transfers",
-            "name": "Sky Sports",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T22:14:00.000Z",
-            "sourceId": "sky-sports-transfers"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-            "title": "Reijnders scores hat-trick as Netherlands beat Greece by seven",
-            "summary": "",
-            "publishedAt": "2026-11-13T22:14:00.000Z",
-            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-netherlands-nations-league_7406126.jpg?20261113221316"
-          }
-        ]
-      },
-      {
         "storyId": "0a0481d71a8fbde9",
         "language": "en",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.9,
+        "score": 3.85,
         "firstSeenAt": "2026-11-13T22:11:27.000Z",
         "lastUpdatedAt": "2026-11-13T22:11:27.000Z",
         "image": {
@@ -6383,11 +6465,11 @@
         "storyId": "b02e0b824bd24b53",
         "language": "en",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.88,
+        "score": 3.84,
         "firstSeenAt": "2026-11-13T22:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:00:00.000Z",
         "image": {
@@ -6431,7 +6513,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.72,
+        "score": 3.67,
         "firstSeenAt": "2026-11-13T12:43:51.000Z",
         "lastUpdatedAt": "2026-11-13T19:59:40.000Z",
         "image": {
