@@ -19,3 +19,12 @@ export function storyRoutes() {
     })),
   );
 }
+
+export function transferRoutes() {
+  return loadBulletins().flatMap((published) =>
+    (published.bulletin.transfers ?? []).map((move) => ({
+      params: { date: published.date, slot: published.slot, move: move.id },
+      props: { published, move },
+    })),
+  );
+}

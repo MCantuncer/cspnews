@@ -3,13 +3,14 @@
  * The reader corner: one button at the right end of the header for everything about the
  * reader. Signed out it shows the settings mark; signed in, the reader's avatar. It opens a
  * sheet over the page (a side panel on wide screens, a bottom sheet on phones) with the account
- * row, language, theme, text size and the reading ruler. Changes apply at once, so the reader
+ * row, language, theme, text size, the reading ruler and light stories. Changes apply at once, so the reader
  * never leaves the story. The full Settings page keeps the evidence legend and the rest.
  */
 import AccountSlot from './account/AccountSlot.astro';
 import Icon from './ui/Icon.astro';
 import Toggle from './ui/Toggle.astro';
 import type { InterfaceLanguage } from '../lib/evidence';
+import { extrasWords } from '../lib/extras';
 import { wordsFor } from '../lib/i18n';
 import { INTERFACE_LANGUAGES, languagePath, localePath } from '../lib/locale';
 import { TEXT_SIZES, THEMES } from '../lib/settings';
@@ -22,6 +23,7 @@ interface Props {
 
 const { lang, inSettings = false } = Astro.props;
 const words = wordsFor(lang);
+const extras = extrasWords(lang);
 const path = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/') || '/';
 const LANGUAGE_NAMES = { en: 'English', tr: 'Türkçe' } as const;
 const sizeLabels = Object.fromEntries(
@@ -112,6 +114,14 @@ const sizeLabels = Object.fromEntries(
           <span>{words.rulerHint}</span>
         </span>
         <Toggle label={words.ruler} name="ruler" />
+      </div>
+
+      <div class="rc-group rc-switch">
+        <span class="rc-switch-text">
+          <b>{extras.lightSetting}</b>
+          <span>{extras.lightHint}</span>
+        </span>
+        <Toggle label={extras.lightSetting} name="light" checked />
       </div>
     </div>
 

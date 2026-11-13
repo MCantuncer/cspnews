@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+import { AndFinallySchema, TRANSFERS_MAX, TransferMoveSchema } from './extras.js';
 import { LANGUAGES, type Language } from './language.js';
 import { SECTIONS } from './sections.js';
 
@@ -334,13 +335,21 @@ export const BulletinSchema = z
     publishAt: isoDateTime,
     writtenAt: isoDateTime,
     stories: z.array(WrittenStorySchema).min(1),
+    /** The light close after the news, when there is something worth it (extras.ts). */
+    andFinally: AndFinallySchema.optional(),
+    /** Football moves that went forward since the last bulletin (extras.ts). */
+    transfers: z.array(TransferMoveSchema).min(1).max(TRANSFERS_MAX).optional(),
   })
   .strict()
-  .refine(
-    (bulletin) =>
-      new Set(bulletin.stories.map((story) => story.id)).size === bulletin.stories.length,
-    'Story ids must be unique',
-  );
+  .refine((bulletin) => {
+    const ids = [
+      ...bulletin.stories,
+      ...(bulletin.andFinally?.light ?? []),
+      ...(bulletin.andFinally?.rumours ?? []),
+      ...(bulletin.transfers ?? []),
+    ].map((item) => item.id);
+    return new Set(ids).size === ids.length;
+  }, 'Story ids must be unique');
 
 export type Bulletin = z.infer<typeof BulletinSchema>;
 

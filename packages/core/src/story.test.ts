@@ -261,4 +261,18 @@ describe('parseBulletin', () => {
       /Story ids must be unique/,
     );
   });
+
+  it('accepts And finally and keeps its ids apart from the stories', () => {
+    const rumour = {
+      id: 'rumour-1',
+      versions: { en: { title: 'Talk of a reshuffle' }, tr: { title: 'Kabine kulisi' } },
+      heardFrom: { sourceId: 't24', url: 'https://t24.example/kulis' },
+    };
+    const close = { light: [], rumours: [rumour] };
+    expect(parseBulletin({ ...bulletin, andFinally: close }).andFinally?.rumours).toHaveLength(1);
+    const clash = { light: [], rumours: [{ ...rumour, id: STORY.id }] };
+    expect(() => parseBulletin({ ...bulletin, andFinally: clash })).toThrow(
+      /Story ids must be unique/,
+    );
+  });
 });

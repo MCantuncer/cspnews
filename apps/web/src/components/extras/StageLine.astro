@@ -1,0 +1,79 @@
+---
+/**
+ * How far a transfer has gone, as four stations on a short line (Talk, Talks, Agreed, Signed):
+ * the stations reached fill with the section colour and the current one carries a soft ring.
+ * The stage word beside it says the same for screen readers and at a glance.
+ */
+import { TRANSFER_STAGES, type TransferStage } from '@cspnews/core';
+
+import { stageNumber, stageWord } from '../../lib/extras';
+import type { InterfaceLanguage } from '../../lib/evidence';
+
+interface Props {
+  stage: TransferStage;
+  lang: InterfaceLanguage;
+}
+
+const { stage, lang } = Astro.props;
+const reached = stageNumber(stage);
+---
+
+<span class="stage">
+  <span class="steps" aria-hidden="true">
+    {
+      TRANSFER_STAGES.map((_, i) => (
+        <>
+          {i > 0 && <b class:list={{ on: i <= reached }} />}
+          <i class:list={{ on: i <= reached, now: i === reached }} />
+        </>
+      ))
+    }
+  </span>
+  <span class="word">{stageWord(stage, lang)}</span>
+</span>
+
+<style>
+  .stage {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .steps {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .steps i {
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 1.75px solid var(--faint);
+    border-radius: 50%;
+  }
+
+  .steps i.on {
+    border-color: var(--sec);
+    background: var(--sec);
+  }
+
+  .steps i.now {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--sec) 30%, transparent);
+  }
+
+  .steps b {
+    display: block;
+    width: 12px;
+    height: 1.75px;
+    background: var(--faint);
+  }
+
+  .steps b.on {
+    background: var(--sec);
+  }
+
+  .word {
+    color: var(--ink);
+    font: 600 14px / 1.3 var(--f-body);
+  }
+</style>

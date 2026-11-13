@@ -76,3 +76,8 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* A reader who turned light stories off never sees And finally (src/lib/settings.ts). */
+:root[data-light='off'] [data-and-finally] {
+  display: none;
+}

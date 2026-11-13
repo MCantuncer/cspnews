@@ -55,6 +55,7 @@ export function bindSettings(container: ParentNode) {
     Record<TextSize, string>
   >;
   const ruler = container.querySelector<HTMLButtonElement>('button.tsw[data-name="ruler"]');
+  const light = container.querySelector<HTMLButtonElement>('button.tsw[data-name="light"]');
 
   function show() {
     const theme = currentTheme();
@@ -70,6 +71,7 @@ export function bindSettings(container: ParentNode) {
       button.disabled = stepTextSize(current, step) === current;
     }
     ruler?.setAttribute('aria-checked', String(read(SETTINGS_KEYS.ruler) === 'on'));
+    light?.setAttribute('aria-checked', String(read(SETTINGS_KEYS.light) !== 'off'));
   }
 
   for (const option of themeOptions) {
@@ -97,6 +99,14 @@ export function bindSettings(container: ParentNode) {
     if (on) root.dataset.ruler = 'on';
     else delete root.dataset.ruler;
     write(SETTINGS_KEYS.ruler, on ? 'on' : undefined);
+    changed();
+  });
+
+  light?.addEventListener('change', (event) => {
+    const on = event instanceof CustomEvent && (event.detail as { checked: boolean }).checked;
+    if (on) delete root.dataset.light;
+    else root.dataset.light = 'off';
+    write(SETTINGS_KEYS.light, on ? undefined : 'off');
     changed();
   });
 

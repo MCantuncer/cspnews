@@ -7,6 +7,8 @@ export const SETTINGS_KEYS = {
   theme: 'cspnews:theme',
   textSize: 'cspnews:text-size',
   ruler: 'cspnews:ruler',
+  /** 'off' hides And finally; light stories show by default. */
+  light: 'cspnews:light',
 } as const;
 
 export const THEMES = ['dark', 'light', 'device'] as const;
