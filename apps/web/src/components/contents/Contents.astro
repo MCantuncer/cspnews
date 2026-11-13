@@ -19,7 +19,7 @@ import type { InterfaceLanguage } from '../../lib/evidence';
 import { sectionName, wordsFor } from '../../lib/i18n';
 import type { IconName } from '../../lib/icons';
 import { extrasWords, transferPath, transfersIn } from '../../lib/extras';
-import { outletLogos } from '../../lib/media';
+import { outletLogos, photoUrl } from '../../lib/media';
 import { storyVisual } from '../../lib/story-visual';
 import AndFinally from '../extras/AndFinally.astro';
 import StageLine from '../extras/StageLine.astro';
@@ -129,6 +129,11 @@ const extras = extrasWords(lang);
             {moves.map((move) => (
               <li class="row">
                 <a href={transferPath(published, move, lang)} lang={move.language}>
+                  {photoUrl(move.id) && (
+                    <span class="thumb move-thumb" aria-hidden="true">
+                      <img src={photoUrl(move.id)} alt="" loading="lazy" decoding="async" />
+                    </span>
+                  )}
                   <span class="text">
                     <span class="title">{move.shortTitle}</span>
                     <span class="meta">
@@ -273,6 +278,12 @@ const extras = extrasWords(lang);
     overflow: hidden;
     border-radius: 8px;
     background: var(--surf);
+  }
+
+  .move-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .thumb :global(.visual.thumb),

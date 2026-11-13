@@ -71,6 +71,45 @@ describe('saveStoryPhotos', () => {
     expect(results.at(-1)).toEqual({ storyId: 'light-ferry-cat', file: 'light-ferry-cat.jpg' });
   });
 
+  it('saves the photos of transfer moves too', async () => {
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    const image = withImage[0]?.image;
+    if (!image) throw new Error('The sample needs a story photo');
+    const version = {
+      shortTitle: 'Club signs a new striker',
+      title: 'Club signs a new striker',
+      now: 'The club announced it.',
+    };
+    const move = {
+      id: 'move-striker',
+      league: 'super-lig' as const,
+      from: 'A',
+      to: 'B',
+      stage: 'signed' as const,
+      clubConfirmed: true,
+      steps: [{ stage: 'signed' as const, on: '2026-11-13' }],
+      reports: [
+        {
+          sourceId: 'ntv',
+          url: 'https://ntv.example/',
+          stage: 'signed' as const,
+          on: '2026-11-13',
+        },
+      ],
+      versions: { en: version, tr: version },
+      image,
+      updatedAt: '2026-11-13T18:00:00+03:00',
+    };
+    const fetchBytes: FetchBytes = () =>
+      Promise.resolve({ bytes: JPEG, contentType: 'image/jpeg' });
+    const results = await saveStoryPhotos(
+      { ...bulletin, transfers: [move] },
+      directory,
+      fetchBytes,
+    );
+    expect(results.at(-1)).toEqual({ storyId: 'move-striker', file: 'move-striker.jpg' });
+  });
+
   it('replaces an older copy saved with another extension', async () => {
     const directory = mkdtempSync(join(tmpdir(), 'media-'));
     const id = withImage[0]?.id ?? '';

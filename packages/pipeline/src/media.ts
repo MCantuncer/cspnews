@@ -81,7 +81,7 @@ async function fullSizePhoto(
 }
 
 /**
- * Saves the photo of every story and every And finally light story into `mediaDirectory`,
+ * Saves the photo of every story, every Spotlight (And finally) light story and every transfer move into `mediaDirectory`,
  * replacing an older copy of the same one.
  */
 export async function saveStoryPhotos(
@@ -91,7 +91,11 @@ export async function saveStoryPhotos(
 ): Promise<SavedPhoto[]> {
   mkdirSync(mediaDirectory, { recursive: true });
   const results: SavedPhoto[] = [];
-  for (const story of [...bulletin.stories, ...(bulletin.andFinally?.light ?? [])]) {
+  for (const story of [
+    ...bulletin.stories,
+    ...(bulletin.andFinally?.light ?? []),
+    ...(bulletin.transfers ?? []),
+  ]) {
     if (!story.image) continue;
     try {
       const feedPhoto = await downloadPhoto(story.image.url, fetchBytes);
