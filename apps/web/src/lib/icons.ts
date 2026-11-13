@@ -59,6 +59,15 @@ export const ICONS = {
   /** An empty logo slot, for an outlet whose logo is not saved. */
   word: '<path d="M2.5 9h5v6h-5zM9.5 9h5v6h-5zM16.5 9h5v6h-5z"/>',
   slot: '<circle cx="12" cy="12" r="9.25" />',
+  /** Talk we could not confirm: the evidence station, drawn in dashes. */
+  rumour:
+    '<path d="M2 12h1.6M5.6 12h1.9M16.5 12h1.9M20.4 12H22"/><circle cx="12" cy="12" r="4.5" stroke-dasharray="2.35 2.35"/>',
+  /** A move from one club to another: an open station, then a filled one. */
+  transfer:
+    '<path d="M2 12h2.5M19.5 12H22M10 12h4.25M12.5 10l2 2-2 2"/><circle cx="7" cy="12" r="2.5"/><circle cx="17" cy="12" r="2.5" fill="currentColor"/>',
+  /** And finally: a small cup on the line, something light after the news. */
+  light:
+    '<path d="M2 15h3.5M18.5 15H22M7 11h10v2.5a5 5 0 0 1-10 0z"/><path d="M10 8c0-1 1-1.25 1-2.25M13.5 8c0-1 1-1.25 1-2.25"/>',
 } as const;
 
 export type IconName = keyof typeof ICONS;

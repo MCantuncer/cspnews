@@ -1,7 +1,7 @@
 ---
 /**
- * Settings (design 07): interface language, theme, text size, the reading ruler and the
- * evidence legend. Everything is kept in this browser and applies at once.
+ * Settings (design 07): interface language, theme, text size, the reading ruler, light stories
+ * and the evidence legend. Everything is kept in this browser and applies at once.
  */
 import Header from '../Header.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
@@ -14,6 +14,7 @@ import { editionHourFor } from '../../lib/edition';
 import { EVIDENCE_LABEL_VALUES } from '@cspnews/core';
 
 import type { InterfaceLanguage } from '../../lib/evidence';
+import { extrasWords } from '../../lib/extras';
 import { wordsFor } from '../../lib/i18n';
 import { INTERFACE_LANGUAGES, localePath } from '../../lib/locale';
 import { TEXT_SIZES, THEMES } from '../../lib/settings';
@@ -24,6 +25,7 @@ interface Props {
 
 const { lang } = Astro.props;
 const words = wordsFor(lang);
+const extras = extrasWords(lang);
 const latest = loadBulletins()[0];
 const LANGUAGE_NAMES = { en: 'English', tr: 'Türkçe' } as const;
 const sizeLabels = Object.fromEntries(
@@ -102,6 +104,14 @@ const sizeLabels = Object.fromEntries(
         <p class="hint">{words.rulerHint}</p>
       </div>
       <Toggle label={words.ruler} id="ruler-toggle" name="ruler" />
+    </div>
+
+    <div class="group switch">
+      <div class="switch-text">
+        <h2 id="set-light"><Icon name="light" size={22} />{extras.lightSetting}</h2>
+        <p class="hint">{extras.lightHint}</p>
+      </div>
+      <Toggle label={extras.lightSetting} id="light-toggle" name="light" checked />
     </div>
 
     <section class="group" aria-labelledby="set-evidence">

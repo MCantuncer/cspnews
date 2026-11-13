@@ -1,6 +1,7 @@
 import { briefPath, bulletinPath, storiesIn, storyPath } from './bulletins.js';
 import type { PublishedBulletin } from './bulletins.js';
 import { evidenceWord, type InterfaceLanguage } from './evidence.js';
+import { transferPath } from './extras.js';
 import { sectionName } from './i18n.js';
 import { INTERFACE_LANGUAGES, localePath } from './locale.js';
 
@@ -98,6 +99,7 @@ export function sitemapPaths(bulletins: readonly PublishedBulletin[]): string[] 
       bulletinPath(published, lang),
       briefPath(published, lang),
       ...published.bulletin.stories.map((story) => storyPath(published, story, lang)),
+      ...(published.bulletin.transfers ?? []).map((move) => transferPath(published, move, lang)),
     ]),
   ]);
 }

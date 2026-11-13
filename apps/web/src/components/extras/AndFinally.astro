@@ -1,0 +1,345 @@
+---
+/**
+ * And finally (docs/design/decisions/and-finally.md): the bulletin's light close, one quiet fold
+ * after the last section. Closed, it is one line with a teaser; open, the light stories (told
+ * straight, with one line of wit marked by the hour rule) and the backstage rumours, each with
+ * who is saying it. A native <details>, so it opens without script; it opens by itself when the
+ * page is reached through `#and-finally`. Readers who turn light stories off never see it.
+ */
+import EvidenceMark from '../ui/EvidenceMark.astro';
+import Icon from '../ui/Icon.astro';
+import type { PublishedBulletin } from '../../lib/bulletins';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { AND_FINALLY_ID, andFinallyIn, extrasWords } from '../../lib/extras';
+import { sourceName } from '../../lib/sources';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const close = andFinallyIn(published, lang);
+const words = extrasWords(lang);
+const teaser = close?.light[0]?.title ?? close?.rumours[0]?.title;
+---
+
+{
+  close && (
+    <li class="close" id={AND_FINALLY_ID} data-and-finally>
+      <details>
+        <summary>
+          <Icon name="light" size={22} class="close-mark" />
+          <span class="head">
+            <b>
+              {words.andFinally}
+              <span class="count">{words.count(close.count)}</span>
+            </b>
+            {teaser && <span class="teaser">{teaser}</span>}
+          </span>
+          <Icon name="more" size={18} class="close-chevron" />
+        </summary>
+        <p class="note">{words.note}</p>
+        <div class="body">
+          {close.light.length > 0 && (
+            <ul class="light">
+              {close.light.map((story) => (
+                <li lang={story.language}>
+                  <h3>{story.title}</h3>
+                  <p class="gist">{story.gist}</p>
+                  <p class="aside">{story.aside}</p>
+                  <p class="meta">
+                    <EvidenceMark label={story.label} lang={lang} />
+                    <span>
+                      {story.sources.map((source, i) => (
+                        <>
+                          {i > 0 && ', '}
+                          <a href={source.url} rel="noopener">
+                            {sourceName(source.sourceId)}
+                          </a>
+                        </>
+                      ))}
+                    </span>
+                  </p>
+                </li>
+              ))}
+            </ul>
+          )}
+          {close.rumours.length > 0 && (
+            <section class="backstage" aria-labelledby={`${AND_FINALLY_ID}-backstage`}>
+              <h3 id={`${AND_FINALLY_ID}-backstage`}>{words.backstage}</h3>
+              <p class="backstage-note">{words.backstageNote}</p>
+              <ul>
+                {close.rumours.map((rumour) => (
+                  <li lang={rumour.language}>
+                    <p class="title">{rumour.title}</p>
+                    <p class="meta">
+                      <Icon name="rumour" size={18} class="rumour-mark" />
+                      <span>
+                        {words.heardFrom}{' '}
+                        <a href={rumour.heardFrom.url} rel="noopener">
+                          {sourceName(rumour.heardFrom.sourceId)}
+                        </a>
+                      </span>
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
+      </details>
+    </li>
+  )
+}
+
+<script>
+  // Arriving from the caught-up screen (…#and-finally) opens the fold.
+  const close = document.querySelector<HTMLElement>('li[data-and-finally]');
+  const fold = close?.querySelector('details');
+  if (close && fold && location.hash === `#${close.id}`) fold.open = true;
+</script>
+
+<style>
+  .close {
+    position: relative;
+    padding-top: 30px;
+    list-style: none;
+  }
+
+  /* Its own quiet station on the day line, in the hour colour. */
+  .close::before {
+    position: absolute;
+    top: 53px;
+    left: -35px;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--hour);
+    border-radius: 50%;
+    background: var(--bg);
+    box-shadow: 0 0 0 4px var(--bg);
+    content: '';
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 64px;
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    list-style: none;
+    cursor: pointer;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary:focus-visible {
+    outline: 2px solid var(--hour);
+    outline-offset: 4px;
+  }
+
+  /* The station already marks it on the upright line; the cup shows on the flat one. */
+  summary :global(.close-mark) {
+    display: none;
+    color: var(--hour);
+  }
+
+  .head {
+    display: grid;
+    gap: 3px;
+  }
+
+  .head b {
+    color: var(--ink);
+    font: 700 17px / 1.3 var(--f-body);
+  }
+
+  .count {
+    margin-left: 6px;
+    color: var(--meta);
+    font-weight: 400;
+  }
+
+  .teaser {
+    color: var(--ink2);
+    font: 400 15px / 1.4 var(--f-body);
+  }
+
+  summary :global(.close-chevron) {
+    margin-left: auto;
+    color: var(--meta);
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+
+  details[open] summary {
+    border-bottom: 0;
+  }
+
+  details[open] .teaser {
+    display: none;
+  }
+
+  details[open] summary :global(.close-chevron) {
+    transform: rotate(90deg);
+  }
+
+  .note {
+    max-width: 52ch;
+    margin-bottom: 4px;
+    color: var(--meta);
+    font: 400 15px / 1.5 var(--f-body);
+  }
+
+  .light,
+  .backstage ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .light li {
+    padding: 16px 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .light li:first-child {
+    border-top: 0;
+  }
+
+  h3 {
+    color: var(--ink);
+    font: 600 17px / 1.3 var(--f-body);
+  }
+
+  .gist {
+    margin-top: 6px;
+    color: var(--meta);
+    font: 400 15px / 1.5 var(--f-body);
+  }
+
+  /* Our one line of wit, set apart so the facts and the joke never blur. */
+  .aside {
+    margin-top: 10px;
+    padding-left: 12px;
+    border-left: 2px solid var(--hour);
+    color: var(--ink);
+    font: 500 15px / 1.45 var(--f-body);
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    color: var(--meta);
+    font: 400 14px / 1.35 var(--f-body);
+  }
+
+  .meta a {
+    color: var(--ink2);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .meta a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .backstage {
+    margin-top: 10px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+  }
+
+  .backstage h3 {
+    font: 800 18px / 1.2 var(--f-head);
+    letter-spacing: -0.01em;
+  }
+
+  .backstage-note {
+    margin-top: 4px;
+    color: var(--meta);
+    font: 400 14px / 1.4 var(--f-body);
+  }
+
+  .backstage ul {
+    margin-top: 6px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .backstage li {
+    padding: 12px 0;
+  }
+
+  .backstage .title {
+    color: var(--ink);
+    font: 600 16px / 1.3 var(--f-body);
+  }
+
+  .backstage .meta {
+    margin-top: 6px;
+  }
+
+  .backstage :global(.rumour-mark) {
+    color: var(--meta);
+  }
+
+  /* On the flat day line it runs under the section columns: light stories on the left, the
+     backstage talk beside them. */
+  @media (width >= 1400px) {
+    .close {
+      grid-column: 1 / -1;
+      padding-top: 44px;
+    }
+
+    .close::before {
+      display: none;
+    }
+
+    summary :global(.close-mark) {
+      display: block;
+    }
+
+    details[open] .body {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      column-gap: 56px;
+    }
+
+    .light {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-content: start;
+      column-gap: 56px;
+    }
+
+    .light li {
+      padding-top: 4px;
+      border-top: 0;
+    }
+
+    .backstage {
+      margin-top: 0;
+      padding-top: 4px;
+      border-top: 0;
+    }
+
+    .backstage ul {
+      border-bottom: 0;
+    }
+
+    .backstage li + li {
+      border-top: 1px solid var(--line);
+    }
+
+    h3 {
+      font-size: 19px;
+    }
+  }
+</style>

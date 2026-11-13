@@ -1,0 +1,19 @@
+---
+/** One transfer move (Turkish interface). */
+import type { TransferMove } from '@cspnews/core';
+
+import TransferPage from '../../../../../components/pages/TransferPage.astro';
+import type { PublishedBulletin } from '../../../../../lib/bulletins';
+import { transferRoutes } from '../../../../../lib/routes';
+
+export const getStaticPaths = transferRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+  move: TransferMove;
+}
+
+const { published, move } = Astro.props;
+---
+
+<TransferPage published={published} move={move} lang="tr" />

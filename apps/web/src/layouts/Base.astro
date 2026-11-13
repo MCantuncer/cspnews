@@ -51,6 +51,7 @@ const {
         if (theme === 'light' || theme === 'device') root.dataset.theme = theme;
         if (size === 'small' || size === 'large' || size === 'larger') root.dataset.textSize = size;
         if (localStorage.getItem('cspnews:ruler') === 'on') root.dataset.ruler = 'on';
+        if (localStorage.getItem('cspnews:light') === 'off') root.dataset.light = 'off';
         // The accounts API's readable hint: show the avatar spot, not "Sign in", from the first paint.
         if (/(?:^|;\s*)cspn_signed_in=1(?:;|$)/.test(document.cookie)) root.dataset.signedIn = '';
       } catch {

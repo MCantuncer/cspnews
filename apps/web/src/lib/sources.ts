@@ -1,7 +1,21 @@
 import { SOURCES } from '@cspnews/config';
-import type { StorySource } from '@cspnews/core';
+import type { StorySource, Tier } from '@cspnews/core';
 
 const NAMES = new Map(SOURCES.map((source) => [source.id, source.name]));
+const TIERS = new Map(SOURCES.map((source) => [source.id, source.tier]));
+
+/** Strongest first; an outlet missing from the registry counts as the weakest. */
+export const TIER_RANK: Readonly<Record<Tier, number>> = {
+  wire: 0,
+  established: 1,
+  partisan: 2,
+  low: 3,
+};
+
+/** The outlet's reliability tier from the source registry. */
+export function sourceTier(id: string): Tier {
+  return TIERS.get(id) ?? 'low';
+}
 
 /** The outlet's display name from the source registry; an unknown id shows as itself. */
 export function sourceName(id: string): string {

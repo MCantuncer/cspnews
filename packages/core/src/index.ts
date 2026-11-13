@@ -72,5 +72,41 @@ export type {
   WrittenStory,
 } from './story.js';
 
+export {
+  AND_FINALLY_MAX,
+  AndFinallySchema,
+  ExtraSourceSchema,
+  LIGHT_LABEL_VALUES,
+  LightStorySchema,
+  LightVersionSchema,
+  RumourSchema,
+  TRANSFERS_MAX,
+  TRANSFER_LEAGUES,
+  TRANSFER_STAGES,
+  TransferFactSchema,
+  TransferMoveSchema,
+  TransferReportSchema,
+  TransferStepSchema,
+  TransferVersionSchema,
+  lightIn,
+  rumourIn,
+  transferIn,
+} from './extras.js';
+export type {
+  AndFinally,
+  ExtraSource,
+  LightStory,
+  LocalLightStory,
+  LocalRumour,
+  LocalTransferMove,
+  Rumour,
+  TransferLeague,
+  TransferMove,
+  TransferReport,
+  TransferStage,
+  TransferStep,
+  TransferVersion,
+} from './extras.js';
+
 export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
 export type { HotFeed, HotStory } from './hot.js';

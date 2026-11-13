@@ -1,8 +1,9 @@
 ---
 /**
  * The end of a bulletin (docs/design/decisions/caught-up.md): one calm screen after the last
- * story. Three things to remember (each section's lead), when the next bulletin comes, and two
- * quiet ways on: back over the stories, or the day's word game. An open Hot story shows in the
+ * story. Three things to remember (each section's lead), when the next bulletin comes, and
+ * quiet ways on: back over the stories, the bulletin's light close (And finally, when it has
+ * one and the reader keeps light stories on), or the day's word game. An open Hot story shows in the
  * Hot line above, as on every page.
  */
 import Header from '../Header.astro';
@@ -17,6 +18,7 @@ import {
   type PublishedBulletin,
 } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
+import { AND_FINALLY_ID, andFinallyIn, extrasWords } from '../../lib/extras';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
 
@@ -32,6 +34,9 @@ const leads = storiesBySection(published, lang)
   .map((group) => ({ section: group.section, story: group.stories[0]?.story }))
   .flatMap(({ section, story }) => (story ? [{ section, story }] : []))
   .slice(0, 3);
+const close = andFinallyIn(published, lang);
+const teaser = close?.light[0]?.title ?? close?.rumours[0]?.title;
+const extras = extrasWords(lang);
 const wordHref = lang === 'tr' ? '/word/tr' : '/word';
 ---
 
@@ -69,6 +74,17 @@ const wordHref = lang === 'tr' ? '/word/tr' : '/word';
         <Icon name="contents" size={20} />
         <span>{words.reviewStories}</span>
       </a>
+      {
+        close && (
+          <a class="way light-way" href={`${bulletinPath(published, lang)}#${AND_FINALLY_ID}`} data-and-finally>
+            <Icon name="light" size={20} />
+            <span>
+              {extras.andFinally}
+              {teaser && <small>{teaser}</small>}
+            </span>
+          </a>
+        )
+      }
       <a class="way" href={wordHref}>
         <Icon name="word" size={20} />
         <span>
@@ -197,6 +213,10 @@ const wordHref = lang === 'tr' ? '/word/tr' : '/word';
   .way span {
     display: grid;
     gap: 2px;
+  }
+
+  .light-way :global(svg) {
+    color: var(--hour);
   }
 
   .way small {

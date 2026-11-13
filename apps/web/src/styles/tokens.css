@@ -43,6 +43,7 @@
   --sec-turkey: #f08a72;
   --sec-tech: #7fb3f0;
   --sec-world: #62c2b2;
+  --sec-transfers: #b4cf6a;
   --sec: var(--line2);
 
   color-scheme: dark;
@@ -74,6 +75,7 @@
   --sec-turkey: #a8432c;
   --sec-tech: #1f5f9e;
   --sec-world: #13695d;
+  --sec-transfers: #4a7319;
 
   color-scheme: light;
 }
@@ -105,6 +107,7 @@
     --sec-turkey: #a8432c;
     --sec-tech: #1f5f9e;
     --sec-world: #13695d;
+    --sec-transfers: #4a7319;
 
     color-scheme: light;
   }
@@ -120,6 +123,9 @@
 }
 [data-section='world'] {
   --sec: var(--sec-world);
+}
+[data-section='transfers'] {
+  --sec: var(--sec-transfers);
 }
 
 :root[data-hour='dawn'] {
