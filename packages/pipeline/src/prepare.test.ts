@@ -27,6 +27,8 @@ const SOURCES = defineSources([
   source('cumhuriyet', 'cumhuriyet', 'opposition'),
   source('bbc', 'bbc', 'international'),
   source('down', 'down', 'international'),
+  { ...source('spor', 'spor', 'international'), sections: [], desks: ['transfers' as const] },
+  { ...source('magazin', 'magazin', 'international'), sections: [], desks: ['light' as const] },
 ]);
 
 function rss(items: readonly [title: string, link: string, date: string][]): string {
@@ -65,6 +67,21 @@ const FEEDS: Record<string, string> = {
   ]),
 };
 
+FEEDS['https://spor.example/rss'] = rss([
+  [
+    'Fenerbahçe, Napoli ile orta saha için bonservis konusunda anlaştı',
+    'https://spor.example/transfer',
+    '2026-11-11T07:00:00Z',
+  ],
+]);
+FEEDS['https://magazin.example/rss'] = rss([
+  [
+    'Kadıköy vapurunun kedisine onursal mürettebat kartı verildi',
+    'https://magazin.example/kedi',
+    '2026-11-11T07:30:00Z',
+  ],
+]);
+
 const MIDDAY = bulletinsOn({ year: 2026, month: 11, day: 11 }).find((b) => b.slot.id === 'midday');
 if (!MIDDAY) {
   throw new Error('Midday bulletin missing from the schedule');
@@ -97,6 +114,21 @@ describe('prepareBulletin', async () => {
     expect(second?.label).toBe('single-source');
     expect(file.sections.turkey).toHaveLength(2);
     expect(file.sections.tech).toEqual([]);
+  });
+
+  it('keeps desk-only sources out of the news sections', () => {
+    const news = Object.values(file.sections).flat();
+    expect(news.flatMap((c) => c.sources.map((s) => s.id))).not.toContain('spor');
+    expect(news.flatMap((c) => c.sources.map((s) => s.id))).not.toContain('magazin');
+  });
+
+  it('collects candidates for each desk from the sources that feed it', () => {
+    expect(file.desks.transfers.map((c) => c.articles[0]?.url)).toEqual([
+      'https://spor.example/transfer',
+    ]);
+    expect(file.desks.light.map((c) => c.articles[0]?.url)).toEqual([
+      'https://magazin.example/kedi',
+    ]);
   });
 
   it('includes the story timeline', () => {

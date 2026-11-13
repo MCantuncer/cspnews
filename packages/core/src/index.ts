@@ -1,8 +1,8 @@
 export { LANGUAGES } from './language.js';
 export type { Language } from './language.js';
 
-export { SECTIONS } from './sections.js';
-export type { Section } from './sections.js';
+export { DESKS, SECTIONS } from './sections.js';
+export type { Desk, Section } from './sections.js';
 
 export {
   BULLETIN_SLOTS,

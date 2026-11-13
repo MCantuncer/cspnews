@@ -35,8 +35,14 @@ describe('defineSources', () => {
     expect(() => defineSources([{ ...bbcTurkce, id: 'BBC Türkçe' }])).toThrow(/hyphens/);
   });
 
-  it('rejects a source with no sections', () => {
-    expect(() => defineSources([{ ...bbcTurkce, sections: [] }])).toThrow();
+  it('rejects a source that feeds no section and no desk', () => {
+    expect(() => defineSources([{ ...bbcTurkce, sections: [] }])).toThrow(/section or desk/);
+    expect(() => defineSources([{ ...bbcTurkce, sections: [], desks: [] }])).toThrow();
+  });
+
+  it('accepts a source that only feeds a desk', () => {
+    const [source] = defineSources([{ ...bbcTurkce, sections: [], desks: ['transfers'] }]);
+    expect(source?.desks).toEqual(['transfers']);
   });
 
   it('rejects unknown fields so typos are caught', () => {
