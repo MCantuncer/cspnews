@@ -152,6 +152,16 @@ describe('TransferMoveSchema', () => {
     expect(TransferMoveSchema.safeParse(move).success).toBe(false);
   });
 
+  it('keeps the same number of story paragraphs in both versions', () => {
+    const story = ['First paragraph.', 'Second paragraph.'];
+    const en = { ...MOVE.versions.en, story };
+    expect(
+      TransferMoveSchema.safeParse({ ...MOVE, versions: { ...MOVE.versions, en } }).success,
+    ).toBe(false);
+    const tr = { ...MOVE.versions.tr, story: ['Birinci paragraf.', 'İkinci paragraf.'] };
+    expect(TransferMoveSchema.safeParse({ ...MOVE, versions: { en, tr } }).success).toBe(true);
+  });
+
   it('keeps the same facts in both versions', () => {
     const tr = { ...MOVE.versions.tr, facts: [] };
     expect(

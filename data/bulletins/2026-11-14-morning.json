@@ -1305,6 +1305,11 @@
               "value": "£7.4m",
               "label": "Paid to US Soccer to release him, Sky Sports reports"
             }
+          ],
+          "story": [
+            "Manchester United sacked Michael Carrick on Thursday after their worst start to a league season in 40 years. BBC Sport reports the side have won once in 10 Premier League games and sit 18th, a point above bottom-placed Sunderland. A day later the club named Mauricio Pochettino, 54, as head coach.",
+            "It came together fast. Pochettino told reporters the first contact came on Sunday, and by Thursday he was telling his US players. He had signed a new four-year deal with the USA only in the summer, so United paid a release clause of around £7.4m, Sky Sports and BBC Sport report. BBC Sport says his contract runs for two and a half years.",
+            "He broke down in tears at his US news conference, calling it “one of the most difficult decisions” of his career, The Guardian reports. He still leads the USA against Haiti on 14 and 18 November. His first United match is away at Liverpool on 22 November."
           ]
         },
         "tr": {
@@ -1320,90 +1325,21 @@
               "value": "7,4 milyon £",
               "label": "ABD federasyonuna ödenen serbest kalma bedeli (Sky Sports)"
             }
+          ],
+          "story": [
+            "Manchester United, lig tarihindeki son 40 yılın en kötü sezon başlangıcının ardından perşembe günü Michael Carrick’i görevden aldı. BBC Sport’a göre takım 10 Premier Lig maçında yalnızca bir kez kazandı ve son sıradaki Sunderland’in bir puan önünde, 18. sırada. Bir gün sonra kulüp, 54 yaşındaki Mauricio Pochettino’yu teknik direktör olarak açıkladı.",
+            "Her şey hızlı gelişti. Pochettino, ilk temasın pazar günü kurulduğunu, perşembe günü de ABD’li oyunculara haber verdiğini anlattı. ABD ile yazın dört yıllık yeni sözleşme imzalamıştı; Sky Sports ve BBC Sport’a göre United yaklaşık 7,4 milyon sterlinlik serbest kalma bedelini ödedi. BBC Sport, sözleşmenin iki buçuk yıllık olduğunu yazıyor.",
+            "The Guardian’ın aktardığına göre ABD’deki basın toplantısında gözyaşlarını tutamadı ve kararı kariyerinin “en zor kararlarından biri” diye anlattı. ABD’yi 14 ve 18 Kasım’da Haiti’ye karşı yönetmeye devam edecek. United’daki ilk maçı 22 Kasım’da Liverpool deplasmanında."
           ]
         }
       },
-      "updatedAt": "2026-11-14T02:45:00+03:00"
-    },
-    {
-      "id": "move-paz-man-utd",
-      "league": "premier-league",
-      "from": "Como",
-      "to": "Manchester United",
-      "stage": "talk",
-      "clubConfirmed": false,
-      "steps": [
-        {
-          "stage": "talk",
-          "on": "2026-11-13"
-        }
-      ],
-      "reports": [
-        {
-          "sourceId": "bbc-sport-football",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
-          "stage": "talk",
-          "on": "2026-11-13"
-        },
-        {
-          "sourceId": "sky-sports-transfers",
-          "url": "https://www.skysports.com/football/news/11095/13611965/man-utd-transfer-news-como-star-nico-paz-emerges-as-target-ahead-of-summer-transfer-window-paper-talk",
-          "stage": "talk",
-          "on": "2026-11-13"
-        }
-      ],
-      "versions": {
-        "en": {
-          "shortTitle": "Man Utd track Como’s Nico Paz",
-          "title": "Manchester United track Como midfielder Nico Paz ahead of next summer",
-          "now": "The Sun, quoted by BBC Sport and Sky Sports, says United are watching the 22-year-old Argentina midfielder, who scored twice against them in the Champions League last month.",
-          "signedWhen": "Talks between United and Como, then an announcement from United."
-        },
-        "tr": {
-          "shortTitle": "Man Utd, Como’dan Nico Paz’ı izliyor",
-          "title": "Manchester United, Como’nun orta sahası Nico Paz’ı gelecek yaz için izliyor",
-          "now": "BBC Sport ve Sky Sports’un aktardığı The Sun haberine göre United, geçen ay Şampiyonlar Ligi’nde kendilerine iki gol atan 22 yaşındaki Arjantinli oyuncuyu takip ediyor.",
-          "signedWhen": "United ile Como arasında görüşme, ardından United’ın açıklaması."
-        }
-      },
-      "updatedAt": "2026-11-14T02:45:00+03:00"
-    },
-    {
-      "id": "move-kounde-chelsea",
-      "league": "premier-league",
-      "from": "Barcelona",
-      "to": "Chelsea",
-      "stage": "talk",
-      "clubConfirmed": false,
-      "steps": [
-        {
-          "stage": "talk",
-          "on": "2026-11-13"
-        }
-      ],
-      "reports": [
-        {
-          "sourceId": "bbc-sport-football",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
-          "stage": "talk",
-          "on": "2026-11-13"
-        }
-      ],
-      "versions": {
-        "en": {
-          "shortTitle": "Chelsea target Barcelona’s Jules Koundé",
-          "title": "Chelsea target Jules Koundé as Barcelona open the door to a January sale",
-          "now": "Teamtalk, quoted in BBC Sport’s gossip column, says Barcelona are willing to sell the 28-year-old France defender in January.",
-          "signedWhen": "An agreed fee between Chelsea and Barcelona, then a statement from Chelsea."
-        },
-        "tr": {
-          "shortTitle": "Chelsea, Barcelona’dan Jules Koundé’yi istiyor",
-          "title": "Chelsea, Barcelona’nın ocakta satmaya açık olduğu Jules Koundé’yi hedefliyor",
-          "now": "BBC Sport’un transfer söylentileri köşesinde aktarılan Teamtalk haberine göre Barcelona, 28 yaşındaki Fransız savunmacıyı ocakta satmaya hazır.",
-          "signedWhen": "Chelsea ile Barcelona’nın bonservis anlaşması, ardından Chelsea’nin açıklaması."
-        }
-      },
-      "updatedAt": "2026-11-14T02:45:00+03:00"
+      "updatedAt": "2026-11-14T02:45:00+03:00",
+      "image": {
+        "url": "https://e0.365dm.com/26/11/1920x1080/skysports-pochettino-man-utd_7405890.jpg?20261113150042",
+        "sourceId": "sky-sports-transfers",
+        "sourceName": "Sky Sports",
+        "articleUrl": "https://www.skysports.com/watch/video/13611928/mauricio-pochettino-left-in-tears-on-leaving-us-job-most-difficult-decision"
+      }
     }
   ]
 }

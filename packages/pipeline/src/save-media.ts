@@ -40,6 +40,7 @@ if (upgraded.size > 0) {
     ...(bulletin.andFinally && {
       andFinally: { ...bulletin.andFinally, light: bulletin.andFinally.light.map(withFullSize) },
     }),
+    ...(bulletin.transfers && { transfers: bulletin.transfers.map(withFullSize) }),
   };
   writeFileSync(path, `${JSON.stringify(updated, null, 2)}\n`);
 }

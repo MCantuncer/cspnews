@@ -21,6 +21,7 @@ import {
   transferReporters,
 } from '../../lib/extras';
 import { formatShortDate } from '../../lib/format';
+import { photoUrl } from '../../lib/media';
 import { bulletinName, wordsFor } from '../../lib/i18n';
 
 interface Props {
@@ -37,6 +38,7 @@ const name = bulletinName(published.slot, lang);
 const reached = stageNumber(move.stage);
 const stepOn = new Map(move.steps.map((step) => [step.stage, step.on]));
 const reporters = transferReporters(move);
+const photo = move.image ? photoUrl(move.id) : undefined;
 ---
 
 <Base
@@ -65,6 +67,15 @@ const reporters = transferReporters(move);
       {move.to}
     </p>
 
+    {
+      photo && move.image && (
+        <figure class="photo">
+          <img src={photo} alt="" decoding="async" />
+          <figcaption>{`${words.photo}: ${move.image.sourceName}`}</figcaption>
+        </figure>
+      )
+    }
+
     <ol class="track" style={`--done: ${String(reached / (TRANSFER_STAGES.length - 1))}`}>
       {
         TRANSFER_STAGES.map((stage, i) => {
@@ -81,6 +92,15 @@ const reporters = transferReporters(move);
     </ol>
 
     <p class="status">{move.now}</p>
+    {
+      move.story && (
+        <div class="story">
+          {move.story.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+        </div>
+      )
+    }
     {move.clubConfirmed && <p class="club"><Icon name="confirmed" size={18} />{extras.clubConfirmed}</p>}
 
     {
@@ -237,7 +257,40 @@ const reporters = transferReporters(move);
   .status {
     margin-top: 22px;
     color: var(--ink);
-    font: 400 17px / 1.55 var(--f-body);
+    font: 600 19px / 1.5 var(--f-body);
+  }
+
+  .photo {
+    margin: 22px 0 0;
+  }
+
+  .photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 14px;
+    object-fit: cover;
+    background: var(--surf);
+  }
+
+  .photo figcaption {
+    margin-top: 6px;
+    color: var(--meta);
+    font: 400 13px / 1.3 var(--f-body);
+  }
+
+  /* The story of the move, in the same reading text as a story page. */
+  .story {
+    display: grid;
+    gap: 14px;
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+  }
+
+  .story p {
+    color: var(--ink);
+    font: 400 18px / 1.65 var(--f-body);
   }
 
   .club {

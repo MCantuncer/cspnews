@@ -54,6 +54,9 @@ Two parts sit outside the news sections, in `andFinally` and `transfers` (format
 - `stage` is the furthest stage a confirming report supports: `talk` (an outlet links the player with the club), `talks` (negotiations), `agreed` (fee or terms agreed), `signed` (the buying club announced it). Only the club's own announcement makes a move `signed` with `clubConfirmed: true`.
 - `steps` repeat the stages of the move that earlier bulletins showed, with the day each stage was first reported, and add the new one. `reports` list each outlet with the stage it reported and the day.
 - `now` says where the move stands. `signedWhen` says what would make it signed, until it is. `facts` give at most two numbers (fee, contract length) only when an outlet reports them.
+- Always write `story` in both languages: two to four short paragraphs (about 120 to 220 words in all) that read like a short story, not a list of claims. Say who the player or coach is and why the move matters to both clubs, how it came about, what each outlet says (attributed), and what happens next. Use only facts from the articles; no stock phrases like "the move is expected to be completed soon".
+- Give the move an `image` when one of its articles has a real news photo of the player or coach (same rules as a story photo). The row in Contents and the move's page show it.
+- A gossip column that only names a player with no detail is too thin for a move: leave it out rather than write a story around one line.
 - A move whose talks broke down leaves Transfers. Football rumours go to Transfers, never to And finally.
 
 ## When an edition is late

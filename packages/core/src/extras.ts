@@ -125,6 +125,12 @@ export const TransferVersionSchema = z
     /** What would take it to `signed`; left out once it is signed. */
     signedWhen: text(200).optional(),
     facts: z.array(TransferFactSchema).max(2).optional(),
+    /**
+     * The story of the move in two to four short paragraphs: who the player is and why they
+     * matter, how the move came about, what each outlet says, and what happens next. Only facts
+     * from the sources, each claim attributed.
+     */
+    story: z.array(text(600)).min(2).max(4).optional(),
   })
   .strict();
 
@@ -151,6 +157,8 @@ export const TransferMoveSchema = z
     steps: z.array(TransferStepSchema).min(1).max(TRANSFER_STAGES.length),
     reports: z.array(TransferReportSchema).min(1).max(8),
     versions: bilingual(TransferVersionSchema),
+    /** The outlet photo of the player or coach, saved like a story's. */
+    image: StoryImageSchema.optional(),
     updatedAt: z.iso.datetime({ offset: true }),
   })
   .strict()
@@ -181,6 +189,9 @@ export const TransferMoveSchema = z
     }
     if ((move.versions.en.facts?.length ?? 0) !== (move.versions.tr.facts?.length ?? 0)) {
       issue('Both versions need the same number of facts', ['versions']);
+    }
+    if ((move.versions.en.story?.length ?? 0) !== (move.versions.tr.story?.length ?? 0)) {
+      issue('Both versions need the same number of story paragraphs', ['versions']);
     }
   });
 
