@@ -49,6 +49,28 @@ describe('saveStoryPhotos', () => {
     );
   });
 
+  it('saves the photos of And finally light stories too', async () => {
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    const image = withImage[0]?.image;
+    if (!image) throw new Error('The sample needs a story photo');
+    const light = {
+      id: 'light-ferry-cat',
+      kind: 'animals' as const,
+      label: 'confirmed' as const,
+      versions: {
+        en: { title: 'Ferry cat gets a badge', gist: 'It rides daily.', aside: 'No comment.' },
+        tr: { title: 'Vapur kedisine kart', gist: 'Her gün biniyor.', aside: 'Yorum yok.' },
+      },
+      sources: [{ sourceId: 'ntv', url: 'https://ntv.example/' }],
+      image,
+    };
+    const withLight = { ...bulletin, andFinally: { light: [light], rumours: [] } };
+    const fetchBytes: FetchBytes = () =>
+      Promise.resolve({ bytes: JPEG, contentType: 'image/jpeg' });
+    const results = await saveStoryPhotos(withLight, directory, fetchBytes);
+    expect(results.at(-1)).toEqual({ storyId: 'light-ferry-cat', file: 'light-ferry-cat.jpg' });
+  });
+
   it('replaces an older copy saved with another extension', async () => {
     const directory = mkdtempSync(join(tmpdir(), 'media-'));
     const id = withImage[0]?.id ?? '';

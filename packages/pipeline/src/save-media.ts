@@ -3,14 +3,14 @@
  *
  *   pnpm build && pnpm --filter @cspnews/pipeline save-media "$PWD/data/bulletins/<file>.json"
  *
- * Writes <bulletin folder>/media/<story id>.<ext>. When a feed thumbnail is swapped for the
+ * Writes <bulletin folder>/media/<story id>.<ext>, for stories and And finally light stories. When a feed thumbnail is swapped for the
  * article's full-size photo, the bulletin's image URL is updated to match. Outlet logos are saved by
  * `pnpm --filter @cspnews/config fetch-logos <bulletin folder>/media/logos`.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 
-import { parseBulletin } from '@cspnews/core';
+import { parseBulletin, type StoryImage } from '@cspnews/core';
 
 import { httpFetchBytes, saveStoryPhotos } from './media.js';
 
@@ -27,12 +27,18 @@ const results = await saveStoryPhotos(bulletin, join(dirname(path), 'media'), ht
 const upgraded = new Map(
   results.flatMap((result) => (result.url ? [[result.storyId, result.url]] : [])),
 );
+function withFullSize<Item extends { id: string; image?: StoryImage | undefined }>(
+  item: Item,
+): Item {
+  const url = upgraded.get(item.id);
+  return url && item.image ? { ...item, image: { ...item.image, url } } : item;
+}
 if (upgraded.size > 0) {
   const updated = {
     ...bulletin,
-    stories: bulletin.stories.map((story) => {
-      const url = upgraded.get(story.id);
-      return url && story.image ? { ...story, image: { ...story.image, url } } : story;
+    stories: bulletin.stories.map(withFullSize),
+    ...(bulletin.andFinally && {
+      andFinally: { ...bulletin.andFinally, light: bulletin.andFinally.light.map(withFullSize) },
     }),
   };
   writeFileSync(path, `${JSON.stringify(updated, null, 2)}\n`);
