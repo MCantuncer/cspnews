@@ -89,7 +89,12 @@ const leadId = light.find((item) => item.photo)?.story.id;
                       <img class="photo" src={photo} alt="" loading="lazy" decoding="async" />
                     )}
                     <p class="kind">{kindWord(story.kind, lang)}</p>
-                    <h3>{story.title}</h3>
+                    <h3>
+                      <a class="read" href={story.sources[0]?.url} rel="noopener">
+                        {story.title}
+                        <Icon name="external" size={16} class="read-mark" />
+                      </a>
+                    </h3>
                     <p class="gist">{story.gist}</p>
                     <p class="aside">{story.aside}</p>
                     <p class="meta">
@@ -134,7 +139,12 @@ const leadId = light.find((item) => item.photo)?.story.id;
                         <p class="kind">
                           {kindWord(rumour.kind, lang)}, {words.rumour.toLocaleLowerCase(lang)}
                         </p>
-                        <p class="title">{rumour.title}</p>
+                        <p class="title">
+                          <a class="read" href={rumour.heardFrom.url} rel="noopener">
+                            {rumour.title}
+                            <Icon name="external" size={16} class="read-mark" />
+                          </a>
+                        </p>
                         <p class="meta">
                           <span>{words.heardFrom}</span>
                           <a class="outlet" href={rumour.heardFrom.url} rel="noopener">
@@ -389,6 +399,43 @@ const leadId = light.find((item) => item.photo)?.story.id;
     margin-top: 4px;
     color: var(--ink);
     font: 600 17px / 1.3 var(--f-body);
+  }
+
+  /* Spotlight items have no page of their own: the title opens the outlet's article, and the
+     link covers the whole item so a tap anywhere on it reads the story. Outlet names and the
+     photo credit stay their own links above it. */
+  .read {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .read::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+  }
+
+  .read :global(.read-mark) {
+    display: inline-block;
+    margin-left: 4px;
+    color: var(--meta);
+    vertical-align: -2px;
+  }
+
+  .item:hover .read {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .read:focus-visible {
+    outline: 2px solid var(--hour);
+    outline-offset: 3px;
+  }
+
+  .meta a {
+    position: relative;
+    z-index: 1;
   }
 
   .gist {
