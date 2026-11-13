@@ -4,10 +4,10 @@
     "slot": "late",
     "publishAt": "2026-11-13T19:30:00.000Z"
   },
-  "generatedAt": "2026-11-13T16:45:53.974Z",
+  "generatedAt": "2026-11-13T16:51:43.666Z",
   "window": {
-    "since": "2026-11-13T02:45:53.974Z",
-    "until": "2026-11-13T16:45:53.974Z"
+    "since": "2026-11-13T02:51:43.666Z",
+    "until": "2026-11-13T16:51:43.666Z"
   },
   "sections": {
     "turkey": [
@@ -21,7 +21,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 17,
+        "score": 16.99,
         "firstSeenAt": "2026-11-13T15:52:17.000Z",
         "lastUpdatedAt": "2026-11-13T16:42:50.000Z",
         "image": {
@@ -187,7 +187,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.93,
+        "score": 16.92,
         "firstSeenAt": "2026-11-13T12:16:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:53:10.000Z",
         "image": {
@@ -337,7 +337,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.72,
+        "score": 16.71,
         "firstSeenAt": "2026-11-13T10:38:00.000Z",
         "lastUpdatedAt": "2026-11-13T13:22:28.000Z",
         "image": {
@@ -494,7 +494,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.98,
+        "score": 14.97,
         "firstSeenAt": "2026-11-13T12:22:54.000Z",
         "lastUpdatedAt": "2026-11-13T16:31:30.000Z",
         "image": {
@@ -784,7 +784,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.92,
+        "score": 14.91,
         "firstSeenAt": "2026-11-13T15:18:14.000Z",
         "lastUpdatedAt": "2026-11-13T15:50:00.000Z",
         "image": {
@@ -945,7 +945,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.92,
+        "score": 12.91,
         "firstSeenAt": "2026-11-13T10:22:45.000Z",
         "lastUpdatedAt": "2026-11-13T15:48:35.000Z",
         "image": {
@@ -1047,117 +1047,6 @@
         ]
       },
       {
-        "storyId": "a6ea1794e035bc16",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 12.91,
-        "firstSeenAt": "2026-11-13T09:48:00.000Z",
-        "lastUpdatedAt": "2026-11-13T15:41:12.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6dcc8c813a6f07cce7ef3.jpg",
-          "sourceId": "hurriyet",
-          "sourceName": "Hürriyet",
-          "articleUrl": "https://www.hurriyet.com.tr/gundem/gorevi-basinda-rahatsizlanan-er-sehit-oldu-43376900"
-        },
-        "sources": [
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "ntv",
-            "name": "NTV",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "a-haber",
-            "name": "A Haber",
-            "camp": "pro-government",
-            "tier": "partisan",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T09:48:00.000Z",
-            "sourceId": "hurriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T09:57:24.000Z",
-            "sourceId": "ntv"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T09:57:24.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T10:03:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T15:41:12.000Z",
-            "sourceId": "a-haber"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/gundem/gorevi-basinda-rahatsizlanan-er-sehit-oldu-43376900",
-            "title": "Görevi başında rahatsızlanan er, şehit oldu",
-            "summary": "Milli Savunma Bakanlığı, Mühimmat Er Kaan Öcal'ın görevi başında rahatsızlanarak şehit olduğunu duyurdu.",
-            "publishedAt": "2026-11-13T09:48:00.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6dcc8c813a6f07cce7ef3.jpg"
-          },
-          {
-            "sourceId": "ntv",
-            "url": "https://www.ntv.com.tr/turkiye/gorevi-basinda-rahatsizlanan-asker-sehit-oldu-1750701",
-            "title": "Görevi başında rahatsızlanan asker şehit oldu",
-            "summary": "Milli Savunma Bakanı Yaşar Güler, görevi sırasında rahatsızlanarak şehit olan Mühimmat Er Kaan Öcal için başsağlığı mesajı yayımladı.",
-            "publishedAt": "2026-11-13T09:57:24.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/HW_u_DvXIAALkE1-840177.jpg"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/turkiye/gorevi-basinda-rahatsizlanan-asker-sehit-oldu-2555869",
-            "title": "Görevi başında rahatsızlanan asker şehit oldu",
-            "summary": "Kuzey Kıbrıs Türk Cumhuriyeti'nde (KKTC) askerlik görevini sürdüren Mühimmat Er Kaan Öcal, nöbet tuttuğu sırada geçirdiği kalp krizi sonucu şehit oldu.",
-            "publishedAt": "2026-11-13T10:03:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/0e08cd41-e4bc-4884-983e-f86328bf271c.jpg"
-          },
-          {
-            "sourceId": "a-haber",
-            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/kibrista-gorev-basinda-rahatsizlanan-muhimmat-er-kagan-ocal-sehit-oldu",
-            "title": "Kıbrıs'ta görev başında rahatsızlanan Mühimmat Er Kağan Öcal şehit oldu",
-            "summary": "Milli Savunma Bakanlığı, Kıbrıs Türk Barış Kuvvetleri Komutanlığında görevli Mühimmat Er Kağan Öcal'ın görev sırasında rahatsızlanarak kaldırıldığı hastanede şehit olduğunu duyurdu. Acı haberin... Devamı için tıklayınız",
-            "publishedAt": "2026-11-13T15:41:12.000Z",
-            "imageUrl": "https://iaahbr.tmgrup.com.tr/c948f9/0/0/0/0/2048/1536?u=https://iahbr.tmgrup.com.tr/2026/11/13/1794584430082.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "b6d0561a07114662",
         "language": "tr",
         "label": "confirmed",
@@ -1166,7 +1055,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.78,
+        "score": 12.77,
         "firstSeenAt": "2026-11-13T07:17:30.000Z",
         "lastUpdatedAt": "2026-11-13T14:05:26.000Z",
         "image": {
@@ -1330,7 +1219,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.75,
+        "score": 12.74,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:15.000Z",
         "image": {
@@ -1447,6 +1336,96 @@
         ]
       },
       {
+        "storyId": "b88133f626d29079",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 11,
+        "firstSeenAt": "2026-11-13T04:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:49:18.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af62f60c813a6f07cce79f2.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/ara-tatil-bugun-basliyor-verimli-tatil-icin-20-adim-43376392"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T04:00:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:47:57.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:47:57.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:49:18.000Z",
+            "sourceId": "sozcu"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/ara-tatil-bugun-basliyor-verimli-tatil-icin-20-adim-43376392",
+            "title": "Ara tatil bugün başlıyor... Verimli tatil için 20 adım",
+            "summary": "Ara tatil bugün başlıyor. Öğrenciler okuldan uzaklaşıp dinlenmeye hazırlanırken ailelerin aklında aynı soru var: Bu dokuz gün nasıl daha keyifli ve verimli geçebilir?",
+            "publishedAt": "2026-11-13T04:00:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af62f60c813a6f07cce79f2.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/milli-egitim-bakani-tekinden-ara-tatil-paylasimi/4124340",
+            "title": "Milli Eğitim Bakanı Tekin'den ara tatil paylaşımı",
+            "summary": "Milli Eğitim Bakanı Yusuf Tekin, bugün başlayan ara tatile ilişkin, \"Tatilinizi dinlenmenin yanı sıra kitap okuyarak, ilgi duyduğunuz alanlara yönelerek ve şehrinizi keşfederek verimli bir şekilde geçirmenizi tavsiye ediyorum.\" ifadelerini kullandı.",
+            "publishedAt": "2026-11-13T14:47:57.000Z"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/istanbulda-ara-tatil-ve-mesai-trafigi-p381120",
+            "title": "İstanbul'da ara tatil ve mesai trafiği",
+            "summary": "İstanbul'da okulların birinci dönem ara tatiline girmesi ve haftanın son iş gününde mesainin bitmesiyle yollarda yoğunlu...",
+            "publishedAt": "2026-11-13T16:49:18.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/96jpg-7uDyMQnSzUa7U7W2ReIOxA.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "3ccb60206b5228ed",
         "language": "tr",
         "label": "confirmed",
@@ -1455,7 +1434,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.99,
+        "score": 10.98,
         "firstSeenAt": "2026-11-13T12:15:19.000Z",
         "lastUpdatedAt": "2026-11-13T16:37:40.000Z",
         "image": {
@@ -1551,96 +1530,6 @@
         ]
       },
       {
-        "storyId": "b88133f626d29079",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.98,
-        "firstSeenAt": "2026-11-13T04:00:00.000Z",
-        "lastUpdatedAt": "2026-11-13T16:34:36.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af62f60c813a6f07cce79f2.jpg",
-          "sourceId": "hurriyet",
-          "sourceName": "Hürriyet",
-          "articleUrl": "https://www.hurriyet.com.tr/gundem/ara-tatil-bugun-basliyor-verimli-tatil-icin-20-adim-43376392"
-        },
-        "sources": [
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T04:00:00.000Z",
-            "sourceId": "hurriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T14:47:57.000Z",
-            "sourceId": "aa-tr"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T14:47:57.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T16:34:36.000Z",
-            "sourceId": "sozcu"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/gundem/ara-tatil-bugun-basliyor-verimli-tatil-icin-20-adim-43376392",
-            "title": "Ara tatil bugün başlıyor... Verimli tatil için 20 adım",
-            "summary": "Ara tatil bugün başlıyor. Öğrenciler okuldan uzaklaşıp dinlenmeye hazırlanırken ailelerin aklında aynı soru var: Bu dokuz gün nasıl daha keyifli ve verimli geçebilir?",
-            "publishedAt": "2026-11-13T04:00:00.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af62f60c813a6f07cce79f2.jpg"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/gundem/milli-egitim-bakani-tekinden-ara-tatil-paylasimi/4124340",
-            "title": "Milli Eğitim Bakanı Tekin'den ara tatil paylaşımı",
-            "summary": "Milli Eğitim Bakanı Yusuf Tekin, bugün başlayan ara tatile ilişkin, \"Tatilinizi dinlenmenin yanı sıra kitap okuyarak, ilgi duyduğunuz alanlara yönelerek ve şehrinizi keşfederek verimli bir şekilde geçirmenizi tavsiye ediyorum.\" ifadelerini kullandı.",
-            "publishedAt": "2026-11-13T14:47:57.000Z"
-          },
-          {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/istanbulda-ara-tatil-ve-mesai-trafigi-p381120",
-            "title": "İstanbul'da ara tatil ve mesai trafiği",
-            "summary": "İstanbul'da okulların birinci dönem ara tatiline girmesi ve haftanın son iş gününde mesainin bitmesiyle yollarda yoğunlu...",
-            "publishedAt": "2026-11-13T16:34:36.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/96jpg-7uDyMQnSzUa7U7W2ReIOxA.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "187ee01f09de9900",
         "language": "tr",
         "label": "confirmed",
@@ -1649,7 +1538,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.95,
+        "score": 10.94,
         "firstSeenAt": "2026-11-13T12:36:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:11:28.000Z",
         "image": {
@@ -1754,6 +1643,97 @@
         ]
       },
       {
+        "storyId": "a6ea1794e035bc16",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.9,
+        "firstSeenAt": "2026-11-13T09:48:00.000Z",
+        "lastUpdatedAt": "2026-11-13T15:41:12.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6dcc8c813a6f07cce7ef3.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/gorevi-basinda-rahatsizlanan-er-sehit-oldu-43376900"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T09:48:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T09:57:24.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T09:57:24.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:41:12.000Z",
+            "sourceId": "a-haber"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/gorevi-basinda-rahatsizlanan-er-sehit-oldu-43376900",
+            "title": "Görevi başında rahatsızlanan er, şehit oldu",
+            "summary": "Milli Savunma Bakanlığı, Mühimmat Er Kaan Öcal'ın görevi başında rahatsızlanarak şehit olduğunu duyurdu.",
+            "publishedAt": "2026-11-13T09:48:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6dcc8c813a6f07cce7ef3.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/gorevi-basinda-rahatsizlanan-asker-sehit-oldu-1750701",
+            "title": "Görevi başında rahatsızlanan asker şehit oldu",
+            "summary": "Milli Savunma Bakanı Yaşar Güler, görevi sırasında rahatsızlanarak şehit olan Mühimmat Er Kaan Öcal için başsağlığı mesajı yayımladı.",
+            "publishedAt": "2026-11-13T09:57:24.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/HW_u_DvXIAALkE1-840177.jpg"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/kibrista-gorev-basinda-rahatsizlanan-muhimmat-er-kagan-ocal-sehit-oldu",
+            "title": "Kıbrıs'ta görev başında rahatsızlanan Mühimmat Er Kağan Öcal şehit oldu",
+            "summary": "Milli Savunma Bakanlığı, Kıbrıs Türk Barış Kuvvetleri Komutanlığında görevli Mühimmat Er Kağan Öcal'ın görev sırasında rahatsızlanarak kaldırıldığı hastanede şehit olduğunu duyurdu. Acı haberin... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T15:41:12.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/c948f9/0/0/0/0/2048/1536?u=https://iahbr.tmgrup.com.tr/2026/11/13/1794584430082.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "f41770d951fa4b5e",
         "language": "tr",
         "label": "confirmed",
@@ -1762,7 +1742,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.89,
+        "score": 10.88,
         "firstSeenAt": "2026-11-13T15:15:00.000Z",
         "lastUpdatedAt": "2026-11-13T15:24:12.000Z",
         "image": {
@@ -1853,7 +1833,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.82,
+        "score": 10.81,
         "firstSeenAt": "2026-11-13T11:20:19.000Z",
         "lastUpdatedAt": "2026-11-13T14:37:37.000Z",
         "image": {
@@ -1953,7 +1933,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.96,
+        "score": 18.95,
         "firstSeenAt": "2026-11-13T10:53:41.000Z",
         "lastUpdatedAt": "2026-11-13T16:17:11.000Z",
         "image": {
@@ -1985,16 +1965,16 @@
             "confirms": true
           },
           {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "techcrunch",
-            "name": "TechCrunch",
-            "camp": "specialist",
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
             "tier": "established",
             "confirms": true
           },
@@ -2037,13 +2017,13 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T12:16:44.000Z",
-            "sourceId": "guardian-world"
+            "at": "2026-11-13T13:15:20.000Z",
+            "sourceId": "techcrunch"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T13:15:20.000Z",
-            "sourceId": "techcrunch"
+            "at": "2026-11-13T14:56:42.000Z",
+            "sourceId": "guardian-world"
           },
           {
             "kind": "outlet-joined",
@@ -2079,14 +2059,6 @@
             "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
             "publishedAt": "2026-11-13T11:43:27.000Z",
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg"
-          },
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation",
-            "title": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
-            "summary": "Users of Microsoft Teams and Outlook in businesses and public services reporting problems. Plus would you like to spend time as a helpful furry little post delivery service? Don’t already get First Thing in your inbox? Sign up here Good morning. A global outage of vital Microsoft systems has crippled businesses and public services around the world. The tech company said it was seeing “early signs of stabilisation” after the failure affected millions of users for more than 12 hours on Thursday and Friday. Some but not all users were reporting problems with services including Microsoft Teams and Outlook email. More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company. Microsoft said that there were no indications that the outage had been caused by a cyber-attack. We are covering the recovery efforts and continuing impact in this live blog . Who are the main people involved? For more infor…",
-            "publishedAt": "2026-11-13T12:16:44.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/3aca18d0542794fb6d35a0847224c88cc2663879/22_147_2871_2297/master/2871.jpg?width=140&quality=85&auto=format&fit=max&s=98633702e1c9b1b8634cd8f028e3ff40"
           },
           {
             "sourceId": "al-jazeera",
@@ -2302,7 +2274,7 @@
           "independent-sources",
           "primary-source"
         ],
-        "score": 8.94,
+        "score": 8.93,
         "firstSeenAt": "2026-11-13T15:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:00:12.000Z",
         "sources": [
@@ -2408,7 +2380,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.93,
         "firstSeenAt": "2026-11-13T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:00:00.000Z",
         "sources": [
@@ -2445,7 +2417,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.93,
         "firstSeenAt": "2026-11-13T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:00:00.000Z",
         "image": {
@@ -2489,7 +2461,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.93,
         "firstSeenAt": "2026-11-13T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:00:00.000Z",
         "sources": [
@@ -2526,7 +2498,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.92,
+        "score": 3.91,
         "firstSeenAt": "2026-11-13T15:49:27.000Z",
         "lastUpdatedAt": "2026-11-13T15:49:27.000Z",
         "sources": [
@@ -2600,7 +2572,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.87,
+        "score": 3.86,
         "firstSeenAt": "2026-11-13T15:09:39.000Z",
         "lastUpdatedAt": "2026-11-13T15:09:39.000Z",
         "image": {
@@ -2644,7 +2616,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.85,
+        "score": 3.84,
         "firstSeenAt": "2026-11-13T14:57:55.000Z",
         "lastUpdatedAt": "2026-11-13T14:57:55.000Z",
         "sources": [
@@ -2681,7 +2653,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.83,
+        "score": 3.82,
         "firstSeenAt": "2026-11-13T14:45:04.000Z",
         "lastUpdatedAt": "2026-11-13T14:45:04.000Z",
         "image": {
@@ -2725,7 +2697,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.83,
+        "score": 3.82,
         "firstSeenAt": "2026-11-13T14:44:48.000Z",
         "lastUpdatedAt": "2026-11-13T14:44:48.000Z",
         "sources": [
@@ -2762,7 +2734,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.81,
+        "score": 3.8,
         "firstSeenAt": "2026-11-13T14:30:00.000Z",
         "lastUpdatedAt": "2026-11-13T14:30:00.000Z",
         "image": {
@@ -2806,7 +2778,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.81,
+        "score": 3.8,
         "firstSeenAt": "2026-11-13T14:30:00.000Z",
         "lastUpdatedAt": "2026-11-13T14:30:00.000Z",
         "sources": [
@@ -2845,7 +2817,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.96,
+        "score": 18.95,
         "firstSeenAt": "2026-11-13T10:53:41.000Z",
         "lastUpdatedAt": "2026-11-13T16:17:11.000Z",
         "image": {
@@ -2877,16 +2849,16 @@
             "confirms": true
           },
           {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "techcrunch",
-            "name": "TechCrunch",
-            "camp": "specialist",
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
             "tier": "established",
             "confirms": true
           },
@@ -2929,13 +2901,13 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T12:16:44.000Z",
-            "sourceId": "guardian-world"
+            "at": "2026-11-13T13:15:20.000Z",
+            "sourceId": "techcrunch"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-13T13:15:20.000Z",
-            "sourceId": "techcrunch"
+            "at": "2026-11-13T14:56:42.000Z",
+            "sourceId": "guardian-world"
           },
           {
             "kind": "outlet-joined",
@@ -2971,14 +2943,6 @@
             "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
             "publishedAt": "2026-11-13T11:43:27.000Z",
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg"
-          },
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation",
-            "title": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
-            "summary": "Users of Microsoft Teams and Outlook in businesses and public services reporting problems. Plus would you like to spend time as a helpful furry little post delivery service? Don’t already get First Thing in your inbox? Sign up here Good morning. A global outage of vital Microsoft systems has crippled businesses and public services around the world. The tech company said it was seeing “early signs of stabilisation” after the failure affected millions of users for more than 12 hours on Thursday and Friday. Some but not all users were reporting problems with services including Microsoft Teams and Outlook email. More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company. Microsoft said that there were no indications that the outage had been caused by a cyber-attack. We are covering the recovery efforts and continuing impact in this live blog . Who are the main people involved? For more infor…",
-            "publishedAt": "2026-11-13T12:16:44.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/3aca18d0542794fb6d35a0847224c88cc2663879/22_147_2871_2297/master/2871.jpg?width=140&quality=85&auto=format&fit=max&s=98633702e1c9b1b8634cd8f028e3ff40"
           },
           {
             "sourceId": "al-jazeera",
@@ -3193,7 +3157,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.9,
+        "score": 10.89,
         "firstSeenAt": "2026-11-13T10:54:25.000Z",
         "lastUpdatedAt": "2026-11-13T15:32:00.000Z",
         "image": {
@@ -3274,6 +3238,144 @@
         ]
       },
       {
+        "storyId": "de0c2eb84537cc75",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.98,
+        "firstSeenAt": "2026-11-13T12:07:12.000Z",
+        "lastUpdatedAt": "2026-11-13T16:36:45.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/19662f21a15579907c78e129a749b78b5dab0bd6/239_0_2591_2073/master/2591.jpg?width=140&quality=85&auto=format&fit=max&s=bc7a97a609a09bde6ec58db3ec7a7124",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology"
+        },
+        "sources": [
+          {
+            "id": "npr-world",
+            "name": "NPR World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:07:12.000Z",
+            "sourceId": "npr-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:36:45.000Z",
+            "sourceId": "guardian-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T16:36:45.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "npr-world",
+            "url": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+            "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+            "summary": "Nvidia's chief financial officer has been appointed interim CEO after Jensen Huang stepped down from the role. And, Sen. Chris Van Hollen says he will challenge Chuck Schumer for majority leader.",
+            "publishedAt": "2026-11-13T12:07:12.000Z"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology",
+            "title": "Chuck Schumer’s challenger for party control underscores Democrats’ ideological rift",
+            "summary": "Senator Chris Van Hollen’s policy credentials allowed his quick rise to roles usually reserved for the more tenured US politics live – latest updates US senator Chris Van Hollen’s challenge to Chuck Schumer ’s leadership of Senate Democrats presents an ideological and biographical contrast to the party as it takes control of Congress in two months. Though only about eight years younger than Schumer, Van Hollen is seen as a more progressive senator who has drawn attention for his opposition to the Trump administration ’s abusive immigration practices – visiting his constituent Kilmar Ábrego García after an unlawful deportation to El Salvador – as well as opposition to federal corruption and US support for the Israeli government’s war in Gaza. Continue reading...",
+            "publishedAt": "2026-11-13T16:36:45.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/19662f21a15579907c78e129a749b78b5dab0bd6/239_0_2591_2073/master/2591.jpg?width=140&quality=85&auto=format&fit=max&s=bc7a97a609a09bde6ec58db3ec7a7124"
+          }
+        ]
+      },
+      {
+        "storyId": "64687ddf2926f90e",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.98,
+        "firstSeenAt": "2026-11-13T16:31:50.000Z",
+        "lastUpdatedAt": "2026-11-13T16:35:02.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession"
+        },
+        "sources": [
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:31:50.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:35:02.000Z",
+            "sourceId": "guardian-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T16:35:02.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/sixth-victim-found-in-dc-condo-related-shooting-police-confirm?traffic_source=rss",
+            "title": "Sixth victim found in DC condo-related shooting, police confirm",
+            "summary": "Police confirm sixth victim in DC condo shooting; suspect dead after barricading himself and starting a fire.",
+            "publishedAt": "2026-11-13T16:31:50.000Z"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
+            "title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
+            "summary": "Gunman killed one person and injured at least five others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residential building shared how he was angry over living conditions there and confessed to the killings. The gunman killed one person and injured at least five others on Thursday in and around the condominium building in the Logan Circle neighborhood of the capital, not far from the White House, where he lived. Continue reading...",
+            "publishedAt": "2026-11-13T16:35:02.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f"
+          }
+        ]
+      },
+      {
         "storyId": "ae20ef308cfeddd5",
         "language": "en",
         "label": "confirmed",
@@ -3281,7 +3383,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.94,
+        "score": 8.93,
         "firstSeenAt": "2026-11-13T13:02:08.000Z",
         "lastUpdatedAt": "2026-11-13T16:01:45.000Z",
         "sources": [
@@ -3344,7 +3446,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.92,
+        "score": 8.91,
         "firstSeenAt": "2026-11-13T12:06:56.000Z",
         "lastUpdatedAt": "2026-11-13T15:46:36.000Z",
         "image": {
@@ -3483,7 +3585,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.75,
+        "score": 8.74,
         "firstSeenAt": "2026-11-13T13:00:08.000Z",
         "lastUpdatedAt": "2026-11-13T13:42:49.000Z",
         "sources": [
@@ -3546,7 +3648,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.7,
+        "score": 8.69,
         "firstSeenAt": "2026-11-13T13:10:08.000Z",
         "lastUpdatedAt": "2026-11-13T13:11:24.000Z",
         "sources": [
@@ -3609,7 +3711,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.64,
+        "score": 8.63,
         "firstSeenAt": "2026-11-13T11:51:57.000Z",
         "lastUpdatedAt": "2026-11-13T12:28:28.000Z",
         "image": {
@@ -3671,21 +3773,21 @@
         ]
       },
       {
-        "storyId": "a92b2f54420c3758",
+        "storyId": "8d6a28580c7d9f6c",
         "language": "en",
         "label": "single-source",
         "developing": true,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.98,
-        "firstSeenAt": "2026-11-13T16:35:02.000Z",
-        "lastUpdatedAt": "2026-11-13T16:35:02.000Z",
+        "score": 3.99,
+        "firstSeenAt": "2026-11-13T16:43:24.000Z",
+        "lastUpdatedAt": "2026-11-13T16:43:24.000Z",
         "image": {
-          "url": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f",
+          "url": "https://i.guim.co.uk/img/media/0b0e1043f531f2cf4be1034a79eae931f842e257/0_199_3351_2681/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=d023067ea029630e7bca874700208189",
           "sourceId": "guardian-world",
           "sourceName": "The Guardian World",
-          "articleUrl": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession"
+          "articleUrl": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
         },
         "sources": [
           {
@@ -3699,18 +3801,18 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T16:35:02.000Z",
+            "at": "2026-11-13T16:43:24.000Z",
             "sourceId": "guardian-world"
           }
         ],
         "articles": [
           {
             "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
-            "title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
-            "summary": "Gunman killed one person and injured at least five others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residential building shared how he was angry over living conditions there and confessed to the killings. The gunman killed one person and injured at least five others on Thursday in and around the condominium building in the Logan Circle neighborhood of the capital, not far from the White House, where he lived. Continue reading...",
-            "publishedAt": "2026-11-13T16:35:02.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f"
+            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+            "title": "Scott Bessent blames commerce department over delay blacklisting China-linked data company – US politics live",
+            "summary": "Treasury secretary says he was in favor ‘for months’ of putting Megaspeed on blacklist to stop Nvidia exporting advanced chips to Beijing Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
+            "publishedAt": "2026-11-13T16:43:24.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/0b0e1043f531f2cf4be1034a79eae931f842e257/0_199_3351_2681/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=d023067ea029630e7bca874700208189"
           }
         ]
       },
@@ -3724,7 +3826,7 @@
         ],
         "score": 3.98,
         "firstSeenAt": "2026-11-13T14:14:44.000Z",
-        "lastUpdatedAt": "2026-11-13T16:32:57.000Z",
+        "lastUpdatedAt": "2026-11-13T16:39:34.000Z",
         "image": {
           "url": "https://i.guim.co.uk/img/media/d169429d7a6f7e570a871b03d7a39e581e77f265/1443_446_3976_3181/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=335abbd675f9e2a81a30d3747adce55e",
           "sourceId": "guardian-world",
@@ -3761,27 +3863,27 @@
             "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
             "title": "Europe should not walk into Russia’s ‘traps’ on Ukraine talks, EU’s foreign policy chief Kallas says – Europe live",
             "summary": "Kaja Kallas warns against agreeing to Russia’s proposed sequence of events on talks on Ukraine Hungary’s Péter Magyar is also here, looking very elegant as always… … but it looks like he took a slight detour on the way back to hotel last night to try and pour a perfect pint of Guinness. Continue reading...",
-            "publishedAt": "2026-11-13T16:32:57.000Z",
+            "publishedAt": "2026-11-13T16:39:34.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/e308c3f7bef8218a6a291d8a4a13b3ac9c676166/1128_254_3855_3084/master/3855.jpg?width=140&quality=85&auto=format&fit=max&s=e27b929d7f9fa32198cf68f5438f1dc5"
           }
         ]
       },
       {
-        "storyId": "8d6a28580c7d9f6c",
+        "storyId": "12990af15e181ab9",
         "language": "en",
         "label": "single-source",
         "developing": true,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
-        "firstSeenAt": "2026-11-13T16:24:50.000Z",
-        "lastUpdatedAt": "2026-11-13T16:24:50.000Z",
+        "score": 3.98,
+        "firstSeenAt": "2026-11-13T16:38:27.000Z",
+        "lastUpdatedAt": "2026-11-13T16:38:27.000Z",
         "image": {
-          "url": "https://i.guim.co.uk/img/media/0b0e1043f531f2cf4be1034a79eae931f842e257/0_199_3351_2681/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=d023067ea029630e7bca874700208189",
+          "url": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=140&quality=85&auto=format&fit=max&s=e95b645a4c0a5af395dfec056a8ec751",
           "sourceId": "guardian-world",
           "sourceName": "The Guardian World",
-          "articleUrl": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
+          "articleUrl": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
         },
         "sources": [
           {
@@ -3795,99 +3897,18 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T16:24:50.000Z",
+            "at": "2026-11-13T16:38:27.000Z",
             "sourceId": "guardian-world"
           }
         ],
         "articles": [
           {
             "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-            "title": "Scott Bessent blames commerce department over delay blacklisting China-linked data company – US politics live",
-            "summary": "Treasury secretary says he was in favor ‘for months’ of putting Megaspeed on blacklist to stop Nvidia exporting advanced chips to Beijing Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
-            "publishedAt": "2026-11-13T16:24:50.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/0b0e1043f531f2cf4be1034a79eae931f842e257/0_199_3351_2681/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=d023067ea029630e7bca874700208189"
-          }
-        ]
-      },
-      {
-        "storyId": "a423a00e9d845690",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.97,
-        "firstSeenAt": "2026-11-13T16:22:33.000Z",
-        "lastUpdatedAt": "2026-11-13T16:22:33.000Z",
-        "sources": [
-          {
-            "id": "al-jazeera",
-            "name": "Al Jazeera English",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T16:22:33.000Z",
-            "sourceId": "al-jazeera"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
-            "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
-            "summary": "Despite Treasury's Scott Bessent's remarks, financial tracker CME Fed Watch forecasts rate hike in December likely.",
-            "publishedAt": "2026-11-13T16:22:33.000Z"
-          }
-        ]
-      },
-      {
-        "storyId": "7ecdead41695a170",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.97,
-        "firstSeenAt": "2026-11-13T16:22:16.000Z",
-        "lastUpdatedAt": "2026-11-13T16:22:16.000Z",
-        "image": {
-          "url": "https://i.guim.co.uk/img/media/e8f34616a89eb687ef51aa6aa3542d0569d4d6f6/405_0_3858_3086/master/3858.jpg?width=140&quality=85&auto=format&fit=max&s=040b7cd16d653ef4ff426c858d83e2ca",
-          "sourceId": "guardian-world",
-          "sourceName": "The Guardian World",
-          "articleUrl": "https://www.theguardian.com/business/2026/nov/13/jaguar-land-rover-quarterly-loss-electric-cars-job-cuts"
-        },
-        "sources": [
-          {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T16:22:16.000Z",
-            "sourceId": "guardian-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/business/2026/nov/13/jaguar-land-rover-quarterly-loss-electric-cars-job-cuts",
-            "title": "Jaguar Land Rover reports £451m quarterly loss after cutting 4,000 jobs",
-            "summary": "JLR chief executive calls for EU and Britain to join forces amid competition from Chinese electric carmakers Jaguar Land Rover has reported a £451m quarterly loss as it counts the cost of cutting 4,000 jobs, while its chief executive has called for the EU and Britain to work together in the face of competition from China. Britain’s largest automotive employer reported revenues rising to £5.9bn between July and September, but it recorded £530m in costs from the job cuts announced near the end of that period amid tough trading conditions. Continue reading...",
-            "publishedAt": "2026-11-13T16:22:16.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/e8f34616a89eb687ef51aa6aa3542d0569d4d6f6/405_0_3858_3086/master/3858.jpg?width=140&quality=85&auto=format&fit=max&s=040b7cd16d653ef4ff426c858d83e2ca"
+            "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+            "title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+            "summary": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems The Austrian logician Kurt Gödel was one of the most original thinkers of the 20th century. His two incompleteness theorems, published in 1931, transformed mathematics and paved the way for the digital age. After his seminal results of the 1930s, Gödel published only a few papers. His unpublished work, however, runs to tens of thousands of pages, and is of great interest to historians of science. Continue reading...",
+            "publishedAt": "2026-11-13T16:38:27.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=140&quality=85&auto=format&fit=max&s=e95b645a4c0a5af395dfec056a8ec751"
           }
         ]
       },
@@ -3899,9 +3920,9 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.95,
-        "firstSeenAt": "2026-11-13T16:07:59.000Z",
-        "lastUpdatedAt": "2026-11-13T16:07:59.000Z",
+        "score": 3.98,
+        "firstSeenAt": "2026-11-13T16:36:21.000Z",
+        "lastUpdatedAt": "2026-11-13T16:36:21.000Z",
         "image": {
           "url": "https://i.guim.co.uk/img/media/3b61621b645dfc632bff5dc65cc2e1d29f6f29ef/349_0_3093_2474/master/3093.jpg?width=140&quality=85&auto=format&fit=max&s=648f89fb4663db19307f7684b897c227",
           "sourceId": "guardian-world",
@@ -3920,7 +3941,7 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T16:07:59.000Z",
+            "at": "2026-11-13T16:36:21.000Z",
             "sourceId": "guardian-world"
           }
         ],
@@ -3930,7 +3951,7 @@
             "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
             "title": "Met police launch investigation into David Walliams allegations",
             "summary": "Police say allegations of sexual misconduct are separate from those made by multiple women in Guardian and ITN investigation The Metropolitan police have announced a criminal investigation into David Walliams over alleged sexual misconduct. In reports by the Guardian and ITV News, Walliams, 55, has been accused by multiple women of using his power and celebrity status to prey on young women and teenagers for sex. Continue reading...",
-            "publishedAt": "2026-11-13T16:07:59.000Z",
+            "publishedAt": "2026-11-13T16:36:21.000Z",
             "imageUrl": "https://i.guim.co.uk/img/media/3b61621b645dfc632bff5dc65cc2e1d29f6f29ef/349_0_3093_2474/master/3093.jpg?width=140&quality=85&auto=format&fit=max&s=648f89fb4663db19307f7684b897c227"
           }
         ]
