@@ -1,0 +1,3941 @@
+{
+  "version": 1,
+  "bulletin": {
+    "slot": "late",
+    "publishAt": "2026-11-13T19:30:00.000Z"
+  },
+  "generatedAt": "2026-11-13T16:45:53.974Z",
+  "window": {
+    "since": "2026-11-13T02:45:53.974Z",
+    "until": "2026-11-13T16:45:53.974Z"
+  },
+  "sections": {
+    "turkey": [
+      {
+        "storyId": "cfd180a6c6cecbb8",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 17,
+        "firstSeenAt": "2026-11-13T15:52:17.000Z",
+        "lastUpdatedAt": "2026-11-13T16:42:50.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af7322b3516f14679cc7b35.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/bakan-gurlek-uc-ayri-cinayet-dosyasini-yeniden-ele-aldik-43377515"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:52:17.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:56:27.000Z",
+            "sourceId": "a-haber"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T15:56:27.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:00:42.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:01:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:36:09.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:42:50.000Z",
+            "sourceId": "sozcu"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/bakan-gurlek-uc-ayri-cinayet-dosyasini-yeniden-ele-aldik-43377515",
+            "title": "Bakan Gürlek: Üç ayrı cinayet dosyasını yeniden ele aldık",
+            "summary": "Adalet Bakanı Akın Gürlek, \"Faili Meçhul Suçları Araştırma Daire Başkanlığımızın koordinasyonunda, Bursa ve Bitlis’te 14, 16 ve 20 yıldır aydınlatılamayan üç ayrı cinayet dosyasını yeniden ele aldık.\" açıklamasında bulundu.",
+            "publishedAt": "2026-11-13T15:52:17.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af7322b3516f14679cc7b35.jpg"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/76-dosyada-83-faili-mechul-cinayet-aydinlatildi",
+            "title": "Bakan Akın Gürlek duyurdu! 76 dosyada 83 faili meçhul cinayet aydınlatıldı: 14, 16 ve 20 yıllık sır perdesi aralandı",
+            "summary": "Adalet Bakanı Akın Gürlek, sosyal medya hesabından yaptığı açıklamada, geçmiş yıllarda işlenen cinayetlerin aydınlatılmasına yönelik çalışmalar kapsamında 76 dosyada 83 cinayetin faili meçhul olmaktan... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T15:56:27.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/f27cb7/0/0/0/0/2048/1365?u=https://iahbr.tmgrup.com.tr/2026/11/13/76-dosyada-83-faili-mechul-cinayet-aydinlatildi-1794585330773.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/bakan-gurlek-uc-faili-mechul-cinayet-dosyasi-daha-aydinlatildi-1750757",
+            "title": "Bakan Gürlek: Üç faili meçhul cinayet dosyası daha aydınlatıldı",
+            "summary": "Adalet Bakanı Akın Gürlek, Bursa'da iki ve Bitlis'te bir kayıp dosyasının daha aydınlatıldığını açıklarken, bugüne kadar 76 dosyada 83 cinayetin faili meçhul olmaktan çıkarıldığını söyledi.",
+            "publishedAt": "2026-11-13T16:00:42.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/g%C3%BCrlek-823399-438409.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/akin-gurlek-duyurdu-3-faili-mechul-cinayet-dosyasini-yeniden-inceleme-2555972",
+            "title": "Akın Gürlek duyurdu: 3 faili meçhul cinayet dosyasını yeniden inceleme!",
+            "summary": "Adalet Bakanı Akın Gürlek, 76 dosyada 83 cinayetin faili meçhul olmaktan çıkarıldığını açıkladı. Bursa ve Bitlis'te 14, 16 ve 20 yıldır aydınlatılamayan üç cinayet dosyasının yeniden ele alındığını belirten Gürlek, soruşturmalar kapsamında şüphelilerin gözaltına alındığını, 3 kişinin tutuklandığını duyurdu.",
+            "publishedAt": "2026-11-13T16:01:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/d457a6df-735f-4919-bc60-9babb2b2de15.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/adalet-bakani-gurlek-76-dosyadaki-83-cinayetin-aydinlatildigini-duyurdu-3927219",
+            "title": "83 cinayet faili meçhul aydınlatıldı",
+            "summary": "Adalet Bakanı Akın Gürlek, 76 dosyada 83 cinayetin faili meçhul olmaktan çıkarıldığını açıkladı. Bursa ve Bitlis'te 14, 16 ve 20 yıldır aydınlatılamayan üç cinayet dosyasının yeniden ele alındığını belirten Bakan Gürlek, operasyonlarda tutuklamalar ve gözaltılar olduğunu duyurdu",
+            "publishedAt": "2026-11-13T16:21:56.000Z",
+            "copyOf": "7e90c52b55ce00cf",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794586895/3927219/jpg/1920x1080"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/adalet-bakani-gurlek-3-faili-mechul-cinayetin-daha-aydinlatildigini-duyurdu/4124605",
+            "title": "Adalet Bakanı Gürlek, 3 faili meçhul cinayetin daha aydınlatıldığını duyurdu",
+            "summary": "Adalet Bakanı Akın Gürlek, Bursa ve Bitlis'te 14, 16 ve 20 yıldır aydınlatılamayan 3 faili meçhul cinayetin aydınlatıldığını bildirdi.",
+            "publishedAt": "2026-11-13T16:36:09.000Z"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/gurlek-acikladi-uc-cinayet-sorusturmasinda-3-tutuklama-11-gozalti-p381122",
+            "title": "Gürlek açıkladı: Üç cinayet soruşturmasında 3 tutuklama, 11 gözaltı",
+            "summary": "Adalet Bakanı Akın Gürlek, Bursa ve Bitlis’te 14, 16 ve 20 yıldır aydınlatılamayan üç cinayet dosyasının yeniden ele alı...",
+            "publishedAt": "2026-11-13T16:42:50.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/947jpg-fxb3aoL5vUy_FWb0dMp7pA.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "8b9956b43fb710be",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 16.93,
+        "firstSeenAt": "2026-11-13T12:16:42.000Z",
+        "lastUpdatedAt": "2026-11-13T15:53:10.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6ff9dc813a6f07cce8002.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/yunanistanda-yakalanip-turkiyeye-getirilmisti-yeni-nesil-suc-orgutu-elebasi-sercan-sayal-adliyede-43377152"
+        },
+        "sources": [
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:16:42.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:17:05.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T12:17:05.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:48:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:16:21.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:43:38.000Z",
+            "sourceId": "diken"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:53:10.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/116-suctan-aranan-yunanistanda-yakalanan-suc-orgutu-elebasi-adliyede-p381054",
+            "title": "116 suçtan aranan Yunanistan'da yakalanan suç örgütü elebaşı adliyede",
+            "summary": "Kırmızı bültenle 116 suçtan aranan Sercan Sayal, Yunanistan'da yakalanmasının ardından Türkiye'ye iade edildi. İzmir'e g...",
+            "publishedAt": "2026-11-13T12:16:42.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/116suctanarananyunanistandayakalanansucorgutuelebasiadliyedekapak60194631250fd640jpg-Bh4m0ucrnkKlNXHJenzxgA.jpg"
+          },
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/yunanistanda-yakalanip-turkiyeye-getirilmisti-yeni-nesil-suc-orgutu-elebasi-sercan-sayal-adliyede-43377152",
+            "title": "Yunanistan'da yakalanıp Türkiye'ye getirilmişti: Yeni nesil suç örgütü elebaşı Sercan Sayal adliyede",
+            "summary": "Yunanistan'da yakalanarak dün İzmir'e getirilen \"yeni nesil organize suç örgütü\" elebaşı Sercan Sayal, adliyeye sevk edildi.",
+            "publishedAt": "2026-11-13T12:17:05.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6ff9dc813a6f07cce8002.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/116-suctan-kirmizi-bultenle-aranan-sercan-sayal-tutuklandi-2555907",
+            "title": "116 suçtan kırmızı bültenle aranan Sercan Sayal tutuklandı",
+            "summary": "Yunanistan’dan Türkiye’ye iade edilen ve 116 ayrı suçtan kırmızı bültenle uluslararası düzeyde aranan organize suç örgütü elebaşı Sercan Sayal tutuklandı.",
+            "publishedAt": "2026-11-13T12:48:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/b159b06c-72e0-4d7c-a937-554de9d551c1.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/galeri-turkiyeye-iade-edilen-sercan-sayal-adliyeye-sevk-edildi-1750725",
+            "title": "Türkiye'ye iade edilen Sercan Sayal tutuklandı",
+            "summary": "Yunanistan'da yakalanıp Türkiye'ye getirilen yeni nesil organize suç örgütü elebaşı Sercan Sayal tutuklandı.",
+            "publishedAt": "2026-11-13T14:16:21.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/sercan-sayal-sevk-956447.jpg"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/yeni-nesil-suc-orgutu-operasyonu-sercan-sayal-tutuklandi/",
+            "title": "'Yeni nesil suç örgütü' operasyonu: Sercan Sayal tutuklandı",
+            "summary": "'Yeni nesil suç örgütü' operasyonu: Sercan Sayal tutuklandı 13.11.2026 Diken ‘Yeni nesil suç örgütü’ operasyonunda Yunanistan’da yakalanarak 12 Kasım’da İzmir’e getirilen elebaşı Sercan Sayal tutuklandı. The post 'Yeni nesil suç örgütü' operasyonu: Sercan Sayal tutuklandı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T15:43:38.000Z"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/yunanistan-dan-turkiye-ye-getirilen-suc-orgutu-elebasi-sercan-sayal-tutuklandi-3927217",
+            "title": "116 suçtan aranan Sercan Sayal tutuklandı",
+            "summary": "Yunanistan'da yakalanarak Türkiye'ye getirilen ve 116 suçtan aranma kaydı bulunan yeni nesil organize suç örgütü elebaşı Sercan Sayal, İzmir'de çıkarıldığı hakimlikçe tutuklandı",
+            "publishedAt": "2026-11-13T15:53:10.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794585139/3927217/jpg/1920x1080"
+          }
+        ]
+      },
+      {
+        "storyId": "d9f61916b99873b3",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 16.72,
+        "firstSeenAt": "2026-11-13T10:38:00.000Z",
+        "lastUpdatedAt": "2026-11-13T13:22:28.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e879c813a6f07cce7f5d.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/19-isci-patlamada-hayatini-kaybetmisti-habasta-iscilere-telefon-yasagi-iddiasi-43376974"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "medyascope",
+            "name": "Medyascope",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T10:38:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T10:38:13.000Z",
+            "sourceId": "medyascope"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T10:38:13.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:07:54.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:56:59.000Z",
+            "sourceId": "haberturk"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:07:15.000Z",
+            "sourceId": "bbc-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:22:28.000Z",
+            "sourceId": "diken"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/19-isci-patlamada-hayatini-kaybetmisti-habasta-iscilere-telefon-yasagi-iddiasi-43376974",
+            "title": "19 işçi patlamada hayatını kaybetmişti! HABAŞ'ta işçilere telefon yasağı iddiası",
+            "summary": "İzmir'in Aliağa ilçesindeki HABAŞ Demir Çelik Fabrikası'nda işçilerin cep telefonuyla içeri girmesinin yasaklanması üzerine sabah vardiyasındaki çalışanlar iş bıraktı. Karara tepki gösteren işçiler fabrika önünde bekleyişe geçerken, işçilerle yaşanan gerginlikte arbede çıktı.",
+            "publishedAt": "2026-11-13T10:38:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e879c813a6f07cce7f5d.jpg"
+          },
+          {
+            "sourceId": "medyascope",
+            "url": "https://medyascope.tv/2026/11/13/habas-yonetim-kurulu-baskani-mehmet-rustu-basaran-talimat-verdi-fabrikaya-telefon-yasagi-getirildi/",
+            "title": "HABAŞ Yönetim Kurulu Başkanı Mehmet Rüştü Başaran talimat verdi: Fabrikaya “telefon yasağı” getirildi",
+            "summary": "HABAŞ Demir Çelik Fabrikası'nda 9 Kasım'da meydana gelen patlamanın ardından işçilerin cep telefonları fabrika içerisine alınmadı. HABAŞ Yönetim Kurulu Başkanı Mehmet Rüştü Başaran talimat verdi: Fabrikaya “telefon yasağı” getirildi Medyascope",
+            "publishedAt": "2026-11-13T10:38:13.000Z"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/galeri-18-iscinin-oldugu-habasta-telefon-yasagi-iddiasi-fabrika-onunde-arbede-cikti-1750712",
+            "title": "18 işçinin öldüğü HABAŞ'ta telefon yasağı iddiası: Fabrika önünde arbede çıktı",
+            "summary": "İzmir'de 18 işçinin yaşamını yitirdiği HABAŞ fabrikasında telefon yasağı getirildiği iddia edildi. Karara tepki gösteren işçiler fabrika önünde bekleyişe geçerken eylem sırasında arbede yaşandı.",
+            "publishedAt": "2026-11-13T11:07:54.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/haba%C5%9F-1-887379.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/son-dakika-haberi-habas-iscileri-telefon-yasagini-protesto-etti-gozaltilar-var-3927147",
+            "title": "HABAŞ fabrikasında gerginlik!",
+            "summary": "İzmir'in Aliağa ilçesinde 19 işçinin hayatını kaybettiği HABAŞ Demir Çelik Fabrikası'nda, işçilere cep telefonu yasağı getirilmesi üzerine gerginlik çıktı. Kararı protesto eden işçiler fabrikaya girmezken, fabrika önünde gerginlik çıktı",
+            "publishedAt": "2026-11-13T12:56:59.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794573553/3927147/jpg/1920x1080"
+          },
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/c539gl7dw2l0o?at_medium=RSS&at_campaign=rss",
+            "title": "HABAŞ önünde eylem yapan işçilere müdahale: '20'ye yakın kişi gözaltına alındı'",
+            "summary": "19 işçinin hayatını kaybettiği, 14 kişinin yaralandığı HABAŞ demir çelik fabrikasında çalışan işçiler fabrika önünde eylem yaptı. Kolluk kuvvetleri işçilere müdahale etti. Ege İşçi Birliği, 20'ye yakın kişinin gözaltına alındığını açıkladı.",
+            "publishedAt": "2026-11-13T13:07:15.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4907/live/27a01b00-df5e-11f1-a8af-15d7a25dc0d1.jpg"
+          },
+          {
+            "sourceId": "medyascope",
+            "url": "https://medyascope.tv/2026/11/13/habasta-eylem-yapan-iscilere-mudahale-bazi-isciler-gozaltinda/",
+            "title": "HABAŞ’ta fabrika önünde eylem yapan işçilere jandarma müdahale etti: Çok sayıda işçi gözaltına alındı",
+            "summary": "HABAŞ Demir Çelik Fabrikası’nda işçiler, fabrika yönetiminin getirdiği cep telefonu yasağına karşı tesisin önündeki yolu trafiğe kapattı. HABAŞ’ta fabrika önünde eylem yapan işçilere jandarma müdahale etti: Çok sayıda işçi gözaltına alındı Medyascope",
+            "publishedAt": "2026-11-13T13:14:30.000Z"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/habas-onunde-eylem-yapan-iscilere-jandarma-mudahalesi/",
+            "title": "HABAŞ önünde eylem yapan işçilere jandarma müdahalesi",
+            "summary": "HABAŞ önünde eylem yapan işçilere jandarma müdahalesi 13.11.2026 Diken İzmir'in Aliağa ilçesindeki HABAŞ Demir Çelik Fabrikası'nda 9 Kasım'da meydana gelen patlamanın ardından cep telefonlarının fabrikaya alınmasının yasaklanmasına tepki gösteren işçilere jandarma müdahale etti. The post HABAŞ önünde eylem yapan işçilere jandarma müdahalesi appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T13:22:28.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "d81be64c130b12b0",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 14.98,
+        "firstSeenAt": "2026-11-13T12:22:54.000Z",
+        "lastUpdatedAt": "2026-11-13T16:31:30.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af71920c813a6f07cce809c.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-katar-emiri-al-sani-ile-gorusuyor-43377329"
+        },
+        "sources": [
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": false
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:22:54.000Z",
+            "sourceId": "a-haber"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:50:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T13:50:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:19:39.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:34:42.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:31:30.000Z",
+            "sourceId": "diken"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/dolmabahcede-turkiye-katar-zirvesi-baskan-erdogan-ve-al-saniden-kritik-gorusme",
+            "title": "Türkiye- Katar arasında 5 anlaşmaya imza! Başkan Erdoğan Katar Emiri Al Sani'yi kabul etti: \"İş birliğimiz artarak sürecek\"",
+            "summary": "Başkan Recep Tayyip Erdoğan, Katar Emiri Şeyh Temim bin Hamad Al Sani ile Dolmabahçe Ofisi'nde görüştü. Görüşmede Türkiye-Katar ilişkileri, karşılıklı savunma anlaşması, enerji ve ticaret iş birliği... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T12:22:54.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/0f1a81/0/0/0/0/2048/1497?u=https://iahbr.tmgrup.com.tr/2026/11/13/dolmabahcede-turkiye-katar-zirvesi-baskan-erdogan-al-saniyi-kabul-edecek-1794572317915.jpg"
+          },
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-katar-emiri-al-sani-ile-gorusuyor-43377329",
+            "title": "Türkiye ile Katar arasında 5 anlaşma imzalandı",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan'ın, Katar Emiri Şeyh Temim bin Hamed Al Sani ile görüştü. Görüşmenin ardından Türkiye ile Katar arasında ticaret, eğitim, diplomasi ve savunma alanlarında 5 anlaşma imzalandı.",
+            "publishedAt": "2026-11-13T13:50:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af71920c813a6f07cce809c.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/erdogan-katar-emiri-al-sani-ile-dolmabahcede-gorustu-p381101",
+            "title": "Erdoğan, Katar Emiri Al Sani ile Dolmabahçe'de görüştü",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Türkiye'yi ziyaret eden Katar Emiri Şeyh Temim bin Hamed Al Sani'yi İstanbul'daki Cu...",
+            "publishedAt": "2026-11-13T14:19:39.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/erdogankataremirialsaniiledolmabahcedegorustukapaka4d7aa0a0c7501a4jpg-ySL2QtLsLU_vIO8yQ-yjXQ.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/turkiye-ile-katar-arasinda-5-anlasma-imzalandi/4124342",
+            "title": "Türkiye ile Katar arasında 5 anlaşma imzalandı",
+            "summary": "Türkiye ile Katar arasında ticaret, eğitim, diplomasi ve savunma alanlarını kapsayan 5 anlaşma imzalandı.",
+            "publishedAt": "2026-11-13T14:50:40.000Z",
+            "copyOf": "7d016ad192cc5d92"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/cumhurbaskani-erdogan-katar-emiri-al-sani-ile-gorustu-3927199",
+            "title": "Türkiye ile Katar arasında 5 anlaşma imzalandı",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Katar Emiri Şeyh Temim bin Hamed Al Sani ile görüştü. Türkiye ile Katar arasında ticaret, eğitim, diplomasi ve savunma alanlarını kapsayan 5 anlaşma imzalandı.",
+            "publishedAt": "2026-11-13T15:24:02.000Z",
+            "copyOf": "7d016ad192cc5d92",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794583481/3927199/jpg/1920x1080"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-katar-emiri-al-sani-ile-gorusuyor-1750748",
+            "title": "Cumhurbaşkanı Erdoğan, Katar Emiri Al Sani ile görüştü",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Katar Emiri Şeyh Temim bin Hamed Al Sani ile görüştü. Görüşmede çeşitli alanlarda 5 anlaşmaya imza atıldı.",
+            "publishedAt": "2026-11-13T15:34:42.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/AA-20261113-43068867-43068866-CUMHURBASKANI_ERDOGANIN_KATAR_EMIRI_AL_SANI_ILE_GORUSMESI_BASLADI-541707.jpg"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/turkiye-katarla-karsilikli-savunma-anlasmasi-imzaladi/",
+            "title": "Türkiye Katar'la karşılıklı savunma anlaşması imzaladı",
+            "summary": "Türkiye Katar'la karşılıklı savunma anlaşması imzaladı 13.11.2026 Diken Türkiye ile Katar arasında karşılıklı savunma anlaşması imzalandı. The post Türkiye Katar'la karşılıklı savunma anlaşması imzaladı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T16:31:30.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "b40bd49230c560c9",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 14.97,
+        "firstSeenAt": "2026-11-13T08:02:03.000Z",
+        "lastUpdatedAt": "2026-11-13T16:27:39.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945"
+        },
+        "sources": [
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "euronews-tr",
+            "name": "Euronews Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "dw-turkce",
+            "name": "DW Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T08:02:03.000Z",
+            "sourceId": "diken"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T10:19:30.000Z",
+            "sourceId": "euronews-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T10:19:30.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T10:57:00.000Z",
+            "sourceId": "dw-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:22:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:27:39.000Z",
+            "sourceId": "bbc-turkce"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/microsoft-uygulamalarinda-erisim-sorunu/",
+            "title": "Microsoft uygulamalarında erişim sorunu",
+            "summary": "Microsoft uygulamalarında erişim sorunu 13.11.2026 Diken ABD merkezli teknoloji şirketi Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları olduğu bildirildi. The post Microsoft uygulamalarında erişim sorunu appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T08:02:03.000Z"
+          },
+          {
+            "sourceId": "euronews-tr",
+            "url": "https://tr.euronews.com/2026/11/13/microsoft-kesintisi-74-ulkede-outlook-ve-teams-bir-gunden-fazla-erisilemedi",
+            "title": "Microsoft kesintisi: 74 ülkede Outlook ve Teams bir günden fazla erişilemedi",
+            "summary": "Hükümetler, doktor muayenehaneleri ve hatta rakip yapay zeka şirketleri de sürece dahil oldu; bu olay, Avrupa’nın az sayıdaki ABD teknoloji devine bağımlılığına dair soruları keskinleştiriyor.",
+            "publishedAt": "2026-11-13T10:19:30.000Z"
+          },
+          {
+            "sourceId": "dw-turkce",
+            "url": "https://www.dw.com/tr/microsoft-ta-kesinti-s%C3%BCr%C3%BCyor-siber-sald%C4%B1r%C4%B1-kan%C4%B1t%C4%B1-yok/a-79936765?maca=tur-rss-tur-all-1495-rdf",
+            "title": "Microsoft'ta kesinti sürüyor: Siber saldırı kanıtı yok",
+            "summary": "Microsoft'un Outlook, Teams ve Copilot hizmetlerinde erişim sorunu yaşanıyor. Şirket, bunun siber saldırı kaynaklı olduğuna dair kanıt bulunmadığını bildirdi.",
+            "publishedAt": "2026-11-13T10:57:00.000Z"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/bilim-teknoloji/microsoft-outlook-coktu-mu-teams-neden-calismiyor-13-kasim-2016-microsoft-365-neden-acilmiyor-2555945",
+            "title": "Microsoft Outlook düzeldi mi? Teams ne zaman açılacak? 13 Kasım 2016 Microsoft 365 ne zaman düzelecek?",
+            "summary": "Microsoft'un Microsoft 365, Outlook ve Teams hizmetlerinde erişim sorunları yaşandığı bildirildi. En az 20 saattir devam eden bir Microsoft kesintisi, Teams, Outlook ve yapay zeka yazılımı Copilot dahil olmak üzere çeşitli hizmetleri etkiledi. Peki, Microsoft Outlook çöktü mü? Teams neden çalışmıyor? 13 Kasım 2016 Microsoft 365 neden açılmıyor?",
+            "publishedAt": "2026-11-13T14:22:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/eece3313-b5ff-4b3c-b557-a32968637484.jpg"
+          },
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/c5n4ez3gvp1zo?at_medium=RSS&at_campaign=rss",
+            "title": "Microsoft uygulamalarında küresel kesinti neden bu kadar uzun sürdü?",
+            "summary": "Dünya çapında yüz milyonlarca kullanıcısı olan Microsoft işletim sistemine ait bazı uygulamalara birçok ülkede erişim sorunu yaşanıyor. Şirket, sorunun siber saldırı kaynaklı olmadığını ve çözüm üzerinde çalıştıklarını açıkladı. Özellikle Microsoft 365 uygulamalarından Outlook, Teams ve yapay zeka uygulaması Copilot'a erişimde sorun yaşanıyor.",
+            "publishedAt": "2026-11-13T16:27:39.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5941/live/71d898e0-df64-11f1-a8af-15d7a25dc0d1.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "78317291a0700b09",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 14.92,
+        "firstSeenAt": "2026-11-13T15:18:14.000Z",
+        "lastUpdatedAt": "2026-11-13T15:50:00.000Z",
+        "image": {
+          "url": "https://im.haberturk.com/l/2026/11/13/ver1794584454/3927208/jpg/1920x1080",
+          "sourceId": "haberturk",
+          "sourceName": "Habertürk",
+          "articleUrl": "https://www.haberturk.com/gundem/son-dakika-izmir-aliaga-da-can-kaybi-19-a-yukseldi-3927208"
+        },
+        "sources": [
+          {
+            "id": "sabah",
+            "name": "Sabah",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": false
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": false
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:18:14.000Z",
+            "sourceId": "sabah"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:27:26.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T15:27:26.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:35:19.000Z",
+            "sourceId": "diken"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:41:17.000Z",
+            "sourceId": "haberturk"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:46:27.000Z",
+            "sourceId": "ntv"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/yasam/izmir-aliagadaki-faciada-can-kaybi-19a-yukseldi-7701143",
+            "title": "İzmir Aliağa'daki faciada can kaybı 19'a yükseldi",
+            "summary": "İzmir'in Aliağa ilçesinde patlamanın meydana geldiği HABAŞ Demir Çelik Fabrikası'nda enkazda kayıp olarak aranan Barış Güney'in de cansız bedenine ulaşıldı. İzmir Adli Tıp Kurumu'nda gerçekleştirilen DNA... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T15:18:14.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/dfb30c/1200/675/0/0/800/449?u=https://isbh.tmgrup.com.tr/sbh/2026/11/13/izmir-aliagadaki-faciada-can-kaybi-19a-yukseldi-1794583056777.jpeg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/izmirde-fabrikadaki-patlamada-hayatini-kaybedenlerin-sayisi-19a-yukseldi/4124450",
+            "title": "İzmir'de fabrikadaki patlamada hayatını kaybedenlerin sayısı 19'a yükseldi",
+            "summary": "İzmir'in Aliağa ilçesindeki demir çelik fabrikasında meydana gelen patlamanın ardından aranan işçi Barış Güney'in cenazesine ulaşılmasıyla hayatını kaybedenlerin sayısı 19'a yükseldi.",
+            "publishedAt": "2026-11-13T15:27:26.000Z"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/habas-fabrikasindaki-patlamada-olu-sayisi-19a-cikti/",
+            "title": "HABAŞ fabrikasındaki patlamada ölü sayısı 19'a çıktı",
+            "summary": "HABAŞ fabrikasındaki patlamada ölü sayısı 19'a çıktı 13.11.2026 Diken İzmir’in Aliağa ilçesindeki HABAŞ Demir Çelik Fabrikası’nda 9 Kasım’da meydana gelen patlamada ölü sayısı 19'a çıktı. The post HABAŞ fabrikasındaki patlamada ölü sayısı 19'a çıktı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T15:35:19.000Z"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/son-dakika-izmir-aliaga-da-can-kaybi-19-a-yukseldi-3927208",
+            "title": "İzmir Aliağa'da can kaybı 19'a yükseldi",
+            "summary": "İzmir Aliağa'daki fabrika patlamasında kayıp olarak aranan Barış Güney'in cenazesine ulaşıldı, can kaybı 19'a yükseldi",
+            "publishedAt": "2026-11-13T15:41:17.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794584454/3927208/jpg/1920x1080"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/izmir-aliaga-daki-faciada-can-kaybi-19-a-yukseldi-p381112",
+            "title": "İzmir Aliağa'daki faciada can kaybı 19'a yükseldi",
+            "summary": "İzmir Aliağa'daki fabrika patlamasında kayıp olarak aranan Barış Güney'in cenazesine ulaşıldı, böylece can kaybı 19'a yü...",
+            "publishedAt": "2026-11-13T15:46:19.000Z",
+            "copyOf": "fee6223fff9efde6",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/sondakika880x487uzunjpg-BNRlohNsQE21_M5RLT2IhA.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/izmirdeki-habas-fabrikasinda-yasamini-yitiren-iscilerin-sayisi-19a-yukseldi-1750754",
+            "title": "İzmir'deki HABAŞ fabrikasında yaşamını yitiren işçilerin sayısı 19'a yükseldi",
+            "summary": "İzmir Aliağa'daki HABAŞ fabrikasındaki patlamada yaşamını yitiren işçilerin sayısı 19'a yükseldi.",
+            "publishedAt": "2026-11-13T15:46:27.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/haba_C5_9F-patlamas_C4_B1-326080-613649.png"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/habas-faciasinda-kayip-iscinin-cenazesine-ulasildi-can-kaybi-19-a-yukseldi-2555969",
+            "title": "HABAŞ faciasında kayıp işçinin cenazesine ulaşıldı: Can kaybı 19'a yükseldi…",
+            "summary": "İzmir'in Aliağa ilçesindeki HABAŞ Demir-Çelik fabrikasında meydana gelen patlamanın ardından kayıp olarak aranan işçi Barış Güney'in cenazesine ulaşıldı. Acı haberle birlikte faciada hayatını kaybedenlerin sayısı 19'a yükseldi.",
+            "publishedAt": "2026-11-13T15:50:00.000Z",
+            "copyOf": "138662055b594f4e",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/12528010-f4b8-4f2d-a338-c1ec8d717fad.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "fe16b895109e7c66",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.92,
+        "firstSeenAt": "2026-11-13T10:22:45.000Z",
+        "lastUpdatedAt": "2026-11-13T15:48:35.000Z",
+        "image": {
+          "url": "https://images.ntv.com.tr/images/AA-20261113-43063442-43063440-BURSADA_LODOS_ETKILI_OLUYOR-403626.jpg",
+          "sourceId": "ntv",
+          "sourceName": "NTV",
+          "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-istanbulda-lodos-firtinasi-catilar-uctu-agaclar-devrildi-yolda-yurumek-zorlasti-1750672"
+        },
+        "sources": [
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T10:22:45.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T10:30:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T10:30:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T10:59:40.000Z",
+            "sourceId": "diken"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:48:35.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/galeri-istanbulda-lodos-firtinasi-catilar-uctu-agaclar-devrildi-yolda-yurumek-zorlasti-1750672",
+            "title": "İstanbul'da lodos fırtınası. Seferler iptal oldu, korulara girişler yasaklandı",
+            "summary": "İstanbul'da etkili olan lodos nedeniyle bazı binaların çatıları uçtu. Valilik kararıyla bazı korulara girişler kapatıldı. Şehir Hatları seferlerinde ise iptaller var.",
+            "publishedAt": "2026-11-13T10:22:45.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/AA-20261113-43063442-43063440-BURSADA_LODOS_ETKILI_OLUYOR-403626.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-da-firtina-alarmi-74-ihbar-yapildi-korular-ziyarete-kapatildi-2555875",
+            "title": "İstanbul'da fırtına alarmı! 74 ihbar yapıldı: Korular ziyarete kapatıldı",
+            "summary": "İstanbul’da etkili olan kuvvetli rüzgâr ve fırtına nedeniyle 112 Acil Çağrı Merkezi’ne çatı uçması ve ağaç devrilmesi başta olmak üzere 74 ihbar yapıldı. Kentte 12 koru ve park geçici olarak ziyarete kapatılırken, bazı teleferik, vapur ve deniz otobüsü seferleri de iptal edildi.",
+            "publishedAt": "2026-11-13T10:30:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/51f3d2b9-886d-4296-8513-3d3933e7405a.png"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/istanbulda-firtina-vapur-teleferik-ve-deniz-otobusleri-iptal/",
+            "title": "İstanbul'da fırtına: Vapur, teleferik ve deniz otobüsleri iptal",
+            "summary": "İstanbul'da fırtına: Vapur, teleferik ve deniz otobüsleri iptal 13.11.2026 Diken İstanbul'da fırtına nedeniyle bazı koru, park ve ormanlar geçici olarak ziyarete kapatıldı. Vapur, teleferik ve deniz otobüsü seferleri iptal edildi. The post İstanbul'da fırtına: Vapur, teleferik ve deniz otobüsleri iptal appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T10:59:40.000Z"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/son-dakika-haberi-hizi-saatte-90-km-yi-bulacak-istanbul-da-firtina-3927043",
+            "title": "Fırtına ne kadar sürecek? İstanbul Valiliği: 74 ihbar aldık! Marmara'da fırtına",
+            "summary": "Marmara'da 11 il için verilen \"sarı\" alarmın ardından bu sabah saatlerinden itibaren bölgede fırtına etkisini göstermeye başladı. İstanbul Valiliği ve AKOM tarafından yapılan hızı saatte 90 km'yi bulması beklenen fırtına bazı binaların çatısını uçurdu, ağaçları devirdi. Ulaşımda ise birçok sefer iptal oldu. İstanbul Valiliği, 74 ihbar aldıklarını açıklarken, 12 ormanlık alana can güvenliği nedeniyle ziyaretçi girişini yasakladı. MGM, cumartesi için Marmara'da 11 kente \"sarı\" kodlu şiddetli sağanak uyarısında bulundu. İşte mega kent ve Marmara'da fırtına...",
+            "publishedAt": "2026-11-13T15:48:35.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794568534/3927043/jpg/1920x1080"
+          }
+        ]
+      },
+      {
+        "storyId": "a6ea1794e035bc16",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.91,
+        "firstSeenAt": "2026-11-13T09:48:00.000Z",
+        "lastUpdatedAt": "2026-11-13T15:41:12.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6dcc8c813a6f07cce7ef3.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/gorevi-basinda-rahatsizlanan-er-sehit-oldu-43376900"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T09:48:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T09:57:24.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T09:57:24.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T10:03:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:41:12.000Z",
+            "sourceId": "a-haber"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/gorevi-basinda-rahatsizlanan-er-sehit-oldu-43376900",
+            "title": "Görevi başında rahatsızlanan er, şehit oldu",
+            "summary": "Milli Savunma Bakanlığı, Mühimmat Er Kaan Öcal'ın görevi başında rahatsızlanarak şehit olduğunu duyurdu.",
+            "publishedAt": "2026-11-13T09:48:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6dcc8c813a6f07cce7ef3.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/gorevi-basinda-rahatsizlanan-asker-sehit-oldu-1750701",
+            "title": "Görevi başında rahatsızlanan asker şehit oldu",
+            "summary": "Milli Savunma Bakanı Yaşar Güler, görevi sırasında rahatsızlanarak şehit olan Mühimmat Er Kaan Öcal için başsağlığı mesajı yayımladı.",
+            "publishedAt": "2026-11-13T09:57:24.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/HW_u_DvXIAALkE1-840177.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/gorevi-basinda-rahatsizlanan-asker-sehit-oldu-2555869",
+            "title": "Görevi başında rahatsızlanan asker şehit oldu",
+            "summary": "Kuzey Kıbrıs Türk Cumhuriyeti'nde (KKTC) askerlik görevini sürdüren Mühimmat Er Kaan Öcal, nöbet tuttuğu sırada geçirdiği kalp krizi sonucu şehit oldu.",
+            "publishedAt": "2026-11-13T10:03:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/0e08cd41-e4bc-4884-983e-f86328bf271c.jpg"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/kibrista-gorev-basinda-rahatsizlanan-muhimmat-er-kagan-ocal-sehit-oldu",
+            "title": "Kıbrıs'ta görev başında rahatsızlanan Mühimmat Er Kağan Öcal şehit oldu",
+            "summary": "Milli Savunma Bakanlığı, Kıbrıs Türk Barış Kuvvetleri Komutanlığında görevli Mühimmat Er Kağan Öcal'ın görev sırasında rahatsızlanarak kaldırıldığı hastanede şehit olduğunu duyurdu. Acı haberin... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T15:41:12.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/c948f9/0/0/0/0/2048/1536?u=https://iahbr.tmgrup.com.tr/2026/11/13/1794584430082.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "b6d0561a07114662",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.78,
+        "firstSeenAt": "2026-11-13T07:17:30.000Z",
+        "lastUpdatedAt": "2026-11-13T14:05:26.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e3018c01a1364d0688a2.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/mustafa-sarigulun-oglu-omer-sarigulun-ifadesi-ortaya-cikti-43376909"
+        },
+        "sources": [
+          {
+            "id": "sabah",
+            "name": "Sabah",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": false
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T07:17:30.000Z",
+            "sourceId": "sabah"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T09:17:50.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T09:17:50.000Z",
+            "from": "single-source",
+            "to": "reported"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T09:57:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T09:57:00.000Z",
+            "from": "reported",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:56:00.000Z",
+            "sourceId": "cumhuriyet"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/gundem/2026/11/13/mustafa-sarigulden-gozalti-sonrasi-atak-aglayarak-aradi-biz-ne-duruma-dustuk",
+            "title": "Mustafa Sarıgül’den gözaltı sonrası atak! Ağlayarak aradı: “Biz ne duruma düştük”",
+            "summary": "Sarıgül soruşturmasında henüz lise çağındayken tacize uğradığı ortaya çıkan Müge B., savcılığa ek ifade verdi. Adli kontrolle serbest bırakılmasının Mustafa Sarıgül’ün kendisini ve ablasını defalarca... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T07:17:30.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/28e92d/1200/675/0/0/1200/675?u=https://isbh.tmgrup.com.tr/sbh/2026/11/13/mustafa-sarigulden-gozalti-sonrasi-atak-aglayarak-aradi-biz-ne-duruma-dustuk-1794554251064.jpeg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/simdi-de-kardesler-birbirine-dustu-omer-sarigul-un-ifadesi-ortaya-cikti-p380973",
+            "title": "Şimdi de kardeşler birbirine düştü: Ömer Sarıgül'ün ifadesi ortaya çıktı",
+            "summary": "Sarıgül ailesine yönelik \"kara para aklama\" soruşturması kapsamında tutuklanan Ömer Sarıgül'ün savcılık ifadesi ortaya ç...",
+            "publishedAt": "2026-11-13T09:17:50.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/omersarigulpng-2QFrxDmhYkG6o9dQPiHmnw.png"
+          },
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/mustafa-sarigulun-oglu-omer-sarigulun-ifadesi-ortaya-cikti-43376909",
+            "title": "Mustafa Sarıgül’ün oğlu Ömer Sarıgül’ün ifadesi ortaya çıktı",
+            "summary": "Sarıgül Ailesi’ne yönelik soruşturmada tutuklanan Mustafa Sarıgül’ün oğlu Ömer Sarıgül’ün savcılık ifadesi ortaya çıktı. Emir Sarıgül hakkında iyi şeyler duymadığını söyleyen Ömer Sarıgül, “Ticari ilişkileri ve sosyal hayatında çok yalan söylediği, etrafında ipsiz sapsız insanlarla dolu olduğu benim kulağıma gelen bilgilerdir. Ancak ne iş yaptığını dahi bilmem. Ben babamın şuan ki servetini nasıl edindiğini bilmiyorum çünkü yaş itibarıyla bunu bilebilecek durumda değilim. Kara para aklama ile ilgili bir bilgim yoktur. “ dedi.",
+            "publishedAt": "2026-11-13T09:57:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6e3018c01a1364d0688a2.jpg"
+          },
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/gundem/2026/11/13/son-dakika-sarigul-ailesi-sorusturmasinda-yeni-gelisme-omer-sarigulun-ifadesi-ortaya-cikti-gormedim-duymadim-bilmiyorum-savunmasi",
+            "title": "SON DAKİKA… Sarıgül Ailesi soruşturmasında yeni gelişme! Ömer Sarıgül’ün ifadesi ortaya çıktı: Görmedim, duymadım, bilmiyorum savunması",
+            "summary": "SON DAKİKA… Sarıgül ailesine yönelik kara para aklama soruşturması kapsamında gözaltına alınan Ömer Sarıgül tutuklandı. Sarıgül, savcılıkta verdiği ifadede ‘görmedim, duymadım, bilmiyorum’ savunması yaptı.... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T10:06:51.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/f06c12/1200/675/0/24/1200/700?u=https://isbh.tmgrup.com.tr/sbh/2026/11/13/son-dakika-sarigul-ailesi-sorusturmasinda-yeni-gelisme-omer-sarigulun-ifadesi-ortaya-cikti-gormedim-duymadim-b-1794565220196.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/mustafa-sarigul-sorusturmasinda-hakkinda-gozalti-karari-verilen-o-eski-belediye-baskaninin-kim-p381019",
+            "title": "Mustafa Sarıgül soruşturmasında hakkında gözaltı kararı verilen o eski belediye başkanının kim olduğu ortaya çıktı",
+            "summary": "İstanbul Cumhuriyet Başsavcılığı tarafından “suçtan kaynaklanan malvarlığı değerlerini aklama” suçuna ilişkin yürütülen ...",
+            "publishedAt": "2026-11-13T10:15:09.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/sorusturmajpg-VIsAm6YT9EaSLN1dTdVYdw.jpg"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/omer-sarigulun-savcilik-ifadesindeki-80-milyon-euroluk-sozlesme-aciklamasi",
+            "title": "Sarıgül ailesi soruşturmasında Ömer Sarıgül'ün ifadesi ortaya çıktı: 80 milyon euroluk sözleşme ve 100 milyon euroluk havale savunması",
+            "summary": "Kara para aklama soruşturması kapsamında tutuklanan Ömer Sarıgül, savcılık ifadesinde 80 milyon euroluk sözleşme ve 100 milyon euroluk havaleden haberi olmadığını söyledi. Almanya'da şirket kurma... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T11:12:05.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/286ee7/1200/1200/266/0/985/720?u=https://iahbr.tmgrup.com.tr/2026/11/13/1794567855323.jpeg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/mustafa-sarigul-un-evinde-aksam-yemegi-posetten-149-bin-lira-cikti-p381011",
+            "title": "Mustafa Sarıgül'ün evinde akşam yemeği... \"Poşetten 149 bin lira çıktı\"",
+            "summary": "Mustafa Sarıgül ve ailesine yönelik yürütülen soruşturmada yeni bir ifade dosyaya girdi. Adli kontrol şartıyla serbest b...",
+            "publishedAt": "2026-11-13T11:33:12.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/mustafa-sariguljpg-L1MaX3TPrkymfNAeULLVTw.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/omer-sarigul-un-ifadesi-ortaya-cikti-agabeyi-emir-sarigul-hakkinda-carpici-sozler-2555891",
+            "title": "Ömer Sarıgül’ün ifadesi ortaya çıktı: Ağabeyi Emir Sarıgül hakkında çarpıcı sözler",
+            "summary": "Mustafa Sarıgül’ün küçük oğlu Ömer Sarıgül’ün soruşturma öncesinde verdiği ifade ortaya çıktı. Ağabeyi Emir Sarıgül’le 7-8 yıldır görüşmediğini söyleyen Ömer Sarıgül, “İyi şeyler duymadım” sözleriyle dikkat çekti. Ağabeyinin ticari faaliyetlerini bilmediğini savunan Sarıgül, aile içindeki para trafiğine ilişkin sorulara da yanıt verdi.",
+            "publishedAt": "2026-11-13T11:56:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/a31743ea-fa0b-4ace-a228-a098ccbdf093.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/sarigul-sorusturmasinda-gozaltina-alinan-ismin-ihale-gecmisi-dikkat-cekti-p381031",
+            "title": "Sarıgül soruşturması yılbaşı süslemelerine uzandı... Türkiye Basketbol Federasyonu yöneticisi gözaltına alındı",
+            "summary": "Erzincan Milletvekili Mustafa Sarıgül ve ailesiyle ilgili \"kara para aklama\" iddiasıyla başlatılan soruşturma sürüyor......",
+            "publishedAt": "2026-11-13T14:05:26.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/724jpg-O-cn_sgqzkOeD8gLZIwVxQ.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "c8f9eba6cac63f5c",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.75,
+        "firstSeenAt": "2026-11-13T13:28:07.000Z",
+        "lastUpdatedAt": "2026-11-13T13:45:15.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/77fb8213-707b-4c21-a069-8edb7d94ddd9.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/ekonomi/fon-tasfiyesinde-ne-kadar-odeme-yapildi-iletisim-baskanligi-acikladi-2555932"
+        },
+        "sources": [
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "sabah",
+            "name": "Sabah",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": false
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "diken",
+            "name": "Diken",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T13:28:07.000Z",
+            "sourceId": "a-haber"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:36:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T13:36:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:37:18.000Z",
+            "sourceId": "haberturk"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:45:15.000Z",
+            "sourceId": "diken"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/fon-tasfiyelerinde-161-milyar-tl-odeme-yapildi",
+            "title": "Fon tasfiyelerinde 161 milyar TL ödeme! \"Ara ödemeler devam edecek\" vurgusu",
+            "summary": "Onuncu Fon Koordinasyon Kurulu Toplantısı, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz başkanlığında gerçekleştirildi. Toplantıda fonların tasfiye sürecinde gelinen nokta, sağlanan gelişmeler ve atılacak... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T13:28:07.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/da8393/1200/1200/150/0/600/450?u=https://iahbr.tmgrup.com.tr/2026/11/13/fon-tasfiyelerinde-161-milyar-tl-odeme-ara-odemeler-devam-edecek-vurgusu-1794577496766.png"
+          },
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/ekonomi/son-dakika-fon-kurulu-toplantisi-sona-erdi-yatirimcilara-odeme-161-milyar-tlyi-buldu-7701096",
+            "title": "SON DAKİKA! Fon tasfiyesinde 161 milyar TL ödeme: 333 bini aşkın yatırımcı tamamını aldı",
+            "summary": "Son dakika haber... Fon Koordinasyon Kurulu Cumhurbaşkanı Yardımcısı Cevdet Yılmaz'ın başkanlığında toplandı. Toplantının ardından İletişim Başkanlığı, olağan ve olağanüstü tasfiye süreçlerinde 119 fonda... Devamı için tıklayınız",
+            "publishedAt": "2026-11-13T13:34:24.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/cc85cd/1200/675/0/0/600/337?u=https://isbh.tmgrup.com.tr/sbh/2026/11/13/son-dakika-fon-tasfiyesinde-161-milyar-tl-odeme-333-bini-askin-yatirimci-tamamini-aldi-1794578087138.png"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/ekonomi/fon-tasfiyesinde-ne-kadar-odeme-yapildi-iletisim-baskanligi-acikladi-2555932",
+            "title": "Fon tasfiyesinde ne kadar ödeme yapıldı? İletişim Başkanlığı açıkladı",
+            "summary": "İletişim Başkanlığı, tasfiye sürecindeki fonlarda yatırımcılara yönelik ara ödemelerin sürdüğünü ve önemli sayıda yatırımcının net yatırım tutarının tamamını aldığını açıkladı. Açıklamada, önümüzdeki dönemde yeni ödemelerin yapılacağı bildirildi.",
+            "publishedAt": "2026-11-13T13:36:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/77fb8213-707b-4c21-a069-8edb7d94ddd9.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/ekonomi/fon-koordinasyon-kurulu-ara-odemelere-devam-edilecek-3927174",
+            "title": "Ara ödemelere devam edilecek",
+            "summary": "Onuncu Fon Koordinasyon Kurulu Toplantısı, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz başkanlığında gerçekleştirildi. Toplantının ardından yapılan açıklamada, \"Ara ödemeler, en fazla sayıda yatırımcının ödeme almasını sağlayacak şekilde sürdürülecektir. Önümüzdeki dönemde, tasfiye sürecinden sorumlu kurumlarımızın koordinasyonunda ara ödemelere devam edilecektir\" denildi",
+            "publishedAt": "2026-11-13T13:37:18.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794577039/3927174/jpg/1920x1080"
+          },
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/fon-vurgunu-161-milyar-lira-odeme-yapildi/",
+            "title": "Fon vurgunu: 161 milyar lira ödeme yapıldı",
+            "summary": "Fon vurgunu: 161 milyar lira ödeme yapıldı 13.11.2026 Diken Cumhurbaşkanlığı'na bağlı İletişim Başkanlığı 10'uncu kez toplanan fon toplantısının ardından 444 bin 893 tekil yatırımcıya yaklaşık 161 milyar lira ödendiğini duyurdu. The post Fon vurgunu: 161 milyar lira ödeme yapıldı appeared first on #site_linkat 13.11.2026 .",
+            "publishedAt": "2026-11-13T13:45:15.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "3ccb60206b5228ed",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.99,
+        "firstSeenAt": "2026-11-13T12:15:19.000Z",
+        "lastUpdatedAt": "2026-11-13T16:37:40.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/953539ee-3160-4c37-9f04-0806ee8a71c8.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/ekrem-imamoglu-millet-sahidimdir-kitabi-nedeniyle-ifade-verdi-tutsak-edilmem-yetmiyor-kendimi-savunmam-da-suc-sayiliyor-2555900"
+        },
+        "sources": [
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "medyascope",
+            "name": "Medyascope",
+            "camp": "independent",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:15:19.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:22:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T12:22:00.000Z",
+            "from": "single-source",
+            "to": "reported"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:37:40.000Z",
+            "sourceId": "medyascope"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T16:37:40.000Z",
+            "from": "reported",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/ekrem-imamoglu-ifade-verdi-savunma-yapmayacagim-seklinde-bir-cumlem-olmadi-p381056",
+            "title": "Ekrem İmamoğlu ifade verdi: 'Savunma yapmayacağım' şeklinde bir cümlem olmadı",
+            "summary": "Tutuklu İstanbul Büyükşehir Belediye Başkanı Ekrem İmamoğlu'nun, 'Millet Şahidimdir' isimli kitabında yer alan sözler ne...",
+            "publishedAt": "2026-11-13T12:15:19.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/imamoglu27ekjpg-hVd9m7Jnjk_Ro5tGl6XIGw.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/siyaset/ekrem-imamoglu-millet-sahidimdir-kitabi-nedeniyle-ifade-verdi-tutsak-edilmem-yetmiyor-kendimi-savunmam-da-suc-sayiliyor-2555900",
+            "title": "Ekrem İmamoğlu, 'Millet Şahidimdir' kitabı nedeniyle ifade verdi: 'Tutsak edilmem yetmiyor, kendimi savunmam da suç sayılıyor'",
+            "summary": "İBB Başkanı ve cumhurbaşkanı adayı Ekrem İmamoğlu, İBB Davası’nda yapamadığı savunmasının yer aldığı ve henüz basım aşamasındayken toplatılmasına karar verilen “Millet Şahidimdir” isimli kitabındaki ifadeler gerekçesiyle ifade verdi. SEGBİS aracılığıyla ifade veren İmamoğlu, “Haksız suçlanmam, haksız bir biçimde iki yıla yakın süredir tutsak edilmem yetmiyor. Kendimi savunmam da suç sayılıyor” dedi.",
+            "publishedAt": "2026-11-13T12:22:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/953539ee-3160-4c37-9f04-0806ee8a71c8.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/imamoglu-ndan-bir-gunde-iki-ifade-siyasi-elestirilerim-sorusturma-konusu-yapiliyor-2555974",
+            "title": "İmamoğlu’ndan bir günde iki ifade: 'Siyasi eleştirilerim soruşturma konusu yapılıyor'",
+            "summary": "Seçilmiş İBB Başkanı ve cumhurbaşkanı adayı Ekrem İmamoğlu, aynı gün içinde, İBB Davası’nda kullandığı sözler nedeniyle başlatılan ikinci soruşturmada da ifade verdi. Hakkındaki soruşturma sayısının 20’ye ulaştığını belirten İmamoğlu, “Hiçbir şiddet övgüsü, hiçbir şiddet çağrısı içermeyen siyasi nitelikteki açıklamalarım, eleştirilerim, soruşturma ve dava konusu yapılıyor” diyerek tepki gösterdi.",
+            "publishedAt": "2026-11-13T16:23:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/ae7ff386-bc2f-4a6e-8d0a-baf4503592ae.jpg"
+          },
+          {
+            "sourceId": "medyascope",
+            "url": "https://medyascope.tv/2026/11/13/imamoglu-ben-yargilayacagim-sozleri-nedeniyle-ifade-verdi/",
+            "title": "İmamoğlu’nun savunma yapması engellenmişti: “Ben yargılayacağım” sözleri nedeniyle ifade verdi",
+            "summary": "Ekrem İmamoğlu, “Ben yargılayacağım” sözleri nedeniyle ifade verdi; sözlerinin tehdit değil eleştiri ve savunma kapsamında olduğunu söyledi. İmamoğlu’nun savunma yapması engellenmişti: “Ben yargılayacağım” sözleri nedeniyle ifade verdi Medyascope",
+            "publishedAt": "2026-11-13T16:37:40.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "b88133f626d29079",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.98,
+        "firstSeenAt": "2026-11-13T04:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:34:36.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af62f60c813a6f07cce79f2.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/gundem/ara-tatil-bugun-basliyor-verimli-tatil-icin-20-adim-43376392"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T04:00:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:47:57.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:47:57.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:34:36.000Z",
+            "sourceId": "sozcu"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/ara-tatil-bugun-basliyor-verimli-tatil-icin-20-adim-43376392",
+            "title": "Ara tatil bugün başlıyor... Verimli tatil için 20 adım",
+            "summary": "Ara tatil bugün başlıyor. Öğrenciler okuldan uzaklaşıp dinlenmeye hazırlanırken ailelerin aklında aynı soru var: Bu dokuz gün nasıl daha keyifli ve verimli geçebilir?",
+            "publishedAt": "2026-11-13T04:00:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af62f60c813a6f07cce79f2.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/milli-egitim-bakani-tekinden-ara-tatil-paylasimi/4124340",
+            "title": "Milli Eğitim Bakanı Tekin'den ara tatil paylaşımı",
+            "summary": "Milli Eğitim Bakanı Yusuf Tekin, bugün başlayan ara tatile ilişkin, \"Tatilinizi dinlenmenin yanı sıra kitap okuyarak, ilgi duyduğunuz alanlara yönelerek ve şehrinizi keşfederek verimli bir şekilde geçirmenizi tavsiye ediyorum.\" ifadelerini kullandı.",
+            "publishedAt": "2026-11-13T14:47:57.000Z"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/istanbulda-ara-tatil-ve-mesai-trafigi-p381120",
+            "title": "İstanbul'da ara tatil ve mesai trafiği",
+            "summary": "İstanbul'da okulların birinci dönem ara tatiline girmesi ve haftanın son iş gününde mesainin bitmesiyle yollarda yoğunlu...",
+            "publishedAt": "2026-11-13T16:34:36.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/96jpg-7uDyMQnSzUa7U7W2ReIOxA.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "187ee01f09de9900",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.95,
+        "firstSeenAt": "2026-11-13T12:36:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:11:28.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/431cd2f1-b0b7-42a2-913c-26fd60332632.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/canakkale-bogazi-trafigine-lodos-engeli-2555902"
+        },
+        "sources": [
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:36:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:41:08.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T12:41:08.000Z",
+            "from": "single-source",
+            "to": "reported"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:42:48.000Z",
+            "sourceId": "haberturk"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T15:42:48.000Z",
+            "from": "reported",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/canakkale-bogazi-trafigine-lodos-engeli-2555902",
+            "title": "Çanakkale Boğazı trafiğine 'lodos' engeli",
+            "summary": "Çanakkale'de etkili olan lodos fırtınası nedeniyle Çanakkale Boğazı, çift yönlü olarak trafiğe kapatılacak.",
+            "publishedAt": "2026-11-13T12:36:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/431cd2f1-b0b7-42a2-913c-26fd60332632.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/canakkale-bogazi-lodos-nedeniyle-cift-yonlu-gemi-gecislerine-kapatilacak-p381072",
+            "title": "Çanakkale Boğazı lodos nedeniyle çift yönlü gemi geçişlerine kapatılacak",
+            "summary": "Çanakkale'de iki gündür etkili olan lodos nedeniyle Boğaz, saat 16.45 itibarıyla çift yönlü transit gemi geçişlerine geç...",
+            "publishedAt": "2026-11-13T12:41:08.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/canakkalebogazilodosnedeniyleciftyonlugemigecislerinekapatilacakkapak8a52e1807a6b3667jpg-t54fcp2_HE63Ha281A-m8Q.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/son-dakika-bogaz-trafigi-askiya-alindi-3927212",
+            "title": "Boğaz trafiği askıya alındı",
+            "summary": "Ulaştırma ve Altyapı Bakanlığı: Çanakkale Boğazı gemi trafiği, kuvvetli lodos fırtınası nedeniyle çift yönde ve geçici olarak askıya alındı. Öte yandan Çanakkale'nin Gökçeada ilçesinde etkili olan fırtına nedeniyle yarın yapılması planlanan 4 sefer ile Bozcaada hattındaki tüm seferler iptal edildi",
+            "publishedAt": "2026-11-13T15:42:48.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794584541/3927212/jpg/1920x1080"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/canakkale-bogazi-nda-gemi-trafigi-lodos-nedeniyle-askiya-alindi-2555966",
+            "title": "Çanakkale Boğazı'nda gemi trafiği lodos nedeniyle askıya alındı",
+            "summary": "Ulaştırma ve Altyapı Bakanlığı, kuvvetli lodos fırtınası nedeniyle Çanakkale Boğazı'nda gemi trafiğinin çift yönde ve geçici olarak durdurulduğunu duyurdu.",
+            "publishedAt": "2026-11-13T15:45:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/16a42b20-2f01-4074-a492-2b58bdb4ee5c.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/son-dakika-canakkale-bogazi-nda-gemi-trafigi-askiya-alindi-p381115",
+            "title": "Son dakika...Çanakkale Boğazı'nda gemi trafiği askıya alındı",
+            "summary": "Ulaştırma ve Altyapı Bakanlığı, Çanakkale Boğazında gemi trafiğinin, kuvvetli lodos fırtınası nedeniyle çift yönde ve ge...",
+            "publishedAt": "2026-11-13T16:11:28.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/canakkale-bogazi-gemi-trafigijpg-3dY8cYTJUk6vvEqDP69YfQ.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "f41770d951fa4b5e",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.89,
+        "firstSeenAt": "2026-11-13T15:15:00.000Z",
+        "lastUpdatedAt": "2026-11-13T15:24:12.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af72c95c813a6f07cce80bc.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/sporarena/galatasaray-metin-ozturk-ve-abdullah-kavukcunun-istifalarini-duyurdu-43377467"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:15:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:22:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T15:22:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:24:12.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/sporarena/galatasaray-metin-ozturk-ve-abdullah-kavukcunun-istifalarini-duyurdu-43377467",
+            "title": "Galatasaray, Metin Öztürk ve Abdullah Kavukcu'nun istifalarını duyurdu!",
+            "summary": "Galatasaray'dan 2'nci Başkan Metin Öztürk ve Galatasaray Yönetim Kurulu Üyesi Abdullah Kavukcu ile ilgili istifa açıklaması yapıldı. Öztürk ve Kavukcu'nun istifaları resmi olarak duyuruldu.",
+            "publishedAt": "2026-11-13T15:15:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af72c95c813a6f07cce80bc.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/spor/galatasaray-dan-metin-ozturk-ve-abdullah-kavukcu-icin-istifa-aciklamasi-2555962",
+            "title": "Galatasaray'dan Metin Öztürk ve Abdullah Kavukcu için istifa açıklaması",
+            "summary": "Galatasaray, yöneticilerden Abdullah Kavukcu ve Metin Öztürk'ün istifa ettiğini açıkladı.",
+            "publishedAt": "2026-11-13T15:22:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/5a003c2e-f9f5-4095-8489-3ab75462bcba.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/spor/galatasaray-da-metin-ozturk-ve-abdullah-kavukcu-istifa-etti-3927207",
+            "title": "Metin Öztürk ve Abdullah Kavukcu istifa etti!",
+            "summary": "Galatasaray, ikinci başkan Metin Öztürk ile Yönetim Kurulu Üyesi ve Sportif A.Ş. Başkan Vekili Abdullah Kavukcu'nun istifa ettiğini açıkladı!",
+            "publishedAt": "2026-11-13T15:24:12.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794583431/3927207/jpg/1920x1080"
+          }
+        ]
+      },
+      {
+        "storyId": "558ff238887f680d",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.82,
+        "firstSeenAt": "2026-11-13T11:20:19.000Z",
+        "lastUpdatedAt": "2026-11-13T14:37:37.000Z",
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6f186ff497cc803f6a1a2.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/sporarena/manchester-unitedda-bruno-fernandes-soku-yeni-sozlesme-teklifini-reddetti-43377045"
+        },
+        "sources": [
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T11:20:19.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:16:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T12:16:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:17:15.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/sporarena/manchester-unitedda-bruno-fernandes-soku-yeni-sozlesme-teklifini-reddetti-43377045",
+            "title": "Manchester United'da Bruno Fernandes şoku! Yeni sözleşme teklifini reddetti",
+            "summary": "Bruno Fernandes, Manchester United'ın yaptığı ikinci sözleşme uzatma teklifini kabul etmediği öne sürüldü.",
+            "publishedAt": "2026-11-13T11:20:19.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af6f186ff497cc803f6a1a2.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/spor/manchester-united-in-yeni-teknik-direktoru-belli-oldu-2555895",
+            "title": "Manchester United'ın yeni teknik direktörü belli oldu",
+            "summary": "Manchester United'da Mauricio Pochettino dönemi başlıyor. 54 yaşındaki teknik adam, İngiliz ekibi ile 2029 yılına kadar sözleşme imzaladı.",
+            "publishedAt": "2026-11-13T12:16:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/cb72d7a5-4bdb-4d91-8f82-cecbeddb82e1.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/spor/manchester-united-in-yeni-teknik-direktoru-mauricio-pochettino-3927134",
+            "title": "Manchester United'da Pochettino dönemi!",
+            "summary": "Michael Carrick ile yollarını ayıran Manchester United, teknik direktörlük görevine Mauricio Pochettino'yu getirdi.",
+            "publishedAt": "2026-11-13T12:17:15.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794572216/3927134/jpg/1920x1080"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/spor/foto/manchester-united-da-teknik-direktor-degisiklikleri-servete-mal-oldu-pogba-nin-bonservisini-gecti-3927051",
+            "title": "M. United, teknik direktörlere servet ödedi",
+            "summary": "Manchester United'da Sir Alex Ferguson'un 2013'te ayrılmasından bu yana yaşanan teknik direktör değişikliklerinin maliyeti 120 milyon Euro'yu aştı. Michael Carrick'in de görevden ayrılmasıyla birlikte kulübün teknik direktör tazminatları ve göreve getirme maliyetleri, Paul Pogba için ödenen 105 milyon Euro'luk bonservis bedelini geride bıraktı. En yüksek tazminat 23,4 milyon Euro ile Jose Mourinho'ya ödenirken Ruben Amorim'in toplam maliyeti 20,8 milyon Euro'ya ulaştı. Bu dönemde futbolcu transferlerine 2,49 milyar Euro harcayan Manchester United, buna rağmen beklediği sportif başarıyı yakalayamadı.",
+            "publishedAt": "2026-11-13T14:37:37.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794562241/3927051/jpg/1920x1080"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "storyId": "fe1a4ad6291eaaa1",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 18.96,
+        "firstSeenAt": "2026-11-13T10:53:41.000Z",
+        "lastUpdatedAt": "2026-11-13T16:17:11.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/7c263c00-df4e-11f1-af3b-3f371022a770/w:1024/p:16x9/capture-748626c0.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T10:53:41.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:18:01.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T11:18:01.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:43:27.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:16:44.000Z",
+            "sourceId": "guardian-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:15:20.000Z",
+            "sourceId": "techcrunch"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:26:53.000Z",
+            "sourceId": "ars-technica"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:17:11.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
+            "title": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
+            "summary": "Microsoft said \"malicious\" activity was not to blame for an Outlook outage that left users around the world without its crucial services on Friday, November 13, but reported making headway in fixing the massive disruption. Businesses, governments and likely millions of individuals have been without services like Outlook email for over half a day, triggering wide-ranging consequences.",
+            "publishedAt": "2026-11-13T10:53:41.000Z",
+            "imageUrl": "https://s.france24.com/media/display/7c263c00-df4e-11f1-af3b-3f371022a770/w:1024/p:16x9/capture-748626c0.jpg"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
+            "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
+            "summary": "After disruption affects users worldwide, Microsoft says some services are getting back to normal.",
+            "publishedAt": "2026-11-13T11:18:01.000Z"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+            "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+            "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
+            "publishedAt": "2026-11-13T11:43:27.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation",
+            "title": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
+            "summary": "Users of Microsoft Teams and Outlook in businesses and public services reporting problems. Plus would you like to spend time as a helpful furry little post delivery service? Don’t already get First Thing in your inbox? Sign up here Good morning. A global outage of vital Microsoft systems has crippled businesses and public services around the world. The tech company said it was seeing “early signs of stabilisation” after the failure affected millions of users for more than 12 hours on Thursday and Friday. Some but not all users were reporting problems with services including Microsoft Teams and Outlook email. More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company. Microsoft said that there were no indications that the outage had been caused by a cyber-attack. We are covering the recovery efforts and continuing impact in this live blog . Who are the main people involved? For more infor…",
+            "publishedAt": "2026-11-13T12:16:44.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/3aca18d0542794fb6d35a0847224c88cc2663879/22_147_2871_2297/master/2871.jpg?width=140&quality=85&auto=format&fit=max&s=98633702e1c9b1b8634cd8f028e3ff40"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
+            "title": "You haven’t got mail: Global Microsoft outage disrupts services",
+            "summary": "Not receiving your work emails? That’s because Microsoft has been hit by a global outage.",
+            "publishedAt": "2026-11-13T12:40:11.000Z"
+          },
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+            "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
+            "summary": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
+            "publishedAt": "2026-11-13T13:15:20.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
+            "title": "🔴 Live: Microsoft reports 'improvements' to Outlook services in North America, Europe",
+            "summary": "",
+            "publishedAt": "2026-11-13T14:02:01.000Z"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+            "title": "Why is the Microsoft outage lasting so long?",
+            "summary": "Microsoft says it is seeing \"improvements\" following a global outage but efforts to fully resume services are ongoing.",
+            "publishedAt": "2026-11-13T14:21:26.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+            "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+            "summary": "Tech firm says it is making progress in attempts to restore services and there is no indication problem was caused by cyber-attack Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by the outage? Microsoft is scrambling to fix an outage of some of its systems that has caused huge disruption to users, organisations and businesses across the globe. In its latest update, the tech company said it was making progress in its attempts to restore services after a global outage affected millions of users from Thursday evening and into Friday. Continue reading...",
+            "publishedAt": "2026-11-13T14:56:42.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/f39d9eba31016399e4c01fd145c5dd223dd145d6/334_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=3f02f0541713f8ee8f347b659bf6577d"
+          },
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+            "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+            "summary": "Governments, hospitals, courts scrambled by global Microsoft outage.",
+            "publishedAt": "2026-11-13T15:26:53.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-1024x648.jpg"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+            "title": "Microsoft’s massive Outlook outage continues",
+            "summary": "Service is gradually starting to recover for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state, some people (including Verge staffers) are reporting that access to their emails has been restored, though the flow of Outlook […]",
+            "publishedAt": "2026-11-13T16:17:11.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "607d4d7557c40807",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 14.93,
+        "firstSeenAt": "2026-11-13T03:57:01.000Z",
+        "lastUpdatedAt": "2026-11-13T15:58:00.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T03:57:01.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:56:27.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T11:56:27.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:00:00.000Z",
+            "sourceId": "the-verge"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:00:09.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:58:00.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+            "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+            "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+            "publishedAt": "2026-11-13T03:57:01.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/tv-shows/press-review/20261113-it-s-game-over-for-jensen-huang-king-of-ai-chips",
+            "title": "It's 'game over' for Jensen Huang, king of AI chips",
+            "summary": "PRESS REVIEW – Friday, November 13: We look at reactions to the resignation of Jensen Huang, the CEO of Nvidia. It comes in the wake of multiple affairs he allegedly had, including with a woman suspected of being a Chinese spy. What are the repercussions for the AI industry and for AI trade relations? Also: France's Les Bleus lose to Italy in the Nations League, marking Zinédine Zidane's first defeat as coach. Plus: a raccoon that went viral for getting drunk last year ends up raising a lot of money for an animal shelter!",
+            "publishedAt": "2026-11-13T11:56:27.000Z",
+            "imageUrl": "https://s.france24.com/media/display/40621b6a-df32-11f1-8039-29048b396e03/w:1024/p:16x9/Anglais-2026-11-13T06-22-58-612Z.jpg"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+            "title": "Let’s talk about Jensen Huang’s many affairs!",
+            "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+            "publishedAt": "2026-11-13T12:00:00.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-nvidia-scandal-was-alice-huang-really-a-chinese-spy",
+            "title": "Nvidia scandal: Was Alice Huang really a Chinese spy?",
+            "summary": "It is another twist in the downfall of Jensen Huang, CEO of AI chip giant Nvidia, who resigned on Thursday. The US Justice Department says it has not yet reached a conclusion on whether Alice Huang, the Chinese businesswoman he had an affair with, was a spy. CNN is also reporting sources from across the US intelligence community who say there is no definitive proof she was an intelligence asset for Beijing",
+            "publishedAt": "2026-11-13T12:02:05.000Z",
+            "imageUrl": "https://s.france24.com/media/display/b06ecbb2-df58-11f1-9eba-5f54d898a954/w:1024/p:16x9/EN-20261113-123821-124016-CS.jpg"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/tech/big-tech/article/3374376/will-jensen-huangs-downfall-tip-scales-against-open-source-ai",
+            "title": "Will Jensen Huang’s downfall tip the scales against open-source AI?",
+            "summary": "Jensen Huang’s abrupt resignation from Nvidia has cast uncertainty over the US chip giant’s multibillion-dollar investments in open-source artificial intelligence, while potentially depriving Chinese developers of one of their most influential advocates in Washington. His departure could prompt Nvidia to scale back spending on open-weight models and their supporting infrastructure, analysts said, although strong commercial incentives would likely keep the company committed to the broader...",
+            "publishedAt": "2026-11-13T14:00:09.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/6a05cefc-4e87-4bd9-a54f-c89a18336d7f_134715fa.jpg?itok=YQ4YJF0c&v=1794568825"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+            "title": "What’s really at stake in the Jensen Huang saga",
+            "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]",
+            "publishedAt": "2026-11-13T14:47:16.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-nvidia-scandal-how-close-was-ex-ceo-to-trump",
+            "title": "Nvidia scandal: How close was ex-CEO to Trump?",
+            "summary": "US lawmakers have called Jensen Huang to face their questions in December after the Nvidia ex-CEO quit over extramarital affairs, including one with a suspected Chinese spy. The Taiwanese-born businessman was a close informal adviser to President Donald Trump on AI and had spent years lobbying against curbs on sales of advanced AI chips to China for national security reasons. Just how close Huang was to Trump and the extent of the influence tech giants have on his administration are some of the questions that still need answering, says France 24’s Douglas Herbert.",
+            "publishedAt": "2026-11-13T15:50:41.000Z",
+            "imageUrl": "https://s.france24.com/media/display/5fefb702-df79-11f1-8db1-695cb59fade5/w:1024/p:16x9/EN-20261113-160704-161114-CS.jpg"
+          },
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+            "title": "The unfolding Jensen Huang scandal: a timeline",
+            "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+            "publishedAt": "2026-11-13T15:58:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "7d4d71d056da0286",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "primary-source"
+        ],
+        "score": 8.94,
+        "firstSeenAt": "2026-11-13T15:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:00:12.000Z",
+        "sources": [
+          {
+            "id": "openai-news",
+            "name": "OpenAI News",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:00:00.000Z",
+            "sourceId": "openai-news"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:00:12.000Z",
+            "sourceId": "techcrunch"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T16:00:12.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "openai-news",
+            "url": "https://openai.com/index/introducing-chatgpt-wallet",
+            "title": "Introducing ChatGPT Wallet",
+            "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+            "publishedAt": "2026-11-13T15:00:00.000Z"
+          },
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+            "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+            "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+            "publishedAt": "2026-11-13T16:00:12.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "07f85e55f4eee7c3",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.97,
+        "firstSeenAt": "2026-11-13T16:26:32.000Z",
+        "lastUpdatedAt": "2026-11-13T16:26:32.000Z",
+        "image": {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg",
+          "sourceId": "ars-technica",
+          "sourceName": "Ars Technica",
+          "articleUrl": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/"
+        },
+        "sources": [
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:26:32.000Z",
+            "sourceId": "ars-technica"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+            "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+            "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+            "publishedAt": "2026-11-13T16:26:32.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "508b4d65dc568ac7",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.94,
+        "firstSeenAt": "2026-11-13T16:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:00:00.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:00:00.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+            "title": "The Verge’s 2026 gift guide for dads",
+            "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated this […]",
+            "publishedAt": "2026-11-13T16:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "6f52582b732117a4",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.94,
+        "firstSeenAt": "2026-11-13T16:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:00:00.000Z",
+        "image": {
+          "url": "https://media.wired.com/photos/6af64d55d057d0b5e841f091/master/pass/Backchannel-Jensen-Business.jpg",
+          "sourceId": "wired",
+          "sourceName": "Wired",
+          "articleUrl": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/"
+        },
+        "sources": [
+          {
+            "id": "wired",
+            "name": "Wired",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:00:00.000Z",
+            "sourceId": "wired"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "wired",
+            "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+            "title": "Jensen Huang and the End of the Founder Fairy Tale",
+            "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
+            "publishedAt": "2026-11-13T16:00:00.000Z",
+            "imageUrl": "https://media.wired.com/photos/6af64d55d057d0b5e841f091/master/pass/Backchannel-Jensen-Business.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "73c354b0b3f2c1cb",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.94,
+        "firstSeenAt": "2026-11-13T16:00:00.000Z",
+        "lastUpdatedAt": "2026-11-13T16:00:00.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:00:00.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/tech/1032141/paprika-4-recipe-grocery-pantry-app-update-subscription-hands-on",
+            "title": "My favorite recipe app just got a big upgrade — and a subscription fee",
+            "summary": "Nearly 10 years after the launch of Paprika 3, the recipe-managing, pantry-organizing, grocery list-making app has gotten a big upgrade that adds more functionality to nearly every corner of the experience. I tested Paprika 4 for several weeks while it was in open beta, and the update recently launched across Android (the version I've been […]",
+            "publishedAt": "2026-11-13T16:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "41ae633c6584dee9",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.92,
+        "firstSeenAt": "2026-11-13T15:49:27.000Z",
+        "lastUpdatedAt": "2026-11-13T15:49:27.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:49:27.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+            "title": "The best early Black Friday deals you can already shop",
+            "summary": "The countdown to Black Friday is on, and the discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]",
+            "publishedAt": "2026-11-13T15:49:27.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "13aaac2236e82262",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.88,
+        "firstSeenAt": "2026-11-13T15:22:14.000Z",
+        "lastUpdatedAt": "2026-11-13T15:22:14.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:22:14.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/tech/1032920/apple-smart-home-collection-release-ship-dates-available-pricing",
+            "title": "Apple announces release dates for the first Apple Home Collection smart devices",
+            "summary": "The first few smart home devices and accessories that Apple co-developed with LG Electronics and Schneider Electric for its new Apple Home Collection are now available for preorder through the company's online store, with delivery expected in mid-December. Apple announced the collection a month ago as part of a stronger push into the smart home […]",
+            "publishedAt": "2026-11-13T15:22:14.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "2cab0dde83e80826",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.87,
+        "firstSeenAt": "2026-11-13T15:09:39.000Z",
+        "lastUpdatedAt": "2026-11-13T15:09:39.000Z",
+        "image": {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cometTOP-1152x648.jpg",
+          "sourceId": "ars-technica",
+          "sourceName": "Ars Technica",
+          "articleUrl": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/"
+        },
+        "sources": [
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T15:09:39.000Z",
+            "sourceId": "ars-technica"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
+            "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
+            "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death.",
+            "publishedAt": "2026-11-13T15:09:39.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cometTOP-1152x648.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "d2380686896ce94d",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.85,
+        "firstSeenAt": "2026-11-13T14:57:55.000Z",
+        "lastUpdatedAt": "2026-11-13T14:57:55.000Z",
+        "sources": [
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:57:55.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+            "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+            "summary": "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
+            "publishedAt": "2026-11-13T14:57:55.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "4e81a99ee4df1e0f",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.83,
+        "firstSeenAt": "2026-11-13T14:45:04.000Z",
+        "lastUpdatedAt": "2026-11-13T14:45:04.000Z",
+        "image": {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Slate-GPS-1-of-3-1152x648.jpg",
+          "sourceId": "ars-technica",
+          "sourceName": "Ars Technica",
+          "articleUrl": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/"
+        },
+        "sources": [
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:45:04.000Z",
+            "sourceId": "ars-technica"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/",
+            "title": "Screenless GPS: Slate Auto says, \"Remember the road atlas\"",
+            "summary": "What’s more fitting than a spiral-bound map for a bare-bones two-door pickup?",
+            "publishedAt": "2026-11-13T14:45:04.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Slate-GPS-1-of-3-1152x648.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "69a4be7aab7399d4",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.83,
+        "firstSeenAt": "2026-11-13T14:44:48.000Z",
+        "lastUpdatedAt": "2026-11-13T14:44:48.000Z",
+        "sources": [
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:44:48.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+            "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+            "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+            "publishedAt": "2026-11-13T14:44:48.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "0e06e81cadbd9e33",
+        "language": "tr",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.81,
+        "firstSeenAt": "2026-11-13T14:30:00.000Z",
+        "lastUpdatedAt": "2026-11-13T14:30:00.000Z",
+        "image": {
+          "url": "https://cdn.webrazzi.com/uploads/2026/11/dcase-364.png",
+          "sourceId": "webrazzi",
+          "sourceName": "Webrazzi",
+          "articleUrl": "https://webrazzi.com/2026/11/13/kurumsal-is-sureclerini-yapay-zeka-ile-otomatiklestiren-girisim-dcase/"
+        },
+        "sources": [
+          {
+            "id": "webrazzi",
+            "name": "Webrazzi",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:30:00.000Z",
+            "sourceId": "webrazzi"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "webrazzi",
+            "url": "https://webrazzi.com/2026/11/13/kurumsal-is-sureclerini-yapay-zeka-ile-otomatiklestiren-girisim-dcase/",
+            "title": "Kurumsal iş süreçlerini yapay zeka ile otomatikleştiren girişim: DCase",
+            "summary": "Türkiye’de geliştirilen kurumsal hizmet yönetimi platformu DCase, Agentic AI yetkinliklerini ürününe entegre ederek hizmet taleplerinin yalnızca kaydedilip ilgili ekiplere yönlendirildiği klasik yapıy...",
+            "publishedAt": "2026-11-13T14:30:00.000Z",
+            "imageUrl": "https://cdn.webrazzi.com/uploads/2026/11/dcase-364.png"
+          }
+        ]
+      },
+      {
+        "storyId": "43f859a8adc55833",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.81,
+        "firstSeenAt": "2026-11-13T14:30:00.000Z",
+        "lastUpdatedAt": "2026-11-13T14:30:00.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:30:00.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/policy/1032645/jonathan-haidt-critics-response-meta",
+            "title": "Meta discussed attacking Jonathan Haidt — now even his haters are annoyed",
+            "summary": "Three years ago, Meta apparently considered a plan to turn public opinion against one of its most influential opponents, Jonathan Haidt. But since the proposal was revealed in court filings last month, it's backfired. In fact, if there's one thing Anxious Generation author Haidt and his critics can agree on, it's being mad at Meta. […]",
+            "publishedAt": "2026-11-13T14:30:00.000Z"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "storyId": "fe1a4ad6291eaaa1",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 18.96,
+        "firstSeenAt": "2026-11-13T10:53:41.000Z",
+        "lastUpdatedAt": "2026-11-13T16:17:11.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/7c263c00-df4e-11f1-af3b-3f371022a770/w:1024/p:16x9/capture-748626c0.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T10:53:41.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:18:01.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T11:18:01.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:43:27.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:16:44.000Z",
+            "sourceId": "guardian-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:15:20.000Z",
+            "sourceId": "techcrunch"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:26:53.000Z",
+            "sourceId": "ars-technica"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:17:11.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
+            "title": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
+            "summary": "Microsoft said \"malicious\" activity was not to blame for an Outlook outage that left users around the world without its crucial services on Friday, November 13, but reported making headway in fixing the massive disruption. Businesses, governments and likely millions of individuals have been without services like Outlook email for over half a day, triggering wide-ranging consequences.",
+            "publishedAt": "2026-11-13T10:53:41.000Z",
+            "imageUrl": "https://s.france24.com/media/display/7c263c00-df4e-11f1-af3b-3f371022a770/w:1024/p:16x9/capture-748626c0.jpg"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
+            "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
+            "summary": "After disruption affects users worldwide, Microsoft says some services are getting back to normal.",
+            "publishedAt": "2026-11-13T11:18:01.000Z"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+            "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+            "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
+            "publishedAt": "2026-11-13T11:43:27.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation",
+            "title": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
+            "summary": "Users of Microsoft Teams and Outlook in businesses and public services reporting problems. Plus would you like to spend time as a helpful furry little post delivery service? Don’t already get First Thing in your inbox? Sign up here Good morning. A global outage of vital Microsoft systems has crippled businesses and public services around the world. The tech company said it was seeing “early signs of stabilisation” after the failure affected millions of users for more than 12 hours on Thursday and Friday. Some but not all users were reporting problems with services including Microsoft Teams and Outlook email. More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company. Microsoft said that there were no indications that the outage had been caused by a cyber-attack. We are covering the recovery efforts and continuing impact in this live blog . Who are the main people involved? For more infor…",
+            "publishedAt": "2026-11-13T12:16:44.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/3aca18d0542794fb6d35a0847224c88cc2663879/22_147_2871_2297/master/2871.jpg?width=140&quality=85&auto=format&fit=max&s=98633702e1c9b1b8634cd8f028e3ff40"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
+            "title": "You haven’t got mail: Global Microsoft outage disrupts services",
+            "summary": "Not receiving your work emails? That’s because Microsoft has been hit by a global outage.",
+            "publishedAt": "2026-11-13T12:40:11.000Z"
+          },
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+            "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
+            "summary": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
+            "publishedAt": "2026-11-13T13:15:20.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
+            "title": "🔴 Live: Microsoft reports 'improvements' to Outlook services in North America, Europe",
+            "summary": "",
+            "publishedAt": "2026-11-13T14:02:01.000Z"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+            "title": "Why is the Microsoft outage lasting so long?",
+            "summary": "Microsoft says it is seeing \"improvements\" following a global outage but efforts to fully resume services are ongoing.",
+            "publishedAt": "2026-11-13T14:21:26.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+            "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+            "summary": "Tech firm says it is making progress in attempts to restore services and there is no indication problem was caused by cyber-attack Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by the outage? Microsoft is scrambling to fix an outage of some of its systems that has caused huge disruption to users, organisations and businesses across the globe. In its latest update, the tech company said it was making progress in its attempts to restore services after a global outage affected millions of users from Thursday evening and into Friday. Continue reading...",
+            "publishedAt": "2026-11-13T14:56:42.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/f39d9eba31016399e4c01fd145c5dd223dd145d6/334_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=3f02f0541713f8ee8f347b659bf6577d"
+          },
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+            "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+            "summary": "Governments, hospitals, courts scrambled by global Microsoft outage.",
+            "publishedAt": "2026-11-13T15:26:53.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-1024x648.jpg"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+            "title": "Microsoft’s massive Outlook outage continues",
+            "summary": "Service is gradually starting to recover for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state, some people (including Verge staffers) are reporting that access to their emails has been restored, though the flow of Outlook […]",
+            "publishedAt": "2026-11-13T16:17:11.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "607d4d7557c40807",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 14.93,
+        "firstSeenAt": "2026-11-13T03:57:01.000Z",
+        "lastUpdatedAt": "2026-11-13T15:58:00.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T03:57:01.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T11:56:27.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T11:56:27.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:00:00.000Z",
+            "sourceId": "the-verge"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:00:09.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:58:00.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+            "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+            "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+            "publishedAt": "2026-11-13T03:57:01.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/tv-shows/press-review/20261113-it-s-game-over-for-jensen-huang-king-of-ai-chips",
+            "title": "It's 'game over' for Jensen Huang, king of AI chips",
+            "summary": "PRESS REVIEW – Friday, November 13: We look at reactions to the resignation of Jensen Huang, the CEO of Nvidia. It comes in the wake of multiple affairs he allegedly had, including with a woman suspected of being a Chinese spy. What are the repercussions for the AI industry and for AI trade relations? Also: France's Les Bleus lose to Italy in the Nations League, marking Zinédine Zidane's first defeat as coach. Plus: a raccoon that went viral for getting drunk last year ends up raising a lot of money for an animal shelter!",
+            "publishedAt": "2026-11-13T11:56:27.000Z",
+            "imageUrl": "https://s.france24.com/media/display/40621b6a-df32-11f1-8039-29048b396e03/w:1024/p:16x9/Anglais-2026-11-13T06-22-58-612Z.jpg"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+            "title": "Let’s talk about Jensen Huang’s many affairs!",
+            "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+            "publishedAt": "2026-11-13T12:00:00.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-nvidia-scandal-was-alice-huang-really-a-chinese-spy",
+            "title": "Nvidia scandal: Was Alice Huang really a Chinese spy?",
+            "summary": "It is another twist in the downfall of Jensen Huang, CEO of AI chip giant Nvidia, who resigned on Thursday. The US Justice Department says it has not yet reached a conclusion on whether Alice Huang, the Chinese businesswoman he had an affair with, was a spy. CNN is also reporting sources from across the US intelligence community who say there is no definitive proof she was an intelligence asset for Beijing",
+            "publishedAt": "2026-11-13T12:02:05.000Z",
+            "imageUrl": "https://s.france24.com/media/display/b06ecbb2-df58-11f1-9eba-5f54d898a954/w:1024/p:16x9/EN-20261113-123821-124016-CS.jpg"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/tech/big-tech/article/3374376/will-jensen-huangs-downfall-tip-scales-against-open-source-ai",
+            "title": "Will Jensen Huang’s downfall tip the scales against open-source AI?",
+            "summary": "Jensen Huang’s abrupt resignation from Nvidia has cast uncertainty over the US chip giant’s multibillion-dollar investments in open-source artificial intelligence, while potentially depriving Chinese developers of one of their most influential advocates in Washington. His departure could prompt Nvidia to scale back spending on open-weight models and their supporting infrastructure, analysts said, although strong commercial incentives would likely keep the company committed to the broader...",
+            "publishedAt": "2026-11-13T14:00:09.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/6a05cefc-4e87-4bd9-a54f-c89a18336d7f_134715fa.jpg?itok=YQ4YJF0c&v=1794568825"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+            "title": "What’s really at stake in the Jensen Huang saga",
+            "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]",
+            "publishedAt": "2026-11-13T14:47:16.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-nvidia-scandal-how-close-was-ex-ceo-to-trump",
+            "title": "Nvidia scandal: How close was ex-CEO to Trump?",
+            "summary": "US lawmakers have called Jensen Huang to face their questions in December after the Nvidia ex-CEO quit over extramarital affairs, including one with a suspected Chinese spy. The Taiwanese-born businessman was a close informal adviser to President Donald Trump on AI and had spent years lobbying against curbs on sales of advanced AI chips to China for national security reasons. Just how close Huang was to Trump and the extent of the influence tech giants have on his administration are some of the questions that still need answering, says France 24’s Douglas Herbert.",
+            "publishedAt": "2026-11-13T15:50:41.000Z",
+            "imageUrl": "https://s.france24.com/media/display/5fefb702-df79-11f1-8db1-695cb59fade5/w:1024/p:16x9/EN-20261113-160704-161114-CS.jpg"
+          },
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+            "title": "The unfolding Jensen Huang scandal: a timeline",
+            "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+            "publishedAt": "2026-11-13T15:58:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "8ec3be04a5be1a15",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.9,
+        "firstSeenAt": "2026-11-13T10:54:25.000Z",
+        "lastUpdatedAt": "2026-11-13T15:32:00.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=140&quality=85&auto=format&fit=max&s=1827173b1be92a1da7873febef1104d0",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz"
+        },
+        "sources": [
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "dw-world",
+            "name": "DW World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T10:54:25.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:52:11.000Z",
+            "sourceId": "guardian-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T13:52:11.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:32:00.000Z",
+            "sourceId": "dw-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
+            "title": "Iran threatens unlimited response over Strait of Hormuz after US attack",
+            "summary": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
+            "publishedAt": "2026-11-13T10:54:25.000Z"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+            "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+            "summary": "First direct attack on US military installations for months was in response to US airstrike on communications tower Iran’s Islamic Revolutionary Guard Corps says it has targeted and destroyed a US early-warning radar in Bahrain in response to a US airstrike on a communications tower in Sirik overlooking the strait of Hormuz. It is Iran’s first direct attack on US military installations for months. “This is a serious warning to the aggressor enemy to end its aerial mischief and oil smuggling in the strait of Hormuz,” the IRGC said. “In the event of repeated violations and aggression, the IRGC aerospace force is on full alert to confront the enemy without constraint.” Continue reading...",
+            "publishedAt": "2026-11-13T13:52:11.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=140&quality=85&auto=format&fit=max&s=1827173b1be92a1da7873febef1104d0"
+          },
+          {
+            "sourceId": "dw-world",
+            "url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-world-4025-rdf",
+            "title": "Iran targeted US radar system in Bahrain",
+            "summary": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation.",
+            "publishedAt": "2026-11-13T15:32:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "ae20ef308cfeddd5",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.94,
+        "firstSeenAt": "2026-11-13T13:02:08.000Z",
+        "lastUpdatedAt": "2026-11-13T16:01:45.000Z",
+        "sources": [
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T13:02:08.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T16:01:45.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T16:01:45.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
+            "title": "India road crash between bus, container truck kills 23",
+            "summary": "A head-on collision between a container truck and a passenger bus killed at least 23 people, including three children, in eastern India on Friday, a police official said The crash took place on a highway bordering Kaziranga National Park in the northeastern state of Assam. The road is a designated animal corridor, where strict speed limits are in place. “The total number of casualties is 23,” said Swapneel Deka, the local district police chief. Assam Chief Minister Himanta Biswa Sarma said he...",
+            "publishedAt": "2026-11-13T13:02:08.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/5bbc089e-0f7d-4103-96f4-fab57c477ff0_5bf39c3e.jpg?itok=vtANusZ8&v=1794574921"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
+            "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
+            "summary": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise.",
+            "publishedAt": "2026-11-13T16:01:45.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "9c7ae3f290390ec3",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.92,
+        "firstSeenAt": "2026-11-13T12:06:56.000Z",
+        "lastUpdatedAt": "2026-11-13T15:46:36.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/09b79386-df6b-11f1-b98f-695cb59fade5/w:1024/p:16x9/EN-20261113-143753-144140-CS.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/video/20261113-most-ukrainians-think-there-s-no-chance-of-a-peace-deal-with-russia"
+        },
+        "sources": [
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:06:56.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T14:14:14.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T14:14:14.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss",
+            "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
+            "summary": "Finland says Ukraine struck a Russian warship near its coast as Kyiv and Moscow held US-brokered talks in Abu Dhabi.",
+            "publishedAt": "2026-11-13T12:06:56.000Z"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-most-ukrainians-think-there-s-no-chance-of-a-peace-deal-with-russia",
+            "title": "Most Ukrainians 'think there's no chance of a peace deal' with Russia",
+            "summary": "Ukrainian attacks killed at least nine people in Russia overnight, while Moscow struck a hospital in Kyiv and killed at least three in the south of the country, officials on both sides said Friday. It comes a day after intense shuttle diplomacy in US-led talks to end the war approaching its fifth year but, says France 24's correspondent in Kyiv Gulliver Cragg, most people in Ukraine think there is \"no chance\" of a peace deal being reached.",
+            "publishedAt": "2026-11-13T14:14:14.000Z",
+            "imageUrl": "https://s.france24.com/media/display/09b79386-df6b-11f1-b98f-695cb59fade5/w:1024/p:16x9/EN-20261113-143753-144140-CS.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
+            "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+            "summary": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its biggest aerial attacks since Moscow’s full-scale invasion nearly five years ago.",
+            "publishedAt": "2026-11-13T15:46:36.000Z",
+            "imageUrl": "https://s.france24.com/media/display/ac93ac9c-df76-11f1-8215-695cb59fade5/w:1024/p:16x9/capture-8765e4ad.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "3287365332cedde1",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.9,
+        "firstSeenAt": "2026-11-13T10:57:20.000Z",
+        "lastUpdatedAt": "2026-11-13T15:37:00.000Z",
+        "sources": [
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "dw-world",
+            "name": "DW World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T10:57:20.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T15:37:00.000Z",
+            "sourceId": "dw-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T15:37:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti?traffic_source=rss",
+            "title": "El Salvador deploys armed robots to fight gangs in Haiti",
+            "summary": "El Salvador’s President Nayib Bukele has released a video showing armed robots during an operation against gangs.",
+            "publishedAt": "2026-11-13T10:57:20.000Z"
+          },
+          {
+            "sourceId": "dw-world",
+            "url": "https://www.dw.com/en/why-does-el-salvador-s-bukele-have-troops-in-haiti/a-79940771?maca=en-rss-en-world-4025-rdf",
+            "title": "Why does El Salvador's Bukele have troops in Haiti?",
+            "summary": "Haiti's Prime Minister congratulating El Salvador's President for a gang crackdown in Haiti has shone a light on the relationship between the two countries. What's going on, and where does the US stand?",
+            "publishedAt": "2026-11-13T15:37:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "3482d0c0fcc85a7b",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.75,
+        "firstSeenAt": "2026-11-13T13:00:08.000Z",
+        "lastUpdatedAt": "2026-11-13T13:42:49.000Z",
+        "sources": [
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T13:00:08.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:42:49.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T13:42:49.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/economy/global-economy/article/3374328/china-could-tighten-rare-earths-exports-if-us-escalates-chip-curbs-over-nvidia-analysts",
+            "title": "China could tighten rare earths exports if US escalates chip curbs over Nvidia: analysts",
+            "summary": "China could retaliate with tighter rare earth export controls if Washington further restricts chip sales in the wake of the Nvidia saga, Chinese analysts say, though they expect broader US-China trade talks to remain on track ahead of a planned meeting between the two countries’ leaders next week. Following Jensen Huang’s resignation from Nvidia on Thursday amid reports of multiple extramarital affairs, attention now turns to whether Washington will further tighten semiconductor export controls...",
+            "publishedAt": "2026-11-13T13:00:08.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/02c0b3af-8849-4914-b961-d2bff254f58c_d4181db0.jpg?itok=_LaitkEp&v=1794556672"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
+            "title": "China warns against fresh US chip curbs",
+            "summary": "China has warned the US against imposing additional export controls on AI chips.",
+            "publishedAt": "2026-11-13T13:42:49.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "89a03082b79be26a",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.7,
+        "firstSeenAt": "2026-11-13T13:10:08.000Z",
+        "lastUpdatedAt": "2026-11-13T13:11:24.000Z",
+        "sources": [
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T13:10:08.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T13:11:24.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T13:11:24.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses",
+            "title": "6 dead near Kenya’s capital after building collapses",
+            "summary": "Six people died ⁠near Kenya’s capital Nairobi ⁠after the top floor of a building under construction collapsed on Friday, a police official said, the latest in a string of construction accidents to ‌hit the country recently. “So far we have confirmed six bodies, but also five people have been rushed to Imara Daima Hospital,” Duncan Ochieng, the assistant inspector general of police in charge of disaster management in Kenya, told media ⁠gathered at the scene. A total of 405 workers were on ‌site...",
+            "publishedAt": "2026-11-13T13:10:08.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/bd1f3d31-1b52-46a6-884a-a8f7ee536516_1a0b91a7.jpg?itok=fUPOcCLg&v=1794575398"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss",
+            "title": "Kenyan building collapse near Nairobi kills six people",
+            "summary": "Five people reportedly survive as emergency crews search for anyone still trapped in the rubble.",
+            "publishedAt": "2026-11-13T13:11:24.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "97a30dc29e82cf30",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.64,
+        "firstSeenAt": "2026-11-13T11:51:57.000Z",
+        "lastUpdatedAt": "2026-11-13T12:28:28.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06a/live/954609a0-df57-11f1-93e1-3b657b665bcf.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T11:51:57.000Z",
+            "sourceId": "al-jazeera"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T12:28:28.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T12:28:28.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
+            "title": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
+            "summary": "IAEA says it cannot verify whether an underground Iranian enrichment plant contains nuclear material.",
+            "publishedAt": "2026-11-13T11:51:57.000Z"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+            "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+            "summary": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+            "publishedAt": "2026-11-13T12:28:28.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06a/live/954609a0-df57-11f1-93e1-3b657b665bcf.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "a92b2f54420c3758",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.98,
+        "firstSeenAt": "2026-11-13T16:35:02.000Z",
+        "lastUpdatedAt": "2026-11-13T16:35:02.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession"
+        },
+        "sources": [
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:35:02.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
+            "title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
+            "summary": "Gunman killed one person and injured at least five others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residential building shared how he was angry over living conditions there and confessed to the killings. The gunman killed one person and injured at least five others on Thursday in and around the condominium building in the Logan Circle neighborhood of the capital, not far from the White House, where he lived. Continue reading...",
+            "publishedAt": "2026-11-13T16:35:02.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f"
+          }
+        ]
+      },
+      {
+        "storyId": "89879a69c60f85e7",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.98,
+        "firstSeenAt": "2026-11-13T14:14:44.000Z",
+        "lastUpdatedAt": "2026-11-13T16:32:57.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/d169429d7a6f7e570a871b03d7a39e581e77f265/1443_446_3976_3181/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=335abbd675f9e2a81a30d3747adce55e",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit"
+        },
+        "sources": [
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T14:14:44.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+            "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
+            "summary": "Kaja Kallas says Moscow is trying to divert attention from its aggression by raising issue of European security Europe live – latest updates The EU’s foreign policy chief has warned against “walking into the traps that Russia is setting” as she said Moscow was trying to start a debate about European security in order to divert attention from its aggression. “We have one aggressor and one victim, and the aggressor does not have security concerns,” Kaja Kallas said on arrival at an EU leaders’ summit in Dublin. “Nobody has ever attacked them. They have attacked others. I mean, keep the focus, people.” Continue reading...",
+            "publishedAt": "2026-11-13T14:14:44.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/d169429d7a6f7e570a871b03d7a39e581e77f265/1443_446_3976_3181/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=335abbd675f9e2a81a30d3747adce55e"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+            "title": "Europe should not walk into Russia’s ‘traps’ on Ukraine talks, EU’s foreign policy chief Kallas says – Europe live",
+            "summary": "Kaja Kallas warns against agreeing to Russia’s proposed sequence of events on talks on Ukraine Hungary’s Péter Magyar is also here, looking very elegant as always… … but it looks like he took a slight detour on the way back to hotel last night to try and pour a perfect pint of Guinness. Continue reading...",
+            "publishedAt": "2026-11-13T16:32:57.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/e308c3f7bef8218a6a291d8a4a13b3ac9c676166/1128_254_3855_3084/master/3855.jpg?width=140&quality=85&auto=format&fit=max&s=e27b929d7f9fa32198cf68f5438f1dc5"
+          }
+        ]
+      },
+      {
+        "storyId": "8d6a28580c7d9f6c",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.97,
+        "firstSeenAt": "2026-11-13T16:24:50.000Z",
+        "lastUpdatedAt": "2026-11-13T16:24:50.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/0b0e1043f531f2cf4be1034a79eae931f842e257/0_199_3351_2681/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=d023067ea029630e7bca874700208189",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
+        },
+        "sources": [
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:24:50.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+            "title": "Scott Bessent blames commerce department over delay blacklisting China-linked data company – US politics live",
+            "summary": "Treasury secretary says he was in favor ‘for months’ of putting Megaspeed on blacklist to stop Nvidia exporting advanced chips to Beijing Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are covering the latest and how it’s affecting millions and pretty much every industry … As I noted earlier, the calls for Howard Lutnick to appear before lawmakers on Capitol Hill have been answered. Continue reading...",
+            "publishedAt": "2026-11-13T16:24:50.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/0b0e1043f531f2cf4be1034a79eae931f842e257/0_199_3351_2681/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=d023067ea029630e7bca874700208189"
+          }
+        ]
+      },
+      {
+        "storyId": "a423a00e9d845690",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.97,
+        "firstSeenAt": "2026-11-13T16:22:33.000Z",
+        "lastUpdatedAt": "2026-11-13T16:22:33.000Z",
+        "sources": [
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:22:33.000Z",
+            "sourceId": "al-jazeera"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
+            "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+            "summary": "Despite Treasury's Scott Bessent's remarks, financial tracker CME Fed Watch forecasts rate hike in December likely.",
+            "publishedAt": "2026-11-13T16:22:33.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "7ecdead41695a170",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.97,
+        "firstSeenAt": "2026-11-13T16:22:16.000Z",
+        "lastUpdatedAt": "2026-11-13T16:22:16.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/e8f34616a89eb687ef51aa6aa3542d0569d4d6f6/405_0_3858_3086/master/3858.jpg?width=140&quality=85&auto=format&fit=max&s=040b7cd16d653ef4ff426c858d83e2ca",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/business/2026/nov/13/jaguar-land-rover-quarterly-loss-electric-cars-job-cuts"
+        },
+        "sources": [
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:22:16.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/business/2026/nov/13/jaguar-land-rover-quarterly-loss-electric-cars-job-cuts",
+            "title": "Jaguar Land Rover reports £451m quarterly loss after cutting 4,000 jobs",
+            "summary": "JLR chief executive calls for EU and Britain to join forces amid competition from Chinese electric carmakers Jaguar Land Rover has reported a £451m quarterly loss as it counts the cost of cutting 4,000 jobs, while its chief executive has called for the EU and Britain to work together in the face of competition from China. Britain’s largest automotive employer reported revenues rising to £5.9bn between July and September, but it recorded £530m in costs from the job cuts announced near the end of that period amid tough trading conditions. Continue reading...",
+            "publishedAt": "2026-11-13T16:22:16.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/e8f34616a89eb687ef51aa6aa3542d0569d4d6f6/405_0_3858_3086/master/3858.jpg?width=140&quality=85&auto=format&fit=max&s=040b7cd16d653ef4ff426c858d83e2ca"
+          }
+        ]
+      },
+      {
+        "storyId": "72dc6a881824c4f0",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.95,
+        "firstSeenAt": "2026-11-13T16:07:59.000Z",
+        "lastUpdatedAt": "2026-11-13T16:07:59.000Z",
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/3b61621b645dfc632bff5dc65cc2e1d29f6f29ef/349_0_3093_2474/master/3093.jpg?width=140&quality=85&auto=format&fit=max&s=648f89fb4663db19307f7684b897c227",
+          "sourceId": "guardian-world",
+          "sourceName": "The Guardian World",
+          "articleUrl": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation"
+        },
+        "sources": [
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T16:07:59.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+            "title": "Met police launch investigation into David Walliams allegations",
+            "summary": "Police say allegations of sexual misconduct are separate from those made by multiple women in Guardian and ITN investigation The Metropolitan police have announced a criminal investigation into David Walliams over alleged sexual misconduct. In reports by the Guardian and ITV News, Walliams, 55, has been accused by multiple women of using his power and celebrity status to prey on young women and teenagers for sex. Continue reading...",
+            "publishedAt": "2026-11-13T16:07:59.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/3b61621b645dfc632bff5dc65cc2e1d29f6f29ef/349_0_3093_2474/master/3093.jpg?width=140&quality=85&auto=format&fit=max&s=648f89fb4663db19307f7684b897c227"
+          }
+        ]
+      }
+    ]
+  },
+  "failures": []
+}
