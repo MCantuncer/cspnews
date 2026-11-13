@@ -50,6 +50,7 @@ const withExtras: PublishedBulletin = {
       light: [
         {
           id: 'light-1',
+          kind: 'animals',
           label: 'confirmed',
           versions: {
             en: { title: 'Ferry cat gets a badge', gist: 'It rides daily.', aside: 'No comment.' },
@@ -61,6 +62,7 @@ const withExtras: PublishedBulletin = {
       rumours: [
         {
           id: 'rumour-1',
+          kind: 'screen',
           versions: { en: { title: 'Drama said to end' }, tr: { title: 'Dizi bitiyor' } },
           heardFrom: { sourceId: 'onedio', url: 'https://onedio.example/' },
         },

@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 import { AndFinallySchema, TRANSFERS_MAX, TransferMoveSchema } from './extras.js';
+import { StoryImageSchema } from './image.js';
 import { LANGUAGES, type Language } from './language.js';
 import { SECTIONS } from './sections.js';
 
@@ -105,15 +106,8 @@ export const BODY_WORDS: Record<Language, { min: number; max: number }> = {
   tr: { min: 240, max: 560 },
 };
 
-/** The outlet photo, always credited. */
-export const StoryImageSchema = z
-  .object({
-    url: z.url(),
-    sourceId: text(64),
-    sourceName: text(80),
-    articleUrl: z.url(),
-  })
-  .strict();
+/** The outlet photo, always credited (image.ts). */
+export { StoryImageSchema };
 
 /**
  * The story's own life, for stories without a key number: first report, outlets joining,
