@@ -485,6 +485,8 @@ export const SOURCES = defineSources([
     ownerGroup: 'dogus',
     camp: 'mainstream',
     tier: 'established',
+    // Answers 301 to a page we could not follow to a feed (source health check, 2026-11-13).
+    enabled: false,
   },
   {
     id: 'fanatik',
@@ -498,6 +500,8 @@ export const SOURCES = defineSources([
     ownerGroup: 'demiroren',
     camp: 'mainstream',
     tier: 'established',
+    // The feed address answers 404; no public RSS found yet (source health check, 2026-11-13).
+    enabled: false,
   },
   {
     id: 'fotomac',
