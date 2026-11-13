@@ -10,9 +10,9 @@ import { INTERFACE_LANGUAGES, localePath } from './locale.js';
  * they are the only place that knows the site's address.
  */
 
-/** Where the site is published: `CSPNEWS_SITE`, or the Vercel address until a domain is bought. */
+/** Where the site is published: `CSPNEWS_SITE`, or the site's own domain. */
 export function siteOrigin(): string {
-  return (process.env.CSPNEWS_SITE ?? 'https://cspnews-web.vercel.app').replace(/\/+$/, '');
+  return (process.env.CSPNEWS_SITE ?? 'https://www.cspnews.app').replace(/\/+$/, '');
 }
 
 /** Stories from this many newest bulletins stay in the feed: about a day and a half. */
