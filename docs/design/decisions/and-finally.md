@@ -1,6 +1,6 @@
-# And finally
+# Spotlight (Magazin)
 
-The bulletin's light close, called **And finally** in English and **Biraz da magazin** in Turkish. It is one closed fold after the last section (and after Transfers): the name, how many items it holds, and one teaser line. Open, it shows a short note ("Facts stay checked; the jokes are ours"), up to four items, and nothing else. It never competes with the news, so readers who come for the news do not leave thinking the site is not serious, and readers who like a lighter end have a reason to read to the bottom.
+The bulletin's light close, called **Spotlight** in English and **Magazin** in Turkish (Can picked the names on 2026-11-14; it was first called "And finally" / "Biraz da magazin", and the code still says `andFinally`). It is one fold after the last section (and after Transfers). Closed, it is a soft card in the edition hour colour: a filled station on the day line, the cup icon and the name as large as a section name, a count chip, a round open button, one teaser line and a row of badges, one per item. Open, the card falls away and the name heads the items like a section. Open, it shows a short note ("Facts stay checked; the jokes are ours"), up to four items, and nothing else. It never competes with the news, so readers who come for the news do not leave thinking the site is not serious, and readers who like a lighter end have a reason to read to the bottom.
 
 It holds two kinds of item, at most four in all (`AndFinallySchema` in `packages/core/src/extras.ts`):
 
@@ -24,7 +24,7 @@ The wit is weighed, not free:
 
 - One line per light story, at most 140 characters. The headline and the facts never joke.
 - Joke about the situation, never about a person's looks, body, age, accent or private life, and never about a private person at all.
-- Never about death, illness, crime victims, children, disasters, war or anything a reader could be hurt by. Stories like these never go into And finally, however odd they are.
+- Never about death, illness, crime victims, children, disasters, war or anything a reader could be hurt by. Stories like these never go into Spotlight, however odd they are.
 - Dry beats loud: understatement, not exclamation marks, puns only when they are good, no emoji.
 - Both languages get their own joke, written for that language, not a translated one.
 
@@ -36,4 +36,4 @@ The wit is weighed, not free:
 
 ## Turning it off
 
-**Light stories** in the reader corner and on Settings is on by default. Turning it off saves `cspnews:light=off` in the browser; the page then hides everything marked `data-and-finally` from the first paint.
+**Spotlight** (Magazin) in the reader corner and on Settings is on by default. Turning it off saves `cspnews:light=off` in the browser; the page then hides everything marked `data-and-finally` from the first paint.
