@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+import { StoryImageSchema } from './image.js';
 import { LANGUAGES, type Language } from './language.js';
 
 /**
@@ -24,6 +25,12 @@ const bilingual = <Version extends z.ZodType>(version: Version) =>
 /** Light stories are true stories: only these two evidence labels may carry one. */
 export const LIGHT_LABEL_VALUES = ['confirmed', 'reported'] as const;
 
+/**
+ * What a light story is about, for its badge: television and film, music, well-known people,
+ * odd news (records, mix-ups, small wonders), animals, and life around town.
+ */
+export const LIGHT_KINDS = ['screen', 'music', 'people', 'odd', 'animals', 'town'] as const;
+
 /** Where a light story or a rumour was read. */
 export const ExtraSourceSchema = z.object({ sourceId: id, url: z.url() }).strict();
 
@@ -32,8 +39,8 @@ export const LightVersionSchema = z
   .object({
     /** Told straight: the headline never carries the joke. */
     title: text(90),
-    /** One or two plain sentences with the facts. */
-    gist: text(240),
+    /** One plain sentence with the facts. */
+    gist: text(180),
     /** The one line of wit, about the situation and never about a person's looks or private life. */
     aside: text(140),
   })
@@ -42,9 +49,12 @@ export const LightVersionSchema = z
 export const LightStorySchema = z
   .object({
     id,
+    kind: z.enum(LIGHT_KINDS),
     label: z.enum(LIGHT_LABEL_VALUES),
     versions: bilingual(LightVersionSchema),
     sources: z.array(ExtraSourceSchema).min(1).max(5),
+    /** The outlet photo, when one of the sources had a real news photo; saved like a story's. */
+    image: StoryImageSchema.optional(),
   })
   .strict();
 
@@ -52,6 +62,7 @@ export const LightStorySchema = z
 export const RumourSchema = z
   .object({
     id,
+    kind: z.enum(LIGHT_KINDS),
     versions: bilingual(z.object({ title: text(110) }).strict()),
     heardFrom: ExtraSourceSchema,
   })
@@ -177,6 +188,7 @@ export const TransferMoveSchema = z
 export const TRANSFERS_MAX = 6;
 
 export type ExtraSource = z.infer<typeof ExtraSourceSchema>;
+export type LightKind = (typeof LIGHT_KINDS)[number];
 export type LightStory = z.infer<typeof LightStorySchema>;
 export type Rumour = z.infer<typeof RumourSchema>;
 export type AndFinally = z.infer<typeof AndFinallySchema>;

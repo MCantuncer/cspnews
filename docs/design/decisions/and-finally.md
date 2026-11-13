@@ -4,8 +4,19 @@ The bulletin's light close, called **And finally** in English and **Biraz da mag
 
 It holds two kinds of item, at most four in all (`AndFinallySchema` in `packages/core/src/extras.ts`):
 
-- **Light stories.** True, light news: celebrities and television, odd records, animals, small local wonders. Each one is told straight (headline and gist carry no joke), keeps an evidence mark (only Confirmed or Reported) and names its sources, then gets **one line of wit in our own voice**, set apart by a 2px rule in the edition hour colour so the reader always knows which part is the joke.
+- **Light stories.** True, light news: celebrities and television, odd records, animals, small local wonders. Each one is told straight (the headline and a one-sentence gist carry no joke), keeps an evidence mark (only Confirmed or Reported) and names its sources, then gets **one line of wit in our own voice**, set apart by a 2px rule in the edition hour colour so the reader always knows which part is the joke.
 - **Backstage talk** (Kulis). Rumours we could not confirm, under their own small heading with "Not confirmed. We name who is saying it." Each one has the dashed evidence glyph (`rumour`) and "Heard from" the outlet that is saying it. Football transfer rumours go to [Transfers](transfers.md), not here.
+
+## Badges and pictures
+
+A light close must never look like homework, so every item leads with a picture, not a paragraph:
+
+- **Kind badges.** Every item has a kind (`LIGHT_KINDS`): Screen, Music, People, Odd news, Animals, Around town (Ekran, Müzik, Ünlüler, İlginç, Hayvanlar, Şehirden). Each kind has a Stations icon. It shows as a 44px badge in a soft field of the hour colour, with the kind word above the title. A rumour's badge is drawn with a dashed outline instead, the same dashes as its evidence glyph.
+- **Teaser badges.** The closed fold shows one small badge per item under the teaser, so the reader can see what is inside before opening it.
+- **One path.** Open, the items run down a short line of their own, badge to badge, so the eye always knows where the next item starts.
+- **Photos.** A light story can carry the outlet photo (`image`, saved by `save-media` like a story's photo). The first light story with a photo leads with it across the column, and the others show it small beside the title. A light story without a real news photo has none.
+- **Outlet logos** sit next to the source names, as on Contents.
+- **The punchline** is set in the headline face, so the one funny line is what the eye lands on after the facts.
 
 ## How funny
 

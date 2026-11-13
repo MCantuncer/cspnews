@@ -65,6 +65,22 @@ export const ICONS = {
   /** A move from one club to another: an open station, then a filled one. */
   transfer:
     '<path d="M2 12h2.5M19.5 12H22M10 12h4.25M12.5 10l2 2-2 2"/><circle cx="7" cy="12" r="2.5"/><circle cx="17" cy="12" r="2.5" fill="currentColor"/>',
+  /** And finally kinds: television and film. */
+  screen:
+    '<path d="M3.5 6h17v11h-17zM8.5 20h7"/><circle cx="12" cy="11.5" r="2" fill="currentColor"/>',
+  /** Music: two notes on a beam. */
+  music:
+    '<path d="M9 17V6.5l10-2V15"/><circle cx="6.5" cy="17" r="2.5"/><circle cx="16.5" cy="15" r="2.5" fill="currentColor"/>',
+  /** Well-known people: a star. */
+  people:
+    '<path d="M12 3.75l2.5 5.1 5.6.8-4.05 3.95.95 5.6L12 16.6l-5 2.6.95-5.6L3.9 9.65l5.6-.8z"/>',
+  /** Odd news: a raised eyebrow of a mark. */
+  odd: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.25v5.5"/><circle cx="12" cy="16.25" r="1.1" fill="currentColor" stroke="none"/>',
+  /** Animals: a paw. */
+  animals:
+    '<circle cx="6.5" cy="10" r="1.9"/><circle cx="10" cy="6" r="1.9"/><circle cx="14" cy="6" r="1.9"/><circle cx="17.5" cy="10" r="1.9"/><path d="M12 11.5c-2.9 0-5.25 3.4-5.25 5.6 0 1.45 1.15 2.15 2.6 2.15 1.05 0 1.8-.5 2.65-.5s1.6.5 2.65.5c1.45 0 2.6-.7 2.6-2.15 0-2.2-2.35-5.6-5.25-5.6z"/>',
+  /** Around town: three buildings on the line. */
+  town: '<path d="M2.5 20h19M5 20v-9l4-2.5V20M9 20V4.5h6V20M15 20v-9.5l4 2V20"/>',
   /** And finally: a small cup on the line, something light after the news. */
   light:
     '<path d="M2 15h3.5M18.5 15H22M7 11h10v2.5a5 5 0 0 1-10 0z"/><path d="M10 8c0-1 1-1.25 1-2.25M13.5 8c0-1 1-1.25 1-2.25"/>',

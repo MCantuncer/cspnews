@@ -7,12 +7,14 @@ import {
   type LocalLightStory,
   type LocalRumour,
   type LocalTransferMove,
+  type LightKind,
   type TransferLeague,
   type TransferStage,
 } from '@cspnews/core';
 
 import { bulletinPath, type PublishedBulletin } from './bulletins.js';
 import type { InterfaceLanguage } from './evidence.js';
+import type { IconName } from './icons.js';
 import { TIER_RANK, sourceName, sourceTier } from './sources.js';
 
 /**
@@ -102,6 +104,15 @@ const WORDS = {
     whoNote: 'Agencies and established outlets first.',
     reported: (stage: string, day: string) => `${stage}, ${day}`,
     signedWhen: 'What would make it signed',
+    kinds: {
+      screen: 'Screen',
+      music: 'Music',
+      people: 'People',
+      odd: 'Odd news',
+      animals: 'Animals',
+      town: 'Around town',
+    },
+    rumour: 'Rumour',
     lightSetting: 'Light stories',
     lightHint: '“And finally” at the end of each bulletin.',
     leagues: {
@@ -131,6 +142,15 @@ const WORDS = {
     whoNote: 'Önce ajanslar ve köklü yayın organları.',
     reported: (stage: string, day: string) => `${stage}, ${day}`,
     signedWhen: 'İmza aşamasına ne geçirir',
+    kinds: {
+      screen: 'Ekran',
+      music: 'Müzik',
+      people: 'Ünlüler',
+      odd: 'İlginç',
+      animals: 'Hayvanlar',
+      town: 'Şehirden',
+    },
+    rumour: 'Söylenti',
     lightSetting: 'Hafif haberler',
     lightHint: 'Her bültenin sonunda “Biraz da magazin”.',
     leagues: {
@@ -150,6 +170,20 @@ export type ExtrasWords = (typeof WORDS)[InterfaceLanguage];
 
 export function extrasWords(lang: InterfaceLanguage): ExtrasWords {
   return WORDS[lang];
+}
+
+/** Each kind of light story has a Stations icon of its own, for its badge. */
+export const LIGHT_KIND_ICON: Readonly<Record<LightKind, IconName>> = {
+  screen: 'screen',
+  music: 'music',
+  people: 'people',
+  odd: 'odd',
+  animals: 'animals',
+  town: 'town',
+};
+
+export function kindWord(kind: LightKind, lang: InterfaceLanguage): string {
+  return WORDS[lang].kinds[kind];
 }
 
 export function stageWord(stage: TransferStage, lang: InterfaceLanguage): string {

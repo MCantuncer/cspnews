@@ -17,6 +17,7 @@ const without = <T extends object>(value: T, key: keyof T) =>
 
 const LIGHT: LightStory = {
   id: 'light-ferry-cat',
+  kind: 'animals',
   label: 'confirmed',
   versions: {
     en: {
@@ -35,6 +36,7 @@ const LIGHT: LightStory = {
 
 const RUMOUR: Rumour = {
   id: 'rumour-drama-ends',
+  kind: 'screen',
   versions: {
     en: { title: 'Hit TV drama said to end after this season' },
     tr: { title: 'Sevilen dizinin bu sezon final yapacağı konuşuluyor' },
@@ -90,6 +92,11 @@ describe('AndFinallySchema', () => {
   it('keeps light stories to confirmed or reported news', () => {
     const shaky = { ...LIGHT, label: 'single-source' };
     expect(AndFinallySchema.safeParse({ light: [shaky], rumours: [] }).success).toBe(false);
+  });
+
+  it('gives every item a kind for its badge', () => {
+    const story = { ...LIGHT, kind: 'politics' };
+    expect(AndFinallySchema.safeParse({ light: [story], rumours: [] }).success).toBe(false);
   });
 
   it('needs the aside in both languages', () => {

@@ -76,6 +76,7 @@ export {
   AND_FINALLY_MAX,
   AndFinallySchema,
   ExtraSourceSchema,
+  LIGHT_KINDS,
   LIGHT_LABEL_VALUES,
   LightStorySchema,
   LightVersionSchema,
@@ -95,6 +96,7 @@ export {
 export type {
   AndFinally,
   ExtraSource,
+  LightKind,
   LightStory,
   LocalLightStory,
   LocalRumour,

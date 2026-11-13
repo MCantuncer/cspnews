@@ -265,6 +265,7 @@ describe('parseBulletin', () => {
   it('accepts And finally and keeps its ids apart from the stories', () => {
     const rumour = {
       id: 'rumour-1',
+      kind: 'people',
       versions: { en: { title: 'Talk of a reshuffle' }, tr: { title: 'Kabine kulisi' } },
       heardFrom: { sourceId: 't24', url: 'https://t24.example/kulis' },
     };
