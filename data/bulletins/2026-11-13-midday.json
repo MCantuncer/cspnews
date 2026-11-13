@@ -1,0 +1,997 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-13T12:30:00+03:00",
+  "writtenAt": "2026-11-13T08:55:20.000Z",
+  "stories": [
+    {
+      "id": "c61ace37cba7bb99",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "New detentions in Sarıgül inquiry",
+          "title": "Police detain 15 people in a new wave of the money-laundering investigation into the Sarıgül family",
+          "summary": {
+            "what": "Istanbul prosecutors issued detention warrants for 17 people in the money-laundering inquiry into the family of MP Mustafa Sarıgül; police caught 15 of them on Friday morning.",
+            "why": "The suspects face charges of membership of a criminal organisation, laundering and bribery, in an inquiry that has already put 27 people in jail.",
+            "next": "Police are still searching for two suspects, and the separate file on Mustafa Sarıgül himself has gone to prosecutors in Ankara."
+          },
+          "body": [
+            {
+              "subhead": "Friday’s operation",
+              "blocks": [
+                {
+                  "text": "The Istanbul Chief Public Prosecutor’s Office issued detention warrants for 17 people on Friday morning in its investigation into the family of Mustafa Sarıgül, an independent member of parliament for Erzincan, according to A Haber, Hürriyet, Habertürk and NTV. Cumhuriyet and Sözcü put the number of warrants at 19."
+                },
+                {
+                  "text": "Police caught 15 suspects in simultaneous raids, and the search for two others, identified only by the initials Ç.K. and H.M., is continuing, Habertürk and Diken reported. The suspects face accusations of membership of a criminal organisation, laundering the proceeds of crime and bribery."
+                },
+                {
+                  "text": "A Haber’s reporter Mustafa Kadir Mercan said the operation may have followed an additional statement that Sarıgül’s son Emir, who is under house arrest, recently gave to prosecutors. Hürriyet reported that it was his fourth statement in the case."
+                }
+              ]
+            },
+            {
+              "subhead": "How the case began",
+              "blocks": [
+                {
+                  "text": "The investigation began after a complaint by two German citizens, K.P. and M.B., the prosecutor’s office said in October. According to the statement, the complainants alleged that an €80 million contract had been drawn up, that a €100 million transfer had been made, that a €1 billion fund had been promised to be moved abroad as loans through the use of public influence, and that a boat had been sold for €1.5 million."
+                },
+                {
+                  "text": "Twenty-seven people have been jailed so far, among them Sarıgül’s son Ömer, his former wife Aylin Kotil and the journalist Murat Ağırel, Hürriyet and Diken reported. A vocational college in Istanbul’s Şişli district was also found to have been used, and a trustee was appointed to run it."
+                },
+                {
+                  "text": "Prosecutors sent the file on Mustafa Sarıgül himself to the Ankara Chief Public Prosecutor’s Office, because he is a sitting MP. It covers allegations of forming a criminal organisation, child sexual abuse, laundering and aggravated sexual assault. Diken noted that Sarıgül resigned from the Yeni Parti on 28 October."
+                }
+              ]
+            },
+            {
+              "subhead": "New testimony and the defence of Ağırel",
+              "blocks": [
+                {
+                  "text": "Hürriyet reported a new statement from Müge Bayır, who was released under judicial control after being detained. She said Sarıgül had called her and her sister many times after her detention and later sent her 149,000 lira through intermediaries."
+                },
+                {
+                  "quote": "I regret getting in touch and speaking with Mustafa Sarıgül after I was detained, and I regret taking money from this person.",
+                  "speaker": "Müge Bayır",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Ağırel’s colleagues reject the case against him. Diken quoted the journalist Timur Soykan, who said Ağırel had held back the story because he did not consider the documents he had sufficient."
+                },
+                {
+                  "quote": "A journalist can be subjected to slander simply because he wants to prepare a story. Unfortunately we have lived through this before. We bear witness to our friend Murat Ağırel’s innocence.",
+                  "speaker": "Timur Soykan",
+                  "sourceId": "diken",
+                  "translated": true
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Sarıgül soruşturmasında yeni gözaltılar",
+          "title": "Sarıgül ailesine yönelik kara para soruşturmasında yeni dalga: 15 kişi gözaltına alındı",
+          "summary": {
+            "what": "İstanbul Cumhuriyet Başsavcılığı, milletvekili Mustafa Sarıgül’ün ailesine yönelik kara para soruşturmasında 17 kişi hakkında gözaltı kararı verdi; 15 kişi cuma sabahı yakalandı.",
+            "why": "Şüphelilere örgüt üyeliği, aklama ve rüşvet suçlamaları yöneltiliyor; soruşturmada şimdiye kadar 27 kişi tutuklandı.",
+            "next": "İki şüpheli aranıyor; Mustafa Sarıgül hakkındaki dosya ise Ankara Cumhuriyet Başsavcılığına gönderildi."
+          },
+          "body": [
+            {
+              "subhead": "Cuma sabahı operasyon",
+              "blocks": [
+                {
+                  "text": "İstanbul Cumhuriyet Başsavcılığı, Erzincan Milletvekili Mustafa Sarıgül’ün ailesine yönelik yürüttüğü soruşturmada cuma sabahı 17 kişi hakkında gözaltı kararı verdi. A Haber, Hürriyet, Habertürk ve NTV bu sayıyı 17, Cumhuriyet ve Sözcü ise 19 olarak aktardı."
+                },
+                {
+                  "text": "Habertürk ve Diken’e göre eş zamanlı baskınlarda 15 şüpheli yakalandı; adlarının baş harfleri Ç.K. ve H.M. olan iki şüpheliyi yakalama çalışmaları sürüyor. Şüphelilere “suç örgütüne üye olma”, “suçtan kaynaklanan malvarlığı değerlerini aklama” ve “rüşvet” suçlamaları yöneltiliyor."
+                },
+                {
+                  "text": "A Haber muhabiri Mustafa Kadir Mercan, operasyonun ev hapsindeki Emir Sarıgül’ün kısa süre önce savcılığa verdiği ek ifade doğrultusunda yapılmış olabileceğini söyledi. Hürriyet’e göre bu, Emir Sarıgül’ün soruşturmadaki dördüncü ifadesiydi."
+                }
+              ]
+            },
+            {
+              "subhead": "Soruşturma nasıl başladı",
+              "blocks": [
+                {
+                  "text": "Başsavcılığın ekim ayındaki açıklamasına göre soruşturma, Alman vatandaşları K.P. ve M.B.’nin şikâyetiyle başladı. Müştekiler, 80 milyon avroluk bir sözleşme düzenlendiğini, 100 milyon avroluk havale yapıldığını, 1 milyar avroluk fonun kamu gücü ve nüfuzu kullanılarak kredi yoluyla yurt dışına çıkarılmasının vaat edildiğini ve 1,5 milyon avroya tekne satıldığını iddia etmişti."
+                },
+                {
+                  "text": "Hürriyet ve Diken’in aktardığına göre şimdiye kadar aralarında Sarıgül’ün oğlu Ömer Sarıgül, eski eşi Aylin Kotil ve gazeteci Murat Ağırel’in de bulunduğu 27 kişi tutuklandı. İstanbul Şişli Meslek Yüksekokulunun da kullanıldığının tespit edilmesi üzerine okula kayyum atandı."
+                },
+                {
+                  "text": "Milletvekili olan Mustafa Sarıgül hakkındaki dosya, yetkisizlik kararıyla Ankara Cumhuriyet Başsavcılığına gönderildi. Dosya suç örgütü kurma, çocuğun cinsel istismarı, aklama ve nitelikli cinsel saldırı iddialarını kapsıyor. Diken, Sarıgül’ün 28 Ekim’de Yeni Parti üyeliğinden istifa ettiğini hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yeni ifade ve Ağırel’e destek",
+              "blocks": [
+                {
+                  "text": "Hürriyet, gözaltının ardından adli kontrolle serbest bırakılan Müge Bayır’ın yeni ifadesini aktardı. Bayır, gözaltı sonrasında Sarıgül’ün kendisini ve ablasını defalarca aradığını, ardından aracılar vasıtasıyla kendisine 149 bin lira gönderdiğini söyledi."
+                },
+                {
+                  "quote": "Mustafa Sarıgül ile gözaltına alındıktan sonra iletişime geçip konuştuğum için pişmanım, bu şahıstan para aldığımdan dolayı da pişmanlık duyuyorum.",
+                  "speaker": "Müge Bayır",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Ağırel’in meslektaşları ise suçlamaları kabul etmiyor. Diken’in aktardığına göre gazeteci Timur Soykan, Ağırel’in elindeki belgeleri yeterli bulmadığı için haberi beklemeye aldığını söyledi."
+                },
+                {
+                  "quote": "Bir gazeteci sadece haber hazırlamak istediği için iftiralara maruz kalabiliyor. Maalesef bunu daha önce de yaşadık. Dostumuz Murat Ağırel’in suçsuzluğuna şahidiz.",
+                  "speaker": "Timur Soykan",
+                  "sourceId": "diken"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T05:25:13.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T05:27:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T05:27:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:04:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:09:27.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:12:44.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:33:58.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:58:19.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T07:34:01.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6af6a844c813a6f07cce7d11.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/mustafa-sarigul-sorusturmasi-19-kisi-hakkinda-gozalti-karari-43376480"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/13/sarigul-sorusturmasinda-19-gozalti-karari",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/mustafa-sarigul-sorusturmasi-19-kisi-hakkinda-gozalti-karari-43376480",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sarigul-ailesine-yonelik-sorusturmada-yeni-dalga-19-kisi-hakkinda-gozalti-karari-2555783",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/kara-para-sorusturmasi-15-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-istanbul-daki-kara-para-aklama-sorusturmasinda-15-supheli-gozaltina-alindi-3927006",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-mustafa-sarigul-sorusturmasi-19-supheli-hakkinda-gozalti-karari-p380880",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-sarigul-sorusturmasinda-yeni-operasyon-17-gozalti-karari-1750654",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/13/mustafa-sarigulden-gozalti-sonrasi-atak-aglayarak-aradi-biz-ne-duruma-dustuk",
+          "confirms": false
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/13/sarigul-sorusturmasinda-15-kisi-gozaltina-alindi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T12:30:00+03:00",
+      "updatedAt": "2026-11-13T12:30:00+03:00"
+    },
+    {
+      "id": "fe9fbaf54d24ec71",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Raids on personal data sellers",
+          "title": "Police raid suspects in 42 provinces accused of selling stolen personal data and using it for blackmail",
+          "summary": {
+            "what": "Police carried out simultaneous raids in 42 provinces against people accused of stealing personal and bank data and selling it in messaging-app groups.",
+            "why": "Investigators say the data was used for threats and blackmail and to shop with other people’s cards; 22 of the suspects are reported to be children.",
+            "next": "The number of detentions rose through the morning, from 74 to 92 by Cumhuriyet’s latest count, and searches are continuing."
+          },
+          "body": [
+            {
+              "subhead": "The raids",
+              "blocks": [
+                {
+                  "text": "Police carried out simultaneous raids early on Friday at addresses in 42 provinces, in an operation run from Istanbul against people accused of obtaining personal data through unauthorised access and selling it, Habertürk, NTV and Diken reported. The Istanbul police cyber crime branch led the operation under the coordination of the Istanbul Chief Public Prosecutor’s Office."
+                },
+                {
+                  "text": "The first reports said 74 suspects had been detained. Cumhuriyet later said the number had risen to 79, and then that 92 people had been detained in 43 provinces and that proceedings had been opened against 100 people, 22 of them children. Sözcü reported 101 detentions in 43 provinces. NTV said 101 suspects had been under surveillance, 22 of whom were said to be children."
+                }
+              ]
+            },
+            {
+              "subhead": "What the suspects are accused of",
+              "blocks": [
+                {
+                  "text": "According to Habertürk and NTV, investigators found that personal information obtained through unauthorised access was shared and offered for sale for a fee. Diken said the stolen data included names and national identity numbers, and NTV said it was sold through groups on Telegram."
+                },
+                {
+                  "text": "Investigators say the data was used for threats and blackmail, above all around events that had caused public outrage, and that bank and credit card details were shared and used for shopping. The suspects also posted the data to gain unauthorised access to social media and similar apps."
+                },
+                {
+                  "text": "A Haber’s reporter Ahmet Nazif Vural said the suspects had sold access to the data through so-called panels, and that they had threatened people over the Rojin Kabaiş and Ahmet Minguzzi cases, two deaths that have been widely discussed in Turkey."
+                }
+              ]
+            },
+            {
+              "subhead": "The AVCI system",
+              "blocks": [
+                {
+                  "text": "The suspects were identified with AVCI, an AI-assisted application developed by the Istanbul police cyber crime branch, according to NTV and Habertürk. Police used it to examine groups on a messaging app, Diken reported."
+                },
+                {
+                  "quote": "The AVCI system, which concentrates its strength during cyber patrols, put under surveillance the people who were trying to obtain many different people’s information, phone numbers and even much more personal information on social media.",
+                  "speaker": "Ahmet Nazif Vural",
+                  "sourceId": "a-haber",
+                  "translated": true
+                },
+                {
+                  "text": "NTV said searches at the addresses and detentions were continuing."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "42 ilde kişisel veri operasyonu",
+          "title": "Kişisel verileri ele geçirip satan ve şantaj için kullanan şebekeye 42 ilde eş zamanlı operasyon",
+          "summary": {
+            "what": "Kişisel ve banka bilgilerini ele geçirip mesajlaşma uygulamalarındaki gruplarda satan şüphelilere İstanbul merkezli 42 ilde eş zamanlı operasyon düzenlendi.",
+            "why": "Verilerin tehdit ve şantajda, başkalarının kartlarıyla alışverişte kullanıldığı belirlendi; şüphelilerin 22’sinin çocuk olduğu bildirildi.",
+            "next": "Gözaltı sayısı sabah boyunca 74’ten Cumhuriyet’e göre 92’ye yükseldi; aramalar sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Operasyon",
+              "blocks": [
+                {
+                  "text": "Habertürk, NTV ve Diken’in haberine göre, yetkisiz erişimle kişisel bilgileri ele geçirip satan şüphelilere yönelik cuma sabahı İstanbul merkezli 42 ilde eş zamanlı operasyon düzenlendi. Operasyonu İstanbul Cumhuriyet Başsavcılığı koordinesinde İstanbul Emniyet Müdürlüğü Siber Suçlarla Mücadele Şube Müdürlüğü yürüttü."
+                },
+                {
+                  "text": "İlk haberlerde 74 şüphelinin gözaltına alındığı bildirildi. Cumhuriyet önce sayının 79’a yükseldiğini, ardından 43 ilde 92 kişinin gözaltına alındığını ve 22’si çocuk 100 kişi hakkında işlem başlatıldığını aktardı. Sözcü 43 ilde 101 gözaltı olduğunu yazdı. NTV ise 101 şüphelinin takip altına alındığını, bunlardan 22’sinin suça sürüklenen çocuk olduğunun iddia edildiğini bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Suçlamalar",
+              "blocks": [
+                {
+                  "text": "Habertürk ve NTV’ye göre ekipler, yetkisiz erişimle ele geçirilen kişisel bilgilerin paylaşıldığını ve belli bir ücret karşılığında satışa sunulduğunu belirledi. Diken, çalınan bilgiler arasında ad-soyad ve kimlik numarası bulunduğunu, NTV ise verilerin Telegram’daki gruplarda satıldığını aktardı."
+                },
+                {
+                  "text": "Bilgilerin başta kamuoyunda infial yaratan olaylar olmak üzere çeşitli konularda tehdit ve şantaj amacıyla kullanıldığı, banka ve kredi kartı bilgileri paylaşılarak alışveriş yapıldığı da tespit edildi. Şüphelilerin bu bilgilerle sosyal medya ve benzeri uygulamalara yetkisiz erişim sağlamak için paylaşımlar yaptığı belirlendi."
+                },
+                {
+                  "text": "A Haber muhabiri Ahmet Nazif Vural, şüphelilerin “panel” adı verilen sistemler üzerinden verilere erişim sattığını, Rojin Kabaiş ve Ahmet Minguzzi davaları gibi kamuoyunda çok konuşulan olaylar üzerinden insanları tehdit ettiğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "AVCI sistemi",
+              "blocks": [
+                {
+                  "text": "NTV ve Habertürk’e göre şüpheliler, İstanbul Emniyeti Siber Suçlarla Mücadele Şube Müdürlüğünün geliştirdiği yapay zekâ destekli AVCI uygulamasıyla tespit edildi. Diken’e göre polis bu uygulamayla bir mesajlaşma uygulamasındaki grupları inceledi."
+                },
+                {
+                  "quote": "Siber devriye esnasında güçlerini yoğunlaştıran Avcı sistemi, sosyal medya üzerinde birçok farklı kişinin bilgilerini, telefon numaralarını, hatta çok daha fazla kişisel bilgisini elde etmeye çalışan bu kişileri takibe aldı.",
+                  "speaker": "Ahmet Nazif Vural",
+                  "sourceId": "a-haber"
+                },
+                {
+                  "text": "NTV, adreslerdeki aramaların ve gözaltıların sürdüğünü bildirdi."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T04:57:24.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T05:00:17.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T05:00:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T05:20:09.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T05:26:10.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T05:39:54.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:43:00.000Z",
+          "sourceId": "cumhuriyet"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/13/ver1794545515/3926995/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-haberi-42-ilde-siber-operasyon-3926995"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-42-ilde-siber-operasyon-3926995",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/13/vatandasin-verilerini-satan-cete-cokertildi",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/42-ilde-veri-operasyonu/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/43-ilde-kisisel-veri-operasyonu-101-kisi-gozaltina-alindi-p380867",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-avci-isbasinda-kisisel-verilerle-santaj-yapip-telegramdan-satan-ceteye-operasyon-1750653",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/kisisel-verileri-ele-geciren-siber-suclularina-yonelik-operasyon-gozalti-alinan-kisi-sayisi-79-a-yukseldi-2555795",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T12:30:00+03:00",
+      "updatedAt": "2026-11-13T12:30:00+03:00"
+    },
+    {
+      "id": "cb6b305e96f5d91d",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Washington moves on chip exports",
+          "title": "After Jensen Huang’s exit, US lawmakers push to tighten AI chip exports to China and call Lutnick to testify",
+          "summary": {
+            "what": "House Speaker Mike Johnson says a consensus is forming in Congress to limit AI chip exports to China after Jensen Huang resigned as Nvidia’s chief.",
+            "why": "Huang quit over a relationship with a woman US authorities suspect of spying for China, reviving claims that export rules are too weak.",
+            "next": "Commerce Secretary Howard Lutnick has agreed to testify before the Senate Banking Committee, and Republicans want new limits in the defence bill."
+          },
+          "body": [
+            {
+              "subhead": "A consensus in Congress",
+              "blocks": [
+                {
+                  "text": "The resignation of Nvidia’s chief executive, Jensen Huang, has revived pressure in Washington to restrict China’s access to advanced AI chips, the Guardian and the South China Morning Post reported. Huang stepped down after reports of a romantic relationship with a businesswoman whom US authorities suspect of spying for the Chinese government."
+                },
+                {
+                  "text": "The House Speaker, Mike Johnson, told reporters at the Capitol that he favoured limiting China’s access to the technology, the Guardian reported, citing Reuters."
+                },
+                {
+                  "quote": "I think there’s a developing consensus in Congress that is an important position to take.",
+                  "speaker": "Mike Johnson",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Congressional Republicans want to attach new restrictions to the annual defence authorisation bill, a must-pass measure that usually has support from both parties, a Senate aide told Reuters. The South China Morning Post said the timing was particularly sensitive because lawmakers are debating that bill now."
+                }
+              ]
+            },
+            {
+              "subhead": "Questions for the Commerce Department",
+              "blocks": [
+                {
+                  "text": "The commerce secretary, Howard Lutnick, has agreed to appear voluntarily before the Senate Banking Committee, his spokesperson Kristen Eichamer told NBC News. The committee’s chair, Tim Scott, asked for a public hearing on the department’s role and has also asked Huang to testify. The department was meant to review companies for national security risks before the Trump administration let Nvidia sell advanced chips to China."
+                },
+                {
+                  "text": "Lawmakers have criticised Lutnick over the administration’s decision not to add DeepSeek, the memory chipmaker CXMT and more than 100 other Chinese companies to a trade blacklist. The US has not added anyone to that list since October 2025. The Republican senator Jim Banks said Nvidia had fought earlier attempts to tighten the rules."
+                },
+                {
+                  "quote": "Nvidia opposed my legislation a year ago. They opposed other export control laws.",
+                  "speaker": "Jim Banks",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "The Democratic senator Elizabeth Warren, who will chair the committee from January, asked the administration to preserve all documents on Nvidia’s chip exports to China."
+                }
+              ]
+            },
+            {
+              "subhead": "Fallout abroad",
+              "blocks": [
+                {
+                  "text": "Malaysia’s trade ministry said it was investigating whether a local subsidiary of Megaspeed, the Singapore-based data centre company linked to the scandal, had re-exported advanced AI chips to other countries. Chinese AI companies are trying to secure Nvidia chip capacity outside China, fearing that gaps in US export controls may now be closed, Reuters reported."
+                },
+                {
+                  "text": "Inside Nvidia, the interim chief executive, Colette Kress, is expected to approach Washington by trying to make friends rather than picking a fight over export controls as Huang did, a source told Reuters."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Washington’da çip ihracatı baskısı",
+          "title": "Jensen Huang’ın ayrılığının ardından ABD’li yasa koyucular Çin’e çip ihracatını sıkılaştırmak istiyor, Lutnick ifadeye çağrıldı",
+          "summary": {
+            "what": "Temsilciler Meclisi Başkanı Mike Johnson, Jensen Huang’ın Nvidia’dan istifasının ardından Kongre’de Çin’e çip ihracatını sınırlama konusunda uzlaşı oluştuğunu söyledi.",
+            "why": "Huang, ABD makamlarının Çin adına casuslukla şüphelendiği bir kadınla ilişkisi nedeniyle ayrıldı; bu, ihracat kurallarının zayıf olduğu eleştirilerini canlandırdı.",
+            "next": "Ticaret Bakanı Howard Lutnick Senato Bankacılık Komitesi’ne ifade vermeyi kabul etti; Cumhuriyetçiler savunma yasasına yeni kısıtlar eklemek istiyor."
+          },
+          "body": [
+            {
+              "subhead": "Kongre’de uzlaşı",
+              "blocks": [
+                {
+                  "text": "Guardian ve South China Morning Post’un haberine göre Nvidia’nın CEO’su Jensen Huang’ın istifası, Washington’da Çin’in gelişmiş yapay zekâ çiplerine erişimini kısıtlama baskısını yeniden alevlendirdi. Huang, ABD makamlarının Çin hükümeti adına casuslukla şüphelendiği bir iş kadınıyla romantik ilişkisi olduğu haberlerinin ardından görevi bırakmıştı."
+                },
+                {
+                  "text": "Guardian’ın Reuters’a dayandırdığı habere göre Temsilciler Meclisi Başkanı Mike Johnson, Kongre binasında gazetecilere Çin’in bu teknolojiye erişiminin sınırlanmasından yana olduğunu söyledi."
+                },
+                {
+                  "quote": "Kongre’de bunun önemli bir tutum olduğu konusunda giderek bir uzlaşı oluştuğunu düşünüyorum.",
+                  "speaker": "Mike Johnson",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Bir Senato çalışanının Reuters’a anlattığına göre Kongre’deki Cumhuriyetçiler, yeni kısıtlamaları her yıl çıkarılması zorunlu olan ve genellikle iki partinin de desteklediği savunma yetkilendirme yasasına eklemek istiyor. South China Morning Post, yasa şu anda tartışıldığı için zamanlamanın özellikle hassas olduğunu yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ticaret Bakanlığına sorular",
+              "blocks": [
+                {
+                  "text": "Ticaret Bakanı Howard Lutnick’in sözcüsü Kristen Eichamer, NBC News’e Lutnick’in Senato Bankacılık Komitesi’ne gönüllü olarak ifade vermeyi kabul ettiğini söyledi. Komite Başkanı Tim Scott, bakanlığın rolüyle ilgili açık oturum istedi ve Huang’ı da ifadeye çağırdı. Trump yönetimi Nvidia’nın Çin’e gelişmiş çip satmasına izin vermeden önce şirketleri ulusal güvenlik açısından incelemek bakanlığın göreviydi."
+                },
+                {
+                  "text": "Yasa koyucular, yönetimin DeepSeek’i, bellek çipi üreticisi CXMT’yi ve 100’den fazla Çinli şirketi ticari kara listeye almamasını eleştiriyor. ABD bu listeye Ekim 2025’ten beri kimseyi eklemedi. Cumhuriyetçi Senatör Jim Banks, Nvidia’nın kuralları sıkılaştırma girişimlerine karşı çıktığını söyledi."
+                },
+                {
+                  "quote": "Nvidia bir yıl önce benim yasa teklifime karşı çıktı. Diğer ihracat kontrolü yasalarına da karşı çıktılar.",
+                  "speaker": "Jim Banks",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Ocak ayından itibaren komiteye başkanlık edecek Demokrat Senatör Elizabeth Warren da yönetimden, Nvidia’nın Çin’e çip ihracatıyla ilgili tüm belgeleri saklamasını istedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yurt dışındaki yansımalar",
+              "blocks": [
+                {
+                  "text": "Malezya Ticaret Bakanlığı, skandalla adı geçen Singapur merkezli veri merkezi şirketi Megaspeed’in yerel bir iştirakinin gelişmiş yapay zekâ çiplerini başka ülkelere yeniden ihraç edip etmediğini araştırdığını açıkladı. Reuters’a göre Çinli yapay zekâ şirketleri, ABD ihracat kontrollerindeki boşlukların kapanacağından endişe ederek Çin dışında Nvidia çip kapasitesi bulmaya çalışıyor."
+                },
+                {
+                  "text": "Reuters’a konuşan bir kaynağa göre Nvidia’nın geçici CEO’su Colette Kress’in, Huang gibi ihracat kontrolleri konusunda kavga etmek yerine Washington’la dostluk kurmaya çalışması bekleniyor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T22:35:06.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T06:50:49.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T06:50:49.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374270/jensen-huangs-departure-may-signal-tighter-us-controls-ai-chip-exports-china",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T12:30:00+03:00",
+      "updatedAt": "2026-11-13T12:30:00+03:00"
+    },
+    {
+      "id": "e7a7eed0983e3aff",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Microsoft outage passes 12 hours",
+          "title": "Microsoft says a patch is working as its global Outlook and Teams outage passes 12 hours, and rules out a cyber-attack",
+          "summary": {
+            "what": "Microsoft said on Friday it was seeing positive results from a patch, after an outage of Outlook, Teams and other 365 services lasted more than 12 hours.",
+            "why": "The outage hit users in 74 countries, including governments; Microsoft says it found no sign of a cyber-attack or other malicious activity.",
+            "next": "Microsoft is extending the fix to more servers and has promised a post-incident report on the root cause."
+          },
+          "body": [
+            {
+              "subhead": "Signs of recovery",
+              "blocks": [
+                {
+                  "text": "Microsoft said on Friday that it was “seeing positive results” from its efforts to end an outage that has cut users around the world off from Outlook email, Teams and other Microsoft 365 services for more than 12 hours, the Guardian reported. In an update shortly after 7am GMT, the company said it had applied a patch to an upstream authentication and routing configuration component on part of its infrastructure, and was working to extend it to more servers."
+                },
+                {
+                  "text": "The problems started on Thursday afternoon US time. On Thursday evening Microsoft said that its first changes were “not taking as expected” and that it was looking for other ways to add capacity, France 24 reported. The Guardian said the disruption was patchy on Friday, with some but not all users reporting problems."
+                }
+              ]
+            },
+            {
+              "subhead": "Not a cyber-attack",
+              "blocks": [
+                {
+                  "text": "Microsoft said it was not aware of any malicious activity behind the incident, France 24 reported. The company has said that a large number of servers became unexpectedly unavailable, and the Guardian reported that they failed during automated checks and that restarted servers could become unresponsive again once traffic returned."
+                },
+                {
+                  "quote": "Once mitigated, we will provide full details of the root cause, defense-in-depth repair items, and more within a post-incident report.",
+                  "speaker": "Microsoft",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Mark Gregory, an associate professor at RMIT University, told the Guardian the outage appeared to affect the network layer. When some servers fail, users crowd onto the rest of the pool, overload them and bring them down too, he said, describing a cascading problem."
+                }
+              ]
+            },
+            {
+              "subhead": "Who was hit",
+              "blocks": [
+                {
+                  "text": "At the peak, the outage tracker Downdetector logged nearly 130,000 reports from 74 countries and territories, covering Word, Excel, PowerPoint, Outlook, Teams, SharePoint, OneDrive and the Copilot assistant. New Zealand’s foreign ministry said the outage affected its ability to receive email at all of its embassies and consulates, France 24 reported."
+                },
+                {
+                  "text": "The outage also broke Microsoft 365 connectors used by AI services, among them OpenAI’s, the Guardian reported. Charles Lamanna, Microsoft’s executive vice-president for Copilot, said the company regretted the disruption."
+                },
+                {
+                  "quote": "We regret that today’s outages caused disruptions for our customers, and we are working to address the issue.",
+                  "speaker": "Charles Lamanna",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Microsoft kesintisi 12 saati aştı",
+          "title": "Outlook ve Teams’teki küresel kesinti 12 saati aşarken Microsoft düzeltmenin işe yaradığını açıkladı, siber saldırıyı dışladı",
+          "summary": {
+            "what": "Microsoft, Outlook, Teams ve diğer 365 hizmetlerindeki kesinti 12 saati aşarken cuma günü uyguladığı yamadan olumlu sonuç aldığını açıkladı.",
+            "why": "Kesinti, aralarında devlet kurumlarının da olduğu 74 ülkedeki kullanıcıları etkiledi; Microsoft siber saldırı ya da kötü niyetli bir faaliyet bulmadığını söylüyor.",
+            "next": "Microsoft düzeltmeyi daha fazla sunucuya yayıyor ve asıl nedeni anlatan bir olay sonrası rapor yayımlayacağını söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Toparlanma işaretleri",
+              "blocks": [
+                {
+                  "text": "Guardian’ın haberine göre Microsoft, cuma günü Outlook e-postası, Teams ve diğer Microsoft 365 hizmetlerinde dünya genelinde 12 saatten uzun süren kesintiyi gidermek için yaptığı çalışmalarda “olumlu sonuçlar görmeye başladığını” açıkladı. Şirket, GMT ile saat 07.00’den kısa süre sonra yaptığı açıklamada, altyapısının bir bölümünde kimlik doğrulama ve yönlendirme yapılandırma bileşenine yama uyguladığını ve bunu daha fazla sunucuya yaymaya çalıştığını bildirdi."
+                },
+                {
+                  "text": "Sorunlar ABD saatiyle perşembe öğleden sonra başladı. France 24’e göre Microsoft perşembe akşamı ilk değişikliklerin “beklendiği gibi sonuç vermediğini” ve kapasiteyi artırmak için başka yollar aradığını açıklamıştı. Guardian, cuma günü sorunun düzensiz sürdüğünü, kullanıcıların bir kısmının hâlâ sorun bildirdiğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Siber saldırı değil",
+              "blocks": [
+                {
+                  "text": "France 24’e göre Microsoft, olayın arkasında herhangi bir kötü niyetli faaliyet tespit etmediğini açıkladı. Şirket, çok sayıda sunucunun beklenmedik biçimde devre dışı kaldığını söylemişti. Guardian, sunucuların otomatik kontroller sırasında çöktüğünü ve yeniden başlatılan sunucuların trafik geri geldiğinde tekrar yanıt vermez hâle gelebildiğini aktardı."
+                },
+                {
+                  "quote": "Sorun giderildiğinde asıl neden, derinlemesine savunma onarımları ve diğer ayrıntılar hakkında olay sonrası raporda tam bilgi vereceğiz.",
+                  "speaker": "Microsoft",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "RMIT Üniversitesi’nden Doçent Mark Gregory, Guardian’a kesintinin ağ katmanını etkilediğini düşündüğünü söyledi. Gregory’ye göre bazı sunucular çökünce kullanıcılar kalan sunuculara yükleniyor, onları da aşırı yükleyip çökertiyor; ortaya zincirleme bir sorun çıkıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Kimler etkilendi",
+              "blocks": [
+                {
+                  "text": "Kesinti takip sitesi Downdetector, en yoğun anda 74 ülke ve bölgeden yaklaşık 130 bin şikâyet kaydetti; Word, Excel, PowerPoint, Outlook, Teams, SharePoint, OneDrive ve Copilot asistanı etkilendi. France 24’e göre Yeni Zelanda Dışişleri Bakanlığı, kesintinin tüm büyükelçilik ve konsolosluklarında e-posta almayı etkilediğini duyurdu."
+                },
+                {
+                  "text": "Guardian’a göre kesinti, aralarında OpenAI’ın da bulunduğu yapay zekâ hizmetlerinde kullanılan Microsoft 365 bağlayıcılarını da bozdu. Microsoft’un Copilot’tan sorumlu başkan yardımcısı Charles Lamanna, şirketin yaşanan aksaklıktan üzüntü duyduğunu söyledi."
+                },
+                {
+                  "quote": "Bugünkü kesintilerin müşterilerimiz için aksaklığa yol açmasından üzüntü duyuyoruz, sorunu gidermek için çalışıyoruz.",
+                  "speaker": "Charles Lamanna",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T19:03:39.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T20:01:33.000Z",
+          "sourceId": "wired"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T20:01:33.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T23:24:13.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T03:44:22.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T08:16:11.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "updated",
+          "at": "2026-11-13T08:16:11.000Z",
+          "sourceId": "guardian-world",
+          "note": {
+            "en": "Microsoft says a patch is showing positive results and that it has found no sign of a cyber-attack.",
+            "tr": "Microsoft, uyguladığı yamadan olumlu sonuç aldığını ve siber saldırı belirtisi bulmadığını açıkladı."
+          }
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/f7e0b76a-df37-11f1-a593-f71d22e7fea9/w:1024/p:16x9/063-2304840770.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries"
+      },
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+          "confirms": true
+        },
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T12:30:00+03:00",
+      "updatedAt": "2026-11-13T12:30:00+03:00"
+    },
+    {
+      "id": "1a2bb872ee945534",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Europe to join Ukraine talks",
+          "title": "Europe will join the next round of Ukraine peace talks, US envoys say, as Putin refuses to soften his demands",
+          "summary": {
+            "what": "Jared Kushner and Volodymyr Zelensky said in Dublin that European countries will take part in the next round of talks with Russia on ending the war.",
+            "why": "Putin told the US envoys he would not give up his territorial demands and would treat any foreign troops in Ukraine as a target.",
+            "next": "EU leaders meet in Dublin on Friday to discuss who should speak for Europe; no single envoy is expected to be named yet."
+          },
+          "body": [
+            {
+              "subhead": "A seat for Europe",
+              "blocks": [
+                {
+                  "text": "European countries will take part in the next round of talks with Russia on ending the war in Ukraine, the US envoy Jared Kushner and the Ukrainian president, Volodymyr Zelensky, said on Thursday in Dublin, France 24 reported. Kushner and Steve Witkoff flew there to brief Zelensky after more than four hours of talks with Vladimir Putin at the Kremlin, the South China Morning Post reported."
+                },
+                {
+                  "quote": "We cannot conclude this deal without Europeans being at the table.",
+                  "speaker": "Jared Kushner",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "Kushner also said on X that Washington was working towards what would be the largest prisoner exchange of the war, potentially reuniting thousands of people with their families, France 24 reported. Zelensky welcomed the move, saying it made sense for Europe to be involved as Ukraine hopes to join the EU, according to the BBC."
+                }
+              ]
+            },
+            {
+              "subhead": "Putin holds firm",
+              "blocks": [
+                {
+                  "text": "In Moscow, Putin refused to soften his demand for full control of four Ukrainian regions that Russia claims to have annexed, and ruled out foreign peacekeepers, the Guardian reported. DW said he had suggested his demands could include a commitment that Ukraine never joins NATO, and even rolling the alliance back to remove Finland and Sweden."
+                },
+                {
+                  "quote": "What do we hear from them? That once a peace agreement is signed, they will immediately deploy troops in Ukraine. This is a legitimate target for us, so the war will resume immediately.",
+                  "speaker": "Vladimir Putin",
+                  "sourceId": "dw-world",
+                  "translated": true
+                },
+                {
+                  "text": "Zelensky also accused Elon Musk’s Starlink of hurting Ukraine’s air defence. He said Starshield, the military version of the service, had for several days been limited to speeds of 100mph along the front line, making it harder to intercept Russian jet drones, the Guardian reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Who speaks for Europe",
+              "blocks": [
+                {
+                  "text": "More than 45 leaders are meeting in Dublin for the European Political Community summit, and EU leaders are due to discuss on Friday who should represent the bloc. The EU foreign policy chief, Kaja Kallas, and the European Council president, António Costa, are seen as likely choices, but one EU official told the Guardian they did not expect agreement on a special representative."
+                },
+                {
+                  "text": "The German chancellor, Friedrich Merz, said Europe must be at the table, but that getting Putin to negotiate came first. The French president, Emmanuel Macron, said the content would determine the format. The Estonian prime minister, Kristen Michal, warned that Europe was being drawn into discussing its own defence with the country that threatens it."
+                },
+                {
+                  "text": "Russian strikes on energy infrastructure overnight caused power cuts in 12 Ukrainian regions, Ukraine’s deputy energy minister said on Friday, France 24 reported."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Avrupa Ukrayna müzakerelerine katılıyor",
+          "title": "ABD’li temsilciler, Avrupa’nın Ukrayna barış görüşmelerinin bir sonraki turuna katılacağını açıkladı; Putin taleplerinden geri adım atmıyor",
+          "summary": {
+            "what": "Jared Kushner ve Volodimir Zelenski, Dublin’de Avrupa ülkelerinin Rusya ile savaşı bitirme görüşmelerinin bir sonraki turuna katılacağını açıkladı.",
+            "why": "Putin, ABD’li temsilcilere toprak taleplerinden vazgeçmeyeceğini ve Ukrayna’daki her yabancı askeri hedef sayacağını söyledi.",
+            "next": "AB liderleri cuma günü Dublin’de Avrupa’yı kimin temsil edeceğini görüşecek; henüz tek bir temsilci belirlenmesi beklenmiyor."
+          },
+          "body": [
+            {
+              "subhead": "Avrupa masada",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre ABD’nin özel temsilcisi Jared Kushner ve Ukrayna Devlet Başkanı Volodimir Zelenski, perşembe günü Dublin’de Avrupa ülkelerinin Rusya ile savaşı sona erdirme görüşmelerinin bir sonraki turuna katılacağını açıkladı. South China Morning Post’a göre Kushner ve Steve Witkoff, Kremlin’de Vladimir Putin’le dört saati aşan görüşmenin ardından Zelenski’yi bilgilendirmek için Dublin’e uçtu."
+                },
+                {
+                  "quote": "Avrupalılar masada olmadan bu anlaşmayı tamamlayamayız.",
+                  "speaker": "Jared Kushner",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "France 24’e göre Kushner X’te Washington’ın savaşın en büyük esir takası olacak ve binlerce kişiyi ailesine kavuşturabilecek bir anlaşma üzerinde çalıştığını da yazdı. BBC’nin aktardığına göre Zelenski, Ukrayna AB’ye katılmayı umduğu için Avrupa’nın sürece dahil olmasının mantıklı olduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Putin geri adım atmıyor",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre Putin, Moskova’daki görüşmede Rusya’nın ilhak ettiğini iddia ettiği dört Ukrayna bölgesinin tamamen kontrolü talebinden vazgeçmedi ve yabancı barış gücü fikrini reddetti. DW, Putin’in taleplerinin arasında Ukrayna’nın asla NATO’ya katılmayacağı taahhüdünün, hatta Finlandiya ve İsveç’in ittifaktan çıkarılmasının bile olabileceğini ima ettiğini yazdı."
+                },
+                {
+                  "quote": "Onlardan ne duyuyoruz? Barış anlaşması imzalanır imzalanmaz Ukrayna’ya hemen asker konuşlandıracaklarını. Bu bizim için meşru bir hedeftir, dolayısıyla savaş hemen yeniden başlar.",
+                  "speaker": "Vladimir Putin",
+                  "sourceId": "dw-world",
+                  "translated": true
+                },
+                {
+                  "text": "Zelenski ayrıca Elon Musk’ın Starlink hizmetini Ukrayna’nın hava savunmasına zarar vermekle suçladı. Guardian’a göre Zelenski, hizmetin askerî sürümü Starshield’in birkaç gündür cephe hattında saatte 100 mille (161 km) sınırlandırıldığını ve bunun Rus jet motorlu dronlarını önlemeyi zorlaştırdığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Avrupa’yı kim temsil edecek",
+              "blocks": [
+                {
+                  "text": "Dublin’deki Avrupa Siyasi Topluluğu zirvesine 45’ten fazla lider katılıyor; AB liderleri cuma günü birliği kimin temsil edeceğini görüşecek. AB Dış Politika Yüksek Temsilcisi Kaja Kallas ve AB Konseyi Başkanı António Costa öne çıkan isimler arasında, ancak bir AB yetkilisi Guardian’a özel temsilci konusunda uzlaşı beklemediğini söyledi."
+                },
+                {
+                  "text": "Almanya Başbakanı Friedrich Merz, Avrupa’nın masada olması gerektiğini ama önce Putin’in müzakereye ikna edilmesi gerektiğini söyledi. Fransa Cumhurbaşkanı Emmanuel Macron, formatı içeriğin belirleyeceğini savundu. Estonya Başbakanı Kristen Michal ise Avrupa’nın kendi savunmasını, kendisini tehdit eden ülkeyle tartışmaya çekildiği uyarısında bulundu."
+                },
+                {
+                  "text": "France 24’e göre Ukrayna Enerji Bakan Yardımcısı, gece boyunca enerji altyapısına yönelik Rus saldırılarının 12 bölgede elektrik kesintisine yol açtığını cuma günü açıkladı."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-12T19:05:17.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T19:53:15.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-12T19:53:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T22:00:00.000Z",
+          "sourceId": "dw-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-12T22:26:37.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T02:01:35.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T04:12:01.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/eb157cac-ded1-11f1-b7cf-29048b396e03/w:1024/p:16x9/EN-20261112-201030-201228-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/zelensky-warns-europe-over-us-russia-talks-on-broader-security-arrangements"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-13T12:30:00+03:00",
+      "updatedAt": "2026-11-13T12:30:00+03:00"
+    }
+  ]
+}
