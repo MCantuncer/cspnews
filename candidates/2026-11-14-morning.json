@@ -4,10 +4,10 @@
     "slot": "morning",
     "publishAt": "2026-11-14T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-13T22:33:44.128Z",
+  "generatedAt": "2026-11-13T22:43:32.999Z",
   "window": {
-    "since": "2026-11-13T08:33:44.128Z",
-    "until": "2026-11-13T22:33:44.128Z"
+    "since": "2026-11-13T08:43:32.999Z",
+    "until": "2026-11-13T22:43:32.999Z"
   },
   "sections": {
     "turkey": [
@@ -20,7 +20,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.98,
+        "score": 16.97,
         "firstSeenAt": "2026-11-13T21:17:44.000Z",
         "lastUpdatedAt": "2026-11-13T22:20:55.000Z",
         "image": {
@@ -170,7 +170,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.84,
+        "score": 16.82,
         "firstSeenAt": "2026-11-13T12:22:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:36:09.000Z",
         "image": {
@@ -353,7 +353,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.51,
+        "score": 16.5,
         "firstSeenAt": "2026-11-13T15:52:17.000Z",
         "lastUpdatedAt": "2026-11-13T16:42:50.000Z",
         "image": {
@@ -520,7 +520,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.95,
+        "score": 14.94,
         "firstSeenAt": "2026-11-13T21:09:07.000Z",
         "lastUpdatedAt": "2026-11-13T21:58:32.000Z",
         "image": {
@@ -682,7 +682,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.85,
+        "score": 14.84,
         "firstSeenAt": "2026-11-13T11:07:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:46:55.000Z",
         "image": {
@@ -842,7 +842,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.44,
+        "score": 14.43,
         "firstSeenAt": "2026-11-13T12:16:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:53:10.000Z",
         "image": {
@@ -973,7 +973,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.84,
+        "score": 12.82,
         "firstSeenAt": "2026-11-13T17:55:10.000Z",
         "lastUpdatedAt": "2026-11-13T20:36:41.000Z",
         "image": {
@@ -1114,7 +1114,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.68,
+        "score": 12.67,
         "firstSeenAt": "2026-11-13T08:50:33.000Z",
         "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
         "image": {
@@ -1259,7 +1259,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.27,
+        "score": 12.25,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:42.000Z",
         "image": {
@@ -1399,7 +1399,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.95,
+        "score": 10.94,
         "firstSeenAt": "2026-11-13T12:41:08.000Z",
         "lastUpdatedAt": "2026-11-13T21:58:56.000Z",
         "image": {
@@ -1498,7 +1498,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.88,
+        "score": 10.87,
         "firstSeenAt": "2026-11-13T10:52:33.000Z",
         "lastUpdatedAt": "2026-11-13T21:07:57.000Z",
         "image": {
@@ -1609,7 +1609,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.86,
+        "score": 10.84,
         "firstSeenAt": "2026-11-13T19:33:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:50:30.000Z",
         "image": {
@@ -1699,6 +1699,115 @@
         ]
       },
       {
+        "storyId": "01eb10a1a8a1a259",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.82,
+        "firstSeenAt": "2026-11-13T12:59:51.000Z",
+        "lastUpdatedAt": "2026-11-13T20:33:15.000Z",
+        "image": {
+          "url": "https://images.ntv.com.tr/images/malatya-%C5%9Fehitler-518386.jpg",
+          "sourceId": "ntv",
+          "sourceName": "NTV",
+          "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-kahraman-pilotlar-malatyada-faciayi-onlemis-1750735"
+        },
+        "sources": [
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T12:59:51.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T17:12:34.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-13T17:12:34.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-13T20:16:00.000Z",
+            "sourceId": "cumhuriyet"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/galeri-kahraman-pilotlar-malatyada-faciayi-onlemis-1750735",
+            "title": "Kahraman pilotlar Malatya'da faciayı önlemiş",
+            "summary": "Malatya'da dört askerin şehit olduğu kazada, şehit pilotların helikopteri yerleşim alanına düşürmemek için büyük bir fedakarlık gösterdiği ortaya çıktı.",
+            "publishedAt": "2026-11-13T12:59:51.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/malatya-%C5%9Fehitler-518386.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/helikopter-kazasinda-sehit-olan-dort-askerin-cenaze-programlari-belli-oldu-p381126",
+            "title": "Helikopter kazasında şehit olan dört askerin cenaze programları belli oldu",
+            "summary": "Malatya’nın Yeşilyurt ilçesinde düşen askeri helikopterde şehit olan dört asker için 14 Kasım’da cenaze törenleri düzenl...",
+            "publishedAt": "2026-11-13T17:12:34.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/214jpg-62kONkXlekylU780c60sFA.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/helikopter-kazasinda-sehit-olan-dort-askerin-cenaze-programlari-belli-oldu-2555984",
+            "title": "Helikopter kazasında şehit olan dört askerin cenaze programları belli oldu",
+            "summary": "Malatya’nın Yeşilyurt ilçesinde düşen Skorsky tipi askeri helikopterde şehit olan dört asker için yarın İzmir, Ankara, Hatay ve Kayseri’de cenaze törenleri düzenlenecek.",
+            "publishedAt": "2026-11-13T17:43:00.000Z",
+            "copyOf": "4e8870350db71af4",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/386f6f97-5ac8-4635-80c1-2aef5e4dbad6.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/malatya-da-4-askerin-sehit-oldugu-helikopterin-enkazi-kaldirildi-2556019",
+            "title": "Malatya’da 4 askerin şehit olduğu helikopterin enkazı kaldırıldı",
+            "summary": "Malatya’da 4 askerin şehit olduğu helikopter kazasının ardından başlatılan olay yeri çalışmalarında sona gelinirken helikopterin parçaları vinç yardımıyla tıra yüklenerek bölgeden kaldırıldı.",
+            "publishedAt": "2026-11-13T20:16:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/c45606ba-ad23-41e7-be05-78bc95d8aa77.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/malatyada-4-askerin-sehit-oldugu-helikopterin-enkazi-kaldirildi-p381149",
+            "title": "Malatya’da 4 askerin şehit olduğu helikopterin enkazı kaldırıldı",
+            "summary": "Malatya’nın Yeşilyurt ilçesinde 4 askerin şehit olduğu S-70 tipi helikopterin parçaları, yaklaşık 20 saat süren olay yer...",
+            "publishedAt": "2026-11-13T20:33:15.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/malatyada4askerinsehitolduguhelikopterinenkazikaldirildikapak594d952e3f6ce51ejpg-5FvkswHaYkGhz_vXl-8tEw.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "c4c60be760c150b3",
         "language": "tr",
         "label": "confirmed",
@@ -1707,7 +1816,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.83,
+        "score": 10.82,
         "firstSeenAt": "2026-11-13T09:57:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:32:15.000Z",
         "image": {
@@ -1830,7 +1939,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.73,
+        "score": 10.71,
         "firstSeenAt": "2026-11-13T13:01:10.000Z",
         "lastUpdatedAt": "2026-11-13T19:17:28.000Z",
         "image": {
@@ -1934,95 +2043,6 @@
             "imageUrl": "https://im.haberturk.com/l/2026/11/13/ver1794597422/3927245/jpg/1920x1080"
           }
         ]
-      },
-      {
-        "storyId": "784e1aa87859c321",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.69,
-        "firstSeenAt": "2026-11-13T17:29:16.000Z",
-        "lastUpdatedAt": "2026-11-13T18:52:25.000Z",
-        "image": {
-          "url": "https://iaahbr.tmgrup.com.tr/822254/1200/1200/221/0/706/486?u=https://iahbr.tmgrup.com.tr/2026/11/13/chatgpt-artik-odeme-de-yapacak-openai-yeni-dijital-cuzdanini-duyurdu-1794595828009.png",
-          "sourceId": "a-haber",
-          "sourceName": "A Haber",
-          "articleUrl": "https://www.ahaber.com.tr/gundem/2026/11/13/chatgpt-artik-odeme-de-yapacak-openai-yeni-dijital-cuzdanini-duyurdu"
-        },
-        "sources": [
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "diken",
-            "name": "Diken",
-            "camp": "independent",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "a-haber",
-            "name": "A Haber",
-            "camp": "pro-government",
-            "tier": "partisan",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T17:29:16.000Z",
-            "sourceId": "aa-tr"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T18:16:45.000Z",
-            "sourceId": "diken"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-13T18:16:45.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-13T18:52:25.000Z",
-            "sourceId": "a-haber"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/bilim-teknoloji/openai-yapay-zeka-destekli-odemeler-icin-chatgpt-walleti-duyurdu/4124633",
-            "title": "OpenAI, yapay zeka destekli ödemeler için ChatGPT Wallet'ı duyurdu",
-            "summary": "OpenAI, yapay zeka ajanlarının kullanıcıların gerçek kart bilgilerine erişmeden ödeme yapmasına imkan tanıyan ve her satın alma işlemi için güvenlik kontrolü gerektiren ChatGPT Wallet adlı dijital cüzdanı tanıttı.",
-            "publishedAt": "2026-11-13T17:29:16.000Z"
-          },
-          {
-            "sourceId": "diken",
-            "url": "https://www.diken.com.tr/openaidan-chatgpt-wallet-yapay-zeka-sizin-yerinize-odeme-yapacak/",
-            "title": "OpenAI'dan 'ChatGPT Wallet': Yapay zeka sizin yerinize ödeme yapacak",
-            "summary": "OpenAI'dan 'ChatGPT Wallet': Yapay zeka sizin yerinize ödeme yapacak 13.11.2026 Diken ChatGPT'nin geliştiricisi OpenAI, yapay zeka ajanlarının alışveriş ödemesi yapmasını sağlayan 'ChatGPT Wallet' adlı dijital cüzdanı tanıttı. The post OpenAI'dan 'ChatGPT Wallet': Yapay zeka sizin yerinize ödeme yapacak appeared first on #site_linkat 13.11.2026 .",
-            "publishedAt": "2026-11-13T18:16:45.000Z"
-          },
-          {
-            "sourceId": "a-haber",
-            "url": "https://www.ahaber.com.tr/gundem/2026/11/13/chatgpt-artik-odeme-de-yapacak-openai-yeni-dijital-cuzdanini-duyurdu",
-            "title": "OpenAI'dan dijital ödeme devrimi: ChatGPT Wallet kullanıma sunuluyor",
-            "summary": "OpenAI, yapay zeka ajanlarının kullanıcıların gerçek kart bilgilerine erişmeden ödeme yapmasına imkan tanıyan ChatGPT Wallet adlı dijital cüzdanını duyurdu. Visa, Mastercard ve American Express iş... Devamı için tıklayınız",
-            "publishedAt": "2026-11-13T18:52:25.000Z",
-            "imageUrl": "https://iaahbr.tmgrup.com.tr/822254/1200/1200/221/0/706/486?u=https://iahbr.tmgrup.com.tr/2026/11/13/chatgpt-artik-odeme-de-yapacak-openai-yeni-dijital-cuzdanini-duyurdu-1794595828009.png"
-          }
-        ]
       }
     ],
     "tech": [
@@ -2034,7 +2054,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.99,
+        "score": 18.98,
         "firstSeenAt": "2026-11-13T21:05:53.000Z",
         "lastUpdatedAt": "2026-11-13T22:26:12.000Z",
         "image": {
@@ -2174,7 +2194,7 @@
           {
             "sourceId": "al-jazeera",
             "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
-            "title": "US grounds all flights after ‘communication issue’",
+            "title": "FAA grounds US flights nationwide after ‘communication issue’",
             "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is 'investigating the issue'.",
             "publishedAt": "2026-11-13T21:32:08.000Z"
           },
@@ -2182,7 +2202,7 @@
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
             "title": "Flights grounded across US due to ‘extraordinary circumstances’, FAA says",
-            "summary": "The US Federal Aviation Administration (FAA) grounded all flights nationwide on Friday because of communications problems at regional air traffic control centres. The FAA notice said the ground stop was being imposed “due to extraordinary circumstances and for reasons of safety”. Transportation Secretary Sean Duffy said there was a communications issue affecting the 22 regional air traffic control centres that direct planes en route between airports nationwide. He said FAA technicians were...",
+            "summary": "The US Federal Aviation Administration grounded all flights nationwide on Friday afternoon because of communications problems at regional air traffic control centres. The FAA notice said the ground stop was being imposed “due to extraordinary circumstances and for reasons of safety”. Transport Secretary Sean Duffy said there was a communications issue affecting the 22 regional air traffic control centres that direct planes en route between airports nationwide. He said FAA technicians were...",
             "publishedAt": "2026-11-13T21:33:43.000Z",
             "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/e4752fc0-38c0-4772-af61-5c677db3ce32_c490cce4.jpg?itok=_e5kPcX1&v=1794606019"
           },
@@ -2241,7 +2261,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.89,
+        "score": 18.88,
         "firstSeenAt": "2026-11-13T11:43:27.000Z",
         "lastUpdatedAt": "2026-11-13T21:14:22.000Z",
         "image": {
@@ -2447,7 +2467,7 @@
           "independent-sources",
           "primary-source"
         ],
-        "score": 10.85,
+        "score": 10.84,
         "firstSeenAt": "2026-11-13T15:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:45:10.000Z",
         "sources": [
@@ -2521,7 +2541,7 @@
         ]
       },
       {
-        "storyId": "de10cd3d80689aed",
+        "storyId": "a53b6d6797d1d8ce",
         "language": "en",
         "label": "single-source",
         "developing": true,
@@ -2529,6 +2549,43 @@
           "single-owner"
         ],
         "score": 4,
+        "firstSeenAt": "2026-11-13T22:43:00.000Z",
+        "lastUpdatedAt": "2026-11-13T22:43:00.000Z",
+        "sources": [
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T22:43:00.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+            "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+            "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+            "publishedAt": "2026-11-13T22:43:00.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "de10cd3d80689aed",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.98,
         "firstSeenAt": "2026-11-13T19:58:41.000Z",
         "lastUpdatedAt": "2026-11-13T22:30:29.000Z",
         "image": {
@@ -2580,7 +2637,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.95,
+        "score": 3.94,
         "firstSeenAt": "2026-11-13T21:59:01.000Z",
         "lastUpdatedAt": "2026-11-13T21:59:01.000Z",
         "image": {
@@ -2624,7 +2681,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.9,
+        "score": 3.89,
         "firstSeenAt": "2026-11-13T21:20:47.000Z",
         "lastUpdatedAt": "2026-11-13T21:20:47.000Z",
         "image": {
@@ -2668,7 +2725,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.83,
+        "score": 3.81,
         "firstSeenAt": "2026-11-13T20:30:00.000Z",
         "lastUpdatedAt": "2026-11-13T20:30:00.000Z",
         "sources": [
@@ -2705,7 +2762,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.8,
+        "score": 3.78,
         "firstSeenAt": "2026-11-13T20:07:24.000Z",
         "lastUpdatedAt": "2026-11-13T20:07:24.000Z",
         "sources": [
@@ -2742,7 +2799,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.79,
+        "score": 3.78,
         "firstSeenAt": "2026-11-13T20:03:13.000Z",
         "lastUpdatedAt": "2026-11-13T20:03:13.000Z",
         "image": {
@@ -2786,7 +2843,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.78,
+        "score": 3.77,
         "firstSeenAt": "2026-11-13T19:57:56.000Z",
         "lastUpdatedAt": "2026-11-13T19:57:56.000Z",
         "image": {
@@ -2830,7 +2887,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.77,
+        "score": 3.76,
         "firstSeenAt": "2026-11-13T19:49:16.000Z",
         "lastUpdatedAt": "2026-11-13T19:49:16.000Z",
         "image": {
@@ -2874,7 +2931,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.76,
+        "score": 3.74,
         "firstSeenAt": "2026-11-13T19:37:57.000Z",
         "lastUpdatedAt": "2026-11-13T19:37:57.000Z",
         "sources": [
@@ -2911,7 +2968,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.72,
+        "score": 3.71,
         "firstSeenAt": "2026-11-13T19:14:38.000Z",
         "lastUpdatedAt": "2026-11-13T19:14:38.000Z",
         "sources": [
@@ -2948,7 +3005,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.68,
+        "score": 3.66,
         "firstSeenAt": "2026-11-13T18:40:30.000Z",
         "lastUpdatedAt": "2026-11-13T18:40:30.000Z",
         "sources": [
@@ -2976,43 +3033,6 @@
             "publishedAt": "2026-11-13T18:40:30.000Z"
           }
         ]
-      },
-      {
-        "storyId": "640ded743fc83f21",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.63,
-        "firstSeenAt": "2026-11-13T18:10:41.000Z",
-        "lastUpdatedAt": "2026-11-13T18:10:41.000Z",
-        "sources": [
-          {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T18:10:41.000Z",
-            "sourceId": "the-verge"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-            "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
-            "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like other trackball mice already available from companies like Logitech and Kensington with a 34mm ball positioned […]",
-            "publishedAt": "2026-11-13T18:10:41.000Z"
-          }
-        ]
       }
     ],
     "world": [
@@ -3024,7 +3044,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.99,
+        "score": 18.98,
         "firstSeenAt": "2026-11-13T21:05:53.000Z",
         "lastUpdatedAt": "2026-11-13T22:26:12.000Z",
         "image": {
@@ -3164,7 +3184,7 @@
           {
             "sourceId": "al-jazeera",
             "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
-            "title": "US grounds all flights after ‘communication issue’",
+            "title": "FAA grounds US flights nationwide after ‘communication issue’",
             "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is 'investigating the issue'.",
             "publishedAt": "2026-11-13T21:32:08.000Z"
           },
@@ -3172,7 +3192,7 @@
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
             "title": "Flights grounded across US due to ‘extraordinary circumstances’, FAA says",
-            "summary": "The US Federal Aviation Administration (FAA) grounded all flights nationwide on Friday because of communications problems at regional air traffic control centres. The FAA notice said the ground stop was being imposed “due to extraordinary circumstances and for reasons of safety”. Transportation Secretary Sean Duffy said there was a communications issue affecting the 22 regional air traffic control centres that direct planes en route between airports nationwide. He said FAA technicians were...",
+            "summary": "The US Federal Aviation Administration grounded all flights nationwide on Friday afternoon because of communications problems at regional air traffic control centres. The FAA notice said the ground stop was being imposed “due to extraordinary circumstances and for reasons of safety”. Transport Secretary Sean Duffy said there was a communications issue affecting the 22 regional air traffic control centres that direct planes en route between airports nationwide. He said FAA technicians were...",
             "publishedAt": "2026-11-13T21:33:43.000Z",
             "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/e4752fc0-38c0-4772-af61-5c677db3ce32_c490cce4.jpg?itok=_e5kPcX1&v=1794606019"
           },
@@ -3231,7 +3251,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 18.89,
+        "score": 18.88,
         "firstSeenAt": "2026-11-13T11:43:27.000Z",
         "lastUpdatedAt": "2026-11-13T21:14:22.000Z",
         "image": {
@@ -3436,7 +3456,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.99,
+        "score": 10.98,
         "firstSeenAt": "2026-11-13T20:49:15.000Z",
         "lastUpdatedAt": "2026-11-13T22:29:05.000Z",
         "image": {
@@ -3533,7 +3553,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.86,
+        "score": 10.85,
         "firstSeenAt": "2026-11-13T18:05:38.000Z",
         "lastUpdatedAt": "2026-11-13T20:52:31.000Z",
         "image": {
@@ -3629,7 +3649,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.82,
+        "score": 10.8,
         "firstSeenAt": "2026-11-13T19:51:28.000Z",
         "lastUpdatedAt": "2026-11-13T20:20:33.000Z",
         "image": {
@@ -3719,7 +3739,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.46,
+        "score": 10.44,
         "firstSeenAt": "2026-11-13T13:02:08.000Z",
         "lastUpdatedAt": "2026-11-13T16:01:45.000Z",
         "image": {
@@ -3808,7 +3828,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.92,
+        "score": 8.91,
         "firstSeenAt": "2026-11-13T15:43:39.000Z",
         "lastUpdatedAt": "2026-11-13T21:38:52.000Z",
         "image": {
@@ -3877,7 +3897,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.92,
+        "score": 8.9,
         "firstSeenAt": "2026-11-13T19:03:10.000Z",
         "lastUpdatedAt": "2026-11-13T21:34:14.000Z",
         "image": {
@@ -3947,7 +3967,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.85,
+        "score": 8.84,
         "firstSeenAt": "2026-11-13T15:49:51.000Z",
         "lastUpdatedAt": "2026-11-13T20:48:02.000Z",
         "image": {
@@ -4023,7 +4043,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.7,
+        "score": 8.68,
         "firstSeenAt": "2026-11-13T16:53:50.000Z",
         "lastUpdatedAt": "2026-11-13T18:55:08.000Z",
         "image": {
@@ -4093,7 +4113,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.52,
+        "score": 8.5,
         "firstSeenAt": "2026-11-13T13:11:23.000Z",
         "lastUpdatedAt": "2026-11-13T16:44:56.000Z",
         "image": {
@@ -4162,7 +4182,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.41,
+        "score": 8.4,
         "firstSeenAt": "2026-11-13T13:52:11.000Z",
         "lastUpdatedAt": "2026-11-13T15:32:00.000Z",
         "image": {
@@ -4231,7 +4251,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.98,
+        "score": 3.97,
         "firstSeenAt": "2026-11-13T22:18:43.000Z",
         "lastUpdatedAt": "2026-11-13T22:18:43.000Z",
         "image": {
@@ -4275,7 +4295,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.98,
+        "score": 3.96,
         "firstSeenAt": "2026-11-13T22:16:27.000Z",
         "lastUpdatedAt": "2026-11-13T22:16:27.000Z",
         "sources": [
@@ -4313,7 +4333,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.96,
         "firstSeenAt": "2026-11-13T22:12:54.000Z",
         "lastUpdatedAt": "2026-11-13T22:12:54.000Z",
         "image": {
@@ -4362,7 +4382,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.85,
+        "score": 14.84,
         "firstSeenAt": "2026-11-13T11:07:54.000Z",
         "lastUpdatedAt": "2026-11-13T20:46:55.000Z",
         "image": {
@@ -4522,7 +4542,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.68,
+        "score": 12.67,
         "firstSeenAt": "2026-11-13T08:50:33.000Z",
         "lastUpdatedAt": "2026-11-13T18:44:32.000Z",
         "image": {
@@ -4667,7 +4687,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.27,
+        "score": 12.25,
         "firstSeenAt": "2026-11-13T13:28:07.000Z",
         "lastUpdatedAt": "2026-11-13T13:45:42.000Z",
         "image": {
@@ -4807,7 +4827,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.88,
+        "score": 10.87,
         "firstSeenAt": "2026-11-13T10:52:33.000Z",
         "lastUpdatedAt": "2026-11-13T21:07:57.000Z",
         "image": {
@@ -4918,7 +4938,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.4,
+        "score": 10.39,
         "firstSeenAt": "2026-11-13T15:15:00.000Z",
         "lastUpdatedAt": "2026-11-13T15:24:12.000Z",
         "image": {
@@ -5024,7 +5044,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.89,
+        "score": 8.88,
         "firstSeenAt": "2026-11-13T17:31:30.000Z",
         "lastUpdatedAt": "2026-11-13T21:16:00.000Z",
         "image": {
@@ -5095,7 +5115,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.85,
+        "score": 8.84,
         "firstSeenAt": "2026-11-13T12:53:57.000Z",
         "lastUpdatedAt": "2026-11-13T20:48:02.000Z",
         "image": {
@@ -5209,7 +5229,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.7,
+        "score": 8.68,
         "firstSeenAt": "2026-11-13T16:53:50.000Z",
         "lastUpdatedAt": "2026-11-13T18:55:08.000Z",
         "image": {
@@ -5280,7 +5300,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.59,
+        "score": 8.58,
         "firstSeenAt": "2026-11-13T09:18:40.000Z",
         "lastUpdatedAt": "2026-11-13T17:37:40.000Z",
         "image": {
@@ -5351,7 +5371,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.57,
+        "score": 8.56,
         "firstSeenAt": "2026-11-13T16:45:52.000Z",
         "lastUpdatedAt": "2026-11-13T17:26:19.000Z",
         "image": {
@@ -5428,38 +5448,30 @@
         ]
       },
       {
-        "storyId": "dd43dbf40bb06212",
+        "storyId": "e7028a935dea7608",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
         "reasons": [
-          "copies-not-counted",
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.52,
-        "firstSeenAt": "2026-11-13T14:02:00.000Z",
+        "score": 8.5,
+        "firstSeenAt": "2026-11-13T14:07:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:45:11.000Z",
         "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af71884ff497cc803f6a25a.jpg",
-          "sourceId": "hurriyet",
-          "sourceName": "Hürriyet",
-          "articleUrl": "https://www.hurriyet.com.tr/sporarena/fenerbahceden-nathan-akenin-saglik-durumuyla-ilgili-aciklama-43377350"
+          "url": "https://media.cumhuriyet.com.tr/Archive/25eff001-8044-41be-aba8-9b170fc3835e.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/spor/fenerbahce-duyurdu-nathan-ake-den-kotu-haber-2555942"
         },
         "sources": [
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
           {
             "id": "cumhuriyet",
             "name": "Cumhuriyet",
             "camp": "opposition",
             "tier": "established",
-            "confirms": false
+            "confirms": true
           },
           {
             "id": "haberturk",
@@ -5479,8 +5491,8 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-13T14:02:00.000Z",
-            "sourceId": "hurriyet"
+            "at": "2026-11-13T14:07:00.000Z",
+            "sourceId": "cumhuriyet"
           },
           {
             "kind": "outlet-joined",
@@ -5496,20 +5508,11 @@
         ],
         "articles": [
           {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/sporarena/fenerbahceden-nathan-akenin-saglik-durumuyla-ilgili-aciklama-43377350",
-            "title": "Fenerbahçe'den Nathan Ake’nin sağlık durumuyla ilgili açıklama!",
-            "summary": "Fenerbahçe, bireysel çalışmaları sırasında ağrı hisseden Nathan Ake'nin sağ alt adalesinde yaralanma tespit edildiğini açıkladı.",
-            "publishedAt": "2026-11-13T14:02:00.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af71884ff497cc803f6a25a.jpg"
-          },
-          {
             "sourceId": "cumhuriyet",
             "url": "https://www.cumhuriyet.com.tr/spor/fenerbahce-duyurdu-nathan-ake-den-kotu-haber-2555942",
             "title": "Fenerbahçe duyurdu: Nathan Ake'den kötü haber",
             "summary": "Fenerbahçe, bireysel çalışmaları sırasında ağrı hisseden Nathan Ake'nin sağ alt adalesinde yaralanma tespit edildiğini açıkladı.",
             "publishedAt": "2026-11-13T14:07:00.000Z",
-            "copyOf": "dd43dbf40bb06212",
             "imageUrl": "https://media.cumhuriyet.com.tr/Archive/25eff001-8044-41be-aba8-9b170fc3835e.jpg"
           },
           {
@@ -5539,7 +5542,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.15,
+        "score": 8.14,
         "firstSeenAt": "2026-11-13T10:45:11.000Z",
         "lastUpdatedAt": "2026-11-13T12:24:02.000Z",
         "image": {
@@ -5625,7 +5628,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.98,
+        "score": 8.96,
         "firstSeenAt": "2026-11-13T21:35:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:16:31.000Z",
         "image": {
@@ -5695,7 +5698,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.53,
+        "score": 8.51,
         "firstSeenAt": "2026-11-13T14:49:00.000Z",
         "lastUpdatedAt": "2026-11-13T16:53:14.000Z",
         "image": {
@@ -5767,7 +5770,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.44,
+        "score": 8.42,
         "firstSeenAt": "2026-11-13T15:02:42.000Z",
         "lastUpdatedAt": "2026-11-13T15:48:00.000Z",
         "image": {
@@ -5852,7 +5855,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.41,
+        "score": 8.4,
         "firstSeenAt": "2026-11-13T12:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T15:28:06.000Z",
         "image": {
@@ -5939,6 +5942,50 @@
         ]
       },
       {
+        "storyId": "739e298f83193a63",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.99,
+        "firstSeenAt": "2026-11-13T22:34:20.000Z",
+        "lastUpdatedAt": "2026-11-13T22:34:20.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb69/live/58b9cb60-dfb2-11f1-a701-fddedf244c16.jpg",
+          "sourceId": "bbc-sport-football",
+          "sourceName": "BBC Sport",
+          "articleUrl": "https://www.bbc.co.uk/sport/football/videos/c34gn5k2lk9lo?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-sport-football",
+            "name": "BBC Sport",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-13T22:34:20.000Z",
+            "sourceId": "bbc-sport-football"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/videos/c34gn5k2lk9lo?at_medium=RSS&at_campaign=rss",
+            "title": "'If that penalty is given against you, you're furious'",
+            "summary": "Sportscene pundits Leanne Crichton and Scott Brown discuss the penalty award that led to Scotland beating North Macedonia.",
+            "publishedAt": "2026-11-13T22:34:20.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb69/live/58b9cb60-dfb2-11f1-a701-fddedf244c16.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "c3db6069237a58d1",
         "language": "en",
         "label": "single-source",
@@ -5946,7 +5993,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.96,
         "firstSeenAt": "2026-11-13T22:14:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:14:00.000Z",
         "image": {
@@ -5990,7 +6037,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.96,
         "firstSeenAt": "2026-11-13T22:11:27.000Z",
         "lastUpdatedAt": "2026-11-13T22:11:27.000Z",
         "image": {
@@ -6034,7 +6081,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.96,
+        "score": 3.95,
         "firstSeenAt": "2026-11-13T22:05:14.000Z",
         "lastUpdatedAt": "2026-11-13T22:05:14.000Z",
         "image": {
@@ -6078,7 +6125,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.96,
+        "score": 3.95,
         "firstSeenAt": "2026-11-13T22:04:08.000Z",
         "lastUpdatedAt": "2026-11-13T22:04:08.000Z",
         "image": {
@@ -6122,7 +6169,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.95,
+        "score": 3.94,
         "firstSeenAt": "2026-11-13T22:00:00.000Z",
         "lastUpdatedAt": "2026-11-13T22:00:00.000Z",
         "image": {
@@ -6151,8 +6198,8 @@
           {
             "sourceId": "sky-sports-transfers",
             "url": "https://www.skysports.com/football/england-u21-vs-portugal-u21/report/578797",
-            "title": "Dowman makes debut as England U21s lose to Portugal",
-            "summary": "Afonso Moreira's first-half strike was enough to earn Portugal U21s a 1-0 friendly victory over England at Ashton Gate.",
+            "title": "Dowman breaks record after making England U21s debut in loss to Portugal",
+            "summary": "Max Dowman broke Jude Bellingham's record to become the youngest player to represent England at U21 level but could not stop Lee Carsley's side from falling to a 1-0 loss against Portugal.",
             "publishedAt": "2026-11-13T22:00:00.000Z",
             "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-max-dowman-england_7406122.jpg?20261113220317"
           }
@@ -6166,7 +6213,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.79,
+        "score": 3.77,
         "firstSeenAt": "2026-11-13T12:43:51.000Z",
         "lastUpdatedAt": "2026-11-13T19:59:40.000Z",
         "image": {
@@ -6218,7 +6265,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.72,
+        "score": 3.71,
         "firstSeenAt": "2026-11-13T19:12:37.000Z",
         "lastUpdatedAt": "2026-11-13T19:12:37.000Z",
         "image": {
@@ -6253,69 +6300,8 @@
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a24/live/9b132b20-df92-11f1-a9ad-6774a3284d10.jpg"
           }
         ]
-      },
-      {
-        "storyId": "c8b5f698f02e72cc",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.7,
-        "firstSeenAt": "2026-11-13T19:00:23.000Z",
-        "lastUpdatedAt": "2026-11-13T19:00:23.000Z",
-        "image": {
-          "url": "https://i.guim.co.uk/img/media/cf486b8222139aa40698ef1ce78a51d522716296/344_0_2768_2215/master/2768.jpg?width=140&quality=85&auto=format&fit=max&s=68bac943b11782930fd7772ffc11b5f6",
-          "sourceId": "guardian-football",
-          "sourceName": "The Guardian Football",
-          "articleUrl": "https://www.theguardian.com/football/2026/nov/13/no-one-is-unbeatable-tuchel-eager-for-england-to-impose-style-on-spain"
-        },
-        "sources": [
-          {
-            "id": "guardian-football",
-            "name": "The Guardian Football",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-13T19:00:23.000Z",
-            "sourceId": "guardian-football"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "guardian-football",
-            "url": "https://www.theguardian.com/football/2026/nov/13/no-one-is-unbeatable-tuchel-eager-for-england-to-impose-style-on-spain",
-            "title": "‘No one is unbeatable’: Tuchel eager for England to impose style on Spain",
-            "summary": "Manager calls Sunday’s Nations League decider a ‘final’ as preparations for Euro 2028 ratchet up a level Proof of concept. It is Thomas Tuchel’s latest buzz phrase. The England manager has dropped it into the conversation pretty regularly since the Friday of last week when he named his squad for this international window, the one that was always going to decide whether his team finished first or second in their Nations League group. By it, Tuchel means a test of his methods, what he is trying to build – or, more accurately, fine-tune – as he turns his gaze towards Euro 2028 and tries to move on from the devastation of the World Cup semi-final exit against Argentina . The test does not come any bigger than the one which faces him and his players in Madrid on Sunday night. Continue reading...",
-            "publishedAt": "2026-11-13T19:00:23.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/cf486b8222139aa40698ef1ce78a51d522716296/344_0_2768_2215/master/2768.jpg?width=140&quality=85&auto=format&fit=max&s=68bac943b11782930fd7772ffc11b5f6"
-          },
-          {
-            "sourceId": "guardian-football",
-            "url": "https://www.theguardian.com/football/2026/nov/13/thotmas-tuchel-england-anti-racism-protocols-spain-nations-league",
-            "title": "Tuchel to remind England players of anti-racism protocols before game in Spain",
-            "summary": "England visit Madrid for first time since fan abuse in 2004 ‘We had the same discussion before the Serbia game’ Thomas Tuchel will remind his ­England players of the anti-racism protocols as they prepare to play Spain in Madrid for the first time since the notorious meeting between the countries in 2004. Spain won 1-0 at the Bernabéu but the occasion was ruined by racist abuse directed at England’s black players from the stands. England have since played three games in Spain, although they refused to return to Madrid for the first of them in 2009. The match was moved to Seville. There were no ­problems in any of the three; the second was in Alicante in 2015, the third back in Seville in 2018. Continue reading...",
-            "publishedAt": "2026-11-13T19:00:23.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/a1c1ff504598ed4512dc004751023f776e1c3f4c/422_34_3489_2791/master/3489.jpg?width=140&quality=85&auto=format&fit=max&s=7171e9ac9208bdc1a79d2d677937a549"
-          }
-        ]
       }
     ]
   },
-  "failures": [
-    {
-      "sourceId": "ntv-spor",
-      "reason": "HTTP 301"
-    },
-    {
-      "sourceId": "fanatik",
-      "reason": "HTTP 404"
-    }
-  ]
+  "failures": []
 }
