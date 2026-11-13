@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { SECTIONS } from './sections.js';
+import { DESKS, SECTIONS } from './sections.js';
 
 /**
  * Source registry types (US-50).
@@ -42,8 +42,10 @@ export const SourceSchema = z
     homepage: z.url({ protocol: /^https$/ }),
     /** Logo override, for outlets whose site icon is not their brand mark. */
     logoUrl: z.url({ protocol: /^https$/ }).optional(),
-    /** Sections this source feeds. */
-    sections: z.array(z.enum(SECTIONS)).min(1),
+    /** News sections this source feeds; empty for a source that only feeds a desk. */
+    sections: z.array(z.enum(SECTIONS)),
+    /** Desks outside the news this source feeds: And finally (`light`) and `transfers`. */
+    desks: z.array(z.enum(DESKS)).optional(),
     /** ISO 639-1 language code of the source's articles. */
     language: z.string().regex(/^[a-z]{2}$/),
     /** Sources with the same owner group never count as independent confirmations. */
@@ -53,7 +55,11 @@ export const SourceSchema = z
     /** Set to false to keep a source in the registry without reading it. */
     enabled: z.boolean().default(true),
   })
-  .strict();
+  .strict()
+  .refine(
+    (source) => source.sections.length > 0 || (source.desks?.length ?? 0) > 0,
+    'A source feeds at least one section or desk',
+  );
 
 export type SourceInput = z.input<typeof SourceSchema>;
 export type Source = z.output<typeof SourceSchema>;
