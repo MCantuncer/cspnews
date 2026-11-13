@@ -29,7 +29,7 @@ const path = resolve(file);
 const candidates = JSON.parse(readFileSync(path, 'utf8')) as CandidatesFile;
 const urls = [
   ...new Set(
-    Object.values(candidates.sections)
+    [...Object.values(candidates.sections), ...Object.values(candidates.desks)]
       .flat()
       .flatMap((candidate) =>
         candidate.articles

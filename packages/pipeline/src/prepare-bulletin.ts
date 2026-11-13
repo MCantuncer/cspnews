@@ -30,7 +30,7 @@ mkdirSync(outputDirectory, { recursive: true });
 const file = join(outputDirectory, `${bulletinKey(bulletin)}.json`);
 writeFileSync(file, `${JSON.stringify(candidates, null, 2)}\n`);
 
-const counts = Object.entries(candidates.sections)
+const counts = Object.entries({ ...candidates.sections, ...candidates.desks })
   .map(([section, list]) => `${section} ${String(list.length)}`)
   .join(', ');
 console.log(`Wrote ${file}: ${counts}; ${String(candidates.failures.length)} feed failures.`);

@@ -1,4 +1,4 @@
-import type { Camp, Section, Source, StoryImage, Tier } from '@cspnews/core';
+import type { Camp, Desk, Section, Source, StoryImage, Tier } from '@cspnews/core';
 import type { Story } from '@cspnews/grouping';
 import {
   evidenceFor,
@@ -21,6 +21,11 @@ export interface CandidatesFile {
   readonly generatedAt: string;
   readonly window: { readonly since: string; readonly until: string };
   readonly sections: Readonly<Record<Section, readonly Candidate[]>>;
+  /**
+   * Candidates for the parts outside the news: light stories and rumours for And finally, and
+   * football moves for Transfers. Filled from the sources that feed each desk.
+   */
+  readonly desks: Readonly<Record<Desk, readonly Candidate[]>>;
   readonly failures: readonly { readonly sourceId: string; readonly reason: string }[];
 }
 
@@ -88,6 +93,58 @@ export interface CandidateOptions {
   readonly perSection?: number;
 }
 
+function candidateFor(story: Story, sources: ReadonlyMap<string, Source>, now: Date): Candidate {
+  const evidence = evidenceFor(story, sources, { now });
+  const confirming = new Set(evidence.confirmingSourceIds);
+  const sourceIds = [...new Set(story.articles.map((member) => member.article.sourceId))];
+  const image = pickImage(story, sources, evidence.confirmingSourceIds);
+  return {
+    storyId: story.id,
+    language: story.language,
+    label: evidence.label,
+    developing: evidence.developing,
+    reasons: evidence.reasons,
+    score: scoreStory(story, evidence, now),
+    firstSeenAt: story.firstSeenAt.toISOString(),
+    lastUpdatedAt: story.lastUpdatedAt.toISOString(),
+    ...(image ? { image } : {}),
+    sources: sourceIds.flatMap((id) => {
+      const source = sources.get(id);
+      return source
+        ? [
+            {
+              id,
+              name: source.name,
+              camp: source.camp,
+              tier: source.tier,
+              confirms: confirming.has(id),
+            },
+          ]
+        : [];
+    }),
+    timeline: storyLifecycle(story, sources).map((event) => ({
+      ...event,
+      at: event.at.toISOString(),
+    })),
+    articles: story.articles.map(({ article, copyOf }) => ({
+      sourceId: article.sourceId,
+      url: article.url,
+      title: article.title,
+      summary: article.summary,
+      publishedAt: article.publishedAt.toISOString(),
+      ...(copyOf ? { copyOf } : {}),
+      ...(article.imageUrl ? { imageUrl: article.imageUrl } : {}),
+    })),
+  };
+}
+
+/** Strongest first, then the most recently updated, keeping at most `limit`. */
+function ranked(candidates: readonly Candidate[], limit: number): Candidate[] {
+  return [...candidates]
+    .sort((a, b) => b.score - a.score || b.lastUpdatedAt.localeCompare(a.lastUpdatedAt))
+    .slice(0, limit);
+}
+
 export function toCandidates(
   stories: readonly Story[],
   sources: ReadonlyMap<string, Source>,
@@ -96,57 +153,49 @@ export function toCandidates(
   const sections: Record<Section, Candidate[]> = { turkey: [], tech: [], world: [] };
 
   for (const story of stories) {
-    const evidence = evidenceFor(story, sources, { now });
-    const confirming = new Set(evidence.confirmingSourceIds);
-    const sourceIds = [...new Set(story.articles.map((member) => member.article.sourceId))];
-    const image = pickImage(story, sources, evidence.confirmingSourceIds);
-    const candidate: Candidate = {
-      storyId: story.id,
-      language: story.language,
-      label: evidence.label,
-      developing: evidence.developing,
-      reasons: evidence.reasons,
-      score: scoreStory(story, evidence, now),
-      firstSeenAt: story.firstSeenAt.toISOString(),
-      lastUpdatedAt: story.lastUpdatedAt.toISOString(),
-      ...(image ? { image } : {}),
-      sources: sourceIds.flatMap((id) => {
-        const source = sources.get(id);
-        return source
-          ? [
-              {
-                id,
-                name: source.name,
-                camp: source.camp,
-                tier: source.tier,
-                confirms: confirming.has(id),
-              },
-            ]
-          : [];
-      }),
-      timeline: storyLifecycle(story, sources).map((event) => ({
-        ...event,
-        at: event.at.toISOString(),
-      })),
-      articles: story.articles.map(({ article, copyOf }) => ({
-        sourceId: article.sourceId,
-        url: article.url,
-        title: article.title,
-        summary: article.summary,
-        publishedAt: article.publishedAt.toISOString(),
-        ...(copyOf ? { copyOf } : {}),
-        ...(article.imageUrl ? { imageUrl: article.imageUrl } : {}),
-      })),
-    };
+    if (story.sections.length === 0) continue;
+    const candidate = candidateFor(story, sources, now);
     for (const section of story.sections) {
       sections[section].push(candidate);
     }
   }
 
   for (const section of Object.keys(sections) as Section[]) {
-    sections[section] = sections[section]
-      .sort((a, b) => b.score - a.score || b.lastUpdatedAt.localeCompare(a.lastUpdatedAt))
-      .slice(0, perSection);
+    sections[section] = ranked(sections[section], perSection);
   }
   return sections;
+}
+
+export interface DeskCandidateOptions {
+  readonly now: Date;
+  /** Most stories kept per desk. */
+  readonly perDesk?: number;
+}
+
+/**
+ * Candidates for each desk: a story goes to a desk when any of its articles came from a source
+ * that feeds that desk. A story can also be in a news section when other outlets covered it.
+ */
+export function toDeskCandidates(
+  stories: readonly Story[],
+  sources: ReadonlyMap<string, Source>,
+  { now, perDesk = 12 }: DeskCandidateOptions,
+): Record<Desk, Candidate[]> {
+  const desks: Record<Desk, Candidate[]> = { light: [], transfers: [] };
+
+  for (const story of stories) {
+    const storyDesks = new Set(
+      story.articles.flatMap(({ article }) => sources.get(article.sourceId)?.desks ?? []),
+    );
+    if (storyDesks.size === 0) continue;
+    const candidate = candidateFor(story, sources, now);
+    for (const desk of storyDesks) {
+      desks[desk].push(candidate);
+    }
+  }
+
+  for (const desk of Object.keys(desks) as Desk[]) {
+    desks[desk] = ranked(desks[desk], perDesk);
+  }
+  return desks;
 }

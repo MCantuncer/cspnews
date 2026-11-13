@@ -8,6 +8,7 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
    - every story in both languages under `versions.en` and `versions.tr`, and `sourceLanguage` set to the language most of its sources used. See "Writing in two languages" below;
    - only facts from the candidate articles, each claim and quote attributed to its outlet; optional fields left out when the sources don't support them;
    - keep each candidate's label, sources, timeline and `image` (the photo the rules picked, with its credit), but drop the `image` when it is a logo, brand graphic or illustration rather than a news photo; the rules can't always tell.
+   - when the candidates file has them, write **And finally** and **Transfers** from `desks.light` and `desks.transfers`. See "And finally and Transfers" below. Both are optional: leave a part out rather than fill it with weak items.
 3. **Save the photos.** In a pull request the Bulletin photos workflow does this and adds the photos to the branch. By hand: `pnpm --filter @cspnews/pipeline save-media "$PWD/data/bulletins/<file>.json"` downloads each story's photo to `data/bulletins/media/<story id>.<ext>`. When the feed only carried a thumbnail (under 800 px wide), the article's own full-size photo is saved instead and the bulletin's image URL is updated. A photo that fails is reported and the story falls back to its next visual.
 4. **Save the outlet logos** (first time, then when sources change). `pnpm --filter @cspnews/config fetch-logos "$PWD/data/bulletins/media/logos"`. The site shows `svg`, `png` and `webp` logos; convert any other format to `png`.
 5. **Check.** `pnpm --filter @cspnews/web build` validates every bulletin with `parseBulletin` and fails on a bad file. Look at it with `pnpm --filter @cspnews/web dev`.
@@ -36,6 +37,23 @@ Every reader gets the whole bulletin in their own language, so both versions mus
 - **Timeline updates** carry their note in both languages: `"note": { "en": "…", "tr": "…" }`.
 
 Hot News is not written by the Write run (it runs on rules only), so a Hot story shows the lead outlet's headline in its own language until the next bulletin covers it.
+
+## And finally and Transfers
+
+Two parts sit outside the news sections, in `andFinally` and `transfers` (format in `packages/core/src/extras.ts`, design in `docs/design/decisions/and-finally.md` and `transfers.md`). Their candidates come from sources that feed only these desks, in `desks.light` and `desks.transfers` of the candidates file.
+
+**And finally** holds at most four items in all:
+
+- `light`: true light stories (celebrities and television, odd records, animals, small local wonders) that are Confirmed or Reported. The `title` and `gist` are written straight. The `aside` is one line of wit in our own voice, at most 140 characters: dry, about the situation, never about a person's looks, body, age, accent or private life, never about a private person, no emoji. Write a separate joke in each language rather than translating one.
+- `rumours`: talk we could not confirm, each with `heardFrom`, the outlet that is saying it. Leave out a rumour about someone's health, relationships or private life, a rumour that accuses anyone of a crime, and any rumour about a private person.
+- Never put death, illness, crime victims, children, disasters or war in And finally, however odd the story is.
+
+**Transfers** covers moves to clubs in the Süper Lig, Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie and Primeira Liga, at most six per bulletin: the ones that moved forward since the last bulletin.
+
+- `stage` is the furthest stage a confirming report supports: `talk` (an outlet links the player with the club), `talks` (negotiations), `agreed` (fee or terms agreed), `signed` (the buying club announced it). Only the club's own announcement makes a move `signed` with `clubConfirmed: true`.
+- `steps` repeat the stages of the move that earlier bulletins showed, with the day each stage was first reported, and add the new one. `reports` list each outlet with the stage it reported and the day.
+- `now` says where the move stands. `signedWhen` says what would make it signed, until it is. `facts` give at most two numbers (fee, contract length) only when an outlet reports them.
+- A move whose talks broke down leaves Transfers. Football rumours go to Transfers, never to And finally.
 
 ## When an edition is late
 

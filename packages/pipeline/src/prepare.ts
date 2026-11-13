@@ -2,7 +2,7 @@ import { collect, type FetchText } from '@cspnews/collector';
 import { istanbulDateOf, type ScheduledBulletin, type Source } from '@cspnews/core';
 import { groupStories } from '@cspnews/grouping';
 
-import { toCandidates, type CandidatesFile } from './candidates.js';
+import { toCandidates, toDeskCandidates, type CandidatesFile } from './candidates.js';
 
 export interface PrepareOptions {
   readonly sources: readonly Source[];
@@ -32,6 +32,7 @@ export async function prepareBulletin(options: PrepareOptions): Promise<Candidat
       now,
       ...(perSection === undefined ? {} : { perSection }),
     }),
+    desks: toDeskCandidates(stories, registry, { now }),
     failures,
   };
 }
