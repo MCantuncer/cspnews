@@ -29,6 +29,7 @@ const SOURCES = defineSources([
   source('down', 'down', 'international'),
   { ...source('spor', 'spor', 'international'), sections: [], desks: ['transfers' as const] },
   { ...source('magazin', 'magazin', 'international'), sections: [], desks: ['light' as const] },
+  { ...source('kelebek', 'kelebek', 'international'), sections: [], desks: ['light' as const] },
 ]);
 
 function rss(items: readonly [title: string, link: string, date: string][]): string {
@@ -81,6 +82,8 @@ FEEDS['https://magazin.example/rss'] = rss([
     '2026-11-11T07:30:00Z',
   ],
 ]);
+
+FEEDS['https://kelebek.example/rss'] = rss([]);
 
 const MIDDAY = bulletinsOn({ year: 2026, month: 11, day: 11 }).find((b) => b.slot.id === 'midday');
 if (!MIDDAY) {
@@ -190,7 +193,26 @@ describe('prepareBulletin, Spotlight candidates', async () => {
         'https://magazin.example/police',
         '2026-11-11T06:20:00Z',
       ],
+      [
+        'Ünlü oyuncunun kızı apar topar hastaneye kaldırıldı',
+        'https://magazin.example/hastane',
+        '2026-11-11T06:10:00Z',
+      ],
     ]),
+    'https://kelebek.example/rss': rss(
+      [
+        'Kuzey Ege’nin saklı tadı: fasulye',
+        'Kışa hazır eller için öneriler',
+        'Bir kitap, bir kahve, bir pazar',
+        'Şehrin en sakin kafeleri',
+        'Sonbaharda gezilecek beş köy',
+        'Evde ekmek yapmanın püf noktaları',
+      ].map((title, index) => [
+        title,
+        `https://kelebek.example/${String(index)}`,
+        `2026-11-11T08:${String(30 + index)}:00Z`,
+      ]),
+    ),
   };
   const file = await prepareBulletin({
     sources: SOURCES,
@@ -208,13 +230,21 @@ describe('prepareBulletin, Spotlight candidates', async () => {
     expect(light).not.toContain('https://magazin.example/kesinti');
   });
 
-  it('leaves out accidents, crime and other heavy topics', () => {
+  it('leaves out accidents, crime, illness and other heavy topics', () => {
     expect(light).not.toContain('https://magazin.example/kaza');
     expect(light).not.toContain('https://magazin.example/police');
+    expect(light).not.toContain('https://magazin.example/hastane');
   });
 
   it('keeps the magazine stories', () => {
-    expect(light.sort()).toEqual(['https://magazin.example/ask', 'https://magazin.example/saat']);
+    expect(light.filter((url) => url?.startsWith('https://magazin.')).sort()).toEqual([
+      'https://magazin.example/ask',
+      'https://magazin.example/saat',
+    ]);
+  });
+
+  it('takes at most four stories from one busy outlet', () => {
+    expect(light.filter((url) => url?.startsWith('https://kelebek.'))).toHaveLength(4);
   });
 });
 
