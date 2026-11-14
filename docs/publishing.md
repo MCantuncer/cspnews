@@ -9,6 +9,7 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
    - only facts from the candidate articles, each claim and quote attributed to its outlet; optional fields left out when the sources don't support them;
    - keep each candidate's label, sources, timeline and `image` (the photo the rules picked, with its credit). Don't drop an `image` on a guess: the writing run can't see photos, and the rules already leave out logos, icons, small thumbnails and photos with an outlet logo stamped on them (step 3). Drop it only when the article itself says the picture is a logo, a document or an illustration.
    - when the candidates file has them, write **And finally** and **Transfers** from `desks.light` and `desks.transfers`. See "And finally and Transfers" below. Both are optional: leave a part out rather than fill it with weak items.
+   - when `desks.abroad` has candidates, write **Turks abroad** (`abroad`). See "Turks abroad" below. It is optional too.
 3. **Save the photos.** In a pull request the Bulletin photos workflow does this and adds the photos to the branch. By hand: `pnpm --filter @cspnews/pipeline save-media "$PWD/data/bulletins/<file>.json"` downloads each story's photo to `data/bulletins/media/<story id>.<ext>`. When the feed only carried a thumbnail (under 800 px wide), the article's own full-size photo is saved instead and the bulletin's image URL is updated, unless that photo has a logo or banner drawn over it. A photo still under 400 px wide is not saved. A photo that fails is reported and the story falls back to its next visual.
 4. **Save the outlet logos** (first time, then when sources change). `pnpm --filter @cspnews/config fetch-logos "$PWD/data/bulletins/media/logos"`. The site shows `svg`, `png` and `webp` logos; convert any other format to `png`.
 5. **Check.** `pnpm --filter @cspnews/web build` validates every bulletin with `parseBulletin` and fails on a bad file. Look at it with `pnpm --filter @cspnews/web dev`.
@@ -59,6 +60,21 @@ Two parts sit outside the news sections, in `andFinally` and `transfers` (format
 - Give the move an `image` when one of its articles has a real news photo of the player or coach (same rules as a story photo). The row in Contents and the move's page show it.
 - A gossip column that only names a player with no detail is too thin for a move: leave it out rather than write a story around one line.
 - A move whose talks broke down leaves Transfers. Football rumours go to Transfers, never to And finally.
+
+## Turks abroad
+
+`abroad` follows Turkish people in other countries (format in `packages/core/src/abroad.ts`, design in `docs/design/decisions/turks-abroad.md`). Mostly athletes in foreign leagues; people in science, the arts or business only for a big moment (a prize, a record, a first). The candidates in `desks.abroad` are stories that name someone on the watch list in `packages/config/src/abroad.ts`, from any source, with the ids of the people they name in `people`.
+
+- At most six people per bulletin, one item each: the ones with news since the last bulletin (a game, a record, an injury, a move, an award). Most important first. A plain appearance with nothing to tell is not news; leave the person out.
+- Check that the person still plays or works outside Türkiye before writing. A player who moved to a Turkish club leaves Turks abroad (tell the owner the watch list needs updating). You may add someone who is not on the list when outlets clearly cover a Turkish person abroad.
+- `label` is `confirmed` or `reported` only. A score or a statistic needs the league's own box score or two outlets.
+- `person` is the name as they write it, with Turkish letters. `where` names the club and league ("Houston Rockets, NBA") or the sport and tour ("Tennis, WTA tour" / "Tenis, WTA turu").
+- `title` is one line for Contents with the result first ("28 points and 12 rebounds as the Rockets beat the Lakers"). `headline` is the page's headline. `story` is one to four short paragraphs: what happened, what was said (attributed), what it means for the season.
+- `score` is the final score of the game the item is about, with `playedAt`, the time it started. The site shows times in Istanbul time, so a night game in America reads as the hour it was here. `nextAt` and `next` (where: "At Denver" / "Denver deplasmanında") give the next game when an outlet or the league's schedule says it.
+- `form` lists up to five recent games, oldest first, with the result for their side and their own number in each (points for a basketball player, goals and assists as "1+1" for a footballer), and `formOf` says what the number counts. Only when a source gives every game; never guess one.
+- `facts`: at most two numbers worth showing large (a season high, a ranking).
+- Keep nicknames, team names and sports terms as the sources use them ("double-double", "Alpi"); explain one only when a Turkish reader would not know it.
+- Give the item an `image` when one of its articles has a real news photo of the person.
 
 ## When an edition is late
 

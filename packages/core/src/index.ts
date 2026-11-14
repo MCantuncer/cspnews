@@ -110,5 +110,30 @@ export type {
   TransferVersion,
 } from './extras.js';
 
+export {
+  ABROAD_FIELDS,
+  ABROAD_LABEL_VALUES,
+  ABROAD_MAX,
+  ABROAD_RESULTS,
+  AbroadFactSchema,
+  AbroadGameSchema,
+  AbroadItemSchema,
+  AbroadPersonSchema,
+  AbroadVersionSchema,
+  abroadIn,
+  definePeople,
+  foldName,
+  peopleNamedIn,
+} from './abroad.js';
+export type {
+  AbroadField,
+  AbroadGame,
+  AbroadItem,
+  AbroadPerson,
+  AbroadPersonInput,
+  AbroadVersion,
+  LocalAbroadItem,
+} from './abroad.js';
+
 export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
 export type { HotFeed, HotStory } from './hot.js';

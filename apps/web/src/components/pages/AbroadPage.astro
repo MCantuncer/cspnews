@@ -1,0 +1,416 @@
+---
+/**
+ * One person in Turks abroad (docs/design/decisions/turks-abroad.md): who and where, the headline,
+ * the photo, the score with the time it was played here, at most two numbers, the story, the last
+ * games as stations on a line, the next game in our time, and the sources.
+ */
+import { abroadIn, type AbroadItem } from '@cspnews/core';
+
+import Header from '../Header.astro';
+import HotLine from '../hot/HotLine.astro';
+import EvidenceMark from '../ui/EvidenceMark.astro';
+import Icon from '../ui/Icon.astro';
+import Base from '../../layouts/Base.astro';
+import { abroadWords, initials, istanbulMoment, whenLine } from '../../lib/abroad';
+import { bulletinPath, type PublishedBulletin } from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { photoUrl } from '../../lib/media';
+import { sourceName } from '../../lib/sources';
+import { bulletinName, wordsFor } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  item: AbroadItem;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const item = abroadIn(Astro.props.item, lang);
+const words = wordsFor(lang);
+const text = abroadWords(lang);
+const name = bulletinName(published.slot, lang);
+const bulletinAt = published.bulletin.publishAt;
+const photo = item.image ? photoUrl(item.id) : undefined;
+const played = item.playedAt ? whenLine({ playedAt: item.playedAt }, bulletinAt, lang) : undefined;
+const sources = [...new Map(item.sources.map((source) => [source.sourceId, source])).values()];
+---
+
+<Base
+  title={`${item.headline} | CSPNews`}
+  description={item.title}
+  hour={editionHourFor(published.slot)}
+  lang={lang}
+>
+  <Header
+    lang={lang}
+    bulletinName={name}
+    contentsHref={bulletinPath(published, lang)}
+    contentsLabel={words.contents}
+  />
+  <HotLine lang={lang} />
+  <main class="person" data-section="abroad" lang={item.language}>
+    <a class="back" href={bulletinPath(published, lang)}>
+      <Icon name="back" size={18} />
+      {words.backToBulletin}
+    </a>
+
+    <div class="who">
+      <span class="face" aria-hidden="true">
+        {photo ? <img src={photo} alt="" decoding="async" /> : initials(item.person)}
+      </span>
+      <span class="who-text">
+        <span class="kicker">{text.abroad}</span>
+        <span class="name">{item.person}</span>
+        <span class="where">{item.where}</span>
+      </span>
+    </div>
+
+    <h1>{item.headline}</h1>
+    <p class="label"><EvidenceMark label={item.label} lang={lang} /></p>
+
+    {
+      photo && item.image && (
+        <figure class="photo">
+          <img src={photo} alt="" decoding="async" />
+          <figcaption>{`${words.photo}: ${item.image.sourceName}`}</figcaption>
+        </figure>
+      )
+    }
+
+    {
+      item.score && (
+        <p class="game">
+          <b>{item.score}</b>
+          {played && <span>{played}</span>}
+        </p>
+      )
+    }
+
+    {
+      item.facts && item.facts.length > 0 && (
+        <dl class="facts">
+          {item.facts.map((fact) => (
+            <div>
+              <dt>{fact.label}</dt>
+              <dd>{fact.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )
+    }
+
+    <div class="story">
+      {item.story.map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+
+    {
+      item.form && (
+        <>
+          <h2>{text.form}</h2>
+          <ol class="form" style={`--games: ${String(item.form.length)}`}>
+            {item.form.map((game, i) => (
+              <li class:list={[game.result, { last: i === (item.form?.length ?? 0) - 1 }]}>
+                <i aria-hidden="true" />
+                <span class="sr">{text.results[game.result]}</span>
+                {game.value && <b>{game.value}</b>}
+              </li>
+            ))}
+          </ol>
+          <p class="note">{text.formNote(item.formOf ?? '')}</p>
+        </>
+      )
+    }
+
+    {
+      item.next && item.nextAt && (
+        <>
+          <h2>{text.next}</h2>
+          <p class="next">{text.nextLine(item.next, istanbulMoment(item.nextAt, bulletinAt, lang))}</p>
+        </>
+      )
+    }
+
+    <h2>{text.sources}</h2>
+    <ul class="sources">
+      {
+        sources.map((source) => (
+          <li>
+            <a href={source.url} target="_blank" rel="noopener">{sourceName(source.sourceId)}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Base>
+
+<style>
+  .person {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 28px var(--gutter) 56px;
+  }
+
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    color: var(--meta);
+    font: 500 15px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  .who {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 14px;
+  }
+
+  .face {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--sec) 16%, var(--bg));
+    color: var(--sec);
+    font: 700 24px / 1 var(--f-head);
+  }
+
+  .face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .who-text {
+    display: grid;
+    gap: 3px;
+  }
+
+  .kicker {
+    color: var(--sec);
+    font: 700 14px / 1.2 var(--f-body);
+  }
+
+  .name {
+    color: var(--ink);
+    font: 800 24px / 1.15 var(--f-head);
+    letter-spacing: -0.015em;
+  }
+
+  .where {
+    color: var(--meta);
+    font: 400 15px / 1.3 var(--f-body);
+  }
+
+  h1 {
+    margin-top: 22px;
+    color: var(--ink);
+    font: 800 28px / 1.12 var(--f-head);
+    letter-spacing: -0.025em;
+  }
+
+  .label {
+    margin-top: 12px;
+  }
+
+  .photo {
+    margin: 22px 0 0;
+  }
+
+  .photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 14px;
+    object-fit: cover;
+    background: var(--surf);
+  }
+
+  .photo figcaption {
+    margin-top: 6px;
+    color: var(--meta);
+    font: 400 13px / 1.3 var(--f-body);
+  }
+
+  .game {
+    display: grid;
+    gap: 4px;
+    margin-top: 22px;
+    padding: 16px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .game b {
+    color: var(--ink);
+    font: 700 21px / 1.2 var(--f-head);
+  }
+
+  .game span {
+    color: var(--meta);
+    font: 400 15px / 1.3 var(--f-body);
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 18px 0 0;
+  }
+
+  .facts div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .facts dd {
+    margin: 0;
+    color: var(--ink);
+    font: 800 30px / 1.1 var(--f-head);
+    letter-spacing: -0.02em;
+  }
+
+  .facts dt {
+    margin-top: 4px;
+    color: var(--meta);
+    font: 400 14px / 1.35 var(--f-body);
+  }
+
+  .story {
+    display: grid;
+    gap: 14px;
+    margin-top: 22px;
+  }
+
+  .story p {
+    color: var(--ink);
+    font: 400 18px / 1.65 var(--f-body);
+  }
+
+  h2 {
+    margin-top: 32px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    color: var(--ink);
+    font: 800 20px / 1.15 var(--f-head);
+    letter-spacing: -0.015em;
+  }
+
+  /* The last games as stations on a line: filled for a win, hollow for a loss, half for a draw. */
+  .form {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(var(--games), minmax(0, 1fr));
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .form::before {
+    position: absolute;
+    top: 8px;
+    right: calc(100% / var(--games) - 18px);
+    left: 0;
+    height: 2px;
+    background: var(--line2);
+    content: '';
+  }
+
+  .form li {
+    position: relative;
+    display: grid;
+    justify-items: start;
+    gap: 8px;
+  }
+
+  .form i {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border: 2px solid var(--sec);
+    border-radius: 50%;
+    background: var(--bg);
+  }
+
+  .form .win i {
+    background: var(--sec);
+  }
+
+  .form .draw i {
+    background: linear-gradient(90deg, var(--sec) 50%, var(--bg) 50%);
+  }
+
+  .form .last i {
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--sec) 28%, transparent);
+  }
+
+  .form b {
+    color: var(--ink2);
+    font: 500 15px / 1.2 var(--f-body);
+  }
+
+  .form .last b {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .note {
+    margin-top: 10px;
+    color: var(--meta);
+    font: 400 14px / 1.4 var(--f-body);
+  }
+
+  .next {
+    margin-top: 10px;
+    color: var(--ink2);
+    font: 400 17px / 1.5 var(--f-body);
+  }
+
+  .sources {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sources li {
+    padding: 10px 0;
+  }
+
+  .sources a {
+    color: var(--ink);
+    font: 600 16px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  .sources a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  @media (width >= 1100px) {
+    .person {
+      max-width: 720px;
+      padding-top: 56px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+</style>

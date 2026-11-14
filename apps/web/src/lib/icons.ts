@@ -65,6 +65,9 @@ export const ICONS = {
   /** A move from one club to another: an open station, then a filled one. */
   transfer:
     '<path d="M2 12h2.5M19.5 12H22M10 12h4.25M12.5 10l2 2-2 2"/><circle cx="7" cy="12" r="2.5"/><circle cx="17" cy="12" r="2.5" fill="currentColor"/>',
+  /** Turks abroad: a line that leaves the home station for a station far off. */
+  abroad:
+    '<path d="M2 17h2.75M9.75 17c3.75 0 4-8.5 6.75-8.5"/><circle cx="7.25" cy="17" r="2.5" fill="currentColor"/><circle cx="19" cy="8.5" r="2.5"/>',
   /** And finally kinds: television and film. */
   screen:
     '<path d="M3.5 6h17v11h-17zM8.5 20h7"/><circle cx="12" cy="11.5" r="2" fill="currentColor"/>',

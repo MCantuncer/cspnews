@@ -1,5 +1,10 @@
 import { collect, type FetchText } from '@cspnews/collector';
-import { istanbulDateOf, type ScheduledBulletin, type Source } from '@cspnews/core';
+import {
+  istanbulDateOf,
+  type AbroadPerson,
+  type ScheduledBulletin,
+  type Source,
+} from '@cspnews/core';
 import { groupStories } from '@cspnews/grouping';
 
 import { toCandidates, toDeskCandidates, type CandidatesFile } from './candidates.js';
@@ -12,11 +17,13 @@ export interface PrepareOptions {
   /** How far back to read. 14 hours covers the longest gap, Saturday 18:30 to Sunday 07:30. */
   readonly lookbackHours?: number;
   readonly perSection?: number;
+  /** The people the Turks abroad desk watches for. */
+  readonly people?: readonly AbroadPerson[];
 }
 
 /** Collects, groups and labels the news for one bulletin, ready for the Verify and Write run. */
 export async function prepareBulletin(options: PrepareOptions): Promise<CandidatesFile> {
-  const { sources, bulletin, fetchText, now, lookbackHours = 14, perSection } = options;
+  const { sources, bulletin, fetchText, now, lookbackHours = 14, perSection, people } = options;
   const since = new Date(now.getTime() - lookbackHours * 3_600_000);
 
   const { articles, failures } = await collect(sources, { fetchText, now, since });
@@ -32,7 +39,7 @@ export async function prepareBulletin(options: PrepareOptions): Promise<Candidat
       now,
       ...(perSection === undefined ? {} : { perSection }),
     }),
-    desks: toDeskCandidates(stories, registry, { now }),
+    desks: toDeskCandidates(stories, registry, { now, ...(people && { people }) }),
     failures,
   };
 }

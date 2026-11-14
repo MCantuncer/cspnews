@@ -44,7 +44,7 @@ export const SourceSchema = z
     logoUrl: z.url({ protocol: /^https$/ }).optional(),
     /** News sections this source feeds; empty for a source that only feeds a desk. */
     sections: z.array(z.enum(SECTIONS)),
-    /** Desks outside the news this source feeds: And finally (`light`) and `transfers`. */
+    /** Desks outside the news this source feeds: And finally (`light`), `transfers` and `abroad`. */
     desks: z.array(z.enum(DESKS)).optional(),
     /** ISO 639-1 language code of the source's articles. */
     language: z.string().regex(/^[a-z]{2}$/),
