@@ -162,7 +162,20 @@ describe('saveStoryPhotos', () => {
     expect(readFileSync(join(directory, `${story.id}.jpg`))).toEqual(Buffer.from(jpeg(1400)));
   });
 
-  it('keeps the thumbnail when the article has no bigger photo', async () => {
+  it('keeps a mid-size photo when the article has no bigger one', async () => {
+    const story = withImage[0];
+    if (!story?.image) throw new Error('the sample needs a story with a photo');
+    const image = story.image;
+    const fetchBytes: FetchBytes = (url) =>
+      url === image.url
+        ? Promise.resolve({ bytes: jpeg(640), contentType: 'image/jpeg' })
+        : Promise.reject(new Error('HTTP 403'));
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
+    expect(result).toEqual({ storyId: story.id, file: `${story.id}.jpg` });
+  });
+
+  it('leaves out a small thumbnail rather than show it blurred', async () => {
     const story = withImage[0];
     if (!story?.image) throw new Error('the sample needs a story with a photo');
     const image = story.image;
@@ -170,6 +183,31 @@ describe('saveStoryPhotos', () => {
       url === image.url
         ? Promise.resolve({ bytes: jpeg(140), contentType: 'image/jpeg' })
         : Promise.reject(new Error('HTTP 403'));
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
+    expect(result?.file).toBeUndefined();
+    expect(result?.error).toMatch(/140px/);
+  });
+
+  it('never takes an article photo with a logo drawn over it', async () => {
+    const story = withImage[0];
+    if (!story?.image) throw new Error('the sample needs a story with a photo');
+    const stamped = 'https://img.example/photo.jpg?width=1200&overlay-base64=abc';
+    const responses = new Map<string, Awaited<ReturnType<FetchBytes>>>([
+      [story.image.url, { bytes: jpeg(640), contentType: 'image/jpeg' }],
+      [
+        story.image.articleUrl,
+        {
+          bytes: new TextEncoder().encode(`<meta property="og:image" content="${stamped}">`),
+          contentType: 'text/html',
+        },
+      ],
+      [stamped, { bytes: jpeg(1200), contentType: 'image/jpeg' }],
+    ]);
+    const fetchBytes: FetchBytes = (url) => {
+      const response = responses.get(url);
+      return response ? Promise.resolve(response) : Promise.reject(new Error('HTTP 404'));
+    };
     const directory = mkdtempSync(join(tmpdir(), 'media-'));
     const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
     expect(result).toEqual({ storyId: story.id, file: `${story.id}.jpg` });

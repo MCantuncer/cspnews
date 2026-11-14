@@ -2,7 +2,7 @@ import { defineSources, type Article } from '@cspnews/core';
 import type { Story, StoryArticle } from '@cspnews/grouping';
 import { describe, expect, it } from 'vitest';
 
-import { looksLikePhoto, pickImage } from './image.js';
+import { largestPhotoUrl, looksLikePhoto, pickImage } from './image.js';
 
 const SOURCES = new Map(
   defineSources(
@@ -110,5 +110,27 @@ describe('looksLikePhoto', () => {
     expect(looksLikePhoto('https://cdn.example/a/b.svg')).toBe(false);
     expect(looksLikePhoto('https://cdn.example/spacer.gif')).toBe(false);
     expect(looksLikePhoto('not a url')).toBe(false);
+  });
+
+  it('rejects hosts that stamp their logo on every photo', () => {
+    expect(looksLikePhoto('https://i.guim.co.uk/img/media/abc/master/3334.jpg?width=140')).toBe(
+      false,
+    );
+  });
+});
+
+describe('largestPhotoUrl', () => {
+  it('asks the BBC image server for its 976px copy', () => {
+    expect(
+      largestPhotoUrl('https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53ad/live/x.jpg'),
+    ).toBe('https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/53ad/live/x.jpg');
+    expect(largestPhotoUrl('https://ichef.bbci.co.uk/news/240/cpsprodpb/x.jpg')).toBe(
+      'https://ichef.bbci.co.uk/news/976/cpsprodpb/x.jpg',
+    );
+  });
+
+  it('leaves other photos as they are', () => {
+    const url = 'https://cdn.example/photo.jpg?w=240';
+    expect(largestPhotoUrl(url)).toBe(url);
   });
 });

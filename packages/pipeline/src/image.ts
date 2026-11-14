@@ -10,12 +10,39 @@ const TIER_ORDER: readonly Tier[] = ['wire', 'established', 'partisan', 'low'];
 const NOT_A_PHOTO =
   /(?:^|[/_.-])(?:logo|logos|placeholder|default|avatar|icon|favicon|sprite|blank|pixel|spacer)(?:[/_.-]|$)|\.(?:svg|gif|ico)$/i;
 
+/**
+ * Image hosts whose full-size photos carry the outlet's logo stamped on them (The Guardian adds
+ * it to every share image, and its feeds only carry 140px thumbnails), so neither size is usable.
+ */
+const LOGO_STAMPED_HOSTS = new Set(['i.guim.co.uk']);
+
 export function looksLikePhoto(url: string): boolean {
   try {
-    return !NOT_A_PHOTO.test(new URL(url).pathname);
+    const { hostname, pathname } = new URL(url);
+    return !LOGO_STAMPED_HOSTS.has(hostname) && !NOT_A_PHOTO.test(pathname);
   } catch {
     return false;
   }
+}
+
+/**
+ * The largest size of a feed photo that the outlet's image server offers for the same picture.
+ * BBC feeds point at a 240px copy (`/ace/standard/240/…`); the same path serves 976px.
+ */
+export function largestPhotoUrl(url: string): string {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname === 'ichef.bbci.co.uk') {
+      parsed.pathname = parsed.pathname.replace(
+        /^\/(ace\/standard|ace\/ws|news)\/\d+\//,
+        '/$1/976/',
+      );
+      return parsed.href;
+    }
+  } catch {
+    // Not a URL: leave it as it is.
+  }
+  return url;
 }
 
 /**
@@ -49,7 +76,7 @@ export function pickImage(
   }
   const { article } = best.member;
   return {
-    url: best.member.article.imageUrl,
+    url: largestPhotoUrl(best.member.article.imageUrl),
     sourceId: article.sourceId,
     sourceName: sources.get(article.sourceId)?.name ?? article.sourceId,
     articleUrl: article.url,
