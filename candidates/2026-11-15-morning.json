@@ -4,10 +4,10 @@
     "slot": "morning",
     "publishAt": "2026-11-15T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-14T21:15:47.775Z",
+  "generatedAt": "2026-11-14T21:37:27.218Z",
   "window": {
-    "since": "2026-11-14T07:15:47.775Z",
-    "until": "2026-11-14T21:15:47.775Z"
+    "since": "2026-11-14T07:37:27.218Z",
+    "until": "2026-11-14T21:37:27.218Z"
   },
   "sections": {
     "turkey": [
@@ -21,7 +21,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 22.95,
+        "score": 22.92,
         "firstSeenAt": "2026-11-14T08:07:32.000Z",
         "lastUpdatedAt": "2026-11-14T20:42:00.000Z",
         "image": {
@@ -151,7 +151,7 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-14T17:52:13.000Z",
+            "at": "2026-11-14T20:29:39.000Z",
             "sourceId": "sozcu"
           }
         ],
@@ -234,14 +234,6 @@
           },
           {
             "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/yeni-parti-de-kurultay-gunu-27-partiye-davet-gitti-1-parti-haric-p381220",
-            "title": "Özgür Özel genel başkan seçildi",
-            "summary": "YENİ Parti, “Türkiye Yenileniyor” sloganıyla 14-15 Kasım tarihlerinde 1’inci Olağan Kurultayı’nı gerçekleştirecek. İki g...",
-            "publishedAt": "2026-11-14T17:52:13.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/477jpg-2gSgYQlFSEOKhSVEjhhAZg.jpg"
-          },
-          {
-            "sourceId": "sozcu",
             "url": "https://www.sozcu.com.tr/mansur-yavastan-ozgur-ozel-paylasimi-p381382",
             "title": "Mansur Yavaş’tan Özgür Özel paylaşımı",
             "summary": "Ankara Büyükşehir Belediye Başkanı Mansur Yavaş, Yeni Parti’nin 1. Olağan Kurultayı’nda genel başkanlığa seçilen Özgür Ö...",
@@ -268,7 +260,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 18.58,
+        "score": 18.55,
         "firstSeenAt": "2026-11-14T15:25:09.000Z",
         "lastUpdatedAt": "2026-11-14T16:13:03.000Z",
         "image": {
@@ -438,7 +430,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.93,
+        "score": 14.9,
         "firstSeenAt": "2026-11-14T18:06:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:28:20.000Z",
         "image": {
@@ -568,7 +560,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.61,
+        "score": 14.58,
         "firstSeenAt": "2026-11-14T11:18:39.000Z",
         "lastUpdatedAt": "2026-11-14T16:31:34.000Z",
         "image": {
@@ -690,6 +682,117 @@
         ]
       },
       {
+        "storyId": "9b88119766616072",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 13,
+        "firstSeenAt": "2026-11-14T09:41:31.000Z",
+        "lastUpdatedAt": "2026-11-14T21:36:33.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/c734ce6d-bce2-41bf-8ff8-a46a66864ae7.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/yarin-basliyor-kis-lastigi-taktirmayan-suruculere-ceza-2556146"
+        },
+        "sources": [
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T09:41:31.000Z",
+            "sourceId": "a-haber"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T15:26:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T15:26:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:04:35.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:36:33.000Z",
+            "sourceId": "ntv"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/14/ticari-araclarda-kis-lastigi-zorunlulugu-15-kasimda-basliyor-suruculere-uyarilar",
+            "title": "Ticari araçlarda zorunlu kış lastiği uygulaması 15 Kasım'da başlıyor: Sürücülere kritik uyarılar",
+            "summary": "Bu yıl kış erken geldi... Ticari araçlarda zorunlu kış lastiği uygulaması yarın, yani 15 Kasım itibarıyla başlıyor. Lastik değişim merkezlerinde hummalı çalışmalar devam ederken, A Haber muhabiri... Devamı için tıklayınız",
+            "publishedAt": "2026-11-14T09:41:31.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/013f42/1200/1200/199/0/919/720?u=https://iahbr.tmgrup.com.tr/2026/11/14/ticari-araclarda-kis-lastigi-zorunlulugu-15-kasimda-basliyor-suruculere-uyarilar-1794648948641.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/yarin-basliyor-kis-lastigi-taktirmayan-suruculere-ceza-2556146",
+            "title": "Yarın başlıyor! Kış lastiği taktırmayan sürücülere ceza yolda...",
+            "summary": "Şehirlerarası karayollarında yolcu ve eşya taşımacılığı yapan ticari araçlar için zorunlu kış lastiği uygulaması yarın başlıyor. 5 Nisan 2027 tarihine kadar sürecek düzenlemeye uymayan araç sahiplerine 6 bin lira idari para cezası kesilecek.",
+            "publishedAt": "2026-11-14T15:26:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/c734ce6d-bce2-41bf-8ff8-a46a66864ae7.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/yarindan-itibaren-zorunlu-aracina-taktirmayan-6-bin-lira-ceza-odeyecek-p381253",
+            "title": "Yarından itibaren zorunlu: Aracına taktırmayan 6 bin lira ceza ödeyecek",
+            "summary": "Şehirlerarası karayollarında yolcu ve eşya taşımacılığı yapan ticari araçlar için zorunlu kış lastiği uygulaması yarın b...",
+            "publishedAt": "2026-11-14T21:04:35.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/kis-lastigijpg-R1cWgeG1TUyw2z9TcbQbWg.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/galeri-kis-lastigi-uygulamasi-basladi-degistirmeyen-6-bin-lira-ceza-odeyecek-1750901",
+            "title": "Kış lastiği uygulaması başladı. Değiştirmeyen 6 bin lira ceza ödeyecek",
+            "summary": "Zorunlu kış lastiği uygulaması bugün itibarıyla başladı. Kış lastiğine geçmeyen ticari araçlara 6 bin TL ceza yazılacak.",
+            "publishedAt": "2026-11-14T21:36:33.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/lastik-697937.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "9e632a8b5a37864a",
         "language": "tr",
         "label": "confirmed",
@@ -698,7 +801,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.98,
+        "score": 12.95,
         "firstSeenAt": "2026-11-14T20:32:36.000Z",
         "lastUpdatedAt": "2026-11-14T21:02:16.000Z",
         "image": {
@@ -809,7 +912,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.98,
+        "score": 12.95,
         "firstSeenAt": "2026-11-14T09:13:22.000Z",
         "lastUpdatedAt": "2026-11-14T21:00:00.000Z",
         "image": {
@@ -912,7 +1015,7 @@
         ]
       },
       {
-        "storyId": "a6ae8ca4e898812f",
+        "storyId": "5e581a976b28be23",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
@@ -921,6 +1024,117 @@
           "cross-camp"
         ],
         "score": 12.8,
+        "firstSeenAt": "2026-11-14T17:55:05.000Z",
+        "lastUpdatedAt": "2026-11-14T19:10:00.000Z",
+        "image": {
+          "url": "https://im.haberturk.com/l/2026/11/14/ver1794678876/3927408/jpg/1920x1080",
+          "sourceId": "haberturk",
+          "sourceName": "Habertürk",
+          "articleUrl": "https://www.haberturk.com/gundem/birecik-te-kepceyle-carpisan-otomobilde-cocuklar-yaralandi-anne-ve-baba-ise-hayatini-kaybetti-3927408"
+        },
+        "sources": [
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T17:55:05.000Z",
+            "sourceId": "haberturk"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T18:35:00.000Z",
+            "sourceId": "hurriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T18:35:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T18:44:44.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T19:10:00.000Z",
+            "sourceId": "cumhuriyet"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/birecik-te-kepceyle-carpisan-otomobilde-cocuklar-yaralandi-anne-ve-baba-ise-hayatini-kaybetti-3927408",
+            "title": "Anne ve baba öldü, çocuklar yaralandı",
+            "summary": "Şanlıurfa'nın Birecik ilçesinde otomobilin kepçeyle çarpışması sonucu meydana gelen kazada, anne ve baba hayatını kaybetti, 2 çocuk yaralandı. Yaralı çocuklar hastaneye kaldırılırken, kazayla ilgili soruşturma başlatıldı",
+            "publishedAt": "2026-11-14T17:55:05.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794678876/3927408/jpg/1920x1080"
+          },
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/gundem/feci-kaza-is-makinasina-carpan-otomobildeki-cift-oldu-2-cocuk-yaralandi-43378634",
+            "title": "Feci kaza…. İş makinasına çarpan otomobildeki çift öldü, 2 çocuk yaralandı",
+            "summary": "ŞANLIURFA’nın Birecik ilçesinde otomobilin kepçeye arkadan çarpması sonucu meydana gelen trafik kazasında Abdullah Polat (37) ile eşi Seher Polat (33) hayatını kaybederken, araçta bulunan 2 çocuk yaralandı. Kaza anı kameraya yansıdı.",
+            "publishedAt": "2026-11-14T18:35:00.000Z",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af8aa0f3516f14679cc7f0b.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/kaza-sonrasi-ortalik-savas-alanina-dondu-anne-ve-baba-oldu-iki-cocuk-yaralandi-p381367",
+            "title": "Kaza sonrası ortalık savaş alanına döndü: Anne ve baba öldü, iki çocuk yaralandı",
+            "summary": "Şanlıurfa’nın Birecik ilçesinde kepçeye arkadan çarpan otomobilin sürücüsü Abdullah Polat ile eşi Seher Polat olay yerin...",
+            "publishedAt": "2026-11-14T18:44:44.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/106jpg-LXPO7KMHmUi3h2ZVt0rLIQ.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/kepceye-carpan-otomobil-hurdaya-dondu-anne-ve-baba-oldu-2-cocuk-yaralandi-2556182",
+            "title": "Kepçeye çarpan otomobil hurdaya döndü: Anne ve baba öldü, 2 çocuk yaralandı",
+            "summary": "Şanlıurfa'nın Birecik ilçesinde otomobilin kepçeye arkadan çarptığı kazada Abdullah Polat (37) ile eşi Seher Polat (33) hayatını kaybetti, 5 ve 7 yaşlarındaki iki çocukları yaralandı.",
+            "publishedAt": "2026-11-14T19:10:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/e7fd3c27-e02d-4228-a924-4afb65e86781.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "a6ae8ca4e898812f",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.77,
         "firstSeenAt": "2026-11-14T11:03:18.000Z",
         "lastUpdatedAt": "2026-11-14T18:54:12.000Z",
         "image": {
@@ -1053,7 +1267,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.52,
+        "score": 12.49,
         "firstSeenAt": "2026-11-14T08:30:02.000Z",
         "lastUpdatedAt": "2026-11-14T15:29:57.000Z",
         "image": {
@@ -1181,7 +1395,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.46,
+        "score": 12.43,
         "firstSeenAt": "2026-11-14T09:17:29.000Z",
         "lastUpdatedAt": "2026-11-14T14:49:00.000Z",
         "image": {
@@ -1324,7 +1538,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.35,
+        "score": 12.32,
         "firstSeenAt": "2026-11-14T12:30:35.000Z",
         "lastUpdatedAt": "2026-11-14T13:25:16.000Z",
         "image": {
@@ -1427,97 +1641,6 @@
         ]
       },
       {
-        "storyId": "9b88119766616072",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.98,
-        "firstSeenAt": "2026-11-14T09:41:31.000Z",
-        "lastUpdatedAt": "2026-11-14T21:04:35.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/c734ce6d-bce2-41bf-8ff8-a46a66864ae7.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/yarin-basliyor-kis-lastigi-taktirmayan-suruculere-ceza-2556146"
-        },
-        "sources": [
-          {
-            "id": "a-haber",
-            "name": "A Haber",
-            "camp": "pro-government",
-            "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T09:41:31.000Z",
-            "sourceId": "a-haber"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T15:26:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T15:26:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T21:04:35.000Z",
-            "sourceId": "sozcu"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "a-haber",
-            "url": "https://www.ahaber.com.tr/gundem/2026/11/14/ticari-araclarda-kis-lastigi-zorunlulugu-15-kasimda-basliyor-suruculere-uyarilar",
-            "title": "Ticari araçlarda zorunlu kış lastiği uygulaması 15 Kasım'da başlıyor: Sürücülere kritik uyarılar",
-            "summary": "Bu yıl kış erken geldi... Ticari araçlarda zorunlu kış lastiği uygulaması yarın, yani 15 Kasım itibarıyla başlıyor. Lastik değişim merkezlerinde hummalı çalışmalar devam ederken, A Haber muhabiri... Devamı için tıklayınız",
-            "publishedAt": "2026-11-14T09:41:31.000Z",
-            "imageUrl": "https://iaahbr.tmgrup.com.tr/013f42/1200/1200/199/0/919/720?u=https://iahbr.tmgrup.com.tr/2026/11/14/ticari-araclarda-kis-lastigi-zorunlulugu-15-kasimda-basliyor-suruculere-uyarilar-1794648948641.jpg"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/turkiye/yarin-basliyor-kis-lastigi-taktirmayan-suruculere-ceza-2556146",
-            "title": "Yarın başlıyor! Kış lastiği taktırmayan sürücülere ceza yolda...",
-            "summary": "Şehirlerarası karayollarında yolcu ve eşya taşımacılığı yapan ticari araçlar için zorunlu kış lastiği uygulaması yarın başlıyor. 5 Nisan 2027 tarihine kadar sürecek düzenlemeye uymayan araç sahiplerine 6 bin lira idari para cezası kesilecek.",
-            "publishedAt": "2026-11-14T15:26:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/c734ce6d-bce2-41bf-8ff8-a46a66864ae7.jpg"
-          },
-          {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/yarindan-itibaren-zorunlu-aracina-taktirmayan-6-bin-lira-ceza-odeyecek-p381253",
-            "title": "Yarından itibaren zorunlu: Aracına taktırmayan 6 bin lira ceza ödeyecek",
-            "summary": "Şehirlerarası karayollarında yolcu ve eşya taşımacılığı yapan ticari araçlar için zorunlu kış lastiği uygulaması yarın b...",
-            "publishedAt": "2026-11-14T21:04:35.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/kis-lastigijpg-R1cWgeG1TUyw2z9TcbQbWg.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "cdd40949113c8c06",
         "language": "tr",
         "label": "confirmed",
@@ -1526,7 +1649,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.98,
+        "score": 10.95,
         "firstSeenAt": "2026-11-14T20:49:00.000Z",
         "lastUpdatedAt": "2026-11-14T21:03:43.000Z",
         "image": {
@@ -1617,7 +1740,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.94,
+        "score": 10.91,
         "firstSeenAt": "2026-11-14T19:43:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:33:43.000Z",
         "image": {
@@ -1715,7 +1838,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.93,
+        "score": 10.9,
         "firstSeenAt": "2026-11-14T12:22:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:24:17.000Z",
         "image": {
@@ -1796,128 +1919,6 @@
             "imageUrl": "https://iaahbr.tmgrup.com.tr/fc957d/1200/1200/224/0/700/477?u=https://iahbr.tmgrup.com.tr/2026/11/14/bilal-erdogan-beyrutta-lubnan-basbakani-selam-ile-gorustu-1794687842773.png"
           }
         ]
-      },
-      {
-        "storyId": "cf68ad9e3a5594c9",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "copies-not-counted",
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.87,
-        "firstSeenAt": "2026-11-14T10:59:28.000Z",
-        "lastUpdatedAt": "2026-11-14T19:44:13.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/8ba6/live/580c5210-e01a-11f1-ad34-45f8f10f7c55.jpg",
-          "sourceId": "bbc-turkce",
-          "sourceName": "BBC Türkçe",
-          "articleUrl": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": false
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T10:59:28.000Z",
-            "sourceId": "bbc-turkce"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T17:57:24.000Z",
-            "sourceId": "aa-tr"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T17:57:24.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T19:44:13.000Z",
-            "sourceId": "haberturk"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss",
-            "title": "ABD'de hava trafiğinin durdurulmasına ne yol açtı?",
-            "summary": "ABD'de hava trafik kontrolündeki \"iletişim sorunu\" nedeniyle yaklaşık dört saat boyunca ülkede tüm hava trafiği durduruldu. FlightAware verilerine göre, süreçte 8.500'den fazla uçuş ertelendi ve yaklaşık 8.000 uçuş iptal edildi.",
-            "publishedAt": "2026-11-14T10:59:28.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8ba6/live/580c5210-e01a-11f1-ad34-45f8f10f7c55.jpg"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/dunya/abdde-ucuslarin-durdurulmasi-kararinin-ardindan-hava-ulasimindaki-aksamalar-suruyor/4125365",
-            "title": "ABD'de uçuşların durdurulması kararının ardından hava ulaşımındaki aksamalar sürüyor",
-            "summary": "ABD'de hava trafik kontrol merkezlerini etkileyen bir iletişim sorunu nedeniyle ülke genelinde uçuşların 4 saatten fazla durdurulması sonrasında operasyonlar normale dönerken, hava ulaşımını etkileyen gecikme ve iptaller devam ediyor.",
-            "publishedAt": "2026-11-14T17:57:24.000Z"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/turkiye/abd-de-ucus-krizi-hava-ulasimindaki-aksamalar-suruyor-2556180",
-            "title": "ABD'de uçuş krizi: Hava ulaşımındaki aksamalar sürüyor",
-            "summary": "ABD'de hava trafik kontrol merkezlerini etkileyen bir iletişim sorunu nedeniyle ülke genelinde uçuşların 4 saatten fazla durdurulması sonrasında operasyonlar normale dönerken, hava ulaşımını etkileyen gecikme ve iptaller devam ediyor.",
-            "publishedAt": "2026-11-14T18:30:00.000Z",
-            "copyOf": "e5951400521e4449",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/73055c63-ec83-4f13-b102-01ccbfba774b.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/abd-de-ucuslar-yeniden-basladi-ama-binlerce-sefer-iptal-edilmeye-devam-ediyor-1395174",
-            "title": "ABD'de Uçuşlar Yeniden Başladı Ama Binlerce Sefer İptal Edilmeye Devam Ediyor",
-            "summary": "ABD'de hava trafik kontrol merkezlerini etkileyen iletişim arızası nedeniyle ülke genelinde 4 saatten fazla durdurulan uçuşlar yeniden başladı. Operasyonlar toparlanırken iptaller ve gecikmeler sürüyor, çok sayıda yolcu havalimanlarında mahsur kaldı. Yetkililer hava ulaşımının pazar günü mesai bitimine kadar tamamen normale dönmesini bekliyor.",
-            "publishedAt": "2026-11-14T19:07:10.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af8b12b0b84f9b1617bdbbe/rev-0/w-1200/h-675/f-jpg/s-a03244b13b43293dca52350586ae3b1ab10ee275.jpg"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/dunya/abd-de-hava-trafigindeki-iletisim-arizasi-binlerce-ucusu-olumsuz-etkiledi-3927423",
-            "title": "ABD'de uçuş krizi sürüyor",
-            "summary": "ABD'de hava trafik kontrol sistemindeki iletişim sorunu nedeniyle uçuşların 4 saatten fazla durdurulmasının ardından hava ulaşımındaki aksamalar sürüyor. Ülke genelinde 4 binden fazla uçuş iptal edilirken, 3 binden fazla seferde gecikme yaşandı. Yetkililer, uçuş programlarının pazar günü tamamen normale dönmesini bekliyor",
-            "publishedAt": "2026-11-14T19:44:13.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794685424/3927423/jpg/1920x1080"
-          }
-        ]
       }
     ],
     "tech": [
@@ -1925,11 +1926,11 @@
         "storyId": "8c29e328f3a9e582",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 14.9,
+        "score": 14.87,
         "firstSeenAt": "2026-11-14T17:11:18.000Z",
         "lastUpdatedAt": "2026-11-14T20:03:48.000Z",
         "image": {
@@ -2058,6 +2059,126 @@
         ]
       },
       {
+        "storyId": "0ef99121135e5268",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.99,
+        "firstSeenAt": "2026-11-14T10:21:09.000Z",
+        "lastUpdatedAt": "2026-11-14T21:32:46.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "hacker-news",
+            "name": "Hacker News (front page)",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T10:21:09.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:05:14.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T21:05:14.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:32:46.000Z",
+            "sourceId": "scmp-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight",
+            "title": "SpaceX's Starship encounters problems during 15th test flight",
+            "summary": "Elon Musk’s SpaceX successfully launched its Starship, the world's largest spaceship, into orbit where it should release 15 satellites for its Starlink network. A few minutes after lift off however, the rocket's booster which was meant to return to the pad splashed down in the Gulf of Mexico. Details by Daniel Quinlan.",
+            "publishedAt": "2026-11-14T10:21:09.000Z",
+            "imageUrl": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
+            "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
+            "summary": "Elon Musk's SpaceX is in the midst of a 15th test-flight of its Starship rocket. The company was hoping to pull off the first-ever \"double catch\" - with both the booster and the ship itself coming safely back down to earth. Instead, an unspecified problem forced the company to abort recovery of the booster, which was diverted from its return path and crashed down into the Gulf of Mexico. Analysis by journalist Frédéric Castel, based in Bosa Chica, Texas, USA.",
+            "publishedAt": "2026-11-14T17:33:37.000Z",
+            "imageUrl": "https://s.france24.com/media/display/0ecebe06-e02b-11f1-b834-f71d22e7fea9/w:1024/p:16x9/EN-20261114-080810-081151-CS-01.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+            "title": "SpaceX's Starship set for return to Earth after failed booster catch",
+            "summary": "SpaceX's Starship spacecraft was on track to return to its Texas launch site for a planned mid-air catch, after an aborted recovery attempt.",
+            "publishedAt": "2026-11-14T20:51:24.000Z",
+            "imageUrl": "https://s.france24.com/media/display/8cb1e4b2-e05b-11f1-b193-5f54d898a954/w:1024/p:16x9/2026-11-14T012408Z-750862810-RC2ANOA0O8FL-RTRMADP-3-SPACE-SPACEX-STARSHIP.jpg"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+            "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+            "summary": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
+            "publishedAt": "2026-11-14T21:05:14.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6d/live/64bc2ef0-e03c-11f1-b441-2b33b063138f.jpg"
+          },
+          {
+            "sourceId": "hacker-news",
+            "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+            "title": "SpaceX Catches the Starship to end Flight 15",
+            "summary": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 95 # Comments: 39",
+            "publishedAt": "2026-11-14T21:22:24.000Z"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+            "title": "SpaceX successfully carries out first-ever spaceship catch",
+            "summary": "Elon Musk’s SpaceX on Saturday successfully carried out the first-ever recovery of a spaceship, with its Starship vessel returning safely to its launch pad after a day in orbit. The spaceship emerged from a cloudy sky after a cross-continent descent, smoothly slipping between the mechanical “chopstick arms” above Launch Pad 2. More to follow …",
+            "publishedAt": "2026-11-14T21:32:46.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/c660f1ae-8b76-472f-acc7-d56c6e5e8e98_c44e6f59.jpg?itok=yfxd8i33&v=1794691954"
+          }
+        ]
+      },
+      {
         "storyId": "6ae7344ea29f1bf5",
         "language": "en",
         "label": "confirmed",
@@ -2065,7 +2186,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.77,
+        "score": 8.74,
         "firstSeenAt": "2026-11-14T13:48:06.000Z",
         "lastUpdatedAt": "2026-11-14T18:28:06.000Z",
         "image": {
@@ -2125,7 +2246,7 @@
             "sourceId": "hacker-news",
             "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
             "title": "Italy fines Meta $887M over Android users' data access",
-            "summary": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 256 # Comments: 163",
+            "summary": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 268 # Comments: 178",
             "publishedAt": "2026-11-14T13:48:06.000Z"
           },
           {
@@ -2146,6 +2267,75 @@
         ]
       },
       {
+        "storyId": "9cf2241e07bcf9c7",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.58,
+        "firstSeenAt": "2026-11-14T10:20:11.000Z",
+        "lastUpdatedAt": "2026-11-14T16:34:15.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T10:20:11.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T16:34:15.000Z",
+            "sourceId": "techcrunch"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T16:34:15.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+            "title": "Can Nvidia survive without tech titan Jensen Huang?",
+            "summary": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy. Meanwhile some employees are clamouring for Huang's return – as his fellow tech leader Elon Musk. A sign of Huang's lingering star power, in an industry where so often the fate of each giant company depends on one man. Story by Peter O'Brien.",
+            "publishedAt": "2026-11-14T10:20:11.000Z",
+            "imageUrl": "https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg"
+          },
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+            "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+            "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+            "publishedAt": "2026-11-14T16:34:15.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "a131d8f4cc41e84c",
         "language": "en",
         "label": "confirmed",
@@ -2153,7 +2343,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.48,
+        "score": 8.45,
         "firstSeenAt": "2026-11-14T11:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T15:00:00.000Z",
         "image": {
@@ -2218,11 +2408,11 @@
         "storyId": "9e314a8f744ef711",
         "language": "en",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.9,
+        "score": 3.87,
         "firstSeenAt": "2026-11-14T20:04:44.000Z",
         "lastUpdatedAt": "2026-11-14T20:04:44.000Z",
         "sources": [
@@ -2252,43 +2442,6 @@
         ]
       },
       {
-        "storyId": "5ff08b1ef3e37111",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.88,
-        "firstSeenAt": "2026-11-14T19:47:40.000Z",
-        "lastUpdatedAt": "2026-11-14T19:47:40.000Z",
-        "sources": [
-          {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T19:47:40.000Z",
-            "sourceId": "the-verge"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
-            "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
-            "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 with Joe and Anthony Russo at […]",
-            "publishedAt": "2026-11-14T19:47:40.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "85e3933679b695fd",
         "language": "en",
         "label": "single-source",
@@ -2296,7 +2449,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.73,
+        "score": 3.7,
         "firstSeenAt": "2026-11-14T18:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T18:00:00.000Z",
         "sources": [
@@ -2326,43 +2479,6 @@
         ]
       },
       {
-        "storyId": "6ace89370b208df4",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.71,
-        "firstSeenAt": "2026-11-14T17:44:28.000Z",
-        "lastUpdatedAt": "2026-11-14T17:44:28.000Z",
-        "sources": [
-          {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T17:44:28.000Z",
-            "sourceId": "the-verge"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
-            "title": "Work to replace old copper wire led to the FAA’s ground stop",
-            "summary": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the result of a major modernization effort. He […]",
-            "publishedAt": "2026-11-14T17:44:28.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "0dac5bc8bd77a78d",
         "language": "en",
         "label": "single-source",
@@ -2370,7 +2486,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.69,
+        "score": 3.66,
         "firstSeenAt": "2026-11-14T17:30:00.000Z",
         "lastUpdatedAt": "2026-11-14T17:30:00.000Z",
         "sources": [
@@ -2400,43 +2516,6 @@
         ]
       },
       {
-        "storyId": "8097820885cc543d",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.61,
-        "firstSeenAt": "2026-11-14T16:34:15.000Z",
-        "lastUpdatedAt": "2026-11-14T16:34:15.000Z",
-        "sources": [
-          {
-            "id": "techcrunch",
-            "name": "TechCrunch",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T16:34:15.000Z",
-            "sourceId": "techcrunch"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "techcrunch",
-            "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-            "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-            "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-            "publishedAt": "2026-11-14T16:34:15.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "6c2539c06ead4df2",
         "language": "en",
         "label": "single-source",
@@ -2444,7 +2523,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.48,
+        "score": 3.45,
         "firstSeenAt": "2026-11-14T15:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T15:00:00.000Z",
         "sources": [
@@ -2481,7 +2560,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.42,
+        "score": 3.39,
         "firstSeenAt": "2026-11-14T14:18:36.000Z",
         "lastUpdatedAt": "2026-11-14T14:18:36.000Z",
         "sources": [
@@ -2518,7 +2597,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.39,
+        "score": 3.36,
         "firstSeenAt": "2026-11-14T14:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T14:00:00.000Z",
         "sources": [
@@ -2555,7 +2634,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.31,
+        "score": 3.28,
         "firstSeenAt": "2026-11-14T13:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T13:00:00.000Z",
         "image": {
@@ -2599,7 +2678,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.31,
+        "score": 3.28,
         "firstSeenAt": "2026-11-14T13:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T13:00:00.000Z",
         "sources": [
@@ -2636,7 +2715,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.25,
+        "score": 3.22,
         "firstSeenAt": "2026-11-14T12:15:48.000Z",
         "lastUpdatedAt": "2026-11-14T12:15:48.000Z",
         "image": {
@@ -2671,6 +2750,50 @@
             "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg"
           }
         ]
+      },
+      {
+        "storyId": "c87a05052d823871",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.21,
+        "firstSeenAt": "2026-11-14T12:05:51.000Z",
+        "lastUpdatedAt": "2026-11-14T12:05:51.000Z",
+        "image": {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg",
+          "sourceId": "ars-technica",
+          "sourceName": "Ars Technica",
+          "articleUrl": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/"
+        },
+        "sources": [
+          {
+            "id": "ars-technica",
+            "name": "Ars Technica",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T12:05:51.000Z",
+            "sourceId": "ars-technica"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ars-technica",
+            "url": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
+            "title": "Winemakers are learning that conservation can be good for business",
+            "summary": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
+            "publishedAt": "2026-11-14T12:05:51.000Z",
+            "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg"
+          }
+        ]
       }
     ],
     "world": [
@@ -2682,7 +2805,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 14.95,
+        "score": 14.92,
         "firstSeenAt": "2026-11-14T10:30:04.000Z",
         "lastUpdatedAt": "2026-11-14T20:41:45.000Z",
         "image": {
@@ -2806,11 +2929,11 @@
         "storyId": "8c29e328f3a9e582",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 14.9,
+        "score": 14.87,
         "firstSeenAt": "2026-11-14T17:11:18.000Z",
         "lastUpdatedAt": "2026-11-14T20:03:48.000Z",
         "image": {
@@ -2939,6 +3062,215 @@
         ]
       },
       {
+        "storyId": "0ef99121135e5268",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.99,
+        "firstSeenAt": "2026-11-14T10:21:09.000Z",
+        "lastUpdatedAt": "2026-11-14T21:32:46.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "hacker-news",
+            "name": "Hacker News (front page)",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T10:21:09.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:05:14.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T21:05:14.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:32:46.000Z",
+            "sourceId": "scmp-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight",
+            "title": "SpaceX's Starship encounters problems during 15th test flight",
+            "summary": "Elon Musk’s SpaceX successfully launched its Starship, the world's largest spaceship, into orbit where it should release 15 satellites for its Starlink network. A few minutes after lift off however, the rocket's booster which was meant to return to the pad splashed down in the Gulf of Mexico. Details by Daniel Quinlan.",
+            "publishedAt": "2026-11-14T10:21:09.000Z",
+            "imageUrl": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
+            "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
+            "summary": "Elon Musk's SpaceX is in the midst of a 15th test-flight of its Starship rocket. The company was hoping to pull off the first-ever \"double catch\" - with both the booster and the ship itself coming safely back down to earth. Instead, an unspecified problem forced the company to abort recovery of the booster, which was diverted from its return path and crashed down into the Gulf of Mexico. Analysis by journalist Frédéric Castel, based in Bosa Chica, Texas, USA.",
+            "publishedAt": "2026-11-14T17:33:37.000Z",
+            "imageUrl": "https://s.france24.com/media/display/0ecebe06-e02b-11f1-b834-f71d22e7fea9/w:1024/p:16x9/EN-20261114-080810-081151-CS-01.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+            "title": "SpaceX's Starship set for return to Earth after failed booster catch",
+            "summary": "SpaceX's Starship spacecraft was on track to return to its Texas launch site for a planned mid-air catch, after an aborted recovery attempt.",
+            "publishedAt": "2026-11-14T20:51:24.000Z",
+            "imageUrl": "https://s.france24.com/media/display/8cb1e4b2-e05b-11f1-b193-5f54d898a954/w:1024/p:16x9/2026-11-14T012408Z-750862810-RC2ANOA0O8FL-RTRMADP-3-SPACE-SPACEX-STARSHIP.jpg"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+            "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+            "summary": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
+            "publishedAt": "2026-11-14T21:05:14.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6d/live/64bc2ef0-e03c-11f1-b441-2b33b063138f.jpg"
+          },
+          {
+            "sourceId": "hacker-news",
+            "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+            "title": "SpaceX Catches the Starship to end Flight 15",
+            "summary": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 95 # Comments: 39",
+            "publishedAt": "2026-11-14T21:22:24.000Z"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+            "title": "SpaceX successfully carries out first-ever spaceship catch",
+            "summary": "Elon Musk’s SpaceX on Saturday successfully carried out the first-ever recovery of a spaceship, with its Starship vessel returning safely to its launch pad after a day in orbit. The spaceship emerged from a cloudy sky after a cross-continent descent, smoothly slipping between the mechanical “chopstick arms” above Launch Pad 2. More to follow …",
+            "publishedAt": "2026-11-14T21:32:46.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/c660f1ae-8b76-472f-acc7-d56c6e5e8e98_c44e6f59.jpg?itok=yfxd8i33&v=1794691954"
+          }
+        ]
+      },
+      {
+        "storyId": "38a7ef55fd3bf65b",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.99,
+        "firstSeenAt": "2026-11-14T10:25:22.000Z",
+        "lastUpdatedAt": "2026-11-14T21:30:11.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/0c9485ba-e019-11f1-9673-695cb59fade5/w:1024/p:16x9/91b19f88637d15a0b0843d352f4b999ad0eb540a.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/environment/20261114-climate-action-is-alive-triumphant-democrats-take-on-cop31-shunned-by-trump"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "dw-world",
+            "name": "DW World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T10:25:22.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T17:19:00.000Z",
+            "sourceId": "dw-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T17:19:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T21:30:11.000Z",
+            "sourceId": "scmp-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/environment/20261114-climate-action-is-alive-triumphant-democrats-take-on-cop31-shunned-by-trump",
+            "title": "'Climate action is alive': Triumphant Democrats attend COP31 summit shunned by Trump",
+            "summary": "A delegation of 18 Democratic lawmakers arrived at the COP31 climate summit in Turkey on Saturday to reaffirm the US commitment to tackling global warming following their sweeping midterm election victory.",
+            "publishedAt": "2026-11-14T10:25:22.000Z",
+            "imageUrl": "https://s.france24.com/media/display/0c9485ba-e019-11f1-9673-695cb59fade5/w:1024/p:16x9/91b19f88637d15a0b0843d352f4b999ad0eb540a.jpg"
+          },
+          {
+            "sourceId": "dw-world",
+            "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
+            "title": "COP31: Protesters, UN urge swift climate deal",
+            "summary": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
+            "publishedAt": "2026-11-14T17:19:00.000Z"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/opinion/asia-opinion/article/3374115/bangladesh-and-others-climate-disasters-should-not-add-debt-burdens",
+            "title": "For Bangladesh and others, climate disasters should not add to debt burdens",
+            "summary": "Talks at Cop31, the United Nations climate change conference being held in Antalya, Turkey, come at a critical moment for climate-vulnerable countries across the Global South. Bangladesh is among those bearing the brunt of climate change despite having negligible historical responsibility for global emissions. As delegations negotiate how to finance climate action, the “how” matters no less than the “how much”: support must arrive in time, reach those who need it and avoid deepening debt. The...",
+            "publishedAt": "2026-11-14T21:30:11.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/0d6786fb-a817-4286-9b6d-38ae14e28e3f_d6a285bb.jpg?itok=4mTAYIQr&v=1794538978"
+          }
+        ]
+      },
+      {
         "storyId": "8dff7e4539539d2a",
         "language": "en",
         "label": "confirmed",
@@ -2946,7 +3278,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.81,
+        "score": 10.78,
         "firstSeenAt": "2026-11-14T17:58:57.000Z",
         "lastUpdatedAt": "2026-11-14T19:01:32.000Z",
         "image": {
@@ -3029,33 +3361,33 @@
         ]
       },
       {
-        "storyId": "0ef99121135e5268",
+        "storyId": "01953ccb7b50e540",
         "language": "en",
         "label": "confirmed",
         "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.99,
-        "firstSeenAt": "2026-11-14T10:21:09.000Z",
-        "lastUpdatedAt": "2026-11-14T21:05:14.000Z",
+        "score": 8.91,
+        "firstSeenAt": "2026-11-14T11:11:03.000Z",
+        "lastUpdatedAt": "2026-11-14T20:35:22.000Z",
         "image": {
-          "url": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg",
+          "url": "https://s.france24.com/media/display/e9d87c1e-e06a-11f1-b45a-f71d22e7fea9/w:1024/p:16x9/eb428c66bf6978a929203d6ac1afd3964fb560b1.jpg",
           "sourceId": "france-24",
           "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight"
+          "articleUrl": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks"
         },
         "sources": [
           {
-            "id": "france-24",
-            "name": "France 24",
+            "id": "guardian-world",
+            "name": "The Guardian World",
             "camp": "international",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "bbc-world",
-            "name": "BBC News World",
+            "id": "france-24",
+            "name": "France 24",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3064,53 +3396,37 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-14T10:21:09.000Z",
-            "sourceId": "france-24"
+            "at": "2026-11-14T11:11:03.000Z",
+            "sourceId": "guardian-world"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-14T21:05:14.000Z",
-            "sourceId": "bbc-world"
+            "at": "2026-11-14T20:35:22.000Z",
+            "sourceId": "france-24"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-14T21:05:14.000Z",
+            "at": "2026-11-14T20:35:22.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight",
-            "title": "SpaceX's Starship encounters problems during 15th test flight",
-            "summary": "Elon Musk’s SpaceX successfully launched its Starship, the world's largest spaceship, into orbit where it should release 15 satellites for its Starlink network. A few minutes after lift off however, the rocket's booster which was meant to return to the pad splashed down in the Gulf of Mexico. Details by Daniel Quinlan.",
-            "publishedAt": "2026-11-14T10:21:09.000Z",
-            "imageUrl": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg"
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+            "title": "Eisenkot condemns Netanyahu’s ‘racist’ campaign against Israel’s Arab citizens",
+            "summary": "Prime ministerial hopeful calls Arab minority ‘an integral part of the Israeli story’ as he seeks to form government Israeli prime ministerial hopeful Gadi Eisenkot condemned a “racist and aggressive campaign of delegitimisation” against the country’s Arab citizens, after the caretaker prime minister, Benjamin Netanyahu, accused Arab parties of electoral fraud without evidence. Netanyahu has repeatedly targeted Arab parties and Palestinian citizens of Israel after his party received a disappointing electoral showing, accusing them of manipulating the election and being linked to Hamas. Israeli electoral authorities have rejected these claims as not being backed by evidence. Continue reading...",
+            "publishedAt": "2026-11-14T11:11:03.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/caafae25c0bca6314b12439ac03f6e61770f8341/308_0_3083_2466/master/3083.jpg?width=140&quality=85&auto=format&fit=max&s=94d792291c0caa876c75116721318aaf"
           },
           {
             "sourceId": "france-24",
-            "url": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
-            "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
-            "summary": "Elon Musk's SpaceX is in the midst of a 15th test-flight of its Starship rocket. The company was hoping to pull off the first-ever \"double catch\" - with both the booster and the ship itself coming safely back down to earth. Instead, an unspecified problem forced the company to abort recovery of the booster, which was diverted from its return path and crashed down into the Gulf of Mexico. Analysis by journalist Frédéric Castel, based in Bosa Chica, Texas, USA.",
-            "publishedAt": "2026-11-14T17:33:37.000Z",
-            "imageUrl": "https://s.france24.com/media/display/0ecebe06-e02b-11f1-b834-f71d22e7fea9/w:1024/p:16x9/EN-20261114-080810-081151-CS-01.jpg"
-          },
-          {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
-            "title": "SpaceX's Starship set for return to Earth after failed booster catch",
-            "summary": "SpaceX's Starship spacecraft was on track to return to its Texas launch site for a planned mid-air catch, after an aborted recovery attempt.",
-            "publishedAt": "2026-11-14T20:51:24.000Z",
-            "imageUrl": "https://s.france24.com/media/display/8cb1e4b2-e05b-11f1-b193-5f54d898a954/w:1024/p:16x9/2026-11-14T012408Z-750862810-RC2ANOA0O8FL-RTRMADP-3-SPACE-SPACEX-STARSHIP.jpg"
-          },
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-            "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
-            "summary": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
-            "publishedAt": "2026-11-14T21:05:14.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6d/live/64bc2ef0-e03c-11f1-b441-2b33b063138f.jpg"
+            "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+            "title": "Netanyahu renews call for Israeli government unity as Eisenkot dismisses 'tricks'",
+            "summary": "Israeli caretaker Prime Minister Benjamin Netanyahu on Saturday renewed his call for a national unity government with Gadi Eisenkot, who dismissed the appeal as a political ploy. This comes as the incoming premier is in the midst of negotiations to form a new administration.",
+            "publishedAt": "2026-11-14T20:35:22.000Z",
+            "imageUrl": "https://s.france24.com/media/display/e9d87c1e-e06a-11f1-b45a-f71d22e7fea9/w:1024/p:16x9/eb428c66bf6978a929203d6ac1afd3964fb560b1.jpg"
           }
         ]
       },
@@ -3122,7 +3438,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.93,
+        "score": 8.9,
         "firstSeenAt": "2026-11-14T13:15:42.000Z",
         "lastUpdatedAt": "2026-11-14T20:23:06.000Z",
         "image": {
@@ -3200,7 +3516,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.84,
+        "score": 8.81,
         "firstSeenAt": "2026-11-14T11:17:58.000Z",
         "lastUpdatedAt": "2026-11-14T19:20:11.000Z",
         "image": {
@@ -3269,7 +3585,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.77,
+        "score": 8.74,
         "firstSeenAt": "2026-11-14T13:48:06.000Z",
         "lastUpdatedAt": "2026-11-14T18:28:06.000Z",
         "image": {
@@ -3329,7 +3645,7 @@
             "sourceId": "hacker-news",
             "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
             "title": "Italy fines Meta $887M over Android users' data access",
-            "summary": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 256 # Comments: 163",
+            "summary": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 268 # Comments: 178",
             "publishedAt": "2026-11-14T13:48:06.000Z"
           },
           {
@@ -3357,7 +3673,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.73,
+        "score": 8.7,
         "firstSeenAt": "2026-11-14T16:35:52.000Z",
         "lastUpdatedAt": "2026-11-14T18:02:53.000Z",
         "image": {
@@ -3419,21 +3735,21 @@
         ]
       },
       {
-        "storyId": "38a7ef55fd3bf65b",
+        "storyId": "9cf2241e07bcf9c7",
         "language": "en",
         "label": "confirmed",
         "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.67,
-        "firstSeenAt": "2026-11-14T10:25:22.000Z",
-        "lastUpdatedAt": "2026-11-14T17:19:00.000Z",
+        "score": 8.58,
+        "firstSeenAt": "2026-11-14T10:20:11.000Z",
+        "lastUpdatedAt": "2026-11-14T16:34:15.000Z",
         "image": {
-          "url": "https://s.france24.com/media/display/0c9485ba-e019-11f1-9673-695cb59fade5/w:1024/p:16x9/91b19f88637d15a0b0843d352f4b999ad0eb540a.jpg",
+          "url": "https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg",
           "sourceId": "france-24",
           "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/environment/20261114-climate-action-is-alive-triumphant-democrats-take-on-cop31-shunned-by-trump"
+          "articleUrl": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang"
         },
         "sources": [
           {
@@ -3444,9 +3760,9 @@
             "confirms": true
           },
           {
-            "id": "dw-world",
-            "name": "DW World",
-            "camp": "international",
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
             "tier": "established",
             "confirms": true
           }
@@ -3454,17 +3770,17 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-14T10:25:22.000Z",
+            "at": "2026-11-14T10:20:11.000Z",
             "sourceId": "france-24"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-14T17:19:00.000Z",
-            "sourceId": "dw-world"
+            "at": "2026-11-14T16:34:15.000Z",
+            "sourceId": "techcrunch"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-14T17:19:00.000Z",
+            "at": "2026-11-14T16:34:15.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
@@ -3472,18 +3788,18 @@
         "articles": [
           {
             "sourceId": "france-24",
-            "url": "https://www.france24.com/en/environment/20261114-climate-action-is-alive-triumphant-democrats-take-on-cop31-shunned-by-trump",
-            "title": "'Climate action is alive': Triumphant Democrats attend COP31 summit shunned by Trump",
-            "summary": "A delegation of 18 Democratic lawmakers arrived at the COP31 climate summit in Turkey on Saturday to reaffirm the US commitment to tackling global warming following their sweeping midterm election victory.",
-            "publishedAt": "2026-11-14T10:25:22.000Z",
-            "imageUrl": "https://s.france24.com/media/display/0c9485ba-e019-11f1-9673-695cb59fade5/w:1024/p:16x9/91b19f88637d15a0b0843d352f4b999ad0eb540a.jpg"
+            "url": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+            "title": "Can Nvidia survive without tech titan Jensen Huang?",
+            "summary": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy. Meanwhile some employees are clamouring for Huang's return – as his fellow tech leader Elon Musk. A sign of Huang's lingering star power, in an industry where so often the fate of each giant company depends on one man. Story by Peter O'Brien.",
+            "publishedAt": "2026-11-14T10:20:11.000Z",
+            "imageUrl": "https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg"
           },
           {
-            "sourceId": "dw-world",
-            "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
-            "title": "COP31: Protesters, UN urge swift climate deal",
-            "summary": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
-            "publishedAt": "2026-11-14T17:19:00.000Z"
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+            "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+            "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+            "publishedAt": "2026-11-14T16:34:15.000Z"
           }
         ]
       },
@@ -3495,7 +3811,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.16,
+        "score": 8.13,
         "firstSeenAt": "2026-11-14T09:06:00.000Z",
         "lastUpdatedAt": "2026-11-14T11:07:33.000Z",
         "image": {
@@ -3557,7 +3873,7 @@
         ]
       },
       {
-        "storyId": "ce373aab00f599eb",
+        "storyId": "4f0d08dfb2414cac",
         "language": "en",
         "label": "single-source",
         "developing": true,
@@ -3565,6 +3881,44 @@
           "single-owner"
         ],
         "score": 3.99,
+        "firstSeenAt": "2026-11-14T21:30:08.000Z",
+        "lastUpdatedAt": "2026-11-14T21:30:08.000Z",
+        "sources": [
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T21:30:08.000Z",
+            "sourceId": "scmp-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/opinion/china-opinion/article/3374048/amid-xi-trump-clamour-can-apec-revive-business-cooperation",
+            "title": "Amid the Xi-Trump clamour, can Apec revive the business of cooperation?",
+            "summary": "The 33rd Asia-Pacific Economic Cooperation (Apec) summit will be held in Shenzhen from November 18 to 19. The venue is not accidental. Forty years ago, this was a border town of rice fields and duck ponds; it is now where a good part of the world’s electronics are designed and built, and the showcase of China’s “reform and opening up”. The event’s theme, “Building an Asia-Pacific Community to Prosper Together”, puts openness, innovation and cooperation at the centre. US President Donald Trump...",
+            "publishedAt": "2026-11-14T21:30:08.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/544b66e6-9887-47fb-a012-8f468b4b1fff_249889c3.jpg?itok=TSF80JnH&v=1794548373"
+          }
+        ]
+      },
+      {
+        "storyId": "ce373aab00f599eb",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.95,
         "firstSeenAt": "2026-11-14T21:05:00.000Z",
         "lastUpdatedAt": "2026-11-14T21:05:00.000Z",
         "sources": [
@@ -3601,7 +3955,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.93,
+        "score": 3.9,
         "firstSeenAt": "2026-11-14T20:26:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:26:00.000Z",
         "sources": [
@@ -3629,125 +3983,6 @@
             "publishedAt": "2026-11-14T20:26:00.000Z"
           }
         ]
-      },
-      {
-        "storyId": "f4035bbf29fb41ba",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.92,
-        "firstSeenAt": "2026-11-14T20:15:43.000Z",
-        "lastUpdatedAt": "2026-11-14T20:15:43.000Z",
-        "image": {
-          "url": "https://s.france24.com/media/display/b003a0ce-ce6b-11f1-a0f5-23d55109f116/w:1024/p:16x9/AP26295395173953-1.jpg",
-          "sourceId": "france-24",
-          "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war"
-        },
-        "sources": [
-          {
-            "id": "france-24",
-            "name": "France 24",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T20:15:43.000Z",
-            "sourceId": "france-24"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war",
-            "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
-            "summary": "French President Emmanuel Macron on Saturday warned that limiting aid to Ukraine would force Kyiv into an \"unjust peace\" and risk another war. His statement comes as the United States pushes ahead with efforts to negotiate between Ukraine and Moscow.",
-            "publishedAt": "2026-11-14T20:15:43.000Z",
-            "imageUrl": "https://s.france24.com/media/display/b003a0ce-ce6b-11f1-a0f5-23d55109f116/w:1024/p:16x9/AP26295395173953-1.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "c19baf4abd432d90",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.91,
-        "firstSeenAt": "2026-11-14T20:14:27.000Z",
-        "lastUpdatedAt": "2026-11-14T20:14:27.000Z",
-        "sources": [
-          {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T20:14:27.000Z",
-            "sourceId": "guardian-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-            "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
-            "summary": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and alcohol-production plant. The discovery reported at BioUrja Renewables in Peoria triggered a mandatory evacuation over a one-mile evacuation zone encompassing sections of that city as well as the adjacent municipality of East Peoria. Officials ultimately lifted the evacuation zone at about 1.25pm local time on Saturday – but only after making it clear there had genuinely been a bomb found and ruling out the presence of any other explosives. Continue reading...",
-            "publishedAt": "2026-11-14T20:14:27.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=51fa3394626d131083ad4af9586ae6bb"
-          }
-        ]
-      },
-      {
-        "storyId": "0aeb5c7fcf7134c8",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.91,
-        "firstSeenAt": "2026-11-14T20:14:10.000Z",
-        "lastUpdatedAt": "2026-11-14T20:14:10.000Z",
-        "sources": [
-          {
-            "id": "al-jazeera",
-            "name": "Al Jazeera English",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T20:14:10.000Z",
-            "sourceId": "al-jazeera"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
-            "title": "India’s Assam state demolishes homes of 132 Muslim families",
-            "summary": "Authorities in India’s Assam have demolished the homes of 132 Muslim families.",
-            "publishedAt": "2026-11-14T20:14:10.000Z"
-          }
-        ]
       }
     ]
   },
@@ -3761,7 +3996,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.47,
+        "score": 3.44,
         "firstSeenAt": "2026-11-14T12:47:50.000Z",
         "lastUpdatedAt": "2026-11-14T14:50:51.000Z",
         "image": {
@@ -3828,7 +4063,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.46,
+        "score": 3.43,
         "firstSeenAt": "2026-11-14T14:46:26.000Z",
         "lastUpdatedAt": "2026-11-14T14:46:26.000Z",
         "image": {
@@ -3872,7 +4107,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.42,
+        "score": 3.39,
         "firstSeenAt": "2026-11-14T14:18:00.000Z",
         "lastUpdatedAt": "2026-11-14T14:18:00.000Z",
         "image": {
@@ -3916,7 +4151,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.36,
+        "score": 3.33,
         "firstSeenAt": "2026-11-14T13:33:46.000Z",
         "lastUpdatedAt": "2026-11-14T13:33:46.000Z",
         "image": {
@@ -3960,7 +4195,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.3,
+        "score": 3.27,
         "firstSeenAt": "2026-11-14T12:48:19.000Z",
         "lastUpdatedAt": "2026-11-14T12:48:19.000Z",
         "image": {
@@ -4004,7 +4239,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.29,
+        "score": 3.26,
         "firstSeenAt": "2026-11-14T12:47:28.000Z",
         "lastUpdatedAt": "2026-11-14T12:47:28.000Z",
         "image": {
@@ -4048,7 +4283,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.06,
+        "score": 3.03,
         "firstSeenAt": "2026-11-14T09:55:43.000Z",
         "lastUpdatedAt": "2026-11-14T09:55:43.000Z",
         "image": {
@@ -4092,7 +4327,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.91,
+        "score": 1.88,
         "firstSeenAt": "2026-11-14T20:10:06.000Z",
         "lastUpdatedAt": "2026-11-14T20:10:06.000Z",
         "image": {
@@ -4136,7 +4371,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.91,
+        "score": 1.88,
         "firstSeenAt": "2026-11-14T20:08:52.000Z",
         "lastUpdatedAt": "2026-11-14T20:08:52.000Z",
         "image": {
@@ -4176,11 +4411,11 @@
         "storyId": "cebc2b47b749a7dd",
         "language": "tr",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 1.88,
+        "score": 1.85,
         "firstSeenAt": "2026-11-14T19:51:36.000Z",
         "lastUpdatedAt": "2026-11-14T19:51:36.000Z",
         "image": {
@@ -4220,11 +4455,11 @@
         "storyId": "89862b6a7c24cd3a",
         "language": "tr",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 1.88,
+        "score": 1.85,
         "firstSeenAt": "2026-11-14T19:50:32.000Z",
         "lastUpdatedAt": "2026-11-14T19:50:32.000Z",
         "image": {
@@ -4264,11 +4499,11 @@
         "storyId": "dd10242d60bc21a9",
         "language": "tr",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 1.88,
+        "score": 1.85,
         "firstSeenAt": "2026-11-14T19:49:56.000Z",
         "lastUpdatedAt": "2026-11-14T19:49:56.000Z",
         "image": {
@@ -4312,7 +4547,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.86,
+        "score": 1.83,
         "firstSeenAt": "2026-11-14T19:36:07.000Z",
         "lastUpdatedAt": "2026-11-14T19:36:07.000Z",
         "image": {
@@ -4356,7 +4591,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.84,
+        "score": 1.81,
         "firstSeenAt": "2026-11-14T19:21:15.000Z",
         "lastUpdatedAt": "2026-11-14T19:21:15.000Z",
         "image": {
@@ -4400,7 +4635,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.66,
+        "score": 1.63,
         "firstSeenAt": "2026-11-14T17:11:27.000Z",
         "lastUpdatedAt": "2026-11-14T17:11:27.000Z",
         "image": {
@@ -4446,7 +4681,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.98,
+        "score": 10.95,
         "firstSeenAt": "2026-11-14T09:13:30.000Z",
         "lastUpdatedAt": "2026-11-14T21:00:00.000Z",
         "image": {
@@ -4511,14 +4746,6 @@
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc84/live/b9694be0-e005-11f1-b441-2b33b063138f.jpg"
           },
           {
-            "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
-            "title": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
-            "summary": "England's game with world champions Spain will reveal if head coach Thomas Tuchel has learned from summer disappointment, says chief football writer Phil McNulty.",
-            "publishedAt": "2026-11-14T20:22:00.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a93/live/1896ea50-e038-11f1-9ca9-b3b288fceb81.jpg"
-          },
-          {
             "sourceId": "guardian-football",
             "url": "https://www.theguardian.com/football/2026/nov/14/luis-de-la-fuente-spain-england-racism-thomas-tuchel-natiions-league",
             "title": "De la Fuente adamant there is no racism in Spain despite England reminder to players",
@@ -4552,7 +4779,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.97,
+        "score": 10.94,
         "firstSeenAt": "2026-11-14T19:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:52:48.000Z",
         "image": {
@@ -4650,7 +4877,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.81,
+        "score": 10.78,
         "firstSeenAt": "2026-11-14T10:54:00.000Z",
         "lastUpdatedAt": "2026-11-14T18:55:34.000Z",
         "image": {
@@ -4750,7 +4977,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.55,
+        "score": 10.52,
         "firstSeenAt": "2026-11-14T15:18:12.000Z",
         "lastUpdatedAt": "2026-11-14T15:53:00.000Z",
         "image": {
@@ -4848,111 +5075,6 @@
         ]
       },
       {
-        "storyId": "ce57833e5edadaeb",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.52,
-        "firstSeenAt": "2026-11-14T07:24:35.000Z",
-        "lastUpdatedAt": "2026-11-14T15:27:21.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/b928/live/d4c12030-e009-11f1-9fd4-8b3c9f9dfc89.jpg",
-          "sourceId": "bbc-turkce",
-          "sourceName": "BBC Türkçe",
-          "articleUrl": "https://www.bbc.com/turkce/articles/cddm49gmnero?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "aa-spor",
-            "name": "AA Spor",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
-          {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T07:24:35.000Z",
-            "sourceId": "aa-spor"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T08:05:44.000Z",
-            "sourceId": "sozcu"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T08:05:44.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T09:02:21.000Z",
-            "sourceId": "bbc-turkce"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "aa-spor",
-            "url": "https://www.aa.com.tr/tr/spor/nba-kupasinda-alperen-sengunun-43-sayiyla-oynadigi-macta-rockets-jazzi-yendi/4124896",
-            "title": "NBA Kupası'nda Alperen Şengün'ün 43 sayıyla oynadığı maçta Rockets, Jazz'ı yendi",
-            "summary": "Amerikan Basketbol Ligi (NBA) Kupası'nda Houston Rockets, milli oyuncu Alperen Şengün'ün 43 sayıyla oynadığı maçta Utah Jazz'ı 125-118 yendi.",
-            "publishedAt": "2026-11-14T07:24:35.000Z"
-          },
-          {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/alperen-sengun-ne-kadar-kazaniyor-2030-a-kadar-suren-dev-sozlesmesinin-detaylari-p381242",
-            "title": "Alperen Şengün ne kadar kazanıyor? 2030'a kadar süren dev sözleşmesinin detayları",
-            "summary": "43 sayıyla Houston Rockets tarihine geçen Alperen Şengün'ün NBA'den kazandığı para merak konusu oldu. 2030 yılına kadar ...",
-            "publishedAt": "2026-11-14T08:05:44.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/alperenjpg-8gTt0_fV_E6uEZL8_20gsQ.jpg"
-          },
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/cddm49gmnero?at_medium=RSS&at_campaign=rss",
-            "title": "Alperen Şengün Rockets tarihine geçti, Jazz'a karşı 43 sayı",
-            "summary": "NBA'deki Türk milli basketbolcu Alperen Şengün Houston Rockets formasıyla çıktığı Utah Jazz maçında 43 sayıyla kariyer performanslarından birini sergiledi.",
-            "publishedAt": "2026-11-14T09:02:21.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b928/live/d4c12030-e009-11f1-9fd4-8b3c9f9dfc89.jpg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/alperen-sengun-rockets-tarihinde-yao-ming-ve-harden-in-yanina-adini-yazdirdi-1395158",
-            "title": "Alperen Şengün Rockets Tarihinde Yao Ming ve Harden'ın Yanına Adını Yazdırdı",
-            "summary": "Milli basketbolcu Alperen Şengün, NBA Kupası'nda Utah Jazz karşısında 43 sayı, 12 ribaunt ve 5 asistlik bir performansa imza attı. Bu istatistikle Houston Rockets tarihinde 40 sayı, 10 ribaunt ve 5 asist barını aşan üçüncü oyuncu oldu. Önünde yalnızca Yao Ming ile James Harden bulunuyor.",
-            "publishedAt": "2026-11-14T15:27:21.000Z",
-            "imageUrl": "https://img-s2.onedio.com/id-6af87d81e6cbf154f6b794a7/rev-0/w-1200/h-675/f-jpg/s-73cd8f8b143e4eb1e54d43847b4660d2fafd1c9d.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "d7a645301ce490ea",
         "language": "tr",
         "label": "confirmed",
@@ -4961,7 +5083,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.33,
+        "score": 10.3,
         "firstSeenAt": "2026-11-14T07:39:14.000Z",
         "lastUpdatedAt": "2026-11-14T13:10:00.000Z",
         "image": {
@@ -5050,7 +5172,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.95,
+        "score": 8.92,
         "firstSeenAt": "2026-11-14T10:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:40:35.000Z",
         "image": {
@@ -5120,7 +5242,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.77,
+        "score": 8.74,
         "firstSeenAt": "2026-11-14T10:54:00.000Z",
         "lastUpdatedAt": "2026-11-14T18:27:23.000Z",
         "image": {
@@ -5183,23 +5305,22 @@
         ]
       },
       {
-        "storyId": "62fdcbc769d92598",
+        "storyId": "bcb42876297b7467",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
         "reasons": [
-          "copies-not-counted",
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.75,
-        "firstSeenAt": "2026-11-14T07:31:25.000Z",
-        "lastUpdatedAt": "2026-11-14T18:17:17.000Z",
+        "score": 8.72,
+        "firstSeenAt": "2026-11-14T08:05:02.000Z",
+        "lastUpdatedAt": "2026-11-14T18:14:18.000Z",
         "image": {
-          "url": "https://im.haberturk.com/l/2026/11/14/ver1794678277/3927406/jpg/1920x1080",
+          "url": "https://im.haberturk.com/l/2026/11/14/ver1794643499/3927296/jpg/1920x1080",
           "sourceId": "haberturk",
           "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/spor/a-milli-takim-teknik-direktoru-sergen-yalcin-ulkemizin-galibiyete-ihtiyaci-var-3927406"
+          "articleUrl": "https://www.haberturk.com/bilgi/foto/mi-lli-ler-fransa-i-le-karsi-karsiya-geli-yor-fransa-turkiye-maci-ne-zaman-saat-kacta-milli-mac-hangi-kanalda-3927296"
         },
         "sources": [
           {
@@ -5215,55 +5336,27 @@
             "camp": "mainstream",
             "tier": "established",
             "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": false
-          },
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": false
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
           }
         ],
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-14T07:31:25.000Z",
+            "at": "2026-11-14T08:05:02.000Z",
             "sourceId": "aa-spor"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-14T17:45:06.000Z",
+            "at": "2026-11-14T11:55:30.000Z",
             "sourceId": "haberturk"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-14T17:45:06.000Z",
+            "at": "2026-11-14T11:55:30.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
         ],
         "articles": [
-          {
-            "sourceId": "aa-spor",
-            "url": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-fransa-deplasmaninda-/4124901",
-            "title": "A Milli Futbol Takımı Fransa deplasmanında",
-            "summary": "A Milli Futbol Takımı, UEFA Uluslar A Ligi 1. Grup'taki altıncı ve son maçında bugün deplasmanda Fransa ile karşı karşıya gelecek.",
-            "publishedAt": "2026-11-14T07:31:25.000Z"
-          },
           {
             "sourceId": "aa-spor",
             "url": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-660-macina-fransa-karsisinda-cikacak/4124922",
@@ -5284,32 +5377,7 @@
             "title": "A Milli Takım Fransa deplasmanında!",
             "summary": "A Milli Futbol Takımı, UEFA Uluslar A Ligi 1. Grup'taki altıncı ve son maçında Fransa ile karşı karşıya geliyor. Grupta oynadığı beş maçın beşini de kaybeden Türkiye, 0 puanla son sırada yer alıyor. Ay-yıldızlı ekip, Fransa deplasmanından galibiyetle ayrılarak grup aşamasına moralli veda etmeyi hedefliyor. Zorlu mücadele öncesi milli maç tarihi, saati ve yayın kanalı futbolseverler tarafından araştırılıyor. Peki, Fransa-Türkiye maçı ne zaman, saat kaçta? Milli maç hangi kanalda yayınlanacak, şifresiz mi? İşte karşılaşmaya ilişkin merak edilen detaylar…",
             "publishedAt": "2026-11-14T11:55:30.000Z",
-            "copyOf": "62fdcbc769d92598",
             "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794643499/3927296/jpg/1920x1080"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/spor/sergen-yalcin-milli-takimimizin-ve-ulkemizin-galibiyete-ihtiyaci-var/4125354",
-            "title": "Sergen Yalçın: Milli takımımızın ve ülkemizin galibiyete ihtiyacı var",
-            "summary": "UEFA Uluslar A Ligi 1. Grup'taki son maçında Fransa ile deplasmanda karşılaşacak A Milli Futbol Takımı'nda teknik direktör Sergen Yalçın, galibiyete ihtiyaçları olduğunu söyledi.",
-            "publishedAt": "2026-11-14T17:24:27.000Z"
-          },
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/sporarena/sergen-yalcin-milli-takimimizin-ve-ulkemizin-galibiyete-ihtiyaci-var-43378553",
-            "title": "Sergen Yalçın: 'Milli takımımızın ve ülkemizin galibiyete ihtiyacı var!'",
-            "summary": "UEFA Uluslar A Ligi 1. Grup'taki son maçında yarın Fransa ile deplasmanda karşılaşacak A Milli Futbol Takımı'nda teknik direktör Sergen Yalçın, galibiyete ihtiyaçları olduğunu söyledi.",
-            "publishedAt": "2026-11-14T17:26:00.000Z",
-            "copyOf": "7d850943c4f56f55",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af899a1c813a6f07cce8603.jpg"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/spor/a-milli-takim-teknik-direktoru-sergen-yalcin-ulkemizin-galibiyete-ihtiyaci-var-3927406",
-            "title": "\"Ülkemizin galibiyete ihtiyacı var\"",
-            "summary": "A Milli Takım Teknik Direktörü Sergen Yalçın, UEFA Uluslar Ligi'ndeki Fransa maçı öncesi açıklamalarda bulundu. Fransa'ya karşı farklı bir formatla sahaya çıkacaklarını belirten Yalçın, \"Milli takımımızın ve ülkemizin galibiyete ihtiyacı var. Fiziksel olarak hazır olmayan bazı oyuncularımız var. Onları da belli sürelerde kullanmaya çalışıyoruz\" dedi. Yalçın, hafif sakatlıkları bulunan Ferdi Kadıoğlu ve Uğurcan Çakır'ın son durumunun ise önümüzdeki saatlerde belli olacağını söyledi.",
-            "publishedAt": "2026-11-14T17:45:06.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794678277/3927406/jpg/1920x1080"
           },
           {
             "sourceId": "haberturk",
@@ -5318,84 +5386,6 @@
             "summary": "A Milli Futbol Takımı, UEFA Uluslar Ligi'nde 15 Kasım Pazar akşamı oynayacağı Fransa maçının hazırlıklarını yaptığı antrenmanla tamamladı.",
             "publishedAt": "2026-11-14T18:14:18.000Z",
             "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794680051/3927412/jpg/1920x1080"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/sergen-yalcin-fransa-deplasmani-oncesi-kadroda-5-6-degisiklik-yapacaklarini-duyurdu-1395172",
-            "title": "Sergen Yalçın Fransa Deplasmanı Öncesi Kadroda 5-6 Değişiklik Yapacaklarını Duyurdu",
-            "summary": "A Milli Futbol Takımı Teknik Direktörü Sergen Yalçın, UEFA Uluslar Ligi'nde Fransa deplasmanı öncesinde kadro ve oyun planına ilişkin açıklamalarda bulundu. Yalçın, Bordeaux'da oynanacak karşılaşmada hem oyuncu hem de oyun düzeninde değişikliğe gideceklerini söyledi. Milli Takım, A Ligi 1. Grup'taki son maçında 15 Kasım Pazar günü Türkiye saatiyle 22.45'te Fransa ile karşılaşacak ve mücadele ATV'den canlı yayınlanacak.",
-            "publishedAt": "2026-11-14T18:17:17.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af8a55548b7001004c3ee5f/rev-0/w-1200/h-675/f-jpg/s-d52e430b515a1594daf1a35fd6075576b7095092.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "c199b25198ed0e36",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.6,
-        "firstSeenAt": "2026-11-14T07:22:00.000Z",
-        "lastUpdatedAt": "2026-11-14T16:26:49.000Z",
-        "image": {
-          "url": "https://e2.365dm.com/26/11/1920x1080/skysports-jesus-owono-andorra_7397054.jpg?20261104170145",
-          "sourceId": "sky-sports-transfers",
-          "sourceName": "Sky Sports",
-          "articleUrl": "https://www.skysports.com/football/news/11095/13612118/goalkeeper-jesus-owono-given-12-match-ban-after-tenerife-forward-jesus-de-miguels-death-following-collision"
-        },
-        "sources": [
-          {
-            "id": "sky-sports-transfers",
-            "name": "Sky Sports",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "bbc-sport-football",
-            "name": "BBC Sport",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T07:22:00.000Z",
-            "sourceId": "sky-sports-transfers"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T16:26:49.000Z",
-            "sourceId": "bbc-sport-football"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T16:26:49.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/football/news/11095/13612118/goalkeeper-jesus-owono-given-12-match-ban-after-tenerife-forward-jesus-de-miguels-death-following-collision",
-            "title": "Goalkeeper Owono given 12-match ban after De Miguel's death from collision",
-            "summary": "FC Andorra goalkeeper Jesus Owono has been suspended for 12 matches for his challenge of \"excessive force\" which resulted in the death of Tenerife forward Jesus de Miguel.",
-            "publishedAt": "2026-11-14T07:22:00.000Z",
-            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-jesus-owono-andorra_7397054.jpg?20261104170145"
-          },
-          {
-            "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cmjeq0x815zko?at_medium=RSS&at_campaign=rss",
-            "title": "Tenerife boss says Owono's 12-match ban 'feels light'",
-            "summary": "Tenerife boss Alvaro Cervera reacts to goalkeeper Jesus Owono's 12-match ban as the club prepare for their first game since the death of Jesus de Miguel.",
-            "publishedAt": "2026-11-14T16:26:49.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b213/live/53f770d0-e040-11f1-88e1-eb4e155225b3.jpg"
           }
         ]
       },
@@ -5407,7 +5397,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.32,
+        "score": 8.29,
         "firstSeenAt": "2026-11-14T13:01:00.000Z",
         "lastUpdatedAt": "2026-11-14T13:07:33.000Z",
         "image": {
@@ -5477,7 +5467,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.94,
         "firstSeenAt": "2026-11-14T20:56:46.000Z",
         "lastUpdatedAt": "2026-11-14T20:56:46.000Z",
         "image": {
@@ -5512,11 +5502,212 @@
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5616/live/4a633af0-e062-11f1-a701-fddedf244c16.jpg"
           }
         ]
+      },
+      {
+        "storyId": "b041f899a450a77a",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.91,
+        "firstSeenAt": "2026-11-14T20:33:50.000Z",
+        "lastUpdatedAt": "2026-11-14T20:33:50.000Z",
+        "sources": [
+          {
+            "id": "guardian-football",
+            "name": "The Guardian Football",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T20:33:50.000Z",
+            "sourceId": "guardian-football"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-football",
+            "url": "https://www.theguardian.com/football/2026/nov/14/washington-spirit-utah-royals-nwsl-semi-final-clara-luvanga",
+            "title": "Clara Luvanga strikes as Washington Spirit beat Utah to reach third straight NWSL final",
+            "summary": "Tanzanian scores second-half winner in 2-1 victory Spirit reach fifth NWSL final and third in succession Washington will chase second title at home ground Clara Luvanga scored her second goal of the postseason in the 57th minute, capitalizing on an errant pass as the Washington Spirit reached their fifth NWSL Championship and third straight with a 2-1 semi-final victory over the Utah Royals on Saturday. Luvanga raced on to Nuria Rábano’s ill-advised ball after it rolled past Utah center-back Tatumn Milazzo, then chipped it delicately over the advancing goalkeeper Mandy McGlynn for the winner. Continue reading...",
+            "publishedAt": "2026-11-14T20:33:50.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/bee44b5317593adf17fedc49d44df9b08ca826c4/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=df9f6cf4e0bf8525872d6a80f6ec6513"
+          }
+        ]
+      },
+      {
+        "storyId": "c6773d86f9676c93",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.91,
+        "firstSeenAt": "2026-11-14T20:30:00.000Z",
+        "lastUpdatedAt": "2026-11-14T20:30:00.000Z",
+        "sources": [
+          {
+            "id": "guardian-football",
+            "name": "The Guardian Football",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T20:30:00.000Z",
+            "sourceId": "guardian-football"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-football",
+            "url": "https://www.theguardian.com/football/2026/nov/14/declan-rice-england-spain-nations-league-world-cup-thomas-tuchel",
+            "title": "Declan Rice accepts he had an ‘average World Cup’ as England gear up for Spain showdown",
+            "summary": "Midfielder needed a break ‘to come back stronger’ James Trafford selected to start in goal for England Declan Rice has admitted he had an “average” World Cup at the end of a gruelling season and needed time out during the international window in September and October in order to return stronger. The Arsenal midfielder believes the break has served its purpose, having produced starring performances against Bayern Munich and Liverpool in recent weeks . He is now ready to hit his best level for England in Sunday’s Nations League showdown against Spain at the Metropolitano Stadium. Continue reading...",
+            "publishedAt": "2026-11-14T20:30:00.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/f7ef395a328799053c7788d68a982937800fea7c/3_0_2003_1602/master/2003.jpg?width=140&quality=85&auto=format&fit=max&s=5d88ef87bf56f44b76724f7c788cdb4b"
+          }
+        ]
       }
     ],
     "abroad": [
       {
-        "storyId": "ce57833e5edadaeb",
+        "storyId": "9de385574d240c1f",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.72,
+        "firstSeenAt": "2026-11-14T17:10:00.000Z",
+        "lastUpdatedAt": "2026-11-14T18:17:17.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/deb36e0c-0822-4a03-a037-c2a52997e26a.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/spor/sergen-yalcin-dan-zaman-vurgusu-kisa-surede-isler-ne-kadar-degisebilir-2556162"
+        },
+        "sources": [
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "hurriyet",
+            "name": "Hürriyet",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T17:10:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T17:24:27.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T17:24:27.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T17:45:06.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/spor/sergen-yalcin-dan-zaman-vurgusu-kisa-surede-isler-ne-kadar-degisebilir-2556162",
+            "title": "Sergen Yalçın'dan zaman vurgusu: 'Kısa sürede işler ne kadar değişebilir?'",
+            "summary": "A Milli Takım Teknik Direktörü Sergen Yalçın, yarın oynanacak Fransa mücadelesi öncesi konuştu.",
+            "publishedAt": "2026-11-14T17:10:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/deb36e0c-0822-4a03-a037-c2a52997e26a.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/spor/sergen-yalcin-milli-takimimizin-ve-ulkemizin-galibiyete-ihtiyaci-var/4125354",
+            "title": "Sergen Yalçın: Milli takımımızın ve ülkemizin galibiyete ihtiyacı var",
+            "summary": "UEFA Uluslar A Ligi 1. Grup'taki son maçında Fransa ile deplasmanda karşılaşacak A Milli Futbol Takımı'nda teknik direktör Sergen Yalçın, galibiyete ihtiyaçları olduğunu söyledi.",
+            "publishedAt": "2026-11-14T17:24:27.000Z"
+          },
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/sporarena/sergen-yalcin-milli-takimimizin-ve-ulkemizin-galibiyete-ihtiyaci-var-43378553",
+            "title": "Sergen Yalçın: 'Milli takımımızın ve ülkemizin galibiyete ihtiyacı var!'",
+            "summary": "UEFA Uluslar A Ligi 1. Grup'taki son maçında yarın Fransa ile deplasmanda karşılaşacak A Milli Futbol Takımı'nda teknik direktör Sergen Yalçın, galibiyete ihtiyaçları olduğunu söyledi.",
+            "publishedAt": "2026-11-14T17:26:00.000Z",
+            "copyOf": "7d850943c4f56f55",
+            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af899a1c813a6f07cce8603.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/spor/a-milli-takim-teknik-direktoru-sergen-yalcin-ulkemizin-galibiyete-ihtiyaci-var-3927406",
+            "title": "\"Ülkemizin galibiyete ihtiyacı var\"",
+            "summary": "A Milli Takım Teknik Direktörü Sergen Yalçın, UEFA Uluslar Ligi'ndeki Fransa maçı öncesi açıklamalarda bulundu. Fransa'ya karşı farklı bir formatla sahaya çıkacaklarını belirten Yalçın, \"Milli takımımızın ve ülkemizin galibiyete ihtiyacı var. Fiziksel olarak hazır olmayan bazı oyuncularımız var. Onları da belli sürelerde kullanmaya çalışıyoruz\" dedi. Yalçın, hafif sakatlıkları bulunan Ferdi Kadıoğlu ve Uğurcan Çakır'ın son durumunun ise önümüzdeki saatlerde belli olacağını söyledi.",
+            "publishedAt": "2026-11-14T17:45:06.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794678277/3927406/jpg/1920x1080"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/sergen-yalcin-fransa-deplasmani-oncesi-kadroda-5-6-degisiklik-yapacaklarini-duyurdu-1395172",
+            "title": "Sergen Yalçın Fransa Deplasmanı Öncesi Kadroda 5-6 Değişiklik Yapacaklarını Duyurdu",
+            "summary": "A Milli Futbol Takımı Teknik Direktörü Sergen Yalçın, UEFA Uluslar Ligi'nde Fransa deplasmanı öncesinde kadro ve oyun planına ilişkin açıklamalarda bulundu. Yalçın, Bordeaux'da oynanacak karşılaşmada hem oyuncu hem de oyun düzeninde değişikliğe gideceklerini söyledi. Milli Takım, A Ligi 1. Grup'taki son maçında 15 Kasım Pazar günü Türkiye saatiyle 22.45'te Fransa ile karşılaşacak ve mücadele ATV'den canlı yayınlanacak.",
+            "publishedAt": "2026-11-14T18:17:17.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6af8a55548b7001004c3ee5f/rev-0/w-1200/h-675/f-jpg/s-d52e430b515a1594daf1a35fd6075576b7095092.jpg"
+          }
+        ],
+        "people": [
+          "ferdi-kadioglu"
+        ]
+      },
+      {
+        "storyId": "988e1b87921756c1",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
@@ -5524,8 +5715,8 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.52,
-        "firstSeenAt": "2026-11-14T07:24:35.000Z",
+        "score": 8.49,
+        "firstSeenAt": "2026-11-14T08:05:44.000Z",
         "lastUpdatedAt": "2026-11-14T15:27:21.000Z",
         "image": {
           "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/b928/live/d4c12030-e009-11f1-9fd4-8b3c9f9dfc89.jpg",
@@ -5534,13 +5725,6 @@
           "articleUrl": "https://www.bbc.com/turkce/articles/cddm49gmnero?at_medium=RSS&at_campaign=rss"
         },
         "sources": [
-          {
-            "id": "aa-spor",
-            "name": "AA Spor",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
           {
             "id": "sozcu",
             "name": "Sözcü",
@@ -5566,34 +5750,22 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-14T07:24:35.000Z",
-            "sourceId": "aa-spor"
-          },
-          {
-            "kind": "outlet-joined",
             "at": "2026-11-14T08:05:44.000Z",
             "sourceId": "sozcu"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T08:05:44.000Z",
-            "from": "single-source",
-            "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
             "at": "2026-11-14T09:02:21.000Z",
             "sourceId": "bbc-turkce"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T09:02:21.000Z",
+            "from": "single-source",
+            "to": "confirmed"
           }
         ],
         "articles": [
-          {
-            "sourceId": "aa-spor",
-            "url": "https://www.aa.com.tr/tr/spor/nba-kupasinda-alperen-sengunun-43-sayiyla-oynadigi-macta-rockets-jazzi-yendi/4124896",
-            "title": "NBA Kupası'nda Alperen Şengün'ün 43 sayıyla oynadığı maçta Rockets, Jazz'ı yendi",
-            "summary": "Amerikan Basketbol Ligi (NBA) Kupası'nda Houston Rockets, milli oyuncu Alperen Şengün'ün 43 sayıyla oynadığı maçta Utah Jazz'ı 125-118 yendi.",
-            "publishedAt": "2026-11-14T07:24:35.000Z"
-          },
           {
             "sourceId": "sozcu",
             "url": "https://www.sozcu.com.tr/alperen-sengun-ne-kadar-kazaniyor-2030-a-kadar-suren-dev-sozlesmesinin-detaylari-p381242",
@@ -5624,153 +5796,50 @@
         ]
       },
       {
-        "storyId": "62fdcbc769d92598",
+        "storyId": "1367f774ff8aefc5",
         "language": "tr",
-        "label": "confirmed",
-        "developing": false,
+        "label": "single-source",
+        "developing": true,
         "reasons": [
-          "copies-not-counted",
-          "independent-sources",
-          "cross-camp"
+          "single-owner"
         ],
-        "score": 8.75,
-        "firstSeenAt": "2026-11-14T07:31:25.000Z",
-        "lastUpdatedAt": "2026-11-14T18:17:17.000Z",
+        "score": 3.98,
+        "firstSeenAt": "2026-11-14T21:25:54.000Z",
+        "lastUpdatedAt": "2026-11-14T21:25:54.000Z",
         "image": {
-          "url": "https://im.haberturk.com/l/2026/11/14/ver1794678277/3927406/jpg/1920x1080",
+          "url": "https://im.haberturk.com/l/2026/11/14/ver1794681390/3927415/jpg/1920x1080",
           "sourceId": "haberturk",
           "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/spor/a-milli-takim-teknik-direktoru-sergen-yalcin-ulkemizin-galibiyete-ihtiyaci-var-3927406"
+          "articleUrl": "https://www.haberturk.com/kultur-sanat/cop31de-iklim-teknoloji-ve-sanat-bulustu-3927415"
         },
         "sources": [
-          {
-            "id": "aa-spor",
-            "name": "AA Spor",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": true
-          },
           {
             "id": "haberturk",
             "name": "Habertürk",
             "camp": "mainstream",
             "tier": "established",
             "confirms": true
-          },
-          {
-            "id": "aa-tr",
-            "name": "Anadolu Ajansı",
-            "camp": "state-wire",
-            "tier": "wire",
-            "confirms": false
-          },
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": false
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
           }
         ],
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-14T07:31:25.000Z",
-            "sourceId": "aa-spor"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T17:45:06.000Z",
+            "at": "2026-11-14T21:25:54.000Z",
             "sourceId": "haberturk"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T17:45:06.000Z",
-            "from": "single-source",
-            "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "aa-spor",
-            "url": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-fransa-deplasmaninda-/4124901",
-            "title": "A Milli Futbol Takımı Fransa deplasmanında",
-            "summary": "A Milli Futbol Takımı, UEFA Uluslar A Ligi 1. Grup'taki altıncı ve son maçında bugün deplasmanda Fransa ile karşı karşıya gelecek.",
-            "publishedAt": "2026-11-14T07:31:25.000Z"
-          },
-          {
-            "sourceId": "aa-spor",
-            "url": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-660-macina-fransa-karsisinda-cikacak/4124922",
-            "title": "A Milli Futbol Takımı, 660. maçına Fransa karşısında çıkacak",
-            "summary": "UEFA Uluslar A Ligi 1. Grup altıncı ve son maçında bugün deplasmanda Fransa ile karşılaşacak A Milli Futbol Takımı, tarihindeki 660'ıncı müsabakaya çıkacak.",
-            "publishedAt": "2026-11-14T08:05:02.000Z"
-          },
-          {
-            "sourceId": "aa-spor",
-            "url": "https://www.aa.com.tr/tr/spor/futbolda-turkiye-ile-fransa-8-kez-karsi-karsiya/4124924",
-            "title": "Futbolda Türkiye ile Fransa 8. kez karşı karşıya",
-            "summary": "Türkiye ile Fransa, UEFA Uluslar A Ligi 1. Grup altıncı maçında bugün oynayacakları maçla 8. kez karşılaşacak.",
-            "publishedAt": "2026-11-14T08:06:35.000Z"
-          },
-          {
             "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/bilgi/foto/mi-lli-ler-fransa-i-le-karsi-karsiya-geli-yor-fransa-turkiye-maci-ne-zaman-saat-kacta-milli-mac-hangi-kanalda-3927296",
-            "title": "A Milli Takım Fransa deplasmanında!",
-            "summary": "A Milli Futbol Takımı, UEFA Uluslar A Ligi 1. Grup'taki altıncı ve son maçında Fransa ile karşı karşıya geliyor. Grupta oynadığı beş maçın beşini de kaybeden Türkiye, 0 puanla son sırada yer alıyor. Ay-yıldızlı ekip, Fransa deplasmanından galibiyetle ayrılarak grup aşamasına moralli veda etmeyi hedefliyor. Zorlu mücadele öncesi milli maç tarihi, saati ve yayın kanalı futbolseverler tarafından araştırılıyor. Peki, Fransa-Türkiye maçı ne zaman, saat kaçta? Milli maç hangi kanalda yayınlanacak, şifresiz mi? İşte karşılaşmaya ilişkin merak edilen detaylar…",
-            "publishedAt": "2026-11-14T11:55:30.000Z",
-            "copyOf": "62fdcbc769d92598",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794643499/3927296/jpg/1920x1080"
-          },
-          {
-            "sourceId": "aa-tr",
-            "url": "https://www.aa.com.tr/tr/spor/sergen-yalcin-milli-takimimizin-ve-ulkemizin-galibiyete-ihtiyaci-var/4125354",
-            "title": "Sergen Yalçın: Milli takımımızın ve ülkemizin galibiyete ihtiyacı var",
-            "summary": "UEFA Uluslar A Ligi 1. Grup'taki son maçında Fransa ile deplasmanda karşılaşacak A Milli Futbol Takımı'nda teknik direktör Sergen Yalçın, galibiyete ihtiyaçları olduğunu söyledi.",
-            "publishedAt": "2026-11-14T17:24:27.000Z"
-          },
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/sporarena/sergen-yalcin-milli-takimimizin-ve-ulkemizin-galibiyete-ihtiyaci-var-43378553",
-            "title": "Sergen Yalçın: 'Milli takımımızın ve ülkemizin galibiyete ihtiyacı var!'",
-            "summary": "UEFA Uluslar A Ligi 1. Grup'taki son maçında yarın Fransa ile deplasmanda karşılaşacak A Milli Futbol Takımı'nda teknik direktör Sergen Yalçın, galibiyete ihtiyaçları olduğunu söyledi.",
-            "publishedAt": "2026-11-14T17:26:00.000Z",
-            "copyOf": "7d850943c4f56f55",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af899a1c813a6f07cce8603.jpg"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/spor/a-milli-takim-teknik-direktoru-sergen-yalcin-ulkemizin-galibiyete-ihtiyaci-var-3927406",
-            "title": "\"Ülkemizin galibiyete ihtiyacı var\"",
-            "summary": "A Milli Takım Teknik Direktörü Sergen Yalçın, UEFA Uluslar Ligi'ndeki Fransa maçı öncesi açıklamalarda bulundu. Fransa'ya karşı farklı bir formatla sahaya çıkacaklarını belirten Yalçın, \"Milli takımımızın ve ülkemizin galibiyete ihtiyacı var. Fiziksel olarak hazır olmayan bazı oyuncularımız var. Onları da belli sürelerde kullanmaya çalışıyoruz\" dedi. Yalçın, hafif sakatlıkları bulunan Ferdi Kadıoğlu ve Uğurcan Çakır'ın son durumunun ise önümüzdeki saatlerde belli olacağını söyledi.",
-            "publishedAt": "2026-11-14T17:45:06.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794678277/3927406/jpg/1920x1080"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/spor/a-milli-takim-fransa-macina-hazir-3927412",
-            "title": "Milli Takım, Fransa maçına hazır",
-            "summary": "A Milli Futbol Takımı, UEFA Uluslar Ligi'nde 15 Kasım Pazar akşamı oynayacağı Fransa maçının hazırlıklarını yaptığı antrenmanla tamamladı.",
-            "publishedAt": "2026-11-14T18:14:18.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794680051/3927412/jpg/1920x1080"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/sergen-yalcin-fransa-deplasmani-oncesi-kadroda-5-6-degisiklik-yapacaklarini-duyurdu-1395172",
-            "title": "Sergen Yalçın Fransa Deplasmanı Öncesi Kadroda 5-6 Değişiklik Yapacaklarını Duyurdu",
-            "summary": "A Milli Futbol Takımı Teknik Direktörü Sergen Yalçın, UEFA Uluslar Ligi'nde Fransa deplasmanı öncesinde kadro ve oyun planına ilişkin açıklamalarda bulundu. Yalçın, Bordeaux'da oynanacak karşılaşmada hem oyuncu hem de oyun düzeninde değişikliğe gideceklerini söyledi. Milli Takım, A Ligi 1. Grup'taki son maçında 15 Kasım Pazar günü Türkiye saatiyle 22.45'te Fransa ile karşılaşacak ve mücadele ATV'den canlı yayınlanacak.",
-            "publishedAt": "2026-11-14T18:17:17.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af8a55548b7001004c3ee5f/rev-0/w-1200/h-675/f-jpg/s-d52e430b515a1594daf1a35fd6075576b7095092.jpg"
+            "url": "https://www.haberturk.com/kultur-sanat/cop31de-iklim-teknoloji-ve-sanat-bulustu-3927415",
+            "title": "COP31’de iklim, teknoloji ve sanat buluştu",
+            "summary": "Dünyaca ünlü dijital medya sanatçısı Refik Anadol, Türkiye İş Bankası iş birliğiyle hayata geçirilen “Büyük Doğa Modeli: Türkiye” projesini COP31’de anlattı. Türkiye’nin 33 milli parkından toplanan 500 milyondan fazla veri noktasıyla geliştirilen model, ülkenin doğal zenginliklerini yapay zekâ aracılığıyla kayıt altına almayı ve bilimsel araştırmalara açmayı hedefliyor",
+            "publishedAt": "2026-11-14T21:25:54.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794681390/3927415/jpg/1920x1080"
           }
         ],
         "people": [
-          "ferdi-kadioglu"
+          "refik-anadol"
         ]
       },
       {
@@ -5781,7 +5850,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.93,
+        "score": 3.9,
         "firstSeenAt": "2026-11-14T08:16:20.000Z",
         "lastUpdatedAt": "2026-11-14T20:27:37.000Z",
         "image": {
