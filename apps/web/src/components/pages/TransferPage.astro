@@ -126,6 +126,7 @@ const photo = move.image ? photoUrl(move.id) : undefined;
             <a href={report.url} target="_blank" rel="noopener">
               <OutletLogo src={outletLogoUrl(report.sourceId)} />
               {report.name}
+              <Icon name="external" size={14} class="read-mark" />
             </a>
             <span>{extras.reported(stageWord(report.stage, lang), formatShortDate(report.on, lang))}</span>
           </li>
@@ -368,6 +369,10 @@ const photo = move.image ? photoUrl(move.id) : undefined;
     color: var(--ink);
     font: 600 16px / 1.3 var(--f-body);
     text-decoration: none;
+  }
+
+  .reporters :global(.read-mark) {
+    color: var(--meta);
   }
 
   .reporters a:hover {

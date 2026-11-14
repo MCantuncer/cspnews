@@ -152,6 +152,7 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
             <a href={source.url} target="_blank" rel="noopener">
               <OutletLogo src={outletLogoUrl(source.sourceId)} />
               {sourceName(source.sourceId)}
+              <Icon name="external" size={14} class="read-mark" />
             </a>
           </li>
         ))
@@ -439,6 +440,10 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
     color: var(--ink);
     font: 600 16px / 1.3 var(--f-body);
     text-decoration: none;
+  }
+
+  .sources :global(.read-mark) {
+    color: var(--meta);
   }
 
   .sources a:hover {
