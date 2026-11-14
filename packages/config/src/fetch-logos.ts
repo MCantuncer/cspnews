@@ -6,8 +6,11 @@
  *
  * Writes <output-directory>/<source-id>.<ext> and logos.json ({ id: file }). A source whose
  * logo can't be fetched is listed, and the site shows its name alone.
+ *
+ * Sources that already have a logo in logos.json are kept as they are, so a new source can be
+ * added without touching the logos that were checked before. `--refresh` fetches them all again.
  */
-import { appendFileSync, mkdirSync, writeFileSync } from 'node:fs';
+import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 import { findLogoUrl, logoExtension } from './logo.js';
@@ -17,7 +20,9 @@ const TIMEOUT_MS = 20_000;
 const HEADERS = { 'user-agent': 'Mozilla/5.0 (compatible; CSPNews logo fetcher)' };
 const MAX_BYTES = 512 * 1024;
 
-const outputDirectory = resolve(process.argv[2] ?? 'logos');
+const args = process.argv.slice(2);
+const refresh = args.includes('--refresh');
+const outputDirectory = resolve(args.find((arg) => !arg.startsWith('--')) ?? 'logos');
 mkdirSync(outputDirectory, { recursive: true });
 
 async function fetchLogo(homepage: string, override: string | undefined) {
@@ -44,9 +49,21 @@ async function fetchLogo(homepage: string, override: string | undefined) {
   return { url, bytes, extension: logoExtension(type, url) };
 }
 
+const manifestPath = join(outputDirectory, 'logos.json');
+const saved: Record<string, string> =
+  !refresh && existsSync(manifestPath)
+    ? (JSON.parse(readFileSync(manifestPath, 'utf8')) as Record<string, string>)
+    : {};
+
 const manifest: Record<string, string> = {};
 const rows: string[] = [];
 for (const source of SOURCES.filter((s) => s.enabled)) {
+  const kept = saved[source.id];
+  if (kept && existsSync(join(outputDirectory, kept))) {
+    manifest[source.id] = kept;
+    rows.push(`| ✅ | ${source.name} | kept ${kept} |`);
+    continue;
+  }
   try {
     const logo = await fetchLogo(source.homepage, source.logoUrl);
     const file = `${source.id}.${logo.extension}`;
@@ -59,7 +76,7 @@ for (const source of SOURCES.filter((s) => s.enabled)) {
     );
   }
 }
-writeFileSync(join(outputDirectory, 'logos.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 
 const found = Object.keys(manifest).length;
 const report = [

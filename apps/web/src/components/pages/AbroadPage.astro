@@ -11,12 +11,13 @@ import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
+import OutletLogo from '../ui/OutletLogo.astro';
 import Base from '../../layouts/Base.astro';
 import { KIND_ICON, abroadWords, initials, istanbulMoment, whenLine } from '../../lib/abroad';
 import { bulletinPath, type PublishedBulletin } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
-import { photoUrl } from '../../lib/media';
+import { outletLogoUrl, photoUrl } from '../../lib/media';
 import { sourceName } from '../../lib/sources';
 import { bulletinName, wordsFor } from '../../lib/i18n';
 
@@ -148,7 +149,11 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
       {
         sources.map((source) => (
           <li>
-            <a href={source.url} target="_blank" rel="noopener">{sourceName(source.sourceId)}</a>
+            <a href={source.url} target="_blank" rel="noopener">
+              <OutletLogo src={outletLogoUrl(source.sourceId)} />
+              {sourceName(source.sourceId)}
+              <Icon name="external" size={14} class="read-mark" />
+            </a>
           </li>
         ))
       }
@@ -429,9 +434,16 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
   }
 
   .sources a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     color: var(--ink);
     font: 600 16px / 1.3 var(--f-body);
     text-decoration: none;
+  }
+
+  .sources :global(.read-mark) {
+    color: var(--meta);
   }
 
   .sources a:hover {
