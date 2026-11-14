@@ -663,12 +663,6 @@
           "to": "confirmed"
         }
       ],
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
-        "sourceId": "bbc-world",
-        "sourceName": "BBC News World",
-        "articleUrl": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
-      },
       "sources": [
         {
           "sourceId": "hacker-news",
@@ -1190,13 +1184,7 @@
             "sourceId": "onedio",
             "url": "https://onedio.com/haber/kayip-esek-icin-herkes-seferber-oldu-dronelar-atlar-ve-arazi-araclariyla-ariyorlar-1395139"
           }
-        ],
-        "image": {
-          "url": "https://img-s3.onedio.com/id-6af8bb5348b7000837c415c5/rev-0/w-1200/h-675/f-jpg/s-b093a1da6e48c76f5d7d655995314538a55c1189.jpg",
-          "sourceId": "onedio",
-          "sourceName": "Onedio",
-          "articleUrl": "https://onedio.com/haber/kayip-esek-icin-herkes-seferber-oldu-dronelar-atlar-ve-arazi-araclariyla-ariyorlar-1395139"
-        }
+        ]
       }
     ],
     "rumours": []
@@ -1332,12 +1320,6 @@
           "url": "https://www.hurriyet.com.tr/sporarena/ispanyol-medyasi-arda-gulerin-yeni-maasini-duyurdu-43377996"
         }
       ],
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6af8226c3516f14679cc7dcc.jpg",
-        "sourceId": "hurriyet",
-        "sourceName": "Hürriyet",
-        "articleUrl": "https://www.hurriyet.com.tr/sporarena/ispanyol-medyasi-arda-gulerin-yeni-maasini-duyurdu-43377996"
-      },
       "updatedAt": "2026-11-15T00:50:00+03:00"
     }
   ]
