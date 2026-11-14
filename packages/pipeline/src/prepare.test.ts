@@ -155,6 +155,69 @@ describe('prepareBulletin', async () => {
   });
 });
 
+describe('prepareBulletin, Spotlight candidates', async () => {
+  const feeds: Record<string, string> = {
+    'https://aa.example/rss': rss([
+      [
+        'Microsoft 365 hizmetlerinde küresel kesinti',
+        'https://aa.example/kesinti',
+        '2026-11-11T08:00:00Z',
+      ],
+    ]),
+    'https://magazin.example/rss': rss([
+      [
+        'Microsoft 365 hizmetlerinde küresel kesinti yaşanıyor',
+        'https://magazin.example/kesinti',
+        '2026-11-11T08:10:00Z',
+      ],
+      [
+        'Ünlü oyuncu ile futbolcu aşk iddialarını doğruladı',
+        'https://magazin.example/ask',
+        '2026-11-11T07:00:00Z',
+      ],
+      [
+        'Teknik direktörün kolundaki saat servet değerinde',
+        'https://magazin.example/saat',
+        '2026-11-11T07:20:00Z',
+      ],
+      [
+        'Ünlü şarkıcı trafik kazasında yaralandı',
+        'https://magazin.example/kaza',
+        '2026-11-11T06:40:00Z',
+      ],
+      [
+        'Comedian investigated by police over allegations',
+        'https://magazin.example/police',
+        '2026-11-11T06:20:00Z',
+      ],
+    ]),
+  };
+  const file = await prepareBulletin({
+    sources: SOURCES,
+    bulletin: MIDDAY,
+    fetchText: (url) => {
+      const body = feeds[url];
+      return body ? Promise.resolve(body) : Promise.reject(new Error('HTTP 503'));
+    },
+    now: new Date('2026-11-11T09:00:00Z'),
+  });
+  const light = file.desks.light.map((c) => c.articles[0]?.url);
+
+  it('leaves out stories the news outlets also carry', () => {
+    expect(file.sections.turkey.length).toBeGreaterThan(0);
+    expect(light).not.toContain('https://magazin.example/kesinti');
+  });
+
+  it('leaves out accidents, crime and other heavy topics', () => {
+    expect(light).not.toContain('https://magazin.example/kaza');
+    expect(light).not.toContain('https://magazin.example/police');
+  });
+
+  it('keeps the magazine stories', () => {
+    expect(light.sort()).toEqual(['https://magazin.example/ask', 'https://magazin.example/saat']);
+  });
+});
+
 describe('bulletinKey', () => {
   it('uses the Istanbul date', () => {
     const late = bulletinsOn({ year: 2026, month: 11, day: 11 }).find((b) => b.slot.id === 'late');

@@ -4,8 +4,8 @@ The bulletin's light close, called **Spotlight** in English and **Magazin** in T
 
 It holds two kinds of item, at most four in all (`AndFinallySchema` in `packages/core/src/extras.ts`):
 
-- **Light stories.** True, light news: celebrities and television, odd records, animals, small local wonders. Each one is told straight (the headline and a one-sentence gist carry no joke), keeps an evidence mark (only Confirmed or Reported) and names its sources, then gets **one line of wit in our own voice**, set apart by a 2px rule in the edition hour colour so the reader always knows which part is the joke.
-- **Backstage talk** (Kulis). Rumours we could not confirm, under their own small heading with "Not confirmed. We name who is saying it." Each one has the dashed evidence glyph (`rumour`) and "Heard from" the outlet that is saying it. Football transfer rumours go to [Transfers](transfers.md), not here.
+- **Light stories.** Real magazine news: specific stories about a named public person with one eye-catching detail (a romance confirmed, a fortune-priced watch, a red-carpet moment, a public spat), plus odd records and animals. Not industry news such as broadcast deals, ratings or cast changes (Can, 2026-11-14: "specific news and attractive"). Better two good items than four dull ones. Each one is told straight (the headline and a one-sentence gist carry no joke), keeps an evidence mark (only Confirmed or Reported) and names its sources, then gets **one line of wit in our own voice**, set apart by a 2px rule in the edition hour colour so the reader always knows which part is the joke.
+- **Backstage talk** (Kulis). Magazine rumours we could not confirm (who is said to be dating whom, a rumoured feud), never about health, pregnancy, cheating, courts, children or private people, under their own small heading with "Not confirmed. We name who is saying it." Each one has the dashed evidence glyph (`rumour`) and "Heard from" the outlet that is saying it. Football transfer rumours go to [Transfers](transfers.md), not here.
 
 ## Badges and pictures
 
@@ -23,7 +23,7 @@ A light close must never look like homework, so every item leads with a picture,
 The wit is weighed, not free:
 
 - One line per light story, at most 140 characters. The headline and the facts never joke.
-- Joke about the situation, never about a person's looks, body, age, accent or private life, and never about a private person at all.
+- Joke about the situation, never about a person's looks, body, age, accent, health or family, and never about a private person at all.
 - Never about death, illness, crime victims, children, disasters, war or anything a reader could be hurt by. Stories like these never go into Spotlight, however odd they are.
 - Dry beats loud: understatement, not exclamation marks, puns only when they are good, no emoji.
 - Both languages get their own joke, written for that language, not a translated one.
