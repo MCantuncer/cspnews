@@ -181,12 +181,37 @@ export interface DeskCandidateOptions {
 const HEAVY_TOPIC = new RegExp(
   [
     // Turkish, matched at the start of a word: "öldü", "ölümü", "tutuklandı", "kazada"…
-    String.raw`(?<!\p{L})(?:öl(?:dü|üm|en|ü[mn]|mü)|hayatını kaybet|cinayet|intihar|tecavüz|taciz|istismar|cinsel|tutukla|gözaltı|soruşturma|mahkeme|hapis|deprem|yangın|kaza(?![nk])|savaş|saldırı|kanser|yoğun bakım)`,
+    String.raw`(?<!\p{L})(?:öl(?:dü|üm|en|ü[mn]|mü)|cinayet|intihar|tecavüz|taciz|istismar|cinsel|tutukla|gözaltı|soruşturma|mahkeme|hapis|deprem|yangın|kaza(?![nk])|savaş|saldırı|kanser|hastane|yoğun bakım|vefat|yaşamını yitir|hayatını kaybet)`,
     // English, whole words.
     String.raw`(?<!\p{L})(?:died|dies|dead|death|killed|murder|suicide|sexual|abuse|assault|arrest(?:ed)?|charged|police|court|trial|jail|prison|war|attack|cancer)(?!\p{L})`,
   ].join('|'),
   'iu',
 );
+
+/** Most Spotlight candidates from one outlet, so one busy feed cannot fill the desk. */
+const PER_LIGHT_OUTLET = 4;
+
+/**
+ * Like `ranked`, but takes at most `perOutlet` stories first told by the same outlet. Magazine
+ * stories are mostly single-outlet and score alike, so plain ranking comes down to recency, and a
+ * feed that posts a batch of features at once (Hürriyet Kelebek) used to push the magazine pages
+ * out of the desk.
+ */
+function rankedAcrossOutlets(
+  candidates: readonly Candidate[],
+  limit: number,
+  perOutlet: number,
+): Candidate[] {
+  const taken = new Map<string, number>();
+  return ranked(candidates, candidates.length)
+    .filter((candidate) => {
+      const outlet = candidate.articles[0]?.sourceId ?? '';
+      const count = taken.get(outlet) ?? 0;
+      taken.set(outlet, count + 1);
+      return count < perOutlet;
+    })
+    .slice(0, limit);
+}
 
 function isHeavy(story: Story): boolean {
   return story.articles.some(({ article }) => HEAVY_TOPIC.test(article.title));
@@ -205,7 +230,7 @@ function isHeavy(story: Story): boolean {
 export function toDeskCandidates(
   stories: readonly Story[],
   sources: ReadonlyMap<string, Source>,
-  { now, perDesk = 12, perLightDesk = 24 }: DeskCandidateOptions,
+  { now, perDesk = 12, perLightDesk = 32 }: DeskCandidateOptions,
 ): Record<Desk, Candidate[]> {
   const desks: Record<Desk, Candidate[]> = { light: [], transfers: [] };
 
@@ -224,7 +249,10 @@ export function toDeskCandidates(
   }
 
   for (const desk of Object.keys(desks) as Desk[]) {
-    desks[desk] = ranked(desks[desk], desk === 'light' ? perLightDesk : perDesk);
+    desks[desk] =
+      desk === 'light'
+        ? rankedAcrossOutlets(desks[desk], perLightDesk, PER_LIGHT_OUTLET)
+        : ranked(desks[desk], perDesk);
   }
   return desks;
 }
