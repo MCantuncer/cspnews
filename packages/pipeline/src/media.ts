@@ -1,4 +1,4 @@
-import { mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import type { Bulletin } from '@cspnews/core';
@@ -116,6 +116,11 @@ export async function saveStoryPhotos(
           : undefined;
       const photo = better ?? feedPhoto;
       const finalWidth = better ? photoWidth(better.bytes) : width;
+      const kept = widerSavedCopy(mediaDirectory, story.id, finalWidth);
+      if (kept) {
+        results.push({ storyId: story.id, file: kept });
+        continue;
+      }
       if (finalWidth !== undefined && finalWidth < SMALLEST_PHOTO_WIDTH) {
         throw new Error(`only a ${String(finalWidth)}px thumbnail`);
       }
@@ -133,6 +138,24 @@ export async function saveStoryPhotos(
     }
   }
   return results;
+}
+
+/**
+ * Some image servers hand back a smaller copy of the same photo on a later download. When the
+ * new one is a thumbnail (under MIN_PHOTO_WIDTH) and an earlier run already saved a wider copy,
+ * that copy is kept. A new photo at full width always replaces the old one.
+ */
+function widerSavedCopy(
+  directory: string,
+  storyId: string,
+  width: number | undefined,
+): string | undefined {
+  if (width === undefined || width >= MIN_PHOTO_WIDTH) return undefined;
+  return readdirSync(directory).find(
+    (file) =>
+      file.slice(0, file.lastIndexOf('.')) === storyId &&
+      (photoWidth(readFileSync(join(directory, file))) ?? 0) > width,
+  );
 }
 
 function removeOlderCopies(directory: string, storyId: string): void {
