@@ -170,16 +170,42 @@ export interface DeskCandidateOptions {
   readonly now: Date;
   /** Most stories kept per desk. */
   readonly perDesk?: number;
+  /** Most stories kept for Spotlight, where one-outlet stories are the norm. */
+  readonly perLightDesk?: number;
+}
+
+/**
+ * Topics that never belong in Spotlight (Magazin), however many outlets ran them: death, crime,
+ * courts, disasters, war, illness. Matched against article titles, in Turkish and English.
+ */
+const HEAVY_TOPIC = new RegExp(
+  [
+    // Turkish, matched at the start of a word: "öldü", "ölümü", "tutuklandı", "kazada"…
+    String.raw`(?<!\p{L})(?:öl(?:dü|üm|en|ü[mn]|mü)|hayatını kaybet|cinayet|intihar|tecavüz|taciz|istismar|cinsel|tutukla|gözaltı|soruşturma|mahkeme|hapis|deprem|yangın|kaza(?![nk])|savaş|saldırı|kanser|yoğun bakım)`,
+    // English, whole words.
+    String.raw`(?<!\p{L})(?:died|dies|dead|death|killed|murder|suicide|sexual|abuse|assault|arrest(?:ed)?|charged|police|court|trial|jail|prison|war|attack|cancer)(?!\p{L})`,
+  ].join('|'),
+  'iu',
+);
+
+function isHeavy(story: Story): boolean {
+  return story.articles.some(({ article }) => HEAVY_TOPIC.test(article.title));
 }
 
 /**
  * Candidates for each desk: a story goes to a desk when any of its articles came from a source
- * that feeds that desk. A story can also be in a news section when other outlets covered it.
+ * that feeds that desk.
+ *
+ * Spotlight (the light desk) only gets stories that the news outlets did not cover: a story the
+ * news sections also carry (an outage, an accident, a club statement) is news, not magazine,
+ * even when a light outlet ran it too. Heavy topics are left out as well. Coverage counts for
+ * little in magazine news, which is often told by one outlet, so the desk keeps more of them for
+ * the writer to choose from, newest first among equals.
  */
 export function toDeskCandidates(
   stories: readonly Story[],
   sources: ReadonlyMap<string, Source>,
-  { now, perDesk = 12 }: DeskCandidateOptions,
+  { now, perDesk = 12, perLightDesk = 24 }: DeskCandidateOptions,
 ): Record<Desk, Candidate[]> {
   const desks: Record<Desk, Candidate[]> = { light: [], transfers: [] };
 
@@ -187,6 +213,9 @@ export function toDeskCandidates(
     const storyDesks = new Set(
       story.articles.flatMap(({ article }) => sources.get(article.sourceId)?.desks ?? []),
     );
+    if (storyDesks.has('light') && (story.sections.length > 0 || isHeavy(story))) {
+      storyDesks.delete('light');
+    }
     if (storyDesks.size === 0) continue;
     const candidate = candidateFor(story, sources, now);
     for (const desk of storyDesks) {
@@ -195,7 +224,7 @@ export function toDeskCandidates(
   }
 
   for (const desk of Object.keys(desks) as Desk[]) {
-    desks[desk] = ranked(desks[desk], perDesk);
+    desks[desk] = ranked(desks[desk], desk === 'light' ? perLightDesk : perDesk);
   }
   return desks;
 }
