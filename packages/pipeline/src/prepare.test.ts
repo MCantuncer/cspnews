@@ -262,8 +262,7 @@ describe('prepareBulletin, Turks abroad candidates', async () => {
       id: 'alperen-sengun',
       name: 'Alperen Şengün',
       aliases: ['Alperen Sengun', 'Şengün'],
-      field: 'sport',
-      what: 'basketball',
+      kind: 'basketball',
     },
   ]);
   const sources = defineSources([
@@ -282,12 +281,18 @@ describe('prepareBulletin, Turks abroad candidates', async () => {
     'https://haber.example/rss': rss([
       ['ŞENGÜN’DEN 28 SAYI', 'https://haber.example/sengun', '2026-11-11T06:00:00Z'],
       ['Belediye meclisi toplandı', 'https://haber.example/meclis', '2026-11-11T06:30:00Z'],
+      [
+        'Türk bilim insanına Avrupa’dan genç araştırmacı ödülü',
+        'https://haber.example/odul',
+        '2026-11-11T07:00:00Z',
+      ],
     ]),
   };
   const file = await prepareBulletin({
     sources,
     bulletin: MIDDAY,
     people,
+    phrases: ['Türk bilim insan'],
     fetchText: (url) => Promise.resolve(feeds[url] ?? rss([])),
     now: new Date('2026-11-11T09:00:00Z'),
   });
@@ -300,7 +305,14 @@ describe('prepareBulletin, Turks abroad candidates', async () => {
     expect(urls).not.toContain('https://haber.example/meclis');
   });
 
+  it('also takes stories with a phrase that points at a Turk abroad', () => {
+    expect(urls).toContain('https://haber.example/odul');
+  });
+
   it('says who each candidate names', () => {
-    expect(file.desks.abroad.every((c) => c.people?.includes('alperen-sengun'))).toBe(true);
+    const sengun = file.desks.abroad.filter((c) =>
+      c.articles.some((a) => a.url.includes('sengun')),
+    );
+    expect(sengun.every((c) => c.people?.includes('alperen-sengun'))).toBe(true);
   });
 });

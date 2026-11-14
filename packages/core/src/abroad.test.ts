@@ -5,6 +5,7 @@ import {
   abroadIn,
   definePeople,
   foldName,
+  mentionsTurkAbroad,
   peopleNamedIn,
   type AbroadItem,
 } from './abroad.js';
@@ -16,7 +17,7 @@ const without = <T extends object>(value: T, key: keyof T) =>
 const ITEM: AbroadItem = {
   id: 'abroad-sengun-lakers',
   person: 'Alperen Şengün',
-  field: 'sport',
+  kind: 'basketball',
   label: 'confirmed',
   versions: {
     en: {
@@ -39,6 +40,15 @@ const ITEM: AbroadItem = {
   score: 'Rockets 118, Lakers 109',
   playedAt: '2026-11-14T01:30:00Z',
   nextAt: '2026-11-16T02:00:00Z',
+  stats: {
+    sport: 'basketball',
+    minutes: 34,
+    points: 28,
+    rebounds: 12,
+    assists: 7,
+    fieldGoals: { made: 11, tried: 18 },
+    plusMinus: 14,
+  },
   form: [
     { result: 'win', value: '19' },
     { result: 'loss', value: '22' },
@@ -74,6 +84,26 @@ describe('Turks abroad items', () => {
     expect(AbroadItemSchema.safeParse({ ...ITEM, label: 'single-source' }).success).toBe(false);
   });
 
+  it('takes only a stat line for the person’s own sport', () => {
+    const football = { sport: 'football', goals: 1, assists: 0 };
+    expect(AbroadItemSchema.safeParse({ ...ITEM, stats: football }).success).toBe(false);
+  });
+
+  it('refuses more shots made than tried', () => {
+    const stats = { ...ITEM.stats, fieldGoals: { made: 19, tried: 18 } };
+    expect(AbroadItemSchema.safeParse({ ...ITEM, stats }).success).toBe(false);
+  });
+
+  it('gives a milestone both its type and its name', () => {
+    const scientist = {
+      ...ITEM,
+      kind: 'science',
+      stats: undefined,
+      milestone: 'award',
+    };
+    expect(AbroadItemSchema.safeParse(scientist).success).toBe(false);
+  });
+
   it('reads in one language', () => {
     expect(abroadIn(ITEM, 'tr').next).toBe('Denver deplasmanında');
     expect(abroadIn(ITEM, 'en').person).toBe('Alperen Şengün');
@@ -86,15 +116,13 @@ describe('the watch list', () => {
       id: 'alperen-sengun',
       name: 'Alperen Şengün',
       aliases: ['Alperen Sengun', 'Şengün'],
-      field: 'sport',
-      what: 'basketball',
+      kind: 'basketball',
     },
     {
       id: 'arda-guler',
       name: 'Arda Güler',
       aliases: ['Arda Guler'],
-      field: 'sport',
-      what: 'football',
+      kind: 'football',
     },
   ]);
 
@@ -112,11 +140,17 @@ describe('the watch list', () => {
     expect(named('Sengunova wins')).toEqual([]);
   });
 
+  it('finds the phrases that point at a Turk abroad, from the start of a word', () => {
+    expect(mentionsTurkAbroad('TÜRK BİLİM İNSANINA ÖDÜL', ['Türk bilim insan'])).toBe(true);
+    expect(mentionsTurkAbroad('A Turkish-born engineer at NASA', ['Turkish-born'])).toBe(true);
+    expect(mentionsTurkAbroad('Turkish markets close higher', ['Turkish-born'])).toBe(false);
+  });
+
   it('refuses a repeated id', () => {
     expect(() =>
       definePeople([
-        { id: 'a', name: 'A B', field: 'sport', what: 'x' },
-        { id: 'a', name: 'C D', field: 'sport', what: 'x' },
+        { id: 'a', name: 'A B', kind: 'science' },
+        { id: 'a', name: 'C D', kind: 'science' },
       ]),
     ).toThrow();
   });

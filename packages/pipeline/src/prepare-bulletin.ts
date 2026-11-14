@@ -10,7 +10,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 import { httpFetchText } from '@cspnews/collector';
-import { ABROAD_PEOPLE, SOURCES } from '@cspnews/config';
+import { ABROAD_PEOPLE, ABROAD_PHRASES, SOURCES } from '@cspnews/config';
 import { nextBulletin } from '@cspnews/core';
 
 import { bulletinKey, prepareBulletin } from './prepare.js';
@@ -22,6 +22,7 @@ const bulletin = nextBulletin(now);
 const candidates = await prepareBulletin({
   sources: SOURCES,
   people: ABROAD_PEOPLE,
+  phrases: ABROAD_PHRASES,
   bulletin,
   fetchText: httpFetchText(20_000),
   now,

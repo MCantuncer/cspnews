@@ -1,4 +1,5 @@
 import {
+  mentionsTurkAbroad,
   peopleNamedIn,
   type AbroadPerson,
   type Camp,
@@ -186,6 +187,8 @@ export interface DeskCandidateOptions {
   readonly perLightDesk?: number;
   /** The people the abroad desk watches for (packages/config/src/abroad.ts). */
   readonly people?: readonly AbroadPerson[];
+  /** Phrases that point at a Turkish person abroad who is not on the list. */
+  readonly phrases?: readonly string[];
 }
 
 /**
@@ -244,7 +247,7 @@ function isHeavy(story: Story): boolean {
 export function toDeskCandidates(
   stories: readonly Story[],
   sources: ReadonlyMap<string, Source>,
-  { now, perDesk = 12, perLightDesk = 32, people = [] }: DeskCandidateOptions,
+  { now, perDesk = 12, perLightDesk = 32, people = [], phrases = [] }: DeskCandidateOptions,
 ): Record<Desk, Candidate[]> {
   const desks: Record<Desk, Candidate[]> = { light: [], transfers: [], abroad: [] };
 
@@ -255,14 +258,14 @@ export function toDeskCandidates(
     if (storyDesks.has('light') && (story.sections.length > 0 || isHeavy(story))) {
       storyDesks.delete('light');
     }
-    // Turks abroad is about people, not outlets: any story that names someone on the list, and
-    // only those, whichever source ran it.
-    const named = peopleNamedIn(
-      story.articles.map(({ article }) => `${article.title}\n${article.summary}`).join('\n'),
-      people,
-    );
+    // Turks abroad is about people, not outlets: any story that names someone on the list or uses
+    // a phrase that points at a Turk abroad, and only those, whichever source ran it.
+    const told = story.articles
+      .map(({ article }) => `${article.title}\n${article.summary}`)
+      .join('\n');
+    const named = peopleNamedIn(told, people);
     storyDesks.delete('abroad');
-    if (named.length > 0) storyDesks.add('abroad');
+    if (named.length > 0 || mentionsTurkAbroad(told, phrases)) storyDesks.add('abroad');
     if (storyDesks.size === 0) continue;
     const candidate = candidateFor(story, sources, now);
     for (const desk of storyDesks) {

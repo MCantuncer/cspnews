@@ -6,12 +6,13 @@
  */
 import { abroadIn, type AbroadItem } from '@cspnews/core';
 
+import AbroadStats from '../abroad/AbroadStats.astro';
 import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
 import Base from '../../layouts/Base.astro';
-import { abroadWords, initials, istanbulMoment, whenLine } from '../../lib/abroad';
+import { KIND_ICON, abroadWords, initials, istanbulMoment, whenLine } from '../../lib/abroad';
 import { bulletinPath, type PublishedBulletin } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
@@ -32,7 +33,9 @@ const text = abroadWords(lang);
 const name = bulletinName(published.slot, lang);
 const bulletinAt = published.bulletin.publishAt;
 const photo = item.image ? photoUrl(item.id) : undefined;
-const played = item.playedAt ? whenLine({ playedAt: item.playedAt }, bulletinAt, lang) : undefined;
+const played = item.playedAt
+  ? whenLine({ playedAt: item.playedAt, kind: item.kind }, bulletinAt, lang)
+  : undefined;
 const sources = [...new Map(item.sources.map((source) => [source.sourceId, source])).values()];
 ---
 
@@ -58,11 +61,16 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
     <div class="who">
       <span class="face" aria-hidden="true">
         {photo ? <img src={photo} alt="" decoding="async" /> : initials(item.person)}
+        <span class="badge"><Icon name={KIND_ICON[item.kind]} size={16} /></span>
       </span>
       <span class="who-text">
-        <span class="kicker">{text.abroad}</span>
+        <span class="kicker">{text.abroad}, {text.kinds[item.kind]}</span>
         <span class="name">{item.person}</span>
-        <span class="where">{item.where}</span>
+        <span class="where">
+          {item.where}
+          {item.age !== undefined && <span>{text.age(item.age)}</span>}
+        </span>
+        {item.rising && <span class="rising">{text.rising}</span>}
       </span>
     </div>
 
@@ -79,11 +87,15 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
     }
 
     {
-      item.score && (
-        <p class="game">
-          <b>{item.score}</b>
-          {played && <span>{played}</span>}
-        </p>
+      item.stats || item.milestone ? (
+        <AbroadStats item={item} bulletinAt={bulletinAt} lang={lang} />
+      ) : (
+        item.score && (
+          <p class="game">
+            <b>{item.score}</b>
+            {played && <span>{played}</span>}
+          </p>
+        )
       )
     }
 
@@ -169,12 +181,12 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
   }
 
   .face {
+    position: relative;
     display: grid;
     flex: none;
     place-items: center;
     width: 72px;
     height: 72px;
-    overflow: hidden;
     border-radius: 50%;
     background: color-mix(in srgb, var(--sec) 16%, var(--bg));
     color: var(--sec);
@@ -184,7 +196,23 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
   .face img {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
     object-fit: cover;
+  }
+
+  /* The sport or field, as a small station on the edge of the face. */
+  .badge {
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid var(--sec);
+    border-radius: 50%;
+    background: var(--bg);
+    color: var(--sec);
   }
 
   .who-text {
@@ -204,8 +232,16 @@ const sources = [...new Map(item.sources.map((source) => [source.sourceId, sourc
   }
 
   .where {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 10px;
     color: var(--meta);
     font: 400 15px / 1.3 var(--f-body);
+  }
+
+  .rising {
+    color: var(--sec);
+    font: 600 14px / 1.3 var(--f-body);
   }
 
   h1 {
