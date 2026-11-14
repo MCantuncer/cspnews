@@ -556,22 +556,6 @@ export const SOURCES = defineSources([
     tier: 'established',
   },
 
-  // ── Turks abroad: leagues where Turkish players play ──────────────────────
-  // The abroad desk keeps only stories that name someone it watches (abroad.ts).
-  {
-    id: 'espn-nba',
-    name: 'ESPN',
-    homepage: 'https://www.espn.com/nba/',
-    kind: 'rss',
-    url: 'https://www.espn.com/espn/rss/nba/news',
-    sections: [],
-    desks: ['abroad'],
-    language: 'en',
-    ownerGroup: 'disney',
-    camp: 'international',
-    tier: 'established',
-  },
-
   // ── And finally: light news, celebrities and television ───────────────────
   // Light desks only: these never feed a news section.
   {
