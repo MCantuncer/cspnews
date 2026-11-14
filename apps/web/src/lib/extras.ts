@@ -64,6 +64,15 @@ export function transferPath(
   return `${bulletinPath(published, lang)}/transfers/${encodeURIComponent(move.id)}`;
 }
 
+/** The URL of a Spotlight story's own page: `/2026-11-14/late/spotlight/<story id>`. */
+export function spotlightPath(
+  published: PublishedBulletin,
+  story: { id: string },
+  lang: InterfaceLanguage = 'en',
+): string {
+  return `${bulletinPath(published, lang)}/spotlight/${encodeURIComponent(story.id)}`;
+}
+
 /** Outlets that report a move, each once at the furthest stage it reported, strongest first. */
 export function transferReporters(move: LocalTransferMove) {
   const furthest = new Map<string, LocalTransferMove['reports'][number]>();
@@ -113,6 +122,8 @@ const WORDS = {
       town: 'Around town',
     },
     rumour: 'Rumour',
+    readAt: 'Where we read it',
+    readAtNote: 'We wrote this from these outlets. The facts are theirs; the joke is ours.',
     lightSetting: 'Spotlight',
     lightHint: 'Screen, music, people and odd news at the end of each bulletin.',
     leagues: {
@@ -151,6 +162,8 @@ const WORDS = {
       town: 'Şehirden',
     },
     rumour: 'Söylenti',
+    readAt: 'Nereden okuduk',
+    readAtNote: 'Bu haberi bu kaynaklardan yazdık. Bilgiler onların, espri bizim.',
     lightSetting: 'Magazin',
     lightHint: 'Her bültenin sonunda ekran, müzik, ünlüler ve ilginç haberler.',
     leagues: {

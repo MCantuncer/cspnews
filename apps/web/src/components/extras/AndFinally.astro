@@ -18,6 +18,7 @@ import {
   andFinallyIn,
   extrasWords,
   kindWord,
+  spotlightPath,
 } from '../../lib/extras';
 import { wordsFor } from '../../lib/i18n';
 import { logosFor, photoUrl } from '../../lib/media';
@@ -86,9 +87,8 @@ const light = (close?.light ?? []).map((story) => ({
                   <div class="text">
                     <p class="kind">{kindWord(story.kind, lang)}</p>
                     <h3>
-                      <a class="read" href={story.sources[0]?.url} target="_blank" rel="noopener">
+                      <a class="read" href={spotlightPath(published, story, lang)}>
                         {story.title}
-                        <Icon name="external" size={16} class="read-mark" />
                       </a>
                     </h3>
                     <p class="gist">{story.gist}</p>

@@ -43,6 +43,12 @@ export const LightVersionSchema = z
     gist: text(180),
     /** The one line of wit, about the situation and never about a person's looks or private life. */
     aside: text(140),
+    /**
+     * The story on its own page, in two to four short paragraphs written by us from the
+     * sources: the jaw-dropping fact first, then who, how it came out and what each outlet
+     * says, each claim attributed. Optional only so older bulletins still read.
+     */
+    story: z.array(text(600)).min(2).max(4).optional(),
   })
   .strict();
 
@@ -56,7 +62,11 @@ export const LightStorySchema = z
     /** The outlet photo, when one of the sources had a real news photo; saved like a story's. */
     image: StoryImageSchema.optional(),
   })
-  .strict();
+  .strict()
+  .refine(
+    (story) => (story.versions.en.story?.length ?? 0) === (story.versions.tr.story?.length ?? 0),
+    { message: 'Both versions need the same number of story paragraphs', path: ['versions'] },
+  );
 
 /** Talk we could not confirm, with the outlet that is saying it. */
 export const RumourSchema = z

@@ -29,6 +29,15 @@ export function transferRoutes() {
   );
 }
 
+export function spotlightRoutes() {
+  return loadBulletins().flatMap((published) =>
+    (published.bulletin.andFinally?.light ?? []).map((story) => ({
+      params: { date: published.date, slot: published.slot, light: story.id },
+      props: { published, story },
+    })),
+  );
+}
+
 export function abroadRoutes() {
   return loadBulletins().flatMap((published) =>
     (published.bulletin.abroad ?? []).map((item) => ({

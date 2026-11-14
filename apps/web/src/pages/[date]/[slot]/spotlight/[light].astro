@@ -1,0 +1,19 @@
+---
+/** One Spotlight story on its own page. */
+import type { LightStory } from '@cspnews/core';
+
+import SpotlightPage from '../../../../components/pages/SpotlightPage.astro';
+import type { PublishedBulletin } from '../../../../lib/bulletins';
+import { spotlightRoutes } from '../../../../lib/routes';
+
+export const getStaticPaths = spotlightRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+  story: LightStory;
+}
+
+const { published, story } = Astro.props;
+---
+
+<SpotlightPage published={published} story={story} lang="en" />
