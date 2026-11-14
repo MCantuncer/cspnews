@@ -39,13 +39,12 @@ const badges = close
     ]
   : [];
 const logoOf = (sourceId: string) => logosFor([sourceId], 1)[0];
-// The outlet photo, when the run saved one: the first light story with a photo leads with it
-// across the column, the others show it small beside the title.
+// The outlet photo, when the run saved one, shows as a small square thumbnail beside the text:
+// enough to pull the eye without turning the close into a gallery.
 const light = (close?.light ?? []).map((story) => ({
   story,
   photo: story.image ? photoUrl(story.id) : undefined,
 }));
-const leadId = light.find((item) => item.photo)?.story.id;
 ---
 
 {
@@ -78,16 +77,13 @@ const leadId = light.find((item) => item.photo)?.story.id;
             <ul class="items">
               {light.map(({ story, photo }) => (
                 <li
-                  class:list={['item', { lead: story.id === leadId, thumbed: photo && story.id !== leadId }]}
+                  class:list={['item', { thumbed: photo }]}
                   lang={story.language}
                 >
                   <span class="badge" aria-hidden="true">
                     <Icon name={LIGHT_KIND_ICON[story.kind]} size={22} />
                   </span>
                   <div class="text">
-                    {photo && story.id === leadId && (
-                      <img class="photo" src={photo} alt="" loading="lazy" decoding="async" />
-                    )}
                     <p class="kind">{kindWord(story.kind, lang)}</p>
                     <h3>
                       <a class="read" href={story.sources[0]?.url} target="_blank" rel="noopener">
@@ -113,7 +109,7 @@ const leadId = light.find((item) => item.photo)?.story.id;
                       <p class="credit">{`${wordsFor(lang).photo}: ${story.image.sourceName}`}</p>
                     )}
                   </div>
-                  {photo && story.id !== leadId && (
+                  {photo && (
                     <img class="thumb" src={photo} alt="" loading="lazy" decoding="async" />
                   )}
                 </li>
@@ -350,31 +346,47 @@ const leadId = light.find((item) => item.photo)?.story.id;
   }
 
   .item.thumbed {
-    grid-template-columns: 44px minmax(0, 1fr) 72px;
+    grid-template-columns: 44px minmax(0, 1fr) 88px;
   }
 
   .text {
     min-width: 0;
   }
 
-  /* A real photo is the strongest pull to read: the lead one runs across the column. */
-  .photo {
-    display: block;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    margin-bottom: 12px;
-    border-radius: 10px;
+  .thumb {
+    width: 88px;
+    height: 88px;
+    margin-top: 20px;
+    border-radius: 12px;
     background: var(--surf);
     object-fit: cover;
   }
 
-  .thumb {
-    width: 72px;
-    height: 72px;
-    margin-top: 18px;
-    border-radius: 8px;
-    background: var(--surf);
-    object-fit: cover;
+  /* On a phone the photo takes the badge's place, so the text keeps its width. */
+  @media (width < 760px) {
+    .item.thumbed {
+      grid-template-columns: 64px minmax(0, 1fr);
+    }
+
+    .item.thumbed .badge {
+      display: none;
+    }
+
+    .item.thumbed .thumb {
+      grid-row: 1;
+      grid-column: 1;
+      width: 64px;
+      height: 64px;
+      margin-top: 2px;
+    }
+
+    .item.thumbed .text {
+      grid-column: 2;
+    }
+
+    .item + .item.thumbed::before {
+      left: 31px;
+    }
   }
 
   .credit {
