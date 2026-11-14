@@ -1,4 +1,4 @@
-import { bulletinsOn, defineSources } from '@cspnews/core';
+import { bulletinsOn, definePeople, defineSources } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
 import { bulletinKey, prepareBulletin } from './prepare.js';
@@ -253,5 +253,66 @@ describe('bulletinKey', () => {
     const late = bulletinsOn({ year: 2026, month: 11, day: 11 }).find((b) => b.slot.id === 'late');
     expect(late && bulletinKey(late)).toBe('2026-11-11-late');
     expect(bulletinKey(MIDDAY)).toBe('2026-11-11-midday');
+  });
+});
+
+describe('prepareBulletin, Turks abroad candidates', async () => {
+  const people = definePeople([
+    {
+      id: 'alperen-sengun',
+      name: 'Alperen Şengün',
+      aliases: ['Alperen Sengun', 'Şengün'],
+      kind: 'basketball',
+    },
+  ]);
+  const sources = defineSources([
+    { ...source('nba', 'nba', 'international'), sections: [], desks: ['abroad' as const] },
+    { ...source('haber', 'haber', 'opposition'), sections: ['turkey' as const] },
+  ]);
+  const feeds: Record<string, string> = {
+    'https://nba.example/rss': rss([
+      [
+        'Sengun scores 28 as Rockets beat Lakers',
+        'https://nba.example/rockets',
+        '2026-11-11T05:00:00Z',
+      ],
+      ['Celtics win in overtime', 'https://nba.example/celtics', '2026-11-11T04:00:00Z'],
+    ]),
+    'https://haber.example/rss': rss([
+      ['ŞENGÜN’DEN 28 SAYI', 'https://haber.example/sengun', '2026-11-11T06:00:00Z'],
+      ['Belediye meclisi toplandı', 'https://haber.example/meclis', '2026-11-11T06:30:00Z'],
+      [
+        'Türk bilim insanına Avrupa’dan genç araştırmacı ödülü',
+        'https://haber.example/odul',
+        '2026-11-11T07:00:00Z',
+      ],
+    ]),
+  };
+  const file = await prepareBulletin({
+    sources,
+    bulletin: MIDDAY,
+    people,
+    phrases: ['Türk bilim insan'],
+    fetchText: (url) => Promise.resolve(feeds[url] ?? rss([])),
+    now: new Date('2026-11-11T09:00:00Z'),
+  });
+  const urls = file.desks.abroad.flatMap((c) => c.articles.map((a) => a.url));
+
+  it('takes only stories that name someone it watches, from any source', () => {
+    expect(urls).toContain('https://nba.example/rockets');
+    expect(urls).toContain('https://haber.example/sengun');
+    expect(urls).not.toContain('https://nba.example/celtics');
+    expect(urls).not.toContain('https://haber.example/meclis');
+  });
+
+  it('also takes stories with a phrase that points at a Turk abroad', () => {
+    expect(urls).toContain('https://haber.example/odul');
+  });
+
+  it('says who each candidate names', () => {
+    const sengun = file.desks.abroad.filter((c) =>
+      c.articles.some((a) => a.url.includes('sengun')),
+    );
+    expect(sengun.every((c) => c.people?.includes('alperen-sengun'))).toBe(true);
   });
 });

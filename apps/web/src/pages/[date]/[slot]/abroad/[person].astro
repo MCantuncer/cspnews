@@ -1,0 +1,19 @@
+---
+/** One person in Turks abroad. */
+import type { AbroadItem } from '@cspnews/core';
+
+import AbroadPage from '../../../../components/pages/AbroadPage.astro';
+import type { PublishedBulletin } from '../../../../lib/bulletins';
+import { abroadRoutes } from '../../../../lib/routes';
+
+export const getStaticPaths = abroadRoutes;
+
+interface Props {
+  published: PublishedBulletin;
+  item: AbroadItem;
+}
+
+const { published, item } = Astro.props;
+---
+
+<AbroadPage published={published} item={item} lang="en" />

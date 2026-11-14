@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+import { ABROAD_MAX, AbroadItemSchema } from './abroad.js';
 import { AndFinallySchema, TRANSFERS_MAX, TransferMoveSchema } from './extras.js';
 import { StoryImageSchema } from './image.js';
 import { LANGUAGES, type Language } from './language.js';
@@ -333,6 +334,8 @@ export const BulletinSchema = z
     andFinally: AndFinallySchema.optional(),
     /** Football moves that went forward since the last bulletin (extras.ts). */
     transfers: z.array(TransferMoveSchema).min(1).max(TRANSFERS_MAX).optional(),
+    /** Turkish people abroad with news since the last bulletin (abroad.ts). */
+    abroad: z.array(AbroadItemSchema).min(1).max(ABROAD_MAX).optional(),
   })
   .strict()
   .refine((bulletin) => {
@@ -341,6 +344,7 @@ export const BulletinSchema = z
       ...(bulletin.andFinally?.light ?? []),
       ...(bulletin.andFinally?.rumours ?? []),
       ...(bulletin.transfers ?? []),
+      ...(bulletin.abroad ?? []),
     ].map((item) => item.id);
     return new Set(ids).size === ids.length;
   }, 'Story ids must be unique');

@@ -1,4 +1,14 @@
-import type { Camp, Desk, Section, Source, StoryImage, Tier } from '@cspnews/core';
+import {
+  mentionsTurkAbroad,
+  peopleNamedIn,
+  type AbroadPerson,
+  type Camp,
+  type Desk,
+  type Section,
+  type Source,
+  type StoryImage,
+  type Tier,
+} from '@cspnews/core';
 import type { Story } from '@cspnews/grouping';
 import {
   evidenceFor,
@@ -22,8 +32,9 @@ export interface CandidatesFile {
   readonly window: { readonly since: string; readonly until: string };
   readonly sections: Readonly<Record<Section, readonly Candidate[]>>;
   /**
-   * Candidates for the parts outside the news: light stories and rumours for And finally, and
-   * football moves for Transfers. Filled from the sources that feed each desk.
+   * Candidates for the parts outside the news: light stories and rumours for And finally,
+   * football moves for Transfers, and Turks abroad. Filled from the sources that feed each desk;
+   * the abroad desk takes any story that names someone it watches.
    */
   readonly desks: Readonly<Record<Desk, readonly Candidate[]>>;
   readonly failures: readonly { readonly sourceId: string; readonly reason: string }[];
@@ -44,6 +55,8 @@ export interface Candidate {
   /** The story's own life: first report, outlets joining, label changes. Oldest first. */
   readonly timeline: readonly TimelineEvent[];
   readonly articles: readonly CandidateArticle[];
+  /** On the abroad desk: the ids of the watched people the story names. */
+  readonly people?: readonly string[];
 }
 
 /** A lifecycle event with its time as an ISO string, for JSON. */
@@ -172,6 +185,10 @@ export interface DeskCandidateOptions {
   readonly perDesk?: number;
   /** Most stories kept for Spotlight, where one-outlet stories are the norm. */
   readonly perLightDesk?: number;
+  /** The people the abroad desk watches for (packages/config/src/abroad.ts). */
+  readonly people?: readonly AbroadPerson[];
+  /** Phrases that point at a Turkish person abroad who is not on the list. */
+  readonly phrases?: readonly string[];
 }
 
 /**
@@ -230,9 +247,9 @@ function isHeavy(story: Story): boolean {
 export function toDeskCandidates(
   stories: readonly Story[],
   sources: ReadonlyMap<string, Source>,
-  { now, perDesk = 12, perLightDesk = 32 }: DeskCandidateOptions,
+  { now, perDesk = 12, perLightDesk = 32, people = [], phrases = [] }: DeskCandidateOptions,
 ): Record<Desk, Candidate[]> {
-  const desks: Record<Desk, Candidate[]> = { light: [], transfers: [] };
+  const desks: Record<Desk, Candidate[]> = { light: [], transfers: [], abroad: [] };
 
   for (const story of stories) {
     const storyDesks = new Set(
@@ -241,10 +258,20 @@ export function toDeskCandidates(
     if (storyDesks.has('light') && (story.sections.length > 0 || isHeavy(story))) {
       storyDesks.delete('light');
     }
+    // Turks abroad is about people, not outlets: any story that names someone on the list or uses
+    // a phrase that points at a Turk abroad, and only those, whichever source ran it.
+    const told = story.articles
+      .map(({ article }) => `${article.title}\n${article.summary}`)
+      .join('\n');
+    const named = peopleNamedIn(told, people);
+    storyDesks.delete('abroad');
+    if (named.length > 0 || mentionsTurkAbroad(told, phrases)) storyDesks.add('abroad');
     if (storyDesks.size === 0) continue;
     const candidate = candidateFor(story, sources, now);
     for (const desk of storyDesks) {
-      desks[desk].push(candidate);
+      desks[desk].push(
+        desk === 'abroad' ? { ...candidate, people: named.map((person) => person.id) } : candidate,
+      );
     }
   }
 

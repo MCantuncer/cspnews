@@ -65,6 +65,47 @@ export const ICONS = {
   /** A move from one club to another: an open station, then a filled one. */
   transfer:
     '<path d="M2 12h2.5M19.5 12H22M10 12h4.25M12.5 10l2 2-2 2"/><circle cx="7" cy="12" r="2.5"/><circle cx="17" cy="12" r="2.5" fill="currentColor"/>',
+  /** Turks abroad: a line that leaves the home station for a station far off. */
+  abroad:
+    '<path d="M2 17h2.75M9.75 17c3.75 0 4-8.5 6.75-8.5"/><circle cx="7.25" cy="17" r="2.5" fill="currentColor"/><circle cx="19" cy="8.5" r="2.5"/>',
+  /** Turks abroad kinds. Basketball: the ball and its seams. */
+  basketball:
+    '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5v17M6.25 5.75c2.6 3.4 2.6 9.1 0 12.5M17.75 5.75c-2.6 3.4-2.6 9.1 0 12.5"/>',
+  /** Football: the ball with its centre panel. */
+  football:
+    '<circle cx="12" cy="12" r="8.5"/><path d="M12 8.6l3.2 2.3-1.2 3.75h-4l-1.2-3.75z" fill="currentColor"/><path d="M12 3.5v5.1M15.2 10.9l4.6-1.6M14 14.65l2.8 3.9M10 14.65l-2.8 3.9M8.8 10.9l-4.6-1.6"/>',
+  /** Tennis: the ball and its curved seam. */
+  tennis:
+    '<circle cx="12" cy="12" r="8.5"/><path d="M5.25 6.75c3.25 2.9 3.25 7.6 0 10.5M18.75 6.75c-3.25 2.9-3.25 7.6 0 10.5"/>',
+  /** Volleyball: the ball and its three panels. */
+  volleyball:
+    '<circle cx="12" cy="12" r="8.5"/><path d="M12 12V3.5M12 12l7.35 4.25M12 12l-7.35 4.25M12 3.5c-2.5 2.75-3.25 6.5-2.25 10M19.35 16.25c-3.5.6-6.9-.4-9.6-2.75"/>',
+  /** Motorsport: a chequered flag. */
+  motorsport:
+    '<path d="M5 21V3.75"/><path d="M5 4.25h13.5v9H5"/><path d="M9.5 4.25v4.5h4.5v4.5M14 4.25v4.5h4.5M5 8.75h4.5v4.5" />',
+  /** Science: a flask with one bubble. */
+  science:
+    '<path d="M9.25 3.5h5.5M10.25 3.5v6.25L4.75 19.5h14.5l-5.5-9.75V3.5"/><circle cx="12" cy="15.75" r="1.6" fill="currentColor"/>',
+  /** Tech: a chip. */
+  chip: '<path d="M7 7h10v10H7zM10 3.5V7M14 3.5V7M10 17v3.5M14 17v3.5M3.5 10H7M3.5 14H7M17 10h3.5M17 14h3.5"/><circle cx="12" cy="12" r="1.75" fill="currentColor"/>',
+  /** The arts: a frame with a hill and the sun. */
+  arts: '<path d="M3.5 5h17v14h-17z"/><path d="M3.5 16l5-5 4.25 4.25 2.25-2.25 5.5 5.5"/><circle cx="15.75" cy="8.75" r="1.5" fill="currentColor"/>',
+  /** Business: a case. */
+  business:
+    '<path d="M3.5 8h17v11.5h-17zM9 8V5h6v3M3.5 13h17"/><circle cx="12" cy="13" r="1.4" fill="currentColor"/>',
+  /** Milestones. An award: a medal on its ribbon. */
+  award:
+    '<path d="M8.5 3.5l3.5 6 3.5-6"/><circle cx="12" cy="15" r="5.25"/><circle cx="12" cy="15" r="2" fill="currentColor"/>',
+  /** A paper: a page with lines. */
+  paper:
+    '<path d="M6 3.5h8.5l3.5 3.5v13.5H6z"/><path d="M14.5 3.5V7H18M8.75 11h6.5M8.75 14h6.5M8.75 17h4"/>',
+  /** A record: a line that climbs to a filled station. */
+  record:
+    '<path d="M2.5 19h3l3.5-5 3.5 2.5 4-7"/><circle cx="18.5" cy="6.5" r="2.5" fill="currentColor"/>',
+  /** A first: a flag on a station. */
+  first: '<path d="M7 21V4"/><path d="M7 4.5h11l-2.5 4 2.5 4H7"/>',
+  /** A new role: a person and a station. */
+  role: '<circle cx="10" cy="8" r="3.5"/><path d="M3.5 20c.75-3.75 3.25-6 6.5-6s5.75 2.25 6.5 6"/><circle cx="18.5" cy="8" r="2" fill="currentColor"/>',
   /** And finally kinds: television and film. */
   screen:
     '<path d="M3.5 6h17v11h-17zM8.5 20h7"/><circle cx="12" cy="11.5" r="2" fill="currentColor"/>',

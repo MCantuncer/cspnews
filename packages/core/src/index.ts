@@ -110,5 +110,49 @@ export type {
   TransferVersion,
 } from './extras.js';
 
+export {
+  ABROAD_KINDS,
+  ABROAD_LABEL_VALUES,
+  ABROAD_MAX,
+  ABROAD_RESULTS,
+  AbroadFactSchema,
+  AbroadGameSchema,
+  AbroadItemSchema,
+  AbroadPersonSchema,
+  AbroadVersionSchema,
+  BasketballLineSchema,
+  FootballLineSchema,
+  MILESTONE_TYPES,
+  MadeSchema,
+  MotorsportLineSchema,
+  STAT_SPORTS,
+  StatLineSchema,
+  TennisLineSchema,
+  TennisSetSchema,
+  VolleyballLineSchema,
+  abroadIn,
+  definePeople,
+  foldName,
+  mentionsTurkAbroad,
+  peopleNamedIn,
+} from './abroad.js';
+export type {
+  AbroadGame,
+  AbroadItem,
+  AbroadKind,
+  AbroadPerson,
+  AbroadPersonInput,
+  AbroadVersion,
+  BasketballLine,
+  FootballLine,
+  LocalAbroadItem,
+  MilestoneType,
+  MotorsportLine,
+  StatLine,
+  StatSport,
+  TennisLine,
+  VolleyballLine,
+} from './abroad.js';
+
 export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
 export type { HotFeed, HotStory } from './hot.js';

@@ -28,3 +28,12 @@ export function transferRoutes() {
     })),
   );
 }
+
+export function abroadRoutes() {
+  return loadBulletins().flatMap((published) =>
+    (published.bulletin.abroad ?? []).map((item) => ({
+      params: { date: published.date, slot: published.slot, person: item.id },
+      props: { published, item },
+    })),
+  );
+}

@@ -1,0 +1,395 @@
+---
+/**
+ * The numbers on a Turks abroad page, laid out for the sport (docs/design/decisions/turks-abroad.md):
+ * a box score for basketball, match stats for football and volleyball, a scoreboard for tennis,
+ * the finishing place for racing. The game's score and the hour it was played here head it.
+ * People outside sport get their milestone instead (an award, a paper, a first).
+ */
+import type { LocalAbroadItem } from '@cspnews/core';
+
+import Icon from '../ui/Icon.astro';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { KIND_ICON, MILESTONE_ICON, abroadWords, statBoard, whenLine } from '../../lib/abroad';
+
+interface Props {
+  item: LocalAbroadItem;
+  bulletinAt: string;
+  lang: InterfaceLanguage;
+}
+
+const { item, bulletinAt, lang } = Astro.props;
+const words = abroadWords(lang);
+const stats = item.stats;
+const played = item.playedAt
+  ? whenLine({ playedAt: item.playedAt, kind: item.kind }, bulletinAt, lang)
+  : undefined;
+const board = stats && stats.sport !== 'tennis' ? statBoard(stats, lang) : undefined;
+const tennis = stats?.sport === 'tennis' ? stats : undefined;
+const tennisMore = tennis
+  ? [
+      ...(tennis.aces === undefined ? [] : [{ value: String(tennis.aces), label: words.labels.aces }]),
+      ...(tennis.doubleFaults === undefined
+        ? []
+        : [{ value: String(tennis.doubleFaults), label: words.labels.doubleFaults }]),
+    ]
+  : [];
+const gained =
+  stats?.sport === 'motorsport' && stats.position !== undefined && stats.grid !== undefined
+    ? stats.grid - stats.position
+    : 0;
+const setsWon = tennis ? tennis.sets.filter((set) => set.us > set.them).length : 0;
+const wonMatch = tennis ? setsWon > tennis.sets.length - setsWon : false;
+const milestoneType = item.milestoneType;
+---
+
+{
+  stats && (
+    <section class:list={['board', stats.sport]} aria-label={words.statTitle[stats.sport]}>
+      <header>
+        <span class="board-name">
+          <Icon name={KIND_ICON[item.kind]} size={20} />
+          {words.statTitle[stats.sport]}
+        </span>
+        {item.event && <span class="event">{item.event}</span>}
+      </header>
+
+      {
+        (item.score || played) && (
+          <p class="score">
+            {item.score && <b>{item.score}</b>}
+            {played && <span>{played}</span>}
+          </p>
+        )
+      }
+
+      {
+        tennis && (
+          <table class="sets">
+            <caption class="sr">{words.statTitle.tennis}</caption>
+            <colgroup>
+              <col />
+              {tennis.sets.map(() => (
+                <col class="set-col" />
+              ))}
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col"><span class="sr">{words.labels.sets}</span></th>
+                {tennis.sets.map((_, i) => (
+                  <th scope="col">{i + 1}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr class:list={{ won: wonMatch }}>
+                <th scope="row">{item.person}</th>
+                {tennis.sets.map((set) => (
+                  <td class:list={{ took: set.us > set.them }}>
+                    {set.us}
+                    {set.tiebreak !== undefined && set.us < set.them && <sup>{set.tiebreak}</sup>}
+                  </td>
+                ))}
+              </tr>
+              <tr class:list={{ won: !wonMatch }}>
+                <th scope="row">{tennis.opponent}</th>
+                {tennis.sets.map((set) => (
+                  <td class:list={{ took: set.them > set.us }}>
+                    {set.them}
+                    {set.tiebreak !== undefined && set.them < set.us && <sup>{set.tiebreak}</sup>}
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        )
+      }
+
+      {
+        board && (
+          <dl class="main" style={`--cells: ${String(board.main.length)}`}>
+            {board.main.map((cell) => (
+              <div>
+                <dt>{cell.label}</dt>
+                <dd>{cell.value}</dd>
+              </div>
+            ))}
+          </dl>
+        )
+      }
+
+      {
+        gained !== 0 && (
+          <p class="gained">
+            <Icon name="record" size={18} />
+            {words.gained(gained)}
+          </p>
+        )
+      }
+
+      {
+        (board?.more.length ?? tennisMore.length) > 0 && (
+          <dl class="more">
+            {(board?.more ?? tennisMore).map((cell) => (
+              <div>
+                <dt>{cell.label}</dt>
+                <dd>{cell.value}</dd>
+              </div>
+            ))}
+          </dl>
+        )
+      }
+    </section>
+  )
+}
+
+{
+  !stats && milestoneType && item.milestone && (
+    <section class="milestone" aria-label={words.milestones[milestoneType]}>
+      <span class="mark" aria-hidden="true">
+        <Icon name={MILESTONE_ICON[milestoneType]} size={26} />
+      </span>
+      <span class="milestone-text">
+        <span class="milestone-type">{words.milestones[milestoneType]}</span>
+        <span class="milestone-name">{item.milestone.name}</span>
+        {item.milestone.detail && <span class="milestone-detail">{item.milestone.detail}</span>}
+      </span>
+    </section>
+  )
+}
+
+<style>
+  .board,
+  .milestone {
+    margin-top: 24px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+  }
+
+  /* The board reads like the stats page of a match report: a quiet head, the score, the main
+     numbers large over a rule in the section colour, the rest small in a row under them. */
+  .board {
+    padding: 18px 20px 20px;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px 12px;
+  }
+
+  .board-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--sec);
+    font: 700 15px / 1.2 var(--f-body);
+  }
+
+  .event {
+    color: var(--meta);
+    font: 500 14px / 1.3 var(--f-body);
+  }
+
+  .score {
+    display: grid;
+    gap: 3px;
+    margin-top: 14px;
+  }
+
+  .score b {
+    color: var(--ink);
+    font: 700 21px / 1.2 var(--f-head);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .score span {
+    color: var(--meta);
+    font: 400 14px / 1.3 var(--f-body);
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: repeat(var(--cells), minmax(0, 1fr));
+    gap: 12px;
+    margin: 18px 0 0;
+  }
+
+  .main div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding-top: 12px;
+    border-top: 2px solid var(--sec);
+  }
+
+  .main dd {
+    margin: 0;
+    color: var(--ink);
+    font: 800 40px / 1 var(--f-head);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+
+  .main dt {
+    margin-top: 6px;
+    color: var(--meta);
+    font: 500 14px / 1.3 var(--f-body);
+  }
+
+  .more {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(86px, 1fr));
+    gap: 14px 12px;
+    margin: 18px 0 0;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+  }
+
+  .more div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .more dd {
+    margin: 0;
+    color: var(--ink);
+    font: 700 18px / 1.15 var(--f-head);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .more dt {
+    margin-top: 3px;
+    color: var(--meta);
+    font: 400 13px / 1.3 var(--f-body);
+  }
+
+  .gained {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    color: var(--ink2);
+    font: 600 15px / 1.3 var(--f-body);
+  }
+
+  .gained :global(svg) {
+    color: var(--sec);
+  }
+
+  /* Tennis: the scoreboard itself, the winner's row in ink, each set's winning number bold. */
+  .sets {
+    width: 100%;
+    margin-top: 16px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .sets thead th {
+    padding-bottom: 6px;
+    color: var(--meta);
+    font: 500 13px / 1 var(--f-body);
+    text-align: center;
+  }
+
+  .set-col {
+    width: 46px;
+  }
+
+  .sets tbody th {
+    overflow: hidden;
+    padding: 10px 12px 10px 0;
+    color: var(--meta);
+    font: 600 16px / 1.25 var(--f-body);
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .sets tbody tr + tr > * {
+    border-top: 1px solid var(--line);
+  }
+
+  .sets .won th {
+    color: var(--ink);
+  }
+
+  .sets td {
+    padding: 10px 0;
+    color: var(--meta);
+    font: 500 22px / 1 var(--f-head);
+    text-align: center;
+  }
+
+  .sets td.took {
+    color: var(--ink);
+    font-weight: 800;
+  }
+
+  .sets .won td.took {
+    color: var(--sec);
+  }
+
+  .sets sup {
+    margin-left: 1px;
+    font-size: 12px;
+  }
+
+  /* Outside sport: the milestone, led by its mark. */
+  .milestone {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .mark {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1.5px solid var(--sec);
+    border-radius: 50%;
+    color: var(--sec);
+  }
+
+  .milestone-text {
+    display: grid;
+    gap: 4px;
+  }
+
+  .milestone-type {
+    color: var(--sec);
+    font: 700 14px / 1.2 var(--f-body);
+  }
+
+  .milestone-name {
+    color: var(--ink);
+    font: 700 21px / 1.25 var(--f-head);
+    letter-spacing: -0.01em;
+  }
+
+  .milestone-detail {
+    color: var(--meta);
+    font: 400 15px / 1.45 var(--f-body);
+  }
+
+  .sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  @media (width < 380px) {
+    .main dd {
+      font-size: 34px;
+    }
+  }
+</style>

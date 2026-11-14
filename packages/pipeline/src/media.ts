@@ -91,7 +91,8 @@ async function fullSizePhoto(
 }
 
 /**
- * Saves the photo of every story, every Spotlight (And finally) light story and every transfer move into `mediaDirectory`,
+ * Saves the photo of every story, every Spotlight (And finally) light story, every transfer move
+ * and every Turks abroad item into `mediaDirectory`,
  * replacing an older copy of the same one.
  */
 export async function saveStoryPhotos(
@@ -105,6 +106,7 @@ export async function saveStoryPhotos(
     ...bulletin.stories,
     ...(bulletin.andFinally?.light ?? []),
     ...(bulletin.transfers ?? []),
+    ...(bulletin.abroad ?? []),
   ]) {
     if (!story.image) continue;
     try {
