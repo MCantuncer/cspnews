@@ -212,4 +212,31 @@ describe('saveStoryPhotos', () => {
     const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
     expect(result).toEqual({ storyId: story.id, file: `${story.id}.jpg` });
   });
+
+  it('keeps a wider copy saved earlier when the server now hands back a smaller one', async () => {
+    const story = withImage[0];
+    if (!story?.image) throw new Error('the sample needs a story with a photo');
+    const image = story.image;
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    writeFileSync(join(directory, `${story.id}.jpg`), jpeg(1280));
+    const fetchBytes: FetchBytes = (url) =>
+      url === image.url
+        ? Promise.resolve({ bytes: jpeg(600), contentType: 'image/webp' })
+        : Promise.reject(new Error('HTTP 403'));
+    const [result] = await saveStoryPhotos(bulletin, directory, fetchBytes);
+    expect(result).toEqual({ storyId: story.id, file: `${story.id}.jpg` });
+    expect(readFileSync(join(directory, `${story.id}.jpg`))).toEqual(Buffer.from(jpeg(1280)));
+    expect(existsSync(join(directory, `${story.id}.webp`))).toBe(false);
+  });
+
+  it('replaces an earlier copy with a new full-width photo', async () => {
+    const story = withImage[0];
+    if (!story?.image) throw new Error('the sample needs a story with a photo');
+    const directory = mkdtempSync(join(tmpdir(), 'media-'));
+    writeFileSync(join(directory, `${story.id}.jpg`), jpeg(1600));
+    const fetchBytes: FetchBytes = () =>
+      Promise.resolve({ bytes: jpeg(1000), contentType: 'image/jpeg' });
+    await saveStoryPhotos(bulletin, directory, fetchBytes);
+    expect(readFileSync(join(directory, `${story.id}.jpg`))).toEqual(Buffer.from(jpeg(1000)));
+  });
 });
