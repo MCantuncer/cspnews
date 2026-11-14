@@ -154,6 +154,12 @@
           "sourceId": "aa-tr"
         }
       ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/4631e65d-bc9b-4022-b7a9-baad11bd7025.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/sehit-binbasi-arslan-kulaksiz-in-firari-suphelisi-bitlis-in-tatvan-ilcesinde-yakalandi-2556148"
+      },
       "sources": [
         {
           "sourceId": "a-haber",
@@ -192,13 +198,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/4631e65d-bc9b-4022-b7a9-baad11bd7025.jpg",
-        "sourceId": "cumhuriyet",
-        "sourceName": "Cumhuriyet",
-        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/sehit-binbasi-arslan-kulaksiz-in-firari-suphelisi-bitlis-in-tatvan-ilcesinde-yakalandi-2556148"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "570209be1c82815c",
@@ -340,6 +340,12 @@
           "sourceId": "aa-tr"
         }
       ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6af8a31bc813a6f07cce8648.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/son-dakika-cumhurbaskani-yardimcisi-cevdet-yilmazdan-onemli-aciklamalar-43378623"
+      },
       "sources": [
         {
           "sourceId": "hurriyet",
@@ -368,13 +374,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af8a31bc813a6f07cce8648.jpg",
-        "sourceId": "hurriyet",
-        "sourceName": "Hürriyet",
-        "articleUrl": "https://www.hurriyet.com.tr/gundem/son-dakika-cumhurbaskani-yardimcisi-cevdet-yilmazdan-onemli-aciklamalar-43378623"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "da739e74d92be2d2",
@@ -507,6 +507,12 @@
           "sourceId": "aa-tr"
         }
       ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/751836dc-e62a-4146-b647-590b58d166c8.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/spor/israil-i-maglup-ettik-potanin-perileri-avrupa-sampiyonasi-elemeleri-nde-2-de-2-yapti-2556188"
+      },
       "sources": [
         {
           "sourceId": "cumhuriyet",
@@ -525,13 +531,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/751836dc-e62a-4146-b647-590b58d166c8.jpg",
-        "sourceId": "cumhuriyet",
-        "sourceName": "Cumhuriyet",
-        "articleUrl": "https://www.cumhuriyet.com.tr/spor/israil-i-maglup-ettik-potanin-perileri-avrupa-sampiyonasi-elemeleri-nde-2-de-2-yapti-2556188"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "6ae7344ea29f1bf5",
@@ -663,6 +663,12 @@
           "to": "confirmed"
         }
       ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+      },
       "sources": [
         {
           "sourceId": "hacker-news",
@@ -681,13 +687,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
-        "sourceId": "bbc-world",
-        "sourceName": "BBC News World",
-        "articleUrl": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "0ef99121135e5268",
@@ -814,6 +814,12 @@
           "to": "confirmed"
         }
       ],
+      "image": {
+        "url": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight"
+      },
       "sources": [
         {
           "sourceId": "france-24",
@@ -827,13 +833,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "196361a3fb3497cd",
@@ -960,6 +960,12 @@
           "to": "confirmed"
         }
       ],
+      "image": {
+        "url": "https://s.france24.com/media/display/655a8158-e024-11f1-8b4c-695cb59fade5/w:1024/p:16x9/EN-20261114-120344-120524-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans"
+      },
       "sources": [
         {
           "sourceId": "france-24",
@@ -973,13 +979,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://s.france24.com/media/display/655a8158-e024-11f1-8b4c-695cb59fade5/w:1024/p:16x9/EN-20261114-120344-120524-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "8dff7e4539539d2a",
@@ -1111,6 +1111,12 @@
           "sourceId": "guardian-world"
         }
       ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/965c/live/69643890-e04f-11f1-8d5a-49633fbae59d.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss"
+      },
       "sources": [
         {
           "sourceId": "scmp-world",
@@ -1129,13 +1135,7 @@
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/965c/live/69643890-e04f-11f1-8d5a-49633fbae59d.jpg",
-        "sourceId": "bbc-world",
-        "sourceName": "BBC News World",
-        "articleUrl": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss"
-      }
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     }
   ],
   "andFinally": {
@@ -1249,6 +1249,12 @@
           ]
         }
       },
+      "stats": {
+        "sport": "basketball",
+        "points": 43,
+        "rebounds": 12,
+        "assists": 5
+      },
       "sources": [
         {
           "sourceId": "aa-spor",
@@ -1263,19 +1269,13 @@
           "url": "https://www.bbc.com/turkce/articles/cddm49gmnero?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "updatedAt": "2026-11-15T00:50:00+03:00",
-      "stats": {
-        "sport": "basketball",
-        "points": 43,
-        "rebounds": 12,
-        "assists": 5
-      },
       "image": {
         "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/b928/live/d4c12030-e009-11f1-9fd4-8b3c9f9dfc89.jpg",
         "sourceId": "bbc-turkce",
         "sourceName": "BBC Türkçe",
         "articleUrl": "https://www.bbc.com/turkce/articles/cddm49gmnero?at_medium=RSS&at_campaign=rss"
-      }
+      },
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     },
     {
       "id": "8819ad00c078cf94",
@@ -1332,13 +1332,13 @@
           "url": "https://www.hurriyet.com.tr/sporarena/ispanyol-medyasi-arda-gulerin-yeni-maasini-duyurdu-43377996"
         }
       ],
-      "updatedAt": "2026-11-15T00:50:00+03:00",
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af8226c3516f14679cc7dcc.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6af8226c3516f14679cc7dcc.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/sporarena/ispanyol-medyasi-arda-gulerin-yeni-maasini-duyurdu-43377996"
-      }
+      },
+      "updatedAt": "2026-11-15T00:50:00+03:00"
     }
   ]
 }
