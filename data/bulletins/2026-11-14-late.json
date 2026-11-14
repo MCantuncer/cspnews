@@ -691,22 +691,33 @@
       "developing": false,
       "versions": {
         "en": {
-          "shortTitle": "Starship booster catch aborted",
-          "title": "SpaceX aborts the Super Heavy booster catch on Starship’s 15th flight, then brings the Ship home for a first “chopsticks” catch try",
+          "shortTitle": "SpaceX catches Starship for first time",
+          "title": "SpaceX catches a returning Starship spacecraft with the tower’s “chopsticks” for the first time, after the booster catch was aborted",
           "summary": {
-            "what": "On the 15th Starship test, the booster’s guidance system called off its catch and it blew up over the Gulf of Mexico; the Ship reached orbit and deployed 26 Starlink satellites.",
-            "why": "SpaceX wanted the first “double catch” of both stages, a step towards a fully reusable rocket that could make frequent, cheap launches possible.",
-            "next": "The Ship was due back at Starbase at about 21:15 GMT on Saturday, with SpaceX deciding shortly before whether to attempt the catch."
+            "what": "On Starship’s 15th test the Ship came back from a day in orbit and slipped between the launch tower’s arms, SCMP reports; the booster’s catch was aborted on Friday.",
+            "why": "It is the first recovery of a spaceship this way, a big step towards a fully reusable rocket that could make frequent, cheap launches possible.",
+            "next": "Engineers are still looking for the root cause of the booster abort; SpaceX’s aim remains catching both stages on one flight."
           },
           "body": [
             {
-              "subhead": "A double catch that slipped away",
+              "subhead": "The Ship comes home",
               "blocks": [
                 {
-                  "text": "SpaceX launched the 15th test flight of Starship, the world’s biggest and most powerful rocket, from Starbase in Boca Chica, Texas, at 16:47 local time on Friday, France 24 and the BBC reported. The plan was the first “double catch”: grabbing both the Super Heavy booster and the upper stage, known as the Ship, with the mechanical arms on the launch tower that SpaceX calls the “chopsticks”."
+                  "text": "SpaceX on Saturday carried out the first-ever recovery of a spaceship, the South China Morning Post reported. Its Starship vessel returned safely to its launch pad at Starbase in Texas after a day in orbit, emerging from a cloudy sky after a descent across the continent and slipping smoothly between the mechanical “chopstick arms” above Launch Pad 2."
                 },
                 {
-                  "text": "That slipped out of reach within minutes. After the two stages separated, the booster’s guidance, navigation and control system aborted the catch attempt, even though mission control had first given a “go”, the BBC reported. Super Heavy diverted to the Gulf of Mexico just off the launch site, hovered above the water and self-destructed in a fireball before hitting it."
+                  "text": "Catching the Ship is far harder than catching the booster, because it falls much faster and from much higher. To reach the Texas coast it had to fly over the whole continent, then make what France 24 called a “giant swoosh maneuver” around the cities of the Rio Grande Valley. “Once the rocket is flying over land, there’s 21 minutes where the operators can’t do anything,” the senior SpaceX engineer Lars Blackmore said before the landing."
+                }
+              ]
+            },
+            {
+              "subhead": "The booster that got away",
+              "blocks": [
+                {
+                  "text": "The 15th test flight of Starship, the world’s biggest and most powerful rocket, lifted off from Starbase in Boca Chica at 16:47 local time on Friday, France 24 and the BBC reported. The plan was the first “double catch” of both the Super Heavy booster and the Ship."
+                },
+                {
+                  "text": "That slipped out of reach within minutes. After the two stages separated, the booster’s guidance, navigation and control system aborted the catch, even though mission control had first given a “go”, the BBC reported. Super Heavy diverted to the Gulf of Mexico, hovered above the water and self-destructed in a fireball. SpaceX had caught it three times on earlier flights."
                 },
                 {
                   "quote": "The booster was not in the place that it was supposed to be to proceed with the catch.",
@@ -714,18 +725,7 @@
                   "sourceId": "france-24"
                 },
                 {
-                  "text": "Huot said engineers were still investigating the root cause. SpaceX has caught Super Heavy three times on earlier flights."
-                }
-              ]
-            },
-            {
-              "subhead": "The Ship in orbit",
-              "blocks": [
-                {
-                  "text": "The Ship carried on to orbit and deployed 26 satellites for Elon Musk’s Starlink internet constellation, France 24 reported. It was due to circle the Earth 14 times on a flight of about 22 hours. “Overall the ship’s still looking healthy, and we are still on track for a catch attempt here at Starbase,” Huot said on Saturday."
-                },
-                {
-                  "text": "Catching the Ship is far harder than catching the booster, because it falls much faster and from much higher. To get back to the Texas coast it has to fly over the whole continent, then make what France 24 called a “giant swoosh maneuver” around the cities of the Rio Grande Valley. “Once the rocket is flying over land, there’s 21 minutes where the operators can’t do anything,” said Lars Blackmore, a senior SpaceX engineer."
+                  "text": "The Ship meanwhile reached orbit, deployed 26 Starlink satellites and circled the Earth on a flight of about 22 hours, France 24 reported."
                 }
               ]
             },
@@ -733,29 +733,40 @@
               "subhead": "Why it matters",
               "blocks": [
                 {
-                  "text": "Full reuse of both stages is SpaceX’s long-held aim. Its Falcon 9 boosters, first landed in 2015, now fly more than 100 times a year, the BBC noted. “Full reusability has the potential to fundamentally change the economics of accessing space,” Malcolm Macdonald, president of the Royal Aeronautical Society, told the BBC. Starship’s progress also matters for NASA’s plan to land astronauts on the Moon in 2028."
+                  "text": "Full reuse of both stages is SpaceX’s long-held aim. Its Falcon 9 boosters, first landed in 2015, now fly more than 100 times a year, the BBC noted. “Full reusability has the potential to fundamentally change the economics of accessing space,” Malcolm Macdonald, president of the Royal Aeronautical Society, told the BBC before the landing. Starship’s progress also matters for NASA’s plan to land astronauts on the Moon in 2028."
                 }
               ]
             }
           ]
         },
         "tr": {
-          "shortTitle": "Starship'te booster yakalaması iptal",
-          "title": "Starship’in 15. uçuşunda Super Heavy’nin yakalanması iptal edildi; SpaceX, Ship’i ilk “chopsticks” yakalaması için geri getiriyor",
+          "shortTitle": "SpaceX Starship'i ilk kez yakaladı",
+          "title": "SpaceX, dönen Starship uzay aracını ilk kez kulenin “chopsticks” kollarıyla yakaladı; booster yakalaması ise iptal edilmişti",
           "summary": {
-            "what": "15. Starship testinde booster’ın yönlendirme sistemi yakalamayı iptal etti, kademe Meksika Körfezi üzerinde patladı; Ship yörüngeye ulaşıp 26 Starlink uydusu bıraktı.",
-            "why": "SpaceX iki kademeyi birden ilk kez yakalamak istiyordu; bu, sık ve ucuz fırlatmaları mümkün kılacak tamamen yeniden kullanılabilir bir roket yolunda bir adım.",
-            "next": "Ship’in pazar gece yarısından sonra, TSİ 00.15 civarında Starbase’e dönmesi bekleniyordu; SpaceX yakalama kararını dönüşten kısa süre önce verecekti."
+            "what": "SCMP’ye göre Starship’in 15. testinde Ship, yörüngede geçen bir günün ardından fırlatma kulesinin kolları arasına oturdu; booster’ın yakalanması cuma günü iptal edilmişti.",
+            "why": "Bir uzay aracı ilk kez bu yolla geri alındı; sık ve ucuz fırlatmaları mümkün kılacak tamamen yeniden kullanılabilir roket yolunda büyük bir adım.",
+            "next": "Mühendisler booster’daki iptalin asıl nedenini araştırıyor; SpaceX’in hedefi iki kademeyi aynı uçuşta yakalamak."
           },
           "body": [
             {
-              "subhead": "Kaçan çifte yakalama",
+              "subhead": "Ship eve döndü",
               "blocks": [
                 {
-                  "text": "France 24 ve BBC’nin aktardığına göre SpaceX, dünyanın en büyük ve en güçlü roketi Starship’in 15. test uçuşunu cuma günü yerel saatle 16.47’de Teksas’ın Boca Chica bölgesindeki Starbase’ten yaptı. Plan ilk “çifte yakalama”ydı: Super Heavy adlı ilk kademeyi ve Ship denen üst kademeyi, fırlatma kulesindeki “chopsticks” denen mekanik kollarla havada yakalamak."
+                  "text": "South China Morning Post’un haberine göre SpaceX cumartesi günü bir uzay aracını ilk kez bu yolla geri aldı. Starship aracı yörüngede geçen bir günün ardından Teksas’taki Starbase’e, fırlatma rampasına sağ salim döndü; kıtayı boydan boya geçen inişin sonunda bulutların arasından çıkıp 2 No’lu Rampa’nın üzerindeki “chopsticks” denen mekanik kolların arasına yumuşakça yerleşti."
                 },
                 {
-                  "text": "Bu hedef dakikalar içinde elden kaçtı. BBC’ye göre iki kademe ayrıldıktan sonra görev kontrolü önce yakalamaya onay verdi, ama booster’ın yönlendirme, seyrüsefer ve kontrol sistemi denemeyi kendiliğinden iptal etti. Super Heavy fırlatma alanının hemen açığındaki Meksika Körfezi’ne yöneldi, suyun üzerinde asılı kaldı ve suya çarpmadan önce kendini imha ederek bir ateş topuna dönüştü."
+                  "text": "Ship’i yakalamak booster’dan çok daha zor, çünkü çok daha yüksekten ve çok daha hızlı düşüyor. Teksas kıyısına ulaşmak için tüm kıtanın üzerinden uçması, ardından Rio Grande Vadisi’ndeki kentlerin çevresinde France 24’ün “dev bir kavis manevrası” dediği dönüşü yapması gerekiyordu. SpaceX’in kıdemli mühendislerinden Lars Blackmore inişten önce “Roket karanın üzerindeyken operatörlerin hiçbir şey yapamadığı 21 dakika var” demişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Kaçan booster",
+              "blocks": [
+                {
+                  "text": "France 24 ve BBC’ye göre dünyanın en büyük ve en güçlü roketi Starship’in 15. test uçuşu cuma günü yerel saatle 16.47’de Boca Chica’daki Starbase’ten kalktı. Plan, Super Heavy booster’ı ve Ship’i birlikte yakalayan ilk “çifte yakalama”ydı."
+                },
+                {
+                  "text": "Bu hedef dakikalar içinde elden kaçtı. BBC’ye göre kademeler ayrıldıktan sonra görev kontrolü önce onay verdi, ama booster’ın yönlendirme, seyrüsefer ve kontrol sistemi yakalamayı iptal etti. Super Heavy Meksika Körfezi’ne yöneldi, suyun üzerinde asılı kaldı ve kendini imha ederek bir ateş topuna dönüştü. SpaceX onu daha önceki uçuşlarda üç kez yakalamıştı."
                 },
                 {
                   "quote": "Booster, yakalamaya devam etmek için olması gereken yerde değildi.",
@@ -764,18 +775,7 @@
                   "translated": true
                 },
                 {
-                  "text": "Huot, mühendislerin asıl nedeni araştırmaya devam ettiğini söyledi. SpaceX, Super Heavy’yi daha önceki uçuşlarda üç kez yakalamıştı."
-                }
-              ]
-            },
-            {
-              "subhead": "Ship yörüngede",
-              "blocks": [
-                {
-                  "text": "France 24’e göre Ship yörüngeye ulaştı ve Elon Musk’ın uydu internet ağı Starlink için 26 uydu bıraktı. Yaklaşık 22 saatlik uçuşunda Dünya’nın etrafında 14 tur atması planlanıyordu. Huot cumartesi günü “Ship genel olarak sağlıklı görünüyor, Starbase’de yakalama denemesi için hâlâ yoldayız” dedi."
-                },
-                {
-                  "text": "Ship’i yakalamak booster’dan çok daha zor, çünkü çok daha yüksekten ve çok daha hızlı düşüyor. Teksas kıyısına dönmek için tüm kıtanın üzerinden uçması, ardından Rio Grande Vadisi’ndeki kentlerin çevresinde France 24’ün “dev bir kavis manevrası” dediği dönüşü yapması gerekiyor. SpaceX’in kıdemli mühendislerinden Lars Blackmore, “Roket karanın üzerindeyken operatörlerin hiçbir şey yapamadığı 21 dakika var” dedi."
+                  "text": "France 24’e göre Ship bu arada yörüngeye ulaştı, 26 Starlink uydusu bıraktı ve yaklaşık 22 saatlik uçuşunda Dünya’nın etrafında turladı."
                 }
               ]
             },
@@ -783,7 +783,7 @@
               "subhead": "Neden önemli",
               "blocks": [
                 {
-                  "text": "İki kademeyi de yeniden kullanmak SpaceX’in uzun süredir hedefi. BBC’ye göre ilk kez 2015’te dikey iniş yapan Falcon 9 booster’ları bugün yılda 100’den fazla uçuyor. Kraliyet Havacılık Derneği Başkanı Malcolm Macdonald BBC’ye “Tam yeniden kullanılabilirlik, uzaya erişimin ekonomisini kökten değiştirebilir” dedi. Starship’teki ilerleme, NASA’nın 2028’de astronotları Ay’a indirme planı için de belirleyici."
+                  "text": "İki kademeyi de yeniden kullanmak SpaceX’in uzun süredir hedefi. BBC’ye göre ilk kez 2015’te dikey iniş yapan Falcon 9 booster’ları bugün yılda 100’den fazla uçuyor. Kraliyet Havacılık Derneği Başkanı Malcolm Macdonald inişten önce BBC’ye “Tam yeniden kullanılabilirlik, uzaya erişimin ekonomisini kökten değiştirebilir” dedi. Starship’teki ilerleme, NASA’nın 2028’de astronotları Ay’a indirme planı için de belirleyici."
                 }
               ]
             }
@@ -806,6 +806,19 @@
           "at": "2026-11-14T21:05:14.000Z",
           "from": "single-source",
           "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T21:32:46.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "updated",
+          "at": "2026-11-14T21:39:21.000Z",
+          "note": {
+            "en": "SpaceX caught the returning Ship with the tower’s arms, SCMP reported.",
+            "tr": "SCMP’ye göre SpaceX dönen Ship’i kulenin kollarıyla yakaladı."
+          }
         }
       ],
       "image": {
@@ -824,10 +837,20 @@
           "sourceId": "bbc-world",
           "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
           "confirms": true
+        },
+        {
+          "sourceId": "hacker-news",
+          "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+          "confirms": false
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+          "confirms": true
         }
       ],
       "publishedAt": "2026-11-15T00:50:00+03:00",
-      "updatedAt": "2026-11-15T00:50:00+03:00"
+      "updatedAt": "2026-11-14T21:39:21.000Z"
     },
     {
       "id": "196361a3fb3497cd",
@@ -1134,35 +1157,6 @@
   ],
   "andFinally": {
     "light": [
-      {
-        "id": "ab58f19d6a1f95c8",
-        "kind": "screen",
-        "label": "reported",
-        "versions": {
-          "en": {
-            "title": "Hülya Koçyiğit meets the new Bahar of Susuz Yaz, 63 years after she played her",
-            "gist": "The star of the 1963 Golden Bear winner told Lizge Cömert, Bahar in the new Kanal D series, that the young cast “will always be compared”, Haberler.com reports.",
-            "aside": "Sixty-three years on, the summer is still dry and the bar is still high."
-          },
-          "tr": {
-            "title": "Hülya Koçyiğit, Susuz Yaz’ın yeni Bahar’ı Lizge Cömert’le buluştu",
-            "gist": "Haberler.com’a göre 1963’te Altın Ayı alan filmin yıldızı, Kanal D dizisinde Bahar’ı oynayan Cömert’e “Hep mukayese edilecekler, başaracaklarına inanıyorum” dedi.",
-            "aside": "Aradan 63 yıl geçti; yaz hâlâ susuz, çıta hâlâ yüksek."
-          }
-        },
-        "sources": [
-          {
-            "sourceId": "haberler-magazin",
-            "url": "https://www.haberler.com/haberler/hulya-kocyigit-susuz-yazin-yeni-baharina-seslendi-20428330-haberi/"
-          }
-        ],
-        "image": {
-          "url": "https://foto.haberler.com/haber/2026/11/14/hulya-kocyigit-susuz-yazin-yeni-baharina-seslendi_4f5d0d190f_amp.jpg",
-          "sourceId": "haberler-magazin",
-          "sourceName": "Haberler.com Magazin",
-          "articleUrl": "https://www.haberler.com/haberler/hulya-kocyigit-susuz-yazin-yeni-baharina-seslendi-20428330-haberi/"
-        }
-      },
       {
         "id": "dd10242d60bc21a9",
         "kind": "animals",
