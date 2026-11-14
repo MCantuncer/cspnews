@@ -1,14 +1,18 @@
 ---
 /**
- * A bulletin in one minute (docs/design/decisions/in-one-minute.md): every story as its short
- * title and the one sentence that says what happened, with its evidence mark. Each line opens
- * the full story; the end leads back to the whole bulletin.
+ * A bulletin in one minute (docs/design/decisions/in-one-minute.md): one story at a time, as a
+ * card with the story's picture, its section, its short title, the one sentence that says what
+ * happened and the outlets that reported it. Cards swipe sideways; the buttons and marks come
+ * from lib/brief-cards.ts. The last card is the end of the bulletin.
  */
+import type { Section } from '@cspnews/core';
+
 import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
 import NextEdition from '../ui/NextEdition.astro';
+import VisualView from '../visual/Visual.astro';
 import Base from '../../layouts/Base.astro';
 import {
   bulletinPath,
@@ -19,7 +23,10 @@ import {
 import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate } from '../../lib/format';
-import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
+import { bulletinName, outletCount, sectionName, wordsFor } from '../../lib/i18n';
+import type { IconName } from '../../lib/icons';
+import { outletLogos } from '../../lib/media';
+import { storyVisual } from '../../lib/story-visual';
 
 interface Props {
   published: PublishedBulletin;
@@ -29,7 +36,16 @@ interface Props {
 const { published, lang } = Astro.props;
 const words = wordsFor(lang);
 const name = bulletinName(published.slot, lang);
-const groups = storiesBySection(published, lang);
+const SECTION_ICON: Record<Section, IconName> = { turkey: 'turkiye', tech: 'tech', world: 'world' };
+const cards = storiesBySection(published, lang).flatMap((group) =>
+  group.stories.map(({ story }) => ({
+    story,
+    visual: storyVisual(story),
+    logos: outletLogos(story.sources),
+    outlets: new Set(story.sources.map((s) => s.sourceId)).size,
+  })),
+);
+const total = cards.length;
 ---
 
 <Base
@@ -48,40 +64,83 @@ const groups = storiesBySection(published, lang);
     <h1>{words.brief}</h1>
     <p class="meta">{name}, {formatLongDate(published.bulletin.publishAt, lang)}. {words.briefHint}</p>
 
-    {
-      groups.map((group) => (
-        <section data-section={group.section}>
-          <h2>{sectionName(group.section, lang)}</h2>
-          <ol>
-            {group.stories.map(({ story }) => (
-              <li>
-                <a href={storyPath(published, story, lang)} lang={story.language}>
-                  <span class="title">
-                    <EvidenceMark label={story.label} lang={lang} variant="glyph" />
-                    {story.shortTitle}
-                  </span>
-                  <span class="what">{story.summary.what}</span>
-                </a>
-              </li>
-            ))}
-          </ol>
-        </section>
-      ))
-    }
+    <div class="deck" data-cards>
+      <div class="marks" aria-hidden="true">
+        {cards.map(() => <i data-card-mark />)}
+      </div>
 
-    <p class="end"><b>{words.endOfBulletin}.</b>{' '}<NextEdition published={published} lang={lang} /></p>
-    <a class="way" href={bulletinPath(published, lang)}>
-      <Icon name="contents" size={20} />
-      <span>{words.fullBulletin}</span>
-    </a>
+      <ol class="row" data-cards-row tabindex="-1">
+        {
+          cards.map(({ story, visual, logos, outlets }) => (
+            <li class="card" data-card data-section={story.section}>
+              <a class="story" href={storyPath(published, story, lang)} lang={story.language}>
+                <span class="pic" aria-hidden="true">
+                  {visual.kind === 'none' ? (
+                    <span class="field">
+                      <Icon name={SECTION_ICON[story.section]} size={56} />
+                    </span>
+                  ) : (
+                    <VisualView visual={visual} lang={lang} storyLang={story.language} size="wide" />
+                  )}
+                </span>
+                <span class="section" lang={lang}>
+                  <Icon name={SECTION_ICON[story.section]} size={18} />
+                  {sectionName(story.section, lang)}
+                </span>
+                <span class="title">
+                  <EvidenceMark label={story.label} lang={lang} variant="glyph" />
+                  {story.shortTitle}
+                </span>
+                <span class="what">{story.summary.what}</span>
+                {logos.length > 0 && (
+                  <span class="outlets" lang={lang}>
+                    <span class="logos">
+                      {logos.map((logo) => (
+                        <img src={logo.src} alt="" title={logo.name} loading="lazy" decoding="async" />
+                      ))}
+                    </span>
+                    {outletCount(outlets, lang)}
+                  </span>
+                )}
+              </a>
+            </li>
+          ))
+        }
+        <li class="card end-card" data-card>
+          <p class="end"><b>{words.endOfBulletin}.</b>{' '}<NextEdition published={published} lang={lang} /></p>
+          <a class="way" href={bulletinPath(published, lang)}>
+            <Icon name="contents" size={20} />
+            <span>{words.fullBulletin}</span>
+          </a>
+        </li>
+      </ol>
+
+      <div class="controls" data-cards-controls hidden>
+        <button type="button" class="back" data-card-previous aria-label={words.previous}>
+          <Icon name="back" size={20} />
+        </button>
+        <span class="count" data-card-count aria-live="polite">1 / {total}</span>
+        <button type="button" class="next" data-card-next>
+          <span>{words.nextStory}</span>
+          <Icon name="next" size={20} />
+        </button>
+      </div>
+    </div>
   </main>
 </Base>
+
+<script>
+  import { setupBriefCards } from '../../lib/brief-cards';
+
+  setupBriefCards(document);
+</script>
 
 <style>
   .brief {
     max-width: var(--measure);
     margin: 0 auto;
     padding: 28px var(--gutter) 64px;
+    overflow-x: clip;
   }
 
   h1 {
@@ -95,60 +154,154 @@ const groups = storiesBySection(published, lang);
     font: 400 16px / 1.5 var(--f-body);
   }
 
-  h2 {
-    margin-top: 40px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid var(--sec);
-    color: var(--sec);
-    font: 800 20px / 1.2 var(--f-head);
-    letter-spacing: -0.015em;
+  /* Progress: one thin mark per story, filled up to the one in view. */
+  .marks {
+    display: flex;
+    gap: 4px;
+    margin-top: 24px;
   }
 
-  ol {
-    margin: 0;
-    padding: 0;
+  .marks i {
+    flex: 1;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--line2);
+  }
+
+  .marks i:global(.on) {
+    background: var(--ink);
+  }
+
+  /* One card per screen width; the row snaps so a swipe lands on a whole card. */
+  .row {
+    display: flex;
+    gap: 16px;
+    margin: 20px calc(-1 * var(--gutter)) 0;
+    padding: 0 var(--gutter);
+    overflow-x: auto;
     list-style: none;
+    overscroll-behavior-x: contain;
+    scroll-padding-inline: var(--gutter);
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
   }
 
-  li + li {
-    border-top: 1px solid var(--line);
+  .row::-webkit-scrollbar {
+    display: none;
   }
 
-  li a {
+  .row:focus {
+    outline: none;
+  }
+
+  /* Relative, so screen-reader-only text inside a card stays inside the scrolling row. */
+  .card {
+    position: relative;
+    flex: 0 0 100%;
+    min-width: 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .story {
     display: grid;
-    gap: 6px;
-    padding: 16px 0;
+    gap: 10px;
     color: var(--ink);
     text-decoration: none;
+  }
+
+  .pic {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* Photos stand taller here than in Contents: the picture is the card's one strong element. */
+  .pic :global(.visual.is-photo img) {
+    aspect-ratio: 4 / 3;
+    border-radius: 14px;
+  }
+
+  .pic :global(.visual:not(.is-photo)) {
+    overflow: hidden;
+    border-radius: 14px;
+  }
+
+  .field {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 4 / 3;
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--sec) 8%, transparent);
+    color: var(--sec);
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--sec);
+    font: 700 15px / 1.2 var(--f-head);
   }
 
   .title {
     display: flex;
     align-items: flex-start;
     gap: 8px;
-    font: 700 18px / 1.3 var(--f-body);
+    font: 700 23px / 1.25 var(--f-head);
+    letter-spacing: -0.015em;
   }
 
   /* The mark stays on the title's first line when the title wraps. */
   .title :global(.ev) {
     flex: none;
-    margin-top: 3px;
+    margin-top: 6px;
   }
 
-  li a:hover .title {
+  .story:hover .title {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
   }
 
   .what {
     font: 400 17px / 1.5 var(--f-body);
   }
 
-  .end {
-    margin-top: 40px;
+  .outlets {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4px;
     color: var(--meta);
-    font: 500 16px / 1.4 var(--f-body);
+    font: 500 14px / 1.2 var(--f-body);
+  }
+
+  .logos {
+    display: flex;
+  }
+
+  /* Logos are drawn for white, so they sit on white in both themes. */
+  .logos img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 2px var(--bg);
+    object-fit: contain;
+  }
+
+  .logos img + img {
+    margin-left: -6px;
+  }
+
+  .end-card {
+    align-self: center;
+    padding: 48px 0;
+  }
+
+  .end {
+    color: var(--meta);
+    font: 500 18px / 1.45 var(--f-body);
   }
 
   .end b {
@@ -161,7 +314,7 @@ const groups = storiesBySection(published, lang);
     align-items: center;
     gap: 14px;
     min-height: 56px;
-    margin-top: 16px;
+    margin-top: 20px;
     padding: 12px 16px;
     border: 1.5px solid var(--line2);
     border-radius: 12px;
@@ -174,6 +327,53 @@ const groups = storiesBySection(published, lang);
     border-color: var(--ink);
   }
 
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .controls[hidden] {
+    display: none;
+  }
+
+  .count {
+    flex: 1;
+    color: var(--meta);
+    font: 600 15px / 1 var(--f-body);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 48px;
+    min-height: 48px;
+    padding: 0 18px;
+    border: 1.5px solid var(--line2);
+    border-radius: 12px;
+    background: none;
+    color: var(--ink);
+    font: 600 16px / 1 var(--f-body);
+    cursor: pointer;
+  }
+
+  .controls .back {
+    padding: 0;
+  }
+
+  .controls button:hover:not(:disabled) {
+    border-color: var(--ink);
+  }
+
+  .controls button:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
   @media (width >= 1024px) {
     .brief {
       padding-top: 56px;
@@ -181,6 +381,26 @@ const groups = storiesBySection(published, lang);
 
     h1 {
       font-size: 40px;
+    }
+
+    /* Wide screens show the card in view only, without the edges of its neighbours. */
+    .row {
+      margin-inline: 0;
+      padding-inline: 0;
+      scroll-padding-inline: 0;
+    }
+
+    .pic :global(.visual.is-photo img),
+    .field {
+      aspect-ratio: 16 / 9;
+    }
+
+    .title {
+      font-size: 28px;
+    }
+
+    .what {
+      font-size: 19px;
     }
   }
 </style>
