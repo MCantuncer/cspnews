@@ -4,10 +4,10 @@
     "slot": "morning",
     "publishAt": "2026-11-15T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-14T21:10:58.867Z",
+  "generatedAt": "2026-11-14T21:15:47.775Z",
   "window": {
-    "since": "2026-11-14T07:10:58.867Z",
-    "until": "2026-11-14T21:10:58.867Z"
+    "since": "2026-11-14T07:15:47.775Z",
+    "until": "2026-11-14T21:15:47.775Z"
   },
   "sections": {
     "turkey": [
@@ -21,7 +21,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 22.96,
+        "score": 22.95,
         "firstSeenAt": "2026-11-14T08:07:32.000Z",
         "lastUpdatedAt": "2026-11-14T20:42:00.000Z",
         "image": {
@@ -268,7 +268,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 18.59,
+        "score": 18.58,
         "firstSeenAt": "2026-11-14T15:25:09.000Z",
         "lastUpdatedAt": "2026-11-14T16:13:03.000Z",
         "image": {
@@ -438,7 +438,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.94,
+        "score": 14.93,
         "firstSeenAt": "2026-11-14T18:06:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:28:20.000Z",
         "image": {
@@ -698,7 +698,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.99,
+        "score": 12.98,
         "firstSeenAt": "2026-11-14T20:32:36.000Z",
         "lastUpdatedAt": "2026-11-14T21:02:16.000Z",
         "image": {
@@ -912,117 +912,6 @@
         ]
       },
       {
-        "storyId": "5e581a976b28be23",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 12.83,
-        "firstSeenAt": "2026-11-14T17:55:05.000Z",
-        "lastUpdatedAt": "2026-11-14T19:10:00.000Z",
-        "image": {
-          "url": "https://im.haberturk.com/l/2026/11/14/ver1794678876/3927408/jpg/1920x1080",
-          "sourceId": "haberturk",
-          "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/gundem/birecik-te-kepceyle-carpisan-otomobilde-cocuklar-yaralandi-anne-ve-baba-ise-hayatini-kaybetti-3927408"
-        },
-        "sources": [
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-14T17:55:05.000Z",
-            "sourceId": "haberturk"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T18:35:00.000Z",
-            "sourceId": "hurriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-14T18:35:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T18:44:44.000Z",
-            "sourceId": "sozcu"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-14T19:10:00.000Z",
-            "sourceId": "cumhuriyet"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/gundem/birecik-te-kepceyle-carpisan-otomobilde-cocuklar-yaralandi-anne-ve-baba-ise-hayatini-kaybetti-3927408",
-            "title": "Anne ve baba öldü, çocuklar yaralandı",
-            "summary": "Şanlıurfa'nın Birecik ilçesinde otomobilin kepçeyle çarpışması sonucu meydana gelen kazada, anne ve baba hayatını kaybetti, 2 çocuk yaralandı. Yaralı çocuklar hastaneye kaldırılırken, kazayla ilgili soruşturma başlatıldı",
-            "publishedAt": "2026-11-14T17:55:05.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794678876/3927408/jpg/1920x1080"
-          },
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/gundem/feci-kaza-is-makinasina-carpan-otomobildeki-cift-oldu-2-cocuk-yaralandi-43378634",
-            "title": "Feci kaza…. İş makinasına çarpan otomobildeki çift öldü, 2 çocuk yaralandı",
-            "summary": "ŞANLIURFA’nın Birecik ilçesinde otomobilin kepçeye arkadan çarpması sonucu meydana gelen trafik kazasında Abdullah Polat (37) ile eşi Seher Polat (33) hayatını kaybederken, araçta bulunan 2 çocuk yaralandı. Kaza anı kameraya yansıdı.",
-            "publishedAt": "2026-11-14T18:35:00.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af8aa0f3516f14679cc7f0b.jpg"
-          },
-          {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/kaza-sonrasi-ortalik-savas-alanina-dondu-anne-ve-baba-oldu-iki-cocuk-yaralandi-p381367",
-            "title": "Kaza sonrası ortalık savaş alanına döndü: Anne ve baba öldü, iki çocuk yaralandı",
-            "summary": "Şanlıurfa’nın Birecik ilçesinde kepçeye arkadan çarpan otomobilin sürücüsü Abdullah Polat ile eşi Seher Polat olay yerin...",
-            "publishedAt": "2026-11-14T18:44:44.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/106jpg-LXPO7KMHmUi3h2ZVt0rLIQ.jpg"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/turkiye/kepceye-carpan-otomobil-hurdaya-dondu-anne-ve-baba-oldu-2-cocuk-yaralandi-2556182",
-            "title": "Kepçeye çarpan otomobil hurdaya döndü: Anne ve baba öldü, 2 çocuk yaralandı",
-            "summary": "Şanlıurfa'nın Birecik ilçesinde otomobilin kepçeye arkadan çarptığı kazada Abdullah Polat (37) ile eşi Seher Polat (33) hayatını kaybetti, 5 ve 7 yaşlarındaki iki çocukları yaralandı.",
-            "publishedAt": "2026-11-14T19:10:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/e7fd3c27-e02d-4228-a924-4afb65e86781.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "a6ae8ca4e898812f",
         "language": "tr",
         "label": "confirmed",
@@ -1031,7 +920,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.81,
+        "score": 12.8,
         "firstSeenAt": "2026-11-14T11:03:18.000Z",
         "lastUpdatedAt": "2026-11-14T18:54:12.000Z",
         "image": {
@@ -1164,7 +1053,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.53,
+        "score": 12.52,
         "firstSeenAt": "2026-11-14T08:30:02.000Z",
         "lastUpdatedAt": "2026-11-14T15:29:57.000Z",
         "image": {
@@ -1292,7 +1181,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.47,
+        "score": 12.46,
         "firstSeenAt": "2026-11-14T09:17:29.000Z",
         "lastUpdatedAt": "2026-11-14T14:49:00.000Z",
         "image": {
@@ -1546,7 +1435,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.99,
+        "score": 10.98,
         "firstSeenAt": "2026-11-14T09:41:31.000Z",
         "lastUpdatedAt": "2026-11-14T21:04:35.000Z",
         "image": {
@@ -1637,7 +1526,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.99,
+        "score": 10.98,
         "firstSeenAt": "2026-11-14T20:49:00.000Z",
         "lastUpdatedAt": "2026-11-14T21:03:43.000Z",
         "image": {
@@ -1728,7 +1617,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.95,
+        "score": 10.94,
         "firstSeenAt": "2026-11-14T19:43:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:33:43.000Z",
         "image": {
@@ -1826,7 +1715,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.94,
+        "score": 10.93,
         "firstSeenAt": "2026-11-14T12:22:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:24:17.000Z",
         "image": {
@@ -1907,6 +1796,128 @@
             "imageUrl": "https://iaahbr.tmgrup.com.tr/fc957d/1200/1200/224/0/700/477?u=https://iahbr.tmgrup.com.tr/2026/11/14/bilal-erdogan-beyrutta-lubnan-basbakani-selam-ile-gorustu-1794687842773.png"
           }
         ]
+      },
+      {
+        "storyId": "cf68ad9e3a5594c9",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.87,
+        "firstSeenAt": "2026-11-14T10:59:28.000Z",
+        "lastUpdatedAt": "2026-11-14T19:44:13.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/8ba6/live/580c5210-e01a-11f1-ad34-45f8f10f7c55.jpg",
+          "sourceId": "bbc-turkce",
+          "sourceName": "BBC Türkçe",
+          "articleUrl": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-turkce",
+            "name": "BBC Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": false
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-14T10:59:28.000Z",
+            "sourceId": "bbc-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T17:57:24.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-14T17:57:24.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-14T19:44:13.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-turkce",
+            "url": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss",
+            "title": "ABD'de hava trafiğinin durdurulmasına ne yol açtı?",
+            "summary": "ABD'de hava trafik kontrolündeki \"iletişim sorunu\" nedeniyle yaklaşık dört saat boyunca ülkede tüm hava trafiği durduruldu. FlightAware verilerine göre, süreçte 8.500'den fazla uçuş ertelendi ve yaklaşık 8.000 uçuş iptal edildi.",
+            "publishedAt": "2026-11-14T10:59:28.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8ba6/live/580c5210-e01a-11f1-ad34-45f8f10f7c55.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/dunya/abdde-ucuslarin-durdurulmasi-kararinin-ardindan-hava-ulasimindaki-aksamalar-suruyor/4125365",
+            "title": "ABD'de uçuşların durdurulması kararının ardından hava ulaşımındaki aksamalar sürüyor",
+            "summary": "ABD'de hava trafik kontrol merkezlerini etkileyen bir iletişim sorunu nedeniyle ülke genelinde uçuşların 4 saatten fazla durdurulması sonrasında operasyonlar normale dönerken, hava ulaşımını etkileyen gecikme ve iptaller devam ediyor.",
+            "publishedAt": "2026-11-14T17:57:24.000Z"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/turkiye/abd-de-ucus-krizi-hava-ulasimindaki-aksamalar-suruyor-2556180",
+            "title": "ABD'de uçuş krizi: Hava ulaşımındaki aksamalar sürüyor",
+            "summary": "ABD'de hava trafik kontrol merkezlerini etkileyen bir iletişim sorunu nedeniyle ülke genelinde uçuşların 4 saatten fazla durdurulması sonrasında operasyonlar normale dönerken, hava ulaşımını etkileyen gecikme ve iptaller devam ediyor.",
+            "publishedAt": "2026-11-14T18:30:00.000Z",
+            "copyOf": "e5951400521e4449",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/73055c63-ec83-4f13-b102-01ccbfba774b.jpg"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/abd-de-ucuslar-yeniden-basladi-ama-binlerce-sefer-iptal-edilmeye-devam-ediyor-1395174",
+            "title": "ABD'de Uçuşlar Yeniden Başladı Ama Binlerce Sefer İptal Edilmeye Devam Ediyor",
+            "summary": "ABD'de hava trafik kontrol merkezlerini etkileyen iletişim arızası nedeniyle ülke genelinde 4 saatten fazla durdurulan uçuşlar yeniden başladı. Operasyonlar toparlanırken iptaller ve gecikmeler sürüyor, çok sayıda yolcu havalimanlarında mahsur kaldı. Yetkililer hava ulaşımının pazar günü mesai bitimine kadar tamamen normale dönmesini bekliyor.",
+            "publishedAt": "2026-11-14T19:07:10.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6af8b12b0b84f9b1617bdbbe/rev-0/w-1200/h-675/f-jpg/s-a03244b13b43293dca52350586ae3b1ab10ee275.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/dunya/abd-de-hava-trafigindeki-iletisim-arizasi-binlerce-ucusu-olumsuz-etkiledi-3927423",
+            "title": "ABD'de uçuş krizi sürüyor",
+            "summary": "ABD'de hava trafik kontrol sistemindeki iletişim sorunu nedeniyle uçuşların 4 saatten fazla durdurulmasının ardından hava ulaşımındaki aksamalar sürüyor. Ülke genelinde 4 binden fazla uçuş iptal edilirken, 3 binden fazla seferde gecikme yaşandı. Yetkililer, uçuş programlarının pazar günü tamamen normale dönmesini bekliyor",
+            "publishedAt": "2026-11-14T19:44:13.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/14/ver1794685424/3927423/jpg/1920x1080"
+          }
+        ]
       }
     ],
     "tech": [
@@ -1918,7 +1929,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 14.91,
+        "score": 14.9,
         "firstSeenAt": "2026-11-14T17:11:18.000Z",
         "lastUpdatedAt": "2026-11-14T20:03:48.000Z",
         "image": {
@@ -2211,7 +2222,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.91,
+        "score": 3.9,
         "firstSeenAt": "2026-11-14T20:04:44.000Z",
         "lastUpdatedAt": "2026-11-14T20:04:44.000Z",
         "sources": [
@@ -2396,7 +2407,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.62,
+        "score": 3.61,
         "firstSeenAt": "2026-11-14T16:34:15.000Z",
         "lastUpdatedAt": "2026-11-14T16:34:15.000Z",
         "sources": [
@@ -2470,7 +2481,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.43,
+        "score": 3.42,
         "firstSeenAt": "2026-11-14T14:18:36.000Z",
         "lastUpdatedAt": "2026-11-14T14:18:36.000Z",
         "sources": [
@@ -2507,7 +2518,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.4,
+        "score": 3.39,
         "firstSeenAt": "2026-11-14T14:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T14:00:00.000Z",
         "sources": [
@@ -2544,7 +2555,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.32,
+        "score": 3.31,
         "firstSeenAt": "2026-11-14T13:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T13:00:00.000Z",
         "image": {
@@ -2588,7 +2599,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.32,
+        "score": 3.31,
         "firstSeenAt": "2026-11-14T13:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T13:00:00.000Z",
         "sources": [
@@ -2625,7 +2636,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.26,
+        "score": 3.25,
         "firstSeenAt": "2026-11-14T12:15:48.000Z",
         "lastUpdatedAt": "2026-11-14T12:15:48.000Z",
         "image": {
@@ -2671,7 +2682,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 14.96,
+        "score": 14.95,
         "firstSeenAt": "2026-11-14T10:30:04.000Z",
         "lastUpdatedAt": "2026-11-14T20:41:45.000Z",
         "image": {
@@ -2799,7 +2810,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 14.91,
+        "score": 14.9,
         "firstSeenAt": "2026-11-14T17:11:18.000Z",
         "lastUpdatedAt": "2026-11-14T20:03:48.000Z",
         "image": {
@@ -2935,7 +2946,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.82,
+        "score": 10.81,
         "firstSeenAt": "2026-11-14T17:58:57.000Z",
         "lastUpdatedAt": "2026-11-14T19:01:32.000Z",
         "image": {
@@ -3189,7 +3200,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.85,
+        "score": 8.84,
         "firstSeenAt": "2026-11-14T11:17:58.000Z",
         "lastUpdatedAt": "2026-11-14T19:20:11.000Z",
         "image": {
@@ -3346,7 +3357,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.74,
+        "score": 8.73,
         "firstSeenAt": "2026-11-14T16:35:52.000Z",
         "lastUpdatedAt": "2026-11-14T18:02:53.000Z",
         "image": {
@@ -3415,7 +3426,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.68,
+        "score": 8.67,
         "firstSeenAt": "2026-11-14T10:25:22.000Z",
         "lastUpdatedAt": "2026-11-14T17:19:00.000Z",
         "image": {
@@ -3590,7 +3601,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.93,
         "firstSeenAt": "2026-11-14T20:26:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:26:00.000Z",
         "sources": [
@@ -3671,7 +3682,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.92,
+        "score": 3.91,
         "firstSeenAt": "2026-11-14T20:14:27.000Z",
         "lastUpdatedAt": "2026-11-14T20:14:27.000Z",
         "sources": [
@@ -3709,7 +3720,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.92,
+        "score": 3.91,
         "firstSeenAt": "2026-11-14T20:14:10.000Z",
         "lastUpdatedAt": "2026-11-14T20:14:10.000Z",
         "sources": [
@@ -3817,7 +3828,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.47,
+        "score": 3.46,
         "firstSeenAt": "2026-11-14T14:46:26.000Z",
         "lastUpdatedAt": "2026-11-14T14:46:26.000Z",
         "image": {
@@ -3861,7 +3872,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.43,
+        "score": 3.42,
         "firstSeenAt": "2026-11-14T14:18:00.000Z",
         "lastUpdatedAt": "2026-11-14T14:18:00.000Z",
         "image": {
@@ -3993,7 +4004,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.3,
+        "score": 3.29,
         "firstSeenAt": "2026-11-14T12:47:28.000Z",
         "lastUpdatedAt": "2026-11-14T12:47:28.000Z",
         "image": {
@@ -4081,7 +4092,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.92,
+        "score": 1.91,
         "firstSeenAt": "2026-11-14T20:10:06.000Z",
         "lastUpdatedAt": "2026-11-14T20:10:06.000Z",
         "image": {
@@ -4169,7 +4180,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.89,
+        "score": 1.88,
         "firstSeenAt": "2026-11-14T19:51:36.000Z",
         "lastUpdatedAt": "2026-11-14T19:51:36.000Z",
         "image": {
@@ -4213,7 +4224,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.89,
+        "score": 1.88,
         "firstSeenAt": "2026-11-14T19:50:32.000Z",
         "lastUpdatedAt": "2026-11-14T19:50:32.000Z",
         "image": {
@@ -4257,7 +4268,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.89,
+        "score": 1.88,
         "firstSeenAt": "2026-11-14T19:49:56.000Z",
         "lastUpdatedAt": "2026-11-14T19:49:56.000Z",
         "image": {
@@ -4301,7 +4312,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.87,
+        "score": 1.86,
         "firstSeenAt": "2026-11-14T19:36:07.000Z",
         "lastUpdatedAt": "2026-11-14T19:36:07.000Z",
         "image": {
@@ -4345,7 +4356,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.85,
+        "score": 1.84,
         "firstSeenAt": "2026-11-14T19:21:15.000Z",
         "lastUpdatedAt": "2026-11-14T19:21:15.000Z",
         "image": {
@@ -4389,7 +4400,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.67,
+        "score": 1.66,
         "firstSeenAt": "2026-11-14T17:11:27.000Z",
         "lastUpdatedAt": "2026-11-14T17:11:27.000Z",
         "image": {
@@ -4739,7 +4750,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.56,
+        "score": 10.55,
         "firstSeenAt": "2026-11-14T15:18:12.000Z",
         "lastUpdatedAt": "2026-11-14T15:53:00.000Z",
         "image": {
@@ -5039,7 +5050,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.96,
+        "score": 8.95,
         "firstSeenAt": "2026-11-14T10:00:00.000Z",
         "lastUpdatedAt": "2026-11-14T20:40:35.000Z",
         "image": {
@@ -5181,7 +5192,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.76,
+        "score": 8.75,
         "firstSeenAt": "2026-11-14T07:31:25.000Z",
         "lastUpdatedAt": "2026-11-14T18:17:17.000Z",
         "image": {
@@ -5326,7 +5337,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.61,
+        "score": 8.6,
         "firstSeenAt": "2026-11-14T07:22:00.000Z",
         "lastUpdatedAt": "2026-11-14T16:26:49.000Z",
         "image": {
@@ -5396,7 +5407,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.33,
+        "score": 8.32,
         "firstSeenAt": "2026-11-14T13:01:00.000Z",
         "lastUpdatedAt": "2026-11-14T13:07:33.000Z",
         "image": {
@@ -5466,7 +5477,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.98,
+        "score": 3.97,
         "firstSeenAt": "2026-11-14T20:56:46.000Z",
         "lastUpdatedAt": "2026-11-14T20:56:46.000Z",
         "image": {
@@ -5622,7 +5633,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.76,
+        "score": 8.75,
         "firstSeenAt": "2026-11-14T07:31:25.000Z",
         "lastUpdatedAt": "2026-11-14T18:17:17.000Z",
         "image": {
@@ -5770,7 +5781,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.94,
+        "score": 3.93,
         "firstSeenAt": "2026-11-14T08:16:20.000Z",
         "lastUpdatedAt": "2026-11-14T20:27:37.000Z",
         "image": {
