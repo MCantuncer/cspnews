@@ -1,0 +1,58 @@
+name: Outlet logos
+
+# Saves the logo of every source that has none yet, where outlet sites can be reached
+# (docs/publishing.md, step 4), and commits them to the branch it runs on:
+#
+#   data/bulletins/media/logos/<source id>.<ext> and logos.json
+#
+# Runs on a pull request that changes the sources, and by hand from the Actions tab.
+
+on:
+  pull_request:
+    paths:
+      - 'packages/config/src/sources.ts'
+      - 'packages/config/src/fetch-logos.ts'
+      - '.github/workflows/logos.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: logos-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  logos:
+    # A pull request from a fork cannot be pushed to.
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/config... build
+
+      - name: Save the missing logos
+        run: pnpm --filter @cspnews/config fetch-logos "$PWD/data/bulletins/media/logos"
+
+      - name: Commit them
+        env:
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          git config user.name "$(git log -1 --format=%an)"
+          git config user.email "$(git log -1 --format=%ae)"
+          git add data/bulletins/media/logos
+          if git diff --cached --quiet; then
+            echo "No new logos."
+          else
+            git commit -m "Save the new outlet logos"
+            git push origin "HEAD:$BRANCH"
+          fi

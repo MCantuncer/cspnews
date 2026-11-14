@@ -1,0 +1,25 @@
+---
+/**
+ * An outlet's saved logo beside its name in a source list. Decorative: the name next to it is
+ * the text. Nothing is drawn when the outlet has no saved logo.
+ */
+interface Props {
+  src: string | undefined;
+}
+
+const { src } = Astro.props;
+---
+
+{src && <img class="outlet-logo" src={src} alt="" width="22" height="22" loading="lazy" decoding="async" />}
+
+<style>
+  /* Logos are drawn for white, so they sit on white in both themes. */
+  .outlet-logo {
+    flex: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: contain;
+  }
+</style>
