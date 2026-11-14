@@ -247,7 +247,7 @@ function isHeavy(story: Story): boolean {
 export function toDeskCandidates(
   stories: readonly Story[],
   sources: ReadonlyMap<string, Source>,
-  { now, perDesk = 12, perLightDesk = 32, people = [], phrases = [] }: DeskCandidateOptions,
+  { now, perDesk = 12, perLightDesk = 40, people = [], phrases = [] }: DeskCandidateOptions,
 ): Record<Desk, Candidate[]> {
   const desks: Record<Desk, Candidate[]> = { light: [], transfers: [], abroad: [] };
 
