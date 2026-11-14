@@ -1,0 +1,1269 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-14T14:15:00+03:00",
+  "writtenAt": "2026-11-14T11:07:10.000Z",
+  "stories": [
+    {
+      "id": "43c9ce68af4847f7",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "YENİ Parti holds first congress",
+          "title": "Özgür Özel’s YENİ Parti opens its first congress in Ankara as seven jailed Istanbul mayors announce they are joining",
+          "summary": {
+            "what": "YENİ Parti, set up in July by Özgür Özel after a court removed him as CHP leader, opened its first congress in Ankara with Özel the only candidate for chair.",
+            "why": "It is the party’s first test as a separate force: seven jailed Istanbul district mayors joined, and Özel set out a bid for power.",
+            "next": "Delegates elect the chair on Saturday and the party assembly on Sunday, Diken reports."
+          },
+          "body": [
+            {
+              "subhead": "A first congress",
+              "blocks": [
+                {
+                  "text": "YENİ Parti opened its first ordinary congress in Ankara on Saturday under the slogan “Türkiye Yenileniyor” (Türkiye is renewing), Cumhuriyet, Diken, Hürriyet and other outlets reported. About 1,200 delegates are taking part, and Özgür Özel is the only candidate for party chair: no other application reached the presiding board within the 30 minutes it allowed, Cumhuriyet said. According to Diken, the chair is elected on Saturday and the party assembly on Sunday; delegates voted unanimously to elect the assembly and the disciplinary board on a single block list."
+                },
+                {
+                  "text": "Özel and his team founded the party on 24 July 2026. In May an appeals court annulled the CHP congress that had made him leader three years earlier, removed him and his executive and ordered Kemal Kılıçdaroğlu back as chair, Diken recalled. The former SHP leader Murat Karayalçın chairs the congress, Hürriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Jailed mayors join",
+              "blocks": [
+                {
+                  "text": "Seven jailed Istanbul district mayors announced in a joint message, read out by deputy chair Yaşar Tüzün, that they were joining YENİ Parti under Özel’s leadership, Medyascope, Diken and Cumhuriyet reported. An AI-made video message from the jailed Istanbul mayor Ekrem İmamoğlu was shown in the hall, alongside messages from the Spanish prime minister Pedro Sánchez, president of the Socialist International, and Stefan Löfven, president of the Party of European Socialists."
+                },
+                {
+                  "text": "Every party except the CHP was invited, Diken and Sözcü reported, and the MHP leader Devlet Bahçeli sent a wreath. Diken saw a sign in the hall aimed at Kılıçdaroğlu that read “we do not forgive you”."
+                }
+              ]
+            },
+            {
+              "subhead": "Özel aims for power",
+              "blocks": [
+                {
+                  "text": "In his speech Özel promised to root out favouritism in the public sector and spoke of the people still in jail."
+                },
+                {
+                  "quote": "We will set free all the innocent people lying in prison. The political conspiracy case has collapsed. All our friends must be released.",
+                  "speaker": "Özgür Özel, YENİ Parti chair",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "quote": "We have the courage to win this election and the skill to govern Türkiye.",
+                  "speaker": "Özgür Özel, YENİ Parti chair",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                },
+                {
+                  "text": "He ended by reading a poem of his own, “İçimdeki Memleket” (The Homeland Within Me), Cumhuriyet reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Delegates voting",
+              "value": "1,202",
+              "source": "Diken"
+            },
+            {
+              "label": "Jailed mayors joining",
+              "value": "7",
+              "source": "Medyascope, Diken, Cumhuriyet"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "YENİ Parti ilk kurultayında",
+          "title": "Özgür Özel’in YENİ Parti’si ilk kurultayını Ankara’da topladı, tutuklu yedi İstanbul ilçe belediye başkanı partiye katıldı",
+          "summary": {
+            "what": "Özgür Özel’in CHP genel başkanlığından mahkeme kararıyla uzaklaştırılmasının ardından temmuzda kurduğu YENİ Parti, ilk kurultayını Ankara’da topladı; Özel tek aday.",
+            "why": "Parti ayrı bir güç olarak ilk sınavını veriyor: tutuklu yedi İstanbul ilçe belediye başkanı katıldı, Özel iktidar hedefini açıkladı.",
+            "next": "Diken’e göre genel başkan cumartesi, Parti Meclisi pazar günü seçilecek."
+          },
+          "body": [
+            {
+              "subhead": "İlk kurultay",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet, Diken, Hürriyet ve diğer yayın organlarının aktardığına göre YENİ Parti, 1. Olağan Kurultayı’nı cumartesi günü “Türkiye Yenileniyor” sloganıyla Ankara’da açtı. Kurultaya yaklaşık 1.200 delege katılıyor. Cumhuriyet’e göre Başkanlık Divanı’nın tanıdığı 30 dakikalık sürede başka başvuru gelmeyince Özgür Özel genel başkanlık için tek aday oldu. Diken’e göre genel başkan cumartesi, Parti Meclisi pazar günü seçilecek; delegeler PM ve Yüksek Disiplin Kurulu seçimlerinin blok listeyle yapılmasını oy birliğiyle kabul etti."
+                },
+                {
+                  "text": "Diken’in hatırlattığına göre Ankara Bölge Adliye Mahkemesi mayısta Özel’in üç yıl önce genel başkan seçildiği CHP kurultayını iptal etmiş, Özel ve yönetimini görevden uzaklaştırıp Kemal Kılıçdaroğlu’nu yeniden genel başkanlığa getirmişti. Özel ve ekibi partiyi 24 Temmuz 2026’da kurdu. Hürriyet’e göre kurultayın divan başkanlığını eski SHP Genel Başkanı Murat Karayalçın yapıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Tutuklu başkanlar katıldı",
+              "blocks": [
+                {
+                  "text": "Medyascope, Diken ve Cumhuriyet’in haberine göre tutuklu yedi İstanbul ilçe belediye başkanı, Genel Başkan Yardımcısı Yaşar Tüzün’ün okuduğu ortak mesajla Özel liderliğinde YENİ Parti’ye katıldıklarını duyurdu. Salonda tutuklu İBB Başkanı Ekrem İmamoğlu’nun yapay zekâyla hazırlanmış video mesajı izletildi; Sosyalist Enternasyonal Başkanı ve İspanya Başbakanı Pedro Sánchez ile Avrupa Sosyalist Partisi Başkanı Stefan Löfven de mesaj gönderdi."
+                },
+                {
+                  "text": "Diken ve Sözcü’ye göre CHP dışındaki tüm partiler davet edildi; MHP Genel Başkanı Devlet Bahçeli çelenk gönderdi. Diken, salonda Kılıçdaroğlu için “Hakkımızı helal etmiyoruz” yazılı bir kâğıt asıldığını aktardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Hedef iktidar",
+              "blocks": [
+                {
+                  "text": "Özel konuşmasında kamuda torpili kökünden kazıma sözü verdi ve cezaevindekilere seslendi."
+                },
+                {
+                  "quote": "Cezaevinde yatan tüm masumları özgür kılacağız. Siyasi kumpas davası çökmüştür. Tüm arkadaşlarımız tahliye edilmelidir.",
+                  "speaker": "Özgür Özel, YENİ Parti Genel Başkanı",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "quote": "Biz bu seçimi kazanacak cesarete, Türkiye’yi yönetecek maharete sahibiz.",
+                  "speaker": "Özgür Özel, YENİ Parti Genel Başkanı",
+                  "sourceId": "cumhuriyet"
+                },
+                {
+                  "text": "Cumhuriyet’e göre Özel konuşmasını kendi yazdığı “İçimdeki Memleket” adlı şiiri okuyarak bitirdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Oy kullanacak delege",
+              "value": "1.202",
+              "source": "Diken"
+            },
+            {
+              "label": "Katılan tutuklu belediye başkanı",
+              "value": "7",
+              "source": "Medyascope, Diken, Cumhuriyet"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-14T06:50:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T08:07:32.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-14T08:07:32.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T08:16:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T08:50:02.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T09:23:48.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T09:27:30.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T10:20:57.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T10:55:48.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/24d0711f-305d-4108-82cd-2acb9a7784f8.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/yeni-parti-1-inci-olagan-kurultayi-basladi-genel-baskanlik-secimi-bekleniyor-2556056"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/yeni-parti-1-inci-olagan-kurultayi-basladi-genel-baskanlik-secimi-bekleniyor-2556056",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/yeni-partide-ilk-kurultay/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/yeni-partide-kurultay-gunu-chpye-davet-gonderilmedi-43377923",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/yeni-parti-de-kurultay-gunu-27-partiye-davet-gitti-1-parti-haric-p381220",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-yeni-parti-chp-yi-davet-etmedi-yeni-parti-kurultay-son-dakika-3927271",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/14/yedi-tutuklu-belediye-baskani-yeni-partiye-katildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cq1k9n3d3vrvo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-yeni-parti-ilk-kurultayini-yapiyor-1750828",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-14T14:15:00+03:00",
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    },
+    {
+      "id": "5d10ff24a9def8db",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Mecca defence pact takes effect",
+          "title": "Türkiye’s joint defence pact with Pakistan and Saudi Arabia takes effect after its law appears in the Official Gazette",
+          "summary": {
+            "what": "The law approving the Mecca Agreement for Joint Defence between Türkiye, Pakistan and Saudi Arabia was published in the Official Gazette on 14 November and took effect.",
+            "why": "Under the pact an attack on one of the three counts as an attack on all, BBC Türkçe reports, a commitment the opposition says could drag Türkiye into others’ wars.",
+            "next": "The president is responsible for carrying out the law; the three armed forces are to step up coordination and defence industry work."
+          },
+          "body": [
+            {
+              "subhead": "In force",
+              "blocks": [
+                {
+                  "text": "The law approving the Mecca Agreement for Joint Defence between Türkiye, Pakistan and Saudi Arabia was published in the 14 November issue of the Official Gazette and took effect the same day, A Haber, Cumhuriyet, Sözcü, Habertürk, BBC Türkçe and other outlets reported. President Recep Tayyip Erdoğan, Pakistan’s prime minister Shehbaz Sharif and Saudi Crown Prince and Prime Minister Mohammed bin Salman signed the 16-article pact in Mecca on 7 August, according to BBC Türkçe and Euronews Türkçe."
+                },
+                {
+                  "text": "Parliament approved Law No. 7597 earlier this month; Cumhuriyet dates the vote to 5 November and BBC Türkçe to 6 November. BBC Türkçe said 279 MPs voted for and 119 against, with the AKP, MHP and CHP in favour and YENİ Parti, İYİ Parti, Yeniden Refah, DEM Parti and Saadet against."
+                }
+              ]
+            },
+            {
+              "subhead": "What it commits to",
+              "blocks": [
+                {
+                  "text": "Under the agreement an attack on one country counts as an attack on all three, and cooperation grows in joint production, intelligence sharing, counter-terrorism and the defence industry, BBC Türkçe reported. A Haber said the pact aims to raise the three countries’ collective deterrence against shared threats and improve coordination between their armed forces."
+                },
+                {
+                  "text": "The government cites regional stability, collective deterrence and the needs of self-defence. Foreign Minister Hakan Fidan wrote in Anadolu Agency’s monthly AA Brifing that Türkiye had joined “to strengthen common security”, BBC Türkçe reported."
+                }
+              ]
+            },
+            {
+              "subhead": "The opposition’s objections",
+              "blocks": [
+                {
+                  "text": "Opposition parties argued in committee and in the general assembly that the pact had been put into practice before parliament approved it, pointing to meetings held under it and a decision to give military support to Saudi Arabia, which they called unconstitutional, according to BBC Türkçe."
+                },
+                {
+                  "text": "They also said the alliance could pull Türkiye into conflicts and crises facing Pakistan and Saudi Arabia and create new military blocs rather than stability, and that the government had not shown what it adds to the protection Türkiye already has as a NATO member. Opposition speakers warned that the Houthis already describe the Mecca alliance countries as a threat, which they said could put Türkiye’s military presence in Somalia at risk."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "MPs voting for",
+              "value": "279",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "MPs voting against",
+              "value": "119",
+              "source": "BBC Türkçe"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Mekke Anlaşması yürürlüğe girdi",
+          "title": "Türkiye, Pakistan ve Suudi Arabistan arasındaki Mekke Ortak Savunma Anlaşması Resmî Gazete’de yayımlanarak yürürlüğe girdi",
+          "summary": {
+            "what": "Ortak Savunma İçin Mekke Anlaşması’nın onaylanmasını uygun bulan kanun 14 Kasım tarihli Resmî Gazete’de yayımlanarak yürürlüğe girdi.",
+            "why": "BBC Türkçe’ye göre anlaşmayla üç ülkeden birine yapılan saldırı hepsine yapılmış sayılacak; muhalefet bunun Türkiye’yi başkalarının savaşlarına çekebileceğini söylüyor.",
+            "next": "Kanunun hükümlerini Cumhurbaşkanı yürütecek; üç ülkenin silahlı kuvvetleri arasında koordinasyon ve savunma sanayii iş birliği artacak."
+          },
+          "body": [
+            {
+              "subhead": "Yürürlükte",
+              "blocks": [
+                {
+                  "text": "A Haber, Cumhuriyet, Sözcü, Habertürk, BBC Türkçe ve diğer yayın organlarının aktardığına göre Türkiye, Pakistan ve Suudi Arabistan arasındaki Ortak Savunma İçin Mekke Anlaşması’nın onaylanmasını uygun bulan kanun, Resmî Gazete’nin 14 Kasım tarihli sayısında yayımlanarak yürürlüğe girdi. BBC Türkçe ve Euronews Türkçe’ye göre 16 maddelik anlaşmayı 7 Ağustos’ta Mekke’de Cumhurbaşkanı Recep Tayyip Erdoğan, Pakistan Başbakanı Şahbaz Şerif ve Suudi Arabistan Veliaht Prensi ve Başbakanı Muhammed bin Selman imzalamıştı."
+                },
+                {
+                  "text": "7597 sayılı kanun bu ay TBMM Genel Kurulu’nda kabul edildi; Cumhuriyet oylamanın tarihini 5 Kasım, BBC Türkçe 6 Kasım olarak veriyor. BBC Türkçe’ye göre 279 milletvekili kabul, 119 milletvekili ret oyu verdi; AKP, MHP ve CHP lehte, YENİ Parti, İYİ Parti, Yeniden Refah, DEM Parti ve Saadet aleyhte oy kullandı."
+                }
+              ]
+            },
+            {
+              "subhead": "Anlaşma neler getiriyor",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’nin aktardığına göre anlaşmayla bir ülkeye yapılan saldırı üç ülkeye de yapılmış sayılacak; ortak üretim, istihbarat paylaşımı, terörle mücadele ve savunma sanayiinde iş birliği güçlenecek. A Haber’e göre anlaşma, ortak tehditlere karşı kolektif caydırıcılığı artırmayı ve silahlı kuvvetler arasındaki koordinasyonu geliştirmeyi amaçlıyor."
+                },
+                {
+                  "text": "Hükümet gerekçe olarak bölgesel istikrarı, kolektif caydırıcılığı ve meşru müdafaa gereksinimlerini gösteriyor. BBC Türkçe’ye göre Dışişleri Bakanı Hakan Fidan, AA Brifing dergisine yazdığı yazıda anlaşmaya “müşterek güvenliği güçlendirmek için” dahil olduklarını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Muhalefetin itirazları",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’ye göre muhalefet partileri Dışişleri Komisyonu’nda ve Genel Kurul’da anlaşmanın Meclis onayından önce uygulandığını savundu; bu kapsamda toplantılar yapıldığını ve Suudi Arabistan’a askeri destek kararı alındığını hatırlatarak bunun anayasaya aykırı olduğunu söyledi."
+                },
+                {
+                  "text": "Muhalefet ayrıca ittifakın Türkiye’yi Pakistan ve Suudi Arabistan’ın krizlerine çekebileceğini, istikrardan çok yeni askeri kamplaşmalar doğuracağını ve hükümetin NATO üyeliğinin sağladığı güvenceye ne katacağını gösteremediğini öne sürdü. Muhalefet sözcüleri, Husilerin Mekke İttifakı ülkelerini şimdiden tehdit olarak gördüğünü ve bunun Türkiye’nin Somali’deki askeri varlığını riske atabileceğini belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kabul oyu",
+              "value": "279",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Ret oyu",
+              "value": "119",
+              "source": "BBC Türkçe"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T21:09:07.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T21:15:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T21:15:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T21:43:10.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T21:58:32.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T22:59:46.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T07:30:26.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T10:15:02.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/14/mekke-anlasmasi-resmi-gazetede-yayimlanarak-yururluge-girdi",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/mekke-anlasmasi-resmi-gazete-de-yayimlanarak-yururluge-girdi-2556032",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-mekke-anlasmasi-resmi-gazete-de-yayimlandi-p381153",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-mekke-anlasmasi-resmi-gazete-de-3927254",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cm3elqk438e2o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/mekke-savunma-anlasmasi-yururluge-girdi-1750772",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/mekke-anlasmasi-yururlukte/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/14/mekke-anlasmasi-yururlukte-turkiye-suudi-arabistan-ve-pakistan-arasinda-askeri-is-birligi-",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-14T14:15:00+03:00",
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    },
+    {
+      "id": "faa-ground-stop-cause",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Old equipment blamed for US groundings",
+          "title": "US officials blame overloaded decades-old equipment for the nationwide ground stop, as cancellations run into Saturday",
+          "summary": {
+            "what": "The FAA lifted its nationwide ground stop on Friday night after more than four hours; officials blamed new technology overloading old telecoms equipment, not a cyber-attack.",
+            "why": "It was the longest US shutdown since 11 September 2001, and thousands more flights were cancelled on Saturday as airlines tried to recover.",
+            "next": "Officials expect normal operations in time for the Thanksgiving rush; the administration has asked Congress for $30.1 billion to modernise air traffic control."
+          },
+          "body": [
+            {
+              "subhead": "Airspace reopened",
+              "blocks": [
+                {
+                  "text": "The Federal Aviation Administration lifted its nationwide ground stop at about 8:15pm Eastern time on Friday, more than four hours after it was issued at 3:44pm, The Verge and France 24 reported. Transportation Secretary Sean Duffy said the airspace had reopened “after restoring full functionality” at air traffic control facilities."
+                },
+                {
+                  "quote": "It will take us time (to) resume normal operations… Our top priority is the safety of you and your family when you fly.",
+                  "speaker": "Sean Duffy, US transportation secretary",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "France 24 called it the longest nationwide stop since the 9/11 attacks, and only the second time since then that every departure had been halted."
+                }
+              ]
+            },
+            {
+              "subhead": "What went wrong",
+              "blocks": [
+                {
+                  "text": "Trump administration officials said new technology being added to the air traffic control system had overloaded antiquated equipment, causing “intermittent” communication and radar gaps, France 24 reported. They said there was no evidence of foul play, and that the disruption was caused neither by a cyber-attack nor by this week’s Microsoft outage."
+                },
+                {
+                  "quote": "This is a legacy system problem. We have old, old switches, old routers. We use 1980s little copper lines.",
+                  "speaker": "Sean Duffy, US transportation secretary",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "Earlier in the week the administration had rolled out an AI-powered tool for air traffic controllers, TechCrunch noted, though it was unclear whether it was linked."
+                }
+              ]
+            },
+            {
+              "subhead": "Counting the cost",
+              "blocks": [
+                {
+                  "text": "Counts differ by tracker and time. The Guardian, citing Flightradar24, put Friday’s toll at more than 6,600 cancellations and 8,600 delays, with 1,500 flights already cancelled for Sunday. France 24 later said more than 8,200 flights, over 31% of those scheduled, were cancelled, and more than 2,000 more on Saturday. Al Jazeera said over 1.5 million passengers faced disruption, and sports teams scrambled for other transport."
+                },
+                {
+                  "text": "The effects reached abroad: at least 17 flights to and from Hong Kong were cancelled or delayed, and its airport warned of two more days of disruption, the South China Morning Post reported, while US-bound flights from Sydney and Melbourne were held up, the Guardian said."
+                }
+              ]
+            },
+            {
+              "subhead": "Pressure to modernise",
+              "blocks": [
+                {
+                  "text": "On the day of the outage Duffy had urged Congress to “act swiftly” on a $30.1 billion request to update the system, on top of $12.5 billion approved last year, Wired and France 24 reported."
+                },
+                {
+                  "text": "Susan Hotle, a transportation engineering professor at Virginia Tech who worked at the FAA, told Wired the outage “really points to how much we need to modernize our air traffic control system”."
+                },
+                {
+                  "quote": "Right now all it takes is for one system to go out, and it affects a wide region at once.",
+                  "speaker": "Susan Hotle, Virginia Tech professor and former FAA staffer",
+                  "sourceId": "wired"
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "ABD’deki kalkış yasağında eski ekipman",
+          "title": "ABD’li yetkililer ülke çapındaki kalkış yasağını aşırı yüklenen eski ekipmana bağladı, iptaller cumartesi de sürdü",
+          "summary": {
+            "what": "FAA, ülke çapındaki kalkış yasağını cuma gecesi dört saati aşan bir sürenin ardından kaldırdı; yetkililer siber saldırıyı değil, eski ekipmanı aşırı yükleyen yeni teknolojiyi sorumlu tuttu.",
+            "why": "11 Eylül 2001’den bu yana ABD’deki en uzun kesintiydi; havayolları toparlanmaya çalışırken cumartesi binlerce uçuş daha iptal edildi.",
+            "next": "Yetkililer Şükran Günü yoğunluğuna kadar sistemin normale dönmesini bekliyor; yönetim modernizasyon için Kongre’den 30,1 milyar dolar istedi."
+          },
+          "body": [
+            {
+              "subhead": "Hava sahası açıldı",
+              "blocks": [
+                {
+                  "text": "The Verge ve France 24’ün haberine göre Federal Havacılık İdaresi (FAA), saat 15.44’te (ABD doğu saati) ilan ettiği ülke çapındaki kalkış yasağını dört saati aşkın sürenin ardından cuma akşamı 20.15 civarında kaldırdı. Ulaştırma Bakanı Sean Duffy, hava trafik kontrol tesislerinde “tam işlevsellik yeniden sağlandıktan sonra” hava sahasının açıldığını söyledi."
+                },
+                {
+                  "quote": "Normal operasyonlara dönmemiz zaman alacak… Önceliğimiz, uçtuğunuzda sizin ve ailenizin güvenliği.",
+                  "speaker": "Sean Duffy, ABD Ulaştırma Bakanı",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "France 24’e göre bu, 11 Eylül saldırılarından bu yana ülke çapındaki en uzun kesinti; o günden beri tüm kalkışların ikinci kez durdurulması."
+                }
+              ]
+            },
+            {
+              "subhead": "Ne oldu",
+              "blocks": [
+                {
+                  "text": "France 24’ün aktardığına göre Trump yönetimindeki yetkililer, hava trafik kontrol sistemine eklenen yeni teknolojinin eskimiş ekipmanı aşırı yüklediğini ve “aralıklı” iletişim ve radar boşluklarına yol açtığını söyledi. Yetkililere göre kötü niyetli bir müdahaleye dair kanıt yok; kesintinin nedeni ne siber saldırı ne de bu haftaki Microsoft kesintisi."
+                },
+                {
+                  "quote": "Bu eski sistem sorunu. Çok eski anahtarlarımız, eski router’larımız var. 1980’lerden kalma ince bakır hatlar kullanıyoruz.",
+                  "speaker": "Sean Duffy, ABD Ulaştırma Bakanı",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch, yönetimin aynı hafta hava trafik kontrolörleri için yapay zekâ destekli bir araç devreye aldığını, ancak kesintiyle bağlantısının belli olmadığını hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Bilanço",
+              "blocks": [
+                {
+                  "text": "Rakamlar kaynağa ve saate göre değişiyor. Flightradar24’e dayanan Guardian’a göre cuma günü 6.600’den fazla uçuş iptal edildi, 8.600 uçuş gecikti; pazar için de 1.500 uçuş şimdiden iptal edildi. France 24 daha sonra iptallerin 8.200’ü, yani planlanan uçuşların yüzde 31’ini aştığını, cumartesi de 2.000’den fazla iptal olduğunu bildirdi. Al Jazeera’ya göre 1,5 milyondan fazla yolcu etkilendi; spor takımları başka ulaşım yolları aradı."
+                },
+                {
+                  "text": "Etkiler yurt dışına da yayıldı: South China Morning Post’a göre Hong Kong’a gidip gelen en az 17 uçuş iptal edildi ya da ertelendi, havalimanı iki gün daha aksama uyarısı yaptı. Guardian’a göre Sidney ve Melbourne’den ABD’ye giden uçuşlar da gecikti."
+                }
+              ]
+            },
+            {
+              "subhead": "Modernizasyon baskısı",
+              "blocks": [
+                {
+                  "text": "Wired ve France 24’e göre Duffy, kesintinin yaşandığı gün Kongre’den, geçen yıl onaylanan 12,5 milyar dolara ek olarak sistemi yenilemek için istenen 30,1 milyar doları “hızla” onaylamasını istemişti."
+                },
+                {
+                  "text": "FAA’da da çalışmış Virginia Tech ulaştırma mühendisliği profesörü Susan Hotle, Wired’a kesintinin hava trafik kontrol sistemini modernleştirme ihtiyacını “gerçekten gösterdiğini” söyledi."
+                },
+                {
+                  "quote": "Şu anda tek bir sistemin çökmesi, geniş bir bölgeyi aynı anda etkilemeye yetiyor.",
+                  "speaker": "Susan Hotle, Virginia Tech öğretim üyesi, eski FAA çalışanı",
+                  "sourceId": "wired",
+                  "translated": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T21:29:31.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T21:33:43.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-13T21:33:43.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T21:42:57.000Z",
+          "sourceId": "wired"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-13T21:44:38.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T01:47:36.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T01:53:04.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T02:15:53.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T05:42:41.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg",
+        "sourceId": "wired",
+        "sourceName": "Wired",
+        "articleUrl": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+          "confirms": true
+        },
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hacker-news",
+          "url": "https://grounds.top/",
+          "confirms": false
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-14T14:15:00+03:00",
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    },
+    {
+      "id": "96048276e5de0ccf",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Amazon plans index of all products",
+          "title": "Amazon is planning a “World Product Graph” to list every product sold online, including ones it doesn’t sell, Reuters reports",
+          "summary": {
+            "what": "An internal Amazon document describes a database of every product sold anywhere on the internet, to be shown on Amazon’s own site, The Verge reports, citing Reuters.",
+            "why": "The aim is to keep shoppers and AI shopping agents from doing their research on Reddit or Google, and to fix Amazon’s own error-prone shopping assistant.",
+            "next": "Reuters says it is unclear if or when the plan will happen; the document gives a release date of 1 October 2027."
+          },
+          "body": [
+            {
+              "subhead": "A catalogue of everything",
+              "blocks": [
+                {
+                  "text": "Amazon is planning to build a store of data on every product sold anywhere on the internet, including products Amazon itself does not sell, and to make that information available through its own site, The Verge reported, citing Reuters. The project is called the “World Product Graph”."
+                },
+                {
+                  "text": "According to the report, the goal is to make shoppers less likely to leave Amazon to research products on Reddit or Google, and more likely to end up on Amazon even when they are looking for something sold elsewhere. Links to other retailers’ products already appear on Amazon through the “shop direct” feature it launched last year. In effect, Amazon wants product searches to start on its pages wherever the purchase is finally made."
+                }
+              ]
+            },
+            {
+              "subhead": "Built for AI agents too",
+              "blocks": [
+                {
+                  "text": "The same logic applies to AI agents, which increasingly shop on people’s behalf, The Verge said: if Amazon holds the largest stock of shopping data, agents may rely on its product index over others, so people who shop through bots would still land on Amazon’s pages."
+                },
+                {
+                  "text": "The project is also meant to fix problems with Amazon’s own AI shopping assistant, Alexa for Shopping, previously called Rufus. An internal document seen by Reuters says “many Rufus answers are factually wrong or incomplete” and that running users’ searches through the AI is expensive. More data is meant to make the assistant more accurate and able to run on cheaper models, according to the report."
+                }
+              ]
+            },
+            {
+              "subhead": "Not yet a plan",
+              "blocks": [
+                {
+                  "text": "Whether it ships is uncertain. The document reportedly says the project “depends on discovering how brands organize their products on their own websites”, which The Verge said could involve Amazon crawling other retailers’ sites. Reuters said it was unclear if or when the plan would be carried out, although the document gives a release date of 1 October 2027."
+                },
+                {
+                  "quote": "Draft, outdated documents often paint an incomplete picture and the existence of a brainstorming document such as this one doesn’t necessarily reflect our current plans.",
+                  "speaker": "Amazon, in a statement to Reuters",
+                  "sourceId": "the-verge"
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Amazon tüm ürünleri listelemek istiyor",
+          "title": "Reuters: Amazon, satmadıkları dahil internette satılan her ürünü listeleyecek bir “World Product Graph” planlıyor",
+          "summary": {
+            "what": "The Verge’in Reuters’a dayandırdığı habere göre Amazon’un iç belgesi, internette satılan her ürünün bilgisini kendi sitesinde toplayacak bir veri tabanını anlatıyor.",
+            "why": "Amaç, alışveriş yapanların ve yapay zekâ alışveriş ajanlarının araştırmayı Reddit ya da Google’da yapmasını önlemek ve Amazon’un hata yapan asistanını düzeltmek.",
+            "next": "Reuters’a göre planın ne zaman, hatta hayata geçip geçmeyeceği belli değil; belgede çıkış tarihi 1 Ekim 2027."
+          },
+          "body": [
+            {
+              "subhead": "Her şeyin kataloğu",
+              "blocks": [
+                {
+                  "text": "The Verge’in Reuters’a dayandırdığı habere göre Amazon, internette satılan her ürünün, kendisinin satmadıkları da dahil, verilerini toplayacak bir depo kurmayı ve bu bilgileri kendi sitesinden sunmayı planlıyor. Projenin adı “World Product Graph”."
+                },
+                {
+                  "text": "Habere göre amaç, kullanıcıların ürün araştırması için Amazon’dan çıkıp Reddit ya da Google’a gitme ihtimalini azaltmak ve başka yerde satılan bir ürünü arayanları bile Amazon’a çekmek. Amazon’un geçen yıl başlattığı “shop direct” özelliğiyle başka perakendecilerin ürünlerine bağlantılar zaten sitede görünmeye başladı. Kısacası Amazon, satın alma nerede yapılırsa yapılsın ürün aramalarının kendi sayfalarında başlamasını istiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Yapay zekâ ajanları için de",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre aynı mantık, insanlar adına giderek daha sık alışveriş yapan yapay zekâ ajanları için de geçerli: En büyük alışveriş verisi Amazon’da olursa ajanlar onun ürün dizinine dayanabilir; böylece alışverişi botlarla yapanlar da Amazon sayfalarına ulaşır."
+                },
+                {
+                  "text": "Proje, Amazon’un daha önce Rufus adını taşıyan yapay zekâ alışveriş asistanı Alexa for Shopping’in sorunlarını gidermeyi de amaçlıyor. Reuters’ın gördüğü iç belgede “Rufus’un birçok yanıtının olgusal olarak yanlış ya da eksik olduğu” ve aramaları yapay zekâyla çalıştırmanın pahalı olduğu yazıyor. Habere göre daha fazla veri asistanı hem daha isabetli kılacak hem de daha ucuz modellerle çalışmasını sağlayacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Henüz kesin değil",
+              "blocks": [
+                {
+                  "text": "Projenin hayata geçip geçmeyeceği belirsiz. Belgede projenin “markaların ürünlerini kendi sitelerinde nasıl düzenlediğini keşfetmeye bağlı” olduğu belirtiliyor; The Verge’e göre bu, Amazon’un başka perakendecilerin sitelerini taraması anlamına gelebilir. Reuters, planın uygulanıp uygulanmayacağının ve ne zaman uygulanacağının belli olmadığını, ancak belgede 1 Ekim 2027 çıkış tarihi bulunduğunu yazdı."
+                },
+                {
+                  "quote": "Taslak ve güncelliğini yitirmiş belgeler çoğu zaman eksik bir tablo çizer; bunun gibi bir beyin fırtınası belgesinin varlığı mevcut planlarımızı yansıtmayabilir.",
+                  "speaker": "Amazon, Reuters’a yaptığı açıklamada",
+                  "sourceId": "the-verge",
+                  "translated": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-13T23:49:11.000Z",
+          "sourceId": "the-verge"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-14T14:15:00+03:00",
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    },
+    {
+      "id": "1fd98b8090864848",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Trump, Xi and Putin to meet",
+          "title": "Trump, Xi and Putin will hold their first three-way meeting at the Apec summit in Shenzhen next week, the White House says",
+          "summary": {
+            "what": "The White House confirmed an unprecedented meeting of the US, Chinese and Russian leaders on the sidelines of the Apec summit in Shenzhen at the end of Trump’s China visit.",
+            "why": "It comes nine months after the last US-Russia nuclear arms treaty expired; Trump wants a new deal that includes China.",
+            "next": "A senior US official said no agreement is expected; Moscow and Beijing had not commented, the BBC reported."
+          },
+          "body": [
+            {
+              "subhead": "An unprecedented meeting",
+              "blocks": [
+                {
+                  "text": "The leaders of the United States, China and Russia will meet next week on the sidelines of the Asia-Pacific Economic Cooperation (Apec) summit in Shenzhen, the White House said on Friday, according to the South China Morning Post, Al Jazeera and the BBC."
+                },
+                {
+                  "quote": "President Trump will conclude his visit to China with a trilateral meeting between the president of the United States, the president of the People’s Republic of China, and the president of the Russian Federation.",
+                  "speaker": "Olivia Wales, White House assistant press secretary",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "Trump arrives in Shenzhen late on Wednesday for the two-day summit of 21 member economies and holds bilateral talks with Xi Jinping on Thursday, their fourth meeting since he returned to office in 2025, the BBC said. Before that he attends an Asean summit in the Philippines on Tuesday."
+                }
+              ]
+            },
+            {
+              "subhead": "Nuclear arms on the table",
+              "blocks": [
+                {
+                  "text": "Wales said Trump would discuss reducing nuclear weapons. The New START treaty, the last cap on US and Russian arsenals, lapsed in February, Al Jazeera noted; Trump rejected Russia’s offer to extend it for a year and demanded a “new, improved and modernised” deal that includes China. Russia holds the most warheads, followed by the US and then China, according to the Stockholm International Peace Research Institute."
+                },
+                {
+                  "text": "Iran is expected to come up, but Russia’s war in Ukraine is not, according to a senior US official who briefed reporters. Elon Musk will travel with Trump but will not attend the meeting, Al Jazeera reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Low expectations",
+              "blocks": [
+                {
+                  "text": "“We do not expect to get to any kind of agreement,” a senior administration official told Reuters, describing the meeting as the start of a conversation. The plan has drawn comparisons with the 1945 Yalta conference; Kremlin spokesman Dmitry Peskov dismissed the parallel but called the meeting “extremely significant”, Al Jazeera said."
+                },
+                {
+                  "text": "Ukrainian President Volodymyr Zelensky has voiced concern that the meeting could be used to discuss a Ukraine deal behind Kyiv’s back, Al Jazeera reported."
+                }
+              ]
+            }
+          ],
+          "place": {
+            "name": "Shenzhen",
+            "lat": 22.5431,
+            "lon": 114.0579,
+            "region": "Guangdong, China"
+          }
+        },
+        "tr": {
+          "shortTitle": "Trump, Şi ve Putin buluşacak",
+          "title": "Beyaz Saray: Trump, Şi ve Putin gelecek hafta Şenjen’deki APEC zirvesinde ilk üçlü görüşmelerini yapacak",
+          "summary": {
+            "what": "Beyaz Saray, ABD, Çin ve Rusya liderlerinin Trump’ın Çin ziyaretinin sonunda Şenjen’deki APEC zirvesi marjında eşi görülmemiş bir görüşme yapacağını doğruladı.",
+            "why": "Görüşme, ABD ile Rusya arasındaki son nükleer silah anlaşmasının sona ermesinden dokuz ay sonra yapılıyor; Trump Çin’i de kapsayan yeni bir anlaşma istiyor.",
+            "next": "Üst düzey bir ABD’li yetkili anlaşma beklenmediğini söyledi; BBC’ye göre Moskova ve Pekin henüz yorum yapmadı."
+          },
+          "body": [
+            {
+              "subhead": "Eşi görülmemiş görüşme",
+              "blocks": [
+                {
+                  "text": "South China Morning Post, Al Jazeera ve BBC’nin haberine göre Beyaz Saray cuma günü, ABD, Çin ve Rusya liderlerinin gelecek hafta Şenjen’de yapılacak Asya-Pasifik Ekonomik İşbirliği (APEC) zirvesi marjında bir araya geleceğini açıkladı."
+                },
+                {
+                  "quote": "Başkan Trump, Çin ziyaretini ABD Başkanı, Çin Halk Cumhuriyeti Devlet Başkanı ve Rusya Federasyonu Devlet Başkanı arasındaki üçlü bir görüşmeyle tamamlayacak.",
+                  "speaker": "Olivia Wales, Beyaz Saray basın sekreter yardımcısı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre Trump, 21 üyeli iki günlük zirve için çarşamba akşamı Şenjen’e varacak ve perşembe günü Şi Cinping ile ikili görüşme yapacak; bu, 2025’te göreve dönmesinden bu yana ikilinin dördüncü görüşmesi olacak. Trump öncesinde salı günü Filipinler’deki ASEAN zirvesine katılacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Gündemde nükleer silahlar",
+              "blocks": [
+                {
+                  "text": "Wales, Trump’ın nükleer silahların azaltılmasını konuşacağını söyledi. Al Jazeera’nın hatırlattığına göre ABD ve Rusya cephaneliklerine sınır koyan son anlaşma New START şubatta sona erdi; Trump, Rusya’nın anlaşmayı bir yıl uzatma önerisini reddederek Çin’i de kapsayan “yeni, daha iyi ve modern” bir anlaşma istedi. Stockholm Uluslararası Barış Araştırmaları Enstitüsü’ne göre en çok nükleer başlık Rusya’da, ardından ABD ve Çin geliyor."
+                },
+                {
+                  "text": "Gazetecilere bilgi veren üst düzey bir ABD’li yetkiliye göre İran konuşulacak, Rusya’nın Ukrayna’daki savaşı ise gündemde olmayacak. Al Jazeera’ya göre Elon Musk da Trump’la Çin’e gidecek ama görüşmeye katılmayacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Beklenti düşük",
+              "blocks": [
+                {
+                  "text": "Üst düzey bir yönetim yetkilisi Reuters’a “Herhangi bir anlaşmaya varmayı beklemiyoruz” dedi ve görüşmeyi bir sohbetin başlangıcı olarak tanımladı. Al Jazeera’ya göre plan 1945’teki Yalta Konferansı’yla karşılaştırıldı; Kremlin Sözcüsü Dmitriy Peskov bu benzetmeyi reddetse de görüşmeyi “son derece önemli” olarak niteledi."
+                },
+                {
+                  "text": "Al Jazeera’ya göre Ukrayna Devlet Başkanı Volodimir Zelenski, görüşmenin Kiev’in arkasından bir Ukrayna anlaşmasının konuşulduğu bir platforma dönüşebileceğinden endişe ettiğini dile getirdi."
+                }
+              ]
+            }
+          ],
+          "place": {
+            "name": "Şenjen",
+            "lat": 22.5431,
+            "lon": 114.0579,
+            "region": "Guangdong, Çin"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-14T00:30:57.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T04:55:58.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-14T04:55:58.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T05:52:31.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-14T14:15:00+03:00",
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    },
+    {
+      "id": "b3597e97289d05ac",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "US floats Donbas-for-NATO swap",
+          "title": "US negotiators floated Ukraine leaving the Donbas in exchange for NATO membership, Zelensky says",
+          "summary": {
+            "what": "Zelensky said US envoys asked for the first time whether Ukraine would withdraw from the Donbas if it joined NATO.",
+            "why": "US officials had previously said NATO membership was off the table; Zelensky says the idea puts it “back on the agenda”.",
+            "next": "Zelensky said he would put a full package of guarantees, an unrestricted army and rebuilding funds to a referendum; Moscow’s demands show no sign of shifting."
+          },
+          "body": [
+            {
+              "subhead": "A first-time question",
+              "blocks": [
+                {
+                  "text": "US negotiators have raised the idea of Ukraine withdrawing its remaining forces from the eastern Donbas region in exchange for NATO membership, Ukrainian President Volodymyr Zelensky said in remarks released on Saturday, France 24 and the BBC reported."
+                },
+                {
+                  "quote": "The Americans raised a question: “What if Ukraine joins NATO? Would Ukraine withdraw from Donbas?” This was the first time this had been raised.",
+                  "speaker": "Volodymyr Zelensky, president of Ukraine",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "His comments followed visits by US envoys Jared Kushner and Steve Witkoff to Moscow, for talks with Vladimir Putin, and then to Dublin, where they met Zelensky on Thursday, the BBC said. France 24 said they also came after the latest round of peace talks in Abu Dhabi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kyiv’s conditions",
+              "blocks": [
+                {
+                  "text": "Zelensky repeated that Ukraine was not willing to give up its territory. If it received a proposal with security guarantees, no limits on its army and money to rebuild, he said, he would put it to a referendum. He said the US idea made him believe that “NATO is back on the agenda”, but cautioned that Putin’s signals made it “an extremely difficult conversation”, the BBC reported."
+                },
+                {
+                  "quote": "Real security in Europe means the EU and NATO. That’s it. There is no other security in Europe.",
+                  "speaker": "Volodymyr Zelensky, president of Ukraine",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "A symbolic concession",
+              "blocks": [
+                {
+                  "text": "Russia occupies roughly a fifth of Ukraine, including most of Donetsk and Luhansk, the two regions that make up the Donbas, the BBC noted. Giving up the small part Kyiv still holds there would be a modest concession on the ground but a symbolically large one, because it would mean accepting the Donbas as Russian."
+                },
+                {
+                  "text": "Russia has said another NATO member on its border is unacceptable, and has demanded territory, limits on Ukraine’s army and neutrality. Comments by Putin and Kremlin officials suggest Moscow’s position has not moved, the BBC said. US officials had earlier said Ukrainian NATO membership was off the table, while Kyiv has long sought membership as a condition of any peace deal to deter future attacks. Zelensky has previously spoken of retaking Russian-held land in four regions and Crimea, which Moscow annexed in 2014."
+                }
+              ]
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "ABD’den Donbas karşılığı NATO fikri",
+          "title": "Zelenski: ABD’li müzakereciler, NATO üyeliği karşılığında Ukrayna’nın Donbas’tan çekilmesini gündeme getirdi",
+          "summary": {
+            "what": "Zelenski, ABD’li temsilcilerin ilk kez Ukrayna NATO’ya katılırsa Donbas’tan çekilip çekilmeyeceğini sorduğunu söyledi.",
+            "why": "ABD’li yetkililer daha önce NATO üyeliğinin masada olmadığını söylemişti; Zelenski bu fikirle NATO’nun “yeniden gündemde” olduğunu düşünüyor.",
+            "next": "Zelenski güvenlik garantileri, sınırsız ordu ve yeniden inşa fonu içeren bir paketi referanduma götüreceğini söyledi; Moskova’nın talepleri değişmiş görünmüyor."
+          },
+          "body": [
+            {
+              "subhead": "İlk kez sorulan soru",
+              "blocks": [
+                {
+                  "text": "France 24 ve BBC’nin haberine göre Ukrayna Devlet Başkanı Volodimir Zelenski, cumartesi yayımlanan açıklamalarında ABD’li müzakerecilerin, NATO üyeliği karşılığında Ukrayna’nın doğudaki Donbas bölgesinde kalan güçlerini çekmesi fikrini gündeme getirdiğini söyledi."
+                },
+                {
+                  "quote": "Amerikalılar bir soru sordu: “Ukrayna NATO’ya katılırsa ne olur? Ukrayna Donbas’tan çekilir mi?” Bu ilk kez gündeme geliyordu.",
+                  "speaker": "Volodimir Zelenski, Ukrayna Devlet Başkanı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre bu sözler, ABD’li temsilciler Jared Kushner ile Steve Witkoff’un Moskova’da Vladimir Putin’le görüşmesinin ve ardından perşembe günü Dublin’de Zelenski’yle buluşmasının ardından geldi. France 24, açıklamaların Abu Dabi’deki son barış görüşmeleri turunu da izlediğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kiev’in şartları",
+              "blocks": [
+                {
+                  "text": "Zelenski, Ukrayna’nın topraklarından vazgeçmeye hazır olmadığını yineledi. Güvenlik garantileri, ordusuna sınırlama getirilmemesi ve yeniden inşa için fon içeren bir öneri gelirse bunu referanduma götüreceğini söyledi. BBC’ye göre ABD’nin fikri ona “NATO’nun yeniden gündemde” olduğunu düşündürdü, ancak Putin’in verdiği sinyaller nedeniyle bunun “son derece zor bir konuşma” olduğunu da ekledi."
+                },
+                {
+                  "quote": "Avrupa’da gerçek güvenlik AB ve NATO demektir. Hepsi bu. Avrupa’da başka güvenlik yok.",
+                  "speaker": "Volodimir Zelenski, Ukrayna Devlet Başkanı",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Sembolik bir taviz",
+              "blocks": [
+                {
+                  "text": "BBC’nin hatırlattığına göre Rusya, Donbas’ı oluşturan Donetsk ve Luhansk’ın büyük bölümü dahil Ukrayna topraklarının yaklaşık beşte birini işgal ediyor. Kiev’in orada hâlâ elinde tuttuğu küçük alandan vazgeçmesi sahada sınırlı ama sembolik olarak büyük bir taviz olur, çünkü Donbas’ın Rus toprağı olduğunu kabul etmek anlamına gelir."
+                },
+                {
+                  "text": "Rusya, sınırında bir NATO üyesi daha olmasını kabul edilemez buluyor; toprak, Ukrayna ordusuna sınırlama ve tarafsızlık talep ediyor. BBC’ye göre Putin’in ve Kremlin yetkililerinin açıklamaları Moskova’nın tutumunun değişmediğini gösteriyor. ABD’li yetkililer daha önce Ukrayna’nın NATO üyeliğinin masada olmadığını söylemişti; Kiev ise gelecekteki saldırıları caydırmak için NATO üyeliğini uzun süredir her barış anlaşmasının şartı olarak görüyor. Zelenski daha önce dört bölgedeki Rus kontrolündeki toprakları ve Moskova’nın 2014’te ilhak ettiği Kırım’ı geri almaktan söz etmişti."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-14T10:30:04.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T10:30:38.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-14T10:30:38.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/70cfdcca-e012-11f1-8f8f-5f54d898a954/w:1024/p:16x9/AP26316802067115.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-14T14:15:00+03:00",
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "c290104509409319",
+        "kind": "screen",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Darth Vader’s lightsaber sells for $4.875 million, a record for Star Wars",
+            "gist": "The sabre from The Empire Strikes Back and Return of the Jedi topped a Heritage Auctions sale that raised about $8 million, Sabah reports.",
+            "aside": "Proof, at last, that the dark side holds its value."
+          },
+          "tr": {
+            "title": "Darth Vader’ın ışın kılıcı 4,875 milyon dolara satıldı: Star Wars rekoru",
+            "gist": "Sabah’a göre The Empire Strikes Back ve Return of the Jedi’da kullanılan kılıç, toplam 8 milyon dolarlık Heritage Auctions müzayedesinin zirvesindeydi.",
+            "aside": "Karanlık taraf ne derse desin, iyi yatırımmış."
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "sabah-magazin",
+            "url": "https://www.sabah.com.tr/magazin/star-wars-muzayedesinde-tarihe-gecen-gun-milyonlarca-dolarlik-dev-satis-tum-rekorlari-altust-etti-7701588"
+          }
+        ],
+        "image": {
+          "url": "https://iasbh.tmgrup.com.tr/15d00c/1200/675/0/0/1365/768?u=https://isbh.tmgrup.com.tr/sbh/2026/11/14/star-wars-muzayedesinde-tarihe-gecen-gun-milyonlarca-dolarlik-dev-satis-tum-rekorlari-altust-etti-1794649854830.jpg",
+          "sourceId": "sabah-magazin",
+          "sourceName": "Sabah Magazin",
+          "articleUrl": "https://www.sabah.com.tr/magazin/star-wars-muzayedesinde-tarihe-gecen-gun-milyonlarca-dolarlik-dev-satis-tum-rekorlari-altust-etti-7701588"
+        }
+      },
+      {
+        "id": "fd8c29604058b344",
+        "kind": "music",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Hande Ünsal and Serkan Balkan on their romance: going well “when work allows”",
+            "gist": "Out to dinner with friends, the couple told Hürriyet Kelebek there is no duet for now, “but why not later”; Ünsal laughed, “don’t ask Serkan from now on”.",
+            "aside": "No duet yet, but the harmony seems to be rehearsed."
+          },
+          "tr": {
+            "title": "Hande Ünsal ve Serkan Balkan: “İşten vakit buldukça aşk güzel gidiyor”",
+            "gist": "Arkadaşlarıyla yemekteki çift Hürriyet Kelebek’e şimdilik düet olmadığını, “ama neden olmasın” dedi; Ünsal güldü: “Bundan sonra Serkan’a sormayın.”",
+            "aside": "Düet yok ama ikinci ses şimdiden belli."
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "hurriyet-kelebek",
+            "url": "https://www.hurriyet.com.tr/kelebek/hayat/vakit-buldukca-ask-yasiyoruz-43377454"
+          }
+        ],
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af73ad1ff497cc803f6a4c4.jpg",
+          "sourceId": "hurriyet-kelebek",
+          "sourceName": "Hürriyet Kelebek",
+          "articleUrl": "https://www.hurriyet.com.tr/kelebek/hayat/vakit-buldukca-ask-yasiyoruz-43377454"
+        }
+      }
+    ],
+    "rumours": []
+  },
+  "transfers": [
+    {
+      "id": "move-paz-man-utd",
+      "league": "premier-league",
+      "from": "Como",
+      "to": "Manchester United",
+      "stage": "talk",
+      "clubConfirmed": false,
+      "steps": [
+        {
+          "stage": "talk",
+          "on": "2026-11-14"
+        }
+      ],
+      "reports": [
+        {
+          "sourceId": "bbc-sport-football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
+          "stage": "talk",
+          "on": "2026-11-14"
+        },
+        {
+          "sourceId": "sky-sports-transfers",
+          "url": "https://www.skysports.com/football/news/11095/13611965/man-utd-transfer-news-como-star-nico-paz-emerges-as-target-ahead-of-summer-transfer-window-paper-talk",
+          "stage": "talk",
+          "on": "2026-11-14"
+        }
+      ],
+      "versions": {
+        "en": {
+          "shortTitle": "Man Utd track Como’s Nico Paz",
+          "title": "Manchester United are tracking Como midfielder Nico Paz ahead of a possible summer move",
+          "now": "Only interest so far: The Sun says United are monitoring Paz with a view to next summer. No talks, fee or club comment have been reported.",
+          "signedWhen": "United would have to open talks with Como, agree a fee and announce the signing; the interest is aimed at the summer window.",
+          "story": [
+            "Nico Paz, a 22-year-old Argentina midfielder, is on Manchester United’s list. United are tracking the Como player ahead of a possible move next summer, The Sun reports, and the claim led both BBC Sport’s gossip column and Sky Sports’ round-up of Saturday’s papers.",
+            "Paz has already left a mark on United: he scored twice for Como against them in the Champions League last month, BBC Sport notes. United have just named Mauricio Pochettino head coach, and the Telegraph reports he is expected to be backed in January, with a defender and a striker the likely targets.",
+            "For now it is interest, not a bid. No outlet reports contact between the clubs, a price or the player’s view, and the interest points to the summer rather than January."
+          ]
+        },
+        "tr": {
+          "shortTitle": "Man Utd, Como’dan Nico Paz’ı izliyor",
+          "title": "Manchester United, Como’nun orta saha oyuncusu Nico Paz’ı yaz transferi için takibe aldı",
+          "now": "Şimdilik yalnızca ilgi var: The Sun’a göre United, Paz’ı gelecek yaz için izliyor. Görüşme, bonservis ya da kulüp açıklaması yok.",
+          "signedWhen": "United’ın Como ile masaya oturması, bonserviste anlaşması ve transferi duyurması gerekiyor; ilgi yaz dönemine yönelik.",
+          "story": [
+            "Arjantin Milli Takımı’nın 22 yaşındaki orta saha oyuncusu Nico Paz, Manchester United’ın listesinde. The Sun’a göre United, Como’da forma giyen oyuncuyu gelecek yaz olası bir transfer için izliyor; iddia hem BBC Sport’un dedikodu köşesinin hem de Sky Sports’un cumartesi gazeteleri derlemesinin başında yer aldı.",
+            "BBC Sport’un hatırlattığına göre Paz, geçen ay Şampiyonlar Ligi’nde United’a karşı Como formasıyla iki gol attı. United teknik direktörlüğe kısa süre önce Mauricio Pochettino’yu getirdi; Telegraph’a göre Pochettino’nun ocakta desteklenmesi, kulübün bir savunma oyuncusu ve bir golcü araması bekleniyor.",
+            "Şimdilik söz konusu olan teklif değil, ilgi. Hiçbir yayın kulüpler arasında temas, bonservis bedeli ya da oyuncunun tutumu bildirmiyor; ilgi ocak değil yaz dönemine işaret ediyor."
+          ]
+        }
+      },
+      "updatedAt": "2026-11-14T14:15:00+03:00"
+    }
+  ]
+}
