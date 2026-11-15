@@ -31,9 +31,12 @@ const WORDS = {
     unit: (kind: MarkKind, n: number, sport: string | undefined) =>
       sport === 'basketball'
         ? { points: 'pts', rebounds: 'reb', assists: 'ast', goals: 'goals' }[kind]
-        : { goals: n === 1 ? 'goal' : 'goals', assists: n === 1 ? 'assist' : 'assists' }[
-            kind as 'goals' | 'assists'
-          ] ?? kind,
+        : {
+            goals: n === 1 ? 'goal' : 'goals',
+            assists: n === 1 ? 'assist' : 'assists',
+            points: n === 1 ? 'point' : 'points',
+            rebounds: n === 1 ? 'rebound' : 'rebounds',
+          }[kind],
   },
   tr: {
     title: 'Bu gece',
@@ -53,7 +56,8 @@ const WORDS = {
     assists: (n: number) => `${String(n)} asist`,
     points: (n: number) => `${String(n)} sayı`,
     rebounds: (n: number) => `${String(n)} ribaund`,
-    unit: (kind: MarkKind, _n: number, _sport: string | undefined) =>
+    // Turkish words do not change with the count, and are short enough for both sports.
+    unit: (kind: MarkKind) =>
       ({ points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol' })[kind],
   },
 } as const;
