@@ -1422,7 +1422,7 @@
           }
         ],
         "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94f588c01a1364d0690eb.jpg",
+          "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6af94f588c01a1364d0690eb.jpg",
           "sourceId": "hurriyet",
           "sourceName": "Hürriyet",
           "articleUrl": "https://www.hurriyet.com.tr/kelebek/hayat/kirasi-324-bine-cikti-tasindi-43378762"
@@ -1553,7 +1553,6 @@
       "person": "Refik Anadol",
       "kind": "arts",
       "label": "confirmed",
-      "milestone": "work",
       "versions": {
         "en": {
           "where": "Refik Anadol Studio, Los Angeles",
@@ -1604,6 +1603,7 @@
           }
         }
       },
+      "milestone": "work",
       "sources": [
         {
           "sourceId": "euronews-tr",
@@ -1624,11 +1624,19 @@
       "versions": {
         "en": {
           "question": "How many of the 160 first-round questions did South Korea’s top tax-exam scorer get wrong?",
-          "options": ["None", "One", "Four"]
+          "options": [
+            "None",
+            "One",
+            "Four"
+          ]
         },
         "tr": {
           "question": "Güney Kore’de mali müşavirlik sınavının birincisi ilk aşamada 160 sorudan kaçını yanlış yaptı?",
-          "options": ["Hiçbirini", "Birini", "Dördünü"]
+          "options": [
+            "Hiçbirini",
+            "Birini",
+            "Dördünü"
+          ]
         }
       }
     },
@@ -1638,11 +1646,19 @@
       "versions": {
         "en": {
           "question": "How much in transactions did police find in the accounts of the marriage-scam suspects?",
-          "options": ["₺72 million", "₺7.2 billion", "₺724 million"]
+          "options": [
+            "₺72 million",
+            "₺7.2 billion",
+            "₺724 million"
+          ]
         },
         "tr": {
           "question": "Evlilik vaadiyle dolandırıcılık şüphelilerinin hesaplarında ne kadarlık işlem tespit edildi?",
-          "options": ["72 milyon lira", "7,2 milyar lira", "724 milyon lira"]
+          "options": [
+            "72 milyon lira",
+            "7,2 milyar lira",
+            "724 milyon lira"
+          ]
         }
       }
     },
@@ -1652,7 +1668,11 @@
       "versions": {
         "en": {
           "question": "What does the Port of New Orleans want done with the tanker?",
-          "options": ["Seized and sold", "Towed out to sea", "Repaired at the port’s cost"]
+          "options": [
+            "Seized and sold",
+            "Towed out to sea",
+            "Repaired at the port’s cost"
+          ]
         },
         "tr": {
           "question": "New Orleans Limanı tanker için ne istiyor?",
