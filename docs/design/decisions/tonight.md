@@ -16,7 +16,7 @@ Logos and player photos come from the leagues' own data and are saved next to th
 
 ## Scoreboard rows (2026-11-16)
 
-- **A Turkish club or national team match is a small scoreboard.** Each team on its own line with its crest (a round flag for national teams) and its own score, our side in bold. The right column is the clock: kick-off time, then the minute while it is played ("78'", "Under way"), then "Full time".
-- **Who scored, under the teams.** Football: every scorer with their minutes ("Osimhen 23' 67'", "PEN", "OG"), from ESPN's scoreboard. Euroleague: each side's top scorer with their points, from the game's box score. Our side's scorers in ink, the other side's quieter.
+- **A Turkish club or national team match is a scoreline (Can, 2026-11-16).** Home team on the left, away team on the right, each with its crest above its name (national teams: the whole flag as a small rounded rectangle, never cut into a circle), our side in bold. The middle holds the kick-off time, then the score with the minute under it while it is played, then the score with "Full time".
+- **Each goal under the side that scored it, minute first.** Football: "49' OG Topcu", "23' 67' Osimhen", from ESPN's scoreboard; the home side's goals line up toward the middle from the left, the away side's from the right. Euroleague: each side's top scorer with their points ("24 PTS Hayes-Davis"), from the game's box score. Our side's scorers in ink, the other side's quieter.
 - **Official photos only.** A scorer's photo is the league's or the score source's own (ESPN headshot, Euroleague headshot), saved with the bulletin. No photo means no circle at all: never initials or a stand-in.
 - **Live like the rest.** The live Worker adds the scorers (from the league scoreboard or the box score) while a match is played, and the page redraws them.

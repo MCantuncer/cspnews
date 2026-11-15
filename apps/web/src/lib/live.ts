@@ -177,18 +177,7 @@ function drawScorers(
     return element;
   };
   const items = orderScorers(scorers).map((scorer) => {
-    const item = make('li', ours === scorer.side ? 'ours' : undefined);
-    const src = known.get(scorer.name) ?? scorer.photo;
-    if (src) {
-      const img = make('img', 'photo');
-      img.src = src;
-      img.alt = '';
-      img.width = 24;
-      img.height = 24;
-      img.loading = 'lazy';
-      item.append(img);
-    }
-    item.append(make('span', 'who', scorer.name));
+    const item = make('li', ours === scorer.side ? `${scorer.side} ours` : scorer.side);
     const detail = make('span', 'minutes');
     if (scorer.minutes) {
       detail.textContent = scorer.minutes.join(' ');
@@ -207,6 +196,18 @@ function drawScorers(
       );
     }
     item.append(detail);
+    // The minute first, then the scorer.
+    const src = known.get(scorer.name) ?? scorer.photo;
+    if (src) {
+      const img = make('img', 'photo');
+      img.src = src;
+      img.alt = '';
+      img.width = 24;
+      img.height = 24;
+      img.loading = 'lazy';
+      item.append(img);
+    }
+    item.append(make('span', 'who', scorer.name));
     return item;
   });
   list.replaceChildren(...items);
