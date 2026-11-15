@@ -11,6 +11,7 @@ interface RowData {
   sport?: 'football' | 'basketball';
   startsAt: string;
   result?: { home: number; away: number };
+  board?: boolean;
 }
 
 function update(root: ParentNode, now: Date) {
@@ -24,7 +25,7 @@ function update(root: ParentNode, now: Date) {
       continue;
     }
     const lang: InterfaceLanguage = row.dataset.lang === 'tr' ? 'tr' : 'en';
-    const status = tonightStatus(data, lang, now);
+    const status = tonightStatus(data, lang, now, data.board === true);
     row.dataset.state = status.state;
     const figure = row.querySelector('[data-figure]');
     const word = row.querySelector('[data-word]');

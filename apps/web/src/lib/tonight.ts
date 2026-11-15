@@ -27,6 +27,9 @@ const WORDS = {
     assists: (n: number) => (n === 1 ? '1 assist' : `${String(n)} assists`),
     points: (n: number) => (n === 1 ? '1 point' : `${String(n)} points`),
     rebounds: (n: number) => (n === 1 ? '1 rebound' : `${String(n)} rebounds`),
+    ownGoal: 'og',
+    penalty: 'pen',
+    scored: 'Scorers',
     /** The word after a person's number: whole words for football, short ones for basketball. */
     unit: (kind: MarkKind, n: number, sport: string | undefined) =>
       sport === 'basketball'
@@ -56,6 +59,9 @@ const WORDS = {
     assists: (n: number) => `${String(n)} asist`,
     points: (n: number) => `${String(n)} sayı`,
     rebounds: (n: number) => `${String(n)} ribaund`,
+    ownGoal: 'kk',
+    penalty: 'pen',
+    scored: 'Golcüler',
     // Turkish words do not change with the count, and are short enough for both sports.
     unit: (kind: MarkKind) =>
       ({ points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol' })[kind],
@@ -110,7 +116,13 @@ const istanbulHour = (iso: string) =>
   );
 
 /** Where a row stands at `now`, in words. */
-export function tonightStatus(item: Timed, language: InterfaceLanguage, now: Date): TonightStatus {
+export function tonightStatus(
+  item: Timed,
+  language: InterfaceLanguage,
+  now: Date,
+  /** A scoreboard row shows the score beside each team, so its figure stays the kick-off time. */
+  board = false,
+): TonightStatus {
   const words = WORDS[language];
   const state = tonightState(item, now);
   const time = formatTime(item.startsAt, language);
@@ -123,6 +135,13 @@ export function tonightStatus(item: Timed, language: InterfaceLanguage, now: Dat
   }
   if (item.kind === 'show') return { state, figure: time, word: words.showOver };
   if (!item.result) return { state, figure: time, word: words.ended };
+  if (board) {
+    return {
+      state,
+      figure: time,
+      word: item.sport === 'basketball' ? words.final : words.fullTime,
+    };
+  }
   return {
     state,
     figure: `${String(item.result.home)}–${String(item.result.away)}`,
@@ -155,4 +174,25 @@ export function personMarks(
     if (count === undefined || (count === 0 && kind !== 'points')) return [];
     return [{ kind, count }];
   });
+}
+
+/** Whether a row is drawn as a scoreboard: a club or national team match. */
+export function isBoard(item: Pick<TonightItem, 'kind' | 'focus'>): boolean {
+  return item.kind === 'match' && item.focus !== 'person';
+}
+
+/**
+ * A board's scorers in reading order: by the minute of their first goal, then our side first for
+ * basketball's top scorers.
+ */
+export function orderScorers<
+  T extends { side: 'home' | 'away'; minutes?: readonly string[] | undefined },
+>(scorers: readonly T[]): T[] {
+  const first = (s: T) => {
+    const minute = s.minutes?.[0];
+    if (!minute) return Number.POSITIVE_INFINITY;
+    const [base = '0', extra = '0'] = minute.replace("'", '').split('+');
+    return Number(base) + Number(extra) / 100;
+  };
+  return [...scorers].sort((a, b) => first(a) - first(b));
 }

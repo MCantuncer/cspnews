@@ -25,7 +25,14 @@ import {
 } from '@cspnews/config';
 import { parseBulletin, type TonightItem } from '@cspnews/core';
 
-import { fetchFixtures, httpFetchJson, logosToSave, withPersonLines } from './fetch.js';
+import {
+  fetchFixtures,
+  httpFetchJson,
+  logosToSave,
+  photosToSave,
+  withPersonLines,
+  withTopScorers,
+} from './fetch.js';
 import { withLiveMatch } from './today.js';
 import { buildTonight, tonightWindow, type TonightWatch } from './tonight.js';
 
@@ -67,6 +74,9 @@ if (fixtures.length === 0 && failures.length > 0) {
   rows = [...written];
 }
 rows = await withPersonLines(rows, ABROAD_PEOPLE, fetchJson, new Date());
+const topScorers = await withTopScorers(rows, fetchJson, new Date());
+rows = topScorers.rows;
+const photos = new Map([...photosToSave(fixtures, rows), ...topScorers.photos]);
 for (const row of rows) {
   const teams =
     row.home && row.away ? `${row.home.name} v ${row.away.name}` : (row.event?.en ?? '');
@@ -77,6 +87,7 @@ for (const row of rows) {
 if (path && raw !== undefined && bulletin) {
   const media = join(dirname(path), 'media', 'teams');
   await saveLogos(media, rows);
+  await saveImages(join(dirname(path), 'media', 'players'), photos, 'photo');
   const rest = { ...(raw as Record<string, unknown>) };
   delete rest.tonight;
   const today = bulletin.today && withLiveMatch(bulletin.today, fixtures);
@@ -95,25 +106,36 @@ async function saveLogos(directory: string, items: readonly TonightItem[]) {
   const teams = new Set(
     items.flatMap((item) => [item.home?.team, item.away?.team]).filter((t): t is string => !!t),
   );
+  await saveImages(directory, logosToSave(fixtures, teams), 'logo');
+}
+
+/** Saves each image once under its key; an image already saved is never fetched again. */
+async function saveImages(directory: string, images: ReadonlyMap<string, string>, what: string) {
   const saved = existsSync(directory)
     ? new Set(readdirSync(directory).map((file) => file.slice(0, file.lastIndexOf('.'))))
     : new Set<string>();
-  for (const [team, url] of logosToSave(fixtures, teams)) {
-    if (saved.has(team)) continue;
+  for (const [key, url] of images) {
+    if (saved.has(key)) continue;
     try {
       const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
       if (!response.ok) throw new Error(`HTTP ${String(response.status)}`);
       const type = response.headers.get('content-type') ?? '';
-      const extension = type.includes('svg') ? 'svg' : type.includes('webp') ? 'webp' : 'png';
       if (!type.includes('image/')) throw new Error(`Not an image: ${type}`);
+      const extension = type.includes('svg')
+        ? 'svg'
+        : type.includes('webp')
+          ? 'webp'
+          : type.includes('jpeg')
+            ? 'jpg'
+            : 'png';
       mkdirSync(directory, { recursive: true });
       writeFileSync(
-        join(directory, `${team}.${extension}`),
+        join(directory, `${key}.${extension}`),
         Buffer.from(await response.arrayBuffer()),
       );
-      console.log(`✅ logo ${team}`);
+      console.log(`✅ ${what} ${key}`);
     } catch (error) {
-      console.log(`❌ logo ${team}: ${error instanceof Error ? error.message : String(error)}`);
+      console.log(`❌ ${what} ${key}: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 }

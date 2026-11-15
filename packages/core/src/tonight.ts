@@ -56,6 +56,32 @@ export const PersonLineSchema = z
   })
   .strict();
 
+/**
+ * Who scored for a club or national team row: a footballer with the minutes of their goals, or a
+ * basketball side's top scorer with their points. `photo` is the official league photo's file,
+ * `media/players/<photo>.png`, saved by the rules when the source has one.
+ */
+export const ScorerSchema = z
+  .object({
+    side: z.enum(['home', 'away']),
+    name: z.string().trim().min(1).max(60),
+    /** "23'", "45+2'", in the order scored. */
+    minutes: z
+      .array(z.string().regex(/^\d{1,3}(\+\d{1,2})?'$/))
+      .min(1)
+      .max(8)
+      .optional(),
+    points: tally.optional(),
+    own: z.boolean().optional(),
+    penalty: z.boolean().optional(),
+    photo: slug.optional(),
+  })
+  .strict()
+  .refine(
+    (s) => (s.minutes === undefined) !== (s.points === undefined),
+    'Minutes or points, one of them',
+  );
+
 export const TonightItemSchema = z
   .object({
     id: slug,
@@ -77,6 +103,8 @@ export const TonightItemSchema = z
     live: LiveSchema.optional(),
     /** The followed people's goals and assists (football) or points, rebounds and assists. */
     lines: z.array(PersonLineSchema).min(1).max(4).optional(),
+    /** Goal scorers (football) or each side's top scorer (basketball), for club and national rows. */
+    scorers: z.array(ScorerSchema).min(1).max(16).optional(),
     /** The final score, once the match has ended. */
     result: z.object({ home: score, away: score }).strict().optional(),
   })
@@ -92,6 +120,7 @@ export const TonightItemSchema = z
 export type TonightItem = z.infer<typeof TonightItemSchema>;
 export type TonightSide = z.infer<typeof TonightSideSchema>;
 export type PersonLine = z.infer<typeof PersonLineSchema>;
+export type Scorer = z.infer<typeof ScorerSchema>;
 export type TonightSport = (typeof TONIGHT_SPORTS)[number];
 export type TonightFocus = (typeof TONIGHT_FOCUS)[number];
 export type LiveSource = (typeof LIVE_SOURCES)[number];

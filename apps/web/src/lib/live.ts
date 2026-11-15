@@ -8,7 +8,7 @@
 import type { PersonLine } from '@cspnews/core';
 
 import type { InterfaceLanguage } from './evidence.js';
-import { personMarks, tonightWords } from './tonight.js';
+import { orderScorers, personMarks, tonightWords } from './tonight.js';
 
 export interface LiveScore {
   readonly ref: string;
@@ -17,6 +17,45 @@ export interface LiveScore {
   readonly away?: number;
   readonly clock?: string;
   readonly lines?: readonly PersonLine[];
+  readonly scorers?: readonly LiveScorer[];
+}
+
+export interface LiveScorer {
+  readonly side: 'home' | 'away';
+  readonly name: string;
+  readonly minutes?: readonly string[];
+  readonly points?: number;
+  readonly own?: boolean;
+  readonly penalty?: boolean;
+  /** The official photo's address at the source. */
+  readonly photo?: string;
+}
+
+const MINUTE = /^\d{1,3}(\+\d{1,2})?'$/;
+
+/** A scorer from the Worker, only if every field reads cleanly; text is set with textContent. */
+function readScorer(raw: unknown): LiveScorer[] {
+  if (typeof raw !== 'object' || raw === null) return [];
+  const s = raw as Record<string, unknown>;
+  if (s.side !== 'home' && s.side !== 'away') return [];
+  if (typeof s.name !== 'string' || s.name === '' || s.name.length > 60) return [];
+  const minutes = Array.isArray(s.minutes)
+    ? s.minutes.filter((m): m is string => typeof m === 'string' && MINUTE.test(m)).slice(0, 8)
+    : [];
+  const photo =
+    typeof s.photo === 'string' && /^https:\/\/[^\s"'<>]+$/.test(s.photo) ? s.photo : undefined;
+  if (minutes.length === 0 && !isCount(s.points)) return [];
+  return [
+    {
+      side: s.side,
+      name: s.name,
+      ...(minutes.length > 0 && { minutes }),
+      ...(minutes.length === 0 && isCount(s.points) && { points: s.points }),
+      ...(s.own === true && { own: true }),
+      ...(s.penalty === true && { penalty: true }),
+      ...(photo && { photo }),
+    },
+  ];
 }
 
 export function liveBase(): string | undefined {
@@ -53,6 +92,9 @@ export function readScores(json: unknown): LiveScore[] {
         ...(isCount(s.away) && { away: s.away }),
         ...(typeof s.clock === 'string' && s.clock !== '' && { clock: s.clock.slice(0, 24) }),
         ...(lines.length > 0 && { lines }),
+        ...(Array.isArray(s.scorers) && {
+          scorers: s.scorers.slice(0, 16).flatMap(readScorer),
+        }),
       },
     ];
   });
@@ -103,6 +145,73 @@ function drawMarks(
   }
 }
 
+/**
+ * Redraws a scoreboard's scorers as the page draws them. A photo the page already shows for that
+ * name is kept; otherwise the source's photo is used.
+ */
+function drawScorers(
+  list: HTMLElement,
+  scorers: readonly LiveScorer[],
+  lang: InterfaceLanguage,
+  sport: string | undefined,
+  ours: string | undefined,
+) {
+  const words = tonightWords(lang);
+  const known = new Map(
+    [...list.querySelectorAll<HTMLElement>('li')].flatMap((item) => {
+      const img = item.querySelector('img');
+      const who = item.querySelector('.who')?.textContent;
+      return img && who ? [[who, img.getAttribute('src') ?? ''] as const] : [];
+    }),
+  );
+  const scope = [...list.attributes].filter((a) => a.name.startsWith('data-astro-cid'));
+  const make = <K extends keyof HTMLElementTagNameMap>(
+    tag: K,
+    className?: string,
+    text?: string,
+  ) => {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    for (const attribute of scope) element.setAttribute(attribute.name, attribute.value);
+    if (text !== undefined) element.textContent = text;
+    return element;
+  };
+  const items = orderScorers(scorers).map((scorer) => {
+    const item = make('li', ours === scorer.side ? 'ours' : undefined);
+    const src = known.get(scorer.name) ?? scorer.photo;
+    if (src) {
+      const img = make('img', 'photo');
+      img.src = src;
+      img.alt = '';
+      img.width = 24;
+      img.height = 24;
+      img.loading = 'lazy';
+      item.append(img);
+    }
+    item.append(make('span', 'who', scorer.name));
+    const detail = make('span', 'minutes');
+    if (scorer.minutes) {
+      detail.textContent = scorer.minutes.join(' ');
+      if (scorer.penalty)
+        detail.append(make('span', 'unit', ` ${words.penalty.toLocaleUpperCase(lang)}`));
+      if (scorer.own)
+        detail.append(make('span', 'unit', ` ${words.ownGoal.toLocaleUpperCase(lang)}`));
+    } else {
+      detail.textContent = String(scorer.points ?? 0);
+      detail.append(
+        make(
+          'span',
+          'unit',
+          ` ${words.unit('points', scorer.points ?? 0, sport).toLocaleUpperCase(lang)}`,
+        ),
+      );
+    }
+    item.append(detail);
+    return item;
+  });
+  list.replaceChildren(...items);
+}
+
 /** Puts one score on every element that shows that match. */
 export function applyScore(root: ParentNode, score: LiveScore) {
   const line = scoreLine(score);
@@ -120,8 +229,23 @@ export function applyScore(root: ParentNode, score: LiveScore) {
     const words = tonightWords(lang);
     const figure = element.querySelector('[data-figure]');
     const word = element.querySelector('[data-word]');
-    if (line && figure) figure.textContent = line;
-    if (word) {
+    const sides = element.querySelectorAll<HTMLElement>('[data-score]');
+    if (sides.length > 0) {
+      // A scoreboard: each team's own score; the right column stays the clock.
+      for (const side of sides) {
+        const value = side.dataset.score === 'home' ? score.home : score.away;
+        if (value !== undefined) side.textContent = String(value);
+      }
+      const list = element.querySelector<HTMLElement>('[data-scorers]');
+      if (list && score.scorers) {
+        drawScorers(list, score.scorers, lang, element.dataset.sport, element.dataset.ours);
+      }
+    } else if (line && figure) figure.textContent = line;
+    if (sides.length > 0 && score.state === 'in' && figure && word) {
+      // A scoreboard being played: the minute is the figure.
+      figure.textContent = score.clock ?? figure.textContent;
+      word.textContent = words.on;
+    } else if (word) {
       word.textContent =
         score.state === 'in'
           ? (score.clock ?? words.on)

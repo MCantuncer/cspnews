@@ -2,10 +2,16 @@ import type { FetchText } from '@cspnews/collector';
 import { teamKey, type AbroadPerson, type TonightItem } from '@cspnews/core';
 
 import { espnScoreboardUrl, parseEspnScoreboard } from './espn.js';
-import { euroleagueGamesUrl, euroleagueSeason, parseEuroleagueGames } from './euroleague.js';
+import {
+  euroleagueGamesUrl,
+  euroleagueSeason,
+  euroleagueStatsUrl,
+  euroleagueTopScorers,
+  parseEuroleagueGames,
+} from './euroleague.js';
 import type { Fixture } from './fixture.js';
 import { basketballLine, espnSummaryUrl, footballLine } from './summary.js';
-import { datesToAsk, type TonightWatch, type TonightWindow } from './tonight.js';
+import { datesToAsk, scorerOf, type TonightWatch, type TonightWindow } from './tonight.js';
 
 export interface FetchedFixtures {
   readonly fixtures: Fixture[];
@@ -105,4 +111,51 @@ export async function withPersonLines(
       return lines.length > 0 ? { ...row, lines } : row;
     }),
   );
+}
+
+/**
+ * Adds each side's top scorer to Euroleague club rows that have started, from the game's box
+ * score. Returns the rows and the official photos they name, to save.
+ */
+export async function withTopScorers(
+  rows: readonly TonightItem[],
+  fetchText: FetchText,
+  now: Date,
+): Promise<{ rows: TonightItem[]; photos: Map<string, string> }> {
+  const photos = new Map<string, string>();
+  const updated = await Promise.all(
+    rows.map(async (row) => {
+      const started = Date.parse(row.startsAt) <= now.getTime();
+      if (row.live?.source !== 'euroleague' || row.focus === 'person' || !started) return row;
+      let scorers;
+      try {
+        scorers = euroleagueTopScorers(
+          JSON.parse(await fetchText(euroleagueStatsUrl(row.live.ref))),
+        );
+      } catch {
+        return row;
+      }
+      if (scorers.length === 0) return row;
+      for (const scorer of scorers)
+        if (scorer.photo) photos.set(scorer.photo.key, scorer.photo.url);
+      return { ...row, scorers: scorers.map(scorerOf) };
+    }),
+  );
+  return { rows: updated, photos };
+}
+
+/** The official photos the rows' goal scorers name, by saved key. */
+export function photosToSave(
+  fixtures: readonly Fixture[],
+  rows: readonly TonightItem[],
+): Map<string, string> {
+  const wanted = new Set(rows.flatMap((row) => (row.scorers ?? []).map((s) => s.photo)));
+  const photos = new Map<string, string>();
+  for (const fixture of fixtures) {
+    for (const scorer of fixture.scorers ?? []) {
+      if (scorer.photo && wanted.has(scorer.photo.key))
+        photos.set(scorer.photo.key, scorer.photo.url);
+    }
+  }
+  return photos;
 }
