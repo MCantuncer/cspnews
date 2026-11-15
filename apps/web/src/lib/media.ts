@@ -94,3 +94,9 @@ export function logosFor(
   }
   return logos;
 }
+
+/** The site URL of a team's saved logo (`teams/<team key>`, saved with the Tonight list). */
+export function teamLogoUrl(team: string, directory = mediaDirectory()): string | undefined {
+  const file = find(join(directory, 'teams'), team, LOGO);
+  return file && `${MEDIA_URL}/teams/${encodeURIComponent(file)}`;
+}

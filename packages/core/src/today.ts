@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 import type { Language } from './language.js';
+import { LiveSchema, type Live } from './tonight.js';
 
 /**
  * The Today line (docs/design/decisions/today-line.md): a few plain facts for the reader's day,
@@ -27,8 +28,17 @@ export const TodayItemSchema = z
     source: text(40),
     /** When the figure was read. */
     asOf: z.iso.datetime({ offset: true }),
+    /**
+     * A match's live score address, filled by the rules when they find the fixture in a score
+     * source (packages/scores), so the page can show the score while it is played.
+     */
+    live: LiveSchema.optional(),
   })
-  .strict();
+  .strict()
+  .refine((item) => item.kind === 'match' || item.live === undefined, {
+    message: 'Only a match has a live score',
+    path: ['live'],
+  });
 
 export type TodayItem = z.infer<typeof TodayItemSchema>;
 
@@ -39,11 +49,12 @@ export interface LocalTodayItem {
   readonly note?: string;
   readonly source: string;
   readonly asOf: string;
+  readonly live?: Live;
 }
 
 /** An item in the reader's language. */
 export function todayIn(item: TodayItem, language: Language): LocalTodayItem {
-  const { kind, value, source, asOf } = item;
+  const { kind, value, source, asOf, live } = item;
   return {
     kind,
     label: item.label[language],
@@ -51,5 +62,6 @@ export function todayIn(item: TodayItem, language: Language): LocalTodayItem {
     ...(item.note && { note: item.note[language] }),
     source,
     asOf,
+    ...(live && { live }),
   };
 }

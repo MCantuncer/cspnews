@@ -179,6 +179,21 @@ importers:
         specifier: workspace:*
         version: link:../verify
 
+  packages/scores:
+    dependencies:
+      '@cspnews/collector':
+        specifier: workspace:*
+        version: link:../collector
+      '@cspnews/config':
+        specifier: workspace:*
+        version: link:../config
+      '@cspnews/core':
+        specifier: workspace:*
+        version: link:../core
+      zod:
+        specifier: 4.6.7
+        version: 4.6.7
+
   packages/verify:
     dependencies:
       '@cspnews/core':

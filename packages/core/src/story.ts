@@ -7,6 +7,7 @@ import { QUIZ_LENGTH, QuizQuestionSchema } from './quiz.js';
 import { LANGUAGES, type Language } from './language.js';
 import { SECTIONS } from './sections.js';
 import { TODAY_MAX, TodayItemSchema } from './today.js';
+import { TONIGHT_MAX, TonightItemSchema } from './tonight.js';
 
 /**
  * A written story, as the Verify and Write run produces it and the website shows it.
@@ -362,6 +363,8 @@ export const BulletinSchema = z
     quiz: z.array(QuizQuestionSchema).length(QUIZ_LENGTH).optional(),
     /** A few plain facts for the day: rates, gold, weather, the match (today.ts). */
     today: z.array(TodayItemSchema).min(1).max(TODAY_MAX).optional(),
+    /** Matches and shows Turkish readers follow tonight, with where they stand (tonight.ts). */
+    tonight: z.array(TonightItemSchema).min(1).max(TONIGHT_MAX).optional(),
   })
   .strict()
   .refine(
