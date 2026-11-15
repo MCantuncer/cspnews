@@ -58,6 +58,15 @@ Both languages carry the same parts with the same numbers, dates and coordinates
 - Wrong options are plausible and short (at most 80 characters), and never a joke. Don't use "all of the above", and don't put the right answer first every time.
 - Questions are at most 140 characters and written natively in each language, not translated.
 
+## The mix of stories
+
+Readers should find the day's money and AI news, not only politics and football. Before settling the story list, look through the candidates for these and say in the pull request when one is left out and why.
+
+- **Economy.** Every bulletin has at least one economy story when any candidate covers it: rates, prices, wages, the lira, markets, a big company's results, a trade deal. Türkiye gets one from the economy feeds (Anadolu Ajansı Ekonomi, Bloomberg HT); Around the World gets one from the business feeds (BBC Business, The Guardian Business) when the news is global. Prefer the story that changes what a household or a business pays or earns.
+- **AI.** Tech and AI is mostly about AI: take the AI category feeds (The Verge AI, The Guardian AI, OpenAI, DeepMind, Hugging Face) before general gadget news. A new model, a court ruling, a chip shortage, a company reversal. Skip launch-day hype with no number or source behind it.
+- **Around the World is not two outlets.** Look at Euronews, DW, France 24, NPR and SCMP as well as BBC and Al Jazeera, and when the same event is in several, write it from the widest set so the evidence drawer shows them all.
+- **Headlines are short.** `title` is at most 12 words and `shortTitle` at most 6. Lead with the new fact or the number, not the person's title or the place: "Rate held at 35%", not "Central Bank's Monetary Policy Committee decides to keep policy rate unchanged". Cut the second clause: it belongs in `summary.what`.
+
 ## Writing in two languages
 
 Every reader gets the whole bulletin in their own language, so both versions must read as if a good editor wrote them in that language. They are two versions of one story, not an original and a copy.
