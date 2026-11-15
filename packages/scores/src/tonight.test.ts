@@ -184,6 +184,13 @@ describe('tonight rules', () => {
     expect(rows.find((row) => row.id === 'espn-403')?.result).toEqual({ home: 118, away: 109 });
   });
 
+  it('ends a late edition published after midnight at 09:00 that same morning', () => {
+    const late = tonightWindow(new Date('2026-11-16T00:55:00+03:00'));
+    expect(late.until.toISOString()).toBe('2026-11-16T06:00:00.000Z');
+    const evening = tonightWindow(new Date('2026-11-15T22:30:00+03:00'));
+    expect(evening.until.toISOString()).toBe('2026-11-16T06:00:00.000Z');
+  });
+
   it('keeps the rows a writer added', () => {
     const show = {
       id: 'ballon-dor',

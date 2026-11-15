@@ -2469,19 +2469,11 @@
       "versions": {
         "en": {
           "question": "How many migrants did Spain rescue off the Canary Islands on Saturday, a new one-day record?",
-          "options": [
-            "961",
-            "1,213",
-            "1,488"
-          ]
+          "options": ["961", "1,213", "1,488"]
         },
         "tr": {
           "question": "İspanya cumartesi günü Kanarya Adaları açıklarında rekor kıran kaç göçmeni kurtardı?",
-          "options": [
-            "961",
-            "1.213",
-            "1.488"
-          ]
+          "options": ["961", "1.213", "1.488"]
         }
       }
     },
@@ -2491,19 +2483,11 @@
       "versions": {
         "en": {
           "question": "Once Voyager 1 is one light-day away, how long will its signal take to reach Earth one way?",
-          "options": [
-            "24 hours",
-            "12 hours",
-            "48 hours"
-          ]
+          "options": ["24 hours", "12 hours", "48 hours"]
         },
         "tr": {
           "question": "Voyager 1 bir ışık günü uzaklaştığında sinyalinin Dünya’ya tek yönde ulaşması ne kadar sürecek?",
-          "options": [
-            "24 saat",
-            "12 saat",
-            "48 saat"
-          ]
+          "options": ["24 saat", "12 saat", "48 saat"]
         }
       }
     },
@@ -2513,19 +2497,11 @@
       "versions": {
         "en": {
           "question": "How many main fund-scandal files does Özgür Özel say YENİ Parti has finished checking?",
-          "options": [
-            "Three",
-            "Eight",
-            "Fifteen"
-          ]
+          "options": ["Three", "Eight", "Fifteen"]
         },
         "tr": {
           "question": "Özgür Özel, YENİ Parti’nin fon vurgununda kaç ana dosyada teyidi tamamladığını söyledi?",
-          "options": [
-            "Üç",
-            "Sekiz",
-            "On beş"
-          ]
+          "options": ["Üç", "Sekiz", "On beş"]
         }
       }
     }
@@ -2536,9 +2512,7 @@
       "kind": "match",
       "sport": "basketball",
       "focus": "person",
-      "people": [
-        "adem-bona"
-      ],
+      "people": ["adem-bona"],
       "name": {
         "en": "Adem Bona",
         "tr": "Adem Bona"
@@ -2599,24 +2573,18 @@
         {
           "side": "home",
           "name": "Emir Han Topcu",
-          "minutes": [
-            "49'"
-          ],
+          "minutes": ["49'"],
           "own": true
         },
         {
           "side": "home",
           "name": "Junior Kroupi",
-          "minutes": [
-            "80'"
-          ]
+          "minutes": ["80'"]
         },
         {
           "side": "away",
           "name": "Abdülkerim Bardakçi",
-          "minutes": [
-            "90'"
-          ]
+          "minutes": ["90'"]
         }
       ],
       "result": {
@@ -2629,9 +2597,7 @@
       "kind": "match",
       "sport": "basketball",
       "focus": "person",
-      "people": [
-        "alperen-sengun"
-      ],
+      "people": ["alperen-sengun"],
       "name": {
         "en": "Alperen Şengün",
         "tr": "Alperen Şengün"
@@ -2654,70 +2620,6 @@
       "live": {
         "source": "espn",
         "ref": "basketball/nba/401909991"
-      }
-    },
-    {
-      "id": "espn-401909997",
-      "kind": "match",
-      "sport": "basketball",
-      "focus": "person",
-      "people": [
-        "adem-bona"
-      ],
-      "name": {
-        "en": "Adem Bona",
-        "tr": "Adem Bona"
-      },
-      "competition": {
-        "en": "NBA",
-        "tr": "NBA"
-      },
-      "home": {
-        "name": "Brooklyn Nets",
-        "ours": false,
-        "team": "brooklyn-nets"
-      },
-      "away": {
-        "name": "Philadelphia 76ers",
-        "ours": true,
-        "team": "philadelphia-76ers"
-      },
-      "startsAt": "2026-11-17T00:30:00.000Z",
-      "live": {
-        "source": "espn",
-        "ref": "basketball/nba/401909997"
-      }
-    },
-    {
-      "id": "espn-401909998",
-      "kind": "match",
-      "sport": "basketball",
-      "focus": "person",
-      "people": [
-        "alperen-sengun"
-      ],
-      "name": {
-        "en": "Alperen Şengün",
-        "tr": "Alperen Şengün"
-      },
-      "competition": {
-        "en": "NBA",
-        "tr": "NBA"
-      },
-      "home": {
-        "name": "Miami Heat",
-        "ours": false,
-        "team": "miami-heat"
-      },
-      "away": {
-        "name": "Houston Rockets",
-        "ours": true,
-        "team": "houston-rockets"
-      },
-      "startsAt": "2026-11-17T00:30:00.000Z",
-      "live": {
-        "source": "espn",
-        "ref": "basketball/nba/401909998"
       }
     }
   ]

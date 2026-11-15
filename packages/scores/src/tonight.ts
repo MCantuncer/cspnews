@@ -40,15 +40,17 @@ const HOUR = 3_600_000;
 /**
  * The matches a bulletin carries: from ten hours before it, so the morning bulletin still has last
  * night's results, to 09:00 Istanbul time on the day after its own, so the evening's matches and
- * the night's NBA games are all in.
+ * the night's NBA games are all in. A late edition published after midnight still belongs to the
+ * night before, so its window ends at 09:00 that same morning, not a day later.
  */
 export function tonightWindow(publishAt: Date): TonightWindow {
   const offset = ISTANBUL_UTC_OFFSET_MINUTES * 60_000;
   const local = new Date(publishAt.getTime() + offset);
+  const afterMidnight = local.getUTCHours() < 6;
   const nextMorning = Date.UTC(
     local.getUTCFullYear(),
     local.getUTCMonth(),
-    local.getUTCDate() + 1,
+    local.getUTCDate() + (afterMidnight ? 0 : 1),
     9,
   );
   return { from: new Date(publishAt.getTime() - 10 * HOUR), until: new Date(nextMorning - offset) };
