@@ -120,13 +120,12 @@
   font: 600 13px / 30px var(--f-body);
 }
 
-.tl__across .tl__ev-word {
-  position: absolute;
-  overflow: hidden;
-  clip-path: inset(50%);
-  width: 1px;
-  height: 1px;
-  white-space: nowrap;
+/* A change of label shows its icon with the word under it, never the icon alone. */
+.tl__across .tl__ev {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  white-space: normal;
 }
 
 /* Open: the upright list, every step with its detail. A click anywhere on it folds it again. */

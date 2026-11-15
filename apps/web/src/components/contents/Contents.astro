@@ -652,11 +652,15 @@ const extras = extrasWords(lang);
     padding: 6px 0;
   }
 
+  /* Titles in the rail wrap to two lines rather than being cut at the first few words. */
   .compact .title {
+    display: -webkit-box;
     overflow: hidden;
     font-size: 16px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    line-height: 1.3;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
   }
 
   .compact .lead .title {

@@ -1,4 +1,11 @@
-import { cpSync, createReadStream, existsSync, statSync, writeFileSync } from 'node:fs';
+import {
+  cpSync,
+  createReadStream,
+  existsSync,
+  readdirSync,
+  statSync,
+  writeFileSync,
+} from 'node:fs';
 import { extname, join, normalize, resolve, sep } from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
@@ -21,6 +28,45 @@ const TYPES = new Map([
   ['.svg', 'image/svg+xml'],
   ['.webp', 'image/webp'],
 ]);
+
+// Saved photos are full-size outlet pictures, often over 1 MB. The built copies are scaled down
+// to the widest the site ever shows one (a story's photo at twice the screen's pixels) and
+// re-encoded in the same format, so every URL stays the same. Originals are never touched.
+const PHOTO_WIDTH = 1200;
+
+/** @param {string} directory */
+async function shrinkPhotos(directory) {
+  const { default: sharp } = await import('sharp');
+  for (const file of readdirSync(directory)) {
+    const path = join(directory, file);
+    const format = /\.jpe?g$/.test(file)
+      ? 'jpeg'
+      : file.endsWith('.png')
+        ? 'png'
+        : file.endsWith('.webp')
+          ? 'webp'
+          : undefined;
+    if (!format || !statSync(path).isFile()) continue;
+    try {
+      const image = sharp(path).rotate();
+      const { width } = await image.metadata();
+      const small = image.resize({
+        width: Math.min(width, PHOTO_WIDTH),
+        withoutEnlargement: true,
+      });
+      const output = await (
+        format === 'jpeg'
+          ? small.jpeg({ quality: 78, mozjpeg: true })
+          : format === 'webp'
+            ? small.webp({ quality: 78 })
+            : small.png({ compressionLevel: 9, palette: true })
+      ).toBuffer();
+      if (output.length < statSync(path).size) writeFileSync(path, output);
+    } catch {
+      // A file sharp cannot read is served as it is.
+    }
+  }
+}
 
 /** @type {import('astro').AstroIntegration} */
 const bulletinFiles = {
@@ -52,9 +98,12 @@ const bulletinFiles = {
         createReadStream(file).pipe(res);
       });
     },
-    'astro:build:done': ({ dir }) => {
+    'astro:build:done': async ({ dir }) => {
       const out = fileURLToPath(dir);
-      if (existsSync(media)) cpSync(media, join(out, 'media'), { recursive: true });
+      if (existsSync(media)) {
+        cpSync(media, join(out, 'media'), { recursive: true });
+        await shrinkPhotos(join(out, 'media'));
+      }
       // With no saved feed, publish an empty one: the site then asks for /hot.json and gets
       // "nothing breaking" instead of a 404 on every page, until the monitor publishes its own.
       if (existsSync(hotFeed)) cpSync(hotFeed, join(out, 'hot.json'));

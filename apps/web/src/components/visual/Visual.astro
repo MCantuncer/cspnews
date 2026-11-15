@@ -51,6 +51,7 @@ const chart =
           width={W}
           height={H}
           loading={captioned ? 'eager' : 'lazy'}
+          fetchpriority={captioned ? 'high' : undefined}
           decoding="async"
         />
       )}
