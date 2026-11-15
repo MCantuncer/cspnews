@@ -79,7 +79,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                                 const icon = markIcon(mark.kind, local.sport);
                                 return (
                                   <span class="mark">
-                                    {icon && <Icon name={icon} size={icon === 'assist' ? 20 : 18} />}
+                                    {icon && <Icon name={icon} size={18} />}
                                     {mark.count}
                                     {!icon && <span class="unit">{words.short[mark.kind]}</span>}
                                   </span>
@@ -293,7 +293,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   .mark {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 5px;
     color: var(--ink);
     font: 700 16px / 1 var(--f-head);
     font-variant-numeric: tabular-nums;
