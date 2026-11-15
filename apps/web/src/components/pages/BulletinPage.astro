@@ -9,6 +9,7 @@ import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate } from '../../lib/format';
 import { bulletinName } from '../../lib/i18n';
+import { bulletinDescription, leadShareImage } from '../../lib/share';
 
 interface Props {
   published: PublishedBulletin;
@@ -22,6 +23,8 @@ const name = bulletinName(published.slot, lang);
 
 <Base
   title={`${name}, ${formatLongDate(published.bulletin.publishAt, lang)} | CSPNews`}
+  description={bulletinDescription(published, lang)}
+  image={leadShareImage(published)}
   hour={editionHourFor(published.slot)}
   lang={lang}
 >

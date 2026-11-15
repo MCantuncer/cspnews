@@ -8,6 +8,7 @@ import { loadBulletins } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { wordsFor } from '../../lib/i18n';
+import { bulletinDescription, leadShareImage } from '../../lib/share';
 
 interface Props {
   lang: InterfaceLanguage;
@@ -18,7 +19,12 @@ const words = wordsFor(lang);
 const latest = loadBulletins()[0];
 ---
 
-<Base title="CSPNews" hour={latest ? editionHourFor(latest.slot) : 'dawn'} lang={lang}>
+<Base
+  title="CSPNews"
+  {...(latest && { description: bulletinDescription(latest, lang), image: leadShareImage(latest) })}
+  hour={latest ? editionHourFor(latest.slot) : 'dawn'}
+  lang={lang}
+>
   <Header lang={lang} />
   <HotLine lang={lang} />
   {

@@ -1,6 +1,6 @@
 import type { WrittenStory } from '@cspnews/core';
 
-import { loadBulletins, type PublishedBulletin } from './bulletins.js';
+import type { PublishedBulletin } from './bulletins.js';
 
 /**
  * Stories that continue earlier ones (docs/design/decisions/story-so-far.md). A story names the
@@ -84,12 +84,4 @@ export function earlierIds(
   story: Pick<WrittenStory, 'id' | 'continues'>,
 ): string[] {
   return earlierVersions(bulletins, story).map((entry) => entry.story.id);
-}
-
-let loaded: PublishedBulletin[] | undefined;
-
-/** Every published bulletin, read once per build: each story page looks its chain up here. */
-export function allBulletins(): PublishedBulletin[] {
-  loaded ??= loadBulletins();
-  return loaded;
 }
