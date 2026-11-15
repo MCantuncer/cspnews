@@ -230,6 +230,23 @@ function rankedAcrossOutlets(
     .slice(0, limit);
 }
 
+/**
+ * News owners whose general feeds carried the story. A magazine story often also turns up in its
+ * own outlet's main feed (Habertürk, Sözcü, Hürriyet and Sabah mix magazine items into it) or in
+ * one other, so only three or more owners make it news.
+ */
+const NEWS_OWNERS_FOR_NEWS = 3;
+
+function isWidelyCoveredNews(story: Story, sources: ReadonlyMap<string, Source>): boolean {
+  const owners = new Set(
+    story.articles.flatMap(({ article }) => {
+      const source = sources.get(article.sourceId);
+      return source && source.sections.length > 0 ? [source.ownerGroup] : [];
+    }),
+  );
+  return owners.size >= NEWS_OWNERS_FOR_NEWS;
+}
+
 function isHeavy(story: Story): boolean {
   return story.articles.some(({ article }) => HEAVY_TOPIC.test(article.title));
 }
@@ -238,9 +255,9 @@ function isHeavy(story: Story): boolean {
  * Candidates for each desk: a story goes to a desk when any of its articles came from a source
  * that feeds that desk.
  *
- * Spotlight (the light desk) only gets stories that the news outlets did not cover: a story the
- * news sections also carry (an outage, an accident, a club statement) is news, not magazine,
- * even when a light outlet ran it too. Heavy topics are left out as well. Coverage counts for
+ * Spotlight (the light desk) leaves out stories that the news outlets covered widely: a story
+ * that three or more news owners carry (an outage, an accident, a club statement) is news, not
+ * magazine, even when a light outlet ran it too. Heavy topics are left out as well. Coverage counts for
  * little in magazine news, which is often told by one outlet, so the desk keeps more of them for
  * the writer to choose from, newest first among equals.
  */
@@ -255,7 +272,7 @@ export function toDeskCandidates(
     const storyDesks = new Set(
       story.articles.flatMap(({ article }) => sources.get(article.sourceId)?.desks ?? []),
     );
-    if (storyDesks.has('light') && (story.sections.length > 0 || isHeavy(story))) {
+    if (storyDesks.has('light') && (isWidelyCoveredNews(story, sources) || isHeavy(story))) {
       storyDesks.delete('light');
     }
     // Turks abroad is about people, not outlets: any story that names someone on the list or uses
