@@ -44,6 +44,8 @@ export const ICONS = {
   /* A station on the line with a plus: follow where this story goes next. */
   follow:
     '<path d="M2 12h5.5"/><circle cx="12" cy="12" r="4.5"/><path d="M12 9.75v4.5M9.75 12h4.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/>',
+  /* A flag on the line: keep this story for later. */
+  save: '<path d="M2 20h5.5M16.5 20H22"/><path d="M7 3.5h10V16l-5-3.25L7 16z"/>',
   stats:
     '<path d="M2.5 20h19M6.5 20v-5M12 20v-9.75M17.5 20v-7.5"/><circle cx="12" cy="6" r="2.25" fill="currentColor"/>',
   share:

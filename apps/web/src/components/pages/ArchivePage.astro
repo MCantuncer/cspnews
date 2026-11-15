@@ -1,0 +1,152 @@
+---
+/**
+ * Earlier bulletins (docs/design/decisions/saved-and-archive.md): every published bulletin by
+ * month and day, newest first, a plain list so it stays short to scan and works with no script.
+ */
+import Header from '../Header.astro';
+import Base from '../../layouts/Base.astro';
+import { archiveMonths } from '../../lib/archive';
+import { loadBulletins } from '../../lib/bulletins';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatWeekday } from '../../lib/format';
+import { savedWords } from '../../lib/saved-words';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const words = savedWords(lang);
+const locale = lang === 'tr' ? 'tr-TR' : 'en-GB';
+const months = archiveMonths(loadBulletins(), lang);
+const monthName = (month: string) =>
+  new Intl.DateTimeFormat(locale, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(
+    new Date(`${month}-01T12:00:00Z`),
+  );
+const dayName = (date: string) => {
+  const day = new Intl.DateTimeFormat(locale, { day: 'numeric', timeZone: 'UTC' }).format(
+    new Date(`${date}T12:00:00Z`),
+  );
+  return { day, weekday: formatWeekday(`${date}T12:00:00+03:00`, lang) };
+};
+---
+
+<Base title={`${words.archiveTitle} | CSPNews`} lang={lang} description={words.archiveIntro}>
+  <Header lang={lang} />
+  <main class="archive">
+    <h1>{words.archiveTitle}</h1>
+    <p class="intro">{words.archiveIntro}</p>
+    {months.length === 0 && <p class="intro">{words.archiveEmpty}</p>}
+    {
+      months.map(({ month, days }) => (
+        <section>
+          <h2>{monthName(month)}</h2>
+          <ol>
+            {days.map((entry) => {
+              const { day, weekday } = dayName(entry.date);
+              return (
+                <li>
+                  <span class="when">
+                    <b>{day}</b>
+                    <span>{weekday}</span>
+                  </span>
+                  <span class="slots">
+                    {entry.bulletins.map((bulletin) => (
+                      <a href={bulletin.href}>{bulletin.name}</a>
+                    ))}
+                  </span>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ))
+    }
+  </main>
+</Base>
+
+<style>
+  .archive {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 36px var(--gutter) 64px;
+  }
+
+  h1 {
+    font: 800 32px / 1.1 var(--f-head);
+    letter-spacing: -0.025em;
+  }
+
+  .intro {
+    margin-top: 10px;
+    color: var(--meta);
+    font: 400 17px / 1.5 var(--f-body);
+  }
+
+  section {
+    margin-top: 40px;
+  }
+
+  h2 {
+    color: var(--meta);
+    font: 700 14px / 1.3 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  ol {
+    display: grid;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: grid;
+    gap: 10px;
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .when {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    color: var(--meta);
+    font: 500 14px / 1.3 var(--f-body);
+  }
+
+  .when b {
+    color: var(--ink);
+    font: 800 22px / 1.1 var(--f-head);
+  }
+
+  @media (width >= 560px) {
+    li {
+      grid-template-columns: 140px 1fr;
+      align-items: baseline;
+    }
+  }
+
+  .slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .slots a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 14px;
+    border: 1.5px solid var(--line2);
+    border-radius: 10px;
+    color: var(--ink);
+    font: 600 15px / 1 var(--f-body);
+    text-decoration: none;
+  }
+
+  .slots a:hover {
+    border-color: var(--ink);
+  }
+</style>

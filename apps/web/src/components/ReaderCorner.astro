@@ -14,6 +14,7 @@ import type { InterfaceLanguage } from '../lib/evidence';
 import { extrasWords } from '../lib/extras';
 import { wordsFor } from '../lib/i18n';
 import { INTERFACE_LANGUAGES, languagePath, localePath } from '../lib/locale';
+import { savedWords } from '../lib/saved-words';
 import { DEFAULT_THEME, TEXT_SIZES, THEMES } from '../lib/settings';
 
 interface Props {
@@ -25,6 +26,7 @@ interface Props {
 const { lang, inSettings = false } = Astro.props;
 const words = wordsFor(lang);
 const extras = extrasWords(lang);
+const saved = savedWords(lang);
 const path = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/') || '/';
 const LANGUAGE_NAMES = { en: 'English', tr: 'Türkçe' } as const;
 const sizeLabels = Object.fromEntries(
@@ -127,6 +129,14 @@ const sizeLabels = Object.fromEntries(
       </div>
     </div>
 
+    <a class="rc-more" href={localePath('/saved', lang)}>
+      <span>{saved.savedLink}</span>
+      <Icon name="more" size={20} />
+    </a>
+    <a class="rc-more" href={localePath('/archive', lang)}>
+      <span>{saved.archiveLink}</span>
+      <Icon name="more" size={20} />
+    </a>
     <a class="rc-more" href={localePath('/settings', lang)}>
       <span>{words.moreSettings}</span>
       <Icon name="more" size={20} />
@@ -406,7 +416,7 @@ const sizeLabels = Object.fromEntries(
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 56px;
+    min-height: 48px;
     color: var(--meta);
     font: 500 15px / 1.3 var(--f-body);
     text-decoration: none;
