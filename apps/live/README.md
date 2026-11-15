@@ -13,7 +13,7 @@ It costs nothing on Cloudflare's free plan (100,000 requests a day), and nothing
 
 1. In the Cloudflare dashboard, add the site's domain if it isn't there yet.
 2. From the repository root: `pnpm install && pnpm --filter @cspnews/live... build`, then `pnpm --filter @cspnews/live exec wrangler login` and `pnpm --filter @cspnews/live run deploy` (with `run`: plain `pnpm deploy` is a pnpm command of its own).
-3. In the Worker's **Settings → Domains & Routes**, add the custom domain `live.<domain>` (for example `live.cspnews.app`).
+3. Deploying connects the Worker to `live.cspnews.app` by itself (`routes` in `wrangler.jsonc`), DNS record included. The domain must be in the same Cloudflare account. If a deploy asks to register a `workers.dev` subdomain, answer yes once.
 4. In Vercel's project settings, add the environment variable `PUBLIC_LIVE_SCORES_URL` = `https://live.<domain>` and redeploy once. Without it the pages simply don't ask, and every row moves on by the clock.
 
 ## Local development
