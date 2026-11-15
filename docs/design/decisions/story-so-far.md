@@ -1,0 +1,5 @@
+# Story so far
+
+A story that carries on from an earlier bulletin says so instead of repeating itself. The page opens, under the headline, with one labelled sentence: **New since the evening bulletin** (the weekday when that bulletin came out on another day), then what is new in a single line, in the section's hue on a short rule. Under the full story, **Story so far** lists the earlier reports, newest first: when and in which bulletin, the headline, and the line each one added (its own new sentence, else its first summary line). Each opens that earlier story. An earlier story's page gets one quiet link, **A newer report**, to the story that continues it.
+
+No new screens, badges or alerts: both blocks sit in the story's own column and appear only on a story that has a chain. Stories link by `continues` (the earlier story's id), written by the Write run when there is real news since (docs/publishing.md, "Continuing stories"). Following a story follows its continuations: the next bulletin's "Since you last read" shows the new story with its new sentence as the one line, and reading the new story moves the follow to it.

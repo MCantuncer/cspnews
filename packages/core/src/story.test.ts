@@ -184,6 +184,38 @@ describe('WrittenStorySchema', () => {
   });
 });
 
+describe('a story that continues an earlier one', () => {
+  const NEWS = {
+    en: 'The central bank also raised its inflation forecast.',
+    tr: 'Merkez Bankası enflasyon tahminini de yükseltti.',
+  };
+  const continued = (
+    continues: string | undefined,
+    en: string | undefined,
+    tr: string | undefined,
+  ) => ({
+    ...STORY,
+    ...(continues ? { continues } : {}),
+    versions: {
+      en: { ...EN, ...(en ? { news: en } : {}) },
+      tr: { ...TR, ...(tr ? { news: tr } : {}) },
+    },
+  });
+
+  it('names the earlier story and says what is new in both languages', () => {
+    expect(issues(continued('0123456789abcdef', NEWS.en, NEWS.tr))).toEqual([]);
+  });
+
+  it('needs the news in both languages', () => {
+    expect(issues(continued('0123456789abcdef', NEWS.en, undefined))).not.toEqual([]);
+    expect(issues(continued('0123456789abcdef', undefined, undefined))).not.toEqual([]);
+  });
+
+  it('has no news without an earlier story', () => {
+    expect(issues(continued(undefined, NEWS.en, NEWS.tr))).not.toEqual([]);
+  });
+});
+
 describe('the two versions', () => {
   it('needs both an English and a Turkish version', () => {
     expect(issues({ ...STORY, versions: { tr: TR } })).not.toEqual([]);

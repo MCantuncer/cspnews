@@ -123,3 +123,45 @@ describe('what changed', () => {
     );
   });
 });
+
+describe('a story that continues a followed one', () => {
+  const continued: StoryNow = {
+    ...chp,
+    id: 'chp-next',
+    href: '/2026-11-12/morning/chp-next',
+    earlier: ['chp'],
+    news: 'The trial moved to 4 December.',
+    sources: [{ id: 'ntv', name: 'NTV' }],
+  };
+
+  it('counts as the followed story moving and says what is new', () => {
+    const storage = memory();
+    follow(storage, seenNow(chp, at));
+    const moved = movedStories(followed(storage, at.getTime()), [continued]);
+    expect(moved).toHaveLength(1);
+    expect(moved[0]?.story.id).toBe('chp-next');
+    expect(moved[0]?.changes).toEqual([{ kind: 'news', text: 'The trial moved to 4 December.' }]);
+    expect(changeLine({ kind: 'news', text: 'The trial moved to 4 December.' }, 'en')).toBe(
+      'The trial moved to 4 December.',
+    );
+  });
+
+  it('moves the follow to the newer story when it is read', () => {
+    const storage = memory();
+    follow(storage, seenNow(chp, at));
+    expect(isFollowed(storage, 'chp-next', ['chp'])).toBe(true);
+    markSeen(storage, seenNow(continued, at), ['chp']);
+    expect(followed(storage, at.getTime()).map((s) => s.id)).toEqual(['chp-next']);
+  });
+
+  it('unfollows the whole chain', () => {
+    const storage = memory();
+    follow(storage, seenNow(chp, at));
+    unfollow(storage, 'chp-next', ['chp']);
+    expect(followed(storage, at.getTime())).toEqual([]);
+  });
+
+  it('is not followed when no earlier story was', () => {
+    expect(isFollowed(memory(), 'chp-next', ['chp'])).toBe(false);
+  });
+});

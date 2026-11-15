@@ -14,9 +14,11 @@ import EvidenceLine from '../story/EvidenceLine.astro';
 import Facts from '../story/Facts.astro';
 import Follow from '../story/Follow.astro';
 import StoryNav from '../story/StoryNav.astro';
+import StorySoFar from '../story/StorySoFar.astro';
 import Summary from '../story/Summary.astro';
 import TimelineView from '../story/Timeline.astro';
 import VisualView from '../visual/Visual.astro';
+import WhatsNew from '../story/WhatsNew.astro';
 import Base from '../../layouts/Base.astro';
 import {
   bulletinPath,
@@ -28,9 +30,17 @@ import {
 } from '../../lib/bulletins';
 import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
-import { formatTime } from '../../lib/format';
-import { bulletinName, sectionName, storyPosition, updatedAt, wordsFor } from '../../lib/i18n';
+import { formatTime, formatWeekday } from '../../lib/format';
+import {
+  bulletinName,
+  newSince,
+  sectionName,
+  storyPosition,
+  updatedAt,
+  wordsFor,
+} from '../../lib/i18n';
 import { outletNames, sourceName } from '../../lib/sources';
+import { allBulletins, earlierVersions, newerVersion } from '../../lib/story-chain';
 import { storyVisual } from '../../lib/story-visual';
 import { timelineFor } from '../../lib/timeline';
 
@@ -53,6 +63,31 @@ const timeline = timelineFor(story, lang, sourceName);
 const name = bulletinName(published.slot, lang);
 const visual = storyVisual(story);
 const hasFacts = story.facts !== undefined && story.facts.length > 0;
+
+// A story that continues an earlier one: what is new, the earlier reports, and on an older
+// story the newer report (docs/design/decisions/story-so-far.md).
+const bulletins = allBulletins();
+const earlier = earlierVersions(bulletins, story);
+const previousVersion = earlier.at(-1);
+const newer = newerVersion(bulletins, story);
+const newerStory = newer && storyIn(newer.story, lang);
+const sinceLabel =
+  previousVersion &&
+  newSince(
+    previousVersion.published.slot,
+    previousVersion.published.date === published.date
+      ? undefined
+      : formatWeekday(previousVersion.published.bulletin.publishAt, lang),
+    lang,
+  );
+const earlierReports = earlier
+  .map(({ published: before, story: reported }) => ({
+    story: storyIn(reported, lang),
+    href: storyPath(before, reported, lang),
+    at: before.bulletin.publishAt,
+    bulletin: bulletinName(before.slot, lang),
+  }))
+  .reverse();
 ---
 
 <Base
@@ -93,6 +128,17 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
           drawerId="evidence"
           openLabel={words.openEvidence}
         />
+        <WhatsNew
+          {...(sinceLabel && story.news && { label: sinceLabel, news: story.news })}
+          {...(newer && newerStory && {
+            newer: {
+              href: storyPath(newer.published, newer.story, lang),
+              title: newerStory.shortTitle,
+              label: words.newerReport,
+            },
+          })}
+          lang={story.language}
+        />
       </div>
       <div class="summary">
         <Summary summary={story.summary} words={words} lang={story.language} />
@@ -101,6 +147,13 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
         timeline && (
           <div class="timeline">
             <TimelineView timeline={timeline} lang={lang} />
+          </div>
+        )
+      }
+      {
+        earlierReports.length > 0 && (
+          <div class="sofar">
+            <StorySoFar heading={words.storySoFar} earlier={earlierReports} lang={lang} />
           </div>
         )
       }
@@ -116,7 +169,12 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
           </div>
         )}
         <div class="follow-slot">
-          <Follow story={story} href={storyPath(published, story, lang)} lang={lang} />
+          <Follow
+            story={story}
+            href={storyPath(published, story, lang)}
+            lang={lang}
+            earlier={earlier.map((entry) => entry.story.id)}
+          />
         </div>
       </aside>
       <div class="body">
@@ -225,9 +283,13 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     order: 6;
   }
 
+  .sofar {
+    order: 7;
+  }
+
   /* On a phone, following is offered once the story has been read. */
   .follow-slot {
-    order: 7;
+    order: 8;
   }
 
   /* Under the headline the summary needs less air than it does under a picture. */
@@ -273,7 +335,8 @@ const hasFacts = story.facts !== undefined && story.facts.length > 0;
     .lead,
     .summary,
     .timeline,
-    .body {
+    .body,
+    .sofar {
       grid-column: 1;
     }
 

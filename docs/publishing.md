@@ -7,6 +7,7 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
    - stories in section order (Türkiye, Tech and AI, Around the World);
    - every story in both languages under `versions.en` and `versions.tr`, and `sourceLanguage` set to the language most of its sources used. See "Writing in two languages" below;
    - only facts from the candidate articles, each claim and quote attributed to its outlet;
+   - a story that is in an earlier bulletin again is either left out or written as a continuing story; see "Continuing stories" below;
    - fill the parts the pages are built around: `facts` on every story, and `keyNumber`, `series` and `place` wherever the story has them. See "Filling every part" below. A part is left out only when the sources really don't support it, never to save time;
    - keep each candidate's label, sources, timeline and `image` (the photo the rules picked, with its credit). Don't drop an `image` on a guess: the writing run can't see photos, and the rules already leave out logos, icons, small thumbnails and photos with an outlet logo stamped on them (step 3). Drop it only when the article itself says the picture is a logo, a document or an illustration.
    - write **And finally** (Spotlight) and **Transfers** from `desks.light` and `desks.transfers`, and **Turks abroad** (`abroad`) from `desks.abroad`. See "And finally and Transfers" and "Turks abroad" below. These are part of every bulletin, not extras: read every candidate on each desk before deciding. Leave a part out only when no candidate passes its bar, and say so in the pull request.
@@ -25,6 +26,16 @@ The machine that writes the bulletin cannot reach news sites, so the two steps t
 - **The Verify and Write run** is a scheduled task that starts forty minutes before each bulletin (the two main bulletins every day, the two side bulletins on weekdays). Its first action is to start Collect, because GitHub's own timer runs late or not at all; the timer in the workflow stays only as a backup, and Collect can also be started by hand from the Actions tab. The run then reads the new pair from the `candidates` branch, writes the bulletin, runs step 5 and opens a pull request with only the bulletin file.
 - **Bulletin photos** (`.github/workflows/bulletin-photos.yml`) runs step 3 on that pull request and adds the photos to its branch.
 - The run then merges the pull request, which is step 6.
+
+## Continuing stories
+
+A story that ran in a bulletin of the last three days and has new facts today is written once more, as a continuation, never as a fresh story. Readers who read the earlier bulletin should see at once what is new, and a story must never repeat what they already know.
+
+- **Finding them.** A candidate that shares an article with an earlier story carries `continues` (`storyId`, `bulletin`, `title`, `sharedArticles`): the same story again, probably. It points at the newest report of that story. Also skim the titles of the last three days of `data/bulletins/` for stories the hint missed (outlets that wrote it fresh share no article).
+- **Real news since? Write it as a continuation.** Set `continues` on the story to the earlier story's id, and write `versions.en.news` and `versions.tr.news`: one sentence, at most 160 characters, saying the new fact itself ("The fund payouts passed ₺161bn", "Kulaksız's suspect was caught in Ankara"), never "an update" or "new developments". The summary and body tell the whole story as it stands now, with the new fact first in the body. Keep the earlier story's section: the same story never moves between sections.
+- **Nothing new? Leave it out.** An outlet writing the same thing again, a longer version, or a new quote that adds no fact is not news. A story with nothing new does not appear twice.
+- **Not the same story?** A shared article can be a roundup. When the candidate is really another story, ignore the hint and write it as usual, with no `continues`.
+- **What the site does.** The story page opens with the `news` line under "New since the evening bulletin", and lists the earlier reports under "Story so far". The earlier story's page links to the newer report, and a reader who follows the earlier story gets the new one in "Since you last read", with the `news` line. The build stops when `continues` names a story that does not exist, was not published earlier, or is already continued by another story.
 
 ## Filling every part
 

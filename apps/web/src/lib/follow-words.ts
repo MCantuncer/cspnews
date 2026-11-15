@@ -46,6 +46,8 @@ function nameList(names: readonly string[], language: InterfaceLanguage): string
 export function changeLine(change: Change, language: InterfaceLanguage): string {
   const words = WORDS[language];
   switch (change.kind) {
+    case 'news':
+      return change.text;
     case 'joined':
       return words.joined(nameList(change.names, language), change.total);
     case 'label':

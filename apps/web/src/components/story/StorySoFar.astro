@@ -1,0 +1,93 @@
+---
+/**
+ * "The story so far" (docs/design/decisions/story-so-far.md): the earlier reports of a story that
+ * continues, newest first, each with what it said or added. One quiet list under the full story.
+ */
+import type { LocalStory } from '@cspnews/core';
+
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatWeekdayTime } from '../../lib/format';
+
+export interface Earlier {
+  story: LocalStory;
+  href: string;
+  /** When it was published, ISO, and the bulletin's name. */
+  at: string;
+  bulletin: string;
+}
+
+interface Props {
+  heading: string;
+  earlier: Earlier[];
+  lang: InterfaceLanguage;
+}
+
+const { heading, earlier, lang } = Astro.props;
+---
+
+<section class="sofar" aria-labelledby="sofar-title">
+  <h2 id="sofar-title">{heading}</h2>
+  <ol>
+    {
+      earlier.map(({ story, href, at, bulletin }) => (
+        <li>
+          <a href={href} lang={story.language}>
+            <span class="when">{`${formatWeekdayTime(at, lang)}, ${bulletin}`}</span>
+            <span class="title">{story.title}</span>
+            <span class="line">{story.news ?? story.summary.what}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<style>
+  .sofar {
+    margin-top: 40px;
+  }
+
+  h2 {
+    font: 700 18px / 1.25 var(--f-head);
+    letter-spacing: -0.01em;
+  }
+
+  ol {
+    display: grid;
+    gap: 0;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    border-top: 1px solid var(--line);
+  }
+
+  a {
+    display: grid;
+    gap: 4px;
+    padding: 16px 0;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .when {
+    color: var(--ink2);
+    font: 500 14px / 1.4 var(--f-body);
+  }
+
+  .title {
+    font: 700 17px / 1.35 var(--f-body);
+  }
+
+  a:hover .title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .line {
+    color: var(--ink2);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+</style>
