@@ -7,6 +7,9 @@
   "compatibility_date": "2026-11-01",
   "observability": { "enabled": false },
   // The Worker's own address; deploying creates its DNS record in the cspnews.app zone.
+  // Only the custom domain serves the Worker: no workers.dev address, no preview addresses.
+  "workers_dev": false,
+  "preview_urls": false,
   "routes": [{ "pattern": "live.cspnews.app", "custom_domain": true }],
   "vars": {
     // Pages that may read the scores, comma-separated.
