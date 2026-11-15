@@ -6,6 +6,7 @@
 import Header from '../Header.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
+import ThemeSwatch from '../ui/ThemeSwatch.astro';
 import Toggle from '../ui/Toggle.astro';
 import Base from '../../layouts/Base.astro';
 import { aboutPath, aboutText } from '../../lib/about';
@@ -17,7 +18,7 @@ import type { InterfaceLanguage } from '../../lib/evidence';
 import { extrasWords } from '../../lib/extras';
 import { wordsFor } from '../../lib/i18n';
 import { INTERFACE_LANGUAGES, localePath } from '../../lib/locale';
-import { TEXT_SIZES, THEMES } from '../../lib/settings';
+import { DEFAULT_THEME, TEXT_SIZES, THEMES } from '../../lib/settings';
 
 interface Props {
   lang: InterfaceLanguage;
@@ -73,10 +74,13 @@ const sizeLabels = Object.fromEntries(
               type="button"
               class="option"
               role="radio"
-              aria-checked={theme === 'dark' ? 'true' : 'false'}
+              aria-checked={theme === DEFAULT_THEME ? 'true' : 'false'}
               data-theme-option={theme}
             >
-              {words.themes[theme]}
+              <span class="named">
+                <ThemeSwatch theme={theme} />
+                {words.themes[theme]}
+              </span>
               <Icon name="choice-off" size={24} class="off" />
               <Icon name="choice-on" size={24} class="on" />
             </button>
@@ -205,6 +209,12 @@ const sizeLabels = Object.fromEntries(
     text-align: left;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .named {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
 
   .option[aria-checked='true'] {

@@ -1,0 +1,45 @@
+---
+/**
+ * A small disc in a theme's page colour, so Dark and Black (or Paper and Clean) read apart at a
+ * glance in the theme choice. Matching the device shows its two sides, Clean and Dark.
+ */
+import type { Theme } from '../../lib/settings';
+
+interface Props {
+  theme: Theme;
+}
+
+const { theme } = Astro.props;
+---
+
+<span class="swatch" data-swatch={theme} aria-hidden="true"></span>
+
+<style>
+  .swatch {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--line2);
+    border-radius: 50%;
+  }
+
+  [data-swatch='dark'] {
+    background: var(--swatch-dark);
+  }
+
+  [data-swatch='black'] {
+    background: var(--swatch-black);
+  }
+
+  [data-swatch='light'] {
+    background: var(--swatch-light);
+  }
+
+  [data-swatch='clean'] {
+    background: var(--swatch-clean);
+  }
+
+  [data-swatch='device'] {
+    background: linear-gradient(90deg, var(--swatch-clean) 50%, var(--swatch-dark) 50%);
+  }
+</style>

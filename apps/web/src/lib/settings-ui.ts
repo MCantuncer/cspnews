@@ -4,7 +4,14 @@
  * follows a change made in another (the sheet open on the Settings page, for example).
  */
 import { LANGUAGE_KEY } from './locale.js';
-import { SETTINGS_KEYS, isTextSize, isTheme, stepTextSize, type TextSize } from './settings.js';
+import {
+  DEFAULT_THEME,
+  SETTINGS_KEYS,
+  isTextSize,
+  isTheme,
+  stepTextSize,
+  type TextSize,
+} from './settings.js';
 
 const CHANGED = 'cspnews:settings';
 
@@ -27,7 +34,20 @@ function write(key: string, value: string | undefined) {
 
 function currentTheme(): string {
   const saved = read(SETTINGS_KEYS.theme);
-  return isTheme(saved) ? saved : 'dark';
+  return isTheme(saved) ? saved : DEFAULT_THEME;
+}
+
+/**
+ * Keeps the phone's browser bar the page colour. Matching the device keeps one colour per
+ * system scheme (Base.astro); a chosen theme puts its own page colour on both.
+ */
+function syncThemeColor(theme: string) {
+  const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+  for (const meta of document.querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')) {
+    const scheme = meta.dataset.scheme ?? '';
+    meta.content = theme === DEFAULT_THEME ? (meta.dataset.device ?? bg) : bg;
+    meta.media = theme === DEFAULT_THEME ? `(prefers-color-scheme: ${scheme})` : '';
+  }
 }
 
 function currentSize(): TextSize {
@@ -79,7 +99,8 @@ export function bindSettings(container: ParentNode) {
       const theme = option.getAttribute('data-theme-option');
       if (!isTheme(theme)) return;
       root.dataset.theme = theme;
-      write(SETTINGS_KEYS.theme, theme === 'dark' ? undefined : theme);
+      write(SETTINGS_KEYS.theme, theme === DEFAULT_THEME ? undefined : theme);
+      syncThemeColor(theme);
       changed();
     });
   }
