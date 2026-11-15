@@ -923,6 +923,7 @@
       "sourceLanguage": "en",
       "label": "single-source",
       "developing": false,
+      "continues": "8097820885cc543d",
       "versions": {
         "en": {
           "shortTitle": "Petition to bring Huang back",
@@ -999,7 +1000,8 @@
               "value": "1,108",
               "source": "Petition site via TechCrunch"
             }
-          ]
+          ],
+          "news": "A petition to reinstate Jensen Huang has passed 115,000 signatures, including 5,965 Nvidia staff, Elon Musk and Tim Sweeney."
         },
         "tr": {
           "shortTitle": "Huang için imza kampanyası",
@@ -1077,7 +1079,8 @@
               "value": "1.108",
               "source": "Dilekçe sitesi, TechCrunch"
             }
-          ]
+          ],
+          "news": "Huang’ın göreve iadesi için açılan dilekçe, aralarında 5.965 Nvidia çalışanı, Elon Musk ve Tim Sweeney’nin de olduğu 115 bin imzayı geçti."
         }
       },
       "timeline": [
@@ -1085,216 +1088,12 @@
           "kind": "first-reported",
           "at": "2026-11-14T21:41:22.000Z",
           "sourceId": "techcrunch"
-        },
-        {
-          "kind": "updated",
-          "at": "2026-11-15T09:30:00.000Z",
-          "note": {
-            "en": "New since the morning edition: the petition to reinstate Huang passed 115,000 signatures.",
-            "tr": "Sabah bülteninden bu yana yeni: Huang’ın göreve iadesi için dilekçe 115 bin imzayı geçti."
-          }
         }
       ],
       "sources": [
         {
           "sourceId": "techcrunch",
           "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-          "confirms": true
-        }
-      ],
-      "publishedAt": "2026-11-15T12:30:00+03:00",
-      "updatedAt": "2026-11-15T12:30:00+03:00"
-    },
-    {
-      "id": "9e314a8f744ef711",
-      "section": "tech",
-      "sourceLanguage": "en",
-      "label": "single-source",
-      "developing": false,
-      "versions": {
-        "en": {
-          "shortTitle": "Tesla takes Cybercab pre-orders",
-          "title": "Tesla opens Cybercab pre-orders for personal use at $29,990 plus $299 a month, limited to geofenced areas in Texas at first",
-          "summary": {
-            "what": "Tesla has let “select customers” pre-order its driverless Cybercab for personal use, at $29,990 plus a $299 monthly fee, with delivery estimated for December 2026.",
-            "why": "It is the first time Tesla has sold its robotaxi to private owners, but the car will only drive itself inside the areas where Tesla’s robotaxi service already runs.",
-            "next": "Musk says it will be sold nationwide as regulators approve it, and that the monthly fee is too high and should be nearer $115."
-          },
-          "body": [
-            {
-              "subhead": "The offer",
-              "blocks": [
-                {
-                  "text": "Tesla said on Friday evening that “select customers” could now pre-order its autonomous, gold-coloured Cybercab “for personal use”, TechCrunch reported. The car costs $29,990, and owners will also have to pay $299 a month to operate it."
-                },
-                {
-                  "text": "More details emerged as customers looked at the order page. Tech reviewer Marques Brownlee posted that buyers must accept delivery in one of a handful of Texas cities and that the car will only operate in certain geofenced areas. The estimated delivery date is December 2026."
-                }
-              ]
-            },
-            {
-              "subhead": "Where it will drive",
-              "blocks": [
-                {
-                  "text": "Tesla’s Ashok Elluswamy said the Cybercab will work unsupervised inside the same areas as Tesla’s robotaxi service, “just serving the owners’ needs”. In practice, that means an owner’s car can only drive itself where Tesla already runs driverless taxis."
-                },
-                {
-                  "text": "Replying to Brownlee, chief executive Elon Musk said the Cybercab will be available nationwide as Tesla receives regulatory approval. He did not give a timetable."
-                }
-              ]
-            },
-            {
-              "subhead": "Musk on the fee",
-              "blocks": [
-                {
-                  "text": "Musk also said the monthly fee was too high, disagreeing in public with the price on his own company’s order page."
-                },
-                {
-                  "quote": "Should match the cost of Tesla [Full Self-Driving] and connectivity for other models, which is more like ~$115/month.",
-                  "speaker": "Elon Musk, Tesla chief executive",
-                  "sourceId": "techcrunch"
-                },
-                {
-                  "text": "The Cybercab is central to Tesla’s plans. After the Cybertruck fell far short of projected sales, Tesla recently announced it will stop making the Cybertruck next year and use the factory capacity to build more Cybercabs, TechCrunch noted. The car has no steering wheel or pedals."
-                }
-              ]
-            },
-            {
-              "subhead": "What it costs",
-              "blocks": [
-                {
-                  "text": "At $299 a month, the operating fee adds $3,588 a year to the $29,990 price. At the roughly $115 Musk suggested, it would be $1,380 a year."
-                },
-                {
-                  "text": "Tesla did not say how many customers were selected for pre-orders, which Texas cities qualify, or what the fee pays for beyond operating the car, according to TechCrunch’s report. The car was designed as a robotaxi, and selling it to private owners is a new step for it."
-                }
-              ]
-            }
-          ],
-          "facts": [
-            {
-              "label": "Price",
-              "value": "$29,990",
-              "source": "Tesla via TechCrunch"
-            },
-            {
-              "label": "Monthly fee",
-              "value": "$299",
-              "source": "Tesla via TechCrunch"
-            },
-            {
-              "label": "Fee Musk suggests",
-              "value": "~$115",
-              "source": "Elon Musk via TechCrunch"
-            },
-            {
-              "label": "Estimated delivery",
-              "value": "Dec 2026",
-              "source": "Tesla via TechCrunch"
-            }
-          ]
-        },
-        "tr": {
-          "shortTitle": "Tesla Cybercab ön siparişte",
-          "title": "Tesla, sürücüsüz Cybercab’i bireyler için 29.990 dolar ve aylık 299 dolarla ön siparişe açtı; araç önce Teksas’ta çalışacak",
-          "summary": {
-            "what": "Tesla, sürücüsüz Cybercab’i “seçili müşterilere” bireysel kullanım için 29.990 dolar ve aylık 299 dolar ücretle ön siparişe açtı; teslimat Aralık 2026’da bekleniyor.",
-            "why": "Tesla robotaksisini ilk kez bireysel sahiplere satıyor, ancak araç yalnızca şirketin robotaksi hizmetinin çalıştığı bölgelerde kendi kendine gidecek.",
-            "next": "Musk, aracın onaylar geldikçe ülke genelinde satılacağını ve aylık ücretin yüksek olduğunu, 115 dolar civarında olması gerektiğini söyledi."
-          },
-          "body": [
-            {
-              "subhead": "Teklif",
-              "blocks": [
-                {
-                  "text": "TechCrunch’ın haberine göre Tesla cuma akşamı, sürücüsüz ve altın renkli Cybercab’i “seçili müşterilerin” “bireysel kullanım için” ön sipariş verebileceğini duyurdu. Aracın fiyatı 29.990 dolar; sahipleri ayrıca kullanım için ayda 299 dolar ödeyecek."
-                },
-                {
-                  "text": "Ayrıntılar sipariş sayfasından çıktı. Teknoloji yorumcusu Marques Brownlee, alıcıların aracı Teksas’taki birkaç şehirden birinde teslim almak zorunda olduğunu ve aracın yalnızca belirli coğrafi sınırlar (geofence) içinde çalışacağını paylaştı. Tahmini teslim tarihi Aralık 2026."
-                },
-                {
-                  "text": "Tesla, “seçili müşterilerin” kim olduğunu açıklamadı."
-                }
-              ]
-            },
-            {
-              "subhead": "Nerede gidecek",
-              "blocks": [
-                {
-                  "text": "Tesla’dan Ashok Elluswamy, Cybercab’in robotaksi hizmetiyle aynı bölgelerde, sürücü gözetimi olmadan, “yalnızca sahibinin ihtiyaçlarına hizmet ederek” çalışacağını söyledi. Yani araç, Tesla’nın zaten sürücüsüz taksi işlettiği yerler dışında kendi kendine gidemeyecek."
-                },
-                {
-                  "text": "Brownlee’ye yanıt veren CEO Elon Musk, Cybercab’in düzenleyici onaylar alındıkça ülke genelinde satışa açılacağını söyledi, ancak takvim vermedi."
-                },
-                {
-                  "text": "Elluswamy bu açıklamayı, Tesla’nın robotaksi hizmetinin sosyal medya hesabına atıfla yaptı; aracın aynı alanların dışına çıkıp çıkamayacağına dair bir ayrıntı vermedi."
-                }
-              ]
-            },
-            {
-              "subhead": "Musk’tan ücret itirafı",
-              "blocks": [
-                {
-                  "text": "Musk, aylık ücretin fazla yüksek olduğunu da söyleyerek kendi şirketinin sipariş sayfasındaki fiyata açıkça itiraz etti."
-                },
-                {
-                  "quote": "Tesla FSD ve diğer modellerdeki bağlantı ücretiyle aynı olmalı, bu da ayda yaklaşık 115 dolar.",
-                  "speaker": "Elon Musk, Tesla CEO’su",
-                  "sourceId": "techcrunch",
-                  "translated": true
-                },
-                {
-                  "text": "TechCrunch’a göre Cybertruck satış hedeflerinin çok altında kalınca Tesla, gelecek yıl Cybertruck üretimini durdurup kapasiteyi Cybercab’e ayıracağını açıklamıştı. Araçta direksiyon ve pedal yok."
-                }
-              ]
-            },
-            {
-              "subhead": "Maliyeti",
-              "blocks": [
-                {
-                  "text": "Aylık 299 dolarlık ücret, 29.990 dolarlık fiyata yılda 3.588 dolar ekliyor. Musk’ın önerdiği yaklaşık 115 dolarla bu rakam yılda 1.380 dolar olurdu."
-                },
-                {
-                  "text": "TechCrunch’ın haberine göre Tesla, kaç müşterinin ön sipariş için seçildiğini, hangi Teksas şehirlerinin kapsamda olduğunu ve ücretin aracı çalıştırmanın dışında neyi karşıladığını açıklamadı. Robotaksi olarak tasarlanan aracın bireysel sahiplere satılması onun için yeni bir adım."
-                }
-              ]
-            }
-          ],
-          "facts": [
-            {
-              "label": "Fiyat",
-              "value": "29.990 $",
-              "source": "Tesla, TechCrunch"
-            },
-            {
-              "label": "Aylık ücret",
-              "value": "299 $",
-              "source": "Tesla, TechCrunch"
-            },
-            {
-              "label": "Musk’ın önerdiği ücret",
-              "value": "~115 $",
-              "source": "Elon Musk, TechCrunch"
-            },
-            {
-              "label": "Tahmini teslimat",
-              "value": "Aralık 2026",
-              "source": "Tesla, TechCrunch"
-            }
-          ]
-        }
-      },
-      "timeline": [
-        {
-          "kind": "first-reported",
-          "at": "2026-11-14T20:04:44.000Z",
-          "sourceId": "techcrunch"
-        }
-      ],
-      "sources": [
-        {
-          "sourceId": "techcrunch",
-          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
           "confirms": true
         }
       ],
@@ -1491,6 +1290,7 @@
       "sourceLanguage": "tr",
       "label": "confirmed",
       "developing": true,
+      "continues": "8ec3be04a5be1a15",
       "versions": {
         "en": {
           "shortTitle": "Iran claims drone strike in Bahrain",
@@ -1568,7 +1368,8 @@
             "lat": 26.13,
             "lon": 50.55,
             "region": "Bahrain"
-          }
+          },
+          "news": "The Guards now say six drones hit a US air-defence radar at Riffa base in Bahrain, their second strike on the island in days."
         },
         "tr": {
           "shortTitle": "İran: Bahreyn’de ABD radarını vurduk",
@@ -1649,7 +1450,8 @@
             "lat": 26.13,
             "lon": 50.55,
             "region": "Bahreyn"
-          }
+          },
+          "news": "Devrim Muhafızları bu kez Bahreyn’deki Rifaa üssünde bir ABD hava savunma radarını 6 İHA ile vurduğunu söylüyor; adaya günler içinde ikinci saldırı."
         }
       },
       "timeline": [
