@@ -11,6 +11,7 @@ import {
 
 import type { InterfaceLanguage } from './evidence.js';
 import { localePath } from './locale.js';
+import { chainProblems } from './story-chain.js';
 
 /**
  * Published bulletins, read at build time. Each file is `<yyyy-mm-dd>-<slot>.json`, as the
@@ -51,10 +52,13 @@ const NOT_BULLETINS = new Set(['hot.json']);
 /** Every published bulletin, newest first. A missing directory means nothing is published yet. */
 export function loadBulletins(directory = bulletinsDirectory()): PublishedBulletin[] {
   if (!existsSync(directory)) return [];
-  return readdirSync(directory)
+  const bulletins = readdirSync(directory)
     .filter((name) => name.endsWith('.json') && !NOT_BULLETINS.has(name))
     .map((name) => readBulletinFile(name, readFileSync(join(directory, name), 'utf8')))
     .sort((a, b) => b.bulletin.publishAt.localeCompare(a.bulletin.publishAt));
+  const problems = chainProblems(bulletins);
+  if (problems.length > 0) throw new Error(`Broken story links:\n${problems.join('\n')}`);
+  return bulletins;
 }
 
 /** The URL of a bulletin: `/2026-11-11/evening`, under `/tr` for the Turkish interface. */

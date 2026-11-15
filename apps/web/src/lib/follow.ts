@@ -34,9 +34,14 @@ export interface StoryNow {
   readonly labelWord: string;
   readonly sources: readonly { readonly id: string; readonly name: string }[];
   readonly updatedAt: string;
+  /** For a story that continues earlier ones: their ids, so following one follows this. */
+  readonly earlier?: readonly string[];
+  /** For a story that continues an earlier one: what is new since that version. */
+  readonly news?: string;
 }
 
 export type Change =
+  | { readonly kind: 'news'; readonly text: string }
   | { readonly kind: 'joined'; readonly names: readonly string[]; readonly total: number }
   | { readonly kind: 'label'; readonly word: string }
   | { readonly kind: 'updated'; readonly at: string };
@@ -73,8 +78,12 @@ function save(storage: Storage | undefined, list: readonly Seen[]) {
   }
 }
 
-export function isFollowed(storage: Storage | undefined, id: string): boolean {
-  return followed(storage).some((s) => s.id === id);
+export function isFollowed(
+  storage: Storage | undefined,
+  id: string,
+  earlier: readonly string[] = [],
+): boolean {
+  return followed(storage).some((s) => s.id === id || earlier.includes(s.id));
 }
 
 /** The snapshot of a story as the reader sees it at `at`. */
@@ -95,20 +104,32 @@ export function follow(storage: Storage | undefined, seen: Seen) {
   save(storage, [...followed(storage).filter((s) => s.id !== seen.id), seen]);
 }
 
-export function unfollow(storage: Storage | undefined, id: string) {
+export function unfollow(
+  storage: Storage | undefined,
+  id: string,
+  earlier: readonly string[] = [],
+) {
   save(
     storage,
-    followed(storage).filter((s) => s.id !== id),
+    followed(storage).filter((s) => s.id !== id && !earlier.includes(s.id)),
   );
 }
 
-/** Reading a followed story again: what the reader saw is now this. Others are left alone. */
-export function markSeen(storage: Storage | undefined, seen: Seen) {
+/**
+ * Reading a followed story again: what the reader saw is now this. Others are left alone. A
+ * story that continues one the reader follows takes its place, so the follow moves on with it.
+ */
+export function markSeen(
+  storage: Storage | undefined,
+  seen: Seen,
+  earlier: readonly string[] = [],
+) {
   const list = followed(storage);
-  if (!list.some((s) => s.id === seen.id)) return;
+  const mine = (s: Seen) => s.id === seen.id || earlier.includes(s.id);
+  if (!list.some(mine)) return;
   save(
     storage,
-    list.map((s) => (s.id === seen.id ? seen : s)),
+    list.map((s) => (mine(s) ? seen : s)),
   );
 }
 
@@ -125,17 +146,26 @@ export function changesSince(seen: Seen, now: StoryNow): Change[] {
   return changes;
 }
 
-/** Followed stories in this bulletin that moved since they were read, in follow order. */
+/**
+ * Followed stories in this bulletin that moved since they were read, in follow order. A story
+ * that continues the followed one counts as it moving, and says what is new.
+ */
 export function movedStories(
   list: readonly Seen[],
   stories: readonly StoryNow[],
 ): { story: StoryNow; changes: Change[] }[] {
-  const byId = new Map(stories.map((s) => [s.id, s]));
   return list.flatMap((seen) => {
-    const story = byId.get(seen.id);
-    if (!story) return [];
-    const changes = changesSince(seen, story);
-    return changes.length > 0 ? [{ story, changes }] : [];
+    const same = stories.find((s) => s.id === seen.id);
+    if (same) {
+      const changes = changesSince(seen, same);
+      return changes.length > 0 ? [{ story: same, changes }] : [];
+    }
+    const continued = stories.find((s) => s.earlier?.includes(seen.id));
+    if (!continued) return [];
+    const changes: Change[] = continued.news
+      ? [{ kind: 'news', text: continued.news }]
+      : [{ kind: 'updated', at: continued.updatedAt }];
+    return [{ story: continued, changes }];
   });
 }
 

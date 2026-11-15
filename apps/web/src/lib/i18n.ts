@@ -20,6 +20,7 @@ const WORDS = {
     next: 'What’s next',
     facts: 'Key numbers',
     fullStory: 'Full story',
+    newerReport: 'A newer report',
     seriesHeading: 'Earlier values',
     lifeHeading: 'How this story developed',
     firstReported: 'First report',
@@ -100,6 +101,7 @@ const WORDS = {
     next: 'Sırada ne var',
     facts: 'Rakamlar',
     fullStory: 'Haberin tamamı',
+    newerReport: 'Daha yeni haber',
     seriesHeading: 'Önceki değerler',
     lifeHeading: 'Haberin seyri',
     firstReported: 'İlk haber',
@@ -305,4 +307,26 @@ export function reliabilityLabel(steps: number, language: InterfaceLanguage): st
 /** "Updated 18:04" / "Güncellendi 18:04". */
 export function updatedAt(time: string, language: InterfaceLanguage): string {
   return `${WORDS[language].updated} ${time}`;
+}
+
+const BULLETIN_FROM_TR: Record<string, string> = {
+  morning: 'sabah bülteninden',
+  midday: 'öğle bülteninden',
+  evening: 'akşam bülteninden',
+  late: 'gece bülteninden',
+};
+
+/**
+ * "New since the evening bulletin" / "Akşam bülteninden beri yeni". When that bulletin came out
+ * on another day, the weekday says which one: "New since Saturday’s late bulletin".
+ * `weekday` is given only for another day.
+ */
+export function newSince(slot: string, weekday: string | undefined, language: InterfaceLanguage) {
+  if (language === 'tr') {
+    const from = BULLETIN_FROM_TR[slot] ?? 'bültenden';
+    const text = `${weekday ? `${weekday} ` : ''}${from} beri yeni`;
+    return text.charAt(0).toLocaleUpperCase('tr-TR') + text.slice(1);
+  }
+  const name = bulletinName(slot, 'en').toLowerCase();
+  return weekday ? `New since ${weekday}’s ${name}` : `New since the ${name}`;
 }

@@ -20,3 +20,5 @@ export {
 } from './media.js';
 export { articlePhotoUrl, photoWidth } from './photo-size.js';
 export type { FetchBytes, SavedPhoto } from './media.js';
+export { continuesHint, earlierStories, normalizeUrl, withContinuesHints } from './earlier.js';
+export type { ContinuesHint, EarlierStory } from './earlier.js';
