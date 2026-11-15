@@ -12,7 +12,6 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 
-import { httpFetchText } from '@cspnews/collector';
 import {
   ABROAD_PEOPLE,
   CLUB_LEAGUES,
@@ -26,7 +25,7 @@ import {
 } from '@cspnews/config';
 import { parseBulletin, type TonightItem } from '@cspnews/core';
 
-import { fetchFixtures, logosToSave } from './fetch.js';
+import { fetchFixtures, httpFetchJson, logosToSave } from './fetch.js';
 import { withLiveMatch } from './today.js';
 import { buildTonight, tonightWindow, type TonightWatch } from './tonight.js';
 
@@ -53,7 +52,7 @@ const raw: unknown = path ? JSON.parse(readFileSync(path, 'utf8')) : undefined;
 const bulletin = raw === undefined ? undefined : parseBulletin(raw);
 
 const window = tonightWindow(bulletin ? new Date(bulletin.publishAt) : new Date());
-const { fixtures, failures } = await fetchFixtures(watch, window, httpFetchText(15_000));
+const { fixtures, failures } = await fetchFixtures(watch, window, httpFetchJson());
 for (const failure of failures) console.log(`❌ ${failure.url}: ${failure.reason}`);
 console.log(
   `Read ${String(fixtures.length)} matches from ${window.from.toISOString()} to ${window.until.toISOString()}.`,

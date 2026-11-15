@@ -12,6 +12,24 @@ export interface FetchedFixtures {
   readonly failures: { readonly url: string; readonly reason: string }[];
 }
 
+/**
+ * Fetches JSON. The Euroleague answers in XML unless JSON is asked for first, so the collector's
+ * feed fetcher (which prefers RSS and XML) is not used here.
+ */
+export function httpFetchJson(timeoutMs = 15_000): FetchText {
+  return async (url) => {
+    const response = await fetch(url, {
+      headers: {
+        'user-agent': 'CSPNews scores (+https://github.com/MCantuncer/cspnews)',
+        accept: 'application/json',
+      },
+      signal: AbortSignal.timeout(timeoutMs),
+    });
+    if (!response.ok) throw new Error(`HTTP ${String(response.status)}`);
+    return response.text();
+  };
+}
+
 /** Reads every watched schedule that can hold a match in the window. */
 export async function fetchFixtures(
   watch: TonightWatch,
