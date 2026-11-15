@@ -1,0 +1,100 @@
+---
+/**
+ * The week line: seven days, Monday first, each marked once the reader has finished a
+ * bulletin that day. Written hidden and filled in the browser from what this browser remembers
+ * (lib/week.ts), so a first visit shows nothing instead of an empty row.
+ */
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatWeekday } from '../../lib/format';
+import { wordsFor } from '../../lib/i18n';
+import { weekOf } from '../../lib/week';
+
+interface Props {
+  date: string;
+  lang: InterfaceLanguage;
+}
+
+const { date, lang } = Astro.props;
+const words = wordsFor(lang);
+const days = weekOf(date).map((day) => ({
+  day,
+  name: formatWeekday(`${day}T12:00:00+03:00`, lang),
+}));
+---
+
+<section class="week" data-week data-today={date} hidden aria-labelledby="week-title">
+  <h2 id="week-title">{words.weekTitle}</h2>
+  <ol>
+    {
+      days.map(({ day, name }) => (
+        <li data-day={day} data-today={day === date ? 'true' : undefined}>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="name" aria-label={name}>{name.slice(0, 3)}</span>
+        </li>
+      ))
+    }
+  </ol>
+  <p><span data-week-count>0</span> {words.weekOf}</p>
+</section>
+
+<script>
+  import { showWeek } from '../../lib/week';
+
+  showWeek(document);
+</script>
+
+<style>
+  .week {
+    margin-top: 36px;
+  }
+
+  .week[hidden] {
+    display: none;
+  }
+
+  h2 {
+    color: var(--meta);
+    font: 700 14px / 1.3 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  ol {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 14px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+    color: var(--meta);
+    font: 600 14px / 1.2 var(--f-body);
+  }
+
+  .dot {
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--line2);
+    border-radius: 50%;
+  }
+
+  li[data-done='true'] .dot {
+    border-color: var(--hour);
+    background: var(--hour);
+  }
+
+  li[data-today='true'] {
+    color: var(--ink);
+  }
+
+  p {
+    margin-top: 12px;
+    color: var(--meta);
+    font: 400 16px / 1.4 var(--f-body);
+  }
+</style>

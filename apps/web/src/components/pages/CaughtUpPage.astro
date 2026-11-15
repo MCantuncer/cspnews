@@ -1,13 +1,16 @@
 ---
 /**
  * The end of a bulletin (docs/design/decisions/caught-up.md): one calm screen after the last
- * story. Three things to remember (each section's lead), when the next bulletin comes, and
+ * story. A three-question quiz on the bulletin, or three things to remember (each section's
+ * lead) when the bulletin has no quiz, the reader's week line, when the next bulletin comes, and
  * quiet ways on: back over the stories, the bulletin's light close (And finally, when it has
  * one and the reader keeps light stories on), or the day's word game. An open Hot story shows in the
  * Hot line above, as on every page.
  */
 import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
+import Quiz from '../caught-up/Quiz.astro';
+import WeekLine from '../caught-up/WeekLine.astro';
 import Icon from '../ui/Icon.astro';
 import NextEdition from '../ui/NextEdition.astro';
 import Base from '../../layouts/Base.astro';
@@ -54,8 +57,12 @@ const wordHref = lang === 'tr' ? '/word/tr' : '/word';
     <h1>{words.caughtUp}.</h1>
     <p class="next">{name}. <NextEdition published={published} lang={lang} /></p>
 
-    <h2>{words.toRemember}</h2>
-    <ol class="remember">
+    <WeekLine date={published.date} lang={lang} />
+
+    {published.bulletin.quiz && <Quiz published={published} lang={lang} />}
+
+    {!published.bulletin.quiz && <h2>{words.toRemember}</h2>}
+    {!published.bulletin.quiz && <ol class="remember">
       {
         leads.map(({ section, story }) => (
           <li>
@@ -67,7 +74,7 @@ const wordHref = lang === 'tr' ? '/word/tr' : '/word';
           </li>
         ))
       }
-    </ol>
+    </ol>}
 
     <nav class="ways" aria-label={words.caughtUp}>
       <a class="way" href={bulletinPath(published, lang)}>

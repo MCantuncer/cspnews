@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { ABROAD_MAX, AbroadItemSchema } from './abroad.js';
 import { AndFinallySchema, TRANSFERS_MAX, TransferMoveSchema } from './extras.js';
 import { StoryImageSchema } from './image.js';
+import { QUIZ_LENGTH, QuizQuestionSchema } from './quiz.js';
 import { LANGUAGES, type Language } from './language.js';
 import { SECTIONS } from './sections.js';
 
@@ -356,8 +357,17 @@ export const BulletinSchema = z
     transfers: z.array(TransferMoveSchema).min(1).max(TRANSFERS_MAX).optional(),
     /** Turkish people abroad with news since the last bulletin (abroad.ts). */
     abroad: z.array(AbroadItemSchema).min(1).max(ABROAD_MAX).optional(),
+    /** Three questions for the caught-up screen (quiz.ts). */
+    quiz: z.array(QuizQuestionSchema).length(QUIZ_LENGTH).optional(),
   })
   .strict()
+  .refine(
+    (bulletin) =>
+      (bulletin.quiz ?? []).every((question) =>
+        bulletin.stories.some((story) => story.id === question.storyId),
+      ),
+    { message: 'Every quiz question must point at a story of the bulletin', path: ['quiz'] },
+  )
   .refine((bulletin) => {
     const ids = [
       ...bulletin.stories,
