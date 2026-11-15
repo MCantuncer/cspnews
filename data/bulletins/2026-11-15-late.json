@@ -5,6 +5,256 @@
   "writtenAt": "2026-11-15T21:50:00.000Z",
   "stories": [
     {
+      "id": "80aa7a5c8aa34520",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "9de385574d240c1f",
+      "versions": {
+        "en": {
+          "shortTitle": "Türkiye lose 2-1 in France",
+          "title": "Türkiye lose 2-1 to France in Bordeaux and finish their Nations League group with no points from six games",
+          "news": "France beat Türkiye 2-1 in Bordeaux; Abdülkerim Bardakcı’s 90th-minute header was Türkiye’s only goal, and they end the group with no points.",
+          "summary": {
+            "what": "France won 2-1 at the Matmut Atlantique in Bordeaux with goals in the 49th and 80th minutes; Abdülkerim Bardakcı headed in for Türkiye in the 90th.",
+            "why": "It was Sergen Yalçın’s second game in charge and a sixth defeat in six, after the 2-1 home loss to Belgium on Thursday.",
+            "next": "Türkiye finish bottom of League A Group 1; whether they go straight down to League B or into a play-off depends on the other last-placed teams."
+          },
+          "body": [
+            {
+              "subhead": "How the goals came",
+              "blocks": [
+                {
+                  "text": "Türkiye lost 2-1 to France in Bordeaux on Sunday night in their last UEFA Nations League A group game, Cumhuriyet, Diken and Anadolu Agency reported. The first half ended goalless, with goalkeeper Berke Özer making a string of saves, before France went ahead four minutes after the break."
+                },
+                {
+                  "text": "The outlets describe that 49th-minute goal differently. Cumhuriyet’s live report recorded it as an own goal by Emirhan Topçu, while Diken said Bradley Barcola finished off Adrien Rabiot’s header from a corner on the left. Arda Güler put the ball in the net in the 53rd minute, but the goal was ruled out for offside."
+                },
+                {
+                  "text": "In the 75th minute Merih Demiral blocked a clear chance for Kylian Mbappé, Diken reported, but substitute Junior Kroupi made it 2-0 in the 80th. Abdülkerim Bardakcı pulled one back in the 90th minute, running onto Arda Güler’s corner from the right and heading it in."
+                }
+              ]
+            },
+            {
+              "subhead": "Berke Özer’s night",
+              "blocks": [
+                {
+                  "text": "Berke Özer started in goal because Uğurcan Çakır was left out with a shoulder injury, and it was his first international in 522 days, Hürriyet reported. He had last played for Türkiye in June 2025 and was not called up for a while after leaving the national team camp without permission on 12 October 2025."
+                },
+                {
+                  "text": "In the first half he stopped Barcola when the winger was clean through in the 21st minute, turned an Mbappé shot round the post in the 34th and saved Michael Olise’s drive in the 38th. Hürriyet counted five saves by the break. At the other end Mike Maignan denied İsmail Yüksek from close range in the 35th minute; France replaced Maignan with Restes at half-time, Cumhuriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Changes and what is next",
+              "blocks": [
+                {
+                  "text": "Sergen Yalçın made seven changes from the side that lost to Belgium in İzmir, Sabah reported, keeping only Merih Demiral, İsmail Yüksek, Barış Alper Yılmaz and Arda Güler. Zeki Çelik was named in the line-up but pulled out in the warm-up with tightness in his hamstring, and Barış Alper Yılmaz took his place."
+                },
+                {
+                  "text": "Türkiye finish the group with six defeats in six games, Diken reported. Before the last round they had no points and a goal difference of minus 10, as did Czechia in Group 3, while Serbia in Group 2 had none either. The two worst of the four last-placed teams in League A go straight down to League B, and the other two play off against teams from League B, according to Diken and Habertürk."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Final score",
+              "value": "France 2-1 Türkiye",
+              "source": "Cumhuriyet, Diken, AA"
+            },
+            {
+              "label": "Türkiye’s goal",
+              "value": "90’ Bardakcı",
+              "source": "Cumhuriyet, Diken"
+            },
+            {
+              "label": "Points from six games",
+              "value": "0",
+              "source": "Diken"
+            },
+            {
+              "label": "Berke Özer’s first-half saves",
+              "value": "5",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Days since his last cap",
+              "value": "522",
+              "source": "Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Bordeaux",
+            "lat": 44.84,
+            "lon": -0.58,
+            "region": "Nouvelle-Aquitaine, France"
+          }
+        },
+        "tr": {
+          "shortTitle": "Milliler Fransa’da 2-1 kaybetti",
+          "title": "A Milli Takım Bordeaux’da Fransa’ya 2-1 yenildi, Uluslar Ligi grubunu altı maçta puansız tamamladı",
+          "news": "Fransa, Bordeaux’da Türkiye’yi 2-1 yendi; milli takımın tek golünü 90’da Abdülkerim Bardakcı attı, grup puansız bitti.",
+          "summary": {
+            "what": "Fransa, Bordeaux’daki Matmut Atlantique’te 49. ve 80. dakikalarda bulduğu gollerle 2-1 kazandı; milli takımın golünü 90’da Abdülkerim Bardakcı kafayla attı.",
+            "why": "Sergen Yalçın’ın ikinci maçıydı; perşembe günü İzmir’de Belçika’ya 2-1 kaybeden milli takım altıda altı yenilgi aldı.",
+            "next": "Türkiye A Ligi 1. Grup’u son sırada bitirdi; doğrudan B Ligi’ne düşüp düşmeyeceği diğer grupların sonuncularına bağlı."
+          },
+          "body": [
+            {
+              "subhead": "Goller nasıl geldi?",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet, Diken ve Anadolu Ajansı’nın haberine göre A Milli Futbol Takımı, UEFA Uluslar A Ligi’ndeki son grup maçında pazar gecesi Bordeaux’da Fransa’ya 2-1 yenildi. Kaleci Berke Özer’in art arda kurtarışlarıyla ilk yarı golsüz bitti, Fransa ikinci yarının dördüncü dakikasında öne geçti."
+                },
+                {
+                  "text": "49. dakikadaki gol kaynaklarda farklı anlatılıyor: Cumhuriyet’in canlı anlatımı golü Emirhan Topçu’nun kendi kalesine attığını yazdı, Diken ise soldan kullanılan kornerde Rabiot’nun kafa vuruşunu Barcola’nın tamamladığını aktardı. Arda Güler 53. dakikada topu ağlara gönderdi, ancak gol ofsayt gerekçesiyle sayılmadı."
+                },
+                {
+                  "text": "Diken’e göre 75. dakikada Merih Demiral, Mbappe’nin net pozisyondaki şutunu önledi; ancak oyuna sonradan giren Junior Kroupi 80. dakikada farkı ikiye çıkardı. 90. dakikada Arda Güler’in sağdan kullandığı kornerde boş alana koşan Abdülkerim Bardakcı kafayla farkı bire indirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Berke Özer’in gecesi",
+              "blocks": [
+                {
+                  "text": "Hürriyet’e göre Uğurcan Çakır omuz sakatlığı nedeniyle kadroya alınmayınca kaleyi devralan Berke Özer, 522 gün sonra milli formayla sahaya çıktı. Son olarak Haziran 2025’te milli formayı giyen Berke, 12 Ekim 2025’te kamptan izinsiz ayrıldığı gerekçesiyle bir süre aday kadroya çağrılmamıştı."
+                },
+                {
+                  "text": "İlk yarıda 21. dakikada kaleciyle karşı karşıya kalan Barcola’yı, 34. dakikada Mbappe’nin şutunu, 38. dakikada Olise’nin sert vuruşunu kurtardı; Hürriyet devre arasına kadar beş kurtarış saydı. Öbür tarafta Maignan 35. dakikada İsmail Yüksek’in yakın mesafeden vuruşunu çıkardı; Cumhuriyet’e göre Fransa ikinci yarıda Maignan’ın yerine Restes’i oyuna aldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Değişiklikler ve sonrası",
+              "blocks": [
+                {
+                  "text": "Sabah’a göre Sergen Yalçın, İzmir’de Belçika’ya kaybedilen maçın 11’inde yedi değişiklik yaptı; yalnızca Merih Demiral, İsmail Yüksek, Barış Alper Yılmaz ve Arda Güler yerini korudu. İlk 11’de açıklanan Zeki Çelik ısınmada arka adalesinde gerginlik hissedince kadrodan çıkarıldı, yerine Barış Alper Yılmaz başladı."
+                },
+                {
+                  "text": "Diken’e göre milli takım grubu altı maçta altı yenilgiyle tamamladı. Son maçlar öncesinde Türkiye’nin puanı yoktu ve averajı eksi 10’du; 3. Grup’ta Çekya ile 2. Grup’ta Sırbistan da puansızdı. Diken ve Habertürk’e göre A Ligi’nde gruplarını son sırada bitiren dört takımdan en kötü iki takım doğrudan B Ligi’ne düşecek, diğer ikisi B Ligi’nden gelen takımlarla play-off oynayacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Maç sonucu",
+              "value": "Fransa 2-1 Türkiye",
+              "source": "Cumhuriyet, Diken, AA"
+            },
+            {
+              "label": "Milli takımın golü",
+              "value": "90’ Bardakcı",
+              "source": "Cumhuriyet, Diken"
+            },
+            {
+              "label": "Altı maçta puan",
+              "value": "0",
+              "source": "Diken"
+            },
+            {
+              "label": "Berke Özer’in ilk yarı kurtarışı",
+              "value": "5",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Son milli maçından bu yana",
+              "value": "522 gün",
+              "source": "Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Bordeaux",
+            "lat": 44.84,
+            "lon": -0.58,
+            "region": "Nouvelle-Aquitaine, Fransa"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T18:36:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T18:40:50.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T18:40:50.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T20:53:38.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T21:39:22.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/a94c3ddf-d679-45ab-9289-a58356b22f8d.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/spor/milli-takim-fransa-dan-eli-bos-donuyor-fransa-2-1-turkiye-2556397"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/milli-takim-fransa-dan-eli-bos-donuyor-fransa-2-1-turkiye-2556397",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/a-milli-takimin-fransa-karsisindaki-ilk-11-i-belli-oldu-ve-kalede-berke-ozer-basliyor-1395293",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/turkiye-ve-fransanin-11leri-belli-oldu-2/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/berke-ozerden-muthis-geri-donus-522-gun-sonra-kaleye-gecti-fransa-karsisinda-buyudu-43379539",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/uluslar-ligi-turkiye-fransaya-2-1-yenildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-fransaya-2-1-yenildi/4126057",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/atv-canli-izle-uluslar-liginde-fransa-turkiye-maci-ne-zaman-saat-kacta-sifresiz-izle",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/fransa-turkiye-maci-canli-anlatim-fransa-a-milli-takim-uefa-uluslar-ligi-maci-kac-kac-mac-skoru-ve-3927446",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T00:55:00+03:00",
+      "updatedAt": "2026-11-16T00:55:00+03:00"
+    },
+    {
       "id": "314799b2c3e901c9",
       "section": "turkey",
       "sourceLanguage": "tr",
