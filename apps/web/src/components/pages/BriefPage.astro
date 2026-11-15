@@ -1,14 +1,16 @@
 ---
 /**
  * A bulletin in one minute (docs/design/decisions/in-one-minute.md): every story as its short
- * title and the one sentence that says what happened, with its evidence mark. Each line opens
- * the full story; the end leads back to the whole bulletin.
+ * title and the one sentence that says what happened, with its evidence mark and a small square
+ * of its picture beside it. Each line opens the full story; the end leads back to the whole
+ * bulletin.
  */
 import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
 import NextEdition from '../ui/NextEdition.astro';
+import VisualView from '../visual/Visual.astro';
 import Base from '../../layouts/Base.astro';
 import {
   bulletinPath,
@@ -20,6 +22,8 @@ import { editionHourFor } from '../../lib/edition';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate } from '../../lib/format';
 import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
+import { outletLogos } from '../../lib/media';
+import { storyVisual } from '../../lib/story-visual';
 
 interface Props {
   published: PublishedBulletin;
@@ -53,17 +57,34 @@ const groups = storiesBySection(published, lang);
         <section data-section={group.section}>
           <h2>{sectionName(group.section, lang)}</h2>
           <ol>
-            {group.stories.map(({ story }) => (
-              <li>
-                <a href={storyPath(published, story, lang)} lang={story.language}>
-                  <span class="title">
-                    <EvidenceMark label={story.label} lang={lang} variant="glyph" />
-                    {story.shortTitle}
-                  </span>
-                  <span class="what">{story.summary.what}</span>
-                </a>
-              </li>
-            ))}
+            {group.stories.map(({ story }) => {
+              const visual = storyVisual(story);
+              // Without a picture, chart, map or logo of its own, the lead outlet's logo stands in.
+              const [outlet] = visual.kind === 'none' ? outletLogos(story.sources, 1) : [];
+              return (
+                <li>
+                  <a href={storyPath(published, story, lang)} lang={story.language}>
+                    <span class="text">
+                      <span class="title">
+                        <EvidenceMark label={story.label} lang={lang} variant="glyph" />
+                        {story.shortTitle}
+                      </span>
+                      <span class="what">{story.summary.what}</span>
+                    </span>
+                    {visual.kind !== 'none' && (
+                      <span class="thumb" aria-hidden="true">
+                        <VisualView visual={visual} lang={lang} storyLang={story.language} size="thumb" />
+                      </span>
+                    )}
+                    {outlet && (
+                      <span class="thumb logo-thumb" aria-hidden="true">
+                        <img src={outlet.src} alt="" loading="lazy" decoding="async" />
+                      </span>
+                    )}
+                  </a>
+                </li>
+              );
+            })}
           </ol>
         </section>
       ))
@@ -115,11 +136,51 @@ const groups = storiesBySection(published, lang);
   }
 
   li a {
-    display: grid;
-    gap: 6px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
     padding: 16px 0;
     color: var(--ink);
     text-decoration: none;
+  }
+
+  .text {
+    display: grid;
+    flex: 1;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  /* The picture sits beside the sentence, level with the title. */
+  .thumb {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 84px;
+    height: 84px;
+    margin-top: 4px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--surf);
+  }
+
+  .thumb :global(.visual.thumb),
+  .thumb :global(.visual.thumb img),
+  .thumb :global(.visual.thumb svg) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  /* Logos are drawn for white, so they sit on white in both themes. */
+  .logo-thumb {
+    background: #fff;
+  }
+
+  .logo-thumb img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
   }
 
   .title {
@@ -177,6 +238,11 @@ const groups = storiesBySection(published, lang);
   @media (width >= 1024px) {
     .brief {
       padding-top: 56px;
+    }
+
+    .thumb {
+      width: 112px;
+      height: 112px;
     }
 
     h1 {
