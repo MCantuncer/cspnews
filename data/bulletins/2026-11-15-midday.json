@@ -1,0 +1,2458 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-15T12:30:00+03:00",
+  "writtenAt": "2026-11-15T09:45:00.000Z",
+  "stories": [
+    {
+      "id": "b6b589741bdf328c",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "487,000 IDs and licences expire",
+          "title": "Interior minister says 487,596 new-style ID cards and driving licences must be renewed by the end of 2026 as the first ones reach ten years",
+          "summary": {
+            "what": "Interior Minister Mustafa Çiftçi says 112,791 ID cards and 374,805 driving licences issued in the first wave of the chip cards expire by the end of 2026.",
+            "why": "An expired card or licence becomes invalid, so holders could be turned away in official business if they leave renewal too late, the minister warned.",
+            "next": "Renewal starts with an appointment at randevu.nvi.gov.tr, on e-Devlet or by calling 199, then a visit to a civil registry office."
+          },
+          "body": [
+            {
+              "subhead": "The first cards run out",
+              "blocks": [
+                {
+                  "text": "The first of Türkiye’s chip-based ID cards and new-style driving licences are reaching the end of their validity, Interior Minister Mustafa Çiftçi said on Sunday in a post on the NSosyal platform, reported by Anadolu Agency, Hürriyet, Sabah, Cumhuriyet and Sözcü. The cards were introduced by the civil registry directorate (NVİGM) ten years ago."
+                },
+                {
+                  "text": "ID cards are valid for ten years. Driving licences are valid for five or ten years depending on their class, so the earliest of both are now expiring, the minister said."
+                },
+                {
+                  "quote": "By the end of 2026, a total of 487,596 documents, 112,791 ID cards and 374,805 driving licences, need to be renewed.",
+                  "speaker": "Mustafa Çiftçi, interior minister",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Why it matters",
+              "blocks": [
+                {
+                  "text": "An expired card or licence is no longer valid, Çiftçi said, and he asked people to check the expiry date printed on their documents so they are not caught out in official dealings. Hürriyet and Cumhuriyet quoted him urging holders not to leave the application to the last day."
+                },
+                {
+                  "text": "The figures cover only documents expiring before the end of this year. As more of the cards issued since 2016 and 2017 reach their tenth year, the number due for renewal will keep growing, although the ministry gave no figure for 2027."
+                },
+                {
+                  "text": "Sabah and A Haber carried the same warning, with A Haber’s headline telling readers not to leave it to the last day. None of the outlets reported any change to the renewal fees."
+                }
+              ]
+            },
+            {
+              "subhead": "How to renew",
+              "blocks": [
+                {
+                  "text": "Holders book an appointment at randevu.nvi.gov.tr, through e-Devlet or by calling the Alo 199 line. They then pay the card and fee charges at a contracted bank, a tax office, PTT or through digital channels, and apply in person at a civil registry office. The new card or licence is delivered to the address given at the application, Sözcü and Anadolu Agency reported."
+                },
+                {
+                  "text": "The minister framed the renewal drive as part of the government’s digital public services, saying the new cards were the most important step in the directorate’s digital transformation."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Documents to renew by end-2026",
+              "value": "487,596",
+              "source": "Interior Ministry via AA"
+            },
+            {
+              "label": "ID cards",
+              "value": "112,791",
+              "source": "Interior Ministry via AA"
+            },
+            {
+              "label": "Driving licences",
+              "value": "374,805",
+              "source": "Interior Ministry via AA"
+            },
+            {
+              "label": "ID card validity",
+              "value": "10 years",
+              "source": "Interior Ministry via AA"
+            },
+            {
+              "label": "Booking line",
+              "value": "Alo 199",
+              "source": "Interior Ministry via AA"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "487 bin belgenin süresi doluyor",
+          "title": "İçişleri Bakanı Çiftçi: İlk yeni tip kartlar 10 yılı doldurdu, 2026 sonuna kadar 487 bin 596 kimlik ve ehliyet yenilenmeli",
+          "summary": {
+            "what": "İçişleri Bakanı Mustafa Çiftçi’ye göre ilk verilen yeni tip kartlardan 112 bin 791 kimlik ile 374 bin 805 sürücü belgesinin süresi 2026 sonunda doluyor.",
+            "why": "Süresi dolan kimlik ve ehliyet geçersiz hale geliyor; bakan, son güne kalanların resmi işlemlerde mağdur olabileceği uyarısında bulundu.",
+            "next": "Yenileme için randevu.nvi.gov.tr, e-Devlet ya da Alo 199 üzerinden randevu alınıyor, ardından nüfus müdürlüğüne başvuruluyor."
+          },
+          "body": [
+            {
+              "subhead": "İlk kartların süresi doldu",
+              "blocks": [
+                {
+                  "text": "Çipli yeni tip kimlik kartları ile yeni tip sürücü belgelerinin ilk verilenlerinde geçerlilik süresi dolmaya başladı. İçişleri Bakanı Mustafa Çiftçi pazar günü NSosyal hesabından uyarı yaptı; açıklamayı Anadolu Ajansı, Hürriyet, Sabah, Cumhuriyet ve Sözcü aktardı. Kartlar on yıl önce Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü (NVİGM) tarafından dağıtılmaya başlanmıştı."
+                },
+                {
+                  "text": "Kimlik kartları 10 yıl, sürücü belgeleri ise sınıfına göre 5 ya da 10 yıl geçerli. Bu yüzden her iki belgenin ilk örneklerinin süresi şimdi doluyor."
+                },
+                {
+                  "quote": "Bu kapsamda 2026 yılı sonuna kadar 112 bin 791 kimlik kartı ve 374 bin 805 sürücü belgesi olmak üzere toplam 487 bin 596 belgenin yenilenmesi gerekmektedir.",
+                  "speaker": "Mustafa Çiftçi, İçişleri Bakanı",
+                  "sourceId": "aa-tr"
+                }
+              ]
+            },
+            {
+              "subhead": "Neden önemli",
+              "blocks": [
+                {
+                  "text": "Çiftçi, süresi dolan kimlik ve ehliyetlerin geçersiz hale geleceğini hatırlatarak vatandaşlardan belgelerindeki geçerlilik tarihini kontrol etmelerini istedi. Hürriyet ve Cumhuriyet’e göre bakan, başvuruların son güne bırakılmaması çağrısı yaptı."
+                },
+                {
+                  "text": "Açıklanan rakam yalnızca bu yıl sonuna kadar süresi dolacak belgeleri kapsıyor. 2016 ve 2017’de verilen kartlar onuncu yılına girdikçe yenilenmesi gereken belge sayısı artacak; bakanlık 2027 için bir rakam vermedi."
+                },
+                {
+                  "text": "Sabah ve A Haber de aynı uyarıyı verdi; A Haber manşetinde okurlara “Son güne bırakmayın” çağrısını taşıdı. Haberlerin hiçbirinde yenileme ücretlerinde bir değişiklikten söz edilmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yenileme nasıl yapılıyor",
+              "blocks": [
+                {
+                  "text": "Randevu randevu.nvi.gov.tr adresinden, e-Devlet’ten ya da Alo 199 Çağrı Merkezi’nden alınıyor. Değerli kâğıt ve harç bedelleri anlaşmalı bankalara, vergi dairelerine, PTT’ye ya da dijital kanallardan yatırılıyor, ardından nüfus müdürlüğüne şahsen başvuruluyor. Sözcü ve AA’ya göre yeni belgeler başvuruda bildirilen adrese teslim ediliyor."
+                },
+                {
+                  "text": "Bakan, yeni tip kartları NVİGM’nin dijital dönüşümünün en önemli adımı olarak nitelendirdi."
+                },
+                {
+                  "text": "Çiftçi, Cumhurbaşkanı Recep Tayyip Erdoğan liderliğinde “Türkiye Yüzyılı” vizyonuyla kamu hizmetlerinde dijitalleşmenin en iyi örneklerini sunmayı sürdüreceklerini de söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2026 sonuna kadar yenilenecek belge",
+              "value": "487.596",
+              "source": "İçişleri Bakanlığı, AA"
+            },
+            {
+              "label": "Kimlik kartı",
+              "value": "112.791",
+              "source": "İçişleri Bakanlığı, AA"
+            },
+            {
+              "label": "Sürücü belgesi",
+              "value": "374.805",
+              "source": "İçişleri Bakanlığı, AA"
+            },
+            {
+              "label": "Kimlik kartı geçerliliği",
+              "value": "10 yıl",
+              "source": "İçişleri Bakanlığı, AA"
+            },
+            {
+              "label": "Randevu hattı",
+              "value": "Alo 199",
+              "source": "İçişleri Bakanlığı, AA"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T07:39:04.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T07:44:41.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T07:44:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:01:09.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:23:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:51:14.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af9602bc813a6f07cce8a4c.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/icisleri-bakani-ciftciden-kimlik-ve-ehliyet-uyarisi-2026-sonuna-kadar-487-bin-belgenin-yenilenmesi-gerekiyor-43378867"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/15/bakan-ciftciden-kritik-uyari-487-bin-kimlik-ve-ehliyet-belgesinin-yenilenmesi-icin-son-tarih-aciklandi",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/icisleri-bakani-ciftciden-kimlik-ve-ehliyet-uyarisi-2026-sonuna-kadar-487-bin-belgenin-yenilenmesi-gerekiyor-43378867",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/bakan-ciftciden-suresi-dolacak-kimlik-ve-surucu-belgelerine-iliskin-uyari/4125564",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/icisleri-bakani-mustafa-ciftci-den-kimlik-ve-ehliyet-yenileme-uyarisi-2026-sonuna-kadar-487-bin-belge-gecersiz-olacak-2556273",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/15/yuz-binlerce-kimlik-ve-ehliyetin-suresi-doluyor-bakan-ciftci-uyardi-son-gune-birakmayin",
+          "confirms": false
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/kimlik-ve-ehliyette-sure-doluyor-487-bin-596-belgenin-yenilenmesi-gerekiyor-p381518",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "9e632a8b5a37864a",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Fortune-teller ads ordered stopped",
+          "title": "Trade ministry’s advertising board orders a stop to online ads for fortune-telling, psychics and spells, calling them misleading",
+          "summary": {
+            "what": "The trade ministry’s Advertising Board has ruled that promotions for fortune-telling, psychic and spell services on websites, Instagram and Facebook mislead consumers and must stop.",
+            "why": "The board says such ads exploit people’s fears and superstitions for profit and break Türkiye’s consumer protection law.",
+            "next": "The ministry has not said how many advertisers are covered or what fines may follow; it acted under the law’s articles on stopping ads."
+          },
+          "body": [
+            {
+              "subhead": "The decision",
+              "blocks": [
+                {
+                  "text": "Türkiye’s trade ministry has ordered a stop to online advertising for fortune-telling, psychic and spell-casting services. The decision was announced on Saturday evening by Bekir Kaplan, the ministry’s press and public relations adviser, and reported by NTV, Habertürk, Cumhuriyet, Sözcü and Onedio."
+                },
+                {
+                  "text": "The Advertising Board, which polices commercial ads, examined promotions on websites and on Instagram and Facebook in file 2026/1564. It found they were misleading and deceptive to consumers, Kaplan said."
+                }
+              ]
+            },
+            {
+              "subhead": "The legal basis",
+              "blocks": [
+                {
+                  "text": "According to Kaplan, the ads broke the relevant articles of the Regulation on Commercial Advertising and Unfair Commercial Practices, and Article 61 of Consumer Protection Law No. 6502, which bans misleading advertising. The board ordered the ads stopped under Articles 63 and 77/12 of the same law."
+                },
+                {
+                  "text": "Kaplan did not say how many accounts or websites the ruling covers, which companies run them, or whether fines were also imposed. Article 77 is the law’s penalties article, but the announcement only mentioned the order to stop."
+                },
+                {
+                  "quote": "We do not allow promotions that exploit our citizens’ fears, spirituality and superstitions for commercial gain.",
+                  "speaker": "Bekir Kaplan, trade ministry adviser",
+                  "sourceId": "ntv",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Why the ministry acted",
+              "blocks": [
+                {
+                  "text": "In his post, Kaplan said the board had taken up the ads because they exploited people’s fears and superstitions on websites and social media. Sözcü reported the decision again on Sunday morning under the headline that these posts on social media had been stopped."
+                },
+                {
+                  "text": "Psychic and spell services have long advertised heavily on Turkish social media, often promising to bring back a partner or solve money problems for a fee. The board’s ruling now treats that kind of promise as a consumer protection matter rather than only a moral one."
+                },
+                {
+                  "text": "Kaplan posted the decision on his own social media account on Saturday evening, and NTV, Habertürk, Cumhuriyet and Sözcü all carried it within half an hour. Habertürk filed the story under economy news, a sign the ruling is being read as consumer regulation."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Board file number",
+              "value": "2026/1564",
+              "source": "Trade ministry via NTV"
+            },
+            {
+              "label": "Law broken",
+              "value": "No. 6502, Art. 61",
+              "source": "Trade ministry via NTV"
+            },
+            {
+              "label": "Platforms named",
+              "value": "Web, Instagram, Facebook",
+              "source": "Trade ministry via NTV"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Fal ve büyü reklamları durduruldu",
+          "title": "Ticaret Bakanlığı Reklam Kurulu, internette ve sosyal medyada fal, medyumluk ve büyü reklamlarının durdurulmasına karar verdi",
+          "summary": {
+            "what": "Ticaret Bakanlığı Reklam Kurulu, internet siteleri, Instagram ve Facebook’taki fal, medyumluk ve büyü tanıtımlarını yanıltıcı bularak durdurdu.",
+            "why": "Kurula göre bu reklamlar vatandaşların korkularını ve batıl inançlarını ticari kazanç için istismar ediyor ve tüketici yasasına aykırı.",
+            "next": "Bakanlık kararın kaç reklamvereni kapsadığını ve ceza verilip verilmediğini açıklamadı."
+          },
+          "body": [
+            {
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "Ticaret Bakanlığı, fal, medyumluk ve büyü hizmetlerinin internetteki reklamlarını durdurdu. Kararı cumartesi akşamı Bakanlığın Basın ve Halkla İlişkiler Müşaviri Bekir Kaplan duyurdu; haberi NTV, Habertürk, Cumhuriyet, Sözcü ve Onedio verdi."
+                },
+                {
+                  "text": "Reklam Kurulu 2026/1564 sayılı dosya kapsamında internet siteleri ile Instagram ve Facebook’taki tanıtımları inceledi. Kaplan’a göre kurul, bu tanıtımların tüketiciyi yanıltıcı ve aldatıcı nitelikte olduğuna karar verdi."
+                },
+                {
+                  "text": "Kurulun incelemesi doğrudan tüketiciyi hedef alan tanıtımlarla sınırlı tutuldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Hukuki dayanak",
+              "blocks": [
+                {
+                  "text": "Kaplan’ın açıklamasına göre reklamlar, Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği’nin ilgili maddelerine ve 6502 sayılı Tüketicinin Korunması Hakkında Kanun’un yanıltıcı reklamı yasaklayan 61’inci maddesine aykırı bulundu. Durdurma kararı aynı kanunun 63’üncü ve 77/12’nci maddelerine dayanıyor."
+                },
+                {
+                  "text": "Kaplan, kararın kaç hesap ya da siteyi kapsadığını, arkasında hangi şirketlerin olduğunu ve ayrıca para cezası verilip verilmediğini açıklamadı."
+                },
+                {
+                  "quote": "Vatandaşlarımızın korku, maneviyat ve batıl inançlarını ticari kazanç amacıyla istismar eden tanıtımlara izin vermiyoruz.",
+                  "speaker": "Bekir Kaplan, Ticaret Bakanlığı müşaviri",
+                  "sourceId": "ntv"
+                }
+              ]
+            },
+            {
+              "subhead": "Neden şimdi",
+              "blocks": [
+                {
+                  "text": "Kaplan, kurulun bu reklamları internet ve sosyal medyada vatandaşların korkularını istismar ettiği için incelemeye aldığını söyledi. Sözcü kararı pazar sabahı yeniden duyurdu."
+                },
+                {
+                  "text": "Medyum ve büyü hizmetleri uzun süredir sosyal medyada yoğun reklam veriyor; çoğu, ücret karşılığında “sevdiğini geri getirme” ya da para sorununu çözme vaadiyle dolaşıyor. Kurulun kararı bu vaatleri tüketici hakları meselesi olarak ele alıyor."
+                },
+                {
+                  "text": "Kaplan kararı cumartesi akşamı kendi sosyal medya hesabından paylaştı; NTV, Habertürk, Cumhuriyet ve Sözcü yarım saat içinde haberi verdi. Habertürk haberi ekonomi bölümünde yayımladı; karar bir tüketici düzenlemesi olarak okunuyor."
+                },
+                {
+                  "text": "Onedio’ya göre kurul, söz konusu tanıtımların tüketiciyi yanıltıcı ve aldatıcı olduğuna hükmetti ve reklamlar kanunun ilgili maddeleri uyarınca durduruldu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kurul dosya numarası",
+              "value": "2026/1564",
+              "source": "Ticaret Bakanlığı, NTV"
+            },
+            {
+              "label": "Aykırı bulunan kanun",
+              "value": "6502, md. 61",
+              "source": "Ticaret Bakanlığı, NTV"
+            },
+            {
+              "label": "Adı geçen platformlar",
+              "value": "Web, Instagram, Facebook",
+              "source": "Ticaret Bakanlığı, NTV"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-14T20:32:36.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T20:39:03.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-14T20:39:03.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T20:59:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-14T21:02:16.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/sosyalmedya-202287.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/fal-medyum-ve-buyu-reklamlarina-durdurma-karari-1750898"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/fal-medyum-ve-buyu-reklamlarina-durdurma-karari-1750898",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/ticaret-bakanligi-fal-ve-buyu-hizmetlerini-tanitan-reklamlari-durdurdu-3927428",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/fal-medyum-ve-buyu-reklamlarina-durdurma-karari-2556197",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/reklam-kurulundan-fal-medyumluk-ve-buyu-reklamlarina-durdurma-karari-p381388",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bakanlik-acikladi-sosyal-medyada-bu-paylasimlar-durduruldu-p381433",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/sosyal-medyadaki-fal-medyum-ve-buyu-reklamlari-icin-karar-cikti-1395190",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "12b0ce5a2f69ef27",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Karaman FK escape burning bus",
+          "title": "Karaman FK’s team bus catches fire on the way to an away game; about 30 players and staff get out after the doors jam",
+          "summary": {
+            "what": "A municipal bus carrying third-tier side Karaman FK to Silifke caught fire near Karaman on Sunday morning; about 30 people got out unhurt after forcing the jammed doors open.",
+            "why": "The electrics failed as the engine caught fire, so the doors would not open at first; flames engulfed the bus moments after everyone was out, NTV reported.",
+            "next": "The club says the TFF has postponed the 13:00 game against Yeni Mersin İdman Yurdu to a later date."
+          },
+          "body": [
+            {
+              "subhead": "What happened",
+              "blocks": [
+                {
+                  "text": "The team bus of Karaman FK, who play in Group 3 of the TFF Third League, caught fire on Sunday morning on the Karaman–Konya road at the entrance to Karaman, NTV, Sözcü and Cumhuriyet reported. The squad had left their training ground in Kazımkarabekir at around 08:00 for a 13:00 away game against Yeni Mersin İdman Yurdu in Silifke, Mersin."
+                },
+                {
+                  "text": "About a kilometre before Karaman, the bus broke down. Players at the back smelled burning and saw smoke and told the driver, NTV reported. The driver pulled over, but the electrical system had cut out and the doors would not open."
+                }
+              ]
+            },
+            {
+              "subhead": "The doors that would not open",
+              "blocks": [
+                {
+                  "text": "The driver worked hard to force the doors, and the roughly 30 players and staff got out moments before flames from the engine spread over the whole bus. Firefighters put the fire out; the engine was destroyed and, according to Cumhuriyet, so was the team’s kit. Nobody was hurt."
+                },
+                {
+                  "quote": "We stopped, and then we realised the door wouldn’t open. We struggled a lot to get it open. Once we opened it, the smoke started rising and the flames came out.",
+                  "speaker": "Özgür Polat, Karaman FK coach",
+                  "sourceId": "ntv",
+                  "translated": true
+                },
+                {
+                  "text": "Player Bedirhan Akbaba told NTV that after they got off, the smoke grew thicker and there were explosions before the bus was engulfed. The bus belongs to the Kazımkarabekir municipality, Sözcü reported."
+                },
+                {
+                  "text": "Forward Ömer Tuğ told NTV the smoke started suddenly at the back of the bus. “We had a game in Mersin but unfortunately we stayed here,” he said. The driver was named as Memiş B."
+                }
+              ]
+            },
+            {
+              "subhead": "The game",
+              "blocks": [
+                {
+                  "text": "Polat said straight after the fire that everyone was fine but the team had no transport and was waiting for another bus, and that the federation would decide whether the match went ahead."
+                },
+                {
+                  "text": "Later on Sunday, the club said on social media that the TFF had postponed the game to a later date, Cumhuriyet reported. No new date has been given."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "People on the bus",
+              "value": "about 30",
+              "source": "NTV"
+            },
+            {
+              "label": "Fire started",
+              "value": "about 08:30",
+              "source": "NTV"
+            },
+            {
+              "label": "Distance from Karaman",
+              "value": "about 1 km",
+              "source": "NTV"
+            },
+            {
+              "label": "Injured",
+              "value": "0",
+              "source": "NTV"
+            }
+          ],
+          "place": {
+            "name": "Karaman",
+            "lat": 37.18,
+            "lon": 33.22,
+            "region": "Karaman, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Karaman FK otobüsü alev aldı",
+          "title": "Deplasmana giden Karaman FK’nin otobüsü yandı; kapıları açılmayan araçtan 30 kişilik kafile son anda çıktı",
+          "summary": {
+            "what": "Karaman FK’yi Silifke’ye götüren belediye otobüsü pazar sabahı Karaman girişinde alev aldı; kapıları zorla açılan araçtan yaklaşık 30 kişi yara almadan çıktı.",
+            "why": "NTV’ye göre motor yanarken elektrik kesildi, kapılar açılmadı; herkes indikten hemen sonra alevler otobüsü sardı.",
+            "next": "Kulübe göre TFF, saat 13.00’teki Yeni Mersin İdman Yurdu maçını ileri bir tarihe erteledi."
+          },
+          "body": [
+            {
+              "subhead": "Ne oldu",
+              "blocks": [
+                {
+                  "text": "TFF 3. Lig 3. Grup’ta mücadele eden Karaman FK’nin takım otobüsü pazar sabahı Karaman-Konya kara yolunun şehir girişinde yandı. Haberi NTV, Sözcü ve Cumhuriyet verdi. Kafile, saat 13.00’te Mersin’in Silifke ilçesinde oynanacak Yeni Mersin İdman Yurdu maçı için 08.00 sıralarında Kazımkarabekir’deki tesislerden yola çıkmıştı."
+                },
+                {
+                  "text": "NTV’ye göre otobüs Karaman’a yaklaşık 1 kilometre kala arızalanıp durdu. Arkada oturan futbolcular duman ve yanık kokusu fark edip şoföre haber verdi. Şoför aracı yol kenarına çekti, ancak elektrik sistemi devre dışı kaldığı için kapılar açılmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Açılmayan kapılar",
+              "blocks": [
+                {
+                  "text": "Şoförün uzun uğraşıyla kapı açıldı ve yaklaşık 30 futbolcu ile teknik ekip araçtan indi. Hemen ardından motordan yükselen alevler otobüsü sardı. İtfaiye yangını söndürdü; motor kısmı tamamen yandı, Cumhuriyet’e göre spor malzemeleri de kül oldu. Yaralanan olmadı."
+                },
+                {
+                  "quote": "Durduk ve o sırada kapının açılmadığını fark ettik. Kapının açılması için bayağı uğraştık. Kapıyı açtıktan sonra dumanlar yükselmeye, alevler çıkmaya başladı.",
+                  "speaker": "Özgür Polat, Karaman FK teknik direktörü",
+                  "sourceId": "ntv"
+                },
+                {
+                  "text": "Futbolcu Bedirhan Akbaba da NTV’ye indikten sonra dumanın arttığını, patlamalar olduğunu anlattı. Sözcü’ye göre otobüs Kazımkarabekir Belediyesi’ne ait."
+                },
+                {
+                  "text": "Futbolcu Ömer Tuğ, dumanın bir anda aracın arkasından yükselmeye başladığını anlattı: “Şoförümüz Memiş abi otobüsü durdurdu. Aşağıya indiğimizde dumanların iyice yükseldiğini gördük. Mersin’de maçımız vardı ama maalesef burada kaldık.” Sözcü’ye göre otobüs 70 BE 008 plakalı ve M.B. idaresindeydi."
+                }
+              ]
+            },
+            {
+              "subhead": "Maç ertelendi",
+              "blocks": [
+                {
+                  "text": "Polat olaydan hemen sonra herkesin iyi olduğunu, ancak ulaşım sorunu yaşadıklarını ve başka bir otobüs beklediklerini söyledi; maçın oynanıp oynanmayacağına federasyonun karar vereceğini belirtti."
+                },
+                {
+                  "text": "Cumhuriyet’e göre kulüp daha sonra sosyal medyadan, maçın TFF tarafından ileri bir tarihe ertelendiğini duyurdu. Yeni tarih açıklanmadı."
+                },
+                {
+                  "text": "Yeni tarih için federasyondan açıklama bekleniyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Otobüsteki kişi",
+              "value": "yaklaşık 30",
+              "source": "NTV"
+            },
+            {
+              "label": "Yangın saati",
+              "value": "08.30 sıraları",
+              "source": "NTV"
+            },
+            {
+              "label": "Karaman’a uzaklık",
+              "value": "yaklaşık 1 km",
+              "source": "NTV"
+            },
+            {
+              "label": "Yaralı",
+              "value": "0",
+              "source": "NTV"
+            }
+          ],
+          "place": {
+            "name": "Karaman",
+            "lat": 37.18,
+            "lon": 33.22,
+            "region": "Karaman, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T08:04:48.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:55:12.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T08:55:12.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:56:00.000Z",
+          "sourceId": "cumhuriyet"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/yang%C4%B1n-950106.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-deplasmana-giden-takim-otobusu-alev-aldi-30-kisilik-kafile-kil-payi-kurtuldu-1750948"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-deplasmana-giden-takim-otobusu-alev-aldi-30-kisilik-kafile-kil-payi-kurtuldu-1750948",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/deplasman-yolunda-can-pazari-kapilar-acilmadi-futbolcular-son-anda-kurtuldu-p381513",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/karaman-fk-takim-otobusu-alev-alev-yandi-futbolcular-olumden-dondu-2556280",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "d4a1e8c03b7f2a61",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Istanbul Airport tops Europe again",
+          "title": "Istanbul Airport was Europe’s busiest in the first week of November with 1,384 flights a day, ahead of Madrid, Eurocontrol says",
+          "summary": {
+            "what": "Eurocontrol’s latest overview puts Istanbul Airport first in Europe for 2–8 November, with an average of 1,384 flights a day.",
+            "why": "It finished 92 daily flights ahead of Madrid, and Istanbul’s second airport, Sabiha Gökçen, also made Europe’s top ten.",
+            "next": "Eurocontrol publishes these traffic figures every week, so the ranking can change with the next report."
+          },
+          "body": [
+            {
+              "subhead": "The ranking",
+              "blocks": [
+                {
+                  "text": "Istanbul Airport was the busiest airport in Europe in the week of 2 to 8 November, Anadolu Agency and Habertürk reported on Sunday, citing the European Aviation Overview published by Eurocontrol, the organisation that coordinates air traffic management across Europe."
+                },
+                {
+                  "text": "The airport handled an average of 1,384 flights a day in that week. Madrid followed with 1,292, Amsterdam with 1,274, Paris Charles de Gaulle with 1,260 and London Heathrow with 1,257, according to the report."
+                }
+              ]
+            },
+            {
+              "subhead": "Two Istanbul airports in the top ten",
+              "blocks": [
+                {
+                  "text": "Istanbul’s second airport, Sabiha Gökçen on the Asian side, handled 774 flights a day and was the tenth busiest in Europe, Anadolu Agency reported. That puts both of the city’s main airports among the continent’s ten busiest in the same week."
+                },
+                {
+                  "text": "The gap between the leaders is narrow below the top spot: Amsterdam, Paris and London were separated by just 17 flights a day. Istanbul’s lead over Madrid, at 92 flights a day, was the largest gap in the top five."
+                },
+                {
+                  "text": "Anadolu Agency and Habertürk both led with the same figure, 1,384 flights a day, and neither reported any other Turkish airport in the list."
+                }
+              ]
+            },
+            {
+              "subhead": "What the figures measure",
+              "blocks": [
+                {
+                  "text": "Eurocontrol counts flights, meaning departures and arrivals, not passengers, so the ranking shows how busy an airport’s runways and airspace are rather than how many people pass through its terminals."
+                },
+                {
+                  "text": "The figures cover a single week. Eurocontrol updates its overview regularly, and airports move up and down the ranking with the seasons and airline schedules. Neither Anadolu Agency nor Habertürk gave a comparison with the same week last year."
+                }
+              ]
+            },
+            {
+              "subhead": "By the numbers",
+              "blocks": [
+                {
+                  "text": "At 1,384 flights a day, Istanbul Airport handled roughly one take-off or landing a minute, around the clock, through that week."
+                },
+                {
+                  "text": "Its lead over London Heathrow, fifth in the list, was 127 flights a day. Together, Istanbul Airport and Sabiha Gökçen handled 2,158 flights a day in the same week, according to the figures Anadolu Agency gave from the Eurocontrol report."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Daily flights, Istanbul Airport",
+              "value": "1,384",
+              "source": "Eurocontrol via AA"
+            },
+            {
+              "label": "Madrid, second",
+              "value": "1,292",
+              "source": "Eurocontrol via AA"
+            },
+            {
+              "label": "Amsterdam, third",
+              "value": "1,274",
+              "source": "Eurocontrol via AA"
+            },
+            {
+              "label": "Sabiha Gökçen, 10th",
+              "value": "774",
+              "source": "Eurocontrol via AA"
+            },
+            {
+              "label": "Week measured",
+              "value": "2–8 Nov",
+              "source": "Eurocontrol via AA"
+            }
+          ],
+          "place": {
+            "name": "Istanbul Airport",
+            "lat": 41.26,
+            "lon": 28.74,
+            "region": "Istanbul, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "İstanbul Havalimanı Avrupa’da ilk sırada",
+          "title": "Eurocontrol: İstanbul Havalimanı kasımın ilk haftasında günlük 1.384 uçuşla Avrupa’nın en yoğun havalimanı oldu",
+          "summary": {
+            "what": "Eurocontrol’ün son raporuna göre İstanbul Havalimanı 2-8 Kasım haftasında günlük ortalama 1.384 uçuşla Avrupa’da birinci oldu.",
+            "why": "Havalimanı ikinci sıradaki Madrid’in 92 uçuş önünde; Sabiha Gökçen de Avrupa’nın en yoğun 10 havalimanı arasına girdi.",
+            "next": "Eurocontrol rakamları düzenli olarak yayımlıyor; sıralama bir sonraki raporda değişebilir."
+          },
+          "body": [
+            {
+              "subhead": "Sıralama",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı ve Habertürk’ün pazar günü aktardığına göre, Avrupa Hava Seyrüsefer Emniyeti Teşkilatı (Eurocontrol) tarafından yayımlanan Avrupa Havacılık Genel Bakış Raporu’nda İstanbul Havalimanı 2-8 Kasım döneminde Avrupa’nın en yoğun havalimanı oldu."
+                },
+                {
+                  "text": "Rapora göre İstanbul Havalimanı bu haftada günde ortalama 1.384 uçuşa hizmet verdi. Onu günlük 1.292 uçuşla Madrid, 1.274 uçuşla Amsterdam, 1.260 uçuşla Paris Charles de Gaulle ve 1.257 uçuşla Londra Heathrow izledi."
+                }
+              ]
+            },
+            {
+              "subhead": "İlk 10’da iki İstanbul havalimanı",
+              "blocks": [
+                {
+                  "text": "AA’ya göre Anadolu yakasındaki Sabiha Gökçen Uluslararası Havalimanı da günlük 774 uçuşla Avrupa’nın en yoğun 10’uncu havalimanı oldu. Böylece kentin iki büyük havalimanı aynı hafta Avrupa’nın ilk 10’unda yer aldı."
+                },
+                {
+                  "text": "Birinciden sonrası ise başa baş: Amsterdam, Paris ve Londra arasındaki fark günde yalnızca 17 uçuş. İstanbul’un Madrid’e attığı 92 uçuşluk fark, ilk beşteki en büyük fark."
+                },
+                {
+                  "text": "AA ve Habertürk haberlerini aynı rakamla, günlük 1.384 uçuşla verdi; listede başka bir Türk havalimanının yer aldığı bildirilmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Rakamlar neyi ölçüyor",
+              "blocks": [
+                {
+                  "text": "Eurocontrol yolcu değil uçuş, yani kalkış ve iniş sayıyor. Sıralama, terminallerden geçen yolcu sayısını değil, pistlerin ve hava sahasının ne kadar yoğun olduğunu gösteriyor."
+                },
+                {
+                  "text": "Rakamlar tek bir haftayı kapsıyor ve havalimanları mevsime ve havayolu tarifelerine göre sıralamada yer değiştirebiliyor. AA ve Habertürk geçen yılın aynı haftasıyla bir karşılaştırma vermedi."
+                },
+                {
+                  "text": "Raporun dönemi 2-8 Kasım haftası; rakamlar o hafta boyunca günlük ortalama olarak verildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Rakamlarla",
+              "blocks": [
+                {
+                  "text": "Günlük 1.384 uçuş, İstanbul Havalimanı’nda o hafta boyunca gece gündüz yaklaşık dakikada bir kalkış ya da iniş anlamına geliyor."
+                },
+                {
+                  "text": "Havalimanının listede beşinci olan Londra Heathrow ile farkı günde 127 uçuş. AA’nın Eurocontrol raporundan aktardığı rakamlara göre İstanbul Havalimanı ile Sabiha Gökçen aynı hafta toplam günde 2.158 uçuşa hizmet verdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İstanbul Havalimanı günlük uçuş",
+              "value": "1.384",
+              "source": "Eurocontrol, AA"
+            },
+            {
+              "label": "Madrid, ikinci",
+              "value": "1.292",
+              "source": "Eurocontrol, AA"
+            },
+            {
+              "label": "Amsterdam, üçüncü",
+              "value": "1.274",
+              "source": "Eurocontrol, AA"
+            },
+            {
+              "label": "Sabiha Gökçen, 10’uncu",
+              "value": "774",
+              "source": "Eurocontrol, AA"
+            },
+            {
+              "label": "Ölçülen hafta",
+              "value": "2-8 Kasım",
+              "source": "Eurocontrol, AA"
+            }
+          ],
+          "place": {
+            "name": "İstanbul Havalimanı",
+            "lat": 41.26,
+            "lon": 28.74,
+            "region": "İstanbul, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T08:15:51.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:30:41.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T08:30:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/ekonomi/istanbul-havalimani-avrupanin-en-yogun-havalimani/4125591",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/istanbul-havalimani-avrupa-nin-en-yogun-havalimani-3927468",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "e86112d5f8734949",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Petition to bring Huang back",
+          "title": "More than 115,000 sign a petition asking Nvidia’s board to reinstate Jensen Huang, including Elon Musk and Tim Sweeney, TechCrunch reports",
+          "summary": {
+            "what": "A petition asking Nvidia’s board to bring back ousted chief executive Jensen Huang had more than 115,000 signatures by Saturday afternoon, TechCrunch reports.",
+            "why": "Its site counts 5,965 current Nvidia employees and 63,063 shareholders among the signers, a sign of pressure on the board from inside the company.",
+            "next": "The petition asks for Huang’s return while an independent investigation runs; the board has not responded. Colette Kress stays interim CEO."
+          },
+          "body": [
+            {
+              "subhead": "New since this morning",
+              "blocks": [
+                {
+                  "text": "This morning’s edition covered how Asian governments are weighing Jensen Huang’s exit from Nvidia. Since then, a petition calling on Nvidia’s board to reinstate him has passed 115,000 signatures, TechCrunch reported on Saturday, citing the petition’s own website. The numbers have not been independently checked."
+                },
+                {
+                  "text": "According to the site, the signers include 5,965 current Nvidia employees, 1,108 former employees and 63,063 shareholders. TechCrunch named Tesla and SpaceX chief executive Elon Musk, Replit chief executive Amjad Masad, Epic Games chief executive Tim Sweeney and Y Combinator chief executive Garry Tan among the public supporters."
+                },
+                {
+                  "text": "TechCrunch said the total “appears” to have passed 115,000, since the count and the breakdown come from the petition site itself."
+                }
+              ]
+            },
+            {
+              "subhead": "What the petition asks",
+              "blocks": [
+                {
+                  "text": "The petition says its signers are concerned that Huang was removed without meaningful due process. It asks the board to bring him back while an independent investigation establishes the facts, to make sure that investigation is fair, and to give the public more information."
+                },
+                {
+                  "quote": "Jensen deserves due process, not mob justice.",
+                  "speaker": "the petition",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "Huang resigned on Thursday, four days after admitting to an affair with a chip executive whom US intelligence suspects of being a Chinese spy, TechCrunch reported. He has agreed to testify before Congress, and news reports have suggested he had several extramarital affairs."
+                }
+              ]
+            },
+            {
+              "subhead": "Where Nvidia stands",
+              "blocks": [
+                {
+                  "text": "Nvidia has named its chief financial officer, Colette Kress, as interim chief executive while it searches for a permanent replacement. The company’s share price fell sharply through the week, TechCrunch said, and Huang’s departure is expected to leave a large gap in funding across the AI industry, where he backed many companies."
+                },
+                {
+                  "text": "The board has not publicly answered the petition. A petition has no formal power over a board’s decisions, but one signed by thousands of employees and tens of thousands of shareholders is hard for a board to ignore."
+                },
+                {
+                  "text": "Kress remains in charge in the meantime."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Signatures",
+              "value": "115,000+",
+              "source": "Petition site via TechCrunch"
+            },
+            {
+              "label": "Current Nvidia employees",
+              "value": "5,965",
+              "source": "Petition site via TechCrunch"
+            },
+            {
+              "label": "Shareholders",
+              "value": "63,063",
+              "source": "Petition site via TechCrunch"
+            },
+            {
+              "label": "Former employees",
+              "value": "1,108",
+              "source": "Petition site via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Huang için imza kampanyası",
+          "title": "Nvidia yönetiminden Jensen Huang’ı geri getirmesini isteyen dilekçeyi 115 binden fazla kişi imzaladı; aralarında Elon Musk da var",
+          "summary": {
+            "what": "TechCrunch’a göre Nvidia yönetim kurulundan görevden ayrılan CEO Jensen Huang’ı geri getirmesini isteyen dilekçe cumartesi öğleden sonra 115 bin imzayı geçti.",
+            "why": "Dilekçe sitesine göre imzacılar arasında 5.965 Nvidia çalışanı ve 63.063 hissedar var; bu, yönetim kuruluna şirket içinden gelen bir baskı işareti.",
+            "next": "Dilekçe, bağımsız soruşturma sürerken Huang’ın göreve dönmesini istiyor; yönetim kurulu yanıt vermedi. Geçici CEO Colette Kress."
+          },
+          "body": [
+            {
+              "subhead": "Sabahtan bu yana yeni",
+              "blocks": [
+                {
+                  "text": "Bu sabahki bültende Asya hükümetlerinin Jensen Huang’ın Nvidia’dan ayrılışını nasıl değerlendirdiğini yazmıştık. O zamandan bu yana, Nvidia yönetim kurulundan Huang’ı göreve iade etmesini isteyen bir dilekçe 115 bin imzayı geçti. TechCrunch bu rakamı dilekçenin kendi sitesine dayandırıyor; sayılar bağımsız olarak doğrulanmadı."
+                },
+                {
+                  "text": "Siteye göre imzacılar arasında 5.965 mevcut Nvidia çalışanı, 1.108 eski çalışan ve 63.063 hissedar bulunuyor. TechCrunch, destekçiler arasında Tesla ve SpaceX CEO’su Elon Musk, Replit CEO’su Amjad Masad, Epic Games CEO’su Tim Sweeney ve Y Combinator CEO’su Garry Tan’ı saydı."
+                },
+                {
+                  "text": "TechCrunch, toplamın 115 bini “geçmiş göründüğünü” yazdı; çünkü sayı ve dağılım dilekçe sitesinin kendisinden geliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Dilekçe ne istiyor",
+              "blocks": [
+                {
+                  "text": "Dilekçede, imzacıların Huang’ın anlamlı bir hukuki süreç işletilmeden görevden uzaklaştırılmasından kaygı duyduğu belirtiliyor. Yönetim kurulundan, bağımsız bir soruşturma gerçekleri ortaya koyarken Huang’ı geri getirmesi, soruşturmanın adil yürütülmesini sağlaması ve kamuoyuna daha fazla bilgi vermesi isteniyor."
+                },
+                {
+                  "quote": "Jensen linç kültürünü değil, adil bir süreci hak ediyor.",
+                  "speaker": "dilekçe metni",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch’a göre Huang, ABD istihbaratının Çin casusu olduğundan şüphelendiği bir çip yöneticisiyle ilişkisini itiraf etmesinden dört gün sonra, perşembe günü istifa etti. Huang Kongre’de ifade vermeyi kabul etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Nvidia’da durum",
+              "blocks": [
+                {
+                  "text": "Nvidia, kalıcı bir isim bulana kadar finans direktörü Colette Kress’i geçici CEO olarak atadı. TechCrunch’a göre şirketin hisseleri hafta boyunca sert düştü; Huang’ın ayrılmasının, pek çok şirkete yatırım yaptığı yapay zekâ sektöründe büyük bir finansman boşluğu bırakması bekleniyor."
+                },
+                {
+                  "text": "Yönetim kurulu dilekçeye henüz yanıt vermedi. Dilekçenin resmi bir bağlayıcılığı yok, ancak binlerce çalışan ve on binlerce hissedarın imzası kurul için göz ardı edilmesi zor bir baskı."
+                },
+                {
+                  "text": "Bu süreçte şirketin başında Kress kalmaya devam ediyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İmza",
+              "value": "115 bin+",
+              "source": "Dilekçe sitesi, TechCrunch"
+            },
+            {
+              "label": "Mevcut Nvidia çalışanı",
+              "value": "5.965",
+              "source": "Dilekçe sitesi, TechCrunch"
+            },
+            {
+              "label": "Hissedar",
+              "value": "63.063",
+              "source": "Dilekçe sitesi, TechCrunch"
+            },
+            {
+              "label": "Eski çalışan",
+              "value": "1.108",
+              "source": "Dilekçe sitesi, TechCrunch"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-14T21:41:22.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "updated",
+          "at": "2026-11-15T09:30:00.000Z",
+          "note": {
+            "en": "New since the morning edition: the petition to reinstate Huang passed 115,000 signatures.",
+            "tr": "Sabah bülteninden bu yana yeni: Huang’ın göreve iadesi için dilekçe 115 bin imzayı geçti."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "9e314a8f744ef711",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Tesla takes Cybercab pre-orders",
+          "title": "Tesla opens Cybercab pre-orders for personal use at $29,990 plus $299 a month, limited to geofenced areas in Texas at first",
+          "summary": {
+            "what": "Tesla has let “select customers” pre-order its driverless Cybercab for personal use, at $29,990 plus a $299 monthly fee, with delivery estimated for December 2026.",
+            "why": "It is the first time Tesla has sold its robotaxi to private owners, but the car will only drive itself inside the areas where Tesla’s robotaxi service already runs.",
+            "next": "Musk says it will be sold nationwide as regulators approve it, and that the monthly fee is too high and should be nearer $115."
+          },
+          "body": [
+            {
+              "subhead": "The offer",
+              "blocks": [
+                {
+                  "text": "Tesla said on Friday evening that “select customers” could now pre-order its autonomous, gold-coloured Cybercab “for personal use”, TechCrunch reported. The car costs $29,990, and owners will also have to pay $299 a month to operate it."
+                },
+                {
+                  "text": "More details emerged as customers looked at the order page. Tech reviewer Marques Brownlee posted that buyers must accept delivery in one of a handful of Texas cities and that the car will only operate in certain geofenced areas. The estimated delivery date is December 2026."
+                }
+              ]
+            },
+            {
+              "subhead": "Where it will drive",
+              "blocks": [
+                {
+                  "text": "Tesla’s Ashok Elluswamy said the Cybercab will work unsupervised inside the same areas as Tesla’s robotaxi service, “just serving the owners’ needs”. In practice, that means an owner’s car can only drive itself where Tesla already runs driverless taxis."
+                },
+                {
+                  "text": "Replying to Brownlee, chief executive Elon Musk said the Cybercab will be available nationwide as Tesla receives regulatory approval. He did not give a timetable."
+                }
+              ]
+            },
+            {
+              "subhead": "Musk on the fee",
+              "blocks": [
+                {
+                  "text": "Musk also said the monthly fee was too high, disagreeing in public with the price on his own company’s order page."
+                },
+                {
+                  "quote": "Should match the cost of Tesla [Full Self-Driving] and connectivity for other models, which is more like ~$115/month.",
+                  "speaker": "Elon Musk, Tesla chief executive",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "The Cybercab is central to Tesla’s plans. After the Cybertruck fell far short of projected sales, Tesla recently announced it will stop making the Cybertruck next year and use the factory capacity to build more Cybercabs, TechCrunch noted. The car has no steering wheel or pedals."
+                }
+              ]
+            },
+            {
+              "subhead": "What it costs",
+              "blocks": [
+                {
+                  "text": "At $299 a month, the operating fee adds $3,588 a year to the $29,990 price. At the roughly $115 Musk suggested, it would be $1,380 a year."
+                },
+                {
+                  "text": "Tesla did not say how many customers were selected for pre-orders, which Texas cities qualify, or what the fee pays for beyond operating the car, according to TechCrunch’s report. The car was designed as a robotaxi, and selling it to private owners is a new step for it."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Price",
+              "value": "$29,990",
+              "source": "Tesla via TechCrunch"
+            },
+            {
+              "label": "Monthly fee",
+              "value": "$299",
+              "source": "Tesla via TechCrunch"
+            },
+            {
+              "label": "Fee Musk suggests",
+              "value": "~$115",
+              "source": "Elon Musk via TechCrunch"
+            },
+            {
+              "label": "Estimated delivery",
+              "value": "Dec 2026",
+              "source": "Tesla via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Tesla Cybercab ön siparişte",
+          "title": "Tesla, sürücüsüz Cybercab’i bireyler için 29.990 dolar ve aylık 299 dolarla ön siparişe açtı; araç önce Teksas’ta çalışacak",
+          "summary": {
+            "what": "Tesla, sürücüsüz Cybercab’i “seçili müşterilere” bireysel kullanım için 29.990 dolar ve aylık 299 dolar ücretle ön siparişe açtı; teslimat Aralık 2026’da bekleniyor.",
+            "why": "Tesla robotaksisini ilk kez bireysel sahiplere satıyor, ancak araç yalnızca şirketin robotaksi hizmetinin çalıştığı bölgelerde kendi kendine gidecek.",
+            "next": "Musk, aracın onaylar geldikçe ülke genelinde satılacağını ve aylık ücretin yüksek olduğunu, 115 dolar civarında olması gerektiğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Teklif",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın haberine göre Tesla cuma akşamı, sürücüsüz ve altın renkli Cybercab’i “seçili müşterilerin” “bireysel kullanım için” ön sipariş verebileceğini duyurdu. Aracın fiyatı 29.990 dolar; sahipleri ayrıca kullanım için ayda 299 dolar ödeyecek."
+                },
+                {
+                  "text": "Ayrıntılar sipariş sayfasından çıktı. Teknoloji yorumcusu Marques Brownlee, alıcıların aracı Teksas’taki birkaç şehirden birinde teslim almak zorunda olduğunu ve aracın yalnızca belirli coğrafi sınırlar (geofence) içinde çalışacağını paylaştı. Tahmini teslim tarihi Aralık 2026."
+                },
+                {
+                  "text": "Tesla, “seçili müşterilerin” kim olduğunu açıklamadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Nerede gidecek",
+              "blocks": [
+                {
+                  "text": "Tesla’dan Ashok Elluswamy, Cybercab’in robotaksi hizmetiyle aynı bölgelerde, sürücü gözetimi olmadan, “yalnızca sahibinin ihtiyaçlarına hizmet ederek” çalışacağını söyledi. Yani araç, Tesla’nın zaten sürücüsüz taksi işlettiği yerler dışında kendi kendine gidemeyecek."
+                },
+                {
+                  "text": "Brownlee’ye yanıt veren CEO Elon Musk, Cybercab’in düzenleyici onaylar alındıkça ülke genelinde satışa açılacağını söyledi, ancak takvim vermedi."
+                },
+                {
+                  "text": "Elluswamy bu açıklamayı, Tesla’nın robotaksi hizmetinin sosyal medya hesabına atıfla yaptı; aracın aynı alanların dışına çıkıp çıkamayacağına dair bir ayrıntı vermedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Musk’tan ücret itirafı",
+              "blocks": [
+                {
+                  "text": "Musk, aylık ücretin fazla yüksek olduğunu da söyleyerek kendi şirketinin sipariş sayfasındaki fiyata açıkça itiraz etti."
+                },
+                {
+                  "quote": "Tesla FSD ve diğer modellerdeki bağlantı ücretiyle aynı olmalı, bu da ayda yaklaşık 115 dolar.",
+                  "speaker": "Elon Musk, Tesla CEO’su",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch’a göre Cybertruck satış hedeflerinin çok altında kalınca Tesla, gelecek yıl Cybertruck üretimini durdurup kapasiteyi Cybercab’e ayıracağını açıklamıştı. Araçta direksiyon ve pedal yok."
+                }
+              ]
+            },
+            {
+              "subhead": "Maliyeti",
+              "blocks": [
+                {
+                  "text": "Aylık 299 dolarlık ücret, 29.990 dolarlık fiyata yılda 3.588 dolar ekliyor. Musk’ın önerdiği yaklaşık 115 dolarla bu rakam yılda 1.380 dolar olurdu."
+                },
+                {
+                  "text": "TechCrunch’ın haberine göre Tesla, kaç müşterinin ön sipariş için seçildiğini, hangi Teksas şehirlerinin kapsamda olduğunu ve ücretin aracı çalıştırmanın dışında neyi karşıladığını açıklamadı. Robotaksi olarak tasarlanan aracın bireysel sahiplere satılması onun için yeni bir adım."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Fiyat",
+              "value": "29.990 $",
+              "source": "Tesla, TechCrunch"
+            },
+            {
+              "label": "Aylık ücret",
+              "value": "299 $",
+              "source": "Tesla, TechCrunch"
+            },
+            {
+              "label": "Musk’ın önerdiği ücret",
+              "value": "~115 $",
+              "source": "Elon Musk, TechCrunch"
+            },
+            {
+              "label": "Tahmini teslimat",
+              "value": "Aralık 2026",
+              "source": "Tesla, TechCrunch"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-14T20:04:44.000Z",
+          "sourceId": "techcrunch"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "88ae2cfdd6f59272",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "DRAM price-fixing suit goes ahead",
+          "title": "A US judge lets a lawsuit accusing Samsung, SK Hynix and Micron of conspiring to cut memory-chip supply go ahead",
+          "summary": {
+            "what": "A federal judge in California has refused to dismiss a proposed class action accusing Samsung, SK Hynix and Micron of conspiring to restrict the supply of ordinary DRAM memory chips.",
+            "why": "The three firms make most of the world’s DRAM, and the suit says their shift to AI memory pushed prices of ordinary chips up 171.8% in a year.",
+            "next": "The allegations are unproven; the case now moves on toward evidence-gathering unless the companies settle."
+          },
+          "body": [
+            {
+              "subhead": "The ruling",
+              "blocks": [
+                {
+                  "text": "US District Judge Noël Wise of the Northern District of California on 14 November denied in full a joint motion by Samsung, SK Hynix and Micron to dismiss a proposed class action over the supply of conventional DRAM, the standard memory chips in computers, phones and servers, LitNews reported. The story was widely shared on Hacker News."
+                },
+                {
+                  "text": "The judge found the complaint plausibly alleged an agreement in breach of Section 1 of the Sherman Act, the main US law against cartels. At this stage the allegations are taken as true; they have not been proven."
+                }
+              ]
+            },
+            {
+              "subhead": "What the buyers allege",
+              "blocks": [
+                {
+                  "text": "The suit was filed on 25 June 2026 by 17 consumers and small businesses from five states. It says the three companies controlled more than 91% of global DRAM revenue as of the third quarter of 2025, cut production from late 2022 and, from 2023, moved capacity to high bandwidth memory (HBM), the specialised memory used in AI accelerators, which takes three to four times the wafer area per gigabyte."
+                },
+                {
+                  "text": "By the third quarter of 2025, conventional DRAM prices had risen 171.8% in a year, the complaint says, and 697% over 18 months, yet none of the three expanded capacity for ordinary chips."
+                }
+              ]
+            },
+            {
+              "subhead": "Why the companies lost this round",
+              "blocks": [
+                {
+                  "text": "The companies argued the case was a rerun of an earlier one, which the Ninth Circuit threw out in 2022 over a 2016–2018 supply cut. The judge disagreed. She also rejected the argument that gaps in timing undercut parallel action: SK Hynix and Micron announced cuts three weeks apart in late 2022, and Samsung followed on 7 April 2023."
+                },
+                {
+                  "quote": "The Court finds that it is not.",
+                  "speaker": "Judge Noël Wise",
+                  "sourceId": "hacker-news"
+                },
+                {
+                  "text": "A move to HBM alone might not be enough, she wrote, but the related conduct tipped the balance in the buyers’ favour."
+                },
+                {
+                  "text": "She also found the complaint plausibly alleged that the three wound down DDR4 together."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Price rise in a year",
+              "value": "171.8%",
+              "source": "Complaint via LitNews"
+            },
+            {
+              "label": "Rise over 18 months",
+              "value": "697%",
+              "source": "Complaint via LitNews"
+            },
+            {
+              "label": "Share of DRAM revenue",
+              "value": "91%+",
+              "source": "Complaint via LitNews"
+            },
+            {
+              "label": "Plaintiffs",
+              "value": "17",
+              "source": "LitNews"
+            },
+            {
+              "label": "Ruling",
+              "value": "14 Nov",
+              "source": "LitNews"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "DRAM davası devam ediyor",
+          "title": "ABD’de bir yargıç, Samsung, SK Hynix ve Micron’u bellek çipi arzını kısmak için anlaşmakla suçlayan davayı reddetmedi",
+          "summary": {
+            "what": "Kaliforniya’da federal bir yargıç, Samsung, SK Hynix ve Micron’un sıradan DRAM bellek çiplerinin arzını kısmak için anlaştığı iddiasıyla açılan toplu davayı düşürme talebini reddetti.",
+            "why": "Üç şirket dünya DRAM’inin büyük kısmını üretiyor; davaya göre yapay zekâ belleğine kaymaları sıradan çiplerin fiyatını bir yılda %171,8 artırdı.",
+            "next": "İddialar kanıtlanmış değil; şirketler uzlaşmazsa dava delil toplama aşamasına geçecek."
+          },
+          "body": [
+            {
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "LitNews’in haberine göre Kaliforniya Kuzey Bölgesi Federal Mahkemesi yargıcı Noël Wise, 14 Kasım’da Samsung, SK Hynix ve Micron’un ortak düşürme talebini tümüyle reddetti. Dava, bilgisayar, telefon ve sunucularda kullanılan standart DRAM bellek çiplerinin arzıyla ilgili. Haber Hacker News’te geniş ilgi gördü."
+                },
+                {
+                  "text": "Yargıç, şikâyetin ABD’nin kartellere karşı temel yasası olan Sherman Yasası’nın 1. bölümünü ihlal eden bir anlaşmayı makul biçimde ileri sürdüğüne karar verdi. Bu aşamada iddialar doğru kabul ediliyor, ancak kanıtlanmış değil."
+                }
+              ]
+            },
+            {
+              "subhead": "Alıcılar ne iddia ediyor",
+              "blocks": [
+                {
+                  "text": "Dava 25 Haziran 2026’da beş eyaletten 17 tüketici ve küçük işletme tarafından açıldı. Şikâyete göre üç şirket 2025’in üçüncü çeyreğinde küresel DRAM gelirinin %91’inden fazlasını kontrol ediyordu; 2022 sonundan itibaren üretimi kıstılar ve 2023’ten itibaren kapasiteyi yapay zekâ hızlandırıcılarında kullanılan, gigabayt başına üç-dört kat daha fazla yonga alanı gerektiren yüksek bant genişlikli belleğe (HBM) kaydırdılar."
+                },
+                {
+                  "text": "Şikâyete göre sıradan DRAM fiyatları 2025’in üçüncü çeyreğinde bir yılda %171,8, 18 ayda %697 arttı; buna rağmen üç şirketten hiçbiri kapasite artırmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Şirketler neden kaybetti",
+              "blocks": [
+                {
+                  "text": "Şirketler, davanın 2016-2018 arz kesintisi nedeniyle açılan ve 2022’de temyizde düşürülen davanın tekrarı olduğunu savundu. Yargıç bu görüşe katılmadı ve zamanlama farkının paralel hareketi çürüttüğü savunmasını da reddetti: SK Hynix ve Micron kesintileri 2022 sonunda üç hafta arayla, Samsung ise 7 Nisan 2023’te duyurmuştu."
+                },
+                {
+                  "quote": "Mahkeme, bunun öyle olmadığı kanaatindedir.",
+                  "speaker": "Yargıç Noël Wise",
+                  "sourceId": "hacker-news",
+                  "translated": true
+                },
+                {
+                  "text": "Yargıç, HBM’ye geçişin tek başına yeterli olmayabileceğini, ancak bununla bağlantılı davranışların dengeyi alıcılardan yana bozduğunu yazdı."
+                },
+                {
+                  "text": "Yargıç, şikâyetin üç şirketin arzı kısma, üretimi DDR5 gibi sıradan DRAM’den HBM’ye kaydırma ve DDR4’ü birlikte sonlandırma konusunda paralel hareket ettiğini makul biçimde ileri sürdüğüne karar verdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bir yıllık fiyat artışı",
+              "value": "%171,8",
+              "source": "Şikâyet, LitNews"
+            },
+            {
+              "label": "18 aylık artış",
+              "value": "%697",
+              "source": "Şikâyet, LitNews"
+            },
+            {
+              "label": "DRAM gelir payı",
+              "value": "%91+",
+              "source": "Şikâyet, LitNews"
+            },
+            {
+              "label": "Davacı",
+              "value": "17",
+              "source": "LitNews"
+            },
+            {
+              "label": "Karar tarihi",
+              "value": "14 Kasım",
+              "source": "LitNews"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T01:18:36.000Z",
+          "sourceId": "hacker-news"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "hacker-news",
+          "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "4bcc75fb4e0edf86",
+      "section": "world",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Iran claims drone strike in Bahrain",
+          "title": "Iran’s Revolutionary Guards say six drones hit a US air-defence radar at a base in Bahrain, calling it the second stage of their retaliation",
+          "summary": {
+            "what": "Iran’s Revolutionary Guards say they targeted a US air-defence radar at the Riffa helicopter base in Bahrain with six drones, Hürriyet and Cumhuriyet report.",
+            "why": "It is Iran’s second strike on Bahrain in days, after a US attack on southern Iran, and the war with the US is in its ninth month, the Wall Street Journal says.",
+            "next": "Neither the US nor Bahrain had confirmed any damage when the reports came out; Iran’s speaker says a deal is possible if the US accepts seven conditions."
+          },
+          "body": [
+            {
+              "subhead": "The claim",
+              "blocks": [
+                {
+                  "text": "Iran’s Islamic Revolutionary Guard Corps said its aerospace force had targeted the radar of a US air-defence system at the Riffa helicopter base in Bahrain with six drones, Hürriyet and Cumhuriyet reported on Sunday. The Guards called the strike the second stage of their retaliation for a US military attack, and claimed the drones hit their targets precisely and the blasts were heard across Bahrain."
+                },
+                {
+                  "text": "None of this has been independently confirmed. Bahrain’s interior ministry had earlier told people to go to the nearest safe place under a hazard warning, without saying what the threat was, Cumhuriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "A second strike in days",
+              "blocks": [
+                {
+                  "text": "A day earlier the Guards said they had destroyed a US early-warning radar in Bahrain in response to an attack on the Iranian town of Sirik, Cumhuriyet said. US Central Command said then that it had shot down two Iranian drones aimed at Bahrain and that there was no damage, according to Hürriyet. That was Iran’s first strike on the island in two months."
+                },
+                {
+                  "text": "Citing the Wall Street Journal, Hürriyet said the war, now in its ninth month, has seen Iran strike Bahrain repeatedly. President Donald Trump has focused on squeezing Tehran with a naval blockade and has signalled he does not want a return to large-scale fighting, but the two sides are still contesting the Strait of Hormuz. US forces have recently struck Iranian positions including Qeshm Island."
+                }
+              ]
+            },
+            {
+              "subhead": "Talks or war",
+              "blocks": [
+                {
+                  "text": "Iran’s parliament speaker, Mohammad Bagher Ghalibaf, said Tehran was ready both to negotiate and to fight, and that a deal was possible if Washington accepted Iran’s seven conditions, Anadolu Agency reported."
+                },
+                {
+                  "quote": "But if the US makes a mistake this time, the strength and will of Iran’s armed forces will decide the geography of the war.",
+                  "speaker": "Mohammad Bagher Ghalibaf, Iranian parliament speaker",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "US officials told the Wall Street Journal that intelligence suggests Iran still has 1,500 to 2,500 missiles, though they rated that estimate low-confidence, Habertürk reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Drones used, per the Guards",
+              "value": "6",
+              "source": "IRGC via Hürriyet"
+            },
+            {
+              "label": "Iran’s conditions for a deal",
+              "value": "7",
+              "source": "Ghalibaf via AA"
+            },
+            {
+              "label": "Missiles Iran may still have",
+              "value": "1,500–2,500",
+              "source": "US officials via WSJ"
+            },
+            {
+              "label": "Month of the war",
+              "value": "9th",
+              "source": "WSJ via Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Riffa",
+            "lat": 26.13,
+            "lon": 50.55,
+            "region": "Bahrain"
+          }
+        },
+        "tr": {
+          "shortTitle": "İran: Bahreyn’de ABD radarını vurduk",
+          "title": "Devrim Muhafızları, Bahreyn’deki bir üste ABD hava savunma radarını 6 İHA ile vurduğunu ve misillemenin ikinci aşaması olduğunu söyledi",
+          "summary": {
+            "what": "Hürriyet ve Cumhuriyet’e göre İran Devrim Muhafızları, Bahreyn’deki Rifaa Helikopter Üssü’nde bir ABD hava savunma radarını 6 İHA ile hedef aldığını duyurdu.",
+            "why": "Bu, güney İran’a yönelik ABD saldırısının ardından birkaç gün içinde Bahreyn’e ikinci saldırı; WSJ’ye göre ABD ile savaş dokuzuncu ayında.",
+            "next": "ABD ve Bahreyn haberler çıktığında hasar doğrulamamıştı; İran Meclis Başkanı, ABD 7 şartı kabul ederse anlaşma yolunun açık olduğunu söyledi."
+          },
+          "body": [
+            {
+              "subhead": "İddia",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Cumhuriyet’in pazar günkü haberine göre İran Devrim Muhafızları Ordusu, Hava-Uzay Kuvvetleri’ne bağlı 6 İHA ile Bahreyn’deki Rifaa Helikopter Üssü’nde bulunan bir ABD hava savunma sistemine ait radarı hedef aldığını açıkladı. Açıklamada saldırı, ABD ordusunun saldırısına karşı misillemenin ikinci aşaması olarak tanımlandı; İHA’ların hedefi tam isabetle vurduğu ve patlamaların Bahreyn’in farklı bölgelerinde duyulduğu öne sürüldü."
+                },
+                {
+                  "text": "Bu iddialar bağımsız olarak doğrulanmadı. Cumhuriyet’e göre Bahreyn İçişleri Bakanlığı daha önce bir tehlike uyarısı kapsamında halka en yakın güvenli yere gitme çağrısı yapmış, tehlikenin niteliğini açıklamamıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Günler içinde ikinci saldırı",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre Devrim Muhafızları bir gün önce de Sirik kentine yönelik saldırıya karşılık Bahreyn’deki bir ABD erken uyarı radarını imha ettiğini açıklamıştı. Hürriyet’in aktardığına göre ABD Merkez Kuvvetler Komutanlığı (CENTCOM) o saldırıda iki İran İHA’sını düşürdüğünü ve hasar olmadığını bildirmişti. Bu, İran’ın iki ay içinde adaya yönelik ilk saldırısıydı."
+                },
+                {
+                  "text": "Hürriyet, Wall Street Journal’a dayanarak dokuzuncu ayına giren savaşta İran’ın Bahreyn’e defalarca saldırdığını yazdı. ABD Başkanı Donald Trump deniz ablukasıyla Tahran’ı ekonomik olarak sıkıştırmaya odaklanıyor ve büyük çaplı çatışmaya dönmek istemediği sinyalini veriyor; ancak iki taraf Hürmüz Boğazı’nın kontrolü için çatışmayı sürdürüyor."
+                },
+                {
+                  "text": "ABD güçleri son haftalarda boğazın en dar bölgesindeki Keşm Adası da dahil İran mevzilerine saldırılar düzenledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Müzakere mi savaş mı",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı’na göre İran Meclis Başkanı Muhammed Bakır Kalibaf, Tahran’ın hem müzakereye hem savaşa hazır olduğunu, Washington İran’ın 7 şartını kabul ederse anlaşma yolunun açık olacağını söyledi."
+                },
+                {
+                  "quote": "Ama eğer ABD bu kez de hata yaparsa, savaşın coğrafyasını İran Silahlı Kuvvetleri'nin gücü ve iradesi belirleyecektir.",
+                  "speaker": "Muhammed Bakır Kalibaf, İran Meclis Başkanı",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "Habertürk’e göre ABD’li yetkililer WSJ’ye, istihbarata göre İran’ın hâlâ 1.500 ile 2.500 arasında füzesi olduğunu, ancak bu tahminin “düşük güvenilirlikte” olduğunu söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kullanılan İHA (DMO’ya göre)",
+              "value": "6",
+              "source": "DMO, Hürriyet"
+            },
+            {
+              "label": "İran’ın anlaşma şartı",
+              "value": "7",
+              "source": "Kalibaf, AA"
+            },
+            {
+              "label": "İran’ın elindeki tahmini füze",
+              "value": "1.500–2.500",
+              "source": "ABD’li yetkililer, WSJ"
+            },
+            {
+              "label": "Savaşın ayı",
+              "value": "9’uncu",
+              "source": "WSJ, Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Rifaa",
+            "lat": 26.13,
+            "lon": 50.55,
+            "region": "Bahreyn"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T06:28:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T06:54:46.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T06:54:46.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T07:01:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:12:32.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/dunya/iran-stratejik-abd-hedeflerine-saldirdi-savasin-cografyasini-biz-belirleyecegiz-43378812",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/dunya/iran-meclis-baskani-kalibaf-ne-savas-ne-de-baris-durumunda-kalacagiz/4125532",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/dunya/iran-dan-bahreyn-deki-abd-ussune-iha-saldirisi-2556251",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/wsj-iran-2-bini-askin-fuzesi-var-3927457",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "2d961d9c606d44e3",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Israel kills Hamas Rafah commander",
+          "title": "An Israeli strike on a tent camp in al-Mawasi kills Samir Abu Younis, the new commander of Hamas’s Rafah Brigade, despite the ceasefire",
+          "summary": {
+            "what": "Hamas has confirmed that Samir Abu Younis, appointed commander of its Rafah Brigade in September, was killed in an Israeli strike on a tent camp in al-Mawasi on Saturday.",
+            "why": "Israel says he helped plan the 7 October 2023 attack; it keeps striking Hamas figures despite last October’s ceasefire, which it says allows this.",
+            "next": "Hamas said his funeral would be held in Khan Younis on Sunday afternoon."
+          },
+          "body": [
+            {
+              "subhead": "The strike",
+              "blocks": [
+                {
+                  "text": "An Israeli air strike on Saturday killed Samir Abu Younis, the newly appointed commander of Hamas’s Rafah Brigade, in the al-Mawasi area of Khan Younis in southern Gaza, the BBC and Al Jazeera reported. Hamas’s military wing, the al-Qassam Brigades, confirmed his death early on Sunday."
+                },
+                {
+                  "text": "Eyewitnesses told the BBC that four missiles hit a tent in the al-Waha camp, which shelters hundreds of displaced people, and set it on fire. A medical source at Nasser Hospital said one body and three injured people were brought in. Al Jazeera, citing medical staff, reported two wounded."
+                },
+                {
+                  "text": "Video verified by Al Jazeera and posted by Palestinian journalists near the hospital showed ambulances in the grounds and stretchers that appeared to be stained with blood. Hamas said his funeral would be held in Khan Younis on Sunday afternoon."
+                }
+              ]
+            },
+            {
+              "subhead": "Who he was",
+              "blocks": [
+                {
+                  "text": "Abu Younis, 53, had led the Rafah Brigade since 15 September, after the death of its previous commander, Nael Abu Obeid, the BBC said. He joined Hamas’s armed wing in 1991. The al-Qassam Brigades called him one of the most important commanders involved in planning and overseeing the 7 October attack."
+                },
+                {
+                  "text": "The Israeli military and the Shin Bet security agency said in a joint statement that they had targeted him and had taken steps to reduce harm to civilians before the strike."
+                },
+                {
+                  "quote": "acted with the aim of trying to restore the strength of the brigade and the Hamas terrorist organisation",
+                  "speaker": "Israeli military and Shin Bet statement",
+                  "sourceId": "bbc-world"
+                }
+              ]
+            },
+            {
+              "subhead": "A ceasefire with strikes",
+              "blocks": [
+                {
+                  "text": "A ceasefire was reached last October, but Israel has continued occasional strikes it says target remaining Hamas militants, arguing the agreement allows it. Al-Mawasi, a crowded coastal strip, was earlier designated a humanitarian zone by Israel, Al Jazeera noted."
+                },
+                {
+                  "text": "Gaza’s health ministry said Israeli attacks killed 16 people and injured 68 in its latest update on Saturday, according to Al Jazeera. More than 74,650 people have been killed in Gaza since the war began, the ministry says."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Age",
+              "value": "53",
+              "source": "BBC"
+            },
+            {
+              "label": "Commander since",
+              "value": "15 Sep",
+              "source": "BBC"
+            },
+            {
+              "label": "Missiles that hit the tent",
+              "value": "4",
+              "source": "Eyewitnesses via BBC"
+            },
+            {
+              "label": "Killed in Gaza since the war began",
+              "value": "74,650+",
+              "source": "Gaza health ministry via BBC"
+            }
+          ],
+          "place": {
+            "name": "al-Mawasi, Khan Younis",
+            "lat": 31.35,
+            "lon": 34.27,
+            "region": "Gaza Strip"
+          }
+        },
+        "tr": {
+          "shortTitle": "İsrail, Hamas’ın Refah komutanını öldürdü",
+          "title": "İsrail’in Mevasi’deki bir çadır kampına düzenlediği saldırıda Hamas’ın yeni Refah Tugayı komutanı Samir Ebu Yunus öldü",
+          "summary": {
+            "what": "Hamas, eylülde Refah Tugayı komutanlığına atanan Samir Ebu Yunus’un cumartesi günü Mevasi’de bir çadır kampına yapılan İsrail saldırısında öldüğünü doğruladı.",
+            "why": "İsrail onun 7 Ekim 2023 saldırısının planlayıcılarından olduğunu söylüyor; geçen ekimdeki ateşkese rağmen Hamas yöneticilerini hedef almayı sürdürüyor.",
+            "next": "Hamas, cenaze töreninin pazar öğleden sonra Han Yunus’ta yapılacağını açıkladı."
+          },
+          "body": [
+            {
+              "subhead": "Saldırı",
+              "blocks": [
+                {
+                  "text": "BBC ve Al Jazeera’nin haberine göre İsrail’in cumartesi günü Gazze’nin güneyindeki Han Yunus’un Mevasi bölgesine düzenlediği hava saldırısında Hamas’ın Refah Tugayı’na yeni atanan komutan Samir Ebu Yunus öldü. Hamas’ın askeri kanadı İzzeddin el-Kassam Tugayları ölümü pazar sabahı doğruladı."
+                },
+                {
+                  "text": "BBC’ye konuşan görgü tanıkları, yüzlerce yerinden edilmiş kişinin kaldığı el-Vaha kampında bir çadıra dört füze isabet ettiğini ve yangın çıktığını söyledi. Nasır Hastanesi’nden bir sağlık kaynağına göre hastaneye bir cenaze ve üç yaralı getirildi; Al Jazeera ise sağlık personeline dayanarak iki yaralı bildirdi."
+                },
+                {
+                  "text": "Al Jazeera’nin doğruladığı, Filistinli gazetecilerin hastane çevresinden paylaştığı görüntülerde bahçede ambulanslar ve kana bulanmış gibi görünen sedyeler yer aldı. Hamas, cenazenin pazar öğleden sonra Han Yunus’ta kaldırılacağını açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kimdi",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre 53 yaşındaki Ebu Yunus, önceki komutan Nail Ebu Ubeyd’in ölümünün ardından 15 Eylül’den beri Refah Tugayı’nı yönetiyordu. Hamas’ın silahlı kanadına 1991’de katılmıştı. Kassam Tugayları onu 7 Ekim saldırısının planlanması ve yürütülmesinde yer alan en önemli komutanlardan biri olarak tanımladı."
+                },
+                {
+                  "text": "İsrail ordusu ve iç güvenlik servisi Şin Bet ortak açıklamada onu hedef aldıklarını ve saldırıdan önce sivillere zararı azaltmak için önlem aldıklarını söyledi."
+                },
+                {
+                  "quote": "tugayın ve Hamas terör örgütünün gücünü yeniden toparlamaya çalışıyordu",
+                  "speaker": "İsrail ordusu ve Şin Bet açıklaması",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Saldırıların sürdüğü ateşkes",
+              "blocks": [
+                {
+                  "text": "Geçen ekim ayında ateşkes sağlanmıştı, ancak İsrail kalan Hamas militanlarını hedef aldığını söylediği saldırıları sürdürüyor ve anlaşmanın buna izin verdiğini savunuyor. Al Jazeera, kalabalık kıyı şeridi Mevasi’nin daha önce İsrail tarafından insani bölge ilan edildiğini hatırlattı."
+                },
+                {
+                  "text": "Al Jazeera’ye göre Gazze Sağlık Bakanlığı cumartesi günkü son açıklamasında İsrail saldırılarında 16 kişinin öldüğünü, 68 kişinin yaralandığını bildirdi. Bakanlığa göre savaş başladığından bu yana Gazze’de 74 bin 650’den fazla kişi öldü."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yaş",
+              "value": "53",
+              "source": "BBC"
+            },
+            {
+              "label": "Komutanlığa başlangıç",
+              "value": "15 Eylül",
+              "source": "BBC"
+            },
+            {
+              "label": "Çadıra isabet eden füze",
+              "value": "4",
+              "source": "Görgü tanıkları, BBC"
+            },
+            {
+              "label": "Savaş başından bu yana ölü",
+              "value": "74.650+",
+              "source": "Gazze Sağlık Bakanlığı, BBC"
+            }
+          ],
+          "place": {
+            "name": "Mevasi, Han Yunus",
+            "lat": 31.35,
+            "lon": 34.27,
+            "region": "Gazze Şeridi"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T01:00:42.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:17:41.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T08:17:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "82850fde6676df4c",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Death sentences for church attack",
+          "title": "A Jordanian court sentences three men to death by hanging for last month’s gun attack on a church funeral in Karak that killed nine",
+          "summary": {
+            "what": "Jordan’s State Security Court has sentenced three men to death by hanging for the 23 October attack on a Greek Orthodox church funeral in Hammoud village that killed nine people.",
+            "why": "The attack shocked a kingdom where Christians are a small minority, and prompted Jordanian strikes on what it called terrorist groups in Syria.",
+            "next": "The military statement did not say whether the men will appeal."
+          },
+          "body": [
+            {
+              "subhead": "The verdict",
+              "blocks": [
+                {
+                  "text": "A Jordanian court on Sunday sentenced three men to death by hanging for last month’s gun attack on a church in the south of the kingdom, Al Jazeera and France 24 reported. The Jordanian military said in a statement that the State Security Court had sentenced “the three criminals who carried out the terrorist attack”."
+                },
+                {
+                  "text": "The court found them guilty of terrorist attacks resulting in death, weapons offences, conspiracy to commit terrorist acts and promoting the ideas of a terrorist organisation. One of them was also convicted of providing funds to finance terrorist acts, the statement said."
+                },
+                {
+                  "text": "The verdict came 23 days after the attack. The military statement did not say when the sentences would be carried out or whether the men would appeal."
+                }
+              ]
+            },
+            {
+              "subhead": "The attack",
+              "blocks": [
+                {
+                  "text": "Gunmen killed nine people and wounded 25 when they stormed a funeral at St George’s Greek Orthodox church in Hammoud village, in Karak governorate, on 23 October. The three men, two Jordanian brothers and a relative by marriage, fled and were arrested three days later after clashing with security forces, Al Jazeera reported."
+                },
+                {
+                  "text": "King Abdullah II said those behind the attack would face the “harshest penalties” and ordered a review of how the security services respond to attacks."
+                },
+                {
+                  "text": "The gunmen attacked a funeral procession, France 24 said, so most of those inside were mourners. Security forces arrested the three in late October after clashing with them, according to Al Jazeera."
+                }
+              ]
+            },
+            {
+              "subhead": "Why it shook Jordan",
+              "blocks": [
+                {
+                  "text": "Karak is home to many members of Jordan’s Christian minority, about 300,000 of the country’s 11.5 million people, Al Jazeera said. France 24 put Christians at around three percent of the population and said the attack shocked the Muslim-majority kingdom."
+                },
+                {
+                  "text": "After the attack, Jordan carried out strikes on what it called terrorist organisations in neighbouring Syria, France 24 reported; Syria condemned them as an unacceptable breach of its airspace."
+                },
+                {
+                  "quote": "committing terrorist attacks",
+                  "speaker": "Jordanian military statement on the charges",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Killed in the attack",
+              "value": "9",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Wounded",
+              "value": "25",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Date of the attack",
+              "value": "23 Oct",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Christians in Jordan",
+              "value": "about 300,000",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Hammoud, Karak",
+            "lat": 31.18,
+            "lon": 35.7,
+            "region": "Jordan"
+          }
+        },
+        "tr": {
+          "shortTitle": "Ürdün’de kilise saldırısına idam",
+          "title": "Ürdün’de mahkeme, geçen ay Kerek’te bir kilisedeki cenaze törenine düzenlenen ve 9 kişinin öldüğü saldırının üç failine idam cezası verdi",
+          "summary": {
+            "what": "Ürdün Devlet Güvenlik Mahkemesi, 23 Ekim’de Hammud köyündeki bir Rum Ortodoks kilisesinde cenaze törenine düzenlenen ve 9 kişinin öldüğü saldırının üç failini asılarak idama mahkûm etti.",
+            "why": "Saldırı, Hristiyanların küçük bir azınlık olduğu ülkeyi sarsmış ve Ürdün’ün Suriye’deki “terör örgütlerine” hava saldırıları düzenlemesine yol açmıştı.",
+            "next": "Ordu açıklamasında sanıkların karara itiraz edip etmeyeceği belirtilmedi."
+          },
+          "body": [
+            {
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve France 24’ün haberine göre Ürdün’de bir mahkeme pazar günü, ülkenin güneyindeki bir kiliseye geçen ay düzenlenen silahlı saldırının üç failini asılarak idama mahkûm etti. Ürdün ordusu açıklamasında Devlet Güvenlik Mahkemesi’nin “terör saldırısını gerçekleştiren üç suçluya” idam cezası verdiğini duyurdu."
+                },
+                {
+                  "text": "Mahkeme sanıkları ölümle sonuçlanan terör saldırısı, silah suçları, terör eylemi için anlaşma ve terör örgütü propagandasından suçlu buldu. Açıklamaya göre sanıklardan biri ayrıca terörü finanse etmek amacıyla para sağlamaktan da mahkûm oldu."
+                },
+                {
+                  "text": "Karar saldırıdan 23 gün sonra geldi. Ordu açıklamasında cezaların ne zaman infaz edileceği ya da sanıkların itiraz edip etmeyeceği belirtilmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Saldırı",
+              "blocks": [
+                {
+                  "text": "Silahlı kişiler 23 Ekim’de Kerek vilayetindeki Hammud köyünde bulunan Aziz Yorgi Rum Ortodoks Kilisesi’nde bir cenaze törenini basarak 9 kişiyi öldürmüş, 25 kişiyi yaralamıştı. Al Jazeera’ye göre iki kardeş ve bir akrabalarından oluşan üç Ürdünlü kaçmış, üç gün sonra güvenlik güçleriyle çatışmanın ardından yakalanmıştı."
+                },
+                {
+                  "text": "Kral II. Abdullah, saldırının sorumlularının “en ağır cezalarla” karşılaşacağını söylemiş ve güvenlik birimlerinin saldırılara müdahale prosedürlerinin gözden geçirilmesini istemişti."
+                },
+                {
+                  "text": "France 24’e göre saldırganlar bir cenaze alayını hedef aldı; kilisedekilerin çoğu yas tutan kişilerdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Ürdün’ü neden sarstı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ye göre Kerek, 11,5 milyon nüfuslu ülkedeki yaklaşık 300 bin kişilik Hristiyan azınlığın önemli bir kısmına ev sahipliği yapıyor. France 24, Hristiyanların nüfusun yaklaşık yüzde 3’ü olduğunu ve saldırının Müslüman çoğunluklu ülkeyi sarstığını yazdı."
+                },
+                {
+                  "text": "France 24’e göre Ürdün saldırının ardından komşu Suriye’de “terör örgütleri” olarak nitelediği hedeflere saldırılar düzenledi; Suriye bunları hava sahasının kabul edilemez bir ihlali olarak kınadı."
+                },
+                {
+                  "quote": "terör saldırıları gerçekleştirmek",
+                  "speaker": "Ürdün ordusunun suçlamalara ilişkin açıklaması",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Kral Abdullah’ın talimatıyla güvenlik prosedürleri yeniden gözden geçiriliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Saldırıda ölen",
+              "value": "9",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Yaralı",
+              "value": "25",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Saldırı tarihi",
+              "value": "23 Ekim",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Ürdün’deki Hristiyan",
+              "value": "yaklaşık 300 bin",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Hammud, Kerek",
+            "lat": 31.18,
+            "lon": 35.7,
+            "region": "Ürdün"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T08:15:04.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T08:53:39.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T08:53:39.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/eb10e528-e0d1-11f1-ba89-695cb59fade5/w:1024/p:16x9/AP26299487770405.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    },
+    {
+      "id": "3cb625736ad13f7d",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Cape Verde votes for president",
+          "title": "Cape Verde votes for a president today, and Joana Rosa could become the country’s first woman head of state",
+          "summary": {
+            "what": "Cape Verdeans vote today in a presidential election where former justice minister Joana Rosa challenges incumbent José Maria Neves, France 24 reports.",
+            "why": "Rosa is the first woman to run since independence in 1975; a win would put the presidency and government in rival camps.",
+            "next": "If no candidate wins more than half the votes, a runoff is scheduled for 29 November."
+          },
+          "body": [
+            {
+              "subhead": "The race",
+              "blocks": [
+                {
+                  "text": "Cape Verde, an Atlantic island nation of about half a million people off West Africa, votes for a president on Sunday, France 24 reported. Former justice minister Joana Rosa, backed by the opposition Movement for Democracy, is challenging José Maria Neves, who is seeking a second term. Six candidates are standing, and a runoff is scheduled for 29 November if nobody wins more than half the votes."
+                },
+                {
+                  "text": "Rosa is the first woman to run for president since independence from Portugal in 1975. Women have held senior cabinet posts, but the country has never had a female president or prime minister."
+                }
+              ]
+            },
+            {
+              "subhead": "What is at stake",
+              "blocks": [
+                {
+                  "text": "In Cape Verde’s parliamentary system the prime minister runs government policy and the president’s role is largely symbolic, although the directly elected head of state can veto legislation. Neves’s party, the African Party for the Independence of Cape Verde (PAICV), won a parliamentary majority in May, ending a decade of Movement for Democracy government."
+                },
+                {
+                  "text": "Rosa has built her campaign around keeping a balance of power. A win for her would again put the presidency and the government in rival camps. Neves won in 2021 with about 52% of the vote and has promised cross-party work on housing, healthcare, education, jobs and wages."
+                }
+              ]
+            },
+            {
+              "subhead": "Voters at home and abroad",
+              "blocks": [
+                {
+                  "text": "Nearly 77,000 Cape Verdeans abroad are registered to vote, almost a fifth of the electorate. Political scientist Roselma Évora of the University of Cabo Verde told France 24 that many voters feel distant from their leaders, and that incumbency gives Neves more visibility, including abroad."
+                },
+                {
+                  "quote": "We have a lot of women in politics, but we don’t have the policies for women that we should have.",
+                  "speaker": "Rosário Luz, Cape Verde-based writer",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "The country has a record of peaceful transfers of power in a region where that is rare."
+                },
+                {
+                  "text": "Évora said limited economic prospects were pushing young people to look for work abroad, and that Rosa’s run challenges expectations of women in a society that remains “very patriarchal”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Candidates",
+              "value": "6",
+              "source": "France 24"
+            },
+            {
+              "label": "Voters registered abroad",
+              "value": "about 77,000",
+              "source": "France 24"
+            },
+            {
+              "label": "Neves’s 2021 vote share",
+              "value": "about 52%",
+              "source": "France 24"
+            },
+            {
+              "label": "Runoff date if needed",
+              "value": "29 Nov",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Praia",
+            "lat": 14.93,
+            "lon": -23.51,
+            "region": "Cape Verde"
+          }
+        },
+        "tr": {
+          "shortTitle": "Yeşil Burun Adaları sandıkta",
+          "title": "Yeşil Burun Adaları bugün cumhurbaşkanını seçiyor; Joana Rosa ülkenin ilk kadın devlet başkanı olabilir",
+          "summary": {
+            "what": "France 24’e göre Yeşil Burun Adaları’nda bugün yapılan cumhurbaşkanlığı seçiminde eski Adalet Bakanı Joana Rosa, görevdeki José Maria Neves’e rakip.",
+            "why": "Rosa, 1975’teki bağımsızlıktan bu yana aday olan ilk kadın; kazanırsa cumhurbaşkanlığı ile hükümet yeniden rakip kamplarda olacak.",
+            "next": "Hiçbir aday oyların yarısından fazlasını alamazsa 29 Kasım’da ikinci tur yapılacak."
+          },
+          "body": [
+            {
+              "subhead": "Yarış",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre Batı Afrika açıklarında, yaklaşık yarım milyon nüfuslu Atlantik ada ülkesi Yeşil Burun Adaları (Cabo Verde) pazar günü cumhurbaşkanını seçiyor. Muhalefetteki Demokrasi Hareketi’nin desteklediği eski Adalet Bakanı Joana Rosa, ikinci dönemini isteyen José Maria Neves’in karşısında. Altı adayın yarıştığı seçimde kimse oyların yarısından fazlasını alamazsa 29 Kasım’da ikinci tur yapılacak."
+                },
+                {
+                  "text": "Rosa, ülkenin 1975’te Portekiz’den bağımsızlığını kazanmasından bu yana cumhurbaşkanlığına aday olan ilk kadın. Kadınlar üst düzey bakanlıklarda görev yaptı, ancak ülkede hiç kadın cumhurbaşkanı ya da başbakan olmadı."
+                },
+                {
+                  "text": "Seçmenler pazar günü sandığa gidiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Ne değişebilir",
+              "blocks": [
+                {
+                  "text": "Parlamenter sistemde hükümet politikasını başbakan yönetiyor; cumhurbaşkanının rolü büyük ölçüde sembolik, ancak doğrudan seçilen devlet başkanı yasaları veto edebiliyor. Neves’in partisi PAICV mayısta parlamentoda çoğunluğu kazanarak Demokrasi Hareketi’nin on yıllık iktidarını bitirmişti."
+                },
+                {
+                  "text": "Rosa kampanyasını güçler dengesini korumak üzerine kurdu; kazanması hâlinde cumhurbaşkanlığı ile hükümet yeniden rakip kamplarda olacak. Neves 2021’de oyların yaklaşık yüzde 52’siyle seçilmişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Yurt içi ve yurt dışı seçmen",
+              "blocks": [
+                {
+                  "text": "Yurt dışında yaklaşık 77 bin seçmen kayıtlı; bu, toplam seçmenin neredeyse beşte biri. Cabo Verde Üniversitesi’nden siyaset bilimci Roselma Évora, France 24’e birçok seçmenin liderlerine uzak hissettiğini ve görevde olmanın Neves’e daha fazla görünürlük sağladığını söyledi."
+                },
+                {
+                  "quote": "Siyasette çok kadın var, ama kadınlar için olması gereken politikalar yok.",
+                  "speaker": "Rosário Luz, Yeşil Burun Adaları’nda yaşayan yazar",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "Ülke, bu tür geçişlerin nadir olduğu bir bölgede barışçıl iktidar değişimleriyle biliniyor."
+                },
+                {
+                  "text": "Évora’ya göre sınırlı ekonomik fırsatlar gençleri yurt dışına yöneltiyor; Rosa’nın adaylığı ise hâlâ “çok ataerkil” olan bir toplumda kadınlara biçilen rolü sorguluyor."
+                },
+                {
+                  "text": "Luz’a göre ise seçmenler için parti bağlılığı Rosa’nın kadın olmasından daha belirleyici. Ülkede hane geçiminin önemli bir kısmını kadınlar üstleniyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Aday sayısı",
+              "value": "6",
+              "source": "France 24"
+            },
+            {
+              "label": "Yurt dışındaki kayıtlı seçmen",
+              "value": "yaklaşık 77 bin",
+              "source": "France 24"
+            },
+            {
+              "label": "Neves’in 2021 oy oranı",
+              "value": "yaklaşık %52",
+              "source": "France 24"
+            },
+            {
+              "label": "Gerekirse ikinci tur",
+              "value": "29 Kasım",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Praia",
+            "lat": 14.93,
+            "lon": -23.51,
+            "region": "Yeşil Burun Adaları"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T07:56:14.000Z",
+          "sourceId": "france-24"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/59c62c6c-e0d2-11f1-93d1-695cb59fade5/w:1024/p:16x9/2026-11-13T064451Z-244678143-RC2WLOAZ7WLR-RTRMADP-3-CAPEVERDE-ELECTION-PREVIEW.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-15T12:30:00+03:00",
+      "updatedAt": "2026-11-15T12:30:00+03:00"
+    }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "1e3f82788d81117a",
+        "kind": "music",
+        "label": "confirmed",
+        "versions": {
+          "en": {
+            "title": "Zeynep Casalini remarries the man she divorced ten years ago",
+            "gist": "The singer, 56, wed Tahsin Berk again in Bodrum; they divorced in 2016 but have lived in the same house since 2017.",
+            "aside": "Ten years, one divorce and one shared address later, the paperwork has finally caught up.",
+            "story": [
+              "Zeynep Casalini has married Tahsin Berk for the second time, ten years after their divorce, Sözcü and Hürriyet Kelebek report. The pair first married in Bodrum in 2010, had a daughter, Dafne, in 2011, and divorced in April 2016.",
+              "They never really parted: they have lived under the same roof since 2017, both papers say. The new ceremony was a simple one in Bodrum, and the rings were put on by Dafne, now 15. Casalini wore a tulle veil and a black mini dress covered in stars.",
+              "The 56-year-old singer shared photos with the caption “Anlatılmaz yaşanır” (some things you live rather than explain) and another reading “the child who married off her mother and father”. Hande Yener and Suzan Kardeş were among the friends who sent congratulations."
+            ]
+          },
+          "tr": {
+            "title": "Zeynep Casalini, 10 yıl önce boşandığı eşiyle yeniden evlendi",
+            "gist": "56 yaşındaki şarkıcı Tahsin Berk’le Bodrum’da ikinci kez nikâh masasına oturdu; çift 2016’da boşanmış ama 2017’den beri aynı evde yaşıyordu.",
+            "aside": "Boşanma kâğıdı on yıl dayandı, ev hiç değişmedi.",
+            "story": [
+              "Sözcü ve Hürriyet Kelebek’in haberine göre Zeynep Casalini, boşanmalarının üzerinden on yıl geçtikten sonra Tahsin Berk’le yeniden evlendi. Çift ilk kez 2010’da Bodrum’da evlenmiş, 2011’de kızları Dafne dünyaya gelmiş, Nisan 2016’da boşanmışlardı.",
+              "Aslında hiç ayrılmadılar: iki gazeteye göre çift 2017’den beri aynı evde yaşıyor. Bodrum’daki sade törende yüzükleri 15 yaşındaki kızları Dafne taktı. Casalini tül bir duvak ve üzerinde yıldızlar olan siyah mini bir elbise giydi.",
+              "56 yaşındaki şarkıcı törenden kareleri “Anlatılmaz yaşanır” ve “Anne ve babasını evlendiren evlat” notlarıyla paylaştı. Hande Yener ve Suzan Kardeş de çifti tebrik edenler arasındaydı."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "sozcu-magazin",
+            "url": "https://www.sozcu.com.tr/56-yasindaki-zeynep-casalini-10-yil-once-bosandigi-esiyle-yeniden-evlendi-p381429"
+          },
+          {
+            "sourceId": "hurriyet-kelebek",
+            "url": "https://www.hurriyet.com.tr/kelebek/stil/eski-esiyle-yeniden-evlendi-43378782"
+          }
+        ],
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af947c78c01a1364d06908e.jpg",
+          "sourceId": "hurriyet-kelebek",
+          "sourceName": "Hürriyet Kelebek",
+          "articleUrl": "https://www.hurriyet.com.tr/kelebek/stil/eski-esiyle-yeniden-evlendi-43378782"
+        }
+      },
+      {
+        "id": "b85660c1ce7696ee",
+        "kind": "people",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Belly dancer Asena says she quietly married and moved to a farm in Yalova",
+            "gist": "The star of the 1990s told NR1 Magazin she married Kani Kudu, her partner of about eight months, in a private civil ceremony, Sözcü reports.",
+            "aside": "From the stage lights to the sheep pen, with a wedding nobody saw coming.",
+            "story": [
+              "Asena, one of the best-known belly dancers of her era, has married Kani Kudu, her partner of about eight months, Sözcü reports. She announced it on the NR1 Magazin programme: “We had our civil wedding among ourselves.” There was no big party, only a simple ceremony away from the cameras.",
+              "She split from Hasan Dere last year. Since getting together with Kudu she has moved to his farm in Yalova, where she looks after sheep, lambs, goats and cows and spends her free time with her horses and dogs, according to Sözcü.",
+              "“My husband understands women. He is very tasteful and very honest,” she said on the programme."
+            ]
+          },
+          "tr": {
+            "title": "Oryantal Asena sessiz sedasız evlendi, Yalova’da çiftliğe yerleşti",
+            "gist": "Sözcü’ye göre bir döneme damga vuran oryantal, yaklaşık 8 aydır birlikte olduğu Kani Kudu ile resmi nikâh kıydığını NR1 Magazin’de açıkladı.",
+            "aside": "Sahnenin ışıklarından ahırın sabahına; düğünü kimse görmedi, kuzular gördü.",
+            "story": [
+              "Sözcü’nün haberine göre bir döneme danslarıyla damga vuran oryantal Asena, yaklaşık 8 aydır birlikte olduğu Kani Kudu ile evlendi. Haberi NR1 Magazin programında “Kendi aramızda resmi nikâhımızı kıydık” sözleriyle verdi. Gösterişli bir düğün yerine kameralardan uzak, sade bir tören tercih edildi.",
+              "Asena geçen yıl Hasan Dere ile yollarını ayırmıştı. Sözcü’ye göre Kudu ile birlikteliğinin ardından onun Yalova’daki çiftliğine yerleşti; koyun, kuzu, keçi ve ineklerle ilgileniyor, boş zamanlarını atları ve köpekleriyle geçiriyor.",
+              "“Benim kocam kadından anlıyor. Hem çok zevkli hem de çok dürüst biri” dedi."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "sozcu-magazin",
+            "url": "https://www.sozcu.com.tr/bir-donemin-unlu-oryantali-sessiz-sedasiz-evlendigini-acikladi-p381522"
+          }
+        ],
+        "image": {
+          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/615jpg-P7j0_NG3-U2S9uWmqYSopg.jpg",
+          "sourceId": "sozcu-magazin",
+          "sourceName": "Sözcü Magazin",
+          "articleUrl": "https://www.sozcu.com.tr/bir-donemin-unlu-oryantali-sessiz-sedasiz-evlendigini-acikladi-p381522"
+        }
+      },
+      {
+        "id": "e822e37dc65c4e9b",
+        "kind": "people",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Cenk Tosun and Dorukhan Toköz steal a wedding with their dancing",
+            "gist": "The footballers’ dance at a friend’s wedding went round social media, and Şükran Ovalı teased Toköz and her husband Caner Erkin online, Sözcü reports.",
+            "aside": "The bride and groom had the first dance; the internet only remembers the second.",
+            "story": [
+              "A wedding in Istanbul turned into a footballers’ night out, Sözcü reports. Dorukhan Toköz, Caner Erkin, Cenk Tosun, Necip Uysal, Atınç Nukan and Mustafa Pektemek were among the guests of Buse Naz and Neşet Aksu, who once ran the football section of an Istanbul amateur club.",
+              "The couple’s first dance was not what people talked about afterwards. Videos of Cenk Tosun and Dorukhan Toköz dancing wildly drew a lot of attention on social media, according to the paper.",
+              "Caner Erkin and Toköz also posed for joke photos. Erkin’s wife, the actress Şükran Ovalı, shared one with the line: “You really love each other, we get it, fine.”"
+            ]
+          },
+          "tr": {
+            "title": "Cenk Tosun ve Dorukhan Toköz’ün düğün dansı olay oldu",
+            "gist": "Sözcü’ye göre futbolcuların bir arkadaşlarının düğünündeki dansı sosyal medyada yayıldı; Şükran Ovalı da eşi Caner Erkin ile Toköz’e takıldı.",
+            "aside": "Gelinle damadın ilk dansını kimse hatırlamıyor, ikincisini herkes.",
+            "story": [
+              "Sözcü’nün haberine göre İstanbul’da bir düğün futbolcuların gecesine dönüştü. Bir dönem İstanbul Süper Amatör Lig’de bir kulübün futbol şube sorumluluğunu yapan Neşet Aksu ile Buse Naz’ın düğününe Dorukhan Toköz, Caner Erkin, Cenk Tosun, Necip Uysal, Atınç Nukan ve Mustafa Pektemek de katıldı.",
+              "Gecenin konuşulanı gelinle damadın dansı olmadı. Gazeteye göre Cenk Tosun ile Dorukhan Toköz’ün çılgın dansları sosyal medyada büyük ilgi gördü.",
+              "Caner Erkin ile Toköz’ün esprili pozları da dikkat çekti. Erkin’in eşi oyuncu Şükran Ovalı, ikilinin fotoğrafını “Çok seviyorsunuz birbirinizi, anladık tamam” notuyla paylaştı."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "sozcu-magazin",
+            "url": "https://www.sozcu.com.tr/futbol-dunyasini-bulusturan-dugun-cenk-tosun-ve-dorukhan-tokoz-un-dansi-olay-oldu-p381506"
+          }
+        ],
+        "image": {
+          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/futboldunyasijpg-eMg6P9mPfk_2HqSBeSLDPA.jpg",
+          "sourceId": "sozcu-magazin",
+          "sourceName": "Sözcü Magazin",
+          "articleUrl": "https://www.sozcu.com.tr/futbol-dunyasini-bulusturan-dugun-cenk-tosun-ve-dorukhan-tokoz-un-dansi-olay-oldu-p381506"
+        }
+      }
+    ],
+    "rumours": []
+  }
+}
