@@ -4,10 +4,10 @@
     "slot": "morning",
     "publishAt": "2026-11-16T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-15T19:58:52.143Z",
+  "generatedAt": "2026-11-15T20:33:44.159Z",
   "window": {
-    "since": "2026-11-15T05:58:52.143Z",
-    "until": "2026-11-15T19:58:52.143Z"
+    "since": "2026-11-15T06:33:44.159Z",
+    "until": "2026-11-15T20:33:44.159Z"
   },
   "sections": {
     "turkey": [
@@ -21,7 +21,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 18.98,
+        "score": 18.93,
         "firstSeenAt": "2026-11-15T10:23:47.000Z",
         "lastUpdatedAt": "2026-11-15T19:41:38.000Z",
         "image": {
@@ -246,7 +246,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.61,
+        "score": 16.56,
         "firstSeenAt": "2026-11-15T11:31:59.000Z",
         "lastUpdatedAt": "2026-11-15T15:20:12.000Z",
         "image": {
@@ -409,168 +409,6 @@
         ]
       },
       {
-        "storyId": "0b6aa7b1cca21905",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 15,
-        "firstSeenAt": "2026-11-15T08:57:13.000Z",
-        "lastUpdatedAt": "2026-11-15T19:56:00.000Z",
-        "image": {
-          "url": "https://images.ntv.com.tr/images/Erdo%C4%9Fan-478466(2).jpg",
-          "sourceId": "ntv",
-          "sourceName": "NTV",
-          "articleUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-kktcnin-kurulusunun-43-yil-donumunu-kutladi-1750966"
-        },
-        "sources": [
-          {
-            "id": "a-haber",
-            "name": "A Haber",
-            "camp": "pro-government",
-            "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "ntv",
-            "name": "NTV",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "sabah",
-            "name": "Sabah",
-            "camp": "pro-government",
-            "tier": "partisan",
-            "confirms": false
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T08:57:13.000Z",
-            "sourceId": "a-haber"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T08:59:15.000Z",
-            "sourceId": "ntv"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T08:59:15.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T09:54:02.000Z",
-            "sourceId": "haberturk"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T12:35:57.000Z",
-            "sourceId": "hurriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T19:56:00.000Z",
-            "sourceId": "cumhuriyet"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "a-haber",
-            "url": "https://www.ahaber.com.tr/gundem/2026/11/15/baskan-erdogan-kibrisi-ne-olursa-olsun-asla-yalniz-birakmayacagiz",
-            "title": "Başkan Erdoğan: Kıbrıs’ı ne olursa olsun asla yalnız bırakmayacağız",
-            "summary": "Başkan Recep Tayyip Erdoğan, Kuzey Kıbrıs Türk Cumhuriyeti'nin (KKTC) 43. kuruluş yıl dönümünü kutladı. Şehitleri rahmetle, gazileri şükranla anan Başkan Erdoğan, \"Kahraman şehitlerimizi rahmetle,... Devamı için tıklayınız",
-            "publishedAt": "2026-11-15T08:57:13.000Z",
-            "imageUrl": "https://iaahbr.tmgrup.com.tr/4a46eb/0/0/0/0/1638/2048?u=https://iahbr.tmgrup.com.tr/2026/11/15/baskan-erdogan-kibrisi-ne-olursa-olsun-asla-yalniz-birakmayacagiz-1794733336422.jpg"
-          },
-          {
-            "sourceId": "ntv",
-            "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-kktcnin-kurulusunun-43-yil-donumunu-kutladi-1750966",
-            "title": "Cumhurbaşkanı Erdoğan KKTC'nin kuruluşunun 43. yıl dönümünü kutladı",
-            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Kuzey Kıbrıs Türk Cumhuriyeti’nin (KKTC) 43’üncü kuruluş yıl dönümünü tebrik etti.",
-            "publishedAt": "2026-11-15T08:59:15.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/Erdo%C4%9Fan-478466(2).jpg"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/gundem/son-dakika-cumhurbaskani-erdogan-kibris-bizim-milli-davamizdir-3927490",
-            "title": "\"Kıbrıs bizim milli davamızdır\"",
-            "summary": "Cumhurbaşkanı Erdoğan, \"Kıbrıs bizim milli davamızdır. Kıbrıs'ı ne olursa olsun asla yalnız bırakmayacağız\" dedi",
-            "publishedAt": "2026-11-15T09:54:02.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794736425/3927490/jpg/1920x1080"
-          },
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-filistin-devletinin-kurulus-yil-donumunu-kutladi-43379230",
-            "title": "Cumhurbaşkanı Erdoğan Filistin Devleti’nin kuruluş yıl dönümünü kutladı",
-            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, sosyal medya hesabı üzerinden yayımladığı mesajla Filistin Devleti’nin 38’inci kuruluş yıl dönümünü kutladı.",
-            "publishedAt": "2026-11-15T12:35:57.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af9a7123516f14679cc83b4.jpg"
-          },
-          {
-            "sourceId": "ntv",
-            "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogandan-filistin-devletinin-ilaninin-38-yil-donumu-mesaji-1751003",
-            "title": "Cumhurbaşkanı Erdoğan'dan Filistin Devleti'nin ilanının 38. yıl dönümü mesajı",
-            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Filistin Devleti'nin ilanının 38. yıl dönümünü kutladı.",
-            "publishedAt": "2026-11-15T12:38:12.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/erdogan1-872867.jpg"
-          },
-          {
-            "sourceId": "sabah",
-            "url": "https://www.sabah.com.tr/gundem/2026/11/15/baskan-erdogan-filistin-davasini-guclu-sekilde-savunmaya-devam-edecegiz",
-            "title": "Başkan Erdoğan: Filistin davasını güçlü şekilde savunmaya devam edeceğiz",
-            "summary": "Başkan Recep Tayyip Erdoğan, Filistin Devleti'nin 38. Kuruluş Yıl Dönümü'ne ilişkin sosyal medya hesabından bir mesaj paylaştı. Başkan Erdoğan, \"Filistin halkının özgür ve müreffeh bir geleceğe kavuşması... Devamı için tıklayınız",
-            "publishedAt": "2026-11-15T12:39:32.000Z",
-            "imageUrl": "https://iasbh.tmgrup.com.tr/a0e0c2/1200/675/0/0/879/495?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/baskan-erdogan-filistin-davasini-guclu-sekilde-savunmaya-devam-edecegiz-1794746290807.gif"
-          },
-          {
-            "sourceId": "a-haber",
-            "url": "https://www.ahaber.com.tr/gundem/2026/11/15/baskan-erdogan-her-platformda-filistin-davasini-en-guclu-sekilde-savunacagiz",
-            "title": "Başkan Erdoğan: \"Her platformda Filistin davasını en güçlü şekilde savunacağız\"",
-            "summary": "Başkan Recep Tayyip Erdoğan, \"Türkiye olarak Filistin davasını her platformda en güçlü şekilde savunmaya, 1967 sınırları temelinde, başkenti Doğu Kudüs olan, bağımsız, egemen ve coğrafi bütünlüğü haiz... Devamı için tıklayınız",
-            "publishedAt": "2026-11-15T12:48:15.000Z",
-            "imageUrl": "https://iaahbr.tmgrup.com.tr/67b006/1200/1200/183/0/605/423?u=https://iahbr.tmgrup.com.tr/2026/11/15/baskan-erdogan-her-platformda-filistin-davasini-en-guclu-sekilde-savunacagiz-1794746888685.png"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/siyaset/imamoglu-kktc-nin-43-kurulus-yil-donumunu-kutladi-2556443",
-            "title": "İmamoğlu KKTC'nin 43. kuruluş yıl dönümünü kutladı",
-            "summary": "Tutuklu İBB Başkanı Ekrem İmamoğlu, Kuzey Kıbrıs Türk Cumhuriyeti'nin (KKTC) kuruluşunun 43. yıl dönümünü kutladı. İmamoğlu, KKTC'ye barış, huzur ve refah dolu yıllar diledi.",
-            "publishedAt": "2026-11-15T19:56:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/5f11a507-2e32-4d41-9c6b-c199a3fd7dd8.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "f960968cdaeb4dcb",
         "language": "tr",
         "label": "confirmed",
@@ -581,7 +419,7 @@
         ],
         "score": 12.96,
         "firstSeenAt": "2026-11-15T18:20:51.000Z",
-        "lastUpdatedAt": "2026-11-15T19:31:56.000Z",
+        "lastUpdatedAt": "2026-11-15T20:03:48.000Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/d60e7298-fff3-4d89-9725-fe127aefe19a.jpg",
           "sourceId": "cumhuriyet",
@@ -604,15 +442,15 @@
             "confirms": true
           },
           {
-            "id": "ntv",
-            "name": "NTV",
+            "id": "haberturk",
+            "name": "Habertürk",
             "camp": "mainstream",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "haberturk",
-            "name": "Habertürk",
+            "id": "ntv",
+            "name": "NTV",
             "camp": "mainstream",
             "tier": "established",
             "confirms": true
@@ -637,19 +475,19 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T19:08:49.000Z",
-            "sourceId": "ntv"
+            "at": "2026-11-15T19:31:56.000Z",
+            "sourceId": "haberturk"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-15T19:08:49.000Z",
+            "at": "2026-11-15T19:31:56.000Z",
             "from": "reported",
             "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T19:31:56.000Z",
-            "sourceId": "haberturk"
+            "at": "2026-11-15T20:03:48.000Z",
+            "sourceId": "ntv"
           }
         ],
         "articles": [
@@ -670,20 +508,20 @@
             "imageUrl": "https://media.cumhuriyet.com.tr/Archive/d60e7298-fff3-4d89-9725-fe127aefe19a.jpg"
           },
           {
-            "sourceId": "ntv",
-            "url": "https://www.ntv.com.tr/turkiye/galeri-bursada-5-ev-alevlere-teslim-oldu-10-kisi-dumandan-etkilendi-1751033",
-            "title": "Bursa’da 5 ev alevlere teslim oldu. 10 kişi dumandan etkilendi",
-            "summary": "Bursa’nın İnegöl ilçesinde bir evde çıkan ve 4 eve daha sıçrayan yangında 10 kişi dumandan etkilendi.",
-            "publishedAt": "2026-11-15T19:08:49.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/yang%C4%B1n.jpg"
-          },
-          {
             "sourceId": "haberturk",
             "url": "https://www.haberturk.com/gundem/bursa-daki-bir-mahallede-yangin-3927546",
             "title": "Bursa'da bir mahallede yangın",
             "summary": "Bursa’nın İnegöl ilçesine bağlı kırsal Turgutalp Köy Mahallesi’nde çıkan yangın, ekiplerin yoğun müdahalesi sonucu kontrol altına alındı.",
             "publishedAt": "2026-11-15T19:31:56.000Z",
             "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794768727/3927546/jpg/1920x1080"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/galeri-bursada-5-ev-alevlere-teslim-oldu-10-kisi-dumandan-etkilendi-1751033",
+            "title": "Bursa’da 5 ev alevlere teslim oldu. 10 kişi dumandan etkilendi",
+            "summary": "Bursa’nın İnegöl ilçesinde bir evde çıkan ve 4 eve daha sıçrayan yangında 10 kişi dumandan etkilendi. Evler, güvenlik gerekçesiyle belediye ekiplerince yıkıldı.",
+            "publishedAt": "2026-11-15T20:03:48.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/yang%C4%B1n.jpg"
           }
         ]
       },
@@ -696,7 +534,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.55,
+        "score": 12.5,
         "firstSeenAt": "2026-11-15T08:33:30.000Z",
         "lastUpdatedAt": "2026-11-15T14:31:58.000Z",
         "image": {
@@ -805,6 +643,226 @@
         ]
       },
       {
+        "storyId": "139bcb74e0defc9e",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.96,
+        "firstSeenAt": "2026-11-15T08:51:08.000Z",
+        "lastUpdatedAt": "2026-11-15T20:06:16.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/5f11a507-2e32-4d41-9c6b-c199a3fd7dd8.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/imamoglu-kktc-nin-43-kurulus-yil-donumunu-kutladi-2556443"
+        },
+        "sources": [
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T08:51:08.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T19:56:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-15T19:56:00.000Z",
+            "from": "single-source",
+            "to": "reported"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T19:57:42.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-15T19:57:42.000Z",
+            "from": "reported",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/rumlarin-kktc-ve-turk-bayraklarini-yakmasina-basbakan-ustel-tepki-gosterdi-p381520",
+            "title": "Rumların KKTC ve Türk bayraklarını yakmasına Başbakan Üstel tepki gösterdi",
+            "summary": "Güney Kıbrıs Rum Yönetimi'nde KKTC'nin 43. kuruluş yıl dönümünü protesto eden gruplar, Türkiye ve KKTC bayraklarını yakt...",
+            "publishedAt": "2026-11-15T08:51:08.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/rumlarinkktcveturkbayraklariniyakmasinabasbakanusteltepkigosterdikapak707245dca783bb0ajpg-E0pqn8TOSkCs3TZH8qH_Gg.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/siyaset/imamoglu-kktc-nin-43-kurulus-yil-donumunu-kutladi-2556443",
+            "title": "İmamoğlu KKTC'nin 43. kuruluş yıl dönümünü kutladı",
+            "summary": "Tutuklu İBB Başkanı Ekrem İmamoğlu, Kuzey Kıbrıs Türk Cumhuriyeti'nin (KKTC) kuruluşunun 43. yıl dönümünü kutladı. İmamoğlu, KKTC'ye barış, huzur ve refah dolu yıllar diledi.",
+            "publishedAt": "2026-11-15T19:56:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/5f11a507-2e32-4d41-9c6b-c199a3fd7dd8.jpg"
+          },
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/saglik-bakani-memisoglu-kktcnin-kurulusunun-43-yil-donumunu-kutladi/4126016",
+            "title": "Sağlık Bakanı Memişoğlu, KKTC'nin kuruluşunun 43. yıl dönümünü kutladı",
+            "summary": "Sağlık Bakanı Kemal Memişoğlu, Kuzey Kıbrıs Türk Cumhuriyeti'nin (KKTC) 43. kuruluş yıl dönümünü kutladı.",
+            "publishedAt": "2026-11-15T19:57:42.000Z"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/ekrem-imamoglu-kktc-nin-43-kurulus-yil-donumunu-kutladi-p381663",
+            "title": "Ekrem İmamoğlu KKTC'nin 43. kuruluş yıl dönümünü kutladı",
+            "summary": "Tutuklu İBB Başkanı Ekrem İmamoğlu, Kuzey Kıbrıs Türk Cumhuriyeti’nin kuruluşunun 43’üncü yıl dönümü dolayısıyla yayımla...",
+            "publishedAt": "2026-11-15T20:06:16.000Z",
+            "copyOf": "634d6d70af5a3505",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/ankajpg-twKUsy-AY0qq7EYDqjMK0g.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "d66188f144803c39",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 10.93,
+        "firstSeenAt": "2026-11-15T16:17:32.000Z",
+        "lastUpdatedAt": "2026-11-15T19:42:41.000Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/52e05412-59b0-4985-8d13-a4b94906790d.jpeg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/spor/canli-anlatim-fransa-turkiye-uefa-uluslar-ligi-6-hafta-mucadelesi-2556397"
+        },
+        "sources": [
+          {
+            "id": "sabah",
+            "name": "Sabah",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T16:17:32.000Z",
+            "sourceId": "sabah"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T18:36:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-15T18:36:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T19:42:41.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/a-haber-canli-izle-uluslar-liginde-ispanya-ingiltere-maci-ne-zaman-saat-kacta-sifresiz-izle",
+            "title": "A Haber Canlı İzle | Uluslar Ligi’nde İspanya - İngiltere maçı! İlk yarı oynanıyor",
+            "summary": "İspanya, UEFA Uluslar Ligi A Ligi 3. Grup’un 6. haftasında İngiltere ile karşı karşıya geliyor. Zorlu müsabaka canlı yayınla A Haber’de! Devamı için tıklayınız",
+            "publishedAt": "2026-11-15T16:17:32.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/459cdd/1200/675/0/0/2048/1151?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/a-haber-canli-izle-uluslar-liginde-ispanya-ingiltere-maci-ilk-yari-oynaniyor-1794772526354.jpg"
+          },
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/atv-canli-izle-uluslar-liginde-fransa-turkiye-maci-ne-zaman-saat-kacta-sifresiz-izle",
+            "title": "ATV Canlı İzle | Uluslar Ligi’nde Fransa - Türkiye maçı! İlk yarı oynanıyor",
+            "summary": "UEFA Uluslar Ligi A Ligi 1. Grup’un 6. haftasında Fransa ile Türkiye karşı karşıya geliyor. A Milli Futbol Takımı’nın oynayacağı müsabaka ATV’den canlı yayınlanıyor. Devamı için tıklayınız",
+            "publishedAt": "2026-11-15T16:21:42.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/3ef225/1200/675/0/0/2048/1151?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/atv-canli-izle-uluslar-liginde-fransa-turkiye-maci-ilk-yari-oynaniyor-1794772836953.jpg"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/spor/canli-anlatim-fransa-turkiye-uefa-uluslar-ligi-6-hafta-mucadelesi-2556397",
+            "title": "CANLI ANLATIM: Fransa 0-0 Türkiye | UEFA Uluslar Ligi 6. Hafta Mücadelesi",
+            "summary": "A Milli Futbol Takımı, UEFA Uluslar Ligi'nin 6. haftasında deplasmanda Fransa ile karşılaşıyor. Zorlu mücadeleye dair tüm ayrıntılar anbean Cumhuriyet.com.tr'de...",
+            "publishedAt": "2026-11-15T18:36:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/52e05412-59b0-4985-8d13-a4b94906790d.jpeg"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/a-milli-takimin-fransa-karsisindaki-ilk-11-i-belli-oldu-ve-kalede-berke-ozer-basliyor-1395293",
+            "title": "A Milli Takımın Fransa Karşısındaki İlk 11'i Belli Oldu ve Kalede Berke Özer Başlıyor",
+            "summary": "A Milli Futbol Takımı, UEFA Uluslar A Ligi 1. Grup'taki son maçında bugün Fransa deplasmanında sahaya çıkıyor. Karşılaşma Bordeaux'daki Matmut Atlantique Stadı'nda Türkiye saatiyle 22.45'te başlayacak ve ATV'den canlı, şifresiz yayınlanacak. Teknik direktör Sergen Yalçın, Fransa'ya karşı sahaya süreceği 11'i belirledi. Maçı İngiliz hakem Chris Kavanagh yönetecek. <a href='https://www.fanatik.com.tr/turkiye/live-fransa-turkiye-maci-ne-zaman-saat-kacta-hangi-kanalda-11ler-belli-oldu-2644559'>Kaynak</a>",
+            "publishedAt": "2026-11-15T18:39:28.000Z",
+            "imageUrl": "https://img-s3.onedio.com/id-6af9fc28867b22fdfcba5168/rev-0/w-1200/h-675/f-jpg/s-2bb7311b067a8dddd6e23184cef49557d106a59c.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/spor/fransa-turkiye-maci-canli-anlatim-fransa-a-milli-takim-uefa-uluslar-ligi-maci-kac-kac-mac-skoru-ve-3927446",
+            "title": "Heyecan sürüyor!",
+            "summary": "UEFA Uluslar A Ligi 1. Grup son maçında A Milli Futbol Takımımız, deplasmanda Fransa ile kozlarını paylaşıyor. Önceki 5 karşılaşmadan da mağlup ayrılan ve grupta puanı bulunmayan Ay-yıldızlılar, Bordeaux'da oynanacak zorlu mücadeleden puan veya puanlarla ayrılmanın hesaplarını yapıyor. Son 8 resmi maçtan 1 galibiyetle ayrılan kırmızı-beyazlı ekibimiz, kötü gidişatı teknik direktör Sergen Yalçın ile sonlandırmak istiyor. İşte Fransa - Türkiye maçının detayları ve ilk 11'ler...",
+            "publishedAt": "2026-11-15T19:42:41.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794768292/3927446/jpg/1920x1080"
+          }
+        ]
+      },
+      {
         "storyId": "e7f698cb901dc55d",
         "language": "tr",
         "label": "confirmed",
@@ -813,7 +871,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.98,
+        "score": 10.93,
         "firstSeenAt": "2026-11-15T07:59:42.000Z",
         "lastUpdatedAt": "2026-11-15T19:42:10.000Z",
         "sources": [
@@ -901,96 +959,6 @@
         ]
       },
       {
-        "storyId": "28808ddbb3b439e9",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.87,
-        "firstSeenAt": "2026-11-15T06:26:41.000Z",
-        "lastUpdatedAt": "2026-11-15T18:23:01.000Z",
-        "image": {
-          "url": "https://im.haberturk.com/l/2026/11/15/ver1794723955/3927448/jpg/1920x1080",
-          "sourceId": "haberturk",
-          "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/dunya/kremlin-putin-si-ve-trump-19-kasim-da-uclu-gorusme-yapacak-3927448"
-        },
-        "sources": [
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "dw-turkce",
-            "name": "DW Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "bbc-turkce",
-            "name": "BBC Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:26:41.000Z",
-            "sourceId": "haberturk"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T12:28:00.000Z",
-            "sourceId": "dw-turkce"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T12:28:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T18:23:01.000Z",
-            "sourceId": "bbc-turkce"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/dunya/kremlin-putin-si-ve-trump-19-kasim-da-uclu-gorusme-yapacak-3927448",
-            "title": "Putin, Şi ve Trump bir araya gelecek",
-            "summary": "Kremlin, Rusya Devlet Başkanı Putin, ABD Başkanı Trump ve Çin Devlet Başkanı Cinping'in 19 Kasım'da görüşeceğini duyurdu",
-            "publishedAt": "2026-11-15T06:26:41.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794723955/3927448/jpg/1920x1080"
-          },
-          {
-            "sourceId": "dw-turkce",
-            "url": "https://www.dw.com/tr/yeni-yalta-konferans%C4%B1-m%C4%B1-%C5%9Fi-putin-ve-trump-tan-ilk-3-l%C3%BC-zirve/a-79952211?maca=tur-rss-tur-all-1495-rdf",
-            "title": "Yeni Yalta Konferansı mı? Şi, Putin ve Trump'tan ilk 3'lü zirve",
-            "summary": "Donald Trump, Şi Cinping ve Vladimir Putin 19 Kasım'da Çin'de ilk kez üçlü zirvede bir araya gelecek. Ukrayna ve İran savaşlarının gölgesinde gerçekleşecek görüşme \"yeni Yalta Konferansı\" benzetmelerine yol açtı.",
-            "publishedAt": "2026-11-15T12:28:00.000Z"
-          },
-          {
-            "sourceId": "bbc-turkce",
-            "url": "https://www.bbc.com/turkce/articles/cjdx1y7p47ydo?at_medium=RSS&at_campaign=rss",
-            "title": "Trump, Putin ve Şi'den tarihi zirve: Dünya için nasıl sonuçlar çıkabilir?",
-            "summary": "ABD, Rusya ve Çin liderlerinin tarihte ilk kez düzenlenecek üçlü toplantısına yönelik hazırlıklar Avrupa'nın dikkatini çekiyor. Bazıları bu durumla İkinci Dünya Savaşı sonrasında dünyanın nüfuz alanlarına bölünmesi arasında paralellikler kuruyor.",
-            "publishedAt": "2026-11-15T18:23:01.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f9de/live/369f6d80-df7d-11f1-93e1-3b657b665bcf.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "6719d1c033afa341",
         "language": "tr",
         "label": "confirmed",
@@ -999,7 +967,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.79,
+        "score": 10.75,
         "firstSeenAt": "2026-11-15T11:36:37.000Z",
         "lastUpdatedAt": "2026-11-15T17:31:00.000Z",
         "image": {
@@ -1098,7 +1066,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.72,
+        "score": 10.68,
         "firstSeenAt": "2026-11-15T16:02:43.000Z",
         "lastUpdatedAt": "2026-11-15T16:39:54.000Z",
         "image": {
@@ -1189,7 +1157,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.71,
+        "score": 10.66,
         "firstSeenAt": "2026-11-15T07:55:32.000Z",
         "lastUpdatedAt": "2026-11-15T16:27:16.000Z",
         "image": {
@@ -1303,7 +1271,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.67,
+        "score": 10.62,
         "firstSeenAt": "2026-11-15T11:49:59.000Z",
         "lastUpdatedAt": "2026-11-15T16:00:03.000Z",
         "image": {
@@ -1424,7 +1392,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.61,
+        "score": 10.56,
         "firstSeenAt": "2026-11-15T08:25:01.000Z",
         "lastUpdatedAt": "2026-11-15T15:15:52.000Z",
         "image": {
@@ -1530,7 +1498,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.58,
+        "score": 10.53,
         "firstSeenAt": "2026-11-15T12:03:09.000Z",
         "lastUpdatedAt": "2026-11-15T14:55:05.000Z",
         "image": {
@@ -1629,7 +1597,7 @@
         ]
       },
       {
-        "storyId": "3578c4f666b3251b",
+        "storyId": "0b6aa7b1cca21905",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
@@ -1637,28 +1605,21 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.49,
-        "firstSeenAt": "2026-11-15T11:18:10.000Z",
-        "lastUpdatedAt": "2026-11-15T13:54:37.000Z",
+        "score": 10.35,
+        "firstSeenAt": "2026-11-15T08:57:13.000Z",
+        "lastUpdatedAt": "2026-11-15T12:48:15.000Z",
         "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/e2a6a38b-42dd-4495-b76c-5c24eb65671a.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/fatih-altayli-davasinda-yeni-gelisme-hapis-cezasini-kesinlestiren-karar-kaldirildi-2556322"
+          "url": "https://images.ntv.com.tr/images/Erdo%C4%9Fan-478466(2).jpg",
+          "sourceId": "ntv",
+          "sourceName": "NTV",
+          "articleUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-kktcnin-kurulusunun-43-yil-donumunu-kutladi-1750966"
         },
         "sources": [
           {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
             "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
             "confirms": true
           },
           {
@@ -1669,74 +1630,91 @@
             "confirms": true
           },
           {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sabah",
+            "name": "Sabah",
+            "camp": "pro-government",
+            "tier": "partisan",
             "confirms": false
           }
         ],
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T11:18:10.000Z",
-            "sourceId": "sozcu"
+            "at": "2026-11-15T08:57:13.000Z",
+            "sourceId": "a-haber"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T11:30:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T11:30:00.000Z",
-            "from": "single-source",
-            "to": "reported"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T13:28:53.000Z",
+            "at": "2026-11-15T08:59:15.000Z",
             "sourceId": "ntv"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-15T13:28:53.000Z",
-            "from": "reported",
+            "at": "2026-11-15T08:59:15.000Z",
+            "from": "single-source",
             "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T09:54:02.000Z",
+            "sourceId": "haberturk"
           }
         ],
         "articles": [
           {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/fatih-altayli-ya-verilen-hapis-cezasi-bozuldu-p381556",
-            "title": "Fatih Altaylı'ya verilen hapis cezası bozuldu",
-            "summary": "YouTube yayınındaki ifadeleri nedeniyle \"Cumhurbaşkanını tehdit\" suçundan yargılanan ve 190 gün tutuklu kaldıktan sonra ...",
-            "publishedAt": "2026-11-15T11:18:10.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/9/altayli4444jpg-b2V62OpLPkSrBeEYideWAA.jpg"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/turkiye/fatih-altayli-davasinda-yeni-gelisme-hapis-cezasini-kesinlestiren-karar-kaldirildi-2556322",
-            "title": "Fatih Altaylı davasında yeni gelişme: Hapis cezasını kesinleştiren karar kaldırıldı!",
-            "summary": "Cumhurbaşkanı ve AKP Genel Başkanı Recep Tayyip Erdoğan’a yönelik sözleri gerekçesiyle 190 gün cezaevinde kalan ve 4 yıl 2 ay hapis cezasına çarptırılan gazeteci Fatih Altaylı’nın mahkûmiyetini kesinleştiren istinaf kararı kaldırıldı. İstanbul Bölge Adliye Mahkemesi, Altaylı’nın sözlerinin tehdit suçunu oluşturup oluşturmadığının yeterince tartışılmadığına hükmederek dosyayı yeniden değerlendirilmek üzere ilgili daireye gönderdi.",
-            "publishedAt": "2026-11-15T11:30:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/e2a6a38b-42dd-4495-b76c-5c24eb65671a.jpg"
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/15/baskan-erdogan-kibrisi-ne-olursa-olsun-asla-yalniz-birakmayacagiz",
+            "title": "Başkan Erdoğan: Kıbrıs’ı ne olursa olsun asla yalnız bırakmayacağız",
+            "summary": "Başkan Recep Tayyip Erdoğan, Kuzey Kıbrıs Türk Cumhuriyeti'nin (KKTC) 43. kuruluş yıl dönümünü kutladı. Şehitleri rahmetle, gazileri şükranla anan Başkan Erdoğan, \"Kahraman şehitlerimizi rahmetle,... Devamı için tıklayınız",
+            "publishedAt": "2026-11-15T08:57:13.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/4a46eb/0/0/0/0/1638/2048?u=https://iahbr.tmgrup.com.tr/2026/11/15/baskan-erdogan-kibrisi-ne-olursa-olsun-asla-yalniz-birakmayacagiz-1794733336422.jpg"
           },
           {
             "sourceId": "ntv",
-            "url": "https://www.ntv.com.tr/turkiye/cumhurbaskanini-tehdit-davasi-fatih-altaylinin-hapis-cezasi-bozuldu-1751007",
-            "title": "Cumhurbaşkanı'nı tehdit davası. Fatih Altaylı'nın hapis cezası bozuldu",
-            "summary": "\"Cumhurbaşkanı'nı tehdit\" suçundan yargılanan ve 190 gün tutuklu kaldıktan sonra 4 yıl 2 ay hapis cezası verilen gazeteci Fatih Altaylı hakkındaki karar bozuldu.",
-            "publishedAt": "2026-11-15T13:28:53.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/altayl%C4%B1-402297.png"
+            "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-kktcnin-kurulusunun-43-yil-donumunu-kutladi-1750966",
+            "title": "Cumhurbaşkanı Erdoğan KKTC'nin kuruluşunun 43. yıl dönümünü kutladı",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Kuzey Kıbrıs Türk Cumhuriyeti’nin (KKTC) 43’üncü kuruluş yıl dönümünü tebrik etti.",
+            "publishedAt": "2026-11-15T08:59:15.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/Erdo%C4%9Fan-478466(2).jpg"
           },
           {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/fatih-altayli-nin-4-yil-2-aylik-cezasi-icin-baskanlar-kurulu-kararini-verdi-1395266",
-            "title": "Fatih Altaylı'nın 4 Yıl 2 Aylık Cezası İçin Bozma Kararı Verildi: Altaylı, 190 Gün Tutuklu Kalmıştı",
-            "summary": "Gazeteci Fatih Altaylı'ya YouTube yayınındaki sözleri nedeniyle verilen 4 yıl 2 ay hapis cezası bozuldu. Altaylı, 'Cumhurbaşkanını tehdit' suçlamasıyla yargılandığı davada 190 gün tutuklu kalmıştı. İstinaf kararını inceleyen Ceza Daireleri Başkanlar Kurulu, sözlerin muhatabını tedirgin etmeye yeterli olmadığına hükmetti. Dosya, yeniden karar verilmesi için ilgili daireye geri gönderildi.",
-            "publishedAt": "2026-11-15T13:54:37.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af9b953d35c1df76fae9bfb/rev-0/w-1200/h-675/f-jpg/s-15ff13664b58b2cfbddb2784ad8fe8878390bdf2.jpg"
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/son-dakika-cumhurbaskani-erdogan-kibris-bizim-milli-davamizdir-3927490",
+            "title": "\"Kıbrıs bizim milli davamızdır\"",
+            "summary": "Cumhurbaşkanı Erdoğan, \"Kıbrıs bizim milli davamızdır. Kıbrıs'ı ne olursa olsun asla yalnız bırakmayacağız\" dedi",
+            "publishedAt": "2026-11-15T09:54:02.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794736425/3927490/jpg/1920x1080"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogandan-filistin-devletinin-ilaninin-38-yil-donumu-mesaji-1751003",
+            "title": "Cumhurbaşkanı Erdoğan'dan Filistin Devleti'nin ilanının 38. yıl dönümü mesajı",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Filistin Devleti'nin ilanının 38. yıl dönümünü kutladı.",
+            "publishedAt": "2026-11-15T12:38:12.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/erdogan1-872867.jpg"
+          },
+          {
+            "sourceId": "sabah",
+            "url": "https://www.sabah.com.tr/gundem/2026/11/15/baskan-erdogan-filistin-davasini-guclu-sekilde-savunmaya-devam-edecegiz",
+            "title": "Başkan Erdoğan: Filistin davasını güçlü şekilde savunmaya devam edeceğiz",
+            "summary": "Başkan Recep Tayyip Erdoğan, Filistin Devleti'nin 38. Kuruluş Yıl Dönümü'ne ilişkin sosyal medya hesabından bir mesaj paylaştı. Başkan Erdoğan, \"Filistin halkının özgür ve müreffeh bir geleceğe kavuşması... Devamı için tıklayınız",
+            "publishedAt": "2026-11-15T12:39:32.000Z",
+            "imageUrl": "https://iasbh.tmgrup.com.tr/a0e0c2/1200/675/0/0/879/495?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/baskan-erdogan-filistin-davasini-guclu-sekilde-savunmaya-devam-edecegiz-1794746290807.gif"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/15/baskan-erdogan-her-platformda-filistin-davasini-en-guclu-sekilde-savunacagiz",
+            "title": "Başkan Erdoğan: \"Her platformda Filistin davasını en güçlü şekilde savunacağız\"",
+            "summary": "Başkan Recep Tayyip Erdoğan, \"Türkiye olarak Filistin davasını her platformda en güçlü şekilde savunmaya, 1967 sınırları temelinde, başkenti Doğu Kudüs olan, bağımsız, egemen ve coğrafi bütünlüğü haiz... Devamı için tıklayınız",
+            "publishedAt": "2026-11-15T12:48:15.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/67b006/1200/1200/183/0/605/423?u=https://iahbr.tmgrup.com.tr/2026/11/15/baskan-erdogan-her-platformda-filistin-davasini-en-guclu-sekilde-savunacagiz-1794746888685.png"
           }
         ]
       },
@@ -1749,7 +1727,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.4,
+        "score": 10.35,
         "firstSeenAt": "2026-11-15T12:42:54.000Z",
         "lastUpdatedAt": "2026-11-15T12:44:00.000Z",
         "image": {
@@ -1843,11 +1821,11 @@
         "storyId": "f307af3a264fee5c",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.94,
+        "score": 8.89,
         "firstSeenAt": "2026-11-15T14:00:56.000Z",
         "lastUpdatedAt": "2026-11-15T19:15:43.000Z",
         "image": {
@@ -1860,13 +1838,6 @@
           {
             "id": "france-24",
             "name": "France 24",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "bbc-world",
-            "name": "BBC News World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -1887,19 +1858,14 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T14:56:21.000Z",
-            "sourceId": "bbc-world"
+            "at": "2026-11-15T19:15:43.000Z",
+            "sourceId": "the-verge"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-15T14:56:21.000Z",
+            "at": "2026-11-15T19:15:43.000Z",
             "from": "single-source",
             "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T19:15:43.000Z",
-            "sourceId": "the-verge"
           }
         ],
         "articles": [
@@ -1912,14 +1878,6 @@
             "imageUrl": "https://s.france24.com/media/display/b4a8bc10-e0fc-11f1-92b7-29048b396e03/w:1024/p:16x9/2026-11-15T112739Z-857398562-RC2138AW8TLP-RTRMADP-3-NVIDIA-CEO.jpg"
           },
           {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-            "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-            "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-            "publishedAt": "2026-11-15T14:56:21.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg"
-          },
-          {
             "sourceId": "the-verge",
             "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
             "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
@@ -1929,14 +1887,51 @@
         ]
       },
       {
-        "storyId": "649af1e721b6c284",
+        "storyId": "e13a4bd95b8b6ac7",
         "language": "en",
         "label": "single-source",
         "developing": true,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.88,
+        "score": 3.98,
+        "firstSeenAt": "2026-11-15T20:20:57.000Z",
+        "lastUpdatedAt": "2026-11-15T20:20:57.000Z",
+        "sources": [
+          {
+            "id": "techcrunch",
+            "name": "TechCrunch",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T20:20:57.000Z",
+            "sourceId": "techcrunch"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "techcrunch",
+            "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+            "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+            "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+            "publishedAt": "2026-11-15T20:20:57.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "649af1e721b6c284",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.83,
         "firstSeenAt": "2026-11-15T18:29:14.000Z",
         "lastUpdatedAt": "2026-11-15T18:29:14.000Z",
         "sources": [
@@ -1973,7 +1968,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.76,
+        "score": 3.71,
         "firstSeenAt": "2026-11-15T17:05:00.000Z",
         "lastUpdatedAt": "2026-11-15T17:05:00.000Z",
         "sources": [
@@ -2010,7 +2005,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.75,
+        "score": 3.7,
         "firstSeenAt": "2026-11-15T17:00:00.000Z",
         "lastUpdatedAt": "2026-11-15T17:00:00.000Z",
         "sources": [
@@ -2047,7 +2042,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.75,
+        "score": 3.7,
         "firstSeenAt": "2026-11-15T16:59:16.000Z",
         "lastUpdatedAt": "2026-11-15T16:59:16.000Z",
         "sources": [
@@ -2084,7 +2079,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.67,
+        "score": 3.62,
         "firstSeenAt": "2026-11-15T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-15T16:00:00.000Z",
         "sources": [
@@ -2121,7 +2116,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.67,
+        "score": 3.62,
         "firstSeenAt": "2026-11-15T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-15T16:00:00.000Z",
         "sources": [
@@ -2158,7 +2153,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.5,
+        "score": 3.45,
         "firstSeenAt": "2026-11-15T14:00:00.000Z",
         "lastUpdatedAt": "2026-11-15T14:00:00.000Z",
         "sources": [
@@ -2195,7 +2190,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.5,
+        "score": 3.45,
         "firstSeenAt": "2026-11-15T13:57:30.000Z",
         "lastUpdatedAt": "2026-11-15T13:57:30.000Z",
         "sources": [
@@ -2232,7 +2227,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.42,
+        "score": 3.37,
         "firstSeenAt": "2026-11-15T13:00:00.000Z",
         "lastUpdatedAt": "2026-11-15T13:00:00.000Z",
         "sources": [
@@ -2269,7 +2264,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.35,
+        "score": 3.3,
         "firstSeenAt": "2026-11-15T12:07:34.000Z",
         "lastUpdatedAt": "2026-11-15T12:07:34.000Z",
         "image": {
@@ -2313,7 +2308,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.34,
+        "score": 3.29,
         "firstSeenAt": "2026-11-15T12:01:00.000Z",
         "lastUpdatedAt": "2026-11-15T12:01:00.000Z",
         "image": {
@@ -2357,7 +2352,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.33,
+        "score": 3.29,
         "firstSeenAt": "2026-11-15T12:00:00.000Z",
         "lastUpdatedAt": "2026-11-15T12:00:00.000Z",
         "image": {
@@ -2401,7 +2396,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.29,
+        "score": 3.24,
         "firstSeenAt": "2026-11-15T11:30:00.000Z",
         "lastUpdatedAt": "2026-11-15T11:30:00.000Z",
         "image": {
@@ -2436,50 +2431,6 @@
             "imageUrl": "https://media.wired.com/photos/6af5e7fe5864e5f624e083eb/master/pass/Evercade%20Nexus%20(1).jpg"
           }
         ]
-      },
-      {
-        "storyId": "6cd6c2b9794fee2e",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.29,
-        "firstSeenAt": "2026-11-15T11:30:00.000Z",
-        "lastUpdatedAt": "2026-11-15T11:30:00.000Z",
-        "image": {
-          "url": "https://media.wired.com/photos/6af7df7e7f77ca3a14ead393/master/pass/Review--Logitech-Yeti-2.jpg",
-          "sourceId": "wired",
-          "sourceName": "Wired",
-          "articleUrl": "https://www.wired.com/review/logitech-yeti-2/"
-        },
-        "sources": [
-          {
-            "id": "wired",
-            "name": "Wired",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T11:30:00.000Z",
-            "sourceId": "wired"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "wired",
-            "url": "https://www.wired.com/review/logitech-yeti-2/",
-            "title": "Logitech Yeti 2 Review: An All-In-One Studio Setup",
-            "summary": "The follow-up to the iconic Yeti microphone is here, and its upgrades make it worthy of the legacy.",
-            "publishedAt": "2026-11-15T11:30:00.000Z",
-            "imageUrl": "https://media.wired.com/photos/6af7df7e7f77ca3a14ead393/master/pass/Review--Logitech-Yeti-2.jpg"
-          }
-        ]
       }
     ],
     "world": [
@@ -2491,7 +2442,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 12.87,
+        "score": 12.82,
         "firstSeenAt": "2026-11-15T16:56:37.000Z",
         "lastUpdatedAt": "2026-11-15T18:23:12.000Z",
         "image": {
@@ -2593,30 +2544,112 @@
         ]
       },
       {
-        "storyId": "b21a48550a967fd7",
+        "storyId": "c397a88bd18fc3c0",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.99,
-        "firstSeenAt": "2026-11-15T16:45:00.000Z",
-        "lastUpdatedAt": "2026-11-15T19:49:50.000Z",
+        "score": 10.97,
+        "firstSeenAt": "2026-11-15T11:06:32.000Z",
+        "lastUpdatedAt": "2026-11-15T20:12:38.000Z",
         "image": {
-          "url": "https://e2.365dm.com/26/11/1920x1080/skysports-bellingham-jude-england_7407288.jpg?20261115195511",
-          "sourceId": "sky-sports-transfers",
-          "sourceName": "Sky Sports",
-          "articleUrl": "https://www.skysports.com/football/spain-vs-england/live/554117"
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss"
         },
         "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
           {
             "id": "al-jazeera",
             "name": "Al Jazeera English",
             "camp": "international",
             "tier": "established",
             "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T11:06:32.000Z",
+            "sourceId": "bbc-world"
           },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T12:13:48.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-15T12:13:48.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T20:12:38.000Z",
+            "sourceId": "al-jazeera"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+            "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+            "summary": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
+            "publishedAt": "2026-11-15T11:06:32.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+            "title": "Jordan sentences 3 men to death over deadly church attack",
+            "summary": "A Jordanian court on Sunday sentenced three men to death by hanging over a deadly church shooting, as the kingdom’s Christmas celebrations were cancelled in solidarity with the victims’ families. Gunmen killed nine people and wounded 25 others when they stormed a funeral at a Greek Orthodox church in southern Hammoud village, Karak governorate, on October 23. Authorities said three men, two Jordanian brothers and their relative by marriage, had fled after the attack and were arrested three days...",
+            "publishedAt": "2026-11-15T12:13:48.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/a42ece83-fb38-4965-8c89-8ffd7ef2cdfd_e2b91c38.jpg?itok=7sxkP9OV&v=1794744816"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
+            "title": "Jordan sentences three men to death over deadly church attack in Karak",
+            "summary": "Jordan sentences three men to death over deadly church attack in Karak",
+            "publishedAt": "2026-11-15T20:12:38.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "6640a524b9130176",
+        "language": "en",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 10.91,
+        "firstSeenAt": "2026-11-15T17:39:00.000Z",
+        "lastUpdatedAt": "2026-11-15T19:31:48.000Z",
+        "image": {
+          "url": "https://e2.365dm.com/26/11/1920x1080/skysports-ronaldinho-ravenna_7407204.jpg?20261115174347",
+          "sourceId": "sky-sports-transfers",
+          "sourceName": "Sky Sports",
+          "articleUrl": "https://www.skysports.com/watch/video/13612543/brazil-legend-ronaldinho-involved-in-ravenna-opener-on-debut"
+        },
+        "sources": [
           {
             "id": "sky-sports-transfers",
             "name": "Sky Sports",
@@ -2630,73 +2663,81 @@
             "camp": "international",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
           }
         ],
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T16:45:00.000Z",
-            "sourceId": "al-jazeera"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T17:45:00.000Z",
+            "at": "2026-11-15T17:39:00.000Z",
             "sourceId": "sky-sports-transfers"
           },
           {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T19:20:08.000Z",
+            "sourceId": "guardian-football"
+          },
+          {
             "kind": "label-changed",
-            "at": "2026-11-15T17:45:00.000Z",
+            "at": "2026-11-15T19:20:08.000Z",
             "from": "single-source",
             "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T19:49:50.000Z",
-            "sourceId": "guardian-football"
+            "at": "2026-11-15T19:31:48.000Z",
+            "sourceId": "bbc-world"
           }
         ],
         "articles": [
           {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league?traffic_source=rss",
-            "title": "Spain vs England live: UEFA Nations League",
-            "summary": "Team news , score and live text commentary as England and Spain vie for top spot in final Nations League group game.",
-            "publishedAt": "2026-11-15T16:45:00.000Z"
-          },
-          {
             "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/football/spain-vs-england/live/554117",
-            "title": "Spain vs England LIVE!",
-            "summary": "",
-            "publishedAt": "2026-11-15T17:45:00.000Z",
-            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-bellingham-jude-england_7407288.jpg?20261115195511"
+            "url": "https://www.skysports.com/watch/video/13612543/brazil-legend-ronaldinho-involved-in-ravenna-opener-on-debut",
+            "title": "Brazil legend Ronaldinho involved in STUNNING opener on Ravenna debut!",
+            "summary": "Brazil legend Ronaldinho was involved in the build-up to Ravenna's opener on his Serie C debut against Forli - as well as the celebrations!",
+            "publishedAt": "2026-11-15T17:39:00.000Z",
+            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-ronaldinho-ravenna_7407204.jpg?20261115174347"
           },
           {
             "sourceId": "guardian-football",
-            "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-            "title": "Spain v England: Nations League – live",
-            "summary": "Updates from 7.45pm (GMT) kick-off in Madrid Get in touch: email Daniel and follow us on BlueSky Tuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group. Quansah keeps his place for doing well, while he wants to see White under pressure and cites his club partnership with Konsa as a reason for picking him, just as last game, he went for the Newcastle understanding between Burn, Hall and Gordon down the left side. Continue reading...",
-            "publishedAt": "2026-11-15T19:49:50.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/eb25859a484613d72c89348a46cf89f5e6032344/252_0_2497_1998/master/2497.jpg?width=140&quality=85&auto=format&fit=max&s=e3687b3721512af69b3aaf271a206b0e"
+            "url": "https://www.theguardian.com/football/2026/nov/15/ronaldinho-debut-italian-side-ravenna-after-11-year-hiatus-playing-career",
+            "title": "Ronaldinho makes debut for Italian side Ravenna after 11-year hiatus in playing career",
+            "summary": "Brazil legend plays first half for Serie C club at age 46 ‘Is this my last one? I don’t know,’ Ronaldinho says Ronaldinho played 45 minutes on his return to professional football in Italy. The 46-year-old Brazil great announced in June that he had signed for the Serie C side Ravenna, 11 years after he appeared to have brought his illustrious career to a close with Fluminense. Five months later, he was in the starting lineup as Ravenna took on their local rivals Forlì. Continue reading...",
+            "publishedAt": "2026-11-15T19:20:08.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/b2be739bdd0e9308285d11bc9c739bc5df1d96f9/410_226_4067_3253/master/4067.jpg?width=140&quality=85&auto=format&fit=max&s=b3a41a9af1c7f166ff792a536502813c"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
+            "title": "Ronaldinho makes comeback in Ravenna win",
+            "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+            "publishedAt": "2026-11-15T19:31:48.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg"
           }
         ]
       },
       {
-        "storyId": "f307af3a264fee5c",
+        "storyId": "ae8922ebd6d227fe",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.94,
-        "firstSeenAt": "2026-11-15T14:00:56.000Z",
-        "lastUpdatedAt": "2026-11-15T19:15:43.000Z",
+        "score": 10.9,
+        "firstSeenAt": "2026-11-15T12:12:28.000Z",
+        "lastUpdatedAt": "2026-11-15T19:20:53.000Z",
         "image": {
-          "url": "https://s.france24.com/media/display/b4a8bc10-e0fc-11f1-92b7-29048b396e03/w:1024/p:16x9/2026-11-15T112739Z-857398562-RC2138AW8TLP-RTRMADP-3-NVIDIA-CEO.jpg",
+          "url": "https://s.france24.com/media/display/ae37617a-e0ec-11f1-9eb5-f71d22e7fea9/w:1024/p:16x9/EN-20261115-080531-080704-CS.jpg",
           "sourceId": "france-24",
           "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/chinese-spy-chip-sales-trump-ties-the-nvidia-scandal-deepens"
+          "articleUrl": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop"
         },
         "sources": [
           {
@@ -2707,16 +2748,16 @@
             "confirms": true
           },
           {
-            "id": "bbc-world",
-            "name": "BBC News World",
+            "id": "scmp-world",
+            "name": "South China Morning Post",
             "camp": "international",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
             "tier": "established",
             "confirms": true
           }
@@ -2724,49 +2765,58 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T14:00:56.000Z",
+            "at": "2026-11-15T12:12:28.000Z",
             "sourceId": "france-24"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T14:56:21.000Z",
-            "sourceId": "bbc-world"
+            "at": "2026-11-15T15:00:00.000Z",
+            "sourceId": "scmp-world"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-15T14:56:21.000Z",
+            "at": "2026-11-15T15:00:00.000Z",
             "from": "single-source",
             "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T19:15:43.000Z",
-            "sourceId": "the-verge"
+            "at": "2026-11-15T19:20:53.000Z",
+            "sourceId": "bbc-world"
           }
         ],
         "articles": [
           {
             "sourceId": "france-24",
-            "url": "https://www.france24.com/en/chinese-spy-chip-sales-trump-ties-the-nvidia-scandal-deepens",
-            "title": "Chinese spy, chip sales, Trump ties... The Nvidia scandal deepens",
-            "summary": "The Nvidia scandal continues to unravel. Sunday, the Singapore-based company Megaspeed said that Chinese businesswoman Alice Huang had officially left the company in 2025. She is the alleged Chinese spy that had an affair with Nvidia's former CEO Jensen Huang. Late last year, revelations showed she was being investigated for chip smuggling. The scandal has also raised questions about how much the US government knew – Trump was allegedly warned about the affair but did not react. Analysis by Laïla Mörch, CEO of Shael and tech investor in Paris.",
-            "publishedAt": "2026-11-15T14:00:56.000Z",
-            "imageUrl": "https://s.france24.com/media/display/b4a8bc10-e0fc-11f1-92b7-29048b396e03/w:1024/p:16x9/2026-11-15T112739Z-857398562-RC2138AW8TLP-RTRMADP-3-NVIDIA-CEO.jpg"
+            "url": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop",
+            "title": "Air travel issues persist in the US after nationwide ground stop",
+            "summary": "After almost five hours of grounded flights in the US, flights have resumed. However, passengers are still waiting and wading through tough logistics to get to their destinations after massive delays and cancelled flights. Details by Simon Moritz.",
+            "publishedAt": "2026-11-15T12:12:28.000Z",
+            "imageUrl": "https://s.france24.com/media/display/ae37617a-e0ec-11f1-9eb5-f71d22e7fea9/w:1024/p:16x9/EN-20261115-080531-080704-CS.jpg"
+          },
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/us-probes-nationwide-flights-stoppage-as-travel-disruptions-persist",
+            "title": "US probes nationwide flights stoppage as travel disruptions persist",
+            "summary": "US air travel is expected to return to normal this Sunday, following a nationwide ground stop Friday night that stranded hundreds of thousands of passengers and disrupted travel worldwide. The Trump administration blamed the incident on a botched replacement of old copper wire communication lines and said there was no evidence this was a cyberattack. The ground stop now raises questions about the country's aging infrastructure and lawmakers are calling for an investigation. Analysis by Philip Mann, aviation expert at Vector Strategic Consulting.",
+            "publishedAt": "2026-11-15T14:09:20.000Z",
+            "imageUrl": "https://s.france24.com/media/display/f68e5f6c-e0fd-11f1-91ae-f71d22e7fea9/w:1024/p:16x9/2026-11-14T154335Z-516903887-RC2ONOAT735S-RTRMADP-3-USA-FAA-GROUND-STOP.jpg"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374509/trump-breaks-silence-us-ground-stop-demands-more-money-congress",
+            "title": "Trump breaks silence on US ground stop, demands more money from Congress",
+            "summary": "US President Donald Trump on Sunday broke his silence on the nationwide ground stop that snarled airline travel this weekend, using the incident to push Congress on money to fully upgrade America’s air traffic control system. The Republican president has been conspicuously quiet on the ground stop since it began on Friday afternoon, instead issuing statements on social media about completely different topics as frustrated passengers were left stranded at airports and his government scrambled...",
+            "publishedAt": "2026-11-15T15:00:00.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/2e46881c-08a9-49ce-9eaa-eed61cc08ef8_8392bd78.jpg?itok=5ITT--wB&v=1794754784"
           },
           {
             "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-            "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-            "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-            "publishedAt": "2026-11-15T14:56:21.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg"
-          },
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-            "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-            "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]",
-            "publishedAt": "2026-11-15T19:15:43.000Z"
+            "url": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+            "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+            "summary": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+            "publishedAt": "2026-11-15T19:20:53.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg"
           }
         ]
       },
@@ -2778,7 +2828,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.86,
+        "score": 10.82,
         "firstSeenAt": "2026-11-15T16:32:22.000Z",
         "lastUpdatedAt": "2026-11-15T18:20:36.000Z",
         "image": {
@@ -2867,7 +2917,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.84,
+        "score": 10.79,
         "firstSeenAt": "2026-11-15T13:42:58.000Z",
         "lastUpdatedAt": "2026-11-15T18:03:56.000Z",
         "image": {
@@ -2918,7 +2968,7 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T15:59:04.000Z",
+            "at": "2026-11-15T18:03:56.000Z",
             "sourceId": "guardian-world"
           }
         ],
@@ -2949,14 +2999,6 @@
           },
           {
             "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
-            "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
-            "summary": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning. Jordan, Egypt, Saudi Arabia, and Qatar have all strongly condemned the attack and expressed solidarity with Bahrain. The Kingdom affirms that the Iranian attacks constitute a violation of international law and the principles of good neighborliness. The Kingdom stresses the importance of an immediate halt to the blatant Iranian attacks on the countries of the region, and of taking serious steps towards achieving security and stability for the countries of the region and their peoples. The continuation of these attacks represents a dangerous escalation that will complicate efforts to contain the tension and undermine political and diplomatic endeavors aimed at achieving security and stability in the region. The Ministry of Foreign Affai…",
-            "publishedAt": "2026-11-15T15:59:04.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/8639b2a492926c5d0ccbdbab7179b3d592cdb751/0_37_1091_873/master/1091.jpg?width=140&quality=85&auto=format&fit=max&s=578cbc0307286c00098fc0760a78406b"
-          },
-          {
-            "sourceId": "guardian-world",
             "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
             "title": "Iran launches drone attacks against US military base in Bahrain",
             "summary": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation. Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US strikes in Iran. Continue reading...",
@@ -2973,7 +3015,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.73,
+        "score": 10.68,
         "firstSeenAt": "2026-11-15T08:17:41.000Z",
         "lastUpdatedAt": "2026-11-15T16:41:48.000Z",
         "image": {
@@ -3063,7 +3105,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.96,
+        "score": 8.91,
         "firstSeenAt": "2026-11-15T17:33:00.000Z",
         "lastUpdatedAt": "2026-11-15T19:28:54.000Z",
         "image": {
@@ -3125,6 +3167,75 @@
         ]
       },
       {
+        "storyId": "f307af3a264fee5c",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.89,
+        "firstSeenAt": "2026-11-15T14:00:56.000Z",
+        "lastUpdatedAt": "2026-11-15T19:15:43.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/b4a8bc10-e0fc-11f1-92b7-29048b396e03/w:1024/p:16x9/2026-11-15T112739Z-857398562-RC2138AW8TLP-RTRMADP-3-NVIDIA-CEO.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/chinese-spy-chip-sales-trump-ties-the-nvidia-scandal-deepens"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T14:00:56.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T19:15:43.000Z",
+            "sourceId": "the-verge"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-15T19:15:43.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/chinese-spy-chip-sales-trump-ties-the-nvidia-scandal-deepens",
+            "title": "Chinese spy, chip sales, Trump ties... The Nvidia scandal deepens",
+            "summary": "The Nvidia scandal continues to unravel. Sunday, the Singapore-based company Megaspeed said that Chinese businesswoman Alice Huang had officially left the company in 2025. She is the alleged Chinese spy that had an affair with Nvidia's former CEO Jensen Huang. Late last year, revelations showed she was being investigated for chip smuggling. The scandal has also raised questions about how much the US government knew – Trump was allegedly warned about the affair but did not react. Analysis by Laïla Mörch, CEO of Shael and tech investor in Paris.",
+            "publishedAt": "2026-11-15T14:00:56.000Z",
+            "imageUrl": "https://s.france24.com/media/display/b4a8bc10-e0fc-11f1-92b7-29048b396e03/w:1024/p:16x9/2026-11-15T112739Z-857398562-RC2138AW8TLP-RTRMADP-3-NVIDIA-CEO.jpg"
+          },
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+            "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+            "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]",
+            "publishedAt": "2026-11-15T19:15:43.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "ec9e1c6774d09ec6",
         "language": "en",
         "label": "confirmed",
@@ -3132,7 +3243,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.81,
+        "score": 8.76,
         "firstSeenAt": "2026-11-15T15:16:29.000Z",
         "lastUpdatedAt": "2026-11-15T17:39:23.000Z",
         "image": {
@@ -3209,154 +3320,6 @@
         ]
       },
       {
-        "storyId": "c718f0631c936bbe",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.79,
-        "firstSeenAt": "2026-11-15T09:57:25.000Z",
-        "lastUpdatedAt": "2026-11-15T17:29:17.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
-          "sourceId": "bbc-world",
-          "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-world",
-            "name": "BBC News World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "scmp-world",
-            "name": "South China Morning Post",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T09:57:25.000Z",
-            "sourceId": "bbc-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T17:29:17.000Z",
-            "sourceId": "scmp-world"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T17:29:17.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
-            "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-            "summary": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
-            "publishedAt": "2026-11-15T09:57:25.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg"
-          },
-          {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/americas/article/3374515/pope-leo-visits-high-andes-testing-recovery-lung-cancer-surgery",
-            "title": "Pope Leo visits high Andes, testing recovery from lung cancer surgery",
-            "summary": "Pope Leo on Sunday faced his toughest physical test since undergoing lung cancer surgery, visiting high-altitude Cusco on the final full day of his South America tour. The 71-year-old pontiff, who had part of a lung removed a month ago, arrived in the ancient Inca capital, more than 3,400 metres (11,000ft) above sea level – high enough to leave many a visitor breathless. Children in brightly woven ponchos and embroidered skirts greeted the pope as he stepped off the plane for the latest stop on...",
-            "publishedAt": "2026-11-15T17:29:17.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/7273ee55-0d71-432f-bf46-f26058669833_2fec4472.jpg?itok=5An1q8hD&v=1794763641"
-          }
-        ]
-      },
-      {
-        "storyId": "ae8922ebd6d227fe",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.58,
-        "firstSeenAt": "2026-11-15T12:12:28.000Z",
-        "lastUpdatedAt": "2026-11-15T15:00:00.000Z",
-        "image": {
-          "url": "https://s.france24.com/media/display/ae37617a-e0ec-11f1-9eb5-f71d22e7fea9/w:1024/p:16x9/EN-20261115-080531-080704-CS.jpg",
-          "sourceId": "france-24",
-          "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop"
-        },
-        "sources": [
-          {
-            "id": "france-24",
-            "name": "France 24",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "scmp-world",
-            "name": "South China Morning Post",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T12:12:28.000Z",
-            "sourceId": "france-24"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T15:00:00.000Z",
-            "sourceId": "scmp-world"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T15:00:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop",
-            "title": "Air travel issues persist in the US after nationwide ground stop",
-            "summary": "After almost five hours of grounded flights in the US, flights have resumed. However, passengers are still waiting and wading through tough logistics to get to their destinations after massive delays and cancelled flights. Details by Simon Moritz.",
-            "publishedAt": "2026-11-15T12:12:28.000Z",
-            "imageUrl": "https://s.france24.com/media/display/ae37617a-e0ec-11f1-9eb5-f71d22e7fea9/w:1024/p:16x9/EN-20261115-080531-080704-CS.jpg"
-          },
-          {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/us-probes-nationwide-flights-stoppage-as-travel-disruptions-persist",
-            "title": "US probes nationwide flights stoppage as travel disruptions persist",
-            "summary": "US air travel is expected to return to normal this Sunday, following a nationwide ground stop Friday night that stranded hundreds of thousands of passengers and disrupted travel worldwide. The Trump administration blamed the incident on a botched replacement of old copper wire communication lines and said there was no evidence this was a cyberattack. The ground stop now raises questions about the country's aging infrastructure and lawmakers are calling for an investigation. Analysis by Philip Mann, aviation expert at Vector Strategic Consulting.",
-            "publishedAt": "2026-11-15T14:09:20.000Z",
-            "imageUrl": "https://s.france24.com/media/display/f68e5f6c-e0fd-11f1-91ae-f71d22e7fea9/w:1024/p:16x9/2026-11-14T154335Z-516903887-RC2ONOAT735S-RTRMADP-3-USA-FAA-GROUND-STOP.jpg"
-          },
-          {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374509/trump-breaks-silence-us-ground-stop-demands-more-money-congress",
-            "title": "Trump breaks silence on US ground stop, demands more money from Congress",
-            "summary": "US President Donald Trump on Sunday broke his silence on the nationwide ground stop that snarled airline travel this weekend, using the incident to push Congress on money to fully upgrade America’s air traffic control system. The Republican president has been conspicuously quiet on the ground stop since it began on Friday afternoon, instead issuing statements on social media about completely different topics as frustrated passengers were left stranded at airports and his government scrambled...",
-            "publishedAt": "2026-11-15T15:00:00.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/2e46881c-08a9-49ce-9eaa-eed61cc08ef8_8392bd78.jpg?itok=5ITT--wB&v=1794754784"
-          }
-        ]
-      },
-      {
         "storyId": "32b37ac6f0f1162d",
         "language": "en",
         "label": "confirmed",
@@ -3364,7 +3327,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.47,
+        "score": 8.42,
         "firstSeenAt": "2026-11-15T08:56:11.000Z",
         "lastUpdatedAt": "2026-11-15T13:37:45.000Z",
         "image": {
@@ -3427,33 +3390,20 @@
         ]
       },
       {
-        "storyId": "c397a88bd18fc3c0",
+        "storyId": "13ca86c4d6736b00",
         "language": "en",
-        "label": "confirmed",
-        "developing": false,
+        "label": "single-source",
+        "developing": true,
         "reasons": [
-          "independent-sources"
+          "single-owner"
         ],
-        "score": 8.35,
-        "firstSeenAt": "2026-11-15T11:06:32.000Z",
-        "lastUpdatedAt": "2026-11-15T12:13:48.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
-          "sourceId": "bbc-world",
-          "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss"
-        },
+        "score": 3.96,
+        "firstSeenAt": "2026-11-15T20:07:06.000Z",
+        "lastUpdatedAt": "2026-11-15T20:07:06.000Z",
         "sources": [
           {
-            "id": "bbc-world",
-            "name": "BBC News World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "scmp-world",
-            "name": "South China Morning Post",
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3462,37 +3412,93 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T11:06:32.000Z",
-            "sourceId": "bbc-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T12:13:48.000Z",
-            "sourceId": "scmp-world"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T12:13:48.000Z",
-            "from": "single-source",
-            "to": "confirmed"
+            "at": "2026-11-15T20:07:06.000Z",
+            "sourceId": "al-jazeera"
           }
         ],
         "articles": [
           {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-            "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-            "summary": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-            "publishedAt": "2026-11-15T11:06:32.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg"
-          },
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
+            "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
+            "summary": "'If we don't stop this outbreak now, it would be the worst Ebola outbreak,' Africa ​CDC director says.",
+            "publishedAt": "2026-11-15T20:07:06.000Z"
+          }
+        ]
+      },
+      {
+        "storyId": "424157e1e3fc043b",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.94,
+        "firstSeenAt": "2026-11-15T19:53:07.000Z",
+        "lastUpdatedAt": "2026-11-15T19:53:07.000Z",
+        "sources": [
           {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-            "title": "Jordan sentences 3 men to death over deadly church attack",
-            "summary": "A Jordanian court on Sunday sentenced three men to death by hanging over a deadly church shooting, as the kingdom’s Christmas celebrations were cancelled in solidarity with the victims’ families. Gunmen killed nine people and wounded 25 others when they stormed a funeral at a Greek Orthodox church in southern Hammoud village, Karak governorate, on October 23. Authorities said three men, two Jordanian brothers and their relative by marriage, had fled after the attack and were arrested three days...",
-            "publishedAt": "2026-11-15T12:13:48.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/a42ece83-fb38-4965-8c89-8ffd7ef2cdfd_e2b91c38.jpg?itok=7sxkP9OV&v=1794744816"
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T19:53:07.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/sport/2026/nov/15/lsu-star-milaysia-fulwiley-arrested-after-allegedly-striking-police-officer-with-car",
+            "title": "LSU star MiLaysia Fulwiley arrested after allegedly striking police officer with car",
+            "summary": "Guard allegedly tried to flee traffic stop in Baton Rouge Tigers say they are aware of situation involving player LSU guard MiLaysia Fulwiley, one of the ninth-ranked Tigers’ leading scorers, was arrested after allegedly striking a police officer while attempting to flee from a traffic stop. LSU’s athletic department, in a written statement provided to The Associated Press, said university officials “are aware of the situation and have no further comment at this time as it’s an ongoing legal matter.” Continue reading...",
+            "publishedAt": "2026-11-15T19:53:07.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/d0cdc7ba293e89a7643406bdac809c2973100068/510_0_2548_2039/master/2548.jpg?width=140&quality=85&auto=format&fit=max&s=6f16fa20cf5b814f547ed279890aee40"
+          }
+        ]
+      },
+      {
+        "storyId": "2fea7693c746cbbf",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.93,
+        "firstSeenAt": "2026-11-15T19:40:23.000Z",
+        "lastUpdatedAt": "2026-11-15T19:40:23.000Z",
+        "sources": [
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T19:40:23.000Z",
+            "sourceId": "guardian-world"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
+            "title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
+            "summary": "Professor calls on ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trials The debate triggered by high profile cases must “pull back the curtain” on the treatment of people making allegations of sexual offences in the criminal justice system in England and Wales, the government’s independent adviser on rape has told the Guardian. Prof Katrin Hohl, who has advised the government in an overhaul of how rape is treated by police forces and the Crown Prosecution Service (CPS), said the government should use the public awareness triggered by Russell Brand’s conviction for rape to examine the use of rape myths and jury direction in trials. Continue reading...",
+            "publishedAt": "2026-11-15T19:40:23.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/70da16c077d52bf4ba97063e669ba34a16329c85/645_0_2907_2326/master/2907.jpg?width=140&quality=85&auto=format&fit=max&s=16427c154be1f5d516fa4caa85b7d6e4"
           }
         ]
       },
@@ -3504,7 +3510,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.92,
         "firstSeenAt": "2026-11-15T19:35:48.000Z",
         "lastUpdatedAt": "2026-11-15T19:35:48.000Z",
         "sources": [
@@ -3527,92 +3533,10 @@
           {
             "sourceId": "scmp-world",
             "url": "https://www.scmp.com/news/world/europe/article/3374517/nato-skip-leaders-summit-albania-next-year-high-level-meetings-are-scaled-back",
-            "title": "Nato to skip leaders’ summit in Albania next year as high-level meetings are scaled back",
+            "title": "Nato to skip 2027 Albania leaders’ summit as high-level meetings are scaled back",
             "summary": "Nato is scaling back its high-level meetings and will not hold a leaders’ summit in Albania next year as previously planned amid tension within the alliance over defence spending, Iran and the war in Ukraine. Albanian Prime Minister Edi Rama said on Thursday that “there is not yet a common position on when the summit will happen, for sure not in 2027”. He said that “in 2028, if it will be a summit, it will be in Tirana”, Albania’s capital. Nato Secretary General Mark Rutte played down the issue....",
             "publishedAt": "2026-11-15T19:35:48.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/9d03f9a1-2028-4764-bfc8-da4fa9a8e670_d14c50d4.jpg?itok=i0OOC2qA&v=1794770891"
-          }
-        ]
-      },
-      {
-        "storyId": "7c7b29f5e4c81914",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.96,
-        "firstSeenAt": "2026-11-15T19:32:39.000Z",
-        "lastUpdatedAt": "2026-11-15T19:32:39.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
-          "sourceId": "bbc-world",
-          "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-world",
-            "name": "BBC News World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T19:32:39.000Z",
-            "sourceId": "bbc-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-            "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-            "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
-            "publishedAt": "2026-11-15T19:32:39.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "4b8ce86545244339",
-        "language": "en",
-        "label": "single-source",
-        "developing": true,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.96,
-        "firstSeenAt": "2026-11-15T19:27:24.000Z",
-        "lastUpdatedAt": "2026-11-15T19:27:24.000Z",
-        "sources": [
-          {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T19:27:24.000Z",
-            "sourceId": "guardian-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
-            "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
-            "summary": "Oklahoma man, 73, executed for killing ex’s estranged husband, as US nears 40 executions for second straight year A Texas man convicted of fatally stabbing and beheading his three young children in a squalid, windowless apartment in 2003 was recently executed. John Allen Rubio, 46, was pronounced dead at 6.47 pm on Thursday after a lethal injection at the state prison in Huntsville, Texas. His killings of his baby girl and two toddlers so rocked the city of Brownsville on the US border with Mexico that the apartment building was later demolished – and the land turned into a park and community garden. Continue reading...",
-            "publishedAt": "2026-11-15T19:27:24.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/d4d6a76c012facd782c4b989badcf7516260404c/0_69_3352_2682/master/3352.jpg?width=140&quality=85&auto=format&fit=max&s=3df23a284c8724fefc52ded224b26c9d"
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/9d03f9a1-2028-4764-bfc8-da4fa9a8e670_bf814178.jpg?itok=-ea94pgs&v=1794774512"
           }
         ]
       }
@@ -3629,7 +3553,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.67,
+        "score": 10.62,
         "firstSeenAt": "2026-11-15T11:49:59.000Z",
         "lastUpdatedAt": "2026-11-15T16:00:03.000Z",
         "image": {
@@ -3742,6 +3666,103 @@
         ]
       },
       {
+        "storyId": "62947fffdeccb0ba",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 9,
+        "firstSeenAt": "2026-11-15T06:34:43.000Z",
+        "lastUpdatedAt": "2026-11-15T20:33:44.159Z",
+        "image": {
+          "url": "https://media.cumhuriyet.com.tr/Archive/637f6499-9134-4846-8d4c-aee21db882f2.jpg",
+          "sourceId": "cumhuriyet",
+          "sourceName": "Cumhuriyet",
+          "articleUrl": "https://www.cumhuriyet.com.tr/yasam/masterchef-te-nefes-kesen-veda-gecesi-15-kasim-2026-masterchef-te-kim-elendi-2556410"
+        },
+        "sources": [
+          {
+            "id": "haberler-magazin",
+            "name": "Haberler.com Magazin",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "cnnturk-magazin",
+            "name": "CNN Türk Magazin",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet",
+            "camp": "opposition",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T06:34:43.000Z",
+            "sourceId": "haberler-magazin"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T11:06:26.000Z",
+            "sourceId": "cnnturk-magazin"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T20:16:00.000Z",
+            "sourceId": "cumhuriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-15T20:16:00.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "haberler-magazin",
+            "url": "https://www.haberler.com/haberler/masterchefte-haftanin-son-eleme-adayi-enes-oldu-20428637-haberi/",
+            "title": "MasterChef'te haftanın son eleme adayı Enes oldu: Potada dört isim var",
+            "summary": "MasterChef Türkiye'de 14 Kasım akşamı oynanan dokunulmazlık oyununu kırmızı takım kazandı, mavi takımdan Enes haftanın dördüncü eleme adayı oldu.",
+            "publishedAt": "2026-11-15T06:34:43.000Z",
+            "imageUrl": "https://foto.haberler.com/haber/2026/11/15/masterchefte-haftanin-son-eleme-adayi-enes-oldu-20428637_3565_amp.jpg"
+          },
+          {
+            "sourceId": "cnnturk-magazin",
+            "url": "https://www.cnnturk.com/magazin/masterchef-eleme-adayi-14-kasim-2026-masterchefte-eleme-adayi-kim-oldu-dokunulmazlik-oyununu-hangi-takim-kazandi-3493233",
+            "title": "MASTERCHEF ELEME ADAYI 14 KASIM 2026 | MasterChef'te eleme adayı kim oldu, dokunulmazlık oyununu hangi takım kazandı?",
+            "summary": "MasterChef'te eleme adayı olan yarışmacı, programın 14 Kasım 2026 Cumartesi günü yayınlanan bölümünü kaçıran vatandaşlar tarafından merak konusu oldu. Mehmet Yalçınkaya, Danilo Zanna ile Somer Somer Sivrioğlu’nun jüri üyeliğini yaptığı MasterChef’te eleme potasına giren ilk 3 isim Nurten, Burçin ve Bahar olmuştu. Peki, MasterChef’te dokunulmazlık oyununu hangi takım kazandı? 14 Kasım 2026 MasterChef'te eleme adayı kim oldu?",
+            "publishedAt": "2026-11-15T11:06:26.000Z"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/yasam/masterchef-te-nefes-kesen-veda-gecesi-15-kasim-2026-masterchef-te-kim-elendi-2556410",
+            "title": "MasterChef’te nefes kesen veda gecesi: 15 Kasım 2026 MasterChef’te kim elendi?",
+            "summary": "TV8 ekranlarında yayınlanan 15 Kasım Pazar bölümü, sezonun en çekişmeli eleme gecelerinden birine sahne oldu. Mavi ve Kırmızı takım arasındaki dengeleri değiştiren haftanın ardından gözler, beyaz önlüğü korumak için son kozlarını oynayan dört yarışmacıya çevrildi",
+            "publishedAt": "2026-11-15T20:16:00.000Z",
+            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/637f6499-9134-4846-8d4c-aee21db882f2.jpg"
+          },
+          {
+            "sourceId": "cnnturk-magazin",
+            "url": "https://www.cnnturk.com/magazin/masterchef-elenen-isim-15-kasim-masterchefte-kim-elendi-kim-veda-etti-iste-elenen-yarismaci-3493641",
+            "title": "MASTERCHEF ELENEN İSİM: 15 Kasım MasterChef'te kim elendi, kim veda etti? İşte elenen yarışmacı",
+            "summary": "MasterChef Türkiye'de 15 Kasım akşamında eleme heyecanı yaşandı. Eleme potasında yer alan isimler yarışmaya veda etmemek için tezgah başında hünerlerini sergiledi. Haftanın eleme gecesinde yarışmacılar kereviz kullanarak yaratıcı ve lezzetli yemek hazırlamaya çalıştı. Yarışmacılar hem lezzet hem de sunum açısından şeflerden yüksek puan alabilmek için mücadele etti. Gecenin sonunda ise en az başarılı tabağı hazırlayan yarışmacı elendi. Peki 15 Kasım MasterChef'te kim elendi, kim veda etti? İşte elenen yarışmacı...",
+            "publishedAt": "2026-11-15T20:33:44.159Z"
+          }
+        ]
+      },
+      {
         "storyId": "3c58ef92fdf78c46",
         "language": "tr",
         "label": "confirmed",
@@ -3752,7 +3773,7 @@
         ],
         "score": 9,
         "firstSeenAt": "2026-11-15T07:15:06.000Z",
-        "lastUpdatedAt": "2026-11-15T19:58:52.143Z",
+        "lastUpdatedAt": "2026-11-15T20:33:44.159Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/d4b7d41d-dae4-4f84-a972-fdc862eba31e.jpg",
           "sourceId": "cumhuriyet",
@@ -3802,12 +3823,12 @@
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-15T19:58:52.143Z",
+            "at": "2026-11-15T20:33:44.159Z",
             "sourceId": "cnnturk-magazin"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-15T19:58:52.143Z",
+            "at": "2026-11-15T20:33:44.159Z",
             "from": "single-source",
             "to": "confirmed"
           }
@@ -3842,109 +3863,7 @@
             "url": "https://www.cnnturk.com/magazin/milyoner-bu-aksam-yok-mu-neden-yok-15-kasim-kim-milyoner-olmak-ister-yeni-bolumu-ne-zaman-yayinlanacak-3493635",
             "title": "MİLYONER YENİ BÖLÜM BU AKŞAM YOK MU, NEDEN YOK? 15 Kasım Kim Milyoner Olmak İster Yeni Bölümü Ne Zaman Yayınlanacak?",
             "summary": "Kim Milyoner Olmak İster yarışmasının yeni bölümü bugün ( 15 Kasım 2026 Pazar ) akşamında ekranlarda yer almadı. ATV ekranlarında Milyoner yarışmasının yeni bölümünü göremeyen seyirciler 'Milyoner neden yok?', 'Kim Milyoner Olmak İster yeni bölümü ne zaman?' sorularının yanıtını sorgulamaya başladı. Peki Milyoner bu akşam var mı, neden yok? 15 Kasım Kim Milyoner Olmak İster yeni bölümü ne zaman yayınlanacak? Detaylar haberimizde...",
-            "publishedAt": "2026-11-15T19:58:52.143Z"
-          }
-        ]
-      },
-      {
-        "storyId": "8e0d050b4fc2fbe7",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": true,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 8.89,
-        "firstSeenAt": "2026-11-15T16:11:15.000Z",
-        "lastUpdatedAt": "2026-11-15T18:39:28.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/52e05412-59b0-4985-8d13-a4b94906790d.jpeg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/spor/canli-anlatim-fransa-turkiye-uefa-uluslar-ligi-6-hafta-mucadelesi-2556397"
-        },
-        "sources": [
-          {
-            "id": "sabah",
-            "name": "Sabah",
-            "camp": "pro-government",
-            "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T16:11:15.000Z",
-            "sourceId": "sabah"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T18:36:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T18:36:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "sabah",
-            "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/a-spor-canli-izle-uluslar-liginde-belcika-italya-maci-ne-zaman-saat-kacta-hangi-kanalda",
-            "title": "A Spor Canlı İzle | Uluslar Ligi’nde Belçika - İtalya maçı! İlk yarı oynanıyor",
-            "summary": "UEFA Uluslar Ligi A Ligi 1. Grup’un 6. haftasında Belçika ile İtalya karşı karşıya geliyor. Zorlu müsabaka canlı yayınla A Spor’da! Devamı için tıklayınız",
-            "publishedAt": "2026-11-15T16:11:15.000Z",
-            "imageUrl": "https://iasbh.tmgrup.com.tr/4ba1b2/1200/675/0/0/2048/1151?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/a-spor-canli-izle-uluslar-liginde-belcika-italya-maci-ne-zaman-saat-kacta-hangi-kanalda-1794759058319.jpg"
-          },
-          {
-            "sourceId": "sabah",
-            "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/a-haber-canli-izle-uluslar-liginde-ispanya-ingiltere-maci-ne-zaman-saat-kacta-sifresiz-izle",
-            "title": "A Haber Canlı İzle | Uluslar Ligi’nde İspanya - İngiltere maçı! İlk yarı oynanıyor",
-            "summary": "İspanya, UEFA Uluslar Ligi A Ligi 3. Grup’un 6. haftasında İngiltere ile karşı karşıya geliyor. Zorlu müsabaka canlı yayınla A Haber’de! Devamı için tıklayınız",
-            "publishedAt": "2026-11-15T16:17:32.000Z",
-            "imageUrl": "https://iasbh.tmgrup.com.tr/459cdd/1200/675/0/0/2048/1151?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/a-haber-canli-izle-uluslar-liginde-ispanya-ingiltere-maci-ilk-yari-oynaniyor-1794772526354.jpg"
-          },
-          {
-            "sourceId": "sabah",
-            "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/atv-canli-izle-uluslar-liginde-fransa-turkiye-maci-ne-zaman-saat-kacta-sifresiz-izle",
-            "title": "ATV Canlı İzle | Uluslar Ligi’nde Fransa - Türkiye maçı! İlk yarı oynanıyor",
-            "summary": "UEFA Uluslar Ligi A Ligi 1. Grup’un 6. haftasında Fransa ile Türkiye karşı karşıya geliyor. A Milli Futbol Takımı’nın oynayacağı müsabaka ATV’den canlı yayınlanıyor. Devamı için tıklayınız",
-            "publishedAt": "2026-11-15T16:21:42.000Z",
-            "imageUrl": "https://iasbh.tmgrup.com.tr/6bb840/1200/675/0/0/2048/1151?u=https://isbh.tmgrup.com.tr/sbh/2026/11/15/atv-canli-izle-uluslar-liginde-fransa-turkiye-maci-ne-zaman-saat-kacta-sifresiz-izle-1794759628596.jpg"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/spor/canli-anlatim-fransa-turkiye-uefa-uluslar-ligi-6-hafta-mucadelesi-2556397",
-            "title": "CANLI ANLATIM: Fransa 0-0 Türkiye | UEFA Uluslar Ligi 6. Hafta Mücadelesi",
-            "summary": "A Milli Futbol Takımı, UEFA Uluslar Ligi'nin 6. haftasında deplasmanda Fransa ile karşılaşıyor. Zorlu mücadeleye dair tüm ayrıntılar anbean Cumhuriyet.com.tr'de...",
-            "publishedAt": "2026-11-15T18:36:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/52e05412-59b0-4985-8d13-a4b94906790d.jpeg"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/a-milli-takimin-fransa-karsisindaki-ilk-11-i-belli-oldu-ve-kalede-berke-ozer-basliyor-1395293",
-            "title": "A Milli Takımın Fransa Karşısındaki İlk 11'i Belli Oldu ve Kalede Berke Özer Başlıyor",
-            "summary": "A Milli Futbol Takımı, UEFA Uluslar A Ligi 1. Grup'taki son maçında bugün Fransa deplasmanında sahaya çıkıyor. Karşılaşma Bordeaux'daki Matmut Atlantique Stadı'nda Türkiye saatiyle 22.45'te başlayacak ve ATV'den canlı, şifresiz yayınlanacak. Teknik direktör Sergen Yalçın, Fransa'ya karşı sahaya süreceği 11'i belirledi. Maçı İngiliz hakem Chris Kavanagh yönetecek. <a href='https://www.fanatik.com.tr/turkiye/live-fransa-turkiye-maci-ne-zaman-saat-kacta-hangi-kanalda-11ler-belli-oldu-2644559'>Kaynak</a>",
-            "publishedAt": "2026-11-15T18:39:28.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af9fc28867b22fdfcba5168/rev-0/w-1200/h-675/f-jpg/s-2bb7311b067a8dddd6e23184cef49557d106a59c.jpg"
+            "publishedAt": "2026-11-15T20:33:44.159Z"
           }
         ]
       },
@@ -3957,7 +3876,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.77,
+        "score": 8.72,
         "firstSeenAt": "2026-11-15T14:58:26.000Z",
         "lastUpdatedAt": "2026-11-15T17:13:56.000Z",
         "image": {
@@ -4019,96 +3938,6 @@
         ]
       },
       {
-        "storyId": "daa93f9c0241cf26",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 8.53,
-        "firstSeenAt": "2026-11-15T06:15:43.000Z",
-        "lastUpdatedAt": "2026-11-15T14:21:00.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/943942a4-7021-41cf-a96b-db73a0734cda.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/ekonomi/ticaret-bakanligi-duyurdu-fal-medyum-ve-buyu-reklamlarina-durdurma-karari-2556368"
-        },
-        "sources": [
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "diken",
-            "name": "Diken",
-            "camp": "independent",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:15:43.000Z",
-            "sourceId": "onedio"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T06:36:43.000Z",
-            "sourceId": "diken"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T14:21:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T14:21:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/sosyal-medyadaki-fal-medyum-ve-buyu-reklamlari-icin-karar-cikti-1395190",
-            "title": "Sosyal Medyadaki Fal, Medyum ve Büyü Reklamları İçin Karar Çıktı",
-            "summary": "Ticaret Bakanlığı Reklam Kurulu, internet siteleri ve sosyal medyada fal, medyumluk ve büyü hizmeti tanıtan reklamların durdurulmasına karar verdi. Kurul, bu tanıtımların tüketiciyi yanıltıcı ve aldatıcı olduğuna hükmetti.Ayrıntılar haberimizde.",
-            "publishedAt": "2026-11-15T06:15:43.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6af94ddd867b2269e8b75df2/rev-0/w-1200/h-675/f-jpg/s-8b516894234b653c2b887a509663c091e072c034.jpg"
-          },
-          {
-            "sourceId": "diken",
-            "url": "https://www.diken.com.tr/fal-buyu-ve-medyum-reklamlari-durduruldu/",
-            "title": "Fal, büyü ve medyum reklamları durduruldu",
-            "summary": "Fal, büyü ve medyum reklamları durduruldu 15.11.2026 Diken Ticaret Bakanlığı fal, büyü ve medyum reklamlarını durdurma kararı aldı. The post Fal, büyü ve medyum reklamları durduruldu appeared first on #site_linkat 15.11.2026 .",
-            "publishedAt": "2026-11-15T06:36:43.000Z"
-          },
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/ekonomi/ticaret-bakanligi-duyurdu-fal-medyum-ve-buyu-reklamlarina-durdurma-karari-2556368",
-            "title": "Ticaret Bakanlığı duyurdu: Fal, medyum ve büyü reklamlarına durdurma kararı",
-            "summary": "Ticaret Bakanlığı bünyesindeki Reklam Kurulu, sosyal medya platformları ve internet sitelerinde yer alan fal ve medyumluk hizmetlerine yönelik ticari tanıtımların durdurulmasını kararlaştırdı.",
-            "publishedAt": "2026-11-15T14:21:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/943942a4-7021-41cf-a96b-db73a0734cda.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "f3f108aab3446224",
         "language": "tr",
         "label": "confirmed",
@@ -4116,7 +3945,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.47,
+        "score": 8.42,
         "firstSeenAt": "2026-11-15T06:35:31.000Z",
         "lastUpdatedAt": "2026-11-15T13:37:00.000Z",
         "image": {
@@ -4209,92 +4038,6 @@
         ]
       },
       {
-        "storyId": "de56bf73d0603302",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 8.43,
-        "firstSeenAt": "2026-11-15T06:06:20.000Z",
-        "lastUpdatedAt": "2026-11-15T13:09:59.000Z",
-        "image": {
-          "url": "https://im.haberturk.com/l/2026/11/15/ver1794722745/3927444/jpg/1920x1080",
-          "sourceId": "haberturk",
-          "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/gundem/son-dakika-meteoroloji-den-saganak-ve-ruzgar-aciklamasi-ile-bazi-iller-icin-uyari-3927444"
-        },
-        "sources": [
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:06:20.000Z",
-            "sourceId": "haberturk"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T13:09:59.000Z",
-            "sourceId": "sozcu"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T13:09:59.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/gundem/son-dakika-meteoroloji-den-saganak-ve-ruzgar-aciklamasi-ile-bazi-iller-icin-uyari-3927444",
-            "title": "Meteoroloji'den sağanak ve rüzgar açıklaması ile bazı iller için uyarı!",
-            "summary": "Meteoroloji'den yapılan son hava durumu tahminlerine göre bugün birçok ilde sağanak ve kuvvetli rüzgar bekleniyor. Açıklamada yağışların, Doğu Karadeniz kıyılarında yer yer kuvvetli olacağı kaydedilirken, şiddetli rüzgarın da Marmara ve Kuzey Ege ile Orta ve Doğu Karadeniz kıyılarında etkisini göstereceği ifade edildi. İşte bugün illerimizde beklenen hava durumu..",
-            "publishedAt": "2026-11-15T06:06:20.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794722745/3927444/jpg/1920x1080"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/bazi-illerde-saganak-bazi-bolgelerde-firtina-meteoroloji-tek-tek-acikladi-1395200",
-            "title": "Bazı İllerde Sağanak, Bazı Bölgelerde Fırtına: Meteoroloji Tek Tek Açıkladı",
-            "summary": "Meteoroloji Genel Müdürlüğü, Doğu Karadeniz kıyıları için kuvvetli yağış, Marmara, Kuzey Ege ve Karadeniz kıyıları için kuvvetli rüzgar uyarısı yaptı. Yurdun büyük bölümünde parçalı ve çok bulutlu bir hava beklenirken birçok bölgede sağanak yağış görülecek.İşte bölge bölge hava durumu...",
-            "publishedAt": "2026-11-15T07:36:22.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af960c7b86a1db2cf8443ae/rev-0/w-1200/h-675/f-jpg/s-89663994ce770d096e09059c272e5bff52a3f9e8.jpg"
-          },
-          {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/saganak-ve-firtina-yine-geliyor-p381535",
-            "title": "Sağanak ve fırtına yine geliyor!",
-            "summary": "Meteoroloji Genel Müdürlüğü (MGM) ve İBB Afet Koordinasyon Merkezi (AKOM), yeni haftaya ilişkin kuvvetli sağanak ve fırt...",
-            "publishedAt": "2026-11-15T13:09:59.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/yeni-proje-20261115t123638069png-Ru1v3MfcOUyyJDxxLWVQPg.png"
-          }
-        ]
-      },
-      {
         "storyId": "642624a461073bed",
         "language": "tr",
         "label": "confirmed",
@@ -4303,7 +4046,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.12,
+        "score": 8.07,
         "firstSeenAt": "2026-11-15T07:20:35.000Z",
         "lastUpdatedAt": "2026-11-15T09:24:23.000Z",
         "image": {
@@ -4389,7 +4132,7 @@
           "independent-sources",
           "single-camp"
         ],
-        "score": 7.53,
+        "score": 7.48,
         "firstSeenAt": "2026-11-15T13:30:13.000Z",
         "lastUpdatedAt": "2026-11-15T14:20:00.000Z",
         "image": {
@@ -4461,7 +4204,7 @@
         ],
         "score": 3.98,
         "firstSeenAt": "2026-11-15T19:19:12.000Z",
-        "lastUpdatedAt": "2026-11-15T19:47:46.000Z",
+        "lastUpdatedAt": "2026-11-15T20:20:02.000Z",
         "image": {
           "url": "https://im.haberturk.com/l/2026/11/15/ver1794771063/3927547/jpg/1920x1080",
           "sourceId": "haberturk",
@@ -4482,6 +4225,13 @@
             "camp": "mainstream",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
           }
         ],
         "timeline": [
@@ -4512,6 +4262,14 @@
             "summary": "Ünlü şarkıcı ve oyuncu Kutsi, bir süredir aşk yaşadığı Sevda Sönmez ile hayatını birleştirdi",
             "publishedAt": "2026-11-15T19:47:46.000Z",
             "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794771063/3927547/jpg/1920x1080"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/kutsi-bu-aksam-surpriz-bir-nikah-toreniyle-yeniden-dunyaevine-girdi-1395305",
+            "title": "Kutsi Sürpriz Bir Nikâh Töreniyle Yeniden Dünyaevine Girdi",
+            "summary": "Şarkıcı ve oyuncu Kutsi, özel hayatında yeni bir sayfa açtı. Sanatçının bu akşam yapılan sürpriz nikâh töreni magazin gündeminde dikkat çekti. Törende nikâh şahitliğini bir milletvekili yaptı.",
+            "publishedAt": "2026-11-15T20:20:02.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6afa13d25867a76893ab4c0d/rev-0/w-1200/h-675/f-jpg/s-26ec97ca74ff586740b9862f2e3dc728fc7e04fd.jpg"
           }
         ]
       },
@@ -4523,7 +4281,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.97,
+        "score": 3.92,
         "firstSeenAt": "2026-11-15T15:09:08.000Z",
         "lastUpdatedAt": "2026-11-15T19:38:16.000Z",
         "image": {
@@ -4602,7 +4360,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.95,
+        "score": 3.9,
         "firstSeenAt": "2026-11-15T09:54:35.000Z",
         "lastUpdatedAt": "2026-11-15T19:23:42.000Z",
         "image": {
@@ -4673,11 +4431,11 @@
         "storyId": "e4e1d1af8e35c24f",
         "language": "tr",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.89,
+        "score": 3.84,
         "firstSeenAt": "2026-11-15T17:13:27.000Z",
         "lastUpdatedAt": "2026-11-15T18:37:00.000Z",
         "image": {
@@ -4736,7 +4494,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.85,
+        "score": 3.8,
         "firstSeenAt": "2026-11-15T18:09:07.000Z",
         "lastUpdatedAt": "2026-11-15T18:09:07.000Z",
         "image": {
@@ -4773,15 +4531,15 @@
         ]
       },
       {
-        "storyId": "47e2c234ecfcd9ec",
+        "storyId": "79acbd6e7e053384",
         "language": "tr",
         "label": "single-source",
         "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.82,
-        "firstSeenAt": "2026-11-15T06:01:06.000Z",
+        "score": 3.77,
+        "firstSeenAt": "2026-11-15T17:48:52.000Z",
         "lastUpdatedAt": "2026-11-15T17:48:52.000Z",
         "image": {
           "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/nebahat-cehre-haluk-bilginer-121212jpg-Ynw19W91X06te9szsMVdJQ.jpg",
@@ -4790,13 +4548,6 @@
           "articleUrl": "https://www.sozcu.com.tr/nebahat-cehre-haluk-bilginer-turk-sinemasi-yanit-p381641"
         },
         "sources": [
-          {
-            "id": "haberler-magazin",
-            "name": "Haberler.com Magazin",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
           {
             "id": "sozcu-magazin",
             "name": "Sözcü Magazin",
@@ -4808,32 +4559,11 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T06:01:06.000Z",
-            "sourceId": "haberler-magazin"
-          },
-          {
-            "kind": "outlet-joined",
             "at": "2026-11-15T17:48:52.000Z",
             "sourceId": "sozcu-magazin"
           }
         ],
         "articles": [
-          {
-            "sourceId": "haberler-magazin",
-            "url": "https://www.haberler.com/magazin/talat-buluttan-haluk-bilginere-sert-cikis-20428583-haberi/",
-            "title": "Talat Bulut'tan Haluk Bilginer'e sert çıkış: Nankörlük!",
-            "summary": "Haluk Bilginer'in “Türk sineması” yerine “Türkiye sineması” ifadesinin kullanılmasını önermesine Talat Bulut'tan sert tepki geldi. Bilginer'in İngiliz vatandaşlığına dikkat çeken Bulut, “114 yıllık Türk sineması kimliğini değiştirmesi bir nankörlüktür” sözleriyle meslektaşını eleştirdi.",
-            "publishedAt": "2026-11-15T06:01:06.000Z",
-            "imageUrl": "https://foto.haberler.com/haber/2026/11/15/talat-buluttan-haluk-bilginere-sert-cikis-20428583_2840_amp.jpg"
-          },
-          {
-            "sourceId": "haberler-magazin",
-            "url": "https://www.haberler.com/haber/haluk-bilginer-ingiliz-vatandasi-mi-turk-20430268-haberi/",
-            "title": "Haluk Bilginer İngiliz vatandaşı mı, Türk vatandaşı mı?",
-            "summary": "Haluk Bilginer’in İngiltere’de uzun yıllar yaşaması ve oyunculuk kariyerinin bir bölümünü burada sürdürmesi, vatandaşlık durumuna ilişkin merakı artırdı. Ünlü oyuncunun İngiliz vatandaşı mı yoksa Türk vatandaşı mı olduğu, kamuoyunda araştırılan konular arasında yer alıyor. Peki, Haluk Bilginer İngiliz vatandaşı mı, Türk vatandaşı mı? Detaylar haberimizde.",
-            "publishedAt": "2026-11-15T16:54:10.000Z",
-            "imageUrl": "https://foto.haberler.com/haber/2026/11/15/haluk-bilginer-ingiliz-vatandasi-mi-turk_50b75f6508_amp.jpg"
-          },
           {
             "sourceId": "sozcu-magazin",
             "url": "https://www.sozcu.com.tr/nebahat-cehre-haluk-bilginer-turk-sinemasi-yanit-p381641",
@@ -4852,7 +4582,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.8,
+        "score": 3.75,
         "firstSeenAt": "2026-11-15T08:22:20.000Z",
         "lastUpdatedAt": "2026-11-15T17:31:40.000Z",
         "image": {
@@ -4915,7 +4645,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.76,
+        "score": 3.71,
         "firstSeenAt": "2026-11-15T11:36:00.000Z",
         "lastUpdatedAt": "2026-11-15T17:06:09.000Z",
         "image": {
@@ -4974,7 +4704,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.75,
+        "score": 3.7,
         "firstSeenAt": "2026-11-15T16:04:00.000Z",
         "lastUpdatedAt": "2026-11-15T16:57:12.000Z",
         "image": {
@@ -5033,7 +4763,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.72,
+        "score": 3.67,
         "firstSeenAt": "2026-11-15T15:41:40.000Z",
         "lastUpdatedAt": "2026-11-15T16:37:08.000Z",
         "sources": [
@@ -5077,79 +4807,6 @@
         ]
       },
       {
-        "storyId": "bb324c75ea6d9107",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.71,
-        "firstSeenAt": "2026-11-15T07:58:07.000Z",
-        "lastUpdatedAt": "2026-11-15T16:28:59.000Z",
-        "image": {
-          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/mukemmelannelerjpg-FaIWW706aUWuTWrZwEAZVw.jpg",
-          "sourceId": "sozcu-magazin",
-          "sourceName": "Sözcü Magazin",
-          "articleUrl": "https://www.sozcu.com.tr/iki-unlu-oyuncu-ayni-dizide-bulusuyor-mukemmel-anneler-in-kadrosu-sekilleniyor-p381498"
-        },
-        "sources": [
-          {
-            "id": "sozcu-magazin",
-            "name": "Sözcü Magazin",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          },
-          {
-            "id": "haberler-magazin",
-            "name": "Haberler.com Magazin",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T07:58:07.000Z",
-            "sourceId": "sozcu-magazin"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "sozcu-magazin",
-            "url": "https://www.sozcu.com.tr/iki-unlu-oyuncu-ayni-dizide-bulusuyor-mukemmel-anneler-in-kadrosu-sekilleniyor-p381498",
-            "title": "İki ünlü oyuncu aynı dizide buluşuyor! Mükemmel Anneler'in kadrosu şekilleniyor",
-            "summary": "Deniz Çakır ve Ebru Özkan, TV8 ekranlarında yayınlanacak Mükemmel Anneler dizisiyle izleyici karşısına çıkmaya hazırlanı...",
-            "publishedAt": "2026-11-15T07:58:07.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/mukemmelannelerjpg-FaIWW706aUWuTWrZwEAZVw.jpg"
-          },
-          {
-            "sourceId": "haberler-magazin",
-            "url": "https://www.haberler.com/haberler/deniz-cakir-ve-ebru-ozkan-tv8in-yeni-dizisi-20429436-haberi/",
-            "title": "Deniz Çakır ve Ebru Özkan, TV8'in yeni dizisi Mükemmel Anneler'de buluşuyor",
-            "summary": "Deniz Çakır ve Ebru Özkan, Pem Yapım'ın TV8 için hazırladığı Mükemmel Anneler dizisinde başrolleri paylaşacak. Dizinin ocak ayında ekrana gelmesi planlanıyor.",
-            "publishedAt": "2026-11-15T10:36:29.000Z"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/pelin-akil-ekrana-donuyor-mukemmel-anneler-kadrosunda-rol-alacak-1395282",
-            "title": "Pelin Akil Ekrana Dönüyor, \"Mükemmel Anneler\" Kadrosunda Rol Alacak",
-            "summary": "Pelin Akil yeniden set yolunda. Gelen teklifleri değerlendiren oyuncu, tv8'in yeni dizisi Mükemmel Anneler'e katılmaya karar verdi. Akil, dizide Banu karakterini canlandıracak. Kadroda daha önce Ebru Özkan ve Deniz Çakır'ın adı açıklanmıştı.",
-            "publishedAt": "2026-11-15T16:28:59.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6af9dd90b86a1d5745863dff/rev-0/w-1200/h-675/f-jpg/s-c936898c7f370ca60a51b6ba5f689666aace972d.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "a07217b48ae0639f",
         "language": "tr",
         "label": "single-source",
@@ -5157,7 +4814,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.64,
+        "score": 3.59,
         "firstSeenAt": "2026-11-15T14:32:54.000Z",
         "lastUpdatedAt": "2026-11-15T15:36:17.000Z",
         "image": {
@@ -5216,7 +4873,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.63,
+        "score": 3.58,
         "firstSeenAt": "2026-11-15T12:32:00.000Z",
         "lastUpdatedAt": "2026-11-15T15:32:59.000Z",
         "image": {
@@ -5276,7 +4933,7 @@
           "copies-not-counted",
           "single-owner"
         ],
-        "score": 3.62,
+        "score": 3.58,
         "firstSeenAt": "2026-11-15T13:52:02.000Z",
         "lastUpdatedAt": "2026-11-15T15:28:15.000Z",
         "image": {
@@ -5342,7 +4999,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.59,
+        "score": 3.54,
         "firstSeenAt": "2026-11-15T12:26:00.000Z",
         "lastUpdatedAt": "2026-11-15T15:01:05.000Z",
         "image": {
@@ -5689,7 +5346,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.53,
+        "score": 3.49,
         "firstSeenAt": "2026-11-15T11:36:53.000Z",
         "lastUpdatedAt": "2026-11-15T14:23:55.000Z",
         "image": {
@@ -5748,7 +5405,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.53,
+        "score": 3.48,
         "firstSeenAt": "2026-11-15T14:19:34.000Z",
         "lastUpdatedAt": "2026-11-15T14:19:34.000Z",
         "sources": [
@@ -5779,6 +5436,70 @@
         ]
       },
       {
+        "storyId": "6b8ba826109f5e24",
+        "language": "tr",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.38,
+        "firstSeenAt": "2026-11-15T07:36:22.000Z",
+        "lastUpdatedAt": "2026-11-15T13:09:59.000Z",
+        "image": {
+          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/yeni-proje-20261115t123638069png-Ru1v3MfcOUyyJDxxLWVQPg.png",
+          "sourceId": "sozcu",
+          "sourceName": "Sözcü",
+          "articleUrl": "https://www.sozcu.com.tr/saganak-ve-firtina-yine-geliyor-p381535"
+        },
+        "sources": [
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T07:36:22.000Z",
+            "sourceId": "onedio"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-15T13:09:59.000Z",
+            "sourceId": "sozcu"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/bazi-illerde-saganak-bazi-bolgelerde-firtina-meteoroloji-tek-tek-acikladi-1395200",
+            "title": "Bazı İllerde Sağanak, Bazı Bölgelerde Fırtına: Meteoroloji Tek Tek Açıkladı",
+            "summary": "Meteoroloji Genel Müdürlüğü, Doğu Karadeniz kıyıları için kuvvetli yağış, Marmara, Kuzey Ege ve Karadeniz kıyıları için kuvvetli rüzgar uyarısı yaptı. Yurdun büyük bölümünde parçalı ve çok bulutlu bir hava beklenirken birçok bölgede sağanak yağış görülecek.İşte bölge bölge hava durumu...",
+            "publishedAt": "2026-11-15T07:36:22.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6af960c7b86a1db2cf8443ae/rev-0/w-1200/h-675/f-jpg/s-89663994ce770d096e09059c272e5bff52a3f9e8.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/saganak-ve-firtina-yine-geliyor-p381535",
+            "title": "Sağanak ve fırtına yine geliyor!",
+            "summary": "Meteoroloji Genel Müdürlüğü (MGM) ve İBB Afet Koordinasyon Merkezi (AKOM), yeni haftaya ilişkin kuvvetli sağanak ve fırt...",
+            "publishedAt": "2026-11-15T13:09:59.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/yeni-proje-20261115t123638069png-Ru1v3MfcOUyyJDxxLWVQPg.png"
+          }
+        ]
+      },
+      {
         "storyId": "24a497f8cb313b78",
         "language": "tr",
         "label": "single-source",
@@ -5787,7 +5508,7 @@
           "copies-not-counted",
           "single-owner"
         ],
-        "score": 3.42,
+        "score": 3.38,
         "firstSeenAt": "2026-11-15T08:20:00.000Z",
         "lastUpdatedAt": "2026-11-15T13:04:40.000Z",
         "image": {
@@ -5853,7 +5574,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.41,
+        "score": 3.36,
         "firstSeenAt": "2026-11-15T06:47:19.000Z",
         "lastUpdatedAt": "2026-11-15T12:51:09.000Z",
         "image": {
@@ -5935,7 +5656,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.26,
+        "score": 3.21,
         "firstSeenAt": "2026-11-15T11:06:23.000Z",
         "lastUpdatedAt": "2026-11-15T11:06:29.000Z",
         "sources": [
@@ -5972,6 +5693,65 @@
         ]
       },
       {
+        "storyId": "aee31cf25cecec0b",
+        "language": "tr",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.09,
+        "firstSeenAt": "2026-11-15T07:55:46.000Z",
+        "lastUpdatedAt": "2026-11-15T09:35:24.000Z",
+        "image": {
+          "url": "https://im.haberturk.com/l/2026/11/15/ver1794729047/3927462/jpg/1920x1080",
+          "sourceId": "haberturk",
+          "sourceName": "Habertürk",
+          "articleUrl": "https://www.haberturk.com/magazin/foto/irem-derici-den-evlilik-sorularina-yanit-paramiz-kalmadi-3927462"
+        },
+        "sources": [
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "haberler-magazin",
+            "name": "Haberler.com Magazin",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T07:55:46.000Z",
+            "sourceId": "haberturk"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/magazin/foto/irem-derici-den-evlilik-sorularina-yanit-paramiz-kalmadi-3927462",
+            "title": "\"Paramız kalmadı!\"",
+            "summary": "Şarkıcı İrem Derici, Melih Kunukçu ile evlilik planlarından evinin bitmeyen masraflarına dair samimi açıklamalarda bulundu",
+            "publishedAt": "2026-11-15T07:55:46.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/15/ver1794729047/3927462/jpg/1920x1080"
+          },
+          {
+            "sourceId": "haberler-magazin",
+            "url": "https://www.haberler.com/haberler/irem-dericiden-evlilik-sorusuna-yanit-kasa-bombos-20429244-haberi/",
+            "title": "İrem Derici'den evlilik sorusuna \"Paramız kalmadı\" yanıtı",
+            "summary": "Şarkıcı İrem Derici, nişanlısı DJ Melih Kunukçu ile ne zaman evleneceklerine ilişkin soruya, ev tadilatı nedeniyle bütçelerinin tükendiğini söyleyerek yanıt verdi. Kıbrıs’taki konseri öncesinde konuşan Derici, “Kasa boş, kasa bomboş!” dedi. Sanatçı, yapay zekâ tartışmasına ilişkin görüşünü de paylaşırken Serenay Sarıkaya’ya övgüler yağdırdı.",
+            "publishedAt": "2026-11-15T09:35:24.000Z",
+            "imageUrl": "https://foto.haberler.com/haber/2026/11/15/irem-dericiden-evlilik-sorusuna-yanit-kasa-bombos_d117e7e2fa_amp.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "acc0fd9899f74453",
         "language": "en",
         "label": "single-source",
@@ -5979,7 +5759,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 2.95,
+        "score": 2.9,
         "firstSeenAt": "2026-11-15T07:19:52.000Z",
         "lastUpdatedAt": "2026-11-15T07:19:52.000Z",
         "image": {
@@ -6023,7 +5803,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 2.93,
+        "score": 2.89,
         "firstSeenAt": "2026-11-15T07:11:12.000Z",
         "lastUpdatedAt": "2026-11-15T07:11:12.000Z",
         "image": {
@@ -6067,7 +5847,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 2.91,
+        "score": 2.86,
         "firstSeenAt": "2026-11-15T06:56:32.000Z",
         "lastUpdatedAt": "2026-11-15T06:56:32.000Z",
         "image": {
@@ -6104,197 +5884,21 @@
         ]
       },
       {
-        "storyId": "1a86e6200209a984",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.84,
-        "firstSeenAt": "2026-11-15T06:04:29.000Z",
-        "lastUpdatedAt": "2026-11-15T06:04:29.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94b698c01a1364d0690e5.jpg",
-          "sourceId": "hurriyet-kelebek",
-          "sourceName": "Hürriyet Kelebek",
-          "articleUrl": "https://www.hurriyet.com.tr/kelebek/stil/yeni-sergi-tophanede-43378794"
-        },
-        "sources": [
-          {
-            "id": "hurriyet-kelebek",
-            "name": "Hürriyet Kelebek",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:04:29.000Z",
-            "sourceId": "hurriyet-kelebek"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet-kelebek",
-            "url": "https://www.hurriyet.com.tr/kelebek/stil/yeni-sergi-tophanede-43378794",
-            "title": "Yeni sergi Tophane’de",
-            "summary": "Sanatorium Tophane, İsmail Şimşek’in “Monokrom” başlıklı kişisel sergisini sanatseverlerle buluşturdu.",
-            "publishedAt": "2026-11-15T06:04:29.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94b698c01a1364d0690e5.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "ce1027db1dda48de",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.84,
-        "firstSeenAt": "2026-11-15T06:03:29.000Z",
-        "lastUpdatedAt": "2026-11-15T06:03:29.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94b2e8c01a1364d0690dc.jpg",
-          "sourceId": "hurriyet-kelebek",
-          "sourceName": "Hürriyet Kelebek",
-          "articleUrl": "https://www.hurriyet.com.tr/kelebek/stil/dunya-modasi-efes-antik-kentte-43378793"
-        },
-        "sources": [
-          {
-            "id": "hurriyet-kelebek",
-            "name": "Hürriyet Kelebek",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:03:29.000Z",
-            "sourceId": "hurriyet-kelebek"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet-kelebek",
-            "url": "https://www.hurriyet.com.tr/kelebek/stil/dunya-modasi-efes-antik-kentte-43378793",
-            "title": "Dünya modası Efes Antik Kent’te",
-            "summary": "Efes Antik Kenti geçtiğimiz akşam International Fashion Battle 2026’ya ev sahipliği yaptı.",
-            "publishedAt": "2026-11-15T06:03:29.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94b2e8c01a1364d0690dc.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "86da8d9ad7e4a542",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.84,
-        "firstSeenAt": "2026-11-15T06:02:35.000Z",
-        "lastUpdatedAt": "2026-11-15T06:02:35.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94ae98c01a1364d0690d3.jpg",
-          "sourceId": "hurriyet-kelebek",
-          "sourceName": "Hürriyet Kelebek",
-          "articleUrl": "https://www.hurriyet.com.tr/kelebek/televizyon/ilk-okuma-provasi-yapildi-43378792"
-        },
-        "sources": [
-          {
-            "id": "hurriyet-kelebek",
-            "name": "Hürriyet Kelebek",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:02:35.000Z",
-            "sourceId": "hurriyet-kelebek"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet-kelebek",
-            "url": "https://www.hurriyet.com.tr/kelebek/televizyon/ilk-okuma-provasi-yapildi-43378792",
-            "title": "İlk okuma provası yapıldı",
-            "summary": "Bir eğitim dizisi olarak hazırlanan “Who Are You?” dizisinin ilk okuma provası yapıldı.",
-            "publishedAt": "2026-11-15T06:02:35.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af94ae98c01a1364d0690d3.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "7bf742e5ed1c24a9",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.84,
-        "firstSeenAt": "2026-11-15T06:01:23.000Z",
-        "lastUpdatedAt": "2026-11-15T06:01:23.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6af949e08c01a1364d0690c3.jpg",
-          "sourceId": "hurriyet-kelebek",
-          "sourceName": "Hürriyet Kelebek",
-          "articleUrl": "https://www.hurriyet.com.tr/kelebek/stil/ortak-proje-43378790"
-        },
-        "sources": [
-          {
-            "id": "hurriyet-kelebek",
-            "name": "Hürriyet Kelebek",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T06:01:23.000Z",
-            "sourceId": "hurriyet-kelebek"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet-kelebek",
-            "url": "https://www.hurriyet.com.tr/kelebek/stil/ortak-proje-43378790",
-            "title": "Ortak proje",
-            "summary": "Canozan ve M Lisa’nın ortak projesi “Gece Lambası” yayınlandı.",
-            "publishedAt": "2026-11-15T06:01:23.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6af949e08c01a1364d0690c3.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "4d1e7036a8f7d88c",
+        "storyId": "a1d4689214a68d6f",
         "language": "tr",
         "label": "single-source",
         "developing": true,
         "reasons": [
           "single-owner"
         ],
-        "score": 1.97,
-        "firstSeenAt": "2026-11-15T19:39:57.000Z",
-        "lastUpdatedAt": "2026-11-15T19:39:57.000Z",
+        "score": 1.99,
+        "firstSeenAt": "2026-11-15T20:25:31.000Z",
+        "lastUpdatedAt": "2026-11-15T20:25:31.000Z",
         "image": {
-          "url": "https://img-s1.onedio.com/id-6afa08b2d35c1d711cafa1a9/rev-0/w-1200/h-675/f-jpg/s-7f76cd022140f8571660614ac5ccd77f6d614592.jpg",
+          "url": "https://img-s1.onedio.com/id-6afa114fd00f126990addc1f/rev-0/w-1200/h-675/f-jpg/s-ebbdfa6a66d4e14722f65143ee150a9a0aa3f63c.jpg",
           "sourceId": "onedio",
           "sourceName": "Onedio",
-          "articleUrl": "https://onedio.com/haber/singapur-da-sakiz-satmak-neden-yasak-1395301"
+          "articleUrl": "https://onedio.com/haber/paralarin-ustundeki-kucuk-sayilar-ne-ise-yariyor-1395303"
         },
         "sources": [
           {
@@ -6308,37 +5912,37 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T19:39:57.000Z",
+            "at": "2026-11-15T20:25:31.000Z",
             "sourceId": "onedio"
           }
         ],
         "articles": [
           {
             "sourceId": "onedio",
-            "url": "https://onedio.com/haber/singapur-da-sakiz-satmak-neden-yasak-1395301",
-            "title": "Singapur'da Sakız Satmak Neden Yasak?",
-            "summary": "Singapur'da sakız çiğnemek suç değil ama sakız satmak ve ülkeye sokmak 1992'den beri yasak. Kararın arkasında metro kapılarına yapıştırılan sakızlar ve şehrin temizliğine verilen büyük önem var. 2004'ten beri yalnızca tıbbi ve diş sağlığına yönelik sakızlar için istisna bulunuyor.Kaynak 1, Kaynak 2",
-            "publishedAt": "2026-11-15T19:39:57.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6afa08b2d35c1d711cafa1a9/rev-0/w-1200/h-675/f-jpg/s-7f76cd022140f8571660614ac5ccd77f6d614592.jpg"
+            "url": "https://onedio.com/haber/paralarin-ustundeki-kucuk-sayilar-ne-ise-yariyor-1395303",
+            "title": "Paraların Üstündeki Küçük Sayılar Ne İşe Yarıyor?",
+            "summary": "Cüzdandaki banknotlara yakından bakınca her birinde harf ve rakamlardan oluşan kendine özgü bir numara olduğunu fark edersiniz. Türkiye Cumhuriyet Merkez Bankası bu seri ve sıra numaralarını banknotun arka yüzüne biri siyah, biri kırmızı mürekkeple iki kez basıyor. Büyüteçle okunabilen minik yazılar ve ışıkta beliren rakamlar da sahteciliğe karşı alınan önlemlerden.Kaynak",
+            "publishedAt": "2026-11-15T20:25:31.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6afa114fd00f126990addc1f/rev-0/w-1200/h-675/f-jpg/s-ebbdfa6a66d4e14722f65143ee150a9a0aa3f63c.jpg"
           }
         ]
       },
       {
-        "storyId": "19768cc9db89a1f8",
+        "storyId": "44b50597baf8f231",
         "language": "tr",
         "label": "single-source",
         "developing": true,
         "reasons": [
           "single-owner"
         ],
-        "score": 1.95,
-        "firstSeenAt": "2026-11-15T19:25:47.000Z",
-        "lastUpdatedAt": "2026-11-15T19:25:47.000Z",
+        "score": 1.98,
+        "firstSeenAt": "2026-11-15T20:16:27.000Z",
+        "lastUpdatedAt": "2026-11-15T20:16:27.000Z",
         "image": {
-          "url": "https://img-s1.onedio.com/id-6afa06f35867a70669ab27cd/rev-0/w-1200/h-675/f-jpg/s-f75d03f47b50d9d6c6121a8e57103b0e2347f609.jpg",
+          "url": "https://img-s1.onedio.com/id-6afa130e867b2268c3ba9899/rev-0/w-1200/h-675/f-jpg/s-207202ddd94a5c5a4d4d2ca6d4e3cac307033cb9.jpg",
           "sourceId": "onedio",
           "sourceName": "Onedio",
-          "articleUrl": "https://onedio.com/haber/eurovision-asya-nin-ilk-sampiyonu-bangkok-ta-belli-oldu-1395297"
+          "articleUrl": "https://onedio.com/haber/evden-cikmayan-gezginden-ask-hayati-ozetine-son-24-saatin-viral-tweetleri-1395304"
         },
         "sources": [
           {
@@ -6352,112 +5956,23 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-15T19:25:47.000Z",
+            "at": "2026-11-15T20:16:27.000Z",
             "sourceId": "onedio"
           }
         ],
         "articles": [
           {
             "sourceId": "onedio",
-            "url": "https://onedio.com/haber/eurovision-asya-nin-ilk-sampiyonu-bangkok-ta-belli-oldu-1395297",
-            "title": "Avrupa'dan Sonra Asya'ya Geçtiler: Eurovision Asya'nın İlk Şampiyonu Bangkok'ta Belli Oldu",
-            "summary": "Asya'da uzun yıllardır hayata geçirilmesi beklenen Eurovision Şarkı Yarışması'nın ilk organizasyonu Bangkok'ta yapıldı. One Bangkok Arena'daki finalde 11 ülkenin temsilcisi sahne aldı. Gecenin sonunda kupayı 19 yaşındaki bir şarkıcı kaldırdı ve sıralamada ev sahibi Tayland'ı geride bıraktı.",
-            "publishedAt": "2026-11-15T19:25:47.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6afa06f35867a70669ab27cd/rev-0/w-1200/h-675/f-jpg/s-f75d03f47b50d9d6c6121a8e57103b0e2347f609.jpg"
+            "url": "https://onedio.com/haber/evden-cikmayan-gezginden-ask-hayati-ozetine-son-24-saatin-viral-tweetleri-1395304",
+            "title": "Evden Çıkmayan Gezginden Aşk Hayatı Özetine Son 24 Saatin Viral Tweetleri",
+            "summary": "Pazar gününe eşlik eden, telefonu ne zaman elimize alsak yüzümüzü güldüren tweetler sosyal medyadan eksik olmadı. Kimi aşk hayatını tek cümlede özetledi, kimi evden çıkmayan gezgin ruhunu anlattı.Keyifli okumalar dileriz! 🚀",
+            "publishedAt": "2026-11-15T20:16:27.000Z",
+            "imageUrl": "https://img-s1.onedio.com/id-6afa130e867b2268c3ba9899/rev-0/w-1200/h-675/f-jpg/s-207202ddd94a5c5a4d4d2ca6d4e3cac307033cb9.jpg"
           }
         ]
       }
     ],
     "transfers": [
-      {
-        "storyId": "b21a48550a967fd7",
-        "language": "en",
-        "label": "confirmed",
-        "developing": true,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 10.99,
-        "firstSeenAt": "2026-11-15T16:45:00.000Z",
-        "lastUpdatedAt": "2026-11-15T19:49:50.000Z",
-        "image": {
-          "url": "https://e2.365dm.com/26/11/1920x1080/skysports-bellingham-jude-england_7407288.jpg?20261115195511",
-          "sourceId": "sky-sports-transfers",
-          "sourceName": "Sky Sports",
-          "articleUrl": "https://www.skysports.com/football/spain-vs-england/live/554117"
-        },
-        "sources": [
-          {
-            "id": "al-jazeera",
-            "name": "Al Jazeera English",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "sky-sports-transfers",
-            "name": "Sky Sports",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "guardian-football",
-            "name": "The Guardian Football",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T16:45:00.000Z",
-            "sourceId": "al-jazeera"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T17:45:00.000Z",
-            "sourceId": "sky-sports-transfers"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-15T17:45:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-15T19:49:50.000Z",
-            "sourceId": "guardian-football"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league?traffic_source=rss",
-            "title": "Spain vs England live: UEFA Nations League",
-            "summary": "Team news , score and live text commentary as England and Spain vie for top spot in final Nations League group game.",
-            "publishedAt": "2026-11-15T16:45:00.000Z"
-          },
-          {
-            "sourceId": "sky-sports-transfers",
-            "url": "https://www.skysports.com/football/spain-vs-england/live/554117",
-            "title": "Spain vs England LIVE!",
-            "summary": "",
-            "publishedAt": "2026-11-15T17:45:00.000Z",
-            "imageUrl": "https://e2.365dm.com/26/11/1920x1080/skysports-bellingham-jude-england_7407288.jpg?20261115195511"
-          },
-          {
-            "sourceId": "guardian-football",
-            "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-            "title": "Spain v England: Nations League – live",
-            "summary": "Updates from 7.45pm (GMT) kick-off in Madrid Get in touch: email Daniel and follow us on BlueSky Tuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group. Quansah keeps his place for doing well, while he wants to see White under pressure and cites his club partnership with Konsa as a reason for picking him, just as last game, he went for the Newcastle understanding between Burn, Hall and Gordon down the left side. Continue reading...",
-            "publishedAt": "2026-11-15T19:49:50.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/eb25859a484613d72c89348a46cf89f5e6032344/252_0_2497_1998/master/2497.jpg?width=140&quality=85&auto=format&fit=max&s=e3687b3721512af69b3aaf271a206b0e"
-          }
-        ]
-      },
       {
         "storyId": "6640a524b9130176",
         "language": "en",
@@ -6466,7 +5981,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.96,
+        "score": 10.91,
         "firstSeenAt": "2026-11-15T17:39:00.000Z",
         "lastUpdatedAt": "2026-11-15T19:31:48.000Z",
         "image": {
@@ -6491,8 +6006,8 @@
             "confirms": true
           },
           {
-            "id": "bbc-sport-football",
-            "name": "BBC Sport",
+            "id": "bbc-world",
+            "name": "BBC News World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -6518,7 +6033,7 @@
           {
             "kind": "outlet-joined",
             "at": "2026-11-15T19:31:48.000Z",
-            "sourceId": "bbc-sport-football"
+            "sourceId": "bbc-world"
           }
         ],
         "articles": [
@@ -6539,7 +6054,7 @@
             "imageUrl": "https://i.guim.co.uk/img/media/b2be739bdd0e9308285d11bc9c739bc5df1d96f9/410_226_4067_3253/master/4067.jpg?width=140&quality=85&auto=format&fit=max&s=b3a41a9af1c7f166ff792a536502813c"
           },
           {
-            "sourceId": "bbc-sport-football",
+            "sourceId": "bbc-world",
             "url": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
             "title": "Ronaldinho makes comeback in Ravenna win",
             "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
@@ -6556,7 +6071,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.98,
+        "score": 8.94,
         "firstSeenAt": "2026-11-15T18:02:00.000Z",
         "lastUpdatedAt": "2026-11-15T19:47:37.000Z",
         "image": {
@@ -6622,11 +6137,11 @@
         "storyId": "6389edb7b0439835",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.91,
+        "score": 8.86,
         "firstSeenAt": "2026-11-15T18:30:00.000Z",
         "lastUpdatedAt": "2026-11-15T18:53:08.000Z",
         "image": {
@@ -6700,11 +6215,11 @@
         "storyId": "04b07751ddd4f6c9",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.88,
+        "score": 8.84,
         "firstSeenAt": "2026-11-15T18:27:08.000Z",
         "lastUpdatedAt": "2026-11-15T18:35:00.000Z",
         "image": {
@@ -6775,7 +6290,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.29,
+        "score": 8.24,
         "firstSeenAt": "2026-11-15T10:03:06.000Z",
         "lastUpdatedAt": "2026-11-15T11:25:12.000Z",
         "image": {
@@ -6845,7 +6360,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.11,
+        "score": 8.06,
         "firstSeenAt": "2026-11-15T09:11:10.000Z",
         "lastUpdatedAt": "2026-11-15T09:16:13.000Z",
         "image": {
@@ -6915,7 +6430,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 7.92,
+        "score": 7.87,
         "firstSeenAt": "2026-11-15T07:00:21.000Z",
         "lastUpdatedAt": "2026-11-15T07:01:28.000Z",
         "image": {
@@ -6977,7 +6492,7 @@
         ]
       },
       {
-        "storyId": "d54911b81730edc6",
+        "storyId": "12d8b53e40e3ec34",
         "language": "en",
         "label": "single-source",
         "developing": true,
@@ -6985,6 +6500,88 @@
           "single-owner"
         ],
         "score": 3.98,
+        "firstSeenAt": "2026-11-15T20:20:05.000Z",
+        "lastUpdatedAt": "2026-11-15T20:20:05.000Z",
+        "sources": [
+          {
+            "id": "guardian-football",
+            "name": "The Guardian Football",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T20:20:05.000Z",
+            "sourceId": "guardian-football"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "guardian-football",
+            "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+            "title": "Spain v England: Nations League – live",
+            "summary": "Updates from 7.45pm (GMT) kick-off in Madrid Get in touch: email Daniel and follow us on BlueSky Tuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group. Quansah keeps his place for doing well, while he wants to see White under pressure and cites his club partnership with Konsa as a reason for picking him, just as last game, he went for the Newcastle understanding between Burn, Hall and Gordon down the left side. Continue reading...",
+            "publishedAt": "2026-11-15T20:20:05.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/083e746d283d6ba8ad4a69115356404436725c27/853_331_2429_1944/master/2429.jpg?width=140&quality=85&auto=format&fit=max&s=6355054736b9660bf44945c7a502415a"
+          }
+        ]
+      },
+      {
+        "storyId": "a60280dcbf1d47f4",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.96,
+        "firstSeenAt": "2026-11-15T20:03:08.000Z",
+        "lastUpdatedAt": "2026-11-15T20:03:08.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/95a0/live/0eabd970-e12c-11f1-8eed-17fbb70d2a8a.jpg",
+          "sourceId": "bbc-sport-football",
+          "sourceName": "BBC Sport",
+          "articleUrl": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-sport-football",
+            "name": "BBC Sport",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-15T20:03:08.000Z",
+            "sourceId": "bbc-sport-football"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-sport-football",
+            "url": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss",
+            "title": "London City's 'bravery' paying off in top three pursuit",
+            "summary": "After 10 games in the Women's Super League season, London City Lionesses have shown they are capable of finishing inside the top three.",
+            "publishedAt": "2026-11-15T20:03:08.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a0/live/0eabd970-e12c-11f1-8eed-17fbb70d2a8a.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "d54911b81730edc6",
+        "language": "en",
+        "label": "single-source",
+        "developing": true,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.93,
         "firstSeenAt": "2026-11-15T19:43:57.000Z",
         "lastUpdatedAt": "2026-11-15T19:43:57.000Z",
         "image": {
@@ -7028,7 +6625,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.96,
+        "score": 3.91,
         "firstSeenAt": "2026-11-15T19:29:41.000Z",
         "lastUpdatedAt": "2026-11-15T19:29:41.000Z",
         "sources": [
@@ -7066,7 +6663,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.87,
+        "score": 3.82,
         "firstSeenAt": "2026-11-15T18:24:54.000Z",
         "lastUpdatedAt": "2026-11-15T18:24:54.000Z",
         "image": {
@@ -7101,50 +6698,6 @@
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d368/live/30545390-e11d-11f1-a7a2-7bb21fac8f0b.jpg"
           }
         ]
-      },
-      {
-        "storyId": "f8b0c501c5681cae",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.85,
-        "firstSeenAt": "2026-11-15T18:11:08.000Z",
-        "lastUpdatedAt": "2026-11-15T18:11:08.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7146/live/d7b69920-e11f-11f1-a7a2-7bb21fac8f0b.jpg",
-          "sourceId": "bbc-sport-football",
-          "sourceName": "BBC Sport",
-          "articleUrl": "https://www.bbc.co.uk/sport/football/articles/c6894vj39g33o?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-sport-football",
-            "name": "BBC Sport",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-15T18:11:08.000Z",
-            "sourceId": "bbc-sport-football"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-sport-football",
-            "url": "https://www.bbc.co.uk/sport/football/articles/c6894vj39g33o?at_medium=RSS&at_campaign=rss",
-            "title": "Sule strikes late as Scotland U21s snatch draw against USA",
-            "summary": "St Mirren forward Eseosa Sule came off the bench to score a late penalty as Scotland U21s drew 1-1 with USA U23s in Spain.",
-            "publishedAt": "2026-11-15T18:11:08.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7146/live/d7b69920-e11f-11f1-a7a2-7bb21fac8f0b.jpg"
-          }
-        ]
       }
     ],
     "abroad": [
@@ -7157,7 +6710,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.98,
+        "score": 10.93,
         "firstSeenAt": "2026-11-15T07:59:42.000Z",
         "lastUpdatedAt": "2026-11-15T19:42:10.000Z",
         "sources": [
@@ -7255,7 +6808,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.98,
+        "score": 3.93,
         "firstSeenAt": "2026-11-15T19:46:00.000Z",
         "lastUpdatedAt": "2026-11-15T19:46:00.000Z",
         "image": {
@@ -7298,11 +6851,11 @@
         "storyId": "e4e1d1af8e35c24f",
         "language": "tr",
         "label": "single-source",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "single-owner"
         ],
-        "score": 3.89,
+        "score": 3.84,
         "firstSeenAt": "2026-11-15T17:13:27.000Z",
         "lastUpdatedAt": "2026-11-15T18:37:00.000Z",
         "image": {
@@ -7364,7 +6917,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.36,
+        "score": 3.31,
         "firstSeenAt": "2026-11-15T12:17:14.000Z",
         "lastUpdatedAt": "2026-11-15T12:17:14.000Z",
         "image": {
