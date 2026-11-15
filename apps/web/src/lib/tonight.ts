@@ -27,7 +27,13 @@ const WORDS = {
     assists: (n: number) => (n === 1 ? '1 assist' : `${String(n)} assists`),
     points: (n: number) => (n === 1 ? '1 point' : `${String(n)} points`),
     rebounds: (n: number) => (n === 1 ? '1 rebound' : `${String(n)} rebounds`),
-    short: { points: 'pts', rebounds: 'reb', assists: 'ast', goals: 'goals' },
+    /** The word after a person's number: whole words for football, short ones for basketball. */
+    unit: (kind: MarkKind, n: number, sport: string | undefined) =>
+      sport === 'basketball'
+        ? { points: 'pts', rebounds: 'reb', assists: 'ast', goals: 'goals' }[kind]
+        : { goals: n === 1 ? 'goal' : 'goals', assists: n === 1 ? 'assist' : 'assists' }[
+            kind as 'goals' | 'assists'
+          ] ?? kind,
   },
   tr: {
     title: 'Bu gece',
@@ -47,7 +53,8 @@ const WORDS = {
     assists: (n: number) => `${String(n)} asist`,
     points: (n: number) => `${String(n)} sayı`,
     rebounds: (n: number) => `${String(n)} ribaund`,
-    short: { points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol' },
+    unit: (kind: MarkKind, _n: number, _sport: string | undefined) =>
+      ({ points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol' })[kind],
   },
 } as const;
 
@@ -132,8 +139,8 @@ export function tonightOutcome(
 export type MarkKind = 'goals' | 'assists' | 'points' | 'rebounds';
 
 /**
- * A person's numbers in reading order, leaving out zeros except points. A footballer's goals and
- * assists are drawn as icons (a ball, a boot); a basketball line is numbers with short words.
+ * A person's numbers in reading order, leaving out zeros except points. Each number is followed
+ * by a word: "1 goal 1 assist", "27 pts 13 reb 8 ast".
  */
 export function personMarks(
   line: Partial<Record<MarkKind, number | undefined>>,
@@ -144,10 +151,4 @@ export function personMarks(
     if (count === undefined || (count === 0 && kind !== 'points')) return [];
     return [{ kind, count }];
   });
-}
-
-/** The icon a mark is drawn with, or none when the mark is a number with a short word. */
-export function markIcon(kind: MarkKind, sport: string | undefined): 'goal' | 'assist' | undefined {
-  if (sport === 'basketball') return undefined;
-  return kind === 'goals' ? 'goal' : kind === 'assists' ? 'assist' : undefined;
 }

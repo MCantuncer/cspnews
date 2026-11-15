@@ -11,14 +11,12 @@ import type { PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { teamLogoUrl } from '../../lib/media';
 import {
-  markIcon,
   personMarks,
   tonightOutcome,
   tonightStatus,
   tonightWhat,
   tonightWords,
 } from '../../lib/tonight';
-import Icon from '../ui/Icon.astro';
 
 interface Props {
   published: PublishedBulletin;
@@ -75,16 +73,16 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                         (person) =>
                           person.marks.length > 0 && (
                             <span class="marks" role="img" aria-label={person.label}>
-                              {person.marks.map((mark) => {
-                                const icon = markIcon(mark.kind, local.sport);
-                                return (
-                                  <span class="mark">
-                                    {icon && <Icon name={icon} size={18} />}
-                                    {mark.count}
-                                    {!icon && <span class="unit">{words.short[mark.kind]}</span>}
+                              {person.marks.map((mark) => (
+                                <span class="mark">
+                                  {mark.count}
+                                  <span class="unit">
+                                    {words
+                                      .unit(mark.kind, mark.count, local.sport)
+                                      .toLocaleUpperCase(lang)}
                                   </span>
-                                );
-                              })}
+                                </span>
+                              ))}
                             </span>
                           ),
                       )}
@@ -188,7 +186,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   .name {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     gap: 2px 14px;
     color: var(--ink);
     font: 700 18px / 1.25 var(--f-head);
@@ -283,30 +281,29 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     color: color-mix(in srgb, var(--disp) 55%, var(--ink));
   }
 
-  /* A person's own numbers: small icons with counts, right after the name. */
+  /*
+   * A person's own numbers, right after the name, set apart from it: the reading face instead of
+   * the headline one, a calm weight, and a small spaced-capitals word after each number.
+   */
   .marks {
     display: inline-flex;
-    align-items: center;
-    gap: 12px;
+    align-items: baseline;
+    gap: 14px;
   }
 
   .mark {
     display: inline-flex;
-    align-items: center;
-    gap: 5px;
+    align-items: baseline;
+    gap: 4px;
     color: var(--ink);
-    font: 700 16px / 1 var(--f-head);
+    font: 600 16px / 1 var(--f-body);
     font-variant-numeric: tabular-nums;
   }
 
-  .mark :global(svg) {
-    color: var(--ink2);
-  }
-
   .unit {
-    margin-left: 1px;
     color: var(--meta);
-    font: 500 13px / 1 var(--f-body);
+    font: 600 11px / 1 var(--f-body);
+    letter-spacing: 0.08em;
   }
 
   [data-state='on'] .when small {
