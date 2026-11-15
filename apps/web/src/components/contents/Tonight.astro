@@ -9,8 +9,10 @@ import { sortTonight, tonightIn, type TonightSide } from '@cspnews/core';
 
 import type { PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
-import { teamLogoUrl } from '../../lib/media';
+import { playerPhotoUrl, teamLogoUrl } from '../../lib/media';
 import {
+  isBoard,
+  orderScorers,
   personMarks,
   tonightOutcome,
   tonightStatus,
@@ -28,9 +30,15 @@ const words = tonightWords(lang);
 const builtAt = new Date(published.bulletin.publishAt);
 const rows = sortTonight(published.bulletin.tonight ?? []).map((item) => {
   const local = tonightIn(item, lang);
+  const board = isBoard(item);
   return {
     local,
-    status: tonightStatus(item, lang, builtAt),
+    board,
+    scorers: orderScorers(item.scorers ?? []).map((scorer) => ({
+      ...scorer,
+      src: scorer.photo ? playerPhotoUrl(scorer.photo) : undefined,
+    })),
+    status: tonightStatus(item, lang, builtAt, board),
     outcome: tonightOutcome(item),
     marks: (item.lines ?? []).map((line) => ({
       line,
@@ -44,6 +52,7 @@ const rows = sortTonight(published.bulletin.tonight ?? []).map((item) => {
       sport: item.sport,
       startsAt: item.startsAt,
       result: item.result,
+      board,
     }),
   };
 });
@@ -55,8 +64,9 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     <section class="tonight" aria-labelledby="tonight-title">
       <h2 id="tonight-title">{words.title}</h2>
       <ul>
-        {rows.map(({ local, status, data, outcome, marks }) => (
+        {rows.map(({ local, board, scorers, status, data, outcome, marks }) => (
           <li
+            class:list={{ board }}
             data-tonight-row={data}
             data-lang={lang}
             data-state={status.state}
@@ -75,7 +85,63 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
           >
             <span class="station" aria-hidden="true" />
             <div class="body">
-              {local.home && local.away ? (
+              {board && local.home && local.away ? (
+                <>
+                  <div class="teams">
+                    {(['home', 'away'] as const).map((key) => {
+                      const side = local[key];
+                      return (
+                        side && (
+                          <div class:list={['team', { ours: side.ours }]}>
+                            {!logo(local.home) && !logo(local.away) ? undefined : logo(side) ? (
+                              <img
+                                class:list={{ flag: local.focus === 'national' }}
+                                src={logo(side)}
+                                alt=""
+                                width="24"
+                                height="24"
+                              />
+                            ) : (
+                              <span class="crest" aria-hidden="true" />
+                            )}
+                            <span class="team-name">{side.name}</span>
+                            <b class="score" data-score={key}>
+                              {local.result?.[key]}
+                            </b>
+                          </div>
+                        )
+                      );
+                    })}
+                  </div>
+                  {(
+                    <ul class="scorers" aria-label={words.scored} data-scorers>
+                      {scorers.map((scorer) => (
+                        <li class:list={{ ours: local[scorer.side]?.ours }}>
+                          {scorer.src && (
+                            <img class="photo" src={scorer.src} alt="" width="24" height="24" />
+                          )}
+                          <span class="who">{scorer.name}</span>
+                          {scorer.minutes ? (
+                            <span class="minutes">
+                              {scorer.minutes.join(' ')}
+                              {scorer.penalty && <span class="unit"> {words.penalty.toLocaleUpperCase(lang)}</span>}
+                              {scorer.own && <span class="unit"> {words.ownGoal.toLocaleUpperCase(lang)}</span>}
+                            </span>
+                          ) : (
+                            <span class="minutes">
+                              {scorer.points}
+                              <span class="unit">
+                                {' '}
+                                {words.unit('points', scorer.points ?? 0, local.sport).toLocaleUpperCase(lang)}
+                              </span>
+                            </span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </>
+              ) : local.home && local.away ? (
                 <>
                   {local.focus === 'person' && (
                     <span class="name">
@@ -321,5 +387,123 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   [data-state='on'] .when small {
     color: var(--hot);
+  }
+
+  /*
+   * A club or national team match is drawn as a scoreboard: each team on its own line with its
+   * crest and its score, then who scored with their official photo.
+   */
+  .teams {
+    display: grid;
+    gap: 6px;
+    max-width: 420px;
+  }
+
+  .team {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 10px;
+    align-items: center;
+    color: var(--ink2);
+    font: 500 18px / 1.25 var(--f-head);
+  }
+
+  .team.ours {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .team img,
+  .crest {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  /* No logo saved: the space stays, so the names still line up. */
+  .crest {
+    visibility: hidden;
+  }
+
+  .team-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .score {
+    min-width: 1.4ch;
+    color: inherit;
+    font: 800 20px / 1 var(--f-head);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+
+  [data-outcome='win'] .team.ours .score {
+    color: color-mix(in srgb, var(--conf) 55%, var(--ink));
+  }
+
+  [data-outcome='loss'] .team.ours .score {
+    color: color-mix(in srgb, var(--disp) 55%, var(--ink));
+  }
+
+  /* A board's right column is the clock: the kick-off time, then the minute or the end. */
+  .board .when b {
+    color: var(--ink);
+    font-size: 17px;
+  }
+
+  .board[data-state='over'] .when b {
+    display: none;
+  }
+
+  .team img.flag {
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px var(--line);
+    object-fit: cover;
+  }
+
+  .scorers:empty {
+    display: none;
+  }
+
+  .scorers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    margin: 8px 0 2px;
+    padding: 0;
+  }
+
+  .scorers li {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0;
+    border: 0;
+    color: var(--ink2);
+    font: 500 14px / 1.2 var(--f-body);
+  }
+
+  .scorers li.ours {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .photo {
+    flex: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--line);
+    box-shadow: 0 0 0 1px var(--line);
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .minutes {
+    color: var(--meta);
+    font: 500 13px / 1 var(--f-body);
+    font-variant-numeric: tabular-nums;
   }
 </style>

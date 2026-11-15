@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { definePeople } from '@cspnews/core';
 
-import { parseRefs, readEspn, readEuroleague } from './scores.js';
+import { espnScorers, parseRefs, readEspn, readEuroleague } from './scores.js';
 
 const people = definePeople([
   { id: 'alperen-sengun', name: 'Alperen Şengün', aliases: ['Alperen Sengun'], kind: 'basketball' },
@@ -87,5 +87,42 @@ describe('reading a live score', () => {
       away: 61,
     });
     expect(readEuroleague('k', page(true, 88, 80))).toMatchObject({ state: 'post', home: 88 });
+  });
+});
+
+describe('scorers', () => {
+  it('reads one match’s goal scorers off its league’s scoreboard', () => {
+    const board = {
+      events: [
+        {
+          id: '501',
+          date: '2026-11-15T20:00Z',
+          status: { type: { state: 'in', completed: false } },
+          competitions: [
+            {
+              competitors: [
+                { homeAway: 'home', score: '1', team: { id: '432', displayName: 'Galatasaray' } },
+                { homeAway: 'away', score: '0', team: { id: '364', displayName: 'Liverpool' } },
+              ],
+              details: [
+                {
+                  scoringPlay: true,
+                  clock: { displayValue: "23'" },
+                  team: { id: '432' },
+                  athletesInvolved: [{ id: '9', displayName: 'Victor Osimhen' }],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    };
+    expect(espnScorers('soccer/uefa.champions/501', board)).toEqual([
+      { side: 'home', name: 'Victor Osimhen', minutes: ["23'"] },
+    ]);
+    expect(espnScorers('soccer/uefa.champions/999', board)).toEqual([]);
+    expect(parseRefs('espn:soccer/uefa.champions/501')[0]?.scorersUrl).toBe(
+      'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard',
+    );
   });
 });

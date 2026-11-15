@@ -6,11 +6,12 @@ import {
   sortTonight,
   teamKey,
   type AbroadPerson,
+  type Scorer,
   type TonightFocus,
   type TonightItem,
 } from '@cspnews/core';
 
-import type { Fixture, FixtureSide } from './fixture.js';
+import type { Fixture, FixtureScorer, FixtureSide } from './fixture.js';
 
 /**
  * The Tonight rules (docs/design/decisions/tonight.md): which matches become rows. No writer and
@@ -116,6 +117,19 @@ function sportOf(fixture: Fixture, watch: TonightWatch): 'football' | 'basketbal
   return watch.espnLeagues.find((league) => league.path === fixture.league)?.sport;
 }
 
+/** A source's scorer as the bulletin keeps it: the photo by its saved key, not its address. */
+export function scorerOf(scorer: FixtureScorer): Scorer {
+  return {
+    side: scorer.side,
+    name: scorer.name,
+    ...(scorer.minutes && { minutes: [...scorer.minutes] }),
+    ...(scorer.points !== undefined && { points: scorer.points }),
+    ...(scorer.own && { own: true }),
+    ...(scorer.penalty && { penalty: true }),
+    ...(scorer.photo && { photo: scorer.photo.key }),
+  };
+}
+
 function sideOf(side: FixtureSide, ours: boolean) {
   const team = teamKey(side.display);
   return { name: side.display, ours, ...(side.logo && team && { team }) };
@@ -155,6 +169,9 @@ export function rowFor(fixture: Fixture, watch: TonightWatch): TonightItem | und
     away: sideOf(away, ours.has('away')),
     startsAt: fixture.startsAt,
     live: { source: fixture.source, ref: fixture.ref },
+    ...(top.focus !== 'person' &&
+      fixture.scorers &&
+      fixture.scorers.length > 0 && { scorers: fixture.scorers.slice(0, 16).map(scorerOf) }),
     ...(fixture.completed &&
       home.score !== undefined &&
       away.score !== undefined && { result: { home: home.score, away: away.score } }),

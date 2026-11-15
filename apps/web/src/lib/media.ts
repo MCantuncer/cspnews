@@ -100,3 +100,9 @@ export function teamLogoUrl(team: string, directory = mediaDirectory()): string 
   const file = find(join(directory, 'teams'), team, LOGO);
   return file && `${MEDIA_URL}/teams/${encodeURIComponent(file)}`;
 }
+
+/** The site URL of a player's saved official photo (`players/<photo key>`, saved with Tonight). */
+export function playerPhotoUrl(photo: string, directory = mediaDirectory()): string | undefined {
+  const file = find(join(directory, 'players'), photo, PHOTO);
+  return file && `${MEDIA_URL}/players/${encodeURIComponent(file)}`;
+}

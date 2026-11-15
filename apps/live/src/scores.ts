@@ -2,11 +2,16 @@ import { z } from 'zod';
 
 import type { AbroadPerson, PersonLine } from '@cspnews/core';
 import {
+  ESPN_BASE,
   EUROLEAGUE_BASE,
   basketballLine,
   espnSummaryUrl,
+  euroleagueStatsUrl,
+  euroleagueTopScorers,
   footballLine,
+  parseEspnScoreboard,
   scoreOf,
+  type FixtureScorer,
 } from '@cspnews/scores';
 
 /**
@@ -22,6 +27,31 @@ export interface LiveScore {
   readonly away?: number;
   readonly clock?: string;
   readonly lines?: readonly PersonLine[];
+  /** Goal scorers so far (football), or each side's top scorer (Euroleague). */
+  readonly scorers?: readonly LiveScorer[];
+}
+
+/** A scorer as the page draws it; `photo` is the official photo's address at the source. */
+export interface LiveScorer {
+  readonly side: 'home' | 'away';
+  readonly name: string;
+  readonly minutes?: readonly string[];
+  readonly points?: number;
+  readonly own?: boolean;
+  readonly penalty?: boolean;
+  readonly photo?: string;
+}
+
+export function liveScorer(scorer: FixtureScorer): LiveScorer {
+  return {
+    side: scorer.side,
+    name: scorer.name,
+    ...(scorer.minutes && { minutes: scorer.minutes }),
+    ...(scorer.points !== undefined && { points: scorer.points }),
+    ...(scorer.own && { own: true }),
+    ...(scorer.penalty && { penalty: true }),
+    ...(scorer.photo && { photo: scorer.photo.url }),
+  };
 }
 
 /** A match the pages may ask about: `espn:<sport>/<league>/<id>` or `euroleague:<season>/<game>`. */
@@ -30,6 +60,8 @@ export interface LiveRef {
   readonly source: 'espn' | 'euroleague';
   readonly ref: string;
   readonly url: string;
+  /** A second page with who scored: the league's scoreboard (football) or the box score. */
+  readonly scorersUrl?: string;
 }
 
 const ESPN_REF = /^(basketball|soccer)\/[a-z0-9.]{2,30}\/\d{1,12}$/;
@@ -44,7 +76,17 @@ export function parseRefs(query: string | null): LiveRef[] {
     const source = key.slice(0, cut);
     const ref = key.slice(cut + 1);
     if (source === 'espn' && ESPN_REF.test(ref)) {
-      return [{ key, source, ref, url: espnSummaryUrl(ref) }];
+      const league = ref.slice(0, ref.lastIndexOf('/'));
+      return [
+        {
+          key,
+          source,
+          ref,
+          url: espnSummaryUrl(ref),
+          // Today's scoreboard lists each goal; the summary does not.
+          ...(ref.startsWith('soccer/') && { scorersUrl: `${ESPN_BASE}/${league}/scoreboard` }),
+        },
+      ];
     }
     if (source === 'euroleague' && EUROLEAGUE_REF.test(ref)) {
       const [season, game] = ref.split('/');
@@ -54,6 +96,7 @@ export function parseRefs(query: string | null): LiveRef[] {
           source,
           ref,
           url: `${EUROLEAGUE_BASE}/${season ?? ''}/games/${game ?? ''}?format=json`,
+          scorersUrl: euroleagueStatsUrl(ref),
         },
       ];
     }
@@ -140,4 +183,21 @@ export function readEuroleague(key: string, json: unknown): LiveScore | undefine
     ...(state !== 'pre' && home !== undefined && { home }),
     ...(state !== 'pre' && away !== undefined && { away }),
   };
+}
+
+/** The goal scorers of one ESPN match, from its league's scoreboard. */
+export function espnScorers(ref: string, json: unknown): LiveScorer[] {
+  const league = ref.slice(0, ref.lastIndexOf('/'));
+  let fixtures;
+  try {
+    fixtures = parseEspnScoreboard(league, json);
+  } catch {
+    return [];
+  }
+  return (fixtures.find((f) => f.ref === ref)?.scorers ?? []).map(liveScorer);
+}
+
+/** Each side's top scorer from a Euroleague box score. */
+export function euroleagueScorers(json: unknown): LiveScorer[] {
+  return euroleagueTopScorers(json).map(liveScorer);
 }

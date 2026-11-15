@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { scoreOf, type Fixture } from './fixture.js';
+import { scoreOf, type Fixture, type FixtureScorer } from './fixture.js';
 
 /**
  * The Euroleague's own public game data, the feed behind its site:
@@ -113,4 +113,65 @@ export function parseEuroleagueGames(season: string, json: unknown): Fixture[] {
       },
     ];
   });
+}
+
+/** A game's box score, where each player row carries their points and official headshot. */
+export function euroleagueStatsUrl(ref: string): string {
+  const [season = '', gameCode = ''] = ref.split('/');
+  return `${EUROLEAGUE_BASE}/${season}/games/${gameCode}/stats?format=json`;
+}
+
+const StatsPlayerSchema = z.looseObject({
+  player: z.looseObject({
+    person: z.looseObject({ code: z.string().optional(), name: z.string().min(1).max(60) }),
+    images: z.looseObject({ headshot: z.url().optional() }).optional(),
+  }),
+  stats: z.looseObject({ points: z.number().min(0).max(200) }),
+});
+const StatsSideSchema = z.looseObject({ players: z.array(z.unknown()) });
+const StatsSchema = z.looseObject({ local: StatsSideSchema, road: StatsSideSchema });
+
+/** "HAYES-DAVIS, NIGEL" as "Nigel Hayes-Davis". */
+export function euroleaguePlayerName(name: string): string {
+  const [last = '', first = ''] = name.split(',').map((part) => part.trim());
+  const title = (part: string) =>
+    part
+      .toLocaleLowerCase('en')
+      .replace(
+        /(^|[\s'-])(\p{L})/gu,
+        (_, cut: string, letter: string) => `${cut}${letter.toLocaleUpperCase('en')}`,
+      );
+  return [title(first), title(last)].filter((part) => part.length > 0).join(' ');
+}
+
+/** Each side's top scorer, with their official photo when the feed has one. */
+export function euroleagueTopScorers(json: unknown): FixtureScorer[] {
+  const page = StatsSchema.safeParse(json);
+  if (!page.success) return [];
+  const top = (side: 'home' | 'away', players: readonly unknown[]): FixtureScorer[] => {
+    const rows = players.flatMap((raw) => {
+      const row = StatsPlayerSchema.safeParse(raw);
+      return row.success ? [row.data] : [];
+    });
+    const best = rows.reduce<(typeof rows)[number] | undefined>(
+      (most, row) => (!most || row.stats.points > most.stats.points ? row : most),
+      undefined,
+    );
+    if (!best || best.stats.points === 0) return [];
+    const { person, images } = best.player;
+    return [
+      {
+        side,
+        name: euroleaguePlayerName(person.name),
+        points: Math.round(best.stats.points),
+        ...(images?.headshot && {
+          photo: {
+            key: `euroleague-${(person.code ?? person.name).toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+            url: images.headshot,
+          },
+        }),
+      },
+    ];
+  };
+  return [...top('home', page.data.local.players), ...top('away', page.data.road.players)];
 }

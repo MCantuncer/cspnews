@@ -13,3 +13,10 @@ A short list on the Contents screen, under the Today line, of the matches and sh
 - **Only when there is something.** No rows, no section.
 
 Logos and player photos come from the leagues' own data and are saved next to the site; Can chose the leagues' official photos over free ones (2026-11-15).
+
+## Scoreboard rows (2026-11-16)
+
+- **A Turkish club or national team match is a small scoreboard.** Each team on its own line with its crest (a round flag for national teams) and its own score, our side in bold. The right column is the clock: kick-off time, then the minute while it is played ("78'", "Under way"), then "Full time".
+- **Who scored, under the teams.** Football: every scorer with their minutes ("Osimhen 23' 67'", "PEN", "OG"), from ESPN's scoreboard. Euroleague: each side's top scorer with their points, from the game's box score. Our side's scorers in ink, the other side's quieter.
+- **Official photos only.** A scorer's photo is the league's or the score source's own (ESPN headshot, Euroleague headshot), saved with the bulletin. No photo means no circle at all: never initials or a stand-in.
+- **Live like the rest.** The live Worker adds the scorers (from the league scoreboard or the box score) while a match is played, and the page redraws them.

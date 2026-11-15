@@ -9,7 +9,15 @@
  */
 import { ABROAD_PEOPLE } from '@cspnews/config';
 
-import { parseRefs, readEspn, readEuroleague, type LiveRef, type LiveScore } from './scores.js';
+import {
+  espnScorers,
+  euroleagueScorers,
+  parseRefs,
+  readEspn,
+  readEuroleague,
+  type LiveRef,
+  type LiveScore,
+} from './scores.js';
 
 export interface Env {
   /** Pages that may read the scores, comma-separated. */
@@ -49,11 +57,25 @@ async function sourceJson(url: string, context: WaitUntil): Promise<unknown> {
 async function scoreOf(ref: LiveRef, context: WaitUntil): Promise<LiveScore | undefined> {
   try {
     const json = await sourceJson(ref.url, context);
-    return ref.source === 'espn'
-      ? readEspn(ref.key, ref.ref, json, ABROAD_PEOPLE)
-      : readEuroleague(ref.key, json);
+    const score =
+      ref.source === 'espn'
+        ? readEspn(ref.key, ref.ref, json, ABROAD_PEOPLE)
+        : readEuroleague(ref.key, json);
+    if (!score || score.state === 'pre' || !ref.scorersUrl) return score;
+    const scorers = await scorersOf(ref, ref.scorersUrl, context);
+    return scorers.length > 0 ? { ...score, scorers } : score;
   } catch {
     return undefined;
+  }
+}
+
+/** Who scored, from the second page; a page that fails only leaves the scorers out. */
+async function scorersOf(ref: LiveRef, url: string, context: WaitUntil) {
+  try {
+    const json = await sourceJson(url, context);
+    return ref.source === 'espn' ? espnScorers(ref.ref, json) : euroleagueScorers(json);
+  } catch {
+    return [];
   }
 }
 

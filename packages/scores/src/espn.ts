@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { scoreOf, type Fixture } from './fixture.js';
+import { scoreOf, type Fixture, type FixtureScorer } from './fixture.js';
 
 /**
  * ESPN's public scoreboard, the one its own site and apps read:
@@ -17,6 +17,7 @@ export function espnScoreboardUrl(league: string, date: string): string {
 }
 
 const TeamSchema = z.looseObject({
+  id: z.string().optional(),
   displayName: z.string().min(1),
   shortDisplayName: z.string().optional(),
   name: z.string().optional(),
@@ -36,8 +37,67 @@ const EventSchema = z.looseObject({
   status: z.looseObject({
     type: z.looseObject({ state: z.string(), completed: z.boolean() }),
   }),
-  competitions: z.array(z.looseObject({ competitors: z.array(CompetitorSchema).length(2) })).min(1),
+  competitions: z
+    .array(
+      z.looseObject({
+        competitors: z.array(CompetitorSchema).length(2),
+        details: z.array(z.unknown()).optional(),
+      }),
+    )
+    .min(1),
 });
+
+/** A goal in a scoreboard's `details`: who, when, for which team. */
+const GoalSchema = z.looseObject({
+  scoringPlay: z.literal(true),
+  ownGoal: z.boolean().optional(),
+  penaltyKick: z.boolean().optional(),
+  clock: z.looseObject({ displayValue: z.string().regex(/^\d{1,3}(\+\d{1,2})?'$/) }),
+  team: z.looseObject({ id: z.string() }),
+  athletesInvolved: z
+    .array(
+      z.looseObject({
+        id: z.string().regex(/^\d+$/),
+        displayName: z.string().min(1).max(60),
+        headshot: z.url().optional(),
+      }),
+    )
+    .min(1),
+});
+
+/**
+ * The goal scorers in a scoreboard's `details`, one entry per player and side with every minute
+ * they scored. Entries that don't read cleanly are skipped.
+ */
+export function goalScorers(
+  details: readonly unknown[],
+  teamIds: { readonly home?: string | undefined; readonly away?: string | undefined },
+): FixtureScorer[] {
+  const scorers = new Map<string, FixtureScorer & { minutes: string[] }>();
+  for (const raw of details) {
+    const goal = GoalSchema.safeParse(raw);
+    if (!goal.success) continue;
+    const { team, athletesInvolved, clock, ownGoal, penaltyKick } = goal.data;
+    const side = team.id === teamIds.home ? 'home' : team.id === teamIds.away ? 'away' : undefined;
+    const athlete = athletesInvolved[0];
+    if (!side || !athlete) continue;
+    const key = `${side}-${athlete.id}-${ownGoal ? 'og' : ''}`;
+    const known = scorers.get(key);
+    if (known) {
+      if (known.minutes.length < 8) known.minutes.push(clock.displayValue);
+      continue;
+    }
+    scorers.set(key, {
+      side,
+      name: athlete.displayName,
+      minutes: [clock.displayValue],
+      ...(ownGoal && { own: true }),
+      ...(penaltyKick && { penalty: true }),
+      ...(athlete.headshot && { photo: { key: `espn-${athlete.id}`, url: athlete.headshot } }),
+    });
+  }
+  return [...scorers.values()];
+}
 
 const ScoreboardSchema = z.looseObject({ events: z.array(z.unknown()) });
 
@@ -53,6 +113,10 @@ export function parseEspnScoreboard(league: string, json: unknown): Fixture[] {
     const home = competitors.find((c) => c.homeAway === 'home');
     const away = competitors.find((c) => c.homeAway === 'away');
     if (!home || !away) return [];
+    const scorers = goalScorers(competitions[0]?.details ?? [], {
+      home: home.team.id,
+      away: away.team.id,
+    });
     const completed = status.type.completed;
     const side = (competitor: typeof home) => {
       const { team } = competitor;
@@ -76,6 +140,7 @@ export function parseEspnScoreboard(league: string, json: unknown): Fixture[] {
         home: side(home),
         away: side(away),
         completed,
+        ...(scorers.length > 0 && { scorers }),
       },
     ];
   });

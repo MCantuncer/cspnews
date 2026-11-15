@@ -16,6 +16,20 @@ export interface Fixture {
   readonly away: FixtureSide;
   /** True once the source calls it final. */
   readonly completed: boolean;
+  /** Goal scorers so far, when the source lists them (ESPN football). */
+  readonly scorers?: readonly FixtureScorer[];
+}
+
+/** A goal scorer, with every minute they scored, or a basketball side's top scorer. */
+export interface FixtureScorer {
+  readonly side: 'home' | 'away';
+  readonly name: string;
+  readonly minutes?: readonly string[];
+  readonly points?: number;
+  readonly own?: boolean;
+  readonly penalty?: boolean;
+  /** The official photo at the source, and the key it is saved under. */
+  readonly photo?: { readonly key: string; readonly url: string };
 }
 
 export interface FixtureSide {
