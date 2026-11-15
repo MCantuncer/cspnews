@@ -166,6 +166,26 @@ describe('prepareBulletin, Spotlight candidates', async () => {
         'https://aa.example/kesinti',
         '2026-11-11T08:00:00Z',
       ],
+      // A magazine story that one news owner's general feed also ran.
+      [
+        'Ünlü oyuncu ile futbolcu aşk iddialarını doğruladı',
+        'https://aa.example/ask',
+        '2026-11-11T07:05:00Z',
+      ],
+    ]),
+    'https://cumhuriyet.example/rss': rss([
+      [
+        'Microsoft 365 hizmetlerinde küresel kesinti sürüyor',
+        'https://cumhuriyet.example/kesinti',
+        '2026-11-11T08:05:00Z',
+      ],
+    ]),
+    'https://bbc.example/rss': rss([
+      [
+        'Microsoft 365 hizmetlerinde küresel kesinti: hizmetler durdu',
+        'https://bbc.example/kesinti',
+        '2026-11-11T08:15:00Z',
+      ],
     ]),
     'https://magazin.example/rss': rss([
       [
@@ -225,9 +245,16 @@ describe('prepareBulletin, Spotlight candidates', async () => {
   });
   const light = file.desks.light.map((c) => c.articles[0]?.url);
 
-  it('leaves out stories the news outlets also carry', () => {
+  const lightUrls = file.desks.light.flatMap((c) => c.articles.map((a) => a.url));
+
+  it('leaves out stories that three or more news owners carry', () => {
     expect(file.sections.turkey.length).toBeGreaterThan(0);
-    expect(light).not.toContain('https://magazin.example/kesinti');
+    expect(lightUrls).not.toContain('https://magazin.example/kesinti');
+  });
+
+  it('keeps a magazine story that one news feed also ran', () => {
+    expect(lightUrls).toContain('https://magazin.example/ask');
+    expect(lightUrls).toContain('https://aa.example/ask');
   });
 
   it('leaves out accidents, crime, illness and other heavy topics', () => {
@@ -237,7 +264,7 @@ describe('prepareBulletin, Spotlight candidates', async () => {
   });
 
   it('keeps the magazine stories', () => {
-    expect(light.filter((url) => url?.startsWith('https://magazin.')).sort()).toEqual([
+    expect(lightUrls.filter((url) => url.startsWith('https://magazin.')).sort()).toEqual([
       'https://magazin.example/ask',
       'https://magazin.example/saat',
     ]);
