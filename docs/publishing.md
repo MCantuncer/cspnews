@@ -59,7 +59,7 @@ In this order, when available:
 1. `fx`: the US dollar and the euro against the lira, from the Central Bank's page (`https://www.tcmb.gov.tr/kurlar/today.xml`, the foreign-exchange selling rate). `value` like `34.21 ₺`, `source` `TCMB`.
 2. `gold`: gram gold in lira, from a Turkish market page that shows the day's price. `value` like `3,120 ₺`.
 3. `weather`: Istanbul now, from Open-Meteo or the Meteorology Service (MGM). `value` like `14°C`, `note` the sky in a few words in each language.
-4. `match`: the one match of the day a reader would ask about: the national team first, then the Süper Lig's biggest match, then a top European fixture, from the sports candidates. `label` the fixture ("Türkiye – France"), `value` the kick-off time in Istanbul ("22:45"), `note` the competition. Leave it out on a day with no such match.
+4. `match`: the one match of the day a reader would ask about that is not already on the Tonight list (the Türkiye A national team, Turkish clubs in Europe and Turks abroad belong there): the Süper Lig's biggest match, or else a top European fixture, from the sports candidates. `label` the fixture ("Türkiye – France"), `value` the kick-off time in Istanbul ("22:45"), `note` the competition. Leave it out on a day with no such match.
 
 `label` and `note` are written in both languages; `value` is the same in both. `asOf` is when you read the page, with the Istanbul offset.
 
