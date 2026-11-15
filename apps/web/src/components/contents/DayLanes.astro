@@ -2,13 +2,15 @@
 /**
  * When each story broke (docs/design/decisions/day-lanes.md). Wide screens: one lane per section,
  * a dot per story at its first report, every title written beside its dot, up to the bulletin's
- * time. Narrow screens: the same day as a short list in time order. Every story opens.
+ * time. Narrow screens: the same lanes folded small, dots only; a tap opens the day as a list in
+ * time order. Every story opens.
  */
 import { storiesBySection, storyPath, type PublishedBulletin } from '../../lib/bulletins';
 import { brokeAt, dayLanes, dayWindow } from '../../lib/day-lanes';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatTime } from '../../lib/format';
 import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
+import Icon from '../ui/Icon.astro';
 
 interface Props {
   published: PublishedBulletin;
@@ -36,8 +38,8 @@ const end = `${time(publishAt)} ${words.dayLanesEnd}`;
 const anyDeveloping = inOrder.some((dot) => dot.developing);
 ---
 
-<section class="lanes" aria-labelledby="lanes-title">
-  <h2 id="lanes-title">{words.dayLanes}</h2>
+<section class="lanes" aria-label={words.dayLanes}>
+  <h2 class="wide-heading">{words.dayLanes}</h2>
 
   <div class="chart">
     {
@@ -71,24 +73,57 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
     <span class="end-line" />
   </div>
 
-  <ol class="list">
-    {
-      inOrder.map((dot) => (
-        <li data-section={dot.section} class:list={{ developing: dot.developing }}>
-          <a href={hrefs.get(dot.id)}>
-            <span class="time">{dot.time}</span>
-            <span class="mark" />
-            <span class="title">{dot.title}</span>
-          </a>
-        </li>
-      ))
-    }
-    <li class="list-end">
-      <span class="time">{time(publishAt)}</span>
-      <span class="mark" />
-      <span class="title">{bulletinName(published.slot, lang)}</span>
-    </li>
-  </ol>
+  <details class="fold">
+    <summary class="toggle">
+      <span class="head">
+        <h2>{words.dayLanes}</h2>
+        <Icon name="more" size={18} class="chevron" />
+      </span>
+      <span class="mini" aria-hidden="true">
+        {
+          lanes.map((lane) => (
+            <span class="mini-lane" data-section={lane.section}>
+              <span class="mini-name">{sectionName(lane.section, lang)}</span>
+              <span class="mini-track">
+                {lane.dots.map((dot) => (
+                  <span
+                    class:list={['mark', { developing: dot.developing }]}
+                    style={`--at: ${dot.at.toFixed(4)}`}
+                  />
+                ))}
+              </span>
+            </span>
+          ))
+        }
+        <span class="mini-scale">
+          <span />
+          <span class="mini-ticks">
+            <span>{window.ticks[0]?.time}</span>
+            <span class="now">{end}</span>
+          </span>
+        </span>
+      </span>
+    </summary>
+
+    <ol class="list">
+      {
+        inOrder.map((dot) => (
+          <li data-section={dot.section} class:list={{ developing: dot.developing }}>
+            <a href={hrefs.get(dot.id)}>
+              <span class="time">{dot.time}</span>
+              <span class="mark" />
+              <span class="title">{dot.title}</span>
+            </a>
+          </li>
+        ))
+      }
+      <li class="list-end">
+        <span class="time">{time(publishAt)}</span>
+        <span class="mark" />
+        <span class="title">{bulletinName(published.slot, lang)}</span>
+      </li>
+    </ol>
+  </details>
 
   {anyDeveloping && <p class="note">{words.dayLanesNote}</p>}
 </section>
@@ -97,8 +132,6 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
   .lanes {
     --row: 22px;
 
-    /* Narrow screens already have Contents, which lists the same stories: no second list. */
-    display: none;
     margin-top: 28px;
   }
 
@@ -115,19 +148,153 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
     background: var(--sec, var(--ink));
   }
 
-  .developing .mark {
+  .developing .mark,
+  .mark.developing {
     box-shadow: 0 0 0 5px color-mix(in srgb, var(--sec, var(--ink)) 25%, transparent);
   }
 
-  /* Narrow screens: the day as a list, earliest first, ending at the bulletin. */
+  /* Narrow screens: the lanes folded small, dots only, with the hour the day began and the
+     bulletin at the ends. The whole picture is the toggle, like a story's timeline, and opens
+     the day as a list, earliest first, ending at the bulletin. */
+  .wide-heading,
   .chart,
   .stem {
     display: none;
   }
 
+  .toggle {
+    display: block;
+    margin: 0 -12px;
+    padding: 10px 12px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    list-style: none;
+    transition: background-color 160ms var(--ease-out);
+  }
+
+  .toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  .toggle:hover {
+    background: var(--surf);
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .toggle :global(.chevron) {
+    color: var(--meta);
+    transform: rotate(90deg);
+    transition: transform 160ms var(--ease-out);
+  }
+
+  .fold[open] .toggle :global(.chevron) {
+    transform: rotate(-90deg);
+  }
+
+  .mini {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+  }
+
+  /* Phones: each section's name sits over its line, so the line runs the full width. */
+  .mini-lane {
+    display: block;
+    padding: 10px 0 12px;
+    border-top: 1px solid var(--line);
+  }
+
+  .mini-lane:last-of-type {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .mini-name {
+    display: block;
+    color: var(--sec, var(--ink));
+    font: 700 13px / 1.2 var(--f-body);
+  }
+
+  .mini-track {
+    position: relative;
+    display: block;
+    height: 12px;
+    margin: 10px 8px 0 6px;
+  }
+
+  .mini-track::before {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    height: 2px;
+    background: var(--line);
+    content: '';
+  }
+
+  .mini-track .mark {
+    position: absolute;
+    top: 0;
+    left: calc(var(--at) * 100% - 6px);
+  }
+
+  .mini-scale {
+    display: block;
+    height: 28px;
+    color: var(--meta2);
+    font: 500 13px / 1 var(--f-body);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mini-ticks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .mini-ticks .now {
+    color: var(--hour);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  /* The bulletin closes the day: a line in the hour colour down the end of every lane. */
+  .mini::after {
+    position: absolute;
+    top: 0;
+    right: 7px;
+    bottom: 28px;
+    width: 2px;
+    background: var(--hour);
+    content: '';
+  }
+
+  /* Tablets have room for the names beside the lines, as on the widest screens. */
+  @media (width >= 720px) {
+    .mini-lane,
+    .mini-scale {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    .mini-lane {
+      padding: 12px 0;
+    }
+
+    .mini-track {
+      margin-top: 0;
+    }
+  }
+
   .list {
     position: relative;
-    margin: 12px 0 0;
+    margin: 4px 0 0;
     padding: 0;
     list-style: none;
   }
@@ -150,6 +317,7 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
     align-items: center;
     column-gap: 12px;
     min-height: 44px;
+    padding: 6px 0;
     color: var(--ink);
     text-decoration: none;
   }
@@ -187,11 +355,11 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
 
   /* Wide screens: lanes, with every title written beside its dot in as many rows as needed. */
   @media (width >= 1100px) {
-    .lanes {
+    .wide-heading {
       display: block;
     }
 
-    .list {
+    .fold {
       display: none;
     }
 
