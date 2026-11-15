@@ -1,11 +1,23 @@
 import type { HotFeed, HotStory } from '@cspnews/core';
 
 /**
- * Hot News on the client: the static pages read `/hot.json` (served next to the site by the
- * monitor) and show the newest story as one quiet line. A dismissed story stays hidden until
+ * Hot News on the client: the static pages read the Hot News feed and show the newest story as
+ * one quiet line. The feed is built every ten minutes by the Hot News workflow
+ * (.github/workflows/hot-news.yml) and kept on the `hot-feed` branch, so the site needs no
+ * rebuild to change it; `PUBLIC_HOT_FEED_URL` points the build at another place, such as a
+ * Worker, without any other change. A dismissed story stays hidden until
  * it is updated. Everything fails quietly: no feed means no line.
  */
-export const HOT_FEED_URL = '/hot.json';
+const DEFAULT_FEED = 'https://raw.githubusercontent.com/MCantuncer/cspnews/hot-feed/hot.json';
+
+/** Read through a plain type, so linting doesn't depend on Astro's generated env types. */
+function feedUrl(): string {
+  const env = (import.meta as { env?: Record<string, unknown> }).env;
+  const value = env?.PUBLIC_HOT_FEED_URL;
+  return typeof value === 'string' && value !== '' ? value : DEFAULT_FEED;
+}
+
+export const HOT_FEED_URL = feedUrl();
 export const POLL_MINUTES = 2;
 const DISMISSED_KEY = 'cspnews:hot-dismissed';
 
