@@ -1,8 +1,10 @@
 ---
 /**
- * The Today line (docs/design/decisions/today-line.md): up to five plain facts for the day,
- * from the bulletin itself: rates, gold, weather, the match. Quiet by design: small labels, one
- * strong figure each, and where and when it was read. Nothing when the bulletin carries none.
+ * The Today line (docs/design/decisions/today-line.md): up to five plain facts for the day, as
+ * one slim strip that slides sideways like the crawl on a TV news channel: rates, gold, the
+ * weather, the match. One line tall, slow, no colours and no arrows. It pauses on hover, focus
+ * or a tap, and with reduced motion it stops sliding and scrolls by hand. The last segment says
+ * where and when the figures were read. Nothing when the bulletin carries none.
  */
 import { todayIn } from '@cspnews/core';
 
@@ -19,75 +21,157 @@ interface Props {
 const { published, lang } = Astro.props;
 const items = (published.bulletin.today ?? []).map((item) => todayIn(item, lang));
 const title = wordsFor(lang).todayTitle;
+// Where and when, once for the whole strip: the sources, and the oldest time they were read.
+const sources = [...new Set(items.map((item) => item.source))].join(', ');
+const oldest = items.map((item) => item.asOf).sort()[0];
+const readAt = oldest ? `${sources}, ${formatTime(oldest, lang)}` : '';
+// How long one pass takes: about 4 characters a second at this size, never faster than 32 s.
+const chars = items.reduce(
+  (total, item) => total + item.label.length + item.value.length + (item.note?.length ?? 0),
+  readAt.length,
+);
 ---
 
 {
   items.length > 0 && (
-    <section class="today" aria-labelledby="today-title">
-      <h2 id="today-title">{title}</h2>
-      <dl>
-        {items.map((item) => (
-          <div class="item" data-kind={item.kind}>
-            <dt>{item.label}</dt>
-            <dd>
-              <b>{item.value}</b>
-              {item.note && <span class="note">{item.note}</span>}
-              <span class="src">{`${item.source}, ${formatTime(item.asOf, lang)}`}</span>
-            </dd>
-          </div>
-        ))}
-      </dl>
+    <section class="today" aria-label={title} data-today-ticker>
+      <span class="tag" aria-hidden="true">
+        {title}
+      </span>
+      <div class="viewport" tabindex="0" role="group" aria-label={title}>
+        <div class="belt" style={`--chars: ${String(chars)}`}>
+          {[false, true].map((copy) => (
+            <ul class="track" aria-hidden={copy ? 'true' : undefined}>
+              {items.map((item) => (
+                <li class="item" data-kind={item.kind}>
+                  <span class="label">{item.label}</span>
+                  <b class="value">{item.value}</b>
+                  {item.note && <span class="note">{item.note}</span>}
+                </li>
+              ))}
+              <li class="item read">{readAt}</li>
+            </ul>
+          ))}
+        </div>
+      </div>
     </section>
   )
 }
 
+<script>
+  // A tap on touch screens holds the strip still; another tap lets it go on.
+  for (const strip of document.querySelectorAll<HTMLElement>('[data-today-ticker]')) {
+    strip.addEventListener('click', () => {
+      strip.toggleAttribute('data-held');
+    });
+  }
+</script>
+
 <style>
   .today {
-    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    margin-top: 24px;
+    border-block: 1px solid var(--line);
   }
 
-  h2 {
+  .tag {
+    flex: none;
+    padding-right: 14px;
+    border-right: 1px solid var(--line);
     color: var(--meta);
-    font: 700 15px / 1.3 var(--f-body);
+    font: 700 13px / 1 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 
-  dl {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0 20px;
-    margin: 8px 0 0;
+  .viewport {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+    /* The strip fades at its edges so items slide in and out softly. */
+    mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+    outline-offset: -2px;
+  }
+
+  .belt {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    animation: slide max(32s, calc(var(--chars) * 0.28s)) linear infinite;
+  }
+
+  /* Hovering, focusing or tapping holds it still so a figure can be read. */
+  .today:hover .belt,
+  .today:focus-within .belt,
+  .today[data-held] .belt {
+    animation-play-state: paused;
+  }
+
+  /* Each copy is at least as wide as the strip, so the loop never shows a gap. */
+  .track {
+    display: flex;
+    flex: none;
+    align-items: center;
+    gap: 32px;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0 32px 0 24px;
+    list-style: none;
   }
 
   .item {
-    display: grid;
-    gap: 2px;
-    padding: 12px 0;
-    border-top: 1px solid var(--line);
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    white-space: nowrap;
   }
 
-  dt {
+  .label {
     color: var(--meta);
-    font: 600 14px / 1.3 var(--f-body);
+    font: 600 14px / 1 var(--f-body);
   }
 
-  dd {
-    display: grid;
-    gap: 2px;
-    margin: 0;
-  }
-
-  b {
-    font: 800 24px / 1.15 var(--f-head);
-    letter-spacing: -0.02em;
+  .value {
+    font: 800 17px / 1 var(--f-head);
+    letter-spacing: -0.01em;
   }
 
   .note {
     color: var(--ink2);
-    font: 400 15px / 1.35 var(--f-body);
+    font: 400 14px / 1 var(--f-body);
   }
 
-  .src {
+  .read {
     color: var(--meta);
-    font: 400 13px / 1.3 var(--f-body);
+    font: 400 13px / 1 var(--f-body);
+  }
+
+  @keyframes slide {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .belt {
+      animation: none;
+    }
+
+    .viewport {
+      overflow-x: auto;
+      mask-image: none;
+      scrollbar-width: none;
+    }
+
+    .track {
+      min-width: 0;
+    }
+
+    .track[aria-hidden='true'] {
+      display: none;
+    }
   }
 </style>
