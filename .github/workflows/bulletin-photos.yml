@@ -6,6 +6,9 @@ name: Bulletin photos
 #   data/bulletins/media/<story id>.<ext>
 #
 # A photo that fails is reported in the log and the story falls back to its next visual.
+#
+# It also fills the bulletin's Tonight list from the score sources, by rules only, with the team
+# logos it uses (packages/scores, docs/design/decisions/tonight.md).
 
 on:
   pull_request:
@@ -36,7 +39,7 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter @cspnews/pipeline... build
+      - run: pnpm --filter @cspnews/pipeline... --filter @cspnews/scores... build
 
       - name: Save the photos
         env:
@@ -45,6 +48,15 @@ jobs:
           git diff --name-only --diff-filter=AM "origin/$BASE_REF...HEAD" -- 'data/bulletins/*.json' |
             while read -r file; do
               pnpm --filter @cspnews/pipeline save-media "$PWD/$file"
+            done
+
+      - name: Fill the Tonight list
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git diff --name-only --diff-filter=AM "origin/$BASE_REF...HEAD" -- 'data/bulletins/*.json' |
+            while read -r file; do
+              pnpm --filter @cspnews/scores fill-tonight "$PWD/$file" || echo "Tonight list left as it was."
             done
 
       - name: Add them to the pull request

@@ -45,7 +45,13 @@ const chars = items.reduce(
               {items.map((item) => (
                 <li class="item" data-kind={item.kind}>
                   <span class="label">{item.label}</span>
-                  <b class="value">{item.value}</b>
+                  <b
+                    class="value"
+                    data-live-source={item.live?.source}
+                    data-live-ref={item.live?.ref}
+                  >
+                    {item.value}
+                  </b>
                   {item.note && <span class="note">{item.note}</span>}
                 </li>
               ))}

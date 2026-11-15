@@ -175,3 +175,28 @@ export {
   type LocalTodayItem,
   type TodayItem,
 } from './today.js';
+
+export {
+  LIVE_SOURCES,
+  LiveSchema,
+  PersonLineSchema,
+  TONIGHT_FOCUS,
+  TONIGHT_KINDS,
+  TONIGHT_MAX,
+  TONIGHT_SPORTS,
+  TonightItemSchema,
+  TonightSideSchema,
+  sortTonight,
+  teamKey,
+  tonightIn,
+} from './tonight.js';
+export type {
+  Live,
+  LiveSource,
+  PersonLine,
+  LocalTonightItem,
+  TonightFocus,
+  TonightItem,
+  TonightSide,
+  TonightSport,
+} from './tonight.js';

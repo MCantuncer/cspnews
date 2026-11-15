@@ -1,0 +1,33 @@
+name: Tonight sources
+
+# Reads the score sources the Tonight list uses (packages/scores) and prints the rows they give
+# right now, without changing anything. Runs when the rules or the watch list change, every
+# evening as a health check, and by hand from the Actions tab.
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # 19:00 Istanbul time
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'packages/scores/**'
+      - 'packages/config/src/tonight.ts'
+      - '.github/workflows/tonight.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  rows:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/scores... build
+      - run: pnpm --filter @cspnews/scores fill-tonight --dry-run
