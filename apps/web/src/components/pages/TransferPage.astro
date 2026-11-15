@@ -24,6 +24,7 @@ import {
 import { formatShortDate } from '../../lib/format';
 import { outletLogoUrl, photoUrl } from '../../lib/media';
 import { bulletinName, wordsFor } from '../../lib/i18n';
+import { shareImagePath } from '../../lib/share';
 
 interface Props {
   published: PublishedBulletin;
@@ -45,6 +46,8 @@ const photo = move.image ? photoUrl(move.id) : undefined;
 <Base
   title={`${move.title} | CSPNews`}
   description={move.now}
+  image={shareImagePath(move.id)}
+  kind="article"
   hour={editionHourFor(published.slot)}
   lang={lang}
 >

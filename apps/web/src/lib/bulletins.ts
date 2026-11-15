@@ -61,6 +61,14 @@ export function loadBulletins(directory = bulletinsDirectory()): PublishedBullet
   return bulletins;
 }
 
+let loaded: PublishedBulletin[] | undefined;
+
+/** Every published bulletin, read once per build: pages that look at other bulletins use this. */
+export function allBulletins(): PublishedBulletin[] {
+  loaded ??= loadBulletins();
+  return loaded;
+}
+
 /** The URL of a bulletin: `/2026-11-11/evening`, under `/tr` for the Turkish interface. */
 export function bulletinPath(published: PublishedBulletin, lang: InterfaceLanguage = 'en'): string {
   return localePath(`/${published.date}/${published.slot}`, lang);

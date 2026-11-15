@@ -21,6 +21,7 @@ import VisualView from '../visual/Visual.astro';
 import WhatsNew from '../story/WhatsNew.astro';
 import Base from '../../layouts/Base.astro';
 import {
+  allBulletins,
   bulletinPath,
   caughtUpPath,
   readKey,
@@ -40,7 +41,8 @@ import {
   wordsFor,
 } from '../../lib/i18n';
 import { outletNames, sourceName } from '../../lib/sources';
-import { allBulletins, earlierVersions, newerVersion } from '../../lib/story-chain';
+import { earlierVersions, newerVersion } from '../../lib/story-chain';
+import { shareImagePath } from '../../lib/share';
 import { storyVisual } from '../../lib/story-visual';
 import { timelineFor } from '../../lib/timeline';
 
@@ -93,6 +95,8 @@ const earlierReports = earlier
 <Base
   title={`${story.title} | CSPNews`}
   description={story.summary.what}
+  image={shareImagePath(story.id)}
+  kind="article"
   hour={editionHourFor(published.slot)}
   lang={lang}
 >
