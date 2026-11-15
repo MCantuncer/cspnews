@@ -61,6 +61,17 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
             data-lang={lang}
             data-state={status.state}
             data-outcome={outcome}
+            data-live-source={local.live?.source}
+            data-live-ref={local.live?.ref}
+            data-sport={local.sport}
+            data-ours={
+              local.home?.ours && !local.away?.ours
+                ? 'home'
+                : local.away?.ours && !local.home?.ours
+                  ? 'away'
+                  : undefined
+            }
+            data-final={local.result ? 'true' : undefined}
           >
             <span class="station" aria-hidden="true" />
             <div class="body">
@@ -125,9 +136,11 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 }
 
 <script>
+  import { followScores } from '../../lib/live';
   import { showTonight } from '../../lib/tonight-view';
 
   showTonight(document);
+  followScores(document);
 </script>
 
 <style>

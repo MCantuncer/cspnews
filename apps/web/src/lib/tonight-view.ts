@@ -15,6 +15,8 @@ interface RowData {
 
 function update(root: ParentNode, now: Date) {
   for (const row of root.querySelectorAll<HTMLElement>('[data-tonight-row]')) {
+    // A row the live scores have reached shows the source's word, not the clock's.
+    if (row.dataset.live === 'true') continue;
     let data: RowData;
     try {
       data = JSON.parse(row.dataset.tonightRow ?? '') as RowData;
