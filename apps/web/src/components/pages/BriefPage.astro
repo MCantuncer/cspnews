@@ -24,6 +24,7 @@ import { formatLongDate } from '../../lib/format';
 import { bulletinName, sectionName, wordsFor } from '../../lib/i18n';
 import { outletLogos } from '../../lib/media';
 import { storyVisual } from '../../lib/story-visual';
+import { bulletinDescription, leadShareImage } from '../../lib/share';
 
 interface Props {
   published: PublishedBulletin;
@@ -38,6 +39,8 @@ const groups = storiesBySection(published, lang);
 
 <Base
   title={`${words.brief}: ${name}, ${formatLongDate(published.bulletin.publishAt, lang)} | CSPNews`}
+  description={bulletinDescription(published, lang)}
+  image={leadShareImage(published)}
   hour={editionHourFor(published.slot)}
   lang={lang}
 >

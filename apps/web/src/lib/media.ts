@@ -38,6 +38,12 @@ export function photoUrl(storyId: string, directory = mediaDirectory()): string 
   return file && `${MEDIA_URL}/${encodeURIComponent(file)}`;
 }
 
+/** The saved photo's file on disk, for build steps that read it (the share pictures). */
+export function photoFile(storyId: string, directory = mediaDirectory()): string | undefined {
+  const file = find(directory, storyId, PHOTO);
+  return file && join(directory, file);
+}
+
 /** The site URL of an organisation's saved logo, if there is one. */
 export function logoUrl(orgId: string, directory = mediaDirectory()): string | undefined {
   const file = find(join(directory, 'org'), orgId, LOGO);

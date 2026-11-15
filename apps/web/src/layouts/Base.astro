@@ -5,6 +5,14 @@ import Ruler from '../components/Ruler.astro';
 
 import type { EditionHour } from '../lib/edition';
 import { feedPath } from '../lib/feed';
+import {
+  absoluteUrl,
+  languageAlternates,
+  OG_LOCALE,
+  pagePath,
+  SHARE_FALLBACK,
+  SHARE_SIZE,
+} from '../lib/share';
 
 interface Props {
   title: string;
@@ -12,6 +20,10 @@ interface Props {
   hour?: EditionHour;
   /** The interface language. */
   lang?: 'en' | 'tr';
+  /** The site path of the picture shown when the page is shared (src/lib/share.ts). */
+  image?: string;
+  /** `article` for a story, `website` for everything else. */
+  kind?: 'article' | 'website';
 }
 
 const {
@@ -19,7 +31,14 @@ const {
   description = 'A personal newsroom: four calm bulletins a day.',
   hour = 'dawn',
   lang = 'en',
+  image = SHARE_FALLBACK,
+  kind = 'website',
 } = Astro.props;
+// Pages are built once per language; the preview, canonical and language links use this one's address.
+const { pathname } = Astro.url;
+const address = absoluteUrl(pagePath(pathname));
+const alternates = languageAlternates(pathname);
+const picture = absoluteUrl(image);
 ---
 
 <!doctype html>
@@ -28,6 +47,24 @@ const {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={address} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
+    <meta property="og:site_name" content="CSPNews" />
+    <meta property="og:type" content={kind} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={address} />
+    <meta property="og:locale" content={OG_LOCALE[lang]} />
+    <meta property="og:image" content={picture} />
+    {
+      image === SHARE_FALLBACK && (
+        <>
+          <meta property="og:image:width" content={String(SHARE_SIZE.width)} />
+          <meta property="og:image:height" content={String(SHARE_SIZE.height)} />
+        </>
+      )
+    }
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="alternate" type="application/rss+xml" title="CSPNews" href={feedPath(lang)} />
     <meta name="color-scheme" content="dark light" />
     <!-- The browser bar takes the page colour: Clean or Dark when matching the device (tokens.css). -->

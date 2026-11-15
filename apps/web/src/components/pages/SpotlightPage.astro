@@ -19,6 +19,7 @@ import { AND_FINALLY_ID, LIGHT_KIND_ICON, extrasWords, kindWord } from '../../li
 import { bulletinName, wordsFor } from '../../lib/i18n';
 import { logosFor, photoUrl } from '../../lib/media';
 import { sourceName } from '../../lib/sources';
+import { shareImagePath } from '../../lib/share';
 
 interface Props {
   published: PublishedBulletin;
@@ -39,6 +40,8 @@ const logoOf = (sourceId: string) => logosFor([sourceId], 1)[0];
 <Base
   title={`${story.title} | CSPNews`}
   description={story.gist}
+  image={shareImagePath(story.id)}
+  kind="article"
   hour={editionHourFor(published.slot)}
   lang={lang}
 >

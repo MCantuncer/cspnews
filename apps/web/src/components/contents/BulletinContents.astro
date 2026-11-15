@@ -1,6 +1,7 @@
 ---
 /** A whole Contents screen: the bulletin's name, its date and size, then the spine. */
 import {
+  allBulletins,
   briefPath,
   readingMinutes,
   storiesIn,
@@ -11,7 +12,7 @@ import { evidenceWord, type InterfaceLanguage } from '../../lib/evidence';
 import type { StoryNow } from '../../lib/follow';
 import { followWords } from '../../lib/follow-words';
 import { sourceName } from '../../lib/sources';
-import { allBulletins, earlierIds } from '../../lib/story-chain';
+import { earlierIds } from '../../lib/story-chain';
 import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import { GAME_PATHS, todayLine } from '../../lib/word';
