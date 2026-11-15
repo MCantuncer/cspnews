@@ -175,6 +175,9 @@ importers:
       '@cspnews/grouping':
         specifier: workspace:*
         version: link:../grouping
+      '@cspnews/hotnews':
+        specifier: workspace:*
+        version: link:../hotnews
       '@cspnews/verify':
         specifier: workspace:*
         version: link:../verify
