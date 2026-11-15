@@ -11,6 +11,7 @@ import type { PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { teamLogoUrl } from '../../lib/media';
 import {
+  markIcon,
   personMarks,
   tonightOutcome,
   tonightStatus,
@@ -48,12 +49,6 @@ const rows = sortTonight(published.bulletin.tonight ?? []).map((item) => {
     }),
   };
 });
-const MARK_ICONS = {
-  goals: 'goal',
-  assists: 'assist',
-  points: 'points',
-  rebounds: 'rebound',
-} as const;
 const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.team) : undefined);
 ---
 
@@ -80,12 +75,16 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                         (person) =>
                           person.marks.length > 0 && (
                             <span class="marks" role="img" aria-label={person.label}>
-                              {person.marks.map((mark) => (
-                                <span class="mark">
-                                  <Icon name={MARK_ICONS[mark.kind]} size={16} />
-                                  {mark.count}
-                                </span>
-                              ))}
+                              {person.marks.map((mark) => {
+                                const icon = markIcon(mark.kind, local.sport);
+                                return (
+                                  <span class="mark">
+                                    {icon && <Icon name={icon} size={icon === 'assist' ? 20 : 18} />}
+                                    {mark.count}
+                                    {!icon && <span class="unit">{words.short[mark.kind]}</span>}
+                                  </span>
+                                );
+                              })}
                             </span>
                           ),
                       )}
@@ -185,7 +184,12 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     min-width: 0;
   }
 
+  /* The name and a person's numbers share one line, and wrap from the left edge together. */
   .name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 14px;
     color: var(--ink);
     font: 700 18px / 1.25 var(--f-head);
     letter-spacing: -0.01em;
@@ -282,22 +286,27 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   /* A person's own numbers: small icons with counts, right after the name. */
   .marks {
     display: inline-flex;
-    gap: 10px;
-    margin-left: 10px;
-    vertical-align: 1px;
+    align-items: center;
+    gap: 12px;
   }
 
   .mark {
     display: inline-flex;
     align-items: center;
-    gap: 3px;
-    color: var(--ink2);
-    font: 700 15px / 1 var(--f-head);
+    gap: 4px;
+    color: var(--ink);
+    font: 700 16px / 1 var(--f-head);
     font-variant-numeric: tabular-nums;
   }
 
   .mark :global(svg) {
+    color: var(--ink2);
+  }
+
+  .unit {
+    margin-left: 1px;
     color: var(--meta);
+    font: 500 13px / 1 var(--f-body);
   }
 
   [data-state='on'] .when small {

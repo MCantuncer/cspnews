@@ -27,6 +27,7 @@ const WORDS = {
     assists: (n: number) => (n === 1 ? '1 assist' : `${String(n)} assists`),
     points: (n: number) => (n === 1 ? '1 point' : `${String(n)} points`),
     rebounds: (n: number) => (n === 1 ? '1 rebound' : `${String(n)} rebounds`),
+    short: { points: 'pts', rebounds: 'reb', assists: 'ast', goals: 'goals' },
   },
   tr: {
     title: 'Bu gece',
@@ -46,6 +47,7 @@ const WORDS = {
     assists: (n: number) => `${String(n)} asist`,
     points: (n: number) => `${String(n)} sayı`,
     rebounds: (n: number) => `${String(n)} ribaund`,
+    short: { points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol' },
   },
 } as const;
 
@@ -129,7 +131,10 @@ export function tonightOutcome(
 
 export type MarkKind = 'goals' | 'assists' | 'points' | 'rebounds';
 
-/** A person's numbers as icon marks, in reading order, leaving out zeros except points. */
+/**
+ * A person's numbers in reading order, leaving out zeros except points. A footballer's goals and
+ * assists are drawn as icons (a ball, a boot); a basketball line is numbers with short words.
+ */
 export function personMarks(
   line: Partial<Record<MarkKind, number | undefined>>,
 ): { kind: MarkKind; count: number }[] {
@@ -139,4 +144,10 @@ export function personMarks(
     if (count === undefined || (count === 0 && kind !== 'points')) return [];
     return [{ kind, count }];
   });
+}
+
+/** The icon a mark is drawn with, or none when the mark is a number with a short word. */
+export function markIcon(kind: MarkKind, sport: string | undefined): 'goal' | 'assist' | undefined {
+  if (sport === 'basketball') return undefined;
+  return kind === 'goals' ? 'goal' : kind === 'assists' ? 'assist' : undefined;
 }

@@ -46,14 +46,10 @@ export const ICONS = {
     '<path d="M2 12h5.5"/><circle cx="12" cy="12" r="4.5"/><path d="M12 9.75v4.5M9.75 12h4.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/>',
   /* A flag on the line: keep this story for later. */
   save: '<path d="M2 20h5.5M16.5 20H22"/><path d="M7 3.5h10V16l-5-3.25L7 16z"/>',
-  /** Tonight: a goal, an assist, a basketball's points and a rebound, each beside its count. */
-  goal: '<circle cx="12" cy="12" r="8"/><path d="M12 8.75l3.1 2.25-1.2 3.6h-3.8l-1.2-3.6z" fill="currentColor"/>',
+  /** Tonight: a football for a goal, a football boot for an assist (solid, read at 18-20px). */
+  goal: '<circle cx="12" cy="12" r="10" fill="currentColor" stroke="none"/><g style="fill:var(--bg)" stroke="none"><path d="M12 8.4l3.4 2.47-1.3 4h-4.2l-1.3-4z"/><path d="M12 2.2l2.3 1.1-.5 2.1H10.2l-.5-2.1z"/><path d="M21.6 10.3l-.1 2.6-1.9.9-1.5-1.6.9-2.4z"/><path d="M17.9 19.6l-2.4.9-1.3-1.7 1.2-1.9 2.4.3z"/><path d="M6.1 19.6l2.4.9 1.3-1.7-1.2-1.9-2.4.3z"/><path d="M2.4 10.3l.1 2.6 1.9.9 1.5-1.6-.9-2.4z"/></g>',
   assist:
-    '<path d="M3.5 17c3.5-6.5 8.5-9 13.5-9M14 5l3 3-3 3"/><circle cx="18.5" cy="17.5" r="2.25" fill="currentColor"/>',
-  points:
-    '<circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4v16M6.6 6.3c2.6 3 2.6 8.4 0 11.4M17.4 6.3c-2.6 3-2.6 8.4 0 11.4"/>',
-  rebound:
-    '<path d="M12 21v-11M8 13.5l4-4 4 4"/><circle cx="12" cy="5" r="2.25" fill="currentColor"/>',
+    '<path fill="currentColor" stroke="none" d="M3.2 16.9V8.2c0-.7.5-1.2 1.2-1.2h3.9c.6 0 1 .4 1.2.9l.8 2.5c.4 1.1 1.4 1.9 2.6 2l3.6.4c2.7.3 4.7 2.1 4.7 4.4v.3c0 .4-.3.7-.7.7H3.9c-.4 0-.7-.3-.7-.7zM4.4 18.6h2.2v2H4.4zM8.6 18.6h2.2v2H8.6zM14.4 18.6h2.2v2h-2.2zM18.4 18.6h2.2v2h-2.2z"/><g style="fill:var(--bg)" stroke="none"><circle cx="10.6" cy="11.4" r=".75"/><circle cx="12.6" cy="12.6" r=".75"/></g>',
   stats:
     '<path d="M2.5 20h19M6.5 20v-5M12 20v-9.75M17.5 20v-7.5"/><circle cx="12" cy="6" r="2.25" fill="currentColor"/>',
   share:
