@@ -17,8 +17,13 @@ export function euroleagueSeason(at: Date): string {
   return `E${String(at.getUTCMonth() >= 7 ? year : year - 1)}`;
 }
 
+/**
+ * The feed answers in XML or JSON by the Accept header, but its cache keys on the address alone,
+ * so an address someone else asked for in XML can come back as XML. `format=json` keeps our
+ * addresses apart; the feed itself ignores it.
+ */
 export function euroleagueGamesUrl(season: string, teamCode: string): string {
-  return `${EUROLEAGUE_BASE}/${season}/games?teamCode=${encodeURIComponent(teamCode)}`;
+  return `${EUROLEAGUE_BASE}/${season}/games?teamCode=${encodeURIComponent(teamCode)}&format=json`;
 }
 
 const ClubSchema = z.looseObject({
