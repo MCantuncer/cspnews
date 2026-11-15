@@ -26,7 +26,8 @@ function strip(story: WrittenStory, parts: readonly string[], photo = true): Wri
   } as WrittenStory;
 }
 
-const first = FULL.stories[0] as WrittenStory;
+const [first] = FULL.stories;
+if (!first) throw new Error('The fixture has no stories');
 const one = (story: WrittenStory, extra: Partial<Bulletin> = {}): Bulletin => ({
   version: 2,
   slot: FULL.slot,

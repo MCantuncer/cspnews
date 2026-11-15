@@ -29,7 +29,7 @@ const readJson = (path: string): unknown => JSON.parse(readFileSync(resolve(path
 
 function deskCandidates(path: string): DeskCandidates {
   const { desks } = readJson(path) as Pick<CandidatesFile, 'desks'>;
-  return Object.fromEntries(DESKS.map((desk) => [desk, desks[desk]?.length ?? 0]));
+  return Object.fromEntries(DESKS.map((desk) => [desk, desks[desk].length]));
 }
 
 const bulletin = parseBulletin(readJson(bulletinPath));
@@ -38,7 +38,7 @@ const empty = emptyParts(bulletin, candidatesPath ? deskCandidates(candidatesPat
 if (empty.length === 0) {
   console.log('Every part is filled.');
 } else {
-  console.log(`${empty.length} empty part${empty.length === 1 ? '' : 's'}:`);
+  console.log(`${String(empty.length)} empty part${empty.length === 1 ? '' : 's'}:`);
   for (const part of empty) console.log(`- ${describeEmptyPart(part)}`);
   console.log('Fill each one from the sources, or say in the pull request why it stays empty.');
 }

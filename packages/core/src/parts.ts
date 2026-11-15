@@ -20,7 +20,7 @@ export interface EmptyPart {
 export type DeskCandidates = Readonly<Partial<Record<Desk, number>>>;
 
 const DESK_PART: Record<Desk, (bulletin: Bulletin) => boolean> = {
-  light: (bulletin) => (bulletin.andFinally?.light?.length ?? 0) > 0,
+  light: (bulletin) => (bulletin.andFinally?.light.length ?? 0) > 0,
   transfers: (bulletin) => (bulletin.transfers?.length ?? 0) > 0,
   abroad: (bulletin) => (bulletin.abroad?.length ?? 0) > 0,
 };
@@ -60,7 +60,9 @@ const DESK_NAMES: Record<Desk, string> = {
 export function describeEmptyPart(empty: EmptyPart): string {
   if ('desk' in empty.where) {
     const offered =
-      empty.candidates === undefined ? '' : ` although the desk had ${empty.candidates} candidates`;
+      empty.candidates === undefined
+        ? ''
+        : ` although the desk had ${String(empty.candidates)} candidates`;
     return `${DESK_NAMES[empty.where.desk]} is missing${offered}.`;
   }
   const story = `"${empty.where.title}" (${empty.where.story})`;
