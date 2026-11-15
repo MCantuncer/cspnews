@@ -35,3 +35,16 @@ export function formatLongDate(iso: string, language: InterfaceLanguage): string
     timeZone: TIME_ZONE,
   }).format(new Date(iso));
 }
+
+/** "Saturday" / "Cumartesi", in Istanbul time. */
+export function formatWeekday(iso: string, language: InterfaceLanguage): string {
+  return new Intl.DateTimeFormat(locale(language), {
+    weekday: 'long',
+    timeZone: TIME_ZONE,
+  }).format(new Date(iso));
+}
+
+/** "Saturday 22:30" / "Cumartesi 22:30". */
+export function formatWeekdayTime(iso: string, language: InterfaceLanguage): string {
+  return `${formatWeekday(iso, language)} ${formatTime(iso, language)}`;
+}

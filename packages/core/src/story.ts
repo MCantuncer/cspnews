@@ -198,6 +198,11 @@ export const StoryVersionSchema = z
     series: z.array(SeriesPointSchema).max(12).optional(),
     keyNumber: KeyNumberSchema.optional(),
     place: PlaceSchema.optional(),
+    /**
+     * For a story that continues an earlier one: one sentence on what is new since that version,
+     * so a reader who read it knows what to look for. Written together with `continues`.
+     */
+    news: text(160).optional(),
   })
   .strict();
 
@@ -257,6 +262,11 @@ export const WrittenStorySchema = z
     sourceLanguage: z.enum(LANGUAGES),
     label: z.enum(EVIDENCE_LABEL_VALUES),
     developing: z.boolean(),
+    /**
+     * The id of the earlier story this one continues, when the same story was in an earlier
+     * bulletin and has real news since. The site links the two as "The story so far".
+     */
+    continues: text(64).optional(),
 
     versions: z.object({ en: StoryVersionSchema, tr: StoryVersionSchema }).strict(),
 
@@ -282,6 +292,16 @@ export const WrittenStorySchema = z
           code: 'custom',
           message: `Write ${String(min)} to ${String(max)} words`,
           path: ['versions', language, 'body'],
+        });
+      }
+    }
+    for (const language of LANGUAGES) {
+      if ((story.continues === undefined) !== (story.versions[language].news === undefined)) {
+        context.addIssue({
+          code: 'custom',
+          message:
+            'A story that continues an earlier one needs `news` in both languages, and only then',
+          path: ['versions', language, 'news'],
         });
       }
     }

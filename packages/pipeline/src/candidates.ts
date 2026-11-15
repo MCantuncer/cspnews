@@ -57,6 +57,16 @@ export interface Candidate {
   readonly articles: readonly CandidateArticle[];
   /** On the abroad desk: the ids of the watched people the story names. */
   readonly people?: readonly string[];
+  /**
+   * Set when an earlier bulletin's story shares articles with this one: it is probably the same
+   * story again. The writer checks, and writes `continues` when there is news since (earlier.ts).
+   */
+  readonly continues?: {
+    readonly storyId: string;
+    readonly bulletin: string;
+    readonly title: string;
+    readonly sharedArticles: number;
+  };
 }
 
 /** A lifecycle event with its time as an ISO string, for JSON. */

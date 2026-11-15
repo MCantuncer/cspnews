@@ -11,6 +11,7 @@ import { evidenceWord, type InterfaceLanguage } from '../../lib/evidence';
 import type { StoryNow } from '../../lib/follow';
 import { followWords } from '../../lib/follow-words';
 import { sourceName } from '../../lib/sources';
+import { allBulletins, earlierIds } from '../../lib/story-chain';
 import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import { GAME_PATHS, todayLine } from '../../lib/word';
@@ -27,16 +28,22 @@ const { published, lang } = Astro.props;
 const { publishAt, stories } = published.bulletin;
 const words = wordsFor(lang);
 // Followed stories are compared in the browser; the page carries what each story is now.
-const now: StoryNow[] = storiesIn(published, lang).map((story) => ({
-  id: story.id,
-  title: story.shortTitle,
-  href: storyPath(published, story, lang),
-  section: story.section,
-  label: story.label,
-  labelWord: evidenceWord(story.label, lang),
-  sources: story.sources.map((s) => ({ id: s.sourceId, name: sourceName(s.sourceId) })),
-  updatedAt: story.updatedAt,
-}));
+const bulletins = allBulletins();
+const now: StoryNow[] = storiesIn(published, lang).map((story) => {
+  const earlier = earlierIds(bulletins, story);
+  return {
+    id: story.id,
+    title: story.shortTitle,
+    href: storyPath(published, story, lang),
+    section: story.section,
+    label: story.label,
+    labelWord: evidenceWord(story.label, lang),
+    sources: story.sources.map((s) => ({ id: s.sourceId, name: sourceName(s.sourceId) })),
+    updatedAt: story.updatedAt,
+    ...(earlier.length > 0 && { earlier }),
+    ...(story.news && { news: story.news }),
+  };
+});
 ---
 
 <main class="screen">
