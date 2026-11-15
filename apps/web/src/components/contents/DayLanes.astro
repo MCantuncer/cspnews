@@ -202,16 +202,10 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
     margin-top: 12px;
   }
 
-  .mini-lane,
-  .mini-scale {
-    display: grid;
-    grid-template-columns: 76px minmax(0, 1fr);
-    align-items: center;
-    column-gap: 12px;
-  }
-
+  /* Phones: each section's name sits over its line, so the line runs the full width. */
   .mini-lane {
-    min-height: 34px;
+    display: block;
+    padding: 10px 0 12px;
     border-top: 1px solid var(--line);
   }
 
@@ -220,15 +214,26 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
   }
 
   .mini-name {
-    padding: 6px 0;
+    display: block;
     color: var(--sec, var(--ink));
-    font: 700 12px / 1.2 var(--f-body);
+    font: 700 13px / 1.2 var(--f-body);
   }
 
   .mini-track {
     position: relative;
+    display: block;
     height: 12px;
-    margin: 0 8px 0 6px;
+    margin: 10px 8px 0 6px;
+  }
+
+  .mini-track::before {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    height: 2px;
+    background: var(--line);
+    content: '';
   }
 
   .mini-track .mark {
@@ -238,16 +243,17 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
   }
 
   .mini-scale {
-    height: 24px;
+    display: block;
+    height: 28px;
     color: var(--meta2);
-    font: 500 12px / 1 var(--f-body);
+    font: 500 13px / 1 var(--f-body);
     font-variant-numeric: tabular-nums;
   }
 
   .mini-ticks {
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
+    padding-top: 10px;
   }
 
   .mini-ticks .now {
@@ -261,10 +267,29 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
     position: absolute;
     top: 0;
     right: 7px;
-    bottom: 24px;
+    bottom: 28px;
     width: 2px;
     background: var(--hour);
     content: '';
+  }
+
+  /* Tablets have room for the names beside the lines, as on the widest screens. */
+  @media (width >= 720px) {
+    .mini-lane,
+    .mini-scale {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    .mini-lane {
+      padding: 12px 0;
+    }
+
+    .mini-track {
+      margin-top: 0;
+    }
   }
 
   .list {
@@ -292,6 +317,7 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
     align-items: center;
     column-gap: 12px;
     min-height: 44px;
+    padding: 6px 0;
     color: var(--ink);
     text-decoration: none;
   }
