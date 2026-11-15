@@ -2,7 +2,7 @@
   "version": 2,
   "slot": "late",
   "publishAt": "2026-11-16T00:55:00+03:00",
-  "writtenAt": "2026-11-15T21:50:00.000Z",
+  "writtenAt": "2026-11-15T23:20:00.000Z",
   "stories": [
     {
       "id": "80aa7a5c8aa34520",
@@ -2503,6 +2503,123 @@
           "question": "Özgür Özel, YENİ Parti’nin fon vurgununda kaç ana dosyada teyidi tamamladığını söyledi?",
           "options": ["Üç", "Sekiz", "On beş"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909985",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "startsAt": "2026-11-15T18:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909985"
+      },
+      "result": {
+        "home": 131,
+        "away": 124
+      }
+    },
+    {
+      "id": "espn-401861177",
+      "kind": "match",
+      "sport": "football",
+      "focus": "national",
+      "name": {
+        "en": "Türkiye",
+        "tr": "Türkiye"
+      },
+      "competition": {
+        "en": "Nations League",
+        "tr": "Uluslar Ligi"
+      },
+      "home": {
+        "name": "France",
+        "ours": false,
+        "team": "france"
+      },
+      "away": {
+        "name": "Türkiye",
+        "ours": true,
+        "team": "turkiye"
+      },
+      "startsAt": "2026-11-15T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.nations/401861177"
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Emir Han Topcu",
+          "minutes": ["49'"],
+          "own": true
+        },
+        {
+          "side": "home",
+          "name": "Junior Kroupi",
+          "minutes": ["80'"]
+        },
+        {
+          "side": "away",
+          "name": "Abdülkerim Bardakçi",
+          "minutes": ["90'"]
+        }
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "espn-401909991",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "ours": false,
+        "team": "washington-wizards"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-16T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909991"
       }
     }
   ]
