@@ -138,7 +138,7 @@ function drawMarks(
     group.setAttribute('aria-label', marks.map((m) => words[m.kind](m.count)).join(', '));
     for (const mark of marks) {
       const item = make('mark', String(mark.count));
-      item.append(make('unit', words.unit(mark.kind, mark.count, sport).toLocaleUpperCase(lang)));
+      item.append(make('word', words.unit(mark.kind, mark.count, sport)));
       group.append(item);
     }
     name.append(group);

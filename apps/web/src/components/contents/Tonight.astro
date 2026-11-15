@@ -171,10 +171,8 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                               {person.marks.map((mark) => (
                                 <span class="mark">
                                   {mark.count}
-                                  <span class="unit">
-                                    {words
-                                      .unit(mark.kind, mark.count, local.sport)
-                                      .toLocaleUpperCase(lang)}
+                                  <span class="word">
+                                    {words.unit(mark.kind, mark.count, local.sport)}
                                   </span>
                                 </span>
                               ))}
@@ -382,21 +380,26 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   /*
    * A person's own numbers, right after the name, set apart from it: the reading face instead of
-   * the headline one, a calm weight, and a small spaced-capitals word after each number.
+   * the headline one, a calm size, and a plain lowercase word after each number.
    */
   .marks {
     display: inline-flex;
     align-items: baseline;
-    gap: 14px;
+    gap: 12px;
   }
 
   .mark {
     display: inline-flex;
     align-items: baseline;
-    gap: 4px;
+    gap: 3px;
     color: var(--ink);
-    font: 600 16px / 1 var(--f-body);
+    font: 600 14px / 1 var(--f-body);
     font-variant-numeric: tabular-nums;
+  }
+
+  .mark .word {
+    color: var(--meta);
+    font-weight: 400;
   }
 
   .unit {
