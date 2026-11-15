@@ -1,0 +1,58 @@
+name: Hot News
+
+# Looks for breaking news between bulletins, from rules only (packages/hotnews), and saves the
+# Hot News feed on the `hot-feed` branch, where the site reads it (apps/web/src/lib/hot.ts).
+# Runs every ten minutes (GitHub may start it late), and by hand from the Actions tab. The
+# branch holds one commit that each run replaces, so it never grows, and its own vercel.json
+# stops Vercel deploying it.
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/hot-news.yml'
+      - 'packages/hotnews/**'
+      - 'packages/pipeline/src/monitor-hot.ts'
+      - 'packages/pipeline/src/hot-sources.ts'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hot-news
+  cancel-in-progress: true
+
+jobs:
+  hot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/pipeline... build
+
+      - name: Look for breaking news
+        run: pnpm --filter @cspnews/pipeline monitor-hot "$RUNNER_TEMP/hot.json"
+
+      # A pull request only checks that the monitor runs; only main's schedule publishes.
+      - name: Save on the hot-feed branch
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "$(git log -1 --format=%an)"
+          git config user.email "$(git log -1 --format=%ae)"
+          git switch --orphan hot-feed
+          git rm -rf --quiet . 2>/dev/null || true
+          cp "$RUNNER_TEMP/hot.json" hot.json
+          # The branch shares no history with main, so this vercel.json stops Vercel
+          # deploying it at all.
+          echo '{ "git": { "deploymentEnabled": false } }' > vercel.json
+          git add hot.json vercel.json
+          git commit --quiet -m "Hot News $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force origin hot-feed
