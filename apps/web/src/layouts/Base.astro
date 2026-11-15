@@ -23,13 +23,28 @@ const {
 ---
 
 <!doctype html>
-<html lang={lang} data-hour={hour} data-theme="dark">
+<html lang={lang} data-hour={hour} data-theme="device">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content={description} />
     <link rel="alternate" type="application/rss+xml" title="CSPNews" href={feedPath(lang)} />
     <meta name="color-scheme" content="dark light" />
+    <!-- The browser bar takes the page colour: Clean or Dark when matching the device (tokens.css). -->
+    <meta
+      name="theme-color"
+      content="#fff"
+      media="(prefers-color-scheme: light)"
+      data-scheme="light"
+      data-device="#fff"
+    />
+    <meta
+      name="theme-color"
+      content="#11100e"
+      media="(prefers-color-scheme: dark)"
+      data-scheme="dark"
+      data-device="#11100e"
+    />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>{title}</title>
     <script is:inline>
@@ -48,7 +63,15 @@ const {
         if (!fixed && lang === 'en' && onTr) location.replace((path.slice(3) || '/') + rest);
         const theme = localStorage.getItem('cspnews:theme');
         const size = localStorage.getItem('cspnews:text-size');
-        if (theme === 'light' || theme === 'device') root.dataset.theme = theme;
+        // Page colours per chosen theme, the same as --bg in tokens.css (lib/themes.test.ts checks).
+        const pageColour = { dark: '#11100e', black: '#000', light: '#f7f4ee', clean: '#fff' };
+        if (theme && Object.hasOwn(pageColour, theme)) {
+          root.dataset.theme = theme;
+          for (const meta of document.querySelectorAll('meta[name="theme-color"]')) {
+            meta.content = pageColour[theme];
+            meta.removeAttribute('media');
+          }
+        }
         if (size === 'small' || size === 'large' || size === 'larger') root.dataset.textSize = size;
         if (localStorage.getItem('cspnews:ruler') === 'on') root.dataset.ruler = 'on';
         if (localStorage.getItem('cspnews:light') === 'off') root.dataset.light = 'off';

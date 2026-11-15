@@ -81,3 +81,9 @@ a {
 :root[data-light='off'] [data-and-finally] {
   display: none;
 }
+
+/* Black theme: photos a step dimmer, so a bright picture does not glare on a black screen
+   (docs/design/decisions/themes.md). */
+:root[data-theme='black'] img {
+  filter: brightness(0.88);
+}

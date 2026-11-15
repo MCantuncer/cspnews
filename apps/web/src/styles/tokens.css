@@ -1,7 +1,8 @@
 /*
- * Design tokens (docs/design/system.md, "Tokens").
- * Components use these only, never raw colours. Dark is the default theme; light is its own
- * palette, not an inversion. `data-theme="device"` follows the reader's system setting.
+ * Design tokens (docs/design/system.md, "Tokens"; themes in docs/design/decisions/themes.md).
+ * Components use these only, never raw colours. Four palettes: Dark (the :root values), Black,
+ * Paper (`light`) and Clean. `data-theme="device"`, the default, shows Clean or Dark to match the
+ * reader's system setting. Every theme defines every colour token (lib/themes.test.ts checks).
  */
 
 :root {
@@ -47,6 +48,46 @@
   --sec-abroad: #ec7f9c;
   --sec: var(--line2);
 
+  /* Each theme's page colour, for the swatches in the theme choice. */
+  --swatch-dark: #11100e;
+  --swatch-black: #000;
+  --swatch-light: #f7f4ee;
+  --swatch-clean: #fff;
+
+  color-scheme: dark;
+}
+
+/* Black: true black for OLED screens. Text stays off-white, never #fff, so letters do not glow
+   (halation); the surfaces sit just above black so cards keep their edges. */
+:root[data-theme='black'] {
+  --bg: #000;
+  --surf: #111;
+  --ink: #ebe8e3;
+  --ink2: #d9d5ce;
+  --meta: #b9b3aa;
+  --line: #1f1f1f;
+  --line2: #5e5953;
+  --meta2: #8d877e;
+  --faint: #3a3632;
+  --land: #191817;
+  --land-hi: #2b2926;
+  --sea: #070707;
+  --scrim: rgb(0 0 0 / 0.72);
+  --conf: #74bb87;
+  --rep: #d9d5ce;
+  --single: #d8a648;
+  --disp: #cc6658;
+  --hot: #f25a44;
+  --dawn: #e0a947;
+  --noon: #d0bf94;
+  --dusk: #e99448;
+  --night: #829de2;
+  --sec-turkey: #e88570;
+  --sec-tech: #7badea;
+  --sec-world: #5fbbab;
+  --sec-transfers: #adc867;
+  --sec-abroad: #e47b97;
+
   color-scheme: dark;
 }
 
@@ -82,23 +123,57 @@
   color-scheme: light;
 }
 
+/* Clean: pure white and neutral greys, the light side of `device`. Paper (`light`) is the warm one. */
+:root[data-theme='clean'] {
+  --bg: #fff;
+  --surf: #f4f4f3;
+  --ink: #0b0b0c;
+  --ink2: #232325;
+  --meta: #46464a;
+  --line: #e7e7e6;
+  --line2: #9a9a9c;
+  --meta2: #6e6e72;
+  --faint: #d2d2d2;
+  --land: #ebebea;
+  --land-hi: #d5d5d4;
+  --sea: #f6f6f5;
+  --scrim: rgb(11 11 12 / 0.42);
+  --conf: #1d7339;
+  --rep: #232325;
+  --single: #835700;
+  --disp: #a5402f;
+  --hot: #b3261e;
+  --dawn: #8a5a00;
+  --noon: #6b5e3a;
+  --dusk: #b5531a;
+  --night: #3a5bb0;
+  --sec-turkey: #a8432c;
+  --sec-tech: #1f5f9e;
+  --sec-world: #13695d;
+  --sec-transfers: #4a7319;
+  --sec-abroad: #9d2f55;
+
+  color-scheme: light;
+}
+
+/* Same values as Clean (lib/themes.test.ts checks). */
 @media (prefers-color-scheme: light) {
   :root[data-theme='device'] {
-    --bg: #f7f4ee;
-    --surf: #fff;
-    --ink: #12100d;
-    --ink2: #2b2722;
-    --meta: #48423a;
-    --line: #e0d9cd;
-    --line2: #9a9183;
-    --meta2: #857d71;
-    --faint: #cdc5b7;
-    --land: #e6dfd2;
-    --land-hi: #d3c9b7;
-    --sea: #f0ebe2;
-    --scrim: rgb(18 16 13 / 0.45);
+    --bg: #fff;
+    --surf: #f4f4f3;
+    --ink: #0b0b0c;
+    --ink2: #232325;
+    --meta: #46464a;
+    --line: #e7e7e6;
+    --line2: #9a9a9c;
+    --meta2: #6e6e72;
+    --faint: #d2d2d2;
+    --land: #ebebea;
+    --land-hi: #d5d5d4;
+    --sea: #f6f6f5;
+    --scrim: rgb(11 11 12 / 0.42);
     --conf: #1d7339;
-    --rep: #2b2722;
+    --rep: #232325;
     --single: #835700;
     --disp: #a5402f;
     --hot: #b3261e;

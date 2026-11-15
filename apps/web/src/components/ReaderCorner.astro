@@ -8,12 +8,13 @@
  */
 import AccountSlot from './account/AccountSlot.astro';
 import Icon from './ui/Icon.astro';
+import ThemeSwatch from './ui/ThemeSwatch.astro';
 import Toggle from './ui/Toggle.astro';
 import type { InterfaceLanguage } from '../lib/evidence';
 import { extrasWords } from '../lib/extras';
 import { wordsFor } from '../lib/i18n';
 import { INTERFACE_LANGUAGES, languagePath, localePath } from '../lib/locale';
-import { TEXT_SIZES, THEMES } from '../lib/settings';
+import { DEFAULT_THEME, TEXT_SIZES, THEMES } from '../lib/settings';
 
 interface Props {
   lang: InterfaceLanguage;
@@ -78,16 +79,17 @@ const sizeLabels = Object.fromEntries(
 
       <section class="rc-group" aria-labelledby="rc-theme">
         <h3 id="rc-theme">{words.theme}</h3>
-        <div class="rc-seg" role="radiogroup" aria-labelledby="rc-theme">
+        <div class="rc-seg rc-themes" role="radiogroup" aria-labelledby="rc-theme">
           {
             THEMES.map((theme) => (
               <button
                 type="button"
                 class="rc-choice"
                 role="radio"
-                aria-checked={theme === 'dark' ? 'true' : 'false'}
+                aria-checked={theme === DEFAULT_THEME ? 'true' : 'false'}
                 data-theme-option={theme}
               >
+                <ThemeSwatch theme={theme} />
                 {words.themes[theme]}
               </button>
             ))
@@ -321,6 +323,23 @@ const sizeLabels = Object.fromEntries(
     font: 600 15px / 1.2 var(--f-body);
     text-decoration: none;
     cursor: pointer;
+  }
+
+  /* Five themes: Match device across the top, then Dark and Black, Paper and Clean. */
+  .rc-themes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rc-themes .rc-choice {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 0 14px;
+  }
+
+  .rc-themes .rc-choice:first-child {
+    grid-column: 1 / -1;
   }
 
   .rc-choice:hover {

@@ -11,8 +11,13 @@ export const SETTINGS_KEYS = {
   light: 'cspnews:light',
 } as const;
 
-export const THEMES = ['dark', 'light', 'device'] as const;
+/**
+ * `device` (the default) shows Clean or Dark to match the reader's system; `light` is Paper.
+ * Palettes live in styles/tokens.css (docs/design/decisions/themes.md).
+ */
+export const THEMES = ['device', 'dark', 'black', 'light', 'clean'] as const;
 export type Theme = (typeof THEMES)[number];
+export const DEFAULT_THEME: Theme = 'device';
 
 export const TEXT_SIZES = [
   { id: 'small', px: 16 },

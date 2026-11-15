@@ -15,7 +15,8 @@
   --wg-sheet: #1c1a17;
 }
 
-:root[data-theme='light'] {
+:root[data-theme='light'],
+:root[data-theme='clean'] {
   --wg-green: #4a7d5a;
   --wg-on-green: #fff;
   --wg-yellow: #c99b45;

@@ -5,13 +5,14 @@
  */
 
 :root {
-  /* Google's sign-in button colours, dark theme. */
+  /* Google's sign-in button colours, dark themes (Dark and Black). */
   --g-bg: #131314;
   --g-ink: #e3e3e3;
   --g-line: #8e918f;
 }
 
-:root[data-theme='light'] {
+:root[data-theme='light'],
+:root[data-theme='clean'] {
   --g-bg: #fff;
   --g-ink: #1f1f1f;
   --g-line: #747775;
