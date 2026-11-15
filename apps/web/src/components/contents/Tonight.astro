@@ -94,13 +94,13 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                         side && (
                           <div class:list={['team', { ours: side.ours }]}>
                             {!logo(local.home) && !logo(local.away) ? undefined : logo(side) ? (
-                              <img
-                                class:list={{ flag: local.focus === 'national' }}
-                                src={logo(side)}
-                                alt=""
-                                width="24"
-                                height="24"
-                              />
+                              local.focus === 'national' ? (
+                                <span class="flag">
+                                  <img src={logo(side)} alt="" width="24" height="24" />
+                                </span>
+                              ) : (
+                                <img src={logo(side)} alt="" width="24" height="24" />
+                              )
                             ) : (
                               <span class="crest" aria-hidden="true" />
                             )}
@@ -457,10 +457,28 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     display: none;
   }
 
-  .team img.flag {
+  /* A national team's flag fills its circle: the saved flags sit on a square with clear space
+     around them, so the picture is enlarged and the circle cuts away that space. */
+  .team .flag {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    box-shadow: 0 0 0 1px var(--line);
-    object-fit: cover;
+  }
+
+  .team .flag img {
+    display: block;
+    transform: scale(1.75);
+  }
+
+  .team .flag::after {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 12%, transparent);
+    content: '';
   }
 
   .scorers:empty {
