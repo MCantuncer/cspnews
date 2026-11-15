@@ -160,7 +160,7 @@ function drawScorers(
   const known = new Map(
     [...list.querySelectorAll<HTMLElement>('li')].flatMap((item) => {
       const img = item.querySelector('img');
-      const who = item.querySelector('.who')?.textContent;
+      const who = item.dataset.name;
       return img && who ? [[who, img.getAttribute('src') ?? ''] as const] : [];
     }),
   );
@@ -177,26 +177,23 @@ function drawScorers(
     return element;
   };
   const items = orderScorers(scorers).map((scorer) => {
-    const item = make('li', ours === scorer.side ? `${scorer.side} ours` : scorer.side);
-    const detail = make('span', 'minutes');
-    if (scorer.minutes) {
-      detail.textContent = scorer.minutes.join(' ');
-      if (scorer.penalty)
-        detail.append(make('span', 'unit', ` ${words.penalty.toLocaleUpperCase(lang)}`));
-      if (scorer.own)
-        detail.append(make('span', 'unit', ` ${words.ownGoal.toLocaleUpperCase(lang)}`));
-    } else {
-      detail.textContent = String(scorer.points ?? 0);
-      detail.append(
-        make(
-          'span',
-          'unit',
-          ` ${words.unit('points', scorer.points ?? 0, sport).toLocaleUpperCase(lang)}`,
-        ),
-      );
+    const item = make(
+      'li',
+      [scorer.side, ours === scorer.side ? 'ours' : '', scorer.own ? 'own' : '']
+        .filter(Boolean)
+        .join(' '),
+    );
+    const minutes = make(
+      'span',
+      'minutes',
+      scorer.minutes ? scorer.minutes.join(' ') : String(scorer.points ?? 0),
+    );
+    if (!scorer.minutes) {
+      const points = words.unit('points', scorer.points ?? 0, sport).toLocaleUpperCase(lang);
+      minutes.append(make('span', 'unit', ` ${points}`));
     }
-    item.append(detail);
-    // The minute first, then the scorer.
+    item.append(minutes);
+    const who = make('span', 'who');
     const src = known.get(scorer.name) ?? scorer.photo;
     if (src) {
       const img = make('img', 'photo');
@@ -205,9 +202,16 @@ function drawScorers(
       img.width = 24;
       img.height = 24;
       img.loading = 'lazy';
-      item.append(img);
+      who.append(img);
     }
-    item.append(make('span', 'who', scorer.name));
+    who.append(scorer.name);
+    const unit = (text: string) => {
+      who.append(make('span', 'unit', ` ${text.toLocaleUpperCase(lang)}`));
+    };
+    if (scorer.penalty) unit(words.penalty);
+    if (scorer.own) unit(words.ownGoal);
+    item.append(who);
+    item.dataset.name = scorer.name;
     return item;
   });
   list.replaceChildren(...items);

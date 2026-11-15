@@ -134,26 +134,27 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                   </div>
                   <ul class="scorers" aria-label={words.scored} data-scorers>
                     {scorers.map((scorer) => (
-                      <li class:list={[scorer.side, { ours: local[scorer.side]?.ours }]}>
-                        {scorer.minutes ? (
-                          <span class="minutes">
-                            {scorer.minutes.join(' ')}
-                            {scorer.penalty && <span class="unit"> {words.penalty.toLocaleUpperCase(lang)}</span>}
-                            {scorer.own && <span class="unit"> {words.ownGoal.toLocaleUpperCase(lang)}</span>}
-                          </span>
-                        ) : (
-                          <span class="minutes">
-                            {scorer.points}
+                      <li
+                        class:list={[scorer.side, { ours: local[scorer.side]?.ours, own: scorer.own }]}
+                        data-name={scorer.name}
+                      >
+                        <span class="minutes">
+                          {scorer.minutes ? scorer.minutes.join(' ') : scorer.points}
+                          {!scorer.minutes && (
                             <span class="unit">
                               {' '}
                               {words.unit('points', scorer.points ?? 0, local.sport).toLocaleUpperCase(lang)}
                             </span>
-                          </span>
-                        )}
-                        {scorer.src && (
-                          <img class="photo" src={scorer.src} alt="" width="24" height="24" />
-                        )}
-                        <span class="who">{scorer.name}</span>
+                          )}
+                        </span>
+                        <span class="who">
+                          {scorer.src && (
+                            <img class="photo" src={scorer.src} alt="" width="24" height="24" />
+                          )}
+                          {scorer.name}
+                          {scorer.penalty && <span class="unit"> {words.penalty.toLocaleUpperCase(lang)}</span>}
+                          {scorer.own && <span class="unit"> {words.ownGoal.toLocaleUpperCase(lang)}</span>}
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -422,7 +423,6 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     grid-template-columns: minmax(0, 1fr) minmax(76px, auto) minmax(0, 1fr);
     gap: 10px;
     align-items: start;
-    max-width: 460px;
   }
 
   .team {
@@ -549,28 +549,33 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     display: none;
   }
 
+  /*
+   * The goals use the row's whole width: the home side's in the left half, the away side's in
+   * the right half, each line the minute and then the scorer, a long name wrapping under itself.
+   */
   .scorers {
     display: grid;
     grid-auto-flow: row dense;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 6px 28px;
-    max-width: 460px;
-    margin: 12px 0 4px;
-    padding: 0;
+    gap: 8px 12px;
+    margin: 14px 0 4px;
+    padding: 12px 0 0;
+    border-top: 1px solid var(--line);
   }
 
-  /* One line of text per scorer, wrapping as text does, so the minute stays beside the name. */
   .scorers li {
-    display: block;
+    display: grid;
+    grid-template-columns: minmax(1.9em, max-content) minmax(0, 1fr);
+    column-gap: 6px;
+    align-items: baseline;
     padding: 0;
     border: 0;
     color: var(--ink2);
-    font: 500 14px / 1.25 var(--f-body);
+    font: 500 12px / 1.3 var(--f-body);
   }
 
   .scorers li.home {
     grid-column: 1;
-    text-align: right;
   }
 
   .scorers li.away {
@@ -582,23 +587,32 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     font-weight: 600;
   }
 
+  /* An own goal is said in a soft red, whoever it counts for. */
+  .scorers li.own,
+  .scorers li.own .minutes,
+  .scorers li.own .unit {
+    color: color-mix(in srgb, var(--disp) 75%, var(--ink));
+  }
+
+  .who .unit {
+    font-size: 10px;
+  }
+
   .photo {
     display: inline-block;
-    width: 22px;
-    margin: -4px 2px 0 4px;
-    vertical-align: middle;
-    height: 22px;
+    width: 20px;
+    height: 20px;
+    margin: -3px 6px 0 0;
     border-radius: 50%;
     background: var(--line);
     object-fit: cover;
     object-position: top;
+    vertical-align: middle;
   }
 
   .minutes {
-    margin-right: 6px;
     color: var(--meta);
-    white-space: nowrap;
-    font: 500 13px / 1 var(--f-body);
+    font: 500 12px / 1.3 var(--f-body);
     font-variant-numeric: tabular-nums;
   }
 
