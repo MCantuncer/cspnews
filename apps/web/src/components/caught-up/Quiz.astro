@@ -1,0 +1,158 @@
+---
+/**
+ * The bulletin quiz on the caught-up screen: three questions, three options each. Tapping an
+ * option shows whether it was right and which one was, with a link back to the story. Nothing
+ * is stored and nothing is scored: it is a way to check what stayed, not a game with a result.
+ */
+import { quizIn, type LocalQuizQuestion } from '@cspnews/core';
+
+import { storyPath, type PublishedBulletin } from '../../lib/bulletins';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { wordsFor } from '../../lib/i18n';
+
+interface Props {
+  published: PublishedBulletin;
+  lang: InterfaceLanguage;
+}
+
+const { published, lang } = Astro.props;
+const words = wordsFor(lang);
+const questions: LocalQuizQuestion[] = (published.bulletin.quiz ?? []).map((q) => quizIn(q, lang));
+const hrefFor = (id: string) => storyPath(published, { id }, lang);
+---
+
+{
+  questions.length > 0 && (
+    <section class="quiz" aria-labelledby="quiz-title">
+      <h2 id="quiz-title">{words.quizTitle}</h2>
+      <ol>
+        {questions.map((q) => (
+          <li data-question data-answer={q.answer}>
+            <p class="ask">{q.question}</p>
+            <div class="options">
+              {q.options.map((option, index) => (
+                <button type="button" data-option={index}>
+                  {option}
+                </button>
+              ))}
+            </div>
+            <p class="result" hidden aria-live="polite">
+              <strong data-right={words.quizRight} data-wrong={words.quizWrong} />
+              <a href={hrefFor(q.storyId)}>{words.quizRead}</a>
+            </p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )
+}
+
+<script>
+  for (const item of document.querySelectorAll<HTMLElement>('[data-question]')) {
+    const answer = Number(item.dataset.answer);
+    const options = [...item.querySelectorAll<HTMLButtonElement>('[data-option]')];
+    const result = item.querySelector<HTMLElement>('.result');
+    const verdict = result?.querySelector<HTMLElement>('strong');
+    for (const button of options) {
+      button.addEventListener('click', () => {
+        if (!result || !verdict || item.dataset.done) return;
+        item.dataset.done = 'true';
+        const chosen = Number(button.dataset.option);
+        for (const other of options) {
+          other.disabled = true;
+          const index = Number(other.dataset.option);
+          if (index === answer) other.dataset.state = 'right';
+          else if (index === chosen) other.dataset.state = 'wrong';
+        }
+        verdict.textContent = chosen === answer ? verdict.dataset.right ?? '' : verdict.dataset.wrong ?? '';
+        result.hidden = false;
+      });
+    }
+  }
+</script>
+
+<style>
+  .quiz {
+    margin-top: 44px;
+  }
+
+  h2 {
+    color: var(--meta);
+    font: 700 14px / 1.3 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  ol {
+    display: grid;
+    gap: 28px;
+    margin: 14px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: grid;
+    gap: 12px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+
+  .ask {
+    font: 700 20px / 1.3 var(--f-head);
+    letter-spacing: -0.012em;
+  }
+
+  .options {
+    display: grid;
+    gap: 8px;
+  }
+
+  button {
+    min-height: 48px;
+    padding: 10px 16px;
+    border: 1.5px solid var(--line2);
+    border-radius: 12px;
+    background: transparent;
+    color: var(--ink);
+    font: 500 16px / 1.35 var(--f-body);
+    text-align: left;
+    cursor: pointer;
+  }
+
+  button:hover:not(:disabled) {
+    border-color: var(--ink);
+  }
+
+  button:disabled {
+    cursor: default;
+    opacity: 0.7;
+  }
+
+  button[data-state='right'] {
+    border-color: var(--ink);
+    border-width: 2.5px;
+    opacity: 1;
+    font-weight: 700;
+  }
+
+  button[data-state='wrong'] {
+    border-style: dashed;
+  }
+
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    font: 400 16px / 1.4 var(--f-body);
+  }
+
+  .result[hidden] {
+    display: none;
+  }
+
+  .result a {
+    color: var(--ink);
+    text-underline-offset: 3px;
+  }
+</style>

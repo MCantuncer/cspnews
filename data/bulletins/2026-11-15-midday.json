@@ -2256,5 +2256,57 @@
       }
     ],
     "rumours": []
-  }
+  },
+  "quiz": [
+    {
+      "storyId": "b6b589741bdf328c",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Which cards does the interior minister say expire by the end of 2026?",
+          "options": [
+            "Passports and residence permits",
+            "ID cards and driving licences",
+            "Student cards and bus passes"
+          ]
+        },
+        "tr": {
+          "question": "İçişleri Bakanı hangi kartların 2026 sonuna kadar süresinin dolacağını söylüyor?",
+          "options": [
+            "Pasaport ve oturma izinleri",
+            "Kimlik kartları ve sürücü belgeleri",
+            "Öğrenci kartları ve otobüs kartları"
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "d4a1e8c03b7f2a61",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Which airport tops Europe for 2–8 November, by Eurocontrol’s count?",
+          "options": ["Istanbul Airport", "Heathrow", "Frankfurt"]
+        },
+        "tr": {
+          "question": "Eurocontrol’a göre 2–8 Kasım’da Avrupa’da ilk sırada hangi havalimanı var?",
+          "options": ["İstanbul Havalimanı", "Heathrow", "Frankfurt"]
+        }
+      }
+    },
+    {
+      "storyId": "82850fde6676df4c",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How many people died in the 23 October church attack in Jordan?",
+          "options": ["Three", "Six", "Nine"]
+        },
+        "tr": {
+          "question": "Ürdün’de 23 Ekim’deki kilise saldırısında kaç kişi öldü?",
+          "options": ["Üç", "Altı", "Dokuz"]
+        }
+      }
+    }
+  ]
 }

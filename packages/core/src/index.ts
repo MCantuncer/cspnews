@@ -159,3 +159,11 @@ export type { DeskCandidates, EmptyPart } from './parts.js';
 
 export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
 export type { HotFeed, HotStory } from './hot.js';
+export {
+  QUIZ_LENGTH,
+  QUIZ_OPTIONS,
+  QuizQuestionSchema,
+  quizIn,
+  type LocalQuizQuestion,
+  type QuizQuestion,
+} from './quiz.js';

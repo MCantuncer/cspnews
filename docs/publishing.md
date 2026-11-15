@@ -9,6 +9,7 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
    - only facts from the candidate articles, each claim and quote attributed to its outlet;
    - a story that is in an earlier bulletin again is either left out or written as a continuing story; see "Continuing stories" below;
    - fill the parts the pages are built around: `facts` on every story, and `keyNumber`, `series` and `place` wherever the story has them. See "Filling every part" below. A part is left out only when the sources really don't support it, never to save time;
+   - write the **quiz** (`quiz`): exactly three questions about stories of this bulletin, for the caught-up screen. See "The quiz" below;
    - keep each candidate's label, sources, timeline and `image` (the photo the rules picked, with its credit). Don't drop an `image` on a guess: the writing run can't see photos, and the rules already leave out logos, icons, small thumbnails and photos with an outlet logo stamped on them (step 3). Drop it only when the article itself says the picture is a logo, a document or an illustration.
    - write **And finally** (Spotlight) and **Transfers** from `desks.light` and `desks.transfers`, and **Turks abroad** (`abroad`) from `desks.abroad`. See "And finally and Transfers" and "Turks abroad" below. These are part of every bulletin, not extras: read every candidate on each desk before deciding. Leave a part out only when no candidate passes its bar, and say so in the pull request.
 3. **Save the photos.** In a pull request the Bulletin photos workflow does this and adds the photos to the branch. By hand: `pnpm --filter @cspnews/pipeline save-media "$PWD/data/bulletins/<file>.json"` downloads each story's photo to `data/bulletins/media/<story id>.<ext>`. When the feed only carried a thumbnail (under 800 px wide), the article's own full-size photo is saved instead and the bulletin's image URL is updated, unless that photo has a logo or banner drawn over it. A photo still under 400 px wide is not saved. A photo that fails is reported and the story falls back to its next visual.
@@ -47,6 +48,15 @@ The story page, the Contents list and the one-minute page are designed around fo
 - **`place`: when the story happened somewhere a reader may not be able to point to**, and always when the story has no photo and no key number. `name` is the town or site, `region` the country or province, `lat` and `lon` the town's coordinates to two decimals. The place must be named in the articles; its coordinates are reference data, so use the town's own, never a guessed spot inside it.
 
 Both languages carry the same parts with the same numbers, dates and coordinates; the build checks this.
+
+## The quiz
+
+`quiz` holds exactly three questions (format in `packages/core/src/quiz.ts`, design in `docs/design/decisions/caught-up.md`). Each has a `storyId` (a story of this bulletin, from any section), three `options` in each language, and `answer`, the number of the right option counted from 0, the same in both languages, so write the options in the same order.
+
+- Ask about something the reader can only know from reading the story: a number, a name, a place, what was decided. Take the answer from the story's summary or facts, so the page can be checked.
+- Three different stories, and not all from one section. Never ask about death tolls, victims or anything the reader could find upsetting to get wrong.
+- Wrong options are plausible and short (at most 80 characters), and never a joke. Don't use "all of the above", and don't put the right answer first every time.
+- Questions are at most 140 characters and written natively in each language, not translated.
 
 ## Writing in two languages
 
