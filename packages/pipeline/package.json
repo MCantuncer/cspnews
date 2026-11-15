@@ -17,7 +17,8 @@
     "fetch-articles": "node dist/fetch-articles.js",
     "save-media": "node dist/save-media.js",
     "check-edition": "node dist/check-edition.js",
-    "check-parts": "node dist/check-parts.js"
+    "check-parts": "node dist/check-parts.js",
+    "announce": "node dist/announce.js"
   },
   "dependencies": {
     "@cspnews/collector": "workspace:*",

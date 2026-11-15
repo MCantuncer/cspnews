@@ -13,6 +13,7 @@ import Body from '../story/Body.astro';
 import EvidenceLine from '../story/EvidenceLine.astro';
 import Facts from '../story/Facts.astro';
 import Follow from '../story/Follow.astro';
+import ShareButton from '../story/ShareButton.astro';
 import StoryNav from '../story/StoryNav.astro';
 import StorySoFar from '../story/StorySoFar.astro';
 import Summary from '../story/Summary.astro';
@@ -179,6 +180,7 @@ const earlierReports = earlier
             lang={lang}
             earlier={earlier.map((entry) => entry.story.id)}
           />
+          <ShareButton label={words.share} copied={words.linkCopied} title={story.title} />
         </div>
       </aside>
       <div class="body">

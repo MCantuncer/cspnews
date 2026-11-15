@@ -10,6 +10,7 @@ import { lightIn, type LightStory } from '@cspnews/core';
 import Header from '../Header.astro';
 import HotLine from '../hot/HotLine.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
+import ShareButton from '../story/ShareButton.astro';
 import Icon from '../ui/Icon.astro';
 import Base from '../../layouts/Base.astro';
 import { bulletinPath, type PublishedBulletin } from '../../lib/bulletins';
@@ -85,6 +86,8 @@ const logoOf = (sourceId: string) => logosFor([sourceId], 1)[0];
       )
     }
     <p class="aside">{story.aside}</p>
+
+    <ShareButton label={words.share} copied={words.linkCopied} title={story.title} />
 
     <h2>{extras.readAt}</h2>
     <p class="note">{extras.readAtNote}</p>

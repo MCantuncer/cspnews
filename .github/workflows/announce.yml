@@ -1,0 +1,62 @@
+name: Announce bulletin
+
+# Tells the Telegram channels that a bulletin is out, once its pull request is merged. Off until
+# the repository secrets TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID_TR (and/or TELEGRAM_CHAT_ID_EN)
+# are set; without them the run does nothing. Start it by hand with a bulletin file name to
+# send or test one.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/bulletins/*.json'
+  workflow_dispatch:
+    inputs:
+      bulletin:
+        description: 'Bulletin file to announce, for example 2026-11-15-morning.json'
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: announce
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cspnews/pipeline... build
+
+      - name: Find the new bulletins
+        id: files
+        env:
+          INPUT: ${{ inputs.bulletin }}
+        run: |
+          if [ -n "$INPUT" ]; then
+            echo "list=data/bulletins/$INPUT" >> "$GITHUB_OUTPUT"
+          else
+            list=$(git diff --diff-filter=A --name-only HEAD^ HEAD -- 'data/bulletins/*.json' | grep -v '/hot.json$' || true)
+            echo "list=$(echo $list)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Announce
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID_TR: ${{ secrets.TELEGRAM_CHAT_ID_TR }}
+          TELEGRAM_CHAT_ID_EN: ${{ secrets.TELEGRAM_CHAT_ID_EN }}
+        run: |
+          for file in ${{ steps.files.outputs.list }}; do
+            pnpm --filter @cspnews/pipeline announce "$PWD/$file"
+          done
