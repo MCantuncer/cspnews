@@ -450,12 +450,6 @@
           "sourceId": "aa-tr"
         }
       ],
-      "image": {
-        "url": "https://images.ntv.com.tr/images/spkk-363306.jpg",
-        "sourceId": "ntv",
-        "sourceName": "NTV",
-        "articleUrl": "https://www.ntv.com.tr/turkiye/spkdan-olaganustu-tasfiye-aciklamasi-amac-yatirimciyi-korumak-1751021"
-      },
       "sources": [
         {
           "sourceId": "ntv",
@@ -650,12 +644,6 @@
           "to": "confirmed"
         }
       ],
-      "image": {
-        "url": "https://images.ntv.com.tr/images/1LD_Social_Graphics_16x9_Spacecraft_Only_reduced-873260.jpg",
-        "sourceId": "ntv-yasam",
-        "sourceName": "NTV Yaşam",
-        "articleUrl": "https://www.ntv.com.tr/yasam/voyager-1-tarihe-geciyor-dunyadan-bir-isik-gunu-uzaklasacak-1751020"
-      },
       "sources": [
         {
           "sourceId": "diken",
@@ -887,12 +875,6 @@
           "sourceId": "bbc-world"
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/ae37617a-e0ec-11f1-9eb5-f71d22e7fea9/w:1024/p:16x9/EN-20261115-080531-080704-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop"
-      },
       "sources": [
         {
           "sourceId": "scmp-world",
@@ -1870,12 +1852,6 @@
           "to": "confirmed"
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/6524e48c-e108-11f1-a387-3f371022a770/w:1024/p:16x9/EN-20261115-160718-161132-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/video/20261115-canaries-urge-government-action-after-2-200-migrants-reach-the-islands-in-48h-1"
-      },
       "sources": [
         {
           "sourceId": "al-jazeera",
@@ -2104,12 +2080,6 @@
           "sourceId": "bbc-world"
         }
       ],
-      "image": {
-        "url": "https://e2.365dm.com/26/11/1920x1080/skysports-ronaldinho-ravenna_7407204.jpg?20261115174347",
-        "sourceId": "sky-sports-transfers",
-        "sourceName": "Sky Sports",
-        "articleUrl": "https://www.skysports.com/watch/video/13612543/brazil-legend-ronaldinho-involved-in-ravenna-opener-on-debut"
-      },
       "sources": [
         {
           "sourceId": "sky-sports-transfers",
@@ -2249,19 +2219,11 @@
       "versions": {
         "en": {
           "question": "How many migrants did Spain rescue off the Canary Islands on Saturday, a new one-day record?",
-          "options": [
-            "961",
-            "1,213",
-            "1,488"
-          ]
+          "options": ["961", "1,213", "1,488"]
         },
         "tr": {
           "question": "İspanya cumartesi günü Kanarya Adaları açıklarında rekor kıran kaç göçmeni kurtardı?",
-          "options": [
-            "961",
-            "1.213",
-            "1.488"
-          ]
+          "options": ["961", "1.213", "1.488"]
         }
       }
     },
@@ -2271,19 +2233,11 @@
       "versions": {
         "en": {
           "question": "Once Voyager 1 is one light-day away, how long will its signal take to reach Earth one way?",
-          "options": [
-            "24 hours",
-            "12 hours",
-            "48 hours"
-          ]
+          "options": ["24 hours", "12 hours", "48 hours"]
         },
         "tr": {
           "question": "Voyager 1 bir ışık günü uzaklaştığında sinyalinin Dünya’ya tek yönde ulaşması ne kadar sürecek?",
-          "options": [
-            "24 saat",
-            "12 saat",
-            "48 saat"
-          ]
+          "options": ["24 saat", "12 saat", "48 saat"]
         }
       }
     },
@@ -2293,19 +2247,11 @@
       "versions": {
         "en": {
           "question": "How many main fund-scandal files does Özgür Özel say YENİ Parti has finished checking?",
-          "options": [
-            "Three",
-            "Eight",
-            "Fifteen"
-          ]
+          "options": ["Three", "Eight", "Fifteen"]
         },
         "tr": {
           "question": "Özgür Özel, YENİ Parti’nin fon vurgununda kaç ana dosyada teyidi tamamladığını söyledi?",
-          "options": [
-            "Üç",
-            "Sekiz",
-            "On beş"
-          ]
+          "options": ["Üç", "Sekiz", "On beş"]
         }
       }
     }
