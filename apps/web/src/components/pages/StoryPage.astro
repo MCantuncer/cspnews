@@ -178,6 +178,19 @@ const earlierReports = earlier
             href={storyPath(published, story, lang)}
             lang={lang}
             earlier={earlier.map((entry) => entry.story.id)}
+            save={{
+              id: story.id,
+              section: story.section,
+              date: published.date,
+              en: {
+                title: Astro.props.story.versions.en.shortTitle,
+                href: storyPath(published, story, 'en'),
+              },
+              tr: {
+                title: Astro.props.story.versions.tr.shortTitle,
+                href: storyPath(published, story, 'tr'),
+              },
+            }}
           />
         </div>
       </aside>

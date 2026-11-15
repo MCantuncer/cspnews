@@ -9,6 +9,8 @@ import type { LocalStory } from '@cspnews/core';
 import { evidenceWord, type InterfaceLanguage } from '../../lib/evidence';
 import type { StoryNow } from '../../lib/follow';
 import { followWords } from '../../lib/follow-words';
+import type { SavedStory } from '../../lib/saved';
+import { savedWords } from '../../lib/saved-words';
 import { sourceName } from '../../lib/sources';
 import Icon from '../ui/Icon.astro';
 
@@ -18,10 +20,13 @@ interface Props {
   lang: InterfaceLanguage;
   /** Ids of the earlier reports this story continues. */
   earlier?: string[];
+  /** What the reading list keeps of this story (lib/saved.ts), without the save time. */
+  save?: Omit<SavedStory, 'savedAt'>;
 }
 
-const { story, href, lang, earlier = [] } = Astro.props;
+const { story, href, lang, earlier = [], save } = Astro.props;
 const words = followWords(lang);
+const saveWords = savedWords(lang);
 const now: StoryNow = {
   id: story.id,
   title: story.shortTitle,
@@ -44,6 +49,21 @@ const now: StoryNow = {
     <span class="tick"><Icon name="tick" size={18} /></span>
     <span data-follow-word>{words.follow}</span>
   </button>
+  {
+    save && (
+      <button
+        type="button"
+        class="keep"
+        aria-pressed="false"
+        data-save-button={JSON.stringify(save)}
+        data-save={saveWords.save}
+        data-saved={saveWords.saved}
+      >
+        <Icon name="save" size={20} />
+        <span data-save-word>{saveWords.save}</span>
+      </button>
+    )
+  }
 </section>
 
 <script>
@@ -73,6 +93,29 @@ const now: StoryNow = {
       const on = button.getAttribute('aria-pressed') !== 'true';
       if (on) follow(storage, seenNow(story, new Date()));
       else unfollow(storage, story.id, story.earlier);
+      show(on);
+    });
+  }
+</script>
+
+<script>
+  import { safeStorage } from '../../lib/follow';
+  import { isStorySaved, saveStory, unsaveStory, type SavedStory } from '../../lib/saved';
+
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-save-button]')) {
+    const story = JSON.parse(button.dataset['saveButton'] ?? '{}') as Omit<SavedStory, 'savedAt'>;
+    const word = button.querySelector('[data-save-word]');
+    const storage = safeStorage();
+    if (!word || !storage) continue;
+    const show = (on: boolean) => {
+      button.setAttribute('aria-pressed', String(on));
+      word.textContent = (on ? button.dataset['saved'] : button.dataset['save']) ?? '';
+    };
+    show(isStorySaved(storage, story.id));
+    button.addEventListener('click', () => {
+      const on = button.getAttribute('aria-pressed') !== 'true';
+      if (on) saveStory(storage, { ...story, savedAt: new Date().toISOString() });
+      else unsaveStory(storage, story.id);
       show(on);
     });
   }
@@ -119,6 +162,23 @@ const now: StoryNow = {
     border-color: var(--line2);
     background: none;
     color: var(--ink);
+  }
+
+  /* Save for later is a quiet second action: an outline that fills in once saved. */
+  .keep {
+    margin-top: 0;
+    border-color: var(--line2);
+    background: none;
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .keep[aria-pressed='true'] {
+    border-color: var(--ink);
+  }
+
+  .keep[aria-pressed='true'] :global(svg path:last-child) {
+    fill: currentColor;
   }
 
   .tick,
