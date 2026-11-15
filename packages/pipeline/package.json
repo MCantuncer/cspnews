@@ -16,7 +16,8 @@
     "prepare-bulletin": "node dist/prepare-bulletin.js",
     "fetch-articles": "node dist/fetch-articles.js",
     "save-media": "node dist/save-media.js",
-    "check-edition": "node dist/check-edition.js"
+    "check-edition": "node dist/check-edition.js",
+    "check-parts": "node dist/check-parts.js"
   },
   "dependencies": {
     "@cspnews/collector": "workspace:*",

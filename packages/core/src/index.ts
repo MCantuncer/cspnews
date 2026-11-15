@@ -154,5 +154,8 @@ export type {
   VolleyballLine,
 } from './abroad.js';
 
+export { describeEmptyPart, emptyParts } from './parts.js';
+export type { DeskCandidates, EmptyPart } from './parts.js';
+
 export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
 export type { HotFeed, HotStory } from './hot.js';
