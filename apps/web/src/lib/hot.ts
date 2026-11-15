@@ -8,9 +8,16 @@ import type { HotFeed, HotStory } from '@cspnews/core';
  * Worker, without any other change. A dismissed story stays hidden until
  * it is updated. Everything fails quietly: no feed means no line.
  */
-export const HOT_FEED_URL: string =
-  (import.meta.env.PUBLIC_HOT_FEED_URL as string | undefined) ??
-  'https://raw.githubusercontent.com/MCantuncer/cspnews/hot-feed/hot.json';
+const DEFAULT_FEED = 'https://raw.githubusercontent.com/MCantuncer/cspnews/hot-feed/hot.json';
+
+/** Read through a plain type, so linting doesn't depend on Astro's generated env types. */
+function feedUrl(): string {
+  const env = (import.meta as { env?: Record<string, unknown> }).env;
+  const value = env?.PUBLIC_HOT_FEED_URL;
+  return typeof value === 'string' && value !== '' ? value : DEFAULT_FEED;
+}
+
+export const HOT_FEED_URL = feedUrl();
 export const POLL_MINUTES = 2;
 const DISMISSED_KEY = 'cspnews:hot-dismissed';
 
