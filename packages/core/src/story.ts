@@ -6,6 +6,7 @@ import { StoryImageSchema } from './image.js';
 import { QUIZ_LENGTH, QuizQuestionSchema } from './quiz.js';
 import { LANGUAGES, type Language } from './language.js';
 import { SECTIONS } from './sections.js';
+import { TODAY_MAX, TodayItemSchema } from './today.js';
 
 /**
  * A written story, as the Verify and Write run produces it and the website shows it.
@@ -359,6 +360,8 @@ export const BulletinSchema = z
     abroad: z.array(AbroadItemSchema).min(1).max(ABROAD_MAX).optional(),
     /** Three questions for the caught-up screen (quiz.ts). */
     quiz: z.array(QuizQuestionSchema).length(QUIZ_LENGTH).optional(),
+    /** A few plain facts for the day: rates, gold, weather, the match (today.ts). */
+    today: z.array(TodayItemSchema).min(1).max(TODAY_MAX).optional(),
   })
   .strict()
   .refine(

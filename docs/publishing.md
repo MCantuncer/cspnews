@@ -9,6 +9,7 @@ How one bulletin goes from news feeds to the live site. Rules do the collecting;
    - only facts from the candidate articles, each claim and quote attributed to its outlet;
    - a story that is in an earlier bulletin again is either left out or written as a continuing story; see "Continuing stories" below;
    - fill the parts the pages are built around: `facts` on every story, and `keyNumber`, `series` and `place` wherever the story has them. See "Filling every part" below. A part is left out only when the sources really don't support it, never to save time;
+   - write the **Today line** (`today`): up to five plain facts for the reader's day, each read from a page, never from memory. See "The Today line" below;
    - write the **quiz** (`quiz`): exactly three questions about stories of this bulletin, for the caught-up screen. See "The quiz" below;
    - keep each candidate's label, sources, timeline and `image` (the photo the rules picked, with its credit). Don't drop an `image` on a guess: the writing run can't see photos, and the rules already leave out logos, icons, small thumbnails and photos with an outlet logo stamped on them (step 3). Drop it only when the article itself says the picture is a logo, a document or an illustration.
    - write **And finally** (Spotlight) and **Transfers** from `desks.light` and `desks.transfers`, and **Turks abroad** (`abroad`) from `desks.abroad`. See "And finally and Transfers" and "Turks abroad" below. These are part of every bulletin, not extras: read every candidate on each desk before deciding. Leave a part out only when no candidate passes its bar, and say so in the pull request.
@@ -48,6 +49,19 @@ The story page, the Contents list and the one-minute page are designed around fo
 - **`place`: when the story happened somewhere a reader may not be able to point to**, and always when the story has no photo and no key number. `name` is the town or site, `region` the country or province, `lat` and `lon` the town's coordinates to two decimals. The place must be named in the articles; its coordinates are reference data, so use the town's own, never a guessed spot inside it.
 
 Both languages carry the same parts with the same numbers, dates and coordinates; the build checks this.
+
+## The Today line
+
+`today` holds up to five plain facts for the day (format in `packages/core/src/today.ts`, design in `docs/design/decisions/today-line.md`). They are shown on the bulletin's Contents screen, above the day line. Every figure is read from a page during this run, and written with where and when it was read; if no page could be read, leave the item out and say so in the pull request. A number from memory, from an older bulletin or from a search snippet is never allowed: a wrong rate is worse than no rate.
+
+In this order, when available:
+
+1. `fx`: the US dollar and the euro against the lira, from the Central Bank's page (`https://www.tcmb.gov.tr/kurlar/today.xml`, the foreign-exchange selling rate). `value` like `34.21 ₺`, `source` `TCMB`.
+2. `gold`: gram gold in lira, from a Turkish market page that shows the day's price. `value` like `3,120 ₺`.
+3. `weather`: Istanbul now, from Open-Meteo or the Meteorology Service (MGM). `value` like `14°C`, `note` the sky in a few words in each language.
+4. `match`: the one match of the day a reader would ask about: the national team first, then the Süper Lig's biggest match, then a top European fixture, from the sports candidates. `label` the fixture ("Türkiye – France"), `value` the kick-off time in Istanbul ("22:45"), `note` the competition. Leave it out on a day with no such match.
+
+`label` and `note` are written in both languages; `value` is the same in both. `asOf` is when you read the page, with the Istanbul offset.
 
 ## The quiz
 
