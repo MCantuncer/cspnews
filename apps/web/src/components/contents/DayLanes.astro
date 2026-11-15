@@ -97,6 +97,8 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
   .lanes {
     --row: 22px;
 
+    /* Narrow screens already have Contents, which lists the same stories: no second list. */
+    display: none;
     margin-top: 28px;
   }
 
@@ -185,6 +187,10 @@ const anyDeveloping = inOrder.some((dot) => dot.developing);
 
   /* Wide screens: lanes, with every title written beside its dot in as many rows as needed. */
   @media (width >= 1100px) {
+    .lanes {
+      display: block;
+    }
+
     .list {
       display: none;
     }
