@@ -58,6 +58,25 @@ importers:
         specifier: 4.160.0
         version: 4.160.0(@types/node@22.20.5)
 
+  apps/live:
+    dependencies:
+      '@cspnews/config':
+        specifier: workspace:*
+        version: link:../../packages/config
+      '@cspnews/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@cspnews/scores':
+        specifier: workspace:*
+        version: link:../../packages/scores
+      zod:
+        specifier: 4.6.7
+        version: 4.6.7
+    devDependencies:
+      wrangler:
+        specifier: 4.160.0
+        version: 4.160.0(@types/node@22.20.5)
+
   apps/web:
     dependencies:
       '@cspnews/accounts':

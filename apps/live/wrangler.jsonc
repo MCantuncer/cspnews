@@ -1,0 +1,13 @@
+// Live scores: a Cloudflare Worker on live.<site domain>. The site's pages ask it for the score
+// of the matches on the Tonight list while they are played. See README.md for the one-time setup.
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "cspnews-live",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "observability": { "enabled": false },
+  "vars": {
+    // Pages that may read the scores, comma-separated.
+    "ALLOWED_ORIGINS": "https://www.cspnews.app,https://cspnews.app,http://localhost:4321",
+  },
+}
