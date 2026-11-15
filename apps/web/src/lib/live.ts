@@ -8,8 +8,7 @@
 import type { PersonLine } from '@cspnews/core';
 
 import type { InterfaceLanguage } from './evidence.js';
-import { ICONS } from './icons.js';
-import { personMarks, tonightWords, type MarkKind } from './tonight.js';
+import { personMarks, tonightWords } from './tonight.js';
 
 export interface LiveScore {
   readonly ref: string;
@@ -71,43 +70,33 @@ const scoreLine = (score: LiveScore) =>
     ? `${String(score.home)}–${String(score.away)}`
     : undefined;
 
-const MARK_ICONS: Record<MarkKind, keyof typeof ICONS> = {
-  goals: 'goal',
-  assists: 'assist',
-  points: 'points',
-  rebounds: 'rebound',
-};
-
-function drawMarks(name: Element, lines: readonly PersonLine[], lang: InterfaceLanguage) {
+/** Draws a person's numbers after their name, as the page does: "1 GOAL 1 ASSIST". */
+function drawMarks(
+  name: Element,
+  lines: readonly PersonLine[],
+  lang: InterfaceLanguage,
+  sport: string | undefined,
+) {
   const words = tonightWords(lang);
+  // The row's styles are scoped to the component: new elements take its scope attribute too.
+  const scope = [...name.attributes].filter((a) => a.name.startsWith('data-astro-cid'));
+  const make = (className: string, text?: string) => {
+    const element = document.createElement('span');
+    element.className = className;
+    for (const attribute of scope) element.setAttribute(attribute.name, attribute.value);
+    if (text !== undefined) element.textContent = text;
+    return element;
+  };
   for (const old of name.querySelectorAll('.marks')) old.remove();
   for (const line of lines) {
     const marks = personMarks(line);
     if (marks.length === 0) continue;
-    const group = document.createElement('span');
-    group.className = 'marks';
+    const group = make('marks');
     group.setAttribute('role', 'img');
     group.setAttribute('aria-label', marks.map((m) => words[m.kind](m.count)).join(', '));
     for (const mark of marks) {
-      const item = document.createElement('span');
-      item.className = 'mark';
-      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-      for (const [key, value] of Object.entries({
-        width: '16',
-        height: '16',
-        viewBox: '0 0 24 24',
-        fill: 'none',
-        stroke: 'currentColor',
-        'stroke-width': '1.75',
-        'stroke-linecap': 'round',
-        'stroke-linejoin': 'round',
-        'aria-hidden': 'true',
-      })) {
-        svg.setAttribute(key, value);
-      }
-      // The icon markup is our own constant, never data from the feed.
-      svg.innerHTML = ICONS[MARK_ICONS[mark.kind]];
-      item.append(svg, document.createTextNode(String(mark.count)));
+      const item = make('mark', String(mark.count));
+      item.append(make('unit', words.unit(mark.kind, mark.count, sport).toLocaleUpperCase(lang)));
       group.append(item);
     }
     name.append(group);
@@ -155,7 +144,7 @@ export function applyScore(root: ParentNode, score: LiveScore) {
       }
     }
     const name = element.querySelector('.name');
-    if (name && score.lines) drawMarks(name, score.lines, lang);
+    if (name && score.lines) drawMarks(name, score.lines, lang, element.dataset.sport);
   }
 }
 
