@@ -46,6 +46,14 @@ export const ICONS = {
     '<path d="M2 12h5.5"/><circle cx="12" cy="12" r="4.5"/><path d="M12 9.75v4.5M9.75 12h4.5"/><path d="M16.5 12H22" style="stroke:var(--faint)"/>',
   /* A flag on the line: keep this story for later. */
   save: '<path d="M2 20h5.5M16.5 20H22"/><path d="M7 3.5h10V16l-5-3.25L7 16z"/>',
+  /** Tonight: a goal, an assist, a basketball's points and a rebound, each beside its count. */
+  goal: '<circle cx="12" cy="12" r="8"/><path d="M12 8.75l3.1 2.25-1.2 3.6h-3.8l-1.2-3.6z" fill="currentColor"/>',
+  assist:
+    '<path d="M3.5 17c3.5-6.5 8.5-9 13.5-9M14 5l3 3-3 3"/><circle cx="18.5" cy="17.5" r="2.25" fill="currentColor"/>',
+  points:
+    '<circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4v16M6.6 6.3c2.6 3 2.6 8.4 0 11.4M17.4 6.3c-2.6 3-2.6 8.4 0 11.4"/>',
+  rebound:
+    '<path d="M12 21v-11M8 13.5l4-4 4 4"/><circle cx="12" cy="5" r="2.25" fill="currentColor"/>',
   stats:
     '<path d="M2.5 20h19M6.5 20v-5M12 20v-9.75M17.5 20v-7.5"/><circle cx="12" cy="6" r="2.25" fill="currentColor"/>',
   share:

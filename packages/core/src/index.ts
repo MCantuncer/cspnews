@@ -179,6 +179,7 @@ export {
 export {
   LIVE_SOURCES,
   LiveSchema,
+  PersonLineSchema,
   TONIGHT_FOCUS,
   TONIGHT_KINDS,
   TONIGHT_MAX,
@@ -192,6 +193,7 @@ export {
 export type {
   Live,
   LiveSource,
+  PersonLine,
   LocalTonightItem,
   TonightFocus,
   TonightItem,

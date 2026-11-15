@@ -11,6 +11,7 @@ export { scoreOf } from './fixture.js';
 export type { Fixture, FixtureSide } from './fixture.js';
 export { buildTonight, datesToAsk, rowFor, tonightWindow } from './tonight.js';
 export type { TonightWatch, TonightWindow } from './tonight.js';
-export { fetchFixtures, httpFetchJson, logosToSave } from './fetch.js';
+export { fetchFixtures, httpFetchJson, logosToSave, withPersonLines } from './fetch.js';
+export { basketballLine, espnSummaryUrl, footballLine } from './summary.js';
 export type { FetchedFixtures } from './fetch.js';
 export { findFixture, withLiveMatch } from './today.js';

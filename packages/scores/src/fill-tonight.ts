@@ -25,7 +25,7 @@ import {
 } from '@cspnews/config';
 import { parseBulletin, type TonightItem } from '@cspnews/core';
 
-import { fetchFixtures, httpFetchJson, logosToSave } from './fetch.js';
+import { fetchFixtures, httpFetchJson, logosToSave, withPersonLines } from './fetch.js';
 import { withLiveMatch } from './today.js';
 import { buildTonight, tonightWindow, type TonightWatch } from './tonight.js';
 
@@ -52,7 +52,8 @@ const raw: unknown = path ? JSON.parse(readFileSync(path, 'utf8')) : undefined;
 const bulletin = raw === undefined ? undefined : parseBulletin(raw);
 
 const window = tonightWindow(bulletin ? new Date(bulletin.publishAt) : new Date());
-const { fixtures, failures } = await fetchFixtures(watch, window, httpFetchJson());
+const fetchJson = httpFetchJson();
+const { fixtures, failures } = await fetchFixtures(watch, window, fetchJson);
 for (const failure of failures) console.log(`❌ ${failure.url}: ${failure.reason}`);
 console.log(
   `Read ${String(fixtures.length)} matches from ${window.from.toISOString()} to ${window.until.toISOString()}.`,
@@ -65,6 +66,7 @@ if (fixtures.length === 0 && failures.length > 0) {
   console.log('No source could be read; the Tonight list is left as it was.');
   rows = [...written];
 }
+rows = await withPersonLines(rows, ABROAD_PEOPLE, fetchJson, new Date());
 for (const row of rows) {
   const teams =
     row.home && row.away ? `${row.home.name} v ${row.away.name}` : (row.event?.en ?? '');

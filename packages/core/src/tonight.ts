@@ -43,6 +43,19 @@ export const TonightSideSchema = z
   })
   .strict();
 
+const tally = z.number().int().min(0).max(200);
+
+/** A followed person's own numbers in the match, from its box score: shown as icons with counts. */
+export const PersonLineSchema = z
+  .object({
+    person: slug,
+    goals: tally.optional(),
+    assists: tally.optional(),
+    points: tally.optional(),
+    rebounds: tally.optional(),
+  })
+  .strict();
+
 export const TonightItemSchema = z
   .object({
     id: slug,
@@ -62,6 +75,8 @@ export const TonightItemSchema = z
     startsAt: z.iso.datetime({ offset: true }),
     /** Where the live score is read, set by the rules. */
     live: LiveSchema.optional(),
+    /** The followed people's goals and assists (football) or points, rebounds and assists. */
+    lines: z.array(PersonLineSchema).min(1).max(4).optional(),
     /** The final score, once the match has ended. */
     result: z.object({ home: score, away: score }).strict().optional(),
   })
@@ -76,6 +91,7 @@ export const TonightItemSchema = z
 
 export type TonightItem = z.infer<typeof TonightItemSchema>;
 export type TonightSide = z.infer<typeof TonightSideSchema>;
+export type PersonLine = z.infer<typeof PersonLineSchema>;
 export type TonightSport = (typeof TONIGHT_SPORTS)[number];
 export type TonightFocus = (typeof TONIGHT_FOCUS)[number];
 export type LiveSource = (typeof LIVE_SOURCES)[number];

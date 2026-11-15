@@ -10,7 +10,14 @@ import { sortTonight, tonightIn, type TonightSide } from '@cspnews/core';
 import type { PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { teamLogoUrl } from '../../lib/media';
-import { tonightStatus, tonightWhat, tonightWords } from '../../lib/tonight';
+import {
+  personMarks,
+  tonightOutcome,
+  tonightStatus,
+  tonightWhat,
+  tonightWords,
+} from '../../lib/tonight';
+import Icon from '../ui/Icon.astro';
 
 interface Props {
   published: PublishedBulletin;
@@ -25,6 +32,14 @@ const rows = sortTonight(published.bulletin.tonight ?? []).map((item) => {
   return {
     local,
     status: tonightStatus(item, lang, builtAt),
+    outcome: tonightOutcome(item),
+    marks: (item.lines ?? []).map((line) => ({
+      line,
+      marks: personMarks(line),
+      label: personMarks(line)
+        .map((mark) => words[mark.kind](mark.count))
+        .join(', '),
+    })),
     data: JSON.stringify({
       kind: item.kind,
       sport: item.sport,
@@ -33,6 +48,12 @@ const rows = sortTonight(published.bulletin.tonight ?? []).map((item) => {
     }),
   };
 });
+const MARK_ICONS = {
+  goals: 'goal',
+  assists: 'assist',
+  points: 'points',
+  rebounds: 'rebound',
+} as const;
 const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.team) : undefined);
 ---
 
@@ -41,13 +62,35 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     <section class="tonight" aria-labelledby="tonight-title">
       <h2 id="tonight-title">{words.title}</h2>
       <ul>
-        {rows.map(({ local, status, data }) => (
-          <li data-tonight-row={data} data-lang={lang} data-state={status.state}>
+        {rows.map(({ local, status, data, outcome, marks }) => (
+          <li
+            data-tonight-row={data}
+            data-lang={lang}
+            data-state={status.state}
+            data-outcome={outcome}
+          >
             <span class="station" aria-hidden="true" />
             <div class="body">
               {local.home && local.away ? (
                 <>
-                  {local.focus === 'person' && <span class="name">{local.name}</span>}
+                  {local.focus === 'person' && (
+                    <span class="name">
+                      {local.name}
+                      {marks.map(
+                        (person) =>
+                          person.marks.length > 0 && (
+                            <span class="marks" role="img" aria-label={person.label}>
+                              {person.marks.map((mark) => (
+                                <span class="mark">
+                                  <Icon name={MARK_ICONS[mark.kind]} size={16} />
+                                  {mark.count}
+                                </span>
+                              ))}
+                            </span>
+                          ),
+                      )}
+                    </span>
+                  )}
                   <span class:list={['what', { fixture: local.focus !== 'person' }]}>
                     {[local.home, local.away].map((side, index) => (
                       <>
@@ -70,6 +113,11 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
             </div>
             <div class="when">
               <b data-figure>{status.figure}</b>
+              {outcome && (
+                <span class="visually-hidden">
+                  {outcome === 'win' ? words.won : outcome === 'loss' ? words.lost : words.drew}
+                </span>
+              )}
               <small data-word>{status.word}</small>
             </div>
           </li>
@@ -210,6 +258,46 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   .when small {
     color: var(--meta);
     font: 500 13px / 1.3 var(--f-body);
+  }
+
+  /* The result for our side, said softly: the filled station takes the colour, the score a tint. */
+  [data-outcome='win'] .station {
+    border-color: var(--conf);
+    background: var(--conf);
+  }
+
+  [data-outcome='loss'] .station {
+    border-color: var(--disp);
+    background: var(--disp);
+  }
+
+  [data-outcome='win'] .when b {
+    color: color-mix(in srgb, var(--conf) 55%, var(--ink));
+  }
+
+  [data-outcome='loss'] .when b {
+    color: color-mix(in srgb, var(--disp) 55%, var(--ink));
+  }
+
+  /* A person's own numbers: small icons with counts, right after the name. */
+  .marks {
+    display: inline-flex;
+    gap: 10px;
+    margin-left: 10px;
+    vertical-align: 1px;
+  }
+
+  .mark {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--ink2);
+    font: 700 15px / 1 var(--f-head);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mark :global(svg) {
+    color: var(--meta);
   }
 
   [data-state='on'] .when small {

@@ -20,6 +20,13 @@ const WORDS = {
     ended: 'Ended',
     showOver: 'Over',
     versus: 'v',
+    won: 'Won',
+    lost: 'Lost',
+    drew: 'Drew',
+    goals: (n: number) => (n === 1 ? '1 goal' : `${String(n)} goals`),
+    assists: (n: number) => (n === 1 ? '1 assist' : `${String(n)} assists`),
+    points: (n: number) => (n === 1 ? '1 point' : `${String(n)} points`),
+    rebounds: (n: number) => (n === 1 ? '1 rebound' : `${String(n)} rebounds`),
   },
   tr: {
     title: 'Bu gece',
@@ -32,6 +39,13 @@ const WORDS = {
     ended: 'Bitti',
     showOver: 'Bitti',
     versus: '-',
+    won: 'Kazandı',
+    lost: 'Kaybetti',
+    drew: 'Berabere',
+    goals: (n: number) => `${String(n)} gol`,
+    assists: (n: number) => `${String(n)} asist`,
+    points: (n: number) => `${String(n)} sayı`,
+    rebounds: (n: number) => `${String(n)} ribaund`,
   },
 } as const;
 
@@ -101,4 +115,28 @@ export function tonightStatus(item: Timed, language: InterfaceLanguage, now: Dat
     figure: `${String(item.result.home)}–${String(item.result.away)}`,
     word: item.sport === 'basketball' ? words.final : words.fullTime,
   };
+}
+
+/** How the match ended for the side the row follows, when exactly one side is ours. */
+export function tonightOutcome(
+  item: Pick<TonightItem, 'home' | 'away' | 'result'>,
+): 'win' | 'loss' | 'draw' | undefined {
+  const { home, away, result } = item;
+  if (!home || !away || !result || home.ours === away.ours) return undefined;
+  const [ours, theirs] = home.ours ? [result.home, result.away] : [result.away, result.home];
+  return ours > theirs ? 'win' : ours < theirs ? 'loss' : 'draw';
+}
+
+export type MarkKind = 'goals' | 'assists' | 'points' | 'rebounds';
+
+/** A person's numbers as icon marks, in reading order, leaving out zeros except points. */
+export function personMarks(
+  line: Partial<Record<MarkKind, number | undefined>>,
+): { kind: MarkKind; count: number }[] {
+  const order: MarkKind[] = ['goals', 'points', 'rebounds', 'assists'];
+  return order.flatMap((kind) => {
+    const count = line[kind];
+    if (count === undefined || (count === 0 && kind !== 'points')) return [];
+    return [{ kind, count }];
+  });
 }

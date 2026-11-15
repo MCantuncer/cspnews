@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { tonightState, tonightStatus, tonightWhat } from './tonight';
+import { personMarks, tonightOutcome, tonightState, tonightStatus, tonightWhat } from './tonight';
 
 const match = {
   kind: 'match' as const,
@@ -62,5 +62,30 @@ describe('tonight state', () => {
   it('counts a row with a final score as over, whatever the clock says', () => {
     const ended = { ...nba, result: { home: 118, away: 109 } };
     expect(tonightState(ended, new Date('2026-11-16T01:30:00Z'))).toBe('over');
+  });
+});
+
+describe('tonight outcome and marks', () => {
+  const sides = {
+    home: { name: 'Real Madrid', ours: true },
+    away: { name: 'Getafe', ours: false },
+  };
+  it('reads the result from our side', () => {
+    expect(tonightOutcome({ ...sides, result: { home: 2, away: 0 } })).toBe('win');
+    expect(tonightOutcome({ ...sides, result: { home: 0, away: 1 } })).toBe('loss');
+    expect(tonightOutcome({ ...sides, result: { home: 1, away: 1 } })).toBe('draw');
+    expect(tonightOutcome(sides)).toBeUndefined();
+    const both = { home: { ...sides.home }, away: { ...sides.away, ours: true } };
+    expect(tonightOutcome({ ...both, result: { home: 2, away: 0 } })).toBeUndefined();
+  });
+
+  it('shows goals and assists only when there are some', () => {
+    expect(personMarks({ goals: 2, assists: 0 })).toEqual([{ kind: 'goals', count: 2 }]);
+    expect(personMarks({ goals: 0, assists: 0 })).toEqual([]);
+    expect(personMarks({ points: 27, rebounds: 13, assists: 8 })).toEqual([
+      { kind: 'points', count: 27 },
+      { kind: 'rebounds', count: 13 },
+      { kind: 'assists', count: 8 },
+    ]);
   });
 });

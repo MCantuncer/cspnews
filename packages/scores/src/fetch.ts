@@ -1,9 +1,10 @@
 import type { FetchText } from '@cspnews/collector';
-import { teamKey } from '@cspnews/core';
+import { teamKey, type AbroadPerson, type TonightItem } from '@cspnews/core';
 
 import { espnScoreboardUrl, parseEspnScoreboard } from './espn.js';
 import { euroleagueGamesUrl, euroleagueSeason, parseEuroleagueGames } from './euroleague.js';
 import type { Fixture } from './fixture.js';
+import { basketballLine, espnSummaryUrl, footballLine } from './summary.js';
 import { datesToAsk, type TonightWatch, type TonightWindow } from './tonight.js';
 
 export interface FetchedFixtures {
@@ -71,4 +72,37 @@ export function logosToSave(
     }
   }
   return logos;
+}
+
+/**
+ * Adds the followed people's own numbers to rows that have started, from ESPN's game summaries.
+ * A summary that can't be read leaves the row as it was.
+ */
+export async function withPersonLines(
+  rows: readonly TonightItem[],
+  people: readonly AbroadPerson[],
+  fetchText: FetchText,
+  now: Date,
+): Promise<TonightItem[]> {
+  return Promise.all(
+    rows.map(async (row) => {
+      if (row.live?.source !== 'espn' || !row.people || Date.parse(row.startsAt) > now.getTime()) {
+        return row;
+      }
+      let json: unknown;
+      try {
+        json = JSON.parse(await fetchText(espnSummaryUrl(row.live.ref)));
+      } catch {
+        return row;
+      }
+      const lines = row.people.flatMap((id) => {
+        const person = people.find((p) => p.id === id);
+        if (!person) return [];
+        const line =
+          row.sport === 'basketball' ? basketballLine(json, person) : footballLine(json, person);
+        return line ? [line] : [];
+      });
+      return lines.length > 0 ? { ...row, lines } : row;
+    }),
+  );
 }
