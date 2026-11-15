@@ -64,13 +64,6 @@ const groups = storiesBySection(published, lang);
               return (
                 <li>
                   <a href={storyPath(published, story, lang)} lang={story.language}>
-                    <span class="text">
-                      <span class="title">
-                        <EvidenceMark label={story.label} lang={lang} variant="glyph" />
-                        {story.shortTitle}
-                      </span>
-                      <span class="what">{story.summary.what}</span>
-                    </span>
                     {visual.kind !== 'none' && (
                       <span class="thumb" aria-hidden="true">
                         <VisualView visual={visual} lang={lang} storyLang={story.language} size="thumb" />
@@ -81,6 +74,11 @@ const groups = storiesBySection(published, lang);
                         <img src={outlet.src} alt="" loading="lazy" decoding="async" />
                       </span>
                     )}
+                    <span class="title">
+                      <EvidenceMark label={story.label} lang={lang} variant="glyph" />
+                      {story.shortTitle}
+                    </span>
+                    <span class="what">{story.summary.what}</span>
                   </a>
                 </li>
               );
@@ -135,27 +133,21 @@ const groups = storiesBySection(published, lang);
     border-top: 1px solid var(--line);
   }
 
+  /* flow-root keeps the floated picture inside its line. */
   li a {
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
+    display: flow-root;
     padding: 16px 0;
     color: var(--ink);
     text-decoration: none;
   }
 
-  .text {
-    display: grid;
-    flex: 1;
-    gap: 6px;
-    min-width: 0;
-  }
-
-  /* The picture sits beside the sentence, level with the title. */
+  /* The picture floats beside the title; the sentence wraps under it once it ends. */
   .thumb {
     display: grid;
-    flex: none;
+    float: right;
     place-items: center;
+    margin-left: 16px;
+    margin-bottom: 6px;
     width: 84px;
     height: 84px;
     margin-top: 4px;
@@ -203,6 +195,8 @@ const groups = storiesBySection(published, lang);
   }
 
   .what {
+    display: block;
+    margin-top: 6px;
     font: 400 17px / 1.5 var(--f-body);
   }
 
