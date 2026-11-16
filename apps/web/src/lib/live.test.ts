@@ -20,9 +20,9 @@ describe('live scores', () => {
     expect(readScores('nope')).toEqual([]);
   });
 
-  it('asks every minute while a match is on, every five before, never after', () => {
+  it('asks every minute while a match is on, every two before, never after', () => {
     expect(nextAskIn([{ state: 'pre' }, { state: 'in' }])).toBe(60_000);
-    expect(nextAskIn([{ state: 'pre' }, { state: 'post' }])).toBe(300_000);
+    expect(nextAskIn([{ state: 'pre' }, { state: 'post' }])).toBe(120_000);
     expect(nextAskIn([{ state: 'post' }])).toBeUndefined();
   });
 });

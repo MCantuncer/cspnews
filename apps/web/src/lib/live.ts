@@ -100,10 +100,10 @@ export function readScores(json: unknown): LiveScore[] {
   });
 }
 
-/** How long to wait before asking again: a minute while a match is on, five before, never after. */
+/** How long to wait before asking again: a minute while a match is on, two before, never after. */
 export function nextAskIn(scores: readonly Pick<LiveScore, 'state'>[]): number | undefined {
   if (scores.some((score) => score.state === 'in')) return 60_000;
-  if (scores.some((score) => score.state === 'pre')) return 300_000;
+  if (scores.some((score) => score.state === 'pre')) return 120_000;
   return undefined;
 }
 
@@ -112,7 +112,7 @@ const scoreLine = (score: LiveScore) =>
     ? `${String(score.home)}–${String(score.away)}`
     : undefined;
 
-/** Draws a person's numbers after their name, as the page does: "1 GOAL 1 ASSIST". */
+/** Draws a person's numbers on their own line, as the page does: each number over its word. */
 function drawMarks(
   name: Element,
   lines: readonly PersonLine[],
@@ -137,8 +137,11 @@ function drawMarks(
     group.setAttribute('role', 'img');
     group.setAttribute('aria-label', marks.map((m) => words[m.kind](m.count)).join(', '));
     for (const mark of marks) {
-      const item = make('mark', String(mark.count));
-      item.append(make('word', words.unit(mark.kind, mark.count, sport)));
+      const item = make('mark');
+      item.append(
+        make('count', String(mark.count)),
+        make('word', words.unit(mark.kind, mark.count, sport)),
+      );
       group.append(item);
     }
     name.append(group);
@@ -224,7 +227,14 @@ export function applyScore(root: ParentNode, score: LiveScore) {
     const key = element.dataset.liveSource
       ? `${element.dataset.liveSource}:${element.dataset.liveRef ?? ''}`
       : element.dataset.liveRef;
-    if (key !== score.ref || score.state === 'pre') continue;
+    if (key !== score.ref) continue;
+    if (score.state === 'pre') {
+      // Past its start time by the clock, but the source has not started it yet.
+      const word = element.querySelector('[data-word]');
+      if (element.dataset.state === 'on' && word)
+        word.textContent = tonightWords(element.dataset.lang === 'tr' ? 'tr' : 'en').soon;
+      continue;
+    }
     if (!element.matches('[data-tonight-row]')) {
       // The Today line's match: the kick-off time becomes the score.
       if (line) element.textContent = line;
@@ -247,9 +257,8 @@ export function applyScore(root: ParentNode, score: LiveScore) {
       }
     } else if (line && figure) figure.textContent = line;
     if (sides.length > 0 && score.state === 'in' && figure && word) {
-      // A scoreboard being played: the minute is the figure.
-      figure.textContent = score.clock ?? figure.textContent;
-      word.textContent = words.on;
+      // A scoreboard being played: the minute sits under the score, where "Full time" will go.
+      word.textContent = score.clock ?? words.on;
     } else if (word) {
       word.textContent =
         score.state === 'in'
@@ -272,7 +281,7 @@ export function applyScore(root: ParentNode, score: LiveScore) {
         element.dataset.outcome = us > them ? 'win' : us < them ? 'loss' : 'draw';
       }
     }
-    const name = element.querySelector('.name');
+    const name = element.querySelector('[data-marks]');
     if (name && score.lines) drawMarks(name, score.lines, lang, element.dataset.sport);
   }
 }

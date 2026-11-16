@@ -20,3 +20,10 @@ Logos and player photos come from the leagues' own data and are saved next to th
 - **Each goal under the side that scored it, minute first, using the row's whole width.** Own goals in a soft red. Football: "49' Topcu OG", "23' 67' Osimhen", from ESPN's scoreboard; the home side's goals in the left half, the away side's in the right half, small type, a long name wrapping under itself. Euroleague: each side's top scorer with their points ("24 PTS Hayes-Davis"), from the game's box score. Our side's scorers in ink, the other side's quieter.
 - **Official photos only.** A scorer's photo is the league's or the score source's own (ESPN headshot, Euroleague headshot), saved with the bulletin. No photo means no circle at all: never initials or a stand-in.
 - **Live like the rest.** The live Worker adds the scorers (from the league scoreboard or the box score) while a match is played, and the page redraws them.
+
+## Every match a scoreline, closed by default (Can, 2026-11-16)
+
+- **Every match row is a scoreline**, a person's too: home team, score, away team. A person's row puts their name on top and their own numbers on a line of their own, each number over its word, like a small box score.
+- **Closed by default.** The scoreline shows only the score and its clock. A tap opens it to show who scored, and closes it again. Nothing to open before the first goal or basket.
+- **Room.** Rows have generous padding and space between their lines; nothing sits squeezed beside a name.
+- **Before the source starts a game** that is past its start time, the row says "Starting soon" rather than "Under way".
