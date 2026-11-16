@@ -1124,7 +1124,6 @@
         "en": {
           "shortTitle": "Saudi Arabia replaces Yemen commander",
           "title": "Saudi Arabia replaces its Yemen coalition commander as Houthis close on Aden",
-          "news": "Saudi Arabia removed the commander of the coalition fighting the Houthis, as the group pushed to 100km west of Aden.",
           "summary": {
             "what": "Saudi Arabia named a new commander for the coalition fighting the Houthis, as the group took ground on the south coast after government forces fell back to defend Aden.",
             "why": "Aden is the seat of Yemen’s internationally recognised government, and Houthi control of the Bab al-Mandab coast gives Iran’s ally leverage over a key shipping lane.",
@@ -1205,12 +1204,12 @@
             "lat": 12.79,
             "lon": 45.04,
             "region": "Yemen"
-          }
+          },
+          "news": "Saudi Arabia removed the commander of the coalition fighting the Houthis, as the group pushed to 100km west of Aden."
         },
         "tr": {
           "shortTitle": "Suudi Arabistan Yemen komutanını değiştirdi",
           "title": "Husiler Aden’e yaklaşırken Suudi Arabistan Yemen koalisyonunun komutanını değiştirdi",
-          "news": "Suudi Arabistan, Husilere karşı savaşan koalisyonun komutanını görevden aldı; Husiler Aden’in 100 km batısına ilerledi.",
           "summary": {
             "what": "Hükümet güçleri Aden’i savunmak için geri çekilirken Husiler güney kıyısında toprak kazandı; Suudi Arabistan koalisyona yeni bir komutan atadı.",
             "why": "Aden, Yemen’in uluslararası alanda tanınan hükümetinin merkezi; Babülmendep kıyısının Husilerin elinde olması İran’ın müttefikine kritik bir deniz yolu üzerinde koz veriyor.",
@@ -1292,7 +1291,8 @@
             "lat": 12.79,
             "lon": 45.04,
             "region": "Yemen"
-          }
+          },
+          "news": "Suudi Arabistan, Husilere karşı savaşan koalisyonun komutanını görevden aldı; Husiler Aden’in 100 km batısına ilerledi."
         }
       },
       "timeline": [
@@ -1864,7 +1864,7 @@
           }
         ],
         "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afa89923516f14679cc8585.jpg",
+          "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afa89923516f14679cc8585.jpg",
           "sourceId": "hurriyet",
           "sourceName": "Hürriyet",
           "articleUrl": "https://www.hurriyet.com.tr/galeri-surpriz-nikah-sarkici-kutsi-evlendi-43379622"
@@ -1957,6 +1957,72 @@
           "question": "Rusya gece boyunca kaç Ukrayna İHA’sını düşürdüğünü açıkladı?",
           "options": ["1.336", "600", "2 bin"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909997",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "short": "Nets",
+        "ours": false,
+        "team": "brooklyn-nets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909997"
+      }
+    },
+    {
+      "id": "espn-401909998",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909998"
       }
     }
   ]
