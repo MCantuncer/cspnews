@@ -1,0 +1,1443 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-16T12:30:00+03:00",
+  "writtenAt": "2026-11-16T08:56:55Z",
+  "stories": [
+    {
+      "id": "a1f5ff8364ef3c4e",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Police officer: family kept uninformed",
+          "title": "Detained officer says police were told not to tell Gülistan Doku’s family about finds",
+          "summary": {
+            "what": "İsmail Erzen, a Tunceli police officer detained in the Gülistan Doku inquiry, says officers were told to keep the family in the dark about items found in a dam.",
+            "why": "His statement points at the governor’s office, whose former head Tuncay Sonel is among those already arrested in the reopened case.",
+            "next": "The seventh wave of detentions, begun on 29 October, is still under way, the family’s lawyer Ali Çimen says."
+          },
+          "body": [
+            {
+              "subhead": "What the officer told prosecutors",
+              "blocks": [
+                {
+                  "text": "A police officer detained in the investigation into the disappearance of Gülistan Doku says he and his colleagues were ordered not to tell her family about items recovered from a dam during the search, because the governor’s office was running the process. The statement of İsmail Erzen, who worked in the public order branch of the Tunceli police at the time, was reported on Monday by ANKA and carried by Habertürk, Cumhuriyet, Sözcü, Sabah and NTV. NTV says Erzen has been arrested; other outlets describe him as one of 19 officers detained in an operation targeting police who served in Tunceli then."
+                },
+                {
+                  "text": "Erzen told prosecutors that two things struck him as abnormal while he worked on the case, and that he wanted to share them “sincerely”."
+                },
+                {
+                  "quote": "“We were told: information about the items taken out of the water will not be given to the family, the governor’s office is coordinating the process, you will on no account inform the family about this.”",
+                  "speaker": "İsmail Erzen",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "He said the family was only told a week to ten days after the items were found, and that they then began to treat the search as if evidence were being invented, losing trust in the police. Erzen said he does not remember who gave the order. “I don’t want to wrong anyone,” he said, according to Sözcü."
+                }
+              ]
+            },
+            {
+              "subhead": "The footage from the bridge",
+              "blocks": [
+                {
+                  "text": "The second thing he found abnormal was the leak of in-car camera footage believed to show Doku on a bridge. Erzen said his unit obtained the footage and sent it, with a written report, to the prosecutor’s office within one or two days, after which it quickly appeared in the media. Officers in the branch were questioned over the leak, he said, and he told a colleague, Ertuğrul Arslan, that “we don’t sell our honour and dignity for money”."
+                },
+                {
+                  "text": "NTV notes that it was previously claimed that a former deputy provincial gendarmerie commander and his wife drove over the bridge in the minutes when Doku was seen there, and that his wife called the governor’s wife at the time. Suspects are alleged to have taken Doku from the viaduct and handed her to others linked to the case."
+                }
+              ]
+            },
+            {
+              "subhead": "A case reopened after six years",
+              "blocks": [
+                {
+                  "text": "Gülistan Doku, a 21-year-old second-year child development student at Munzur University, has not been heard from since 5 January 2020. In the investigation reopened six years later, 38 people have been arrested, NTV reports, among them the then governor Tuncay Sonel, his son Mustafa Türkay Sonel, who is a murder suspect, and his close friend Umut Altaş. Some police officers are accused of destroying evidence and interfering with the inquiry. Erzen denied any role in destroying evidence or deleting data, NTV says."
+                },
+                {
+                  "text": "The family’s lawyer, Ali Çimen, said the seventh wave of the operation, begun on 29 October 2026 by the Erzurum chief prosecutor’s office, is continuing, and that at least 39 people have been detained so far, Cumhuriyet and Sözcü report."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Missing since",
+              "value": "5 Jan 2020",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Officers detained in latest operation",
+              "value": "19",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Arrested in the reopened inquiry",
+              "value": "38",
+              "source": "NTV"
+            },
+            {
+              "label": "Detained in the seventh wave so far",
+              "value": "39",
+              "source": "Lawyer Ali Çimen, via Cumhuriyet"
+            },
+            {
+              "label": "Delay before family was told",
+              "value": "7–10 days",
+              "source": "İsmail Erzen, via Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Tunceli",
+            "lat": 39.11,
+            "lon": 39.55,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Tutuklu polis: “Aileye bilgi vermeyin”",
+          "title": "Gülistan Doku soruşturmasındaki polis: Barajda bulunanlar aileden saklandı",
+          "summary": {
+            "what": "Gülistan Doku soruşturmasında gözaltına alınan polis İsmail Erzen, barajdan çıkan malzemeler hakkında aileye bilgi verilmemesi talimatı aldıklarını söyledi.",
+            "why": "İfade, dönemin valisi Tuncay Sonel’in de tutuklu olduğu dosyada valiliği işaret ediyor.",
+            "next": "Aile avukatı Ali Çimen’e göre 29 Ekim’de başlayan yedinci dalga operasyon sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Polisin ifadesi",
+              "blocks": [
+                {
+                  "text": "Gülistan Doku’nun kaybolmasına ilişkin soruşturmada gözaltına alınan polis memuru İsmail Erzen, aramalar sırasında barajdan çıkarılan malzemeler hakkında aileye bilgi verilmemesi talimatı aldıklarını, sürecin valilik tarafından koordine edildiğini söyledi. Dönemin Tunceli Asayiş Şube Müdürlüğü görevlisi Erzen’in ifadesini ANKA duyurdu; Habertürk, Cumhuriyet, Sözcü, Sabah ve NTV aktardı. NTV, Erzen’in tutuklandığını yazdı; diğer yayınlar onu o dönem Tunceli’de görev yapan kolluk görevlilerine yönelik operasyonda gözaltına alınan 19 şüpheliden biri olarak tanımladı."
+                },
+                {
+                  "text": "Erzen, soruşturmada görev aldığı sürede kendisine anormal gelen iki husus olduğunu, bunları “samimiyetle” paylaşmak istediğini belirtti."
+                },
+                {
+                  "quote": "“Suyun altından çıkan malzemeler hakkında ailesine bilgi verilmeyecek, süreci Valilik koordine ediyor, siz hiçbir şekilde bu konuyla ilgili aileye bilgi vermeyin denildi.”",
+                  "speaker": "İsmail Erzen",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "Erzen, aileye malzemeler bulunduktan bir hafta, on gün sonra bilgi verildiğini, ailenin bundan sonra delil uyduruluyormuş gibi davranmaya başladığını ve emniyete güveninin azaldığını anlattı. Talimatı kimin verdiğini hatırlamadığını söyleyen Erzen, Sözcü’nün aktardığına göre “Kimsenin günahını almak istemiyorum” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Köprüdeki görüntü",
+              "blocks": [
+                {
+                  "text": "Erzen’e anormal gelen ikinci konu, Doku’ya ait olduğu değerlendirilen araç içi kamera görüntüsünün medyaya sızmasıydı. Görüntüyü ve tutanağı bir iki gün içinde savcılığa ilettiklerini, ardından görüntünün hemen medyaya düştüğünü söyledi. Şubedeki görevlilerin bu yüzden sorgulandığını, kendisinin de Ertuğrul Arslan’a “Biz şerefimizi, haysiyetimizi parayla satmayız” diye tepki gösterdiğini anlattı."
+                },
+                {
+                  "text": "NTV, Doku’nun köprüde görüldüğü dakikalarda eski il jandarma komutan yardımcısı ile eşinin de araçlarıyla oradan geçtiğinin ve eşin o sırada valinin eşini aradığının daha önce öne sürüldüğünü hatırlattı. Zanlıların Doku’yu viyadükten alıp başka şüphelilere teslim ettiği iddia ediliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Altı yıl sonra yeniden açılan dosya",
+              "blocks": [
+                {
+                  "text": "Munzur Üniversitesi Çocuk Gelişimi Bölümü ikinci sınıf öğrencisi 21 yaşındaki Gülistan Doku’dan 5 Ocak 2020’den bu yana haber alınamıyor. NTV’ye göre altı yıl sonra yeniden açılan soruşturmada 38 kişi tutuklandı; aralarında dönemin valisi Tuncay Sonel, cinayet şüphelisi oğlu Mustafa Türkay Sonel ve onun yakın arkadaşı Umut Altaş var. Bazı emniyet mensupları delil karartmak ve soruşturmaya müdahale etmekle suçlanıyor. Erzen ise delil karartma ya da veri silme gibi bir suça karışmadığını savundu."
+                },
+                {
+                  "text": "Aile avukatı Ali Çimen, Erzurum Cumhuriyet Başsavcılığı’nın 29 Ekim 2026’da başlattığı yedinci dalga operasyonun sürdüğünü ve bugüne kadar en az 39 kişinin gözaltına alındığını açıkladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kayıp olduğu tarih",
+              "value": "5 Ocak 2020",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Son operasyonda gözaltına alınan polis",
+              "value": "19",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Yeniden açılan soruşturmada tutuklanan",
+              "value": "38",
+              "source": "NTV"
+            },
+            {
+              "label": "Yedinci dalgada gözaltı",
+              "value": "39",
+              "source": "Avukat Ali Çimen, Cumhuriyet"
+            },
+            {
+              "label": "Aileye bilgi verilene kadar",
+              "value": "7–10 gün",
+              "source": "İsmail Erzen, Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Tunceli",
+            "lat": 39.11,
+            "lon": 39.55,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T06:06:22.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T06:36:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T06:36:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T06:55:35.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T07:10:43.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T08:07:32.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T08:30:31.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/g%C3%BClistan4-469568.png",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-gulistan-doku-sorusturmasi-tutuklanan-polisin-ifadesinden-aileye-bilgi-vermeyin-denildi-1751070"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-gulistan-doku-sorusturmasi-tutuklanan-polisin-ifadesinden-aileye-bilgi-vermeyin-denildi-1751070",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/gulistan-doku-sorusturmasinda-dikkat-ceken-ifade-aileye-bilgi-vermeyin-2556478",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberler-gulistan-doku-sorusturmasinda-yeni-ifade-aileye-hicbir-sekilde-bilgi-vermeyin-denildi-3927594",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/gulistan-doku-sorusturmasinda-tutuklu-polisten-carpici-ifade-aileye-bilgi-vermeyin-talimatini-kim-ve-p381782",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/son-dakikagulistan-doku-sorusturmasinda-yeni-gelisme-kritik-ismin-ifadesi-ortaya-cikti-7702724",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/16/gulistan-doku-sorusturmasi-aileye-bilgi-vermeyin-denildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/16/gulistan-doku-sorusturmasinda-sicak-gelisme-kritik-ismin-ifadesi-ortaya-cikti",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-16T12:30:00+03:00",
+      "updatedAt": "2026-11-16T12:30:00+03:00"
+    },
+    {
+      "id": "41dd26ffc6a23aaf",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Car production falls 17%",
+          "title": "Türkiye’s car production falls 17% in ten months as imports slump",
+          "summary": {
+            "what": "Türkiye built 592,163 cars from January to October, 17% fewer than a year earlier, the carmakers’ association OSD says.",
+            "why": "Car exports fell 25% and the home market shrank 15%, while commercial vehicles kept growing.",
+            "next": "New light commercial models should lift local sales, but some car models are being dropped, Habertürk reports."
+          },
+          "body": [
+            {
+              "subhead": "Fewer cars, more vans",
+              "blocks": [
+                {
+                  "text": "Türkiye’s car factories built 592,163 cars in the first ten months of the year, 17% fewer than in the same period of 2025, according to figures from the Automotive Manufacturers Association (OSD) reported by Bloomberg HT and Habertürk. Total vehicle production fell 6% to 1,092,519, or 1,109,736 including tractors."
+                },
+                {
+                  "text": "The fall is almost entirely in passenger cars. Production of commercial vehicles rose 12%, with light commercial vehicles up 13% and heavy ones up 5%. The industry used 61% of its capacity, OSD said: 63% for light vehicles, 60% for trucks, 67% for buses and minibuses and 28% for tractors."
+                }
+              ]
+            },
+            {
+              "subhead": "Exports earn more on fewer vehicles",
+              "blocks": [
+                {
+                  "text": "Vehicle exports fell 9% by number to 779,557, and car exports dropped 25%, while exports of commercial vehicles and tractors each rose 11%. Yet the money kept coming in. The Turkish Exporters Assembly (TİM) says the sector’s exports grew 3% to $35.2 billion, keeping automotive the country’s largest export sector with a 17% share of the total, Habertürk reports."
+                },
+                {
+                  "text": "Cars were the exception. Data from the Uludağ Automotive Industry Exporters’ Association (UİB) show car exports fell 6% in value to $8.9 billion. Exports by the main manufacturers rose 3.1% in dollar terms and by parts suppliers 2.8%."
+                }
+              ]
+            },
+            {
+              "subhead": "Home market shrinks, local models gain",
+              "blocks": [
+                {
+                  "text": "At home, the total vehicle market shrank 15% to 916,149 and car sales fell 17% to 692,916. The fall hit imported cars hardest: their sales dropped 23%, while sales of cars made in Türkiye rose 1%, Habertürk says, leaving locally built cars with a 35% share of the market. In light commercial vehicles, imports fell 13% and local models rose 6%, for a 24% local share. Heavy commercial sales fell 7%."
+                },
+                {
+                  "text": "Separate figures from the statistics office TÜİK, reported by Diken, show 130,697 vehicles were registered in October, 26.8% fewer than a year earlier and 18.8% fewer than in September. “Production is falling, exports are falling, the home market is shrinking. But the real loss is in cars,” the journalist Emre Özpeynirci said, according to Diken."
+                },
+                {
+                  "text": "Habertürk expects new models to lift sales of locally made light commercial vehicles, but says some car models are being taken out of production, so no similar rise in local car sales is likely soon."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Cars built, Jan–Oct",
+              "value": "592,163",
+              "source": "OSD, via Bloomberg HT"
+            },
+            {
+              "label": "Car exports, by number",
+              "value": "−25%",
+              "source": "OSD, via Bloomberg HT"
+            },
+            {
+              "label": "Automotive exports, Jan–Oct",
+              "value": "$35.2bn",
+              "source": "TİM, via Habertürk"
+            },
+            {
+              "label": "Car sales, Jan–Oct",
+              "value": "692,916",
+              "source": "OSD, via Bloomberg HT"
+            },
+            {
+              "label": "Capacity use",
+              "value": "61%",
+              "source": "OSD, via Bloomberg HT"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Otomobil üretimi yüzde 17 düştü",
+          "title": "Otomobil üretimi on ayda yüzde 17 düştü, ithal satışlar geriledi",
+          "summary": {
+            "what": "OSD verilerine göre ocak-ekim döneminde 592 bin 163 otomobil üretildi; bu geçen yılın aynı dönemine göre yüzde 17 düşüş.",
+            "why": "Otomobil ihracatı yüzde 25 geriledi, iç pazar yüzde 15 daraldı; ticari araç üretimi ise büyümeyi sürdürdü.",
+            "next": "Habertürk’e göre yeni modellerle yerli hafif ticari satışları artabilir, ama bazı otomobil modelleri üretimden kalkıyor."
+          },
+          "body": [
+            {
+              "subhead": "Otomobil azaldı, ticari araç arttı",
+              "blocks": [
+                {
+                  "text": "Otomotiv Sanayii Derneği’nin (OSD) açıkladığı verilere göre Türkiye’de yılın ilk on ayında 592 bin 163 otomobil üretildi. Bloomberg HT ve Habertürk’ün aktardığı rakamlar, geçen yılın aynı dönemine göre yüzde 17’lik bir düşüşe işaret ediyor. Toplam otomotiv üretimi yüzde 6 azalarak 1 milyon 92 bin 519’a, traktörle birlikte 1 milyon 109 bin 736’ya geriledi."
+                },
+                {
+                  "text": "Kayıp büyük ölçüde otomobilde. Ticari araç üretimi yüzde 12, hafif ticari araç üretimi yüzde 13, ağır ticari araç üretimi yüzde 5 arttı. Sektörün kapasite kullanım oranı yüzde 61 oldu: hafif araçlarda yüzde 63, kamyonda yüzde 60, otobüs-midibüste yüzde 67, traktörde yüzde 28."
+                }
+              ]
+            },
+            {
+              "subhead": "Daha az araçla daha çok gelir",
+              "blocks": [
+                {
+                  "text": "Otomotiv ihracatı adet bazında yüzde 9 azalarak 779 bin 557’ye indi; otomobil ihracatı yüzde 25 geriledi, ticari araç ve traktör ihracatı ise yüzde 11’er arttı. Buna karşın gelir yükseldi. Türkiye İhracatçılar Meclisi (TİM) verilerine göre sektörün ihracatı yüzde 3 artışla 35,2 milyar dolara ulaştı ve otomotiv, toplam ihracattaki yüzde 17’lik payıyla sektörel sıralamadaki liderliğini korudu."
+                },
+                {
+                  "text": "Otomobil yine istisnaydı. Uludağ Otomotiv Endüstrisi İhracatçıları Birliği (UİB) verilerine göre otomobil ihracatı değer olarak yüzde 6 azalarak 8,9 milyar dolara geriledi. Dolar bazında ana sanayi ihracatı yüzde 3,1, tedarik sanayi ihracatı yüzde 2,8 arttı."
+                }
+              ]
+            },
+            {
+              "subhead": "İç pazar daraldı, yerli pay arttı",
+              "blocks": [
+                {
+                  "text": "İç pazarda toplam satışlar yüzde 15 azalarak 916 bin 149’a, otomobil satışları yüzde 17 düşüşle 692 bin 916’ya indi. Daralma en çok ithal otomobili vurdu: Habertürk’e göre ithal otomobil satışları yüzde 23 düşerken yerli üretim otomobillerin satışı yüzde 1 arttı ve yerli payı yüzde 35’e çıktı. Hafif ticaride ithal satışlar yüzde 13 azaldı, yerli satışlar yüzde 6 arttı; yerli payı yüzde 24 oldu. Ağır ticari pazarı yüzde 7 geriledi."
+                },
+                {
+                  "text": "Diken’in aktardığı TÜİK verilerine göre ekimde 130 bin 697 taşıt trafiğe kaydedildi; bu sayı geçen yılın aynı ayına göre yüzde 26,8, eylüle göre yüzde 18,8 az. Gazeteci Emre Özpeynirci “Üretim düşüyor, ihracat düşüyor, iç pazar daralıyor. Ama asıl büyük kayıp otomobilde” dedi."
+                },
+                {
+                  "text": "Habertürk, yeni modellerle yerli hafif ticari araç satışlarının artmasını beklerken, bazı modellerin üretimden kalkması nedeniyle yerli otomobil satışlarında kısa vadede benzer bir yükseliş öngörülmediğini yazdı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ocak-ekim otomobil üretimi",
+              "value": "592.163",
+              "source": "OSD, Bloomberg HT"
+            },
+            {
+              "label": "Otomobil ihracatı (adet)",
+              "value": "−%25",
+              "source": "OSD, Bloomberg HT"
+            },
+            {
+              "label": "Ocak-ekim otomotiv ihracatı",
+              "value": "35,2 milyar $",
+              "source": "TİM, Habertürk"
+            },
+            {
+              "label": "Ocak-ekim otomobil satışı",
+              "value": "692.916",
+              "source": "OSD, Bloomberg HT"
+            },
+            {
+              "label": "Kapasite kullanımı",
+              "value": "%61",
+              "source": "OSD, Bloomberg HT"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T04:51:44.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T05:42:36.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T05:42:36.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T07:34:28.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/15/ver1794773614/3927549/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/ekonomi/otomobil-uretimi-yuzde-17-dustu-ithal-satislar-geriledi-yerli-araclar-artti-3927549"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/otomobil-uretimi-yuzde-17-dustu-ithal-satislar-geriledi-yerli-araclar-artti-3927549",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/osd-otomotiv-uretimi-ilk-10-ayda-yuzde-6-azaldi-3794693",
+          "confirms": true
+        },
+        {
+          "sourceId": "shiftdelete",
+          "url": "https://shiftdelete.net/osd-2026-verileri-ilk-10-ay-uretim-ihracat",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/otomobil-satislarinda-sert-dusus-ic-pazar-daraliyor/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T12:30:00+03:00",
+      "updatedAt": "2026-11-16T12:30:00+03:00"
+    },
+    {
+      "id": "7310523931ec31d7",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "e86112d5f8734949",
+      "versions": {
+        "en": {
+          "shortTitle": "Megaspeed: Alice Huang left 2025",
+          "title": "Megaspeed says Alice Huang left in 2025, as Jensen Huang weighs a return",
+          "news": "Megaspeed says Alice Huang left on 30 August 2025, and the FT reports Jensen Huang has discussed a return to Nvidia.",
+          "summary": {
+            "what": "Megaspeed, the Singapore firm at the centre of the Nvidia scandal, says Alice Huang left it on 30 August 2025 and that it is a lawful business.",
+            "why": "Jensen Huang has discussed returning as Nvidia’s chief, the FT reports, while the open letter backing him passed 165,000 names.",
+            "next": "Treasury Secretary Scott Bessent wants answers from Nvidia within ten days; Nvidia reports quarterly earnings on Tuesday."
+          },
+          "body": [
+            {
+              "subhead": "Megaspeed breaks its silence",
+              "blocks": [
+                {
+                  "text": "Megaspeed International, the Singapore-based cloud company linked to the fall of Nvidia’s chief executive Jensen Huang, says Alice Huang, the former director accused by US officials of working for Chinese intelligence, left the company on 30 August 2025 and has had no role there since. In a statement on Sunday, reported by The Guardian and Al Jazeera, the company called itself a “legitimate and lawful business”."
+                },
+                {
+                  "text": "Megaspeed said it was aware of media reports making claims about its business, supply chain and global operations “that are not supported by verifiable evidence”, and that it had retained outside lawyers for a thorough internal investigation. It would not comment on Alice Huang’s “personal and private matters”. The Verge says the statement “raises more questions than it answers”."
+                },
+                {
+                  "text": "The dates are disputed. The Guardian notes that the short seller Culper Research quoted a Megaspeed employee in May as saying Alice Huang was “still our boss”. Singapore says it held her passport from June 2025 until February and later barred her from re-entering, after police concluded she had given “inaccurate” information to play down her role. Megaspeed has bought nearly $5 billion of Nvidia chips and hardware in three years, The Guardian reports."
+                }
+              ]
+            },
+            {
+              "subhead": "A possible comeback",
+              "blocks": [
+                {
+                  "text": "Jensen Huang has discussed a possible return to Nvidia with people close to him, the Financial Times reported, according to The Guardian and France 24. One ally told the paper they were assembling a “war room” of Silicon Valley executives to lobby for his return and seek White House support. “Everyone that matters in tech outside the frontier labs loves Jensen,” the person said."
+                },
+                {
+                  "text": "The open letter asking the board to “bring Jensen back while an independent investigation establishes the facts” had more than 165,000 signatures by Monday, The Guardian says. More than 7,500 signatories describe themselves as Nvidia employees, about 18% of its workforce. Uber co-founder Travis Kalanick wrote:"
+                },
+                {
+                  "quote": "“Erred, yes – to err is to be human – but I do not believe anything he has done rises to the bar of separating him from his company.”",
+                  "speaker": "Travis Kalanick",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Washington wants an outsider",
+              "blocks": [
+                {
+                  "text": "Treasury Secretary Scott Bessent said on Fox News on Sunday that Nvidia should look “outside” the company for its next chief. “They need a dramatic shake-up,” he said. He told the company to explain whether it knowingly let its most advanced chips reach China, calling that more important than the affair, and asked for answers within ten days. “Nothing above the H200s can be sold to the Chinese,” he said."
+                },
+                {
+                  "text": "Two large shareholders, Brad Gerstner and Gavin Baker, urged the board on Friday to keep “all options” open. Huang has agreed to appear before three House committees on dates not yet set, and Nvidia reports its quarterly results on Tuesday."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Alice Huang left Megaspeed",
+              "value": "30 Aug 2025",
+              "source": "Megaspeed, via Al Jazeera"
+            },
+            {
+              "label": "Letter signatures",
+              "value": "165,000+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Nvidia staff among signers",
+              "value": "7,500+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Megaspeed’s Nvidia purchases, 3 years",
+              "value": "~$5bn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Bessent’s deadline for answers",
+              "value": "10 days",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Megaspeed: Alice Huang 2025’te ayrıldı",
+          "title": "Megaspeed: Alice Huang 2025’te ayrıldı; Jensen Huang dönüşü tartışıyor",
+          "news": "Megaspeed, Alice Huang’ın 30 Ağustos 2025’te ayrıldığını açıkladı; FT’ye göre Jensen Huang Nvidia’ya dönmeyi konuşuyor.",
+          "summary": {
+            "what": "Nvidia skandalının merkezindeki Singapurlu Megaspeed, Alice Huang’ın 30 Ağustos 2025’te şirketten ayrıldığını ve yasal bir iş yaptığını açıkladı.",
+            "why": "FT’ye göre Jensen Huang Nvidia’ya dönmeyi konuşuyor; onu destekleyen açık mektubun imzası 165 bini aştı.",
+            "next": "Hazine Bakanı Scott Bessent Nvidia’dan on gün içinde yanıt istiyor; Nvidia salı günü çeyrek sonuçlarını açıklıyor."
+          },
+          "body": [
+            {
+              "subhead": "Megaspeed sessizliğini bozdu",
+              "blocks": [
+                {
+                  "text": "Nvidia’nın CEO’su Jensen Huang’ın düşüşüyle bağlantılı Singapur merkezli bulut şirketi Megaspeed International, ABD’li yetkililerin Çin istihbaratı için çalışmakla suçladığı eski yöneticisi Alice Huang’ın 30 Ağustos 2025’te şirketten ayrıldığını ve o tarihten beri hiçbir görevi olmadığını açıkladı. The Guardian ve Al Jazeera’nın aktardığı pazar günkü açıklamada şirket kendisini “meşru ve yasal bir işletme” olarak tanımladı."
+                },
+                {
+                  "text": "Megaspeed, işi, tedarik zinciri ve küresel faaliyetleri hakkında “doğrulanabilir kanıtlarla desteklenmeyen” haberlerden haberdar olduğunu, kapsamlı bir iç soruşturma için dışarıdan avukat tuttuğunu söyledi. Alice Huang’ın “kişisel ve özel meseleleri” hakkında yorum yapmadı. The Verge, açıklamanın “yanıtladığından fazla soru doğurduğunu” yazdı."
+                },
+                {
+                  "text": "Tarihler tartışmalı. The Guardian’a göre açığa satış yapan Culper Research mayısta bir Megaspeed çalışanının Alice Huang için “hâlâ patronumuz” dediğini aktarmıştı. Singapur, Huang’ın pasaportunu Haziran 2025’ten şubata kadar tuttuğunu ve polis şirketteki rolünü küçültmek için “yanlış” bilgi verdiği sonucuna varınca ülkeye girişini yasakladığını açıkladı. The Guardian’a göre Megaspeed üç yılda Nvidia’dan yaklaşık 5 milyar dolarlık çip ve donanım aldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Geri dönüş ihtimali",
+              "blocks": [
+                {
+                  "text": "The Guardian ve France 24’ün aktardığına göre Financial Times, Jensen Huang’ın yakın çevresiyle Nvidia’ya olası dönüşünü konuştuğunu yazdı. Bir müttefiki gazeteye, dönüşü için lobi yapacak ve Beyaz Saray’ın desteğini arayacak Silikon Vadisi yöneticilerinden bir “savaş odası” kurduklarını söyledi. Aynı kişi, “Öncü laboratuvarlar dışında teknolojide önemli olan herkes Jensen’i seviyor” dedi."
+                },
+                {
+                  "text": "Yönetim kurulundan “bağımsız bir soruşturma gerçekleri ortaya koyarken Jensen’i geri getirmesini” isteyen açık mektubun imzası pazartesiye kadar 165 bini aştı. İmzacılardan 7 bin 500’ü aşkını, şirket çalışanlarının yaklaşık yüzde 18’i kadarı, Nvidia çalışanı olduğunu belirtiyor. Uber’in kurucu ortağı Travis Kalanick şunu yazdı:"
+                },
+                {
+                  "quote": "“Hata yaptı, evet; hata yapmak insana özgüdür. Ama yaptığı hiçbir şeyin onu şirketinden ayırmayı gerektirecek düzeyde olduğuna inanmıyorum.”",
+                  "speaker": "Travis Kalanick",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Washington dışarıdan biri istiyor",
+              "blocks": [
+                {
+                  "text": "Hazine Bakanı Scott Bessent pazar günü Fox News’te Nvidia’nın yeni CEO’yu şirket “dışında” araması gerektiğini söyledi: “Köklü bir değişime ihtiyaçları var.” Bessent, şirketin en gelişmiş çiplerinin bilerek Çin’e ulaşmasına göz yumup yummadığını açıklamasını istedi, bunun ilişkiden daha önemli olduğunu söyledi ve on gün içinde yanıt beklediğini belirtti. “H200’lerin üzerindeki hiçbir şey Çinlilere satılamaz” dedi."
+                },
+                {
+                  "text": "Büyük hissedarlardan Brad Gerstner ve Gavin Baker cuma günü yönetim kurulunu “tüm seçenekleri” açık tutmaya çağırmıştı. Huang, tarihleri henüz belli olmayan üç Temsilciler Meclisi komitesi oturumuna katılmayı kabul etti. Nvidia salı günü çeyrek sonuçlarını açıklayacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Alice Huang’ın ayrılışı",
+              "value": "30 Ağustos 2025",
+              "source": "Megaspeed, Al Jazeera"
+            },
+            {
+              "label": "Mektuptaki imza",
+              "value": "165.000+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İmzalayan Nvidia çalışanı",
+              "value": "7.500+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Megaspeed’in 3 yıllık Nvidia alımı",
+              "value": "~5 milyar $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Bessent’in verdiği süre",
+              "value": "10 gün",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T20:43:49.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T23:31:15.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T23:31:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T01:17:04.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T04:46:49.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/fd289ba6-e14a-11f1-b70a-5f54d898a954/w:1024/p:16x9/3b627129681c154dbbef07505efac18879f6bf0c.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate"
+      },
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-16T12:30:00+03:00",
+      "updatedAt": "2026-11-16T12:30:00+03:00"
+    },
+    {
+      "id": "53e9148cfe06b9cb",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Plural raises €1 billion",
+          "title": "Helsing backer Plural raises €1 billion for Europe’s “moonshots”",
+          "summary": {
+            "what": "Plural, the founder-run venture firm that backed Helsing, has raised €1 billion ($1.1 billion), TechCrunch reports.",
+            "why": "It joins a wave of bigger European funds betting on energy, AI infrastructure and defence.",
+            "next": "Two thirds go to a third early-stage fund and one third to a new fund for follow-on investments."
+          },
+          "body": [
+            {
+              "subhead": "A billion for early bets",
+              "blocks": [
+                {
+                  "text": "Plural, a European venture capital firm run by former founders, has raised €1 billion ($1.1 billion) in new capital, TechCrunch reports. It joins a growing group of larger European funds that includes Mundi Ventures’ Kembara and the EQT-managed Scaleup Europe Fund."
+                },
+                {
+                  "text": "Despite its size, the money is not only for later-stage deals. Two thirds will go to Plural’s third early-stage fund and one third to a new “opportunities” fund for selected follow-on investments, partners Khaled Helioui and Carina Namih told TechCrunch. Plural is “still very committed to being an early stage fund,” Namih said, though Helioui added that some of the early “moonshots” it backs may need “raising a couple hundred million” to get started."
+                }
+              ]
+            },
+            {
+              "subhead": "Energy, AI infrastructure and defence",
+              "blocks": [
+                {
+                  "text": "Plural’s portfolio includes the fusion company Proxima Fusion and the space start-up The Exploration Company, and its new funds will look for similar bets in energy, AI infrastructure, defence and health. Helioui backed the seed round of Daniel Ek’s defence company Helsing alongside two Plural partners, and says such companies are “not isolated cases” as second-time founders turn to capital-heavy projects."
+                },
+                {
+                  "quote": "“If you’ve built and scaled a company, chances are, you’re more likely to be driven and passionate about having an impact on Europe’s ability to defend itself, procure its own energy, or own its operations and manufacturing, rather than just another app.”",
+                  "speaker": "Khaled Helioui",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "With more money, Plural can keep investing as its companies raise ever larger rounds. Namih said the firm also tried to raise more of the capital from European investors."
+                }
+              ]
+            },
+            {
+              "subhead": "Tallinn and the Russian border",
+              "blocks": [
+                {
+                  "text": "TechCrunch says the push for European sovereignty and resilience works in Plural’s favour. Its office in Tallinn played a key role in its move into defence technology, including an investment in the missile company Hypersonica. “You have a different level of conversation and a different sense of appreciation of the urgency and the criticality of these topics depending on how far from the border to Russia you are,” Helioui said."
+                },
+                {
+                  "text": "Two of Plural’s six partners are Estonians who worked at Skype: Wise co-founder Taavet Hinrikus and Teleport’s Sten Tamkivi. The firm also has offices in London, where Helioui, Namih and Ian Hogarth are based, and in Paris, where it hired former Uber executive Pierre-Dimitri Gore-Coty as a partner in October 2025. Each partner will lead a small number of new investments a year, according to a press release."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "New capital raised",
+              "value": "€1bn",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Share for the early-stage fund",
+              "value": "2/3",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Partners",
+              "value": "6",
+              "source": "TechCrunch"
+            }
+          ],
+          "place": {
+            "name": "Tallinn",
+            "lat": 59.44,
+            "lon": 24.75,
+            "region": "Estonia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Plural 1 milyar avro topladı",
+          "title": "Helsing’in yatırımcısı Plural, Avrupa’nın “moonshot”ları için 1 milyar avro topladı",
+          "summary": {
+            "what": "Helsing’e yatırım yapan, girişimcilerin yönettiği risk sermayesi şirketi Plural 1 milyar avro (1,1 milyar dolar) topladı.",
+            "why": "Enerji, yapay zekâ altyapısı ve savunmaya yatırım yapan büyük Avrupa fonlarının arasına katılıyor.",
+            "next": "Paranın üçte ikisi üçüncü erken aşama fonuna, üçte biri takip yatırımları için kurulan yeni fona gidecek."
+          },
+          "body": [
+            {
+              "subhead": "Erken aşamaya bir milyar",
+              "blocks": [
+                {
+                  "text": "Eski girişimcilerin yönettiği Avrupalı risk sermayesi şirketi Plural, 1 milyar avro (1,1 milyar dolar) yeni sermaye topladı. TechCrunch’ın haberine göre şirket, Mundi Ventures’ın Kembara’sı ve EQT’nin yönettiği Scaleup Europe Fund gibi giderek büyüyen Avrupa fonları grubuna katılıyor."
+                },
+                {
+                  "text": "Büyüklüğüne rağmen para yalnızca büyüme yatırımları için değil. Ortaklar Khaled Helioui ve Carina Namih’in TechCrunch’a anlattığına göre paranın üçte ikisi Plural’ın üçüncü erken aşama fonuna, üçte biri seçili takip yatırımları yapacak yeni bir “fırsat” fonuna gidecek. Namih, Plural’ın “hâlâ erken aşamaya çok bağlı” olduğunu söyledi; Helioui ise destekleyecekleri bazı “moonshot” girişimlerin, yani çok iddialı projelerin, yola çıkmak için “birkaç yüz milyon toplaması” gerekebileceğini ekledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Enerji, yapay zekâ altyapısı, savunma",
+              "blocks": [
+                {
+                  "text": "Plural’ın portföyünde füzyon şirketi Proxima Fusion ve uzay girişimi The Exploration Company var; yeni fonlar enerji, yapay zekâ altyapısı, savunma ve sağlıkta benzer fırsatlar arayacak. Daniel Ek’in savunma şirketi Helsing’in tohum turuna iki Plural ortağıyla birlikte yatırım yapan Helioui, ikinci kez girişim kuranların sermaye yoğun projelere yöneldiğini, bu tür şirketlerin “tek tük örnekler olmadığını” söylüyor."
+                },
+                {
+                  "quote": "“Bir şirket kurup büyüttüyseniz, muhtemelen sıradan bir uygulama yerine Avrupa’nın kendini savunma, kendi enerjisini sağlama ya da kendi üretimine sahip olma becerisine katkı yapmaya daha istekli ve tutkulu olursunuz.”",
+                  "speaker": "Khaled Helioui",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "Daha büyük bir kasayla Plural, portföy şirketleri giderek büyüyen turlar topladıkça yatırıma devam edebilecek. Namih, sermayenin daha büyük kısmını Avrupa’dan toplamaya da özen gösterdiklerini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Tallinn ve Rusya sınırı",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre Avrupa’nın egemenlik ve dayanıklılık arayışı Plural’ın işine yarıyor. Şirketin Tallinn ofisi, füze şirketi Hypersonica’ya yatırım da dahil savunma teknolojisine girme kararında önemli rol oynadı. Helioui, “Rusya sınırına ne kadar uzak olduğunuza göre bu konuların aciliyeti ve önemi farklı algılanıyor” dedi."
+                },
+                {
+                  "text": "Plural’ın altı ortağından ikisi Skype’ta çalışmış Estonyalılar: Wise’ın kurucu ortağı Taavet Hinrikus ve Teleport’tan Sten Tamkivi. Şirketin Helioui, Namih ve Ian Hogarth’ın çalıştığı Londra’da ve Ekim 2025’te eski Uber yöneticisi Pierre-Dimitri Gore-Coty’yi ortak olarak aldığı Paris’te de ofisi var. Basın açıklamasına göre her ortak yılda az sayıda yeni yatırıma liderlik edecek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Toplanan yeni sermaye",
+              "value": "1 milyar €",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Erken aşama fonunun payı",
+              "value": "2/3",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Ortak sayısı",
+              "value": "6",
+              "source": "TechCrunch"
+            }
+          ],
+          "place": {
+            "name": "Tallinn",
+            "lat": 59.44,
+            "lon": 24.75,
+            "region": "Estonya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T07:00:00.000Z",
+          "sourceId": "techcrunch"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T12:30:00+03:00",
+      "updatedAt": "2026-11-16T12:30:00+03:00"
+    },
+    {
+      "id": "1b8ebbd43f78db22",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Pope demands justice for Amazon defenders",
+          "title": "Pope Leo demands justice for 57 Amazon defenders killed in Peru",
+          "summary": {
+            "what": "In Pucallpa, in the Peruvian Amazon, Pope Leo XIV demanded justice for environmental defenders murdered for protecting the forest.",
+            "why": "Campaign groups count 57 such killings from 2010 to 2024, and most go unpunished.",
+            "next": "Leo ends his three-nation South American tour in Lima and leaves for Rome on Monday."
+          },
+          "body": [
+            {
+              "subhead": "“The blood of these brothers cries out”",
+              "blocks": [
+                {
+                  "text": "Pope Leo XIV on Sunday demanded justice for environmental defenders killed while protecting the Amazon, and backed Indigenous peoples trying to stop logging and illegal mining on their lands, The Guardian, Al Jazeera and Euronews report. On the penultimate day of his South American tour, he spoke to Indigenous representatives and missionaries on the Ucayali River in Pucallpa, in north-eastern Peru."
+                },
+                {
+                  "quote": "“The cry of the Earth and the cry of the poor are inseparable.”",
+                  "speaker": "Pope Leo XIV",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "He referred to the 57 murders of environmental defenders that campaign groups estimate took place between 2010 and 2024. “The blood of these brothers cries out to God and demands justice,” he said, to applause from a crowd in which many wore feathered headwear and the face markings of the region."
+                }
+              ]
+            },
+            {
+              "subhead": "Mining, logging and impunity",
+              "blocks": [
+                {
+                  "text": "Leo called the damage from deforestation, illegal mining and oil spills “not isolated accidents, but the consequences of the irresponsible exploitation of natural resources”, Al Jazeera reports. At mass he said: “Very little has been done – and very slowly at that – while the means to exploit and pollute creation have accelerated.”"
+                },
+                {
+                  "text": "Most killings of defenders in Peru go unpunished. In 2025 courts upheld 28-year sentences for four timber merchants over the murder of four Indigenous people who opposed logging, after a decade-long trial. In August, four people were jailed for up to 35 years for the 2023 murder of Kichwa leader Quinto Inuma Alvarado, Euronews says. Amazon Watch counts 35 Indigenous leaders killed in Peru in 15 years, Al Jazeera adds."
+                },
+                {
+                  "text": "The pope also condemned the “impunity” and “corruption” around a rise in sexual violence against Awajún and Wampis schoolgirls. A women’s council in Condorcanqui province recorded 370 cases between January and July."
+                }
+              ]
+            },
+            {
+              "subhead": "A long day across Peru",
+              "blocks": [
+                {
+                  "text": "Indigenous leader Julio Cusurichi handed Leo a letter from the rights group Aidesep asking him to help protect uncontacted peoples. “The Peruvian state is weakening the mechanisms that should safeguard their territories,” it said, according to The Guardian."
+                },
+                {
+                  "text": "Earlier on Sunday the 71-year-old pope, who is recovering from lung cancer surgery last month, was greeted by large crowds in Cusco, 3,400 metres above sea level. Leo spent about two decades in Peru as a missionary and bishop and is a Peruvian citizen. The trip, which also took him to Uruguay and Argentina, is the longest of his papacy; he finishes it in Lima and flies to Rome on Monday."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Defenders killed, 2010–2024",
+              "value": "57",
+              "source": "Campaign groups, via The Guardian"
+            },
+            {
+              "label": "Sexual violence cases, Jan–Jul",
+              "value": "370",
+              "source": "Awajún and Wampis Women’s Council"
+            },
+            {
+              "label": "Cusco altitude",
+              "value": "3,400m",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Pope’s age",
+              "value": "71",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Pucallpa",
+            "lat": -8.38,
+            "lon": -74.55,
+            "region": "Ucayali, Peru"
+          }
+        },
+        "tr": {
+          "shortTitle": "Papa Amazon savunucuları için adalet istedi",
+          "title": "Papa Leo, Peru’da öldürülen 57 Amazon savunucusu için adalet istedi",
+          "summary": {
+            "what": "Papa XIV. Leo, Peru Amazonları’ndaki Pucallpa’da ormanı korurken öldürülen çevre savunucuları için adalet istedi.",
+            "why": "Çevre örgütleri 2010-2024 arasında bu tür 57 cinayet sayıyor; çoğu cezasız kalıyor.",
+            "next": "Leo üç ülkelik Güney Amerika turunu Lima’da bitirip pazartesi Roma’ya dönüyor."
+          },
+          "body": [
+            {
+              "subhead": "“Bu kardeşlerin kanı haykırıyor”",
+              "blocks": [
+                {
+                  "text": "The Guardian, Al Jazeera ve Euronews’in aktardığına göre Papa XIV. Leo pazar günü Amazon’u korurken öldürülen çevre savunucuları için adalet istedi ve topraklarını kaçak ağaç kesiminden ve yasa dışı madencilikten korumaya çalışan yerli halklara destek verdi. Güney Amerika turunun sondan bir önceki gününde, Peru’nun kuzeydoğusundaki Pucallpa’da Ucayali Nehri kıyısında yerli temsilciler ve misyonerlerle buluştu."
+                },
+                {
+                  "quote": "“Dünyanın feryadı ile yoksulların feryadı birbirinden ayrılamaz.”",
+                  "speaker": "Papa XIV. Leo",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Papa, çevre örgütlerinin 2010-2024 arasında işlendiğini tahmin ettiği 57 çevre savunucusu cinayetine değindi. Tüylü başlıklar ve bölgeye özgü yüz boyaları taşıyan kalabalığın alkışları arasında “Bu kardeşlerin kanı Tanrı’ya haykırıyor ve adalet istiyor” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Madencilik, ağaç kesimi ve cezasızlık",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Leo, ormansızlaşma, yasa dışı madencilik ve petrol sızıntılarının yol açtığı tahribatı “münferit kazalar değil, doğal kaynakların sorumsuzca sömürülmesinin sonuçları” olarak nitelendirdi. Ayinde de “Çok az şey yapıldı, üstelik çok yavaş; yaratılışı sömürmenin ve kirletmenin araçları ise hızlandı” dedi."
+                },
+                {
+                  "text": "Peru’da savunucu cinayetlerinin çoğu cezasız kalıyor. 2025’te mahkemeler, ağaç kesimine karşı çıkan dört yerlinin öldürülmesi nedeniyle dört kereste tüccarına verilen 28’er yıllık cezaları on yıl süren davanın sonunda onadı. Euronews’e göre ağustosta Kichwa lideri Quinto Inuma Alvarado’nun 2023’teki cinayeti nedeniyle dört kişiye 35 yıla kadar hapis cezası verildi. Al Jazeera, Amazon Watch’un 15 yılda Peru’da 35 yerli liderin öldürüldüğünü saydığını ekliyor."
+                },
+                {
+                  "text": "Papa, Awajún ve Wampis kız öğrencilere yönelik cinsel şiddetteki artışı çevreleyen “cezasızlık” ve “yolsuzluğu” da kınadı. Condorcanqui ilindeki bir kadın konseyi ocak-temmuz arasında 370 vaka kaydetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Peru’yu baştan başa geçen bir gün",
+              "blocks": [
+                {
+                  "text": "Yerli lider Julio Cusurichi, Papa’ya yerli hakları örgütü Aidesep’in temas kurulmamış halkların korunmasına yardım isteyen mektubunu verdi. The Guardian’a göre mektupta “Peru devleti bu halkların topraklarını koruması gereken mekanizmaları zayıflatıyor” deniyordu."
+                },
+                {
+                  "text": "Geçen ay geçirdiği akciğer kanseri ameliyatından sonra iyileşmeye devam eden 71 yaşındaki Papa, pazar sabahı deniz seviyesinden 3.400 metre yükseklikteki Cusco’da büyük kalabalıklarca karşılandı. Yaklaşık yirmi yılını Peru’da misyoner ve piskopos olarak geçiren Leo, Peru vatandaşı. Uruguay ve Arjantin’i de kapsayan tur, papalığının en uzun gezisi; Leo turu Lima’da tamamlayıp pazartesi Roma’ya dönüyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2010-2024’te öldürülen savunucu",
+              "value": "57",
+              "source": "Çevre örgütleri, The Guardian"
+            },
+            {
+              "label": "Ocak-temmuz cinsel şiddet vakası",
+              "value": "370",
+              "source": "Awajún ve Wampis Kadın Konseyi"
+            },
+            {
+              "label": "Cusco’nun rakımı",
+              "value": "3.400 m",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Papa’nın yaşı",
+              "value": "71",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Pucallpa",
+            "lat": -8.38,
+            "lon": -74.55,
+            "region": "Ucayali, Peru"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T01:13:44.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T01:44:11.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T01:44:11.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T05:10:26.000Z",
+          "sourceId": "euronews-en"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/16/pope-leo-xiv-in-visit-to-peruvian-rainforest-demands-justice-for-slain-amazon-defenders",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T12:30:00+03:00",
+      "updatedAt": "2026-11-16T12:30:00+03:00"
+    },
+    {
+      "id": "76479f1bff7e482b",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Phuket shophouse fire kills 11",
+          "title": "Fire in a Patong shophouse on Phuket kills 11 and injures 16",
+          "summary": {
+            "what": "A fire in a four-storey building in Patong, on Thailand’s resort island of Phuket, killed at least 11 people early on Monday.",
+            "why": "Police say a transformer exploded just before the blaze; a motorbike shop’s fuel and tyres helped it spread.",
+            "next": "Police are still investigating the cause, but have ruled out arson."
+          },
+          "body": [
+            {
+              "subhead": "Two hours to bring it under control",
+              "blocks": [
+                {
+                  "text": "A fire in a commercial building in Patong, the tourist hub of Thailand’s resort island of Phuket, killed at least 11 people and injured 16 early on Monday, police said, according to Al Jazeera and the South China Morning Post. The blaze began at about 3.17am local time in a four-storey shophouse that held a restaurant, rented rooms and a motorcycle rental shop, and later spread to several nearby buildings."
+                },
+                {
+                  "text": "“Firefighters took two hours to get the fire under control and found 11 people dead,” a police officer from the Patong community told the SCMP. The dead included Thais and people from Myanmar."
+                }
+              ]
+            },
+            {
+              "subhead": "A transformer and a hundred motorbikes",
+              "blocks": [
+                {
+                  "text": "Phuket police commander Surachai Sooksai said the cause was still being investigated, but an initial inquiry found that an electrical transformer near the building had exploded shortly before the fire started, ruling out arson, Al Jazeera reports."
+                },
+                {
+                  "text": "Phuket’s governor, Chodnarin Koedsom, said the rental shop held about 100 motorcycles, together with stored gas, engine oil, plastic materials and tyres. These may have helped the fire spread quickly and produce thick, toxic smoke, he said."
+                },
+                {
+                  "text": "Of the 16 injured, 15 were Thai and one was from Myanmar, the authorities said, and no tourists were among the dead or injured. The injured were treated in hospital for smoke inhalation and cuts from broken glass."
+                }
+              ]
+            },
+            {
+              "subhead": "Thailand’s record of deadly fires",
+              "blocks": [
+                {
+                  "text": "It is the second fire in Thailand to cause mass casualties since July, Al Jazeera notes, and the country’s approach to safety rules, especially in bars and nightclubs, has long raised concerns."
+                },
+                {
+                  "text": "In July a crowded bar in Bangkok was engulfed in flames and smoke after an electrical short circuit, killing about 40 people, according to the authorities. In 2012, four people died in a fire at a club popular with tourists on Phuket, and in 2009 a fire during New Year celebrations at a Bangkok club killed 67 people and injured more than 200."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Dead",
+              "value": "11",
+              "source": "Phuket police, via Al Jazeera"
+            },
+            {
+              "label": "Injured",
+              "value": "16",
+              "source": "Phuket police, via Al Jazeera"
+            },
+            {
+              "label": "Fire started, local time",
+              "value": "3.17am",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Motorcycles in the rental shop",
+              "value": "~100",
+              "source": "Phuket governor, via Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Patong",
+            "lat": 7.9,
+            "lon": 98.3,
+            "region": "Phuket, Thailand"
+          }
+        },
+        "tr": {
+          "shortTitle": "Phuket’teki yangında 11 ölü",
+          "title": "Phuket’in Patong bölgesindeki yangında 11 kişi öldü, 16 kişi yaralandı",
+          "summary": {
+            "what": "Tayland’ın tatil adası Phuket’teki Patong’da dört katlı bir binada pazartesi sabaha karşı çıkan yangında en az 11 kişi öldü.",
+            "why": "Polise göre yangından hemen önce bir trafo patladı; motosiklet dükkânındaki yakıt ve lastikler yangını büyüttü.",
+            "next": "Polis yangının nedenini araştırıyor, kundaklama ihtimalini ise dışladı."
+          },
+          "body": [
+            {
+              "subhead": "Söndürmek iki saat sürdü",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve South China Morning Post’un aktardığına göre Tayland’ın tatil adası Phuket’in turizm merkezi Patong’da bir ticari binada pazartesi sabaha karşı çıkan yangında en az 11 kişi öldü, 16 kişi yaralandı. Yangın yerel saatle 03.17 civarında restoran, kiralık odalar ve motosiklet kiralama dükkânı bulunan dört katlı bir binada başladı, ardından çevredeki birkaç binaya sıçradı."
+                },
+                {
+                  "text": "Patong’dan bir polis memuru SCMP’ye, “İtfaiyecilerin yangını kontrol altına alması iki saat sürdü ve 11 kişiyi ölü buldular” dedi. Ölenler arasında Taylandlılar ve Myanmar vatandaşları var."
+                }
+              ]
+            },
+            {
+              "subhead": "Bir trafo ve yüz motosiklet",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Phuket polis komutanı Surachai Sooksai, yangının nedeninin araştırıldığını, ancak ilk incelemede binanın yakınındaki bir elektrik trafosunun yangından kısa süre önce patladığının belirlendiğini ve kundaklamanın dışlandığını söyledi."
+                },
+                {
+                  "text": "Phuket Valisi Chodnarin Koedsom, kiralama dükkânında yaklaşık 100 motosikletin yanı sıra depolanmış gaz, motor yağı, plastik malzeme ve lastik bulunduğunu söyledi. Vali, bu yanıcı maddelerin yangının hızla yayılmasına ve yoğun, zehirli dumana yol açmış olabileceğini belirtti."
+                },
+                {
+                  "text": "Yetkililere göre 16 yaralıdan 15’i Taylandlı, biri Myanmar vatandaşı; ölen ve yaralananlar arasında turist yok. Yaralılar duman zehirlenmesi ve kırık cam yaraları nedeniyle hastanede tedavi edildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Tayland’da ölümcül yangınlar",
+              "blocks": [
+                {
+                  "text": "Al Jazeera, bunun temmuzdan bu yana Tayland’da çok sayıda can kaybına yol açan ikinci yangın olduğunu ve ülkenin özellikle bar ve gece kulüplerindeki güvenlik kurallarına yaklaşımının uzun süredir endişe yarattığını hatırlattı."
+                },
+                {
+                  "text": "Yetkililere göre temmuzda başkent Bangkok’ta kalabalık bir bar, elektrik kısa devresinin ardından alevler ve dumanla sarılmış, yaklaşık 40 kişi ölmüştü. 2012’de Phuket’te turistlerin sık gittiği bir kulüpteki yangında dört kişi, 2009’da Bangkok’ta yılbaşı kutlamaları sırasında bir kulüpte çıkan yangında ise 67 kişi ölmüş, 200’den fazla kişi yaralanmıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ölü",
+              "value": "11",
+              "source": "Phuket polisi, Al Jazeera"
+            },
+            {
+              "label": "Yaralı",
+              "value": "16",
+              "source": "Phuket polisi, Al Jazeera"
+            },
+            {
+              "label": "Yangının başladığı saat",
+              "value": "03.17",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Dükkândaki motosiklet",
+              "value": "~100",
+              "source": "Phuket Valisi, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Patong",
+            "lat": 7.9,
+            "lon": 98.3,
+            "region": "Phuket, Tayland"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T03:51:43.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T07:43:24.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T07:43:24.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374573/thai-police-probe-transformer-blast-after-phuket-shophouse-fire-kills-11",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T12:30:00+03:00",
+      "updatedAt": "2026-11-16T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "41dd26ffc6a23aaf",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "By how much did Türkiye’s car production fall from January to October, according to OSD?",
+          "options": ["6%", "9%", "17%"]
+        },
+        "tr": {
+          "question": "OSD’ye göre ocak-ekim döneminde otomobil üretimi yüzde kaç düştü?",
+          "options": ["%6", "%9", "%17"]
+        }
+      }
+    },
+    {
+      "storyId": "53e9148cfe06b9cb",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How much new capital has the venture firm Plural raised?",
+          "options": ["€1 billion", "€500 million", "€2.5 billion"]
+        },
+        "tr": {
+          "question": "Risk sermayesi şirketi Plural ne kadar yeni sermaye topladı?",
+          "options": ["1 milyar avro", "500 milyon avro", "2,5 milyar avro"]
+        }
+      }
+    },
+    {
+      "storyId": "1b8ebbd43f78db22",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "In which Amazon city did Pope Leo demand justice for slain environmental defenders?",
+          "options": ["Iquitos", "Pucallpa", "Puerto Maldonado"]
+        },
+        "tr": {
+          "question": "Papa Leo, öldürülen çevre savunucuları için hangi Amazon şehrinde adalet istedi?",
+          "options": ["Iquitos", "Pucallpa", "Puerto Maldonado"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909991",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "short": "Wizards",
+        "ours": false,
+        "team": "washington-wizards"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-16T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909991"
+      },
+      "result": {
+        "home": 119,
+        "away": 147
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 19,
+          "rebounds": 8,
+          "assists": 8
+        }
+      ]
+    },
+    {
+      "id": "espn-401909997",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "short": "Nets",
+        "ours": false,
+        "team": "brooklyn-nets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909997"
+      }
+    },
+    {
+      "id": "espn-401909998",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909998"
+      }
+    }
+  ]
+}
