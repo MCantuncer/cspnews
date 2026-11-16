@@ -14,11 +14,12 @@ export { looksLikePhoto, pickImage } from './image.js';
 export {
   httpFetchBytes,
   photoExtension,
+  savePhotos,
   saveStoryPhotos,
   MAX_PHOTO_BYTES,
   MIN_PHOTO_WIDTH,
 } from './media.js';
 export { articlePhotoUrl, photoWidth } from './photo-size.js';
-export type { FetchBytes, SavedPhoto } from './media.js';
+export type { FetchBytes, PhotoItem, SavedPhoto } from './media.js';
 export { continuesHint, earlierStories, normalizeUrl, withContinuesHints } from './earlier.js';
 export type { ContinuesHint, EarlierStory } from './earlier.js';

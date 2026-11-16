@@ -1,14 +1,18 @@
 name: Hot News
 
 # Looks for breaking news between bulletins, from rules only (packages/hotnews), and saves the
-# Hot News feed on the `hot-feed` branch, where the site reads it (apps/web/src/lib/hot.ts).
-# Runs every ten minutes (GitHub may start it late), and by hand from the Actions tab. The
-# branch holds one commit that each run replaces, so it never grows, and its own vercel.json
-# stops Vercel deploying it.
+# Hot News feed (hot.json and its photos in media/) on the `hot-feed` branch, where the site
+# reads it (apps/web/src/lib/hot.ts). The branch holds one commit that each pass replaces, so it
+# never grows, and its own vercel.json stops Vercel deploying it.
+#
+# GitHub drops most runs of a frequent cron (a ten-minute cron ran twice in 19 hours on
+# 2026-11-16), so one run keeps watch for an hour, looking every five minutes, and then starts
+# the next run itself. The hourly cron only restarts the chain if a run ever fails to start the
+# next one; with the concurrency group below there is never more than one run watching.
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
   pull_request:
     paths:
@@ -16,18 +20,26 @@ on:
       - 'packages/hotnews/**'
       - 'packages/pipeline/src/monitor-hot.ts'
       - 'packages/pipeline/src/hot-sources.ts'
+      - 'packages/pipeline/src/media.ts'
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: hot-news
-  cancel-in-progress: true
+  group: hot-news-${{ github.event_name == 'pull_request' && github.ref || 'watch' }}
+  # A run that is watching is never cancelled; a second one waits for it and, if it is still
+  # waiting when the next one is started, gives its place to that one.
+  cancel-in-progress: false
 
 jobs:
   hot:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 70
+    env:
+      # How long one run keeps watch, and how often it looks.
+      WATCH_MINUTES: 55
+      EVERY_MINUTES: 5
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -38,21 +50,49 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm --filter @cspnews/pipeline... build
 
-      - name: Look for breaking news
-        run: pnpm --filter @cspnews/pipeline monitor-hot "$RUNNER_TEMP/hot.json"
+      # A pull request only checks that the monitor runs; only main publishes.
+      - name: Look for breaking news once
+        if: github.event_name == 'pull_request'
+        run: pnpm --filter @cspnews/pipeline monitor-hot "$RUNNER_TEMP/feed/hot.json"
 
-      # A pull request only checks that the monitor runs; only main's schedule publishes.
-      - name: Save on the hot-feed branch
-        if: github.event_name != 'pull_request'
+      - name: Keep watch, publishing on the hot-feed branch
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "$(git log -1 --format=%an)"
-          git config user.email "$(git log -1 --format=%ae)"
-          git switch --orphan hot-feed
-          git rm -rf --quiet . 2>/dev/null || true
-          cp "$RUNNER_TEMP/hot.json" hot.json
-          # The branch shares no history with main, so this vercel.json stops Vercel
-          # deploying it at all.
-          echo '{ "git": { "deploymentEnabled": false } }' > vercel.json
-          git add hot.json vercel.json
-          git commit --quiet -m "Hot News $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push --force origin hot-feed
+          name="$(git log -1 --format=%an)"
+          email="$(git log -1 --format=%ae)"
+          feed="$RUNNER_TEMP/feed"
+          publish() {
+            local dir="$RUNNER_TEMP/publish"
+            rm -rf "$dir" && mkdir -p "$dir"
+            cp -R "$feed/." "$dir/"
+            # The branch shares no history with main, so this vercel.json stops Vercel
+            # deploying it at all.
+            echo '{ "git": { "deploymentEnabled": false } }' > "$dir/vercel.json"
+            git -C "$dir" init --quiet --initial-branch hot-feed
+            git -C "$dir" add -A
+            git -C "$dir" -c user.name="$name" -c user.email="$email" \
+              commit --quiet -m "Hot News $(date -u +%Y-%m-%dT%H:%MZ)"
+            git -C "$dir" push --quiet --force \
+              "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" hot-feed
+          }
+          end=$((SECONDS + WATCH_MINUTES * 60))
+          while :; do
+            started=$SECONDS
+            rm -rf "$feed" && mkdir -p "$feed"
+            # A pass that fails leaves the last published feed in place.
+            if pnpm --silent --filter @cspnews/pipeline monitor-hot "$feed/hot.json"; then
+              publish || echo "Publishing failed; the next pass tries again."
+            fi
+            next=$((started + EVERY_MINUTES * 60))
+            [ "$next" -ge "$end" ] && break
+            sleep $((next - SECONDS > 0 ? next - SECONDS : 0))
+          done
+
+      - name: Start the next hour's watch
+        # Cancelling a run by hand stops the chain; the hourly cron starts it again.
+        if: ${{ !cancelled() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run hot-news.yml --ref main
