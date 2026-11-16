@@ -10,6 +10,7 @@ import { sortTonight, tonightIn, type TonightSide } from '@cspnews/core';
 import type { PublishedBulletin } from '../../lib/bulletins';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { playerPhotoUrl, teamLogoUrl } from '../../lib/media';
+import Icon from '../ui/Icon.astro';
 import {
   isBoard,
   orderScorers,
@@ -87,7 +88,35 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
             <div class="body">
               {board && local.home && local.away ? (
                 <>
-                  <div class="match">
+                  {local.focus === 'person' && (
+                    <div class="person">
+                      <span class="name">{local.name}</span>
+                      <span class="marks-line" data-marks>
+                        {marks.map(
+                          (person) =>
+                            person.marks.length > 0 && (
+                              <span class="marks" role="img" aria-label={person.label}>
+                                {person.marks.map((mark) => (
+                                  <span class="mark">
+                                    <span class="count">{mark.count}</span>
+                                    <span class="word">
+                                      {words.unit(mark.kind, mark.count, local.sport)}
+                                    </span>
+                                  </span>
+                                ))}
+                              </span>
+                            ),
+                        )}
+                      </span>
+                    </div>
+                  )}
+                  <button
+                    type="button"
+                    class="match"
+                    aria-expanded="false"
+                    aria-label={words.details}
+                    data-match-toggle
+                  >
                     {(['home', 'away'] as const).map((key) => {
                       const side = local[key];
                       return (
@@ -96,15 +125,24 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                             {!logo(local.home) && !logo(local.away) ? undefined : logo(side) ? (
                               local.focus === 'national' ? (
                                 <span class="flag">
-                                  <img src={logo(side)} alt="" width="40" height="40" />
+                                  <img src={logo(side)} alt="" width="30" height="30" />
                                 </span>
                               ) : (
-                                <img class="logo" src={logo(side)} alt="" width="32" height="32" />
+                                <img class="logo" src={logo(side)} alt="" width="24" height="24" />
                               )
                             ) : (
                               <span class="crest" aria-hidden="true" />
                             )}
-                            <span class="team-name">{side.name}</span>
+                            <span class="team-name">
+                              {side.short ? (
+                                <>
+                                  <span class="full">{side.name}</span>
+                                  <span class="short">{side.short}</span>
+                                </>
+                              ) : (
+                                side.name
+                              )}
+                            </span>
                           </div>
                         )
                       );
@@ -129,9 +167,14 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                           {outcome === 'win' ? words.won : outcome === 'loss' ? words.lost : words.drew}
                         </span>
                       )}
-                      <small data-word>{status.word}</small>
+                      <span class="status">
+                        <small data-word>{status.word}</small>
+                        <span class="chevron" aria-hidden="true">
+                          <Icon name="more" size={14} />
+                        </span>
+                      </span>
                     </div>
-                  </div>
+                  </button>
                   <ul class="scorers" aria-label={words.scored} data-scorers>
                     {scorers.map((scorer) => (
                       <li
@@ -158,40 +201,6 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                       </li>
                     ))}
                   </ul>
-                </>
-              ) : local.home && local.away ? (
-                <>
-                  {local.focus === 'person' && (
-                    <span class="name">
-                      {local.name}
-                      {marks.map(
-                        (person) =>
-                          person.marks.length > 0 && (
-                            <span class="marks" role="img" aria-label={person.label}>
-                              {person.marks.map((mark) => (
-                                <span class="mark">
-                                  {mark.count}
-                                  <span class="word">
-                                    {words.unit(mark.kind, mark.count, local.sport)}
-                                  </span>
-                                </span>
-                              ))}
-                            </span>
-                          ),
-                      )}
-                    </span>
-                  )}
-                  <span class:list={['what', { fixture: local.focus !== 'person' }]}>
-                    {[local.home, local.away].map((side, index) => (
-                      <>
-                        {index === 1 && <span class="vs">{words.versus}</span>}
-                        <span class:list={['side', { ours: side.ours }]}>
-                          {logo(side) && <img src={logo(side)} alt="" width="16" height="16" />}
-                          {side.name}
-                        </span>
-                      </>
-                    ))}
-                  </span>
                 </>
               ) : (
                 <>
@@ -224,6 +233,13 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   import { showTonight } from '../../lib/tonight-view';
 
   showTonight(document);
+  // A match opens to show who scored, and closes again.
+  for (const toggle of document.querySelectorAll<HTMLElement>('[data-match-toggle]')) {
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+  }
   followScores(document);
 </script>
 
@@ -249,7 +265,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     grid-template-columns: 16px minmax(0, 1fr) auto;
     gap: 14px;
     align-items: start;
-    padding: 14px 0;
+    padding: 22px 0;
     border-top: 1px solid var(--line);
   }
 
@@ -275,7 +291,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   .body {
     display: grid;
-    gap: 2px;
+    gap: 7px;
     min-width: 0;
   }
 
@@ -342,7 +358,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   .when {
     display: grid;
     justify-items: end;
-    gap: 2px;
+    gap: 6px;
     text-align: right;
     white-space: nowrap;
   }
@@ -379,27 +395,42 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   }
 
   /*
-   * A person's own numbers, right after the name, set apart from it: the reading face instead of
-   * the headline one, a calm size, and a plain lowercase word after each number.
+   * A person's row: their name, then their own numbers as a small box score on a line of its
+   * own (each number over its word), then the match as a scoreline like every other match.
    */
+  .person {
+    display: grid;
+    gap: 4px;
+    margin-bottom: 14px;
+  }
+
+  .marks-line:empty {
+    display: none;
+  }
+
+  .marks-line,
   .marks {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-    gap: 12px;
+    gap: 4px 16px;
   }
 
   .mark {
     display: inline-flex;
     align-items: baseline;
-    gap: 3px;
+    gap: 4px;
+  }
+
+  .mark .count {
     color: var(--ink);
-    font: 600 14px / 1 var(--f-body);
+    font: 600 15px / 1.3 var(--f-body);
     font-variant-numeric: tabular-nums;
   }
 
   .mark .word {
     color: var(--meta);
-    font-weight: 400;
+    font: 400 14px / 1.3 var(--f-body);
   }
 
   .unit {
@@ -423,19 +454,89 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   .match {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(76px, auto) minmax(0, 1fr);
-    gap: 10px;
-    align-items: start;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 14px;
+    align-items: center;
   }
 
+  /* The scoreline is a button: closed it is the score alone, open it adds who scored. */
+  button.match {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    cursor: pointer;
+  }
+
+  button.match:focus-visible {
+    border-radius: 6px;
+    outline: 2px solid var(--ink);
+    outline-offset: 6px;
+  }
+
+  .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .chevron {
+    display: inline-flex;
+    color: var(--meta);
+    transform: rotate(90deg);
+    transition: transform 0.2s ease;
+  }
+
+  [aria-expanded='true'] .chevron {
+    transform: rotate(-90deg);
+  }
+
+  /* Nothing to open before a goal or a basket. */
+  .board:has(.scorers:empty) .chevron {
+    display: none;
+  }
+
+  .board:has([aria-expanded='false']) .scorers {
+    display: none;
+  }
+
+  /* Each team on the score's line: its crest next to the score, its name outside it. */
   .team {
-    display: grid;
-    justify-items: center;
-    gap: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
     color: var(--ink2);
-    font: 500 16px / 1.25 var(--f-head);
-    text-align: center;
-    overflow-wrap: anywhere;
+    font: 500 15px / 1.25 var(--f-head);
+    overflow-wrap: break-word;
+  }
+
+  .team.home {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .team > :not(.team-name) {
+    flex: none;
+  }
+
+  /* On a phone a long club name gives way to the source's short one: "76ers", "Rockets". */
+  .team-name .short {
+    display: none;
+  }
+
+  @media (max-width: 560px) {
+    .team-name .full {
+      display: none;
+    }
+
+    .team-name .short {
+      display: inline;
+    }
   }
 
   .team.home {
@@ -455,8 +556,8 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   .logo,
   .crest {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
   }
 
@@ -471,10 +572,9 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     position: relative;
     display: block;
     overflow: hidden;
-    width: 36px;
-    height: 24px;
-    margin: 4px 0;
-    border-radius: 4px;
+    width: 27px;
+    height: 18px;
+    border-radius: 3px;
     box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink) 10%, transparent);
   }
 
@@ -482,9 +582,9 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 40px;
+    width: 30px;
     max-width: none;
-    height: 40px;
+    height: 30px;
     transform: translate(-50%, -50%);
   }
 
@@ -503,7 +603,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     align-items: baseline;
     gap: 8px;
     color: var(--ink);
-    font: 800 28px / 1 var(--f-head);
+    font: 800 22px / 1 var(--f-head);
     font-variant-numeric: tabular-nums;
   }
 
@@ -527,19 +627,23 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     display: none;
   }
 
+  /* Live but no score read yet: just the word, no lone dash. */
+  .scoreline:has(.score.home:empty):has(.score.away:empty) {
+    display: none;
+  }
+
   .clock {
     color: var(--ink);
     font: 800 20px / 1.15 var(--f-head);
     font-variant-numeric: tabular-nums;
   }
 
-  .board[data-state='on'] .clock {
+  .board[data-state='on'] .middle small {
     color: var(--hot);
-    font: 600 13px / 1.3 var(--f-body);
+    font-weight: 600;
   }
 
-  .board[data-state='on'] .middle small,
-  .board[data-state='over'] .clock {
+  .board:not([data-state='upcoming']) .clock {
     display: none;
   }
 
@@ -620,6 +724,6 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   }
 
   .board .comp {
-    margin-top: 6px;
+    margin-top: 10px;
   }
 </style>

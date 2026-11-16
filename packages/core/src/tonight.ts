@@ -36,6 +36,8 @@ export const TonightSideSchema = z
   .object({
     /** The team as its source names it: "Real Madrid", "Houston Rockets", "Türkiye". */
     name: text(60),
+    /** The source's short name, shown where the full one does not fit: "76ers", "Rockets". */
+    short: text(30).optional(),
     /** True for the side the row follows; it is shown in bold. */
     ours: z.boolean(),
     /** The team's logo file, `media/teams/<team>.png`, saved by the rules when the source has one. */

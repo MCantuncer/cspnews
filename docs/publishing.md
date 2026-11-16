@@ -74,7 +74,7 @@ The writer adds only what no schedule lists, with no `live` field:
 - an **award show** where a Turk is on the public shortlist (Ballon d'Or, Oscars, Grammys, Booker): `kind` `show`, `focus` `person`, `people` with the Turks abroad id when there is one, `name` the person, `competition` the award, `event` one line in each language ("Nominated for the Kopa Trophy"), `startsAt` when the ceremony starts, from the organiser's page. Nobel nominations are secret, so a Nobel row is never written before the announcement;
 - a **basketball national team match** (FIBA has no schedule the rules can read yet): `kind` `match`, `sport` `basketball`, `focus` `national`, `name` Türkiye, both sides with `ours`, `startsAt` from the federation's page.
 
-Rows the writer adds stay through the rules step. A row is left in every bulletin until it is played; the page moves it from "Tonight" to "Under way" to the result by itself.
+Rows the writer adds stay through the rules step. A row is left in every bulletin until it is played; the page moves it from "Tonight" to "Live" to the result by itself.
 
 ## The quiz
 

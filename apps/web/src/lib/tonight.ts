@@ -13,7 +13,9 @@ const WORDS = {
     title: 'Tonight',
     today: 'Today',
     tonight: 'Tonight',
-    on: 'Under way',
+    on: 'Live',
+    soon: 'Starting soon',
+    details: 'Show or hide who scored',
     showOn: 'On now',
     fullTime: 'Full time',
     final: 'Final',
@@ -45,7 +47,9 @@ const WORDS = {
     title: 'Bu gece',
     today: 'Bugün',
     tonight: 'Bu gece',
-    on: 'Oynanıyor',
+    on: 'Canlı',
+    soon: 'Başlamak üzere',
+    details: 'Golleri göster ya da gizle',
     showOn: 'Yayında',
     fullTime: 'Maç sonu',
     final: 'Maç sonu',
@@ -104,7 +108,7 @@ export interface TonightStatus {
   readonly state: TonightState;
   /** "21:45" or "2–0". */
   readonly figure: string;
-  /** "Tonight", "Under way", "Full time". */
+  /** "Tonight", "Live", "Full time". */
   readonly word: string;
 }
 
@@ -176,9 +180,9 @@ export function personMarks(
   });
 }
 
-/** Whether a row is drawn as a scoreboard: a club or national team match. */
+/** Whether a row is drawn as a scoreline: every match, a person's included (Can, 2026-11-16). */
 export function isBoard(item: Pick<TonightItem, 'kind' | 'focus'>): boolean {
-  return item.kind === 'match' && item.focus !== 'person';
+  return item.kind === 'match';
 }
 
 /**

@@ -25,7 +25,7 @@ describe('tonight status', () => {
   });
 
   it('moves to under way, then shows the final score', () => {
-    expect(tonightStatus(match, 'en', new Date('2026-11-15T20:00:00Z')).word).toBe('Under way');
+    expect(tonightStatus(match, 'en', new Date('2026-11-15T20:00:00Z')).word).toBe('Live');
     const ended = { ...match, result: { home: 2, away: 1 } };
     expect(tonightStatus(ended, 'tr', new Date('2026-11-15T22:00:00Z'))).toEqual({
       state: 'over',
