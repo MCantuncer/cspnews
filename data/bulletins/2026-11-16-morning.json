@@ -1,0 +1,2260 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-16T07:30:00+03:00",
+  "writtenAt": "2026-11-16T06:59:17+03:00",
+  "stories": [
+    {
+      "id": "f960968cdaeb4dcb",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Fire burns five houses in İnegöl",
+          "title": "Fire spreads to five houses in İnegöl; 10 people affected by smoke",
+          "summary": {
+            "what": "A fire that started in one house in Turgutalp, a rural neighbourhood of İnegöl in Bursa, spread to four houses next to it on Sunday evening.",
+            "why": "Ten people were affected by the smoke and treated in ambulances; the mayor says nobody died.",
+            "next": "The cause is not yet known and is expected to be investigated; the damaged houses were pulled down for safety."
+          },
+          "body": [
+            {
+              "subhead": "Five houses in an hour",
+              "blocks": [
+                {
+                  "text": "A fire broke out in a house in Turgutalp, a rural neighbourhood of İnegöl in the north-western province of Bursa, at around 19:30 on Sunday, Sözcü and Cumhuriyet reported. The cause has not yet been established."
+                },
+                {
+                  "text": "The flames grew quickly and spread to the four houses built next to it, so that five homes were affected in all, according to Sözcü, Cumhuriyet, Habertürk and NTV. Sözcü said the fire caused panic in the neighbourhood as it spread."
+                },
+                {
+                  "text": "Ten people were affected by the smoke. Several ambulances were sent to the scene, and medical teams treated them inside the ambulances, Sözcü and Cumhuriyet reported. None of the outlets reported anyone taken to hospital in a serious condition."
+                }
+              ]
+            },
+            {
+              "subhead": "Who fought it",
+              "blocks": [
+                {
+                  "text": "As the fire grew, fire crews were sent from İnegöl and from other districts of Bursa, Cumhuriyet reported. Teams from İnegöl Municipality, the Bursa Metropolitan Municipality fire brigade, the regional forestry directorate and BUSKİ, Bursa’s water and sewerage utility, worked on it, Habertürk and NTV said."
+                },
+                {
+                  "text": "The work was coordinated by İnegöl Municipality’s disaster and risk management directorate together with AFAD, Türkiye’s disaster and emergency agency. BUSKİ sent water tankers, diggers and jetting trucks, and the municipality added three water tankers and a JCB digger. The parks department brought 10-tonne and 20-tonne water tankers, according to Habertürk and NTV."
+                }
+              ]
+            },
+            {
+              "subhead": "Houses pulled down",
+              "blocks": [
+                {
+                  "text": "Once the fire was out, municipal teams pulled down the damaged houses and the storage buildings that belonged to them for safety reasons, NTV reported."
+                },
+                {
+                  "text": "İnegöl’s mayor, Alper Taban, said the institutions had worked together in a coordinated way. He said the fire had been brought under control, that crews were still cooling the area and that it was a relief nobody had lost their life, Habertürk and NTV reported. He thanked the firefighters, the municipal, BUSKİ and forestry teams, and wished those affected a speedy recovery."
+                },
+                {
+                  "text": "An inquiry is expected to find out how the fire started, Sözcü said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Houses affected",
+              "value": "5",
+              "source": "Sözcü, Cumhuriyet, NTV"
+            },
+            {
+              "label": "People affected by smoke",
+              "value": "10",
+              "source": "Sözcü, Cumhuriyet, NTV"
+            },
+            {
+              "label": "Fire started",
+              "value": "around 19:30",
+              "source": "Sözcü, Cumhuriyet"
+            },
+            {
+              "label": "Deaths",
+              "value": "0",
+              "source": "Mayor Alper Taban, via Habertürk"
+            }
+          ],
+          "place": {
+            "name": "İnegöl",
+            "lat": 40.08,
+            "lon": 29.51,
+            "region": "Bursa, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "İnegöl’de yangın beş eve sıçradı",
+          "title": "İnegöl’de yangın beş evi sardı, 10 kişi dumandan etkilendi",
+          "summary": {
+            "what": "Bursa’nın İnegöl ilçesine bağlı kırsal Turgutalp Mahallesi’nde pazar akşamı bir evde çıkan yangın, bitişikteki dört eve sıçradı.",
+            "why": "Dumandan etkilenen 10 kişiye ambulanslarda müdahale edildi; belediye başkanı can kaybı olmadığını söyledi.",
+            "next": "Yangının çıkış nedeni henüz belli değil ve incelenmesi bekleniyor; zarar gören evler güvenlik nedeniyle yıkıldı."
+          },
+          "body": [
+            {
+              "subhead": "Kısa sürede beş ev",
+              "blocks": [
+                {
+                  "text": "Sözcü ve Cumhuriyet’in haberine göre yangın pazar günü saat 19.30 sıralarında Bursa’nın İnegöl ilçesine bağlı kırsal Turgutalp Mahallesi’nde bir evde çıktı. Yangının nedeni henüz belirlenemedi."
+                },
+                {
+                  "text": "Sözcü, Cumhuriyet, Habertürk ve NTV’ye göre kısa sürede büyüyen alevler bitişikteki dört eve daha sıçradı ve toplam beş ev yangından etkilendi. Sözcü, yangının yayılmasıyla mahallede panik yaşandığını yazdı."
+                },
+                {
+                  "text": "Yangında 10 kişi dumandan etkilendi. Olay yerine çok sayıda ambulans gönderildi; sağlık ekipleri dumandan etkilenenlere ambulanslarda ilk müdahaleyi yaptı. Haberlerde ağır yaralı olduğuna dair bir bilgi yer almadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Söndürme çalışmaları",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre yangının büyümesi üzerine İnegöl başta olmak üzere Bursa’nın çevre ilçelerinden çok sayıda itfaiye ekibi bölgeye sevk edildi. Habertürk ve NTV, İnegöl Belediyesi, Bursa Büyükşehir Belediyesi İtfaiyesi, Orman Müdürlüğü ve BUSKİ ekiplerinin seferber olduğunu bildirdi."
+                },
+                {
+                  "text": "Çalışmalar İnegöl Belediyesi Afet ve Risk Yönetimi Müdürlüğü ile AFAD koordinasyonunda yürütüldü. BUSKİ tanker, iş makinesi ve jetting araçlarıyla, İnegöl Belediyesi de 3 su tankeri ve 1 JCB iş makinesiyle destek verdi. Park ve Bahçeler Müdürlüğüne ait 10 ve 20 tonluk su tankerleri de bölgede görev aldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Evler yıkıldı",
+              "blocks": [
+                {
+                  "text": "NTV’nin haberine göre yangın söndürüldükten sonra zarar gören evler ve bu evlere ait depolar, güvenlik nedeniyle belediye ekiplerince yıkıldı."
+                },
+                {
+                  "text": "Habertürk ve NTV’ye konuşan İnegöl Belediye Başkanı Alper Taban, kurumların koordineli şekilde çalıştığını söyledi. Yangının kontrol altına alındığını, soğutma çalışmalarının sürdüğünü belirten Taban, can kaybı yaşanmamasının sevindirici olduğunu kaydetti; ekiplere teşekkür edip yangından etkilenenlere geçmiş olsun dileklerini iletti."
+                },
+                {
+                  "text": "Sözcü’ye göre yangının neden çıktığının belirlenmesi için olay yerinde inceleme yapılması bekleniyor. Habertürk de bölgede soğutma çalışmalarının sürdüğünü ve yangında can kaybı yaşanmadığını aktardı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Etkilenen ev",
+              "value": "5",
+              "source": "Sözcü, Cumhuriyet, NTV"
+            },
+            {
+              "label": "Dumandan etkilenen",
+              "value": "10 kişi",
+              "source": "Sözcü, Cumhuriyet, NTV"
+            },
+            {
+              "label": "Yangının başladığı saat",
+              "value": "19.30 sıraları",
+              "source": "Sözcü, Cumhuriyet"
+            },
+            {
+              "label": "Can kaybı",
+              "value": "0",
+              "source": "Başkan Alper Taban, Habertürk"
+            }
+          ],
+          "place": {
+            "name": "İnegöl",
+            "lat": 40.08,
+            "lon": 29.51,
+            "region": "Bursa, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T18:20:51.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T18:34:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T18:34:00.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T19:31:56.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T19:31:56.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T20:03:48.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/d60e7298-fff3-4d89-9725-fe127aefe19a.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/yangin-4-eve-daha-sicradi-10-kisi-dumandan-etkilendi-2556411"
+      },
+      "sources": [
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bursa-da-korkutan-yangin-alevler-5-evi-sardi-10-kisi-dumandan-etkilendi-p381646",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/yangin-4-eve-daha-sicradi-10-kisi-dumandan-etkilendi-2556411",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/bursa-daki-bir-mahallede-yangin-3927546",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-bursada-5-ev-alevlere-teslim-oldu-10-kisi-dumandan-etkilendi-1751033",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "509b117f7349a1b8",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "80aa7a5c8aa34520",
+      "versions": {
+        "en": {
+          "shortTitle": "Serbia–Greece decides Türkiye’s fate",
+          "title": "Türkiye need Serbia to lose by four goals to avoid relegation",
+          "summary": {
+            "what": "After the 2-1 defeat in France, Türkiye’s place in the Nations League now hangs on Monday’s Serbia–Greece game, Cumhuriyet reports.",
+            "why": "Sergen Yalçın says his side gave “a very important ray of hope” and promises the team will be very different in March.",
+            "next": "If Serbia lose by at least four goals Türkiye play a play-off; a smaller defeat or any point for Serbia sends Türkiye to League B."
+          },
+          "body": [
+            {
+              "subhead": "Waiting on Serbia",
+              "blocks": [
+                {
+                  "text": "Türkiye finished their UEFA Nations League A group with no points from six games after losing 2-1 to France in Bordeaux on Sunday, and whether they go straight down now depends on another match. If Serbia lose to Greece by at least four goals on Monday 16 November, Türkiye will play in a play-off, Cumhuriyet reported. A defeat by three goals or fewer, or any result in which Serbia take a point, sends Türkiye down to League B."
+                },
+                {
+                  "text": "France’s goals came from an Emirhan Topçu own goal and Junior Kroupi, and Abdülkerim Bardakcı scored Türkiye’s in the 90th minute, Cumhuriyet said."
+                }
+              ]
+            },
+            {
+              "subhead": "Yalçın: “a ray of hope”",
+              "blocks": [
+                {
+                  "text": "Sergen Yalçın, in his second game in charge, said after the match that his players had followed the game plan completely, according to Hürriyet, Habertürk and Cumhuriyet. He said playing two different formations in six or seven days had been a trial period."
+                },
+                {
+                  "quote": "We lost, but we gave a very important ray of hope for the future. How much we deserved to lose is very much open to question.",
+                  "speaker": "Sergen Yalçın",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "He praised the goalkeeper Berke Özer, saying he made six saves while Türkiye missed five or six clear chances. Hürriyet had counted five saves by half-time, and Cumhuriyet put his total at seven."
+                },
+                {
+                  "quote": "We have new, young players we are following. March will be different. We will be much more ready by then.",
+                  "speaker": "Sergen Yalçın",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Speaking to Sabah, Yalçın said the team would reach the place it deserves after the European Championship draws."
+                }
+              ]
+            },
+            {
+              "subhead": "Players and Zidane",
+              "blocks": [
+                {
+                  "text": "Berke Özer, back in goal after 522 days, told Cumhuriyet the team was sad to lose but had shown what it can do against one of the best sides in the world. Merih Demiral told Hürriyet the players did not deserve the score and were “going through a very bad period”."
+                },
+                {
+                  "text": "France coach Zinedine Zidane told reporters his side had not been good in the first half, Habertürk and Hürriyet reported. He called Türkiye a very good, technical team and singled out Arda Güler as a player of the highest level."
+                },
+                {
+                  "quote": "Türkiye showed us tonight that they played with their hearts and put us in a difficult position.",
+                  "speaker": "Zinedine Zidane",
+                  "sourceId": "haberturk",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Serbia must lose by",
+              "value": "4+ goals",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Türkiye’s group points",
+              "value": "0",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Berke Özer’s saves, per Yalçın",
+              "value": "6",
+              "source": "Hürriyet, Habertürk"
+            },
+            {
+              "label": "Days since Özer’s last cap",
+              "value": "522",
+              "source": "Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Bordeaux",
+            "lat": 44.84,
+            "lon": -0.58,
+            "region": "Nouvelle-Aquitaine, France"
+          },
+          "news": "Türkiye go into a play-off only if Serbia lose to Greece by four or more goals on Monday; any other result sends them down to League B."
+        },
+        "tr": {
+          "shortTitle": "Milli Takımın kaderi Sırbistan maçında",
+          "title": "Milli Takımın A Ligi’ndeki kaderi Sırbistan-Yunanistan maçına kaldı",
+          "summary": {
+            "what": "Cumhuriyet’e göre Fransa’ya 2-1 yenilen milli takımın Uluslar Ligi’ndeki durumu pazartesi oynanacak Sırbistan-Yunanistan maçına bağlı.",
+            "why": "Sergen Yalçın, takımın “ilerisi için çok önemli bir umut ışığı” verdiğini söyleyip mart ayında bambaşka bir takım sözü verdi.",
+            "next": "Sırbistan en az 4 farkla yenilirse Türkiye play-off oynayacak; daha az farklı bir yenilgide ya da Sırbistan puan alırsa B Ligi’ne düşecek."
+          },
+          "body": [
+            {
+              "subhead": "Gözler Sırbistan maçında",
+              "blocks": [
+                {
+                  "text": "Pazar akşamı Bordeaux’da Fransa’ya 2-1 yenilen A Milli Futbol Takımı, UEFA Uluslar A Ligi’ndeki grubunu altı maçta puansız tamamladı ve doğrudan düşüp düşmeyeceği artık başka bir maça bağlı. Cumhuriyet’in haberine göre 16 Kasım Pazartesi günü Sırbistan, Yunanistan’a en az 4 farkla yenilirse milli takım play-off oynayacak. Üç ya da daha az farklı yenilgilerde ve Sırbistan’ın puan aldığı senaryolarda ise Türkiye B Ligi’ne düşecek."
+                },
+                {
+                  "text": "Cumhuriyet’e göre Fransa’nın golleri Emirhan Topçu’nun kendi kalesine attığı golle Junior Kroupi’den geldi; milli takımın golünü 90. dakikada Abdülkerim Bardakcı attı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yalçın: “Umut ışığı verdik”",
+              "blocks": [
+                {
+                  "text": "Hürriyet, Habertürk ve Cumhuriyet’e göre ikinci maçına çıkan teknik direktör Sergen Yalçın, takımın oyun planına tamamen sadık kaldığını söyledi. Altı-yedi günde iki farklı formatla oynamanın bir deneme süreci olduğunu belirtti."
+                },
+                {
+                  "quote": "Kaybettik ama ilerisi için çok önemli bir umut ışığı verdik. Ne kadar kaybetmeyi hak ettik, o tarafı çok sorgulanır.",
+                  "speaker": "Sergen Yalçın",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Yalçın, kaleci Berke Özer’in altı kurtarış yaptığını, takımın ise beş-altı net pozisyonu gole çeviremediğini söyledi. Hürriyet ilk yarıda beş kurtarış saymış, Cumhuriyet ise toplamı yedi olarak vermişti."
+                },
+                {
+                  "quote": "Yeni, genç oyuncularımız var takip ettiğimiz. Mart ayı başka olacak. O döneme çok daha hazır olacağız.",
+                  "speaker": "Sergen Yalçın",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "Sabah’a konuşan Yalçın, Avrupa Şampiyonası kuralarından sonra milli takımın hak ettiği yere geleceğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Oyuncular ve Zidane",
+              "blocks": [
+                {
+                  "text": "522 gün sonra milli formayla kaleye geçen Berke Özer, Cumhuriyet’e yenilgiden üzgün olduklarını ama dünyanın en iyi takımlarından birine karşı neler yapabileceklerini gösterdiklerini söyledi. Merih Demiral ise Hürriyet’e bu skoru hak etmediklerini ve “çok kötü bir dönemden” geçtiklerini anlattı."
+                },
+                {
+                  "text": "Habertürk ve Hürriyet’e göre Fransa Teknik Direktörü Zinedine Zidane, ilk yarıda iyi olmadıklarını kabul etti. Zidane, Türkiye’yi çok iyi ve teknik bir takım olarak nitelendirdi ve Arda Güler’in çok üst düzey bir oyuncu olduğunu söyledi."
+                },
+                {
+                  "quote": "Türkiye bu akşam bize gösterdi ki kalpleriyle oynadılar ve bizi zor duruma düşürdüler.",
+                  "speaker": "Zinedine Zidane",
+                  "sourceId": "haberturk",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sırbistan’ın yenilmesi gereken fark",
+              "value": "en az 4 gol",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Türkiye’nin grup puanı",
+              "value": "0",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Yalçın’a göre Berke’nin kurtarışı",
+              "value": "6",
+              "source": "Hürriyet, Habertürk"
+            },
+            {
+              "label": "Berke’nin önceki maçından bu yana",
+              "value": "522 gün",
+              "source": "Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Bordeaux",
+            "lat": 44.84,
+            "lon": -0.58,
+            "region": "Nouvelle-Aquitaine, Fransa"
+          },
+          "news": "Sırbistan pazartesi Yunanistan’a en az 4 farkla yenilirse Türkiye play-off oynayacak; başka her sonuçta B Ligi’ne düşecek."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T21:58:31.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T22:14:15.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T22:14:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T22:20:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T22:20:31.000Z",
+          "sourceId": "sabah"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afa2b058c01a1364d0693dd.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/sporarena/sergen-yalcin-umut-ediyorum-ilerisi-daha-guzel-olacak-43379585"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/sergen-yalcin-umut-ediyorum-ilerisi-daha-guzel-olacak-43379585",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/fransa-yenilgisi-sonrasi-a-milli-takim-teknik-direktoru-sergen-yalcin-mart-ayinda-bambaska-olacak-3927557",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/sergen-yalcin-dan-maglubiyet-aciklamasi-kaybettik-ama-ilerisi-icin-2556456",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/spor/futbol/2026/11/15/sergen-yalcin-milli-takimimiz-hak-ettigi-yere-gelecek",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/zinedine-zidane-turkiye-bizi-zor-duruma-dusurdu-3927562",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/zinedine-zidanedan-turkiye-itirafi-zor-duruma-dusurulduk-43379599",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/berke-ozerden-muthis-geri-donus-522-gun-sonra-kaleye-gecti-fransa-karsisinda-buyudu-43379539",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/berke-ozer-den-maglubiyet-sozleri-kotu-gunde-kim-seninle-beraber-o-onemli-2556457",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/berke-ozer-gelecege-umutlu-bakmaliyiz-43379596",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "fdbabb74a9b628f6",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Vulcan rocket fails, 40 satellites lost",
+          "title": "Vulcan rocket fails ten minutes into flight, losing 40 Amazon satellites",
+          "summary": {
+            "what": "United Launch Alliance’s Vulcan rocket failed to reach orbit on Sunday, destroying 40 satellites for Amazon’s Leo broadband network.",
+            "why": "It is ULA’s first total mission failure in 20 years and is expected to ground a rocket Amazon and the US military both depend on.",
+            "next": "ULA is investigating; Ars Technica’s sources point to the booster stage, which uses Blue Origin’s BE-4 engines."
+          },
+          "body": [
+            {
+              "subhead": "What happened",
+              "blocks": [
+                {
+                  "text": "United Launch Alliance’s Vulcan rocket lifted off from Cape Canaveral Space Force Station in Florida at 12:40 pm Eastern time (17:40 GMT) on Sunday, carrying 40 satellites for Amazon’s Leo broadband constellation, Space.com and Ars Technica reported. The satellites never reached orbit."
+                },
+                {
+                  "quote": "Based on data received by our Launch Director, we confirm that the Vulcan vehicle launched from Space Launch Complex 41 suffered an anomaly 10 minutes into the flight and failed to deliver the Amazon mission to orbit.",
+                  "speaker": "United Launch Alliance",
+                  "sourceId": "the-verge"
+                },
+                {
+                  "text": "According to Ars Technica, it was the first total mission failure since ULA was formed in 2006 by merging the rocket divisions of Boeing and Lockheed Martin. The Verge also called it the company’s first mission failure in its 20-year history."
+                }
+              ]
+            },
+            {
+              "subhead": "Where it went wrong",
+              "blocks": [
+                {
+                  "text": "Multiple sources told Ars Technica the problem was in the rocket’s booster stage, not the Centaur V upper stage or the six solid rocket boosters, which appeared to work normally. The booster’s two BE-4 engines, built by Jeff Bezos’s Blue Origin, kept firing for at least 30 seconds after they were due to shut down, which Ars said could mean the stage was underperforming. A telemetry animation then showed the rocket starting to spin."
+                },
+                {
+                  "text": "Vulcan had flown four times before. On its second and fourth flights a solid booster nozzle burned through, and the rocket was returning to flight after nine months of fixes, Space.com reported. Those fixes appeared to work this time, it said."
+                }
+              ]
+            },
+            {
+              "subhead": "Why it matters",
+              "blocks": [
+                {
+                  "text": "Sunday’s launch was the first of 38 Vulcan flights Amazon has booked to build Leo, its rival to SpaceX’s Starlink, The Verge and Ars Technica reported. Leo has 396 satellites in orbit of a planned 3,292 first-generation craft, Ars said, and Amazon has already built its 1,000th satellite. Vulcan is also contracted for roughly half of the US military’s national security launches in the next few years."
+                },
+                {
+                  "quote": "There is risk with any launch, and that’s especially true for inaugural missions like LV-01. ULA has been a trusted partner for Amazon, and we believe they’ll learn from this mission and deliver on their long-term plans for Vulcan.",
+                  "speaker": "Amazon",
+                  "sourceId": "ars-technica"
+                },
+                {
+                  "text": "Ars noted that Blue Origin’s own New Glenn rocket uses a similar BE-4 engine. If a BE-4 is found to blame, it could also hold up New Glenn’s return to flight early next year, adding to Amazon’s delays."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Amazon Leo satellites lost",
+              "value": "40",
+              "source": "ULA, via The Verge"
+            },
+            {
+              "label": "Anomaly after liftoff",
+              "value": "10 min",
+              "source": "ULA"
+            },
+            {
+              "label": "Vulcan launches Amazon booked",
+              "value": "38",
+              "source": "Ars Technica, The Verge"
+            },
+            {
+              "label": "Leo satellites in orbit",
+              "value": "396",
+              "source": "Ars Technica"
+            },
+            {
+              "label": "Planned first-generation fleet",
+              "value": "3,292",
+              "source": "Ars Technica"
+            }
+          ],
+          "place": {
+            "name": "Cape Canaveral",
+            "lat": 28.39,
+            "lon": -80.61,
+            "region": "Florida, United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Vulcan roketi düştü, 40 uydu kayıp",
+          "title": "Vulcan roketi 10. dakikada arızalandı, Amazon’un 40 uydusu kayboldu",
+          "summary": {
+            "what": "United Launch Alliance’ın Vulcan roketi pazar günü yörüngeye ulaşamadı; Amazon’un Leo internet ağı için taşıdığı 40 uydu kayboldu.",
+            "why": "ULA’nın 20 yıllık tarihindeki ilk tam görev başarısızlığı; hem Amazon’un hem ABD ordusunun güvendiği roketin uzun süre yere çakılması bekleniyor.",
+            "next": "ULA soruşturma başlattı; Ars Technica’nın kaynakları sorunun Blue Origin’in BE-4 motorlarını kullanan ana kademede olduğunu söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Ne oldu",
+              "blocks": [
+                {
+                  "text": "Space.com ve Ars Technica’nın haberine göre United Launch Alliance’ın (ULA) Vulcan roketi pazar günü TSİ 20.40’ta (17.40 GMT) Florida’daki Cape Canaveral Uzay Kuvvetleri Üssü’nden, Amazon’un Leo geniş bant ağı için 40 uyduyla havalandı. Uydular yörüngeye hiç ulaşamadı."
+                },
+                {
+                  "quote": "Fırlatma direktörümüze ulaşan verilere dayanarak, 41 No’lu Fırlatma Kompleksi’nden fırlatılan Vulcan aracının uçuşun 10. dakikasında bir anomali yaşadığını ve Amazon görevini yörüngeye taşıyamadığını teyit ediyoruz.",
+                  "speaker": "United Launch Alliance",
+                  "sourceId": "the-verge",
+                  "translated": true
+                },
+                {
+                  "text": "Ars Technica’ya göre bu, Boeing ile Lockheed Martin’in roket birimlerinin 2006’da birleşmesiyle kurulan ULA’nın ilk tam görev başarısızlığı. The Verge de şirketin 20 yıllık tarihindeki ilk başarısız görev olduğunu yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Sorun nerede",
+              "blocks": [
+                {
+                  "text": "Ars Technica’ya konuşan çok sayıda kaynak, arızanın Centaur V üst kademesinde ya da normal çalıştığı görülen altı katı yakıtlı yardımcı roket motorunda değil, ana kademede olduğunu söyledi. Jeff Bezos’un şirketi Blue Origin’in ürettiği iki BE-4 motoru, durması gereken andan en az 30 saniye sonra da çalışmaya devam etti; Ars, bunun kademenin beklenenden düşük performans gösterdiğine işaret edebileceğini yazdı. Telemetri animasyonunda roketin ardından kendi etrafında dönmeye başladığı görüldü."
+                },
+                {
+                  "text": "Space.com’a göre Vulcan daha önce dört kez uçtu; ikinci ve dördüncü uçuşlarında bir yardımcı motorun nozulu yanıp koptu. Roket, dokuz aylık düzeltme çalışmalarının ardından yeniden uçuyordu; bu kez o düzeltmelerin işe yaradığı görüldü."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden önemli",
+              "blocks": [
+                {
+                  "text": "The Verge ve Ars Technica’ya göre pazar günkü fırlatma, Amazon’un SpaceX’in Starlink’ine rakip olarak kurduğu Leo için ULA’dan satın aldığı 38 Vulcan uçuşunun ilkiydi. Ars’a göre Leo’nun yörüngede 396 uydusu var, birinci nesil için hedef 3.292; Amazon şimdiden 1.000’inci uydusunu üretti. Vulcan, önümüzdeki birkaç yılda ABD ordusunun ulusal güvenlik fırlatmalarının yaklaşık yarısını da üstlenmiş durumda."
+                },
+                {
+                  "quote": "Her fırlatmanın riski vardır; bu, LV-01 gibi ilk görevler için özellikle geçerli. ULA, Amazon’un güvenilir bir ortağı oldu ve bu görevden ders çıkarıp Vulcan için uzun vadeli planlarını hayata geçireceklerine inanıyoruz.",
+                  "speaker": "Amazon",
+                  "sourceId": "ars-technica",
+                  "translated": true
+                },
+                {
+                  "text": "Ars, Blue Origin’in kendi New Glenn roketinin de benzer bir BE-4 motoru kullandığını hatırlattı. Arızanın BE-4’ten kaynaklandığı anlaşılırsa New Glenn’in gelecek yılın başında yeniden uçması da gecikebilir; bu da Amazon’un gecikmelerine yenisini ekler."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kaybedilen Amazon Leo uydusu",
+              "value": "40",
+              "source": "ULA, The Verge"
+            },
+            {
+              "label": "Anomali, kalkıştan sonra",
+              "value": "10 dk",
+              "source": "ULA"
+            },
+            {
+              "label": "Amazon’un aldığı Vulcan uçuşu",
+              "value": "38",
+              "source": "Ars Technica, The Verge"
+            },
+            {
+              "label": "Yörüngedeki Leo uydusu",
+              "value": "396",
+              "source": "Ars Technica"
+            },
+            {
+              "label": "Planlanan birinci nesil filo",
+              "value": "3.292",
+              "source": "Ars Technica"
+            }
+          ],
+          "place": {
+            "name": "Cape Canaveral",
+            "lat": 28.39,
+            "lon": -80.61,
+            "region": "Florida, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T20:37:28.000Z",
+          "sourceId": "hacker-news"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T21:05:02.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T23:11:54.000Z",
+          "sourceId": "ars-technica"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T23:11:54.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T01:32:37.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-1152x648.jpg",
+        "sourceId": "ars-technica",
+        "sourceName": "Ars Technica",
+        "articleUrl": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+      },
+      "sources": [
+        {
+          "sourceId": "hacker-news",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+          "confirms": false
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+          "confirms": true
+        },
+        {
+          "sourceId": "ars-technica",
+          "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374525/rocket-launch-us-fails-destroying-payload-40-amazon-satellites",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "c57d5fdb338c13eb",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Apple studies AI health answers",
+          "title": "Apple seeks 200,000 people to test AI answers to health questions",
+          "summary": {
+            "what": "Apple has launched the Apple Health AI Usage Study with OpenEvidence, a clinical AI platform, through a new iPhone app in the US.",
+            "why": "AI chatbots already get huge numbers of health questions; Apple wants evidence on whether clinically grounded answers help people.",
+            "next": "Enrolment opened on Sunday for US users aged 21 and over; TechCrunch says the study will run for more than 12 months."
+          },
+          "body": [
+            {
+              "subhead": "The study",
+              "blocks": [
+                {
+                  "text": "Apple has announced the Apple Health AI Usage Study, which will look at how people use conversational AI tools for health and how useful the answers really are, The Verge and TechCrunch reported. It is run with OpenEvidence, a clinical AI platform used by doctors that bases its answers on sources such as The New England Journal of Medicine."
+                },
+                {
+                  "text": "Participants ask health questions in a new iOS app and rate the answers for accuracy, detail and relevance, The Verge said. Answers come with links to peer-reviewed clinical sources, and TechCrunch said users will also be asked to fill in monthly surveys. Apple is looking for up to 200,000 people, and the app was available to download from Sunday."
+                }
+              ]
+            },
+            {
+              "subhead": "Who can join",
+              "blocks": [
+                {
+                  "text": "Participants must be in the US and 21 or older, and have iOS 26 or later. The two outlets differ on the details: The Verge says an iPhone 15 Pro is required and that the app does not use Apple Intelligence or Siri, while TechCrunch says any iPhone 15 or later works with Apple Intelligence switched on."
+                },
+                {
+                  "text": "Users can choose to share HealthKit data such as activity, sleep, resting heart rate or lab results, so that the answers take their own health into account. TechCrunch said the app can also help people prepare for a doctor’s visit and will point them to providers when a question is worrying."
+                }
+              ]
+            },
+            {
+              "subhead": "Privacy and the bigger picture",
+              "blocks": [
+                {
+                  "text": "Apple said the data will not be used to train AI models, The Verge and TechCrunch reported. According to TechCrunch, the data is anonymised before it is sent to a secure third-party cloud provider, and OpenEvidence deletes questions and answers after 24 hours."
+                },
+                {
+                  "quote": "At Apple, we believe responsible innovation starts with scientific rigor and clinical grounding. Health is deeply personal, and conducting a dedicated research study is the most thoughtful way to understand how people engage with, comprehend, and evaluate health AI in everyday life.",
+                  "speaker": "Sumbul Desai, Apple’s vice president of Health and Fitness",
+                  "sourceId": "the-verge"
+                },
+                {
+                  "text": "TechCrunch noted that OpenAI said earlier this year its users ask more than 300 million health-related questions a week, and that it is not yet clear whether Apple plans to bring AI answers to its Health app or Siri."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Participants sought",
+              "value": "up to 200,000",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Minimum age",
+              "value": "21",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Study length",
+              "value": "12+ months",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "OpenEvidence keeps chats for",
+              "value": "24 hours",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Weekly health questions to ChatGPT",
+              "value": "300m+",
+              "source": "OpenAI, via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Apple yapay zekâ sağlık yanıtlarını araştırıyor",
+          "title": "Apple, yapay zekânın sağlık yanıtlarını 200 bin kişiyle test edecek",
+          "summary": {
+            "what": "Apple, klinik yapay zekâ platformu OpenEvidence ile birlikte ABD’de yeni bir iPhone uygulaması üzerinden Apple Health AI Usage Study’yi başlattı.",
+            "why": "Sohbet botlarına çok sayıda sağlık sorusu soruluyor; Apple klinik kaynaklara dayalı yanıtların insanlara gerçekten yardım edip etmediğini ölçmek istiyor.",
+            "next": "Kayıtlar pazar günü 21 yaş üstü ABD’li kullanıcılara açıldı; TechCrunch’a göre çalışma 12 aydan uzun sürecek."
+          },
+          "body": [
+            {
+              "subhead": "Çalışma",
+              "blocks": [
+                {
+                  "text": "The Verge ve TechCrunch’ın haberine göre Apple, insanların sağlık konusunda sohbet tabanlı yapay zekâ araçlarını nasıl kullandığını ve yanıtların gerçekte ne kadar faydalı olduğunu inceleyecek Apple Health AI Usage Study’yi duyurdu. Çalışma, hekimlerin kullandığı ve yanıtlarını The New England Journal of Medicine gibi kaynaklara dayandıran klinik yapay zekâ platformu OpenEvidence ile yürütülüyor."
+                },
+                {
+                  "text": "The Verge’e göre katılımcılar yeni bir iOS uygulamasında sağlık soruları soruyor ve yanıtları doğruluk, ayrıntı ve konuyla ilgisine göre puanlıyor. Yanıtlar hakemli klinik kaynaklara bağlantı içeriyor; TechCrunch’a göre kullanıcılardan her ay anket doldurmaları da istenecek. Apple 200 bine kadar katılımcı arıyor ve uygulama pazar gününden itibaren indirilebiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Kimler katılabilir",
+              "blocks": [
+                {
+                  "text": "Katılımcıların ABD’de yaşaması, 21 yaşından büyük olması ve iOS 26 ya da üstünü kullanması gerekiyor. İki yayın ayrıntıda ayrışıyor: The Verge iPhone 15 Pro gerektiğini ve uygulamanın Apple Intelligence ya da Siri kullanmadığını yazarken, TechCrunch Apple Intelligence açık olan iPhone 15 ve sonrası modellerin yeterli olduğunu söylüyor."
+                },
+                {
+                  "text": "Kullanıcılar isterlerse aktivite, uyku, dinlenme nabzı ya da tahlil sonuçları gibi HealthKit verilerini paylaşabiliyor; böylece yanıtlar kişinin kendi sağlık durumunu da hesaba katıyor. TechCrunch’a göre uygulama doktor randevusuna hazırlanmaya da yardım ediyor ve endişe verici sorularda kullanıcıyı sağlık kuruluşlarına yönlendiriyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Gizlilik ve büyük resim",
+              "blocks": [
+                {
+                  "text": "The Verge ve TechCrunch’a göre Apple, toplanan verilerin yapay zekâ modellerini eğitmekte kullanılmayacağını açıkladı. TechCrunch’a göre veriler güvenli bir üçüncü taraf bulut sağlayıcısına gönderilmeden önce anonimleştiriliyor; OpenEvidence de soru ve yanıtları 24 saat sonra siliyor."
+                },
+                {
+                  "quote": "Apple’da sorumlu inovasyonun bilimsel titizlik ve klinik temelle başladığına inanıyoruz. Sağlık son derece kişisel bir konu; insanların günlük hayatta sağlık alanındaki yapay zekâyı nasıl kullandığını, anladığını ve değerlendirdiğini anlamanın en özenli yolu buna özel bir araştırma yürütmek.",
+                  "speaker": "Sumbul Desai, Apple Sağlık ve Fitness Başkan Yardımcısı",
+                  "sourceId": "the-verge",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch, OpenAI’ın bu yılın başında kullanıcılarının haftada 300 milyondan fazla sağlık sorusu sorduğunu açıkladığını hatırlattı ve Apple’ın yapay zekâ yanıtlarını Sağlık uygulamasına ya da Siri’ye getirmeyi planlayıp planlamadığının henüz belli olmadığını yazdı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Aranan katılımcı",
+              "value": "200 bine kadar",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Asgari yaş",
+              "value": "21",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Çalışmanın süresi",
+              "value": "12 aydan uzun",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "OpenEvidence’in sakladığı süre",
+              "value": "24 saat",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "ChatGPT’ye haftalık sağlık sorusu",
+              "value": "300 milyon+",
+              "source": "OpenAI, TechCrunch"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T01:26:56.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T01:30:00.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T01:30:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "adf65f70bcfc77d4",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "AI child-abuse reports rise 8,400%",
+          "title": "Reports of AI-made child abuse material rise 8,400% in two years",
+          "summary": {
+            "what": "Reports of AI-related child sexual abuse material, including deepfakes from “nudify apps”, rose from about 4,700 in 2023 to more than 400,000 in 2025, The Guardian reports.",
+            "why": "Fake images can still be used to blackmail children for money or more images, the researchers warn.",
+            "next": "Childlight is asking governments to treat child sexual exploitation as a preventable public health emergency."
+          },
+          "body": [
+            {
+              "subhead": "The numbers",
+              "blocks": [
+                {
+                  "text": "Reports of artificial intelligence being used to sexually exploit children have risen by more than 8,400% in two years, according to research by Childlight – Global Child Safety Institute, an Edinburgh-based body, The Guardian reported. AI-related child abuse material, including deepfakes made with so-called “nudify apps”, went from about 4,700 reports in 2023 to more than 400,000 in 2025."
+                },
+                {
+                  "text": "The research looked at material that tech companies reported to the National Center for Missing and Exploited Children in the US. It focused on east Asia and the Pacific, Latin America and the Caribbean, and North America; earlier studies covered western Europe. The images are fake, but they can be used to blackmail children into handing over money or more images, The Guardian said."
+                }
+              ]
+            },
+            {
+              "subhead": "What the researchers say",
+              "blocks": [
+                {
+                  "quote": "The speed at which artificial intelligence is changing the threat to children is deeply concerning. These figures show an extraordinary rise in reports of AI-generated child sexual abuse material in just two years.",
+                  "speaker": "Prof Debi Fry, Childlight’s global director of data",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "Fry said better detection and reporting may explain some of the rise, but that governments and technology companies must act urgently to understand and prevent these new forms of abuse and to remove material quickly."
+                },
+                {
+                  "text": "Childlight estimates that more than 300 million children worldwide are victims of at least one form of technology-facilitated sexual exploitation or abuse every year. Its chief executive, Paul Stanfield, called on governments to treat it as a preventable public health emergency and to invest in better evidence."
+                }
+              ]
+            },
+            {
+              "subhead": "Other signs of growth",
+              "blocks": [
+                {
+                  "text": "The UK-based Internet Watch Foundation found last month that AI-generated abuse material online was still growing. Its analysts assessed 6,310 AI images that met the legal definition of child sexual abuse in the first half of 2026, 40% more than in the whole of 2025, The Guardian reported."
+                },
+                {
+                  "text": "In the US, the recorded rate of reports involving child sexual abuse material rose by 63% between 2024 and 2025, compared with 18% in Canada, the Childlight research found."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Rise in AI-related reports, 2023–25",
+              "value": "8,400%+",
+              "source": "Childlight, via The Guardian"
+            },
+            {
+              "label": "IWF AI images, first half of 2026",
+              "value": "6,310",
+              "source": "Internet Watch Foundation"
+            },
+            {
+              "label": "Rise in US report rate, 2024–25",
+              "value": "63%",
+              "source": "Childlight"
+            },
+            {
+              "label": "Children affected each year",
+              "value": "300m+",
+              "source": "Childlight estimate"
+            }
+          ],
+          "keyNumber": {
+            "label": "AI-related abuse material reports",
+            "unit": "reports",
+            "before": 4700,
+            "after": 400000,
+            "source": "Childlight, via The Guardian"
+          }
+        },
+        "tr": {
+          "shortTitle": "Yapay zekâlı istismar ihbarları %8.400 arttı",
+          "title": "Yapay zekâyla üretilen çocuk istismarı ihbarları iki yılda %8.400 arttı",
+          "summary": {
+            "what": "The Guardian’a göre “nudify” uygulamalarıyla yapılan deepfake’ler dahil yapay zekâyla ilgili çocuk istismarı içeriği ihbarları 2023’te 4.700 civarındayken 2025’te 400 bini aştı.",
+            "why": "Araştırmacılar, sahte de olsa bu görüntülerin çocuklardan para ya da başka görüntü koparmak için şantajda kullanılabildiği uyarısında bulunuyor.",
+            "next": "Childlight hükümetlere, çocukların cinsel istismarını önlenebilir bir halk sağlığı acil durumu olarak tanıma çağrısı yapıyor."
+          },
+          "body": [
+            {
+              "subhead": "Rakamlar",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın haberine göre Edinburgh merkezli Childlight – Global Child Safety Institute’un araştırması, yapay zekânın çocukların cinsel istismarında kullanıldığına dair ihbarların iki yılda %8.400’ün üzerinde arttığını ortaya koydu. “Nudify” denen çıplaklaştırma uygulamalarıyla üretilen deepfake’ler dahil yapay zekâyla ilgili istismar içeriği ihbarları 2023’teki yaklaşık 4.700’den 2025’te 400 binin üzerine çıktı."
+                },
+                {
+                  "text": "Araştırma, teknoloji şirketlerinin ABD’deki Kayıp ve İstismar Edilen Çocuklar Ulusal Merkezi’ne (NCMEC) yaptığı bildirimleri inceledi. Doğu Asya ve Pasifik, Latin Amerika ve Karayipler ile Kuzey Amerika’ya odaklandı; önceki çalışmalar Batı Avrupa’yı kapsamıştı. The Guardian’a göre görüntüler sahte olsa da çocuklardan para ya da daha fazla görüntü istemek için şantaj aracı olarak kullanılabiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Araştırmacılar ne diyor",
+              "blocks": [
+                {
+                  "quote": "Yapay zekânın çocuklara yönelik tehdidi değiştirme hızı son derece kaygı verici. Bu rakamlar, yapay zekâyla üretilen çocuk istismarı içeriği ihbarlarında yalnızca iki yılda olağanüstü bir artışa işaret ediyor.",
+                  "speaker": "Prof. Debi Fry, Childlight veri direktörü",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Fry, artışın bir kısmının daha iyi tespit ve bildirimle açıklanabileceğini, ancak hükümetlerin ve teknoloji şirketlerinin bu yeni istismar biçimlerini anlamak, önlemek ve içerikleri hızla kaldırmak için acilen harekete geçmesi gerektiğini söyledi."
+                },
+                {
+                  "text": "Childlight, dünyada her yıl 300 milyondan fazla çocuğun teknoloji aracılığıyla en az bir tür cinsel sömürü ya da istismara maruz kaldığını tahmin ediyor. Kuruluşun genel müdürü Paul Stanfield, hükümetlere bunu önlenebilir bir halk sağlığı acil durumu olarak tanıma ve daha iyi veriye yatırım yapma çağrısında bulundu."
+                }
+              ]
+            },
+            {
+              "subhead": "Büyüyen sorun",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre İngiltere merkezli Internet Watch Foundation (IWF) da geçen ay yapay zekâyla üretilen istismar içeriğinin internette artmaya devam ettiğini bildirdi. IWF analistleri 2026’nın ilk yarısında, yasal tanıma göre çocuk cinsel istismarı sayılan 6.310 yapay zekâ görüntüsü inceledi; bu sayı 2025’in tamamından %40 fazla."
+                },
+                {
+                  "text": "Childlight araştırmasına göre çocuk istismarı içeriği ihbarlarının kayıtlı oranı 2024’ten 2025’e ABD’de %63, Kanada’da ise %18 arttı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yapay zekâlı ihbarlarda artış, 2023–25",
+              "value": "%8.400+",
+              "source": "Childlight, The Guardian"
+            },
+            {
+              "label": "IWF’nin 2026 ilk yarı görüntüleri",
+              "value": "6.310",
+              "source": "Internet Watch Foundation"
+            },
+            {
+              "label": "ABD’de ihbar oranı artışı, 2024–25",
+              "value": "%63",
+              "source": "Childlight"
+            },
+            {
+              "label": "Her yıl etkilenen çocuk",
+              "value": "300 milyon+",
+              "source": "Childlight tahmini"
+            }
+          ],
+          "keyNumber": {
+            "label": "Yapay zekâlı istismar içeriği ihbarı",
+            "unit": "ihbar",
+            "before": 4700,
+            "after": 400000,
+            "source": "Childlight, The Guardian"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T00:01:27.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "216941e6cb64de32",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Prince Harry visits veterans in Lviv",
+          "title": "Prince Harry tells wounded Ukrainians “you’re going to win the war”",
+          "summary": {
+            "what": "The Duke of Sussex spent two days in Lviv meeting wounded veterans and medics, his fourth visit to Ukraine since Russia’s 2022 invasion.",
+            "why": "Ukraine is building its largest-ever team for next year’s Invictus Games in Birmingham, the event Harry founded for wounded service members.",
+            "next": "Harry promised help for Ukraine to host an Invictus Games itself once the war is over."
+          },
+          "body": [
+            {
+              "subhead": "A visit kept quiet",
+              "blocks": [
+                {
+                  "text": "Prince Harry made a surprise two-day visit to Ukraine at the weekend, meeting wounded veterans and medics in the western city of Lviv, the BBC, The Guardian and Al Jazeera reported. The BBC said a press blackout was kept until he had left, for security reasons, as Ukraine still faces Russian missile attacks."
+                },
+                {
+                  "text": "It was the 42-year-old’s fourth trip to Ukraine since Russia’s full-scale invasion in February 2022. He spoke at a conference on treating war injuries organised by Superhumans, a Lviv clinic that rehabilitates wounded soldiers and fits prosthetic limbs, and attended Ukraine’s national Invictus Games trials."
+                },
+                {
+                  "quote": "Every single time I come back to Ukraine, I feel welcome, I feel warmth. You’re going to win the war and then you’re going to be set up for success.",
+                  "speaker": "Prince Harry",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "The Invictus team",
+              "blocks": [
+                {
+                  "text": "Harry watched wheelchair rugby players competing for places in Ukraine’s team for the 2027 Invictus Games in Birmingham. Ukraine plans to send about 60 competitors, its largest team ever, The Guardian and Al Jazeera said. Al Jazeera put the number who registered for trials at around 500; the BBC said 400 wounded service men and women had taken part."
+                },
+                {
+                  "text": "At the rugby match he hugged Valery Odainyk, a 41-year-old who competed at the 2025 games in Canada, uses prosthetic legs and is still an active serviceman. Harry asked in surprise when he found time to train."
+                },
+                {
+                  "quote": "When the war is over and when Ukraine wins, we will be ready to support you in holding an Invictus Games.",
+                  "speaker": "Prince Harry",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "The scale of the need",
+              "blocks": [
+                {
+                  "text": "Ukraine has about 1.4 million combat veterans, more than 10% of them with disabilities, Al Jazeera reported; the BBC said the country has more than 150,000 injured war veterans. At the Superhumans Center Harry sat with Kostiantyn Vlasenko, who was airlifted from the front by a drone last month after more than 200 days at his position, the BBC said."
+                },
+                {
+                  "text": "Harry said international experts used to come to help Ukraine, but “now that has flipped”, with Ukraine having more expertise in trauma injuries to share. He called the injured veterans “role models” and promised that “the rest of the world will continue to support you”, the BBC reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Harry’s visits since 2022",
+              "value": "4",
+              "source": "BBC, The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Ukraine’s planned Invictus team",
+              "value": "about 60",
+              "source": "The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Next Invictus Games",
+              "value": "2027, Birmingham",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Injured war veterans in Ukraine",
+              "value": "150,000+",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Lviv",
+            "lat": 49.84,
+            "lon": 24.03,
+            "region": "Lviv Oblast, Ukraine"
+          }
+        },
+        "tr": {
+          "shortTitle": "Prens Harry Lviv’de gazilerle buluştu",
+          "title": "Prens Harry, Lviv’de yaralı gazilere “Savaşı kazanacaksınız” dedi",
+          "summary": {
+            "what": "Sussex Dükü, Rusya’nın 2022’deki işgalinden bu yana Ukrayna’ya yaptığı dördüncü ziyarette iki gün boyunca Lviv’de yaralı gaziler ve sağlıkçılarla buluştu.",
+            "why": "Ukrayna, Harry’nin yaralı askerler için kurduğu Invictus Oyunları’nın gelecek yıl Birmingham’daki etkinliği için tarihindeki en büyük takımı hazırlıyor.",
+            "next": "Harry, savaş bittiğinde Ukrayna’nın da bir Invictus Oyunları’na ev sahipliği yapması için destek sözü verdi."
+          },
+          "body": [
+            {
+              "subhead": "Gizli tutulan ziyaret",
+              "blocks": [
+                {
+                  "text": "BBC, The Guardian ve Al Jazeera’nın haberine göre Prens Harry hafta sonu Ukrayna’ya iki günlük sürpriz bir ziyaret yaptı ve batıdaki Lviv kentinde yaralı gaziler ve sağlıkçılarla bir araya geldi. BBC’ye göre ülke hâlâ Rus füze saldırıları altında olduğu için güvenlik nedeniyle ziyaret, Harry ülkeden ayrılana kadar basına duyurulmadı."
+                },
+                {
+                  "text": "42 yaşındaki prensin Rusya’nın Şubat 2022’deki tam ölçekli işgalinden bu yana Ukrayna’ya dördüncü ziyaretiydi. Harry, yaralı askerleri rehabilite eden ve protez uzuv takan Lviv’deki Superhumans kliniğinin düzenlediği savaş yaralanmalarının tedavisi konferansında konuştu ve Ukrayna’nın ulusal Invictus seçmelerini izledi."
+                },
+                {
+                  "quote": "Ukrayna’ya her geri dönüşümde kendimi hoş karşılanmış hissediyorum, sıcaklık hissediyorum. Savaşı kazanacaksınız ve sonra başarı için her şey hazır olacak.",
+                  "speaker": "Prens Harry",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Invictus takımı",
+              "blocks": [
+                {
+                  "text": "Harry, Ukrayna’nın 2027’de Birmingham’da yapılacak Invictus Oyunları takımına girmek için yarışan tekerlekli sandalye ragbisi oyuncularını izledi. The Guardian ve Al Jazeera’ya göre Ukrayna yaklaşık 60 sporcu göndermeyi planlıyor; bu, ülkenin en kalabalık takımı olacak. Al Jazeera seçmelere başvuran sayısını 500 civarı olarak verirken BBC 400 yaralı askerin katıldığını yazdı."
+                },
+                {
+                  "text": "Ragbi maçında Harry, 2025’te Kanada’daki oyunlarda yarışan, protez bacak kullanan ve hâlâ aktif asker olan 41 yaşındaki Valeri Odainik’e sarıldı ve antrenmana nasıl vakit bulduğunu şaşkınlıkla sordu."
+                },
+                {
+                  "quote": "Savaş bittiğinde ve Ukrayna kazandığında, bir Invictus Oyunları’na ev sahipliği yapmanız için size destek olmaya hazır olacağız.",
+                  "speaker": "Prens Harry",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "İhtiyacın boyutu",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Ukrayna’da yaklaşık 1,4 milyon muharip gazi var ve bunların %10’undan fazlası engelli; BBC ise ülkede 150 binden fazla yaralı savaş gazisi olduğunu yazdı. BBC’ye göre Harry, Superhumans Merkezi’nde 200 günden fazla mevziinde kaldıktan sonra geçen ay cepheden bir drone ile tahliye edilen Kostiantin Vlasenko’nun başucunda oturdu."
+                },
+                {
+                  "text": "BBC’nin aktardığına göre Harry, eskiden Ukrayna’ya yardım için uluslararası uzmanların geldiğini ama “artık durumun tersine döndüğünü”, travma yaralanmalarında artık Ukrayna’nın paylaşacak daha fazla uzmanlığı olduğunu söyledi. Yaralı gazileri “rol model” olarak nitelendirip “dünyanın geri kalanı size destek olmaya devam edecek” sözü verdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2022’den bu yana ziyaret",
+              "value": "4",
+              "source": "BBC, The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Ukrayna’nın Invictus takımı",
+              "value": "yaklaşık 60",
+              "source": "The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Sonraki Invictus Oyunları",
+              "value": "2027, Birmingham",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Ukrayna’daki yaralı gazi",
+              "value": "150 bin+",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Lviv",
+            "lat": 49.84,
+            "lon": 24.03,
+            "region": "Lviv Oblastı, Ukrayna"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T18:31:52.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T22:00:13.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T22:00:13.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T22:00:24.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T23:27:25.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ba3f/live/22cfe9d0-e115-11f1-a7db-d90284d21c62.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/prince-harry-in-ukraine-meeting-invictus-2027-hopefuls?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/15/prince-harry-ukraine-war-surprise-trip-invictus-games",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3374521/prince-harry-salutes-wounded-ukrainian-veterans-role-models-surprise-ukraine-visit",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "90e53724e9b0b053",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Félix Gallardo dies at 80",
+          "title": "“Boss of bosses” Félix Gallardo, Guadalajara cartel founder, dies at 80",
+          "summary": {
+            "what": "Mexico’s Jalisco state said Félix Gallardo died of multiple organ failure on Sunday, two days after he was moved from prison to hospital.",
+            "why": "He built the cartel that first moved cocaine to the US on a massive scale and from which the Sinaloa cartel later emerged.",
+            "next": "He had been in custody since 1989 and was convicted over the 1985 murder of US DEA agent Enrique “Kiki” Camarena."
+          },
+          "body": [
+            {
+              "subhead": "His death",
+              "blocks": [
+                {
+                  "text": "Miguel Ángel Félix Gallardo, a founder of Mexico’s Guadalajara cartel, died in hospital on Sunday aged 80, France 24, Al Jazeera and the BBC reported. The security ministry of Jalisco state, where he was held, said he died of multiple organ failure after being under observation with a guarded prognosis. He had been moved from prison to a private hospital in Guadalajara two days earlier."
+                },
+                {
+                  "text": "His health had declined for years, with high blood pressure, diabetes and deafness, France 24 said. In 2022 a judge granted him house arrest, but problems with an electronic ankle monitor stopped the move. In a 2021 prison interview with Telemundo, quoted by Al Jazeera, he was blind in one eye, nearly deaf and unable to walk on his own."
+                }
+              ]
+            },
+            {
+              "subhead": "The “boss of bosses”",
+              "blocks": [
+                {
+                  "text": "Born in Culiacán, Sinaloa, in 1946, Félix Gallardo was a police officer and a bodyguard for a Sinaloa governor before he turned to crime, Al Jazeera and France 24 reported. With Rafael Caro Quintero and other traffickers he formed the Guadalajara cartel, which allied with Colombian traffickers, including Pablo Escobar’s Medellín cartel, to move cocaine into the United States."
+                },
+                {
+                  "text": "At one point an estimated 80% of the cocaine entering the US came from the Medellín cartel, and Félix Gallardo’s organisation played a major role in smuggling it, the BBC said. Joaquín “El Chapo” Guzmán once handled logistics for him, and the Sinaloa cartel grew out of the Guadalajara cartel after it broke up."
+                }
+              ]
+            },
+            {
+              "subhead": "The Camarena case",
+              "blocks": [
+                {
+                  "text": "In 1985 the cartel tortured and murdered Enrique “Kiki” Camarena, an undercover agent of the US Drug Enforcement Administration, a killing that caused a diplomatic row with Washington. Félix Gallardo was arrested in April 1989 and sentenced to 40 years on drug-trafficking and weapons charges; in 2017 a federal court gave him a further 37 years over the killings of Camarena and the Mexican pilot Alfredo Zavala Avelar, Al Jazeera reported. He denied responsibility."
+                },
+                {
+                  "quote": "Thirty-two years have passed. That’s an eternity for a man who did not commit any crime.",
+                  "speaker": "Miguel Ángel Félix Gallardo, in 2021",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Mexican actor Diego Luna played him in the 2018 Netflix series Narcos: Mexico."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Age at death",
+              "value": "80",
+              "source": "Jalisco security ministry"
+            },
+            {
+              "label": "In custody since",
+              "value": "1989",
+              "source": "France 24, BBC"
+            },
+            {
+              "label": "First sentence",
+              "value": "40 years",
+              "source": "Al Jazeera, France 24"
+            },
+            {
+              "label": "Added in 2017",
+              "value": "37 years",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Guadalajara",
+            "lat": 20.67,
+            "lon": -103.35,
+            "region": "Jalisco, Mexico"
+          }
+        },
+        "tr": {
+          "shortTitle": "Uyuşturucu baronu Félix Gallardo öldü",
+          "title": "“Patronların patronu” Félix Gallardo 80 yaşında öldü",
+          "summary": {
+            "what": "Meksika’nın Jalisco eyaleti, Félix Gallardo’nun cezaevinden hastaneye kaldırılmasından iki gün sonra pazar günü çoklu organ yetmezliğinden öldüğünü açıkladı.",
+            "why": "ABD’ye büyük ölçekte kokain taşıyan ilk karteli kurdu; Sinaloa karteli de daha sonra bu yapıdan doğdu.",
+            "next": "1989’dan beri tutukluydu ve 1985’te ABD’li DEA ajanı Enrique “Kiki” Camarena’nın öldürülmesinden mahkûm edilmişti."
+          },
+          "body": [
+            {
+              "subhead": "Ölümü",
+              "blocks": [
+                {
+                  "text": "France 24, Al Jazeera ve BBC’nin haberine göre Meksika’daki Guadalajara kartelinin kurucularından Miguel Ángel Félix Gallardo pazar günü 80 yaşında hastanede öldü. Tutulduğu Jalisco eyaletinin güvenlik bakanlığı, temkinli bir prognozla gözetim altında tutulan Félix Gallardo’nun çoklu organ yetmezliğinden hayatını kaybettiğini açıkladı. İki gün önce cezaevinden Guadalajara’daki özel bir hastaneye kaldırılmıştı."
+                },
+                {
+                  "text": "France 24’e göre yüksek tansiyon, diyabet ve işitme kaybı nedeniyle sağlığı yıllardır kötüleşiyordu. 2022’de bir yargıç ev hapsine karar vermiş, ancak elektronik kelepçedeki teknik sorunlar nedeniyle nakil gerçekleşmemişti. Al Jazeera’nın aktardığına göre 2021’de Telemundo’ya cezaevinde röportaj verdiğinde bir gözü görmüyor, neredeyse hiç duymuyor ve tek başına yürüyemiyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "“Patronların patronu”",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve France 24’e göre 1946’da Sinaloa’nın Culiacán kentinde doğan Félix Gallardo, suç dünyasına girmeden önce polis memuru ve bir Sinaloa valisinin korumasıydı. Rafael Caro Quintero ve başka kaçakçılarla birlikte kurduğu Guadalajara karteli, ABD’ye kokain taşımak için Pablo Escobar’ın Medellín karteli dahil Kolombiyalı kaçakçılarla ittifak yaptı."
+                },
+                {
+                  "text": "BBC’ye göre bir dönem ABD’ye giren kokainin tahminen %80’i Medellín kartelinden geliyordu ve bunun taşınmasında Félix Gallardo’nun örgütü büyük rol oynadı. Joaquín “El Chapo” Guzmán bir zamanlar onun lojistiğini yönetti; Sinaloa karteli de Guadalajara karteli dağıldıktan sonra ortaya çıktı."
+                }
+              ]
+            },
+            {
+              "subhead": "Camarena davası",
+              "blocks": [
+                {
+                  "text": "Kartel 1985’te ABD Uyuşturucuyla Mücadele İdaresi’nin (DEA) gizli ajanı Enrique “Kiki” Camarena’yı işkenceyle öldürdü; cinayet Washington ile diplomatik krize yol açtı. Al Jazeera’ya göre Nisan 1989’da yakalanan Félix Gallardo, uyuşturucu kaçakçılığı ve silah suçlarından 40 yıl hapse çarptırıldı; 2017’de bir federal mahkeme Camarena ile Meksikalı pilot Alfredo Zavala Avelar’ın öldürülmesinden ona 37 yıl daha verdi. Suçlamaları reddediyordu."
+                },
+                {
+                  "quote": "Otuz iki yıl geçti. Hiçbir suç işlememiş bir adam için bu bir sonsuzluk.",
+                  "speaker": "Miguel Ángel Félix Gallardo, 2021",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Meksikalı oyuncu Diego Luna, 2018’de yayımlanan Netflix dizisi Narcos: Mexico’da onu canlandırmıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Öldüğünde yaşı",
+              "value": "80",
+              "source": "Jalisco güvenlik bakanlığı"
+            },
+            {
+              "label": "Tutukluluğun başlangıcı",
+              "value": "1989",
+              "source": "France 24, BBC"
+            },
+            {
+              "label": "İlk ceza",
+              "value": "40 yıl",
+              "source": "Al Jazeera, France 24"
+            },
+            {
+              "label": "2017’de eklenen ceza",
+              "value": "37 yıl",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Guadalajara",
+            "lat": 20.67,
+            "lon": -103.35,
+            "region": "Jalisco, Meksika"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T22:48:31.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T00:51:23.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T00:51:23.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T03:21:56.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/a3174496-e145-11f1-ae4a-f71d22e7fea9/w:1024/p:16x9/000-D7JM9ZV.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "581e43f0185efc2b",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Australia and Philippines sign defence pact",
+          "title": "Australia and the Philippines sign a defence pact in Manila",
+          "summary": {
+            "what": "The two countries signed a Defence Cooperation Arrangement on Sunday to make joint patrols, exercises and disaster relief easier to organise.",
+            "why": "It is the latest of several Philippine moves to tighten military ties as it faces off with China at sea.",
+            "next": "Talks on a South China Sea code of conduct, 80% agreed, now pass to Singapore, which chairs ASEAN next year."
+          },
+          "body": [
+            {
+              "subhead": "The pact",
+              "blocks": [
+                {
+                  "text": "Australia and the Philippines signed a defence agreement in Manila on Sunday that will make joint patrols, military exercises and disaster relief easier to organise, Euronews reported, citing Philippine officials. Defence Secretary Gilberto Teodoro Jr and Australia’s ambassador Marc Innes-Brown signed it, with Prime Minister Anthony Albanese at the ceremony during his visit for regional summits."
+                },
+                {
+                  "text": "The Defence Cooperation Arrangement updates a 1995 agreement and builds on a visiting forces agreement in force since 2012. Australia said it covers information sharing, military planning and training, maritime monitoring and defence infrastructure."
+                },
+                {
+                  "quote": "Rather than 100 steps to do a single thing, it will just now take 10.",
+                  "speaker": "Gilberto Teodoro Jr, Philippine defence secretary",
+                  "sourceId": "euronews-en"
+                }
+              ]
+            },
+            {
+              "subhead": "Not aimed at anyone, Albanese says",
+              "blocks": [
+                {
+                  "text": "Asked whether the pact was meant to counter China, Albanese said: “This isn’t aimed at any one country. This is about supporting sovereignty of every country.” He noted most Australian trade passes through the South China Sea, Euronews reported. Australia also announced more funding for drones, secure communications and training for regional partners, without giving a figure."
+                },
+                {
+                  "text": "The deal follows a 4.3 billion yen (€24 million) Japanese grant for coastal radar and surveillance drones agreed on 9 November, and a 10 November statement in which Australia, Japan, the Philippines and the United States committed to a joint military coordination centre in the Philippines. The South China Morning Post said that agreement was reached on 28 October."
+                }
+              ]
+            },
+            {
+              "subhead": "No code of conduct yet",
+              "blocks": [
+                {
+                  "text": "At the ASEAN summit in Manila, the Southeast Asian bloc and China again failed to conclude a code of conduct for the South China Sea despite tentative agreement on about 80% of a draft, the Philippine foreign minister Theresa Lazaro said, Al Jazeera reported. Whether the code would be legally binding is among the issues still open."
+                },
+                {
+                  "quote": "There is no conclusion yet.",
+                  "speaker": "Theresa Lazaro, Philippine foreign minister",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "The talks have run for more than two decades. Lazaro said she hoped they could be finished under Singapore, which takes over the chair next year. ASEAN also extended its ban on Myanmar’s leader attending its summits, Al Jazeera said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Agreement it updates",
+              "value": "1995",
+              "source": "Euronews"
+            },
+            {
+              "label": "Steps for a joint activity",
+              "value": "100 → 10",
+              "source": "Teodoro, via Euronews"
+            },
+            {
+              "label": "Japan’s radar and drone grant",
+              "value": "¥4.3bn (€24m)",
+              "source": "Euronews"
+            },
+            {
+              "label": "Draft code agreed",
+              "value": "about 80%",
+              "source": "Lazaro, via Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Manila",
+            "lat": 14.6,
+            "lon": 120.98,
+            "region": "Philippines"
+          }
+        },
+        "tr": {
+          "shortTitle": "Avustralya ve Filipinler savunma anlaşması imzaladı",
+          "title": "Avustralya ile Filipinler Manila’da savunma anlaşması imzaladı",
+          "summary": {
+            "what": "İki ülke pazar günü ortak devriye, tatbikat ve afet yardımını kolaylaştıracak bir Savunma İşbirliği Düzenlemesi imzaladı.",
+            "why": "Anlaşma, denizde Çin ile karşı karşıya gelen Filipinler’in askeri bağlarını güçlendirmek için attığı son adımlardan biri.",
+            "next": "%80’i üzerinde uzlaşılan Güney Çin Denizi davranış kuralları görüşmeleri, gelecek yıl ASEAN dönem başkanı olacak Singapur’a kalıyor."
+          },
+          "body": [
+            {
+              "subhead": "Anlaşma",
+              "blocks": [
+                {
+                  "text": "Euronews’in Filipinli yetkililere dayandırdığı habere göre Avustralya ile Filipinler pazar günü Manila’da ortak devriyeleri, askeri tatbikatları ve afet yardım operasyonlarını düzenlemeyi kolaylaştıracak bir savunma anlaşması imzaladı. Anlaşmayı Filipinler Savunma Bakanı Gilberto Teodoro Jr ile Avustralya’nın Manila Büyükelçisi Marc Innes-Brown imzaladı; bölgesel zirveler için ülkede bulunan Avustralya Başbakanı Anthony Albanese de törene katıldı."
+                },
+                {
+                  "text": "Savunma İşbirliği Düzenlemesi 1995 tarihli bir anlaşmayı güncelliyor ve 2012’den beri yürürlükte olan ziyaretçi kuvvetler anlaşmasının üzerine kuruluyor. Avustralya’ya göre anlaşma bilgi paylaşımı, askeri planlama ve eğitim, deniz gözetimi ve savunma altyapısını kapsıyor."
+                },
+                {
+                  "quote": "Tek bir iş için 100 adım yerine artık yalnızca 10 adım gerekecek.",
+                  "speaker": "Gilberto Teodoro Jr, Filipinler Savunma Bakanı",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Albanese: Kimseyi hedef almıyor",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre anlaşmanın Çin’e karşı olup olmadığı sorulan Albanese, “Bu herhangi bir ülkeyi hedef almıyor. Bu her ülkenin egemenliğini desteklemekle ilgili” dedi ve Avustralya ticaretinin büyük bölümünün Güney Çin Denizi’nden geçtiğini hatırlattı. Avustralya ayrıca bölgedeki ortaklarına drone, güvenli iletişim ekipmanı ve eğitim için ek fon açıkladı; miktar belirtilmedi."
+                },
+                {
+                  "text": "Anlaşma, Japonya’nın 9 Kasım’da kıyı radarı ve gözetim droneları için verdiği 4,3 milyar yenlik (24 milyon avro) hibenin ve Avustralya, Japonya, Filipinler ile ABD’nin Filipinler’de ortak bir askeri koordinasyon merkezi kurma taahhüdünü açıkladığı 10 Kasım tarihli bildirinin ardından geldi. South China Morning Post, bu anlaşmaya 28 Ekim’de varıldığını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Davranış kuralları yine yok",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın haberine göre Filipinler Dışişleri Bakanı Theresa Lazaro, Manila’daki ASEAN zirvesinde ASEAN ile Çin’in, taslağın yaklaşık %80’inde ön uzlaşmaya rağmen Güney Çin Denizi davranış kurallarını yine sonuçlandıramadığını söyledi. Kuralların hukuken bağlayıcı olup olmayacağı açık kalan konular arasında."
+                },
+                {
+                  "quote": "Henüz bir sonuç yok.",
+                  "speaker": "Theresa Lazaro, Filipinler Dışişleri Bakanı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Görüşmeler yirmi yılı aşkın süredir devam ediyor. Lazaro, sürecin gelecek yıl dönem başkanlığını devralacak Singapur döneminde tamamlanmasını umduğunu söyledi. Al Jazeera’ya göre ASEAN, Myanmar liderinin zirvelere katılma yasağını da uzattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Güncellenen anlaşma",
+              "value": "1995",
+              "source": "Euronews"
+            },
+            {
+              "label": "Ortak faaliyet için adım",
+              "value": "100 → 10",
+              "source": "Teodoro, Euronews"
+            },
+            {
+              "label": "Japonya’nın radar ve drone hibesi",
+              "value": "4,3 milyar yen",
+              "source": "Euronews"
+            },
+            {
+              "label": "Uzlaşılan taslak",
+              "value": "yaklaşık %80",
+              "source": "Lazaro, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Manila",
+            "lat": 14.6,
+            "lon": 120.98,
+            "region": "Filipinler"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T16:42:39.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T01:00:09.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T01:00:09.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T02:46:35.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/15/australia-and-philippines-sign-new-defence-pact-amid-south-china-sea-tensions",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/military/article/3374504/can-new-four-country-defence-hub-counter-china-south-china-sea",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    },
+    {
+      "id": "da8865ca9d259060",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "2a7d344b49180c07",
+      "versions": {
+        "en": {
+          "shortTitle": "Tanker’s steering failed before crash",
+          "title": "Tanker’s steering failed two minutes before the New Orleans crash, NTSB says",
+          "summary": {
+            "what": "US safety investigators say the tanker Atlantic Asphalt suffered a “steering casualty” that left its rudder stuck to starboard before it hit the American Heritage.",
+            "why": "It is the first official account of why the tanker veered into the docked riverboat, which tipped onto its side on Friday.",
+            "next": "The NTSB expects to publish a preliminary report within 30 days; crew members have filed a lawsuit against the tanker’s managers."
+          },
+          "body": [
+            {
+              "subhead": "What investigators found",
+              "blocks": [
+                {
+                  "text": "The tanker that struck the American Heritage riverboat docked in New Orleans on Friday had a steering failure, the National Transportation Safety Board said at a briefing on Sunday, citing preliminary findings, the BBC and The Guardian reported. The failure came two minutes before the collision, The Guardian said."
+                },
+                {
+                  "quote": "It experienced the steering casualty, resulting in the rudder remaining to starboard. Following the steering casualty, the Atlantic Asphalt veered to starboard toward the east bank of the river.",
+                  "speaker": "Bart Barnum, NTSB senior marine accident investigator",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "What caused the steering failure is not yet known. The NTSB said many different things can count as a steering casualty and that it is “looking at all of them”, the BBC reported."
+                }
+              ]
+            },
+            {
+              "subhead": "The last minutes",
+              "blocks": [
+                {
+                  "text": "Findings from the tanker’s voyage data recorder show it was heading upriver on the Mississippi and moving towards the east bank just before the crash, the BBC said. Audio recovered by investigators captured “the ship’s whistle, warnings and requests for assistance broadcasted over the vessel’s marine radio, commands to deploy the vessel’s anchors, and emergency ship handling orders”, Barnum said, according to The Guardian."
+                },
+                {
+                  "text": "The NTSB is leading the investigation with the US Coast Guard, American Cruise Lines and representatives of the Marshall Islands, the tanker’s flag state. A preliminary report is expected within 30 days."
+                }
+              ]
+            },
+            {
+              "subhead": "Injuries and lawsuits",
+              "blocks": [
+                {
+                  "text": "Thirty-two people from the American Heritage were taken to hospital with non-critical injuries and no one was unaccounted for, the BBC reported. About 129 passengers were on board, according to the port authority; The Guardian put the number of passengers and crew at about 190. The boat was finishing an eight-day cruise on the river."
+                },
+                {
+                  "text": "The Port of New Orleans has filed a lawsuit seeking more than $1m from the tanker’s owner and operator. Four crew members of the American Heritage have filed a separate suit against Nave Shipping and Thome Ship Management, which oversee the tanker, alleging negligence and saying they “suffered significant and life changing injuries to their mind and body”, The Guardian reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Steering failed before impact",
+              "value": "2 min",
+              "source": "NTSB, via The Guardian"
+            },
+            {
+              "label": "Taken to hospital",
+              "value": "32",
+              "source": "BBC"
+            },
+            {
+              "label": "Preliminary report due within",
+              "value": "30 days",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Port’s damages claim",
+              "value": "$1m+",
+              "source": "The Guardian, BBC"
+            }
+          ],
+          "place": {
+            "name": "New Orleans",
+            "lat": 29.95,
+            "lon": -90.07,
+            "region": "Louisiana, United States"
+          },
+          "news": "The NTSB says the Atlantic Asphalt’s steering failed two minutes before the crash, leaving its rudder stuck to starboard."
+        },
+        "tr": {
+          "shortTitle": "Tankerin dümeni çarpışmadan önce arızalanmış",
+          "title": "NTSB: Tankerin dümeni çarpışmadan iki dakika önce arızalandı",
+          "summary": {
+            "what": "ABD’li güvenlik müfettişleri, Atlantic Asphalt tankerinin American Heritage’a çarpmadan önce dümen arızası yaşadığını ve dümenin sancakta kaldığını açıkladı.",
+            "why": "Tankerin rıhtımdaki nehir gemisine neden yöneldiğine dair ilk resmi açıklama; gemi cuma günü yan yatmıştı.",
+            "next": "NTSB ön raporu 30 gün içinde yayımlamayı bekliyor; mürettebat da tankeri işleten şirketlere dava açtı."
+          },
+          "body": [
+            {
+              "subhead": "Müfettişlerin bulguları",
+              "blocks": [
+                {
+                  "text": "BBC ve The Guardian’ın haberine göre Ulusal Ulaşım Güvenliği Kurulu (NTSB) pazar günkü basın toplantısında, cuma günü New Orleans’ta rıhtımdaki American Heritage nehir gemisine çarpan tankerin dümen arızası yaşadığını ön bulgulara dayanarak açıkladı. The Guardian’a göre arıza çarpışmadan iki dakika önce meydana geldi."
+                },
+                {
+                  "quote": "Dümen arızası yaşandı ve dümen sancak tarafında kaldı. Arızanın ardından Atlantic Asphalt sancağa, nehrin doğu kıyısına doğru saptı.",
+                  "speaker": "Bart Barnum, NTSB kıdemli deniz kazası müfettişi",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Arızaya neyin yol açtığı henüz bilinmiyor. BBC’ye göre NTSB, pek çok farklı sorunun dümen arızası sayılabileceğini ve “hepsine baktıklarını” söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Son dakikalar",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre tankerin seyir veri kaydedicisinden elde edilen bulgular, geminin çarpışmadan hemen önce Mississippi’de nehrin yukarısına doğru ilerlediğini ve doğu kıyısına yöneldiğini gösteriyor. The Guardian’ın aktardığına göre Barnum, kurtarılan seslerde “geminin düdüğü, deniz telsizinden yayınlanan uyarılar ve yardım çağrıları, demirlerin atılması komutları ve acil manevra emirlerinin” duyulduğunu söyledi."
+                },
+                {
+                  "text": "Soruşturmayı ABD Sahil Güvenlik, American Cruise Lines ve tankerin bayrak devleti Marshall Adaları temsilcileriyle birlikte NTSB yürütüyor. Ön raporun 30 gün içinde yayımlanması bekleniyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Yaralılar ve davalar",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre American Heritage’dan 32 kişi hayati tehlikesi olmayan yaralarla hastaneye kaldırıldı, kayıp kimse yok. Liman idaresine göre gemide yaklaşık 129 yolcu vardı; The Guardian ise yolcu ve mürettebat sayısını 190 civarında verdi. Gemi nehirde sekiz günlük bir turu tamamlamak üzereydi."
+                },
+                {
+                  "text": "The Guardian’a göre New Orleans Limanı, tankerin sahibi ve işletmecisinden 1 milyon dolardan fazla tazminat talep eden bir dava açtı. American Heritage’ın dört mürettebatı da tankeri yöneten Nave Shipping ve Thome Ship Management’a ayrı bir dava açarak ihmal iddiasında bulundu ve “zihinlerinde ve bedenlerinde ciddi, hayatlarını değiştiren yaralar” aldıklarını öne sürdü."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Arıza ile çarpışma arası",
+              "value": "2 dk",
+              "source": "NTSB, The Guardian"
+            },
+            {
+              "label": "Hastaneye kaldırılan",
+              "value": "32",
+              "source": "BBC"
+            },
+            {
+              "label": "Ön rapor için süre",
+              "value": "30 gün",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Limanın tazminat talebi",
+              "value": "1 milyon $+",
+              "source": "The Guardian, BBC"
+            }
+          ],
+          "place": {
+            "name": "New Orleans",
+            "lat": 29.95,
+            "lon": -90.07,
+            "region": "Louisiana, ABD"
+          },
+          "news": "NTSB’ye göre Atlantic Asphalt’ın dümeni çarpışmadan iki dakika önce arızalandı ve dümen sancak tarafında kilitli kaldı."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-15T22:57:27.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-15T23:20:59.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-15T23:20:59.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f55e/live/4bc0f750-e140-11f1-859a-418a418deb7d.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/15/audio-new-orleans-mississippi-river-cruise-tanker-crash",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T07:30:00+03:00",
+      "updatedAt": "2026-11-16T07:30:00+03:00"
+    }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "0e95513f47c96bd8",
+        "kind": "music",
+        "label": "confirmed",
+        "versions": {
+          "en": {
+            "title": "Oğuzhan Koç moves out after a court lifts his monthly rent from ₺85,000 to ₺324,000",
+            "gist": "The singer and his partner, actor Hazal Subaşı, left the Levent flat he had rented since 2019, Habertürk, Cumhuriyet and Onedio report.",
+            "aside": "Somewhere in Istanbul, a landlord is now advertising a flat with a court-certified price tag.",
+            "story": [
+              "Singer Oğuzhan Koç has moved out of his flat in Istanbul’s Levent after a court raised the monthly rent from ₺85,000 to ₺324,000, Habertürk, Cumhuriyet and Onedio report. He had lived there since 2019.",
+              "In 2024 the landlord asked for ₺350,000 a month, Onedio says. Koç refused, saying he had raised the rent regularly, and the landlord took the case to an Istanbul civil court. An expert report put the flat’s market rent at ₺360,000, and the court cut that by 10% for fairness, setting it at ₺324,000.",
+              "Rather than stay, Koç and his partner, actor Hazal Subaşı, hired a moving firm, and Subaşı stood by the lorry until everything was loaded, Habertürk reports. Cumhuriyet says the couple had been looking for a villa in Zekeriyaköy, and that their wedding, expected this autumn, has been put off until next year."
+            ]
+          },
+          "tr": {
+            "title": "Oğuzhan Koç, mahkeme aylık kirasını 85 binden 324 bin liraya çıkarınca evden taşındı",
+            "gist": "Habertürk, Cumhuriyet ve Onedio’ya göre şarkıcı, sevgilisi oyuncu Hazal Subaşı ile 2019’dan beri oturduğu Levent’teki daireden ayrıldı.",
+            "aside": "İstanbul’da bir ev sahibi artık ilanına “bilirkişi onaylı” diye yazabilir.",
+            "story": [
+              "Habertürk, Cumhuriyet ve Onedio’nun haberine göre şarkıcı Oğuzhan Koç, mahkemenin aylık kirasını 85 bin liradan 324 bin liraya çıkarmasının ardından İstanbul Levent’teki dairesinden taşındı. Koç 2019’dan beri bu evde oturuyordu.",
+              "Onedio’ya göre ev sahibi 2024’te kiranın 350 bin liraya çıkarılmasını istedi. Kira artışlarını düzenli yaptığını söyleyen Koç kabul etmeyince ev sahibi İstanbul Sulh Hukuk Mahkemesi’nde kira tespit davası açtı. Bilirkişi dairenin rayicini 360 bin lira olarak hesapladı; mahkeme yüzde 10 hakkaniyet indirimi uygulayarak yeni kirayı 324 bin lira olarak belirledi.",
+              "Habertürk’e göre evde kalmak yerine taşınmayı seçen Koç ve sevgilisi oyuncu Hazal Subaşı bir nakliye şirketiyle anlaştı; Subaşı yükleme bitene kadar kamyonun başında bekledi. Cumhuriyet, çiftin Zekeriyaköy’de villa aradığını ve sonbaharda yapılması beklenen düğünlerini gelecek yıla ertelediğini yazdı."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/magazin/oguzhan-koc-ve-hazal-subasi-yeni-yuvalarina-tasiniyor-3927512"
+          },
+          {
+            "sourceId": "cumhuriyet",
+            "url": "https://www.cumhuriyet.com.tr/magazin/oguzhan-koc-ve-hazal-subasi-ndan-kira-krizi-sonrasi-tasinma-yeni-adreslerine-yerlestiler-2556376"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/aylik-kirasi-85-binden-324-bine-cikan-oguzhan-koc-levent-teki-evinden-tasindi-1395280"
+          }
+        ],
+        "image": {
+          "url": "https://im.haberturk.com/l/2026/11/15/ver1794750723/3927512/jpg/1920x1080",
+          "sourceId": "haberturk",
+          "sourceName": "Habertürk",
+          "articleUrl": "https://www.haberturk.com/magazin/oguzhan-koc-ve-hazal-subasi-yeni-yuvalarina-tasiniyor-3927512"
+        }
+      }
+    ],
+    "rumours": []
+  },
+  "quiz": [
+    {
+      "storyId": "f960968cdaeb4dcb",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many houses did Sunday evening’s fire in İnegöl’s Turgutalp neighbourhood affect?",
+          "options": ["3", "5", "12"]
+        },
+        "tr": {
+          "question": "İnegöl’ün Turgutalp Mahallesi’nde pazar akşamı çıkan yangın kaç evi etkiledi?",
+          "options": ["3", "5", "12"]
+        }
+      }
+    },
+    {
+      "storyId": "fdbabb74a9b628f6",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How many Amazon Leo satellites were lost when the Vulcan rocket failed on Sunday?",
+          "options": ["12", "24", "40"]
+        },
+        "tr": {
+          "question": "Vulcan roketinin pazar günkü başarısız fırlatmasında Amazon’un kaç Leo uydusu kaybedildi?",
+          "options": ["12", "24", "40"]
+        }
+      }
+    },
+    {
+      "storyId": "216941e6cb64de32",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Which city will host the 2027 Invictus Games that Ukraine’s veterans are training for?",
+          "options": ["Birmingham", "Toronto", "Lviv"]
+        },
+        "tr": {
+          "question": "Ukraynalı gazilerin hazırlandığı 2027 Invictus Oyunları hangi kentte yapılacak?",
+          "options": ["Birmingham", "Toronto", "Lviv"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401861177",
+      "kind": "match",
+      "sport": "football",
+      "focus": "national",
+      "name": {
+        "en": "Türkiye",
+        "tr": "Türkiye"
+      },
+      "competition": {
+        "en": "Nations League",
+        "tr": "Uluslar Ligi"
+      },
+      "home": {
+        "name": "France",
+        "ours": false,
+        "team": "france"
+      },
+      "away": {
+        "name": "Türkiye",
+        "ours": true,
+        "team": "turkiye"
+      },
+      "startsAt": "2026-11-15T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.nations/401861177"
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Emir Han Topcu",
+          "minutes": ["49'"],
+          "own": true
+        },
+        {
+          "side": "home",
+          "name": "Junior Kroupi",
+          "minutes": ["80'"]
+        },
+        {
+          "side": "away",
+          "name": "Abdülkerim Bardakçi",
+          "minutes": ["90'"]
+        }
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "espn-401909991",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "short": "Wizards",
+        "ours": false,
+        "team": "washington-wizards"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-16T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909991"
+      },
+      "result": {
+        "home": 119,
+        "away": 147
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 19,
+          "rebounds": 8,
+          "assists": 8
+        }
+      ]
+    },
+    {
+      "id": "espn-401909997",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "short": "Nets",
+        "ours": false,
+        "team": "brooklyn-nets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909997"
+      }
+    },
+    {
+      "id": "espn-401909998",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909998"
+      }
+    }
+  ]
+}
