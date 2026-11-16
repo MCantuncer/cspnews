@@ -2523,11 +2523,13 @@
       },
       "home": {
         "name": "Philadelphia 76ers",
+        "short": "76ers",
         "ours": true,
         "team": "philadelphia-76ers"
       },
       "away": {
         "name": "Indiana Pacers",
+        "short": "Pacers",
         "ours": false,
         "team": "indiana-pacers"
       },
@@ -2608,11 +2610,13 @@
       },
       "home": {
         "name": "Washington Wizards",
+        "short": "Wizards",
         "ours": false,
         "team": "washington-wizards"
       },
       "away": {
         "name": "Houston Rockets",
+        "short": "Rockets",
         "ours": true,
         "team": "houston-rockets"
       },
@@ -2620,7 +2624,15 @@
       "live": {
         "source": "espn",
         "ref": "basketball/nba/401909991"
-      }
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 5,
+          "rebounds": 2,
+          "assists": 1
+        }
+      ]
     }
   ]
 }
