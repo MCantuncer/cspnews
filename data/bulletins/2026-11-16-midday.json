@@ -1329,5 +1329,115 @@
         }
       }
     }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909991",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "short": "Wizards",
+        "ours": false,
+        "team": "washington-wizards"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-16T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909991"
+      },
+      "result": {
+        "home": 119,
+        "away": 147
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 19,
+          "rebounds": 8,
+          "assists": 8
+        }
+      ]
+    },
+    {
+      "id": "espn-401909997",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "short": "Nets",
+        "ours": false,
+        "team": "brooklyn-nets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909997"
+      }
+    },
+    {
+      "id": "espn-401909998",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909998"
+      }
+    }
   ]
 }
