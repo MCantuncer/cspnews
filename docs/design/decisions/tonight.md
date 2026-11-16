@@ -27,3 +27,8 @@ Logos and player photos come from the leagues' own data and are saved next to th
 - **Closed by default.** The scoreline shows only the score and its clock. A tap opens it to show who scored, and closes it again. Nothing to open before the first goal or basket.
 - **Room.** Rows have generous padding and space between their lines; nothing sits squeezed beside a name.
 - **Before the source starts a game** that is past its start time, the row says "Starting soon" rather than "Live".
+
+## Wide screens (Can, 2026-11-16)
+
+- **Each match row has two parts:** what it is (the name, a person's numbers, the league) and the scoreline. On a phone they stack; from 720px they sit side by side, the scoreline in a fixed column on the right so every row's score lines up, its goals opening under it.
+- **Short club names** ("76ers", "Rockets") from the score source, the full name kept for screen readers.
