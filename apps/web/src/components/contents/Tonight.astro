@@ -88,6 +88,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
             <div class="body">
               {board && local.home && local.away ? (
                 <>
+                  <div class="info">
                   {local.focus === 'person' && (
                     <div class="person">
                       <span class="name">{local.name}</span>
@@ -110,6 +111,9 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                       </span>
                     </div>
                   )}
+                  {local.focus !== 'person' && <span class="name">{local.name}</span>}
+                  <span class="comp">{local.competition}</span>
+                  </div>
                   <button
                     type="button"
                     class="match"
@@ -137,7 +141,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                               {side.short ? (
                                 <>
                                   <span class="full">{side.name}</span>
-                                  <span class="short">{side.short}</span>
+                                  <span class="short" aria-hidden="true">{side.short}</span>
                                 </>
                               ) : (
                                 side.name
@@ -208,7 +212,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                   <span class="what">{tonightWhat(local, lang)}</span>
                 </>
               )}
-              <span class="comp">{local.competition}</span>
+              {!board && <span class="comp">{local.competition}</span>}
             </div>
             {!board && (
             <div class="when">
@@ -398,10 +402,49 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
    * A person's row: their name, then their own numbers as a small box score on a line of its
    * own (each number over its word), then the match as a scoreline like every other match.
    */
+  /*
+   * A match row: what it is (a person's name and numbers, then the league) and the scoreline.
+   * On a phone one under the other; on a wider screen side by side, the scoreline on the right
+   * in a column of its own, so every row's score sits in the same place.
+   */
+  .board .body {
+    grid-template-areas: 'info' 'match' 'scorers';
+    gap: 0;
+  }
+
+  .info {
+    display: grid;
+    grid-area: info;
+    gap: 4px;
+    min-width: 0;
+    margin-bottom: 16px;
+  }
+
+  .board button.match {
+    grid-area: match;
+  }
+
+  .board .scorers {
+    grid-area: scorers;
+  }
+
+  @media (min-width: 720px) {
+    .board .body {
+      grid-template-areas: 'info match' '. scorers';
+      grid-template-columns: minmax(0, 1fr) 380px;
+      column-gap: 28px;
+      row-gap: 0;
+      align-items: start;
+    }
+
+    .info {
+      margin-bottom: 0;
+    }
+  }
+
   .person {
     display: grid;
     gap: 4px;
-    margin-bottom: 14px;
   }
 
   .marks-line:empty {
@@ -524,19 +567,15 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     flex: none;
   }
 
-  /* On a phone a long club name gives way to the source's short one: "76ers", "Rockets". */
-  .team-name .short {
-    display: none;
-  }
-
-  @media (max-width: 560px) {
-    .team-name .full {
-      display: none;
-    }
-
-    .team-name .short {
-      display: inline;
-    }
+  /* A long club name gives way to the source's short one ("76ers", "Rockets"); the full name
+     stays for screen readers and as the tooltip. */
+  .team-name .full {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
 
   .team.home {
@@ -665,7 +704,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     grid-auto-flow: row dense;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 8px 12px;
-    margin: 14px 0 4px;
+    margin: 14px 0 0;
     padding: 12px 0 0;
     border-top: 1px solid var(--line);
   }
@@ -724,6 +763,6 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   }
 
   .board .comp {
-    margin-top: 10px;
+    margin: 0;
   }
 </style>
