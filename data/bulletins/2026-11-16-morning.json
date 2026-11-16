@@ -244,7 +244,6 @@
         "en": {
           "shortTitle": "Serbia–Greece decides Türkiye’s fate",
           "title": "Türkiye need Serbia to lose by four goals to avoid relegation",
-          "news": "Türkiye go into a play-off only if Serbia lose to Greece by four or more goals on Monday; any other result sends them down to League B.",
           "summary": {
             "what": "After the 2-1 defeat in France, Türkiye’s place in the Nations League now hangs on Monday’s Serbia–Greece game, Cumhuriyet reports.",
             "why": "Sergen Yalçın says his side gave “a very important ray of hope” and promises the team will be very different in March.",
@@ -333,12 +332,12 @@
             "lat": 44.84,
             "lon": -0.58,
             "region": "Nouvelle-Aquitaine, France"
-          }
+          },
+          "news": "Türkiye go into a play-off only if Serbia lose to Greece by four or more goals on Monday; any other result sends them down to League B."
         },
         "tr": {
           "shortTitle": "Milli Takımın kaderi Sırbistan maçında",
           "title": "Milli Takımın A Ligi’ndeki kaderi Sırbistan-Yunanistan maçına kaldı",
-          "news": "Sırbistan pazartesi Yunanistan’a en az 4 farkla yenilirse Türkiye play-off oynayacak; başka her sonuçta B Ligi’ne düşecek.",
           "summary": {
             "what": "Cumhuriyet’e göre Fransa’ya 2-1 yenilen milli takımın Uluslar Ligi’ndeki durumu pazartesi oynanacak Sırbistan-Yunanistan maçına bağlı.",
             "why": "Sergen Yalçın, takımın “ilerisi için çok önemli bir umut ışığı” verdiğini söyleyip mart ayında bambaşka bir takım sözü verdi.",
@@ -425,7 +424,8 @@
             "lat": 44.84,
             "lon": -0.58,
             "region": "Nouvelle-Aquitaine, Fransa"
-          }
+          },
+          "news": "Sırbistan pazartesi Yunanistan’a en az 4 farkla yenilirse Türkiye play-off oynayacak; başka her sonuçta B Ligi’ne düşecek."
         }
       },
       "timeline": [
@@ -457,7 +457,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afa2b058c01a1364d0693dd.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afa2b058c01a1364d0693dd.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/sporarena/sergen-yalcin-umut-ediyorum-ilerisi-daha-guzel-olacak-43379585"
@@ -1805,7 +1805,6 @@
         "en": {
           "shortTitle": "Tanker’s steering failed before crash",
           "title": "Tanker’s steering failed two minutes before the New Orleans crash, NTSB says",
-          "news": "The NTSB says the Atlantic Asphalt’s steering failed two minutes before the crash, leaving its rudder stuck to starboard.",
           "summary": {
             "what": "US safety investigators say the tanker Atlantic Asphalt suffered a “steering casualty” that left its rudder stuck to starboard before it hit the American Heritage.",
             "why": "It is the first official account of why the tanker veered into the docked riverboat, which tipped onto its side on Friday.",
@@ -1878,12 +1877,12 @@
             "lat": 29.95,
             "lon": -90.07,
             "region": "Louisiana, United States"
-          }
+          },
+          "news": "The NTSB says the Atlantic Asphalt’s steering failed two minutes before the crash, leaving its rudder stuck to starboard."
         },
         "tr": {
           "shortTitle": "Tankerin dümeni çarpışmadan önce arızalanmış",
           "title": "NTSB: Tankerin dümeni çarpışmadan iki dakika önce arızalandı",
-          "news": "NTSB’ye göre Atlantic Asphalt’ın dümeni çarpışmadan iki dakika önce arızalandı ve dümen sancak tarafında kilitli kaldı.",
           "summary": {
             "what": "ABD’li güvenlik müfettişleri, Atlantic Asphalt tankerinin American Heritage’a çarpmadan önce dümen arızası yaşadığını ve dümenin sancakta kaldığını açıkladı.",
             "why": "Tankerin rıhtımdaki nehir gemisine neden yöneldiğine dair ilk resmi açıklama; gemi cuma günü yan yatmıştı.",
@@ -1957,7 +1956,8 @@
             "lat": 29.95,
             "lon": -90.07,
             "region": "Louisiana, ABD"
-          }
+          },
+          "news": "NTSB’ye göre Atlantic Asphalt’ın dümeni çarpışmadan iki dakika önce arızalandı ve dümen sancak tarafında kilitli kaldı."
         }
       },
       "timeline": [
@@ -2093,6 +2093,167 @@
           "question": "Ukraynalı gazilerin hazırlandığı 2027 Invictus Oyunları hangi kentte yapılacak?",
           "options": ["Birmingham", "Toronto", "Lviv"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401861177",
+      "kind": "match",
+      "sport": "football",
+      "focus": "national",
+      "name": {
+        "en": "Türkiye",
+        "tr": "Türkiye"
+      },
+      "competition": {
+        "en": "Nations League",
+        "tr": "Uluslar Ligi"
+      },
+      "home": {
+        "name": "France",
+        "ours": false,
+        "team": "france"
+      },
+      "away": {
+        "name": "Türkiye",
+        "ours": true,
+        "team": "turkiye"
+      },
+      "startsAt": "2026-11-15T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.nations/401861177"
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Emir Han Topcu",
+          "minutes": ["49'"],
+          "own": true
+        },
+        {
+          "side": "home",
+          "name": "Junior Kroupi",
+          "minutes": ["80'"]
+        },
+        {
+          "side": "away",
+          "name": "Abdülkerim Bardakçi",
+          "minutes": ["90'"]
+        }
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "espn-401909991",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "short": "Wizards",
+        "ours": false,
+        "team": "washington-wizards"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-16T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909991"
+      },
+      "result": {
+        "home": 119,
+        "away": 147
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 19,
+          "rebounds": 8,
+          "assists": 8
+        }
+      ]
+    },
+    {
+      "id": "espn-401909997",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "short": "Nets",
+        "ours": false,
+        "team": "brooklyn-nets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909997"
+      }
+    },
+    {
+      "id": "espn-401909998",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909998"
       }
     }
   ]
