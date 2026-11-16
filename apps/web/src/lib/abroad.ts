@@ -40,6 +40,14 @@ export function initials(person: string): string {
   return picked.map((part) => part?.charAt(0).toLocaleUpperCase('tr') ?? '').join('');
 }
 
+/**
+ * The club or team in a `where` line, for its crest: "Houston Rockets, NBA" → "Houston Rockets".
+ * Crests are the ones Tonight saves (media/teams), so a club only has one once it has played there.
+ */
+export function clubOf(where: string): string {
+  return where.split(',')[0]?.trim() ?? '';
+}
+
 const locale = (lang: InterfaceLanguage) => (lang === 'tr' ? 'tr-TR' : 'en-GB');
 
 const dayOf = (iso: string) =>

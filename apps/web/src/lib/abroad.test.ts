@@ -1,7 +1,7 @@
 import type { TennisLine } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
-import { initials, istanbulMoment, statBoard, statStrip, whenLine } from './abroad.js';
+import { clubOf, initials, istanbulMoment, statBoard, statStrip, whenLine } from './abroad.js';
 
 const EVENING = '2026-11-14T15:30:00Z';
 
@@ -9,6 +9,11 @@ describe('Turks abroad on the site', () => {
   it('makes initials from the first and last name', () => {
     expect(initials('Alperen Şengün')).toBe('AŞ');
     expect(initials('Daron Acemoğlu')).toBe('DA');
+  });
+
+  it('reads the club from the where line, for its crest', () => {
+    expect(clubOf('Houston Rockets, NBA')).toBe('Houston Rockets');
+    expect(clubOf('MIT')).toBe('MIT');
   });
 
   it('gives a time on the bulletin’s own day, and the weekday otherwise, in Istanbul time', () => {
