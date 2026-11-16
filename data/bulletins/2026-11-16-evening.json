@@ -1,0 +1,2017 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-16T18:30:00+03:00",
+  "writtenAt": "2026-11-16T14:58:34Z",
+  "stories": [
+    {
+      "id": "3693009ea35ae2e2",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Beyoğlu acting mayor quits CHP",
+          "title": "Beyoğlu’s acting mayor Sefer Karaahmetoğlu quits the CHP, blaming party infighting",
+          "summary": {
+            "what": "Sefer Karaahmetoğlu, acting mayor of Istanbul’s Beyoğlu district, resigned from the CHP on Monday, saying factional fights were hurting local services.",
+            "why": "He is the latest of several Istanbul district leaders to leave the main opposition party since October, most of them for Özgür Özel’s YENİ Parti.",
+            "next": "He did not say whether he will join another party; Sözcü reports talk of a move to the AKP, which he has not confirmed."
+          },
+          "body": [
+            {
+              "subhead": "The resignation",
+              "blocks": [
+                {
+                  "text": "Sefer Karaahmetoğlu, who has run Istanbul’s Beyoğlu district as acting mayor since the elected mayor İnan Güney was arrested and removed from office, said on Monday that he has resigned from the Republican People’s Party (CHP), Cumhuriyet, Sözcü, Diken and Habertürk report. He announced the decision in a statement on his X account."
+                },
+                {
+                  "quote": "I see and experience that the factionalism, arguments and divisions that have run rampant within the Republican People’s Party are also harming the work of local government. I cannot accept that this division, which makes us spend our energy on infighting instead of on work and production, should turn into lost services for Beyoğlu.",
+                  "speaker": "Sefer Karaahmetoğlu",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "His reasons",
+              "blocks": [
+                {
+                  "text": "In the statement, Karaahmetoğlu said he had carried the responsibility of earning residents’ trust since he was elected to the Beyoğlu municipal council, and that as acting mayor his priority had been to serve the district. Describing himself as a lawyer, he wrote that public office sometimes requires taking certain decisions."
+                },
+                {
+                  "text": "He said Beyoğlu’s residents expect concrete steps for their streets, their children’s future and their families’ needs, and that he would never accept the district’s people paying the price for arguments inside the party. He wrote that he had “completely lost” his belief that he could properly carry out that responsibility within the current party structure, and that law, the public interest and Beyoğlu’s needs would guide his work from now on."
+                }
+              ]
+            },
+            {
+              "subhead": "Where he goes next",
+              "blocks": [
+                {
+                  "text": "Karaahmetoğlu gave no sign in his post that he would join another party, Diken notes. Sözcü reported claims that he had been unreachable for three days, and said a move to the governing AKP had come onto the agenda along with a new council vote for the acting mayor’s post. Cumhuriyet ran a follow-up asking whether Beyoğlu municipality is passing to the AKP. Karaahmetoğlu has not commented on either report."
+                }
+              ]
+            },
+            {
+              "subhead": "A string of departures",
+              "blocks": [
+                {
+                  "text": "İnan Güney, who was released on 8 July after 11 months in detention, is still a CHP member, according to Diken. The resignation follows a wave of departures from the party in Istanbul’s district halls. Last month Kadıköy mayor Mesut Kösedağı and, a day later, Maltepe mayor Esin Köymen left the CHP for YENİ Parti. In the following week Bakırköy mayor Ayşegül Ovalıoğlu, Küçükçekmece mayor Kemal Çebi, Çatalca mayor Erhan Güzel and Büyükçekmece’s acting mayor Hakan Çebi did the same, Diken reports. YENİ Parti, founded on 24 July by Özgür Özel and people close to him, now runs six district municipalities in Istanbul."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Güney’s time in detention",
+              "value": "11 months",
+              "source": "Diken"
+            },
+            {
+              "label": "Güney released",
+              "value": "8 Jul",
+              "source": "Diken"
+            },
+            {
+              "label": "Istanbul district heads who left CHP for YENİ Parti",
+              "value": "6",
+              "source": "Diken"
+            },
+            {
+              "label": "Istanbul districts run by YENİ Parti",
+              "value": "6",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Beyoğlu",
+            "lat": 41.03,
+            "lon": 28.98,
+            "region": "Istanbul, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Beyoğlu başkan vekili CHP’den istifa etti",
+          "title": "Beyoğlu Belediye Başkan Vekili Sefer Karaahmetoğlu, parti içi kavgaları gerekçe gösterip CHP’den istifa etti",
+          "summary": {
+            "what": "Beyoğlu Belediye Başkan Vekili Sefer Karaahmetoğlu, parti içindeki hizip kavgalarının hizmete zarar verdiğini söyleyerek pazartesi günü CHP’den istifa etti.",
+            "why": "Karaahmetoğlu, ekimden bu yana CHP’den ayrılan İstanbul ilçe yöneticilerinin sonuncusu; önceki isimlerin çoğu Özgür Özel’in YENİ Parti’sine geçti.",
+            "next": "Başka bir partiye geçip geçmeyeceğini söylemedi; Sözcü, AKP’ye geçebileceğinin konuşulduğunu yazdı, Karaahmetoğlu bunu doğrulamadı."
+          },
+          "body": [
+            {
+              "subhead": "İstifa",
+              "blocks": [
+                {
+                  "text": "Beyoğlu Belediye Başkanı İnan Güney’in tutuklanıp görevden uzaklaştırılmasının ardından başkan vekili seçilen Sefer Karaahmetoğlu, pazartesi günü Cumhuriyet Halk Partisi’nden (CHP) istifa ettiğini açıkladı. Cumhuriyet, Sözcü, Diken ve Habertürk’ün haberine göre Karaahmetoğlu kararını X hesabından duyurdu."
+                },
+                {
+                  "quote": "Cumhuriyet Halk Partisi içinde ayyuka çıkan hizip, tartışmaların ve ayrışmaların yerel yönetim çalışmalarını da olumsuz etkilediğini görüyor ve yaşıyorum. Enerjimizi çalışmaya ve üretmeye değil, iç kavgalara tükettiren bu bölünmüşlüğün, Beyoğlu’na hizmet kaybı olarak yansımasını kabul edemiyorum.",
+                  "speaker": "Sefer Karaahmetoğlu",
+                  "sourceId": "cumhuriyet"
+                }
+              ]
+            },
+            {
+              "subhead": "Gerekçesi",
+              "blocks": [
+                {
+                  "text": "Karaahmetoğlu açıklamasında, Beyoğlu Belediye Meclis üyeliğine seçildiği günden bu yana hemşehrilerinin güvenine layık olmanın sorumluluğunu taşıdığını, başkan vekilliğinde de önceliğinin Beyoğlu’na hizmet etmek olduğunu yazdı. Bir hukukçu olarak kamu görevinin gerektiğinde bazı kararlar almayı gerektirdiğini belirtti."
+                },
+                {
+                  "text": "Beyoğlu halkının sokakları, çocuklarının geleceği ve ailelerinin ihtiyaçları için somut adımlar beklediğini söyleyen Karaahmetoğlu, parti içi tartışmaların bedelini Beyoğlululara ödetmeye asla razı olamayacağını vurguladı. Mevcut parti yapısı içinde bu sorumluluğu gereği gibi yerine getirebileceğine dair inancını “tamamen” kaybettiğini, bundan sonra rehberinin hukuk, kamu yararı ve Beyoğlu’nun ihtiyaçları olacağını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Bundan sonrası",
+              "blocks": [
+                {
+                  "text": "Diken’e göre Karaahmetoğlu paylaşımında başka bir partiye geçeceğine dair bir mesaj vermedi. Sözcü ise Karaahmetoğlu’na üç gündür ulaşılamadığı iddiasını aktardı ve mecliste başkan vekilliği için yapılacak yeni seçimle birlikte AKP’ye geçmesinin de gündeme geldiğini yazdı. Cumhuriyet de “Beyoğlu Belediyesi AKP’ye mi geçiyor?” sorusuyla ayrı bir haber yayımladı. Karaahmetoğlu bu iddialara yanıt vermedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Art arda ayrılıklar",
+              "blocks": [
+                {
+                  "text": "Diken’in aktardığına göre 11 aylık tutukluluğun ardından 8 Temmuz’da tahliye edilen İnan Güney hâlâ CHP üyesi. İstifa, İstanbul’daki ilçe belediyelerinde CHP’den süren ayrılıkların son halkası. Geçen ay önce Kadıköy Belediye Başkanı Mesut Kösedağı, ertesi gün Maltepe Belediye Başkanı Esin Köymen CHP’den ayrılıp YENİ Parti’ye geçti. Sonraki hafta Bakırköy Belediye Başkanı Ayşegül Ovalıoğlu, Küçükçekmece Belediye Başkanı Kemal Çebi, Çatalca Belediye Başkanı Erhan Güzel ve Büyükçekmece Belediye Başkan Vekili Hakan Çebi de aynı yolu izledi. Özgür Özel ve yakınındaki isimlerin 24 Temmuz’da kurduğu YENİ Parti’nin İstanbul’da altı ilçe belediyesi var."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Güney’in tutuklu kaldığı süre",
+              "value": "11 ay",
+              "source": "Diken"
+            },
+            {
+              "label": "Güney’in tahliyesi",
+              "value": "8 Temmuz",
+              "source": "Diken"
+            },
+            {
+              "label": "CHP’den YENİ Parti’ye geçen İstanbul ilçe başkanı",
+              "value": "6",
+              "source": "Diken"
+            },
+            {
+              "label": "YENİ Parti’nin İstanbul’daki ilçe belediyesi",
+              "value": "6",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Beyoğlu",
+            "lat": 41.03,
+            "lon": 28.98,
+            "region": "İstanbul, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T14:03:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:19:49.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T14:19:49.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:22:26.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T14:22:26.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:23:54.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:29:22.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:36:39.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:40:04.000Z",
+          "sourceId": "a-haber"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/cc47a6b8-d874-4aa6-a419-349d3d0ef36e.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/beyoglu-belediye-baskan-vekili-sefer-karaahmetoglu-butlan-chp-sinden-istifa-etti-2556646"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/beyoglu-belediye-baskan-vekili-sefer-karaahmetoglu-butlan-chp-sinden-istifa-etti-2556646",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/beyoglu-belediye-baskan-vekili-chp-den-istifa-etti-p381938",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/beyoglu-belediye-baskan-vekili-karaahmetoglu-chpden-istifa-etti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/16/beyoglu-belediye-baskanvekili-sefer-karaahmetoglu-chpden-istifa-etti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-karaahmetoglu-chp-den-istifa-etti-3927735",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/crpdwn4de92vo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/16/beyoglu-belediye-baskan-vekili-sefer-karaahmetoglu-chpden-istifa-etti",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "020b3702486d1416",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "October budget deficit hits ₺481bn",
+          "title": "Türkiye’s budget deficit more than doubles to ₺481.1bn in October",
+          "summary": {
+            "what": "The central government budget ran a ₺481.1bn deficit in October, up 115.5% from ₺223.2bn a year earlier, the Treasury and Finance Ministry said.",
+            "why": "Interest payments rose 91.4% in a year, and spending grew more than twice as fast as revenue, pushing the ten-month gap to ₺2.32 trillion.",
+            "next": "The ten-month deficit is already 61.2% higher than a year ago, with two months of the year still to report."
+          },
+          "body": [
+            {
+              "subhead": "The October figures",
+              "blocks": [
+                {
+                  "text": "Türkiye’s central government budget ran a deficit of ₺481.1 billion in October, the Treasury and Finance Ministry said on Monday, as reported by Bloomberg HT, Habertürk, Diken and Cumhuriyet. A year earlier the October gap was ₺223.2 billion, so the deficit grew by ₺257.9 billion, or 115.5%, in twelve months, Bloomberg HT calculates."
+                },
+                {
+                  "text": "Spending in October rose 29.9% from a year earlier to ₺1.78 trillion, while revenue grew only 13.2% to ₺1.30 trillion. Tax revenue rose 16.9% to ₺1.14 trillion. With spending growing more than twice as fast as income, the gap between the two widened sharply in a single month."
+                },
+                {
+                  "text": "Bloomberg HT was first to publish the figures on Monday morning, and Habertürk, Diken and Cumhuriyet followed with the same numbers from the ministry’s release."
+                }
+              ]
+            },
+            {
+              "subhead": "Interest takes a bigger share",
+              "blocks": [
+                {
+                  "text": "Interest payments were the fastest-growing item. They reached ₺301.3 billion in October, up 91.4% on the same month last year, according to the ministry’s data reported by Bloomberg HT and Diken. Spending other than interest rose 21.9% to ₺1.48 trillion, so interest grew more than four times as fast as the rest of the budget."
+                },
+                {
+                  "text": "Even leaving interest aside, the books did not balance: the primary deficit, the balance of revenue against all spending except interest, widened from ₺65.8 billion a year earlier to ₺179.8 billion in October."
+                }
+              ]
+            },
+            {
+              "subhead": "Ten months",
+              "blocks": [
+                {
+                  "text": "From January to October the budget deficit reached ₺2.32 trillion, up 61.2% from ₺1.44 trillion in the same period of 2025. Spending over the ten months rose 35.7% to ₺15.73 trillion, and revenue rose 32.1% to ₺13.41 trillion."
+                },
+                {
+                  "text": "Interest payments over the ten months climbed 40.3% to ₺2.55 trillion, Bloomberg HT and Diken report, faster than either revenue or spending as a whole."
+                }
+              ]
+            },
+            {
+              "subhead": "A shrinking cushion",
+              "blocks": [
+                {
+                  "text": "Despite the October shortfall, the ten-month primary balance is still in surplus, Cumhuriyet notes, because revenue so far this year has exceeded spending other than interest. But that surplus has shrunk to ₺231 billion, from ₺379.3 billion in the first ten months of last year. Cumhuriyet called October a heavy bill for the Treasury."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "October deficit",
+              "value": "₺481.1bn",
+              "source": "Treasury and Finance Ministry"
+            },
+            {
+              "label": "October interest payments",
+              "value": "₺301.3bn",
+              "source": "Treasury and Finance Ministry"
+            },
+            {
+              "label": "Rise in interest payments",
+              "value": "91.4%",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "January–October deficit",
+              "value": "₺2.32tn",
+              "source": "Treasury and Finance Ministry"
+            },
+            {
+              "label": "Ten-month primary surplus",
+              "value": "₺231bn",
+              "source": "Treasury and Finance Ministry"
+            }
+          ],
+          "keyNumber": {
+            "label": "October budget deficit",
+            "unit": "₺bn",
+            "before": 223.2,
+            "after": 481.1,
+            "source": "Treasury and Finance Ministry"
+          }
+        },
+        "tr": {
+          "shortTitle": "Ekimde bütçe açığı 481 milyar lira",
+          "title": "Bütçe açığı ekimde iki kattan fazla artarak 481,1 milyar liraya çıktı",
+          "summary": {
+            "what": "Hazine ve Maliye Bakanlığı verilerine göre merkezi yönetim bütçesi ekimde 481,1 milyar lira açık verdi; geçen yılın aynı ayında açık 223,2 milyar liraydı.",
+            "why": "Faiz giderleri bir yılda %91,4 arttı, giderler gelirlerin iki katından hızlı büyüdü ve on aylık açık 2,32 trilyon liraya ulaştı.",
+            "next": "Yılın son iki ayı açıklanmadan on aylık açık geçen yılın %61,2 üzerine çıkmış durumda."
+          },
+          "body": [
+            {
+              "subhead": "Ekim verileri",
+              "blocks": [
+                {
+                  "text": "Hazine ve Maliye Bakanlığı’nın pazartesi açıkladığı verilere göre merkezi yönetim bütçesi ekimde 481,1 milyar lira açık verdi. Bloomberg HT, Habertürk, Diken ve Cumhuriyet’in aktardığı rakamlara göre geçen yılın aynı ayında 223,2 milyar lira olan açık, bir yılda 257,9 milyar lira, yani %115,5 arttı."
+                },
+                {
+                  "text": "Ekimde bütçe giderleri yıllık %29,9 artışla 1 trilyon 779,4 milyar liraya çıkarken bütçe gelirleri yalnızca %13,2 artarak 1 trilyon 298,3 milyar lira oldu. Vergi gelirleri %16,9 artışla 1 trilyon 141,1 milyar liraya ulaştı. Giderlerin gelirlerden iki kat hızlı artması, aradaki farkı tek ayda belirgin biçimde açtı."
+                }
+              ]
+            },
+            {
+              "subhead": "Faizin payı büyüyor",
+              "blocks": [
+                {
+                  "text": "En hızlı artan kalem faiz giderleri oldu. Bloomberg HT ve Diken’in aktardığı verilere göre faiz giderleri ekimde geçen yılın aynı ayına göre %91,4 artarak 301,3 milyar liraya ulaştı. Faiz hariç giderler ise %21,9 artışla 1 trilyon 478,1 milyar lira oldu."
+                },
+                {
+                  "text": "Faiz bir kenara bırakıldığında bile hesap tutmadı: faiz dışı açık, bir yıl önceki 65,8 milyar liradan ekimde 179,8 milyar liraya çıktı."
+                }
+              ]
+            },
+            {
+              "subhead": "On aylık tablo",
+              "blocks": [
+                {
+                  "text": "Ocak-ekim döneminde bütçe açığı, geçen yılın aynı dönemindeki 1 trilyon 440,5 milyar liradan %61,2 artışla 2 trilyon 321,4 milyar liraya yükseldi. Bu dönemde giderler %35,7 artışla 15 trilyon 727,5 milyar lira, gelirler %32,1 artışla 13 trilyon 406,1 milyar lira oldu."
+                },
+                {
+                  "text": "Bloomberg HT ve Diken’e göre on aylık faiz giderleri %40,3 artarak 2 trilyon 552,4 milyar liraya ulaştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Eriyen tampon",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’in belirttiğine göre ekimdeki faiz dışı açığa karşın yılın ilk on ayında faiz dışı denge hâlâ fazla veriyor, çünkü gelirler faiz dışı giderleri aşmış durumda. Ancak bu fazla, geçen yılın aynı dönemindeki 379,3 milyar liradan 231 milyar liraya geriledi. Cumhuriyet, Hazine’nin ekim faturasının ağır olduğunu yazdı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ekim bütçe açığı",
+              "value": "481,1 milyar ₺",
+              "source": "Hazine ve Maliye Bakanlığı"
+            },
+            {
+              "label": "Ekim faiz giderleri",
+              "value": "301,3 milyar ₺",
+              "source": "Hazine ve Maliye Bakanlığı"
+            },
+            {
+              "label": "Faiz giderlerindeki artış",
+              "value": "%91,4",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Ocak-ekim bütçe açığı",
+              "value": "2,32 trilyon ₺",
+              "source": "Hazine ve Maliye Bakanlığı"
+            },
+            {
+              "label": "On aylık faiz dışı fazla",
+              "value": "231 milyar ₺",
+              "source": "Hazine ve Maliye Bakanlığı"
+            }
+          ],
+          "keyNumber": {
+            "label": "Ekim bütçe açığı",
+            "unit": "milyar ₺",
+            "before": 223.2,
+            "after": 481.1,
+            "source": "Hazine ve Maliye Bakanlığı"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T07:54:37.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T08:51:43.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T08:51:43.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T09:31:44.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T10:18:00.000Z",
+          "sourceId": "cumhuriyet"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/16/ver1794815722/3794726/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/butce-ekim-de-481-1-milyar-tl-acik-verdi-3794726"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/butce-ekim-de-481-1-milyar-tl-acik-verdi-3794726",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/butce-ekimde-481-milyar-tl-acik-verdi-3927658",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/butce-ekimde-4811-milyar-lira-acik-verdi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/hazine-nin-ekim-faturasi-agir-oldu-butcede-dev-acik-2556570",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "f676fd559e031445",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Grain ship sinks, crew rescued",
+          "title": "Grain ship sinks off Bulgaria; eight Turkish and four Azerbaijani crew rescued",
+          "summary": {
+            "what": "The Somali-flagged BETUL 8, carrying wheat from Romania to Egypt, sank in the Black Sea off Bulgaria on Monday; all 12 crew were lifted out by helicopter.",
+            "why": "Bulgaria is checking whether a drone attack sank the ship, after recent deadly drone strikes on merchant vessels off Bulgaria and Romania.",
+            "next": "The cause has not been established; Bulgarian authorities say the investigation continues."
+          },
+          "body": [
+            {
+              "subhead": "The distress call",
+              "blocks": [
+                {
+                  "text": "A Somali-flagged cargo ship, the BETUL 8, sank on Monday in Bulgaria’s exclusive economic zone in the Black Sea, Bulgaria’s Ministry of Transport and Communications said, as reported by Cumhuriyet, Sabah and Habertürk. The ship’s distress call reached the Rescue Coordination Centre in Varna at 09:15, saying the vessel was sinking, according to Cumhuriyet. The ministry said it went down about 40 nautical miles southeast of Cape Kaliakra."
+                }
+              ]
+            },
+            {
+              "subhead": "The rescue",
+              "blocks": [
+                {
+                  "text": "Four ships from the Black Sea Mine Countermeasures Task Group (MCM Black Sea) were sent to the area: two from Bulgaria, one from Romania and one from Türkiye, Cumhuriyet reports. Two Cougar helicopters and an Su-25 aircraft of the Bulgarian Air Force joined the search, and the operation was coordinated by Bulgaria’s Maritime Administration."
+                },
+                {
+                  "text": "All 12 crew were rescued by helicopter, the Bulgarian authorities said. Eight are Turkish and four Azerbaijani, Sabah, A Haber and Habertürk report; Cumhuriyet’s first report, based on the ministry’s initial statement, described all 12 as Turkish citizens. Sabah says Türkiye’s search and rescue coordination centre, working with Bulgaria’s centre, confirmed that the crew were on a helicopter being flown to shore, and that the ship was last seen floating on its side."
+                }
+              ]
+            },
+            {
+              "subhead": "Ship and cargo",
+              "blocks": [
+                {
+                  "text": "The BETUL 8 was carrying about 3,000 tonnes of bulk wheat from the Romanian port of Tulcea to Egypt, Sabah reports. It was built in 1988 and appears to be registered to, and operated by, the Marshall Islands-based company Optimus Marine, according to Sabah."
+                }
+              ]
+            },
+            {
+              "subhead": "What caused it",
+              "blocks": [
+                {
+                  "text": "The ministry said the ship sank for a reason not yet determined, and that it is examining whether a drone attack was involved, Habertürk and A Haber report. Sabah says Bulgarian media had claimed the ship sank after an explosion; no finding of an attack has been announced."
+                },
+                {
+                  "text": "The sinking comes after weeks of deadly drone attacks on merchant ships off Bulgaria and Romania, Cumhuriyet notes. Experts link those attacks to Russia’s war against Ukraine and warn that commercial shipping in the Black Sea faces growing security risks, the paper adds."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Crew rescued",
+              "value": "12",
+              "source": "Bulgarian transport ministry"
+            },
+            {
+              "label": "Turkish crew members",
+              "value": "8",
+              "source": "Sabah, A Haber, Habertürk"
+            },
+            {
+              "label": "Wheat on board",
+              "value": "3,000 t",
+              "source": "Sabah"
+            },
+            {
+              "label": "Distance from Cape Kaliakra",
+              "value": "40 nmi",
+              "source": "Bulgarian transport ministry"
+            },
+            {
+              "label": "Year the ship was built",
+              "value": "1988",
+              "source": "Sabah"
+            }
+          ],
+          "place": {
+            "name": "Cape Kaliakra",
+            "lat": 43.36,
+            "lon": 28.47,
+            "region": "Black Sea coast, Bulgaria"
+          }
+        },
+        "tr": {
+          "shortTitle": "Karadeniz’de yük gemisi battı",
+          "title": "Bulgaristan açığında buğday yüklü gemi battı; 8’i Türk 12 mürettebat kurtarıldı",
+          "summary": {
+            "what": "Romanya’dan Mısır’a buğday taşıyan Somali bayraklı BETUL 8, pazartesi günü Bulgaristan açıklarında battı; 12 mürettebatın tamamı helikopterle kurtarıldı.",
+            "why": "Bulgaristan, Bulgar ve Romen açıklarında ticari gemilere yönelik ölümcül İHA saldırılarının ardından geminin bir saldırıyla batıp batmadığını araştırıyor.",
+            "next": "Batma nedeni henüz belirlenmedi; Bulgar makamları incelemenin sürdüğünü açıkladı."
+          },
+          "body": [
+            {
+              "subhead": "Yardım çağrısı",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet, Sabah ve Habertürk’ün aktardığına göre Bulgaristan Ulaştırma ve Haberleşme Bakanlığı, Somali bayraklı BETUL 8 adlı yük gemisinin pazartesi günü ülkenin Karadeniz’deki münhasır ekonomik bölgesinde battığını açıkladı. Cumhuriyet’e göre geminin battığını bildiren yardım çağrısı saat 09.15’te Varna Deniz Kurtarma Koordinasyon Merkezi’ne ulaştı. Bakanlığa göre olay Kaliakra Burnu’nun yaklaşık 40 deniz mili güneydoğusunda yaşandı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kurtarma",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’in haberine göre Karadeniz Mayın Karşı Tedbirleri Görev Grubu’ndan (MCM Black Sea) dört gemi bölgeye yönlendirildi: ikisi Bulgaristan’dan, biri Romanya’dan, biri Türkiye’den. Bulgaristan Hava Kuvvetleri’ne ait iki Cougar helikopteri ve bir Su-25 uçağı da aramaya katıldı; operasyonu Bulgaristan Denizcilik İdaresi koordine etti."
+                },
+                {
+                  "text": "Bulgar makamları 12 mürettebatın tamamının helikopterle kurtarıldığını açıkladı. Sabah, A Haber ve Habertürk’e göre mürettebatın sekizi Türk, dördü Azerbaycan vatandaşı; Cumhuriyet’in bakanlığın ilk açıklamasına dayanan ilk haberinde ise 12 kişinin tamamı Türk olarak geçti. Sabah’a göre AAKKM ile Bulgaristan’daki merkez arasındaki koordinasyonda mürettebatın helikopterle karaya taşındığı öğrenildi; gemi son görüldüğünde yan yatmış hâlde yüzüyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Gemi ve yükü",
+              "blocks": [
+                {
+                  "text": "Sabah’ın haberine göre BETUL 8, Romanya’nın Tulça limanından Mısır’a yaklaşık 3 bin ton dökme buğday taşıyordu. 1988 yapımı gemi, Marshall Adaları merkezli Optimus Marine şirketine kayıtlı görünüyor ve aynı şirket tarafından işletiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden battı?",
+              "blocks": [
+                {
+                  "text": "Habertürk ve A Haber’e göre bakanlık, geminin henüz belirlenemeyen bir nedenle battığını ve olayın bir İHA saldırısından kaynaklanıp kaynaklanmadığının araştırıldığını bildirdi. Sabah, Bulgar medyasının geminin bir patlamanın ardından battığını öne sürdüğünü yazdı; saldırıya dair kesin bir tespit açıklanmadı."
+                },
+                {
+                  "text": "Cumhuriyet, olayın son haftalarda Bulgaristan ve Romanya açıklarında ticari gemilere yönelik ölümcül İHA saldırılarının yaşandığı bir dönemde meydana geldiğini hatırlattı. Gazeteye göre saldırıları Rusya’nın Ukrayna’ya karşı savaşıyla ilişkilendiren uzmanlar, Karadeniz’deki ticari gemi trafiğinin giderek artan bir güvenlik riskiyle karşı karşıya olduğuna dikkat çekiyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kurtarılan mürettebat",
+              "value": "12",
+              "source": "Bulgaristan Ulaştırma Bakanlığı"
+            },
+            {
+              "label": "Türk mürettebat",
+              "value": "8",
+              "source": "Sabah, A Haber, Habertürk"
+            },
+            {
+              "label": "Gemideki buğday",
+              "value": "3 bin ton",
+              "source": "Sabah"
+            },
+            {
+              "label": "Kaliakra Burnu’na uzaklık",
+              "value": "40 deniz mili",
+              "source": "Bulgaristan Ulaştırma Bakanlığı"
+            },
+            {
+              "label": "Geminin yapım yılı",
+              "value": "1988",
+              "source": "Sabah"
+            }
+          ],
+          "place": {
+            "name": "Kaliakra Burnu",
+            "lat": 43.36,
+            "lon": 28.47,
+            "region": "Karadeniz kıyısı, Bulgaristan"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T11:36:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T12:01:41.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T12:01:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T12:31:50.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/5a9cd14b-3001-4855-a081-aafaf4e676c1.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/dunya/karadeniz-de-12-murettebatli-yuk-gemisi-batti-turkiye-dahil-uc-ulke-harekete-gecti-2556596"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/dunya/karadeniz-de-12-murettebatli-yuk-gemisi-batti-turkiye-dahil-uc-ulke-harekete-gecti-2556596",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/16/karadenizde-somali-bayrakli-yuk-gemisi-batti-12-murettebat-kurtarildi",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/16/karadenizde-yuk-gemisi-batti-8i-turk-12-murettebattan-sevindiren-haber",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/karadeniz-de-yuk-gemisi-batti-turk-murettebat-kurtarildi-3927708",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "2fdf48c7e9e85e8a",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Google Maps now plans trips",
+          "title": "Google Maps’ AI chatbot can now plan trips and find appointments",
+          "summary": {
+            "what": "Google is adding trip planning to Ask Maps, the Gemini-powered chatbot in Google Maps, which builds day-by-day itineraries with live details for each stop.",
+            "why": "It is Google’s push to turn AI from a tool that answers questions into an assistant that does tasks, inside an app millions already use, TechCrunch says.",
+            "next": "Ask Maps is expanding to more than 30 European countries, while appointment-finding and travel tips start in the US first."
+          },
+          "body": [
+            {
+              "subhead": "Itineraries on the map",
+              "blocks": [
+                {
+                  "text": "Google is launching an AI trip-planning feature in Google Maps that builds custom itineraries and shows real-time details about each stop, The Verge and TechCrunch report. It is rolling out on Monday on Android and iOS through Ask Maps, the Gemini-powered chatbot inside the app, and can plan anything from a one-day outing to a trip of several days."
+                },
+                {
+                  "text": "Google’s own examples are a holiday shopping day trip and a three-day road trip with coastal hikes and oceanfront dining. Ask Maps answers with a day-by-day schedule, the route, and numbered pins for every stop on the map. Users can share the plan with friends and family or export it to Google Docs on desktop."
+                }
+              ]
+            },
+            {
+              "subhead": "On the road",
+              "blocks": [
+                {
+                  "text": "Before setting off, users can ask Maps to show the schedule again or tap the “itinerary” badge in their chat history. Along with directions, Maps shows live traffic, opening hours and, according to TechCrunch, a sense of the “vibe” at the next stop. Users can change the plan as they go, for example by asking Maps to add a scenic viewpoint or a lunch stop to the route."
+                },
+                {
+                  "text": "A “know before you go” panel adds details on parking, car charging, weather, likely delays and tolls, The Verge reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Calls on your behalf",
+              "blocks": [
+                {
+                  "text": "Ask Maps can now also find beauty, pet care, car and home repair appointments and call the businesses for the user. Asked to “find me a 4 p.m. nail appointment near me”, it shows open slots at nearby businesses, TechCrunch says. It can also search a user’s saved lists, for example for spots with room for five people in the next 30 minutes."
+                },
+                {
+                  "text": "TechCrunch sees the feature as part of a broader shift in how tech companies position AI: less a tool that answers questions and more an assistant that completes tasks. Meta’s AI agent Muse recently gained the ability to call businesses for its users, the outlet notes."
+                }
+              ]
+            },
+            {
+              "subhead": "Where it is available",
+              "blocks": [
+                {
+                  "text": "Google is expanding Ask Maps to more than 30 countries in Europe, including Spain, Germany and the UK. Trip planning and saved-list search are rolling out in the more than 200 countries where Ask Maps is available, while “know before you go” tips and appointment-finding launch in the US first, according to The Verge."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "European countries getting Ask Maps",
+              "value": "30+",
+              "source": "Google, via The Verge and TechCrunch"
+            },
+            {
+              "label": "Countries getting trip planning",
+              "value": "200+",
+              "source": "Google, via The Verge"
+            },
+            {
+              "label": "Rollout began",
+              "value": "16 Nov",
+              "source": "Google, via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Google Haritalar artık gezi planlıyor",
+          "title": "Google Haritalar’ın yapay zekâ asistanı artık gezi planlıyor ve randevu buluyor",
+          "summary": {
+            "what": "Google, Haritalar’daki Gemini destekli sohbet botu Ask Maps’e gezi planlama ekliyor; bot her durak için canlı bilgiyle gün gün bir program hazırlıyor.",
+            "why": "TechCrunch’a göre bu, yapay zekâyı soru yanıtlayan bir araçtan iş gören bir asistana dönüştürme çabasının, milyonların kullandığı bir uygulamaya taşınması.",
+            "next": "Ask Maps 30’dan fazla Avrupa ülkesine açılıyor; randevu bulma ve yol öncesi ipuçları önce ABD’de başlıyor."
+          },
+          "body": [
+            {
+              "subhead": "Haritada gezi programı",
+              "blocks": [
+                {
+                  "text": "The Verge ve TechCrunch’ın haberine göre Google, Haritalar’a kişiye özel gezi programı hazırlayan ve her durak için anlık bilgi gösteren bir yapay zekâ özelliği ekliyor. Özellik pazartesi itibarıyla Android ve iOS’ta, uygulamanın içindeki Gemini destekli sohbet botu Ask Maps üzerinden kullanıma açılıyor; tek günlük bir geziden birkaç günlük bir yolculuğa kadar plan yapabiliyor."
+                },
+                {
+                  "text": "Google’ın verdiği örnekler, yılbaşı alışverişi için günübirlik bir gezi ve kıyı yürüyüşleriyle deniz kenarında yemeklerin olduğu üç günlük bir yol gezisi. Ask Maps buna gün gün bir program, rota ve haritada her durak için numaralı işaretlerle yanıt veriyor. Plan arkadaşlarla paylaşılabiliyor ya da masaüstünde Google Docs’a aktarılabiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Yolda",
+              "blocks": [
+                {
+                  "text": "Kullanıcılar yola çıkmadan önce programı yeniden açtırabiliyor ya da sohbet geçmişindeki “itinerary” rozetine dokunabiliyor. Haritalar yol tarifinin yanında canlı trafik, açılış saatleri ve TechCrunch’a göre bir sonraki durağın havasına dair bilgi de gösteriyor. Program yolda da değiştirilebiliyor; örneğin rotaya bir manzara noktası ya da öğle yemeği molası eklenebiliyor."
+                },
+                {
+                  "text": "The Verge’e göre “know before you go” (yola çıkmadan bilin) bölümü de otopark, şarj noktası, hava durumu, olası gecikmeler ve geçiş ücretleri hakkında bilgi veriyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Sizin yerinize arıyor",
+              "blocks": [
+                {
+                  "text": "Ask Maps artık güzellik, evcil hayvan bakımı, araç ve ev tamiri için randevu bulup işletmeleri kullanıcı adına arayabiliyor. TechCrunch’a göre “bana yakınlarda saat 16.00 için manikür randevusu bul” denildiğinde yakındaki işletmelerdeki boş saatleri listeliyor. Kayıtlı listelerde arama da yapabiliyor; örneğin önümüzdeki 30 dakikada beş kişilik yeri olan mekânları bulabiliyor."
+                },
+                {
+                  "text": "TechCrunch, özelliği teknoloji şirketlerinin yapay zekâyı konumlandırma biçimindeki geniş bir değişimin parçası olarak görüyor: soruları yanıtlayan bir araçtan çok, işleri tamamlayan bir asistan. Meta’nın yapay zekâ ajanı Muse da kısa süre önce kullanıcıları adına işletmeleri arama yeteneği kazanmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Nerede kullanılabilecek",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre Google, Ask Maps’i aralarında İspanya, Almanya ve İngiltere’nin de bulunduğu 30’dan fazla Avrupa ülkesine genişletiyor. Gezi planlama ve kayıtlı liste araması Ask Maps’in sunulduğu 200’den fazla ülkede kullanıma açılırken yol öncesi ipuçları ve randevu bulma önce ABD’de başlıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ask Maps’in açıldığı Avrupa ülkesi",
+              "value": "30+",
+              "source": "Google, The Verge ve TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Gezi planlamanın açıldığı ülke",
+              "value": "200+",
+              "source": "Google, The Verge aracılığıyla"
+            },
+            {
+              "label": "Kullanıma açılış",
+              "value": "16 Kasım",
+              "source": "Google, TechCrunch aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T14:00:00.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T14:48:13.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T14:48:13.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "8c61c426cfb3a6b8",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Zoox robotaxis arrive on Uber",
+          "title": "Amazon’s Zoox robotaxis join the Uber app in Las Vegas",
+          "summary": {
+            "what": "Uber riders in Las Vegas can now be matched with Zoox’s steering-wheel-free robotaxis, the first time Zoox has opened its fleet to another app.",
+            "why": "Uber wants to be the platform every self-driving company sells rides through, as Waymo ends its exclusive Uber deal in two US cities.",
+            "next": "Zoox plans to start in Los Angeles through its own app before the end of 2026, with Uber rides there in 2027."
+          },
+          "body": [
+            {
+              "subhead": "A first for both",
+              "blocks": [
+                {
+                  "text": "Starting on Monday, Uber riders in Las Vegas can be matched with robotaxis from Zoox, the self-driving company owned by Amazon, The Verge and TechCrunch report. It is the first time Uber has added a purpose-built vehicle with no steering wheel to its network, and the first time Zoox has opened its fleet to a third-party app, according to The Verge."
+                },
+                {
+                  "text": "Riders cannot choose a Zoox car, at least at first. Anyone ordering UberX, Uber Comfort, Uber Electric, Uber Comfort Electric or Wait & Save may be matched with one at no extra charge, and can raise their chances by turning on autonomous rides in the app’s ride preferences. Zoox covers only the busiest tourist areas, such as the Strip, downtown Las Vegas and the Arts District, and it will keep running its own app as well."
+                }
+              ]
+            },
+            {
+              "subhead": "Casino pickups",
+              "blocks": [
+                {
+                  "text": "The two companies also signed a multi-year deal to be the official rideshare and robotaxi partners of MGM Resorts International in Las Vegas. The Verge notes that resort pickup zones, crowded with valets, tour buses and tourists, are hard for driverless cars to navigate; MGM, Uber and Zoox say they will add clearer signs on the properties and in-app guidance for pickups and drop-offs."
+                }
+              ]
+            },
+            {
+              "subhead": "Uber’s plan",
+              "blocks": [
+                {
+                  "text": "Uber has partnered with more than 30 companies developing autonomous technology, from delivery robots to drones, though not all have reached commercial service, TechCrunch reports. Earlier this year the Nevada Transportation Authority approved a permit letting Uber deploy up to 1,000 robotaxis in Clark County, home to Las Vegas, with Zoox and Hyundai’s Motional. Uber chief executive Dara Khosrowshahi told investors in November that the company plans a dedicated autonomous option in the app."
+                },
+                {
+                  "quote": "Las Vegas will become the first U.S. city where riders can access two fully driverless partners through the Uber app.",
+                  "speaker": "Dara Khosrowshahi",
+                  "sourceId": "techcrunch"
+                }
+              ]
+            },
+            {
+              "subhead": "Next stop, Los Angeles",
+              "blocks": [
+                {
+                  "text": "Zoox plans to start initial operations in Los Angeles through its own app before the end of 2026, with a full Uber integration in 2027. For Zoox, which trails Tesla and Waymo, the deal brings riders who might not otherwise try it, TechCrunch says. Uber’s approach has drawbacks: Waymo will end its exclusive partnership with Uber in Austin and Atlanta in January 2028, although Uber says it still plans to host Waymo cars for as long as both agree."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Robotaxis Uber may run in Clark County",
+              "value": "1,000",
+              "source": "Nevada Transportation Authority, via TechCrunch"
+            },
+            {
+              "label": "Uber’s autonomous partners",
+              "value": "30+",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Uber rides with Zoox in Los Angeles",
+              "value": "2027",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Waymo’s exclusive Uber deal ends",
+              "value": "Jan 2028",
+              "source": "TechCrunch"
+            }
+          ],
+          "place": {
+            "name": "Las Vegas",
+            "lat": 36.17,
+            "lon": -115.14,
+            "region": "Nevada, United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Zoox robotaksileri Uber’de",
+          "title": "Amazon’un Zoox robotaksileri Las Vegas’ta Uber uygulamasına katıldı",
+          "summary": {
+            "what": "Las Vegas’taki Uber yolcuları artık direksiyonsuz Zoox robotaksileriyle eşleşebiliyor; Zoox filosunu ilk kez başka bir uygulamaya açtı.",
+            "why": "Uber, Waymo’nun iki ABD şehrindeki münhasır anlaşmayı bitirdiği bir dönemde tüm sürücüsüz şirketlerinin yolculuk sattığı platform olmak istiyor.",
+            "next": "Zoox, 2026 bitmeden Los Angeles’ta kendi uygulamasıyla başlamayı, 2027’de orada Uber’e katılmayı planlıyor."
+          },
+          "body": [
+            {
+              "subhead": "İki şirket için de bir ilk",
+              "blocks": [
+                {
+                  "text": "The Verge ve TechCrunch’ın haberine göre pazartesi itibarıyla Las Vegas’taki Uber yolcuları, Amazon’a ait sürücüsüz araç şirketi Zoox’un robotaksileriyle eşleşebiliyor. The Verge’e göre Uber, ağına ilk kez direksiyonu olmayan, bu iş için tasarlanmış bir araç ekliyor; Zoox da filosunu ilk kez başka bir şirketin uygulamasına açıyor."
+                },
+                {
+                  "text": "Yolcular, en azından başlangıçta Zoox aracını kendileri seçemiyor. UberX, Uber Comfort, Uber Electric, Uber Comfort Electric ya da Wait & Save çağıranlar ek ücret ödemeden bir Zoox ile eşleşebiliyor; uygulamanın tercih ayarlarında sürücüsüz yolculuğu açanların şansı artıyor. Zoox yalnızca Strip, şehir merkezi ve Arts District gibi turistlerin yoğun olduğu bölgelerde çalışıyor ve kendi uygulamasını da kullanmaya devam edecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Kumarhane kapıları",
+              "blocks": [
+                {
+                  "text": "İki şirket, Las Vegas’ta MGM Resorts International’ın resmî yolculuk ve robotaksi ortağı olmak için çok yıllık bir anlaşma da imzaladı. The Verge, vale, tur otobüsü ve turistlerle dolu otel girişlerinin sürücüsüz araçlar için zorlu olduğunu hatırlatıyor; MGM, Uber ve Zoox tesislerde daha açık yön tabelaları ve uygulama içi yönlendirme ekleyeceklerini açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Uber’in planı",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre Uber, teslimat robotlarından dronlara kadar sürücüsüz teknoloji geliştiren 30’dan fazla şirketle ortaklık kurdu, ancak bunların hepsi ticari hizmete dönüşmedi. Nevada Ulaşım Kurumu bu yıl başında Uber’in Zoox ve Hyundai’nin Motional şirketiyle Las Vegas’ın bulunduğu Clark County’de 1.000’e kadar robotaksi çalıştırmasına izin verdi. Uber CEO’su Dara Khosrowshahi kasımda yatırımcılara uygulamaya ayrı bir sürücüsüz seçeneği ekleneceğini söyledi."
+                },
+                {
+                  "quote": "Las Vegas, yolcuların Uber uygulaması üzerinden iki tam sürücüsüz iş ortağına erişebileceği ilk ABD şehri olacak.",
+                  "speaker": "Dara Khosrowshahi",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada Los Angeles var",
+              "blocks": [
+                {
+                  "text": "Zoox, 2026 bitmeden Los Angeles’ta kendi uygulamasıyla ilk operasyonlara başlamayı, 2027’de ise Uber’e tam entegrasyonu planlıyor. TechCrunch’a göre Tesla ve Waymo’nun gerisinde kalan Zoox için anlaşma, başka türlü denemeyecek yolculara ulaşmak demek. Uber’in yaklaşımının bedeli de var: Waymo, Austin ve Atlanta’daki münhasır Uber ortaklığını Ocak 2028’de bitirecek; Uber ise iki şirket anlaştığı sürece Waymo araçlarını uygulamasında tutmayı planlıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Uber’in Clark County’deki robotaksi izni",
+              "value": "1.000",
+              "source": "Nevada Ulaşım Kurumu, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Uber’in sürücüsüz ortakları",
+              "value": "30+",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Los Angeles’ta Uber’de Zoox",
+              "value": "2027",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Waymo’nun Uber anlaşmasının bitişi",
+              "value": "Ocak 2028",
+              "source": "TechCrunch"
+            }
+          ],
+          "place": {
+            "name": "Las Vegas",
+            "lat": 36.17,
+            "lon": -115.14,
+            "region": "Nevada, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T12:00:00.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T12:00:00.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T12:00:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "d0c74a12c48d5c84",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "1a8d9eda388585a4",
+      "versions": {
+        "en": {
+          "shortTitle": "Saudi Arabia replaces Yemen commander",
+          "title": "Saudi Arabia replaces its Yemen coalition commander as Houthis close on Aden",
+          "summary": {
+            "what": "Saudi Arabia named a new commander for the coalition fighting the Houthis, as the group took ground on the south coast after government forces fell back to defend Aden.",
+            "why": "Aden is the seat of Yemen’s internationally recognised government, and Houthi control of the Bab al-Mandab coast gives Iran’s ally leverage over a key shipping lane.",
+            "next": "Government sources say forces are regrouping to defend Aden and Lahj province and to retake lost areas later."
+          },
+          "body": [
+            {
+              "subhead": "A new commander",
+              "blocks": [
+                {
+                  "text": "Saudi Arabia on Monday dismissed the commander of the Saudi-led coalition fighting the Houthis in Yemen, France 24 reports, citing the official Saudi Press Agency. A royal decree named the chief of staff, General Fayyad bin Hamed bin Ruqad al-Ruwaili, as the coalition’s new commander, while the outgoing commander was moved to an advisory post."
+                },
+                {
+                  "quote": "Lieutenant General Fahd bin Hamad bin Abdulaziz al-Salman is appointed as advisor for military affairs to the Minister of Defence.",
+                  "speaker": "Saudi Press Agency",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "The Houthis advance",
+              "blocks": [
+                {
+                  "text": "The shake-up came a day after Saudi-backed government forces withdrew from Dhubab airport and the area overlooking the Bab al-Mandab strait to reinforce Aden, BBC News and Al Jazeera report. Houthi-run media say the group has taken the evacuated ground. Five Yemeni military sources told France 24 on Monday that Houthi fighters had reached the coastal area of Khor Omairh, about 100km west of Aden, and were 25km from government lines at Qawah."
+                },
+                {
+                  "text": "Retired Lebanese Brigadier-General Hassan Jouni told Al Jazeera the Houthis had reached Tor al-Baha, about 80km from Aden, which he called the start of the city’s defensive zone. The government’s Operation Yemen Dawn carried out 900 strikes on Houthi positions within 24 hours, Al Jazeera reports, while the Houthis fired ballistic missiles and drones towards Mecca, Riyadh and Saudi Arabia’s Eastern Province."
+                }
+              ]
+            },
+            {
+              "subhead": "Fear in Aden",
+              "blocks": [
+                {
+                  "text": "Residents told France 24 that security forces had set up more checkpoints and were checking identities in the city. A government employee, Amin Mahmoud, said food and fuel were available but that people were worried about the retreat and the fighting drawing closer. Analyst Mohammed Al-Qadhi called the withdrawal a big setback."
+                },
+                {
+                  "quote": "There is a serious threat to Aden because they are getting closer and closer. It is a major setback. The government was aiming to recapture Sanaa, but now they are defending Aden.",
+                  "speaker": "Mohammed Al-Qadhi",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "Why it matters",
+              "blocks": [
+                {
+                  "text": "The Houthis said they posed no threat to international shipping through the strait but would keep targeting Saudi vessels, the BBC reports. Their seizure of the coast pushed up global oil prices, because Saudi Arabia has relied on the Red Sea for exports since the US and Israel’s war with Iran effectively closed the Strait of Hormuz. The UN estimates nearly 330,000 people have been displaced as the fighting escalated, and a UN human rights spokesperson said more than 60% of documented civilian casualties since August were women and children."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Houthi front from Aden at Khor Omairh",
+              "value": "100 km",
+              "source": "Military sources, via France 24"
+            },
+            {
+              "label": "Distance to government lines at Qawah",
+              "value": "25 km",
+              "source": "Military sources, via France 24"
+            },
+            {
+              "label": "Coalition strikes in 24 hours",
+              "value": "900",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "People displaced in Yemen",
+              "value": "~330,000",
+              "source": "UN, via BBC News"
+            }
+          ],
+          "place": {
+            "name": "Aden",
+            "lat": 12.79,
+            "lon": 45.04,
+            "region": "Yemen"
+          },
+          "news": "Saudi Arabia removed the commander of the coalition fighting the Houthis, as the group pushed to 100km west of Aden."
+        },
+        "tr": {
+          "shortTitle": "Suudi Arabistan Yemen komutanını değiştirdi",
+          "title": "Husiler Aden’e yaklaşırken Suudi Arabistan Yemen koalisyonunun komutanını değiştirdi",
+          "summary": {
+            "what": "Hükümet güçleri Aden’i savunmak için geri çekilirken Husiler güney kıyısında toprak kazandı; Suudi Arabistan koalisyona yeni bir komutan atadı.",
+            "why": "Aden, Yemen’in uluslararası alanda tanınan hükümetinin merkezi; Babülmendep kıyısının Husilerin elinde olması İran’ın müttefikine kritik bir deniz yolu üzerinde koz veriyor.",
+            "next": "Hükümet kaynaklarına göre güçler Aden ve Lahic vilayetini savunmak, ardından kaybedilen bölgeleri geri almak için yeniden konuşlanıyor."
+          },
+          "body": [
+            {
+              "subhead": "Yeni komutan",
+              "blocks": [
+                {
+                  "text": "France 24’ün resmî Suudi Basın Ajansı’na (SPA) dayandırdığı habere göre Suudi Arabistan pazartesi günü Yemen’de Husilere karşı savaşan Suudi liderliğindeki koalisyonun komutanını görevden aldı. Kraliyet kararnamesiyle Genelkurmay Başkanı Orgeneral Fayyad bin Hamed bin Rukad er-Ruveyli koalisyonun yeni komutanı oldu; görevden alınan komutan danışmanlığa getirildi."
+                },
+                {
+                  "quote": "Korgeneral Fahd bin Hamad bin Abdulaziz es-Selman, Savunma Bakanı’nın askeri işler danışmanı olarak atanmıştır.",
+                  "speaker": "Suudi Basın Ajansı",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Husilerin ilerleyişi",
+              "blocks": [
+                {
+                  "text": "BBC ve Al Jazeera’nın haberine göre değişiklik, Suudi destekli hükümet güçlerinin Aden’i takviye etmek için Zubab Havalimanı’ndan ve Babülmendep Boğazı’na bakan bölgeden çekilmesinden bir gün sonra geldi. Husi medyası boşaltılan bölgenin kontrolünü ele geçirdiklerini duyurdu. France 24’e konuşan beş Yemenli askeri kaynak, Husilerin Aden’in yaklaşık 100 km batısındaki Hor Umeyra kıyı bölgesine ulaştığını ve Kave’deki hükümet hatlarına 25 km uzaklıkta olduğunu söyledi."
+                },
+                {
+                  "text": "Emekli Lübnanlı Tuğgeneral Hasan Cuni, Al Jazeera’ya Husilerin Aden’e yaklaşık 80 km uzaklıktaki Tur el-Baha’ya ulaştığını ve burasının kentin savunma hattının başlangıcı olduğunu söyledi. Al Jazeera’ya göre hükümetin “Yemen Şafağı Operasyonu” 24 saatte Husi mevzilerine 900 saldırı düzenledi; Husiler de Mekke, Riyad ve Suudi Arabistan’ın Doğu Bölgesi’ne balistik füze ve İHA fırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Aden’de tedirginlik",
+              "blocks": [
+                {
+                  "text": "France 24’e konuşan kent sakinleri, güvenlik güçlerinin daha fazla kontrol noktası kurduğunu ve kimlik denetimi yaptığını anlattı. Kamu çalışanı Amin Mahmud, gıda ve yakıt bulunduğunu, ancak insanların geri çekilme ve çatışmanın yaklaşmasından endişe duyduğunu söyledi. Analist Muhammed el-Kadi geri çekilmeyi büyük bir gerileme olarak nitelendirdi."
+                },
+                {
+                  "quote": "Aden için ciddi bir tehdit var, çünkü giderek yaklaşıyorlar. Bu büyük bir gerileme. Hükümet San’a’yı geri almayı hedefliyordu, şimdi ise Aden’i savunuyor.",
+                  "speaker": "Muhammed el-Kadi",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Neden önemli",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Husiler boğazdan geçen uluslararası gemilere tehdit oluşturmadıklarını, ancak Suudi gemilerini hedef almayı sürdüreceklerini söyledi. Kıyının Husilerin eline geçmesi küresel petrol fiyatlarını yükseltti; çünkü ABD ve İsrail’in İran’la savaşı Hürmüz Boğazı’nı fiilen kapattığından beri Suudi Arabistan ihracatta Kızıldeniz’e dayanıyor. BM, çatışmaların tırmanmasıyla yaklaşık 330 bin kişinin yerinden edildiğini tahmin ediyor; BM insan hakları sözcüsü ağustostan bu yana kayda geçen sivil kayıpların %60’ından fazlasının kadın ve çocuk olduğunu belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Hor Umeyra’daki cephenin Aden’e uzaklığı",
+              "value": "100 km",
+              "source": "Askeri kaynaklar, France 24 aracılığıyla"
+            },
+            {
+              "label": "Kave’deki hükümet hatlarına uzaklık",
+              "value": "25 km",
+              "source": "Askeri kaynaklar, France 24 aracılığıyla"
+            },
+            {
+              "label": "24 saatteki koalisyon saldırısı",
+              "value": "900",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Yemen’de yerinden edilen",
+              "value": "~330 bin",
+              "source": "BM, BBC aracılığıyla"
+            }
+          ],
+          "place": {
+            "name": "Aden",
+            "lat": 12.79,
+            "lon": 45.04,
+            "region": "Yemen"
+          },
+          "news": "Suudi Arabistan, Husilere karşı savaşan koalisyonun komutanını görevden aldı; Husiler Aden’in 100 km batısına ilerledi."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T04:48:31.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T11:09:38.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T11:09:38.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T11:36:38.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T13:45:54.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3374549/houthis-advance-yemen-government-stronghold-aden",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261116-yemen-s-houthis-advance-on-aden-as-govt-bolsters-defences",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "b942175610550855",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Drone hits Crimea’s Kerch bridge",
+          "title": "Ukrainian drone hits the Kerch bridge after a 1,336-drone overnight barrage",
+          "summary": {
+            "what": "A Ukrainian drone hit the bridge linking Russia to occupied Crimea early on Monday, halting road traffic, after Russia said it downed 1,336 Ukrainian drones overnight.",
+            "why": "The bridge is Russia’s key link to Crimea and has been attacked twice before; Russia called the barrage one of the biggest this year.",
+            "next": "Russian officials said the crossing would stay closed while experts assess the damage; Xi, Trump and Putin meet in Shenzhen in the coming days."
+          },
+          "body": [
+            {
+              "subhead": "The strike",
+              "blocks": [
+                {
+                  "text": "Ukraine has hit the Kerch bridge, which links occupied Crimea with Russia, temporarily halting road traffic and leaving thousands of drivers stranded, The Guardian reports. A Ukrainian kamikaze drone crashed into one of the bridge’s arches at 5.38am local time, according to local channels cited by the paper, after drones had been heard over the structure as Russian air defences opened fire. One report said the arch was listing at a 15-degree angle."
+                },
+                {
+                  "text": "The Kremlin-appointed governor of Crimea, Sergei Aksyonov, confirmed the attack, France 24 and The Guardian report."
+                },
+                {
+                  "quote": "As a result, traffic will be restricted, likely until the afternoon.",
+                  "speaker": "Sergei Aksyonov",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Moscow plays it down",
+              "blocks": [
+                {
+                  "text": "Russian officials said the crossing would stay closed while experts assessed it, and about 2,000 vehicles were reportedly stuck in queues on both sides, The Guardian says. The Kremlin spokesperson, Dmitry Peskov, played the incident down in a call with reporters."
+                },
+                {
+                  "quote": "Minor damage is being assessed. Traffic across the bridge continues.",
+                  "speaker": "Dmitry Peskov",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Ukraine considers the bridge a legitimate target and has attacked it at least twice before: a truck bomb damaged the road section in 2022, and a “sea baby” naval drone struck it the following year. Russia has since added air defences, metal barges and boom barriers, The Guardian notes."
+                }
+              ]
+            },
+            {
+              "subhead": "The biggest barrage",
+              "blocks": [
+                {
+                  "text": "Russia’s defence ministry said it intercepted 1,336 Ukrainian drones overnight, the largest number it has claimed since the full-scale invasion nearly five years ago, France 24 reports. Moscow’s mayor, Sergei Sobyanin, said about 600 were shot down on their approach to the capital, according to The Guardian, and the Kremlin called it one of the biggest attacks this year."
+                },
+                {
+                  "text": "Ukraine says such strikes answer Russia’s own missile and drone attacks on its cities and power grid. Over the weekend Russia hit energy and railway infrastructure across Ukraine, in attacks President Volodymyr Zelensky said were made possible partly by restrictions on Ukraine’s use of SpaceX’s Starshield service, France 24 reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Diplomacy stalls",
+              "blocks": [
+                {
+                  "text": "The barrage came days before Xi Jinping, Donald Trump and Vladimir Putin meet in Shenzhen; US officials say the talks will not focus on Ukraine, The Guardian reports. After talks in Abu Dhabi last week, Putin repeated his territorial demands. Zelensky said on Friday that the US had proposed Ukraine give up the eastern Donbas in exchange for NATO membership or similar guarantees, and he ruled out handing over territory."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Drones Russia says it intercepted",
+              "value": "1,336",
+              "source": "Russian defence ministry, via France 24"
+            },
+            {
+              "label": "Drones downed near Moscow",
+              "value": "~600",
+              "source": "Sergei Sobyanin, via The Guardian"
+            },
+            {
+              "label": "Vehicles stuck at the bridge",
+              "value": "~2,000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Time the drone hit",
+              "value": "05:38",
+              "source": "Local channels, via The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Kerch bridge",
+            "lat": 45.31,
+            "lon": 36.51,
+            "region": "Kerch Strait, Crimea"
+          }
+        },
+        "tr": {
+          "shortTitle": "Kerç Köprüsü’ne İHA isabet etti",
+          "title": "1.336 İHA’lık gece saldırısının ardından Kerç Köprüsü’ne Ukrayna İHA’sı isabet etti",
+          "summary": {
+            "what": "Rusya bir gecede 1.336 Ukrayna İHA’sını düşürdüğünü açıklarken bir Ukrayna İHA’sı pazartesi sabahı Kırım’ı Rusya’ya bağlayan köprüyü vurdu, karayolu trafiği durdu.",
+            "why": "Köprü, Rusya’nın Kırım’a ana bağlantısı ve daha önce iki kez saldırıya uğradı; Rusya saldırıyı bu yılın en büyüklerinden biri olarak nitelendirdi.",
+            "next": "Rus yetkililer uzmanlar hasarı inceleyene kadar geçişin kapalı kalacağını söyledi; Şi, Trump ve Putin önümüzdeki günlerde Shenzhen’de buluşacak."
+          },
+          "body": [
+            {
+              "subhead": "Saldırı",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın haberine göre Ukrayna, işgal altındaki Kırım’ı Rusya’ya bağlayan Kerç Köprüsü’nü vurdu; karayolu trafiği geçici olarak durdu, binlerce sürücü yolda kaldı. Gazetenin aktardığı yerel kanallara göre bir Ukrayna kamikaze İHA’sı yerel saatle 05.38’de köprünün kemerlerinden birine çarptı; öncesinde köprünün üzerinde İHA sesleri duyulmuş, Rus hava savunması ateş açmıştı. Bir habere göre kemer 15 derece yana yatmıştı."
+                },
+                {
+                  "text": "France 24 ve The Guardian’a göre Kırım’ın Kremlin tarafından atanan valisi Sergey Aksyonov saldırıyı doğruladı."
+                },
+                {
+                  "quote": "Bunun sonucunda trafik, muhtemelen öğleden sonraya kadar kısıtlanacak.",
+                  "speaker": "Sergey Aksyonov",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Moskova önemsizleştiriyor",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Rus yetkililer uzmanlar köprüyü inceleyene kadar geçişin kapalı kalacağını söyledi; iki yakada yaklaşık 2 bin aracın kuyrukta beklediği bildirildi. Kremlin Sözcüsü Dmitriy Peskov ise gazetecilerle yaptığı görüşmede olayı önemsizleştirdi."
+                },
+                {
+                  "quote": "Küçük hasar inceleniyor. Köprüdeki trafik devam ediyor.",
+                  "speaker": "Dmitriy Peskov",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Ukrayna köprüyü meşru hedef sayıyor ve daha önce en az iki kez vurmuştu: 2022’de patlayıcı yüklü bir kamyon karayolu bölümüne zarar verdi, ertesi yıl da “sea baby” adı verilen bir deniz İHA’sı köprüye saldırdı. The Guardian’a göre Rusya o zamandan beri hava savunmasını güçlendirdi, metal mavnalar ve bariyerler yerleştirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "En büyük saldırı",
+              "blocks": [
+                {
+                  "text": "France 24’e göre Rusya Savunma Bakanlığı gece boyunca 1.336 Ukrayna İHA’sını düşürdüğünü açıkladı; bu, Moskova’nın yaklaşık beş yıl önceki tam ölçekli işgalden bu yana açıkladığı en yüksek sayı. The Guardian’a göre Moskova Belediye Başkanı Sergey Sobyanin, yaklaşık 600 İHA’nın başkente yaklaşırken düşürüldüğünü söyledi; Kremlin saldırıyı bu yılın en büyüklerinden biri olarak nitelendirdi."
+                },
+                {
+                  "text": "Ukrayna bu saldırıları Rusya’nın kentlerine ve enerji şebekesine yönelik füze ve İHA saldırılarına karşılık olarak görüyor. France 24’e göre Rusya hafta sonu Ukrayna genelinde enerji ve demiryolu altyapısını vurdu; Devlet Başkanı Volodimir Zelenski, bu saldırıların kısmen Ukrayna’nın SpaceX’in Starshield hizmetini kullanmasına getirilen kısıtlamalar yüzünden mümkün olduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Diplomasi tıkalı",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre saldırı, Şi Cinping, Donald Trump ve Vladimir Putin’in Shenzhen’de buluşmasından günler önce geldi; ABD’li yetkililer görüşmelerin Ukrayna’ya odaklanmayacağını söylüyor. Putin geçen hafta Abu Dabi’deki görüşmelerin ardından toprak taleplerini yineledi. Zelenski cuma günü ABD’nin, NATO üyeliği ya da benzeri güvenceler karşılığında Ukrayna’nın doğudaki Donbas’ı bırakmasını önerdiğini söyledi ve toprak vermeyi reddetti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Rusya’nın düşürdüğünü açıkladığı İHA",
+              "value": "1.336",
+              "source": "Rusya Savunma Bakanlığı, France 24 aracılığıyla"
+            },
+            {
+              "label": "Moskova yakınında düşürülen İHA",
+              "value": "~600",
+              "source": "Sergey Sobyanin, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Köprüde mahsur kalan araç",
+              "value": "~2 bin",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İHA’nın isabet saati",
+              "value": "05.38",
+              "source": "Yerel kanallar, The Guardian aracılığıyla"
+            }
+          ],
+          "place": {
+            "name": "Kerç Köprüsü",
+            "lat": 45.31,
+            "lon": 36.51,
+            "region": "Kerç Boğazı, Kırım"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T09:15:47.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T11:18:47.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T11:18:47.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T12:45:09.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/week-asia/politics/article/3374595/ukraine-strikes-bridge-linking-russia-crimea-1336-drone-barrage",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261116-ukraine-strikes-crimea-bridge-as-zelensky-says-starshield-caps-helping-russian-attacks",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    },
+    {
+      "id": "a719c6f722174b74",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Depardieu drops appeal, apologises",
+          "title": "Gérard Depardieu drops his appeal and apologises to the women he assaulted",
+          "summary": {
+            "what": "Gérard Depardieu withdrew his appeal against his 2025 sexual assault conviction on the day it was due to open, and apologised to the two women.",
+            "why": "His conviction was a turning point for #MeToo in France, and the apology reverses years of denials.",
+            "next": "Appeal judges rule this month, on 26 November according to France 24, on whether he must stand trial on separate rape charges."
+          },
+          "body": [
+            {
+              "subhead": "The reversal",
+              "blocks": [
+                {
+                  "text": "The French actor Gérard Depardieu, 77, has dropped his appeal against his conviction for sexually assaulting two women on a film set, and for the first time apologised to them, The Guardian, BBC News and France 24 report. The written statement came on the day his appeal trial was due to open in Paris."
+                },
+                {
+                  "quote": "Justice was pronounced. I was found guilty. I understand and bow to this conviction… I have therefore decided to abandon the appeal.",
+                  "speaker": "Gérard Depardieu",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "His 18-month suspended prison sentence now stands, the BBC says, and his name must be added to France’s sex offender register, according to The Guardian."
+                }
+              ]
+            },
+            {
+              "subhead": "“A world that has disappeared”",
+              "blocks": [
+                {
+                  "text": "In the statement, Depardieu wrote that on film sets he had long hidden behind provocation and smut, and had thought his remarks and some of his gestures were of no consequence. He said he had never intended to hurt the women he met, but had come to understand that intention changes nothing about the harm caused, and that he belonged to a world that no longer exists. Everything got out of hand, including his defence, he wrote."
+                },
+                {
+                  "text": "His new lawyers, Delphine Meillet and David-Olivier Kaminski, told the BBC he wanted to move on, adding that as he turns 78 he feels life is more beautiful than ten days of court hearings."
+                }
+              ]
+            },
+            {
+              "subhead": "The women",
+              "blocks": [
+                {
+                  "text": "Depardieu was found guilty last year of assaulting a 55-year-old set dresser and a 35-year-old assistant director during the shooting of Les Volets Verts (The Green Shutters) in Paris in September 2021. The set dresser, named in the media as Amélie, spoke outside the Paris appeal court on Monday and said she would have preferred him to apologise in person, The Guardian reports."
+                },
+                {
+                  "quote": "I waited for years for this apology.",
+                  "speaker": "Amélie",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "The assistant director, known in court as Sarah, told reporters there was huge relief because the fight was over, the BBC reports."
+                }
+              ]
+            },
+            {
+              "subhead": "What comes next",
+              "blocks": [
+                {
+                  "text": "The original trial set a precedent when the judge ruled that Depardieu’s lawyer at the time, Jérémie Assous, had been excessively harsh to the women, and ordered Depardieu to pay each of them €1,000, The Guardian notes. Depardieu, who has made more than 200 films and TV series, also faces a decision on whether he must stand trial for the alleged rape and sexual assault of the actor Charlotte Arnould at his Paris home in 2018. He has denied those allegations; France 24 says the ruling is expected on 26 November."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Suspended prison sentence",
+              "value": "18 months",
+              "source": "BBC News"
+            },
+            {
+              "label": "Damages to each woman over his defence",
+              "value": "€1,000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Films and TV series",
+              "value": "200+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Ruling on rape-trial appeal",
+              "value": "26 Nov",
+              "source": "France 24"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Depardieu temyizden vazgeçti, özür diledi",
+          "title": "Gérard Depardieu temyizden vazgeçti ve saldırdığı kadınlardan özür diledi",
+          "summary": {
+            "what": "Gérard Depardieu, 2025’teki cinsel saldırı mahkûmiyetine karşı temyiz duruşmasının başlayacağı gün başvurusunu geri çekti ve iki kadından özür diledi.",
+            "why": "Mahkûmiyeti Fransa’da #MeToo için bir dönüm noktasıydı; özür, yıllardır süren inkârından geri adım anlamına geliyor.",
+            "next": "France 24’e göre temyiz yargıçları 26 Kasım’da Depardieu’nün ayrı bir tecavüz davasında yargılanıp yargılanmayacağına karar verecek."
+          },
+          "body": [
+            {
+              "subhead": "Geri adım",
+              "blocks": [
+                {
+                  "text": "The Guardian, BBC ve France 24’ün haberine göre 77 yaşındaki Fransız oyuncu Gérard Depardieu, bir film setinde iki kadına cinsel saldırıda bulunmaktan aldığı mahkûmiyete karşı temyiz başvurusunu geri çekti ve ilk kez kadınlardan özür diledi. Yazılı açıklama, temyiz duruşmasının Paris’te başlayacağı gün geldi."
+                },
+                {
+                  "quote": "Adalet yerini buldu. Suçlu bulundum. Bu mahkûmiyeti anlıyor ve kabul ediyorum… Bu nedenle temyizden vazgeçmeye karar verdim.",
+                  "speaker": "Gérard Depardieu",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre 18 aylık ertelenmiş hapis cezası kesinleşti; The Guardian’a göre adı Fransa’nın cinsel suçlular siciline de eklenecek."
+                }
+              ]
+            },
+            {
+              "subhead": "“Yok olmuş bir dünya”",
+              "blocks": [
+                {
+                  "text": "Depardieu açıklamasında film setlerinde uzun süre kışkırtıcılığın ve açık saçık şakaların arkasına saklandığını, sözlerinin ve bazı hareketlerinin bir sonucu olmayacağını düşündüğünü yazdı. Karşılaştığı kadınları incitmeyi hiç amaçlamadığını, ancak niyetin verilen zararı değiştirmediğini anladığını ve artık var olmayan bir dünyaya ait olduğunu belirtti. Savunması da dahil her şeyin çığırından çıktığını yazdı."
+                },
+                {
+                  "text": "Yeni avukatları Delphine Meillet ve David-Olivier Kaminski BBC’ye, müvekkillerinin sayfayı çevirmek istediğini ve 78 yaşına girerken hayatın on günlük duruşmadan daha güzel olduğunu düşündüğünü söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kadınlar",
+              "blocks": [
+                {
+                  "text": "Depardieu geçen yıl, Eylül 2021’de Paris’te çekilen Les Volets Verts (Yeşil Panjurlar) filminin setinde 55 yaşındaki bir set dekoratörüne ve 35 yaşındaki bir yönetmen yardımcısına saldırmaktan suçlu bulunmuştu. The Guardian’a göre basında Amélie olarak anılan dekoratör pazartesi Paris temyiz mahkemesinin önünde konuştu ve Depardieu’nün özrü yüz yüze dilemesini tercih edeceğini söyledi."
+                },
+                {
+                  "quote": "Bu özrü yıllarca bekledim.",
+                  "speaker": "Amélie",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre mahkemede Sarah takma adıyla anılan yönetmen yardımcısı da mücadele bittiği için büyük bir rahatlama yaşadığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın hatırlattığına göre ilk dava, yargıcın Depardieu’nün o zamanki avukatı Jérémie Assous’un kadınlara aşırı sert davrandığına hükmedip Depardieu’ye her bir kadına 1.000 avro ödeme cezası vermesiyle emsal oluşturmuştu. 200’den fazla film ve dizide oynayan Depardieu, oyuncu Charlotte Arnould’ya 2018’de Paris’teki evinde tecavüz ve cinsel saldırıda bulunduğu iddiasıyla yargılanıp yargılanmayacağına dair kararı da bekliyor. Depardieu bu iddiaları reddediyor; France 24’e göre karar 26 Kasım’da bekleniyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ertelenmiş hapis cezası",
+              "value": "18 ay",
+              "source": "BBC"
+            },
+            {
+              "label": "Savunma nedeniyle kadın başına tazminat",
+              "value": "1.000 avro",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Film ve dizi",
+              "value": "200+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Tecavüz davası temyiz kararı",
+              "value": "26 Kasım",
+              "source": "France 24"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T12:02:43.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T12:10:22.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T12:10:22.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T13:40:56.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261116-g%C3%A9rard-depardieu-cinema-icon-drops-appeal-and-apologises-to-victims",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/film/2026/nov/16/gerard-depardieu-drops-appeal-against-sexual-assault-conviction",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-16T18:30:00+03:00",
+      "updatedAt": "2026-11-16T18:30:00+03:00"
+    }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "1498eb4720bd9abd",
+        "kind": "music",
+        "label": "confirmed",
+        "versions": {
+          "en": {
+            "title": "Singer Kutsi marries Sevda Sönmez in a surprise ceremony, his third wedding",
+            "gist": "The singer and actor wed Sevda Sönmez on Sunday evening with AK Party MP Serkan Bayram as witness, Hürriyet and NTV report.",
+            "aside": "Third time at the registry table: by now Kutsi could probably read the vows from memory.",
+            "story": [
+              "Singer and actor Kutsi has married for the third time. He wed Sevda Sönmez, his partner of some time, on Sunday evening in a simple ceremony attended by family and close friends, Hürriyet and NTV report. Little had been known publicly about the relationship.",
+              "The witness at the ceremony was AK Party Istanbul MP Serkan Bayram, who shared the news on social media. He wrote that he had been happy to witness the marriage of his “dear friend, the artist Kutsi, and Sevda” and wished them a lifetime of peace and happiness.",
+              "According to NTV, Kutsi first married Sinem Bayraktutar in 2008; that marriage lasted until 2015, and the couple have two daughters, Ceylin Ada and Lila. His second marriage, to Sibel Ülker in 2021, lasted about two and a half years."
+            ]
+          },
+          "tr": {
+            "title": "Şarkıcı Kutsi, Sevda Sönmez ile sürpriz nikâhla üçüncü kez evlendi",
+            "gist": "Hürriyet ve NTV’ye göre şarkıcı ve oyuncu, pazar akşamı AK Parti Milletvekili Serkan Bayram’ın şahitliğinde Sevda Sönmez ile evlendi.",
+            "aside": "Üçüncü nikâhta “evet” demek artık refleks; memur soruyu bitirmeden cevap hazır.",
+            "story": [
+              "Şarkıcı ve oyuncu Kutsi üçüncü kez evlendi. Hürriyet ve NTV’nin haberine göre Kutsi, bir süredir gözlerden uzak bir ilişki yaşadığı Sevda Sönmez ile pazar akşamı ailelerin ve yakın arkadaşların katıldığı sade bir törenle nikâh masasına oturdu.",
+              "Çiftin nikâh şahitliğini AK Parti İstanbul Milletvekili Serkan Bayram yaptı. Bayram sosyal medya paylaşımında “kıymetli dostum, sanatçı Kutsi ile Sevda’nın” nikâh şahitliğini yapmaktan mutluluk duyduğunu yazdı ve çifte bir ömür boyu huzur ve mutluluk diledi.",
+              "NTV’ye göre Kutsi ilk evliliğini 2008’de Sinem Bayraktutar ile yaptı; 2015’e kadar süren bu evlilikten Ceylin Ada ve Lila adında iki kızı var. 2021’de Sibel Ülker ile yaptığı ikinci evliliği ise yaklaşık iki buçuk yıl sürdü."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "hurriyet",
+            "url": "https://www.hurriyet.com.tr/galeri-surpriz-nikah-sarkici-kutsi-evlendi-43379622"
+          },
+          {
+            "sourceId": "ntv-yasam",
+            "url": "https://www.ntv.com.tr/yasam/galeri-surpriz-nikah-sarkici-kutsi-ucuncu-kez-evlendi-1751061"
+          }
+        ],
+        "image": {
+          "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afa89923516f14679cc8585.jpg",
+          "sourceId": "hurriyet",
+          "sourceName": "Hürriyet",
+          "articleUrl": "https://www.hurriyet.com.tr/galeri-surpriz-nikah-sarkici-kutsi-evlendi-43379622"
+        }
+      },
+      {
+        "id": "9d8a1d1b23170754",
+        "kind": "people",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Fatih Terim paid his ₺83,000 dinner bill in full, chef says, and signed 20 shirts",
+            "gist": "Chef Fatih Tutak denies social-media claims that the former Galatasaray coach settled the bill with three signed shirts, Sözcü reports.",
+            "aside": "The rumour undersold him by 17 shirts, and by the entire bill.",
+            "story": [
+              "Former Galatasaray and Türkiye coach Fatih Terim paid his ₺83,000 bill at a two-Michelin-star restaurant in full, the owner, chef Fatih Tutak, says, denying a social-media claim that Terim had settled it with three signed Galatasaray shirts, Sözcü reports.",
+              "Columnist Bülent Cankurt called Tutak to check the story, Sözcü and Onedio report. Tutak said Terim came to his restaurant in Istanbul’s Bomonti with his daughter Buse Terim and chose the 14-course tasting menu. Terim did sign shirts for the staff, the chef said, but 20 of them, not three.",
+              "Tutak said he was upset that a happy evening had been told this way. “How can people think the great Fatih Terim would need such a thing?” he said, calling the claim very hurtful."
+            ]
+          },
+          "tr": {
+            "title": "Şefe göre Fatih Terim 83 bin liralık hesabı tam ödedi, üstüne 20 forma imzaladı",
+            "gist": "Sözcü’nün haberine göre şef Fatih Tutak, eski Galatasaray hocasının hesabı üç imzalı formayla kapattığı iddiasını yalanladı.",
+            "aside": "İddia hem forma sayısında hem de hesapta Terim’i 17 forma eksik göstermiş.",
+            "story": [
+              "Sözcü’nün haberine göre Galatasaray ve A Milli Takım’ın eski teknik direktörü Fatih Terim, iki Michelin yıldızlı bir restoranda gelen 83 bin liralık hesabı eksiksiz ödedi. Restoranın sahibi şef Fatih Tutak, Terim’in hesabı üç imzalı Galatasaray formasıyla kapattığı yönündeki sosyal medya iddiasını yalanladı.",
+              "Sözcü ve Onedio’ya göre iddiayı Günaydın yazarı Bülent Cankurt, Tutak’ı arayarak sordu. Tutak, Terim’in kızı Buse Terim ile Bomonti’deki restorana geldiğini ve 14 aşamalı tadım menüsünü seçtiğini anlattı. Şefe göre Terim çalışanları kırmayıp forma imzaladı, ama üç değil tam 20 forma.",
+              "Tutak, güzel bir akşamın bu şekilde yansıtılmasından üzüntü duyduğunu söyledi: “Koskoca Fatih Terim’in böyle bir şeye ihtiyacı olabileceğini nasıl düşünür insanlar.” Şef, iddiayı “çok onur kırıcı” olarak nitelendirdi."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "sozcu-magazin",
+            "url": "https://www.sozcu.com.tr/formayla-hesap-odedi-iddiasi-gundem-olmustu-fatih-tutak-gercegi-acikladi-p381750"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/fatih-terim-in-83-bin-tl-lik-hesabi-formayla-odedigi-iddiasina-restoran-sahibi-yanit-verdi-1395485"
+          }
+        ],
+        "image": {
+          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/609jpg-hhHivm3i8UyBqrzonxIzhQ.jpg",
+          "sourceId": "sozcu-magazin",
+          "sourceName": "Sözcü Magazin",
+          "articleUrl": "https://www.sozcu.com.tr/formayla-hesap-odedi-iddiasi-gundem-olmustu-fatih-tutak-gercegi-acikladi-p381750"
+        }
+      }
+    ],
+    "rumours": []
+  },
+  "quiz": [
+    {
+      "storyId": "020b3702486d1416",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How large was Türkiye’s central government budget deficit in October?",
+          "options": ["₺223.2 billion", "₺481.1 billion", "₺2.32 trillion"]
+        },
+        "tr": {
+          "question": "Merkezi yönetim bütçesi ekimde ne kadar açık verdi?",
+          "options": ["223,2 milyar lira", "481,1 milyar lira", "2,32 trilyon lira"]
+        }
+      }
+    },
+    {
+      "storyId": "8c61c426cfb3a6b8",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "In which city can Uber riders now be matched with Zoox robotaxis?",
+          "options": ["Los Angeles", "Austin", "Las Vegas"]
+        },
+        "tr": {
+          "question": "Uber yolcuları artık hangi şehirde Zoox robotaksileriyle eşleşebiliyor?",
+          "options": ["Los Angeles", "Austin", "Las Vegas"]
+        }
+      }
+    },
+    {
+      "storyId": "b942175610550855",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many Ukrainian drones did Russia say it intercepted overnight?",
+          "options": ["1,336", "600", "2,000"]
+        },
+        "tr": {
+          "question": "Rusya gece boyunca kaç Ukrayna İHA’sını düşürdüğünü açıkladı?",
+          "options": ["1.336", "600", "2 bin"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909997",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "short": "Nets",
+        "ours": false,
+        "team": "brooklyn-nets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909997"
+      }
+    },
+    {
+      "id": "espn-401909998",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-17T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909998"
+      }
+    }
+  ]
+}
