@@ -13,7 +13,7 @@ const WORDS = {
     title: 'Tonight',
     today: 'Today',
     tonight: 'Tonight',
-    on: 'Under way',
+    on: 'Live',
     soon: 'Starting soon',
     details: 'Show or hide who scored',
     showOn: 'On now',
@@ -47,7 +47,7 @@ const WORDS = {
     title: 'Bu gece',
     today: 'Bugün',
     tonight: 'Bu gece',
-    on: 'Oynanıyor',
+    on: 'Canlı',
     soon: 'Başlamak üzere',
     details: 'Golleri göster ya da gizle',
     showOn: 'Yayında',
@@ -108,7 +108,7 @@ export interface TonightStatus {
   readonly state: TonightState;
   /** "21:45" or "2–0". */
   readonly figure: string;
-  /** "Tonight", "Under way", "Full time". */
+  /** "Tonight", "Live", "Full time". */
   readonly word: string;
 }
 

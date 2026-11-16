@@ -1,6 +1,6 @@
 /**
  * Keeps the Tonight rows true to the clock in the browser: a row the page was built with as
- * "Tonight 21:45" turns "Under way" at kick-off and "Ended" after, without a reload. Each row
+ * "Tonight 21:45" turns "Live" at kick-off and "Ended" after, without a reload. Each row
  * carries what it needs in data attributes; text is set with textContent only.
  */
 import type { InterfaceLanguage } from './evidence.js';

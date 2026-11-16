@@ -132,9 +132,16 @@ export function scorerOf(scorer: FixtureScorer): Scorer {
   };
 }
 
-function sideOf(side: FixtureSide, ours: boolean) {
+function sideOf(side: FixtureSide, ours: boolean, league: string) {
   const team = teamKey(side.display);
-  return { name: side.display, ours, ...(side.logo && team && { team }) };
+  // ESPN's short name ("76ers"); the Euroleague's short names drop Turkish letters, so not those.
+  const short = league === 'euroleague' ? undefined : side.names[1];
+  return {
+    name: side.display,
+    ...(short && short !== side.display && short.length <= 30 && { short }),
+    ours,
+    ...(side.logo && team && { team }),
+  };
 }
 
 /** One fixture as a row, or nothing when it is not ours. */
@@ -167,8 +174,8 @@ export function rowFor(fixture: Fixture, watch: TonightWatch): TonightItem | und
     ...(people.length > 0 && { people: people.slice(0, 4) }),
     name,
     competition,
-    home: sideOf(home, ours.has('home')),
-    away: sideOf(away, ours.has('away')),
+    home: sideOf(home, ours.has('home'), fixture.league),
+    away: sideOf(away, ours.has('away'), fixture.league),
     startsAt: fixture.startsAt,
     live: { source: fixture.source, ref: fixture.ref },
     ...(top.focus !== 'person' &&
