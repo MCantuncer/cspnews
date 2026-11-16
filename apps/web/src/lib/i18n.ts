@@ -56,6 +56,9 @@ const WORDS = {
     hotGone: 'This story is no longer in Hot News.',
     hotQuiet: 'Nothing breaking right now.',
     hotError: 'Hot News could not be loaded. Check your connection and try again.',
+    hotOutlets: 'What each outlet reports',
+    hotAlso: 'Also breaking',
+    hotUntranslated: 'Hot News isn’t translated: it is shown as the outlets wrote it.',
     tryAgain: 'Try again',
     translatedQuote: 'translated',
     home: 'CSPNews, home',
@@ -150,6 +153,9 @@ const WORDS = {
     hotGone: 'Bu haber artık son dakikada değil.',
     hotQuiet: 'Şu an son dakika gelişmesi yok.',
     hotError: 'Son dakika yüklenemedi. Bağlantını kontrol edip yeniden dene.',
+    hotOutlets: 'Kaynaklar ne diyor',
+    hotAlso: 'Diğer son dakika gelişmeleri',
+    hotUntranslated: 'Son dakika çevrilmez: kaynakların yazdığı dilde gösterilir.',
     tryAgain: 'Yeniden dene',
     translatedQuote: 'çeviri',
     home: 'CSPNews, ana sayfa',
@@ -327,6 +333,11 @@ export function reliabilityLabel(steps: number, language: InterfaceLanguage): st
 /** "Updated 18:04" / "Güncellendi 18:04". */
 export function updatedAt(time: string, language: InterfaceLanguage): string {
   return `${WORDS[language].updated} ${time}`;
+}
+
+/** Who a Hot News summary is quoted from: "NTV reports" / "NTV bildiriyor". */
+export function outletReports(outlet: string, language: InterfaceLanguage): string {
+  return language === 'tr' ? `${outlet} bildiriyor` : `${outlet} reports`;
 }
 
 const BULLETIN_FROM_TR: Record<string, string> = {

@@ -157,8 +157,16 @@ export type {
 export { describeEmptyPart, emptyParts } from './parts.js';
 export type { DeskCandidates, EmptyPart } from './parts.js';
 
-export { HOT_LABEL_VALUES, HotFeedSchema, HotStorySchema, parseHotFeed } from './hot.js';
-export type { HotFeed, HotStory } from './hot.js';
+export {
+  HOT_LABEL_VALUES,
+  HotFeedSchema,
+  HotImageSchema,
+  HotSourceSchema,
+  HotStorySchema,
+  HotSummarySchema,
+  parseHotFeed,
+} from './hot.js';
+export type { HotFeed, HotImage, HotSource, HotStory, HotSummary } from './hot.js';
 export {
   QUIZ_LENGTH,
   QUIZ_OPTIONS,

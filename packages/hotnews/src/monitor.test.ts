@@ -1,7 +1,7 @@
 import { defineSources, type Article } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
-import { buildHotFeed, shortHeadline } from './monitor.js';
+import { buildHotFeed, buildHotFeedWithPhotos, cleanSummary, shortHeadline } from './monitor.js';
 
 const SOURCES = new Map(
   defineSources(
@@ -87,5 +87,78 @@ describe('shortHeadline', () => {
     expect(
       shortHeadline('Extraordinarily-long-compound-words '.repeat(4)).length,
     ).toBeLessThanOrEqual(60);
+  });
+});
+
+describe('richer hot stories', () => {
+  const quake = (summary: string): Article[] => [
+    { ...article('aa-tr', 20, 'Son dakika: Malatya’da 5,8 büyüklüğünde deprem'), summary },
+    {
+      ...article('ntv', 15, 'Malatya’da 5,8 büyüklüğünde deprem'),
+      imageUrl: 'https://ntv.example/photo.jpg',
+    },
+    article('sozcu', 10, 'Malatya 5,8 büyüklüğünde depremle sarsıldı'),
+  ];
+
+  it('quotes the first outlet’s own description, under its name', () => {
+    const text =
+      'AFAD, Malatya’nın Pütürge ilçesinde 5,8 büyüklüğünde deprem meydana geldiğini duyurdu. Deprem çevre illerden de hissedildi.';
+    const [story] = buildHotFeed({ now: NOW, sources: SOURCES, articles: quake(text) }).stories;
+    expect(story?.summary).toEqual({ text, sourceId: 'aa-tr' });
+  });
+
+  it('gives each outlet its own headline and time', () => {
+    const [story] = buildHotFeed({ now: NOW, sources: SOURCES, articles: quake('') }).stories;
+    expect(story?.summary).toBeUndefined();
+    expect(story?.sources[1]).toMatchObject({
+      sourceId: 'ntv',
+      title: 'Malatya’da 5,8 büyüklüğünde deprem',
+      publishedAt: '2026-11-11T11:45:00.000Z',
+    });
+  });
+
+  it('hands back the photo the picker chose, without naming it in the feed', () => {
+    const { feed, photos } = buildHotFeedWithPhotos({
+      now: NOW,
+      sources: SOURCES,
+      articles: quake(''),
+      pickPhoto: (story) => {
+        const member = story.articles.find(({ article: a }) => a.imageUrl);
+        return member?.article.imageUrl
+          ? {
+              url: member.article.imageUrl,
+              sourceId: member.article.sourceId,
+              sourceName: member.article.sourceId,
+              articleUrl: member.article.url,
+            }
+          : undefined;
+      },
+    });
+    const [story] = feed.stories;
+    expect(story?.image).toBeUndefined();
+    expect(photos.get(story?.id ?? '')?.url).toBe('https://ntv.example/photo.jpg');
+  });
+});
+
+describe('cleanSummary', () => {
+  it('drops a repeated headline, a date stamp, the outlet name and WordPress lines', () => {
+    expect(
+      cleanSummary(
+        'YENİ Parti kurultayı: 160 kişilik PM listesi 15.11.2026 Diken YENİ Parti 1’inci olağan kurultayında 160 kişilik parti meclisi listesi açıklandı. The post YENİ Parti kurultayı appeared first on Diken.',
+        'YENİ Parti kurultayı: 160 kişilik PM listesi',
+        'Diken',
+      ),
+    ).toBe('YENİ Parti 1’inci olağan kurultayında 160 kişilik parti meclisi listesi açıklandı.');
+  });
+
+  it('cuts a long description after whole sentences', () => {
+    const sentence = 'Kurtarma ekipleri enkaz altındaki kişilere ulaşmak için çalışıyor. ';
+    const text = cleanSummary(sentence.repeat(8), 'Başlık', 'NTV') ?? '';
+    expect(text.length).toBeLessThanOrEqual(320);
+    expect(text.endsWith('çalışıyor.')).toBe(true);
+  });
+
+  it('gives nothing for a description that is too short', () => {
+    expect(cleanSummary('Detaylar geliyor.', 'Başlık', 'NTV')).toBeUndefined();
   });
 });

@@ -133,6 +133,28 @@ export function hotPageStory(
   return newest ? { state: 'story', story: newest } : { state: 'quiet' };
 }
 
+/** Other stories in the feed, newest first, for the "Also breaking" list. */
+export function otherHotStories(feed: HotFeed, id: string): HotStory[] {
+  return [...feed.stories]
+    .filter((story) => story.id !== id)
+    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
+const MEDIA_FILE = /^[a-z0-9-]+\.(?:jpg|png|webp|avif)$/;
+
+/**
+ * The address of a hot story's photo: the monitor saves it next to the feed, in `media/`, so it
+ * is never hot-linked from the outlet. Undefined for a name that isn't a plain photo file.
+ */
+export function hotPhotoUrl(file: string, feedUrl = HOT_FEED_URL): string | undefined {
+  if (!MEDIA_FILE.test(file)) return undefined;
+  try {
+    return new URL(`media/${file}`, feedUrl).href;
+  } catch {
+    return undefined;
+  }
+}
+
 /** Only https links from the feed are ever followed. */
 export function safeUrl(url: string): string | undefined {
   try {

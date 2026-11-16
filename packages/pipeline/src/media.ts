@@ -100,14 +100,37 @@ export async function saveStoryPhotos(
   mediaDirectory: string,
   fetchBytes: FetchBytes,
 ): Promise<SavedPhoto[]> {
+  return savePhotos(
+    [
+      ...bulletin.stories,
+      ...(bulletin.andFinally?.light ?? []),
+      ...(bulletin.transfers ?? []),
+      ...(bulletin.abroad ?? []),
+    ],
+    mediaDirectory,
+    fetchBytes,
+  );
+}
+
+/** Anything with an id and, maybe, a chosen photo: a story, a light story, a hot story. */
+export interface PhotoItem {
+  readonly id: string;
+  readonly image?: { readonly url: string; readonly articleUrl: string } | undefined;
+}
+
+/**
+ * Saves each item's photo into `mediaDirectory` as `<id>.<ext>`, with the same checks as a
+ * bulletin's photos: the article's own photo replaces a thumbnail, and a thumbnail under
+ * SMALLEST_PHOTO_WIDTH is not saved.
+ */
+export async function savePhotos(
+  items: readonly PhotoItem[],
+  mediaDirectory: string,
+  fetchBytes: FetchBytes,
+): Promise<SavedPhoto[]> {
   mkdirSync(mediaDirectory, { recursive: true });
   const results: SavedPhoto[] = [];
-  for (const story of [
-    ...bulletin.stories,
-    ...(bulletin.andFinally?.light ?? []),
-    ...(bulletin.transfers ?? []),
-    ...(bulletin.abroad ?? []),
-  ]) {
+  for (const story of items) {
     if (!story.image) continue;
     try {
       const feedPhoto = await downloadPhoto(story.image.url, fetchBytes);

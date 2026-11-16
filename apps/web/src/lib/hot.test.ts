@@ -3,7 +3,16 @@ import { readFileSync } from 'node:fs';
 import { parseHotFeed, type HotFeed, type HotStory } from '@cspnews/core';
 import { describe, expect, it } from 'vitest';
 
-import { dismiss, hotPageStory, isHotFeed, pickHotStory, readDismissed, safeUrl } from './hot.js';
+import {
+  dismiss,
+  hotPageStory,
+  hotPhotoUrl,
+  isHotFeed,
+  otherHotStories,
+  pickHotStory,
+  readDismissed,
+  safeUrl,
+} from './hot.js';
 
 const story = (id: string, updatedAt: string) => ({ id, updatedAt }) as HotStory;
 const feed = (stories: HotStory[]) => ({ version: 1, generatedAt: '', stories }) as HotFeed;
@@ -87,5 +96,23 @@ describe('hotPageStory', () => {
 
   it('is quiet when nothing is breaking', () => {
     expect(hotPageStory(feed([]), null)).toEqual({ state: 'quiet' });
+  });
+});
+
+describe('Hot News page extras', () => {
+  it('lists the other stories, newest first', () => {
+    const a = story('a', '2026-11-11T18:00:00+03:00');
+    const b = story('b', '2026-11-11T18:04:00+03:00');
+    const c = story('c', '2026-11-11T18:02:00+03:00');
+    expect(otherHotStories(feed([a, b, c]), 'b').map((s) => s.id)).toEqual(['c', 'a']);
+  });
+
+  it('finds a story photo next to the feed, and only a plain photo name', () => {
+    const url = 'https://raw.githubusercontent.com/o/r/hot-feed/hot.json';
+    expect(hotPhotoUrl('0a7b31be.webp', url)).toBe(
+      'https://raw.githubusercontent.com/o/r/hot-feed/media/0a7b31be.webp',
+    );
+    expect(hotPhotoUrl('../evil.jpg', url)).toBeUndefined();
+    expect(hotPhotoUrl('x.svg', url)).toBeUndefined();
   });
 });

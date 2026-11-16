@@ -3,7 +3,9 @@ import {
   type Article,
   type HotFeed,
   type HotStory,
+  type HotSummary,
   type Source,
+  type StoryImage,
 } from '@cspnews/core';
 import { groupStories, type Story } from '@cspnews/grouping';
 import { storyLifecycle } from '@cspnews/verify';
@@ -18,9 +20,9 @@ import { assessHotNews, type HeatAssessment, type HeatOptions } from './heat.js'
  */
 
 /** Articles older than this are not read: a story older than `maxAgeHours` is never hot. */
-export const MONITOR_WINDOW_HOURS = 6;
+export const MONITOR_WINDOW_HOURS = 8;
 /** The feed shows at most this many stories (the feed schema allows ten). */
-export const MONITOR_MAX_STORIES = 5;
+export const MONITOR_MAX_STORIES = 8;
 
 const BREAKING_PREFIX = /^\s*(?:son\s+dak[iİıI]ka|breaking(?:\s+news)?)\s*[:|!\-–—]*\s*/i;
 
@@ -37,6 +39,63 @@ export function shortHeadline(title: string): string {
 
 function clip(text: string, max: number): string {
   return text.length <= max ? text : `${text.slice(0, max - 1).trimEnd()}…`;
+}
+
+/** A summary is shown up to this long, cut after a whole sentence where one fits. */
+export const SUMMARY_MAX = 320;
+const SUMMARY_MIN = 60;
+
+const escape = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/**
+ * An outlet's feed description, cleaned of what feeds add around the text: a repeated
+ * headline, a date stamp, the outlet's own name, WordPress's "The post … appeared first on"
+ * line. Cut after whole sentences within SUMMARY_MAX. Undefined when too little is left.
+ */
+export function cleanSummary(
+  summary: string,
+  title: string,
+  outletName: string,
+): string | undefined {
+  let text = summary
+    .replace(/\s+/g, ' ')
+    .replace(/\bThe post .*? appeared first on .*$/i, '')
+    .replace(BREAKING_PREFIX, '');
+  const headline = title.replace(BREAKING_PREFIX, '').trim();
+  if (headline.length > 0) text = text.replace(new RegExp(escape(headline), 'g'), ' ');
+  text = text
+    .replace(/^\s*\d{1,2}[./]\d{1,2}[./]\d{4}\s*/, '')
+    .replace(new RegExp(`^\\s*${escape(outletName)}\\s+`), '')
+    .replace(new RegExp(`\\s+${escape(outletName)}\\s*$`), '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (text.length < SUMMARY_MIN) return undefined;
+  if (text.length <= SUMMARY_MAX) return text;
+  const sentences = text.match(/[^.!?…]+[.!?…]+["'”’)]*\s*/gu) ?? [];
+  let cut = '';
+  for (const sentence of sentences) {
+    if ((cut + sentence).trim().length > SUMMARY_MAX) break;
+    cut += sentence;
+  }
+  return cut.trim().length >= SUMMARY_MIN ? cut.trim() : clip(text, SUMMARY_MAX);
+}
+
+/**
+ * The story's summary: the first outlet, in the order they reported, whose feed gives a usable
+ * description in the story's language. Original reporting before copies.
+ */
+function summaryOf(story: Story, sources: ReadonlyMap<string, Source>): HotSummary | undefined {
+  const members = [
+    ...story.articles.filter((member) => !member.copyOf),
+    ...story.articles.filter((member) => member.copyOf),
+  ];
+  for (const { article } of members) {
+    const source = sources.get(article.sourceId);
+    if (!source || article.language !== story.language) continue;
+    const text = cleanSummary(article.summary, article.title, source.name);
+    if (text) return { text, sourceId: article.sourceId };
+  }
+  return undefined;
 }
 
 function toHotStory(
@@ -56,12 +115,19 @@ function toHotStory(
     if (seen.has(article.sourceId) || !sources.has(article.sourceId)) return [];
     seen.add(article.sourceId);
     return [
-      { sourceId: article.sourceId, url: article.url, confirms: confirming.has(article.sourceId) },
+      {
+        sourceId: article.sourceId,
+        url: article.url,
+        confirms: confirming.has(article.sourceId),
+        title: clip(article.title.replace(BREAKING_PREFIX, '').trim(), 200),
+        publishedAt: article.publishedAt.toISOString(),
+      },
     ];
   });
   if (outlets.length < 2) return undefined;
 
   const title = clip(lead.article.title.replace(BREAKING_PREFIX, '').trim(), 160);
+  const summary = summaryOf(story, sources);
   return {
     id: story.id,
     section,
@@ -75,25 +141,56 @@ function toHotStory(
     timeline: storyLifecycle(story, sources)
       .slice(-40)
       .map((event) => ({ ...event, at: event.at.toISOString() })),
+    ...(summary ? { summary } : {}),
   };
 }
 
 export interface MonitorOptions extends Omit<HeatOptions, 'alreadyAlerted'> {
   readonly articles: readonly Article[];
   readonly sources: ReadonlyMap<string, Source>;
+  /**
+   * Picks a hot story's photo from its articles (the pipeline's `pickImage`). The monitor
+   * only names it; the run saves it next to the feed and adds it to the story.
+   */
+  readonly pickPhoto?: (
+    story: Story,
+    confirmingSourceIds: readonly string[],
+  ) => StoryImage | undefined;
 }
 
-/** The Hot News feed for the latest articles; empty when nothing is hot. */
-export function buildHotFeed({ articles, sources, ...heat }: MonitorOptions): HotFeed {
+export interface HotFeedWithPhotos {
+  readonly feed: HotFeed;
+  /** Story id to the photo `pickPhoto` chose, for the stories in the feed. */
+  readonly photos: ReadonlyMap<string, StoryImage>;
+}
+
+/** The Hot News feed for the latest articles, and the photo picked for each story. */
+export function buildHotFeedWithPhotos({
+  articles,
+  sources,
+  pickPhoto,
+  ...heat
+}: MonitorOptions): HotFeedWithPhotos {
   const stories = new Map(groupStories(articles).map((story) => [story.id, story]));
+  const photos = new Map<string, StoryImage>();
   const hot = assessHotNews([...stories.values()], sources, heat)
     .filter((assessment) => assessment.promoted)
     .flatMap((assessment) => {
       const story = stories.get(assessment.storyId);
       const hotStory = story && toHotStory(story, assessment, sources);
-      return hotStory ? [hotStory] : [];
+      if (!story || !hotStory) return [];
+      const photo = pickPhoto?.(story, assessment.evidence.confirmingSourceIds);
+      if (photo) photos.set(story.id, photo);
+      return [hotStory];
     })
     .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
     .slice(0, MONITOR_MAX_STORIES);
-  return parseHotFeed({ version: 1, generatedAt: heat.now.toISOString(), stories: hot });
+  const feed = parseHotFeed({ version: 1, generatedAt: heat.now.toISOString(), stories: hot });
+  const kept = new Set(feed.stories.map((story) => story.id));
+  return { feed, photos: new Map([...photos].filter(([id]) => kept.has(id))) };
+}
+
+/** The Hot News feed for the latest articles; empty when nothing is hot. */
+export function buildHotFeed(options: MonitorOptions): HotFeed {
+  return buildHotFeedWithPhotos(options).feed;
 }

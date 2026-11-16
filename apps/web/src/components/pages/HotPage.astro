@@ -1,9 +1,12 @@
 ---
 /**
  * A Hot News story between bulletins (design 05b): Developing with its last update, the lead
- * outlet's headline, the evidence, the story so far and the outlets. The feed changes every
- * few minutes, so this page reads it in the browser; `?id=` names the story.
+ * outlet's headline, the evidence, the lead outlet's photo and its own short description, the
+ * story so far, what each outlet reports, and the other stories breaking now. The feed changes
+ * every few minutes, so this page reads it in the browser; `?id=` names the story. The rules
+ * write no text: every sentence on the page is an outlet's, under its name.
  */
+import { SOURCES } from '@cspnews/config';
 import Header from '../Header.astro';
 import EvidenceMark from '../ui/EvidenceMark.astro';
 import Icon from '../ui/Icon.astro';
@@ -12,6 +15,7 @@ import '../../styles/timeline.css';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { wordsFor } from '../../lib/i18n';
 import { localePath } from '../../lib/locale';
+import { outletLogoUrl } from '../../lib/media';
 
 interface Props {
   lang: InterfaceLanguage;
@@ -20,11 +24,25 @@ interface Props {
 const { lang } = Astro.props;
 const home = localePath('/', lang);
 const words = wordsFor(lang);
+// Outlet logos are saved with the site; the page looks them up by source id.
+const logos = Object.fromEntries(
+  SOURCES.flatMap((source) => {
+    const src = outletLogoUrl(source.id);
+    return src ? [[source.id, src]] : [];
+  }),
+);
+const hotPath = localePath('/hot', lang);
 ---
 
 <Base title={`${words.hotNews} | CSPNews`} lang={lang}>
   <Header lang={lang} bulletinName={words.hotNews} />
-  <main class="page" data-hot-page data-lang={lang}>
+  <main
+    class="page"
+    data-hot-page
+    data-lang={lang}
+    data-logos={JSON.stringify(logos)}
+    data-hot-path={hotPath}
+  >
     <p class="state" data-state="loading">{words.hotLoading}</p>
     <div class="state" data-state="quiet" hidden>
       <h1 class="quiet">{words.hotQuiet}</h1>
@@ -51,11 +69,29 @@ const words = wordsFor(lang);
         <span class="outlets" data-field="outlets"></span>
       </p>
 
-      <div data-field="timeline"></div>
+      <figure class="photo" data-field="photo" hidden>
+        <img alt="" width="1280" height="720" decoding="async" fetchpriority="high" />
+        <figcaption>
+          {words.photo}: <a target="_blank" rel="noopener noreferrer"></a>
+        </figcaption>
+      </figure>
 
-      <section class="sources">
-        <h2>{words.sources}</h2>
-        <ul data-field="sources"></ul>
+      <section class="said" data-field="said" hidden>
+        <p class="said-who" data-field="said-who"></p>
+        <p class="said-text" data-field="said-text"></p>
+      </section>
+      <p class="untranslated" data-field="untranslated" hidden>{words.hotUntranslated}</p>
+
+      <div class="so-far" data-field="timeline"></div>
+
+      <section class="reports">
+        <h2>{words.hotOutlets}</h2>
+        <ol data-field="sources"></ol>
+      </section>
+
+      <section class="also" data-field="also" hidden>
+        <h2>{words.hotAlso}</h2>
+        <ul data-field="also-list"></ul>
       </section>
 
       <a class="back" href={home}><Icon name="back" />{words.backToBulletin}</a>
@@ -64,27 +100,155 @@ const words = wordsFor(lang);
 </Base>
 
 <script>
+  import type { HotStory } from '@cspnews/core';
+
   import { formatTime } from '../../lib/format';
-  import { hotPageStory, loadHotFeed, safeUrl } from '../../lib/hot';
-  import { updatedAt, wordsFor } from '../../lib/i18n';
+  import { hotPageStory, hotPhotoUrl, loadHotFeed, otherHotStories, safeUrl } from '../../lib/hot';
+  import { outletReports, updatedAt, wordsFor } from '../../lib/i18n';
+  import { ICONS } from '../../lib/icons';
   import { outletNames, sourceName } from '../../lib/sources';
   import { timelineFor } from '../../lib/timeline';
   import { closeTimelinesOnClick, timelineElement } from '../../lib/timeline-view';
 
   closeTimelinesOnClick();
 
+  type Lang = 'en' | 'tr';
   const page = document.querySelector<HTMLElement>('[data-hot-page]');
   const field = (name: string) => page?.querySelector<HTMLElement>(`[data-field="${name}"]`);
 
-  function show(state: 'loading' | 'quiet' | 'gone' | 'error' | 'story') {
-    for (const el of page?.querySelectorAll<HTMLElement>('[data-state]') ?? []) {
-      el.hidden = el.getAttribute('data-state') !== state;
+  function readLogos(): Record<string, string> {
+    try {
+      const parsed: unknown = JSON.parse(page?.getAttribute('data-logos') ?? '{}');
+      return typeof parsed === 'object' && parsed !== null ? (parsed as Record<string, string>) : {};
+    } catch {
+      return {};
     }
+  }
+  const logos = readLogos();
+
+  function el<K extends keyof HTMLElementTagNameMap>(tag: K, className: string, text?: string) {
+    const node = document.createElement(tag);
+    node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+
+  function slotIcon(): SVGSVGElement {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    for (const [key, value] of Object.entries({
+      class: 'icon logo-slot',
+      width: '20',
+      height: '20',
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: 'currentColor',
+      'stroke-width': '1.75',
+      'aria-hidden': 'true',
+    })) {
+      svg.setAttribute(key, value);
+    }
+    svg.innerHTML = ICONS.slot;
+    return svg;
+  }
+
+  function show(state: 'loading' | 'quiet' | 'gone' | 'error' | 'story') {
+    for (const node of page?.querySelectorAll<HTMLElement>('[data-state]') ?? []) {
+      node.hidden = node.getAttribute('data-state') !== state;
+    }
+  }
+
+  function renderPhoto(story: HotStory) {
+    const figure = field('photo');
+    const img = figure?.querySelector('img');
+    const credit = figure?.querySelector('figcaption a');
+    const src = story.image && hotPhotoUrl(story.image.file);
+    if (!figure || !img || !(credit instanceof HTMLAnchorElement) || !story.image || !src) {
+      if (figure) figure.hidden = true;
+      return;
+    }
+    img.onerror = () => {
+      figure.hidden = true;
+    };
+    img.src = src;
+    credit.textContent = story.image.sourceName;
+    const href = safeUrl(story.image.articleUrl);
+    if (href) credit.href = href;
+    figure.hidden = false;
+  }
+
+  function renderSummary(story: HotStory, lang: Lang) {
+    const box = field('said');
+    const who = field('said-who');
+    const text = field('said-text');
+    if (!box || !who || !text) return;
+    box.hidden = !story.summary;
+    if (!story.summary) return;
+    who.textContent = outletReports(sourceName(story.summary.sourceId), lang);
+    text.textContent = story.summary.text;
+    text.lang = story.language;
+  }
+
+  function sourceCard(source: HotStory['sources'][number], story: HotStory, lang: Lang) {
+    const li = el('li', source.confirms ? 'report' : 'report copy');
+    const href = safeUrl(source.url);
+    const card = href ? el('a', 'card') : el('div', 'card');
+    if (card instanceof HTMLAnchorElement && href) {
+      card.href = href;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+    }
+    const head = el('span', 'card-head');
+    const logo = logos[source.sourceId];
+    if (logo) {
+      const img = el('img', 'logo');
+      img.src = logo;
+      img.alt = '';
+      img.width = 20;
+      img.height = 20;
+      img.loading = 'lazy';
+      head.append(img);
+    } else {
+      head.append(slotIcon());
+    }
+    const name = el('span', 'card-name', sourceName(source.sourceId));
+    if (!source.confirms) name.append(el('span', 'copy-note', `, ${wordsFor(lang).republished}`));
+    head.append(name);
+    if (source.publishedAt) head.append(el('span', 'card-time', formatTime(source.publishedAt, lang)));
+    card.append(head);
+    if (source.title) {
+      const title = el('span', 'card-title', source.title);
+      title.lang = story.language;
+      card.append(title);
+    }
+    li.append(card);
+    return li;
+  }
+
+  function renderAlso(stories: HotStory[], lang: Lang) {
+    const box = field('also');
+    const list = field('also-list');
+    if (!box || !list) return;
+    box.hidden = stories.length === 0;
+    const path = page?.getAttribute('data-hot-path') ?? '/hot';
+    list.replaceChildren(
+      ...stories.map((other) => {
+        const li = el('li', 'also-item');
+        li.setAttribute('data-section', other.section);
+        const a = el('a', 'also-link');
+        a.href = `${path}?id=${encodeURIComponent(other.id)}`;
+        a.append(el('span', 'also-time', formatTime(other.updatedAt, lang)));
+        const title = el('span', 'also-title', other.title);
+        title.lang = other.language;
+        a.append(title);
+        li.append(a);
+        return li;
+      }),
+    );
   }
 
   async function render() {
     if (!page) return;
-    const lang = page.getAttribute('data-lang') === 'tr' ? 'tr' : 'en';
+    const lang: Lang = page.getAttribute('data-lang') === 'tr' ? 'tr' : 'en';
     show('loading');
     const feed = await loadHotFeed();
     if (!feed) {
@@ -97,6 +261,7 @@ const words = wordsFor(lang);
       return;
     }
 
+    page.setAttribute('data-section', story.section);
     const title = field('title');
     if (title) {
       title.textContent = story.title;
@@ -111,6 +276,11 @@ const words = wordsFor(lang);
     const outlets = field('outlets');
     if (outlets) outlets.textContent = outletNames(story.sources).join(', ');
 
+    renderPhoto(story);
+    renderSummary(story, lang);
+    const untranslated = field('untranslated');
+    if (untranslated) untranslated.hidden = story.language === lang;
+
     const slot = field('timeline');
     const timeline = timelineFor(story, lang, sourceName);
     if (slot) {
@@ -120,22 +290,16 @@ const words = wordsFor(lang);
 
     const sources = field('sources');
     if (sources) {
-      sources.replaceChildren(
-        ...story.sources.map((source) => {
-          const li = document.createElement('li');
-          const href = safeUrl(source.url);
-          const el = document.createElement(href ? 'a' : 'span');
-          if (el instanceof HTMLAnchorElement && href) {
-            el.href = href;
-            el.target = '_blank';
-            el.rel = 'noopener noreferrer';
-          }
-          el.textContent = sourceName(source.sourceId);
-          li.append(el);
-          return li;
-        }),
+      // Confirming outlets first, each in the order it reported.
+      const ordered = [...story.sources].sort(
+        (a, b) =>
+          Number(b.confirms) - Number(a.confirms) ||
+          (a.publishedAt ?? '').localeCompare(b.publishedAt ?? ''),
       );
+      sources.replaceChildren(...ordered.map((source) => sourceCard(source, story, lang)));
     }
+
+    renderAlso(otherHotStories(feed, story.id), lang);
     show('story');
   }
 
@@ -220,30 +384,182 @@ const words = wordsFor(lang);
   }
 
   h2 {
-    margin-top: 36px;
     color: var(--meta);
     font: 500 15px / 1.3 var(--f-body);
     letter-spacing: 0;
   }
 
+  /* The lead outlet's photo, as on a story page: 16:9, credited underneath. */
+  .photo {
+    margin: 28px 0 0;
+  }
 
-  .sources ul {
-    margin: 12px 0 0;
+  .photo[hidden],
+  .said[hidden],
+  .also[hidden],
+  .untranslated[hidden] {
+    display: none;
+  }
+
+  .photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 6px;
+    background: var(--surf);
+    object-fit: cover;
+  }
+
+  figcaption {
+    margin-top: 8px;
+    color: var(--meta);
+    font: 400 14px / 1.4 var(--f-body);
+  }
+
+  figcaption a {
+    color: var(--ink);
+    text-underline-offset: 3px;
+  }
+
+  /* What the lead outlet says, in its own words: a faint field in the section's hue, like the
+     summary of a bulletin story. */
+  .said {
+    margin-top: 28px;
+    padding: 18px 20px 20px;
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--sec) 8%, transparent);
+  }
+
+  .said-who {
+    color: color-mix(in srgb, var(--sec) 55%, var(--ink));
+    font: 700 15px / 1.5 var(--f-body);
+  }
+
+  .said-text {
+    margin-top: 6px;
+    color: var(--ink);
+    font: 400 18px / 1.55 var(--f-body);
+  }
+
+  .untranslated {
+    margin-top: 12px;
+    color: var(--meta);
+    font: 400 14px / 1.45 var(--f-body);
+  }
+
+  .so-far {
+    margin-top: 28px;
+  }
+
+  .reports,
+  .also {
+    margin-top: 40px;
+  }
+
+  .reports ol,
+  .also ul {
+    margin: 10px 0 0;
     padding: 0;
     list-style: none;
   }
 
-  .sources :global(li) {
+  .reports :global(.report) {
     border-bottom: 1px solid var(--line);
   }
 
-  .sources :global(a),
-  .sources :global(span) {
+  .reports :global(.card) {
+    display: grid;
+    gap: 6px;
+    padding: 16px 0;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .reports :global(.card-head) {
     display: flex;
     align-items: center;
-    min-height: 48px;
+    gap: 10px;
+    font: 600 15px / 1.3 var(--f-body);
+  }
+
+  .reports :global(.logo) {
+    flex: none;
+    border-radius: 4px;
+    object-fit: contain;
+  }
+
+  .reports :global(.logo-slot) {
+    flex: none;
+    color: var(--faint);
+  }
+
+  .reports :global(.card-name) {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .reports :global(.copy-note),
+  .reports :global(.copy .card-name) {
+    color: var(--meta);
+    font-weight: 500;
+  }
+
+  .reports :global(.card-time) {
+    color: var(--meta);
+    font: 500 14px / 1 var(--f-body);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .reports :global(.card-title) {
+    padding-left: 30px;
+    font: 400 17px / 1.45 var(--f-body);
+  }
+
+  .reports :global(a.card:hover .card-title) {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* The other stories breaking now: one quiet line each, with its section's dot. */
+  .also :global(.also-item) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .also :global(.also-link) {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 12px;
+    align-items: baseline;
+    padding: 14px 0;
     color: var(--ink);
-    font: 500 16px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  .also :global(.also-time) {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--meta);
+    font: 500 14px / 1 var(--f-body);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .also :global(.also-time)::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--sec);
+  }
+
+  .also :global(.also-title) {
+    font: 600 17px / 1.4 var(--f-body);
+  }
+
+  .also :global(.also-link:hover .also-title) {
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 
   .back {
