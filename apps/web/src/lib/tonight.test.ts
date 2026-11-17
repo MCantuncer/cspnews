@@ -30,7 +30,7 @@ describe('tonight status', () => {
     expect(tonightStatus(ended, 'tr', new Date('2026-11-15T22:00:00Z'))).toEqual({
       state: 'over',
       figure: '2–1',
-      word: 'Maç sonu',
+      word: 'Final',
     });
   });
 
