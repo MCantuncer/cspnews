@@ -89,7 +89,13 @@
               "value": "Hakan Hastaoğlu",
               "source": "Cumhuriyet"
             }
-          ]
+          ],
+          "place": {
+            "name": "Istanbul",
+            "lat": 41.01,
+            "lon": 28.98,
+            "region": "Türkiye"
+          }
         },
         "tr": {
           "shortTitle": "Sözcü soruşturması Akbay’ı hedefliyor",
@@ -167,7 +173,13 @@
               "value": "Hakan Hastaoğlu",
               "source": "Cumhuriyet"
             }
-          ]
+          ],
+          "place": {
+            "name": "İstanbul",
+            "lat": 41.01,
+            "lon": 28.98,
+            "region": "Türkiye"
+          }
         }
       },
       "timeline": [
@@ -223,12 +235,6 @@
           "sourceId": "bbc-turkce"
         }
       ],
-      "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/9f62b61c-003e-4075-81c4-d5ca0093ddb4.jpg",
-        "sourceId": "cumhuriyet",
-        "sourceName": "Cumhuriyet",
-        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sozcu-tv-ve-sozcu-com-tr-ye-kayyim-atandi-2556754"
-      },
       "sources": [
         {
           "sourceId": "diken",
