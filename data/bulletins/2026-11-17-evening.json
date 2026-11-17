@@ -2058,5 +2058,95 @@
         }
       }
     }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-111",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Dubai Basketball",
+        "ours": false,
+        "team": "dubai-basketball"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-17T16:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/111"
+      }
+    },
+    {
+      "id": "euroleague-e2026-117",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-17T18:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/117"
+      }
+    },
+    {
+      "id": "euroleague-e2026-119",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Virtus Bologna",
+        "ours": false,
+        "team": "virtus-bologna"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-17T20:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/119"
+      }
+    }
   ]
 }
