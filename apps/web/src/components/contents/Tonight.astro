@@ -1,9 +1,8 @@
 ---
 /**
  * Tonight (docs/design/decisions/tonight.md): the matches and shows Turkish readers follow,
- * from the bulletin's `tonight` list. Each row: a station that fills as it goes (hollow, ringed,
- * filled), the name, what it is with small team logos, and on the right the time or the score.
- * Nothing when the bulletin carries no rows.
+ * from the bulletin's `tonight` list, as one card each. The Contents spine draws the station and
+ * its title at the bottom of the bulletin; this draws the cards. Nothing when there are no rows.
  */
 import { sortTonight, tonightIn, type TonightSide } from '@cspnews/core';
 
@@ -62,173 +61,168 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
 {
   rows.length > 0 && (
-    <section class="tonight" aria-labelledby="tonight-title">
-      <h2 id="tonight-title">{words.title}</h2>
-      <ul>
-        {rows.map(({ local, board, scorers, status, data, outcome, marks }) => (
-          <li
-            class:list={{ board }}
-            data-tonight-row={data}
-            data-lang={lang}
-            data-state={status.state}
-            data-outcome={outcome}
-            data-live-source={local.live?.source}
-            data-live-ref={local.live?.ref}
-            data-sport={local.sport}
-            data-ours={
-              local.home?.ours && !local.away?.ours
-                ? 'home'
-                : local.away?.ours && !local.home?.ours
-                  ? 'away'
-                  : undefined
-            }
-            data-final={local.result ? 'true' : undefined}
-          >
-            <span class="station" aria-hidden="true" />
-            <div class="body">
-              {board && local.home && local.away ? (
-                <>
-                  <div class="info">
-                  {local.focus === 'person' && (
-                    <div class="person">
-                      <span class="name">{local.name}</span>
-                      <span class="marks-line" data-marks>
-                        {marks.map(
-                          (person) =>
-                            person.marks.length > 0 && (
-                              <span class="marks" role="img" aria-label={person.label}>
-                                {person.marks.map((mark) => (
-                                  <span class="mark">
-                                    <span class="count">{mark.count}</span>
-                                    <span class="word">
-                                      {words.unit(mark.kind, mark.count, local.sport)}
-                                    </span>
-                                  </span>
-                                ))}
-                              </span>
-                            ),
-                        )}
-                      </span>
-                    </div>
-                  )}
-                  {local.focus !== 'person' && <span class="name">{local.name}</span>}
-                  <span class="comp">{local.competition}</span>
-                  </div>
-                  <button
-                    type="button"
-                    class="match"
-                    aria-expanded="false"
-                    aria-label={words.details}
-                    data-match-toggle
-                  >
-                    {(['home', 'away'] as const).map((key) => {
-                      const side = local[key];
-                      return (
-                        side && (
-                          <div class:list={['team', key, { ours: side.ours }]}>
-                            {!logo(local.home) && !logo(local.away) ? undefined : logo(side) ? (
-                              local.focus === 'national' ? (
-                                <span class="flag">
-                                  <img src={logo(side)} alt="" width="30" height="30" />
-                                </span>
-                              ) : (
-                                <img class="logo" src={logo(side)} alt="" width="24" height="24" />
-                              )
-                            ) : (
-                              <span class="crest" aria-hidden="true" />
-                            )}
-                            <span class="team-name">
-                              {side.short ? (
-                                <>
-                                  <span class="full">{side.name}</span>
-                                  <span class="short" aria-hidden="true">{side.short}</span>
-                                </>
-                              ) : (
-                                side.name
-                              )}
-                            </span>
-                          </div>
-                        )
-                      );
-                    })}
-                    <div class="middle">
-                      <span class="scoreline">
-                        <b class="score home" data-score="home">
-                          {local.result?.home}
-                        </b>
-                        <span class="dash" aria-hidden="true">
-                          –
-                        </span>
-                        <b class="score away" data-score="away">
-                          {local.result?.away}
-                        </b>
-                      </span>
-                      <b class="clock" data-figure>
-                        {status.figure}
-                      </b>
-                      {outcome && (
-                        <span class="visually-hidden">
-                          {outcome === 'win' ? words.won : outcome === 'loss' ? words.lost : words.drew}
-                        </span>
-                      )}
-                      <span class="status">
-                        <small data-word>{status.word}</small>
-                        <span class="chevron" aria-hidden="true">
-                          <Icon name="more" size={14} />
-                        </span>
-                      </span>
-                    </div>
-                  </button>
-                  <ul class="scorers" aria-label={words.scored} data-scorers>
-                    {scorers.map((scorer) => (
-                      <li
-                        class:list={[scorer.side, { ours: local[scorer.side]?.ours, own: scorer.own }]}
-                        data-name={scorer.name}
-                      >
-                        <span class="minutes">
-                          {scorer.minutes ? scorer.minutes.join(' ') : scorer.points}
-                          {!scorer.minutes && (
-                            <span class="unit">
-                              {' '}
-                              {words.unit('points', scorer.points ?? 0, local.sport).toLocaleUpperCase(lang)}
-                            </span>
-                          )}
-                        </span>
-                        <span class="who">
-                          {scorer.src && (
-                            <img class="photo" src={scorer.src} alt="" width="24" height="24" />
-                          )}
-                          {scorer.name}
-                          {scorer.penalty && <span class="unit"> {words.penalty.toLocaleUpperCase(lang)}</span>}
-                          {scorer.own && <span class="unit"> {words.ownGoal.toLocaleUpperCase(lang)}</span>}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              ) : (
-                <>
+    <ul class="cards">
+      {rows.map(({ local, board, scorers, status, data, outcome, marks }) => (
+        <li
+          class:list={['card', { board }]}
+          data-tonight-row={data}
+          data-lang={lang}
+          data-state={status.state}
+          data-outcome={outcome}
+          data-live-source={local.live?.source}
+          data-live-ref={local.live?.ref}
+          data-sport={local.sport}
+          data-ours={
+            local.home?.ours && !local.away?.ours
+              ? 'home'
+              : local.away?.ours && !local.home?.ours
+                ? 'away'
+                : undefined
+          }
+          data-final={local.result ? 'true' : undefined}
+        >
+          {board && local.home && local.away ? (
+            <>
+              {local.focus === 'person' ? (
+                <div class="head">
                   <span class="name">{local.name}</span>
-                  <span class="what">{tonightWhat(local, lang)}</span>
-                </>
+                  <span class="comp">{local.competition}</span>
+                </div>
+              ) : (
+                <div class="head">
+                  <span class="comp">{local.competition}</span>
+                </div>
               )}
-              {!board && <span class="comp">{local.competition}</span>}
-            </div>
-            {!board && (
-            <div class="when">
-              <b data-figure>{status.figure}</b>
-              {outcome && (
-                <span class="visually-hidden">
-                  {outcome === 'win' ? words.won : outcome === 'loss' ? words.lost : words.drew}
+              {local.focus === 'person' && (
+                <span class="marks-line" data-marks>
+                  {marks.map(
+                    (person) =>
+                      person.marks.length > 0 && (
+                        <span class="marks" role="img" aria-label={person.label}>
+                          {person.marks.map((mark) => (
+                            <span class="mark">
+                              <span class="count">{mark.count}</span>
+                              <span class="word">{words.unit(mark.kind, mark.count, local.sport)}</span>
+                            </span>
+                          ))}
+                        </span>
+                      ),
+                  )}
                 </span>
               )}
-              <small data-word>{status.word}</small>
+              <button
+                type="button"
+                class="match"
+                aria-expanded="false"
+                aria-label={words.details}
+                data-match-toggle
+              >
+                {(['home', 'away'] as const).map((key) => {
+                  const side = local[key];
+                  return (
+                    side && (
+                      <div class:list={['team', key, { ours: side.ours }]}>
+                        {!logo(local.home) && !logo(local.away) ? undefined : logo(side) ? (
+                          local.focus === 'national' ? (
+                            <span class="flag">
+                              <img src={logo(side)} alt="" width="30" height="30" />
+                            </span>
+                          ) : (
+                            <img class="logo" src={logo(side)} alt="" width="26" height="26" />
+                          )
+                        ) : (
+                          <span class="crest" aria-hidden="true" />
+                        )}
+                        <span class="team-name">
+                          {side.short ? (
+                            <>
+                              <span class="full">{side.name}</span>
+                              <span class="short" aria-hidden="true">
+                                {side.short}
+                              </span>
+                            </>
+                          ) : (
+                            side.name
+                          )}
+                        </span>
+                      </div>
+                    )
+                  );
+                })}
+                <div class="middle">
+                  <span class="scoreline">
+                    <b class="score home" data-score="home">
+                      {local.result?.home}
+                    </b>
+                    <span class="dash" aria-hidden="true">
+                      –
+                    </span>
+                    <b class="score away" data-score="away">
+                      {local.result?.away}
+                    </b>
+                  </span>
+                  <b class="clock" data-figure>
+                    {status.figure}
+                  </b>
+                  {outcome && (
+                    <span class="visually-hidden">
+                      {outcome === 'win' ? words.won : outcome === 'loss' ? words.lost : words.drew}
+                    </span>
+                  )}
+                  <span class="status">
+                    <small data-word>{status.word}</small>
+                    <span class="chevron" aria-hidden="true">
+                      <Icon name="more" size={14} />
+                    </span>
+                  </span>
+                </div>
+              </button>
+              <ul class="scorers" aria-label={words.scored} data-scorers>
+                {scorers.map((scorer) => (
+                  <li
+                    class:list={[scorer.side, { ours: local[scorer.side]?.ours, own: scorer.own }]}
+                    data-name={scorer.name}
+                  >
+                    <span class="minutes">
+                      {scorer.minutes ? scorer.minutes.join(' ') : scorer.points}
+                      {!scorer.minutes && (
+                        <span class="unit">
+                          {' '}
+                          {words.unit('points', scorer.points ?? 0, local.sport).toLocaleUpperCase(lang)}
+                        </span>
+                      )}
+                    </span>
+                    <span class="who">
+                      {scorer.src && <img class="photo" src={scorer.src} alt="" width="24" height="24" />}
+                      {scorer.name}
+                      {scorer.penalty && <span class="unit"> {words.penalty.toLocaleUpperCase(lang)}</span>}
+                      {scorer.own && <span class="unit"> {words.ownGoal.toLocaleUpperCase(lang)}</span>}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : (
+            <div class="show">
+              <div class="info">
+                <span class="name">{local.name}</span>
+                <span class="what">{tonightWhat(local, lang)}</span>
+                <span class="comp">{local.competition}</span>
+              </div>
+              <div class="when">
+                <b data-figure>{status.figure}</b>
+                {outcome && (
+                  <span class="visually-hidden">
+                    {outcome === 'win' ? words.won : outcome === 'loss' ? words.lost : words.drew}
+                  </span>
+                )}
+                <small data-word>{status.word}</small>
+              </div>
             </div>
-            )}
-          </li>
-        ))}
-      </ul>
-    </section>
+          )}
+        </li>
+      ))}
+    </ul>
   )
 }
 
@@ -248,203 +242,57 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 </script>
 
 <style>
-  .tonight {
-    max-width: 640px;
-    margin-top: 28px;
-  }
-
-  h2 {
-    color: var(--meta);
-    font: 700 15px / 1.3 var(--f-body);
-  }
-
-  ul {
-    margin: 8px 0 0;
-    padding: 0;
+  /*
+   * One quiet card a match, like the Turks abroad cards above it: who or what it is on top,
+   * then the scoreline across the card. No stations, no dots: the score carries the result.
+   */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+    gap: 14px;
+    margin: 0;
+    padding: 12px 0 0;
     list-style: none;
   }
 
-  li {
+  .card {
     display: grid;
-    grid-template-columns: 16px minmax(0, 1fr) auto;
+    align-content: start;
     gap: 14px;
-    align-items: start;
-    padding: 22px 0;
-    border-top: 1px solid var(--line);
+    padding: 18px 18px 16px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--surf);
   }
 
-  /* A small station on the day line: hollow before, ringed while on, filled once over. */
-  .station {
-    width: 12px;
-    height: 12px;
-    margin-top: 6px;
-    border: 2px solid var(--line2);
-    border-radius: 50%;
-  }
-
-  [data-state='on'] .station {
-    border-color: var(--hot);
-    box-shadow: inset 0 0 0 2px var(--bg);
-    background: var(--hot);
-  }
-
-  [data-state='over'] .station {
-    border-color: var(--ink);
-    background: var(--ink);
-  }
-
-  .body {
-    display: grid;
-    gap: 7px;
-    min-width: 0;
-  }
-
-  /* The name and a person's numbers share one line, and wrap from the left edge together. */
-  .name {
+  .head {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 2px 14px;
+    justify-content: space-between;
+    gap: 2px 16px;
+  }
+
+  .name {
     color: var(--ink);
     font: 700 18px / 1.25 var(--f-head);
     letter-spacing: -0.01em;
   }
 
-  .what {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 2px 6px;
+  .comp {
+    color: var(--meta);
+    font: 500 14px / 1.35 var(--f-body);
+  }
+
+  /* A club or national team card names only the competition: the teams are in the scoreline. */
+  .head:not(:has(.name)) .comp {
     color: var(--ink2);
-    font: 400 15px / 1.4 var(--f-body);
-  }
-
-  .side {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .side.ours {
-    color: var(--ink);
     font-weight: 600;
   }
 
-  /* A club or national team row is the fixture itself, set as the row's name. */
-  .what.fixture {
-    color: var(--ink2);
-    font: 500 18px / 1.25 var(--f-head);
-  }
-
-  .what.fixture .ours {
-    font-weight: 700;
-  }
-
-  .what.fixture img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .side img {
-    flex: none;
-    object-fit: contain;
-  }
-
-  .vs,
-  .comp {
-    color: var(--meta);
-  }
-
-  .comp {
-    font: 400 14px / 1.35 var(--f-body);
-  }
-
-  .when {
-    display: grid;
-    justify-items: end;
-    gap: 6px;
-    text-align: right;
-    white-space: nowrap;
-  }
-
-  .when b {
-    color: var(--ink);
-    font: 800 20px / 1.15 var(--f-head);
-    font-variant-numeric: tabular-nums;
-    letter-spacing: -0.01em;
-  }
-
-  .when small {
-    color: var(--meta);
-    font: 500 13px / 1.3 var(--f-body);
-  }
-
-  /* The result for our side, said softly: the filled station takes the colour, the score a tint. */
-  [data-outcome='win'] .station {
-    border-color: var(--conf);
-    background: var(--conf);
-  }
-
-  [data-outcome='loss'] .station {
-    border-color: var(--disp);
-    background: var(--disp);
-  }
-
-  [data-outcome='win'] .when b {
-    color: color-mix(in srgb, var(--conf) 55%, var(--ink));
-  }
-
-  [data-outcome='loss'] .when b {
-    color: color-mix(in srgb, var(--disp) 55%, var(--ink));
-  }
-
-  /*
-   * A person's row: their name, then their own numbers as a small box score on a line of its
-   * own (each number over its word), then the match as a scoreline like every other match.
-   */
-  /*
-   * A match row: what it is (a person's name and numbers, then the league) and the scoreline.
-   * On a phone one under the other; on a wider screen side by side, the scoreline on the right
-   * in a column of its own, so every row's score sits in the same place.
-   */
-  .board .body {
-    grid-template-areas: 'info' 'match' 'scorers';
-    gap: 0;
-  }
-
-  .info {
-    display: grid;
-    grid-area: info;
-    gap: 4px;
-    min-width: 0;
-    margin-bottom: 16px;
-  }
-
-  .board button.match {
-    grid-area: match;
-  }
-
-  .board .scorers {
-    grid-area: scorers;
-  }
-
-  @media (min-width: 720px) {
-    .board .body {
-      grid-template-areas: 'info match' '. scorers';
-      grid-template-columns: minmax(0, 1fr) 380px;
-      column-gap: 28px;
-      row-gap: 0;
-      align-items: start;
-    }
-
-    .info {
-      margin-bottom: 0;
-    }
-  }
-
-  .person {
-    display: grid;
-    gap: 4px;
+  /* A person's own numbers on one quiet line: the number in ink, its word beside it. */
+  .marks-line {
+    margin-top: -8px;
   }
 
   .marks-line:empty {
@@ -482,32 +330,21 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     letter-spacing: 0.08em;
   }
 
-  [data-state='on'] .when small {
-    color: var(--hot);
-  }
-
   /*
-   * A club or national team match is drawn as a scoreline: the home team on the left, the score
-   * and the clock in the middle, the away team on the right, and each goal under the side that
-   * scored it, minute first.
+   * The match under a hairline, as the scoreboard sports apps use: one line a team, crest and
+   * name on the left, its score on the right, and the clock or the end beside both. Home first,
+   * away second. It is a button: closed it is the score alone, open it adds who scored.
    */
-  li.board {
-    grid-template-columns: 16px minmax(0, 1fr);
-  }
-
-  .match {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-    gap: 14px;
-    align-items: center;
-  }
-
-  /* The scoreline is a button: closed it is the score alone, open it adds who scored. */
   button.match {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 10px 16px;
+    align-items: center;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 14px 0 0;
     border: 0;
+    border-top: 1px solid var(--line);
     background: none;
     color: inherit;
     font: inherit;
@@ -518,57 +355,39 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   button.match:focus-visible {
     border-radius: 6px;
     outline: 2px solid var(--ink);
-    outline-offset: 6px;
+    outline-offset: 4px;
   }
 
-  .status {
-    display: inline-flex;
-    align-items: center;
-    gap: 2px;
-  }
-
-  .chevron {
-    display: inline-flex;
-    color: var(--meta);
-    transform: rotate(90deg);
-    transition: transform 0.2s ease;
-  }
-
-  [aria-expanded='true'] .chevron {
-    transform: rotate(-90deg);
-  }
-
-  /* Nothing to open before a goal or a basket. */
-  .board:has(.scorers:empty) .chevron {
-    display: none;
-  }
-
-  .board:has([aria-expanded='false']) .scorers {
-    display: none;
-  }
-
-  /* Each team on the score's line: its crest next to the score, its name outside it. */
   .team {
     display: flex;
+    grid-column: 1;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     min-width: 0;
     color: var(--ink2);
-    font: 500 15px / 1.25 var(--f-head);
+    font: 500 16px / 1.25 var(--f-head);
     overflow-wrap: break-word;
   }
 
   .team.home {
-    flex-direction: row-reverse;
-    text-align: right;
+    grid-row: 1;
+  }
+
+  .team.away {
+    grid-row: 2;
   }
 
   .team > :not(.team-name) {
     flex: none;
   }
 
+  .team.ours {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
   /* A long club name gives way to the source's short one ("76ers", "Rockets"); the full name
-     stays for screen readers and as the tooltip. */
+     stays for screen readers. */
   .team-name .full {
     position: absolute;
     overflow: hidden;
@@ -578,25 +397,10 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     white-space: nowrap;
   }
 
-  .team.home {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .team.away {
-    grid-column: 3;
-    grid-row: 1;
-  }
-
-  .team.ours {
-    color: var(--ink);
-    font-weight: 700;
-  }
-
   .logo,
   .crest {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
     object-fit: contain;
   }
 
@@ -605,8 +409,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     visibility: hidden;
   }
 
-  /* A national team's flag, whole, as a small rounded rectangle. The saved flags sit on a square
-     with clear space around them, so the picture is a little larger than its frame. */
+  /* A national team's flag, whole, as a small rounded rectangle. */
   .flag {
     position: relative;
     display: block;
@@ -627,30 +430,40 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     transform: translate(-50%, -50%);
   }
 
-  .middle {
-    display: grid;
-    grid-column: 2;
-    grid-row: 1;
-    justify-items: center;
-    gap: 4px;
-    padding-top: 2px;
-    white-space: nowrap;
+  /* The middle and the scoreline only group the parts; each score sits on its team's line. */
+  .middle,
+  .scoreline {
+    display: contents;
   }
 
-  .scoreline {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
+  .score {
+    grid-column: 2;
+    justify-self: end;
     color: var(--ink);
-    font: 800 22px / 1 var(--f-head);
+    font: 800 20px / 1.2 var(--f-head);
     font-variant-numeric: tabular-nums;
   }
 
-  .dash {
-    color: var(--meta);
-    font-weight: 500;
+  .score.home {
+    grid-row: 1;
   }
 
+  .score.away {
+    grid-row: 2;
+  }
+
+  .dash {
+    display: none;
+  }
+
+  /* The other side's score steps back, so our side's reads first. */
+  [data-ours='home'] .score.away,
+  [data-ours='away'] .score.home {
+    color: var(--ink2);
+    font-weight: 600;
+  }
+
+  /* The result for our side, said softly: the score takes a light tint, never a badge. */
   [data-ours='home'][data-outcome='win'] .score.home,
   [data-ours='away'][data-outcome='win'] .score.away {
     color: color-mix(in srgb, var(--conf) 55%, var(--ink));
@@ -661,20 +474,57 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     color: color-mix(in srgb, var(--disp) 55%, var(--ink));
   }
 
-  /* Before kick-off the middle is the time; then the score, with the minute or the end below. */
-  .board[data-state='upcoming'] .scoreline {
-    display: none;
-  }
-
-  /* Live but no score read yet: just the word, no lone dash. */
-  .scoreline:has(.score.home:empty):has(.score.away:empty) {
+  /* Before the start the score column holds the time; then the scores, with the minute or the end. */
+  .board[data-state='upcoming'] .score,
+  .scoreline:has(.score.home:empty):has(.score.away:empty) .score {
     display: none;
   }
 
   .clock {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
     color: var(--ink);
     font: 800 20px / 1.15 var(--f-head);
     font-variant-numeric: tabular-nums;
+  }
+
+  .board:not([data-state='upcoming']) .clock {
+    display: none;
+  }
+
+  /* Before the start the time and its word stand together on the right, so the names keep the
+     room. */
+  .board[data-state='upcoming'] button.match {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .board[data-state='upcoming'] .clock {
+    grid-row: 1;
+    align-self: end;
+    justify-self: end;
+  }
+
+  .board[data-state='upcoming'] .status {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  .status {
+    display: inline-flex;
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    align-items: center;
+    align-self: center;
+    justify-self: end;
+    gap: 2px;
+  }
+
+  .middle small {
+    color: var(--meta);
+    font: 500 13px / 1.3 var(--f-body);
+    white-space: nowrap;
   }
 
   .board[data-state='on'] .middle small {
@@ -682,31 +532,37 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     font-weight: 600;
   }
 
-  .board:not([data-state='upcoming']) .clock {
+  .chevron {
+    display: inline-flex;
+    color: var(--meta);
+    transform: rotate(90deg);
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+
+  [aria-expanded='true'] .chevron {
+    transform: rotate(-90deg);
+  }
+
+  /* Nothing to open before a goal or a basket. */
+  .board:has(.scorers:empty) .chevron {
     display: none;
   }
 
-  .middle small {
-    color: var(--meta);
-    font: 500 13px / 1.3 var(--f-body);
-  }
-
+  .board:has([aria-expanded='false']) .scorers,
   .scorers:empty {
     display: none;
   }
 
-  /*
-   * The goals use the row's whole width: the home side's in the left half, the away side's in
-   * the right half, each line the minute and then the scorer, a long name wrapping under itself.
-   */
+  /* Who scored: the home side's in the left half, the away side's in the right half. */
   .scorers {
     display: grid;
     grid-auto-flow: row dense;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 8px 12px;
-    margin: 14px 0 0;
+    margin: 0;
     padding: 12px 0 0;
     border-top: 1px solid var(--line);
+    list-style: none;
   }
 
   .scorers li {
@@ -714,10 +570,8 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     grid-template-columns: minmax(1.9em, max-content) minmax(0, 1fr);
     column-gap: 6px;
     align-items: baseline;
-    padding: 0;
-    border: 0;
     color: var(--ink2);
-    font: 500 12px / 1.3 var(--f-body);
+    font: 500 13px / 1.35 var(--f-body);
   }
 
   .scorers li.home {
@@ -758,11 +612,55 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   .minutes {
     color: var(--meta);
-    font: 500 12px / 1.3 var(--f-body);
+    font: 500 13px / 1.35 var(--f-body);
     font-variant-numeric: tabular-nums;
   }
 
-  .board .comp {
-    margin: 0;
+  /* An award show or anything without a scoreline: what it is, and the time on the right. */
+  .show {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .info {
+    display: grid;
+    gap: 4px;
+    min-width: 0;
+  }
+
+  .what {
+    color: var(--ink2);
+    font: 400 15px / 1.4 var(--f-body);
+  }
+
+  .when {
+    display: grid;
+    justify-items: end;
+    gap: 4px;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .when b {
+    color: var(--ink);
+    font: 800 20px / 1.15 var(--f-head);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .when small {
+    color: var(--meta);
+    font: 500 13px / 1.3 var(--f-body);
+  }
+
+  [data-state='on'] .when small {
+    color: var(--hot);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chevron {
+      transition: none;
+    }
   }
 </style>

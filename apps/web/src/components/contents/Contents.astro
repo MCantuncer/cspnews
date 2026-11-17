@@ -20,9 +20,11 @@ import type { InterfaceLanguage } from '../../lib/evidence';
 import { sectionName, wordsFor } from '../../lib/i18n';
 import type { IconName } from '../../lib/icons';
 import { abroadItemsIn, abroadPath, abroadWords } from '../../lib/abroad';
+import { tonightWords } from '../../lib/tonight';
 import { extrasWords, transferPath, transfersIn } from '../../lib/extras';
 import { outletLogos, photoUrl } from '../../lib/media';
 import AbroadCard from '../abroad/AbroadCard.astro';
+import Tonight from './Tonight.astro';
 import { storyVisual } from '../../lib/story-visual';
 import AndFinally from '../extras/AndFinally.astro';
 import StageLine from '../extras/StageLine.astro';
@@ -46,6 +48,8 @@ const moves = compact ? [] : transfersIn(published, lang);
 const abroad = compact ? [] : abroadItemsIn(published, lang);
 const abroadText = abroadWords(lang);
 const extras = extrasWords(lang);
+// Tonight's matches close the bulletin, after Turks abroad (Can, 2026-11-17).
+const tonightCount = compact ? 0 : (published.bulletin.tonight ?? []).length;
 ---
 
 <nav class:list={['contents', { compact }]} aria-label={words.contents} data-contents data-lang={lang}>
@@ -178,6 +182,17 @@ const extras = extrasWords(lang);
               </li>
             ))}
           </ol>
+        </li>
+      )
+    }
+    {
+      tonightCount > 0 && (
+        <li class="section tonight" data-section="tonight">
+          <h2 class="station">
+            <Icon name="stats" size={22} class="section-icon" />
+            {tonightWords(lang).title}
+          </h2>
+          <Tonight published={published} lang={lang} />
         </li>
       )
     }
