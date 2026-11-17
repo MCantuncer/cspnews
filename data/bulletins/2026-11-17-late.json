@@ -754,12 +754,6 @@
           "sourceId": "bbc-world"
         }
       ],
-      "image": {
-        "url": "https://media.wired.com/photos/6afc8d817073e76a25272b83/master/pass/111726-Jensen%20might%20be%20back.jpg",
-        "sourceId": "wired",
-        "sourceName": "Wired",
-        "articleUrl": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/"
-      },
       "sources": [
         {
           "sourceId": "techcrunch",
@@ -964,12 +958,6 @@
           "to": "confirmed"
         }
       ],
-      "image": {
-        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
-        "sourceId": "ars-technica",
-        "sourceName": "Ars Technica",
-        "articleUrl": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
-      },
       "sources": [
         {
           "sourceId": "ars-technica",
