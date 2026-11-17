@@ -1,0 +1,1379 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-17T12:30:00+03:00",
+  "writtenAt": "2026-11-17T08:57:27Z",
+  "stories": [
+    {
+      "id": "47a689c29ae3cf83",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "8317a1dc35575067",
+      "versions": {
+        "en": {
+          "shortTitle": "Sözcü probe targets owner Akbay",
+          "title": "Sözcü TV takeover rests on a FETÖ financing probe into its owner",
+          "news": "Prosecutors say the takeover is part of a FETÖ financing probe into owner Burak Akbay; four people face detention orders.",
+          "summary": {
+            "what": "Istanbul prosecutors say the Sözcü TV takeover is part of an investigation into owner Burak Akbay over FETÖ membership and financing terrorism.",
+            "why": "Akbay and other Sözcü writers and managers were acquitted in an earlier FETÖ case in March 2025, after the top appeals court overturned their convictions.",
+            "next": "Four people face detention orders, and trustee Hakan Hastaoğlu now runs the channel and its news site."
+          },
+          "body": [
+            {
+              "subhead": "What the prosecutors say",
+              "blocks": [
+                {
+                  "text": "The takeover of Sözcü TV and its news site on Tuesday morning is part of an investigation into the group’s owner, Burak Akbay, the Istanbul chief prosecutor’s office said in a statement carried by Hürriyet, Sabah, Diken and Cumhuriyet. The counter-terrorism bureau is investigating him for membership of what prosecutors call the FETÖ/PDY armed terrorist organisation and for breaching the law on preventing the financing of terrorism. When the morning bulletin went out, no reason had been given."
+                },
+                {
+                  "text": "According to the statement, an indictment was drawn up against Akbay on 27 September 2017 accusing him of founding or running a terrorist organisation and of spreading its propaganda, and a warrant was issued for his arrest. It alleged that he launched Sözcü TV and the newspaper in line with the organisation’s aims and instructions. While that trial went on, the court asked prosecutors to look into Akbay’s finances, and the new investigation began there. Medyascope notes that Akbay has lived abroad since 2017."
+                },
+                {
+                  "text": "Prosecutors say reports by MASAK, the finance ministry’s financial crimes unit, gave strong suspicion that Akbay used bank accounts abroad to finance two companies, Estetik Yayıncılık and Mega Ajans ve Reklamcılık, and ran the organisation through them. The Savings Deposit Insurance Fund (TMSF) was appointed trustee of Mega Ajans."
+                }
+              ]
+            },
+            {
+              "subhead": "Who is being held",
+              "blocks": [
+                {
+                  "text": "Detention orders were issued for four people the prosecutors describe as executives or officials of the companies: Sözcü TV board chair Funda Tuncer Sıdalı, Mustafa Asım Akgül, İsmail Öz and Yonca Yücekaleli, Diken reports, citing Anadolu Agency. Sabah describes Akgül as a former general manager of the Sözcü Media Group, Öz as a former signatory of the companies and Yücekaleli as the newspaper’s finance manager. Police searched the addresses of both companies, the newspaper and the channel."
+                },
+                {
+                  "text": "The trustee now running the channel and the site is Hakan Hastaoğlu, Cumhuriyet reports. He previously sat on the trustee board at Habertürk, and Medyascope says he also worked at Flash TV, Ekotürk and Can Medya after they came under the TMSF."
+                }
+              ]
+            },
+            {
+              "subhead": "An earlier case that ended in acquittal",
+              "blocks": [
+                {
+                  "text": "The group’s lawyer, Ersan Barkın, said the search rests on a case that the courts have already thrown out, according to ANKA, as quoted by Diken."
+                },
+                {
+                  "quote": "“The Sözcü Group is being searched on the basis of a file that the Court of Cassation earlier overturned, finding no unlawfulness and confirming that there was no crime.”",
+                  "speaker": "Ersan Barkın",
+                  "sourceId": "diken",
+                  "translated": true
+                },
+                {
+                  "text": "Diken notes that nine Sözcü writers and managers, Akbay among them, were sentenced to prison terms for allegedly aiding FETÖ. An appeals court upheld the verdict, the Court of Cassation overturned it, and a retrial in March 2025 ended in acquittal. Cumhuriyet reports that the court which handed down the first conviction was chaired by Akın Gürlek, now the justice minister."
+                },
+                {
+                  "text": "The Journalists’ Union of Türkiye called on the government to drop such measures, DW Türkçe reports: “Tele1, Halk TV and now Sözcü TV.” MHP leader Devlet Bahçeli, asked about the trustee after his party’s group meeting, took aim at the outlet’s managers and on-screen commentators, Cumhuriyet reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Detention orders",
+              "value": "4",
+              "source": "Istanbul prosecutor, via Hürriyet"
+            },
+            {
+              "label": "Indictment against Akbay",
+              "value": "27 Sep 2017",
+              "source": "Istanbul prosecutor, via Hürriyet"
+            },
+            {
+              "label": "Acquittal in the earlier FETÖ case",
+              "value": "Mar 2025",
+              "source": "Diken"
+            },
+            {
+              "label": "Trustee running the channel",
+              "value": "Hakan Hastaoğlu",
+              "source": "Cumhuriyet"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Sözcü soruşturması Akbay’ı hedefliyor",
+          "title": "Sözcü TV’ye kayyımın gerekçesi: Burak Akbay’a FETÖ finansmanı soruşturması",
+          "news": "Savcılık, kayyımın sahibi Burak Akbay hakkındaki FETÖ finansmanı soruşturması kapsamında atandığını açıkladı; dört kişiye gözaltı kararı var.",
+          "summary": {
+            "what": "İstanbul Cumhuriyet Başsavcılığı, Sözcü TV’ye kayyımın sahibi Burak Akbay hakkında FETÖ üyeliği ve terörün finansmanı soruşturması kapsamında atandığını açıkladı.",
+            "why": "Akbay ve Sözcü’nün yazar ve yöneticileri önceki FETÖ davasında, Yargıtay’ın bozma kararının ardından Mart 2025’te beraat etmişti.",
+            "next": "Dört kişi hakkında gözaltı kararı var; kanalı ve haber sitesini artık kayyım Hakan Hastaoğlu yönetiyor."
+          },
+          "body": [
+            {
+              "subhead": "Savcılığın açıklaması",
+              "blocks": [
+                {
+                  "text": "Sözcü TV ve haber sitesine salı sabahı atanan kayyım, grubun sahibi Burak Akbay hakkında yürütülen soruşturmanın parçası. Hürriyet, Sabah, Diken ve Cumhuriyet’in aktardığı açıklamaya göre İstanbul Cumhuriyet Başsavcılığı Terör Suçları Soruşturma Bürosu, Akbay’ı “FETÖ/PDY silahlı terör örgütüne üye olma” ve “Terörizmin Finansmanının Önlenmesi Hakkındaki Kanun’a muhalefet” suçlarından soruşturuyor. Sabah bülteni yayımlandığında henüz bir gerekçe açıklanmamıştı."
+                },
+                {
+                  "text": "Açıklamaya göre Akbay hakkında 27 Eylül 2017’de “terör örgütü kurmak veya yönetmek” ve “terör örgütü propagandası yapmak” suçlamalarıyla iddianame düzenlendi ve yakalama kararı çıkarıldı. İddianamede Akbay’ın Sözcü TV’yi ve gazeteyi örgütün amaçları ve talimatları doğrultusunda kurduğu öne sürülüyordu. Yargılama sürerken mahkemenin Akbay’ın mali durumunun incelenmesi için savcılığa ihbarda bulunmasıyla yeni soruşturma başladı. Medyascope, Akbay’ın 2017’den bu yana yurt dışında yaşadığını hatırlatıyor."
+                },
+                {
+                  "text": "Savcılık, Mali Suçları Araştırma Kurulu (MASAK) raporlarına göre Akbay’ın yurt dışındaki banka hesaplarından Estetik Yayıncılık AŞ ile Mega Ajans ve Reklamcılık AŞ’yi finanse ettiğine ve örgüt yöneticiliğini bu şirketler üzerinden sürdürdüğüne dair kuvvetli şüphe bulunduğunu belirtti. Mega Ajans’ın yönetimine TMSF kayyım olarak atandı."
+                }
+              ]
+            },
+            {
+              "subhead": "Gözaltı kararı verilenler",
+              "blocks": [
+                {
+                  "text": "Diken’in Anadolu Ajansı’na dayandırdığı habere göre şirket yöneticisi ya da yetkilisi olan dört kişi hakkında gözaltı kararı verildi: Sözcü TV Yönetim Kurulu Başkanı Funda Tuncer Sıdalı, Mustafa Asım Akgül, İsmail Öz ve Yonca Yücekaleli. Sabah, Akgül’ün Sözcü Medya Grubu’nun eski genel müdürü, Öz’ün şirketlerin eski imza yetkilisi, Yücekaleli’nin ise gazetenin mali işler müdürü olduğunu yazdı. Polis iki şirketin, gazetenin ve kanalın adreslerinde arama yaptı."
+                },
+                {
+                  "text": "Cumhuriyet’e göre kanal ve sitenin kayyımı Hakan Hastaoğlu. Hastaoğlu daha önce Habertürk’ün kayyım heyetinde yer almıştı; Medyascope’a göre TMSF yönetimine geçen Flash TV, Ekotürk ve Can Medya’da da görev yaptı."
+                }
+              ]
+            },
+            {
+              "subhead": "Beraatle biten eski dava",
+              "blocks": [
+                {
+                  "text": "Diken’in ANKA’dan aktardığına göre grubun avukatı Ersan Barkın, aramanın daha önce bozulmuş bir dosyaya dayandığını söyledi."
+                },
+                {
+                  "quote": "“İstanbul başsavcılığı tarafından Yargıtay’ın daha önce bozduğu ve hukuka aykırılık tespit etmediği, suç olmadığını onadığı bir dosyaya istinaden Sözcü Grubu’nda arama yapılıyor.”",
+                  "speaker": "Ersan Barkın",
+                  "sourceId": "diken"
+                },
+                {
+                  "text": "Diken, Akbay dahil Sözcü’nün dokuz yazar ve yöneticisinin daha önce “FETÖ’ye yardım” iddiasıyla hapis cezasına çarptırıldığını hatırlattı. İstinafın onadığı karar Yargıtay’da bozulmuş, Mart 2025’teki yeniden yargılamada beraat kararı çıkmıştı. Cumhuriyet’e göre ilk mahkûmiyet kararını veren mahkemenin başkanı bugünkü Adalet Bakanı Akın Gürlek’ti."
+                },
+                {
+                  "text": "DW Türkçe’ye göre Türkiye Gazeteciler Sendikası iktidarı bu uygulamalardan vazgeçmeye çağırdı: “Tele1, Halk TV ve şimdi de Sözcü TV.” MHP Genel Başkanı Devlet Bahçeli ise grup toplantısı çıkışında kayyımla ilgili soruya yanıt verirken kurumun yöneticilerini ve ekran yorumcularını hedef aldı, Cumhuriyet’in aktardığına göre."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltı kararı",
+              "value": "4",
+              "source": "İstanbul Başsavcılığı, Hürriyet aracılığıyla"
+            },
+            {
+              "label": "Akbay hakkında iddianame",
+              "value": "27 Eylül 2017",
+              "source": "İstanbul Başsavcılığı, Hürriyet aracılığıyla"
+            },
+            {
+              "label": "Eski FETÖ davasında beraat",
+              "value": "Mart 2025",
+              "source": "Diken"
+            },
+            {
+              "label": "Kanalın kayyımı",
+              "value": "Hakan Hastaoğlu",
+              "source": "Cumhuriyet"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T03:09:14.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T03:16:42.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T03:16:42.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T03:36:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T03:51:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T04:03:48.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T05:09:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T05:12:32.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T06:59:35.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T08:18:14.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/9f62b61c-003e-4075-81c4-d5ca0093ddb4.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sozcu-tv-ve-sozcu-com-tr-ye-kayyim-atandi-2556754"
+      },
+      "sources": [
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/sozcu-tvye-kayyim-atandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/son-dakika-sozcu-tvye-kayyum-atandi-yonetim-kurulu-baskani-gozaltina-alindi-7703249",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sozcu-tv-ve-sozcu-com-tr-ye-kayyim-atandi-2556754",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/sozcu-ye-operasyon-duzenlendi-sozcu-tv-ve-sozcu-com-tr-ye-kayyum-atandi-1395589",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/son-dakika-sozcu-tvye-kayyum-atandi-polis-ekipleri-kanal-binasinda-arama-yapiyor-43380735",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/17/sozcu-tvye-kayyim-atandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-sozcu-grubunda-mahkeme-polis-tarafindan-arama-yapiliyor-p382065",
+          "confirms": false
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/s%C3%B6zc%C3%BC-tv-ye-operasyon-kayyum-atand%C4%B1/a-79964825?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/17/sozcu-tv-ve-haber-sitesine-kayyum-atandi-iki-yonetici-gozaltinda",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/sozcu-tvye-operasyon-kayyum-atandi-polis-binada-arama-yapiyor-1751200",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/sozcu-tv-ye-kayyum-atandi-3927829",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cmqlq51yvq26o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-17T12:30:00+03:00",
+      "updatedAt": "2026-11-17T12:30:00+03:00"
+    },
+    {
+      "id": "3cd3083338101f0b",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Home sales down 23.3%",
+          "title": "Home sales fall 23.3% in October as second-hand sales slump",
+          "summary": {
+            "what": "Türkiye sold 131,072 homes in October, 23.3% fewer than a year earlier, the statistics office TÜİK said.",
+            "why": "Second-hand sales fell 28.5% and sales without a mortgage 26.3%, so the drop came mostly from cash buyers of existing homes.",
+            "next": "Over ten months 1,223,991 homes were sold, 9.2% fewer than a year earlier, even as mortgage sales rose 20.8%."
+          },
+          "body": [
+            {
+              "subhead": "The October figures",
+              "blocks": [
+                {
+                  "text": "Home sales in Türkiye fell 23.3% in October from the same month last year to 131,072, the statistics office TÜİK said on Tuesday, Anadolu Agency, Bloomberg HT, Habertürk and Diken report."
+                },
+                {
+                  "text": "Sales of new homes dropped 13.1% to 50,105, while second-hand sales, which make up most of the market, fell 28.5% to 80,967. New homes accounted for 38.2% of all sales and second-hand homes for 61.8%."
+                },
+                {
+                  "text": "Sales with a mortgage fell 5.7% to 23,286, and other sales 26.3% to 107,786. Mortgaged sales were 17.8% of the total. Adjusted for calendar effects, new-home sales were 7.4% lower than a year earlier and second-hand sales 24% lower. Against September, after adjusting for season and calendar, new-home sales fell 4.8% and second-hand sales 1.4%."
+                }
+              ]
+            },
+            {
+              "subhead": "Foreign buyers",
+              "blocks": [
+                {
+                  "text": "Sales to foreigners were the one bright spot, edging up 0.9% to 2,259, or 1.7% of all homes sold in October. Russians bought the most, 477 homes, followed by Iranians with 193 and Iraqis with 159, according to TÜİK."
+                },
+                {
+                  "text": "Over the first ten months of the year, however, sales to foreigners were 3.6% lower than a year earlier, at 17,567, Anadolu Agency reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Ten months and business premises",
+              "blocks": [
+                {
+                  "text": "From January to October, 1,223,991 homes were sold, 9.2% fewer than in the same period of 2025. New-home sales fell 2.4% to 410,018 and second-hand sales 12.3% to 813,973. Mortgaged sales were the exception: they rose 20.8% to 235,496, while other sales fell 14.3% to 988,495, Anadolu Agency reports."
+                },
+                {
+                  "text": "Sales of business premises fell 12.6% in October to 16,489, Habertürk and Anadolu Agency report. First-hand sales rose 4.5% to 5,519, but second-hand sales dropped 19.2% to 10,970. Mortgaged sales of business premises jumped 37.4% to 724, while other sales fell 14% to 15,765. Adjusted for calendar effects, first-hand sales of business premises were 11.3% higher than a year earlier and second-hand sales 14.3% lower. Over ten months, 152,032 business premises changed hands, 6% fewer than a year earlier."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Homes sold in October",
+              "value": "131,072",
+              "source": "TÜİK, via Anadolu Agency"
+            },
+            {
+              "label": "Second-hand sales, year on year",
+              "value": "−28.5%",
+              "source": "TÜİK, via Anadolu Agency"
+            },
+            {
+              "label": "Mortgaged sales, year on year",
+              "value": "−5.7%",
+              "source": "TÜİK, via Bloomberg HT"
+            },
+            {
+              "label": "Homes sold to foreigners",
+              "value": "2,259",
+              "source": "TÜİK, via Anadolu Agency"
+            },
+            {
+              "label": "Homes sold, Jan–Oct",
+              "value": "1,223,991",
+              "source": "TÜİK, via Anadolu Agency"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Konut satışları %23,3 düştü",
+          "title": "Konut satışları ekimde yüzde 23,3 düştü, ikinci el satışlar geriledi",
+          "summary": {
+            "what": "TÜİK’e göre ekimde 131 bin 72 konut satıldı; bu, geçen yılın aynı ayına göre yüzde 23,3 daha az.",
+            "why": "İkinci el satışlar yüzde 28,5, ipoteksiz satışlar yüzde 26,3 düştü; gerilemenin büyük bölümü peşin alınan ikinci el konutlardan geldi.",
+            "next": "Ocak-ekim döneminde satılan konut yüzde 9,2 azalışla 1 milyon 223 bin 991 oldu; ipotekli satışlar ise yüzde 20,8 arttı."
+          },
+          "body": [
+            {
+              "subhead": "Ekim verileri",
+              "blocks": [
+                {
+                  "text": "Türkiye İstatistik Kurumu’nun (TÜİK) salı günü açıkladığı verilere göre konut satışları ekimde geçen yılın aynı ayına kıyasla yüzde 23,3 azalarak 131 bin 72’ye geriledi. Rakamları Anadolu Ajansı, Bloomberg HT, Habertürk ve Diken duyurdu."
+                },
+                {
+                  "text": "İlk el konut satışları yüzde 13,1 düşüşle 50 bin 105’e, piyasanın büyük kısmını oluşturan ikinci el satışlar ise yüzde 28,5 düşüşle 80 bin 967’ye indi. Toplam satışlarda ilk elin payı yüzde 38,2, ikinci elin payı yüzde 61,8 oldu."
+                },
+                {
+                  "text": "İpotekli konut satışları yüzde 5,7 azalarak 23 bin 286’ya, diğer satışlar yüzde 26,3 azalarak 107 bin 786’ya geriledi. İpotekli satışların toplamdaki payı yüzde 17,8’de kaldı. Takvim etkilerinden arındırılmış seride ilk el satışlar yıllık yüzde 7,4, ikinci el satışlar yüzde 24 azaldı. Mevsim ve takvim etkilerinden arındırıldığında eylüle göre ilk el satışlar yüzde 4,8, ikinci el satışlar yüzde 1,4 düştü."
+                }
+              ]
+            },
+            {
+              "subhead": "Yabancılara satış",
+              "blocks": [
+                {
+                  "text": "Tek artış yabancılara satışta görüldü: ekimde yabancılara satılan konut yüzde 0,9 artışla 2 bin 259 oldu ve toplamın yüzde 1,7’sini oluşturdu. TÜİK’e göre en çok konutu 477 ile Rusya, 193 ile İran ve 159 ile Irak vatandaşları aldı."
+                },
+                {
+                  "text": "Anadolu Ajansı’na göre yılın ilk on ayında yabancılara satış ise geçen yılın aynı dönemine göre yüzde 3,6 azalarak 17 bin 567’de kaldı."
+                }
+              ]
+            },
+            {
+              "subhead": "On aylık tablo ve iş yerleri",
+              "blocks": [
+                {
+                  "text": "Ocak-ekim döneminde 1 milyon 223 bin 991 konut satıldı; bu, 2025’in aynı dönemine göre yüzde 9,2 daha az. İlk el satışlar yüzde 2,4 azalışla 410 bin 18’e, ikinci el satışlar yüzde 12,3 azalışla 813 bin 973’e geriledi. İpotekli satışlar ise yüzde 20,8 artarak 235 bin 496’ya çıkarken diğer satışlar yüzde 14,3 düşüşle 988 bin 495’e indi."
+                },
+                {
+                  "text": "Habertürk ve Anadolu Ajansı’na göre iş yeri satışları ekimde yüzde 12,6 azalarak 16 bin 489 oldu. İlk el iş yeri satışları yüzde 4,5 artışla 5 bin 519’a çıktı, ikinci el satışlar yüzde 19,2 düşüşle 10 bin 970’e geriledi. İpotekli iş yeri satışları yüzde 37,4 artarak 724’e yükselirken diğer satışlar yüzde 14 azalarak 15 bin 765’e indi. Takvim etkilerinden arındırılmış seride ilk el iş yeri satışları yıllık yüzde 11,3 arttı, ikinci el satışlar yüzde 14,3 azaldı. On ayda 152 bin 32 iş yeri el değiştirdi; bu, geçen yıla göre yüzde 6 daha az."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ekimde satılan konut",
+              "value": "131.072",
+              "source": "TÜİK, Anadolu Ajansı aracılığıyla"
+            },
+            {
+              "label": "İkinci el satış, yıllık",
+              "value": "%-28,5",
+              "source": "TÜİK, Anadolu Ajansı aracılığıyla"
+            },
+            {
+              "label": "İpotekli satış, yıllık",
+              "value": "%-5,7",
+              "source": "TÜİK, Bloomberg HT aracılığıyla"
+            },
+            {
+              "label": "Yabancılara satılan konut",
+              "value": "2.259",
+              "source": "TÜİK, Anadolu Ajansı aracılığıyla"
+            },
+            {
+              "label": "Ocak-ekim satılan konut",
+              "value": "1.223.991",
+              "source": "TÜİK, Anadolu Ajansı aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T07:08:16.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T07:12:58.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T07:12:58.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T07:21:53.000Z",
+          "sourceId": "aa-ekonomi"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T08:28:44.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/17/ver1794899352/3794842/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/konut-satislarinda-yillik-yuzde-13-1-dusus-3794842"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/konut-satislarinda-yillik-yuzde-13-1-dusus-3794842",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-konut-satislarinda-dusus-3927870",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-ekonomi",
+          "url": "https://www.aa.com.tr/tr/ekonomi/turkiye-genelinde-satilan-konut-sayisi-ekimde-gecen-yilin-ayni-ayina-gore-yuzde-23-3-azaldi/4127309",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/konut-satislari-yuzde-233-azaldi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-17T12:30:00+03:00",
+      "updatedAt": "2026-11-17T12:30:00+03:00"
+    },
+    {
+      "id": "bdb96efaf9b01ebd",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "76bcbf0af2446305",
+      "versions": {
+        "en": {
+          "shortTitle": "Glasses checks at Korea’s exam",
+          "title": "South Korea will inspect every exam-taker’s glasses at Thursday’s college entrance test",
+          "news": "Before Thursday’s college entrance exam, Seoul ordered every candidate’s glasses checked and warned that AI cheating may be prosecuted.",
+          "summary": {
+            "what": "South Korea will inspect every pair of glasses at each session of Thursday’s college entrance exam, the education minister said, after a top scorer admitted cheating with AI.",
+            "why": "Smart glasses that show answers are getting harder to spot, and the nearly 10-hour exam largely decides students’ futures.",
+            "next": "The ministry wants cheats with smart devices prosecuted and their exam ban raised from one year to three."
+          },
+          "body": [
+            {
+              "subhead": "A crackdown before the Suneung",
+              "blocks": [
+                {
+                  "text": "South Korea is tightening checks for its national college entrance exam this Thursday after a top scorer in a professional test confessed to cheating with artificial intelligence, Al Jazeera and the South China Morning Post report. The prime minister called an emergency meeting on Monday and denounced AI-assisted cheating as a “social evil” on Tuesday, the Post says, pledging to mobilise “all national capabilities” against it."
+                },
+                {
+                  "text": "The measures include an emergency response team, a ban on candidates carrying smart devices during the exam and more staff at test sites, according to the Post. Education Minister Choi Kyo-jin said on Monday that glasses worn by students would be inspected, and that cheating with smart devices could carry criminal punishment, Al Jazeera reports."
+                },
+                {
+                  "quote": "“A thorough inspection of all glasses in each test session to ensure a fair and safe testing environment.”",
+                  "speaker": "Choi Kyo-jin, education minister",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "The confession behind it",
+              "blocks": [
+                {
+                  "text": "The scandal grew from the case of Han Won-seok, who came first in this year’s exam for tax accountants. In a video published on Sunday he admitted photographing the questions with a miniature camera and sending them to an AI tool. “I cheated using electronic devices and generative AI,” he said, according to Al Jazeera. The prime minister has asked for his results to be cancelled and for him to be banned from national exams."
+                },
+                {
+                  "text": "The ministry has said in recent weeks that it will pursue prosecutions for cheating at the entrance exam, and that it wants to extend the one-year exam ban for those caught with smart devices to three years."
+                }
+              ]
+            },
+            {
+              "subhead": "Glasses that are hard to spot",
+              "blocks": [
+                {
+                  "text": "Reports of students using AI smart glasses, which let them look at questions and see answers at once, are becoming common, Al Jazeera writes. A South Korean education official said students probably type in prompts beforehand and switch the glasses on during the test. Early models had visible cameras in the frame; newer ones are much harder to detect."
+                },
+                {
+                  "text": "In October three students were caught using smart glasses in tests at universities in Seoul. In July the education authorities banned smart glasses from the exam and said a dedicated person would inspect eyewear at the 1,312 test sites. Seoul is also considering radio-frequency detectors and switching off public Wi-Fi at test sites."
+                },
+                {
+                  "text": "The exam, known as the Suneung or the College Scholastic Ability Test, lasts nearly 10 hours. Flights are suspended during its English listening section and drivers are asked not to honk."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Exam day",
+              "value": "Thursday",
+              "source": "South China Morning Post"
+            },
+            {
+              "label": "Length of the exam",
+              "value": "~10 hours",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Proposed ban for smart-device cheats",
+              "value": "3 years",
+              "source": "Education ministry, via Al Jazeera"
+            },
+            {
+              "label": "Test sites",
+              "value": "1,312",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Seoul",
+            "region": "South Korea",
+            "lat": 37.57,
+            "lon": 126.98
+          }
+        },
+        "tr": {
+          "shortTitle": "Kore sınavında gözlük denetimi",
+          "title": "Güney Kore, perşembe günkü üniversite sınavında bütün adayların gözlüklerini denetleyecek",
+          "news": "Perşembe günkü üniversite sınavı öncesi Seul, tüm adayların gözlüklerinin kontrol edilmesini istedi; yapay zekâyla kopyaya dava açılabilecek.",
+          "summary": {
+            "what": "Eğitim bakanına göre Güney Kore, perşembe günkü üniversite sınavında her oturumda bütün gözlükleri denetleyecek; karar, bir birincinin yapay zekâyla kopya çektiğini itiraf etmesinin ardından geldi.",
+            "why": "Cevapları gösteren akıllı gözlükleri fark etmek giderek zorlaşıyor; yaklaşık 10 saat süren sınav öğrencilerin geleceğini büyük ölçüde belirliyor.",
+            "next": "Bakanlık, akıllı cihazla kopya çekenlerin yargılanmasını ve sınav yasağının bir yıldan üç yıla çıkarılmasını istiyor."
+          },
+          "body": [
+            {
+              "subhead": "Suneung öncesi sıkı önlem",
+              "blocks": [
+                {
+                  "text": "Güney Kore, bir mesleki sınavın birincisinin yapay zekâyla kopya çektiğini itiraf etmesinin ardından perşembe günü yapılacak ulusal üniversite giriş sınavı için denetimleri sıkılaştırıyor. Al Jazeera ve South China Morning Post’un haberine göre başbakan pazartesi acil toplantı topladı; Post’a göre salı günü yapay zekâ destekli kopyayı “toplumsal bir kötülük” olarak niteledi ve buna karşı “tüm ulusal imkânları” seferber etme sözü verdi."
+                },
+                {
+                  "text": "Post’a göre önlemler arasında acil müdahale ekibi kurulması, adayların sınav sırasında akıllı cihaz bulundurmasının yasaklanması ve sınav yerlerine daha fazla görevli gönderilmesi var. Al Jazeera’ya göre Eğitim Bakanı Choi Kyo-jin pazartesi günü öğrencilerin taktığı gözlüklerin denetleneceğini, akıllı cihazla kopyanın cezai yaptırımı olabileceğini söyledi."
+                },
+                {
+                  "quote": "“Adil ve güvenli bir sınav ortamı için her oturumda bütün gözlükler titizlikle denetlenecek.”",
+                  "speaker": "Eğitim Bakanı Choi Kyo-jin",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Skandalın arkasındaki itiraf",
+              "blocks": [
+                {
+                  "text": "Skandal, bu yılki vergi müşavirliği sınavında birinci olan Han Won-seok’un davasıyla büyüdü. Han, pazar günü yayımlanan videoda soruları minyatür bir kamerayla fotoğraflayıp bir yapay zekâ aracına gönderdiğini itiraf etti. Al Jazeera’ya göre “Elektronik cihazlar ve üretken yapay zekâ kullanarak kopya çektim” dedi. Başbakan, sonuçlarının iptal edilmesini ve ulusal sınavlardan men edilmesini istedi."
+                },
+                {
+                  "text": "Bakanlık son haftalarda üniversite sınavında kopya çekenler hakkında suç duyurusunda bulunacağını, akıllı cihazla yakalananlara verilen bir yıllık sınav yasağını üç yıla çıkarmak istediğini açıklamıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Fark edilmesi zor gözlükler",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre soruları görüp cevabı anında okumayı sağlayan yapay zekâlı akıllı gözlük vakaları giderek yaygınlaşıyor. Güney Koreli bir eğitim yetkilisi, öğrencilerin komutları önceden yazıp gözlüğü sınavda çalıştırdığını düşünüyor. İlk modellerin çerçevesinde görünür kameralar vardı; yenilerini tespit etmek çok daha zor."
+                },
+                {
+                  "text": "Ekim ayında Seul’deki üniversitelerin sınavlarında üç öğrenci akıllı gözlükle yakalandı. Eğitim yetkilileri temmuzda akıllı gözlükleri sınavda yasaklamış ve 1.312 sınav yerinde gözlükleri denetleyecek birer görevli bulunacağını açıklamıştı. Seul, radyo frekansı dedektörleri kullanmayı ve sınav yerlerinde halka açık Wi-Fi’ı kapatmayı da değerlendiriyor."
+                },
+                {
+                  "text": "Suneung ya da College Scholastic Ability Test olarak bilinen sınav yaklaşık 10 saat sürüyor. İngilizce dinleme bölümünde uçuşlar durduruluyor, sürücülerden korna çalmamaları isteniyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sınav günü",
+              "value": "Perşembe",
+              "source": "South China Morning Post"
+            },
+            {
+              "label": "Sınavın süresi",
+              "value": "~10 saat",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Önerilen sınav yasağı",
+              "value": "3 yıl",
+              "source": "Eğitim bakanlığı, Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "Sınav yeri",
+              "value": "1.312",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Seul",
+            "region": "Güney Kore",
+            "lat": 37.57,
+            "lon": 126.98
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T06:33:00.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T08:15:32.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T08:15:32.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3374703/south-korea-checks-glasses-and-collars-hidden-ai-university-exam",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/south-korea-cheating-scandal-are-ai-smart-glasses-a-threat-to-exams?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-17T12:30:00+03:00",
+      "updatedAt": "2026-11-17T12:30:00+03:00"
+    },
+    {
+      "id": "4af98b7e3bf90778",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "United outage delays departures",
+          "title": "United Airlines IT outage delays departures days after a US ground stop",
+          "summary": {
+            "what": "A company-wide technology outage held up United Airlines departures for about an hour and a half on Monday before it was fixed.",
+            "why": "It hit the software pilots need for aircraft weights, three days after the FAA grounded every US flight for more than four hours.",
+            "next": "United says there is no sign of a cyberattack; the cause has not been given, and the transport secretary says he does not know it."
+          },
+          "body": [
+            {
+              "subhead": "Departures held at the gate",
+              "blocks": [
+                {
+                  "text": "United Airlines delayed departing flights on Monday after a technology outage that lasted more than 90 minutes, the South China Morning Post, The Guardian and The Verge report. Flights already in the air and those on its United Express regional network were not affected, the Chicago-based airline said."
+                },
+                {
+                  "quote": "“We have resolved a technology issue that delayed flight departures. While some flights were delayed, there was no impact on flights in progress, or on United Express flights. There is no indication that this was a cybersecurity-related issue.”",
+                  "speaker": "United Airlines",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "United said at 6:13pm Eastern time that the problem had been fixed, The Verge reports. The airline apologised on social media, according to the Post."
+                }
+              ]
+            },
+            {
+              "subhead": "No weights, no take-off",
+              "blocks": [
+                {
+                  "text": "According to an internal memo from United’s pilots’ union seen by Reuters, a company-wide web-based outage hit several applications pilots use, including crew communications, The Guardian reports. United could not provide final aircraft weights for departing flights and told pilots to follow airport station guidance on whether to leave their gates."
+                },
+                {
+                  "text": "Before every departure, pilots use performance software, often on a cockpit tablet, to check that the aircraft can take off safely in the current weather and runway conditions. The calculation includes the weight of the fuel, baggage, cargo and passengers. Passengers on board posted that pilots blamed a problem with the weight and balance calculator, The Verge says."
+                },
+                {
+                  "text": "In August 2025 United briefly grounded flights after a problem with its Unimatic system, which supplies flight information for weight and balance calculations. It was not immediately clear whether Monday’s outage involved Unimatic, The Guardian says."
+                }
+              ]
+            },
+            {
+              "subhead": "A week of outages",
+              "blocks": [
+                {
+                  "text": "Transport Secretary Sean Duffy said on Fox News that he did not know the cause. “This is not an FAA system-wide problem,” he said, according to The Guardian."
+                },
+                {
+                  "text": "The outage came three days after the Federal Aviation Administration grounded all commercial flights in the US for more than four hours. The Trump administration said a fibre upgrade during routine maintenance flooded a critical communication system with data and crashed it. Earlier on Monday, a technical issue at JPMorgan Chase disrupted online banking at several US banks and the payment service Zelle, and last week a Microsoft outage took down Outlook, Teams and Copilot."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Length of the outage",
+              "value": "90+ minutes",
+              "source": "South China Morning Post"
+            },
+            {
+              "label": "Fixed at",
+              "value": "6:13pm ET",
+              "source": "The Verge"
+            },
+            {
+              "label": "Friday’s nationwide ground stop",
+              "value": "4+ hours",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Earlier United grounding",
+              "value": "Aug 2025",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Chicago",
+            "region": "Illinois, United States",
+            "lat": 41.88,
+            "lon": -87.63
+          }
+        },
+        "tr": {
+          "shortTitle": "United’da sistem arızası",
+          "title": "United Airlines’ta sistem arızası kalkışları geciktirdi, ABD’deki uçuş durdurmasından günler sonra",
+          "summary": {
+            "what": "United Airlines’ta şirket genelindeki bir teknoloji arızası pazartesi günü kalkışları yaklaşık bir buçuk saat geciktirdi, ardından giderildi.",
+            "why": "Arıza, pilotların uçak ağırlığını hesapladığı yazılımı vurdu; FAA üç gün önce ABD’deki tüm uçuşları dört saatten uzun süre durdurmuştu.",
+            "next": "United siber saldırı belirtisi olmadığını söylüyor; neden açıklanmadı, Ulaştırma Bakanı da bilmediğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Kapıda bekleyen uçaklar",
+              "blocks": [
+                {
+                  "text": "South China Morning Post, The Guardian ve The Verge’ün haberine göre United Airlines, pazartesi günü 90 dakikadan uzun süren bir teknoloji arızası yüzünden kalkışları geciktirdi. Chicago merkezli havayolu, havadaki uçuşların ve bölgesel ağı United Express’in etkilenmediğini açıkladı."
+                },
+                {
+                  "quote": "“Kalkışları geciktiren bir teknoloji sorununu çözdük. Bazı uçuşlar gecikse de havadaki uçuşlar ve United Express uçuşları etkilenmedi. Bunun siber güvenlikle ilgili bir sorun olduğuna dair bir belirti yok.”",
+                  "speaker": "United Airlines",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Verge’e göre United, sorunun ABD doğu saatiyle 18.13’te giderildiğini duyurdu. Post’a göre havayolu sosyal medyadan özür diledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Ağırlık yoksa kalkış yok",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın aktardığına göre Reuters’ın gördüğü United pilot sendikasının iç yazışmasında, şirket genelindeki web tabanlı arızanın ekip iletişimi dahil pilotların kullandığı birçok uygulamayı etkilediği belirtildi. United kalkacak uçakların kesin ağırlıklarını veremedi ve pilotlara kapıdan ayrılıp ayrılmama konusunda havalimanı istasyonunun talimatına uymalarını söyledi."
+                },
+                {
+                  "text": "Pilotlar her kalkıştan önce, çoğu zaman kokpitteki bir tablette çalışan performans yazılımıyla uçağın mevcut hava ve pist koşullarında güvenle kalkıp kalkamayacağını kontrol ediyor. Hesapta yakıt, bagaj, kargo ve yolcuların ağırlığı da yer alıyor. The Verge’e göre uçaktaki yolcular, pilotların sorunu ağırlık ve denge hesaplayıcısına bağladığını paylaştı."
+                },
+                {
+                  "text": "United, Ağustos 2025’te de ağırlık ve denge hesaplarına uçuş bilgisi sağlayan Unimatic sisteminde çıkan sorun yüzünden uçuşlarını kısa süreliğine durdurmuştu. The Guardian’a göre pazartesi günkü arızanın Unimatic’le ilgili olup olmadığı hemen netleşmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Arızalarla geçen bir hafta",
+              "blocks": [
+                {
+                  "text": "Ulaştırma Bakanı Sean Duffy, Fox News’te arızanın nedenini bilmediğini söyledi. The Guardian’a göre “Bu, FAA’nın sistem genelindeki bir sorunu değil” dedi."
+                },
+                {
+                  "text": "Arıza, ABD Federal Havacılık İdaresi’nin (FAA) ülkedeki tüm ticari uçuşları dört saatten uzun süre durdurmasından üç gün sonra geldi. Trump yönetimi, rutin bakımdaki bir fiber yükseltmesinin kritik bir iletişim sistemini veriyle boğup çökerttiğini açıklamıştı. Pazartesi günü daha önce JPMorgan Chase’teki teknik bir sorun birçok ABD bankasında ve ödeme servisi Zelle’de internet bankacılığını aksatmıştı; geçen hafta da Microsoft’taki bir kesinti Outlook, Teams ve Copilot’u çökertmişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Arızanın süresi",
+              "value": "90+ dakika",
+              "source": "South China Morning Post"
+            },
+            {
+              "label": "Giderildiği saat",
+              "value": "18.13 (ABD doğu)",
+              "source": "The Verge"
+            },
+            {
+              "label": "Cuma günkü uçuş durdurma",
+              "value": "4+ saat",
+              "source": "The Guardian"
+            },
+            {
+              "label": "United’ın önceki durdurması",
+              "value": "Ağustos 2025",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Chicago",
+            "region": "Illinois, ABD",
+            "lat": 41.88,
+            "lon": -87.63
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T22:54:59.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-16T23:05:34.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-16T23:05:34.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T02:57:06.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374655/united-airlines-has-widespread-system-failure-just-days-after-nationwide-ground-stop",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-17T12:30:00+03:00",
+      "updatedAt": "2026-11-17T12:30:00+03:00"
+    },
+    {
+      "id": "97431921c1544f26",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Burnham: Brexit has not worked",
+          "title": "Burnham says Brexit has failed and Britain lost more than it gained",
+          "summary": {
+            "what": "UK Prime Minister Andy Burnham said Brexit has not delivered and that Britain needs a much closer relationship with the EU.",
+            "why": "It is the plainest verdict on Brexit from a sitting prime minister, days before a UK-EU summit in Brussels.",
+            "next": "Friday’s summit is expected to bring deals on food and drink trade, energy and emissions, and youth work schemes."
+          },
+          "body": [
+            {
+              "subhead": "“The emperor’s new clothes”",
+              "blocks": [
+                {
+                  "text": "British Prime Minister Andy Burnham said on Monday that Brexit had failed to deliver for the United Kingdom and that the country needs to reset its relationship with the European Union to counter growing isolationism, Al Jazeera and the South China Morning Post report."
+                },
+                {
+                  "text": "Speaking at the Lord Mayor’s Banquet in London, Burnham compared the outcome of Britain’s departure, triggered by the 2016 referendum, to Hans Christian Andersen’s tale The Emperor’s New Clothes, in which nobody dares tell the ruler that he is naked."
+                },
+                {
+                  "quote": "“I do try to say things as I see them. And to be frank, we have lost more than we have gained in the last 10 years. The hard Brexit we were given is not good enough for Britain.”",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "He said the Leave campaign’s promise to “take back control” of borders, laws and the economy had not been kept. Trade with EU countries has dropped sharply, he said, and estimates of the economic damage range from 4% to 8% of the UK’s gross domestic product."
+                }
+              ]
+            },
+            {
+              "subhead": "“What our enemies wanted”",
+              "blocks": [
+                {
+                  "text": "Burnham argued that Britain is now back on the world stage and well placed to lead a new era of international cooperation because of what it has been through since 2016. He is Britain’s seventh prime minister since the referendum, Al Jazeera notes."
+                },
+                {
+                  "quote": "“Brexit was the first domino to fall in a global move towards more isolationism and protectionism. It is exactly what our enemies wanted. Russia wanted disunity within NATO and a weaker Europe.”",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Friday’s summit and its limits",
+              "blocks": [
+                {
+                  "text": "The speech comes before a UK-EU summit in Brussels on Friday, which Burnham said could bring “real improvements in people’s everyday lives in areas of the country that have felt neglected for too long”. Britain is expected to seal a deal on trade in food and drink, agreements on energy and emissions, and a plan to let young people work for limited periods in Britain and the EU, according to Al Jazeera."
+                },
+                {
+                  "text": "Burnham said any deal must pass three tests: it must fit Labour’s manifesto and red lines, improve the Brexit deal in line with what people voted for in 2016, and pass his “Makerfield Test” for real improvements in long-neglected parts of the country. He will open talks on the long-term relationship soon after the summit. His spokesperson, Tom Wells, said “no assumptions are being made” and that “the British public will be the boss of any outcome”."
+                },
+                {
+                  "text": "Until the next general election, Burnham remains bound by the pledge of Keir Starmer, whom he replaced as Labour leader and prime minister, not to rejoin the EU’s customs union or single market. In 2016, 52% voted to leave and 48% to remain."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Estimated cost of Brexit",
+              "value": "4–8% of GDP",
+              "source": "Andy Burnham, via Al Jazeera"
+            },
+            {
+              "label": "UK-EU summit in Brussels",
+              "value": "Friday",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Prime ministers since 2016",
+              "value": "7",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Leave vote in 2016",
+              "value": "52%",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "London",
+            "region": "United Kingdom",
+            "lat": 51.51,
+            "lon": -0.13
+          }
+        },
+        "tr": {
+          "shortTitle": "Burnham: Brexit işe yaramadı",
+          "title": "Burnham: Brexit başarısız oldu, kazandığımızdan fazlasını kaybettik",
+          "summary": {
+            "what": "İngiltere Başbakanı Andy Burnham, Brexit’in vaatlerini yerine getirmediğini ve ülkenin AB ile çok daha yakın bir ilişkiye ihtiyacı olduğunu söyledi.",
+            "why": "Görevdeki bir başbakandan Brexit hakkında gelen en açık hüküm bu; Brüksel’deki İngiltere-AB zirvesine günler kala geldi.",
+            "next": "Cuma günkü zirvede gıda ve içecek ticareti, enerji ve emisyonlar ile gençlere çalışma izni konularında anlaşmalar bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "“Kralın yeni giysileri”",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve South China Morning Post’un haberine göre İngiltere Başbakanı Andy Burnham pazartesi günü Brexit’in Birleşik Krallık için vaatlerini yerine getirmediğini, büyüyen yalnızcılığa karşı ülkenin Avrupa Birliği ile ilişkilerini yeniden kurması gerektiğini söyledi."
+                },
+                {
+                  "text": "Londra’daki Lord Mayor ziyafetinde konuşan Burnham, 2016 referandumuyla başlayan ayrılığın sonucunu Hans Christian Andersen’in, kimsenin hükümdara çıplak olduğunu söylemeye cesaret edemediği “Kralın Yeni Giysileri” masalına benzetti."
+                },
+                {
+                  "quote": "“Her şeyi gördüğüm gibi söylemeye çalışırım. Açık konuşmak gerekirse, son 10 yılda kazandığımızdan fazlasını kaybettik. Bize verilen sert Brexit İngiltere için yeterince iyi değil.”",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Burnham, Ayrılık kampanyasının sınırların, yasaların ve ekonominin “kontrolünü geri alma” vaadinin tutulmadığını söyledi. AB ülkeleriyle ticaretin sert düştüğünü, ekonomik zararın tahminlerinin Birleşik Krallık’ın gayrisafi yurt içi hasılasının yüzde 4’ü ile yüzde 8’i arasında değiştiğini belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "“Düşmanlarımızın istediği”",
+              "blocks": [
+                {
+                  "text": "Burnham, İngiltere’nin yeniden dünya sahnesine döndüğünü ve 2016’dan bu yana yaşadıkları sayesinde uluslararası işbirliğinin yeni döneminde öncülük etmeye hazır olduğunu savundu. Al Jazeera, Burnham’ın referandumdan bu yana ülkenin yedinci başbakanı olduğunu hatırlatıyor."
+                },
+                {
+                  "quote": "“Brexit, dünyada daha fazla yalnızcılığa ve korumacılığa giden yolda devrilen ilk domino taşıydı. Tam da düşmanlarımızın istediği şeydi. Rusya NATO içinde bölünme ve daha zayıf bir Avrupa istiyordu.”",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Cuma günkü zirve ve sınırları",
+              "blocks": [
+                {
+                  "text": "Konuşma, Brüksel’de cuma günü yapılacak İngiltere-AB zirvesinden önce geldi. Burnham zirvenin “uzun süredir ihmal edildiğini hisseden bölgelerde insanların gündelik hayatında gerçek iyileşmeler” getirebileceğini söyledi. Al Jazeera’ya göre İngiltere’nin gıda ve içecek ticareti konusunda bir anlaşma imzalaması, enerji ve emisyonlarda uzlaşması ve gençlerin İngiltere ile AB’de sınırlı süre çalışmasına izin veren bir plan üzerinde anlaşması bekleniyor."
+                },
+                {
+                  "text": "Burnham, her anlaşmanın üç testi geçmesi gerektiğini söyledi: İşçi Partisi’nin seçim bildirgesine ve kırmızı çizgilerine uymalı, Brexit anlaşmasını 2016’da oy verilen doğrultuda iyileştirmeli ve ihmal edilmiş bölgelerde gerçek iyileşmeyi ölçen “Makerfield Testi”ni geçmeli. Burnham zirveden kısa süre sonra uzun vadeli ilişki üzerine görüşme başlatacak. Sözcüsü Tom Wells “hiçbir varsayımda bulunulmadığını” ve “sonucun patronunun İngiliz halkı olacağını” söyledi."
+                },
+                {
+                  "text": "Burnham, bir sonraki genel seçime kadar İşçi Partisi liderliğinde ve başbakanlıkta yerini aldığı Keir Starmer’ın AB gümrük birliğine ve tek pazara geri dönmeme sözüyle bağlı. 2016’da seçmenlerin yüzde 52’si ayrılık, yüzde 48’i kalma yönünde oy vermişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Brexit’in tahmini maliyeti",
+              "value": "GSYH’nin %4-8’i",
+              "source": "Andy Burnham, Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "Brüksel’de İngiltere-AB zirvesi",
+              "value": "Cuma",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "2016’dan bu yana başbakan",
+              "value": "7",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "2016’da ayrılık oyu",
+              "value": "%52",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Londra",
+            "region": "Birleşik Krallık",
+            "lat": 51.51,
+            "lon": -0.13
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T22:08:48.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T00:30:21.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T00:30:21.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3374654/uk-pm-andy-burnham-says-brexit-has-not-worked-ahead-reset-summit-eu",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/uk-seeks-closer-ties-with-eu-after-brexit-fail?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-17T12:30:00+03:00",
+      "updatedAt": "2026-11-17T12:30:00+03:00"
+    },
+    {
+      "id": "ca89adf20e18c0d6",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Third US carrier in Middle East",
+          "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
+          "summary": {
+            "what": "The USS Theodore Roosevelt has arrived in the Middle East, giving the US three aircraft carriers in the region, US Central Command said.",
+            "why": "Trump swings between threatening new strikes on Iran and saying the eight-month war is “effectively over”, while talks have stalled.",
+            "next": "Mines and attacks still threaten shipping in the Strait of Hormuz, where Iran warns a US-backed route is dangerous."
+          },
+          "body": [
+            {
+              "subhead": "Three carriers at once",
+              "blocks": [
+                {
+                  "text": "A third US aircraft carrier has arrived in the Middle East, US Central Command said in a social media post on Monday, The Guardian and the South China Morning Post report. The USS Theodore Roosevelt brings thousands more troops to the region as President Donald Trump keeps his options open in the Iran war."
+                },
+                {
+                  "text": "The Roosevelt and its strike group left San Diego in September. It joins the USS George HW Bush, which arrived in April, and the USS George Washington, which arrived in August, along with smaller ships that maintain a naval blockade of Iranian shipping. In April the navy had three carrier strike groups in the Middle East for the first time since 2003, The Guardian notes."
+                },
+                {
+                  "text": "Besides the three carriers, the fleet in the Arabian Sea now includes 13 destroyers, two cruisers and a littoral combat ship, according to the navy, with two more destroyers in the Red Sea. The Makin Island amphibious group, with around 2,000 marines, deployed with the Roosevelt but has yet to reach the region."
+                }
+              ]
+            },
+            {
+              "subhead": "Threats and talk of an end",
+              "blocks": [
+                {
+                  "text": "The carrier arrived nearly two weeks after midterm elections in which voters handed Trump’s Republican party major losses, driven partly by the unpopularity of the war and its economic effects. JD Vance then broke with Trump publicly, posting that “the reason we lost is the war”, The Guardian reports."
+                },
+                {
+                  "text": "Last week Trump warned that the US military was “locked and loaded” and said the US was watching Pickaxe Mountain, a site linked to Iran’s nuclear programme. Yet he also told reporters that new major strikes were highly unlikely and that the war “militarily is effectively over”. He said the US no longer needs a deal with Tehran. Talks have stalled over Iran’s nuclear programme, which Trump insists must be part of any deal, while Iran wants the US first to lift the blockade that keeps its oil off world markets."
+                }
+              ]
+            },
+            {
+              "subhead": "Danger in the strait",
+              "blocks": [
+                {
+                  "text": "The Strait of Hormuz, through which a fifth of the world’s oil passed before the war, remains a flashpoint. Commercial ships still come under attack, and the US has carried out limited strikes on Iranian targets near the strait while guiding vessels through it."
+                },
+                {
+                  "text": "Iranian state TV, quoting the naval arm of the Revolutionary Guards and the army, warned shipping companies on Monday that a US-supported route through the strait is dangerous because of mines. Mines have damaged six oil tankers since Sunday, polluting the coastline, according to the Guards’ navy. Separately, a projectile hit a tanker trying to cross the strait and started an engine room fire, with no casualties reported, The Guardian says."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "US carriers in the region",
+              "value": "3",
+              "source": "US Central Command, via The Guardian"
+            },
+            {
+              "label": "Destroyers in the Arabian Sea",
+              "value": "13",
+              "source": "US Navy, via The Guardian"
+            },
+            {
+              "label": "Marines yet to arrive",
+              "value": "~2,000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Tankers hit by mines since Sunday",
+              "value": "6",
+              "source": "Revolutionary Guards navy, via The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Strait of Hormuz",
+            "region": "Iran and Oman",
+            "lat": 26.57,
+            "lon": 56.25
+          }
+        },
+        "tr": {
+          "shortTitle": "Üçüncü ABD uçak gemisi bölgede",
+          "title": "Üçüncü ABD uçak gemisi Orta Doğu’da, Trump İran seçeneklerini tartıyor",
+          "summary": {
+            "what": "ABD Merkez Kuvvetler Komutanlığı’na göre USS Theodore Roosevelt Orta Doğu’ya ulaştı; ABD’nin bölgedeki uçak gemisi sayısı üçe çıktı.",
+            "why": "Trump bir yandan İran’a yeni saldırı tehdidinde bulunuyor, bir yandan sekiz aylık savaşın “fiilen bittiğini” söylüyor; müzakereler tıkalı.",
+            "next": "Hürmüz Boğazı’nda mayınlar ve saldırılar gemileri tehdit etmeyi sürdürüyor; İran, ABD destekli rotanın tehlikeli olduğunu söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Aynı anda üç uçak gemisi",
+              "blocks": [
+                {
+                  "text": "The Guardian ve South China Morning Post’un haberine göre ABD Merkez Kuvvetler Komutanlığı (CENTCOM), pazartesi günü sosyal medyadan üçüncü bir ABD uçak gemisinin Orta Doğu’ya ulaştığını duyurdu. USS Theodore Roosevelt, Başkan Donald Trump İran savaşında seçeneklerini açık tutarken bölgeye binlerce asker daha getiriyor."
+                },
+                {
+                  "text": "Roosevelt ve beraberindeki saldırı grubu eylülde San Diego’dan ayrıldı. Gemi, nisanda bölgeye gelen USS George HW Bush’a, ağustosta gelen USS George Washington’a ve İran gemilerine deniz ablukası uygulayan daha küçük gemilere katılıyor. The Guardian, donanmanın nisanda 2003’ten bu yana ilk kez Orta Doğu’da üç uçak gemisi grubu bulundurduğunu hatırlatıyor."
+                },
+                {
+                  "text": "Donanmaya göre Umman Denizi’ndeki filoda üç uçak gemisinin yanı sıra 13 muhrip, iki kruvazör ve bir kıyı muharebe gemisi var; Kızıldeniz’de de iki muhrip bulunuyor. Roosevelt ile birlikte yola çıkan ve yaklaşık 2 bin deniz piyadesi taşıyan Makin Island amfibi grubu henüz bölgeye varmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Tehdit ve “bitti” sözleri arasında",
+              "blocks": [
+                {
+                  "text": "Uçak gemisi, seçmenlerin Trump’ın Cumhuriyetçi Partisi’ne ağır kayıplar yaşattığı ara seçimlerden yaklaşık iki hafta sonra geldi. The Guardian’a göre bu sonuçta savaşın ve ekonomik etkilerinin sevilmemesi de rol oynadı; JD Vance da sosyal medyada “Kaybetmemizin nedeni savaş” yazarak Trump’tan açıkça ayrıldı."
+                },
+                {
+                  "text": "Trump geçen hafta ABD ordusunun “hazır ve nişanlı” olduğunu söyleyerek İran’ı uyardı ve İran’ın nükleer programıyla bağlantılı Pickaxe Dağı’nı izlediklerini belirtti. Öte yandan gazetecilere yeni büyük saldırılar emretmesinin pek olası olmadığını, savaşın “askeri açıdan fiilen bittiğini” söyledi ve Tahran’la anlaşmaya artık ihtiyaç olmadığını ekledi. Müzakereler, Trump’ın her anlaşmaya dahil edilmesini istediği nükleer program yüzünden tıkandı; İran ise önce petrolünün dünya piyasalarına ulaşmasını engelleyen ablukanın kaldırılmasını istiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Boğazda tehlike",
+              "blocks": [
+                {
+                  "text": "Savaştan önce dünya petrolünün beşte birinin geçtiği Hürmüz Boğazı gerginliğin odağı olmayı sürdürüyor. Ticari gemiler hâlâ saldırıya uğruyor; ABD boğaz yakınındaki İran hedeflerine sınırlı saldırılar düzenlerken gemilere boğazdan geçişte rehberlik ediyor."
+                },
+                {
+                  "text": "İran devlet televizyonu, Devrim Muhafızları’nın deniz kuvvetleri ile orduya dayanarak pazartesi günü nakliye şirketlerini ABD destekli rotanın mayınlar yüzünden tehlikeli olduğu konusunda uyardı. Muhafızların deniz kuvvetlerine göre mayınlar pazardan bu yana altı petrol tankerine zarar verdi ve kıyıları kirletti. The Guardian’a göre ayrıca boğazdan geçmeye çalışan bir tankere bir mermi isabet etti ve makine dairesinde yangın çıktı; can kaybı bildirilmedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bölgedeki ABD uçak gemisi",
+              "value": "3",
+              "source": "CENTCOM, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Umman Denizi’ndeki muhrip",
+              "value": "13",
+              "source": "ABD Donanması, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Yolda olan deniz piyadesi",
+              "value": "~2.000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Pazardan beri mayına çarpan tanker",
+              "value": "6",
+              "source": "Devrim Muhafızları, The Guardian aracılığıyla"
+            }
+          ],
+          "place": {
+            "name": "Hürmüz Boğazı",
+            "region": "İran ve Umman",
+            "lat": 26.57,
+            "lon": 56.25
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-16T21:13:02.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T02:32:44.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T02:32:44.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-17T12:30:00+03:00",
+      "updatedAt": "2026-11-17T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "3cd3083338101f0b",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "By how much did home sales in Türkiye fall in October from a year earlier, according to TÜİK?",
+          "options": ["9.2%", "23.3%", "28.5%"]
+        },
+        "tr": {
+          "question": "TÜİK’e göre konut satışları ekimde geçen yılın aynı ayına göre yüzde kaç düştü?",
+          "options": ["%9,2", "%23,3", "%28,5"]
+        }
+      }
+    },
+    {
+      "storyId": "bdb96efaf9b01ebd",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "What will South Korea inspect in every session of Thursday’s college entrance exam?",
+          "options": ["Pencils", "Wristwatches", "Glasses"]
+        },
+        "tr": {
+          "question": "Güney Kore perşembe günkü üniversite sınavının her oturumunda neyi denetleyecek?",
+          "options": ["Kalemleri", "Kol saatlerini", "Gözlükleri"]
+        }
+      }
+    },
+    {
+      "storyId": "97431921c1544f26",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Where will this week’s UK-EU summit take place?",
+          "options": ["Brussels", "London", "Strasbourg"]
+        },
+        "tr": {
+          "question": "Bu haftaki İngiltere-AB zirvesi nerede yapılacak?",
+          "options": ["Brüksel", "Londra", "Strazburg"]
+        }
+      }
+    }
+  ]
+}
