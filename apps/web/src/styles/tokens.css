@@ -208,6 +208,10 @@
 [data-section='abroad'] {
   --sec: var(--sec-abroad);
 }
+/* Tonight's matches are not a desk of their own: their station stays in quiet ink. */
+[data-section='tonight'] {
+  --sec: var(--ink2);
+}
 
 :root[data-hour='dawn'] {
   --hour: var(--dawn);

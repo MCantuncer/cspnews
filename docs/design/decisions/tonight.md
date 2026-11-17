@@ -32,3 +32,10 @@ Logos and player photos come from the leagues' own data and are saved next to th
 
 - **Each match row has two parts:** what it is (the name, a person's numbers, the league) and the scoreline. On a phone they stack; from 720px they sit side by side, the scoreline in a fixed column on the right so every row's score lines up, its goals opening under it.
 - **Short club names** ("76ers", "Rockets") from the score source, the full name kept for screen readers.
+
+## At the bottom, one card a match (Can, 2026-11-17)
+
+- **Tonight closes the bulletin.** It is a station on the Contents spine after Turks abroad, just before "End of bulletin", never above the stories. The rail beside a story leaves it out.
+- **One quiet card a match**, like the Turks abroad cards: a person's name (or, for a club or national team, the competition) on top, a person's numbers on one quiet line, then the match under a hairline. Cards sit side by side where there is room.
+- **The match is a scoreboard**: one line a team, crest and name on the left, its score on the right, the end or the minute beside both; home first, away second. A long club name gets the whole width instead of being squeezed beside the score. Before the start, the time and its word stand together on the right.
+- **No station dots in the rows.** Our side's score carries the result as a soft green or red tint; the other side's score steps back to the quieter ink.
