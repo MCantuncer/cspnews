@@ -13,7 +13,6 @@
       "continues": "2aa9e7dcf0773a8d",
       "versions": {
         "en": {
-          "news": "Justice Minister Akın Gürlek said ₺40.4 billion has been recovered from 75 people, and the probe now has 498 suspects.",
           "shortTitle": "₺40.4bn recovered in fund probe",
           "title": "Fund probe recovers ₺40.4 billion from 75 people, Gürlek says",
           "summary": {
@@ -105,10 +104,10 @@
               "value": "₺1bn of ₺80bn",
               "source": "Interior Minister Mustafa Çiftçi"
             }
-          ]
+          ],
+          "news": "Justice Minister Akın Gürlek said ₺40.4 billion has been recovered from 75 people, and the probe now has 498 suspects."
         },
         "tr": {
-          "news": "Adalet Bakanı Akın Gürlek, 75 kişiden 40,4 milyar lira tahsil edildiğini ve soruşturmada 498 şüpheli bulunduğunu açıkladı.",
           "shortTitle": "Fon soruşturmasında 40,4 milyar tahsilat",
           "title": "Gürlek: Fon soruşturmasında 75 kişiden 40,4 milyar lira tahsil edildi",
           "summary": {
@@ -198,7 +197,8 @@
               "value": "80 milyarın 1 milyarı",
               "source": "İçişleri Bakanı Mustafa Çiftçi"
             }
-          ]
+          ],
+          "news": "Adalet Bakanı Akın Gürlek, 75 kişiden 40,4 milyar lira tahsil edildiğini ve soruşturmada 498 şüpheli bulunduğunu açıkladı."
         }
       },
       "timeline": [
@@ -245,7 +245,7 @@
         }
       ],
       "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/d457a6df-735f-4919-bc60-9babb2b2de15.jpg",
+        "url": "https://media.cumhuriyet.com.tr/Archive//d457a6df-735f-4919-bc60-9babb2b2de15.jpg",
         "sourceId": "cumhuriyet",
         "sourceName": "Cumhuriyet",
         "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/son-dakika-bakan-gurlek-ten-fon-sorusturmasi-aciklamasi-kac-lira-tahsil-edildi-2557003"
@@ -539,7 +539,6 @@
       "continues": "0fe6836120f18c0a",
       "versions": {
         "en": {
-          "news": "Jensen Huang said he would be “honored” to return as Nvidia’s CEO if the board wants him, and will testify to Congress on 1 December.",
           "shortTitle": "Huang says he would return",
           "title": "Jensen Huang says he would be “honored” to return as Nvidia CEO",
           "summary": {
@@ -619,10 +618,10 @@
               "value": "At least quarterly",
               "source": "Nvidia, via TechCrunch"
             }
-          ]
+          ],
+          "news": "Jensen Huang said he would be “honored” to return as Nvidia’s CEO if the board wants him, and will testify to Congress on 1 December."
         },
         "tr": {
-          "news": "Jensen Huang, yönetim kurulu isterse Nvidia CEO’luğuna dönmekten “onur duyacağını” söyledi; 1 Aralık’ta Kongre’de ifade verecek.",
           "shortTitle": "Huang geri dönmeye hazır",
           "title": "Jensen Huang, Nvidia CEO’luğuna dönmekten “onur duyacağını” söyledi",
           "summary": {
@@ -703,7 +702,8 @@
               "value": "En az üç ayda bir",
               "source": "Nvidia, TechCrunch aracılığıyla"
             }
-          ]
+          ],
+          "news": "Jensen Huang, yönetim kurulu isterse Nvidia CEO’luğuna dönmekten “onur duyacağını” söyledi; 1 Aralık’ta Kongre’de ifade verecek."
         }
       },
       "timeline": [
@@ -1531,6 +1531,114 @@
           "question": "ABD ile birlikte kızamıksız statüsünü kaybeden diğer iki ülke hangisi?",
           "options": ["Kanada ve Meksika", "Meksika ve Bolivya", "Brezilya ve Bolivya"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-111",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Dubai Basketball",
+        "ours": false,
+        "team": "dubai-basketball"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-17T16:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/111"
+      },
+      "result": {
+        "home": 80,
+        "away": 75
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Mfiondu Kabengele",
+          "points": 18,
+          "photo": "euroleague-012796"
+        },
+        {
+          "side": "away",
+          "name": "Matthew Strazel",
+          "points": 20,
+          "photo": "euroleague-008099"
+        }
+      ]
+    },
+    {
+      "id": "euroleague-e2026-117",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-17T18:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/117"
+      }
+    },
+    {
+      "id": "euroleague-e2026-119",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Virtus Bologna",
+        "ours": false,
+        "team": "virtus-bologna"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-17T20:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/119"
       }
     }
   ]
