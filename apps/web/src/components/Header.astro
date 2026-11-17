@@ -10,6 +10,9 @@ import Icon from './ui/Icon.astro';
  * over the day line. The edition hour colours the 3px top edge (docs/design/system.md).
  * With `progress`, the day line shows how far the reader is through the bulletin. The reader
  * corner (src/components/ReaderCorner.astro) sits at the right end: settings and the account.
+ * The header stays at the top while the page scrolls, so the reader never has to scroll back up
+ * to reach Contents or the reader corner. Its height is shared as --header-h, so other sticky
+ * parts (the Contents rail) and anchor jumps sit below it.
  */
 interface Props {
   /** The interface language; links stay on the reader's side of the site. */
@@ -83,10 +86,27 @@ const position = progress === undefined ? undefined : Math.min(1, Math.max(0, pr
   </div>
 </header>
 
+<script>
+  // Share the header's height (it grows with a detail line and the notch) with the rest of the page.
+  const header = document.querySelector<HTMLElement>('header.header');
+  if (header) {
+    const root = document.documentElement;
+    const share = () => {
+      root.style.setProperty('--header-h', `${String(header.offsetHeight)}px`);
+    };
+    share();
+    if ('ResizeObserver' in window) new ResizeObserver(share).observe(header);
+  }
+</script>
+
 <style>
   .header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: var(--bg);
     border-top: 3px solid var(--hour);
-    padding: 0 var(--gutter);
+    padding: 0 var(--gutter) 4px;
     padding-top: env(safe-area-inset-top);
   }
 

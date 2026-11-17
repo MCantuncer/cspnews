@@ -16,6 +16,8 @@
 }
 
 html {
+  /* Jumps to an anchor land below the header, which stays at the top (Header.astro). */
+  scroll-padding-top: calc(var(--header-h, 64px) + 12px);
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
