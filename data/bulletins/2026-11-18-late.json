@@ -13,7 +13,6 @@
       "continues": "0905d0cfb949c54b",
       "versions": {
         "en": {
-          "news": "Mustafa Yazıcı, son of AKP deputy chair Hayati Yazıcı, was called in as a suspect in the fund probe for the second time since September.",
           "shortTitle": "Yazıcı questioned again in fund probe",
           "title": "Son of AKP deputy chair Hayati Yazıcı questioned again in fund probe",
           "summary": {
@@ -83,10 +82,10 @@
               "value": "4",
               "source": "Diken"
             }
-          ]
+          ],
+          "news": "Mustafa Yazıcı, son of AKP deputy chair Hayati Yazıcı, was called in as a suspect in the fund probe for the second time since September."
         },
         "tr": {
-          "news": "AKP Genel Başkan Yardımcısı Hayati Yazıcı’nın oğlu Mustafa Yazıcı, fon soruşturmasında eylülden bu yana ikinci kez şüpheli olarak ifadeye çağrıldı.",
           "shortTitle": "Mustafa Yazıcı yeniden ifadede",
           "title": "Hayati Yazıcı’nın oğlu fon soruşturmasında ikinci kez ifadeye çağrıldı",
           "summary": {
@@ -155,7 +154,8 @@
               "value": "4",
               "source": "Diken"
             }
-          ]
+          ],
+          "news": "AKP Genel Başkan Yardımcısı Hayati Yazıcı’nın oğlu Mustafa Yazıcı, fon soruşturmasında eylülden bu yana ikinci kez şüpheli olarak ifadeye çağrıldı."
         }
       },
       "timeline": [
@@ -206,6 +206,12 @@
           "sourceId": "haberturk"
         }
       ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afdb54a3516f14679cca4c0.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/fon-sorusturmasi-mustafa-yazicinin-ifade-islemi-basladi-43382641"
+      },
       "sources": [
         {
           "sourceId": "a-haber",
@@ -248,12 +254,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afdb54a3516f14679cca4c0.jpg",
-        "sourceId": "hurriyet",
-        "sourceName": "Hürriyet",
-        "articleUrl": "https://www.hurriyet.com.tr/gundem/fon-sorusturmasi-mustafa-yazicinin-ifade-islemi-basladi-43382641"
-      },
       "publishedAt": "2026-11-18T22:30:00+03:00",
       "updatedAt": "2026-11-18T22:30:00+03:00"
     },
@@ -457,6 +457,12 @@
           "sourceId": "euronews-tr"
         }
       ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afd829d3516f14679cca10f.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/sporarena/resmen-aciklandi-arda-guler-real-madride-imzayi-atti-43382481"
+      },
       "sources": [
         {
           "sourceId": "hurriyet",
@@ -504,12 +510,6 @@
           "confirms": false
         }
       ],
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afd829d3516f14679cca10f.jpg",
-        "sourceId": "hurriyet",
-        "sourceName": "Hürriyet",
-        "articleUrl": "https://www.hurriyet.com.tr/sporarena/resmen-aciklandi-arda-guler-real-madride-imzayi-atti-43382481"
-      },
       "publishedAt": "2026-11-18T22:30:00+03:00",
       "updatedAt": "2026-11-18T22:30:00+03:00"
     },
@@ -522,7 +522,6 @@
       "continues": "327034ed1b49f420",
       "versions": {
         "en": {
-          "news": "At Nvidia’s first all-hands without Jensen Huang, interim CEO Colette Kress promised staff pay rises and more equity in December, months early.",
           "shortTitle": "Nvidia promises staff early raises",
           "title": "Nvidia’s interim CEO promises staff early pay rises and more equity",
           "summary": {
@@ -591,10 +590,10 @@
               "value": "$3.8 trillion",
               "source": "BBC"
             }
-          ]
+          ],
+          "news": "At Nvidia’s first all-hands without Jensen Huang, interim CEO Colette Kress promised staff pay rises and more equity in December, months early."
         },
         "tr": {
-          "news": "Jensen Huang’sız ilk genel toplantıda geçici CEO Colette Kress, çalışanlara aralıkta, aylar erken, maaş zammı ve daha fazla hisse sözü verdi.",
           "shortTitle": "Nvidia’dan çalışanlara erken zam",
           "title": "Nvidia’nın geçici CEO’su çalışanlara erken zam ve ek hisse sözü verdi",
           "summary": {
@@ -664,7 +663,8 @@
               "value": "3,8 trilyon $",
               "source": "BBC"
             }
-          ]
+          ],
+          "news": "Jensen Huang’sız ilk genel toplantıda geçici CEO Colette Kress, çalışanlara aralıkta, aylar erken, maaş zammı ve daha fazla hisse sözü verdi."
         }
       },
       "timeline": [
@@ -685,6 +685,12 @@
           "to": "confirmed"
         }
       ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8241/live/e3e3a9c0-e2a7-11f1-8226-87dfa5049e9a.jpg",
+        "sourceId": "bbc-business",
+        "sourceName": "BBC News Business",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+      },
       "sources": [
         {
           "sourceId": "bbc-business",
@@ -697,12 +703,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8241/live/e3e3a9c0-e2a7-11f1-8226-87dfa5049e9a.jpg",
-        "sourceId": "bbc-business",
-        "sourceName": "BBC News Business",
-        "articleUrl": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
-      },
       "publishedAt": "2026-11-18T22:30:00+03:00",
       "updatedAt": "2026-11-18T22:30:00+03:00"
     },
@@ -865,6 +865,12 @@
           "to": "confirmed"
         }
       ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
+        "sourceId": "ars-technica",
+        "sourceName": "Ars Technica",
+        "articleUrl": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/"
+      },
       "sources": [
         {
           "sourceId": "the-verge-ai",
@@ -877,12 +883,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
-        "sourceId": "ars-technica",
-        "sourceName": "Ars Technica",
-        "articleUrl": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/"
-      },
       "publishedAt": "2026-11-18T22:30:00+03:00",
       "updatedAt": "2026-11-18T22:30:00+03:00"
     },
@@ -1075,6 +1075,12 @@
           "sourceId": "euronews-en"
         }
       ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/128f/live/04ac0df0-e366-11f1-9f51-4bfc31543510.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss"
+      },
       "sources": [
         {
           "sourceId": "al-jazeera",
@@ -1107,12 +1113,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/128f/live/04ac0df0-e366-11f1-9f51-4bfc31543510.jpg",
-        "sourceId": "bbc-world",
-        "sourceName": "BBC News World",
-        "articleUrl": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss"
-      },
       "publishedAt": "2026-11-18T22:30:00+03:00",
       "updatedAt": "2026-11-18T22:30:00+03:00"
     },
@@ -1292,6 +1292,12 @@
           "sourceId": "france-24"
         }
       ],
+      "image": {
+        "url": "https://s.france24.com/media/display/291a44ea-e375-11f1-8738-6d75ed565170/w:1024/p:16x9/2026-11-18T145851Z-876917872-RC2DQOALE3WH-RTRMADP-3-ISRAEL-PALESTINIANS-GAZA.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/middle-east/20261118-gazans-flee-shelters-as-israeli-army-launches-ground-operation-beyond-yellow-line"
+      },
       "sources": [
         {
           "sourceId": "al-jazeera",
@@ -1309,12 +1315,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/291a44ea-e375-11f1-8738-6d75ed565170/w:1024/p:16x9/2026-11-18T145851Z-876917872-RC2DQOALE3WH-RTRMADP-3-ISRAEL-PALESTINIANS-GAZA.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/middle-east/20261118-gazans-flee-shelters-as-israeli-army-launches-ground-operation-beyond-yellow-line"
-      },
       "publishedAt": "2026-11-18T22:30:00+03:00",
       "updatedAt": "2026-11-18T22:30:00+03:00"
     }
@@ -1360,6 +1360,72 @@
           "question": "Demokratlar Hakeem Jeffries’i Meclis Başkanlığına kaç oyla aday gösterdi?",
           "options": ["11’e karşı 251", "44’e karşı 218", "5’e karşı 257"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910008",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910008"
+      }
+    },
+    {
+      "id": "espn-401910010",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "short": "Magic",
+        "ours": false,
+        "team": "orlando-magic"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910010"
       }
     }
   ]
