@@ -683,12 +683,6 @@
           "sourceId": "ntv"
         }
       ],
-      "image": {
-        "url": "https://geoim.bloomberght.com/l/2026/11/18/ver1794954049/3794934/jpg/1280x720",
-        "sourceId": "bloomberg-ht",
-        "sourceName": "Bloomberg HT",
-        "articleUrl": "https://www.bloomberght.com/yabanci-yatirimcilara-verilecek-ikamet-izinlerinde-yeni-duzenleme-3794934"
-      },
       "sources": [
         {
           "sourceId": "bloomberg-ht",
@@ -931,12 +925,6 @@
           "sourceId": "al-jazeera"
         }
       ],
-      "image": {
-        "url": "https://media.wired.com/photos/6afc8d817073e76a25272b83/master/pass/111726-Jensen%20might%20be%20back.jpg",
-        "sourceId": "wired",
-        "sourceName": "Wired",
-        "articleUrl": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/"
-      },
       "sources": [
         {
           "sourceId": "techcrunch",
@@ -2054,13 +2042,7 @@
             "sourceId": "onedio",
             "url": "https://onedio.com/haber/yollari-ve-kopruleri-doldurdular-ada-bir-anda-kirmiziya-burundu-1395734"
           }
-        ],
-        "image": {
-          "url": "https://img-s1.onedio.com/id-6afc7f2affa2e945cf8cac3b/rev-0/w-1200/h-675/f-jpg/s-8199b95cdc490f3c54fca24dfaae08e6680b3b2d.jpg",
-          "sourceId": "onedio",
-          "sourceName": "Onedio",
-          "articleUrl": "https://onedio.com/haber/yollari-ve-kopruleri-doldurdular-ada-bir-anda-kirmiziya-burundu-1395734"
-        }
+        ]
       }
     ],
     "rumours": []
