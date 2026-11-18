@@ -1,0 +1,1465 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-18T12:30:00+03:00",
+  "writtenAt": "2026-11-18T11:58:06+03:00",
+  "stories": [
+    {
+      "id": "12838b775b028776",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Gold falls below $3,800",
+          "title": "Gold drops below $3,800 an ounce, its lowest in 14 months",
+          "summary": {
+            "what": "Gold fell for a third day to below $3,800 an ounce, its lowest in about 14 months, and gram gold slipped to around ₺6,140.",
+            "why": "Fed officials are signalling more rate rises, lifting the dollar and bond yields; gold has lost over a quarter of its value since the Iran war began.",
+            "next": "Markets are waiting for the minutes of the Fed’s October meeting, due later on Wednesday, for signs of how far rates will rise."
+          },
+          "body": [
+            {
+              "subhead": "How far gold fell",
+              "blocks": [
+                {
+                  "text": "Gold fell for a third day in a row on Wednesday and dropped below $3,800 an ounce, Bloomberg HT reports. Spot gold was down 1.8% at $3,781.97 at 14:47 Singapore time, after losing as much as 1.9% to around $3,777. Habertürk put the ounce at $3,796.37 earlier in the morning, down 1.4%."
+                },
+                {
+                  "text": "Cumhuriyet says it is the lowest level since the third week of September 2025, taking gold back to where it was about 14 months ago. Silver fell 2.7% to $46.12, and platinum and palladium also lost ground, according to Bloomberg HT. The outlet notes that gold has lost more than a quarter of its value since the US-Iran war began in late February, as higher energy costs fed inflation and pushed central banks to tighten."
+                }
+              ]
+            },
+            {
+              "subhead": "What it means in Türkiye",
+              "blocks": [
+                {
+                  "text": "The fall carried straight over to prices in Türkiye. Gram gold opened at ₺6,236, fell as low as ₺6,132 during the morning and was selling at ₺6,138.68, down 1.57%, Onedio reports; Habertürk saw it touch ₺6,127. A quarter coin (çeyrek) cost ₺9,951, a half coin ₺19,902 and a full coin ₺39,743, according to Onedio. Not everything followed: the Republic coin rose 0.04% to ₺42,184."
+                }
+              ]
+            },
+            {
+              "subhead": "Why: the Fed",
+              "blocks": [
+                {
+                  "text": "Investors expect the US Federal Reserve to raise rates again. St. Louis Fed President Alberto Musalem said the US economy will probably need “several rate hikes” before the spring, Bloomberg HT reports, and New York Fed President John Williams said the central bank still had work to do to bring inflation back to its 2% target. Fed Chair Kevin Warsh has avoided commenting directly on policy."
+                },
+                {
+                  "text": "CME FedWatch data put the chance of a quarter-point rise in December at 95.7% and of a half-point rise at 4.3%, Cumhuriyet reports. Higher rates make gold, which pays no interest, less attractive. The US 10-year Treasury yield rose about 25 to 30 basis points in a week and tested 5.15%, Habertürk says."
+                },
+                {
+                  "quote": "“It is a tough environment for gold, especially given that buying interest is still weak. The longer gold stays below $4,000, the greater the risk of renewed selling pressure.”",
+                  "speaker": "Christopher Wong, Oversea-Chinese Banking",
+                  "sourceId": "bloomberg-ht",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "What to watch",
+              "blocks": [
+                {
+                  "text": "Investors are now waiting for the minutes of the Fed’s October meeting, due later on Wednesday. Analysts quoted by Habertürk say the selling could deepen if the ounce stays below $3,800, while a move back above $3,900 would be read as a sign of recovery."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ounce of gold",
+              "value": "$3,796.37",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Gram gold, morning low",
+              "value": "₺6,132",
+              "source": "Onedio"
+            },
+            {
+              "label": "Fall since the Iran war began",
+              "value": "over 25%",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Odds of a December Fed rise",
+              "value": "95.7%",
+              "source": "CME FedWatch, via Cumhuriyet"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gram gold, selling price",
+            "unit": "₺",
+            "before": 6236,
+            "after": 6138.68,
+            "source": "Onedio"
+          }
+        },
+        "tr": {
+          "shortTitle": "Ons altın 3.800 doların altında",
+          "title": "Ons altın 3.800 doların altına indi, 14 ayın en düşüğü",
+          "summary": {
+            "what": "Altın üçüncü gün de düştü; ons 3.800 doların altına inerek yaklaşık 14 ayın en düşük seviyesini gördü, gram altın 6.140 lira civarına geriledi.",
+            "why": "Fed yetkililerinin yeni faiz artışı sinyalleri doları ve tahvil faizlerini yükseltiyor; altın İran savaşından bu yana değerinin dörtte birinden fazlasını kaybetti.",
+            "next": "Piyasalar, bugün açıklanacak Fed’in ekim toplantı tutanaklarından faiz patikasına dair ipucu bekliyor."
+          },
+          "body": [
+            {
+              "subhead": "Düşüş ne kadar",
+              "blocks": [
+                {
+                  "text": "Bloomberg HT’nin haberine göre altın çarşamba günü üst üste üçüncü gün değer kaybederek ons başına 3.800 doların altına indi. Spot altın Singapur saatiyle 14.47’de yüzde 1,8 düşüşle 3.781,97 dolara geriledi; gün içinde kayıp yüzde 1,9’a, fiyat 3.777 dolar civarına kadar ulaştı. Habertürk sabah saatlerinde onsu yüzde 1,4 düşüşle 3.796,37 dolar olarak verdi."
+                },
+                {
+                  "text": "Cumhuriyet’e göre bu, Eylül 2025’in üçüncü haftasından bu yana en düşük seviye; altın yaklaşık 14 ay önceki fiyatlara döndü. Bloomberg HT, gümüşün yüzde 2,7 düşüşle 46,12 dolara indiğini, platin ve paladyumun da değer kaybettiğini yazdı. Habere göre şubat sonunda ABD-İran savaşı başladığından bu yana artan enerji maliyetleri enflasyonu körükleyip merkez bankalarını sıkılaştırmaya itti ve altın değerinin dörtte birinden fazlasını kaybetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Kuyumcuda tablo",
+              "blocks": [
+                {
+                  "text": "Düşüş yurt içi fiyatlara da hemen yansıdı. Onedio’ya göre gram altın güne 6.236 liradan başladı, sabah 6.132 liraya kadar indi ve yüzde 1,57 kayıpla 6.138,68 liradan satıldı; Habertürk gram altının 6.127 lirayı gördüğünü aktardı. Çeyrek altın 9.951, yarım altın 19.902, tam altın 39.743 liraya geriledi. Her ürün aynı yöne gitmedi: Cumhuriyet altını yüzde 0,04 artışla 42.184 liraya çıktı."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden: Fed",
+              "blocks": [
+                {
+                  "text": "Yatırımcılar Fed’in yeniden faiz artıracağını bekliyor. Bloomberg HT’nin aktardığına göre St. Louis Fed Başkanı Alberto Musalem, ABD ekonomisinin ilkbahardan önce muhtemelen “birkaç faiz artışına” ihtiyaç duyacağını söyledi. New York Fed Başkanı John Williams da enflasyonu yüzde 2 hedefine çekmek için yapılacak iş olduğunu belirtti. Fed Başkanı Kevin Warsh ise para politikasına doğrudan yorum yapmaktan kaçındı."
+                },
+                {
+                  "text": "Cumhuriyet’in aktardığı CME FedWatch verilerine göre piyasalar aralıkta 25 baz puanlık artışı yüzde 95,7, 50 baz puanlık artışı yüzde 4,3 olasılıkla fiyatlıyor. Faiz getirisi olmayan altın, yükselen faiz ortamında cazibesini yitiriyor. Habertürk’e göre ABD 10 yıllık tahvil faizi bir haftada 25-30 baz puan yükselerek yüzde 5,15’i test etti."
+                },
+                {
+                  "quote": "“Altın için zorlu bir ortam söz konusu, özellikle de alım ilgisinin hâlâ zayıf olduğu göz önüne alındığında. Altın 4 bin doların altında ne kadar uzun süre kalırsa, yeniden satış baskısı oluşma riski o kadar artar.”",
+                  "speaker": "Christopher Wong, Oversea-Chinese Banking",
+                  "sourceId": "bloomberg-ht",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Gözler tutanaklarda",
+              "blocks": [
+                {
+                  "text": "Yatırımcılar şimdi Fed’in bugün açıklanacak ekim toplantı tutanaklarına odaklandı. Habertürk’ün aktardığı analistlere göre ons 3.800 doların altında kalıcı olursa satışlar derinleşebilir; fiyatın yeniden 3.900 doları aşması ise toparlanma işareti sayılıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ons altın",
+              "value": "3.796,37 $",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Gram altın, sabahki dip",
+              "value": "6.132 ₺",
+              "source": "Onedio"
+            },
+            {
+              "label": "İran savaşından bu yana kayıp",
+              "value": "%25’ten fazla",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Fed’in aralıkta artırma olasılığı",
+              "value": "%95,7",
+              "source": "CME FedWatch, Cumhuriyet’ten"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gram altın, satış",
+            "unit": "₺",
+            "before": 6236,
+            "after": 6138.68,
+            "source": "Onedio"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T04:32:15.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T06:29:33.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T06:29:33.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T06:32:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T07:25:15.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/18/ver1794975942/3928103/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/bilgi/foto/altin-fiyatlarinda-dusus-suruyor-18-kasim-2026-canli-altin-fiyatlari-ile-gram-ceyrek-yarim-ve-cumhuriyet-altini-ne-kadar-3928103"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/bilgi/foto/altin-fiyatlarinda-dusus-suruyor-18-kasim-2026-canli-altin-fiyatlari-ile-gram-ceyrek-yarim-ve-cumhuriyet-altini-ne-kadar-3928103",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/altinda-son-1-yilin-en-sert-kirilmasi-ons-3-bin-800-dolarin-altina-indi-gozler-fed-de-1395778",
+          "confirms": false
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/altin-yeni-faiz-artislari-beklentisiyle-dususunu-surdurdu-3794943",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-sert-dusus-gram-ceyrek-ve-cumhuriyet-altini-bugun-ne-kadar-oldu-guncel-altin-fiyatlari-18-kasim-2026-carsamba-2557120",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/ons-altin-14-ay-sonra-3-bin-800-dolarin-altinda/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T12:30:00+03:00",
+      "updatedAt": "2026-11-18T12:30:00+03:00"
+    },
+    {
+      "id": "d54a38d602e3a49c",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Çobanlar leader caught in Ankara",
+          "title": "Fugitive leader of Ankara’s “Çobanlar Group” caught in ₺10.3bn laundering probe",
+          "summary": {
+            "what": "Police in Ankara caught B.Ç., named as the leader of the “Çobanlar Group”, overnight along with two other people, Sabah, Hürriyet and NTV report.",
+            "why": "He had escaped a 14 November raid on a group accused of laundering drug money through hotels, nightclubs and companies with ₺10.3 billion in transactions.",
+            "next": "He is in custody; prosecutors have already seized 18 cars, 12 properties, a hotel, four entertainment venues and an office."
+          },
+          "body": [
+            {
+              "subhead": "Caught overnight",
+              "blocks": [
+                {
+                  "text": "The man described as the leader of the “Çobanlar Group”, identified only by the initials B.Ç., was caught in Ankara overnight together with two other people and taken into custody, Sabah, Habertürk, NTV and Hürriyet report, citing the İhlas News Agency. He was the one suspect the police had failed to find in a large operation last week."
+                },
+                {
+                  "text": "The investigation is run by the Ankara chief prosecutor’s office and the city police’s narcotics branch. It concerns laundering the proceeds of crime under Article 282 of the Turkish Penal Code, and draws on a report by MASAK, the finance ministry’s financial crimes unit, along with field work and financial analysis."
+                }
+              ]
+            },
+            {
+              "subhead": "What investigators say the group did",
+              "blocks": [
+                {
+                  "text": "Investigators say members of the group laundered money they believe came from drug trafficking through financial transactions, company activity and the purchase of assets, the outlets report. Companies linked to the suspects, together with the hotel and entertainment venues tied to those companies, had a total transaction volume of ₺10,308,821,634, according to Hürriyet and NTV."
+                },
+                {
+                  "text": "Police seized 18 vehicles, 12 properties, one hotel, four entertainment venues and one office. Sözcü puts the value of the seized assets at ₺1.55 billion. NTV says the vehicles included luxury sports cars worth millions of lira, and that large amounts of cash and gold were found during the searches."
+                }
+              ]
+            },
+            {
+              "subhead": "The first raid",
+              "blocks": [
+                {
+                  "text": "In the first operation on 14 November, police searched six homes and six workplaces belonging to seven suspects at the same time, Sabah and Habertürk report. Four of the seven were detained, and work continued to find the other three. With B.Ç. and the two people caught with him now in custody, the leader is no longer on the run."
+                },
+                {
+                  "text": "Sözcü gives different figures, dating the operation to 14 October and saying 10 people were detained then, which would bring the total to 13. The other outlets give 14 November and four detentions."
+                }
+              ]
+            },
+            {
+              "subhead": "What comes next",
+              "blocks": [
+                {
+                  "text": "None of the reports say when B.Ç. will be brought before a court or whether prosecutors will seek his arrest. The outlets identify him only by his initials."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Transaction volume",
+              "value": "₺10.3bn",
+              "source": "Hürriyet, NTV"
+            },
+            {
+              "label": "Seized assets",
+              "value": "₺1.55bn",
+              "source": "Sözcü"
+            },
+            {
+              "label": "Properties seized",
+              "value": "12",
+              "source": "Sabah, Habertürk"
+            },
+            {
+              "label": "First raid",
+              "value": "14 Nov",
+              "source": "Sabah, Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Ankara",
+            "lat": 39.93,
+            "lon": 32.86,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Çobanlar Grubu’nun lideri yakalandı",
+          "title": "10,3 milyar liralık aklama soruşturmasında “Çobanlar Grubu”nun firari lideri yakalandı",
+          "summary": {
+            "what": "Sabah, Hürriyet ve NTV’nin haberine göre “Çobanlar Grubu”nun lideri olduğu belirtilen B.Ç., gece saatlerinde Ankara’da iki kişiyle birlikte yakalandı.",
+            "why": "B.Ç., uyuşturucu gelirini otel, eğlence mekânları ve şirketler üzerinden akladığı iddia edilen ve işlem hacmi 10,3 milyar lira olan yapıya 14 Kasım’daki operasyonda yakalanamamıştı.",
+            "next": "B.Ç. gözaltında; soruşturmada daha önce 18 araç, 12 gayrimenkul, bir otel, dört eğlence merkezi ve bir ofise el konulmuştu."
+          },
+          "body": [
+            {
+              "subhead": "Gece yakalandı",
+              "blocks": [
+                {
+                  "text": "Sabah, Habertürk, NTV ve Hürriyet’in İhlas Haber Ajansı’na dayandırdığı habere göre kamuoyunda “Çobanlar Grubu” olarak bilinen yapılanmanın lideri olduğu belirtilen B.Ç., gece saatlerinde Ankara’da beraberindeki iki kişiyle birlikte yakalanarak gözaltına alındı. B.Ç., geçen hafta düzenlenen geniş çaplı operasyonda yakalanamayan isimdi."
+                },
+                {
+                  "text": "Soruşturma Ankara Cumhuriyet Başsavcılığı koordinesinde, İl Emniyet Müdürlüğü Narkotik Suçlarla Mücadele Şube Müdürlüğünce yürütülüyor. Türk Ceza Kanunu’nun 282’nci maddesindeki “suçtan kaynaklanan malvarlığı değerlerini aklama” suçu kapsamındaki dosya, MASAK raporuna, saha araştırmalarına ve finansal analizlere dayanıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "İddialar",
+              "blocks": [
+                {
+                  "text": "Haberlere göre şüphelilerin uyuşturucu ticaretinden elde edildiği değerlendirilen gelirleri çeşitli finansal işlemler, şirket faaliyetleri ve malvarlığı edinimleri yoluyla akladığı tespit edildi. Hürriyet ve NTV’ye göre şüphelilere ait şirketlerle bu şirketlere bağlı otel ve eğlence merkezlerinin toplam işlem hacmi 10 milyar 308 milyon 821 bin 634 lira."
+                },
+                {
+                  "text": "18 araç, 12 gayrimenkul, bir otel, dört eğlence merkezi ve bir ofise el konuldu. Sözcü, el konulan malvarlığının değerini 1 milyar 550 milyon lira olarak verdi. NTV, araçlar arasında milyonlarca lira değerinde lüks spor otomobiller bulunduğunu, aramalarda yüklü miktarda para ve altın ele geçirildiğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "İlk operasyon",
+              "blocks": [
+                {
+                  "text": "Sabah ve Habertürk’e göre 14 Kasım’daki ilk operasyonda yedi şüpheliye ait altı ikamet ve altı iş yerinde eş zamanlı arama yapıldı; yedi şüpheliden dördü gözaltına alındı, diğer üçü için çalışma sürdü. B.Ç. ve yanındaki iki kişinin yakalanmasıyla yapılanmanın lideri artık firari değil."
+                },
+                {
+                  "text": "Sözcü ise farklı rakamlar veriyor: gazeteye göre operasyon 14 Ekim’de yapıldı ve o gün 10 kişi gözaltına alındı, böylece toplam gözaltı sayısı 13’e çıktı. Diğer yayın organları tarih olarak 14 Kasım’ı, gözaltı sayısı olarak dördü veriyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Bundan sonrası",
+              "blocks": [
+                {
+                  "text": "Haberlerde B.Ç.’nin ne zaman adliyeye sevk edileceği ya da tutuklanmasının istenip istenmeyeceği yer almıyor. Yayın organları şüpheliyi yalnızca baş harfleriyle veriyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İşlem hacmi",
+              "value": "10,3 milyar ₺",
+              "source": "Hürriyet, NTV"
+            },
+            {
+              "label": "El konulan malvarlığı",
+              "value": "1,55 milyar ₺",
+              "source": "Sözcü"
+            },
+            {
+              "label": "El konulan gayrimenkul",
+              "value": "12",
+              "source": "Sabah, Habertürk"
+            },
+            {
+              "label": "İlk operasyon",
+              "value": "14 Kasım",
+              "source": "Sabah, Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Ankara",
+            "lat": 39.93,
+            "lon": 32.86,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T06:31:49.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T06:41:15.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T06:41:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T06:53:20.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T07:16:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T08:36:23.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/18/ver1794984047/3928133/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/cobanlar-grubunun-firari-lideri-yakalandi-3928133"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/cobanlar-grubunun-firari-lideri-yakalandi-2-kisiyle-birlikte-gozaltina-alindi-7704159",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/cobanlar-grubunun-firari-lideri-yakalandi-3928133",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/1-milyar-550-milyon-liralik-varliga-el-konulmustu-cobanlar-operasyonunda-lider-de-yakalandi-2557126",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/milyonluk-luks-araclarina-ve-eglence-merkezlerine-el-konulmustu-cobanlarin-lideri-yakalandi-1751404",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/10-3-milyar-liralik-aklama-sorusturmasinda-firari-lider-b-c-yakalandi-43382088",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/cobanlar-grubu-sorusturmasinda-firari-lider-yakalandi-p382420",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T12:30:00+03:00",
+      "updatedAt": "2026-11-18T12:30:00+03:00"
+    },
+    {
+      "id": "a756177afa341a89",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "4af98b7e3bf90778",
+      "versions": {
+        "en": {
+          "shortTitle": "Rubio: outages not linked",
+          "title": "Rubio says “zero evidence” links the week of US tech outages",
+          "news": "Rubio says there is “zero evidence” the outages are linked or caused by hackers; Apple and the NSA had outages of their own on Tuesday.",
+          "summary": {
+            "what": "US Secretary of State Marco Rubio said there is “zero evidence” that a week of US outages, from Microsoft to Apple, are linked or were cyberattacks.",
+            "why": "Almost daily failures since Thursday grounded flights, slowed banks and cut off a classified NSA network, and Americans feared a coordinated attack.",
+            "next": "Officials and experts blame rushed upgrades of ageing systems; every affected company or agency has said its problem was not cyber-related."
+          },
+          "body": [
+            {
+              "subhead": "“We are not under systemic attack”",
+              "blocks": [
+                {
+                  "text": "Marco Rubio, the US secretary of state, has dismissed fears that a run of technology outages over the past week are connected, the BBC, The Guardian and Al Jazeera report. He spoke while travelling with Donald Trump in the Philippines, before the Apec summit in Shenzhen."
+                },
+                {
+                  "quote": "“We are not under systemic attack. These events, one has nothing to do with the other, they are not inter-related.”",
+                  "speaker": "Marco Rubio",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "“We have zero evidence or any reason to believe that any of these isolated or individual instances have anything to do with nefarious actors, with cyber hackers, with criminals, with another nation state,” Rubio said, according to The Guardian. Asked about the outages on Tuesday, Trump was dismissive: “It’s life. When you’re big and powerful and you have all the money, things like that happen. It’s fine.”"
+                }
+              ]
+            },
+            {
+              "subhead": "Five days, one failure after another",
+              "blocks": [
+                {
+                  "text": "The disruptions began on Thursday, when a Microsoft outage took down email and other tools; Microsoft traced it to an earlier network capacity upgrade, The Guardian says. On Friday the Federal Aviation Administration halted flights across the US for more than four hours, the longest ground stop since the 11 September 2001 attacks, the BBC reports. On Monday a United Airlines failure delayed about 150 flights and a JPMorgan Chase software problem disrupted banking and the Zelle payment service."
+                },
+                {
+                  "text": "On Tuesday Apple users lost access to iCloud and Apple Pay; Apple said the cause was an internal update, not an attack, the BBC reports. The same day a highly classified network the National Security Agency uses for internal communications went offline after what the agency called “routine maintenance”, The Guardian says."
+                }
+              ]
+            },
+            {
+              "subhead": "Why so many at once",
+              "blocks": [
+                {
+                  "text": "Director of National Intelligence Jay Clayton said the government believes the incidents were caused by security upgrades that took longer than planned or ran into unexpected problems, The Guardian reports. Mark Warner, a Democrat who chairs the Senate intelligence committee, said AI is helping find weaknesses in huge numbers of systems at once, putting pressure on companies and agencies to patch them all immediately."
+                },
+                {
+                  "text": "Experts told Wired the default assumption should be an accident. Doug Madory, who heads internet analysis at the security firm Infoblox, says only about “one in a thousand” of the outages he monitors turn out to be caused by hackers. “Stuff breaks, and that’s just the nature of complex systems,” said Matthew Prince, chief executive of Cloudflare."
+                }
+              ]
+            },
+            {
+              "subhead": "Pressure on the White House",
+              "blocks": [
+                {
+                  "text": "Trump has faced criticism from friends and foes demanding answers, The Guardian says. Rubio was asked whether fears could lead to stockpiling or a run on the banks; he said the best answer was for the government to share everything it knows, the BBC reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "US ground stop on Friday",
+              "value": "over 4 hours",
+              "source": "BBC"
+            },
+            {
+              "label": "United flights delayed on Monday",
+              "value": "about 150",
+              "source": "BBC"
+            },
+            {
+              "label": "Outages caused by hackers",
+              "value": "1 in 1,000",
+              "source": "Doug Madory, Infoblox, via Wired"
+            }
+          ],
+          "place": {
+            "name": "Washington, D.C.",
+            "lat": 38.91,
+            "lon": -77.04,
+            "region": "United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Rubio: kesintiler bağlantısız",
+          "title": "Rubio: ABD’deki teknoloji kesintilerinin bağlantılı olduğuna dair “sıfır kanıt” var",
+          "news": "Rubio, kesintilerin birbirine bağlı ya da siber saldırı olduğuna dair “sıfır kanıt” bulunduğunu söyledi; salı günü Apple ve NSA da çöktü.",
+          "summary": {
+            "what": "ABD Dışişleri Bakanı Marco Rubio, Microsoft’tan Apple’a bir haftadır süren kesintilerin birbirine bağlı ya da siber saldırı olduğuna dair “sıfır kanıt” bulunduğunu söyledi.",
+            "why": "Perşembeden bu yana neredeyse her gün yaşanan arızalar uçuşları durdurdu, bankaları yavaşlattı ve NSA’nın gizli ağını kesti; ABD’de koordineli saldırı korkusu yayıldı.",
+            "next": "Yetkililer ve uzmanlar sorunu eski sistemlerde aceleyle yapılan güncellemelere bağlıyor; etkilenen tüm şirket ve kurumlar siber saldırıyı dışladı."
+          },
+          "body": [
+            {
+              "subhead": "“Sistematik bir saldırı altında değiliz”",
+              "blocks": [
+                {
+                  "text": "BBC, The Guardian ve Al Jazeera’nın haberine göre ABD Dışişleri Bakanı Marco Rubio, son bir haftada art arda yaşanan teknoloji kesintilerinin birbiriyle bağlantılı olduğu yönündeki endişeleri reddetti. Rubio bu sözleri, Donald Trump’la birlikte Filipinler’deyken, Şenzen’deki APEC zirvesi öncesinde söyledi."
+                },
+                {
+                  "quote": "“Sistematik bir saldırı altında değiliz. Bu olayların biri ötekiyle ilgili değil, birbirine bağlı değiller.”",
+                  "speaker": "Marco Rubio",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre Rubio, “Bu münferit olayların herhangi birinin kötü niyetli aktörlerle, siber korsanlarla, suçlularla ya da başka bir devletle ilgisi olduğuna dair sıfır kanıtımız var” dedi. Salı günü kesintiler sorulan Trump ise umursamaz bir yanıt verdi: “Hayat bu. Büyük ve güçlüyseniz, tüm paraya sahipseniz böyle şeyler olur. Sorun yok.”"
+                }
+              ]
+            },
+            {
+              "subhead": "Beş günde art arda arızalar",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre kesintiler perşembe günü Microsoft’un e-posta ve diğer araçlarının çökmesiyle başladı; şirket sorunu daha önceki bir ağ kapasitesi güncellemesine bağladı. BBC’nin aktardığına göre cuma günü Federal Havacılık İdaresi (FAA) ABD genelinde uçuşları dört saatten uzun süre durdurdu; bu, 11 Eylül 2001 saldırılarından bu yana en uzun uçuş yasağıydı. Pazartesi United Airlines’taki bir arıza yaklaşık 150 uçuşu geciktirdi, JPMorgan Chase’teki bir yazılım sorunu da bankacılık işlemlerini ve Zelle ödeme hizmetini aksattı."
+                },
+                {
+                  "text": "BBC’ye göre salı günü Apple kullanıcıları iCloud ve Apple Pay’e erişemedi; Apple nedenin saldırı değil, bir iç güncelleme olduğunu açıkladı. The Guardian’a göre aynı gün Ulusal Güvenlik Ajansı’nın (NSA) gizli bilgileri paylaşmak için kullandığı iç ağ da ajansın “rutin bakım” dediği çalışma sonrası devre dışı kaldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden hepsi birden",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın aktardığına göre Ulusal İstihbarat Direktörü Jay Clayton, hükümetin olayları planlanandan uzun süren ya da beklenmedik sorunlarla karşılaşan güvenlik güncellemelerine bağladığını söyledi. Senato İstihbarat Komitesi’nin Demokrat başkanı Mark Warner da yapay zekânın çok sayıda sistemdeki açıkları aynı anda bulmayı mümkün kıldığını, bunun şirket ve kurumları hepsini hemen yamamaya zorladığını belirtti."
+                },
+                {
+                  "text": "Wired’a konuşan uzmanlar varsayılanın kaza olması gerektiğini söylüyor. Güvenlik şirketi Infoblox’ta internet analizinin başındaki Doug Madory, izlediği kesintilerin yalnızca “binde biri” kadarının korsanlardan kaynaklandığını belirtiyor. Cloudflare’in CEO’su Matthew Prince ise “Bir şeyler bozulur, karmaşık sistemlerin doğası budur” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Beyaz Saray’a baskı",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Trump, dostlarından ve rakiplerinden açıklama talep eden eleştirilerle karşı karşıya. BBC’nin aktardığına göre Rubio’ya korkuların stokçuluğa ya da bankalara hücuma yol açıp açmayacağı soruldu; Rubio en iyi yanıtın hükümetin bildiği her şeyi paylaşması olduğunu söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Cuma günkü uçuş yasağı",
+              "value": "4 saatten uzun",
+              "source": "BBC"
+            },
+            {
+              "label": "Pazartesi geciken United uçuşu",
+              "value": "yaklaşık 150",
+              "source": "BBC"
+            },
+            {
+              "label": "Korsan kaynaklı kesinti oranı",
+              "value": "binde 1",
+              "source": "Doug Madory, Infoblox, Wired’dan"
+            }
+          ],
+          "place": {
+            "name": "Washington",
+            "lat": 38.91,
+            "lon": -77.04,
+            "region": "ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T19:40:57.000Z",
+          "sourceId": "wired"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T04:01:16.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T04:01:16.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T04:57:06.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T06:26:49.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage/",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T12:30:00+03:00",
+      "updatedAt": "2026-11-18T12:30:00+03:00"
+    },
+    {
+      "id": "5a78e4f64af92c72",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "OpenAI ships GPT-6.2 Astra, Sol",
+          "title": "OpenAI releases GPT-6.2 Astra and Sol, cutting Astra’s API price 20%",
+          "summary": {
+            "what": "OpenAI has released GPT-6.2 Astra, its top model for the hardest work, and GPT-6.2 Sol, a cheaper model for everyday tasks, Webrazzi reports.",
+            "why": "OpenAI says both finish complex tasks using fewer output tokens, and Sol comes within about half a point of Astra on a coding test at a fifth of the cost.",
+            "next": "The models reach ChatGPT Work, Codex and the API first; they are not yet in the model picker of ordinary ChatGPT chats."
+          },
+          "body": [
+            {
+              "subhead": "Two new models",
+              "blocks": [
+                {
+                  "text": "OpenAI has released two new members of its GPT-6.2 family, GPT-6.2 Astra and GPT-6.2 Sol, the Turkish tech site Webrazzi reports. According to the company, the new models do better at professional workflows, coding, computer use and multi-step tasks while using fewer output tokens than earlier versions."
+                },
+                {
+                  "text": "OpenAI positions Astra as its top model for the most demanding projects. Sol is meant as a more efficient and cheaper option for everyday technical and non-technical work, such as multi-step agent workflows, writing code and producing natural text. OpenAI says its own staff often choose Sol for their daily work."
+                }
+              ]
+            },
+            {
+              "subhead": "What Astra does better",
+              "blocks": [
+                {
+                  "text": "Astra brings marked improvements in preparing presentations, spreadsheets and documents, Webrazzi says. It follows given templates more closely and can shape its output to the way different fields work, such as law, finance, sales and accounting; OpenAI says it writes more directly, with fewer generic phrases and needless detail. For slides, Astra can take an existing file, or just a screenshot, and carry its layout, colours and font sizes over to new slides."
+                },
+                {
+                  "text": "OpenAI says Astra is also better at making complex changes in existing codebases and testing them, and early users reported cleaner code, more focused tests and fewer revisions. It works more precisely on parts and joints in CAD and simulation tools, and can model mechanical systems piece by piece. Both models are better at finding security flaws and writing secure code, and OpenAI says it applies stricter safeguards to high-risk cybersecurity requests."
+                }
+              ]
+            },
+            {
+              "subhead": "Sol, the cheaper one",
+              "blocks": [
+                {
+                  "text": "On FrontierCode 2.0, a test that measures whether changes made in real codebases are ready to use, Sol at its highest reasoning level came within about half a point of Astra at about a fifth of the cost, according to Webrazzi."
+                },
+                {
+                  "text": "OpenAI is also widening access to Ultrafast, a high-speed mode it says can make token generation up to 4.5 times faster, though it uses up a subscriber’s quota more quickly. Pro 500 subscribers can use it with both models, and Pro 200 subscribers get it for the first time with Sol."
+                }
+              ]
+            },
+            {
+              "subhead": "Prices and access",
+              "blocks": [
+                {
+                  "text": "The models are rolling out through ChatGPT Work and Codex to Plus, Pro, Enterprise and Edu users, and are not yet in the model picker of ordinary ChatGPT chats. In the API, Astra’s standard price is 20% lower than GPT-6 Astra’s: $8 per million input tokens, $0.40 for cached input and $40 for output. Sol keeps GPT-6.1 Sol’s prices of $2, $0.10 and $10."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Astra API price cut vs GPT-6 Astra",
+              "value": "20%",
+              "source": "OpenAI, via Webrazzi"
+            },
+            {
+              "label": "Astra output, per million tokens",
+              "value": "$40",
+              "source": "OpenAI, via Webrazzi"
+            },
+            {
+              "label": "Sol output, per million tokens",
+              "value": "$10",
+              "source": "OpenAI, via Webrazzi"
+            },
+            {
+              "label": "Ultrafast speed-up",
+              "value": "up to 4.5×",
+              "source": "OpenAI, via Webrazzi"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "OpenAI’dan GPT-6.2 Astra ve Sol",
+          "title": "OpenAI GPT-6.2 Astra ve Sol’u çıkardı, Astra’nın API fiyatı yüzde 20 düştü",
+          "summary": {
+            "what": "Webrazzi’nin haberine göre OpenAI, en zorlu işler için GPT-6.2 Astra’yı ve günlük işler için daha ucuz GPT-6.2 Sol’u kullanıma sundu.",
+            "why": "OpenAI’a göre iki model de karmaşık görevleri daha az çıktı token’ıyla bitiriyor; Sol bir kodlama testinde Astra’ya yarım puan yaklaşırken maliyeti beşte biri.",
+            "next": "Modeller önce ChatGPT Work, Codex ve API üzerinden sunuluyor; normal ChatGPT sohbetlerindeki model seçicide henüz yoklar."
+          },
+          "body": [
+            {
+              "subhead": "İki yeni model",
+              "blocks": [
+                {
+                  "text": "Webrazzi’nin haberine göre OpenAI, GPT-6.2 model ailesinin iki yeni üyesi GPT-6.2 Astra ve GPT-6.2 Sol’u kullanıma sundu. Şirketin açıklamasına göre yeni modeller profesyonel iş akışlarında, kodlamada, bilgisayar kullanımında ve çok adımlı görevlerde daha yüksek performans sunarken önceki sürümlere göre daha az çıktı token’ı kullanıyor."
+                },
+                {
+                  "text": "OpenAI, Astra’yı en zorlu projeler için geliştirdiği üst seviye model olarak konumlandırıyor. Sol ise çok adımlı ajan iş akışları, kod yazma ve doğal metin üretme gibi günlük teknik ve teknik olmayan işler için daha verimli ve uygun maliyetli seçenek. OpenAI, kendi çalışanlarının da Sol’u günlük işlerinde sıkça tercih ettiğini belirtiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Astra’da neler değişti",
+              "blocks": [
+                {
+                  "text": "Webrazzi’ye göre Astra sunum, elektronik tablo ve doküman hazırlamada önemli iyileştirmeler getiriyor. Model verilen şablonları daha yakından izliyor, içeriği hukuk, finans, satış ve muhasebe gibi alanların çalışma biçimine göre şekillendirebiliyor; OpenAI daha doğrudan, genel ifade ve gereksiz ayrıntıdan arınmış metinler hedeflediğini söylüyor. Astra sunum hazırlarken mevcut bir dosyayı ya da yalnızca bir ekran görüntüsünü referans alıp düzeni, renkleri ve yazı boyutlarını yeni slaytlara taşıyabiliyor."
+                },
+                {
+                  "text": "OpenAI’a göre Astra mevcut kod tabanlarında karmaşık değişiklikler yapıp bunları test etmede de daha başarılı; erken kullanıcılar daha temiz kod, daha odaklı testler ve daha az revizyon bildirdi. Model CAD ve simülasyon araçlarında parça ve bağlantılar üzerinde daha hassas çalışıyor, mekanik sistemleri parça parça modelleyebiliyor. İki model de güvenlik açıklarını bulma ve güvenli kod yazmada ilerliyor; OpenAI yüksek riskli siber güvenlik taleplerine daha sıkı önlemler uyguladığını söylüyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Daha ucuz seçenek: Sol",
+              "blocks": [
+                {
+                  "text": "Webrazzi’ye göre gerçek kod tabanlarındaki değişikliklerin kullanıma hazır olup olmadığını ölçen FrontierCode 2.0 testinde Sol, en yüksek akıl yürütme seviyesinde Astra’nın yaklaşık yarım puan gerisinde kalırken maliyeti yaklaşık beşte biri oldu."
+                },
+                {
+                  "text": "OpenAI, “Ultrafast” adını verdiği yüksek hızlı çalışma seçeneğini de genişletiyor. Şirkete göre bu seçenek token üretimini 4,5 kata kadar hızlandırıyor, ancak kullanım kotasını daha çabuk tüketiyor. Pro 500 aboneleri iki modelde de Ultrafast kullanabilirken Pro 200 aboneleri bu seçeneğe ilk kez Sol ile erişiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Fiyatlar ve erişim",
+              "blocks": [
+                {
+                  "text": "Modeller ChatGPT Work ve Codex üzerinden Plus, Pro, Enterprise ve Edu kullanıcılarına sunuluyor; normal ChatGPT sohbetlerindeki model seçicide henüz yer almıyor. API’de Astra’nın standart fiyatı GPT-6 Astra’ya göre yüzde 20 düşürüldü: 1 milyon girdi token’ı 8 dolar, önbelleğe alınmış girdi 0,40 dolar, çıktı 40 dolar. Sol, GPT-6.1 Sol’un 2, 0,10 ve 10 dolarlık fiyatlarını koruyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Astra API fiyat indirimi",
+              "value": "%20",
+              "source": "OpenAI, Webrazzi’den"
+            },
+            {
+              "label": "Astra çıktı, 1 milyon token",
+              "value": "40 $",
+              "source": "OpenAI, Webrazzi’den"
+            },
+            {
+              "label": "Sol çıktı, 1 milyon token",
+              "value": "10 $",
+              "source": "OpenAI, Webrazzi’den"
+            },
+            {
+              "label": "Ultrafast hızlanma",
+              "value": "4,5 kata kadar",
+              "source": "OpenAI, Webrazzi’den"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T08:00:00.000Z",
+          "sourceId": "webrazzi"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "webrazzi",
+          "url": "https://webrazzi.com/2026/11/18/openai-gpt-6-2-astra-ve-gpt-6-2-sol-modellerini-kullanima-sundu/",
+          "confirms": true
+        },
+        {
+          "sourceId": "shiftdelete",
+          "url": "https://shiftdelete.net/gpt-6-2-astra-sol-openai-api-fiyati",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-18T12:30:00+03:00",
+      "updatedAt": "2026-11-18T12:30:00+03:00"
+    },
+    {
+      "id": "bebaf16420de29a3",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "62243f642ff7ee45",
+      "versions": {
+        "en": {
+          "shortTitle": "Xi opens Apec, pitches free trade",
+          "title": "Xi opens Apec with a free-trade pitch as Trump lands in China",
+          "news": "Xi opened the Apec summit in Shenzhen calling for free trade and AI cooperation; Trump has landed for talks with him and Putin.",
+          "summary": {
+            "what": "Xi Jinping opened the Apec summit in Shenzhen on Wednesday, calling for free trade, lower tariffs and global cooperation on AI.",
+            "why": "His pitch casts China as a stable partner against Trump’s tariffs, a day before talks with Trump and an unprecedented three-way summit with Putin.",
+            "next": "Trump has arrived in China; Xi and Putin have already met, and experts expect the US-China trade truce to be extended rather than any breakthrough."
+          },
+          "body": [
+            {
+              "subhead": "Xi’s pitch",
+              "blocks": [
+                {
+                  "text": "Chinese President Xi Jinping called for stronger global cooperation on artificial intelligence and free trade as he formally opened the Asia-Pacific Economic Cooperation (Apec) meeting in Shenzhen on Wednesday, France 24 reports. The summit runs on 18 and 19 November, DW says."
+                },
+                {
+                  "quote": "“We should actively build partnerships for scientific and technological innovation, deepen cooperation in the digital economy and artificial intelligence and promote a green and low-carbon transition.”",
+                  "speaker": "Xi Jinping",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "Speaking to business executives, Xi took aim at rising “unilateralism and protectionism”, which Al Jazeera reads as veiled criticism of Donald Trump’s America First tariffs. He said China would offer “a more stable, predictable and beneficial environment for global enterprises” and keep opening its manufacturing and services sectors. “Starting by lowering tariffs, expanding access, and exploring regulations and management standards, China will conduct deep-seated reform,” he said."
+                },
+                {
+                  "text": "George Chen of The Asia Group told the Associated Press, as quoted by Al Jazeera, that Xi did not mention export controls, Nvidia or the US directly, but that his message was clear: China wants to be seen as a partner in technology, unlike Washington’s more restrictive approach."
+                }
+              ]
+            },
+            {
+              "subhead": "Trump arrives",
+              "blocks": [
+                {
+                  "text": "Trump has arrived in China from the Philippines for talks with Xi and a three-way summit with Russia’s Vladimir Putin, France 24 and the South China Morning Post report. Xi and Putin began their own talks first, Euronews and The Guardian report, and Secretary of State Marco Rubio said Trump is serious about meeting North Korea’s Kim Jong-un."
+                },
+                {
+                  "text": "The backdrop is tense. A trade truce Trump and Xi reached at last year’s Apec summit in South Korea expires in January, France 24 notes, and this week the US announced tougher limits on exports to China of advanced chips used to train and run AI models."
+                }
+              ]
+            },
+            {
+              "subhead": "What each side wants",
+              "blocks": [
+                {
+                  "text": "Experts interviewed by DW do not expect breakthroughs. Patricia M. Kim of the Brookings Institution says both leaders have reason to keep the truce. Jia Hui Tee of the Hinrich Foundation says they could make progress on reciprocal tariff cuts covering $30 billion of goods on each side, and that Washington wants faster Chinese purchases of US farm goods and more exports of rare earths."
+                },
+                {
+                  "text": "Zhang Lun of CY Cergy Paris University told DW that Republican losses in the midterms and the Iran war have weakened Trump’s hand. Trump and Xi are due to meet again at the G20 summit in Miami in December, leaving room to push harder issues to later, Tee said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Apec summit in Shenzhen",
+              "value": "18–19 Nov",
+              "source": "DW"
+            },
+            {
+              "label": "US-China trade truce expires",
+              "value": "January",
+              "source": "France 24"
+            },
+            {
+              "label": "Goods in possible tariff cuts, each side",
+              "value": "$30bn",
+              "source": "Jia Hui Tee, Hinrich Foundation, via DW"
+            }
+          ],
+          "place": {
+            "name": "Shenzhen",
+            "lat": 22.54,
+            "lon": 114.06,
+            "region": "China"
+          }
+        },
+        "tr": {
+          "shortTitle": "Şi APEC’i serbest ticaretle açtı",
+          "title": "Şi, APEC zirvesini serbest ticaret çağrısıyla açtı; Trump Çin’e vardı",
+          "news": "Şi Cinping APEC zirvesini Şenzen’de serbest ticaret ve yapay zekâ iş birliği çağrısıyla açtı; Trump, Şi ve Putin’le görüşmek üzere Çin’e vardı.",
+          "summary": {
+            "what": "Çin Devlet Başkanı Şi Cinping, APEC zirvesini çarşamba günü Şenzen’de serbest ticaret, düşük gümrük vergisi ve yapay zekâda küresel iş birliği çağrısıyla açtı.",
+            "why": "Şi, Trump’la görüşmesinden ve Putin’in de katılacağı benzeri görülmemiş üçlü zirveden önce Çin’i Trump’ın gümrük vergilerine karşı istikrarlı bir ortak olarak sunuyor.",
+            "next": "Trump Çin’e vardı; Şi ve Putin görüşmeye başladı. Uzmanlar bir atılım değil, ABD-Çin ticaret ateşkesinin uzatılmasını bekliyor."
+          },
+          "body": [
+            {
+              "subhead": "Şi’nin mesajı",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre Çin Devlet Başkanı Şi Cinping, çarşamba günü Şenzen’de Asya-Pasifik Ekonomik İşbirliği (APEC) toplantısını resmen açarken yapay zekâ ve serbest ticarette daha güçlü küresel iş birliği çağrısı yaptı. DW’ye göre zirve 18-19 Kasım’da yapılıyor."
+                },
+                {
+                  "quote": "“Bilimsel ve teknolojik yenilik için ortaklıklar kurmalı, dijital ekonomide ve yapay zekâda iş birliğini derinleştirmeli, yeşil ve düşük karbonlu dönüşümü teşvik etmeliyiz.”",
+                  "speaker": "Şi Cinping",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "Şi, iş dünyası temsilcilerine yaptığı konuşmada artan “tek taraflılık ve korumacılığı” hedef aldı; Al Jazeera bunu Donald Trump’ın “Önce Amerika” gümrük vergilerine üstü kapalı bir eleştiri olarak yorumladı. Şi, Çin’in küresel şirketlere “daha istikrarlı, öngörülebilir ve yararlı bir ortam” sunacağını, imalat ve hizmet sektörlerini açmayı sürdüreceğini söyledi: “Gümrük vergilerini düşürmekten, erişimi genişletmekten, düzenleme ve yönetim standartlarını keşfetmekten başlayarak Çin köklü reformlar yapacak.”"
+                },
+                {
+                  "text": "Al Jazeera’nın aktardığına göre The Asia Group’tan George Chen, Associated Press’e Şi’nin ihracat kontrollerinden, Nvidia’dan ya da ABD’den doğrudan söz etmediğini, ancak mesajın açık olduğunu söyledi: Çin, Washington’un kısıtlayıcı yaklaşımının aksine teknolojide ortak olarak görülmek istiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Trump geldi",
+              "blocks": [
+                {
+                  "text": "France 24 ve South China Morning Post’a göre Trump, Şi’yle görüşmek ve Rusya Devlet Başkanı Vladimir Putin’in de katılacağı üçlü zirve için Filipinler’den Çin’e geldi. Euronews ve The Guardian’a göre Şi ve Putin kendi görüşmelerine önceden başladı; Dışişleri Bakanı Marco Rubio da Trump’ın Kuzey Kore lideri Kim Jong-un’la görüşme konusunda ciddi olduğunu söyledi."
+                },
+                {
+                  "text": "Arka plan gergin. France 24’e göre Trump ve Şi’nin geçen yıl Güney Kore’deki APEC zirvesinde vardığı ticaret ateşkesi ocakta sona eriyor; ABD bu hafta yapay zekâ modellerini eğitmek ve çalıştırmak için kullanılan gelişmiş çiplerin Çin’e ihracatına daha sıkı sınırlar getirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kim ne istiyor",
+              "blocks": [
+                {
+                  "text": "DW’ye konuşan uzmanlar bir atılım beklemiyor. Brookings Enstitüsü’nden Patricia M. Kim, iki liderin de ateşkesi korumak için nedeni olduğunu söylüyor. Hinrich Vakfı’ndan Jia Hui Tee’ye göre taraflar her iki yönde 30 milyar dolarlık malı kapsayan karşılıklı gümrük indirimlerinde ilerleme sağlayabilir; Washington, Çin’in ABD tarım ürünü alımlarını hızlandırmasını ve nadir toprak elementi ihracatını artırmasını istiyor."
+                },
+                {
+                  "text": "CY Cergy Paris Üniversitesi’nden Zhang Lun, DW’ye Cumhuriyetçilerin ara seçim kayıplarının ve İran savaşının Trump’ın elini zayıflattığını söyledi. Tee’ye göre Trump ve Şi aralıkta Miami’deki G20 zirvesinde yeniden görüşecek, bu da çetrefil konuları sonraya bırakmaya alan tanıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Şenzen’deki APEC zirvesi",
+              "value": "18-19 Kasım",
+              "source": "DW"
+            },
+            {
+              "label": "ABD-Çin ateşkesinin bitişi",
+              "value": "Ocak",
+              "source": "France 24"
+            },
+            {
+              "label": "Olası vergi indirimi, her taraf",
+              "value": "30 milyar $",
+              "source": "Jia Hui Tee, Hinrich Vakfı, DW’den"
+            }
+          ],
+          "place": {
+            "name": "Şenzen",
+            "lat": 22.54,
+            "lon": 114.06,
+            "region": "Çin"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T03:24:54.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T05:03:44.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T05:03:44.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T05:39:00.000Z",
+          "sourceId": "dw-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T08:05:18.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T08:31:49.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T08:50:18.000Z",
+          "sourceId": "euronews-en"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/6c27aea8-e2f8-11f1-acc5-ff16da94d1fe/w:1024/p:16x9/b8a39c56a6822b99f0824e38b60014e799bb99fe.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/asia-pacific/20261118-xi-jinping-calls-for-global-cooperation-on-ai-and-free-trade-at-apec-summit"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/asia-pacific/20261118-xi-jinping-calls-for-global-cooperation-on-ai-and-free-trade-at-apec-summit",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374840/xi-and-putin-say-they-will-maintain-stable-ties-seek-more-fair-multipolar-world-order",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/18/xi-and-putin-meet-ahead-of-planned-summit-with-trump",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T12:30:00+03:00",
+      "updatedAt": "2026-11-18T12:30:00+03:00"
+    },
+    {
+      "id": "1cc8e04dd38ccc07",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "UK inflation rises to 3.6%",
+          "title": "UK inflation rises to 3.6% as diesel hits a record price",
+          "summary": {
+            "what": "UK inflation rose to 3.6% in October from 3.5% in September, its highest in a year, as petrol rose and diesel hit a record, the ONS said.",
+            "why": "The US-Iran war has pushed up oil and energy costs, and household energy bills are forecast to jump 26% to £2,166 a year from January.",
+            "next": "The Bank of England, which raised rates to 4% this month, expects inflation to peak near 5% next year; markets see more rises ahead."
+          },
+          "body": [
+            {
+              "subhead": "Fuel drives prices up",
+              "blocks": [
+                {
+                  "text": "Prices in the UK rose 3.6% in the year to October, up from 3.5% in September, the Office for National Statistics said, The Guardian and the BBC report. It is the highest rate in a year, and it matched economists’ forecasts."
+                },
+                {
+                  "quote": "“Inflation rose slightly in October, with fuel prices once again a major contributor to the increase in the annual rate. Annual costs of both raw materials and goods leaving factories continue to climb, driven by higher crude oil and petrol prices respectively.”",
+                  "speaker": "Grant Fitzner, ONS chief economist",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Motor fuel prices rose at an annual rate of 33.2%, the fastest since July 2022, The Guardian says. Petrol went up 5.2p a litre between September and October to 174.7p, and diesel rose 7p to 199.5p, the highest on records going back to 1996."
+                }
+              ]
+            },
+            {
+              "subhead": "What held steady",
+              "blocks": [
+                {
+                  "text": "Core inflation, which leaves out energy, food, alcohol and tobacco, was unchanged at 2.8%, and services inflation held at 3.7%, slightly below forecasts, The Guardian reports. Food prices rose 0.9%, the slowest pace since September 2021. Air fares rose 1.8% in the month, and alcohol and tobacco 4.5%, after a duty rise at the start of October. The BBC says price rises slowed in restaurants and cafes and prices fell on average for hotels."
+                }
+              ]
+            },
+            {
+              "subhead": "Bills and rates",
+              "blocks": [
+                {
+                  "text": "The consultancy Cornwall Insight forecasts a 26% jump in energy bills in Great Britain from January, to £2,166 a year for a typical household, adding £443, the BBC reports. The government has cut VAT on electricity bills to zero until next July and will pay £100 to 20 million households in January."
+                },
+                {
+                  "text": "“Ultimately this support can only chip away at the edges of a bill that continues to be pushed up by events in the Middle East,” said Craig Lowrey of Cornwall Insight, according to the BBC."
+                },
+                {
+                  "text": "Earlier this month the Bank of England raised its rate from 3.75% to 4%, its first rise in three years, and warned more might be needed. The Guardian says markets expect at least two more quarter-point rises by the end of next year. The BBC notes that steady core inflation could let the Bank hold off in December."
+                }
+              ]
+            },
+            {
+              "subhead": "The outlook",
+              "blocks": [
+                {
+                  "text": "The Bank expects inflation to peak at 4.9% in the middle of next year and not to return to its 2% target until 2028, the BBC reports. In an adverse scenario in which the US-Iran war escalates and oil prices climb, it could reach 6.2% in 2027. Shadow chancellor Andrew Griffith blamed four successive rises in the rate on soaring energy costs and Labour’s decision to raise taxes and employment costs."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Diesel, average per litre",
+              "value": "199.5p",
+              "source": "ONS, via BBC"
+            },
+            {
+              "label": "Petrol, average per litre",
+              "value": "174.7p",
+              "source": "ONS, via BBC"
+            },
+            {
+              "label": "Typical energy bill from January",
+              "value": "£2,166",
+              "source": "Cornwall Insight, via BBC"
+            },
+            {
+              "label": "Bank of England rate",
+              "value": "4%",
+              "source": "BBC"
+            }
+          ],
+          "keyNumber": {
+            "label": "UK inflation (CPI)",
+            "unit": "%",
+            "before": 3.5,
+            "after": 3.6,
+            "source": "ONS"
+          }
+        },
+        "tr": {
+          "shortTitle": "İngiltere’de enflasyon %3,6’ya çıktı",
+          "title": "İngiltere’de enflasyon %3,6’ya yükseldi, motorin rekor kırdı",
+          "summary": {
+            "what": "İngiltere’de yıllık enflasyon benzin fiyatlarının artması ve motorinin rekor kırmasıyla eylülde %3,5’ten ekimde %3,6’ya, son bir yılın en yüksek seviyesine çıktı.",
+            "why": "ABD-İran savaşı petrol ve enerji maliyetlerini artırdı; hane enerji faturalarının ocaktan itibaren %26 artışla yıllık 2.166 sterline çıkması bekleniyor.",
+            "next": "Bu ay faizi %4’e çıkaran İngiltere Merkez Bankası enflasyonun gelecek yıl %5’e yaklaşmasını bekliyor; piyasalar yeni artışlar öngörüyor."
+          },
+          "body": [
+            {
+              "subhead": "Akaryakıt fiyatları yukarı itti",
+              "blocks": [
+                {
+                  "text": "The Guardian ve BBC’nin haberine göre İngiltere İstatistik Ofisi (ONS), ekimde yıllık enflasyonun eylüldeki %3,5’ten %3,6’ya yükseldiğini açıkladı. Bu, son bir yılın en yüksek oranı; rakam ekonomistlerin beklentisiyle örtüştü."
+                },
+                {
+                  "quote": "“Ekimde enflasyon hafifçe yükseldi ve yıllık orandaki artışa yine akaryakıt fiyatları büyük katkı yaptı. Hem hammaddelerin hem de fabrikadan çıkan malların yıllık maliyeti, sırasıyla ham petrol ve benzin fiyatlarındaki artışla tırmanmayı sürdürüyor.”",
+                  "speaker": "Grant Fitzner, ONS baş ekonomisti",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre akaryakıt fiyatları yıllık %33,2 artışla Temmuz 2022’den bu yana en hızlı yükselişini kaydetti. Benzinin litresi eylülden ekime 5,2 peni artarak 174,7 peniye, motorin ise 7 peni artışla 199,5 peniye çıktı; bu, 1996’ya uzanan kayıtların en yüksek seviyesi."
+                }
+              ]
+            },
+            {
+              "subhead": "Değişmeyenler",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre enerji, gıda, alkol ve tütünü dışlayan çekirdek enflasyon %2,8’de sabit kaldı, hizmet enflasyonu da beklentinin biraz altında %3,7’de kaldı. Gıda fiyatları %0,9 artışla Eylül 2021’den bu yana en yavaş yükselişi gösterdi. Uçak biletleri ekimde %1,8, alkol ve tütün ise ay başındaki vergi artışının etkisiyle %4,5 arttı. BBC’ye göre restoran ve kafelerde fiyat artışı yavaşladı, otel fiyatları ise ortalamada düştü."
+                }
+              ]
+            },
+            {
+              "subhead": "Faturalar ve faiz",
+              "blocks": [
+                {
+                  "text": "BBC’nin aktardığına göre danışmanlık şirketi Cornwall Insight, Büyük Britanya’da enerji faturalarının ocaktan itibaren %26 artarak tipik bir hane için yıllık 2.166 sterline çıkmasını, bunun faturaya 443 sterlin eklemesini bekliyor. Hükümet elektrik faturalarındaki KDV’yi gelecek temmuza kadar sıfırladı ve ocakta 20 milyon haneye 100’er sterlin ödeyecek."
+                },
+                {
+                  "text": "BBC’ye göre Cornwall Insight’tan Craig Lowrey, “Bu destek, Orta Doğu’daki olaylar yüzünden artmaya devam eden bir faturanın ancak kenarından kırpabilir” dedi."
+                },
+                {
+                  "text": "İngiltere Merkez Bankası bu ayın başında faizi üç yıl sonra ilk kez %3,75’ten %4’e çıkarmış ve yeni artışların gerekebileceği uyarısında bulunmuştu. The Guardian’a göre piyasalar gelecek yıl sonuna kadar en az iki çeyrek puanlık artış daha bekliyor. BBC ise sabit kalan çekirdek enflasyonun bankanın aralıkta beklemesine imkân verebileceğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Görünüm",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre banka, enflasyonun gelecek yılın ortasında %4,9 ile zirve yapmasını ve %2 hedefine ancak 2028’de dönmesini bekliyor. ABD-İran savaşının tırmanıp petrol fiyatlarının yükseldiği olumsuz senaryoda enflasyon 2027’de %6,2’ye çıkabilir. Muhalefetin gölge maliye bakanı Andrew Griffith, üst üste dört artışı yükselen enerji maliyetlerine ve İşçi Partisi’nin vergileri ve istihdam maliyetlerini artırma kararına bağladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Motorin, litre ortalaması",
+              "value": "199,5 peni",
+              "source": "ONS, BBC’den"
+            },
+            {
+              "label": "Benzin, litre ortalaması",
+              "value": "174,7 peni",
+              "source": "ONS, BBC’den"
+            },
+            {
+              "label": "Ocaktan itibaren tipik fatura",
+              "value": "2.166 £",
+              "source": "Cornwall Insight, BBC’den"
+            },
+            {
+              "label": "İngiltere Merkez Bankası faizi",
+              "value": "%4",
+              "source": "BBC"
+            }
+          ],
+          "keyNumber": {
+            "label": "İngiltere enflasyonu (TÜFE)",
+            "unit": "%",
+            "before": 3.5,
+            "after": 3.6,
+            "source": "ONS"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T07:44:21.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T08:45:38.000Z",
+          "sourceId": "bbc-business"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T08:45:38.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7d0b/live/be9d4d20-e31e-11f1-baab-4b3b35d174b7.jpg",
+        "sourceId": "bbc-business",
+        "sourceName": "BBC News Business",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-business",
+          "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T12:30:00+03:00",
+      "updatedAt": "2026-11-18T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "12838b775b028776",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Below which price per ounce did gold fall on Wednesday, its lowest in about 14 months?",
+          "options": ["$4,000", "$3,800", "$3,500"]
+        },
+        "tr": {
+          "question": "Ons altın çarşamba günü yaklaşık 14 ayın en düşüğünü görürken hangi seviyenin altına indi?",
+          "options": ["4.000 dolar", "3.800 dolar", "3.500 dolar"]
+        }
+      }
+    },
+    {
+      "storyId": "5a78e4f64af92c72",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "By how much did OpenAI cut GPT-6.2 Astra’s standard API price compared with GPT-6 Astra?",
+          "options": ["20%", "50%", "10%"]
+        },
+        "tr": {
+          "question": "OpenAI, GPT-6.2 Astra’nın standart API fiyatını GPT-6 Astra’ya göre ne kadar düşürdü?",
+          "options": ["%20", "%50", "%10"]
+        }
+      }
+    },
+    {
+      "storyId": "1cc8e04dd38ccc07",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "What was the UK’s annual inflation rate in October?",
+          "options": ["3.2%", "4.0%", "3.6%"]
+        },
+        "tr": {
+          "question": "İngiltere’de ekim ayı yıllık enflasyonu kaç oldu?",
+          "options": ["%3,2", "%4,0", "%3,6"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910008",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910008"
+      }
+    },
+    {
+      "id": "espn-401910010",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "short": "Magic",
+        "ours": false,
+        "team": "orlando-magic"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910010"
+      }
+    }
+  ]
+}
