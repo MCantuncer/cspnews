@@ -608,7 +608,7 @@
           "keyNumber": {
             "label": "Unemployment rate, seasonally adjusted",
             "unit": "%",
-            "before": 8.0,
+            "before": 8,
             "after": 8.1,
             "source": "TurkStat, via Anadolu Agency"
           }
@@ -686,7 +686,7 @@
           "keyNumber": {
             "label": "İşsizlik oranı, mevsimsellikten arındırılmış",
             "unit": "%",
-            "before": 8.0,
+            "before": 8,
             "after": 8.1,
             "source": "TÜİK, Anadolu Ajansı"
           }
@@ -2040,6 +2040,72 @@
           "question": "AB, Ukrayna’ya 2027 için ne kadar kredi vermeyi öneriyor?",
           "options": ["45 milyar avro", "90 milyar avro", "20 milyar avro"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910008",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910008"
+      }
+    },
+    {
+      "id": "espn-401910010",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "short": "Magic",
+        "ours": false,
+        "team": "orlando-magic"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910010"
       }
     }
   ]
