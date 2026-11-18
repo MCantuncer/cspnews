@@ -1,0 +1,2116 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-18T07:30:00+03:00",
+  "writtenAt": "2026-11-18T06:58:08+03:00",
+  "stories": [
+    {
+      "id": "0905d0cfb949c54b",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Minister denies police fund losses",
+          "title": "Interior minister denies police pension fund lost money in fund scandal",
+          "summary": {
+            "what": "Mustafa Çiftçi said about ₺1 billion of POLSAN’s roughly ₺80 billion in assets was in funds, and that the police fund has suffered no loss.",
+            "why": "YENİ Parti MP Ümit Özlale claimed POLSAN, which holds the savings of 157,000 police officers, was exposed to funds caught in the fund probe.",
+            "next": "Çiftçi says a process has started against anyone found negligent; Özlale’s party plans six more files on the fund probe."
+          },
+          "body": [
+            {
+              "subhead": "The claim",
+              "blocks": [
+                {
+                  "text": "Ümit Özlale, the YENİ Parti MP for İzmir, presented the second of eight files his party has prepared on the fund probe at a press conference in parliament on Tuesday, BBC Türkçe reports. He said the assets of the Police Care and Aid Fund (POLSAN), a pension and mutual-aid fund for police staff founded in 1952, had been used in high-risk trades."
+                },
+                {
+                  "text": "According to Diken and BBC Türkçe, Özlale said Tera Yatırım, the brokerage that the markets regulator SPK ordered wound up on 27 October, had been given power of attorney to trade POLSAN’s assets held at VakıfBank. He also asked why POLSAN put more money into the ELZ fund on 20 October, after liquidations had begun and a trustee had been appointed to the Tera group’s holding, and then left the fund on 11 November. BBC Türkçe says he put the purchase at ₺14.5 million."
+                },
+                {
+                  "text": "Özlale also claimed that POLSAN’s total investment in the brokerages, portfolio managers and securities at the centre of the probe reached ₺15.27 billion at the end of 2025, BBC Türkçe reports, and that the day after the trustee appointment the police chief became chair of the fund’s board."
+                }
+              ]
+            },
+            {
+              "subhead": "The minister’s answer",
+              "blocks": [
+                {
+                  "text": "Interior Minister Mustafa Çiftçi rejected the claims during the debate on his ministry’s 2027 budget in parliament’s Plan and Budget Committee, Habertürk, A Haber and NTV report. He said POLSAN’s assets are about ₺80 billion, of which about ₺1 billion was invested in funds."
+                },
+                {
+                  "quote": "The information Mr Ümit Özlale gave does not reflect the truth. The Police Care and Aid Fund has suffered no loss, but if there is a possibility of a loss, if anything is proven against staff, we will take the necessary steps on that too.",
+                  "speaker": "Mustafa Çiftçi",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "On X, Çiftçi wrote that “every kuruş” of the fund is a trust from police officers and that a process had been started against anyone with even the slightest negligence, BBC Türkçe says."
+                }
+              ]
+            },
+            {
+              "subhead": "A step back",
+              "blocks": [
+                {
+                  "text": "Sabah reports that Özlale later said POLSAN’s contract with Tera had not been renewed and had been signed before Çiftçi took office. He said Astra Portföy officials told him the ELZ trade was made by the portfolio manager without POLSAN’s knowledge, and that the loss came from the manager’s own misjudgement."
+                },
+                {
+                  "text": "POLSAN’s members are police, watchmen and civilian staff; Diken says membership is compulsory for those who joined the force after 28 December 2018, and dues are 9% of the salary that pension contributions are based on."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "POLSAN’s assets",
+              "value": "≈₺80bn",
+              "source": "Mustafa Çiftçi, via Habertürk"
+            },
+            {
+              "label": "Part invested in funds",
+              "value": "≈₺1bn",
+              "source": "Mustafa Çiftçi, via Habertürk"
+            },
+            {
+              "label": "Police officers in the fund",
+              "value": "157,000",
+              "source": "Ümit Özlale, via BBC Türkçe"
+            },
+            {
+              "label": "ELZ fund purchase cited",
+              "value": "₺14.5m",
+              "source": "Ümit Özlale, via BBC Türkçe"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Bakan Çiftçi: POLSAN zarar etmedi",
+          "title": "İçişleri Bakanı Çiftçi, POLSAN’ın fon vurgununda zarar ettiği iddiasını reddetti",
+          "summary": {
+            "what": "Mustafa Çiftçi, yaklaşık 80 milyar liralık POLSAN varlığının 1 milyar lira kadarının fonlarda olduğunu ve sandığın zararı bulunmadığını söyledi.",
+            "why": "Yeni Parti milletvekili Ümit Özlale, 157 bin polisin birikimini yöneten sandığın soruşturmadaki fonlarda kullanıldığını iddia etmişti.",
+            "next": "Çiftçi, ihmali olanlar için süreç başlatıldığını söyledi; Özlale’nin partisi fon soruşturmasına dair altı dosya daha açıklayacak."
+          },
+          "body": [
+            {
+              "subhead": "İddia ne?",
+              "blocks": [
+                {
+                  "text": "Yeni Parti İzmir Milletvekili Ümit Özlale, partisinin fon soruşturmasına ilişkin hazırladığı sekiz dosyanın ikincisini salı günü TBMM’de düzenlediği basın toplantısıyla açıkladı. BBC Türkçe’nin aktardığına göre Özlale, 1952’de kurulan emniyet personelinin emeklilik ve yardımlaşma sandığı POLSAN’ın varlıklarının yüksek riskli işlemlerde kullanıldığını öne sürdü."
+                },
+                {
+                  "text": "Diken ve BBC Türkçe’ye göre Özlale, SPK’nın 27 Ekim’de tasfiyesine karar verdiği Tera Yatırım’a, VakıfBank’ta saklanan POLSAN varlıkları üzerinde işlem yetkisi verildiğini söyledi. Fon tasfiyeleri başlayıp Tera grubunun holdingine kayyum atandıktan sonra POLSAN’ın 20 Ekim’de ELZ fonuna neden ek alım yaptığını, 11 Kasım’da ise fondan neden tamamen çıktığını sordu. BBC Türkçe’ye göre bu alımın tutarını 14,5 milyon lira olarak verdi."
+                },
+                {
+                  "text": "Özlale ayrıca sandığın soruşturmanın merkezindeki aracı kurum, portföy şirketi ve menkul kıymetlerdeki toplam yatırımının 2025 sonunda 15 milyar 270 milyon liraya ulaştığını ve kayyum atamasının ertesi günü Emniyet Genel Müdürü’nün yönetim kurulu başkanı olduğunu iddia etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Bakanın yanıtı",
+              "blocks": [
+                {
+                  "text": "İçişleri Bakanı Mustafa Çiftçi, Bakanlığın 2027 bütçesinin TBMM Plan ve Bütçe Komisyonu’ndaki görüşmelerinde iddiaları reddetti. Habertürk, A Haber ve NTV’nin aktardığına göre Çiftçi, POLSAN’ın aktif büyüklüğünün yaklaşık 80 milyar lira, fonlarda değerlendirilen kısmının ise yaklaşık 1 milyar lira olduğunu söyledi."
+                },
+                {
+                  "quote": "Sayın Ümit Özlale’nin vermiş olduğu bilgiler gerçeği yansıtmıyor. Polis Bakım ve Yardım Sandığının bir zararı yok ancak zararı olma ihtimali varsa, personelden kanıtlanan bir durum varsa, onunla da ilgili gerekli işlemleri yapacağımızı ifade etmek istiyorum.",
+                  "speaker": "Mustafa Çiftçi",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "BBC Türkçe’ye göre Çiftçi, X’teki paylaşımında sandıktaki her kuruşun polislerin emaneti olduğunu, en ufak ihmali bulunan için süreç başlattıklarını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Özlale’den geri adım",
+              "blocks": [
+                {
+                  "text": "Sabah’ın haberine göre Özlale daha sonra POLSAN ile Tera arasındaki sözleşmenin yenilenmediğini ve Çiftçi göreve gelmeden önce imzalandığını söyledi. Astra Portföy yetkililerinin, ELZ işleminin POLSAN’ın bilgisi dışında portföy şirketince yapıldığını ve zararın şirketin değerlendirme hatasından kaynaklandığını kendisine bildirdiğini aktardı."
+                },
+                {
+                  "text": "Diken’e göre 28 Aralık 2018’den sonra göreve başlayan polis, çarşı ve mahalle bekçileri ile sivil memurlar sandığın daimi üyesi sayılıyor; aidat, emeklilik keseneğine esas aylığın yüzde 9’u."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "POLSAN’ın varlığı",
+              "value": "≈80 milyar ₺",
+              "source": "Mustafa Çiftçi, Habertürk"
+            },
+            {
+              "label": "Fonlardaki kısım",
+              "value": "≈1 milyar ₺",
+              "source": "Mustafa Çiftçi, Habertürk"
+            },
+            {
+              "label": "Sandıktaki polis sayısı",
+              "value": "157 bin",
+              "source": "Ümit Özlale, BBC Türkçe"
+            },
+            {
+              "label": "İddia edilen ELZ alımı",
+              "value": "14,5 milyon ₺",
+              "source": "Ümit Özlale, BBC Türkçe"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T14:01:07.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T14:01:45.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T14:01:45.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T14:06:52.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T15:25:29.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T16:28:34.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T17:04:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T21:04:34.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/17/ver1794924011/3928017/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-icisleri-bakani-mustafa-ciftci-den-yeni-partili-ozlale-nin-polsan-iddiasina-yalanlama-3928017"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-icisleri-bakani-mustafa-ciftci-den-yeni-partili-ozlale-nin-polsan-iddiasina-yalanlama-3928017",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/polsan-iddiasi-icisleri-bakanina-gore-zarar-yok/",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/17/bakan-ciftciden-yeni-partili-ozlalenin-polsan-iddiasina-yalanlama",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/crq5vlxqp96wo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/17/polsan-iddialarini-gundeme-getiren-ozlale-aciklamalarin-ardindan-geri-adim-atti",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/polis-sandiginin-parasi-fonlarda-batti-mi-icisleri-bakani-sandigin-zarari-olmadigini-acikladi-1751335",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/fon-krizinde-yeni-perde-bakan-ciftci-nin-polsan-aciklamasina-yeni-partili-ozlale-den-3-soruyla-yanit-sormaya-devam-edecegiz-2557006",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/icisleri-bakani-ciftci-polsana-yonelik-iddialar-bu-islemlerden-kaynaklanan-herhangi-bir-zarar-bulunmamaktadir/4128399",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "8c48fcf354ae7e92",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Fidan invites new Mecca Alliance members",
+          "title": "Fidan opens the Mecca defence alliance to new members",
+          "summary": {
+            "what": "Hakan Fidan hosted Syria’s foreign minister Asaad al-Shaibani in Ankara and said other countries could join the Mecca alliance of Türkiye, Saudi Arabia and Pakistan.",
+            "why": "Türkiye is helping rebuild Syria’s army, and both ministers demanded an end to Israeli strikes on southern Syria.",
+            "next": "Shaibani said Syria’s embassy in Ankara should reopen early next month and the two sides aim for $10 billion in trade."
+          },
+          "body": [
+            {
+              "subhead": "Talks in Ankara",
+              "blocks": [
+                {
+                  "text": "Foreign Minister Hakan Fidan and Defence Minister Yaşar Güler met Syrian Foreign Minister Asaad al-Shaibani and Defence Minister Murhaf Abu Qasra in Ankara on Tuesday, NTV and Euronews Türkçe report. Fidan said they reviewed every part of the relationship, above all defence and security."
+                },
+                {
+                  "text": "According to A Haber and Sabah, Fidan said Türkiye is working hard to rebuild the Syrian army and strengthen its security institutions, warning that ISIS and other groups could hurt trade and connections in the region. NTV says one of the main topics was the integration process in northern Syria; Fidan said Türkiye would keep working with Damascus to complete it."
+                },
+                {
+                  "text": "Fidan listed recent projects: a heart hospital in Damascus, a Turkish school that opened last month, air-navigation systems at the Damascus and Aleppo airports, and an agreement to set up a Türkiye-Syria University in Damascus."
+                }
+              ]
+            },
+            {
+              "subhead": "A wider alliance",
+              "blocks": [
+                {
+                  "text": "Fidan said the Mecca alliance signed by Türkiye, Saudi Arabia and Pakistan could take in more members once it is fully set up, Euronews Türkçe reports."
+                },
+                {
+                  "quote": "Once the institutionalisation of our alliance is complete, we will of course be glad to see other countries in the region that want peace and respect international law among us.",
+                  "speaker": "Hakan Fidan",
+                  "sourceId": "euronews-tr",
+                  "translated": true
+                },
+                {
+                  "text": "He told reporters that he no longer sees it as right for an outside hegemon to come and solve the region’s security problems, according to Euronews Türkçe."
+                }
+              ]
+            },
+            {
+              "subhead": "Israel and Gaza",
+              "blocks": [
+                {
+                  "text": "Fidan said Israel’s actions threaten the security the region is trying to build. “The security of a country cannot be built on the instability of its neighbours,” he said, calling for an end to strikes on southern Syria and a security arrangement based on the 1974 Disengagement Agreement, A Haber reports. He also urged Israel to stop blocking aid to Gaza as winter approaches."
+                },
+                {
+                  "text": "Habertürk quotes Fidan as saying Iran should show the will to solve its problems and that shipping through the Strait of Hormuz must return to normal."
+                }
+              ]
+            },
+            {
+              "subhead": "Trade and returns",
+              "blocks": [
+                {
+                  "text": "Shaibani said trade between the two countries neared $3.78 billion in 2025, up more than 40%, and that the shared goal is $10 billion, Sabah reports. He said work is under way to raise the power link to 500 megawatts and to reopen the Qamishli–Nusaybin border gate, and that direct flights now link Damascus with Antalya and İzmir."
+                },
+                {
+                  "text": "More than 700,000 Syrians have returned home, Shaibani said, adding that housing and basic services are needed for returns to last. He said Syria’s embassy in Ankara is expected to open at the start of next month."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Türkiye–Syria trade in 2025",
+              "value": "$3.78bn",
+              "source": "Asaad al-Shaibani, via Sabah"
+            },
+            {
+              "label": "Trade target",
+              "value": "$10bn",
+              "source": "Asaad al-Shaibani, via Sabah"
+            },
+            {
+              "label": "Syrians who have returned",
+              "value": "700,000+",
+              "source": "Asaad al-Shaibani, via Sabah"
+            },
+            {
+              "label": "Planned power link",
+              "value": "500 MW",
+              "source": "Asaad al-Shaibani, via Sabah"
+            }
+          ],
+          "place": {
+            "name": "Ankara",
+            "lat": 39.93,
+            "lon": 32.86,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Fidan: Mekke İttifakı genişleyebilir",
+          "title": "Fidan, Suriyeli mevkidaşıyla görüştü: Mekke İttifakı’na yeni ülkeler katılabilir",
+          "summary": {
+            "what": "Hakan Fidan, Ankara’da Suriye Dışişleri Bakanı Esad Hasan Şeybani’yi ağırladı; Türkiye, Suudi Arabistan ve Pakistan’ın Mekke İttifakı’na başka ülkelerin de katılabileceğini söyledi.",
+            "why": "Türkiye, Suriye ordusunun yeniden yapılandırılmasına destek veriyor; iki bakan da İsrail’in Suriye’nin güneyine saldırılarının durmasını istedi.",
+            "next": "Şeybani, Suriye’nin Ankara Büyükelçiliği’nin gelecek ay başında açılmasını beklediklerini, ticarette hedefin 10 milyar dolar olduğunu söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Ankara’da görüşme",
+              "blocks": [
+                {
+                  "text": "NTV ve Euronews Türkçe’nin aktardığına göre Dışişleri Bakanı Hakan Fidan ve Milli Savunma Bakanı Yaşar Güler, salı günü Ankara’da Suriye Dışişleri Bakanı Esad Hasan Şeybani ve Savunma Bakanı Tümgeneral Murhef Ebu Kasra ile görüştü. Fidan, başta savunma ve güvenlik olmak üzere ilişkilerin tüm boyutlarını ele aldıklarını söyledi."
+                },
+                {
+                  "text": "A Haber ve Sabah’a göre Fidan, Türkiye’nin Suriye ordusunun yeniden yapılandırılması ve güvenlik kurumlarının güçlendirilmesi için yoğun çaba harcadığını, DEAŞ başta olmak üzere terör örgütlerinin ticarete ve bağlantısallığa zarar verebileceğini belirtti. NTV’ye göre görüşmenin önemli başlıklarından biri Suriye’nin kuzeyindeki entegrasyon süreciydi."
+                },
+                {
+                  "text": "Fidan, Şam Kalp Hastanesi’ni, geçen ay açılan Türk okulunu, Şam ve Halep havalimanlarına kurulan seyrüsefer sistemlerini ve Şam’da Türkiye-Suriye Üniversitesi kurulması konusundaki mutabakatı örnek gösterdi."
+                }
+              ]
+            },
+            {
+              "subhead": "İttifaka yeni üyeler",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe’ye göre Fidan, Türkiye, Suudi Arabistan ve Pakistan arasında imzalanan Mekke İttifakı’na başka ülkelerin de katılabileceğini söyledi."
+                },
+                {
+                  "quote": "İttifakımızın kurumsallaşma süreci tamamlandığında bölgede barış isteyen, uluslararası hukuka saygılı diğer ülkeleri aramızda görmekten tabii ki memnuniyet duyacağız.",
+                  "speaker": "Hakan Fidan",
+                  "sourceId": "euronews-tr"
+                },
+                {
+                  "text": "Fidan, dışarıdan bir hegemonun bölgeye gelip güvenlik sorununu çözmesini artık uygun bir yöntem olarak görmediklerini de söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "İsrail ve Gazze",
+              "blocks": [
+                {
+                  "text": "A Haber’in aktardığına göre Fidan, İsrail’in eylemlerinin bölgede kurulmaya çalışılan güvenlik mimarisini tehdit ettiğini söyledi: “Bir ülkenin güvenliği, komşularının istikrarsızlığı üzerine inşa edilemez.” İsrail’in Suriye’nin güneyine saldırılarına son vermesini ve 1974 tarihli Kuvvetlerin Ayrıştırılması Anlaşması temelinde bir düzenleme yapılmasını istedi; kış yaklaşırken Gazze’ye yardımların engellenmemesi çağrısında bulundu."
+                },
+                {
+                  "text": "Habertürk’e göre Fidan, İran’ın sorunlarını çözme iradesi göstermesi ve Hürmüz Boğazı’nda durumun normale dönmesi gerektiğini de söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Ticaret ve geri dönüşler",
+              "blocks": [
+                {
+                  "text": "Sabah’a göre Şeybani, iki ülke arasındaki ticaretin 2025’te yüzde 40’tan fazla artışla 3 milyar 780 milyon dolara yaklaştığını, ortak hedefin 10 milyar dolar olduğunu söyledi. Elektrik bağlantı kapasitesinin 500 megavata çıkarılması ve Kamışlı-Nusaybin Sınır Kapısı’nın yeniden açılması için çalışıldığını, Şam’dan Antalya ve İzmir’e doğrudan uçuşların başladığını aktardı."
+                },
+                {
+                  "text": "Şeybani, Suriye’ye dönenlerin sayısının 700 bini aştığını, dönüşlerin kalıcı olması için konut ve temel hizmetlerin gerektiğini belirtti; Ankara Büyükelçiliği’nin gelecek ay başında açılmasının beklendiğini duyurdu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2025’te Türkiye-Suriye ticareti",
+              "value": "3,78 milyar $",
+              "source": "Esad Hasan Şeybani, Sabah"
+            },
+            {
+              "label": "Ticaret hedefi",
+              "value": "10 milyar $",
+              "source": "Esad Hasan Şeybani, Sabah"
+            },
+            {
+              "label": "Suriye’ye dönenler",
+              "value": "700 bini aştı",
+              "source": "Esad Hasan Şeybani, Sabah"
+            },
+            {
+              "label": "Planlanan elektrik hattı",
+              "value": "500 MW",
+              "source": "Esad Hasan Şeybani, Sabah"
+            }
+          ],
+          "place": {
+            "name": "Ankara",
+            "lat": 39.93,
+            "lon": 32.86,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T14:20:49.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T14:39:17.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T14:39:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T15:11:30.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T17:03:31.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/17/ver1794926124/3928023/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/dunya/son-dakika-bakan-fidan-suriyeli-mevkidasini-ankara-da-agirliyor-3928023"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/17/disisleri-bakani-fidandan-suriyeli-mevkidasi-seybani-ile-ortak-aciklamalar",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/17/son-dakika-i-bakan-fidan-hedefimiz-bolgeye-barisi-getirmek",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/son-dakika-bakan-fidan-suriyeli-mevkidasini-ankara-da-agirliyor-3928023",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bakan-fidan-mekke-ittifakina-yeni-ulkelerin-katilimini-isteriz-1751331",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/17/disisleri-bakani-fidandan-mekke-ittifakina-yeni-ulkelerin-katilmasina-yesil-isik",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "895ce9649da90724",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Residency for $150,000 investors",
+          "title": "Foreigners investing $150,000 can get three-year Turkish residence",
+          "summary": {
+            "what": "A presidential decree in the Official Gazette gives non-working foreigners three-year residence for $150,000 invested and five years for $200,000.",
+            "why": "It creates a lower, tiered path below the $400,000 and $500,000 thresholds for citizenship by investment.",
+            "next": "The rule took effect on 18 November; the interior ministry will set out how to apply."
+          },
+          "body": [
+            {
+              "subhead": "What the decree says",
+              "blocks": [
+                {
+                  "text": "A decree signed by President Recep Tayyip Erdoğan on residence permits for foreign investors was published in the Official Gazette, Bloomberg HT, Sözcü and NTV report. Foreigners who do not work in Türkiye but invest at least $150,000, or the equivalent in another currency, can get a three-year residence permit; those who invest at least $200,000 can get one for five years."
+                },
+                {
+                  "text": "The permit also covers the investor’s foreign spouse and the minor or dependent foreign children of the investor or the spouse, Bloomberg HT says. Sözcü reports that the rule took effect on 18 November 2026, the day it was published."
+                }
+              ]
+            },
+            {
+              "subhead": "Where the money can go",
+              "blocks": [
+                {
+                  "text": "The money can be placed as a deposit in a bank operating in Türkiye or used to buy government debt securities, according to Bloomberg HT. Shares in real estate investment funds or venture capital investment funds, and contributions to set plans in the private pension system, also count."
+                },
+                {
+                  "text": "The investment must be kept for at least half of the permit’s length: one and a half years for a three-year permit and two and a half years for a five-year one. Each regulator checks its own part: the banking regulator BDDK for deposits, the Treasury and Finance Ministry for government bonds, the markets regulator SPK for fund shares, and the insurance and pensions regulator SEDDK for pension contributions, NTV reports. The interior ministry will run the scheme and decide how applications are made."
+                }
+              ]
+            },
+            {
+              "subhead": "Not a route to citizenship",
+              "blocks": [
+                {
+                  "text": "NTV notes that permits issued under the decree fall outside Article 12 of the Turkish Citizenship Law, which governs exceptional citizenship. Citizenship by investment keeps its own thresholds: at least $400,000 in real estate, or at least $500,000 in deposits, government bonds, set investment funds or private pension savings, held for three years. A fixed capital investment of at least $500,000 or creating jobs for 50 people also qualify."
+                },
+                {
+                  "text": "Before the decree, foreigners seeking a short-term residence permit on the strength of an investment had to meet the citizenship criteria, NTV says. The new rule brings in a tiered scale instead."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Investment for 3-year permit",
+              "value": "$150,000",
+              "source": "Official Gazette, via Bloomberg HT"
+            },
+            {
+              "label": "Investment for 5-year permit",
+              "value": "$200,000",
+              "source": "Official Gazette, via Bloomberg HT"
+            },
+            {
+              "label": "Minimum holding for 3 years",
+              "value": "1.5 years",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Real estate for citizenship",
+              "value": "$400,000",
+              "source": "NTV"
+            },
+            {
+              "label": "In force from",
+              "value": "18 Nov",
+              "source": "Sözcü"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "150 bin dolara 3 yıllık ikamet",
+          "title": "Yabancı yatırımcıya 150 bin dolara 3 yıllık ikamet izni",
+          "summary": {
+            "what": "Resmi Gazete’de yayımlanan Cumhurbaşkanı kararıyla Türkiye’de çalışmayan yabancılara 150 bin dolar yatırımla 3 yıllık, 200 bin dolarla 5 yıllık ikamet izni verilebilecek.",
+            "why": "Yatırım yoluyla vatandaşlıktaki 400 ve 500 bin dolarlık eşiklerin altında kademeli yeni bir yol açılıyor.",
+            "next": "Karar 18 Kasım’da yürürlüğe girdi; başvuru usul ve esaslarını İçişleri Bakanlığı belirleyecek."
+          },
+          "body": [
+            {
+              "subhead": "Karar ne getiriyor?",
+              "blocks": [
+                {
+                  "text": "Bloomberg HT, Sözcü ve NTV’nin aktardığına göre Cumhurbaşkanı Recep Tayyip Erdoğan’ın imzasını taşıyan “Yabancı Yatırımcılara Düzenlenecek İkamet İzinlerine Dair Karar” Resmi Gazete’de yayımlandı. Türkiye’de çalışmayan ancak en az 150 bin ABD doları ya da karşılığı döviz yatıran yabancılara 3 yıl, en az 200 bin dolar yatıranlara 5 yıl süreli ikamet izni düzenlenebilecek."
+                },
+                {
+                  "text": "Bloomberg HT’ye göre düzenleme yatırımcının yabancı eşini ve kendisinin ya da eşinin ergin olmayan veya bağımlı yabancı çocuklarını da kapsıyor. Sözcü’ye göre karar, yayımlandığı 18 Kasım 2026’da yürürlüğe girdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Hangi yatırımlar geçerli?",
+              "blocks": [
+                {
+                  "text": "Yabancılar belirlenen tutarı Türkiye’de faaliyet gösteren bankalara mevduat olarak yatırabilecek ya da devlet borçlanma aracı alabilecek. Gayrimenkul yatırım fonu veya girişim sermayesi yatırım fonu katılma payları ile belirlenen emeklilik planları kapsamında bireysel emeklilik sistemine yatırılan katkı payları da seçenekler arasında."
+                },
+                {
+                  "text": "Yatırımın, ikamet izni süresinin en az yarısı boyunca korunması gerekiyor: 3 yıllık izin için 1,5 yıl, 5 yıllık izin için 2,5 yıl. NTV’ye göre mevduatta BDDK, devlet borçlanma araçlarında Hazine ve Maliye Bakanlığı, fon paylarında SPK, bireysel emeklilikte SEDDK tespit yapacak. Kararı İçişleri Bakanı yürütecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Vatandaşlık ayrı",
+              "blocks": [
+                {
+                  "text": "NTV’nin aktardığına göre bu kapsamda verilen ikamet izinleri, istisnai vatandaşlığı düzenleyen 5901 sayılı Türk Vatandaşlığı Kanunu’nun 12. maddesinin dışında tutuluyor. Yatırım yoluyla vatandaşlıkta gayrimenkul için en az 400 bin dolar; mevduat, devlet borçlanma araçları, fonlar ve bireysel emeklilik için en az 500 bin dolar şartı ve üç yıllık tutma koşulu sürüyor. En az 500 bin dolarlık sabit sermaye yatırımı ya da 50 kişilik istihdam da seçenekler arasında."
+                },
+                {
+                  "text": "NTV’ye göre önceden yatırım yoluyla kısa dönem ikamet izni isteyen yabancılardan vatandaşlık kriterlerini karşılamaları bekleniyordu; yeni kararla kademeli bir tarife getirildi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "3 yıllık izin için yatırım",
+              "value": "150 bin $",
+              "source": "Resmi Gazete, Bloomberg HT"
+            },
+            {
+              "label": "5 yıllık izin için yatırım",
+              "value": "200 bin $",
+              "source": "Resmi Gazete, Bloomberg HT"
+            },
+            {
+              "label": "3 yıllık izinde tutma süresi",
+              "value": "1,5 yıl",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Vatandaşlık için gayrimenkul",
+              "value": "400 bin $",
+              "source": "NTV"
+            },
+            {
+              "label": "Yürürlük",
+              "value": "18 Kasım",
+              "source": "Sözcü"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T22:20:03.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T23:22:41.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T23:22:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T23:39:36.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/18/ver1794954049/3794934/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/yabanci-yatirimcilara-verilecek-ikamet-izinlerinde-yeni-duzenleme-3794934"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/yabanci-yatirimcilara-verilecek-ikamet-izinlerinde-yeni-duzenleme-3794934",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/yabancilara-150-bin-dolarlik-yatirimla-3-yillik-ikamet-izni-verilebilecek-p382298",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/yabanci-yatirimcilara-ikamet-iznine-duzenleme-150-bin-dolarla-3-yil-200-bin-dolarla-5-yil-1751361",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "327034ed1b49f420",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "e15ff8b935a63483",
+      "versions": {
+        "en": {
+          "news": "Nvidia’s board says it does not intend to reinstate Jensen Huang, as quarterly revenue doubles to $115.8bn.",
+          "shortTitle": "Nvidia board rules out Huang",
+          "title": "Nvidia’s board rules out Huang’s return as revenue doubles to $115.8 billion",
+          "summary": {
+            "what": "Board chair Harvey Jones said the board “does not intend to reinstate Jensen as CEO”, hours after Huang said he would be honoured to return.",
+            "why": "Nvidia, whose chips power the AI boom, beat its own forecast, but the leadership crisis and national security probes are not over.",
+            "next": "Nvidia expects about $130 billion in revenue next quarter; Huang faces House committees on 1 December."
+          },
+          "body": [
+            {
+              "subhead": "No way back",
+              "blocks": [
+                {
+                  "text": "Nvidia’s board has said it will not bring back Jensen Huang, the co-founder who resigned as chief executive last week, The Verge, the Guardian and France 24 report. Opening the quarterly earnings call on Tuesday, new board chair Harvey Jones said the board “unanimously accepted his resignation and does not intend to reinstate Jensen as CEO”, according to The Verge. He added that the call would not address the circumstances of the resignation."
+                },
+                {
+                  "text": "Only hours earlier Huang had said he would be “honored” to return if the board decided it was in the interest of shareholders, employees, the company and America. Wired notes that the board’s answer came despite pressure from President Donald Trump, Elon Musk and Silicon Valley executives. Huang resigned after reports of affairs, including one with Alice Huang, a former Megaspeed executive and alleged Chinese intelligence asset."
+                }
+              ]
+            },
+            {
+              "subhead": "A record quarter",
+              "blocks": [
+                {
+                  "text": "The results themselves beat expectations. Interim chief executive Colette Kress, who was chief financial officer, reported revenue of $115.8 billion for the third quarter of fiscal 2027, up 103% on a year earlier and above the $108 billion Nvidia had guided, TechCrunch reports. She forecast about $130 billion for the fourth quarter, plus or minus 3%."
+                },
+                {
+                  "quote": "We are raising our fiscal year 2028 outlook. We expect revenue to grow approximately 75% year over year, up from 70% and off what is now a higher fiscal 2027 base.",
+                  "speaker": "Colette Kress",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "Nvidia spent $28.1 billion buying back its own shares in the quarter and has $227.3 billion left in its buyback programme, according to TechCrunch. The shares rose about 4% in after-hours trading, after falling roughly 10% since Huang’s departure."
+                }
+              ]
+            },
+            {
+              "subhead": "“Business as usual”",
+              "blocks": [
+                {
+                  "text": "Kress insisted the company can manage without its founder. “From a business perspective, it’s business as usual,” she said, adding that customers, suppliers and partners were “100% behind us” and that Nvidia had secured memory and advanced packaging capacity, TechCrunch reports."
+                },
+                {
+                  "text": "TechCrunch also reports that Kress said Nvidia is done selling chips to China, and that the company’s open-source AI strategy and its plan to acquire Hugging Face remain intact."
+                }
+              ]
+            },
+            {
+              "subhead": "The probes",
+              "blocks": [
+                {
+                  "text": "The pressure from Washington is still building. The Securities and Exchange Commission is opening an investigation into Nvidia, The Wall Street Journal reports, according to TechCrunch. Huang is due to answer questions from three House committees on 1 December, and the company set up a board committee on national security and export controls on Tuesday."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Third-quarter revenue",
+              "value": "$115.8bn",
+              "source": "Nvidia, via TechCrunch"
+            },
+            {
+              "label": "Growth on a year earlier",
+              "value": "103%",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Forecast for next quarter",
+              "value": "$130bn",
+              "source": "Colette Kress, via TechCrunch"
+            },
+            {
+              "label": "Shares bought back in the quarter",
+              "value": "$28.1bn",
+              "source": "TechCrunch"
+            }
+          ],
+          "keyNumber": {
+            "label": "Quarterly revenue, guidance vs result",
+            "unit": "$bn",
+            "before": 108,
+            "after": 115.8,
+            "source": "TechCrunch"
+          }
+        },
+        "tr": {
+          "news": "Nvidia yönetim kurulu Jensen Huang’ı göreve iade etmeyeceğini açıkladı; çeyreklik gelir ikiye katlanıp 115,8 milyar dolar oldu.",
+          "shortTitle": "Nvidia: Huang geri dönmeyecek",
+          "title": "Nvidia yönetimi Huang’ın dönüşüne kapıyı kapattı, gelir 115,8 milyar dolara çıktı",
+          "summary": {
+            "what": "Yönetim kurulu başkanı Harvey Jones, kurulun “Jensen’i CEO olarak göreve iade etmeyi düşünmediğini” söyledi; Huang birkaç saat önce dönmekten onur duyacağını açıklamıştı.",
+            "why": "Yapay zekâ patlamasının çiplerini üreten Nvidia kendi tahminini aştı, ancak liderlik krizi ve ulusal güvenlik soruşturmaları sürüyor.",
+            "next": "Nvidia gelecek çeyrekte yaklaşık 130 milyar dolar gelir bekliyor; Huang 1 Aralık’ta Temsilciler Meclisi komitelerine ifade verecek."
+          },
+          "body": [
+            {
+              "subhead": "Dönüş yok",
+              "blocks": [
+                {
+                  "text": "The Verge, Guardian ve France 24’ün haberine göre Nvidia yönetim kurulu, geçen hafta CEO’luktan istifa eden kurucu ortak Jensen Huang’ı geri getirmeyecek. The Verge’e göre yeni yönetim kurulu başkanı Harvey Jones, salı günkü çeyreklik bilanço toplantısını açarken kurulun istifayı “oybirliğiyle kabul ettiğini ve Jensen’i CEO olarak göreve iade etmeyi düşünmediğini” söyledi. Toplantıda istifanın koşullarına ilişkin soru alınmayacağını da ekledi."
+                },
+                {
+                  "text": "Huang yalnızca birkaç saat önce, yönetim kurulu hissedarların, çalışanların, şirketin ve Amerika’nın çıkarına olduğuna karar verirse dönmekten “onur duyacağını” açıklamıştı. Wired, kurulun bu yanıtı Başkan Donald Trump, Elon Musk ve Silikon Vadisi yöneticilerinin baskısına rağmen verdiğini yazdı. Huang, aralarında eski Megaspeed yöneticisi ve Çin istihbaratıyla bağlantılı olduğu öne sürülen Alice Huang’ın da bulunduğu ilişkiler gün yüzüne çıkınca istifa etmişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Rekor çeyrek",
+              "blocks": [
+                {
+                  "text": "Bilanço ise beklentileri aştı. TechCrunch’a göre finans direktörüyken geçici CEO olan Colette Kress, 2027 mali yılının üçüncü çeyreğinde gelirin bir yıl öncesine göre yüzde 103 artışla 115,8 milyar dolara ulaştığını açıkladı; Nvidia 108 milyar dolar öngörmüştü. Kress dördüncü çeyrek için artı eksi yüzde 3 ile yaklaşık 130 milyar dolar gelir bekliyor."
+                },
+                {
+                  "quote": "2028 mali yılı beklentimizi yükseltiyoruz. Gelirin, artık daha yüksek olan 2027 mali yılı tabanı üzerinden, yüzde 70 yerine yaklaşık yüzde 75 büyümesini bekliyoruz.",
+                  "speaker": "Colette Kress",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch’a göre Nvidia çeyrekte kendi hisselerini geri almak için 28,1 milyar dolar harcadı, geri alım programında 227,3 milyar dolar daha var. Huang’ın ayrılığından bu yana yaklaşık yüzde 10 düşen hisseler, mesai sonrası işlemlerde yaklaşık yüzde 4 yükseldi."
+                }
+              ]
+            },
+            {
+              "subhead": "“İşler her zamanki gibi”",
+              "blocks": [
+                {
+                  "text": "Kress, şirketin kurucusu olmadan da yoluna devam edebileceğini vurguladı. TechCrunch’a göre “İş açısından her şey her zamanki gibi” dedi; müşterilerin, tedarikçilerin ve ortakların “yüzde 100 arkalarında” olduğunu, bellek ve ileri paketleme kapasitesinin güvence altına alındığını söyledi."
+                },
+                {
+                  "text": "TechCrunch, Kress’in Nvidia’nın Çin’e çip satışını bıraktığını, açık kaynak yapay zekâ stratejisinin ve Hugging Face’i satın alma planının sürdüğünü söylediğini de aktardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Soruşturmalar",
+              "blocks": [
+                {
+                  "text": "Washington’daki baskı da artıyor. TechCrunch’ın Wall Street Journal’a dayandırdığı habere göre ABD Menkul Kıymetler ve Borsa Komisyonu (SEC) Nvidia hakkında soruşturma açıyor. Huang 1 Aralık’ta Temsilciler Meclisi’nin üç komitesinin sorularını yanıtlayacak; şirket de salı günü ulusal güvenlik ve ihracat denetiminden sorumlu bir yönetim kurulu komitesi kurdu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Üçüncü çeyrek geliri",
+              "value": "115,8 milyar $",
+              "source": "Nvidia, TechCrunch"
+            },
+            {
+              "label": "Yıllık artış",
+              "value": "%103",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Gelecek çeyrek tahmini",
+              "value": "130 milyar $",
+              "source": "Colette Kress, TechCrunch"
+            },
+            {
+              "label": "Çeyrekte hisse geri alımı",
+              "value": "28,1 milyar $",
+              "source": "TechCrunch"
+            }
+          ],
+          "keyNumber": {
+            "label": "Çeyreklik gelir, tahmin ve sonuç",
+            "unit": "milyar $",
+            "before": 108,
+            "after": 115.8,
+            "source": "TechCrunch"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T16:44:15.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T16:44:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T17:32:24.000Z",
+          "sourceId": "wired"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T17:35:26.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T20:56:06.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T22:47:11.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T03:00:22.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://media.wired.com/photos/6afc8d817073e76a25272b83/master/pass/111726-Jensen%20might%20be%20back.jpg",
+        "sourceId": "wired",
+        "sourceName": "Wired",
+        "articleUrl": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/"
+      },
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+          "confirms": true
+        },
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261117-jensen-huang-says-he-d-be-honoured-to-return-to-nvidia-as-ceo",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+          "confirms": false
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374805/nvidia-results-beat-expectations-ousted-ceo-huang-told-no-way-back",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+          "confirms": false
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "c8fe71384036bcad",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Waymo stops all freeway rides",
+          "title": "Waymo halts freeway rides everywhere after California safety ban",
+          "summary": {
+            "what": "California’s DMV found Waymo’s driverless freeway rides an “imminent hazard” after its cars drove into active roadworks, and Waymo stopped freeway rides everywhere.",
+            "why": "Freeway access cut cross-Peninsula trips that took 45 minutes or more, and it is the second time this year Waymo has left the highways.",
+            "next": "The ban stays until Waymo proves it has fixed the problem; it keeps testing on freeways with safety drivers."
+          },
+          "body": [
+            {
+              "subhead": "The ban",
+              "blocks": [
+                {
+                  "text": "Waymo’s robotaxis are no longer carrying passengers on freeways after California’s Department of Motor Vehicles restricted the Alphabet-owned company’s operations, Wired and TechCrunch report. The order was issued on 11 November but was not made public until Tuesday; the San Francisco Business Times was first to report it, according to TechCrunch."
+                },
+                {
+                  "text": "The DMV told TechCrunch it acted after three Waymo vehicles entered an active construction closure on US Route 101 near Burlingame, and after a separate incident with California Highway Patrol cars on Highway 280 in San Francisco. Wired says that second incident was caught in a viral video showing a Waymo interfering with patrol cars trying to hold a “traffic break” while workers cleared debris from a crash."
+                },
+                {
+                  "text": "The department said Waymo’s driverless freeway operations pose “an imminent hazard to public safety” because of recurring incursions into construction zones where workers and equipment are present, despite a prior restriction and fixes after similar incidents on 18 May 2026."
+                }
+              ]
+            },
+            {
+              "subhead": "Waymo’s response",
+              "blocks": [
+                {
+                  "text": "Waymo has gone further than the order: it has stopped freeway rides in every market it serves, including those outside California, while it evaluates its performance. Wired reports that it will keep testing on highways with safety operators behind the wheel."
+                },
+                {
+                  "quote": "In alignment with our safety-first principles, we have also temporarily restricted freeway operations across our other operating markets to evaluate our performance.",
+                  "speaker": "Dana Gallagher, Waymo spokesperson",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "Gallagher said the incidents caused no injuries or collisions, and that the service continues on surface streets, carrying over half a million trips a week in 15 US metro areas, including parts of Los Angeles, San Diego and the San Francisco Bay Area."
+                }
+              ]
+            },
+            {
+              "subhead": "Second time this year",
+              "blocks": [
+                {
+                  "text": "Waymo began freeway rides in late 2025, a milestone central to its growth because highways connect riders to airports and cut trips across the San Francisco Peninsula that used to take 45 minutes or more, TechCrunch says. It abruptly left the highways in May after videos showed its cars driving through traffic cones, and returned in July after a software update."
+                },
+                {
+                  "text": "Wired notes that federal regulators at the National Highway Traffic Safety Administration found in June that Waymo’s system failed to recognise highway construction zones, prompting a software recall. Last week the agency said it was examining whether a separate recall, over cars passing stopped school buses, had worked. The DMV says the new ban will remain until Waymo shows it has taken “effective corrective actions”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Date of the DMV order",
+              "value": "11 Nov",
+              "source": "California DMV, via TechCrunch"
+            },
+            {
+              "label": "Waymos that entered the closure",
+              "value": "3",
+              "source": "California DMV, via TechCrunch"
+            },
+            {
+              "label": "US metro areas served",
+              "value": "15",
+              "source": "Wired"
+            },
+            {
+              "label": "Weekly trips on city streets",
+              "value": "500,000+",
+              "source": "Waymo, via TechCrunch"
+            }
+          ],
+          "place": {
+            "name": "Burlingame",
+            "lat": 37.58,
+            "lon": -122.35,
+            "region": "California, United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Waymo otoyol yolculuklarını durdurdu",
+          "title": "Waymo, Kaliforniya’daki güvenlik yasağının ardından tüm şehirlerde otoyola çıkmayı bıraktı",
+          "summary": {
+            "what": "Kaliforniya Motorlu Taşıtlar Dairesi (DMV), araçları aktif yol çalışmalarına girince Waymo’nun sürücüsüz otoyol seferlerini “yakın tehlike” saydı; Waymo her yerde otoyol yolculuklarını durdurdu.",
+            "why": "Otoyol, 45 dakikayı aşan yolculukları kısaltıyordu; Waymo bu yıl ikinci kez otoyoldan çekiliyor.",
+            "next": "Yasak, Waymo sorunu giderdiğini kanıtlayana kadar sürecek; şirket otoyolda güvenlik sürücülü testlere devam ediyor."
+          },
+          "body": [
+            {
+              "subhead": "Yasak",
+              "blocks": [
+                {
+                  "text": "Wired ve TechCrunch’ın haberine göre Kaliforniya Motorlu Taşıtlar Dairesi (DMV), Alphabet’e ait Waymo’nun faaliyetlerini kısıtlayınca şirketin sürücüsüz taksileri otoyolda yolcu taşımayı bıraktı. TechCrunch’a göre karar 11 Kasım’da verildi ancak salı gününe kadar kamuoyuna açıklanmadı; haberi ilk San Francisco Business Times verdi."
+                },
+                {
+                  "text": "DMV, TechCrunch’a üç Waymo aracının Burlingame yakınında US Route 101’deki aktif bir çalışma alanına girmesi ve San Francisco’da Highway 280’de Kaliforniya Otoyol Devriyesi araçlarıyla yaşanan ayrı bir olayın ardından harekete geçtiğini söyledi. Wired’a göre ikinci olay, bir Waymo’nun kaza enkazı temizlenirken trafiği durdurmaya çalışan devriye araçlarının arasına girdiği, viral olan bir videoya yansıdı."
+                },
+                {
+                  "text": "Daire, Waymo’nun sürücüsüz otoyol seferlerinin, önceki bir kısıtlamaya ve 18 Mayıs 2026’daki benzer olayların ardından yapılan düzeltmelere rağmen işçilerin ve iş makinelerinin bulunduğu çalışma alanlarına tekrar tekrar girildiği için “kamu güvenliği açısından yakın tehlike” oluşturduğunu açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Waymo’nun yanıtı",
+              "blocks": [
+                {
+                  "text": "Waymo karardan da ileri giderek Kaliforniya dışındakiler dahil hizmet verdiği tüm pazarlarda otoyol yolculuklarını durdurdu. Wired’a göre şirket, direksiyonda güvenlik sürücüsü bulunan araçlarla otoyol testlerine devam edecek."
+                },
+                {
+                  "quote": "Güvenliği önceleyen ilkelerimiz doğrultusunda performansımızı değerlendirmek için diğer pazarlarımızda da otoyol seferlerini geçici olarak kısıtladık.",
+                  "speaker": "Dana Gallagher, Waymo sözcüsü",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "Gallagher, olaylarda yaralanma ya da çarpışma yaşanmadığını, hizmetin şehir içi yollarda sürdüğünü söyledi; Waymo, aralarında Los Angeles, San Diego ve San Francisco Körfez Bölgesi’nin de bulunduğu 15 ABD şehrinde haftada yarım milyonun üzerinde yolculuk yapıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Bu yıl ikinci kez",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre Waymo otoyol yolculuklarına 2025’in sonunda başladı. Otoyol, yolcuları havalimanlarına bağladığı ve San Francisco yarımadasında 45 dakikayı aşan yolculukları kısalttığı için şirketin büyümesinin merkezindeydi. Waymo, araçlarının trafik konilerinin arasından geçtiği videoların ardından mayısta otoyoldan aniden çekilmiş, temmuzda yazılım güncellemesiyle geri dönmüştü."
+                },
+                {
+                  "text": "Wired’a göre ABD Karayolu Trafik Güvenliği İdaresi (NHTSA), haziranda Waymo sisteminin otoyol çalışma alanlarını tanımadığını tespit etmiş, şirket yazılımını geri çağırmıştı. Kurum geçen hafta, duran okul servislerinin yanından geçen araçlar nedeniyle yapılan başka bir geri çağırmanın işe yarayıp yaramadığını incelediğini açıkladı. DMV, yasağın Waymo “etkili düzeltici önlemler” aldığını gösterene kadar süreceğini söylüyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "DMV kararının tarihi",
+              "value": "11 Kasım",
+              "source": "Kaliforniya DMV, TechCrunch"
+            },
+            {
+              "label": "Çalışma alanına giren araç",
+              "value": "3",
+              "source": "Kaliforniya DMV, TechCrunch"
+            },
+            {
+              "label": "Hizmet verilen ABD şehri",
+              "value": "15",
+              "source": "Wired"
+            },
+            {
+              "label": "Haftalık şehir içi yolculuk",
+              "value": "500 bin+",
+              "source": "Waymo, TechCrunch"
+            }
+          ],
+          "place": {
+            "name": "Burlingame",
+            "lat": 37.58,
+            "lon": -122.35,
+            "region": "Kaliforniya, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T19:38:08.000Z",
+          "sourceId": "wired"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T19:49:41.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T19:49:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://media.wired.com/photos/6afca39792798f56737cb399/master/pass/GettyImages-2289915155-resized.jpg",
+        "sourceId": "wired",
+        "sourceName": "Wired",
+        "articleUrl": "https://www.wired.com/story/waymo-pulls-its-robotaxis-from-highways-after-california-incidents/"
+      },
+      "sources": [
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/waymo-pulls-its-robotaxis-from-highways-after-california-incidents/",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "19529332fd7f1fcb",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "FBI warns of AI hacking tool",
+          "title": "FBI: hackers use AI tool ARTEX to break in within three hours",
+          "summary": {
+            "what": "The FBI says criminals and state-backed hackers are using ARTEX, an AI-driven penetration-testing tool, to automate attacks on organisations worldwide.",
+            "why": "The tool coordinates AI agents that find and exploit weaknesses, cutting the time from first targeting to admin access to under three hours.",
+            "next": "The FBI urges organisations running internet-facing apps, portals and cloud systems to apply the protections in its 13-page alert."
+          },
+          "body": [
+            {
+              "subhead": "The warning",
+              "blocks": [
+                {
+                  "text": "The FBI says cybercriminals and “state-sponsored hackers” are using ARTEX, an AI-powered penetration-testing tool, to automate attacks on organisations around the world, Anadolu Agency, Diken and Euronews Türkçe report. FBI officials said the tool can cut the intrusion process “from initial targeting to gaining privileged access” to under three hours, according to Anadolu Agency. Privileged access means reaching an account that can do everything on a system, such as an administrator’s, Diken explains."
+                },
+                {
+                  "text": "The 13-page alert, published on 13 November according to Euronews Türkçe, says the tool was used in October in a supply-chain attack through ConnectWise software that exposed Microsoft 365 customer environments and involved login attempts against more than 2,250 sub-user environments. It also cites an attack on a South Korean financial institution that reportedly exposed the personal data of about 67,000 people."
+                }
+              ]
+            },
+            {
+              "subhead": "Who is being hit",
+              "blocks": [
+                {
+                  "text": "Hackers have been using ARTEX since at least August 2026 in sectors including financial services, government, technology, defence, semiconductors, energy, health, manufacturing, telecoms and law, Anadolu Agency reports."
+                },
+                {
+                  "quote": "The FBI encourages organisations, especially those operating internet-facing applications, self-service portals, cloud infrastructure and shared vendor systems, to implement the recommendations in the mitigations section to reduce the likelihood and impact of ARTEX-enabled attacks.",
+                  "speaker": "FBI alert",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "Euronews Türkçe reports that Google gave a similar warning in a threat analysis on 16 November, saying attackers are moving beyond asking AI models for advice to automated systems in which several AI agents work together."
+                }
+              ]
+            },
+            {
+              "subhead": "How the tool works",
+              "blocks": [
+                {
+                  "text": "ARTEX is not an AI model itself, Euronews Türkçe explains. It was built to find security holes in computer systems and uses large language models (LLMs) to coordinate several AI agents: one scans targets, another studies the weaknesses found, and others use the results for the next stages of the attack. It can run on models from companies such as OpenAI and Anthropic, on DeepSeek or on open-source models, which lowers the cost and the skill needed."
+                },
+                {
+                  "text": "ARTEX was released on 26 July on GitHub by a Chinese developer using the name Autumn-27, Euronews Türkçe says. After attackers began using it, the developer closed the source code, but copies of the original remain available. According to the cybersecurity firm Censys, cited by Euronews Türkçe, Autumn-27 denies any link to the attacks and says the software was meant only for authorised security testing."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Time to privileged access",
+              "value": "< 3 hours",
+              "source": "FBI, via Anadolu Agency"
+            },
+            {
+              "label": "Sub-user environments targeted",
+              "value": "2,250+",
+              "source": "FBI, via Anadolu Agency"
+            },
+            {
+              "label": "People exposed in South Korea",
+              "value": "≈67,000",
+              "source": "FBI, via Anadolu Agency"
+            },
+            {
+              "label": "Length of the FBI alert",
+              "value": "13 pages",
+              "source": "Anadolu Agency"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "FBI’dan yapay zekâ korsanlık uyarısı",
+          "title": "FBI: Korsanlar yapay zekâ aracı ARTEX’le ağlara üç saatten kısa sürede sızıyor",
+          "summary": {
+            "what": "FBI, siber suçluların ve devlet destekli korsanların yapay zekâ destekli sızma testi aracı ARTEX’le dünya genelinde kuruluşlara saldırıları otomatikleştirdiğini açıkladı.",
+            "why": "Araç, açıkları bulup kullanan yapay zekâ ajanlarını yönetiyor; ilk hedeflemeden yönetici erişimine kadar geçen süreyi üç saatin altına indiriyor.",
+            "next": "FBI, internete açık uygulama, portal ve bulut sistemi işleten kuruluşları 13 sayfalık uyarıdaki önlemleri almaya çağırıyor."
+          },
+          "body": [
+            {
+              "subhead": "Uyarı",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı, Diken ve Euronews Türkçe’nin aktardığına göre FBI, siber suçluların ve “devlet destekli bilgisayar korsanlarının” yapay zekâ destekli bir sızma testi aracı olan ARTEX’i dünya genelindeki kuruluşlara yönelik saldırıları otonomlaştırmak için kullandığını bildirdi. AA’ya göre FBI yetkilileri, aracın “ilk hedeflemeden ayrıcalıklı erişim elde etmeye kadar geçen sızma sürecini üç saatten kısa bir süreye indirebildiğini” belirtti. Diken’in açıklamasına göre ayrıcalıklı erişim, sistemde yönetici gibi her şeye yetkili bir hesaba ulaşmak demek."
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre 13 Kasım’da yayımlanan 13 sayfalık uyarıda, aracın ekim ayında ConnectWise yazılımı üzerinden yapılan ve Microsoft 365 müşteri ortamlarını açığa çıkaran bir tedarik zinciri saldırısında kullanıldığı, 2 bin 250’den fazla alt kullanıcı ortamına giriş denendiği belirtildi. Güney Koreli bir finans kuruluşunda yaklaşık 67 bin kişinin kişisel bilgilerini ifşa ettiği bildirilen saldırı da örnekler arasında."
+                }
+              ]
+            },
+            {
+              "subhead": "Kimler hedefte?",
+              "blocks": [
+                {
+                  "text": "AA’ya göre korsanlar ARTEX’i en az Ağustos 2026’dan bu yana finans, kamu kurumları, teknoloji, savunma, yarı iletkenler, enerji, sağlık, üretim, telekomünikasyon ve hukuk gibi birçok sektörde kullanıyor."
+                },
+                {
+                  "quote": "FBI, kuruluşları, özellikle internete açık uygulamalar, self-servis portallar, bulut altyapısı ve ortak tedarikçi sistemleri işleten kuruluşları, ARTEX destekli saldırıların olasılığını ve etkisini azaltmak için önlemler bölümündeki önerileri uygulamaya teşvik etmektedir.",
+                  "speaker": "FBI uyarısı",
+                  "sourceId": "aa-tr"
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre Google da 16 Kasım’da yayımladığı tehdit analizinde, saldırganların yapay zekâdan tavsiye almanın ötesine geçip birden fazla yapay zekâ ajanının birlikte çalıştığı otomatik sistemlere yöneldiği uyarısında bulundu."
+                }
+              ]
+            },
+            {
+              "subhead": "Araç nasıl çalışıyor?",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe’nin açıklamasına göre ARTEX’in kendisi bir yapay zekâ modeli değil. Sistemlerdeki güvenlik açıklarını bulmak için geliştirilen platform, büyük dil modellerini (LLM) kullanarak birden fazla yapay zekâ ajanını yönetiyor: biri hedefleri tarıyor, bir diğeri bulunan açıkları inceliyor, ötekiler sonuçları saldırının sonraki aşamalarında kullanıyor. OpenAI ve Anthropic gibi şirketlerin modelleriyle, DeepSeek’le ya da açık kaynaklı modellerle çalışabildiği için maliyeti ve teknik eşiği düşürüyor."
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre ARTEX, 26 Temmuz’da GitHub’da Autumn-27 kullanıcı adlı Çinli bir geliştirici tarafından yayımlandı. Saldırganlar kullanmaya başlayınca geliştirici kaynak kodunu kapattı, ancak kopyaları hâlâ erişilebilir. Siber güvenlik şirketi Censys’in aktardığına göre Autumn-27, saldırılarla ilgisi olmadığını, yazılımı yalnızca izinli güvenlik testleri için geliştirdiğini söylüyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ayrıcalıklı erişime kadar süre",
+              "value": "< 3 saat",
+              "source": "FBI, Anadolu Ajansı"
+            },
+            {
+              "label": "Hedef alınan alt kullanıcı ortamı",
+              "value": "2.250+",
+              "source": "FBI, Anadolu Ajansı"
+            },
+            {
+              "label": "Güney Kore’de etkilenen kişi",
+              "value": "≈67 bin",
+              "source": "FBI, Anadolu Ajansı"
+            },
+            {
+              "label": "FBI uyarısının uzunluğu",
+              "value": "13 sayfa",
+              "source": "Anadolu Ajansı"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T20:36:05.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T21:05:58.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T21:05:58.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T03:00:08.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/dunya/fbi-bilgisayar-korsanlarinin-yapay-zeka-destekli-aracla-siber-saldirilari-hizlandirdigini-bildirdi/4128366",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/fbi-hackerlar-siber-saldirilari-yapay-zeka-destegiyle-hizlandirdi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/18/fbi-ve-googlein-guvenlik-uyarisi-yayimladigi-artex-nedir",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "fdb7dc7af3b8e43e",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Peltola wins Alaska Senate seat",
+          "title": "Peltola wins Alaska, giving Democrats 56 Senate seats",
+          "summary": {
+            "what": "Mary Peltola defeated the two-term Republican senator Dan Sullivan in the last undecided Senate race of the midterms.",
+            "why": "Democrats flipped nine Senate seats, their biggest gain since 1958, and now hold a 56-44 majority from next year.",
+            "next": "Federal and state inquiries into a second candidate named Dan Sullivan are under way; Alaska’s House race is still uncalled."
+          },
+          "body": [
+            {
+              "subhead": "The last race",
+              "blocks": [
+                {
+                  "text": "Democrat Mary Peltola will be Alaska’s next senator after beating the Republican incumbent Dan Sullivan, the Guardian, Al Jazeera and France 24 report. Alaska was the last Senate race of this month’s midterm elections to be called, and her win gives Democrats 56 of the 100 seats."
+                },
+                {
+                  "text": "Democrats flipped nine Senate seats, the most since 1958, France 24 says. Republicans entered the midterms with a 53-47 majority. The party had already won races in conservative states including South Carolina, Texas, Kansas and Mississippi. Peltola is the first Democrat Alaska has sent to the Senate since 2008, the Guardian reports, and Alaska also elected a Democratic governor, Jonathan Kreiss-Tomkins, for the first time since 1998."
+                },
+                {
+                  "quote": "There is no greater honour than having Alaskans’ support in our fight to take on corporate greed, lower costs and put Alaska first. Thank you, Alaska. Let’s get to work.",
+                  "speaker": "Mary Peltola",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "The second Sullivan",
+              "blocks": [
+                {
+                  "text": "The race was overshadowed by a New York Times report, less than a week before the 3 November election, that Peltola’s staff helped recruit a retired teacher also named Dan Sullivan to appear on the ballot and draw votes from the senator, France 24 says. Peltola denied any involvement. “I knew nothing about any other candidates on the ballot except for me and the incumbent,” she told supporters in Juneau."
+                },
+                {
+                  "text": "Trump called for Peltola to be prosecuted. The Guardian reports that Alaska’s top federal prosecutor announced criminal and civil inquiries, and the governor announced a separate state criminal investigation. The Justice Department also sued to block certification if Sullivan lost; a federal judge dismissed the case and the department appealed, France 24 says. Al Jazeera notes that Sullivan had pledged to accept the result."
+                }
+              ]
+            },
+            {
+              "subhead": "Who she is",
+              "blocks": [
+                {
+                  "text": "Peltola, who is Yup’ik, became the first Alaska Native in Congress when she won a special election for the state’s only House seat in 2022, after the death of Republican Don Young, the Guardian reports. She lost that seat to Nick Begich in 2024."
+                },
+                {
+                  "text": "The Guardian says her campaign gained ground as Alaskans grew frustrated with price rises from Trump’s tariffs and his attack on Iran, which drove up fuel costs in communities off the road network. She campaigned on the slogan “fish, family, freedom”. With Minnesota’s senator-elect Peggy Flanagan, she will be one of the first two Native American women in the Senate."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Democratic seats in the Senate",
+              "value": "56",
+              "source": "Guardian"
+            },
+            {
+              "label": "Seats Democrats flipped",
+              "value": "9",
+              "source": "France 24"
+            },
+            {
+              "label": "Last Democrat Alaska sent to the Senate",
+              "value": "2008",
+              "source": "Guardian"
+            },
+            {
+              "label": "Election day",
+              "value": "3 Nov",
+              "source": "France 24"
+            }
+          ],
+          "keyNumber": {
+            "label": "Democratic Senate seats",
+            "unit": "seats",
+            "before": 47,
+            "after": 56,
+            "source": "France 24"
+          }
+        },
+        "tr": {
+          "shortTitle": "Alaska’da Senato koltuğu Peltola’nın",
+          "title": "Peltola Alaska’da kazandı, Demokratlar Senato’da 56 sandalyeye ulaştı",
+          "summary": {
+            "what": "Mary Peltola, ara seçimlerin sonuçlanmayan son Senato yarışında iki dönemlik Cumhuriyetçi senatör Dan Sullivan’ı yendi.",
+            "why": "Demokratlar Senato’da dokuz sandalye kazandı; bu, 1958’den bu yana en büyük kazanımları. Gelecek yıldan itibaren 56-44 çoğunluğa sahip olacaklar.",
+            "next": "Dan Sullivan adlı ikinci adayla ilgili federal ve eyalet soruşturmaları sürüyor; Alaska’nın Temsilciler Meclisi yarışı henüz sonuçlanmadı."
+          },
+          "body": [
+            {
+              "subhead": "Son yarış",
+              "blocks": [
+                {
+                  "text": "Guardian, Al Jazeera ve France 24’ün haberine göre Demokrat Mary Peltola, görevdeki Cumhuriyetçi Dan Sullivan’ı yenerek Alaska’nın yeni senatörü oldu. Alaska, bu ayki ara seçimlerin sonucu açıklanan son Senato yarışıydı; Peltola’nın zaferiyle Demokratlar 100 sandalyenin 56’sını elde etti."
+                },
+                {
+                  "text": "France 24’e göre Demokratlar Senato’da dokuz sandalyeyi Cumhuriyetçilerden aldı; bu 1958’den bu yana en büyük kazanım. Cumhuriyetçiler ara seçimlere 53-47 çoğunlukla girmişti. Demokratlar Güney Carolina, Teksas, Kansas ve Mississippi gibi muhafazakâr eyaletlerde de kazanmıştı. Guardian’a göre Peltola, Alaska’nın 2008’den bu yana Senato’ya gönderdiği ilk Demokrat; eyalet 1998’den bu yana ilk kez Demokrat bir vali, Jonathan Kreiss-Tomkins’i de seçti."
+                },
+                {
+                  "quote": "Kurumsal açgözlülükle mücadelemizde, maliyetleri düşürme ve Alaska’yı öne koyma kavgamızda Alaskalıların desteğini almaktan daha büyük bir onur yok. Teşekkürler Alaska. Hadi işe koyulalım.",
+                  "speaker": "Mary Peltola",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "İkinci Sullivan",
+              "blocks": [
+                {
+                  "text": "France 24’e göre yarışın gölgesinde, 3 Kasım seçiminden bir haftadan kısa süre önce New York Times’ın yayımladığı bir haber vardı: Peltola’nın ekibinin, senatörden oy çekmesi için yine Dan Sullivan adlı emekli bir öğretmenin aday olmasına yardım ettiği iddia edildi. Peltola iddiaları reddetti ve Juneau’da destekçilerine “Oy pusulasında benden ve görevdeki senatörden başka hiçbir aday hakkında bir şey bilmiyordum” dedi."
+                },
+                {
+                  "text": "Trump, Peltola’nın yargılanması çağrısında bulundu. Guardian’a göre Alaska’nın federal başsavcısı cezai ve hukuki soruşturma başlatıldığını, vali de ayrı bir eyalet soruşturması açılacağını duyurdu. France 24’e göre Adalet Bakanlığı, Sullivan kaybederse sonucun onaylanmasını engellemek için dava açtı; federal bir yargıç davayı reddetti, bakanlık itiraz etti. Al Jazeera, Sullivan’ın sonucu kabul edeceğini söylediğini aktardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Peltola kimdir?",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre Yup’ik yerlisi olan Peltola, 2022’de Cumhuriyetçi Don Young’ın ölümünün ardından eyaletin tek Temsilciler Meclisi koltuğu için yapılan ara seçimi kazanarak Kongre’ye giren ilk Alaska yerlisi oldu. Bu koltuğu 2024’te Nick Begich’e kaptırdı."
+                },
+                {
+                  "text": "Guardian’a göre Peltola’nın kampanyası, Trump’ın gümrük tarifeleri ve İran’a saldırısının yol ağı dışındaki topluluklarda yakıt fiyatlarını artırmasıyla güç kazandı; “balık, aile, özgürlük” sloganıyla yarıştı. Minnesota’nın yeni senatörü Peggy Flanagan ile birlikte Senato’daki ilk iki yerli Amerikalı kadından biri olacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Demokratların Senato sandalyesi",
+              "value": "56",
+              "source": "Guardian"
+            },
+            {
+              "label": "Demokratların kazandığı sandalye",
+              "value": "9",
+              "source": "France 24"
+            },
+            {
+              "label": "Alaska’nın son Demokrat senatör seçimi",
+              "value": "2008",
+              "source": "Guardian"
+            },
+            {
+              "label": "Seçim günü",
+              "value": "3 Kasım",
+              "source": "France 24"
+            }
+          ],
+          "keyNumber": {
+            "label": "Demokratların Senato sandalyesi",
+            "unit": "sandalye",
+            "before": 47,
+            "after": 56,
+            "source": "France 24"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T03:25:14.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T03:28:41.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T03:28:41.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T03:47:56.000Z",
+          "sourceId": "france-24"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/90f6b112-e301-11f1-8d0c-7908c4e1a3c7/w:1024/p:16x9/AP26308242860566.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261118-peltola-defeats-sullivan-in-alaska-senate-race-expanding-democratic-majority"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261118-peltola-defeats-sullivan-in-alaska-senate-race-expanding-democratic-majority",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "0f0856a90608c0d2",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Eisenkot ally elected Knesset speaker",
+          "title": "Knesset elects Eisenkot ally Matan Kahana speaker, 66 votes to 52",
+          "summary": {
+            "what": "Israel’s parliament chose Matan Kahana, backed by Gadi Eisenkot’s bloc and Arab-led parties, over Netanyahu’s candidate Ofir Katz.",
+            "why": "The speaker sets parliament’s timetable, so Netanyahu’s opponents can now speed up bills to undo his judicial overhaul.",
+            "next": "Kahana could start rolling back Netanyahu’s agenda as soon as Wednesday; Eisenkot has up to five weeks to form a government."
+          },
+          "body": [
+            {
+              "subhead": "The vote",
+              "blocks": [
+                {
+                  "text": "Israel’s parliament, the Knesset, elected Matan Kahana as its new speaker on Tuesday, France 24, the Guardian and Al Jazeera report. Kahana, an ally of Gadi Eisenkot, the former military chief now trying to form a government to replace Prime Minister Benjamin Netanyahu, won 66 votes in the 120-member chamber. Netanyahu’s Likud put forward Ofir Katz, who received 52 votes after a stormy debate that lasted more than seven hours."
+                },
+                {
+                  "text": "Kahana was backed by the Jewish-led opposition parties and by the Arab-led parties, the Guardian says, with one Arab member absent. He succeeds Amir Ohana, a Netanyahu ally who had held the post since 2022, according to Al Jazeera."
+                },
+                {
+                  "quote": "I will be a Knesset speaker for everyone, irrespective of race, religion or gender.",
+                  "speaker": "Matan Kahana",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Why the speaker matters",
+              "blocks": [
+                {
+                  "text": "The speaker sets the timetable for parliamentary business and can speed up or delay debates and votes. “The speaker of the Knesset can make the legislative process much, much faster or much slower,” Assaf Shapira of the Israel Democracy Institute told the Guardian. Kahana, a 54-year-old former special forces soldier, is expected to start undoing much of Netanyahu’s domestic agenda as soon as Wednesday, France 24 reports."
+                },
+                {
+                  "text": "Eisenkot’s bloc introduced bills last week to set term limits for the prime minister, to set up an inquiry into the 7 October 2023 attacks and to reverse laws that limit the powers of the judiciary, the Guardian says. Shapira expects the bloc to start with the laws that gave the government more say in appointing judges and weakened the attorney general."
+                }
+              ]
+            },
+            {
+              "subhead": "A divided parliament",
+              "blocks": [
+                {
+                  "text": "Neither leader won a majority in the 27 October election. Eisenkot’s bloc took 48 seats and Netanyahu’s 53, while two Arab-majority slates won an unprecedented 19, France 24 and Al Jazeera report. Eisenkot, tasked by the president with forming a coalition, has up to five more weeks; if he fails, Netanyahu could get a chance, which would probably give Likud control of the committee that runs much of parliament’s work, the Guardian says."
+                },
+                {
+                  "text": "The two parties met on Sunday about a unity government, but both men say they should be prime minister. Israel’s central elections committee said on Tuesday there is so far no evidence that bribes were paid to voters on a scale that could have changed the result, France 24 reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Votes for Kahana",
+              "value": "66 of 120",
+              "source": "Guardian"
+            },
+            {
+              "label": "Votes for Likud’s Ofir Katz",
+              "value": "52",
+              "source": "Guardian"
+            },
+            {
+              "label": "Seats won by Arab-majority slates",
+              "value": "19",
+              "source": "France 24"
+            },
+            {
+              "label": "Time left to form a government",
+              "value": "5 weeks",
+              "source": "Guardian"
+            }
+          ],
+          "place": {
+            "name": "Jerusalem",
+            "lat": 31.78,
+            "lon": 35.22,
+            "region": "Israel"
+          }
+        },
+        "tr": {
+          "shortTitle": "Knesset Başkanı Eisenkot’un müttefiki",
+          "title": "Knesset, Eisenkot’un müttefiki Matan Kahana’yı 52’ye karşı 66 oyla başkan seçti",
+          "summary": {
+            "what": "İsrail meclisi, Gadi Eisenkot’un blokunun ve Arap partilerinin desteklediği Matan Kahana’yı Netanyahu’nun adayı Ofir Katz’a karşı başkan seçti.",
+            "why": "Meclis başkanı gündemi belirliyor; Netanyahu’nun rakipleri yargı düzenlemesini geri alacak yasaları artık hızlandırabilecek.",
+            "next": "Kahana, Netanyahu’nun gündemini çarşamba gününden itibaren geri almaya başlayabilir; Eisenkot’un hükümeti kurmak için beş haftası var."
+          },
+          "body": [
+            {
+              "subhead": "Oylama",
+              "blocks": [
+                {
+                  "text": "France 24, Guardian ve Al Jazeera’nin haberine göre İsrail meclisi Knesset, salı günü Matan Kahana’yı yeni başkanı seçti. Başbakan Binyamin Netanyahu’nun yerine hükümet kurmaya çalışan eski genelkurmay başkanı Gadi Eisenkot’un müttefiki Kahana, 120 sandalyeli mecliste 66 oy aldı. Likud’un adayı Ofir Katz, yedi saati aşan gergin bir tartışmanın ardından 52 oyda kaldı."
+                },
+                {
+                  "text": "Guardian’a göre Kahana’yı Yahudi muhalefet partileri ile Arap partileri destekledi; bir Arap milletvekili oylamada yoktu. Al Jazeera’ye göre Kahana, 2022’den beri görevde olan Netanyahu’nun müttefiki Amir Ohana’nın yerini aldı."
+                },
+                {
+                  "quote": "Irk, din ya da cinsiyet ayırt etmeksizin herkesin Knesset başkanı olacağım.",
+                  "speaker": "Matan Kahana",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Başkan neden önemli?",
+              "blocks": [
+                {
+                  "text": "Meclis başkanı yasama gündemini belirliyor; tartışmaları ve oylamaları hızlandırabiliyor ya da geciktirebiliyor. İsrail Demokrasi Enstitüsü’nden Assaf Shapira, Guardian’a “Knesset başkanı yasama sürecini çok daha hızlı ya da çok daha yavaş hale getirebilir” dedi. France 24’e göre eski özel kuvvetler askeri olan 54 yaşındaki Kahana, Netanyahu’nun iç politika gündeminin büyük bölümünü çarşambadan itibaren geri almaya başlayabilir."
+                },
+                {
+                  "text": "Guardian’a göre Eisenkot’un bloku geçen hafta başbakanlığa dönem sınırı getiren, 7 Ekim 2023 saldırılarını soruşturacak bir komisyon kuran ve yargının yetkilerini kısan yasaları geri alan tasarılar sundu. Shapira, blokun önce hükümete hâkim atamalarında daha fazla söz hakkı veren ve başsavcılığı zayıflatan yasalarla işe başlamasını bekliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Bölünmüş meclis",
+              "blocks": [
+                {
+                  "text": "France 24 ve Al Jazeera’ye göre 27 Ekim seçimlerinde iki lider de çoğunluğu alamadı: Eisenkot’un bloku 48, Netanyahu’nunki 53 sandalye kazandı; Arap ağırlıklı iki liste ise eşi görülmemiş biçimde 19 sandalye aldı. Guardian’a göre cumhurbaşkanınca koalisyon kurmakla görevlendirilen Eisenkot’un beş haftası daha var; başaramazsa sıra Netanyahu’ya geçebilir, bu da büyük olasılıkla meclis işlerinin çoğunu yürüten komisyonun Likud’a geçmesi anlamına gelir."
+                },
+                {
+                  "text": "İki parti pazar günü bir ulusal birlik hükümetini görüştü, ancak iki lider de başbakan olması gerekenin kendisi olduğunu söylüyor. France 24’e göre İsrail Merkez Seçim Kurulu salı günü, seçmenlere sonucu değiştirecek ölçekte rüşvet verildiğine dair şimdilik bir kanıt bulunmadığını açıkladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kahana’nın oyu",
+              "value": "120’de 66",
+              "source": "Guardian"
+            },
+            {
+              "label": "Likud adayı Ofir Katz’ın oyu",
+              "value": "52",
+              "source": "Guardian"
+            },
+            {
+              "label": "Arap ağırlıklı listelerin sandalyesi",
+              "value": "19",
+              "source": "France 24"
+            },
+            {
+              "label": "Hükümet kurmak için kalan süre",
+              "value": "5 hafta",
+              "source": "Guardian"
+            }
+          ],
+          "place": {
+            "name": "Kudüs",
+            "lat": 31.78,
+            "lon": 35.22,
+            "region": "İsrail"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T21:26:27.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T22:30:17.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T22:30:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T23:28:54.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/middle-east/20261117-%F0%9F%94%B4-israeli-parliament-elects-eisenkot-ally-matan-kahana-as-speaker",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    },
+    {
+      "id": "2e287a0c3858c653",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Accused US officer handed to Army",
+          "title": "US officer suspected of spying for Russia handed to US Army",
+          "summary": {
+            "what": "Lt Col Brandon Carroll Tyner, 41, arrested near Gloucester on 10 November, has been transferred to US military custody, British police said.",
+            "why": "He worked at the headquarters of NATO’s Allied Rapid Reaction Corps, where he was said to handle sensitive information.",
+            "next": "He will not stand trial in Britain but under the US Uniform Code of Military Justice."
+          },
+          "body": [
+            {
+              "subhead": "The handover",
+              "blocks": [
+                {
+                  "text": "A US Army officer arrested in Britain on suspicion of spying for Russia has been taken into US military custody, British counter-terrorism police said on Tuesday, according to the BBC, the Guardian and Al Jazeera. The BBC and the Guardian name him as Lt Col Brandon Carroll Tyner, 41, who has served in the US Army since 2008."
+                },
+                {
+                  "text": "Tyner was arrested near Gloucester on 10 November under sections 1 and 3 of Britain’s National Security Act 2023, which cover obtaining or disclosing protected information and assisting a foreign intelligence service. Assistant Commissioner Laurence Taylor, head of Counter Terrorism Policing, said police had presented their case to the Crown Prosecution Service, which engaged with the attorney general’s office and American partners, and a decision was then made to pass the investigation to the US “in line with existing international protocols”."
+                },
+                {
+                  "quote": "These are extremely serious allegations, and our collective response should send a strong message that we will act swiftly and robustly where we suspect this kind of espionage activity taking place.",
+                  "speaker": "Laurence Taylor",
+                  "sourceId": "bbc-world"
+                }
+              ]
+            },
+            {
+              "subhead": "A NATO post",
+              "blocks": [
+                {
+                  "text": "Tyner was based at Imjin Barracks in Innsworth, Gloucestershire, the headquarters of NATO’s Allied Rapid Reaction Corps, the BBC reports. He had served in Afghanistan and Iraq and was said to be entrusted with sensitive information that would have been extremely damaging if leaked to Russia. The Guardian says US authorities describe him as a senior human resources officer who was also deployed to Qatar."
+                },
+                {
+                  "text": "The BBC understands the arrest followed a long-running MI5 operation with the FBI. Because of the handover, he will be tried under the US Uniform Code of Military Justice rather than in a British court. Al Jazeera says the case is believed to be the first in which a US soldier has been suspected of spying for a foreign government while in the UK."
+                }
+              ]
+            },
+            {
+              "subhead": "Washington and Moscow",
+              "blocks": [
+                {
+                  "text": "FBI Director Kash Patel said the officer was in custody after an investigation by the FBI’s Philadelphia field office, its legal attaché in London, Counter Terrorism Policing, MI5, UK Defence Counter Intelligence and US Army Counterintelligence Command. He told the Guardian the bureau had made 167 counterintelligence and espionage arrests in the last 21 months, a 53% increase."
+                },
+                {
+                  "text": "Brig Gen Sean Stinchon, who leads Army Counterintelligence Command, called the case a “stark warning to any service member suspected of violating the oath”, Al Jazeera reports. After the arrest, Kremlin spokesman Dmitry Peskov said Russia had “nothing to do with it”, according to the BBC."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Date of arrest",
+              "value": "10 Nov",
+              "source": "Guardian"
+            },
+            {
+              "label": "Age of the officer",
+              "value": "41",
+              "source": "BBC"
+            },
+            {
+              "label": "FBI espionage arrests in 21 months",
+              "value": "167",
+              "source": "Kash Patel, via Guardian"
+            },
+            {
+              "label": "Rise in those arrests",
+              "value": "53%",
+              "source": "Kash Patel, via Guardian"
+            }
+          ],
+          "place": {
+            "name": "Innsworth",
+            "lat": 51.89,
+            "lon": -2.21,
+            "region": "Gloucestershire, United Kingdom"
+          }
+        },
+        "tr": {
+          "shortTitle": "Casusluk şüphelisi subay ABD ordusunda",
+          "title": "Rusya adına casuslukla suçlanan ABD’li subay ABD ordusuna teslim edildi",
+          "summary": {
+            "what": "10 Kasım’da Gloucester yakınında gözaltına alınan 41 yaşındaki Yarbay Brandon Carroll Tyner, İngiliz polisine göre ABD askeri gözetimine devredildi.",
+            "why": "Tyner, hassas bilgilere eriştiği belirtilen NATO Müttefik Acil Müdahale Kolordusu karargâhında görev yapıyordu.",
+            "next": "İngiltere’de değil, ABD Askeri Ceza Kanunu’na göre yargılanacak."
+          },
+          "body": [
+            {
+              "subhead": "Teslim",
+              "blocks": [
+                {
+                  "text": "BBC, Guardian ve Al Jazeera’nin haberine göre İngiltere’de Rusya adına casusluk yaptığı şüphesiyle gözaltına alınan bir ABD Ordusu subayı, İngiliz terörle mücadele polisinin salı günkü açıklamasına göre ABD askeri gözetimine devredildi. BBC ve Guardian, subayın 2008’den beri ABD Ordusu’nda görev yapan 41 yaşındaki Yarbay Brandon Carroll Tyner olduğunu bildirdi."
+                },
+                {
+                  "text": "Tyner, 10 Kasım’da Gloucester yakınında, korunan bilgileri edinmeyi ya da ifşa etmeyi ve yabancı bir istihbarat servisine yardım etmeyi kapsayan 2023 tarihli Ulusal Güvenlik Yasası’nın 1. ve 3. maddeleri uyarınca gözaltına alınmıştı. Terörle Mücadele Polisi’nin başı Laurence Taylor, dosyayı Kraliyet Savcılığı’na sunduklarını, savcılığın başsavcılık ve ABD’li ortaklarla görüştüğünü ve soruşturmanın “mevcut uluslararası protokoller doğrultusunda” ABD’ye devredilmesine karar verildiğini söyledi."
+                },
+                {
+                  "quote": "Bunlar son derece ciddi iddialar ve ortak tepkimiz, bu tür bir casusluk faaliyetinden şüphelendiğimizde hızlı ve kararlı davranacağımıza dair güçlü bir mesaj vermeli.",
+                  "speaker": "Laurence Taylor",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "NATO’da görev",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Tyner, NATO Müttefik Acil Müdahale Kolordusu’nun karargâhı olan Gloucestershire’daki Innsworth’te, Imjin Kışlası’nda görevliydi. Afganistan ve Irak’ta görev yapan subayın, Rusya’ya sızması son derece zararlı olacak hassas bilgilere eriştiği belirtiliyor. Guardian’a göre ABD makamları onu Katar’da da görev yapmış kıdemli bir insan kaynakları subayı olarak tanımlıyor."
+                },
+                {
+                  "text": "BBC’nin edindiği bilgiye göre gözaltı, MI5’in FBI ile yürüttüğü uzun soluklu bir operasyonun sonucu. Devir nedeniyle Tyner İngiliz mahkemesinde değil, ABD Askeri Ceza Kanunu’na göre yargılanacak. Al Jazeera’ye göre bu, bir ABD askerinin İngiltere’deyken yabancı bir hükümet adına casuslukla suçlandığı bilinen ilk vaka."
+                }
+              ]
+            },
+            {
+              "subhead": "Washington ve Moskova",
+              "blocks": [
+                {
+                  "text": "FBI Direktörü Kash Patel, subayın FBI’ın Philadelphia bürosu, Londra’daki ataşeliği, İngiliz Terörle Mücadele Polisi, MI5, İngiliz Savunma Karşı İstihbaratı ve ABD Ordusu Karşı İstihbarat Komutanlığı’nın ortak soruşturması sonucunda gözaltında olduğunu söyledi. Guardian’a göre Patel, FBI’ın son 21 ayda 167 karşı istihbarat ve casusluk gözaltısı yaptığını, bunun yüzde 53’lük bir artış olduğunu belirtti."
+                },
+                {
+                  "text": "Al Jazeera’ye göre Ordu Karşı İstihbarat Komutanı Tuğgeneral Sean Stinchon, olayın “yeminini çiğnediğinden şüphelenilen her askere sert bir uyarı” olduğunu söyledi. BBC’ye göre gözaltının ardından Kremlin Sözcüsü Dmitriy Peskov, Rusya’nın olayla “hiçbir ilgisi olmadığını” söylemişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltı tarihi",
+              "value": "10 Kasım",
+              "source": "Guardian"
+            },
+            {
+              "label": "Subayın yaşı",
+              "value": "41",
+              "source": "BBC"
+            },
+            {
+              "label": "FBI’ın 21 aydaki casusluk gözaltısı",
+              "value": "167",
+              "source": "Kash Patel, Guardian"
+            },
+            {
+              "label": "Bu gözaltılardaki artış",
+              "value": "%53",
+              "source": "Kash Patel, Guardian"
+            }
+          ],
+          "place": {
+            "name": "Innsworth",
+            "lat": 51.89,
+            "lon": -2.21,
+            "region": "Gloucestershire, Birleşik Krallık"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-17T21:35:24.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-17T22:46:30.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-17T22:46:30.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T00:16:07.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/42be/live/81981920-e2db-11f1-950d-ffe0c8f51f90.png",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/17/american-soldier-brandon-carroll-tyner-spying-us-military-custody",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-18T07:30:00+03:00",
+      "updatedAt": "2026-11-18T07:30:00+03:00"
+    }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "8a66da3c79db9484",
+        "kind": "animals",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "Tens of millions of red crabs turn Christmas Island’s roads red",
+            "gist": "The annual march of red crabs from forest to sea on Australia’s Christmas Island filled roads and crab bridges on 14 and 15 November.",
+            "aside": "The only rush hour on Earth where the traffic has right of way and ten legs.",
+            "story": [
+              "Tens of millions of red crabs on Christmas Island, an Australian territory in the Indian Ocean, have set off on their yearly migration from the forest to the sea, Onedio and Diken report. On 14 and 15 November the island’s roads and crab crossings turned red.",
+              "The crabs leave their burrows when the rains start, usually in October or November. Parks Australia prepares for months: it clears underpasses, builds crab bridges over roads, puts up kilometres of barriers and special road signs, and closes some roads at short notice, Onedio says. Visitors can park and walk carefully among the crabs.",
+              "The island lies about 1,500 km off Western Australia and much closer to Indonesia, with a population of a few hundred people, Diken says. The females release their eggs into the sea before dawn on a high tide, timed to the phases of the Moon. In most years almost no young crabs make it back to land, but once or twice a decade huge numbers survive, enough to keep the population going, according to Onedio."
+            ]
+          },
+          "tr": {
+            "title": "On milyonlarca kırmızı yengeç Christmas Adası’nın yollarını kırmızıya boyadı",
+            "gist": "Avustralya’ya bağlı Christmas Adası’nda kırmızı yengeçlerin ormandan denize yıllık göçü 14-15 Kasım’da yolları ve yengeç köprülerini doldurdu.",
+            "aside": "Dünyada trafiğin hem geçiş üstünlüğüne hem on bacağa sahip olduğu tek trafik saati.",
+            "story": [
+              "Onedio ve Diken’in haberine göre Hint Okyanusu’ndaki Avustralya toprağı Christmas Adası’nda on milyonlarca kırmızı yengeç, ormandan denize yıllık göçüne başladı. 14 ve 15 Kasım’da adanın yolları ve yengeç geçitleri kırmızıya büründü.",
+              "Yengeçler yağmurlar başlayınca, genellikle ekim ya da kasımda yuvalarından çıkıyor. Onedio’ya göre Avustralya Milli Parklar İdaresi aylar öncesinden hazırlanıyor: alt geçitleri temizliyor, yolların üzerine yengeç köprüleri kuruyor, kilometrelerce bariyer ve özel trafik işaretleri yerleştiriyor, bazı yolları kısa süre önce haber vererek kapatıyor. Ziyaretçiler araçlarını park edip yengeçlerin arasında dikkatle yürüyebiliyor.",
+              "Diken’e göre ada Batı Avustralya kıyısından yaklaşık 1.500 kilometre uzakta, Endonezya’ya çok daha yakın; nüfusu birkaç yüz kişi. Dişiler yumurtalarını Ay’ın evrelerine göre, şafaktan önce yüksek gelgitte denize bırakıyor. Onedio’ya göre çoğu yıl karaya neredeyse hiç yavru dönmüyor, ancak on yılda bir ya da iki kez çok sayıda yavru hayatta kalıyor ve bu, nüfusu korumaya yetiyor."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "diken",
+            "url": "https://www.diken.com.tr/avustralyada-milyonlarca-kirmizi-yengec-goc-ediyor/"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/yollari-ve-kopruleri-doldurdular-ada-bir-anda-kirmiziya-burundu-1395734"
+          }
+        ],
+        "image": {
+          "url": "https://img-s1.onedio.com/id-6afc7f2affa2e945cf8cac3b/rev-0/w-1200/h-675/f-jpg/s-8199b95cdc490f3c54fca24dfaae08e6680b3b2d.jpg",
+          "sourceId": "onedio",
+          "sourceName": "Onedio",
+          "articleUrl": "https://onedio.com/haber/yollari-ve-kopruleri-doldurdular-ada-bir-anda-kirmiziya-burundu-1395734"
+        }
+      }
+    ],
+    "rumours": []
+  },
+  "quiz": [
+    {
+      "storyId": "895ce9649da90724",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Under the new decree, how much must a foreigner invest for a three-year Turkish residence permit?",
+          "options": ["$100,000", "$250,000", "$150,000"]
+        },
+        "tr": {
+          "question": "Yeni kararla yabancıların 3 yıllık ikamet izni için en az ne kadar yatırım yapması gerekiyor?",
+          "options": ["100 bin dolar", "250 bin dolar", "150 bin dolar"]
+        }
+      }
+    },
+    {
+      "storyId": "c8fe71384036bcad",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Where has Waymo stopped its freeway rides after the California order?",
+          "options": ["In every market it serves", "Only in California", "Only in San Francisco"]
+        },
+        "tr": {
+          "question": "Waymo, Kaliforniya kararının ardından otoyol yolculuklarını nerede durdurdu?",
+          "options": [
+            "Hizmet verdiği tüm pazarlarda",
+            "Yalnızca Kaliforniya’da",
+            "Yalnızca San Francisco’da"
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "0f0856a90608c0d2",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many votes did Matan Kahana win to become Knesset speaker?",
+          "options": ["61", "66", "72"]
+        },
+        "tr": {
+          "question": "Matan Kahana Knesset başkanı seçilirken kaç oy aldı?",
+          "options": ["61", "66", "72"]
+        }
+      }
+    }
+  ]
+}
