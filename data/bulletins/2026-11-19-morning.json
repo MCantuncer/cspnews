@@ -172,7 +172,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afdd663c757abf656937b8d.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afdedcfc757abf656937c0f.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/antalya-buyuksehir-belediye-baskan-vekili-ozdemir-chpden-istifa-etti-43383016"
@@ -400,7 +400,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afdbd343516f14679cca540.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afdbd343516f14679cca540.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/cem-kucuk-ve-tahir-sarikaya-hakkinda-5-yil-3-aya-kadar-hapis-istemi-43382944"
@@ -1808,6 +1808,147 @@
           "question": "Fed ekim toplantısında politika faizini hangi aralıkta sabit tuttu?",
           "options": ["%3,25-3,5", "%3,75-4", "%4,25-4,5"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910008",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910008"
+      },
+      "result": {
+        "home": 104,
+        "away": 119
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 7,
+          "rebounds": 7,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "id": "espn-401910010",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "short": "Magic",
+        "ours": false,
+        "team": "orlando-magic"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-19T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910010"
+      },
+      "result": {
+        "home": 116,
+        "away": 121
+      }
+    },
+    {
+      "id": "euroleague-e2026-121",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Zalgiris Kaunas",
+        "ours": false,
+        "team": "zalgiris-kaunas"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-19T18:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/121"
+      }
+    },
+    {
+      "id": "euroleague-e2026-123",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Armani Olimpia Milan",
+        "ours": false,
+        "team": "armani-olimpia-milan"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-19T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/123"
       }
     }
   ]
