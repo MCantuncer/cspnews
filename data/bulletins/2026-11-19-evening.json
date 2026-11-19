@@ -222,7 +222,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afee4548c01a1364d06a073.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afee4548c01a1364d06a073.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/9-belediye-baskani-ak-partiye-katildi-cumhurbaskani-erdogan-aramiz-hos-geldiniz-43383240"
@@ -717,7 +717,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afefb88925c456bddefae96.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afefb88925c456bddefae96.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/dunya/turkiye-ile-schengen-ulkeleri-arasinda-vize-gorusmesi-schengen-calisma-grubu-kuruldu-43384064"
@@ -1966,7 +1966,7 @@
           }
         ],
         "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6afe8650c757abf656937f44.jpg",
+          "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6afe8650c757abf656937f44.jpg",
           "sourceId": "hurriyet",
           "sourceName": "Hürriyet",
           "articleUrl": "https://www.hurriyet.com.tr/kelebek/hayat/yatim-katim-oldu-simdi-bir-sirketin-misafirhanesinde-kaliyorum-43383212"
@@ -2142,6 +2142,67 @@
           "question": "Danimarkalı milletvekilleri ABD-Grönland güvenlik anlaşmasını hangi oyla onayladı?",
           "options": ["91-18", "109-0", "60-49"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-121",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Zalgiris Kaunas",
+        "ours": false,
+        "team": "zalgiris-kaunas"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-19T18:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/121"
+      }
+    },
+    {
+      "id": "euroleague-e2026-123",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Armani Olimpia Milan",
+        "ours": false,
+        "team": "armani-olimpia-milan"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-19T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/123"
       }
     }
   ]
