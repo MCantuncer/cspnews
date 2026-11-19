@@ -1,0 +1,1510 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-19T12:30:00+03:00",
+  "writtenAt": "2026-11-19T12:00:19+03:00",
+  "stories": [
+    {
+      "id": "d807b0e7c639931e",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "a558c27a06a3d0b8",
+      "versions": {
+        "en": {
+          "shortTitle": "Travel ban for Şahap Kavcıoğlu",
+          "title": "Former BDDK head Şahap Kavcıoğlu barred from leaving Türkiye in fund probe",
+          "summary": {
+            "what": "Istanbul prosecutors in the fund probe have barred Şahap Kavcıoğlu, the former head of the banking regulator BDDK, from travelling abroad.",
+            "why": "The ban came a day after they asked the finance ministry for permission to investigate him; three of his former senior BDDK officials are already under arrest.",
+            "next": "The ministry’s Inspection Board is carrying out a preliminary review ordered by Minister Mehmet Şimşek; a formal investigation needs the ministry’s permission."
+          },
+          "body": [
+            {
+              "subhead": "The ban",
+              "blocks": [
+                {
+                  "text": "Istanbul prosecutors have barred Şahap Kavcıoğlu, the former head of the banking regulator BDDK, from leaving the country as part of the so-called fund investigation into capital-market dealings, Cumhuriyet, Sabah, Sözcü and A Haber report. Diken, citing TRT Haber, says the order was issued on Thursday, 19 November, by the bureau for terrorism financing and money laundering at the Istanbul Chief Public Prosecutor’s Office, which runs the probe. NTV, Habertürk, DW Türkçe and Onedio carried the news on Thursday morning as well."
+                }
+              ]
+            },
+            {
+              "subhead": "A day after the permission request",
+              "blocks": [
+                {
+                  "text": "The ban follows a step taken on Wednesday. The same bureau sent the Treasury and Finance Ministry an official letter asking for permission to investigate Kavcıoğlu, as the law requires, Sözcü reports. Minister Mehmet Şimşek then assigned the ministry’s Inspection Board to carry out a preliminary examination of the former regulator, Cumhuriyet says."
+                },
+                {
+                  "text": "Three of Kavcıoğlu’s former senior officials at the BDDK are already under arrest in the probe, according to Sözcü: deputy head Muhammed Erişen, Bilal Soysal, head of the 3rd Department, and Mustafa Alper Taş, head of the 4th Department."
+                }
+              ]
+            },
+            {
+              "subhead": "The resignation",
+              "blocks": [
+                {
+                  "text": "Kavcıoğlu, who was moved from the governorship of the Central Bank to the head of the BDDK in June 2023, resigned on 11 November after three and a half years at the regulator, Diken and Sözcü report. Sözcü quotes his resignation statement:"
+                },
+                {
+                  "quote": "Following the recent allegations concerning the Banking Regulation and Supervision Agency and myself, I asked our esteemed President Recep Tayyip Erdoğan to release me, so that our institution would not be worn down any further.",
+                  "speaker": "Şahap Kavcıoğlu",
+                  "sourceId": "sozcu",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "A widening probe",
+              "blocks": [
+                {
+                  "text": "His resignation came after Justice Minister Akın Gürlek said that investigators had found a “comprehensive criminal structure” in the fund probe, Diken recalls. Gürlek said on 3 November:"
+                },
+                {
+                  "quote": "We are witnessing a criminal organisation that also includes the senior financial bureaucracy. We have obtained evidence of hierarchical and systematic cooperation among the names inside this organisational structure.",
+                  "speaker": "Akın Gürlek",
+                  "sourceId": "diken",
+                  "translated": true
+                },
+                {
+                  "text": "The investigation began in mid-September with a first wave of raids on the fund companies Tera, Pusula, Destek and Hedef, Diken reports. It has since reached senior figures at the capital markets board SPK, the BDDK, Borsa Istanbul and the clearing house Takasbank, as well as holding company owners and former minister Fatma Betül Sayan Kaya, who has been arrested. By Diken’s latest count, 136 people are now under arrest in the probe."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "People under arrest in the fund probe",
+              "value": "136",
+              "source": "Diken"
+            },
+            {
+              "label": "Former BDDK officials under arrest",
+              "value": "3",
+              "source": "Sözcü"
+            },
+            {
+              "label": "Kavcıoğlu resigned from the BDDK",
+              "value": "11 Nov",
+              "source": "Diken, Sözcü"
+            },
+            {
+              "label": "Fund probe began",
+              "value": "Mid-September",
+              "source": "Diken"
+            }
+          ],
+          "news": "Prosecutors barred former BDDK head Şahap Kavcıoğlu from leaving Türkiye, a day after seeking permission to investigate him."
+        },
+        "tr": {
+          "shortTitle": "Kavcıoğlu’na yurt dışı yasağı",
+          "title": "Eski BDDK Başkanı Şahap Kavcıoğlu’na yurt dışı çıkış yasağı",
+          "summary": {
+            "what": "Fon soruşturmasını yürüten İstanbul Cumhuriyet Başsavcılığı, eski BDDK Başkanı Şahap Kavcıoğlu hakkında yurt dışı çıkış yasağı getirdi.",
+            "why": "Karar, savcılığın Kavcıoğlu için soruşturma izni istemesinin ertesi günü geldi; BDDK’nın üç eski üst düzey yöneticisi zaten tutuklu.",
+            "next": "Bakan Mehmet Şimşek’in görevlendirdiği Teftiş Başkanlığı ön inceleme yapıyor; soruşturma açılması için bakanlığın izni gerekiyor."
+          },
+          "body": [
+            {
+              "subhead": "Yasak kararı",
+              "blocks": [
+                {
+                  "text": "İstanbul Cumhuriyet Başsavcılığı, sermaye piyasalarındaki işlemlere yönelik “fon soruşturması” kapsamında eski Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) Başkanı Şahap Kavcıoğlu hakkında yurt dışı çıkış yasağı getirdi. Haberi Cumhuriyet, Sabah, Sözcü ve A Haber verdi. Diken’in TRT Haber’e dayandırdığı habere göre karar 19 Kasım Perşembe günü, soruşturmayı yürüten Terörizmin Finansmanı ve Aklama Suçları Soruşturma Bürosu tarafından verildi. NTV, Habertürk, DW Türkçe ve Onedio da haberi perşembe sabahı duyurdu."
+                }
+              ]
+            },
+            {
+              "subhead": "İzin talebinin ertesi günü",
+              "blocks": [
+                {
+                  "text": "Karar, bir gün önce atılan adımın ardından geldi. Sözcü’nün haberine göre aynı büro, ilgili mevzuat gereği soruşturma izni verilmesi için Hazine ve Maliye Bakanlığına resmi yazı göndermişti. Cumhuriyet’e göre Bakan Mehmet Şimşek de Kavcıoğlu hakkında ön inceleme yapılması için Bakanlık Teftiş Başkanlığını görevlendirdi."
+                },
+                {
+                  "text": "Sözcü’ye göre Kavcıoğlu’nun BDDK’daki eski üst düzey yöneticilerinden üçü soruşturmada tutuklu: Başkan Yardımcısı Muhammed Erişen, 3. Daire Başkanı Bilal Soysal ve 4. Daire Başkanı Mustafa Alper Taş."
+                }
+              ]
+            },
+            {
+              "subhead": "İstifa",
+              "blocks": [
+                {
+                  "text": "Haziran 2023’te Merkez Bankası başkanlığından alınarak BDDK’nın başına getirilen Kavcıoğlu, kurumdaki üç buçuk yılın ardından 11 Kasım’da istifa etmişti; Diken ve Sözcü bunu hatırlattı. Sözcü’nün aktardığı istifa açıklaması şöyleydi:"
+                },
+                {
+                  "quote": "Bankacılık Düzenleme ve Denetleme Kurumu ve şahsımla ilgili son günlerdeki iddialar üzerine, kurumumuzun daha fazla yıpranmaması için Sayın Cumhurbaşkanımız Recep Tayyip Erdoğan’dan affımı istedim.",
+                  "speaker": "Şahap Kavcıoğlu",
+                  "sourceId": "sozcu"
+                }
+              ]
+            },
+            {
+              "subhead": "Genişleyen soruşturma",
+              "blocks": [
+                {
+                  "text": "Diken’in hatırlattığına göre istifa, Adalet Bakanı Akın Gürlek’in fon soruşturmasında “kapsamlı bir suç yapısı” saptandığını söylemesinin ardından gelmişti. Gürlek 3 Kasım’da şöyle demişti:"
+                },
+                {
+                  "quote": "Üst düzey finans bürokrasisini de kapsayan bir suç yapılanmasına şahit oluyoruz. Bu örgütsel yapının içindeki isimler arasında hiyerarşik ve sistemli bir iş birliğinin delillerine ulaştık.",
+                  "speaker": "Akın Gürlek",
+                  "sourceId": "diken"
+                },
+                {
+                  "text": "Diken’e göre soruşturma, eylül ortasında Tera, Pusula, Destek ve Hedef fon şirketlerine yönelik ilk dalga operasyonla başladı. Ardından SPK, BDDK, Borsa İstanbul ve Takasbank’ın üst düzey isimlerine, holding patronlarına ve tutuklanan eski bakan Fatma Betül Sayan Kaya’ya uzandı. Diken’in aktardığı son bilançoya göre tutuklu sayısı 136’ya yükseldi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Fon soruşturmasında tutuklu sayısı",
+              "value": "136",
+              "source": "Diken"
+            },
+            {
+              "label": "Tutuklu eski BDDK yöneticisi",
+              "value": "3",
+              "source": "Sözcü"
+            },
+            {
+              "label": "Kavcıoğlu’nun BDDK’dan istifası",
+              "value": "11 Kasım",
+              "source": "Diken, Sözcü"
+            },
+            {
+              "label": "Soruşturmanın başlangıcı",
+              "value": "Eylül ortası",
+              "source": "Diken"
+            }
+          ],
+          "news": "Savcılık, soruşturma izni istemesinin ertesi günü eski BDDK Başkanı Şahap Kavcıoğlu’na yurt dışı çıkış yasağı getirdi."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T08:18:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T08:23:53.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T08:23:53.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T08:24:16.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T08:26:53.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T08:35:24.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/7a1bea6c-6c56-4b3a-9662-fd194bea6df0.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sahap-kavcioglu-na-yurt-disi-cikis-yasagi-getirildi-2557503"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sahap-kavcioglu-na-yurt-disi-cikis-yasagi-getirildi-2557503",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/fon-vurgunu-sahap-kavciogluna-yurt-disina-cikis-yasagi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/sahap-kavciogluna-yurt-disi-cikis-yasagi-getirildi-7705043",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/sahap-kavcioglu-na-yurt-disina-cikis-yasagi-p382701",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/19/eski-bddk-baskani-sahap-kavcioglu-hakkinda-yurt-disi-cikis-yasagi",
+          "confirms": false
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/bddk-eski-baskani-sahap-kavcioglu-hakkinda-yurt-disina-cikis-yasagi-getirildi-1396051",
+          "confirms": false
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/%C5%9Fahap-kavc%C4%B1o%C4%9Flu-hakk%C4%B1nda-yurt-d%C4%B1%C5%9F%C4%B1-%C3%A7%C4%B1k%C4%B1%C5%9F-yasa%C4%9F%C4%B1/a-79987937?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/son-dakika-bddk-eski-baskani-sahap-kavciogluna-yurt-disi-cikis-yasagi-1751584",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-sahap-kavcioglu-na-yurt-disi-cikis-yasagi-3928445",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-19T12:30:00+03:00",
+      "updatedAt": "2026-11-19T12:30:00+03:00"
+    },
+    {
+      "id": "d32a0efce7a54bbc",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "26195b5d464f90e3",
+      "versions": {
+        "en": {
+          "shortTitle": "Yellow alert for 32 provinces",
+          "title": "32 provinces on yellow alert as a stronger lodos nears Istanbul",
+          "summary": {
+            "what": "The Turkish State Meteorological Service (MGM) put 32 provinces, Istanbul among them, on yellow alert for strong winds and heavy rain on Thursday.",
+            "why": "The lodos gusted to 85 km/h in Istanbul on Wednesday, NTV says, and officials warn of roofs blown off, falling trees and poisoning from stoves.",
+            "next": "The wind is due to ease on Thursday, then return as a strong storm from 03:00 on Friday with gusts of 60–85 km/h, NTV reports."
+          },
+          "body": [
+            {
+              "subhead": "Yellow alert in 32 provinces",
+              "blocks": [
+                {
+                  "text": "The Turkish State Meteorological Service (MGM) has issued a yellow alert for 32 provinces for Thursday, 19 November, because of strong winds and heavy rain, Habertürk, Hürriyet, Sözcü, Cumhuriyet and Anadolu Agency report. The list runs from Thrace to the far east: Amasya, Bilecik, Bingöl, Bitlis, Bursa, Diyarbakır, Edirne, Giresun, Gümüşhane, Hatay, Istanbul, Kastamonu, Kırklareli, Kocaeli, Kahramanmaraş, Muş, Ordu, Sakarya, Samsun, Siirt, Sinop, Tekirdağ, Tokat, Trabzon, Tunceli, Van, Zonguldak, Batman, Bartın, Yalova, Karabük and Osmaniye."
+                },
+                {
+                  "text": "Southerly winds are forecast to blow at 40 to 70 km/h across Marmara, the Aegean, Central Anatolia, the inland Black Sea region and around Hakkari, turning in places into short-lived storms of 60 to 80 km/h. The service warned of transport disruption, roofs being blown off, trees and poles falling over, and poisoning from chimney fumes."
+                }
+              ]
+            },
+            {
+              "subhead": "Waves on the Üsküdar shore",
+              "blocks": [
+                {
+                  "text": "The lodos, the warm southwesterly wind familiar to Istanbul, began on Wednesday morning and kept blowing through the night, NTV reports. It reached 85 km/h during the day and still blew at 60 km/h at night, the channel says. On the Üsküdar shore waves rose several metres and soaked people walking by the sea, Cumhuriyet and Habertürk report. At Salacak, people waiting to be photographed against the waves opposite the Maiden’s Tower were drenched, and the moment was filmed by drone, Sözcü says. A Haber reports that sea services were cancelled."
+                }
+              ]
+            },
+            {
+              "subhead": "Heavy rain and snow in the east",
+              "blocks": [
+                {
+                  "text": "Rain is expected to be heavy in places along the eastern Black Sea coast and around Zonguldak, Bartın, Kastamonu, Karabük, Ordu, Osmaniye, Hatay, Tunceli, Bingöl and Muş, as well as west of Bitlis, southwest of Kahramanmaraş and in the north of Diyarbakır, Van, Siirt and Batman, Cumhuriyet and Hürriyet report. On high ground in the far east the rain will turn to sleet and snow. Officials warned of flash floods. In the Black Sea between Cide and Bafra, a westerly storm is expected from the morning, Hürriyet says. Temperatures inland will rise by 3 to 5 degrees, and Istanbul is forecast to reach 20°C, according to Sözcü."
+                }
+              ]
+            },
+            {
+              "subhead": "A stronger blow on Friday",
+              "blocks": [
+                {
+                  "text": "The Istanbul Governor’s Office said the storm would lose strength around midday on Thursday, Hürriyet reports. The break will be short: according to NTV, the lodos will ease during the day and blow as a storm again at night, with short gusts of 60 to 85 km/h from 03:00 on Friday, before the strong wind dies down on Friday evening. The MGM, Istanbul’s disaster coordination centre AKOM and the governor’s office have issued warnings that cover Friday evening as well, NTV says."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Provinces on yellow alert",
+              "value": "32",
+              "source": "MGM, via Habertürk"
+            },
+            {
+              "label": "Top wind speed in Istanbul on Wednesday",
+              "value": "85 km/h",
+              "source": "NTV"
+            },
+            {
+              "label": "Storm gusts expected on Friday",
+              "value": "60–85 km/h",
+              "source": "NTV"
+            },
+            {
+              "label": "Friday storm begins",
+              "value": "03:00",
+              "source": "NTV"
+            }
+          ],
+          "news": "A stronger lodos is due from 03:00 on Friday, with gusts of 60–85 km/h, while 32 provinces including Istanbul are on yellow alert."
+        },
+        "tr": {
+          "shortTitle": "32 ilde sarı kod",
+          "title": "32 ilde sarı kod; İstanbul’da lodosun daha kuvvetlisi geliyor",
+          "summary": {
+            "what": "Meteoroloji Genel Müdürlüğü (MGM), aralarında İstanbul’un da bulunduğu 32 il için perşembe günü kuvvetli rüzgâr ve yağış nedeniyle sarı kodlu uyarı yaptı.",
+            "why": "NTV’ye göre lodos çarşamba günü İstanbul’da saatte 85 kilometreye ulaştı; yetkililer çatı uçması, ağaç devrilmesi ve soba zehirlenmesine karşı uyarıyor.",
+            "next": "NTV’nin haberine göre rüzgâr perşembe günü hafifleyecek, cuma 03.00’ten itibaren saatte 60-85 kilometrelik hamlelerle yeniden fırtınaya dönecek."
+          },
+          "body": [
+            {
+              "subhead": "32 ilde sarı kod",
+              "blocks": [
+                {
+                  "text": "Meteoroloji Genel Müdürlüğü (MGM), kuvvetli rüzgâr ve yağış nedeniyle 19 Kasım Perşembe günü için 32 ilde sarı kodlu uyarı yayımladı. Habertürk, Hürriyet, Sözcü, Cumhuriyet ve Anadolu Ajansı’nın aktardığı listede Trakya’dan Doğu Anadolu’ya şu iller var: Amasya, Bilecik, Bingöl, Bitlis, Bursa, Diyarbakır, Edirne, Giresun, Gümüşhane, Hatay, İstanbul, Kastamonu, Kırklareli, Kocaeli, Kahramanmaraş, Muş, Ordu, Sakarya, Samsun, Siirt, Sinop, Tekirdağ, Tokat, Trabzon, Tunceli, Van, Zonguldak, Batman, Bartın, Yalova, Karabük ve Osmaniye."
+                },
+                {
+                  "text": "Rüzgârın Marmara, Ege, İç Anadolu, Karadeniz’in iç kesimleri ile Hakkari çevrelerinde güney yönlerden saatte 40-70 kilometre hızla, yer yer 60-80 kilometrelik kısa süreli fırtına şeklinde esmesi bekleniyor. MGM; ulaşımda aksamalar, çatı uçması, ağaç ve direklerin devrilmesi ile baca gazı zehirlenmesine karşı uyardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Üsküdar’da dev dalgalar",
+              "blocks": [
+                {
+                  "text": "NTV’nin haberine göre İstanbul’da çarşamba sabahı başlayan lodos gece de sürdü. Rüzgâr gün içinde saatte 85 kilometreye, gece saatlerinde de 60 kilometreye ulaştı. Cumhuriyet ve Habertürk’e göre Üsküdar sahilinde metrelerce yükselen dalgalar sahilde yürüyenleri ıslattı. Sözcü’nün aktardığına göre Salacak’ta Kız Kulesi karşısında dalgalarla fotoğraf çektirmek isteyenler sırılsıklam oldu; o anlar dronla görüntülendi. A Haber, deniz seferlerinin iptal edildiğini bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Doğuda kuvvetli yağış ve kar",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet ve Hürriyet’e göre yağışların Doğu Karadeniz kıyıları ile Zonguldak, Bartın, Kastamonu, Karabük, Ordu, Osmaniye, Hatay, Tunceli, Bingöl ve Muş çevrelerinde, Bitlis’in batısı, Kahramanmaraş’ın güneybatısı ile Diyarbakır, Van, Siirt ve Batman’ın kuzeyinde yer yer kuvvetli olması bekleniyor. Doğu Anadolu’nun doğusundaki yükseklerde yağmur, karla karışık yağmura ve kara dönecek. Yetkililer sel ve su baskınına karşı uyardı. Hürriyet’e göre Karadeniz’de Cide-Bafra arasında sabahtan itibaren batılı fırtına bekleniyor. Sözcü’ye göre iç kesimlerde sıcaklık 3-5 derece artacak, İstanbul’da en yüksek sıcaklık 20 derece olacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Cuma günü daha kuvvetlisi",
+              "blocks": [
+                {
+                  "text": "Hürriyet’in aktardığına göre İstanbul Valiliği fırtınanın perşembe öğle saatlerinde etkisini kaybedeceğini açıkladı. Ancak ara kısa sürecek: NTV’ye göre gündüz hızını azaltacak lodos gece yeniden fırtınaya dönecek ve cuma 03.00’ten itibaren kısa süreli hamlelerle saatte 60-85 kilometre hızla esecek. Kuvvetli rüzgârın cuma akşamı hafiflemesi bekleniyor. NTV, MGM, AKOM ve İstanbul Valiliği’nin cuma akşamını da kapsayan uyarılar yaptığını aktardı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sarı kodlu uyarı yapılan il",
+              "value": "32",
+              "source": "MGM, Habertürk aracılığıyla"
+            },
+            {
+              "label": "Çarşamba İstanbul’da en yüksek rüzgâr",
+              "value": "85 km/sa",
+              "source": "NTV"
+            },
+            {
+              "label": "Cuma beklenen fırtına hamleleri",
+              "value": "60-85 km/sa",
+              "source": "NTV"
+            },
+            {
+              "label": "Cuma fırtınasının başlangıcı",
+              "value": "03.00",
+              "source": "NTV"
+            }
+          ],
+          "news": "Cuma 03.00’ten itibaren saatte 60-85 kilometrelik daha kuvvetli bir lodos bekleniyor; İstanbul dahil 32 ilde sarı kod var."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T04:19:25.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T04:40:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T04:40:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T05:01:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T05:02:07.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T06:13:01.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T07:54:40.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/19/ver1795061841/3928370/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-haberi-meteoroloji-den-32-il-icin-sari-kod-saganak-ve-lodos-etkili-olacak-19-kasim-hava-durumu-3928370"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-meteoroloji-den-32-il-icin-sari-kod-saganak-ve-lodos-etkili-olacak-19-kasim-hava-durumu-3928370",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/meteoroloji-den-istanbul-dahil-32-ile-sari-kod-lodos-80-km-s-ye-cikacak-saganak-ve-kar-geliyor-1395987",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/meteoroloji-acikladi-19-kasim-2026-hava-durumu-raporu-bugun-hava-nasil-olacak-2557438",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/kuvvetli-saganak-geliyor-istanbulun-da-aralarinda-oldugu-32-ilde-yagis-ve-firtina-alarmi-meteoroloji-saat-verdi-hizi-80-kilometreyi-43383200",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/meteoroloji-32-ili-birden-uyardi-firtina-ve-kar-yurdu-esir-alacak-p382597",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/19/meteorolojiden-32-ile-sari-kodlu-alarm-koc-firtinasi-megakenti-vurdu",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/meteorolojiden-istanbul-dahil-32-il-icin-sari-kodlu-uyari/4130083",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/istanbullular-bu-saatlere-dikkat-lodos-firtinasinin-daha-da-kuvvetlisi-geliyor-1751535",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-19T12:30:00+03:00",
+      "updatedAt": "2026-11-19T12:30:00+03:00"
+    },
+    {
+      "id": "6a21dab5c79c6557",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Musk regrets midterm spending",
+          "title": "Musk says his record midterm spending was “pretty foolish”",
+          "summary": {
+            "what": "Elon Musk told the New York Times DealBook Summit he feels “pretty foolish” about spending $446m to back Republicans in this year’s US midterms, the BBC reports.",
+            "why": "Democrats won both chambers of Congress, and some have pledged closer scrutiny of his companies, including SpaceX’s government contracts.",
+            "next": "Musk said Anthropic is “extremely likely” to keep renting computing power from SpaceX and wants significantly more, Al Jazeera reports."
+          },
+          "body": [
+            {
+              "subhead": "“Not seen much for it”",
+              "blocks": [
+                {
+                  "text": "Elon Musk said on Wednesday that he felt “pretty foolish” about the record sum he spent on this year’s US midterm elections, in which Republicans suffered sweeping defeats. The Tesla and SpaceX chief was the election’s top individual donor, giving $446m to support President Donald Trump’s party, the BBC reports; The Guardian puts the sum at nearly $500m, the most anyone has spent in a political cycle without running for office. Musk spoke by video from China, where he is travelling with Trump for the Apec summit, in a 45-minute interview with Andrew Ross Sorkin at the New York Times DealBook Summit."
+                },
+                {
+                  "quote": "I feel pretty foolish about having spent so much money and not seen much for it. Or maybe it would have been much worse without that. But it certainly shows that, you know, American elections are not just about money.",
+                  "speaker": "Elon Musk",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "If he could rewind the clock, he would have spent less money, he added, according to Al Jazeera and The Guardian."
+                }
+              ]
+            },
+            {
+              "subhead": "“I’m not Maga”",
+              "blocks": [
+                {
+                  "text": "Musk also distanced himself from the movement he once embraced. “I’m not Maga,” he said, adding that if it meant “blind adherence to a set of policies by the Republican party, then I certainly don’t have that”, The Guardian reports. At a 2024 rally in Madison Square Garden he had called himself “dark, gothic Maga”. He said there were “positives and negatives in both” parties. Asked about Democrats who want to investigate him, he told Sorkin he did not need a pardon “because I haven’t committed any crimes”, TechCrunch reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Texas and the scrutiny ahead",
+              "blocks": [
+                {
+                  "text": "Much of the money went to Texas, home to Tesla and SpaceX. Musk spent at least $45m backing Republican Ken Paxton, who lost the Senate race to Democrat James Talarico, according to BBC analysis. Democrat Gina Hinojosa also beat Governor Greg Abbott; Musk called her “quite moderate” and said things would be fine in Texas. Hinojosa supports keeping a moratorium on new data centres in the state, Al Jazeera says, citing The New York Times. Democrats taking over Congress have pledged closer scrutiny of tech companies, and some have suggested investigating SpaceX, which has gained an estimated $10bn in new government contracts since Trump was re-elected, the BBC reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Anthropic and Nvidia",
+              "blocks": [
+                {
+                  "text": "On AI, Musk said Anthropic was “extremely likely” to keep renting computing capacity from SpaceX and wanted significantly more, Al Jazeera reports; the most likely request was for another 10 gigawatts, he said, according to a recent Reuters report. He said he met many people at Anthropic before agreeing the deal and that “no one I met at Anthropic set off my evil detector”, The Guardian reports."
+                },
+                {
+                  "quote": "My interaction so far with the Anthropic team is that they seem like good people and they seem principled. They seem diligent and they seem to care about the future.",
+                  "speaker": "Elon Musk",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "He also praised Jensen Huang, the ousted Nvidia chief executive, and accused Ukraine’s president, Volodymyr Zelenskyy, of “lying” about restrictions on access to SpaceX’s Starshield satellite system, The Guardian says."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Musk’s spending on the midterms",
+              "value": "$446m",
+              "source": "BBC"
+            },
+            {
+              "label": "Spent backing Ken Paxton in Texas",
+              "value": "$45m+",
+              "source": "BBC analysis"
+            },
+            {
+              "label": "New US contracts for SpaceX since 2024",
+              "value": "~$10bn",
+              "source": "BBC"
+            },
+            {
+              "label": "Extra computing Anthropic may seek",
+              "value": "10 GW",
+              "source": "Reuters, via Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Musk seçim harcamasından pişman",
+          "title": "Musk, ara seçimlere yaptığı rekor harcama için “oldukça aptalca” dedi",
+          "summary": {
+            "what": "Elon Musk, New York Times DealBook Zirvesi’nde ABD ara seçimlerinde Cumhuriyetçilere 446 milyon dolar harcadığı için kendini “oldukça aptal” hissettiğini söyledi.",
+            "why": "Demokratlar Kongre’nin iki kanadını da kazandı; bazıları SpaceX’in devlet sözleşmeleri dahil Musk’ın şirketlerini mercek altına almaya hazırlanıyor.",
+            "next": "Al Jazeera’ya göre Musk, Anthropic’in SpaceX’ten bilgi işlem kapasitesi kiralamayı “büyük olasılıkla” sürdüreceğini ve çok daha fazlasını istediğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "“Karşılığını pek görmedim”",
+              "blocks": [
+                {
+                  "text": "Elon Musk çarşamba günü, Cumhuriyetçilerin ağır yenilgi aldığı ABD ara seçimlerine harcadığı rekor para için kendini “oldukça aptal” hissettiğini söyledi. BBC’ye göre Tesla ve SpaceX’in patronu, Başkan Donald Trump’ın partisine 446 milyon dolarla seçimin en büyük bireysel bağışçısı oldu. The Guardian bu tutarı yaklaşık 500 milyon dolar olarak veriyor ve bunun aday olmayan birinin bir seçim döneminde harcadığı en yüksek para olduğunu yazıyor. Apec zirvesi için Trump’la birlikte Çin’de bulunan Musk, New York Times DealBook Zirvesi’nde Andrew Ross Sorkin’in 45 dakikalık söyleşisine görüntülü bağlandı."
+                },
+                {
+                  "quote": "Bu kadar çok para harcayıp karşılığını pek görmediğim için kendimi oldukça aptal hissediyorum. Belki de o harcama olmasa sonuç çok daha kötü olurdu. Ama bu, Amerikan seçimlerinin yalnızca paradan ibaret olmadığını kesinlikle gösteriyor.",
+                  "speaker": "Elon Musk",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "Al Jazeera ve The Guardian’a göre Musk, zamanı geri alabilseydi daha az para harcayacağını da ekledi."
+                }
+              ]
+            },
+            {
+              "subhead": "“MAGA değilim”",
+              "blocks": [
+                {
+                  "text": "Musk bir zamanlar sahiplendiği hareketle de arasına mesafe koydu. The Guardian’ın aktardığına göre “MAGA değilim” dedi ve MAGA “Cumhuriyetçi Parti’nin politikalarına körü körüne bağlılık” anlamına geliyorsa kendisinde bunun kesinlikle olmadığını söyledi. Musk, 2024’te Madison Square Garden’daki mitingde kendini “karanlık, gotik MAGA” diye tanımlamıştı. İki partide de “olumlu ve olumsuz yanlar” olduğunu söyledi. TechCrunch’a göre kendisini soruşturmak isteyen Demokratlar sorulduğunda, “hiç suç işlemediği için” affa ihtiyacı olmadığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Teksas ve önümüzdeki denetim",
+              "blocks": [
+                {
+                  "text": "Paranın büyük kısmı, Tesla ve SpaceX’in merkezi Teksas’a gitti. BBC’nin analizine göre Musk, Senato yarışını Demokrat James Talarico’ya kaybeden Cumhuriyetçi Ken Paxton için en az 45 milyon dolar harcadı. Demokrat Gina Hinojosa da Vali Greg Abbott’u yendi; Musk, Hinojosa’yı “oldukça ılımlı” bulduğunu ve Teksas’ta işlerin yolunda gideceğini söyledi. Al Jazeera’nın New York Times’a dayandırdığı habere göre Hinojosa, eyalette yeni veri merkezlerine konan moratoryumun sürmesinden yana. BBC’ye göre Kongre’yi devralan Demokratlar teknoloji şirketlerini daha sıkı denetleme sözü verdi; bazıları Trump’ın yeniden seçilmesinden bu yana tahminen 10 milyar dolarlık yeni devlet sözleşmesi alan SpaceX’in soruşturulmasını önerdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Anthropic ve Nvidia",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Musk, yapay zekâ şirketi Anthropic’in SpaceX’ten bilgi işlem kapasitesi kiralamayı “büyük olasılıkla” sürdüreceğini ve çok daha fazlasını istediğini söyledi; yakın tarihli bir Reuters haberine göre en olası talep 10 gigavatlık ek kapasite. The Guardian’a göre Musk, anlaşmayı yapmadan önce Anthropic’te pek çok kişiyle görüştüğünü ve “Anthropic’te tanıştığım kimsenin kötülük dedektörümü öttürmediğini” söyledi."
+                },
+                {
+                  "quote": "Anthropic ekibiyle şimdiye kadarki izlenimim, iyi ve ilkeli insanlar oldukları yönünde. Titiz görünüyorlar ve geleceği önemsiyorlar.",
+                  "speaker": "Elon Musk",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre Musk ayrıca Nvidia’dan uzaklaştırılan eski CEO Jensen Huang’ı övdü ve Ukrayna Devlet Başkanı Volodimir Zelenskiy’yi SpaceX’in Starshield uydu sistemine erişim kısıtlamaları konusunda “yalan söylemekle” suçladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Musk’ın ara seçim harcaması",
+              "value": "446 milyon $",
+              "source": "BBC"
+            },
+            {
+              "label": "Teksas’ta Ken Paxton için harcanan",
+              "value": "45 milyon $+",
+              "source": "BBC analizi"
+            },
+            {
+              "label": "2024’ten beri SpaceX’e yeni sözleşme",
+              "value": "~10 milyar $",
+              "source": "BBC"
+            },
+            {
+              "label": "Anthropic’in isteyebileceği ek kapasite",
+              "value": "10 GW",
+              "source": "Reuters, Al Jazeera aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T00:40:49.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T01:07:51.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T01:07:51.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T02:59:06.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T04:46:18.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3333/live/c9ef87a0-e3b5-11f1-ac8e-bf9cbaf16b78.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/elon-musk-says-he-feels-pretty-foolish-about-us-midterm-spending?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-19T12:30:00+03:00",
+      "updatedAt": "2026-11-19T12:30:00+03:00"
+    },
+    {
+      "id": "2ee1cbf3de902b1c",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "FCC nominee advances 15-0",
+          "title": "Senate panel backs Trump’s FCC pick 15-0 as Democrats boycott",
+          "summary": {
+            "what": "The Senate Commerce Committee approved Danielle Thumann, senior counsel to FCC chair Brendan Carr, for a seat on the FCC by 15 votes to 0, with every Democrat absent.",
+            "why": "Her confirmation would give Republicans three of the FCC’s four seats, and Democrats fear Trump could then fire the lone Democrat, Anna Gomez.",
+            "next": "The nomination goes to the full Senate; Republicans hope to confirm her before Democrats take control of the chamber in January, Ars Technica reports."
+          },
+          "body": [
+            {
+              "subhead": "A Republican-only vote",
+              "blocks": [
+                {
+                  "text": "A Senate committee chaired by Ted Cruz voted on Wednesday to approve Danielle Thumann, President Donald Trump’s nominee for the Federal Communications Commission, Ars Technica and The Verge report. All 15 Republicans on the Senate Commerce Committee voted for her, while the committee’s 13 Democrats stayed away in an attempt to deny a quorum, Ars Technica says. To Cruz’s left sat about a dozen empty chairs, The Verge reports."
+                },
+                {
+                  "quote": "We’re going to be doing our job today, even if the Democrats refuse to show up to do theirs.",
+                  "speaker": "Ted Cruz",
+                  "sourceId": "ars-technica"
+                },
+                {
+                  "text": "Cruz said he had learned the night before that Democrats would boycott, and called it “an ordinary nomination to fill a vacancy previously held by someone in the same party”, The Verge reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Why Democrats stayed away",
+              "blocks": [
+                {
+                  "text": "Committees often vote on nominees to historically independent agencies in bipartisan pairs, and Democrats wanted Thumann paired with a Democratic nominee, The Verge says. Her confirmation would leave the FCC with four members: three Republicans and one Democrat, Anna Gomez, whose term has technically expired but who can stay through next year unless replaced. Democrats fear that with a third Republican seated, Trump might fire Gomez, because he would no longer need her for a quorum. The president has offered no Democratic nominee. Democrats said in a statement: “This is not a problem we created, but a problem that the White House can solve.”"
+                }
+              ]
+            },
+            {
+              "subhead": "Questions over her testimony",
+              "blocks": [
+                {
+                  "text": "At a hearing on 10 November, Thumann told senators: “I have not worked with the chairman on any media-related issues.” In a letter to Cruz, Senator Ben Ray Luján said documents obtained through Freedom of Information Act requests show she helped draft Skydance’s commitments that cleared the way for FCC approval of its merger with Paramount, both outlets report. Luján also wrote that she played a role in complaints over CBS’s 60 Minutes and in the agency’s response to consumers over the Jimmy Kimmel controversy, The Verge says. In follow-up answers this week, Thumann said she sometimes reviews documents outside her portfolio but had no conversations with Paramount, CBS or Skydance about the merger, Ars Technica reports."
+                }
+              ]
+            },
+            {
+              "subhead": "A fight over the rules",
+              "blocks": [
+                {
+                  "text": "A spokesperson for Cruz said Senate rules allow the nomination to go to the full chamber, Ars Technica reports. A spokesperson for Senator Maria Cantwell, the committee’s top Democrat, said that since 2005 a quorum for action on a nomination had required at least one member of the minority, “until today”. The committee has in fact had no rules this session, because Cruz failed to pass them, Cantwell’s office said. Thumann still needs a majority of the full Senate, and Republicans want that vote before Democrats take control of the chamber in January."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Committee vote",
+              "value": "15–0",
+              "source": "Ars Technica"
+            },
+            {
+              "label": "Democrats absent",
+              "value": "13",
+              "source": "Ars Technica"
+            },
+            {
+              "label": "FCC seats if she is confirmed",
+              "value": "3 R, 1 D",
+              "source": "The Verge"
+            },
+            {
+              "label": "Hearing where she testified",
+              "value": "10 Nov",
+              "source": "The Verge"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "FCC adayı komisyondan 15-0 geçti",
+          "title": "Demokratlar boykot etti, Trump’ın FCC adayı Senato komisyonundan 15-0 geçti",
+          "summary": {
+            "what": "ABD Senatosu Ticaret Komisyonu, FCC Başkanı Brendan Carr’ın kıdemli danışmanı Danielle Thumann’ın FCC üyeliğini, tüm Demokratlar yokken 15’e 0 oyla onayladı.",
+            "why": "Thumann’ın onayı Cumhuriyetçilere FCC’deki dört koltuğun üçünü verecek; Demokratlar, Trump’ın ardından tek Demokrat üye Anna Gomez’i görevden alabileceğinden endişeli.",
+            "next": "Ars Technica’ya göre aday şimdi Senato Genel Kurulu’na gidiyor; Cumhuriyetçiler onu Demokratlar ocakta Senato’yu devralmadan onaylatmak istiyor."
+          },
+          "body": [
+            {
+              "subhead": "Yalnızca Cumhuriyetçilerin oyu",
+              "blocks": [
+                {
+                  "text": "Ars Technica ve The Verge’ün haberine göre Ted Cruz’un başkanlığındaki Senato komisyonu çarşamba günü Başkan Donald Trump’ın Federal İletişim Komisyonu (FCC) adayı Danielle Thumann’ı onayladı. Ars Technica’ya göre Senato Ticaret Komisyonu’ndaki 15 Cumhuriyetçinin tamamı Thumann lehine oy verirken komisyonun 13 Demokrat üyesi, toplantı yeter sayısını engellemek için oturuma katılmadı. The Verge, Cruz’un solunda yaklaşık bir düzine koltuğun boş kaldığını yazdı."
+                },
+                {
+                  "quote": "Demokratlar kendi işlerini yapmak için gelmeyi reddetse de biz bugün işimizi yapacağız.",
+                  "speaker": "Ted Cruz",
+                  "sourceId": "ars-technica",
+                  "translated": true
+                },
+                {
+                  "text": "The Verge’e göre Cruz, boykottan bir önceki gece haberdar olduğunu söyledi ve adaylığı “daha önce aynı partiden birinin oturduğu boş koltuğu doldurmak için olağan bir aday gösterme” diye nitelendirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Demokratlar neden gelmedi",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre tarihsel olarak bağımsız kurumlara yapılan atamalar komisyonlarda çoğu zaman iki partiden birer adayla çift olarak oylanıyor; Demokratlar da Thumann’ın bir Demokrat adayla birlikte oylanmasını istedi. Thumann onaylanırsa FCC’de dört üye kalacak: üç Cumhuriyetçi ve görev süresi teknik olarak dolmuş olsa da yerine kimse atanmazsa gelecek yıla kadar kalabilecek Demokrat Anna Gomez. Demokratlar, üçüncü Cumhuriyetçi göreve başlayınca Trump’ın yeter sayı için Gomez’e ihtiyaç duymayacağından onu görevden alabileceğinden endişe ediyor. Beyaz Saray henüz Demokrat aday göstermedi. Demokratlar ortak açıklamada şunu söyledi: “Bu bizim yarattığımız bir sorun değil, Beyaz Saray’ın çözebileceği bir sorun.”"
+                }
+              ]
+            },
+            {
+              "subhead": "İfadesi tartışmalı",
+              "blocks": [
+                {
+                  "text": "Thumann, 10 Kasım’daki oturumda senatörlere “Başkanla medyayla ilgili hiçbir konuda çalışmadım” demişti. Senatör Ben Ray Luján, Cruz’a yazdığı mektupta Bilgi Edinme Özgürlüğü Yasası kapsamında elde edilen belgelerin Thumann’ın, Skydance’in Paramount’la birleşmesine FCC onayının önünü açan taahhütlerin yazımına katkı verdiğini gösterdiğini belirtti; bunu iki yayın da aktardı. The Verge’e göre Luján, Thumann’ın CBS’in 60 Minutes programıyla ilgili şikâyetlerde ve Jimmy Kimmel tartışmasında kurumun tüketicilere verdiği yanıtta da rol oynadığını yazdı. Ars Technica’ya göre Thumann bu hafta verdiği ek yanıtlarda bazen kendi alanı dışındaki belgeleri incelediğini, ancak birleşme konusunda Paramount, CBS ya da Skydance ile hiç görüşmediğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kurallar tartışması",
+              "blocks": [
+                {
+                  "text": "Ars Technica’ya göre Cruz’un sözcüsü, Senato kurallarının adaylığın Genel Kurul’a gönderilmesine izin verdiğini söyledi. Komisyonun en kıdemli Demokrat üyesi Senatör Maria Cantwell’in sözcüsü ise 2005’ten beri bir aday hakkında karar alınabilmesi için yeter sayıda azınlıktan en az bir üyenin bulunmasının şart olduğunu, bunun “bugüne kadar” böyle olduğunu söyledi. Cantwell’in ofisine göre Cruz bu dönem komisyon kurallarını geçiremediği için komisyon aslında kuralsız çalışıyor. Thumann’ın Senato Genel Kurulu’nda da çoğunluk oyu alması gerekiyor; Cumhuriyetçiler bu oylamayı Demokratlar ocakta Senato’nun kontrolünü almadan yapmak istiyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Komisyon oylaması",
+              "value": "15–0",
+              "source": "Ars Technica"
+            },
+            {
+              "label": "Oylamaya katılmayan Demokrat",
+              "value": "13",
+              "source": "Ars Technica"
+            },
+            {
+              "label": "Onaylanırsa FCC’deki dağılım",
+              "value": "3 C, 1 D",
+              "source": "The Verge"
+            },
+            {
+              "label": "İfade verdiği oturum",
+              "value": "10 Kasım",
+              "source": "The Verge"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T22:05:48.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T23:25:04.000Z",
+          "sourceId": "ars-technica"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T23:25:04.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/ted-cruz-1152x648-1738093202.jpg",
+        "sourceId": "ars-technica",
+        "sourceName": "Ars Technica",
+        "articleUrl": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/"
+      },
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
+          "confirms": true
+        },
+        {
+          "sourceId": "ars-technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-19T12:30:00+03:00",
+      "updatedAt": "2026-11-19T12:30:00+03:00"
+    },
+    {
+      "id": "9224b6f26f8c49ca",
+      "section": "world",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "1c897559035f48d4",
+      "versions": {
+        "en": {
+          "shortTitle": "Trump, Xi and Putin meet",
+          "title": "Trump, Xi and Putin open first three-way summit after Trump–Putin talks",
+          "summary": {
+            "what": "Xi Jinping, Donald Trump and Vladimir Putin began the first three-way summit of the US, Chinese and Russian leaders in Shenzhen on Thursday afternoon, SCMP reports.",
+            "why": "Trump first met Putin for 40 minutes and greeted him as his friend; a Kremlin aide said they discussed the war in Ukraine and that the talks went “very well”.",
+            "next": "Zelensky says US envoys will brief Kyiv on Trump’s talks in China at a meeting in Berlin on Thursday, Euronews Türkçe reports."
+          },
+          "body": [
+            {
+              "subhead": "Three leaders at one table",
+              "blocks": [
+                {
+                  "text": "Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin began a historic trilateral meeting on Thursday afternoon in Shenzhen, on the sidelines of the Apec summit, the South China Morning Post reports. It is the first three-way summit of the leaders of the world’s major nuclear powers. Anadolu Agency and BBC Türkçe also reported the start of the talks. Ahead of the meeting, Xi held separate talks with Putin and with Trump, SCMP says."
+                },
+                {
+                  "text": "China’s foreign ministry described the meeting as a “strategic stability dialogue” in which the leaders would exchange views on major questions of world peace, Hürriyet reports. Nuclear arms control was at the top of Trump’s agenda, France 24 says. In the three-way talks Trump said, according to Hürriyet:"
+                },
+                {
+                  "quote": "We must come together on nuclear weapons. We are doing that in Iran. We cannot allow Iran to have a nuclear weapon.",
+                  "speaker": "Donald Trump",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "“My friend”",
+              "blocks": [
+                {
+                  "text": "Before the three-way talks Trump met Putin for 40 minutes, Euronews reports. Walking into the room, Trump pointed at the Russian leader and said: “Who is he? He’s my friend,” Hürriyet and Euronews report. Beforehand Trump said the two had had a great relationship for many years and that many great things could come out of the meeting, “or at least a start”, Bloomberg HT reports. Yuri Ushakov, an adviser to Putin, said they discussed the war in Ukraine and bilateral ties and that the meeting went “very well”, according to Hürriyet."
+                },
+                {
+                  "text": "Trump tried to ease fears that he would strike deals without hearing Ukraine. Asked by Fox News whether he would, he said: “I wouldn’t do that,” Bloomberg HT reports. He dodged a question on whether he had spoken to Volodymyr Zelensky."
+                }
+              ]
+            },
+            {
+              "subhead": "Xi, Iran and chips",
+              "blocks": [
+                {
+                  "text": "Trump called Xi “an extraordinary leader” and thanked him for hosting Apec, Habertürk reports. The two praised each other in their third face-to-face meeting this year, signalling that a dispute over new US chip restrictions does not yet threaten their broad trade truce, Bloomberg HT says. Their talks covered economic ties, Iran’s nuclear programme, the Strait of Hormuz and the war in Ukraine, Cumhuriyet reports. Asked by Fox News whether he would seek Chinese or Russian help to end the war with Iran, Trump said he needed no help and would not ask anyone for it, Hürriyet reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Putin’s moment",
+              "blocks": [
+                {
+                  "text": "For the Kremlin the summit already looks like a victory, BBC Türkçe’s analysis argues: in 2022 Putin was isolated after the full-scale invasion of Ukraine, and now he sits with the leaders of the two largest powers. Putin stood at the centre of Thursday’s Apec family photo, his first in person since the 2017 summit in Vietnam, Habertürk notes. Japan’s prime minister, Sanae Takaichi, also met Putin for about 30 minutes and asked for the release of a Japanese journalist held on spying charges since October, Hürriyet reports, citing Kyodo. Expectations of concrete results are low, France 24’s Washington correspondent says."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Trump–Putin meeting",
+              "value": "40 min",
+              "source": "Euronews"
+            },
+            {
+              "label": "Putin’s last in-person Apec photo",
+              "value": "2017",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Takaichi–Putin meeting",
+              "value": "about 30 min",
+              "source": "Kyodo, via Hürriyet"
+            }
+          ],
+          "news": "Trump met Putin for 40 minutes, calling him his friend, then sat down with Xi for the first three-way summit of the three leaders."
+        },
+        "tr": {
+          "shortTitle": "Trump, Şi ve Putin bir arada",
+          "title": "Trump-Putin görüşmesinin ardından Şi ile ilk üçlü zirve başladı",
+          "summary": {
+            "what": "SCMP’ye göre Şi Cinping, Donald Trump ve Vladimir Putin, ABD, Çin ve Rusya liderlerinin ilk üçlü zirvesine perşembe öğleden sonra Shenzhen’de başladı.",
+            "why": "Trump önce Putin’le 40 dakika görüştü ve onu “arkadaşım” diye selamladı; Kremlin’den Uşakov, Ukrayna’nın konuşulduğunu ve görüşmenin “çok iyi” geçtiğini söyledi.",
+            "next": "Euronews Türkçe’ye göre Zelenskiy, ABD temsilcilerinin perşembe günü Berlin’de Trump’ın Çin’deki temasları hakkında Kiev’e bilgi vereceğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Üç lider aynı masada",
+              "blocks": [
+                {
+                  "text": "South China Morning Post’un haberine göre Çin Devlet Başkanı Şi Cinping, ABD Başkanı Donald Trump ve Rusya Devlet Başkanı Vladimir Putin, APEC zirvesi marjında Shenzhen’de perşembe öğleden sonra tarihi bir üçlü toplantıya başladı. Bu, dünyanın büyük nükleer güçlerinin liderleri arasındaki ilk üçlü zirve. Anadolu Ajansı ve BBC Türkçe de görüşmenin başladığını duyurdu. SCMP’ye göre Şi, toplantıdan önce Putin ve Trump’la ayrı ayrı görüştü."
+                },
+                {
+                  "text": "Hürriyet’in aktardığına göre Çin Dışişleri Bakanlığı toplantıyı, liderlerin küresel barışla ilgili önemli konularda görüş alışverişinde bulunacağı bir “stratejik istikrar diyaloğu” olarak tanımladı. France 24’e göre Trump’ın gündeminin başında nükleer silahların kontrolü var. Hürriyet’e göre Trump üçlü görüşmede şunları söyledi:"
+                },
+                {
+                  "quote": "Nükleer silah konusunda bir araya gelmeliyiz. İran’da bunu yapıyoruz. İran’ın nükleer silahının olmasına müsaade edemeyiz.",
+                  "speaker": "Donald Trump",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "“Bu benim arkadaşım”",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre Trump üçlü görüşmeden önce Putin’le 40 dakika bir araya geldi. Hürriyet ve Euronews’ün aktardığına göre salona giren Trump, Rus lideri eliyle işaret ederek “Kim bu? Bu benim arkadaşım” dedi. Bloomberg HT’ye göre Trump görüşme öncesinde iki liderin uzun yıllardır muhteşem bir ilişkisi olduğunu, görüşmeden pek çok harika şey çıkabileceğini “ya da en azından bir başlangıç” olabileceğini söyledi. Hürriyet’e göre Putin’in danışmanı Yuri Uşakov, görüşmede Ukrayna savaşının ve ikili ilişkilerin ele alındığını, görüşmenin “çok iyi” geçtiğini açıkladı."
+                },
+                {
+                  "text": "Trump, Ukrayna’nın görüşünü almadan anlaşma yapacağı yönündeki endişeleri yatıştırmaya çalıştı. Bloomberg HT’ye göre Fox News’e “Bunu yapmazdım” dedi; Volodimir Zelenskiy ile görüşüp görüşmediği sorusunu ise geçiştirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Şi, İran ve çipler",
+              "blocks": [
+                {
+                  "text": "Habertürk’e göre Trump, zirveye ev sahipliği yaptığı için teşekkür ettiği Şi’yi “olağanüstü bir lider” olarak nitelendirdi. Bloomberg HT’ye göre iki lider bu yılki üçüncü yüz yüze görüşmelerinde birbirlerini övdü ve ABD’nin yeni çip kısıtlamaları üzerindeki anlaşmazlığın geniş kapsamlı ticaret ateşkesini henüz tehdit etmediği mesajını verdi. Cumhuriyet’e göre görüşmede ekonomik ilişkiler, İran’ın nükleer programı, Hürmüz Boğazı ve Rusya-Ukrayna savaşı ele alındı. Hürriyet’in aktardığına göre Fox News’ün İran savaşını bitirmek için Çin ya da Rusya’dan yardım isteyip istemeyeceği sorusuna Trump, yardıma ihtiyaçları olmadığını ve kimseden yardım istemeyeceğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Putin’in sahnesi",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’nin analizine göre zirve Kremlin için şimdiden bir zafer gibi görünüyor: Putin, 2022’de Ukrayna’yı topyekûn işgalinin ardından uluslararası alanda dışlanmıştı, şimdi ise iki büyük gücün liderleriyle aynı masada. Habertürk’e göre Putin perşembe günkü APEC aile fotoğrafının tam ortasında yer aldı; bu karede şahsen son kez 2017’de Vietnam’daki zirvede bulunmuştu. Hürriyet’in Kyodo’ya dayandırdığı habere göre Japonya Başbakanı Sanae Takaiçi de Putin’le yaklaşık 30 dakika görüştü ve ekimde casusluk suçlamasıyla gözaltına alınan Japon gazetecinin serbest bırakılmasını istedi. France 24’ün Washington muhabirine göre somut sonuç beklentisi düşük."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Trump-Putin görüşmesi",
+              "value": "40 dk",
+              "source": "Euronews"
+            },
+            {
+              "label": "Putin’in şahsen son APEC fotoğrafı",
+              "value": "2017",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Takaiçi-Putin görüşmesi",
+              "value": "yaklaşık 30 dk",
+              "source": "Kyodo, Hürriyet aracılığıyla"
+            }
+          ],
+          "news": "Trump, Putin’le 40 dakika görüşüp onu “arkadaşım” diye selamladı; ardından Şi’nin de katıldığı ilk üçlü zirve başladı."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T02:57:19.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T05:44:59.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T05:44:59.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T07:45:52.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T08:28:54.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
+        "sourceId": "bbc-turkce",
+        "sourceName": "BBC Türkçe",
+        "articleUrl": "https://www.bbc.com/turkce/articles/cqd01jmdez00o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/19/china-xi-trump-and-putin-gather-ahead-of-trilateral-summit",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/beijing-summit-ai-and-tech-competition-between-us-and-china",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375055/xi-trump-and-putin-meet-landmark-trilateral-talks-apec",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cqd01jmdez00o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/trump-tan-si-ye-olaganustu-bir-lider-3928371",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/dunya/live-trump-ile-putin-arasindaki-kritik-zirve-basladi-liderlerden-art-arda-dikkat-ceken-mesajlar-43383205",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/trump-ve-putin-cin-de-gorustu-3795063",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/video/2026/11/19/senzendeki-apec-forumu-xi-trump-ve-putin-uclu-gorusme-oncesi-bir-arada",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/trump-shenzhen-de-putin-ve-%C5%9Fi-ile-g%C3%B6r%C3%BC%C5%9Ft%C3%BC/a-79987305?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/dunya/trump-si-zirvesinde-yakinlasma-mesaji-ikimiz-yonetimdeyken-sorun-yasamayacagiz-2557483",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/dunya/cin-abd-ve-rusya-liderleri-uclu-zirvede-bir-araya-geldi/4130180",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-19T12:30:00+03:00",
+      "updatedAt": "2026-11-19T12:30:00+03:00"
+    },
+    {
+      "id": "89463a15fdb11f74",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Pastor convicted in Moïse killing",
+          "title": "Florida pastor convicted over the 2021 killing of Haiti’s president Moïse",
+          "summary": {
+            "what": "A Miami jury found Christian Emmanuel Sanon, 68, a Haitian-American pastor, guilty on all eight charges linked to the 2021 assassination of President Jovenel Moïse.",
+            "why": "Prosecutors said South Florida was where the plot to oust Moïse was planned and financed, and that Sanon was the conspirators’ first choice to replace him.",
+            "next": "Sanon faces up to life in prison and is due to be sentenced on 10 February; his lawyer says the defence will appeal."
+          },
+          "body": [
+            {
+              "subhead": "Guilty on all counts",
+              "blocks": [
+                {
+                  "text": "A Florida pastor with dual Haitian and American citizenship has been convicted of US charges arising from the 2021 assassination of the Haitian president, Jovenel Moïse, The Guardian, Al Jazeera and the South China Morning Post report. Christian Emmanuel Sanon, 68, was found guilty on Wednesday on all eight charges, including conspiring to kill the president, after a nearly eight-week trial in federal court in Miami, Al Jazeera says. He faces up to life in prison and is due to be sentenced on 10 February."
+                },
+                {
+                  "text": "Sanon, who remains in federal custody, showed little reaction as the verdict was read, Al Jazeera reports. His lawyer, Zeljka Bozanic, said the defence team was disappointed and would appeal at the appropriate time. Prosecutors declined to comment."
+                }
+              ]
+            },
+            {
+              "subhead": "The plot",
+              "blocks": [
+                {
+                  "text": "Prosecutors said South Florida was a hub for planning and financing the plot to oust Moïse and install a president of the conspirators’ choosing, and that Sanon was their initial choice, The Guardian reports. They said he helped raise money and arranged travel and lodging in Haiti. According to the indictment, the plan took shape in April 2021, when Sanon met a former Haitian senator and several US businesspeople in South Florida; once in power he was to award contracts to two Florida companies known as CTU, which first hired about 18 Colombians with military training to guard him."
+                },
+                {
+                  "text": "By June 2021 the conspirators decided Sanon had neither the constitutional qualifications nor the popular support to become president, and moved to Wendelle Coq Thélot, a former supreme court judge who died as a fugitive in January 2025, The Guardian says. Sanon told the court he had been in contact with the group but denied knowing of any plan to kill Moïse."
+                }
+              ]
+            },
+            {
+              "subhead": "The killing and the wider case",
+              "blocks": [
+                {
+                  "text": "Moïse, 53, was shot dead in his home on 7 July 2021 by a squad of mostly retired Colombian soldiers, who also wounded his wife, Martine. Prosecutors say about two dozen foreign mercenaries were paid with money from US programmes meant to help businesses during the Covid pandemic. US prosecutors have charged more than 40 people over the assassination, and a dozen have been convicted, five of whom are serving life sentences, The Guardian and Al Jazeera report. Those still to be tried include Joseph Felix Badio, a former government anti-corruption official, Al Jazeera says."
+                }
+              ]
+            },
+            {
+              "subhead": "Haiti since",
+              "blocks": [
+                {
+                  "text": "Haiti has had no president since the killing. Gangs have seized much of the capital, and the UN human rights office recorded 4,595 people killed in armed violence between 1 January and 31 October this year, Al Jazeera reports. Martine Moïse, a key witness at the trial, has registered as a candidate in Haiti’s 2027 general election, the first in more than ten years."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Charges he was convicted on",
+              "value": "8",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Length of the trial",
+              "value": "nearly 8 weeks",
+              "source": "The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Sentencing date",
+              "value": "10 Feb",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "People charged by US prosecutors",
+              "value": "40+",
+              "source": "The Guardian, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Miami",
+            "lat": 25.76,
+            "lon": -80.19,
+            "region": "Florida, United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Moïse suikastında papaza mahkûmiyet",
+          "title": "Haiti Devlet Başkanı Moïse suikastı davasında Floridalı papaz suçlu bulundu",
+          "summary": {
+            "what": "Miami’de jüri, Haiti asıllı ABD vatandaşı papaz Christian Emmanuel Sanon’u (68) Devlet Başkanı Jovenel Moïse’in 2021’deki suikastıyla ilgili sekiz suçlamanın tamamından suçlu buldu.",
+            "why": "Savcılara göre Moïse’i devirme planı Güney Florida’da hazırlanıp finanse edildi; Sanon da onun yerine geçirilmek istenen ilk isimdi.",
+            "next": "Sanon’u ömür boyu hapis cezası bekliyor; ceza 10 Şubat’ta açıklanacak, avukatı karara itiraz edeceklerini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Tüm suçlamalardan mahkûm",
+              "blocks": [
+                {
+                  "text": "The Guardian, Al Jazeera ve South China Morning Post’un haberine göre Haiti ve ABD vatandaşı Floridalı bir papaz, Haiti Devlet Başkanı Jovenel Moïse’in 2021’deki suikastıyla ilgili ABD’deki davada mahkûm oldu. Al Jazeera’ya göre 68 yaşındaki Christian Emmanuel Sanon, Miami’deki federal mahkemede yaklaşık sekiz hafta süren davanın ardından çarşamba günü, cumhurbaşkanını öldürmeye yönelik komplo dahil sekiz suçlamanın tamamından suçlu bulundu. Sanon’u ömür boyu hapis cezası bekliyor; cezası 10 Şubat’ta açıklanacak."
+                },
+                {
+                  "text": "Al Jazeera’ya göre federal gözetim altında tutulan Sanon, karar okunurken pek tepki göstermedi. Avukatı Zeljka Bozanic, savunma ekibinin hayal kırıklığına uğradığını ve uygun zamanda itiraz edeceklerini söyledi. Savcılar yorum yapmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Plan",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre savcılar, Güney Florida’nın Moïse’i devirip yerine komplocuların seçtiği birini getirme planının hazırlanıp finanse edildiği merkez olduğunu ve Sanon’un ilk tercih olduğunu söyledi. Sanon’un para topladığını, Haiti’ye yolculuk ve konaklamayı ayarladığını belirttiler. İddianameye göre plan Nisan 2021’de, Sanon’un Güney Florida’da eski bir Haitili senatör ve birkaç ABD’li iş insanıyla görüşmesiyle şekillendi. Sanon iktidara gelince CTU olarak bilinen iki Florida şirketine sözleşme verecekti; CTU da onu korumak için askeri eğitimli yaklaşık 18 Kolombiyalıyı işe aldı."
+                },
+                {
+                  "text": "The Guardian’a göre Haziran 2021’de komplocular Sanon’un ne anayasal yeterliliği ne de halk desteği olduğuna karar verip desteklerini, Ocak 2025’te firariyken ölen eski Yüksek Mahkeme yargıcı Wendelle Coq Thélot’ya kaydırdı. Sanon mahkemede grupla temas kurduğunu kabul etti ancak Moïse’i öldürme planından haberi olmadığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Suikast ve geniş dava",
+              "blocks": [
+                {
+                  "text": "53 yaşındaki Moïse, 7 Temmuz 2021’de evinde çoğu emekli Kolombiyalı askerlerden oluşan bir grup tarafından öldürüldü; eşi Martine de yaralandı. Savcılara göre yaklaşık iki düzine yabancı paralı askere, Covid salgınında işletmelere yardım için kurulan ABD programlarından alınan parayla ödeme yapıldı. The Guardian ve Al Jazeera’ya göre ABD’li savcılar suikastla ilgili 40’tan fazla kişiyi suçladı; bunlardan on ikisi mahkûm oldu, beşi ömür boyu hapis yatıyor. Al Jazeera’ya göre yargılanmayı bekleyenler arasında eski hükümet yolsuzlukla mücadele yetkilisi Joseph Felix Badio da var."
+                }
+              ]
+            },
+            {
+              "subhead": "O günden bu yana Haiti",
+              "blocks": [
+                {
+                  "text": "Haiti’nin suikasttan bu yana devlet başkanı yok. Al Jazeera’ya göre çeteler başkentin büyük bölümünü ele geçirdi; BM İnsan Hakları Ofisi bu yıl 1 Ocak-31 Ekim arasında silahlı şiddette 4.595 kişinin öldüğünü kaydetti. Davanın kilit tanığı Martine Moïse, Haiti’de on yılı aşkın sürenin ardından yapılacak ilk seçim olan 2027 genel seçimlerine aday olarak kaydoldu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Suçlu bulunduğu suçlama",
+              "value": "8",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Davanın süresi",
+              "value": "yaklaşık 8 hafta",
+              "source": "The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Cezanın açıklanacağı tarih",
+              "value": "10 Şubat",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "ABD’de suçlanan kişi sayısı",
+              "value": "40+",
+              "source": "The Guardian, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Miami",
+            "lat": 25.76,
+            "lon": -80.19,
+            "region": "Florida, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-18T22:31:41.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-18T23:05:08.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-18T23:05:08.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T03:58:10.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/americas/article/3374968/us-court-convicts-florida-pastor-over-plot-assassinate-haitis-president",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-19T12:30:00+03:00",
+      "updatedAt": "2026-11-19T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "d807b0e7c639931e",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "According to Diken, how many people are now under arrest in the fund probe?",
+          "options": ["96", "136", "176"]
+        },
+        "tr": {
+          "question": "Diken’e göre fon soruşturmasında tutuklu sayısı kaça yükseldi?",
+          "options": ["96", "136", "176"]
+        }
+      }
+    },
+    {
+      "storyId": "6a21dab5c79c6557",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How did Elon Musk say he felt about his record spending on the US midterms?",
+          "options": ["Proud of it", "Ready to double it", "Pretty foolish"]
+        },
+        "tr": {
+          "question": "Elon Musk, ABD ara seçimlerine yaptığı rekor harcama için ne hissettiğini söyledi?",
+          "options": ["Gurur duyduğunu", "İki katına çıkaracağını", "Oldukça aptal hissettiğini"]
+        }
+      }
+    },
+    {
+      "storyId": "89463a15fdb11f74",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "When is Christian Emmanuel Sanon due to be sentenced?",
+          "options": ["10 February", "7 July", "1 January"]
+        },
+        "tr": {
+          "question": "Christian Emmanuel Sanon’un cezası ne zaman açıklanacak?",
+          "options": ["10 Şubat", "7 Temmuz", "1 Ocak"]
+        }
+      }
+    }
+  ],
+  "abroad": [
+    {
+      "id": "bfdc8d829c9c77c7",
+      "person": "Alperen Şengün",
+      "kind": "basketball",
+      "label": "confirmed",
+      "versions": {
+        "en": {
+          "where": "Houston Rockets, NBA",
+          "title": "Hit in both eyes and forced off in the Rockets’ 119-104 win at Indiana",
+          "headline": "Alperen Şengün leaves the Rockets’ win at Indiana with a scratched cornea feared",
+          "story": [
+            "Alperen Şengün could not finish the Houston Rockets’ 119-104 win away to the Indiana Pacers. With 7:22 left in the second quarter he took a blow to the face in a rebound battle with Aaron Nesmith, stayed down, and after treatment on court walked to the locker room with a towel over his face, Habertürk reports. He did not return.",
+            "He had 7 points, 7 rebounds and 1 assist in 14 minutes before the injury, Anadolu Agency reports. Coach Ime Udoka said both eyes were affected: “There is some swelling in his right eye. I think there is a scratch on the cornea of his left eye. I’m not sure what that means for recovery, but hopefully he’s fine,” according to AA, Cumhuriyet and Diken.",
+            "No timetable for his return has been given; his condition should become clearer after further checks, Habertürk says. The win was Houston’s fifth in their last six games, with Kevin Durant scoring 21."
+          ],
+          "facts": [
+            {
+              "value": "7+7",
+              "label": "Points and rebounds before the injury"
+            }
+          ]
+        },
+        "tr": {
+          "where": "Houston Rockets, NBA",
+          "title": "Rockets’ın Indiana’yı 119-104 yendiği maçta iki gözüne darbe alıp oyundan çıktı",
+          "headline": "Alperen Şengün, gözüne aldığı darbeyle Indiana maçını tamamlayamadı",
+          "story": [
+            "Alperen Şengün, Houston Rockets’ın deplasmanda Indiana Pacers’ı 119-104 yendiği maçı tamamlayamadı. Habertürk’e göre milli oyuncu ikinci çeyreğin bitimine 7 dakika 22 saniye kala Aaron Nesmith ile girdiği ribaunt mücadelesinde yüzüne darbe aldı, yerde kaldı ve bir süre saha içinde tedavi gördükten sonra yüzünü havluyla kapatarak soyunma odasına gitti. Bir daha parkeye dönmedi.",
+            "Anadolu Ajansı’na göre Alperen sakatlanana kadar 14 dakikada 7 sayı, 7 ribaunt ve 1 asistle oynadı. AA, Cumhuriyet ve Diken’in aktardığına göre Başantrenör Ime Udoka şöyle konuştu: “Aslına bakılırsa her iki gözünde de sorun var. Sağ gözünde biraz şişlik var. Sol gözünün korneasında da sanırım bir çizik var. Bunun ne anlama geldiğinden emin değilim ama umarım iyidir.”",
+            "Habertürk’e göre sahalara ne zaman döneceği açıklanmadı; durumu yapılacak kontrollerin ardından netlik kazanacak. Kevin Durant’ın 21 sayı attığı maçla Rockets son 6 maçında 5. galibiyetini aldı."
+          ],
+          "facts": [
+            {
+              "value": "7+7",
+              "label": "Sakatlanmadan önce sayı ve ribaunt"
+            }
+          ]
+        }
+      },
+      "stats": {
+        "sport": "basketball",
+        "minutes": 14,
+        "points": 7,
+        "rebounds": 7,
+        "assists": 1
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/alperen-sengun-sakatlandi-mi-alperen-sengun-un-saglik-durumu-nasil-sahalara-ne-zaman-donecek-2557461"
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/foto/houston-rockets-ta-alperen-sengun-sakatlandi-3928412"
+        },
+        {
+          "sourceId": "aa-spor",
+          "url": "https://www.aa.com.tr/tr/spor/milli-basketbolcu-alperen-sengun-iki-gozune-aldigi-darbeyle-sakatlandi/4130059"
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/alperen-sengun-sakatlandi-2/"
+        }
+      ],
+      "updatedAt": "2026-11-19T12:30:00+03:00",
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/dc40d573-3816-4303-85bf-307e37752f1a.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/spor/alperen-sengun-sakatlandi-mi-alperen-sengun-un-saglik-durumu-nasil-sahalara-ne-zaman-donecek-2557461"
+      }
+    }
+  ]
+}
