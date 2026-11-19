@@ -442,7 +442,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aff2f80c757abf656938372.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6aff2f80c757abf656938372.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/duran-ve-celikten-kizilelmanin-envantere-girmesine-iliskin-aciklama-43384227"
@@ -498,7 +498,6 @@
             "why": "At that price the maker of Claude is worth about $2tn, more than Meta, Tesla or Walmart, TechCrunch says. It is the first frontier AI lab to list.",
             "next": "Investors will watch whether its growth lasts: the company lost $104bn in the first nine months of 2026, its filing shows."
           },
-          "news": "Anthropic shares opened on Nasdaq at $111.50, 34% above the $83 IPO price, valuing the company at about $2tn.",
           "body": [
             {
               "subhead": "The debut",
@@ -582,7 +581,8 @@
             "before": 83,
             "after": 111.5,
             "source": "Al Jazeera, The Guardian"
-          }
+          },
+          "news": "Anthropic shares opened on Nasdaq at $111.50, 34% above the $83 IPO price, valuing the company at about $2tn."
         },
         "tr": {
           "shortTitle": "Anthropic borsaya %34 primle açıldı",
@@ -592,7 +592,6 @@
             "why": "TechCrunch’a göre bu fiyatla Claude’un geliştiricisi yaklaşık 2 trilyon dolar değerle Meta, Tesla ve Walmart’ı geride bırakıyor.",
             "next": "Yatırımcılar büyümenin sürüp sürmeyeceğine bakacak: şirketin 2026’nın ilk dokuz ayındaki net zararı 104 milyar dolar."
           },
-          "news": "Anthropic hisseleri Nasdaq’ta 83 dolarlık halka arz fiyatının %34 üzerinde, 111,50 dolardan açıldı; şirketin değeri yaklaşık 2 trilyon dolar.",
           "body": [
             {
               "subhead": "Borsadaki ilk gün",
@@ -679,7 +678,8 @@
             "before": 83,
             "after": 111.5,
             "source": "Al Jazeera, The Guardian"
-          }
+          },
+          "news": "Anthropic hisseleri Nasdaq’ta 83 dolarlık halka arz fiyatının %34 üzerinde, 111,50 dolardan açıldı; şirketin değeri yaklaşık 2 trilyon dolar."
         }
       },
       "timeline": [
@@ -1182,7 +1182,6 @@
             "why": "It was the first incursion across the line publicly announced since the October 2025 ceasefire; Hamas calls it a flagrant violation of the deal.",
             "next": "The Trump-led Board of Peace has warned the UN Security Council that “a ceasefire that delivers nothing visible cannot be sustained indefinitely”."
           },
-          "news": "Israel says its raid beyond Gaza’s Yellow Line is over; Hamas’s media office says about 6,000 people fled their homes and tents.",
           "body": [
             {
               "subhead": "The operation is over",
@@ -1244,7 +1243,8 @@
               "value": "Over 60%",
               "source": "BBC"
             }
-          ]
+          ],
+          "news": "Israel says its raid beyond Gaza’s Yellow Line is over; Hamas’s media office says about 6,000 people fled their homes and tents."
         },
         "tr": {
           "shortTitle": "İsrail Sarı Hat operasyonunu bitirdi",
@@ -1254,7 +1254,6 @@
             "why": "Bu, Ekim 2025 ateşkesinden bu yana hattın ötesine kamuoyuna duyurulan ilk girişti; Hamas operasyonu ateşkesin açık ihlali sayıyor.",
             "next": "Trump’ın başkanlığındaki Barış Kurulu, BM Güvenlik Konseyi’ne “görünür hiçbir şey sağlamayan bir ateşkes süresiz sürdürülemez” uyarısında bulundu."
           },
-          "news": "İsrail, Gazze’de Sarı Hat’ın ötesindeki operasyonun bittiğini açıkladı; Hamas’ın medya ofisine göre yaklaşık 6 bin kişi evini ve çadırını terk etti.",
           "body": [
             {
               "subhead": "Operasyon sona erdi",
@@ -1316,7 +1315,8 @@
               "value": "%60’tan fazla",
               "source": "BBC"
             }
-          ]
+          ],
+          "news": "İsrail, Gazze’de Sarı Hat’ın ötesindeki operasyonun bittiğini açıkladı; Hamas’ın medya ofisine göre yaklaşık 6 bin kişi evini ve çadırını terk etti."
         }
       },
       "timeline": [
@@ -1400,6 +1400,67 @@
           "question": "Çarşamba gecesi Çittagong’daki baba evi ateşe verilen isim kim?",
           "options": ["Muhammed Yunus", "Tarık Rahman", "Salahuddin Ahmed"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-121",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Zalgiris Kaunas",
+        "ours": false,
+        "team": "zalgiris-kaunas"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-19T18:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/121"
+      }
+    },
+    {
+      "id": "euroleague-e2026-123",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Armani Olimpia Milan",
+        "ours": false,
+        "team": "armani-olimpia-milan"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-19T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/123"
       }
     }
   ]
