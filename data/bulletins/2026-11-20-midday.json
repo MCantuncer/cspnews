@@ -94,7 +94,7 @@
           ],
           "place": {
             "name": "Adana",
-            "lat": 37.0,
+            "lat": 37,
             "lon": 35.32,
             "region": "Türkiye"
           }
@@ -181,7 +181,7 @@
           ],
           "place": {
             "name": "Adana",
-            "lat": 37.0,
+            "lat": 37,
             "lon": 35.32,
             "region": "Türkiye"
           }
@@ -1586,6 +1586,69 @@
           "question": "İngiltere–AB gençlik programıyla her yönde yılda kaç genç gidebilecek?",
           "options": ["50.000", "100.000", "250.000"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-127",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-20T17:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/127"
+      }
+    },
+    {
+      "id": "espn-401909312",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "short": "Nuggets",
+        "ours": false,
+        "team": "denver-nuggets"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-21T03:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909312"
       }
     }
   ]
