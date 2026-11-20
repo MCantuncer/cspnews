@@ -1,0 +1,2087 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-20T07:30:00+03:00",
+  "writtenAt": "2026-11-20T07:01:48+03:00",
+  "stories": [
+    {
+      "id": "6fba5cbec40c990d",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "New rules for council mayoral votes",
+          "title": "New rules for council votes that pick a replacement mayor",
+          "summary": {
+            "what": "A regulation in the Official Gazette sets out how councils elect a mayor or acting mayor when the post falls vacant.",
+            "why": "It fixes who may stand, how ballots are cast and counted, and when a round must be rerun, Anadolu Agency and Habertürk report.",
+            "next": "The rules took effect on 20 November, when they were published; the environment and urbanisation minister oversees them."
+          },
+          "body": [
+            {
+              "subhead": "What changed",
+              "blocks": [
+                {
+                  "text": "Türkiye has set out new rules for the votes that municipal councils hold when a mayor’s office falls vacant. A regulation prepared by the Ministry of Environment, Urbanisation and Climate Change was published in the Official Gazette dated 20 November 2026 and took effect the same day, Anadolu Agency (AA), Sabah, Habertürk, Sözcü and A Haber report."
+                },
+                {
+                  "text": "It adds a new Article 19/A to the Municipal Council Working Regulation of 9 October 2005. The article covers both the election of a mayor and of an acting mayor, whenever either post is vacated for any reason."
+                }
+              ]
+            },
+            {
+              "subhead": "Who can stand",
+              "blocks": [
+                {
+                  "text": "When the post falls vacant, the provincial governor sets the date of the council’s voting session within ten days, AA reports. Council members who want to run, and party groups that want to nominate someone, must apply to the council’s presiding board in the first sitting of that session. No new candidacies are accepted after that sitting, although a candidate may withdraw before any round of voting. The names are announced to the council and entered in the minutes before voting begins."
+                },
+                {
+                  "text": "Candidates may vote, but they may not chair the sessions where the election takes place or sit on the presiding board, Habertürk and Sözcü note. Each party group and the independent members can name one observer, who may pass objections and proposals to the board; the board must hear the observers and record their views before it rules."
+                }
+              ]
+            },
+            {
+              "subhead": "How the vote works",
+              "blocks": [
+                {
+                  "text": "The vote is secret and uses a single combined ballot with the candidates listed in alphabetical order. Members stamp the box of their choice, fold the ballot if needed, put it in an envelope with no identifying mark and drop it into a transparent ballot box placed where everyone in the chamber can see it. The board must set up at least two closed voting booths."
+                },
+                {
+                  "text": "A ballot without the board’s seal, with an identifying mark or with more than one candidate stamped is invalid. Printing faults, stains or creases do not void a vote, nor does a stamp that strays over a line as long as the choice is clear, Sözcü reports."
+                }
+              ]
+            },
+            {
+              "subhead": "When a round is rerun",
+              "blocks": [
+                {
+                  "text": "If the box holds more sealed envelopes than the number of members who voted, the round is repeated without opening them, AA says. Unsealed envelopes are kept apart, unopened, to be destroyed. After the result, each round’s ballots and envelopes are sealed in an envelope signed by the board and kept until the deadline for a court challenge passes, or until a court rules on one."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "New article in the council regulation",
+              "value": "19/A",
+              "source": "Official Gazette, via AA"
+            },
+            {
+              "label": "Days for the governor to set the vote",
+              "value": "10",
+              "source": "AA, Habertürk"
+            },
+            {
+              "label": "Closed voting booths, at least",
+              "value": "2",
+              "source": "AA"
+            },
+            {
+              "label": "In force from",
+              "value": "20 Nov",
+              "source": "Sözcü"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Meclislerde başkan seçimine yeni kurallar",
+          "title": "Belediye başkanlığı boşalınca yapılacak meclis seçimine yeni kurallar",
+          "summary": {
+            "what": "Resmî Gazete’de yayımlanan yönetmelik, başkanlık ya da başkanvekilliği boşaldığında meclisin nasıl seçim yapacağını düzenledi.",
+            "why": "Adaylık, oy verme, sayım ve turun yenilenmesi kurallara bağlandı; AA ve Habertürk ayrıntıları aktardı.",
+            "next": "Yönetmelik 20 Kasım’da yayımlandığı gün yürürlüğe girdi; hükümlerini Çevre, Şehircilik ve İklim Değişikliği Bakanı yürütecek."
+          },
+          "body": [
+            {
+              "subhead": "Ne değişti",
+              "blocks": [
+                {
+                  "text": "Belediye başkanlığı ya da başkanvekilliği boşaldığında belediye meclisinde yapılacak seçimin kuralları yeniden yazıldı. Çevre, Şehircilik ve İklim Değişikliği Bakanlığının hazırladığı yönetmelik değişikliği, 20 Kasım 2026 tarihli Resmî Gazete’de yayımlanarak yürürlüğe girdi. Anadolu Ajansı (AA), Sabah, Habertürk, Sözcü ve A Haber düzenlemeyi duyurdu."
+                },
+                {
+                  "text": "Değişiklikle 9 Ekim 2005 tarihli Belediye Meclisi Çalışma Yönetmeliğine 19/A maddesi eklendi. Madde, başkanlığın ya da başkanvekilliğinin herhangi bir nedenle boşalması hâlinde yapılacak seçimi kapsıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Kim aday olabilir",
+              "blocks": [
+                {
+                  "text": "AA’nın aktardığına göre koltuk boşaldığında oylama toplantısının tarihini vali 10 gün içinde belirleyecek. Aday olmak isteyen meclis üyeleri ve aday göstermek isteyen parti grupları, ilk birleşimin ilk oturumunda meclis başkanlık divanına başvuracak. Bu oturumdan sonra adaylık başvurusu alınmayacak, ancak adaylar her oylama öncesinde çekilebilecek. Adaylar oylamadan önce meclise duyurulup tutanağa geçirilecek."
+                },
+                {
+                  "text": "Habertürk ve Sözcü’nün aktardığına göre aday olan üyeler oy kullanabilecek ama seçim oturumlarını yönetemeyecek, başkanlık divanında da görev alamayacak. Her parti grubu ve bağımsız üyeler birer gözlemci belirleyebilecek; divan, itirazlar hakkında karar vermeden önce gözlemcileri dinleyip görüşlerini tutanağa geçirecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Oylama nasıl yapılacak",
+              "blocks": [
+                {
+                  "text": "Seçim gizli oyla, adayların alfabetik sırayla yer aldığı birleşik oy pusulasıyla yapılacak. Üyeler seçtikleri adayın alanına tercih mührü basacak, pusulayı tanıtıcı işaret koymadan zarfa koyup herkesin görebileceği yere yerleştirilen şeffaf sandığa atacak. Divan en az iki kapalı oy verme kabini hazırlatacak."
+                },
+                {
+                  "text": "Başkanlık mührü olmayan, tanıtıcı işaret taşıyan ya da birden fazla adaya mühür basılan pusulalar geçersiz sayılacak. Sözcü’ye göre basım hatası, leke ya da kırışıklık ve hangi adaya oy verildiği anlaşıldığı sürece çizgiyi aşan mühür oyu geçersiz kılmayacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Tur ne zaman yenilenecek",
+              "blocks": [
+                {
+                  "text": "AA’ya göre sandıktan oy kullanan üye sayısından fazla mühürlü zarf çıkarsa zarflar açılmadan o turun seçimi yenilenecek. Mühürsüz zarflar açılmadan, imha edilmek üzere ayrı tutulacak. Sonuç açıklandıktan sonra her turun pusula ve zarfları divan üyelerinin imzaladığı bir zarfta mühürlenecek ve dava açma süresi bitene, dava açılırsa karar verilene kadar saklanacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yönetmeliğe eklenen yeni madde",
+              "value": "19/A",
+              "source": "Resmî Gazete, AA aktarımıyla"
+            },
+            {
+              "label": "Valinin seçim tarihini belirleme süresi (gün)",
+              "value": "10",
+              "source": "AA, Habertürk"
+            },
+            {
+              "label": "En az kapalı oy kabini",
+              "value": "2",
+              "source": "AA"
+            },
+            {
+              "label": "Yürürlük tarihi",
+              "value": "20 Kasım",
+              "source": "Sözcü"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T21:18:14.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T22:36:56.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T22:36:56.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T22:48:27.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T23:05:02.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/20/ver1795127740/3928643/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/belediye-baskani-ve-baskan-vekili-secimlerinde-yeni-duzenleme-resmi-gazete-de-3928643"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/19/son-dakika-i-belediye-baskani-ve-vekil-secimlerinde-yeni-donem-resmi-gazetede-yayimlandi-baskanlik-koltugu-bosalirsa-ne-olacak",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/20/belediye-meclislerinde-secim-sistemi-degisti-karar-resmi-gazetede",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/belediye-baskani-ve-baskan-vekili-secimlerinde-yeni-duzenleme-resmi-gazete-de-3928643",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/belediye-meclisindeki-baskan-secimlerine-yeni-kurallar-p382882",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/belediye-meclisi-calisma-yonetmeliginde-degisiklik-yapilmasina-dair-yonetmelik-resmi-gazetede/4131620",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "574f8356042e8e8a",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Bahçeli: Erdoğan belonged in Shenzhen",
+          "title": "Bahçeli says the Shenzhen summit should have included Erdoğan",
+          "summary": {
+            "what": "MHP leader Devlet Bahçeli said world politics cannot be redesigned without Türkiye and that Erdoğan should have joined Trump, Xi and Putin.",
+            "why": "The government’s ally called the summit important but not a remaking of the world order, and revived his idea of a Türkiye–Russia–China alliance.",
+            "next": "He gave no sign of an official request; the statement was written, and outlets from all camps carried it."
+          },
+          "body": [
+            {
+              "subhead": "The statement",
+              "blocks": [
+                {
+                  "text": "Devlet Bahçeli, leader of the Nationalist Movement Party (MHP) and President Recep Tayyip Erdoğan’s ally in government, said on Thursday that the meeting of Xi Jinping, Donald Trump and Vladimir Putin in Shenzhen at the Asia-Pacific Economic Cooperation (APEC) summit was missing Türkiye. In a written statement carried by A Haber, Sabah, Hürriyet, Habertürk, Sözcü, NTV and Euronews Türkçe, he said the summit “should have been four-way, not three-way”, with Erdoğan at the table."
+                },
+                {
+                  "text": "Bahçeli noted that the 21-member APEC is the only regional body in which Russia, the United States and China are all members. He welcomed the leaders’ shared words, especially their acceptance in principle of reform of the United Nations, but said it would be unrealistic to see the summit as the world being rebuilt or the cards being dealt again."
+                }
+              ]
+            },
+            {
+              "subhead": "“A centre state”",
+              "blocks": [
+                {
+                  "text": "The table, he argued, left out Europe, Africa, the Middle East and South Asia, “but more importantly, Türkiye is not there”. He said Türkiye represents a Turkic world of 250 million people and an Islamic world of 2 billion, has the world’s 16th-largest economy and one of its strongest armies, and is one of the rare countries able to mediate with all major powers at once, Hürriyet reports."
+                },
+                {
+                  "quote": "Today, world politics cannot be redesigned while ignoring Türkiye.",
+                  "speaker": "Devlet Bahçeli",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "quote": "Türkiye is not a minor state to be squeezed onto those maps; it is a centre state.",
+                  "speaker": "Devlet Bahçeli",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "An old idea revived",
+              "blocks": [
+                {
+                  "text": "Bahçeli also returned to the “TRÇ” alliance of Türkiye, Russia and China that he has proposed before, Habertürk and Sözcü report. He said the three meeting on equal terms would let Türkiye act without being tied to a single foreign-policy axis and help global peace, and that its place in NATO and its ties with both East and West make it a balancing force."
+                },
+                {
+                  "text": "He added that Türkiye is “taking its place on the world stage as the head of a new pole”, according to Habertürk, and said neither Türkiye nor Erdoğan can be ignored if the world wants war, conflict and terror to end."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "APEC members",
+              "value": "21",
+              "source": "Bahçeli’s statement, via Hürriyet"
+            },
+            {
+              "label": "Turkic world, as Bahçeli put it",
+              "value": "250m",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Islamic world, as Bahçeli put it",
+              "value": "2bn",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Türkiye’s economy, world ranking cited",
+              "value": "16th",
+              "source": "Hürriyet"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Bahçeli: Zirvede Erdoğan da olmalıydı",
+          "title": "Bahçeli: Şenjen zirvesi üçlü değil, Erdoğan’lı dörtlü olmalıydı",
+          "summary": {
+            "what": "MHP Genel Başkanı Devlet Bahçeli, Trump, Şi ve Putin’in zirvesinde Erdoğan’ın da yer alması gerektiğini söyledi.",
+            "why": "Hükümet ortağı lider, zirveyi önemli bulsa da dünya düzeninin yeniden kurulması olarak görmedi ve “TRÇ” ittifakı önerisini hatırlattı.",
+            "next": "Açıklama yazılıydı; farklı kamplardan yedi yayın organı haberleştirdi, resmî bir girişimden söz edilmedi."
+          },
+          "body": [
+            {
+              "subhead": "Açıklama",
+              "blocks": [
+                {
+                  "text": "MHP Genel Başkanı Devlet Bahçeli, Çin’in Şenjen kentindeki Asya-Pasifik Ekonomik İşbirliği (APEC) Zirvesi’nde Şi Cinping, Donald Trump ve Vladimir Putin’in bir araya gelmesini yazılı bir açıklamayla değerlendirdi. A Haber, Sabah, Hürriyet, Habertürk, Sözcü, NTV ve Euronews Türkçe’nin aktardığı açıklamada Bahçeli, zirvenin “üçlü değil, Cumhurbaşkanı Erdoğan’ın da içinde yer aldığı dörtlü” olması gerektiğini söyledi."
+                },
+                {
+                  "text": "Bahçeli, 21 üyeli APEC’in Rusya, ABD ve Çin’in aynı anda üye olduğu tek bölgesel örgüt olduğunu hatırlattı. Liderlerin ortak mesajlarını, özellikle BM reformunun prensipte kabul görmesini önemli bulduğunu, ancak zirveyi “dünyanın yeniden kuruluşu, kartların yeniden dağıtılması” gibi görmenin gerçekçi olmayacağını belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "“Bir merkez devlet”",
+              "blocks": [
+                {
+                  "text": "Bahçeli’ye göre masada Avrupa, Afrika, Orta Doğu ve Güney Asya yoktu, “ancak bundan daha önemlisi, Türkiye yoktur”. Hürriyet’in aktardığına göre Türkiye’nin 250 milyonluk Türk dünyasını ve 2 milyarlık İslam dünyasını temsil ettiğini, dünyanın 16. büyük ekonomisi olduğunu ve tüm büyük aktörlerle aynı anda diplomasi yürütebilen ender ülkelerden biri olduğunu söyledi."
+                },
+                {
+                  "quote": "Bugün, dünya siyasetinin Türkiye’nin göz ardı edilerek yeniden dizaynı mümkün değildir.",
+                  "speaker": "Devlet Bahçeli",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "quote": "Türkiye, o haritalara sığdırılacak bir teferruat devlet değildir, bir merkez devlettir.",
+                  "speaker": "Devlet Bahçeli",
+                  "sourceId": "hurriyet"
+                }
+              ]
+            },
+            {
+              "subhead": "Eski öneri yeniden",
+              "blocks": [
+                {
+                  "text": "Habertürk ve Sözcü’nün aktardığına göre Bahçeli, daha önce önerdiği Türkiye, Rusya ve Çin’den oluşan “TRÇ” ittifakını da hatırlattı. Üç ülkenin eşit konumda bir araya gelmesinin Türkiye’nin tek bir dış politika eksenine bağlı kalmadan hareket etmesini sağlayacağını, NATO’daki yeri ve Doğu ile Batı’yla ilişkileri sayesinde Türkiye’nin bir denge unsuru olduğunu savundu."
+                },
+                {
+                  "text": "Habertürk’e göre Bahçeli, “Ülkemiz, yeni bir kutup başı olarak dünya ekonomi ve siyaset sahnesindeki yerini almaktadır” dedi ve savaş, çatışma ve terörün bitmesi isteniyorsa Türkiye’nin ve Erdoğan’ın görmezden gelinemeyeceğini vurguladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "APEC üye sayısı",
+              "value": "21",
+              "source": "Bahçeli’nin açıklaması, Hürriyet"
+            },
+            {
+              "label": "Bahçeli’ye göre Türk dünyası",
+              "value": "250 milyon",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Bahçeli’ye göre İslam dünyası",
+              "value": "2 milyar",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Anılan ekonomi sıralaması",
+              "value": "16.",
+              "source": "Hürriyet"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T14:56:16.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T15:13:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T15:13:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T15:50:18.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T16:19:51.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T17:09:39.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T18:38:13.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aff11f2c757abf6569382a7.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/mhp-genel-baskani-devlet-bahceli-turkiye-ve-erdogan-gormezden-gelinemez-43384197"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/19/mhp-lideri-devlet-bahceli-turkiye-yeni-bir-kutup-basidir",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/19/son-dakika-i-mhp-lideri-devlet-bahceli-turkiye-ve-erdogan-gormezden-gelinemez",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/mhp-genel-baskani-devlet-bahceli-turkiye-ve-erdogan-gormezden-gelinemez-43384197",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/mhp-genel-baskani-devlet-bahceli-cin-de-abd-baskani-donald-trump-rusya-devlet-baskani-vladimir-putin-ve-cin-devlet-baskani-si-cinping-in-katilimiyla-duzenlenen-zirveye-iliskin-3928594",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bahceli-den-uclu-zirveye-tepki-onerdikleri-ittifaki-hatirlatti-p382837",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bahceli-trump-si-putin-zirvesinde-erdogan-da-yer-almaliydi-1751662",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/19/bahceli-trump-si-putin-zirvesinde-erdogan-da-olmaliydi",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "971ae72474754341",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Two red-notice fugitives returned from Bulgaria",
+          "title": "Bulgaria hands over two red-notice fugitives, one linked to 60 crimes",
+          "summary": {
+            "what": "Emre Yalvan, named as a gang leader linked to 60 crimes, and Murat Saydam, wanted for drug dealing, were flown from Bulgaria to Istanbul.",
+            "why": "Interior Minister Mustafa Çiftçi presents it as proof that cross-border cooperation is closing in on fugitives abroad.",
+            "next": "Both were handed to police at Istanbul Airport; Yalvan faces the rest of a 4-year-7-month sentence and ten arrest warrants, Sabah says."
+          },
+          "body": [
+            {
+              "subhead": "Who was returned",
+              "blocks": [
+                {
+                  "text": "Two men wanted on Interpol red notices were extradited from Bulgaria to Türkiye on Thursday and handed to police at Istanbul Airport, the Interior Ministry said, as reported by Sabah, A Haber, Hürriyet, NTV and Habertürk."
+                },
+                {
+                  "text": "The ministry described Emre Yalvan as a manager of a “new-generation organised crime group”, wanted internationally for armed robbery at night by more than one person, wanted nationally for 11 offences and linked to 60 separate crimes. Sabah identifies the group as the armed gang known as “Karacellatlar” and says Yalvan used the code name “Arap”. The second man, Murat Saydam, was wanted on a red notice for drug dealing, deprivation of liberty by force or threat, possession of unlicensed firearms, armed threats and insult."
+                }
+              ]
+            },
+            {
+              "subhead": "A three-month process",
+              "blocks": [
+                {
+                  "text": "Yalvan was arrested in Bulgaria on 21 August 2026 on a warrant and red notice issued through the Bakırköy chief prosecutor’s office, Sabah reports. He faced ten separate arrest warrants in Türkiye and was also wanted to serve the rest of a final sentence of 4 years and 7 months for armed robbery. The Justice Ministry made a formal extradition request on 18 September, and the Haskovo regional court in Bulgaria approved it. The Interpol offices of the two countries then agreed the travel plan."
+                },
+                {
+                  "text": "The operation was coordinated by the police department for Interpol and Europol, intelligence, narcotics and organised-crime units, Istanbul police and the Justice Ministry, the ministry said."
+                }
+              ]
+            },
+            {
+              "subhead": "The minister’s message",
+              "blocks": [
+                {
+                  "text": "Interior Minister Mustafa Çiftçi said contacts with neighbouring countries, including his visit to Bulgaria on 11 August 2026, were producing results. He thanked Bulgaria’s interior minister Ivan Demerdzhiev."
+                },
+                {
+                  "quote": "We brought two fugitives wanted on red notices back from Bulgaria. One is the ringleader of an organised crime gang linked to 60 separate criminal acts, the other a drug dealer with a final prison sentence.",
+                  "speaker": "Mustafa Çiftçi",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "quote": "Wherever you run, we will find you one by one and hand you over to justice. No border hides a crime.",
+                  "speaker": "Mustafa Çiftçi",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Earlier, six fugitives, including the gang leaders Ahmet Dinç and Yusuf Namlı, who were also wanted on red notices, were returned to Türkiye under judicial cooperation with Georgia, Sabah notes."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Crimes linked to Emre Yalvan",
+              "value": "60",
+              "source": "Interior Ministry"
+            },
+            {
+              "label": "Arrest warrants for Yalvan in Türkiye",
+              "value": "10",
+              "source": "Sabah"
+            },
+            {
+              "label": "Sentence left to serve, in part",
+              "value": "4y 7m",
+              "source": "Sabah"
+            },
+            {
+              "label": "Arrested in Bulgaria",
+              "value": "21 Aug",
+              "source": "Sabah"
+            },
+            {
+              "label": "Formal extradition request",
+              "value": "18 Sep",
+              "source": "Sabah"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Kırmızı bültenli iki firari iade edildi",
+          "title": "Bulgaristan, 60 suça karışan çete yöneticisi dahil iki firariyi iade etti",
+          "summary": {
+            "what": "60 suç eylemine karıştığı belirtilen Emre Yalvan ile uyuşturucu ticaretinden aranan Murat Saydam, Bulgaristan’dan İstanbul’a getirildi.",
+            "why": "İçişleri Bakanı Mustafa Çiftçi, iadeyi yurt dışındaki firariler için “çemberin daraldığının” kanıtı olarak sundu.",
+            "next": "İkili İstanbul Havalimanı’nda emniyete teslim edildi; Sabah’a göre Yalvan’ın 4 yıl 7 aylık cezası ve 10 yakalama kararı var."
+          },
+          "body": [
+            {
+              "subhead": "İade edilenler",
+              "blocks": [
+                {
+                  "text": "Kırmızı bültenle aranan iki kişi perşembe günü Bulgaristan’dan Türkiye’ye iade edildi ve İstanbul Havalimanı’nda emniyete teslim edildi. İçişleri Bakanlığının açıklamasını Sabah, A Haber, Hürriyet, NTV ve Habertürk aktardı."
+                },
+                {
+                  "text": "Bakanlığa göre Emre Yalvan, “birden fazla kişi tarafından gece vakti silahla yağma” suçundan kırmızı bültenle, 11 ayrı suçtan da ulusal düzeyde aranan ve 60 farklı suç eylemine karıştığı belirlenen “yeni nesil organize suç örgütü” yöneticisi. Sabah, örgütün kamuoyunda “Karacellatlar” olarak bilinen silahlı çete olduğunu ve Yalvan’ın kod adının “Arap” olduğunu yazdı. Murat Saydam ise uyuşturucu ticareti, kişiyi hürriyetinden yoksun kılma, ruhsatsız silah bulundurma, silahla tehdit ve hakaret suçlarından kırmızı bültenle aranıyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Üç aylık süreç",
+              "blocks": [
+                {
+                  "text": "Sabah’ın haberine göre Yalvan, Bakırköy Cumhuriyet Başsavcılığının yakalama kararı ve kırmızı bülten üzerine 21 Ağustos 2026’da Bulgaristan’da tutuklandı. Türkiye’de hakkında 10 ayrı yakalama kararı bulunan Yalvan, silahlı yağmadan kesinleşen 4 yıl 7 aylık cezasının kalanını çekmek için de aranıyordu. Adalet Bakanlığı 18 Eylül’de resmî iade talebinde bulundu, Bulgaristan’daki Haskovo Bölge Mahkemesi iadeyi kabul etti. Ardından iki ülkenin INTERPOL birimleri seyahat programını belirledi."
+                },
+                {
+                  "text": "Çalışma; Emniyet Genel Müdürlüğü Interpol-Europol, İstihbarat, Narkotik ve KOM başkanlıkları, İstanbul Organize Suçlarla Mücadele Şubesi ve Adalet Bakanlığı koordinasyonunda yürütüldü."
+                }
+              ]
+            },
+            {
+              "subhead": "Bakanın mesajı",
+              "blocks": [
+                {
+                  "text": "İçişleri Bakanı Mustafa Çiftçi, komşu ülkelerle iş birliğinin ve 11 Ağustos 2026’daki Bulgaristan temaslarının sonuç verdiğini söyledi, Bulgaristan İçişleri Bakanı Ivan Demerdzhiev’e teşekkür etti."
+                },
+                {
+                  "quote": "Kırmızı bültenle aranan iki firariyi Bulgaristan’dan ülkemize getirdik. Biri 60 ayrı suç eylemiyle bağlantılı bir organize suç çetesi elebaşı, diğeri kesinleşmiş hapis cezası bulunan bir zehir taciri.",
+                  "speaker": "Mustafa Çiftçi",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "quote": "Nereye kaçarsanız kaçın, Türkiye’nin çelikten iradesiyle sizi tek tek bulacak, adalete teslim edeceğiz. Hiçbir sınır suçu örtmez.",
+                  "speaker": "Mustafa Çiftçi",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "Sabah, daha önce de Gürcistan’la yürütülen adli iş birliğiyle, aralarında kırmızı bültenle aranan çete elebaşları Ahmet Dinç ve Yusuf Namlı’nın bulunduğu 6 firarinin Türkiye’ye iade edildiğini hatırlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yalvan’ın karıştığı suç eylemi",
+              "value": "60",
+              "source": "İçişleri Bakanlığı"
+            },
+            {
+              "label": "Yalvan hakkındaki yakalama kararı",
+              "value": "10",
+              "source": "Sabah"
+            },
+            {
+              "label": "Kalanı çekilecek kesin ceza",
+              "value": "4 yıl 7 ay",
+              "source": "Sabah"
+            },
+            {
+              "label": "Bulgaristan’da tutuklanma",
+              "value": "21 Ağustos",
+              "source": "Sabah"
+            },
+            {
+              "label": "Resmî iade talebi",
+              "value": "18 Eylül",
+              "source": "Sabah"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T14:56:24.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T15:17:52.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T15:17:52.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T15:53:02.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T18:14:19.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aff131dc757abf6569382b0.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/bakan-ciftci-firariler-icin-cember-daraliyor-43384203"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/19/son-dakika-i-icisleri-bakanligi-duyurdu-3-kisi-daha-turkiyeye-iade-edildi",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/19/kirmizi-bultenle-aranan-2-firari-bulgaristandan-turkiyeye-getirildi",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/bakan-ciftci-firariler-icin-cember-daraliyor-43384203",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/kirmizi-bultenle-aranan-2-kisi-bulgaristandan-turkiyeye-iade-edildi-1751664",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/ciftci-cember-daraliyor-3928596",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "8985abfdde4bee12",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "60ff07a70f51c369",
+      "versions": {
+        "en": {
+          "news": "Anthropic closed its first trading day at about $97, 17% above its IPO price and well off its $111.50 open, as Wall Street fell about 2%.",
+          "shortTitle": "Anthropic closes first day at $97",
+          "title": "Anthropic ends its first day at $97 as Wall Street slides",
+          "summary": {
+            "what": "Anthropic’s shares closed their Nasdaq debut at just over $97, 17% above the $83 IPO price, after opening at $111.50, the Guardian reports.",
+            "why": "The listing did not lift the wider market: the S&P 500 fell for a sixth day and chipmakers slipped amid AI-bubble fears.",
+            "next": "Asian stocks fell up to 4% early on Friday; analysts say OpenAI, Nvidia and data-centre politics will decide the mood next."
+          },
+          "body": [
+            {
+              "subhead": "The close",
+              "blocks": [
+                {
+                  "text": "Anthropic’s shares ended their first day of trading on Thursday at just over $97, about 17% above the $83 price set in its initial public offering, the Guardian and France 24 report. That gave the maker of the Claude chatbot a market value of nearly $1.3 trillion, or $1.75 trillion on a fully diluted basis, the Guardian says."
+                },
+                {
+                  "text": "The close was well below the opening trade of $111.50, a 34% jump that briefly valued the company at more than $2 trillion. The upsized sale of 980 million shares raised $81.3 billion, beating SpaceX’s $75 billion listing in June to become the largest IPO on record. Reported demand was about six times the shares on offer, according to the Guardian."
+                }
+              ]
+            },
+            {
+              "subhead": "A falling market",
+              "blocks": [
+                {
+                  "text": "The debut did not carry the rest of Wall Street. The Dow Jones Industrial Average sank 2.2%, the S&P 500 fell 2% and the Nasdaq Composite dropped 2.3%, preliminary data cited by the Guardian showed. It was the S&P 500’s sixth straight fall, its longest losing run since April 2024, amid doubts about the AI boom and the turmoil at Nvidia since Jensen Huang’s exit as chief executive. Nvidia fell for a sixth day, and Micron and Broadcom also closed lower."
+                },
+                {
+                  "text": "France 24 said Anthropic went public “but fails to revive AI trade”, as investors took profits. In early trading on Friday, Asian stocks fell by up to 4%, the Guardian reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Promises and warnings",
+              "blocks": [
+                {
+                  "text": "Chief executive Dario Amodei, who rang the Nasdaq opening bell, said the listing put the company in a stronger financial position."
+                },
+                {
+                  "quote": "Today puts the company in a stronger financial position, and in doing so only strengthens our resolve to do the right thing.",
+                  "speaker": "Dario Amodei, Anthropic",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "The company’s prospectus shows revenue of $16.2 billion in the first half of 2026, against $4.6 billion for all of 2025, but losses of $104 billion in the first nine months of the year, the Guardian notes. France 24 adds that Anthropic carries $6.2 billion in debt and has signed deals requiring about $900 billion of spending. In the Wall Street Journal, Democratic senator Adam Schiff called on Congress to rule out a taxpayer bailout if the AI sector collapses, the Guardian reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Protests outside",
+              "blocks": [
+                {
+                  "text": "About 30 protesters gathered outside the Nasdaq building in Times Square and about three dozen outside Anthropic’s San Francisco headquarters, the Guardian reports. Police in New York detained three people, Euronews and Al Jazeera say. Demonstrators warned about the risk to ordinary investors if an AI bubble bursts, the environmental cost of data centres and AI’s links to immigration enforcement."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Closing price, first day",
+              "value": "$97",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Gain on the $83 IPO price",
+              "value": "17%",
+              "source": "The Guardian, France 24"
+            },
+            {
+              "label": "Market value at the close",
+              "value": "$1.3tn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Nasdaq Composite on the day",
+              "value": "−2.3%",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Share price: IPO price and first close",
+            "unit": "$",
+            "before": 83,
+            "after": 97,
+            "source": "The Guardian"
+          }
+        },
+        "tr": {
+          "news": "Anthropic ilk işlem gününü halka arz fiyatının %17 üzerinde, 97 dolar civarında kapattı; Wall Street yaklaşık %2 düştü.",
+          "shortTitle": "Anthropic ilk günü 97 dolardan kapattı",
+          "title": "Anthropic ilk günü 97 dolardan kapattı, Wall Street sert düştü",
+          "summary": {
+            "what": "Guardian’a göre Anthropic hisseleri Nasdaq’taki ilk günü 83 dolarlık halka arz fiyatının %17 üzerinde, 97 doların biraz üstünde kapattı.",
+            "why": "Rekor halka arz piyasayı kurtarmadı: S&P 500 üst üste altıncı gün düştü, yapay zekâ balonu kaygısıyla çip hisseleri geriledi.",
+            "next": "Asya borsaları cuma sabahı %4’e kadar düştü; analistlere göre gidişatı OpenAI, Nvidia ve veri merkezi siyaseti belirleyecek."
+          },
+          "body": [
+            {
+              "subhead": "Kapanış",
+              "blocks": [
+                {
+                  "text": "Guardian ve France 24’ün haberine göre Anthropic hisseleri perşembe günü ilk işlem gününü 97 doların biraz üzerinde, 83 dolarlık halka arz fiyatının yaklaşık %17 üstünde tamamladı. Guardian’a göre bu fiyatla Claude’un geliştiricisinin piyasa değeri 1,3 trilyon dolara yaklaştı; tam seyreltilmiş bazda 1,75 trilyon dolar."
+                },
+                {
+                  "text": "Kapanış, 111,50 dolarlık açılışın epey altında kaldı. Hisseler açılışta %34 yükselmiş ve şirketin değeri kısa süreliğine 2 trilyon doları aşmıştı. 980 milyon hisselik büyütülmüş satış 81,3 milyar dolar topladı ve SpaceX’in haziranda topladığı 75 milyar doları geçerek tarihin en büyük halka arzı oldu. Guardian’a göre talep, satışa sunulan hisselerin yaklaşık altı katıydı."
+                }
+              ]
+            },
+            {
+              "subhead": "Düşen piyasa",
+              "blocks": [
+                {
+                  "text": "Rekor çıkış Wall Street’i taşımaya yetmedi. Guardian’ın aktardığı ilk verilere göre Dow Jones %2,2, S&P 500 %2 ve Nasdaq Bileşik %2,3 düştü. S&P 500 üst üste altıncı gün geriledi; bu, Nisan 2024’ten bu yana en uzun düşüş serisi. Yapay zekâ yatırımlarının sürdürülebilirliğine dair kuşkular ve Jensen Huang’ın CEO’luktan ayrılmasından bu yana Nvidia’daki çalkantı piyasayı baskıladı. Nvidia altıncı gün de düştü, Micron ve Broadcom da günü ekside kapattı."
+                },
+                {
+                  "text": "France 24, Anthropic’in borsaya açıldığını “ama yapay zekâ hisselerini canlandıramadığını” yazdı; yatırımcılar kâr satışına gitti. Guardian’a göre cuma sabahı Asya borsaları %4’e varan kayıplar yaşadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Vaatler ve uyarılar",
+              "blocks": [
+                {
+                  "text": "Nasdaq’ın açılış zilini çalan CEO Dario Amodei, halka arzın şirketi mali açıdan güçlendirdiğini söyledi."
+                },
+                {
+                  "quote": "Bugün şirketi mali açıdan daha güçlü bir konuma getiriyor ve bu da doğru olanı yapma kararlılığımızı yalnızca güçlendiriyor.",
+                  "speaker": "Dario Amodei, Anthropic",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Guardian’a göre izahname, 2026’nın ilk yarısında 16,2 milyar dolar gelir gösteriyor; 2025’in tamamında bu rakam 4,6 milyar dolardı. Ancak şirketin yılın ilk dokuz ayındaki zararı 104 milyar dolar. France 24, Anthropic’in 6,2 milyar dolar borcu olduğunu ve yaklaşık 900 milyar dolarlık harcama gerektiren anlaşmalar imzaladığını ekliyor. Demokrat Senatör Adam Schiff ise Wall Street Journal’daki yazısında Kongre’den, sektör çökerse vergi mükelleflerinin parasıyla kurtarma yapılmayacağını açıkça söylemesini istedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kapıdaki protesto",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre Times Square’deki Nasdaq binası önünde yaklaşık 30, Anthropic’in San Francisco’daki merkezi önünde yaklaşık 36 kişi protesto yaptı. Euronews ve Al Jazeera, New York’ta polisin üç kişiyi gözaltına aldığını bildirdi. Göstericiler yapay zekâ balonu patlarsa küçük yatırımcının bedel ödeyeceği, veri merkezlerinin çevresel maliyeti ve yapay zekânın göçmen operasyonlarıyla bağı konusunda uyardı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İlk gün kapanış fiyatı",
+              "value": "97 dolar",
+              "source": "The Guardian"
+            },
+            {
+              "label": "83 dolarlık arz fiyatına göre kazanç",
+              "value": "%17",
+              "source": "The Guardian, France 24"
+            },
+            {
+              "label": "Kapanışta piyasa değeri",
+              "value": "1,3 trilyon dolar",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Nasdaq Bileşik günlük değişim",
+              "value": "-%2,3",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Hisse fiyatı: arz fiyatı ve ilk kapanış",
+            "unit": "$",
+            "before": 83,
+            "after": 97,
+            "source": "The Guardian"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T16:59:21.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T22:09:18.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T22:09:18.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/fe47626a-e465-11f1-a3ac-ebb478925cf0/w:1024/p:16x9/4699281-US-Anthropic-IPO-Explainer-0-1080i50ESSENCE-23792.png",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/tv-shows/business/20261119-anthropic-goes-public-after-blockbuster-ipo-but-fails-to-revive-ai-trade"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/19/us-protesters-warn-of-ai-bubble-as-anthropic-makes-stock-market-history",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "3a850c903b02169f",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Gemini takes control of the Mac",
+          "title": "Gemini can now use your Mac; Apple plans its own agent",
+          "summary": {
+            "what": "Google’s Gemini app for macOS can now work across a user’s apps, files and websites, and Apple is hiring to build its own computer-using agent.",
+            "why": "AI agents that act on a computer are the industry’s new race, and Apple is also tightening how far outside agents may reach into Macs.",
+            "next": "Gemini’s feature is in English in the US for paying subscribers; Apple’s agent is in early stages and could come by the end of 2027, Bloomberg says."
+          },
+          "body": [
+            {
+              "subhead": "What Gemini can do",
+              "blocks": [
+                {
+                  "text": "Google on Thursday added computer use to its Gemini desktop app for macOS, letting the AI carry out multi-step tasks for the user across local files, native Mac apps and websites, TechCrunch and The Verge report. The agent works in a background window with a live preview in the chat, so the user keeps their own screen and cursor free. Users decide which apps Gemini may access, and can pause, stop or approve its actions before they happen."
+                },
+                {
+                  "text": "Google suggests it for filling in forms, repeating a task across a batch of files, sorting files into folders, building slideshows from files or online dashboards, and listing items for sale. It is rolling out in English in the US and needs a Google AI Plus, Pro or Ultra subscription, TechCrunch says. Bloomberg HT and ShiftDelete.Net also covered the launch."
+                },
+                {
+                  "text": "TechCrunch notes that Google is a little late: OpenAI, Anthropic and Meta already offer agents in their desktop apps, and Google only this week widened the rollout of Gemini’s “Tasks” feature."
+                }
+              ]
+            },
+            {
+              "subhead": "Apple’s own agent",
+              "blocks": [
+                {
+                  "text": "Apple is building an agent of its own, according to a job listing first spotted by Bloomberg for a senior engineering manager to lead the work, The Verge and TechCrunch report. The listing says the engineer will work with the Siri, UI Frameworks and Apple Foundation Models teams."
+                },
+                {
+                  "quote": "Imagine an AI agent that can use a computer the way a capable person does. It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step.",
+                  "speaker": "Apple job listing",
+                  "sourceId": "techcrunch"
+                },
+                {
+                  "text": "Bloomberg writes that Apple “has eyed introducing the service as soon as the end of next year”, but that progress remains in the early stages, TechCrunch reports. Apple did not respond to TechCrunch’s request for comment."
+                }
+              ]
+            },
+            {
+              "subhead": "Tighter doors for others",
+              "blocks": [
+                {
+                  "text": "At the same time, Apple is making it harder for third-party agents to take full control of a Mac. The macOS 27.3 beta released this week previews settings and warnings that discourage users from granting “full disk access” to outside agents, The Verge and TechCrunch report. In October Apple told developers it would add controls so that only users who genuinely want to grant that level of access can do so, with very explicit action."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gemini plans that get computer use",
+              "value": "Plus, Pro, Ultra",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "First available",
+              "value": "US, English",
+              "source": "TechCrunch, The Verge"
+            },
+            {
+              "label": "macOS beta with new agent limits",
+              "value": "27.3",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Earliest Apple agent launch eyed",
+              "value": "End of 2027",
+              "source": "Bloomberg, via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Gemini artık Mac’i kullanabiliyor",
+          "title": "Gemini artık Mac’i kullanabiliyor, Apple da kendi ajanını hazırlıyor",
+          "summary": {
+            "what": "Google’ın macOS için Gemini uygulaması kullanıcının uygulamalarında, dosyalarında ve sitelerde iş yapabiliyor; Apple da kendi ajanı için mühendis arıyor.",
+            "why": "Bilgisayarı kullanan yapay zekâ ajanları sektörün yeni yarışı; Apple ise dış ajanların Mac’e erişimini zorlaştırıyor.",
+            "next": "Gemini özelliği ABD’de İngilizce ve ücretli abonelere açık; Bloomberg’e göre Apple’ın ajanı erken aşamada, en erken 2027 sonunda gelebilir."
+          },
+          "body": [
+            {
+              "subhead": "Gemini ne yapabiliyor",
+              "blocks": [
+                {
+                  "text": "TechCrunch ve The Verge’ün haberine göre Google perşembe günü macOS’teki Gemini masaüstü uygulamasına “computer use” (bilgisayar kullanımı) özelliğini ekledi. Yapay zekâ artık yerel dosyalar, Mac uygulamaları ve web siteleri arasında birden fazla adımdan oluşan işleri kullanıcı adına yapabiliyor. Ajan arka planda kendi penceresinde çalışıyor ve sohbette canlı önizleme gösteriyor; ekran ve imleç kullanıcıda kalıyor. Kullanıcılar Gemini’ın hangi uygulamalara erişeceğini seçiyor, eylemleri duraklatıp durdurabiliyor ya da önceden onaylayabiliyor."
+                },
+                {
+                  "text": "Bloomberg HT’nin de aktardığı gibi Google, özelliği form doldurma, bir dizi dosyada aynı işi tekrarlama, dosyaları klasörlere ayırma ve dosyalardan ya da çevrimiçi panolardan sunum hazırlama gibi işler için öneriyor. TechCrunch’a göre özellik ABD’de İngilizce olarak sunuluyor ve Google AI Plus, Pro ya da Ultra aboneliği gerektiriyor. ShiftDelete.Net de lansmanı haberleştirdi."
+                },
+                {
+                  "text": "TechCrunch, Google’ın geç kaldığını hatırlatıyor: OpenAI, Anthropic ve Meta masaüstü uygulamalarında bu tür ajanları bir süredir sunuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Apple’ın kendi ajanı",
+              "blocks": [
+                {
+                  "text": "The Verge ve TechCrunch’ın aktardığına göre Apple da kendi ajanını geliştiriyor; Bloomberg’in fark ettiği iş ilanında bu çalışmayı yönetecek kıdemli bir mühendislik yöneticisi aranıyor. İlana göre bu kişi Siri, UI Frameworks ve Apple Foundation Models ekipleriyle çalışacak."
+                },
+                {
+                  "quote": "Bir bilgisayarı yetenekli bir insan gibi kullanabilen bir yapay zekâ ajanı hayal edin. Web’de geziniyor, uygulamalar arasında çalışıyor, komut çalıştırıyor, kod yazıp hatalarını ayıklıyor, servisleri çağırıyor ve her adım için doğru aracı seçiyor.",
+                  "speaker": "Apple iş ilanı",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch’ın aktardığına göre Bloomberg, Apple’ın hizmeti “en erken gelecek yılın sonunda” sunmayı düşündüğünü ama çalışmanın henüz erken aşamada olduğunu yazdı. Apple, TechCrunch’ın sorusunu yanıtlamadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Başkalarına daha sıkı kapı",
+              "blocks": [
+                {
+                  "text": "Apple aynı zamanda üçüncü taraf ajanların Mac’in tam kontrolünü almasını zorlaştırıyor. The Verge ve TechCrunch’a göre bu hafta çıkan macOS 27.3 betası, kullanıcıları dış ajanlara “tam disk erişimi” vermekten caydıran ayar ve uyarıları gösteriyor. Apple ekimde geliştiricilere, bu düzeyde erişimi yalnızca gerçekten isteyen kullanıcıların çok açık bir onayla verebilmesi için yeni denetimler ekleyeceğini bildirmişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Özelliğin açıldığı Gemini paketleri",
+              "value": "Plus, Pro, Ultra",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "İlk sunulduğu yer",
+              "value": "ABD, İngilizce",
+              "source": "TechCrunch, The Verge"
+            },
+            {
+              "label": "Yeni sınırların geldiği macOS betası",
+              "value": "27.3",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Apple ajanı için en erken hedef",
+              "value": "2027 sonu",
+              "source": "Bloomberg, TechCrunch aktarımıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T18:09:11.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T18:21:13.000Z",
+          "sourceId": "the-verge-ai"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T18:21:13.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/19/ver1795117450/3795193/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/gemini-mac-uzerinde-uygulamalari-kullanabilecek-3795193"
+      },
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge-ai",
+          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/gemini-mac-uzerinde-uygulamalari-kullanabilecek-3795193",
+          "confirms": true
+        },
+        {
+          "sourceId": "shiftdelete",
+          "url": "https://shiftdelete.net/gemini-mac-bilgisayar-kullanimi",
+          "confirms": false
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "4646c42ae1aff2d7",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "fce688fc2d4a1f02",
+      "versions": {
+        "en": {
+          "news": "A House committee says the US approved 879,000 Nvidia and AMD AI chips for Chinese companies between December 2025 and May 2026.",
+          "shortTitle": "879,000 AI chips cleared for China",
+          "title": "US cleared 879,000 Nvidia and AMD AI chips for China",
+          "summary": {
+            "what": "The US Commerce Department approved exports of 879,000 advanced AI chips to Chinese firms from December 2025 to May 2026, a House committee says.",
+            "why": "All four named buyers, Tencent and Alibaba among them, are on the Pentagon’s list of alleged Chinese military companies.",
+            "next": "It is unclear how many chips actually shipped; Nvidia says it has since stopped sending H200s to China."
+          },
+          "body": [
+            {
+              "subhead": "What the committee released",
+              "blocks": [
+                {
+                  "text": "The administration of President Donald Trump approved exports of 879,000 advanced AI chips made by Nvidia and AMD to Chinese companies between December 2025 and May 2026, the House Foreign Affairs Committee said on Thursday, Al Jazeera reports. Companies had applied to ship 3.4 million chips to China in that period, the committee’s documents show."
+                },
+                {
+                  "text": "The approvals included 150,000 chips for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for the carmaker BYD. The chips include Nvidia’s H200 and AMD’s equivalent, the MI325X. All four companies are on the Pentagon’s list of alleged Chinese military-backed firms, Al Jazeera notes."
+                },
+                {
+                  "text": "Licence information of this kind is normally protected under US export-control law, the South China Morning Post reports. The committee’s chair, Florida Republican Brian Mast, used his powers under the Export Control Reform Act to make it public. It was not immediately clear how many of the approvals led to actual shipments."
+                }
+              ]
+            },
+            {
+              "subhead": "Why now",
+              "blocks": [
+                {
+                  "text": "The unusual release comes as the administration faces pressure over revelations about former Nvidia chief executive Jensen Huang’s affair with an alleged Chinese spy, which have revived calls for a tougher line on Chinese technology threats and put a spotlight on unpunished smuggling of Nvidia chips to China, Al Jazeera says."
+                },
+                {
+                  "quote": "The fact that over 30 percent of the AI chips sent to China were shipped to companies that the Department of War has designated as Chinese military companies is astonishing, and calls into question whether Commerce conducted any serious national security review before approving these licenses.",
+                  "speaker": "Chris McGuire, former US official",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Nvidia’s answer",
+              "blocks": [
+                {
+                  "text": "Nvidia said the approvals were “subject to strict conditions and limited volumes”, and that “despite receiving some licenses, we have since stopped shipping H200s to China”."
+                },
+                {
+                  "text": "President Joe Biden had restricted Chinese access to the chips over fears they would strengthen China’s military; Trump allowed H200 sales to China in December, drawing criticism from China hawks in both parties. On Thursday Nvidia’s shares fell 3.3% and AMD’s 7.7%, Al Jazeera reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "AI chips approved for China, Dec–May",
+              "value": "879,000",
+              "source": "House Foreign Affairs Committee"
+            },
+            {
+              "label": "Chips Chinese firms applied for",
+              "value": "3.4m",
+              "source": "House Foreign Affairs Committee"
+            },
+            {
+              "label": "Approved for Tencent",
+              "value": "150,000",
+              "source": "House Foreign Affairs Committee"
+            },
+            {
+              "label": "AMD shares on Thursday",
+              "value": "−7.7%",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "US House of Representatives, Washington",
+            "lat": 38.89,
+            "lon": -77.01,
+            "region": "United States"
+          }
+        },
+        "tr": {
+          "news": "ABD Temsilciler Meclisi komitesine göre Washington, Aralık 2025 ile Mayıs 2026 arasında Çinli şirketlere 879 bin yapay zekâ çipi satışını onayladı.",
+          "shortTitle": "Çin’e 879 bin çipe onay",
+          "title": "ABD, Çin’e altı ayda 879 bin yapay zekâ çipine onay verdi",
+          "summary": {
+            "what": "Bir Temsilciler Meclisi komitesine göre ABD Ticaret Bakanlığı Aralık 2025–Mayıs 2026 arasında Çinli şirketlere 879 bin gelişmiş yapay zekâ çipi ihracatını onayladı.",
+            "why": "Adı geçen dört alıcının hepsi, aralarında Tencent ve Alibaba da var, Pentagon’un Çin ordusuyla bağlantılı şirketler listesinde.",
+            "next": "Kaç çipin gerçekten gönderildiği belli değil; Nvidia, H200 sevkiyatını o tarihten sonra durdurduğunu söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Komite ne açıkladı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın haberine göre ABD Temsilciler Meclisi Dış İlişkiler Komitesi, Başkan Donald Trump yönetiminin Aralık 2025 ile Mayıs 2026 arasında Nvidia ve AMD’nin 879 bin gelişmiş yapay zekâ çipinin Çinli şirketlere ihracatını onayladığını açıkladı. Komite belgelerine göre şirketler aynı dönemde 3,4 milyon çip için başvurmuştu."
+                },
+                {
+                  "text": "Onaylar arasında Tencent için 150 bin, Alibaba için 75 bin, Baidu için 43 bin ve otomobil üreticisi BYD için 4 bin çip var. Listede Nvidia’nın H200’ü ve AMD’nin muadili MI325X bulunuyor. Al Jazeera’ya göre dört şirketin dördü de Pentagon’un Çin ordusu destekli olduğu iddia edilen şirketler listesinde."
+                },
+                {
+                  "text": "South China Morning Post’a göre bu tür lisans bilgileri ABD ihracat denetimi yasası gereği normalde gizli tutuluyor. Komite Başkanı, Florida’dan Cumhuriyetçi Brian Mast, İhracat Kontrol Reformu Yasası’ndan gelen yetkisiyle bilgileri kamuoyuna açtı. Onayların ne kadarının gerçek sevkiyata dönüştüğü henüz belli değil."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden şimdi",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre bu alışılmadık açıklama, Nvidia’nın eski CEO’su Jensen Huang’ın Çinli casus olduğu iddia edilen biriyle ilişkisinin ortaya çıkmasının ardından yönetim üzerindeki baskı artarken geldi. Skandal, Çin’e yönelik daha sert bir tutum çağrılarını canlandırdı ve Nvidia çiplerinin Çin’e cezasız kalan kaçakçılığını gündeme taşıdı."
+                },
+                {
+                  "quote": "Çin’e gönderilen yapay zekâ çiplerinin yüzde 30’undan fazlasının, Savaş Bakanlığının Çin askeri şirketi olarak tanımladığı şirketlere gitmiş olması şaşırtıcı ve Ticaret Bakanlığının bu lisansları onaylamadan önce ciddi bir ulusal güvenlik incelemesi yapıp yapmadığını sorgulatıyor.",
+                  "speaker": "Chris McGuire, eski ABD yetkilisi",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Nvidia’nın yanıtı",
+              "blocks": [
+                {
+                  "text": "Nvidia, onayların “sıkı koşullara ve sınırlı miktarlara bağlı” olduğunu, “bazı lisanslar almış olsak da o tarihten bu yana Çin’e H200 sevkiyatını durdurduk” dedi."
+                },
+                {
+                  "text": "Eski Başkan Joe Biden, Çin ordusunu güçlendireceği endişesiyle bu çiplere erişimi kısıtlamıştı; Trump ise aralıkta H200 satışına izin vermiş ve iki partideki Çin karşıtı isimlerin tepkisini çekmişti. Al Jazeera’ya göre perşembe günü Nvidia hisseleri %3,3, AMD hisseleri %7,7 düştü."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Çin için onaylanan çip, Aralık–Mayıs",
+              "value": "879 bin",
+              "source": "Temsilciler Meclisi Dış İlişkiler Komitesi"
+            },
+            {
+              "label": "Çinli şirketlerin başvurduğu çip",
+              "value": "3,4 milyon",
+              "source": "Temsilciler Meclisi Dış İlişkiler Komitesi"
+            },
+            {
+              "label": "Tencent için onaylanan",
+              "value": "150 bin",
+              "source": "Temsilciler Meclisi Dış İlişkiler Komitesi"
+            },
+            {
+              "label": "AMD hissesi, perşembe",
+              "value": "-%7,7",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "ABD Temsilciler Meclisi, Washington",
+            "lat": 38.89,
+            "lon": -77.01,
+            "region": "ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T21:58:27.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T23:46:10.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T23:46:10.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375135/us-congress-releases-list-chinese-firms-seeking-nvidia-chips",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "c97bb793e054c58d",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Europe ready to talk to Russia",
+          "title": "Europe ready for talks with Russia as Trump questions Ukraine aid",
+          "summary": {
+            "what": "At a Berlin summit of Ukraine’s allies, European leaders said they have a united position and are ready to negotiate with Russia on ending the war.",
+            "why": "Putin has so far rejected a European role in US-led talks; Trump phoned in to question why Europe keeps spending billions on Kyiv.",
+            "next": "Moscow has invited Europeans to set out their positions there; a Putin aide says much must be done before four-sided talks."
+          },
+          "body": [
+            {
+              "subhead": "A united position",
+              "blocks": [
+                {
+                  "text": "European leaders said on Thursday they are ready to negotiate with Russia on ending the war in Ukraine, at a Berlin summit of Kyiv’s allies known as the Coalition of the Willing, the BBC reports. “Europe has a clear and consistent and united negotiating position,” said UK Prime Minister Andy Burnham. German Chancellor Friedrich Merz said Moscow’s “maximalist demands are not realistic”."
+                },
+                {
+                  "quote": "These talks have to begin, and we will accept if conditions are acceptable for Europe and Ukraine.",
+                  "speaker": "Friedrich Merz, German chancellor",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "Merz said Europe would enter serious discussions on European security only alongside, and after, a peace agreement with Ukraine. He rejected any attempt to divide Europe into spheres of influence, warned that “a ‘Yalta format’ will not bring peace” and called the Shenzhen summit of Donald Trump, Xi Jinping and Vladimir Putin above all “a photo opportunity”. Polish Prime Minister Donald Tusk said: “Mr Putin is not our friend and will never be.”"
+                }
+              ]
+            },
+            {
+              "subhead": "Trump on the line",
+              "blocks": [
+                {
+                  "text": "Trump dialled into the Berlin meeting from Air Force One hours after leaving Shenzhen. According to Politico, which spoke to four European officials, he “sharply questioned” why the allies were still spending billions on military support for Kyiv, said a lot of money was being “wasted” and insisted Putin was serious about peace talks, Euronews reports. The coalition counts 34 countries plus Ukraine."
+                },
+                {
+                  "text": "Jared Kushner, one of two US envoys in Berlin, said Trump wanted a deal with Moscow “with Europe by his side” and had left Shenzhen believing “peace is achievable”. He said Moscow was now “comfortable” with Ukraine having security guarantees modelled on NATO’s Article Five, the BBC reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Moscow’s terms",
+              "blocks": [
+                {
+                  "text": "Putin said the Americans were “insistently” asking Russia to let Europeans join the talks and that Moscow had invited them to come and set out their positions. His aide Yury Ushakov said this week that a “great deal” would have to be done first. Ukraine’s President Volodymyr Zelensky, also in Berlin, was less upbeat: “Putin has always said no.”"
+                },
+                {
+                  "text": "As the delegations met, Russian drones hit Kyiv’s historic centre, killing one person and damaging the Dutch and Austrian embassies and Saint Volodymyr’s Cathedral, the BBC reports. French President Emmanuel Macron urged allies to do the “maximum” to deliver air defences."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Coalition of the Willing members",
+              "value": "34 + Ukraine",
+              "source": "Euronews"
+            },
+            {
+              "label": "US envoys at the Berlin summit",
+              "value": "2",
+              "source": "BBC"
+            },
+            {
+              "label": "Killed in Thursday’s Kyiv strike",
+              "value": "1",
+              "source": "BBC"
+            },
+            {
+              "label": "Russia’s full-scale invasion began",
+              "value": "Feb 2022",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Berlin",
+            "lat": 52.52,
+            "lon": 13.4,
+            "region": "Germany"
+          }
+        },
+        "tr": {
+          "shortTitle": "Avrupa Rusya ile görüşmeye hazır",
+          "title": "Avrupa Rusya ile müzakereye hazır, Trump Ukrayna yardımını sorguladı",
+          "summary": {
+            "what": "Ukrayna’nın müttefikleri Berlin’de toplandı; Avrupalı liderler ortak bir tutumları olduğunu ve savaşı bitirmek için Rusya ile görüşmeye hazır olduklarını söyledi.",
+            "why": "Putin şimdiye kadar ABD öncülüğündeki görüşmelerde Avrupa’ya yer vermedi; Trump ise toplantıya telefonla katılıp Kiev’e harcanan milyarları sorguladı.",
+            "next": "Moskova, Avrupalıları tutumlarını anlatmaya davet etti; Putin’in danışmanına göre dörtlü görüşme için daha çok yol var."
+          },
+          "body": [
+            {
+              "subhead": "Ortak tutum",
+              "blocks": [
+                {
+                  "text": "BBC’nin haberine göre Avrupalı liderler perşembe günü, Kiev’in müttefiklerinin “Gönüllüler Koalisyonu” adıyla Berlin’de yaptığı zirvede Ukrayna’daki savaşı bitirmek için Rusya ile müzakereye hazır olduklarını açıkladı. İngiltere Başbakanı Andy Burnham, “Avrupa’nın net, tutarlı ve birleşik bir müzakere pozisyonu var” dedi. Almanya Başbakanı Friedrich Merz ise Moskova’nın “azami taleplerinin gerçekçi olmadığını” söyledi."
+                },
+                {
+                  "quote": "Bu görüşmeler başlamalı ve koşullar Avrupa ile Ukrayna için kabul edilebilirse kabul edeceğiz.",
+                  "speaker": "Friedrich Merz, Almanya Başbakanı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "Merz, Avrupa güvenliğine dair ciddi görüşmelerin ancak Ukrayna ile bir barış anlaşmasıyla birlikte ve ondan sonra yapılabileceğini belirtti. Avrupa’yı nüfuz alanlarına bölme girişimlerini reddetti, “Yalta formatı barış getirmez” dedi ve Donald Trump, Şi Cinping ve Vladimir Putin’in Şenjen zirvesini her şeyden önce “bir fotoğraf fırsatı” olarak niteledi. Polonya Başbakanı Donald Tusk da “Bay Putin bizim dostumuz değil ve asla olmayacak” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Hattaki Trump",
+              "blocks": [
+                {
+                  "text": "Trump, Şenjen’den ayrıldıktan saatler sonra Air Force One’dan Berlin toplantısına telefonla bağlandı. Euronews’ün aktardığına göre dört Avrupalı yetkiliyle görüşen Politico, Trump’ın müttefiklerin Kiev’e askeri destek için neden hâlâ milyarlar harcadığını “sert biçimde sorguladığını”, çok paranın “boşa gittiğini” söylediğini ve Putin’in barış görüşmelerinde ciddi olduğunu savunduğunu yazdı. Koalisyonda Ukrayna dışında 34 ülke var."
+                },
+                {
+                  "text": "BBC’ye göre Berlin’deki iki ABD temsilcisinden biri olan Jared Kushner, Trump’ın Moskova ile “Avrupa’yı yanına alarak” anlaşmak istediğini ve Şenjen’den “barışın mümkün olduğu” inancıyla ayrıldığını söyledi. Kushner, Moskova’nın artık Ukrayna’ya NATO’nun 5. Maddesi örnek alınarak verilecek güvenlik garantilerine “sıcak baktığını” da ekledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Moskova’nın şartları",
+              "blocks": [
+                {
+                  "text": "Putin, Amerikalıların Avrupalıların da görüşmelere katılması için “ısrarla” istekte bulunduğunu ve Moskova’nın Avrupalıları tutumlarını anlatmaya davet ettiğini söyledi. Danışmanı Yuriy Uşakov ise bu hafta, önce “çok şey” yapılması gerektiğini belirtmişti. Berlin’deki Ukrayna Devlet Başkanı Volodimir Zelenskiy daha karamsardı: “Putin her zaman hayır dedi.”"
+                },
+                {
+                  "text": "BBC’ye göre heyetler toplanırken Rus insansız hava araçları Kiev’in tarihi merkezini vurdu; bir kişi öldü, Hollanda ve Avusturya büyükelçilikleri ile Aziz Volodimir Katedrali hasar gördü. Fransa Cumhurbaşkanı Emmanuel Macron da müttefiklere hava savunma sistemleri için “azamisini” yapma çağrısında bulundu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gönüllüler Koalisyonu üyeleri",
+              "value": "34 + Ukrayna",
+              "source": "Euronews"
+            },
+            {
+              "label": "Berlin’deki ABD temsilcisi",
+              "value": "2",
+              "source": "BBC"
+            },
+            {
+              "label": "Perşembe Kiev saldırısında ölen",
+              "value": "1",
+              "source": "BBC"
+            },
+            {
+              "label": "Rusya’nın tam ölçekli işgali",
+              "value": "Şubat 2022",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Berlin",
+            "lat": 52.52,
+            "lon": 13.4,
+            "region": "Almanya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T17:24:44.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T00:50:24.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T00:50:24.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1fd8/live/5c168a90-e44a-11f1-a094-5fdc692f3e33.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "1548d446c7c63613",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Migrant boat sinks off Senegal",
+          "title": "Dozens missing as migrant boat sinks off Senegal amid Canary Islands surge",
+          "summary": {
+            "what": "A boat carrying 50 to 100 migrants capsized near Yenne, south of Dakar, early on Wednesday; four bodies have been recovered and dozens are missing.",
+            "why": "Arrivals in Spain’s Canary Islands are up by nearly two-thirds this year, with more than 11,000 people in the first half of November alone.",
+            "next": "The search continues; President Bassirou Diomaye Faye has ordered a report on what drives the departures and how to curb them."
+          },
+          "body": [
+            {
+              "subhead": "The sinking",
+              "blocks": [
+                {
+                  "text": "Senegalese authorities are searching for dozens of people missing after a boat carrying migrants capsized in the Atlantic near the village of Yenne, south of the capital Dakar, the BBC, Euronews and Al Jazeera report. Four bodies have been recovered, Boubacar Seye, president of the non-profit Horizons Sans Frontières, told Reuters, according to Al Jazeera."
+                },
+                {
+                  "text": "Accounts of how many were on board differ. A survivor told police there were about 100 people, including five women, AFP reported; a local official told Reuters there were 50, and that the boat hit a rock while migrants were being moved from small fishing boats to a larger pirogue. The badly damaged boat washed ashore, and police recovered identity papers, phones and a school enrolment document from the wreck, the BBC says."
+                }
+              ]
+            },
+            {
+              "subhead": "A route getting busier",
+              "blocks": [
+                {
+                  "text": "Spain’s Interior Ministry says 24,364 migrants reached the Canary Islands between 1 January and 15 November, against 14,690 in the same period last year, Al Jazeera reports. Since 13,327 had arrived by the end of October, 11,037 people landed in the first 15 days of November alone. The island of El Hierro declared a state of emergency on 7 November after more than 3,300 people arrived there in about 30 boats, the BBC says."
+                },
+                {
+                  "text": "Senegal’s navy rescued or intercepted 1,424 people on 16 and 17 November. Less than two weeks ago at least 39 people died when a boat sank near Kébémer in the north, one of the country’s deadliest migration disasters. The UN refugee agency says nearly 600 people have died trying to reach the Canaries from West Africa this year."
+                }
+              ]
+            },
+            {
+              "subhead": "The government’s response",
+              "blocks": [
+                {
+                  "text": "At a cabinet meeting on Wednesday, President Bassirou Diomaye Faye voiced concern at the renewed rise in departures and asked the interior ministry for a report on its causes and on possible measures, the BBC reports. He also called for better jobs and training for young people. Days before the sinking, police broke up a suspected smuggling network in Yenne, arresting 14 people, Al Jazeera says."
+                },
+                {
+                  "quote": "We need to wake up to the gravity of the situation. The strategy deployed until now is not working.",
+                  "speaker": "Boubacar Seye, Horizons Sans Frontières",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bodies recovered so far",
+              "value": "4",
+              "source": "Horizons Sans Frontières, via Al Jazeera"
+            },
+            {
+              "label": "Canary Islands arrivals, 1–15 Nov",
+              "value": "11,037",
+              "source": "Spanish Interior Ministry"
+            },
+            {
+              "label": "People rescued or stopped, 16–17 Nov",
+              "value": "1,424",
+              "source": "Senegalese navy, via APS"
+            },
+            {
+              "label": "Arrested in Yenne smuggling raid",
+              "value": "14",
+              "source": "APS, via Al Jazeera"
+            }
+          ],
+          "keyNumber": {
+            "label": "Canary Islands arrivals, 1 Jan to 15 Nov",
+            "unit": "people",
+            "before": 14690,
+            "after": 24364,
+            "source": "Spanish Interior Ministry"
+          }
+        },
+        "tr": {
+          "shortTitle": "Senegal açıklarında göçmen teknesi battı",
+          "title": "Senegal açıklarında göçmen teknesi battı, onlarca kişi kayıp",
+          "summary": {
+            "what": "50 ile 100 arası göçmeni taşıyan tekne çarşamba sabaha karşı Dakar’ın güneyindeki Yenne yakınlarında alabora oldu; dört ceset bulundu, onlarca kişi kayıp.",
+            "why": "İspanya’nın Kanarya Adaları’na gelenler bu yıl yaklaşık üçte iki arttı; yalnızca kasımın ilk yarısında 11 binden fazla kişi geldi.",
+            "next": "Arama sürüyor; Cumhurbaşkanı Bassirou Diomaye Faye, göçün nedenleri ve önlemler üzerine bir rapor istedi."
+          },
+          "body": [
+            {
+              "subhead": "Batan tekne",
+              "blocks": [
+                {
+                  "text": "BBC, Euronews ve Al Jazeera’nın haberine göre Senegal makamları, başkent Dakar’ın güneyindeki Yenne köyü yakınlarında Atlantik’te alabora olan göçmen teknesinden kaybolan onlarca kişiyi arıyor. Al Jazeera’nın aktardığına göre Horizons Sans Frontières adlı sivil kuruluşun başkanı Boubacar Seye, Reuters’a dört cesedin bulunduğunu söyledi."
+                },
+                {
+                  "text": "Teknedeki kişi sayısına dair anlatımlar farklı. AFP’ye göre polise ifade veren bir kazazede, beşi kadın yaklaşık 100 kişi olduklarını söyledi. Reuters’a konuşan yerel bir yetkili ise teknede 50 kişi bulunduğunu, göçmenler küçük balıkçı teknelerinden daha büyük bir pirogaya aktarılırken teknenin kayaya çarptığını belirtti. BBC’ye göre ağır hasarlı tekne kıyıya vurdu, polis enkazda kimlik belgeleri, telefonlar ve bir okul kayıt belgesi buldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Giderek yoğunlaşan rota",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın aktardığı İspanya İçişleri Bakanlığı verilerine göre 1 Ocak–15 Kasım arasında Kanarya Adaları’na 24.364 göçmen ulaştı; geçen yılın aynı döneminde bu sayı 14.690’dı. Ekim sonunda 13.327 olan sayıya bakılırsa yalnızca kasımın ilk 15 gününde 11.037 kişi adalara vardı. BBC’ye göre El Hierro adası, yaklaşık 30 teknede 3.300’den fazla kişinin gelmesi üzerine 7 Kasım’da olağanüstü hâl ilan etti."
+                },
+                {
+                  "text": "Senegal donanması 16 ve 17 Kasım’da 1.424 kişiyi kurtardı ya da durdurdu. İki haftadan kısa süre önce kuzeydeki Kébémer yakınlarında batan teknede en az 39 kişi ölmüştü; bu, ülkenin en ağır göç felaketlerinden biriydi. BM Mülteciler Yüksek Komiserliği, bu yıl Batı Afrika’dan Kanaryalar’a ulaşmaya çalışırken yaklaşık 600 kişinin öldüğünü bildiriyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Hükümetin tepkisi",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Cumhurbaşkanı Bassirou Diomaye Faye çarşamba günkü kabine toplantısında göçün yeniden artmasından duyduğu kaygıyı dile getirdi ve İçişleri Bakanlığından nedenleri ve alınabilecek önlemleri inceleyen bir rapor istedi. Gençlere iş ve eğitim imkânlarının artırılması çağrısında da bulundu. Al Jazeera’ya göre batıştan birkaç gün önce Yenne’de bir göçmen kaçakçılığı şebekesi çökertilmiş, 14 kişi gözaltına alınmıştı."
+                },
+                {
+                  "quote": "Durumun ciddiyetinin farkına varmamız gerekiyor. Şimdiye kadar uygulanan strateji işe yaramıyor.",
+                  "speaker": "Boubacar Seye, Horizons Sans Frontières",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Şu ana kadar bulunan ceset",
+              "value": "4",
+              "source": "Horizons Sans Frontières, Al Jazeera aktarımıyla"
+            },
+            {
+              "label": "Kanaryalar’a gelen, 1–15 Kasım",
+              "value": "11.037",
+              "source": "İspanya İçişleri Bakanlığı"
+            },
+            {
+              "label": "Kurtarılan ya da durdurulan, 16–17 Kasım",
+              "value": "1.424",
+              "source": "Senegal donanması, APS aktarımıyla"
+            },
+            {
+              "label": "Yenne’deki operasyonda gözaltı",
+              "value": "14",
+              "source": "APS, Al Jazeera aktarımıyla"
+            }
+          ],
+          "keyNumber": {
+            "label": "Kanaryalar’a gelenler, 1 Ocak–15 Kasım",
+            "unit": "kişi",
+            "before": 14690,
+            "after": 24364,
+            "source": "İspanya İçişleri Bakanlığı"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T15:52:26.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T20:21:25.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T20:21:25.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T00:10:04.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/9aab/live/c39b82a0-e419-11f1-b37c-b3a71d7200af.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/four-bodies-recovered-after-senegal-boat-capsizes-amid-migration-surge?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    },
+    {
+      "id": "4812e3aba64025ee",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Voyager 1 reaches one light-day",
+          "title": "Voyager 1 phones home from one light-day away, 49 years after launch",
+          "summary": {
+            "what": "NASA received a signal from Voyager 1 exactly 24 hours after it was sent: the probe is now more than 26 billion km from Earth.",
+            "why": "It is the first human-made object to cross the one light-day mark, the farthest anything built on Earth has gone.",
+            "next": "Controllers are working out why science and engineering data stopped arriving on Saturday; Voyager 2 reaches the same mark in 2035."
+          },
+          "body": [
+            {
+              "subhead": "A day for one signal",
+              "blocks": [
+                {
+                  "text": "NASA’s Voyager 1 has become the first spacecraft to reach one light-day from Earth, France 24 and the South China Morning Post report. Flight controllers received its call on Thursday exactly 24 hours after it was sent, the time a radio signal takes to cross more than 26 billion kilometres (16 billion miles) at the speed of light."
+                },
+                {
+                  "text": "NASA could not confirm the record until the signal reached the team at the Jet Propulsion Laboratory in California, though the agency had already wished everyone a “Happy Voyager light-day … day!” on social media the day before."
+                },
+                {
+                  "quote": "Traveling a light-day is a singular feat for a spacecraft, but Voyager is so much more than a distant traveler.",
+                  "speaker": "Joe Westlake, NASA heliophysics division director",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "Half a century of firsts",
+              "blocks": [
+                {
+                  "text": "Voyager 1 was launched in 1977. It swept past Jupiter in 1979 and Saturn in 1980, took the most distant photo of Earth, the “Pale Blue Dot”, in 1990, became the most distant human-made object in 1998 and left the Sun’s sphere of influence for interstellar space in 2012, France 24 reports."
+                },
+                {
+                  "text": "Its twin, Voyager 2, launched two weeks earlier but took a slower, longer route past Uranus and Neptune; it reached interstellar space only in 2018 and will not reach one light-day until 2035. Both still travel at about 61,000 km/h (38,000 mph), powered by plutonium, and are NASA’s longest-running missions."
+                },
+                {
+                  "quote": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery.",
+                  "speaker": "Dave Gallagher, JPL director",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "A worry on board",
+              "blocks": [
+                {
+                  "text": "No science or engineering data has come from Voyager 1 since Saturday, according to NASA. The carrier signal that normally carries the data kept coming, and with flight-path calculations it let the team confirm the milestone. Controllers are trying to find out why the data stopped."
+                },
+                {
+                  "text": "Most instruments on both probes have been switched off to save power, but they normally send back data almost every day. Each carries a Golden Record of the sounds of Earth, a project led by the late astronomer Carl Sagan; NASA expects the records to last more than a billion years."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Distance from Earth",
+              "value": "26bn km",
+              "source": "NASA, via France 24"
+            },
+            {
+              "label": "Time for a signal to arrive",
+              "value": "24 hours",
+              "source": "France 24"
+            },
+            {
+              "label": "Launched",
+              "value": "1977",
+              "source": "France 24"
+            },
+            {
+              "label": "Speed",
+              "value": "61,000 km/h",
+              "source": "France 24"
+            },
+            {
+              "label": "Voyager 2 reaches one light-day",
+              "value": "2035",
+              "source": "France 24"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Voyager 1 bir ışık gününe ulaştı",
+          "title": "Voyager 1, fırlatılışından 49 yıl sonra bir ışık günü uzaktan seslendi",
+          "summary": {
+            "what": "NASA, Voyager 1’in sinyalini gönderildikten tam 24 saat sonra aldı: sonda artık Dünya’dan 26 milyar kilometreden fazla uzakta.",
+            "why": "İnsan yapımı bir nesne ilk kez bir ışık günü eşiğini geçti; Dünya’da yapılmış hiçbir şey bu kadar uzağa gitmemişti.",
+            "next": "Ekip, bilim ve mühendislik verilerinin cumartesiden beri neden gelmediğini araştırıyor; Voyager 2 aynı eşiğe 2035’te ulaşacak."
+          },
+          "body": [
+            {
+              "subhead": "Bir sinyal için bir gün",
+              "blocks": [
+                {
+                  "text": "France 24 ve South China Morning Post’un haberine göre NASA’nın Voyager 1 sondası, Dünya’dan bir ışık günü uzaklığa ulaşan ilk uzay aracı oldu. Uçuş ekibi sondanın sinyalini perşembe günü, gönderilmesinden tam 24 saat sonra aldı. Bu, bir radyo sinyalinin ışık hızıyla 26 milyar kilometreyi (16 milyar mil) aşan mesafeyi katetmesi için gereken süre."
+                },
+                {
+                  "text": "NASA, rekoru ancak sinyal Kaliforniya’daki Jet İtki Laboratuvarı’ndaki (JPL) ekibe ulaştığında doğrulayabildi; ajans ise bir gün önceden sosyal medyada herkese “Mutlu Voyager ışık günü… günü!” dilemişti."
+                },
+                {
+                  "quote": "Bir ışık günü yol almak bir uzay aracı için eşsiz bir başarı, ama Voyager uzaklara giden bir yolcudan çok daha fazlası.",
+                  "speaker": "Joe Westlake, NASA Heliofizik Bölümü Direktörü",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Yarım asırlık ilkler",
+              "blocks": [
+                {
+                  "text": "France 24’e göre 1977’de fırlatılan Voyager 1, 1979’da Jüpiter’in, 1980’de Satürn’ün yanından geçti, 1990’da Dünya’nın en uzaktan çekilmiş fotoğrafı “Soluk Mavi Nokta”yı çekti, 1998’de insan yapımı en uzak nesne oldu ve 2012’de Güneş’in etki alanından çıkıp yıldızlararası boşluğa girdi."
+                },
+                {
+                  "text": "İkizi Voyager 2 ondan iki hafta önce fırlatıldı, ancak Uranüs ve Neptün’ü de kapsayan daha yavaş ve uzun bir rota izledi; yıldızlararası uzaya ancak 2018’de ulaştı ve bir ışık günü eşiğine 2035’ten önce varmayacak. İki sonda da plütonyumla çalışarak saatte yaklaşık 61 bin kilometre hızla ilerliyor ve NASA’nın en uzun süredir çalışan görevleri."
+                },
+                {
+                  "quote": "Voyager 1’in ışık günü eşiğini geçmesi, olağanüstü bir keşif yolculuğunda bir başka tarihî başarı.",
+                  "speaker": "Dave Gallagher, JPL Direktörü",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Gemideki endişe",
+              "blocks": [
+                {
+                  "text": "NASA’ya göre Voyager 1’den cumartesiden bu yana bilim ya da mühendislik verisi gelmiyor. Verileri normalde taşıyan taşıyıcı sinyal gelmeye devam etti ve uçuş yolu hesaplarıyla birlikte ekibin rekoru doğrulamasını sağladı. Uçuş ekibi veri akışının neden kesildiğini araştırıyor."
+                },
+                {
+                  "text": "İki sondada da enerji tasarrufu için aletlerin çoğu kapatıldı, ancak normalde neredeyse her gün veri gönderiyorlar. Her birinde, merhum gök bilimci Carl Sagan’ın yönettiği projeyle hazırlanan ve Dünya’nın seslerini taşıyan bir “Altın Plak” var; NASA, plakların bir milyar yıldan uzun dayanmasını bekliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Dünya’ya uzaklık",
+              "value": "26 milyar km",
+              "source": "NASA, France 24 aktarımıyla"
+            },
+            {
+              "label": "Sinyalin ulaşma süresi",
+              "value": "24 saat",
+              "source": "France 24"
+            },
+            {
+              "label": "Fırlatılış",
+              "value": "1977",
+              "source": "France 24"
+            },
+            {
+              "label": "Hız",
+              "value": "61 bin km/sa",
+              "source": "France 24"
+            },
+            {
+              "label": "Voyager 2’nin bir ışık gününe varışı",
+              "value": "2035",
+              "source": "France 24"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T17:02:36.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T19:26:18.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T19:26:18.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/667c80bc-e444-11f1-afff-13439ca2fe89/w:1024/p:16x9/AP24166764529324.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375126/nasas-voyager-1-phones-home-awe-inspiring-1-light-day-away",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T07:30:00+03:00",
+      "updatedAt": "2026-11-20T07:30:00+03:00"
+    }
+  ],
+  "andFinally": {
+    "light": [
+      {
+        "id": "a9e76f8f530a132c",
+        "kind": "people",
+        "label": "reported",
+        "versions": {
+          "en": {
+            "title": "İsmail Yüksek buys an Acarkent villa put at ₺200m to ₺350m",
+            "gist": "Fenerbahçe midfielder İsmail Yüksek has bought a villa in Istanbul’s Acarkent estimated at ₺200m to ₺350m, next door to teammate Mason Greenwood, Onedio reports.",
+            "aside": "Greenwood rents his five-storey house next door for about ₺2m. Training-ground lifts will never be shorter.",
+            "story": [
+              "Fenerbahçe and Türkiye midfielder İsmail Yüksek has bought a villa in Acarkent, a luxury gated estate in Istanbul’s Beykoz district, Onedio reports. The price is estimated at between ₺200 million and ₺350 million, roughly $4 million to $7 million.",
+              "The purchase makes the 27-year-old a neighbour of his teammate Mason Greenwood, who rents a five-storey villa with ten bedrooms and two living rooms on the same estate, Onedio says. Greenwood’s rent is put at about ₺2 million, far below the estimated price of Yüksek’s new home.",
+              "Yüksek married the architect Esen Matraş four months ago, according to Onedio."
+            ]
+          },
+          "tr": {
+            "title": "İsmail Yüksek, Acarkent’te 200-350 milyon TL’lik villa aldı",
+            "gist": "Onedio’ya göre Fenerbahçeli İsmail Yüksek, Acarkent’te değeri 200 ile 350 milyon TL arasında tahmin edilen bir villa aldı ve Mason Greenwood’la komşu oldu.",
+            "aside": "Greenwood yan taraftaki beş katlı villaya ayda yaklaşık 2 milyon TL kira ödüyor. Antrenmana servis sorunu kalmadı.",
+            "story": [
+              "Onedio’nun haberine göre Fenerbahçe ve A Milli Takım’ın orta saha oyuncusu İsmail Yüksek, İstanbul Beykoz’daki lüks site Acarkent’ten bir villa satın aldı. Evin fiyatının 200 milyon ile 350 milyon TL arasında, yani yaklaşık 4 ile 7 milyon dolar olduğu tahmin ediliyor.",
+              "27 yaşındaki futbolcu böylece takım arkadaşı Mason Greenwood’la komşu oldu. Onedio’ya göre Greenwood aynı sitede 10+2, beş katlı lüks bir villa kiralıyor; kirasının yaklaşık 2 milyon TL olduğu biliniyor. Yüksek’in aldığı evin tahmini fiyatı bu kira bedelinin çok üzerinde.",
+              "Onedio, Yüksek’in dört ay önce mimar Esen Matraş’la evlendiğini de hatırlatıyor."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/fenerbahceli-ismail-yuksek-acarkent-te-villa-aldi-mason-greenwood-ile-komsu-oldu-1396141"
+          }
+        ]
+      },
+      {
+        "id": "db978b7bd452c3e6",
+        "kind": "odd",
+        "label": "confirmed",
+        "versions": {
+          "en": {
+            "title": "Evicted tenant leaves love poems on every surface of an Istanbul flat",
+            "gist": "A tenant evicted for nine months of unpaid rent in Büyükçekmece covered the walls, ceiling, cupboards and even the radiators with love poems in permanent marker.",
+            "aside": "Nine months of rent unpaid, but not a single surface left unwritten. Poetry, it turns out, also takes up space.",
+            "story": [
+              "A landlord in Istanbul’s Büyükçekmece district walked into a flat vacated by an evicted tenant and found love poems and lines about longing and parting written over almost every surface, Habertürk reports. The writing covered walls, doors, the ceiling and kitchen cupboards, and even the radiators, the boiler and the coat stand.",
+              "“There is nowhere in the house, from the ceiling to the floor, that hasn’t been written on. And it is in permanent marker,” the landlord’s lawyer, Ali Selman Altınbilek, told Habertürk. The tenant, who ran a corner shop, had not paid rent for nine months, which led to the eviction.",
+              "Habertürk says the tenant lived there for about three years; Onedio puts it at two. The lawyer said they would file complaints for damage to property and breach of trust and pursue the unpaid rent and the cost of the damage."
+            ]
+          },
+          "tr": {
+            "title": "Tahliye edilen kiracı, evin her yerine aşk şiirleri yazdı",
+            "gist": "Büyükçekmece’de 9 aylık kirayı ödemediği için tahliye edilen kiracı, duvarlardan tavana, dolaplardan peteklere kadar her yere silinmez kalemle aşk şiirleri yazdı.",
+            "aside": "Kira dokuz aydır ödenmemiş ama yazılmadık tek bir yüzey kalmamış. Şiir de yer kaplıyormuş.",
+            "story": [
+              "Habertürk’ün haberine göre İstanbul Büyükçekmece’de kiracısının boşalttığı daireye giren ev sahibi, neredeyse her yüzeye yazılmış aşk sözleri, şiir dizeleri ve ayrılık mesajlarıyla karşılaştı. Yazılar duvarları, kapıları, tavanı, mutfak dolaplarını ve hatta kalorifer peteklerini, kombiyi ve portmantoyu kaplıyordu.",
+              "Ev sahibinin avukatı Ali Selman Altınbilek, “Evde tavandan yerlere kadar yazılmayan hiçbir yer yok. Ve silinmez kalemle yazılmış” dedi. Tekel bayisi işlettiği öğrenilen kiracının 9 aydır kira ödemediği, tahliye sürecinin bu yüzden başladığı belirtildi.",
+              "Habertürk kiracının evde yaklaşık 3 yıl yaşadığını, Onedio ise 2 yıl oturduğunu yazdı. Avukat, mala zarar verme ve güveni kötüye kullanma suçlarından başvuru yapacaklarını, ödenmeyen kira ile evdeki zararın tahsili için de mücadele edeceklerini söyledi."
+            ]
+          }
+        },
+        "sources": [
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/gundem/ev-sahibi-saskina-dondu-kiracisi-tavana-bile-siir-yazmis-3928541"
+          },
+          {
+            "sourceId": "onedio",
+            "url": "https://onedio.com/haber/buyukcekmece-de-kiraci-2-yil-oturdugu-evin-duvarlarina-esyalarina-ve-camlarina-siir-yazdi-1396171"
+          }
+        ],
+        "image": {
+          "url": "https://im.haberturk.com/l/2026/11/19/ver1795092464/3928541/jpg/1920x1080",
+          "sourceId": "haberturk",
+          "sourceName": "Habertürk",
+          "articleUrl": "https://www.haberturk.com/gundem/ev-sahibi-saskina-dondu-kiracisi-tavana-bile-siir-yazmis-3928541"
+        }
+      }
+    ],
+    "rumours": []
+  },
+  "quiz": [
+    {
+      "storyId": "4646c42ae1aff2d7",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many AI chips did the US approve for Chinese companies from December 2025 to May 2026?",
+          "options": ["3.4 million", "879,000", "150,000"]
+        },
+        "tr": {
+          "question": "ABD, Aralık 2025–Mayıs 2026 arasında Çinli şirketlere kaç yapay zekâ çipi satışını onayladı?",
+          "options": ["3,4 milyon", "879 bin", "150 bin"]
+        }
+      }
+    },
+    {
+      "storyId": "6fba5cbec40c990d",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Under the new rules, within how many days must the governor set the date of a council’s mayoral vote?",
+          "options": ["5", "15", "10"]
+        },
+        "tr": {
+          "question": "Yeni kurallara göre vali, meclisteki başkanlık seçiminin tarihini kaç gün içinde belirlemeli?",
+          "options": ["5", "15", "10"]
+        }
+      }
+    },
+    {
+      "storyId": "4812e3aba64025ee",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How long did Voyager 1’s signal take to reach Earth?",
+          "options": ["24 hours", "12 hours", "Three days"]
+        },
+        "tr": {
+          "question": "Voyager 1’in sinyalinin Dünya’ya ulaşması ne kadar sürdü?",
+          "options": ["24 saat", "12 saat", "Üç gün"]
+        }
+      }
+    }
+  ]
+}
