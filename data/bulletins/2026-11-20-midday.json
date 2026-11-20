@@ -1,0 +1,1649 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-20T12:30:00+03:00",
+  "writtenAt": "2026-11-20T11:57:16+03:00",
+  "stories": [
+    {
+      "id": "b4136924cf2be009",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "101 held in “Bayğaralar” raids",
+          "title": "101 detained in raids on Adana’s “Bayğaralar” gang across 13 provinces",
+          "summary": {
+            "what": "Police detained 101 of 138 suspects in dawn raids on 135 addresses in 13 provinces against the Adana-based armed gang known as “Bayğaralar”.",
+            "why": "Prosecutors say the gang extorted business owners at gunpoint and attacked their premises when they refused to pay, on orders from leaders abroad.",
+            "next": "Police are still looking for 37 suspects, 23 of whom are abroad, Justice Minister Akın Gürlek said."
+          },
+          "body": [
+            {
+              "subhead": "The raids",
+              "blocks": [
+                {
+                  "text": "Police detained 101 people on Friday morning in simultaneous raids on an armed gang known in Türkiye as “Bayğaralar”, Justice Minister Akın Gürlek announced, as reported by Sözcü, A Haber, NTV, Cumhuriyet, Diken and Habertürk. The operation, run from Adana in southern Türkiye, covered 135 addresses in 13 provinces."
+                },
+                {
+                  "text": "Investigators identified 138 suspects in all, 12 of them children who are in the justice system, Gürlek said. Of the 37 still at large, 23 have been located abroad, and the search for them continues, according to Sözcü and A Haber."
+                }
+              ]
+            },
+            {
+              "subhead": "What the gang is accused of",
+              "blocks": [
+                {
+                  "text": "The investigation is run by the Adana Chief Public Prosecutor’s Office, which says it gathered significant evidence on the activities of the gang, described as an armed criminal organisation acting for gain. According to the minister’s statement, carried in full by Sözcü and Cumhuriyet, the suspects demanded protection money from business owners at gunpoint and staged armed attacks on their workplaces when they did not pay."
+                },
+                {
+                  "text": "Investigators also found evidence linking members to intentional killing, intentional injury, aggravated robbery, armed threats and unlawful detention, the statement says. The gang kept operating on instructions from its leaders, who are abroad, NTV and A Haber report."
+                }
+              ]
+            },
+            {
+              "subhead": "“Borders will not save you”",
+              "blocks": [
+                {
+                  "text": "Gürlek thanked the prosecutors and the Adana police, and said the fight against the gang’s network would go on. Diken notes that he made the announcement in a post on X. His message to the gang’s leaders, as published by Sözcü:"
+                },
+                {
+                  "quote": "Let the ringleaders and managers of criminal organisations not forget this: everyone who tries to test the power of this state and threatens the peace of our nation will sooner or later answer before justice. Neither hiding behind borders nor behind criminal networks will save you.",
+                  "speaker": "Akın Gürlek",
+                  "sourceId": "sozcu",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Next steps",
+              "blocks": [
+                {
+                  "text": "Those detained are being questioned by police and will then be brought before prosecutors in Adana. Gürlek said the state would uncover all of the gang’s links, including those abroad, Cumhuriyet reports. A Haber adds that the investigation targets everyone who tries to profit by pressuring business people, and Habertürk says work to catch the remaining 37 suspects is under way."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Suspects detained",
+              "value": "101",
+              "source": "Justice Minister Akın Gürlek"
+            },
+            {
+              "label": "Suspects identified",
+              "value": "138",
+              "source": "Justice Minister Akın Gürlek"
+            },
+            {
+              "label": "Provinces in the raids",
+              "value": "13",
+              "source": "Sözcü, A Haber"
+            },
+            {
+              "label": "Addresses searched",
+              "value": "135",
+              "source": "Sözcü, A Haber"
+            },
+            {
+              "label": "Wanted suspects abroad",
+              "value": "23",
+              "source": "Sözcü, A Haber"
+            }
+          ],
+          "place": {
+            "name": "Adana",
+            "lat": 37,
+            "lon": 35.32,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "“Bayğaralar” operasyonunda 101 gözaltı",
+          "title": "Adana merkezli 13 ilde “Bayğaralar” operasyonu: 101 gözaltı",
+          "summary": {
+            "what": "“Bayğaralar” olarak bilinen silahlı suç örgütüne Adana merkezli 13 ilde 135 adrese eş zamanlı operasyon düzenlendi; 138 şüpheliden 101’i gözaltına alındı.",
+            "why": "Savcılığa göre örgüt, yurt dışındaki yöneticilerinin talimatıyla iş insanlarından silah zoruyla haraç istedi, ödemeyenlerin iş yerlerine saldırdı.",
+            "next": "Adalet Bakanı Akın Gürlek’e göre 23’ü yurt dışında olan 37 şüphelinin yakalanması için çalışmalar sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Operasyon",
+              "blocks": [
+                {
+                  "text": "Adalet Bakanı Akın Gürlek, kamuoyunda “Bayğaralar” olarak bilinen silahlı suç örgütüne cuma sabahı operasyon düzenlendiğini duyurdu. Sözcü, A Haber, NTV, Cumhuriyet, Diken ve Habertürk’ün aktardığına göre Adana merkezli 13 ilde 135 adrese eş zamanlı baskın yapıldı ve 101 kişi gözaltına alındı."
+                },
+                {
+                  "text": "Gürlek’e göre soruşturmada 12’si adli süreçteki çocuk olmak üzere toplam 138 kişi tespit edildi. Yakalanamayan 37 şüpheliden 23’ünün yurt dışında olduğu belirlendi; Sözcü ve A Haber, bu kişilerin yakalanması için çalışmaların sürdüğünü yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Örgüte yöneltilen suçlamalar",
+              "blocks": [
+                {
+                  "text": "Soruşturmayı yürüten Adana Cumhuriyet Başsavcılığı, çıkar amaçlı silahlı suç örgütünün faaliyetlerine ilişkin önemli deliller elde edildiğini açıkladı. Bakanın Sözcü ve Cumhuriyet’te tam metni yer alan açıklamasına göre şüpheliler iş insanlarından silah zoruyla haraç istedi, talepleri karşılanmayınca iş yerlerine silahlı saldırılar düzenledi."
+                },
+                {
+                  "text": "Açıklamaya göre örgüt üyelerinin kasten öldürme, kasten yaralama, nitelikli yağma, silahla tehdit ve kişiyi hürriyetinden yoksun kılma suçlarına karıştığına dair bulgulara da ulaşıldı. NTV ve A Haber, örgütün yurt dışındaki yönetici kadrosunun talimatlarıyla faaliyet yürüttüğünü aktardı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Sınırların arkasına saklanmak kurtarmayacak”",
+              "blocks": [
+                {
+                  "text": "Gürlek, savcılığa ve Adana İl Emniyet Müdürlüğüne teşekkür etti; Diken’e göre duyuruyu X hesabından yaptı. Bakanın örgüt yöneticilerine mesajı Sözcü’de şöyle yer aldı:"
+                },
+                {
+                  "quote": "Suç örgütlerinin elebaşları ve yöneticileri şunu akıllarından çıkarmasın: Bu devletin gücünü sınamaya kalkışan, milletimizin huzuruna kasteden herkes er ya da geç adalet önünde hesap verecektir! Ne sınırların arkasına saklanmak ne de suç ağlarının arkasına gizlenmek sizi kurtaracaktır.",
+                  "speaker": "Akın Gürlek",
+                  "sourceId": "sozcu"
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var",
+              "blocks": [
+                {
+                  "text": "Gözaltındakilerin emniyetteki işlemleri sürüyor; ardından Adana’da savcılığa çıkarılacaklar. Cumhuriyet’e göre Gürlek, örgütün yurt dışındakiler dahil tüm bağlantılarının ortaya çıkarılacağını söyledi. Habertürk de kalan 37 şüphelinin yakalanması için çalışmaların sürdüğünü bildirdi. A Haber’e göre soruşturma, iş insanları üzerinde baskı kurarak haksız kazanç elde etmeye çalışan herkesi hedef alıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltına alınan",
+              "value": "101",
+              "source": "Adalet Bakanı Akın Gürlek"
+            },
+            {
+              "label": "Tespit edilen şüpheli",
+              "value": "138",
+              "source": "Adalet Bakanı Akın Gürlek"
+            },
+            {
+              "label": "Operasyon yapılan il",
+              "value": "13",
+              "source": "Sözcü, A Haber"
+            },
+            {
+              "label": "Aranan adres",
+              "value": "135",
+              "source": "Sözcü, A Haber"
+            },
+            {
+              "label": "Yurt dışındaki aranan şüpheli",
+              "value": "23",
+              "source": "Sözcü, A Haber"
+            }
+          ],
+          "place": {
+            "name": "Adana",
+            "lat": 37,
+            "lon": 35.32,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T06:15:11.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T06:16:55.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T06:16:55.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T06:17:20.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T06:17:20.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T06:42:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:06:33.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:17:43.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/adana%C3%A7eteoperasyonu-118066.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/baygaralar-cetesine-operasyon-101-supheli-gozaltinda-1751717"
+      },
+      "sources": [
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bakan-gurlek-duyurdu-baygaralar-a-duzenlenen-operasyonda-101-kisi-yakalandi-p382942",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/20/baygaralar-suc-orgutune-adana-merkezli-13-ilde-es-zamanli-operasyon",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/baygaralar-cetesine-operasyon-101-supheli-gozaltinda-1751717",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/akin-gurlek-duyurdu-adana-merkezli-13-ilde-baygaralar-operasyonu-101-gozalti-2557773",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/baygaralar-operasyonu-101-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-baygaralar-a-buyuk-darbe-adalet-bakani-gurlek-acikladi-3928679",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T12:30:00+03:00",
+      "updatedAt": "2026-11-20T12:30:00+03:00"
+    },
+    {
+      "id": "1a18aa78f9462f26",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "12838b775b028776",
+      "versions": {
+        "en": {
+          "shortTitle": "Gram gold slips below ₺5,800",
+          "title": "Gram gold falls to ₺5,780, heading for first yearly loss since 2013",
+          "summary": {
+            "what": "Gram gold fell about 2.7% on Friday to around ₺5,780, below where it started the year, as an ounce of gold dropped to its lowest since September 2025.",
+            "why": "Gram gold has ended every year in profit since 2013, doubling in 2025; a loss this year would end that run for Turkish savers.",
+            "next": "Analysts say US inflation, the Fed’s next rate decision in December and the dollar will set gold’s direction in the coming days."
+          },
+          "body": [
+            {
+              "subhead": "Friday’s fall",
+              "blocks": [
+                {
+                  "text": "Gram gold, the measure most Turkish savers follow, fell sharply on Friday morning. At 10:00 it was trading at ₺5,779.83 on the open market, 2.67% lower than the day before, Bloomberg HT reports. A quarter-gold coin (çeyrek) sold for ₺9,450.03 and a full Republic coin for ₺37,684.51. Onedio notes that gram gold was around ₺6,016 on Wednesday, so it has lost about 4% in two days."
+                },
+                {
+                  "text": "The drop followed the world price. An ounce of gold fell 1.9% to $3,551.68 during the day, its lowest level since September 2025, Cumhuriyet reports, and its loss for the week reached about 8.9%, the steepest weekly fall since the week of 20 March. Gold is far below the $5,595 record it set in January, Onedio adds."
+                }
+              ]
+            },
+            {
+              "subhead": "A 13-year run at risk",
+              "blocks": [
+                {
+                  "text": "Gram gold is now below where it started the year. Bloomberg HT puts its opening value for 2026 at ₺5,985.85, which means a loss of 3.44% so far this year, and 7.08% since the first day of November. Onedio, using a 2025 closing price of ₺5,964, puts the yearly loss at about 4%."
+                },
+                {
+                  "text": "That would be the first losing year since 2013, when gram gold fell 13.3%, according to Onedio. Since then it has closed every year higher, with gains of 56.17% in 2020, 72.84% in 2021, 39.83% in 2022, 78.47% in 2023 and 52.53% in 2024, before doubling with a 100.03% rise in 2025. Prices passed ₺7,800 in the first months of this year."
+                }
+              ]
+            },
+            {
+              "subhead": "Why gold is falling",
+              "blocks": [
+                {
+                  "text": "Outlets point to the US central bank. Markets now expect the Fed may raise rates again in December because inflation could prove persistent, Habertürk and Cumhuriyet report; minutes of the Fed’s October meeting, published on 18 November, revived that debate. Higher bond yields make gold, which pays no interest, more costly to hold, and the dollar is near a 19-month high, which makes gold dearer for buyers using other currencies."
+                },
+                {
+                  "text": "Kyle Rodda, a senior financial markets analyst at Capital.com, told Cumhuriyet that the chance of another US rate rise and expectations of lasting inflation were adding to the selling, with rising bond yields and a stronger dollar pushing gold lower. Onedio notes that real yields on US bonds have climbed to between 2.85% and 2.90%, while the 10-year yield holds above 5%."
+                }
+              ]
+            },
+            {
+              "subhead": "What next",
+              "blocks": [
+                {
+                  "text": "Onedio’s market commentators say US inflation, Fed rate expectations and the dollar will set gold’s direction in the coming days. In Türkiye, gram and quarter gold prices also move with the dollar-lira rate, so prices can change by the hour, Onedio adds."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gram gold at 10:00",
+              "value": "₺5,779.83",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Ounce of gold, day’s low",
+              "value": "$3,551.68",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Ounce, loss this week",
+              "value": "8.9%",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Gram gold since 1 November",
+              "value": "−7.08%",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Quarter coin, selling",
+              "value": "₺9,450.03",
+              "source": "Bloomberg HT"
+            }
+          ],
+          "series": [
+            {
+              "date": "2020-12-31",
+              "value": "+56.2%",
+              "label": "2020"
+            },
+            {
+              "date": "2021-12-31",
+              "value": "+72.8%",
+              "label": "2021"
+            },
+            {
+              "date": "2022-12-31",
+              "value": "+39.8%",
+              "label": "2022"
+            },
+            {
+              "date": "2023-12-31",
+              "value": "+78.5%",
+              "label": "2023"
+            },
+            {
+              "date": "2024-12-31",
+              "value": "+52.5%",
+              "label": "2024"
+            },
+            {
+              "date": "2025-12-31",
+              "value": "+100.0%",
+              "label": "2025"
+            },
+            {
+              "date": "2026-11-20",
+              "value": "−3.4%",
+              "label": "2026 so far"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gram gold, start of 2026 vs Friday",
+            "unit": "₺",
+            "before": 5985.85,
+            "after": 5779.83,
+            "source": "Bloomberg HT"
+          },
+          "news": "Gram gold fell to about ₺5,780, below its level at the start of the year, putting it on course for its first yearly loss since 2013."
+        },
+        "tr": {
+          "shortTitle": "Gram altın 5.800 liranın altında",
+          "title": "Gram altın 5.780 liraya geriledi: 2013’ten beri ilk yıllık kayıp kapıda",
+          "summary": {
+            "what": "Gram altın cuma günü yaklaşık %2,7 düşüşle 5.780 lira civarına inerek yılbaşı seviyesinin altına geçti; ons altın Eylül 2025’ten bu yana en düşük seviyeyi gördü.",
+            "why": "Gram altın 2013’ten beri her yılı artıda kapattı, 2025’te değerini ikiye katladı; bu yıl kayıpla biterse seri sona erecek.",
+            "next": "Analistlere göre altının yönünü ABD enflasyonu, Fed’in aralıktaki faiz kararı beklentisi ve doların seyri belirleyecek."
+          },
+          "body": [
+            {
+              "subhead": "Cuma sabahı sert düşüş",
+              "blocks": [
+                {
+                  "text": "Gram altın cuma sabahı sert düştü. Bloomberg HT’ye göre saat 10.00 itibarıyla serbest piyasada 5.779,83 liradan satılıyordu; düşüş bir önceki güne göre %2,67. Çeyrek altın 9.450,03 liradan, Cumhuriyet altını 37.684,51 liradan işlem gördü. Onedio, çarşamba günü 6.016 lira civarında olan gram altının iki günde yaklaşık %4 gerilediğini hatırlattı."
+                },
+                {
+                  "text": "Düşüş küresel fiyattan geldi. Cumhuriyet’e göre ons altın gün içinde %1,9 düşüşle 3.551,68 dolara inerek Eylül 2025’ten bu yana en düşük seviyesini gördü; haftalık kayıp %8,9’a ulaştı ve 20 Mart haftasından bu yana en sert haftalık düşüş oldu. Onedio, altının ocakta gördüğü 5.595 dolarlık rekorun hayli altında olduğunu belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "13 yıllık seri tehlikede",
+              "blocks": [
+                {
+                  "text": "Gram altın yılbaşı seviyesinin altına indi. Bloomberg HT’ye göre yılbaşı değeri 5.985,85 liraydı; bu, yıl başından bu yana %3,44, kasımın ilk gününden bu yana %7,08 kayıp demek. Onedio ise 2025’i 5.964 liradan kapatan gram altının yıllık kaybını yaklaşık %4 olarak hesapladı."
+                },
+                {
+                  "text": "Onedio’ya göre bu, gram altının %13,3 kaybettirdiği 2013’ten bu yana ilk eksi yıl olur. Gram altın o tarihten beri her yılı artıda kapattı: 2020’de %56,17, 2021’de %72,84, 2022’de %39,83, 2023’te %78,47, 2024’te %52,53 kazandırdı; 2025’i %100,03 getiriyle tamamladı. Fiyat bu yılın ilk aylarında 7.800 lirayı aşmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Altın neden düşüyor",
+              "blocks": [
+                {
+                  "text": "Habertürk ve Cumhuriyet’e göre piyasalar, enflasyonun kalıcı olabileceği endişesiyle Fed’in aralıkta yeniden faiz artırabileceğini fiyatlıyor; Fed’in ekim toplantısının 18 Kasım’da yayımlanan tutanakları bu tartışmayı yeniden alevlendirdi. Yükselen tahvil getirileri faiz getirisi olmayan altını tutmanın maliyetini artırıyor; 19 ayın zirvesine yakın seyreden dolar da altını diğer para birimleriyle alanlar için pahalılaştırıyor."
+                },
+                {
+                  "text": "Capital.com Kıdemli Finans Piyasaları Analisti Kyle Rodda, Cumhuriyet’in aktardığına göre ABD’de yeni faiz artırımı ihtimali ve kalıcı enflasyon beklentisinin satış baskısını artırdığını, yükselen tahvil getirileri ile güçlenen doların altını aşağı çektiğini söyledi. Onedio’ya göre ABD’nin 10 yıllık tahvil faizi %5’in üzerinde tutunurken reel getiriler %2,85 ile %2,90 aralığına çıktı."
+                }
+              ]
+            },
+            {
+              "subhead": "Bundan sonra",
+              "blocks": [
+                {
+                  "text": "Onedio’nun aktardığı piyasa yorumcularına göre altının yönünü önümüzdeki günlerde ABD enflasyonu, Fed faiz beklentileri ve doların performansı belirleyecek. Yurt içinde gram ve çeyrek altın dolar/TL kuruna da bağlı olduğu için fiyatlar saat saat değişebiliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gram altın, saat 10.00",
+              "value": "5.779,83 ₺",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Ons altın, gün içi en düşük",
+              "value": "3.551,68 $",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Ons altının haftalık kaybı",
+              "value": "%8,9",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Gram altın, 1 Kasım’dan beri",
+              "value": "−%7,08",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Çeyrek altın, satış",
+              "value": "9.450,03 ₺",
+              "source": "Bloomberg HT"
+            }
+          ],
+          "series": [
+            {
+              "date": "2020-12-31",
+              "value": "+%56,2",
+              "label": "2020"
+            },
+            {
+              "date": "2021-12-31",
+              "value": "+%72,8",
+              "label": "2021"
+            },
+            {
+              "date": "2022-12-31",
+              "value": "+%39,8",
+              "label": "2022"
+            },
+            {
+              "date": "2023-12-31",
+              "value": "+%78,5",
+              "label": "2023"
+            },
+            {
+              "date": "2024-12-31",
+              "value": "+%52,5",
+              "label": "2024"
+            },
+            {
+              "date": "2025-12-31",
+              "value": "+%100,0",
+              "label": "2025"
+            },
+            {
+              "date": "2026-11-20",
+              "value": "−%3,4",
+              "label": "2026 (şimdiye kadar)"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gram altın, yılbaşı ve cuma",
+            "unit": "₺",
+            "before": 5985.85,
+            "after": 5779.83,
+            "source": "Bloomberg HT"
+          },
+          "news": "Gram altın yaklaşık 5.780 liraya inerek yılbaşı seviyesinin altına düştü; 2013’ten bu yana ilk yıllık kayıp kapıda."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T04:26:44.000Z",
+          "sourceId": "onedio"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T06:22:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T07:00:02.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T07:00:02.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:12:40.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:44:20.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/270f059b-46b0-48e3-91e8-536e3c72844c.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlari-cakildi-gram-ceyrek-ve-cumhuriyet-altini-bugun-ne-kadar-oldu-guncel-altin-fiyatlari-20-kasim-2026-cuma-2557761"
+      },
+      "sources": [
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/20-kasim-cuma-altin-fiyati-altin-fiyatinda-buyuk-dusus-gram-altinda-12-yillik-seri-tehlikede-1396221",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlari-cakildi-gram-ceyrek-ve-cumhuriyet-altini-bugun-ne-kadar-oldu-guncel-altin-fiyatlari-20-kasim-2026-cuma-2557761",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/guncel-altin-fiyatlari-20-kasim-2026-cuma-gram-ve-ceyrek-altin-ne-kadar-oldu-pkh1-3795248",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/bilgi/foto/canli-altin-fiyatlari-20-kasim-2026-bugun-gram-altin-ceyrek-altin-ne-kadar-altin-neden-dusuyor-yukselecek-mi-3928656",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/20/ons-altin-eylul-2025ten-bu-yana-en-dusuk-seviyeye-geriledi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T12:30:00+03:00",
+      "updatedAt": "2026-11-20T12:30:00+03:00"
+    },
+    {
+      "id": "e5d5af4d4476e112",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "a756177afa341a89",
+      "versions": {
+        "en": {
+          "shortTitle": "US cyber director fired",
+          "title": "White House fires cyber director Sean Cairncross after a week of outages",
+          "summary": {
+            "what": "The White House fired national cyber director Sean Cairncross after a week of outages hit US air travel, banking and national security systems.",
+            "why": "The Trump administration faces mounting criticism over its response to the failures, which officials insist were not a cyberattack.",
+            "next": "The Pentagon’s Kirsten Davies takes over as acting director; a permanent pick needs the Senate, which Democrats control from January."
+          },
+          "body": [
+            {
+              "subhead": "Fired after the outages",
+              "blocks": [
+                {
+                  "text": "Sean Cairncross, the White House national cyber director, was “fired” on Thursday, a person close to the White House told AFP, as reported by France 24, Euronews and the South China Morning Post. His exit came days after a run of technology outages disrupted US air travel, banking and national security systems. Al Jazeera described the move as Trump bowing to pressure."
+                },
+                {
+                  "quote": "The president fully supported firing Sean Cairncross from his position.",
+                  "speaker": "A person close to the White House",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "The failures over the past week included a nationwide halt to air travel, a Microsoft outage that hit email services for hundreds of millions of users and a temporary disruption to the National Security Agency’s network, France 24 and the South China Morning Post report."
+                }
+              ]
+            },
+            {
+              "subhead": "Who takes over",
+              "blocks": [
+                {
+                  "text": "Kirsten Davies, the Pentagon’s chief information officer, will take the post in an acting capacity, DW and Euronews report. Secretary of State Marco Rubio congratulated her on X shortly after Axios and other US outlets reported the departure, DW says."
+                },
+                {
+                  "quote": "Look forward to working together to strengthen America’s cybersecurity.",
+                  "speaker": "Marco Rubio",
+                  "sourceId": "dw-world"
+                },
+                {
+                  "text": "Davies thanked President Donald Trump and White House Chief of Staff Stephen Miller on X late on Thursday, according to DW, and wrote that the country stands at “the crossroad of analog, digital, and quantum technologies”. Defense Secretary Pete Hegseth said she had “proven herself to be a dedicated patriot and professional” at the Pentagon, where her role was to advise him on information technology and cybersecurity, Euronews reports."
+                }
+              ]
+            },
+            {
+              "subhead": "“Not a coordinated attack”",
+              "blocks": [
+                {
+                  "text": "The administration has been criticised over how it handled the outages, France 24 reports. On Wednesday the top US intelligence official said the disruptions to critical systems were separate service outages linked to maintenance and technical changes, not a coordinated or state-sponsored attack. Top officials have sought to reassure Americans that there is no evidence of a cyberattack, DW adds."
+                }
+              ]
+            },
+            {
+              "subhead": "The job",
+              "blocks": [
+                {
+                  "text": "The national cyber director advises the president on cybersecurity policy and coordinates it across the federal government; the office was created in 2021, Euronews notes. Trump nominated Cairncross in 2025 and the Senate confirmed him; before that he was an executive at the Republican National Committee, DW reports. In March the administration published a seven-page cyber strategy that promised to modernise federal systems and harden critical infrastructure, according to Euronews. A permanent successor must be confirmed by the Senate, which Democrats will control from January, France 24 notes."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Office of the cyber director created",
+              "value": "2021",
+              "source": "Euronews"
+            },
+            {
+              "label": "Pages in the March cyber strategy",
+              "value": "7",
+              "source": "Euronews"
+            },
+            {
+              "label": "Cairncross nominated",
+              "value": "2025",
+              "source": "DW"
+            },
+            {
+              "label": "Democrats take the Senate",
+              "value": "January",
+              "source": "France 24"
+            }
+          ],
+          "news": "The White House fired national cyber director Sean Cairncross; the Pentagon’s Kirsten Davies takes over as acting director."
+        },
+        "tr": {
+          "shortTitle": "ABD siber direktörü görevden alındı",
+          "title": "Beyaz Saray, kesintilerin ardından siber direktör Sean Cairncross’u kovdu",
+          "summary": {
+            "what": "Beyaz Saray, ABD’de hava ulaşımını, bankacılığı ve ulusal güvenlik sistemlerini vuran bir haftalık kesintilerin ardından ulusal siber direktör Sean Cairncross’u görevden aldı.",
+            "why": "Trump yönetimi, yetkililerin siber saldırı olmadığını söylediği arızalara verdiği yanıt nedeniyle artan eleştirilerle karşı karşıya.",
+            "next": "Görevi vekâleten Pentagon’dan Kirsten Davies üstleniyor; kalıcı atama ocakta Demokratların kontrolüne geçecek Senato’nun onayına bağlı."
+          },
+          "body": [
+            {
+              "subhead": "Kesintilerin ardından görevden alma",
+              "blocks": [
+                {
+                  "text": "France 24, Euronews ve South China Morning Post’un aktardığına göre Beyaz Saray’a yakın bir kaynak AFP’ye, ulusal siber direktör Sean Cairncross’un perşembe günü “kovulduğunu” söyledi. Görevden alma, ABD’de hava ulaşımını, bankacılığı ve ulusal güvenlik sistemlerini aksatan bir dizi teknoloji kesintisinden günler sonra geldi. Al Jazeera, kararı Trump’ın baskılara boyun eğmesi olarak yorumladı."
+                },
+                {
+                  "quote": "Başkan, Sean Cairncross’un görevden alınmasını tamamen destekledi.",
+                  "speaker": "Beyaz Saray’a yakın bir kaynak",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "France 24 ve South China Morning Post’a göre geçen haftaki arızalar arasında ülke genelinde uçuşların durması, yüz milyonlarca kullanıcının e-postasını etkileyen Microsoft kesintisi ve Ulusal Güvenlik Ajansı (NSA) ağındaki geçici aksama vardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yerine kim geliyor",
+              "blocks": [
+                {
+                  "text": "DW ve Euronews’e göre görevi Pentagon’un bilgi işlem sorumlusu (CIO) Kirsten Davies vekâleten üstlenecek. DW’nin aktardığına göre Dışişleri Bakanı Marco Rubio, Axios ve diğer ABD medyasının ayrılığı duyurmasının hemen ardından X’te Davies’i tebrik etti."
+                },
+                {
+                  "quote": "Amerika’nın siber güvenliğini güçlendirmek için birlikte çalışmayı dört gözle bekliyorum.",
+                  "speaker": "Marco Rubio",
+                  "sourceId": "dw-world",
+                  "translated": true
+                },
+                {
+                  "text": "DW’ye göre Davies perşembe gecesi X’te Başkan Donald Trump’a ve Beyaz Saray Özel Kalem Müdürü Stephen Miller’a teşekkür etti ve ülkenin “analog, dijital ve kuantum teknolojilerinin kavşağında” durduğunu yazdı. Euronews’e göre Pentagon’da bilgi teknolojileri ve siber güvenlik konularında Savunma Bakanı Pete Hegseth’in danışmanlığını yapan Davies için Hegseth, “kendini adanmış bir vatansever ve profesyonel olarak kanıtladı” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "“Koordineli bir saldırı değil”",
+              "blocks": [
+                {
+                  "text": "France 24’e göre yönetim, kesintilere verdiği yanıt nedeniyle eleştiriliyor. ABD’nin en üst düzey istihbarat yetkilisi çarşamba günü, kritik sistemlerdeki aksamaların bakım ve teknik değişikliklerle ilgili ayrı kesintiler olduğunu, koordineli ya da devlet destekli bir saldırı olmadığını söyledi. DW’ye göre üst düzey yetkililer siber saldırıya dair kanıt bulunmadığını vurguluyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Görevin kendisi",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre ulusal siber direktör, başkana siber güvenlik politikası konusunda danışmanlık yapıyor ve bu politikayı federal hükümet genelinde koordine ediyor; makam 2021’de kuruldu. DW’ye göre Trump, Cairncross’u 2025’te aday gösterdi ve Senato onayladı; Cairncross daha önce Cumhuriyetçi Ulusal Komite’de yöneticiydi. Euronews’e göre yönetim mart ayında federal sistemleri modernize etmeyi ve kritik altyapıyı güçlendirmeyi vaat eden yedi sayfalık bir siber strateji yayımlamıştı. France 24, kalıcı ismin ocaktan itibaren Demokratların kontrol edeceği Senato’dan onay alması gerektiğini hatırlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Siber direktörlük makamının kuruluşu",
+              "value": "2021",
+              "source": "Euronews"
+            },
+            {
+              "label": "Mart’taki siber strateji",
+              "value": "7 sayfa",
+              "source": "Euronews"
+            },
+            {
+              "label": "Cairncross’un aday gösterilmesi",
+              "value": "2025",
+              "source": "DW"
+            },
+            {
+              "label": "Senato Demokratlara geçiyor",
+              "value": "Ocak",
+              "source": "France 24"
+            }
+          ],
+          "news": "Beyaz Saray ulusal siber direktör Sean Cairncross’u kovdu; görevi vekâleten Pentagon’dan Kirsten Davies üstleniyor."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T01:28:47.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T03:04:01.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T03:04:01.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T04:21:00.000Z",
+          "sourceId": "dw-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T05:48:35.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T07:03:40.000Z",
+          "sourceId": "euronews-en"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/e56edbae-d878-11f1-8aa8-bf1914cabd52/w:1024/p:16x9/AP26294693498447.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375152/white-house-fires-cybersecurity-chief-after-tech-chaos-rattles-us",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T12:30:00+03:00",
+      "updatedAt": "2026-11-20T12:30:00+03:00"
+    },
+    {
+      "id": "5aebf622386bee88",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Anti-AI protests greet Anthropic’s debut",
+          "title": "Anti-AI protesters rally at Nasdaq and Anthropic’s offices on its market debut",
+          "summary": {
+            "what": "Anti-AI groups protested outside the Nasdaq building in Times Square and Anthropic’s San Francisco headquarters as the company began trading on Thursday.",
+            "why": "The protests turned the largest IPO in history into a stage for demands for tighter AI rules and human control over the technology.",
+            "next": "Organisers want stricter national AI regulation and, in one group’s case, a global ban on AI systems that improve themselves."
+          },
+          "body": [
+            {
+              "subhead": "Two cities, one target",
+              "blocks": [
+                {
+                  "text": "As Anthropic debuted on the US stock market at a $2tn valuation on Thursday, protesters from anti-AI groups rallied in front of the Nasdaq exchange in Times Square, New York, and several were arrested, The Guardian reports. Similar demonstrations took place outside the company’s headquarters in downtown San Francisco, where Euronews reports protesters demanded tighter regulation and greater human control over artificial intelligence."
+                },
+                {
+                  "text": "About 30 people protested in New York, carrying flags that read “STOP TECH OLIGARCHS” and “FREEZE AI: END ICE, END WAR”, according to The Guardian. In San Francisco, about three dozen protesters from two groups gathered before 11am; one held a fake stock certificate for a single share of “Misanthropic”."
+                }
+              ]
+            },
+            {
+              "subhead": "What the protesters want",
+              "blocks": [
+                {
+                  "text": "The Times Square rally heard speeches from community leaders, including Aber Kawas, a New York state senator, The Guardian reports. Protesters’ main concerns ranged from environmental safety and national security to surveillance cameras and AI’s links to immigration enforcement and the police."
+                },
+                {
+                  "quote": "Investing in AI also comes at the direct cost of investing in people.",
+                  "speaker": "Aber Kawas",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "Jose Gonzalez, 46, a policy researcher for the non-profit New York Communities for Change, which helped organise the rally, told The Guardian he took the morning off work because stricter AI rules are needed nationwide. Jes Vesconte, 30, said he was urging his peers not to trade Anthropic’s shares."
+                }
+              ]
+            },
+            {
+              "subhead": "“AI building AIs”",
+              "blocks": [
+                {
+                  "text": "In San Francisco, Sydney Von Arx of the group Ban RSI said she wanted a global ban on “recursive self-improvement”, a process in which AI trains itself to become more advanced, The Guardian reports. Anthropic’s chief executive, Dario Amodei, has himself warned that it could outrun humans’ ability to control the systems, the paper notes."
+                },
+                {
+                  "quote": "We should not have AI building AIs. It’s going to go too fast at a pace that no humans can keep up with.",
+                  "speaker": "Sydney Von Arx",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "Adam Kaufman, who works at an AI safety non-profit, carried a sign reading “The only winning move is not to RACE”, a nod to the film WarGames."
+                }
+              ]
+            },
+            {
+              "subhead": "The backdrop",
+              "blocks": [
+                {
+                  "text": "Anthropic, founded in 2021, completed the largest initial public offering in history this week, raising about $81bn to keep developing its Claude family of AI models, The Guardian reports. Von Arx said the listing was a moment to reflect on how AI start-ups with lofty goals had become giant corporations that put “profit before safety and security”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Protesters in New York",
+              "value": "About 30",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Protesters in San Francisco",
+              "value": "About 36",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Raised in the IPO",
+              "value": "$81bn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Valuation at debut",
+              "value": "$2tn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Anthropic founded",
+              "value": "2021",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Times Square, New York",
+            "lat": 40.76,
+            "lon": -73.99,
+            "region": "United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Anthropic’in borsa gününde protesto",
+          "title": "Anthropic borsaya açılırken yapay zekâ karşıtları Nasdaq önünde toplandı",
+          "summary": {
+            "what": "Anthropic perşembe günü borsada işlem görmeye başlarken yapay zekâ karşıtı gruplar New York’ta Nasdaq binası ve San Francisco’da şirket merkezi önünde protesto yaptı.",
+            "why": "Protestolar, tarihin en büyük halka arzını yapay zekâya sıkı kurallar ve insan denetimi talebinin sahnesine çevirdi.",
+            "next": "Göstericiler ülke çapında daha sıkı yapay zekâ düzenlemesi, bir grup ise kendini geliştiren yapay zekâ sistemlerine küresel yasak istiyor."
+          },
+          "body": [
+            {
+              "subhead": "İki şehir, tek hedef",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın haberine göre Anthropic perşembe günü 2 trilyon dolarlık değerlemeyle ABD borsasına adım atarken, yapay zekâ karşıtı gruplar New York’ta Times Meydanı’ndaki Nasdaq binası önünde gösteri yaptı; birkaç kişi gözaltına alındı. Benzer bir gösteri şirketin San Francisco’daki merkezi önünde de düzenlendi. Euronews’e göre buradaki göstericiler daha sıkı düzenleme ve yapay zekâ üzerinde daha fazla insan denetimi istedi."
+                },
+                {
+                  "text": "The Guardian’a göre New York’taki yaklaşık 30 gösterici “STOP TECH OLIGARCHS” ve “FREEZE AI: END ICE, END WAR” yazılı bayraklar taşıdı. San Francisco’da iki gruptan yaklaşık otuz altı kişi saat 11.00’den önce toplandı; bir eylemci, “Misanthropic” (insan düşmanı) adlı hayali şirketin tek hisselik sahte senedini taşıyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Göstericiler ne istiyor",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Times Meydanı’ndaki eylemde aralarında New York eyalet senatörü Aber Kawas’ın da bulunduğu topluluk liderleri konuştu. Göstericilerin kaygıları çevre güvenliğinden ulusal güvenliğe, gözetim kameralarından yapay zekânın göçmenlik kolluğu ICE ve polisle bağlantısına kadar uzanıyordu."
+                },
+                {
+                  "quote": "Yapay zekâya yatırım yapmanın bedeli, doğrudan insanlara yatırım yapmamaktır.",
+                  "speaker": "Aber Kawas",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Eylemin düzenlenmesine yardım eden New York Communities for Change derneğinde politika araştırmacısı olan 46 yaşındaki Jose Gonzalez, ülke çapında daha sıkı kurallar gerektiği için işinden izin alıp geldiğini söyledi. 30 yaşındaki Jes Vesconte ise çevresini Anthropic hisselerini almamaya çağırdığını anlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Yapay zekâyı yapay zekâ yapmamalı”",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre San Francisco’da Ban RSI grubundan Sydney Von Arx, yapay zekânın kendini eğiterek daha gelişmiş hale geldiği “recursive self-improvement” (kendini yinelemeli geliştirme) sürecine küresel yasak istedi. Gazete, Anthropic’in CEO’su Dario Amodei’nin de bu sürecin insanların sistemleri denetleme kapasitesini aşabileceği uyarısında bulunduğunu hatırlattı."
+                },
+                {
+                  "quote": "Yapay zekâları yapay zekâ yapmamalı. Hiçbir insanın yetişemeyeceği bir hızla ilerleyecek.",
+                  "speaker": "Sydney Von Arx",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Bir yapay zekâ güvenliği derneğinde çalışan Adam Kaufman ise WarGames filmine gönderme yapan “The only winning move is not to RACE” yazılı bir pankart taşıdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Arka plan",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre 2021’de kurulan Anthropic bu hafta tarihin en büyük halka arzını tamamlayarak Claude yapay zekâ modellerini geliştirmek için yaklaşık 81 milyar dolar topladı. Von Arx, halka arzın büyük hedeflerle yola çıkan yapay zekâ girişimlerinin “kârı güvenliğin önüne koyan” dev şirketlere nasıl dönüştüğünü düşünmek için bir fırsat olduğunu söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "New York’taki gösterici",
+              "value": "Yaklaşık 30",
+              "source": "The Guardian"
+            },
+            {
+              "label": "San Francisco’daki gösterici",
+              "value": "Yaklaşık 36",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Halka arzda toplanan",
+              "value": "81 milyar $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İlk gündeki değerleme",
+              "value": "2 trilyon $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Anthropic’in kuruluşu",
+              "value": "2021",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Times Meydanı, New York",
+            "lat": 40.76,
+            "lon": -73.99,
+            "region": "ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T21:52:19.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:49:48.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T08:49:48.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/20/us-protesters-demand-human-control-over-ai-after-anthropics-ipo",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T12:30:00+03:00",
+      "updatedAt": "2026-11-20T12:30:00+03:00"
+    },
+    {
+      "id": "38d65333a9546bc8",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "UK and EU near reset deals",
+          "title": "UK and EU set to seal youth, food and carbon deals",
+          "summary": {
+            "what": "UK Prime Minister Andy Burnham meets EU leaders in Brussels on Friday to sign deals on food trade, carbon pricing and a youth scheme for 100,000 a year.",
+            "why": "It is the biggest step yet to rebuild ties a decade after the Brexit vote; the three deals are expected to add 0.4% to British GDP.",
+            "next": "If the deals are signed, the government will bring a bill to Parliament next week; talks on the longer-term relationship would follow."
+          },
+          "body": [
+            {
+              "subhead": "Three deals on the table",
+              "blocks": [
+                {
+                  "text": "Andy Burnham meets the EU’s top officials, Ursula von der Leyen and António Costa, in Brussels on Friday hoping to seal his first deals to reset ties after Brexit, France 24 reports. On the table are three agreements: one cutting red tape for food exports, one linking the two sides’ emissions-trading schemes and a “youth experience scheme”. EU states gave the package the green light late on Thursday night, according to diplomats quoted by France 24, but a final sign-off from London was still needed."
+                },
+                {
+                  "text": "Up to 100,000 young people from the EU would be able to travel, work and study in the UK each year, and the same number of Britons in Europe, the BBC understands. The Guardian reports that the UK raised the cap from the 50,000 to 80,000 it had sought and lifted the age limit from 30 to 31."
+                }
+              ]
+            },
+            {
+              "subhead": "The last-minute bargaining",
+              "blocks": [
+                {
+                  "text": "The talks went “down to the wire”, Downing Street said. The EU dropped its demand at the last minute that its students pay home tuition fees at British universities; the issue is left to a supplementary agreement within six months, The Guardian reports. The UK also gave up its demand for a vote on EU food laws after France objected; it will be consulted instead."
+                },
+                {
+                  "text": "The food and drink deal, expected to take effect on 1 March 2028, requires Britain to follow EU food safety rules, making it a rule taker, The Guardian says. The government argues the food deal could add £5bn to the economy and cut food prices, the BBC reports."
+                }
+              ]
+            },
+            {
+              "subhead": "Burnham’s new approach",
+              "blocks": [
+                {
+                  "text": "Burnham, who succeeded Keir Starmer in July and has said he hopes to see Britain rejoin the EU in his lifetime, presents the summit as a first step, France 24 reports."
+                },
+                {
+                  "quote": "It illustrates our new approach. Not adversarial. No longer burning bridges. But being constructive and positive – to deliver a win-win for Britain and the EU.",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "france-24"
+                },
+                {
+                  "quote": "The test for this summit is simple: does it make life better for people in Britain?",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Critics on both sides",
+              "blocks": [
+                {
+                  "text": "Conservative leader Kemi Badenoch accused Burnham of “reopening the divisions” of the referendum, and Reform UK leader Nigel Farage called the agreement a “very, very expensive and costly error”, the BBC reports. Liberal Democrat leader Ed Davey said Burnham was not going “anywhere near far enough”. Burnham has kept Starmer’s red lines for this parliament: no return to the single market, customs union or free movement, France 24 notes. If the deals are signed, a bill will go to Parliament next week, his spokesman said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Young people a year, each way",
+              "value": "100,000",
+              "source": "BBC, The Guardian"
+            },
+            {
+              "label": "Expected boost to UK GDP",
+              "value": "0.4%",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Food deal’s value, UK estimate",
+              "value": "£5bn",
+              "source": "BBC"
+            },
+            {
+              "label": "Food deal takes effect",
+              "value": "1 Mar 2028",
+              "source": "The Guardian"
+            },
+            {
+              "label": "New age cap for the scheme",
+              "value": "31",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Brussels",
+            "lat": 50.85,
+            "lon": 4.35,
+            "region": "Belgium"
+          }
+        },
+        "tr": {
+          "shortTitle": "İngiltere ve AB anlaşmaya yakın",
+          "title": "İngiltere ve AB, Brüksel’de gençlik, gıda ve karbon anlaşmalarına hazırlanıyor",
+          "summary": {
+            "what": "İngiltere Başbakanı Andy Burnham cuma günü Brüksel’de AB liderleriyle gıda ticareti, karbon fiyatlaması ve yılda 100 bin kişilik gençlik programı anlaşmalarını imzalamaya hazırlanıyor.",
+            "why": "Brexit oylamasından on yıl sonra ilişkileri yeniden kurmak için atılan en büyük adım; üç anlaşmanın İngiltere’nin GSYH’sine %0,4 katkı yapması bekleniyor.",
+            "next": "Anlaşmalar imzalanırsa hükümet gelecek hafta Parlamento’ya yasa tasarısı getirecek; ardından uzun vadeli ilişki görüşmeleri başlayacak."
+          },
+          "body": [
+            {
+              "subhead": "Masadaki üç anlaşma",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre Andy Burnham cuma günü Brüksel’de AB’nin üst düzey isimleri Ursula von der Leyen ve António Costa ile buluşuyor ve Brexit sonrası ilişkileri yeniden kurmaya yönelik ilk anlaşmaları imzalamayı umuyor. Masada üç anlaşma var: gıda ihracatındaki bürokrasiyi azaltan bir anlaşma, iki tarafın emisyon ticaret sistemlerini birbirine bağlayan bir anlaşma ve bir “gençlik deneyimi programı”. France 24’ün aktardığı diplomatlara göre AB ülkeleri pakete perşembe gecesi onay verdi, ancak Londra’nın son onayı bekleniyordu."
+                },
+                {
+                  "text": "BBC’nin öğrendiğine göre programla her yıl AB’den 100 bine kadar genç İngiltere’de seyahat edebilecek, çalışabilecek ve okuyabilecek; aynı sayıda İngiliz genç de Avrupa’ya gidebilecek. The Guardian’a göre İngiltere, istediği 50-80 bin kişilik sınırı 100 bine çıkardı ve yaş sınırı 30’dan 31’e yükseltildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Son dakika pazarlıkları",
+              "blocks": [
+                {
+                  "text": "Başbakanlık, görüşmelerin “son ana kadar” sürdüğünü söyledi. The Guardian’a göre AB, öğrencilerinin İngiliz üniversitelerinde yerli öğrenci harcı ödemesi talebinden son anda vazgeçti; konu altı ay içinde yapılacak ek bir anlaşmaya bırakıldı. İngiltere de Fransa’nın itirazı üzerine AB gıda mevzuatında oy hakkı talebinden vazgeçti; bunun yerine görüşü alınacak."
+                },
+                {
+                  "text": "The Guardian’a göre 1 Mart 2028’de yürürlüğe girmesi beklenen gıda anlaşması, İngiltere’nin AB gıda güvenliği kurallarına uymasını gerektiriyor; yani İngiltere kuralları koyan değil uygulayan taraf olacak. BBC’ye göre hükümet, gıda anlaşmasının ekonomiye 5 milyar sterlin katkı yapabileceğini ve gıda fiyatlarını düşüreceğini savunuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Burnham’ın yeni yaklaşımı",
+              "blocks": [
+                {
+                  "text": "France 24’e göre temmuzda Keir Starmer’ın yerine geçen ve İngiltere’nin bir gün AB’ye geri döndüğünü görmeyi umduğunu söyleyen Burnham, zirveyi ilk adım olarak sunuyor."
+                },
+                {
+                  "quote": "Yeni yaklaşımımızı gösteriyor. Düşmanca değil. Artık köprüleri yakmıyoruz. Yapıcı ve olumlu olarak İngiltere ve AB için kazan-kazan sağlıyoruz.",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "quote": "Bu zirvenin sınavı basit: İngiltere’deki insanların hayatını iyileştiriyor mu?",
+                  "speaker": "Andy Burnham",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "İki taraftan eleştiri",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Muhafazakâr Parti lideri Kemi Badenoch, Burnham’ı referandumun “bölünmelerini yeniden açmakla” suçladı; Reform UK lideri Nigel Farage ise anlaşmayı “çok, çok pahalı ve maliyetli bir hata” olarak nitelendirdi. Liberal Demokrat lider Ed Davey ise Burnham’ın “yeterince ileri gitmediğini” söyledi. France 24’e göre Burnham bu yasama döneminde Starmer’ın kırmızı çizgilerine bağlı: tek pazara, gümrük birliğine ve serbest dolaşıma dönüş yok. Sözcüsüne göre anlaşmalar imzalanırsa gelecek hafta Parlamento’ya yasa tasarısı sunulacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Her yönde yıllık genç sayısı",
+              "value": "100.000",
+              "source": "BBC, The Guardian"
+            },
+            {
+              "label": "GSYH’ye beklenen katkı",
+              "value": "%0,4",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Gıda anlaşmasının değeri (hükümet)",
+              "value": "5 milyar £",
+              "source": "BBC"
+            },
+            {
+              "label": "Gıda anlaşmasının yürürlüğü",
+              "value": "1 Mart 2028",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Programın yeni yaş sınırı",
+              "value": "31",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Brüksel",
+            "lat": 50.85,
+            "lon": 4.35,
+            "region": "Belçika"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T02:00:15.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T07:14:46.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T07:14:46.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:19:28.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/203b3d22-e486-11f1-9e19-e56ab3dc0809/w:1024/p:16x9/c90a23b59a6d01ee8ae6acbb2cad20e56147ea25.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T12:30:00+03:00",
+      "updatedAt": "2026-11-20T12:30:00+03:00"
+    },
+    {
+      "id": "b11b79f675457d8a",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Russia strikes three Kyiv bridges",
+          "title": "Russia hits three Kyiv bridges in one of the war’s biggest attacks",
+          "summary": {
+            "what": "Russia fired almost 100 missiles and about 400 drones at Ukraine overnight, hitting three bridges in Kyiv; Ukraine’s prime minister says eight people were killed.",
+            "why": "Putin had promised “far more painful” retaliation after Ukraine damaged the Crimean Bridge this week, and the strikes also hit power plants and embassies.",
+            "next": "The three Kyiv bridges are closed to traffic, and the mayor has urged people to avoid driving into the city unless they must."
+          },
+          "body": [
+            {
+              "subhead": "A night of strikes",
+              "blocks": [
+                {
+                  "text": "Russia launched one of the largest air attacks of the war on Ukraine overnight, firing almost 100 missiles and around 400 drones, the BBC reports, citing Ukraine’s air force. Ballistic missiles hit three bridges over the Dnipro in Kyiv: the Podilsko-Voskresensky, the Darnytskyi and the Southern Bridge, all now closed to traffic."
+                },
+                {
+                  "text": "Eight people were killed and 28 wounded across Ukraine, six of them in Kyiv, Prime Minister Sergii Koretskyi said on Telegram, as reported by France 24. Two people were killed when a strike hit the Sknyliv railway station in Lviv, the BBC reports, and four were injured in Kharkiv, where drones hit a hospital and a residential district."
+                }
+              ]
+            },
+            {
+              "subhead": "Retaliation for the Crimean Bridge",
+              "blocks": [
+                {
+                  "text": "The attack came days after Ukraine damaged the road section of the Crimean Bridge, which the Kremlin built to link Russia with occupied Crimea. Vladimir Putin had promised that Moscow’s retaliation would be “far more painful”, the BBC reports. Russia’s Defence Ministry said its forces hit defence industry sites as well as energy and transport infrastructure, including in Kyiv, France 24 reports."
+                },
+                {
+                  "text": "Kyiv’s mayor Vitali Klitschko urged residents to avoid travelling into the city by car unless absolutely necessary. Ukraine’s nuclear power plants had to cut output after strikes on the power grid caused outages in Kyiv and ten regions, Deputy Energy Minister Artem Nekrasov said, according to France 24."
+                }
+              ]
+            },
+            {
+              "subhead": "Embassies hit",
+              "blocks": [
+                {
+                  "text": "The overnight assault followed a day of strikes on Thursday that damaged a historic cathedral and the embassies of Austria and the Netherlands in Kyiv, France 24 and Euronews report. About ten people were working inside the Austrian embassy when an explosion went off nearby, deputy head of mission Daniel Ruethlin said, and a projectile hit the Dutch embassy, according to Foreign Minister Tom Berendsen. No diplomats were hurt. Euronews later reported that the Brazilian embassy was also damaged."
+                }
+              ]
+            },
+            {
+              "subhead": "Nights in the metro",
+              "blocks": [
+                {
+                  "text": "Residents again spent the night in Kyiv’s metro stations, pitching tents and laying out mattresses along the platforms as sirens sounded, Euronews reports. Air raid sirens ran through the night and into Friday morning, according to the BBC."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Missiles fired overnight",
+              "value": "Almost 100",
+              "source": "Ukraine’s air force via BBC"
+            },
+            {
+              "label": "Drones launched",
+              "value": "About 400",
+              "source": "Ukraine’s air force via BBC"
+            },
+            {
+              "label": "Kyiv bridges hit and closed",
+              "value": "3",
+              "source": "BBC"
+            },
+            {
+              "label": "Killed across Ukraine",
+              "value": "8",
+              "source": "PM Sergii Koretskyi via France 24"
+            },
+            {
+              "label": "Regions with power outages",
+              "value": "10 and Kyiv",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Kyiv",
+            "lat": 50.45,
+            "lon": 30.52,
+            "region": "Ukraine"
+          }
+        },
+        "tr": {
+          "shortTitle": "Rusya Kiev’de üç köprüyü vurdu",
+          "title": "Rusya, savaşın en büyük hava saldırılarından birinde Kiev’de üç köprüyü vurdu",
+          "summary": {
+            "what": "Rusya gece Ukrayna’ya yaklaşık 100 füze ve 400 kadar insansız hava aracı fırlattı, Kiev’de üç köprüyü vurdu; Başbakan’a göre sekiz kişi öldü.",
+            "why": "Putin, Ukrayna’nın bu hafta Kırım Köprüsü’ne verdiği hasar için “çok daha acı” bir karşılık sözü vermişti; saldırılar santralleri ve büyükelçilikleri de vurdu.",
+            "next": "Kiev’deki üç köprü trafiğe kapalı; Belediye Başkanı, zorunlu olmadıkça şehre arabayla girilmemesi çağrısı yaptı."
+          },
+          "body": [
+            {
+              "subhead": "Saldırı gecesi",
+              "blocks": [
+                {
+                  "text": "BBC’nin Ukrayna Hava Kuvvetleri’ne dayandırdığı habere göre Rusya gece boyunca Ukrayna’ya yaklaşık 100 füze ve 400 kadar insansız hava aracıyla savaşın en büyük hava saldırılarından birini düzenledi. Balistik füzeler Kiev’de Dinyeper Nehri üzerindeki üç köprüyü vurdu: Podilsko-Voskresensky, Darnitski ve Güney Köprüsü trafiğe kapatıldı."
+                },
+                {
+                  "text": "France 24’e göre Başbakan Sergii Koretskyi Telegram’da, Ukrayna genelinde altısı Kiev’de olmak üzere sekiz kişinin öldüğünü, 28 kişinin yaralandığını açıkladı. BBC’ye göre Lviv’de Sknyliv tren istasyonuna isabet eden saldırıda iki kişi öldü; Harkiv’de ise insansız hava araçlarının bir hastaneyi ve bir yerleşim bölgesini vurması sonucu dört kişi yaralandı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kırım Köprüsü’nün karşılığı",
+              "blocks": [
+                {
+                  "text": "Saldırı, Ukrayna’nın Kremlin’in Rusya ile işgal altındaki Kırım’ı bağlamak için inşa ettiği Kırım Köprüsü’nün kara yolu bölümünü hasara uğratmasından günler sonra geldi. BBC’ye göre Vladimir Putin, Moskova’nın karşılığının “çok daha acı” olacağını söylemişti. France 24’e göre Rusya Savunma Bakanlığı, Kiev dahil birçok bölgede savunma sanayii tesislerini, enerji ve ulaşım altyapısını vurduklarını açıkladı."
+                },
+                {
+                  "text": "Kiev Belediye Başkanı Vitali Klitschko, kesinlikle gerekmedikçe şehre özel araçla girilmemesi çağrısında bulundu. France 24’e göre Enerji Bakan Yardımcısı Artem Nekrasov, elektrik şebekesine yönelik saldırıların Kiev ve on bölgede kesintilere yol açtığını, nükleer santrallerin üretimi düşürmek zorunda kaldığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Büyükelçilikler de hasar gördü",
+              "blocks": [
+                {
+                  "text": "France 24 ve Euronews’e göre gece saldırısından önce perşembe günü gündüz yapılan saldırılar Kiev’de tarihi bir katedrali ve Avusturya ile Hollanda büyükelçiliklerini hasara uğrattı. Avusturya Büyükelçiliği Misyon Şef Yardımcısı Daniel Ruethlin, patlama olduğunda binada yaklaşık on kişinin çalıştığını söyledi; Dışişleri Bakanı Tom Berendsen’e göre bir mermi Hollanda Büyükelçiliği’ne isabet etti. Diplomatlardan yaralanan olmadı. Euronews daha sonra Brezilya Büyükelçiliği’nin de hasar gördüğünü bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Metroda geceler",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre Kievliler geceyi yine metro istasyonlarında geçirdi; peronlara çadır kurup şişme yataklar serdiler. BBC’ye göre hava saldırısı sirenleri gece boyunca ve cuma sabahı da sürdü."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gece fırlatılan füze",
+              "value": "Yaklaşık 100",
+              "source": "BBC (Ukrayna Hava Kuvvetleri)"
+            },
+            {
+              "label": "İnsansız hava aracı",
+              "value": "Yaklaşık 400",
+              "source": "BBC (Ukrayna Hava Kuvvetleri)"
+            },
+            {
+              "label": "Vurulan ve kapanan köprü",
+              "value": "3",
+              "source": "BBC"
+            },
+            {
+              "label": "Ukrayna genelinde ölü",
+              "value": "8",
+              "source": "Başbakan Koretskyi, France 24"
+            },
+            {
+              "label": "Elektrik kesilen bölge",
+              "value": "Kiev ve 10 bölge",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Kiev",
+            "lat": 50.45,
+            "lon": 30.52,
+            "region": "Ukrayna"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-19T21:25:27.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-19T23:21:18.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-19T23:21:18.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T08:40:45.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/20/ukraine-kyiv-metro-stations-become-overnight-shelters-amid-air-raids",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375146/russian-barrage-damages-embassies-and-cathedral-ukraine-capital",
+          "confirms": false
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T12:30:00+03:00",
+      "updatedAt": "2026-11-20T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "1a18aa78f9462f26",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Since which year has gram gold ended every year in profit, according to Onedio?",
+          "options": ["2008", "2019", "2013"]
+        },
+        "tr": {
+          "question": "Onedio’ya göre gram altın hangi yıldan bu yana her yılı artıda kapatıyor?",
+          "options": ["2008", "2019", "2013"]
+        }
+      }
+    },
+    {
+      "storyId": "e5d5af4d4476e112",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Who takes over as acting US national cyber director?",
+          "options": ["Kirsten Davies", "Marco Rubio", "Stephen Miller"]
+        },
+        "tr": {
+          "question": "ABD ulusal siber direktörlüğüne vekâleten kim getirildi?",
+          "options": ["Kirsten Davies", "Marco Rubio", "Stephen Miller"]
+        }
+      }
+    },
+    {
+      "storyId": "38d65333a9546bc8",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many young people a year could move each way under the UK–EU youth scheme?",
+          "options": ["50,000", "100,000", "250,000"]
+        },
+        "tr": {
+          "question": "İngiltere–AB gençlik programıyla her yönde yılda kaç genç gidebilecek?",
+          "options": ["50.000", "100.000", "250.000"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-127",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-20T17:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/127"
+      }
+    },
+    {
+      "id": "espn-401909312",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "short": "Nuggets",
+        "ours": false,
+        "team": "denver-nuggets"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-21T03:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909312"
+      }
+    }
+  ]
+}
