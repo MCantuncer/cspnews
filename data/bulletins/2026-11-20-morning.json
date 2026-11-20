@@ -419,7 +419,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aff11f2c757abf6569382a7.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6aff11f2c757abf6569382a7.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/mhp-genel-baskani-devlet-bahceli-turkiye-ve-erdogan-gormezden-gelinemez-43384197"
@@ -665,7 +665,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aff131dc757abf6569382b0.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6aff131dc757abf6569382b0.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/bakan-ciftci-firariler-icin-cember-daraliyor-43384203"
@@ -709,7 +709,6 @@
       "continues": "60ff07a70f51c369",
       "versions": {
         "en": {
-          "news": "Anthropic closed its first trading day at about $97, 17% above its IPO price and well off its $111.50 open, as Wall Street fell about 2%.",
           "shortTitle": "Anthropic closes first day at $97",
           "title": "Anthropic ends its first day at $97 as Wall Street slides",
           "summary": {
@@ -793,10 +792,10 @@
             "before": 83,
             "after": 97,
             "source": "The Guardian"
-          }
+          },
+          "news": "Anthropic closed its first trading day at about $97, 17% above its IPO price and well off its $111.50 open, as Wall Street fell about 2%."
         },
         "tr": {
-          "news": "Anthropic ilk işlem gününü halka arz fiyatının %17 üzerinde, 97 dolar civarında kapattı; Wall Street yaklaşık %2 düştü.",
           "shortTitle": "Anthropic ilk günü 97 dolardan kapattı",
           "title": "Anthropic ilk günü 97 dolardan kapattı, Wall Street sert düştü",
           "summary": {
@@ -881,7 +880,8 @@
             "before": 83,
             "after": 97,
             "source": "The Guardian"
-          }
+          },
+          "news": "Anthropic ilk işlem gününü halka arz fiyatının %17 üzerinde, 97 dolar civarında kapattı; Wall Street yaklaşık %2 düştü."
         }
       },
       "timeline": [
@@ -1147,7 +1147,6 @@
       "continues": "fce688fc2d4a1f02",
       "versions": {
         "en": {
-          "news": "A House committee says the US approved 879,000 Nvidia and AMD AI chips for Chinese companies between December 2025 and May 2026.",
           "shortTitle": "879,000 AI chips cleared for China",
           "title": "US cleared 879,000 Nvidia and AMD AI chips for China",
           "summary": {
@@ -1222,10 +1221,10 @@
             "lat": 38.89,
             "lon": -77.01,
             "region": "United States"
-          }
+          },
+          "news": "A House committee says the US approved 879,000 Nvidia and AMD AI chips for Chinese companies between December 2025 and May 2026."
         },
         "tr": {
-          "news": "ABD Temsilciler Meclisi komitesine göre Washington, Aralık 2025 ile Mayıs 2026 arasında Çinli şirketlere 879 bin yapay zekâ çipi satışını onayladı.",
           "shortTitle": "Çin’e 879 bin çipe onay",
           "title": "ABD, Çin’e altı ayda 879 bin yapay zekâ çipine onay verdi",
           "summary": {
@@ -1301,7 +1300,8 @@
             "lat": 38.89,
             "lon": -77.01,
             "region": "ABD"
-          }
+          },
+          "news": "ABD Temsilciler Meclisi komitesine göre Washington, Aralık 2025 ile Mayıs 2026 arasında Çinli şirketlere 879 bin yapay zekâ çipi satışını onayladı."
         }
       },
       "timeline": [
@@ -2081,6 +2081,116 @@
           "question": "Voyager 1’in sinyalinin Dünya’ya ulaşması ne kadar sürdü?",
           "options": ["24 saat", "12 saat", "Üç gün"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-123",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Armani Olimpia Milan",
+        "ours": false,
+        "team": "armani-olimpia-milan"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-19T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/123"
+      },
+      "result": {
+        "home": 78,
+        "away": 70
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Moses Wright",
+          "points": 22,
+          "photo": "euroleague-012878"
+        },
+        {
+          "side": "away",
+          "name": "Talen Horton Tucker",
+          "points": 17,
+          "photo": "euroleague-014124"
+        }
+      ]
+    },
+    {
+      "id": "euroleague-e2026-127",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-20T17:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/127"
+      }
+    },
+    {
+      "id": "espn-401909312",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "short": "Nuggets",
+        "ours": false,
+        "team": "denver-nuggets"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-21T03:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909312"
       }
     }
   ]
