@@ -209,7 +209,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b004d5f925c456bddefb486.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b004d5f925c456bddefb486.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/son-dakika-mustafa-sarigul-hakkinda-dokunulmazliginin-kaldirilmasi-talebiyle-fezleke-hazirlandi-43385293"
@@ -547,7 +547,6 @@
       "continues": "47a689c29ae3cf83",
       "versions": {
         "en": {
-          "news": "The four Sözcü executives held since Tuesday were released: one under house arrest, three with a travel ban.",
           "shortTitle": "Sözcü executives released under restrictions",
           "title": "Sözcü executives freed, one under house arrest, after three days in custody",
           "summary": {
@@ -617,10 +616,10 @@
             "lat": 41.01,
             "lon": 28.98,
             "region": "Türkiye"
-          }
+          },
+          "news": "The four Sözcü executives held since Tuesday were released: one under house arrest, three with a travel ban."
         },
         "tr": {
-          "news": "Salı günü gözaltına alınan dört Sözcü yöneticisi serbest bırakıldı: biri ev hapsiyle, üçü yurt dışı yasağıyla.",
           "shortTitle": "Sözcü yöneticilerine adli kontrol",
           "title": "Sözcü yöneticileri serbest: birine ev hapsi, üçüne yurt dışı yasağı",
           "summary": {
@@ -690,7 +689,8 @@
             "lat": 41.01,
             "lon": 28.98,
             "region": "Türkiye"
-          }
+          },
+          "news": "Salı günü gözaltına alınan dört Sözcü yöneticisi serbest bırakıldı: biri ev hapsiyle, üçü yurt dışı yasağıyla."
         }
       },
       "timeline": [
@@ -979,7 +979,6 @@
       "continues": "8985abfdde4bee12",
       "versions": {
         "en": {
-          "news": "Anthropic fell over 9% at Friday’s open to $88.17, nearing its $83 IPO price, as Asia had its worst week since 2020.",
           "shortTitle": "Anthropic drops 9% on day two",
           "title": "Anthropic falls 9% on its second day as the AI sell-off spreads",
           "summary": {
@@ -1055,10 +1054,10 @@
             "before": 97.17,
             "after": 88.17,
             "source": "Bloomberg HT, The Guardian"
-          }
+          },
+          "news": "Anthropic fell over 9% at Friday’s open to $88.17, nearing its $83 IPO price, as Asia had its worst week since 2020."
         },
         "tr": {
-          "news": "Anthropic hisseleri cuma açılışta yüzde 9’dan fazla düşüp 88,17 dolara indi; Asya piyasaları 2020’den bu yana en kötü haftasını yaşadı.",
           "shortTitle": "Anthropic ikinci günde %9 düştü",
           "title": "Anthropic, yapay zekâ satışları yayılırken ikinci gününde yüzde 9 düştü",
           "summary": {
@@ -1135,7 +1134,8 @@
             "before": 97.17,
             "after": 88.17,
             "source": "Bloomberg HT, The Guardian"
-          }
+          },
+          "news": "Anthropic hisseleri cuma açılışta yüzde 9’dan fazla düşüp 88,17 dolara indi; Asya piyasaları 2020’den bu yana en kötü haftasını yaşadı."
         }
       },
       "timeline": [
@@ -1941,6 +1941,69 @@
           "question": "Anthropic hisseleri halka arzda kaç dolardan satıldı?",
           "options": ["97 dolar", "83 dolar", "111,50 dolar"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-127",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-20T17:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/127"
+      }
+    },
+    {
+      "id": "espn-401909312",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "short": "Nuggets",
+        "ours": false,
+        "team": "denver-nuggets"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-21T03:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909312"
       }
     }
   ]
