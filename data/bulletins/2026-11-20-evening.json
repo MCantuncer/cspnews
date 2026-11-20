@@ -1,0 +1,2004 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-20T18:30:00+03:00",
+  "writtenAt": "2026-11-20T17:58:37+03:00",
+  "stories": [
+    {
+      "id": "929a53dc95d437b8",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Prosecutors seek Sarıgül’s immunity",
+          "title": "Prosecutors ask parliament to lift MP Mustafa Sarıgül’s immunity on five charges",
+          "summary": {
+            "what": "Ankara prosecutors drew up a file asking for Erzincan MP Mustafa Sarıgül’s immunity to be lifted and sent it to the Justice Ministry.",
+            "why": "The charges include money laundering, forming a criminal organisation and child sexual abuse; more than 30 people, including his sons, were arrested in the case.",
+            "next": "The file goes via the presidency to parliament, where a joint committee reviews it before a simple-majority vote in the General Assembly."
+          },
+          "body": [
+            {
+              "subhead": "The file",
+              "blocks": [
+                {
+                  "text": "The Ankara Chief Public Prosecutor’s Office has prepared a file, known in Türkiye as a fezleke, asking for the parliamentary immunity of independent Erzincan MP Mustafa Sarıgül to be lifted, and has sent it to the Justice Ministry, Hürriyet, Cumhuriyet, NTV, Diken and other outlets reported on Friday afternoon."
+                },
+                {
+                  "text": "According to the prosecutors’ statement, carried by Hürriyet and Cumhuriyet, Sarıgül is accused of five offences: laundering the proceeds of crime, forming an organisation to commit crimes, repeated sexual abuse of a child by harassment, repeated aggravated sexual assault, and unlawful acquisition or concealment of assets under Law 3628. MPs cannot be prosecuted while in office unless parliament lifts their immunity under Article 83 of the Constitution."
+                }
+              ]
+            },
+            {
+              "subhead": "How the case began",
+              "blocks": [
+                {
+                  "text": "The investigation was opened by Istanbul prosecutors in October after a complaint by two German citizens, identified as K.P. and M.B., who alleged that large sums of unknown origin were laundered through companies in Türkiye and abroad, Hürriyet and Diken report. According to Hürriyet, the complainants spoke of an €80 million contract, a €100 million transfer, a promise to move a €1 billion fund abroad as loans using public influence, and the sale of a boat for €1.5 million."
+                },
+                {
+                  "text": "More than 30 people were arrested, among them Sarıgül’s sons and his former wife Aylin Kotil, and a trustee was appointed to the Istanbul Şişli vocational school linked to a foundation he set up, Cumhuriyet reports. Because Sarıgül is an MP, Istanbul prosecutors sent his own file to Ankara on 9 November, Diken says. Sarıgül has firmly denied all the accusations, calling them “information pollution and a perception operation”, and resigned from the YENİ Party on 28 October, according to Diken."
+                }
+              ]
+            },
+            {
+              "subhead": "What happens next",
+              "blocks": [
+                {
+                  "text": "A Haber’s Ankara reporter İlter Yeşiltaş explained the route: the Justice Ministry sends the file to the presidency, which passes it to the Speaker of parliament, who refers it to a joint committee of members of the justice and constitution committees. A preparatory committee looks at it first, and Sarıgül may defend himself there in writing or in person."
+                },
+                {
+                  "quote": "The preparatory committee decides on the file within a month.",
+                  "speaker": "İlter Yeşiltaş, A Haber",
+                  "sourceId": "a-haber",
+                  "translated": true
+                },
+                {
+                  "text": "If the joint committee also recommends lifting the immunity, after a process of about another month, the file goes to the General Assembly, where a simple majority of those voting is enough, according to A Haber."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Charges in the file",
+              "value": "5",
+              "source": "Ankara Chief Public Prosecutor’s Office"
+            },
+            {
+              "label": "People arrested in the case",
+              "value": "30+",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Transfer complainants describe",
+              "value": "€100m",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Case sent to Ankara",
+              "value": "9 Nov",
+              "source": "Diken"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Sarıgül için dokunulmazlık fezlekesi",
+          "title": "Mustafa Sarıgül’ün dokunulmazlığının kaldırılması için beş suçtan fezleke",
+          "summary": {
+            "what": "Ankara Cumhuriyet Başsavcılığı, Erzincan Milletvekili Mustafa Sarıgül’ün dokunulmazlığının kaldırılması için fezleke düzenleyip Adalet Bakanlığı’na gönderdi.",
+            "why": "Suçlamalar arasında kara para aklama, örgüt kurma ve çocuğun cinsel istismarı var; soruşturmada oğulları dahil 30’dan fazla kişi tutuklandı.",
+            "next": "Fezleke Cumhurbaşkanlığı üzerinden Meclis’e gelecek; Karma Komisyon’un ardından Genel Kurul salt çoğunlukla karar verecek."
+          },
+          "body": [
+            {
+              "subhead": "Fezleke",
+              "blocks": [
+                {
+                  "text": "Ankara Cumhuriyet Başsavcılığı, Bağımsız Erzincan Milletvekili Mustafa Sarıgül’ün yasama dokunulmazlığının kaldırılması talebiyle fezleke hazırlayarak Adalet Bakanlığı’na gönderdi. Gelişmeyi cuma öğleden sonra Hürriyet, Cumhuriyet, NTV, Diken ve diğer yayın organları duyurdu."
+                },
+                {
+                  "text": "Hürriyet ve Cumhuriyet’in aktardığı başsavcılık açıklamasına göre Sarıgül hakkında beş suçlama var: suçtan kaynaklanan malvarlığı değerlerini aklama, suç işlemek amacıyla örgüt kurma, zincirleme şekilde sarkıntılık yapmak suretiyle çocuğun cinsel istismarı, zincirleme şekilde nitelikli cinsel saldırı ve 3628 sayılı Kanun’daki haksız mal edinme, mal kaçırma veya gizleme. Milletvekilleri, Anayasa’nın 83. maddesi gereği Meclis dokunulmazlığı kaldırmadıkça yargılanamıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Soruşturma nasıl başladı",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Diken’e göre soruşturma ekim ayında, Alman vatandaşı K.P. ve M.B.’nin yurt içi ve dışındaki şirketler aracılığıyla kaynağı belirsiz yüksek miktarda paranın aklandığı yönündeki şikâyetiyle İstanbul’da başladı. Hürriyet’in aktardığına göre müştekiler 80 milyon avroluk bir sözleşmeden, 100 milyon avroluk bir havaleden, 1 milyar avroluk bir fonun kamu nüfuzu kullanılarak kredi yoluyla yurt dışına çıkarılması vaadinden ve 1,5 milyon avroluk bir tekne satışından söz etti."
+                },
+                {
+                  "text": "Cumhuriyet’e göre aralarında oğulları ve eski eşi Aylin Kotil’in de bulunduğu 30’dan fazla kişi tutuklandı, kurucusu olduğu vakfa bağlı İstanbul Şişli Meslek Yüksekokulu’na kayyım atandı. Diken’e göre İstanbul başsavcılığı, milletvekili olduğu için Sarıgül’e ilişkin dosyayı 9 Kasım’da Ankara’ya gönderdi. Sarıgül suçlamaları kesin bir dille reddetti, bunlara “bilgi kirliliği ve algı operasyonu” dedi ve 28 Ekim’de YENİ Parti üyeliğinden istifa etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Bundan sonra ne olacak",
+              "blocks": [
+                {
+                  "text": "A Haber’in Ankara muhabiri İlter Yeşiltaş süreci şöyle anlattı: Adalet Bakanlığı fezlekeyi Cumhurbaşkanlığı’na, Cumhurbaşkanlığı da Meclis Başkanlığı’na gönderiyor; dosya Adalet ve Anayasa komisyonu üyelerinden oluşan Karma Komisyon’a havale ediliyor. Önce Hazırlık Komisyonu inceliyor ve Sarıgül burada yazılı ya da sözlü savunma yapabiliyor."
+                },
+                {
+                  "quote": "Hazırlık Komisyonu da 1 ay içerisinde bu dosyayı karara bağlıyor.",
+                  "speaker": "İlter Yeşiltaş, A Haber",
+                  "sourceId": "a-haber"
+                },
+                {
+                  "text": "A Haber’e göre Karma Komisyon da yaklaşık bir aylık incelemenin ardından dokunulmazlığın kaldırılması yönünde karar verirse dosya Genel Kurul’a geliyor ve burada salt çoğunluk yeterli oluyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Fezlekedeki suçlama",
+              "value": "5",
+              "source": "Ankara Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "Soruşturmada tutuklanan",
+              "value": "30+",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Müştekilerin söz ettiği havale",
+              "value": "100 milyon €",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Dosyanın Ankara’ya gönderilmesi",
+              "value": "9 Kasım",
+              "source": "Diken"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T13:29:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:31:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T13:31:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:33:19.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:33:41.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:39:19.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:41:17.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:43:04.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T14:05:52.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T14:18:02.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b004d5f925c456bddefb486.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/son-dakika-mustafa-sarigul-hakkinda-dokunulmazliginin-kaldirilmasi-talebiyle-fezleke-hazirlandi-43385293"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/son-dakika-mustafa-sarigul-hakkinda-dokunulmazliginin-kaldirilmasi-talebiyle-fezleke-hazirlandi-43385293",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/son-dakika-mustafa-sarigul-un-dokunulmazliginin-kaldirilmasi-icin-fezleke-hazirlandi-orgut-kurma-haksiz-mal-varligi-cocuk-istismari-iddiasi-dahil-5-ayri-suclama-2557887",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/20/mustafa-sarigulun-dokunulmazliginin-kaldirilmasi-icin-fezleke-duzenlendi",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/20/son-dakika-mustafa-sarigul-hakkinda-fezleke-adalet-bakanligina-gonderildi",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/mustafa-sarigulun-dokunulmazlik-fezlekesi-bakanliga-gonderildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-mustafa-sarigul-hakkinda-fezleke-hazirlandi-3928847",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/mustafa-sarigul-hakkinda-fezleke-1751805",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-mustafa-sarigul-icin-dokunulmazlik-fezlekesi-duzenlendi-p383087",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/20/mustafa-sarigul-hakkinda-dokunulmazliginin-kaldirilmasi-talebiyle-fezleke-duzenlendi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "361c6cd10fdc1fee",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "New card minimum payment tiers",
+          "title": "Card minimum payments now 20%, 30% or 40% by limit",
+          "summary": {
+            "what": "The banking regulator BDDK set credit card minimum payments at 20%, 30% or 40% of the statement balance, depending on the card’s limit.",
+            "why": "A new 30% tier for limits between ₺100,000 and ₺200,000 lowers the monthly minimum for those cards, which used to pay 40%.",
+            "next": "Separately, homebuyers who own one home no longer face the 75% cut to their mortgage limit; it now applies from two homes."
+          },
+          "body": [
+            {
+              "subhead": "Three tiers for card payments",
+              "blocks": [
+                {
+                  "text": "Türkiye’s banking regulator BDDK has changed how much credit card holders must pay each month, Bloomberg HT, Anadolu Agency, Habertürk and other outlets reported on Friday. Under a board decision dated 19 November, the minimum payment is now 20% of the statement balance for cards with a limit of ₺100,000 or less, 30% for limits above ₺100,000 up to ₺200,000, and 40% for limits above ₺200,000."
+                },
+                {
+                  "text": "Until now only the 20% and 40% rates applied, Sabah and Euronews Türkçe note, so the decision adds a middle tier. Diken summed it up as the rate for ₺200,000 cards falling to 30%."
+                }
+              ]
+            },
+            {
+              "subhead": "What it means for card holders",
+              "blocks": [
+                {
+                  "text": "Economist Tonguç Erbaş, speaking on A Haber, said the change gives more room to people with smaller limits and links the minimum to what banks assume about income."
+                },
+                {
+                  "quote": "If your credit card limit is lower, the minimum amount you pay will also be lower.",
+                  "speaker": "Tonguç Erbaş, economist",
+                  "sourceId": "a-haber",
+                  "translated": true
+                },
+                {
+                  "text": "Under the old rule, he said, a card with a ₺50,000 limit and one with ₺500,000 could both face the same 40% rate, which looked unfair; the tiered system brings “a little more fairness”. He added that paying the whole balance is always healthier."
+                }
+              ]
+            },
+            {
+              "subhead": "Mortgages: one home no longer counts",
+              "blocks": [
+                {
+                  "text": "In a second decision, the BDDK changed the rules for home loans, Bloomberg HT and Sabah report. The maximum loan-to-value ratio will be cut by 75% only for buyers who, with their spouse or children under 18, own at least two homes. Before, the cut applied from one home, Sabah says, so owners of a single home are now outside it."
+                },
+                {
+                  "text": "Shares of 50% or less in a property no longer count as owning it, unless the buyer holds shares in more than two homes. And one home that was demolished, or ordered demolished, as a risky building under Türkiye’s urban renewal law 6306 is left out of the count, Bloomberg HT reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Minimum, limit up to ₺100,000",
+              "value": "20%",
+              "source": "BDDK"
+            },
+            {
+              "label": "Minimum, ₺100,000–200,000 limit",
+              "value": "30%",
+              "source": "BDDK"
+            },
+            {
+              "label": "Minimum, limit above ₺200,000",
+              "value": "40%",
+              "source": "BDDK"
+            },
+            {
+              "label": "Mortgage cap cut from two homes",
+              "value": "75%",
+              "source": "BDDK, via Bloomberg HT"
+            },
+            {
+              "label": "Board decision dated",
+              "value": "19 Nov",
+              "source": "Bloomberg HT"
+            }
+          ],
+          "keyNumber": {
+            "label": "Minimum payment, ₺100k–200k limit",
+            "unit": "%",
+            "before": 40,
+            "after": 30,
+            "source": "BDDK, via Diken and Sabah"
+          }
+        },
+        "tr": {
+          "shortTitle": "Asgari ödemeye üç kademe",
+          "title": "Kredi kartında asgari ödeme limite göre %20, %30 ve %40 oldu",
+          "summary": {
+            "what": "BDDK, kredi kartı asgari ödeme tutarını kart limitine göre dönem borcunun yüzde 20’si, 30’u ve 40’ı olarak üç kademeye ayırdı.",
+            "why": "100 bin ile 200 bin lira arası limitli kartlar için gelen yüzde 30’luk yeni kademe, daha önce yüzde 40 ödeyen bu kartların asgari tutarını düşürüyor.",
+            "next": "Ayrı bir kararla tek konutu olanlara konut kredisindeki yüzde 75’lik azaltım kalktı; kural artık iki konuttan itibaren geçerli."
+          },
+          "body": [
+            {
+              "subhead": "Asgari ödemede üç kademe",
+              "blocks": [
+                {
+                  "text": "Bankacılık Düzenleme ve Denetleme Kurumu (BDDK), kredi kartı sahiplerinin her ay ödemesi gereken asgari tutarı değiştirdi. Bloomberg HT, Anadolu Ajansı, Habertürk ve diğer yayın organlarının aktardığı 19 Kasım tarihli kurul kararına göre asgari ödeme, limiti 100 bin lira ve altındaki kartlarda dönem borcunun yüzde 20’si, 100 bin liranın üzerinde olup 200 bin lirayı aşmayan kartlarda yüzde 30’u, 200 bin liranın üzerindeki kartlarda ise yüzde 40’ı olacak."
+                },
+                {
+                  "text": "Sabah ve Euronews Türkçe’ye göre şimdiye kadar yalnızca yüzde 20 ve yüzde 40 oranları uygulanıyordu; karar araya yeni bir kademe ekliyor. Diken, değişikliği “200 bin liranın asgari ödeme oranı yüzde 30’a indi” diye özetledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kart sahipleri için ne anlama geliyor",
+              "blocks": [
+                {
+                  "text": "A Haber’de değerlendirme yapan ekonomist Tonguç Erbaş, düzenlemenin düşük limitli kart sahiplerine esneklik sağladığını ve asgari tutarı bankaların gelir varsayımına bağladığını söyledi."
+                },
+                {
+                  "quote": "Kredi kartı limitleriniz daha azsa aslında sizin ödeyeceğiniz asgari tutar da daha az olacak.",
+                  "speaker": "Tonguç Erbaş, ekonomist",
+                  "sourceId": "a-haber"
+                },
+                {
+                  "text": "Erbaş’a göre eski sistemde 50 bin lira limitli kartla 500 bin lira limitli kart aynı yüzde 40 oranına tabi olabiliyordu ve bu bir hakkaniyet kaybı gibi görünüyordu; kademeli sistem “biraz daha hakkaniyet” sağlıyor. Erbaş, borcun tamamını ödemenin her zaman daha sağlıklı olduğunu da hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Konut kredisi: tek ev artık sayılmıyor",
+              "blocks": [
+                {
+                  "text": "Bloomberg HT ve Sabah’a göre BDDK ikinci bir kararla konut kredisi kurallarını da değiştirdi. Azami kredi tutarının konut değerine oranı, artık yalnızca kendisi, eşi veya 18 yaşından küçük çocukları adına en az iki konutu olanlar için yüzde 75 azaltılarak uygulanacak. Sabah’a göre bu azaltım önceden tek konutu olanlara da uygulanıyordu."
+                },
+                {
+                  "text": "Bloomberg HT’ye göre ikiden fazla konutta hissesi olanlar hariç, bir tapuda yüzde 50 veya daha az hissesi olanların bu konutu hesaba katılmayacak. 6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun kapsamında riskli yapı olduğu için yıkılan ya da yıkım kararı alınan bir konut da hesaplamada dikkate alınmayacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "100 bin TL’ye kadar limitte asgari",
+              "value": "%20",
+              "source": "BDDK"
+            },
+            {
+              "label": "100–200 bin TL limitte asgari",
+              "value": "%30",
+              "source": "BDDK"
+            },
+            {
+              "label": "200 bin TL üstü limitte asgari",
+              "value": "%40",
+              "source": "BDDK"
+            },
+            {
+              "label": "İki konuttan itibaren kredi azaltımı",
+              "value": "%75",
+              "source": "BDDK, Bloomberg HT’nin aktardığı"
+            },
+            {
+              "label": "Kurul kararının tarihi",
+              "value": "19 Kasım",
+              "source": "Bloomberg HT"
+            }
+          ],
+          "keyNumber": {
+            "label": "100–200 bin TL limitte asgari ödeme",
+            "unit": "%",
+            "before": 40,
+            "after": 30,
+            "source": "BDDK, Diken ve Sabah’ın aktardığı"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T12:40:10.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:47:43.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T12:47:43.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:51:50.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:03:57.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:14:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:45:44.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:55:10.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T14:12:43.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/20/ver1795178435/3795310/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/bddk-dan-kredi-kartlari-ve-konut-kredileriyle-ilgili-yeni-duzenleme-3795310"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/bddk-dan-kredi-kartlari-ve-konut-kredileriyle-ilgili-yeni-duzenleme-3795310",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/20/kredi-karti-sahipleri-dikkat-bddk-asgari-odeme-oranlarini-yeniden-belirledi",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/ekonomi/son-dakika-kredi-karti-asgari-odeme-tutari-yuzde-30a-dusuruldu-7705879",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-kredi-kartlarinda-asgari-odeme-oranlarinda-degisiklik-3928831",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/bddk-den-kredi-karti-karari-asgari-odeme-oranlari-degisti-2557882",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/ekonomi/bddkden-kredi-kartlarina-ve-konut-kredilerine-iliskin-duzenleme/4132248",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/kredi-karti-duzenlemesi-200-bin-liranin-asgari-odeme-orani-yuzde-30a-indi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/20/kredi-karti-asgari-odeme-tutarlarina-yeni-duzenleme",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "f30bb7d6f6a6dacf",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "47a689c29ae3cf83",
+      "versions": {
+        "en": {
+          "shortTitle": "Sözcü executives released under restrictions",
+          "title": "Sözcü executives freed, one under house arrest, after three days in custody",
+          "summary": {
+            "what": "A court released the four current and former Sözcü executives detained on 17 November, ordering house arrest for one and a travel ban for three.",
+            "why": "They were held in the FETÖ financing investigation into owner Burak Akbay that led to a trustee being appointed to Sözcü TV.",
+            "next": "The investigation into Akbay continues; the deposit insurance fund TMSF is now trustee of the group company Mega Ajans."
+          },
+          "body": [
+            {
+              "subhead": "The court’s decision",
+              "blocks": [
+                {
+                  "text": "The four current and former Sözcü executives detained in Tuesday’s raid were released on Friday under judicial supervision, Anadolu Agency, DW Türkçe, Habertürk and other outlets report. A criminal judgeship of peace ruled, as prosecutors had asked, that former finance manager Yonca Yücekaleli must not leave her home, while board vice-chair Funda Sıdalı, long-time general manager Mustafa Asım Akgül and company official İsmail Öz must report to the police and may not travel abroad."
+                },
+                {
+                  "text": "The four were taken from the Istanbul police headquarters for a health check on Friday morning and then to the Istanbul courthouse in Çağlayan, where prosecutors questioned them before sending them to the judge, AA and DW Türkçe say. They had been in custody since the morning of 17 November."
+                }
+              ]
+            },
+            {
+              "subhead": "What prosecutors allege",
+              "blocks": [
+                {
+                  "text": "The investigation is run by the terror crimes bureau of the Istanbul Chief Public Prosecutor’s Office on charges of membership of FETÖ, which Türkiye calls a terrorist organisation, and of breaking the law on preventing the financing of terrorism. According to the prosecutors’ 17 November statement, quoted by DW Türkçe, there is strong suspicion that owner Burak Akbay financed Estetik Yayıncılık and Mega Ajans from bank accounts abroad and kept running a FETÖ leadership role through those companies."
+                },
+                {
+                  "text": "Habertürk, citing the DHA news agency, says the new investigation began after a court trying Akbay in an earlier case asked prosecutors to look at his finances, and that it rests on reports by the financial crimes board MASAK. An indictment against Akbay was written on 27 September 2017 and a warrant for his arrest was issued, Habertürk and AA report."
+                }
+              ]
+            },
+            {
+              "subhead": "Sözcü under a trustee",
+              "blocks": [
+                {
+                  "text": "The raid on 17 November searched the building that houses SZC TV and the Sözcü newspaper, and the deposit insurance fund TMSF was named trustee of Mega Ajans ve Reklamcılık, Habertürk says. Diken notes that the group was placed under a trustee the same day. The newspaper itself, on its own website, reported the court’s decision briefly as “4 judicial control rulings in the Sözcü investigation”."
+                },
+                {
+                  "text": "NTV, Euronews Türkçe and Medyascope also reported that all four were released under judicial control. No date has been given for the next step in the investigation into Akbay."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Executives released",
+              "value": "4",
+              "source": "Anadolu Agency"
+            },
+            {
+              "label": "Placed under house arrest",
+              "value": "1",
+              "source": "Anadolu Agency"
+            },
+            {
+              "label": "Detained in the raid",
+              "value": "17 Nov",
+              "source": "DW Türkçe"
+            },
+            {
+              "label": "Earlier indictment against Akbay",
+              "value": "27 Sep 2017",
+              "source": "Habertürk, AA"
+            }
+          ],
+          "place": {
+            "name": "Istanbul",
+            "lat": 41.01,
+            "lon": 28.98,
+            "region": "Türkiye"
+          },
+          "news": "The four Sözcü executives held since Tuesday were released: one under house arrest, three with a travel ban."
+        },
+        "tr": {
+          "shortTitle": "Sözcü yöneticilerine adli kontrol",
+          "title": "Sözcü yöneticileri serbest: birine ev hapsi, üçüne yurt dışı yasağı",
+          "summary": {
+            "what": "17 Kasım’da gözaltına alınan dört Sözcü yöneticisi serbest bırakıldı; biri için ev hapsi, üçü için imza ve yurt dışı çıkış yasağı kararı verildi.",
+            "why": "Yöneticiler, Sözcü TV’ye kayyım atanmasına yol açan, sahibi Burak Akbay’a yönelik FETÖ finansmanı soruşturmasında gözaltındaydı.",
+            "next": "Akbay hakkındaki soruşturma sürüyor; grup şirketi Mega Ajans’ta kayyım olarak TMSF görev yapıyor."
+          },
+          "body": [
+            {
+              "subhead": "Hakimliğin kararı",
+              "blocks": [
+                {
+                  "text": "Salı günkü operasyonda gözaltına alınan mevcut ve eski dört Sözcü yöneticisi cuma günü adli kontrol şartıyla serbest bırakıldı. Anadolu Ajansı, DW Türkçe, Habertürk ve diğer yayın organlarının aktardığına göre sulh ceza hakimliği, savcılığın talebi doğrultusunda eski finans müdürü Yonca Yücekaleli için “konutu terk etmeme”, Yönetim Kurulu Başkan Vekili Funda Sıdalı, uzun yıllar genel müdürlük yapan Mustafa Asım Akgül ve şirket yetkilisi İsmail Öz için “imza” ve “yurt dışına çıkış yasağı” kararı verdi."
+                },
+                {
+                  "text": "AA ve DW Türkçe’ye göre dört şüpheli cuma sabahı İstanbul Emniyet Müdürlüğü’nden önce sağlık kontrolüne, ardından Çağlayan’daki İstanbul Adliyesi’ne götürüldü; savcılıktaki ifadelerinin ardından hakimliğe sevk edildi. Dördü de 17 Kasım sabahından beri gözaltındaydı."
+                }
+              ]
+            },
+            {
+              "subhead": "Savcılığın iddiası",
+              "blocks": [
+                {
+                  "text": "Soruşturmayı İstanbul Cumhuriyet Başsavcılığı Terör Suçları Soruşturma Bürosu, “FETÖ/PDY’ye üye olma” ve “Terörizmin Finansmanının Önlenmesi Hakkındaki Kanun’a muhalefet” suçlarından yürütüyor. DW Türkçe’nin aktardığı 17 Kasım tarihli açıklamaya göre Burak Akbay’ın yurt dışındaki banka hesaplarından Estetik Yayıncılık ve Mega Ajans’ı finanse ettiği ve örgüt yöneticiliğini bu şirketler üzerinden sürdürdüğüne dair kuvvetli şüphe bulunuyor."
+                },
+                {
+                  "text": "Habertürk’ün DHA’ya dayandırdığı habere göre yeni soruşturma, Akbay’ın yargılandığı davada mahkemenin mali değerlendirme için savcılığa ihbarda bulunmasıyla başladı ve MASAK raporlarına dayanıyor. Habertürk ve AA’ya göre Akbay hakkında 27 Eylül 2017’de iddianame düzenlenmiş, yakalama kararı çıkarılmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kayyım altındaki Sözcü",
+              "blocks": [
+                {
+                  "text": "Habertürk’e göre 17 Kasım’daki operasyonda SZC TV ile Sözcü Gazetesi’nin bulunduğu binada arama yapıldı ve Mega Ajans ve Reklamcılık’a TMSF kayyım olarak atandı. Diken de grubun aynı gün kayyıma devredildiğini hatırlattı. Sözcü ise kararı kendi sitesinde “Sözcü soruşturmasında 4 adli kontrol kararı” başlığıyla kısaca duyurdu."
+                },
+                {
+                  "text": "NTV, Euronews Türkçe ve Medyascope da dört ismin adli kontrolle serbest bırakıldığını duyurdu. Akbay hakkındaki soruşturmanın bundan sonraki adımı için bir tarih açıklanmadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Serbest bırakılan yönetici",
+              "value": "4",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Ev hapsi verilen",
+              "value": "1",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Gözaltı tarihi",
+              "value": "17 Kasım",
+              "source": "DW Türkçe"
+            },
+            {
+              "label": "Akbay hakkındaki ilk iddianame",
+              "value": "27 Eylül 2017",
+              "source": "Habertürk, AA"
+            }
+          ],
+          "place": {
+            "name": "İstanbul",
+            "lat": 41.01,
+            "lon": 28.98,
+            "region": "Türkiye"
+          },
+          "news": "Salı günü gözaltına alınan dört Sözcü yöneticisi serbest bırakıldı: biri ev hapsiyle, üçü yurt dışı yasağıyla."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T08:53:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T11:35:19.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T11:35:19.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T11:41:53.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T11:45:49.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:26:45.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:40:53.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:49:39.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:24:53.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/s%C3%B6zc%C3%BC-soru%C5%9Fturmas%C4%B1nda-y%C3%B6neticilere-adli-kontrol-ve-ev-hapsi/a-79999894?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/sozcu-dosyasinda-4-supheli-adliyede-3928714",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/sozcu-televizyonunun-sahibi-burak-akbay-hakkindaki-sorusturmada-4-supheli-hakkinda-adli-kontrol-karari/4132088",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/sozcu-yoneticilerinden-birine-ev-hapsi-ucune-adli-kontrol/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/20/sozcu-tv-operasyonunda-gozaltina-alinan-4-isim-icin-adli-kontrol-karari",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/sozcu-sorusturmasinda-yeni-gelisme-1751735",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/20/sozcu-tvye-operasyon-4-kisiye-adli-kontrol/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/sozcu-sorusturmasinda-4-adli-kontrol-karari-p383083",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "27fc5802fd1bbae9",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "California subpoenas Nvidia",
+          "title": "California subpoenas Nvidia over chips and secrets reaching China",
+          "summary": {
+            "what": "California’s attorney general Rob Bonta served Nvidia with an investigative subpoena over whether its chips or confidential information reached China.",
+            "why": "The state will also examine whether Nvidia misled investors, after Jensen Huang quit over affairs including one with a suspected Chinese spy.",
+            "next": "Huang is due to testify before several congressional committees on 1 December, the Guardian reports."
+          },
+          "body": [
+            {
+              "subhead": "The subpoena",
+              "blocks": [
+                {
+                  "text": "California has served an investigative subpoena on Nvidia, the state’s attorney general Rob Bonta said on Thursday evening, the Guardian and TechCrunch report. The investigation will look at whether the company’s advanced chips ended up in China in breach of US export restrictions, whether confidential information was passed to China, and whether Nvidia misled investors and the public about that risk."
+                },
+                {
+                  "quote": "The conduct of Nvidia and its former chief executive raises bright red flags, including about the ways in which the company may have misled investors.",
+                  "speaker": "Rob Bonta, California attorney general",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "“Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: companies cannot mislead their investors,” Bonta added, according to both outlets."
+                }
+              ]
+            },
+            {
+              "subhead": "How it got here",
+              "blocks": [
+                {
+                  "text": "The subpoena follows the resignation of co-founder and long-time chief executive Jensen Huang a week ago, after it emerged he had several affairs, including one with Alice Huang, a woman the US government believes is a Chinese spy, the Guardian and TechCrunch report. The two are not related."
+                },
+                {
+                  "text": "Alice Huang is linked to Singapore-based Megaspeed, which has bought nearly $5bn of Nvidia chips and hardware in recent years and is under investigation for possibly diverting restricted chips to China, the Guardian says. Megaspeed says it is a “legitimate and lawful” business and that Alice Huang left late last year."
+                }
+              ]
+            },
+            {
+              "subhead": "Pressure from all sides",
+              "blocks": [
+                {
+                  "text": "Nvidia’s shares are down by a fifth since Huang admitted the affair, hitting a one-year low at Thursday’s close and wiping almost $1tn off the company’s value, according to the Guardian. Its chair, Harvey Jones, said this week the company would not bring Huang back, although Elon Musk and other tech bosses had campaigned for his return."
+                },
+                {
+                  "text": "TechCrunch reports that the board has hired a law firm and independent directors to investigate, that Congress is preparing to subpoena Huang, and that the SEC is said to be opening a civil probe into whether Nvidia’s disclosures misled investors. Democrats in Congress have also opened an inquiry into how the Trump administration handled Nvidia’s chip sales to China. Huang is due to testify before several congressional committees on 1 December, the Guardian says."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Chips Megaspeed bought from Nvidia",
+              "value": "~$5bn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Nvidia share fall since the affair",
+              "value": "20%",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Market value lost",
+              "value": "~$1tn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Huang’s congressional testimony",
+              "value": "1 Dec",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Kaliforniya’dan Nvidia’ya celp",
+          "title": "Kaliforniya, çiplerin ve gizli bilgilerin Çin’e gidip gitmediğini soruşturuyor",
+          "summary": {
+            "what": "Kaliforniya Başsavcısı Rob Bonta, Nvidia’nın çiplerinin ya da gizli bilgilerinin Çin’e ulaşıp ulaşmadığını araştırmak için şirkete soruşturma celbi gönderdi.",
+            "why": "Eyalet, Jensen Huang’ın Çin casusu olduğundan şüphelenilen bir kadınla ilişkisi ortaya çıkıp istifa etmesinin ardından yatırımcıların yanıltılıp yanıltılmadığına da bakacak.",
+            "next": "The Guardian’a göre Huang 1 Aralık’ta Kongre’nin birkaç komitesinde ifade verecek."
+          },
+          "body": [
+            {
+              "subhead": "Celp",
+              "blocks": [
+                {
+                  "text": "Kaliforniya Başsavcısı Rob Bonta, eyaletin Nvidia’ya soruşturma celbi gönderdiğini perşembe akşamı açıkladı. The Guardian ve TechCrunch’ın aktardığına göre soruşturma, şirketin gelişmiş çiplerinin ABD ihracat kısıtlamalarına aykırı biçimde Çin’e ulaşıp ulaşmadığını, Çin’e gizli bilgi aktarılıp aktarılmadığını ve Nvidia’nın bu risk konusunda yatırımcıları ve kamuoyunu yanıltıp yanıltmadığını inceleyecek."
+                },
+                {
+                  "quote": "Nvidia’nın ve eski CEO’sunun davranışları, şirketin yatırımcıları nasıl yanıltmış olabileceği de dahil olmak üzere ciddi alarm işaretleri veriyor.",
+                  "speaker": "Rob Bonta, Kaliforniya Başsavcısı",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "İki yayına göre Bonta, Nvidia’nın “karmaşık, ülkeler aşan bir durumda” olduğunu, ancak şirketlerin yatırımcılarını yanıltamayacağı ilkesinin açık olduğunu da söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Buraya nasıl gelindi",
+              "blocks": [
+                {
+                  "text": "Celp, kurucu ortak ve uzun süreli CEO Jensen Huang’ın bir hafta önce istifa etmesinin ardından geldi. The Guardian ve TechCrunch’a göre Huang’ın, ABD hükümetinin Çin casusu olduğundan şüphelendiği Alice Huang da dahil birkaç kişiyle ilişkisi olduğu ortaya çıkmıştı. İkisi akraba değil."
+                },
+                {
+                  "text": "The Guardian’a göre Alice Huang, son yıllarda Nvidia’dan yaklaşık 5 milyar dolarlık çip ve donanım alan, kısıtlı çipleri Çin’e yönlendirmiş olabileceği gerekçesiyle soruşturulan Singapur merkezli Megaspeed ile bağlantılı. Megaspeed ise “meşru ve yasal” bir şirket olduğunu, Alice Huang’ın geçen yılın sonunda ayrıldığını söylüyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Her yönden baskı",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Nvidia hisseleri, Huang’ın ilişkiyi kabul etmesinden bu yana beşte bir değer kaybetti, perşembe kapanışında bir yılın en düşük seviyesini gördü ve şirketin piyasa değerinden yaklaşık 1 trilyon dolar silindi. Yönetim kurulu başkanı Harvey Jones, Elon Musk ve başka teknoloji patronlarının kampanyasına rağmen Huang’ın geri dönmeyeceğini bu hafta açıklamıştı."
+                },
+                {
+                  "text": "TechCrunch’a göre yönetim kurulu bir hukuk bürosu ve bağımsız üyelerle iç soruşturma başlattı, Kongre Huang’ı çağırmaya hazırlanıyor ve SEC’in, Nvidia’nın açıklamalarının yatırımcıları yanıltıp yanıltmadığına dair hukuki inceleme açacağı belirtiliyor. Demokratlar da Trump yönetiminin Nvidia’nın Çin’e çip satışlarını nasıl yönettiğine dair inceleme başlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Megaspeed’in Nvidia’dan aldığı çip",
+              "value": "~5 milyar $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İlişkiden bu yana hisse kaybı",
+              "value": "%20",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Silinen piyasa değeri",
+              "value": "~1 trilyon $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Huang’ın Kongre ifadesi",
+              "value": "1 Aralık",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T09:18:30.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:21:11.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T13:21:11.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "741d1721a6c3bf7c",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "8985abfdde4bee12",
+      "versions": {
+        "en": {
+          "shortTitle": "Anthropic drops 9% on day two",
+          "title": "Anthropic falls 9% on its second day as the AI sell-off spreads",
+          "summary": {
+            "what": "Anthropic’s shares fell more than 9% at the start of Friday’s trading to $88.17, closer to the $83 IPO price, the Guardian reports.",
+            "why": "The record listing has not calmed fears about AI valuations: Asian markets had their worst week since 2020 and chip stocks fell worldwide.",
+            "next": "Analysts say $83 is now the level to watch; if the sell-off gathers pace, the stock could slip below its IPO price."
+          },
+          "body": [
+            {
+              "subhead": "A second, rougher day",
+              "blocks": [
+                {
+                  "text": "Anthropic’s shares fell by more than 9% when trading opened on Friday, dropping to $88.17, the Guardian reports. That is closer to the $83 at which the maker of the Claude chatbot sold shares in its record IPO this week. On Thursday the stock had briefly jumped almost 40% before closing about 17% higher, at $97.17, according to Bloomberg HT, then slipped about 5% in after-hours trading."
+                },
+                {
+                  "text": "The listing was the biggest ever: 980 million shares at $83 raised $81.3bn, beating SpaceX’s roughly $75bn in June, Webrazzi and the Guardian report. Webrazzi adds that each of the seven co-founders sold about 3.38 million shares, worth about $280.4m each before taxes and fees."
+                }
+              ]
+            },
+            {
+              "subhead": "Markets around the world",
+              "blocks": [
+                {
+                  "text": "The fall came as a sell-off in AI-linked stocks spread across markets, the Guardian reports. Asian stock markets had their worst week since 2020. Taiwan’s market dropped 6.7%, with chipmaker TSMC down about 6%; Japan’s Nikkei fell 5% and South Korea’s Kospi 5.5%. SoftBank had its worst day in more than two years, down 14.5% in Tokyo."
+                },
+                {
+                  "text": "In Europe, the Stoxx 600 dropped 1.7% and was heading for its worst week since March; chip companies ASML and Infineon were down 6% and 5%. On Wall Street, the Nasdaq 100 opened 1.2% lower after a 2.2% fall on Thursday, and Nvidia fell 3% after California served it with a subpoena, the Guardian says."
+                }
+              ]
+            },
+            {
+              "subhead": "Why investors are nervous",
+              "blocks": [
+                {
+                  "text": "Analysts quoted by the Guardian say the IPO showed strong demand for AI but did not answer doubts about valuations, profits and the huge sums spent on building AI."
+                },
+                {
+                  "quote": "The IPO demonstrated that demand for AI exposure remains strong, but it has not been enough to overcome concerns about elevated valuations, profitability and the sustainability of investment spending.",
+                  "speaker": "Daniela Hathorn, Capital.com",
+                  "sourceId": "hacker-news"
+                },
+                {
+                  "text": "Chris Beauchamp, chief market analyst at IG, said Anthropic could be draining money from other tech names, as brokers buy its shares. Another analyst told the Guardian’s live blog that $83 is now the level to watch, and that markets also have to weigh Apple’s plans for its own AI agent and the turmoil at Nvidia."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Friday opening low",
+              "value": "$88.17",
+              "source": "The Guardian"
+            },
+            {
+              "label": "IPO price",
+              "value": "$83",
+              "source": "The Guardian, Webrazzi"
+            },
+            {
+              "label": "Taiwan market fall",
+              "value": "6.7%",
+              "source": "The Guardian"
+            },
+            {
+              "label": "SoftBank fall in Tokyo",
+              "value": "14.5%",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Anthropic share price",
+            "unit": "$",
+            "before": 97.17,
+            "after": 88.17,
+            "source": "Bloomberg HT, The Guardian"
+          },
+          "news": "Anthropic fell over 9% at Friday’s open to $88.17, nearing its $83 IPO price, as Asia had its worst week since 2020."
+        },
+        "tr": {
+          "shortTitle": "Anthropic ikinci günde %9 düştü",
+          "title": "Anthropic, yapay zekâ satışları yayılırken ikinci gününde yüzde 9 düştü",
+          "summary": {
+            "what": "The Guardian’a göre Anthropic hisseleri cuma günü işlemlerin başında yüzde 9’dan fazla düşerek 83 dolarlık halka arz fiyatına yaklaşıp 88,17 dolara indi.",
+            "why": "Rekor halka arz, yapay zekâ değerlemelerine dair kaygıları dindirmedi: Asya piyasaları 2020’den bu yana en kötü haftasını yaşadı, çip hisseleri her yerde düştü.",
+            "next": "Analistlere göre izlenecek seviye artık 83 dolar; satışlar hızlanırsa hisse halka arz fiyatının altına inebilir."
+          },
+          "body": [
+            {
+              "subhead": "İkinci gün daha sert",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın aktardığına göre Anthropic hisseleri cuma günü işlemler açıldığında yüzde 9’dan fazla düşerek 88,17 dolara geriledi. Bu, Claude sohbet robotunu geliştiren şirketin bu hafta rekor halka arzında hisse sattığı 83 dolara daha yakın bir seviye. Bloomberg HT’ye göre hisse perşembe günü bir ara yaklaşık yüzde 40 yükseldikten sonra günü yüzde 17 artışla 97,17 dolardan kapatmış, seans sonrasında yaklaşık yüzde 5 gerilemişti."
+                },
+                {
+                  "text": "Webrazzi ve The Guardian’a göre bu, tarihin en büyük halka arzıydı: 83 dolardan satılan 980 milyon hisseyle 81,3 milyar dolar toplandı ve SpaceX’in haziranda kırdığı yaklaşık 75 milyar dolarlık rekor geçildi. Webrazzi, yedi kurucunun her birinin yaklaşık 3,38 milyon hisse sattığını, bunun kişi başı vergi ve komisyon öncesi yaklaşık 280,4 milyon dolar ettiğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Dünya piyasaları",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre düşüş, yapay zekâ bağlantılı hisselerdeki satışın piyasalara yayıldığı bir günde geldi. Asya borsaları 2020’den bu yana en kötü haftasını yaşadı. Tayvan borsası yüzde 6,7 düştü, çip üreticisi TSMC yaklaşık yüzde 6 değer kaybetti; Japonya’da Nikkei yüzde 5, Güney Kore’de Kospi yüzde 5,5 geriledi. SoftBank, Tokyo’da yüzde 14,5 düşüşle iki yılı aşkın sürenin en kötü gününü yaşadı."
+                },
+                {
+                  "text": "Avrupa’da Stoxx 600 yüzde 1,7 düştü ve mart ayından bu yana en kötü haftasına gidiyordu; çip şirketleri ASML ve Infineon yüzde 6 ve yüzde 5 değer kaybetti. The Guardian’a göre Wall Street’te Nasdaq 100, perşembe günkü yüzde 2,2’lik düşüşün ardından güne yüzde 1,2 düşüşle başladı; Nvidia, Kaliforniya’nın celbinin ardından yüzde 3 geriledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yatırımcılar neden tedirgin",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın görüştüğü analistlere göre halka arz, yapay zekâya talebin güçlü olduğunu gösterdi ama değerlemeler, kârlılık ve yapay zekâ altyapısına harcanan devasa paralarla ilgili soruları yanıtlamadı."
+                },
+                {
+                  "quote": "Halka arz, yapay zekâya yatırım talebinin güçlü kaldığını gösterdi; ancak yüksek değerlemeler, kârlılık ve yatırım harcamalarının sürdürülebilirliğine dair kaygıları aşmaya yetmedi.",
+                  "speaker": "Daniela Hathorn, Capital.com",
+                  "sourceId": "hacker-news",
+                  "translated": true
+                },
+                {
+                  "text": "IG’nin baş piyasa analisti Chris Beauchamp, aracı kurumlar Anthropic hissesi aldıkça diğer teknoloji hisselerinden para çekilebileceğini söyledi. The Guardian’ın canlı yayınında konuşan bir başka analiste göre artık izlenecek seviye 83 dolar; piyasalar Apple’ın kendi yapay zekâ ajanı planlarını ve Nvidia’daki çalkantıyı da hesaba katmak zorunda."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Cuma açılıştaki dip",
+              "value": "88,17 $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Halka arz fiyatı",
+              "value": "83 $",
+              "source": "The Guardian, Webrazzi"
+            },
+            {
+              "label": "Tayvan borsasındaki düşüş",
+              "value": "%6,7",
+              "source": "The Guardian"
+            },
+            {
+              "label": "SoftBank’ın Tokyo’daki düşüşü",
+              "value": "%14,5",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Anthropic hisse fiyatı",
+            "unit": "$",
+            "before": 97.17,
+            "after": 88.17,
+            "source": "Bloomberg HT, The Guardian"
+          },
+          "news": "Anthropic hisseleri cuma açılışta yüzde 9’dan fazla düşüp 88,17 dolara indi; Asya piyasaları 2020’den bu yana en kötü haftasını yaşadı."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T03:33:45.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T04:13:08.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T04:13:08.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T07:00:00.000Z",
+          "sourceId": "webrazzi"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:26:42.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:29:59.000Z",
+          "sourceId": "hacker-news"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T14:35:20.000Z",
+          "sourceId": "guardian-business"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/anthropic-hisseleri-rekor-halka-arzin-ardindan-yuzde-5-geriledi-3795213",
+          "confirms": true
+        },
+        {
+          "sourceId": "webrazzi",
+          "url": "https://webrazzi.com/2026/11/20/anthropic-halka-arzi-81-3-milyar-dolarlik-rekor-hisselerde-ilk-gun-yuzde-17-yukselis-ve-seans-sonrasi-yuzde-4-8-dusus/",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/first-thing-blockbuster-anthropic-ipo-fails-to-halt-global-slide-in-ai-stocks",
+          "confirms": false
+        },
+        {
+          "sourceId": "hacker-news",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "confirms": false
+        },
+        {
+          "sourceId": "guardian-business",
+          "url": "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "6a169bd9648e570e",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Russian missile lands in Poland",
+          "title": "Russian missile lands in Poland; Tusk calls it an intentional provocation",
+          "summary": {
+            "what": "A Russian Kh-101 cruise missile hit a rural area of south-eastern Poland, and a second missile and a jet-powered drone are suspected at two more sites.",
+            "why": "Prime Minister Donald Tusk said it did not look like an accident, as 11 allied countries were holding military exercises nearby.",
+            "next": "Nato jets were scrambled; Nato chief Mark Rutte visits Warsaw on Saturday and Poland will ask Nato for more support."
+          },
+          "body": [
+            {
+              "subhead": "Three impact sites",
+              "blocks": [
+                {
+                  "text": "Poland says a Russian cruise missile was among three objects that entered its airspace early on Friday, during one of Russia’s biggest air attacks on Ukraine since the 2022 invasion, the BBC, France 24, the Guardian and Al Jazeera report. Nobody was hurt and no damage to infrastructure was reported."
+                },
+                {
+                  "text": "Defence Minister Władysław Kosiniak-Kamysz said a Kh-101 missile crashed at about 06:30 local time in a rural area at Nowy Lipowiec, about 50km from the Ukrainian border, the BBC reports. Another suspected missile came down near Rudnik nad Sanem, to the west, and a jet-powered drone crashed near Mołodycz, to the south. A farm camera caught the moment of impact, and a local resident told the BBC she heard “a whistle and a dull impact” while getting her children ready for school."
+                }
+              ]
+            },
+            {
+              "subhead": "“Not an accident”",
+              "blocks": [
+                {
+                  "text": "The incidents happened between 30 and 60 miles from Nowa Dęba, where a UK- and France-led exercise called Koalicja 2026 is under way with troops from 11 “coalition of the willing” countries preparing for a possible peace deal in Ukraine, the Guardian and the BBC report."
+                },
+                {
+                  "quote": "We know that what landed on Polish soil came from Russia. Therefore – and this is not just my own assessment, but also that of our foreign partners, including those within NATO – it does not look like an accident. It appears that we are dealing with an intentional provocation.",
+                  "speaker": "Donald Tusk, Polish prime minister",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "Tusk said the incident showed “clearer than ever before why Poland must participate in decisions on Ukraine’s future”, according to the Guardian. The Russian embassy in Warsaw did not respond to France 24, and Russia has made no comment, the BBC says."
+                }
+              ]
+            },
+            {
+              "subhead": "Allies respond",
+              "blocks": [
+                {
+                  "text": "Nato secretary general Mark Rutte condemned “grave violations of Polish airspace” and said Nato jets had been scrambled in response, France 24 and the BBC report. Rutte is due in Warsaw on Saturday, and Kosiniak-Kamysz said Poland would ask Nato for more support. British Prime Minister Andy Burnham called the incident “utterly unacceptable”, the BBC says."
+                },
+                {
+                  "text": "In Ukraine, the overnight strikes killed at least eight people and injured nearly 30, President Volodymyr Zelenskyy said, according to the Guardian. He called it “one of the largest attacks” of the war, aimed at civilian infrastructure. Hours earlier, Vladimir Putin had vowed a “painful” response to Ukraine’s strikes on the Crimean Bridge, France 24 reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Impact sites in Poland",
+              "value": "3",
+              "source": "Polish defence minister"
+            },
+            {
+              "label": "Distance from Ukrainian border",
+              "value": "50km",
+              "source": "BBC"
+            },
+            {
+              "label": "Countries in the nearby exercise",
+              "value": "11",
+              "source": "The Guardian, BBC"
+            },
+            {
+              "label": "Killed in Ukraine overnight",
+              "value": "8+",
+              "source": "Zelenskyy, via the Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Rus füzesi Polonya’ya düştü",
+          "title": "Polonya’ya Rus füzesi düştü; Tusk “kasıtlı provokasyon” dedi",
+          "summary": {
+            "what": "Bir Rus Kh-101 seyir füzesi Polonya’nın güneydoğusunda kırsal bir alana düştü; iki noktada daha bir füze ve jet motorlu bir dron düştüğünden şüpheleniliyor.",
+            "why": "Başbakan Donald Tusk, yakında 11 müttefik ülkenin askeri tatbikat yaptığı bir sırada yaşanan olayın kaza gibi görünmediğini söyledi.",
+            "next": "NATO jetleri havalandı; NATO Genel Sekreteri Mark Rutte cumartesi günü Varşova’ya gidecek, Polonya NATO’dan ek destek isteyecek."
+          },
+          "body": [
+            {
+              "subhead": "Üç düşme noktası",
+              "blocks": [
+                {
+                  "text": "BBC, France 24, The Guardian ve Al Jazeera’nın aktardığına göre Polonya, Rusya’nın 2022’deki işgalden bu yana Ukrayna’ya düzenlediği en büyük hava saldırılarından biri sırasında cuma sabahı hava sahasına giren üç cisimden birinin Rus seyir füzesi olduğunu açıkladı. Yaralanan olmadı, altyapıda hasar bildirilmedi."
+                },
+                {
+                  "text": "BBC’ye göre Savunma Bakanı Władysław Kosiniak-Kamysz, bir Kh-101 füzesinin yerel saatle 06.30 sularında Ukrayna sınırına yaklaşık 50 kilometre uzaklıktaki Nowy Lipowiec’te kırsal bir alana düştüğünü söyledi. Füze olduğundan şüphelenilen bir başka cisim batıda Rudnik nad Sanem yakınlarına, jet motorlu bir dron da güneyde Mołodycz yakınlarına düştü. Çarpma anı bir çiftlik kamerasına yansıdı; bölgede yaşayan bir kadın BBC’ye çocuklarını okula hazırlarken “bir ıslık ve boğuk bir çarpma sesi” duyduğunu anlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Kaza değil”",
+              "blocks": [
+                {
+                  "text": "The Guardian ve BBC’ye göre olaylar, İngiltere ve Fransa öncülüğünde, Ukrayna’da olası bir barış anlaşmasına hazırlık için “gönüllüler koalisyonu”ndaki 11 ülkenin askerleriyle yapılan Koalicja 2026 tatbikatının sürdüğü Nowa Dęba’ya 30 ila 60 mil (yaklaşık 50 ila 100 kilometre) uzaklıkta yaşandı."
+                },
+                {
+                  "quote": "Polonya topraklarına düşenin Rusya’dan geldiğini biliyoruz. Bu yüzden, ki bu yalnızca benim değil, NATO’dakiler de dahil yabancı ortaklarımızın da değerlendirmesi, bu bir kaza gibi görünmüyor. Kasıtlı bir provokasyonla karşı karşıyayız gibi görünüyor.",
+                  "speaker": "Donald Tusk, Polonya Başbakanı",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre Tusk, olayın “Polonya’nın Ukrayna’nın geleceğine dair kararlara neden katılması gerektiğini her zamankinden daha açık gösterdiğini” söyledi. Rusya’nın Varşova Büyükelçiliği France 24’ün sorusunu yanıtlamadı; BBC’ye göre Rusya bir açıklama yapmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Müttefiklerin tepkisi",
+              "blocks": [
+                {
+                  "text": "France 24 ve BBC’ye göre NATO Genel Sekreteri Mark Rutte, “Polonya hava sahasının ağır ihlallerini” kınadı ve NATO jetlerinin havalandırıldığını söyledi. Rutte cumartesi günü Varşova’ya gidecek; Kosiniak-Kamysz de NATO’dan ek destek isteyeceklerini açıkladı. BBC’ye göre İngiltere Başbakanı Andy Burnham olayı “kesinlikle kabul edilemez” diye niteledi."
+                },
+                {
+                  "text": "The Guardian’a göre Ukrayna Devlet Başkanı Volodimir Zelenskiy, gece boyunca süren saldırılarda Ukrayna’da en az sekiz kişinin öldüğünü, yaklaşık 30 kişinin yaralandığını söyledi ve sivil altyapıyı hedef alan saldırıyı savaşın “en büyük saldırılarından biri” olarak nitelendirdi. France 24’e göre Vladimir Putin, birkaç saat önce Ukrayna’nın Kırım Köprüsü’ne yönelik saldırılarına “acı verici” bir karşılık sözü vermişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Polonya’daki düşme noktası",
+              "value": "3",
+              "source": "Polonya Savunma Bakanı"
+            },
+            {
+              "label": "Ukrayna sınırına uzaklık",
+              "value": "50 km",
+              "source": "BBC"
+            },
+            {
+              "label": "Yakındaki tatbikata katılan ülke",
+              "value": "11",
+              "source": "The Guardian, BBC"
+            },
+            {
+              "label": "Ukrayna’da gece ölen",
+              "value": "8+",
+              "source": "Zelenskiy, The Guardian’ın aktardığı"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T10:38:51.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:34:30.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T12:34:30.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:23:53.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T13:52:04.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/0215cd4e-e4cc-11f1-ba35-e56ab3dc0809/w:1024/p:16x9/2026-11-20T091417Z-724863669-RC2KROAVQTVB-RTRMADP-3-UKRAINE-CRISIS-POLAND-OBJECTS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "1edad8d46d5d3ab8",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Estonia shuts Russian border crossings",
+          "title": "Estonia to close all road crossings with Russia from 1 December",
+          "summary": {
+            "what": "Estonia’s government approved closing all five road checkpoints on its border with Russia from 1 December, to be reviewed after six months.",
+            "why": "Tallinn blames Russian military intelligence, the GRU, for an attempted arson attack on a defence company near the capital on 14 November.",
+            "next": "Rail services will keep running; the government will decide after six months whether to extend the closure."
+          },
+          "body": [
+            {
+              "subhead": "The decision",
+              "blocks": [
+                {
+                  "text": "Estonia will close its road border crossings with Russia on security grounds from 1 December and decide after six months whether to extend the suspension, the government said on Friday, the South China Morning Post and Euronews report. All five checkpoints, Narva-1, Narva-2, Koidula, Luhamaa and Saatse, will close, while rail services will not be affected, Euronews says."
+                },
+                {
+                  "text": "The government called the move “a response to Russia’s ongoing hostile actions against Estonia and other European countries”, according to Euronews, and said it was not a reaction to a single incident but the next step in a series, the SCMP reports. Prime Minister Kristen Michal said Estonia would “not allow Russia to use our openness against us”."
+                }
+              ]
+            },
+            {
+              "subhead": "The sabotage attempt",
+              "blocks": [
+                {
+                  "text": "The closure follows an attempted arson attack on the Threod Systems defence facility in Viimsi, near Tallinn, on the night of 14 November, Euronews reports. Production and products were not damaged, and authorities detained eight people from Latvia in connection with the incident."
+                },
+                {
+                  "text": "Foreign Minister Margus Tsahkna said last Sunday that Estonia was considering closing the border, citing evidence that the GRU, Russia’s military intelligence agency, had ordered the attack. Estonian defence companies have been targeted twice this year, and the Internal Security Service says Russian security services authorised both operations, according to Euronews and the SCMP. Moscow denies involvement, and its foreign ministry called Estonia’s decision “Russophobia”."
+                }
+              ]
+            },
+            {
+              "subhead": "A border already narrowing",
+              "blocks": [
+                {
+                  "text": "Earlier this week President Ülle Madise urged the cabinet not to act “under the influence of emotions”, while accepting that keeping the border open meant extra work for the security agency Kapo, Euronews reports."
+                },
+                {
+                  "text": "In practice, only three of the five checkpoints, at Narva, Luhamaa and Koidula, were in active use before the decision, and Russia suspended road traffic at Narva in February 2024, though pedestrians could still cross. Estonia is not the first EU country on Russia’s border to take such a step: Finland closed its land border in December 2023, and Latvia, Lithuania and Poland have sharply cut crossings on their eastern borders in recent years, Euronews notes."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Road checkpoints to close",
+              "value": "5",
+              "source": "Euronews"
+            },
+            {
+              "label": "Closure starts",
+              "value": "1 Dec",
+              "source": "Estonian government, via SCMP"
+            },
+            {
+              "label": "First review after",
+              "value": "6 months",
+              "source": "Estonian government, via SCMP"
+            },
+            {
+              "label": "People from Latvia detained",
+              "value": "8",
+              "source": "Euronews"
+            }
+          ],
+          "place": {
+            "name": "Narva",
+            "lat": 59.38,
+            "lon": 28.18,
+            "region": "Estonia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Estonya Rusya sınır kapılarını kapatıyor",
+          "title": "Estonya, 1 Aralık’tan itibaren Rusya ile tüm kara sınır kapılarını kapatıyor",
+          "summary": {
+            "what": "Estonya hükümeti, Rusya sınırındaki beş kara sınır kapısının tamamını 1 Aralık’tan itibaren kapatma kararını onayladı; karar altı ay sonra gözden geçirilecek.",
+            "why": "Tallinn, 14 Kasım’da başkent yakınındaki bir savunma şirketine yönelik kundaklama girişiminden Rus askeri istihbaratı GRU’yu sorumlu tutuyor.",
+            "next": "Demiryolu seferleri sürecek; hükümet altı ay sonra kapatmanın uzatılıp uzatılmayacağına karar verecek."
+          },
+          "body": [
+            {
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "South China Morning Post ve Euronews’in aktardığına göre Estonya hükümeti cuma günü, güvenlik gerekçesiyle Rusya ile kara sınır kapılarını 1 Aralık’tan itibaren kapatacağını ve altı ay sonra uzatıp uzatmayacağına karar vereceğini açıkladı. Euronews’e göre Narva-1, Narva-2, Koidula, Luhamaa ve Saatse’deki beş kapının tamamı kapanacak, demiryolu seferleri ise etkilenmeyecek."
+                },
+                {
+                  "text": "Euronews’e göre hükümet kararı “Rusya’nın Estonya’ya ve diğer Avrupa ülkelerine yönelik süregelen düşmanca eylemlerine bir yanıt” olarak tanımladı; SCMP’ye göre de bunun tek bir olaya tepki değil, bir dizi adımın devamı olduğunu vurguladı. Başbakan Kristen Michal, Estonya’nın “Rusya’nın açıklığımızı bize karşı kullanmasına izin vermeyeceğini” söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Sabotaj girişimi",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre karar, 14 Kasım gecesi Tallinn yakınlarındaki Viimsi’de bulunan Threod Systems savunma tesisine yönelik kundaklama girişiminin ardından geldi. Üretim ve ürünler zarar görmedi; olayla bağlantılı olarak Letonya’dan sekiz kişi gözaltına alındı."
+                },
+                {
+                  "text": "Dışişleri Bakanı Margus Tsahkna geçen pazar günü, saldırıyı Rus askeri istihbaratı GRU’nun emrettiğine dair kanıtlara dayanarak sınırı kapatmayı düşündüklerini açıklamıştı. Euronews ve SCMP’ye göre Estonya’daki savunma şirketleri bu yıl iki kez hedef alındı; İç Güvenlik Servisi her iki operasyona da Rus güvenlik servislerinin onay verdiğini söylüyor. Moskova ise sabotajla ilgisi olmadığını söylüyor, Rusya Dışişleri Bakanlığı kararı “Rus düşmanlığı” olarak niteledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Zaten daralan bir sınır",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre Cumhurbaşkanı Ülle Madise bu hafta başında hükümete “duyguların etkisiyle” hareket etmeme çağrısı yapmış, sınırların açık kalmasının güvenlik kurumu Kapo için ek iş anlamına geldiğini de kabul etmişti."
+                },
+                {
+                  "text": "Uygulamada karardan önce beş kapıdan yalnızca Narva, Luhamaa ve Koidula’dakiler aktif kullanılıyordu; Rusya da Şubat 2024’te Narva’da araç geçişini durdurmuş, yaya geçişleri sürmüştü. Euronews’e göre bu adımı atan ilk AB ülkesi Estonya değil: Finlandiya Aralık 2023’te Rusya ile kara sınırını kapattı; Letonya, Litvanya ve Polonya da son yıllarda doğu sınırlarındaki geçişleri ciddi biçimde kısıtladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kapanacak kara sınır kapısı",
+              "value": "5",
+              "source": "Euronews"
+            },
+            {
+              "label": "Kapanma tarihi",
+              "value": "1 Aralık",
+              "source": "Estonya hükümeti, SCMP’nin aktardığı"
+            },
+            {
+              "label": "İlk değerlendirme",
+              "value": "6 ay sonra",
+              "source": "Estonya hükümeti, SCMP’nin aktardığı"
+            },
+            {
+              "label": "Gözaltına alınan Letonyalı",
+              "value": "8",
+              "source": "Euronews"
+            }
+          ],
+          "place": {
+            "name": "Narva",
+            "lat": 59.38,
+            "lon": 28.18,
+            "region": "Estonya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T11:52:05.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T14:41:57.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T14:41:57.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    },
+    {
+      "id": "cf3caef10eb550cc",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "UK stockpiling lifts retail sales",
+          "title": "UK retail sales rise 0.7% as households stockpile tins and long-life milk",
+          "summary": {
+            "what": "Retail sales volumes in Great Britain rose 0.7% in October, beating forecasts, as people stocked up after the government’s “Be Ready” campaign, the ONS said.",
+            "why": "The campaign asks households to keep three days of food and water in case of severe weather, cyberattacks or other emergencies.",
+            "next": "Economists expect the boost to fade, with energy bills forecast to rise by £443 a year from January."
+          },
+          "body": [
+            {
+              "subhead": "A surprise rise",
+              "blocks": [
+                {
+                  "text": "Retail sales volumes in Great Britain rose by 0.7% in October, the Office for National Statistics (ONS) said on Friday, as shoppers bought tinned food, long-life milk and other essentials in response to the government’s emergency preparedness campaign, the BBC and the Guardian report. Economists had expected flat sales or a slight fall."
+                },
+                {
+                  "text": "The rise followed a weak September, which the ONS revised from a 0.4% fall to a 0.6% fall, partly because warm weather hurt online sales of autumn and winter clothing, the Guardian says."
+                },
+                {
+                  "quote": "Supermarkets have told us that sales of long-life food items such as tinned food and UHT milk were boosted by the government’s ‘Be Ready’ campaign.",
+                  "speaker": "Grant Fitzner, ONS chief economist",
+                  "sourceId": "bbc-business"
+                }
+              ]
+            },
+            {
+              "subhead": "What people bought",
+              "blocks": [
+                {
+                  "text": "The “Be Ready” campaign encourages households to keep three days’ worth of food and water at home in case essential services are disrupted by severe weather or cyberattacks, the BBC reports. Earlier research by Worldpanel by Numerator showed people stocking up on tinned meat, bottled water and hand sanitiser, though not panic buying."
+                },
+                {
+                  "text": "Food store sales, mainly supermarkets, rose by 0.8%, the fastest since April, according to the Guardian. Clothing and footwear stores grew by 1.5%, and other non-food stores by 3.1%, the most since January, helped by gallery visits and sales of sports equipment, games and toys. Online and other non-store sales rose by 0.9%."
+                }
+              ]
+            },
+            {
+              "subhead": "Harder months ahead",
+              "blocks": [
+                {
+                  "text": "Paul Dales, chief UK economist at Capital Economics, told the Guardian that “the cupboards only need to be stocked once”, so food sales may grow more slowly in the coming months, especially with another energy-driven rise in inflation ahead. Typical energy bills are forecast to rise by £443 a year from January, the BBC says, and inflation reached 3.6% in October."
+                },
+                {
+                  "text": "Separate ONS figures showed the government borrowed £17bn in October, slightly below forecasts of about £18bn, the BBC reports. Interest payments on debt were £11.2bn, the highest October figure on record and £2.8bn more than a year earlier."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Retail sales volumes, October",
+              "value": "+0.7%",
+              "source": "ONS"
+            },
+            {
+              "label": "Food store sales",
+              "value": "+0.8%",
+              "source": "ONS, via the Guardian"
+            },
+            {
+              "label": "Days of supplies advised",
+              "value": "3",
+              "source": "BBC"
+            },
+            {
+              "label": "Energy bill rise from January",
+              "value": "£443/yr",
+              "source": "BBC"
+            },
+            {
+              "label": "October public borrowing",
+              "value": "£17bn",
+              "source": "ONS, via the BBC"
+            }
+          ],
+          "keyNumber": {
+            "label": "Retail sales volumes, month on month",
+            "unit": "%",
+            "before": -0.6,
+            "after": 0.7,
+            "source": "ONS"
+          }
+        },
+        "tr": {
+          "shortTitle": "İngiltere’de stokçuluk satışları artırdı",
+          "title": "İngiltere’de hane stoku perakende satışları yüzde 0,7 artırdı",
+          "summary": {
+            "what": "İstatistik kurumu ONS’ye göre Büyük Britanya’da perakende satış hacmi ekimde, hükümetin “Be Ready” kampanyasıyla stok yapan hanelerin etkisiyle beklentilerin üzerinde yüzde 0,7 arttı.",
+            "why": "Kampanya, hanelerden sert hava, siber saldırı ya da başka bir acil durum için evde üç günlük yiyecek ve su bulundurmalarını istiyor.",
+            "next": "Ekonomistler etkinin geçici olacağını düşünüyor; ocaktan itibaren enerji faturalarının yılda 443 sterlin artması bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Beklenmedik artış",
+              "blocks": [
+                {
+                  "text": "BBC ve The Guardian’ın aktardığına göre İngiltere’nin istatistik kurumu ONS, Büyük Britanya’da perakende satış hacminin ekimde yüzde 0,7 arttığını açıkladı. Tüketiciler, hükümetin acil duruma hazırlık kampanyası üzerine konserve, uzun ömürlü süt ve diğer temel ürünleri aldı. Ekonomistler satışların yatay kalmasını ya da hafif düşmesini bekliyordu."
+                },
+                {
+                  "text": "The Guardian’a göre artış, ONS’nin yüzde 0,4’lük düşüşten yüzde 0,6’lık düşüşe revize ettiği zayıf bir eylül ayının ardından geldi; sıcak hava sonbahar ve kış giyiminin internet satışlarını vurmuştu."
+                },
+                {
+                  "quote": "Süpermarketler bize, konserve ve UHT süt gibi uzun ömürlü gıdaların satışlarının hükümetin ‘Be Ready’ kampanyasıyla arttığını söyledi.",
+                  "speaker": "Grant Fitzner, ONS baş ekonomisti",
+                  "sourceId": "bbc-business",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Neler alındı",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre “Be Ready” (Hazır Ol) kampanyası, sert hava ya da siber saldırılar temel hizmetleri aksatırsa diye hanelerin evde üç günlük yiyecek ve su bulundurmasını öneriyor. Worldpanel by Numerator’ın daha önceki araştırması, insanların konserve et, şişe su ve el dezenfektanı stokladığını ama panikle alışveriş yapmadığını göstermişti."
+                },
+                {
+                  "text": "The Guardian’a göre ağırlıkla süpermarketlerden oluşan gıda mağazalarının satışları yüzde 0,8 artışla nisandan bu yana en hızlı yükselişini kaydetti. Giyim ve ayakkabı mağazaları yüzde 1,5, galeri ziyaretleri ile spor malzemesi, oyun ve oyuncak satışlarının desteklediği diğer gıda dışı mağazalar yüzde 3,1 büyüdü; bu, ocaktan bu yana en büyük artış. İnternet ve diğer mağaza dışı satışlar yüzde 0,9 yükseldi."
+                }
+              ]
+            },
+            {
+              "subhead": "Önümüzde zor aylar",
+              "blocks": [
+                {
+                  "text": "Capital Economics’in İngiltere baş ekonomisti Paul Dales, The Guardian’a “dolapların bunun için yalnızca bir kez doldurulması gerektiğini” söyledi; enerji kaynaklı yeni bir enflasyon artışı da yoldayken gıda satışlarının önümüzdeki aylarda daha yavaş büyüyebileceğini belirtti. BBC’ye göre ortalama enerji faturalarının ocaktan itibaren yılda 443 sterlin artması bekleniyor; enflasyon ekimde yüzde 3,6’ya çıktı."
+                },
+                {
+                  "text": "BBC’ye göre ONS’nin ayrı verileri, hükümetin ekimde 17 milyar sterlin borçlandığını gösterdi; bu, yaklaşık 18 milyar sterlinlik beklentinin biraz altında. Borç faizi ödemeleri 11,2 milyar sterlinle kayıtlardaki en yüksek ekim rakamına ulaştı ve bir yıl öncesine göre 2,8 milyar sterlin arttı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ekim perakende satış hacmi",
+              "value": "+%0,7",
+              "source": "ONS"
+            },
+            {
+              "label": "Gıda mağazası satışları",
+              "value": "+%0,8",
+              "source": "ONS, The Guardian’ın aktardığı"
+            },
+            {
+              "label": "Önerilen erzak",
+              "value": "3 gün",
+              "source": "BBC"
+            },
+            {
+              "label": "Ocaktan itibaren fatura artışı",
+              "value": "443 £/yıl",
+              "source": "BBC"
+            },
+            {
+              "label": "Ekimde kamu borçlanması",
+              "value": "17 milyar £",
+              "source": "ONS, BBC’nin aktardığı"
+            }
+          ],
+          "keyNumber": {
+            "label": "Aylık perakende satış hacmi",
+            "unit": "%",
+            "before": -0.6,
+            "after": 0.7,
+            "source": "ONS"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T09:44:56.000Z",
+          "sourceId": "bbc-business"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T12:28:12.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T12:28:12.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b2f3/live/616b7460-e4bd-11f1-bd65-4bcf15946188.jpg",
+        "sourceId": "bbc-business",
+        "sourceName": "BBC News Business",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-business",
+          "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/20/rush-stockpile-emergency-supplies-sends-british-retail-sales-soaring",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-20T18:30:00+03:00",
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    }
+  ],
+  "abroad": [
+    {
+      "id": "25e7d27c2f3398f0",
+      "person": "Arda Güler",
+      "kind": "football",
+      "label": "reported",
+      "versions": {
+        "en": {
+          "where": "Real Madrid, LaLiga",
+          "title": "Salary reported to double to €10.42m under his new deal to 2032",
+          "headline": "Arda Güler’s pay to double under new Real Madrid contract, reports say",
+          "story": [
+            "Arda Güler’s fixed gross salary will double under the contract extension he signed with Real Madrid this week, Hürriyet reports, citing Spain’s La Razón and the football finance site Capology. His fixed pay is said to rise from €5.21 million in the 2025-26 season to €10.42 million in 2026-27, and could reach €13.02 million if he earns every bonus. Onedio, also citing Capology, puts his weekly fixed pay at about €200,385. Some Spanish outlets called it a “huge salary”, Hürriyet says.",
+            "The new deal runs to 30 June 2032. Coach José Mourinho said the extension was “a natural step” and that Güler “wants to stay here for a long time”, Hürriyet reports; according to Cumhuriyet, Mourinho called him “incredibly important for Real Madrid”. Güler has played 14 games under Mourinho this season, with 4 goals and 7 assists, Hürriyet says.",
+            "Fenerbahçe president Aziz Yıldırım sent a letter of congratulations to the player his club developed, published on the club’s website and carried by Anadolu Agency: “I followed with pleasure that the extension talks were completed and the new contract runs until 2032, and I am very proud of it.”"
+          ],
+          "facts": [
+            {
+              "value": "€10.42m",
+              "label": "Reported fixed gross salary, 2026-27"
+            },
+            {
+              "value": "4+7",
+              "label": "Goals and assists under Mourinho this season"
+            }
+          ]
+        },
+        "tr": {
+          "where": "Real Madrid, LaLiga",
+          "title": "2032’ye kadar uzayan yeni sözleşmede maaşının 10,42 milyon avroya çıktığı yazıldı",
+          "headline": "Arda Güler’in Real Madrid’deki maaşı yeni sözleşmeyle iki katına çıkıyor",
+          "story": [
+            "Hürriyet’in İspanyol La Razón’un Capology’ye dayandırdığı haberine göre Arda Güler’in brüt sabit maaşı, bu hafta Real Madrid’le imzaladığı sözleşme uzatmasıyla iki katına çıkacak. Milli futbolcunun 2025-26 sezonundaki 5,21 milyon avroluk sabit maaşının 2026-27’de 10,42 milyon avroya yükseleceği, tüm bonusları alırsa kazancının 13,02 milyon avroyu bulacağı belirtiliyor. Onedio da Capology’ye dayanarak haftalık sabit kazancını yaklaşık 200 bin 385 avro olarak hesapladı. Hürriyet’e göre bazı İspanyol yayınları haberi “devasa maaş” yorumuyla verdi.",
+            "Yeni sözleşme 30 Haziran 2032’ye kadar geçerli. Hürriyet’e göre teknik direktör José Mourinho uzatmanın “doğal bir adım” olduğunu, Arda’nın “uzun süre burada kalmak istediğini” söyledi; Cumhuriyet’e göre de onu “Real Madrid için inanılmaz derecede önemli” diye niteledi. Hürriyet’e göre Arda bu sezon Mourinho yönetiminde 14 maçta 4 gol, 7 asist üretti.",
+            "Fenerbahçe Başkanı Aziz Yıldırım da kulübün yetiştirdiği oyuncuya tebrik mektubu gönderdi. Anadolu Ajansı’nın aktardığı, kulübün sitesindeki mektupta Yıldırım şöyle yazdı: “Real Madrid Kulübü ile olan sözleşme uzatma görüşmelerinin tamamlandığını ve yeni sözleşmenin 2032 yılına kadar uzatılmış olduğunu memnuniyetle takip ettim ve bundan çok büyük bir gurur duydum.”"
+          ],
+          "facts": [
+            {
+              "value": "10,42 milyon €",
+              "label": "2026-27 için yazılan brüt sabit maaş"
+            },
+            {
+              "value": "4+7",
+              "label": "Mourinho yönetiminde bu sezon gol ve asist"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/arda-gulerin-maasi-belli-oldu-ispanyadan-devasa-vurgusu-ve-mourinhodan-super-yetenek-aciklamasi-43384853"
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/real-madrid-ile-2032-ye-kadar-imzayi-atan-arda-guler-in-yeni-maasi-ve-bonuslari-netlesti-1396311"
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/jose-mourinho-dan-arda-guler-sozleri-real-madrid-icin-inanilmaz-derecede-onemli-2557883"
+        },
+        {
+          "sourceId": "aa-spor",
+          "url": "https://www.aa.com.tr/tr/spor/fenerbahce-kulubu-baskani-yildirimdan-arda-gulere-tebrik-mektubu/4132005"
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/aziz-yildirim-dan-arda-guler-e-tebrik-mektubu-3928763"
+        }
+      ],
+      "updatedAt": "2026-11-20T18:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "361c6cd10fdc1fee",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "What is the new minimum payment on a credit card with a limit of ₺100,000 or less?",
+          "options": ["40% of the balance", "30% of the balance", "20% of the balance"]
+        },
+        "tr": {
+          "question": "Limiti 100 bin lira ve altındaki kredi kartlarında yeni asgari ödeme oranı ne?",
+          "options": ["Dönem borcunun %40’ı", "Dönem borcunun %30’u", "Dönem borcunun %20’si"]
+        }
+      }
+    },
+    {
+      "storyId": "1edad8d46d5d3ab8",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "From what date will Estonia close its road crossings with Russia?",
+          "options": ["1 December", "1 January", "15 December"]
+        },
+        "tr": {
+          "question": "Estonya, Rusya ile kara sınır kapılarını hangi tarihten itibaren kapatacak?",
+          "options": ["1 Aralık", "1 Ocak", "15 Aralık"]
+        }
+      }
+    },
+    {
+      "storyId": "741d1721a6c3bf7c",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "What price did Anthropic’s shares sell at in the IPO?",
+          "options": ["$97", "$83", "$111.50"]
+        },
+        "tr": {
+          "question": "Anthropic hisseleri halka arzda kaç dolardan satıldı?",
+          "options": ["97 dolar", "83 dolar", "111,50 dolar"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-127",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "away": {
+        "name": "LDLC ASVEL Villeurbanne",
+        "ours": false,
+        "team": "ldlc-asvel-villeurbanne"
+      },
+      "startsAt": "2026-11-20T17:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/127"
+      }
+    },
+    {
+      "id": "espn-401909312",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "short": "Nuggets",
+        "ours": false,
+        "team": "denver-nuggets"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-21T03:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909312"
+      }
+    }
+  ]
+}
