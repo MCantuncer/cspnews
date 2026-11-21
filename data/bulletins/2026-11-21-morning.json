@@ -1,0 +1,1404 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-21T07:30:00+03:00",
+  "writtenAt": "2026-11-21T06:58:45+03:00",
+  "stories": [
+    {
+      "id": "1bcd3a3bd3cd9c28",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Serdar Altınbaş caught in Prague",
+          "title": "Fund-probe fugitive Serdar Altınbaş caught at Prague airport",
+          "summary": {
+            "what": "Serdar Altınbaş, an Altınbaş Holding board member wanted in the investment-fund probe, was caught in the transit zone of Prague’s airport, the Interior Ministry said.",
+            "why": "He is wanted for capital-markets offences and money laundering; the holding’s chairman and another family executive are already under arrest.",
+            "next": "Türkiye has started extradition proceedings with the Czech authorities, working through the Justice Ministry."
+          },
+          "body": [
+            {
+              "subhead": "Caught in transit",
+              "blocks": [
+                {
+                  "text": "Serdar Altınbaş, a board member of Altınbaş Holding who was wanted in Istanbul’s investment-fund investigation, has been caught in Czechia, the Interior Ministry announced on Friday evening. Anadolu Ajansı, Bloomberg HT, A Haber, Diken and other outlets carried the statement."
+                },
+                {
+                  "text": "According to the ministry, contacts with Czech Interpol officers established that Altınbaş was in the transit zone of Prague’s Václav Havel Airport. Türkiye issued a diffusion notice for him on 20 November, and he was detained once the message reached the Czech authorities. The work was coordinated by the police’s Interpol-Europol department, the Istanbul Chief Public Prosecutor’s Office and the Justice Ministry."
+                },
+                {
+                  "quote": "After the diffusion message was passed to the Czech authorities, Serdar Altınbaş was caught in Czechia and proceedings for his extradition to Türkiye were started.",
+                  "speaker": "Interior Ministry",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "The charges",
+              "blocks": [
+                {
+                  "text": "Altınbaş is wanted for breaching the Capital Markets Law and for laundering the proceeds of crime. Istanbul’s 8th Criminal Judgeship of Peace had issued a warrant for him on those charges, and Istanbul prosecutors had banned him from leaving the country, the ministry said."
+                },
+                {
+                  "text": "A diffusion notice is a fast request for an arrest that a country’s Interpol bureau sends on its own initiative to chosen member states, or to all of them, Diken explains. It is used in urgent cases, because issuing a red notice can take time."
+                }
+              ]
+            },
+            {
+              "subhead": "The holding in the probe",
+              "blocks": [
+                {
+                  "text": "Altınbaş Holding was drawn into the fund investigation on 21 October, and all the assets of the Altınbaş family were frozen, Diken reports. The holding’s chairman, İnan Altınbaş, was arrested on 24 October and another executive, Nusret Altınbaş, on 26 October. On 17 November the Savings Deposit Insurance Fund (TMSF) was appointed as the holding’s trustee."
+                },
+                {
+                  "text": "The investigation began in mid-September with raids on the fund companies Tera, Pusula, Destek and Hedef. It has since reached senior figures at the markets regulator SPK, the banking regulator BDDK, Borsa İstanbul and Takasbank, as well as the owners of several holdings. According to Diken, 136 people were under arrest as of 17 November, among them the former minister Fatma Betül Sayan Kaya."
+                },
+                {
+                  "text": "The ministry thanked the police, its Interpol department, the Istanbul prosecutors and Justice Ministry officials for the operation."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Diffusion notice issued",
+              "value": "20 Nov",
+              "source": "Interior Ministry"
+            },
+            {
+              "label": "Holding drawn into the probe",
+              "value": "21 Oct",
+              "source": "Diken"
+            },
+            {
+              "label": "TMSF named trustee",
+              "value": "17 Nov",
+              "source": "Diken"
+            },
+            {
+              "label": "Under arrest in the fund probe",
+              "value": "136",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Prague",
+            "lat": 50.08,
+            "lon": 14.44,
+            "region": "Czechia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Serdar Altınbaş Prag’da yakalandı",
+          "title": "Fon soruşturmasında aranan Serdar Altınbaş Prag havalimanında yakalandı",
+          "summary": {
+            "what": "Fon soruşturmasında aranan Altınbaş Holding Yönetim Kurulu Üyesi Serdar Altınbaş, Prag havalimanının transit bölgesinde yakalandı.",
+            "why": "Sermaye Piyasası Kanunu’na muhalefet ve kara para aklamadan aranıyordu; holdingin başkanı ve bir aile yöneticisi zaten tutuklu.",
+            "next": "Adalet Bakanlığı koordinasyonunda Çekya makamlarıyla iade işlemleri başlatıldı."
+          },
+          "body": [
+            {
+              "subhead": "Transit bölgesinde",
+              "blocks": [
+                {
+                  "text": "İçişleri Bakanlığı, İstanbul’daki fon soruşturması kapsamında aranan Altınbaş Holding Yönetim Kurulu Üyesi Serdar Altınbaş’ın Çekya’da yakalandığını cuma akşamı duyurdu. Açıklamayı Anadolu Ajansı, Bloomberg HT, A Haber, Diken ve diğer yayın organları aktardı."
+                },
+                {
+                  "text": "Bakanlığa göre Çekya Interpol birimleriyle yürütülen temaslarda Altınbaş’ın Prag Vaclav Havel Havalimanı’nın transit bölgesinde bulunduğu belirlendi. Hakkında 20 Kasım’da difüzyon mesajı yayımlandı ve mesaj Çekya makamlarına iletilince yakalandı. Çalışmalar Emniyet Genel Müdürlüğü Interpol-Europol Daire Başkanlığı, İstanbul Cumhuriyet Başsavcılığı ve Adalet Bakanlığı koordinasyonunda yürütüldü."
+                },
+                {
+                  "quote": "Difüzyon mesajının Çekya makamlarına iletilmesinin ardından Serdar Altınbaş’ın Çekya’da yakalanması sağlandı ve Türkiye’ye iadesine yönelik işlemler başlatıldı.",
+                  "speaker": "İçişleri Bakanlığı",
+                  "sourceId": "aa-tr"
+                }
+              ]
+            },
+            {
+              "subhead": "Suçlamalar",
+              "blocks": [
+                {
+                  "text": "Altınbaş, “Sermaye Piyasası Kanunu’na muhalefet” ve “suçtan kaynaklanan malvarlığı değerlerini aklama” suçlarından aranıyor. Bakanlığın açıklamasına göre İstanbul 8. Sulh Ceza Hâkimliği bu suçlardan aranma kaydı çıkarmış, İstanbul Cumhuriyet Başsavcılığı da yurt dışına çıkış yasağı koymuştu."
+                },
+                {
+                  "text": "Diken’in aktardığına göre difüzyon, kırmızı bültenin çıkması zaman alabildiği için acil durumlarda bir ülkenin Interpol biriminin kendi inisiyatifiyle seçtiği ülkelere ya da tüm üye ülkelere gönderdiği hızlı yakalama mesajı."
+                }
+              ]
+            },
+            {
+              "subhead": "Soruşturmadaki holding",
+              "blocks": [
+                {
+                  "text": "Diken’e göre Altınbaş Holding 21 Ekim’de fon soruşturmasına dahil edildi ve Altınbaş ailesinin tüm malvarlığı donduruldu. Holdingin Yönetim Kurulu Başkanı İnan Altınbaş 24 Ekim’de, yöneticilerden Nusret Altınbaş da 26 Ekim’de tutuklandı. 17 Kasım’da Tasarruf Mevduatı Sigorta Fonu (TMSF) holdinge kayyım olarak atandı."
+                },
+                {
+                  "text": "Soruşturma eylül ortasında Tera, Pusula, Destek ve Hedef fon şirketlerine yönelik ilk dalgayla başladı; ardından SPK, BDDK, Borsa İstanbul ve Takasbank’ın üst düzey isimlerine ve holding patronlarına uzandı. Diken’e göre 17 Kasım itibarıyla tutuklu sayısı 136; aralarında eski bakan Fatma Betül Sayan Kaya da var."
+                },
+                {
+                  "text": "Bakanlık, operasyonda emeği geçen polislere, Interpol Daire Başkanlığı’na, İstanbul Cumhuriyet Başsavcılığı’na ve Adalet Bakanlığı görevlilerine teşekkür etti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Difüzyon mesajı",
+              "value": "20 Kasım",
+              "source": "İçişleri Bakanlığı"
+            },
+            {
+              "label": "Holding soruşturmaya girdi",
+              "value": "21 Ekim",
+              "source": "Diken"
+            },
+            {
+              "label": "TMSF kayyım atandı",
+              "value": "17 Kasım",
+              "source": "Diken"
+            },
+            {
+              "label": "Fon soruşturmasında tutuklu",
+              "value": "136",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Prag",
+            "lat": 50.08,
+            "lon": 14.44,
+            "region": "Çekya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T19:20:56.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T19:22:23.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T19:22:23.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T19:57:32.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T20:10:42.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T20:13:23.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T21:13:42.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T22:01:44.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/20/ver1795205531/3795361/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/fon-sorusturmasinda-aranan-serdar-altinbas-yakalandi-3795361"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/20/uluslararasi-seviyede-aranan-serdar-altinbas-cekyada-yakalandi",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/uluslararasi-seviyede-aranan-serdar-altinbas-cekyada-yakalandi/4132536",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/bakanlik-duyurdu-fon-sorusturmasinda-onemli-gelisme-serdar-altinbas-cekyada-yakalandi-43385596",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/fon-sorusturmasinda-araniyordu-serdar-altinbas-cekya-da-yakalandi-2557966",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/fon-vurgunu-serdar-altinbas-cekyada-yakalandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-serdar-altinbas-yakalandi-3928911",
+          "confirms": false
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/fon-sorusturmasinda-aranan-serdar-altinbas-yakalandi-3795361",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/20/fon-sorusturmasi-serdar-altinbas-yakalandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/serdar-altinbas-cekyada-yakalandi-p383120",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/fon-sorusturmasinda-yeni-gelisme-serdar-altinbas-cekyada-yakalandi-1751824",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T07:30:00+03:00",
+      "updatedAt": "2026-11-21T07:30:00+03:00"
+    },
+    {
+      "id": "73864f2ff42e92ff",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Bolat files complaint against Özlale",
+          "title": "Trade minister Bolat files criminal complaint against MP Özlale over fund claims",
+          "summary": {
+            "what": "Trade Minister Ömer Bolat said he has filed criminal complaints and damages suits against YENİ Party MP Ümit Özlale, who says Bolat held a Hedef Portföy fund.",
+            "why": "Hedef Portföy is one of the companies at the centre of the investment-fund probe, and Özlale’s claims tie both the minister and the Albayrak group to it.",
+            "next": "Bolat says the courts will also be asked who obtained his personal financial data, from where and with what authority."
+          },
+          "body": [
+            {
+              "subhead": "The claims",
+              "blocks": [
+                {
+                  "text": "YENİ Party İzmir MP Ümit Özlale returned to the investment-fund scandal at a press conference in parliament on Friday, this time focusing on Hedef Portföy, Diken and Cumhuriyet report. Hedef Portföy belongs to Hedef Holding and is one of the companies at the centre of the probe; three of its executives, including chairman Namık Kemal Gökalp, are under arrest, according to Diken."
+                },
+                {
+                  "text": "Özlale said that in the records he examined, nine accounts had invested directly in Hedef Portföy’s participation equity fund, and one of them was in Ömer Bolat’s name. The purchase price suggested the units were bought in mid-May 2023, he said, and they still appeared in the records in August 2023, when Bolat was already minister. He also said two listed Albayrak group companies, Tümosan and Trabzon Liman, put about ₺220 million into a Hedef fund, where their stake later grew to ₺422 million, and that funds lent ₺331 million in total to Ereğli Tekstil, Tümosan’s main shareholder. Bolat was an executive at Albayrak Holding for 23 years, Diken notes."
+                },
+                {
+                  "quote": "Mr Bolat, did you have units in this fund in August 2023? If so, when did you sell them, and for how much?",
+                  "speaker": "Ümit Özlale, YENİ Party MP",
+                  "sourceId": "diken",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "The minister’s answer",
+              "blocks": [
+                {
+                  "text": "Bolat replied within hours in a written statement on X, carried by Anadolu Ajansı, Hürriyet and A Haber. He said Özlale had kept repeating “untrue statements and slander” since 7 October, even though he had disproved them with documents."
+                },
+                {
+                  "text": "The account he closed on the evening of 7 October was in fact a sukuk lease certificate, he said, and the claim that he had put in ₺400 million and taken out ₺800 million was false. The ₺170 million figure raised the next day from Central Registry Agency (MKK) records came from counting maturity payments and repurchases of the certificates again and again, he said, and he challenged Özlale to produce a single bank receipt."
+                },
+                {
+                  "quote": "Trying to link my lease certificate transaction to these investigations without any concrete and legally valid evidence is nothing but character assassination.",
+                  "speaker": "Ömer Bolat, Trade Minister",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Complaints and lawsuits",
+              "blocks": [
+                {
+                  "text": "Bolat said criminal complaints had been filed and damages suits opened against Özlale and others. The courts would also be asked who obtained his personal financial data, from which source and on what legal authority, and whether making it public was lawful. His savings came from 43 years as a senior manager, he said, and his asset declarations are held by the relevant state bodies."
+                },
+                {
+                  "text": "He added that when the investigations began on 16 September there were 2,886 investment funds in Türkiye with about 5.9 million investors, and that holding units in a fund does not make anyone a party to later investigations into it unless they broke the law."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Funds in Türkiye when the probe began",
+              "value": "2,886",
+              "source": "Ömer Bolat"
+            },
+            {
+              "label": "Investors in those funds",
+              "value": "5.9m",
+              "source": "Ömer Bolat"
+            },
+            {
+              "label": "Albayrak firms’ stake in a Hedef fund",
+              "value": "₺422m",
+              "source": "Ümit Özlale, via Diken"
+            },
+            {
+              "label": "Withdrawal figure Bolat disputes",
+              "value": "₺170m",
+              "source": "Ömer Bolat"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Bolat’tan Özlale’ye suç duyurusu",
+          "title": "Ticaret Bakanı Bolat, fon iddiaları nedeniyle Özlale hakkında suç duyurusunda bulundu",
+          "summary": {
+            "what": "Ticaret Bakanı Ömer Bolat, Hedef Portföy fonunda payı olduğunu öne süren YENİ Parti Milletvekili Ümit Özlale hakkında suç duyurusu ve tazminat davası açıldığını söyledi.",
+            "why": "Hedef Portföy fon soruşturmasının merkezindeki şirketlerden biri; Özlale’nin iddiaları hem bakanı hem Albayrak grubunu bu şirkete bağlıyor.",
+            "next": "Bolat, kişisel mali verilerinin kim tarafından, hangi kaynaktan ve hangi yetkiyle elde edildiğinin de yargıya sorulacağını söyledi."
+          },
+          "body": [
+            {
+              "subhead": "İddialar",
+              "blocks": [
+                {
+                  "text": "Diken ve Cumhuriyet’in aktardığına göre YENİ Parti İzmir Milletvekili Ümit Özlale, cuma günü TBMM’de düzenlediği basın toplantısında fon vurgunuyla ilgili iddialarını bu kez Hedef Portföy üzerinden sürdürdü. Hedef Portföy, Hedef Holding bünyesinde ve soruşturmanın merkezindeki şirketlerden biri; Diken’e göre Yönetim Kurulu Başkanı Namık Kemal Gökalp dahil üç yöneticisi tutuklu."
+                },
+                {
+                  "text": "Özlale, incelediği kayıtlarda Hedef Portföy’ün katılım hisse senedi fonuna doğrudan yatırım yapan dokuz hesap bulunduğunu, bunlardan birinin Ömer Bolat adına kayıtlı olduğunu söyledi. Alış fiyatının, payların Mayıs 2023 ortasında alınmış olabileceğini gösterdiğini, payların Bolat bakanken, Ağustos 2023’te de kayıtlarda göründüğünü öne sürdü. Albayrak grubunun borsadaki iki şirketi Tümosan ve Trabzon Liman’ın bir Hedef fonuna yaklaşık 220 milyon lira yatırdığını, bu payların değerinin sonra 422 milyon liraya çıktığını; fonların Tümosan’ın ana ortağı Ereğli Tekstil’e toplam 331 milyon lira borç verdiğini de söyledi. Diken, Bolat’ın Albayrak Holding’de 23 yıl yöneticilik yaptığını hatırlatıyor."
+                },
+                {
+                  "quote": "Sayın Bolat Ağustos 2023’te bu fonda payınız var mıydı? Varsa bu payları ne zaman, kaça sattınız?",
+                  "speaker": "Ümit Özlale, YENİ Parti Milletvekili",
+                  "sourceId": "diken"
+                }
+              ]
+            },
+            {
+              "subhead": "Bakanın yanıtı",
+              "blocks": [
+                {
+                  "text": "Bolat birkaç saat içinde X hesabından yazılı bir açıklama yaptı; açıklamayı Anadolu Ajansı, Hürriyet ve A Haber aktardı. Bolat, Özlale’nin 7 Ekim’den bu yana “gerçek dışı beyan ve iftiralarını” belgelerle çürütmesine rağmen aynı isnatları yinelediğini söyledi."
+                },
+                {
+                  "text": "Bolat’a göre 7 Ekim akşamı kapattığı hesap aslında bir sukuk kira sertifikasıydı; 400 milyon lira yatırıp 800 milyon lira çektiği iddiası gerçek dışıydı. Ertesi gün Merkezi Kayıt Kuruluşu (MKK) kayıtlarına dayanılarak ortaya atılan 170 milyon liralık rakamın da kira sertifikalarının vade sonu tahsilatları ile yeniden alımların tekrar tekrar toplanmasından kaynaklandığını söyledi ve Özlale’yi tek bir banka dekontu göstermeye çağırdı."
+                },
+                {
+                  "quote": "Şahsıma ait kira sertifikası işleminin, somut ve hukuken geçerli herhangi bir delil ortaya konulmaksızın söz konusu soruşturmalarla ilişkilendirmeye çalışmanız, sadece haysiyet cellatlığıdır.",
+                  "speaker": "Ömer Bolat, Ticaret Bakanı",
+                  "sourceId": "aa-tr"
+                }
+              ]
+            },
+            {
+              "subhead": "Suç duyurusu ve davalar",
+              "blocks": [
+                {
+                  "text": "Bolat, Özlale ve ilgili kişiler hakkında suç duyurusunda bulunulduğunu ve manevi tazminat davaları açıldığını bildirdi. Kişisel mali verilerinin kim tarafından, hangi kaynaktan ve hangi hukuki yetkiyle elde edildiğinin ve kamuoyuna açıklanmasının hukuka uygunluğunun da yargıda sorulacağını söyledi. Tasarruflarının 43 yıllık üst düzey yöneticilikten geldiğini, mal varlığı bildirimlerinin devletin ilgili kurumlarında bulunduğunu ekledi."
+                },
+                {
+                  "text": "Bolat, soruşturmaların başladığı 16 Eylül itibarıyla Türkiye’de 2 bin 886 yatırım fonu ve bu fonlarda yaklaşık 5,9 milyon yatırımcı bulunduğunu, kanunsuz bir eylem yoksa bir fonda tasarruf sahibi olmanın sonradan açılan soruşturmaların tarafı olmak anlamına gelmediğini vurguladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Soruşturma başladığında fon sayısı",
+              "value": "2.886",
+              "source": "Ömer Bolat"
+            },
+            {
+              "label": "Bu fonlardaki yatırımcı",
+              "value": "5,9 milyon",
+              "source": "Ömer Bolat"
+            },
+            {
+              "label": "Albayrak şirketlerinin Hedef fonundaki payı",
+              "value": "422 milyon ₺",
+              "source": "Ümit Özlale, Diken’e göre"
+            },
+            {
+              "label": "Bolat’ın itiraz ettiği rakam",
+              "value": "170 milyon ₺",
+              "source": "Ömer Bolat"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T16:11:05.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T16:14:14.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T16:14:14.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T16:55:19.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T17:22:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T18:41:31.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T20:40:07.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0071173516f14679ccabd5.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/bakan-bolattan-umit-ozlale-hakkinda-suc-duyurusu-belgelerle-curuttuk-carpitmaya-devam-ediyorsunuz-43385477"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/bakan-bolattan-umit-ozlale-hakkinda-suc-duyurusu-belgelerle-curuttuk-carpitmaya-devam-ediyorsunuz-43385477",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/20/omer-bolattan-ozlaleye-suc-duyurusu",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-omer-bolat-hakkindaki-iddialari-yalanladi/4132459",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/bakan-bolat-tan-ozlale-nin-iddialarina-yanit-3928891",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/bakan-bolat-tan-yeni-partili-ozlale-ye-fon-sorusturmasi-yaniti-elde-ettigim-helal-ve-tertemiz-tasarrufumun-kaynagi-bellidir-2557945",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/ticaret-bakani-bolat-ozlalenin-iddialarini-yalanladi-haysiyet-cellatligi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bakan-bolatdan-yeni-partili-ozlalenin-fon-iddialarina-yanit-1751827",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T07:30:00+03:00",
+      "updatedAt": "2026-11-21T07:30:00+03:00"
+    },
+    {
+      "id": "3afdf5a7b1a6fd8a",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Trump threatens offshore data-centre tax",
+          "title": "Trump threatens a “tremendous tax” on US firms building data centres abroad",
+          "summary": {
+            "what": "Donald Trump said US companies would not be allowed to build AI data centres in other countries, and threatened a “tremendous tax” on those that do.",
+            "why": "Big Tech is already building abroad, from Alberta to Finland, as US towns push back against data centres at home.",
+            "next": "Trump gave no details and said his own officials were hearing the plan for the first time; a Democratic-led Congress is sworn in within months."
+          },
+          "body": [
+            {
+              "subhead": "A plan announced at the podium",
+              "blocks": [
+                {
+                  "text": "President Donald Trump said on Friday he would not allow American companies to build artificial intelligence data centres outside the United States, and threatened a “tremendous tax” on those that try, The Verge, the BBC, Al Jazeera and the Guardian report. He spoke at a White House press conference after returning from his summit with China’s Xi Jinping and Russia’s Vladimir Putin."
+                },
+                {
+                  "quote": "We’re not going to allow our companies to build data centers outside of our country.",
+                  "speaker": "Donald Trump",
+                  "sourceId": "the-verge"
+                },
+                {
+                  "text": "The US had let the same thing happen with chips, Trump said, and “it was very destructive to our country”; if the centres went abroad, “China will take them all.” He gave few details and appeared to be floating the idea in public for the first time. “I don’t know if that’s a breaking story. But I haven’t even said that to my people,” he said, with Vice President JD Vance and Secretary of State Marco Rubio beside him, according to The Verge. The Guardian quotes him promising “tremendous penalties” on companies that try."
+                }
+              ]
+            },
+            {
+              "subhead": "Where the centres are going",
+              "blocks": [
+                {
+                  "text": "Tech giants including Meta and Google have agreed to build data centres overseas, the BBC notes, and it is unclear how such a policy would be enforced. Meta has broken ground on a data centre in Alberta, Canada, and Anthropic has signed a long-term agreement to lease a proposed one in Nova Scotia. In September Google announced a €13bn ($15bn) investment in AI infrastructure in Finland, including three data centres; work on two of them was halted last month over the clearing of more than 300 hectares of forest. Trump named the Finnish project, saying his administration was “not allowing that to happen”."
+                },
+                {
+                  "text": "As of April there were about 3,000 data centres in the US, with another 1,500 at various stages of approval and construction, the BBC reports, citing the Pew Research Center."
+                }
+              ]
+            },
+            {
+              "subhead": "Backlash at home",
+              "blocks": [
+                {
+                  "text": "Data centres were a central issue in the midterm elections on 3 November, when worries about noise and energy use helped Democrats who promised tougher rules, the BBC says. With states and cities imposing moratoriums and new restrictions, companies may be pushed to look abroad, and Trump’s threat is an attempt to make that less attractive, The Verge writes. It adds that the plan could be hard to carry out, with a new Democratic majority in Congress being sworn in within a couple of months."
+                },
+                {
+                  "text": "Trump urged communities to accept the buildings and demand something in return. “Make them pay you, make them pay your community, but take advantage, don’t shut them off,” he said, according to the BBC. The remarks follow new US rules announced on Monday that require a licence to buy advanced chips, so officials can check whether they are serving Chinese companies or being smuggled into China."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "US data centres in April",
+              "value": "≈3,000",
+              "source": "Pew Research Center, via BBC"
+            },
+            {
+              "label": "More in approval or construction",
+              "value": "1,500",
+              "source": "Pew Research Center, via BBC"
+            },
+            {
+              "label": "Google’s AI investment in Finland",
+              "value": "€13bn",
+              "source": "BBC"
+            },
+            {
+              "label": "Forest cleared for two Finnish sites",
+              "value": "300+ ha",
+              "source": "BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Trump’tan yurt dışı veri merkezi tehdidi",
+          "title": "Trump, yurt dışında veri merkezi kuran ABD şirketlerine “muazzam vergi” tehdidinde bulundu",
+          "summary": {
+            "what": "Donald Trump, ABD şirketlerinin başka ülkelerde yapay zekâ veri merkezi kurmasına izin vermeyeceklerini söyledi ve bunu yapanlara “muazzam bir vergi” koyma tehdidinde bulundu.",
+            "why": "ABD’de kasabalar veri merkezlerine karşı çıkarken büyük teknoloji şirketleri Alberta’dan Finlandiya’ya yurt dışında yatırım yapıyor.",
+            "next": "Trump ayrıntı vermedi, ekibinin planı ilk kez duyduğunu söyledi; birkaç ay içinde Demokrat çoğunluklu Kongre yemin edecek."
+          },
+          "body": [
+            {
+              "subhead": "Kürsüden açıklanan plan",
+              "blocks": [
+                {
+                  "text": "The Verge, BBC, Al Jazeera ve Guardian’ın haberine göre ABD Başkanı Donald Trump cuma günü, Amerikan şirketlerinin ABD dışında yapay zekâ veri merkezi kurmasına izin vermeyeceğini söyledi ve bunu deneyenlere “muazzam bir vergi” koyacağını duyurdu. Trump, Çin Devlet Başkanı Şi Cinping ve Rusya Devlet Başkanı Vladimir Putin ile yaptığı zirvenin dönüşünde Beyaz Saray’da basın toplantısı düzenledi."
+                },
+                {
+                  "quote": "Şirketlerimizin ülkemiz dışında veri merkezi kurmasına izin vermeyeceğiz.",
+                  "speaker": "Donald Trump",
+                  "sourceId": "the-verge",
+                  "translated": true
+                },
+                {
+                  "text": "Trump, aynı şeye çiplerde izin verildiğini ve bunun “ülkemiz için çok yıkıcı” olduğunu söyledi; merkezler yurt dışına giderse “hepsini Çin alır” dedi. Ayrıntı vermedi ve fikri kamuoyu önünde ilk kez dile getiriyor gibiydi. The Verge’e göre yanında Başkan Yardımcısı JD Vance ve Dışişleri Bakanı Marco Rubio varken “Bunun son dakika haberi olup olmadığını bilmiyorum ama ekibime bile söylemedim” dedi. Guardian ise Trump’ın bunu deneyen şirketlere “muazzam cezalar” vereceğini söylediğini aktarıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Merkezler nereye gidiyor",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Meta ve Google gibi teknoloji devleri yurt dışında veri merkezi kurmak için anlaşmalar yaptı ve böyle bir politikanın nasıl uygulanacağı belirsiz. Meta, Kanada’nın Alberta eyaletinde bir veri merkezinin temelini attı; Anthropic de Nova Scotia’da yapılması planlanan bir merkezi uzun süreli kiralamak için anlaştı. Google eylülde Finlandiya’da üç veri merkezini de kapsayan 13 milyar avroluk (15 milyar dolar) yapay zekâ altyapı yatırımı açıkladı; bunlardan ikisinin inşaatı geçen ay 300 hektardan fazla ormanın kesilmesine yönelik kaygılar yüzünden durduruldu. Trump, Finlandiya projesini adıyla anarak yönetiminin “buna izin vermeyeceğini” söyledi."
+                },
+                {
+                  "text": "BBC’nin Pew Araştırma Merkezi’ne dayandırdığı verilere göre nisan itibarıyla ABD’de yaklaşık 3 bin veri merkezi vardı, 1.500’ü de onay ya da inşaat aşamasındaydı."
+                }
+              ]
+            },
+            {
+              "subhead": "İçeride tepki",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre veri merkezleri 3 Kasım’daki ara seçimlerin ana konularından biriydi; gürültü ve enerji tüketimi kaygıları, daha sıkı kurallar vaat eden Demokrat adaylara kazandırdı. The Verge, eyaletler ve şehirler moratoryum ve yeni kısıtlamalar getirdikçe şirketlerin yurt dışına yönelebileceğini, Trump’ın tehdidinin bu seçeneği daha az cazip kılma girişimi olduğunu yazıyor. Birkaç ay içinde yemin edecek Demokrat çoğunluklu Kongre karşısında planın hayata geçirilmesinin zor olabileceğini de ekliyor."
+                },
+                {
+                  "text": "Trump yerel yönetimlere merkezleri kabul edip karşılığını almalarını önerdi. BBC’ye göre “Size ödeme yapmalarını sağlayın, topluluğunuza ödeme yapmalarını sağlayın, fırsatı değerlendirin, kapatmayın” dedi. Açıklama, gelişmiş çipleri satın almak için lisans şartı getiren ve çiplerin Çinli şirketlere hizmet edip etmediğini ya da Çin’e kaçırılıp kaçırılmadığını izlemeyi amaçlayan, pazartesi açıklanan yeni ABD kurallarının ardından geldi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Nisanda ABD’deki veri merkezi",
+              "value": "≈3.000",
+              "source": "Pew Araştırma Merkezi, BBC’ye göre"
+            },
+            {
+              "label": "Onay ya da inşaat aşamasında",
+              "value": "1.500",
+              "source": "Pew Araştırma Merkezi, BBC’ye göre"
+            },
+            {
+              "label": "Google’ın Finlandiya yatırımı",
+              "value": "13 milyar €",
+              "source": "BBC"
+            },
+            {
+              "label": "İki Fin sahası için kesilecek orman",
+              "value": "300+ ha",
+              "source": "BBC"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T18:50:19.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T20:54:12.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T20:54:12.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T21:10:53.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T21:47:41.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5eb0/live/a9cadc20-e529-11f1-99a1-253766e7ad8b.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T07:30:00+03:00",
+      "updatedAt": "2026-11-21T07:30:00+03:00"
+    },
+    {
+      "id": "0d485e0dfc8d69ca",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "continues": "741d1721a6c3bf7c",
+      "versions": {
+        "en": {
+          "shortTitle": "Nasdaq wipes out 2026 gains",
+          "title": "Nasdaq erases all its 2026 gains as the AI sell-off deepens",
+          "summary": {
+            "what": "The Nasdaq Composite closed Friday 5% down on the year, and the Dow and the S&P 500 ended in correction territory, the Guardian reports.",
+            "why": "Investors doubt the huge sums spent on AI will pay off; the Nasdaq lost about $4tn in value this week, and Anthropic’s listing did not stop the slide.",
+            "next": "Anthropic closed at $88.30, near its $83 IPO price, as fears of US rate rises add to the pressure."
+          },
+          "body": [
+            {
+              "subhead": "Wall Street’s close",
+              "blocks": [
+                {
+                  "text": "The Nasdaq Composite erased all of its gains for 2026 on Friday, closing 5% below its level on 1 January, the Guardian reports. The Dow Jones Industrial Average and the S&P 500 closed in correction territory, and the tech-heavy Nasdaq lost some $4tn in market value over the week, according to the Wall Street Journal, as cited by the Guardian."
+                },
+                {
+                  "text": "Anthropic, whose shares began trading on Thursday after the biggest IPO in history, fell 9% on Friday to $88.30, giving up most of its gains and nearing the $83 at which it priced its debut. On Thursday its shares had briefly jumped almost 40% before closing 17% higher. Chip stocks led Friday’s fall: Nvidia and the memory maker SanDisk each lost 14%, and Micron 12%."
+                }
+              ]
+            },
+            {
+              "subhead": "A global slide",
+              "blocks": [
+                {
+                  "text": "Asian markets had their worst week since 2020. Taiwan’s market dropped 6.7% to its lowest since mid-April, with TSMC down about 6%, and the chair of its stock exchange pledged to keep markets stable. Japan’s Nikkei fell 5%, South Korea’s Kospi lost 5.5%, and SoftBank dropped 14.5% in Tokyo, its worst day in more than two years."
+                },
+                {
+                  "text": "In Europe, the Stoxx 600 fell 1.9% on Friday and posted its biggest weekly loss since March 2025, while Britain’s FTSE 100 lost 5.1% over the week. Fears that US central bankers may raise interest rates to fight inflation lifted the dollar to a 19-month high and put gold on track for its worst week since March. Bitcoin fell below $60,000 for the first time since early July."
+                }
+              ]
+            },
+            {
+              "subhead": "Why investors are selling",
+              "blocks": [
+                {
+                  "text": "Analysts quoted by the Guardian say the listing showed strong demand for AI but has not settled doubts about valuations, profits and spending. Chris Beauchamp, chief market analyst at IG, said Anthropic could be “draining market liquidity” as investors sell other shares to pay for it. Neil Wilson of Saxo spoke of “just relentless selling in tech”."
+                },
+                {
+                  "quote": "The broader market mood has shifted from buying the dip towards questioning whether the correction has further to run.",
+                  "speaker": "Daniela Hathorn, Capital.com",
+                  "sourceId": "guardian-ai"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Nasdaq against 1 January",
+              "value": "−5%",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Nasdaq value lost this week",
+              "value": "$4tn",
+              "source": "Wall Street Journal, via the Guardian"
+            },
+            {
+              "label": "Anthropic’s Friday close",
+              "value": "$88.30",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Anthropic’s IPO price",
+              "value": "$83",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Anthropic share price, IPO to Friday close",
+            "unit": "$",
+            "before": 83,
+            "after": 88.3,
+            "source": "The Guardian"
+          },
+          "news": "The Nasdaq closed Friday 5% below its 1 January level, wiping out all of this year’s gains."
+        },
+        "tr": {
+          "shortTitle": "Nasdaq 2026 kazançlarını sildi",
+          "title": "Yapay zekâ satışları derinleşirken Nasdaq 2026’daki tüm kazancını sildi",
+          "summary": {
+            "what": "Guardian’a göre Nasdaq Composite cuma gününü yılbaşına göre %5 düşüşle kapattı; Dow ve S&P 500 düzeltme bölgesine girdi.",
+            "why": "Yatırımcılar yapay zekâya akan büyük paraların karşılığını sorguluyor; Nasdaq bu hafta yaklaşık 4 trilyon dolar değer kaybetti.",
+            "next": "Anthropic 88,30 dolardan kapanarak 83 dolarlık halka arz fiyatına yaklaştı; ABD’de faiz artışı korkusu baskıyı artırıyor."
+          },
+          "body": [
+            {
+              "subhead": "Wall Street’te kapanış",
+              "blocks": [
+                {
+                  "text": "Guardian’ın haberine göre Nasdaq Composite cuma günü 2026’daki tüm kazançlarını silerek 1 Ocak seviyesinin %5 altında kapandı. Dow Jones Sanayi Ortalaması ve S&P 500 düzeltme bölgesinde kapanırken, Guardian’ın aktardığı Wall Street Journal verilerine göre teknoloji ağırlıklı Nasdaq bu hafta yaklaşık 4 trilyon dolar piyasa değeri kaybetti."
+                },
+                {
+                  "text": "Tarihin en büyük halka arzının ardından perşembe günü işlem görmeye başlayan Anthropic hisseleri cuma %9 düşüşle 88,30 dolara geriledi; kazançlarının çoğunu geri verdi ve 83 dolarlık halka arz fiyatına yaklaştı. Hisseler perşembe günü kısa süreliğine yaklaşık %40 yükselmiş, günü %17 artıyla kapatmıştı. Cumaki düşüşe çip hisseleri öncülük etti: Nvidia ve bellek üreticisi SanDisk %14, Micron %12 değer kaybetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Küresel düşüş",
+              "blocks": [
+                {
+                  "text": "Asya borsaları 2020’den bu yana en kötü haftasını geçirdi. Tayvan borsası %6,7 düşüşle nisan ortasından bu yana en düşük seviyeye indi, TSMC yaklaşık %6 geriledi; borsa başkanı piyasaların istikrarını koruma sözü verdi. Japonya’da Nikkei %5, Güney Kore’de Kospi %5,5 düştü; SoftBank Tokyo’da %14,5 kayıpla iki yılı aşkın sürenin en kötü gününü yaşadı."
+                },
+                {
+                  "text": "Avrupa’da Stoxx 600 cuma günü %1,9 düştü ve Mart 2025’ten bu yana en büyük haftalık kaybını yaşadı; İngiltere’de FTSE 100 hafta boyunca %5,1 geriledi. ABD Merkez Bankası’nın enflasyonla mücadele için faiz artırabileceği korkusu doları 19 ayın zirvesine taşıdı, altını marttan bu yana en kötü haftasına doğru itti. Bitcoin temmuz başından bu yana ilk kez 60 bin doların altına indi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yatırımcılar neden satıyor",
+              "blocks": [
+                {
+                  "text": "Guardian’ın görüştüğü analistlere göre halka arz yapay zekâya talebin güçlü olduğunu gösterdi ama değerlemeler, kârlılık ve harcamalarla ilgili kuşkuları gidermedi. IG’nin baş piyasa analisti Chris Beauchamp, yatırımcılar Anthropic hissesi almak için başka hisseleri sattıkça şirketin “piyasa likiditesini emiyor” olabileceğini söyledi. Saxo’dan Neil Wilson da teknolojide “durmak bilmeyen bir satış” olduğunu belirtti."
+                },
+                {
+                  "quote": "Piyasanın genel havası, düşüşte alım yapmaktan düzeltmenin daha ne kadar süreceğini sorgulamaya döndü.",
+                  "speaker": "Daniela Hathorn, Capital.com",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Nasdaq, 1 Ocak’a göre",
+              "value": "%−5",
+              "source": "Guardian"
+            },
+            {
+              "label": "Nasdaq’ın haftalık değer kaybı",
+              "value": "4 trilyon $",
+              "source": "Wall Street Journal, Guardian’a göre"
+            },
+            {
+              "label": "Anthropic’in cuma kapanışı",
+              "value": "88,30 $",
+              "source": "Guardian"
+            },
+            {
+              "label": "Anthropic halka arz fiyatı",
+              "value": "83 $",
+              "source": "Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Anthropic hissesi, halka arzdan cuma kapanışına",
+            "unit": "$",
+            "before": 83,
+            "after": 88.3,
+            "source": "Guardian"
+          },
+          "news": "Nasdaq cuma gününü 1 Ocak seviyesinin %5 altında kapatarak bu yılki tüm kazancını sildi."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T21:38:17.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T07:30:00+03:00",
+      "updatedAt": "2026-11-21T07:30:00+03:00"
+    },
+    {
+      "id": "74e33acd2ab8feb9",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Mamdani sets 2032 Rikers closure",
+          "title": "Mamdani plans to close Rikers Island jail by 2032, five years late",
+          "summary": {
+            "what": "New York Mayor Zohran Mamdani set out a plan to close the Rikers Island jail complex by the end of 2032 and replace it with four smaller jails.",
+            "why": "A 2019 law requires Rikers to close by August 2027, a deadline the city will miss; the jail is notorious for violence and squalor.",
+            "next": "The City Council must approve the new timeline; members including its speaker have indicated support."
+          },
+          "body": [
+            {
+              "subhead": "The plan",
+              "blocks": [
+                {
+                  "text": "New York City Mayor Zohran Mamdani unveiled a plan on Friday to close the Rikers Island jail complex by the end of 2032, Euronews, Al Jazeera and the BBC report. A law passed by the City Council in 2019 requires it to close by August 2027, so the council must approve the new timeline; members including the council’s speaker have indicated they support it, according to the BBC."
+                },
+                {
+                  "text": "Rikers will be replaced by four smaller jails: one in Brooklyn by 2029, two in the Bronx and Queens by 2031 and one in Manhattan by 2032, the mayor’s office said. The new sites are meant to be closer to courts, families and public transport; travel to Rikers can take hours."
+                },
+                {
+                  "quote": "We have a legal and moral obligation to close Rikers.",
+                  "speaker": "Zohran Mamdani, Mayor of New York",
+                  "sourceId": "euronews-en"
+                }
+              ]
+            },
+            {
+              "subhead": "Fewer people behind bars",
+              "blocks": [
+                {
+                  "text": "The plan depends on cutting the jail population from about 6,600 to no more than 4,100 by the end of 2032, Euronews reports; Al Jazeera puts the current figure at 6,700. The city would expand alternatives to detention, restore online bail payments and set up a task force to cut court delays, which Mamdani said can leave people “detained for years in what is essentially legal purgatory”. It would spend $146m on mental health and substance use treatment and on education programmes, and open hundreds of therapeutic beds; 100 have already opened at Bellevue Hospital, the city’s “Close Rikers Czar” Dana Kaplan told the BBC."
+                },
+                {
+                  "text": "The correction officers’ union is sceptical. A cap on jail beds is “ill-conceived, irresponsible and jeopardizes the safety of all New Yorkers”, the Correction Officers’ Benevolent Association said, according to the BBC."
+                }
+              ]
+            },
+            {
+              "subhead": "A notorious jail",
+              "blocks": [
+                {
+                  "text": "Rikers, on a 413-acre (167-hectare) island between Queens and the Bronx near LaGuardia airport, opened in 1932 and mostly holds people awaiting trial. It has long been criticised for violence, overcrowding and poor sanitation, and nine people have died there this year, the BBC reports. Last year a federal judge removed it from the city’s control and appointed an outside official to run it."
+                },
+                {
+                  "text": "Mamdani blamed the missed 2027 deadline on the previous administration and the Covid pandemic. Once the jail closes, he wants the island used for renewable energy and projects that help the city withstand climate change. “Our hope is that the new Rikers Island will be unrecognisable,” he said, according to Al Jazeera."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "New closure deadline",
+              "value": "end of 2032",
+              "source": "Mayor’s office"
+            },
+            {
+              "label": "Deadline under the 2019 law",
+              "value": "Aug 2027",
+              "source": "Euronews"
+            },
+            {
+              "label": "Jail population target",
+              "value": "4,100",
+              "source": "Mayor’s office"
+            },
+            {
+              "label": "Support programmes",
+              "value": "$146m",
+              "source": "Mayor’s office"
+            }
+          ],
+          "place": {
+            "name": "Rikers Island",
+            "lat": 40.79,
+            "lon": -73.88,
+            "region": "New York, United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Rikers Hapishanesi 2032’de kapanacak",
+          "title": "Mamdani, Rikers Island hapishanesini beş yıl gecikmeyle 2032’de kapatmayı planlıyor",
+          "summary": {
+            "what": "New York Belediye Başkanı Zohran Mamdani, Rikers Island hapishane kompleksini 2032 sonuna kadar kapatıp yerine dört küçük cezaevi açma planını açıkladı.",
+            "why": "2019 tarihli yasa Rikers’ın Ağustos 2027’ye kadar kapanmasını şart koşuyor ve bu tarih tutmayacak; hapishane şiddet ve kötü koşullarıyla biliniyor.",
+            "next": "Yeni takvimi Şehir Meclisi onaylamalı; meclis başkanı dahil üyeler destek sinyali verdi."
+          },
+          "body": [
+            {
+              "subhead": "Plan",
+              "blocks": [
+                {
+                  "text": "Euronews, Al Jazeera ve BBC’nin haberine göre New York Belediye Başkanı Zohran Mamdani cuma günü Rikers Island hapishane kompleksini 2032 sonuna kadar kapatma planını açıkladı. Şehir Meclisi’nin 2019’da çıkardığı yasa hapishanenin Ağustos 2027’ye kadar kapanmasını öngörüyor; bu yüzden yeni takvimi meclisin onaylaması gerekiyor. BBC’ye göre meclis başkanı dahil üyeler planı desteklediklerini belirtti."
+                },
+                {
+                  "text": "Belediyeye göre Rikers’ın yerini dört küçük cezaevi alacak: Brooklyn’deki 2029’da, Bronx ve Queens’tekiler 2031’de, Manhattan’daki 2032’de açılacak. Yeni tesisler adliyelere, ailelere ve toplu taşımaya daha yakın olacak; Rikers’a ulaşmak saatler sürebiliyor."
+                },
+                {
+                  "quote": "Rikers’ı kapatmak bizim için hem yasal hem ahlaki bir yükümlülük.",
+                  "speaker": "Zohran Mamdani, New York Belediye Başkanı",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Daha az tutuklu",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre plan, tutuklu sayısının yaklaşık 6.600’den 2032 sonuna kadar en fazla 4.100’e inmesine dayanıyor; Al Jazeera bugünkü sayıyı 6.700 olarak veriyor. Şehir, tutukluluğa alternatifleri genişletecek, kefaletin internetten ödenmesini yeniden mümkün kılacak ve Mamdani’nin insanları “yıllarca adeta hukuki bir arafta” bırakabildiğini söylediği yargı gecikmelerini azaltmak için bir görev gücü kuracak. Ruh sağlığı, bağımlılık tedavisi ve eğitim programlarına 146 milyon dolar ayrılacak, yüzlerce terapötik yatak açılacak. Şehrin “Rikers’ı Kapatma Sorumlusu” Dana Kaplan BBC’ye, bunların 100’ünün Bellevue Hastanesi’nde açıldığını söyledi."
+                },
+                {
+                  "text": "Gardiyanların sendikası ise kuşkulu. BBC’ye göre Islah Memurları Yardımlaşma Derneği, cezaevi yataklarına sınır koymanın “düşüncesiz, sorumsuz ve tüm New Yorkluların güvenliğini tehlikeye atan” bir adım olduğunu açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kötü şöhretli bir hapishane",
+              "blocks": [
+                {
+                  "text": "Queens ile Bronx arasında, LaGuardia Havalimanı yakınındaki 167 hektarlık bir adada bulunan Rikers 1932’de açıldı ve çoğunlukla yargılanmayı bekleyenleri barındırıyor. Uzun süredir şiddet, aşırı kalabalık ve kötü hijyen nedeniyle eleştiriliyor; BBC’ye göre bu yıl hapishanede dokuz kişi öldü. Geçen yıl bir federal yargıç tesisi belediyenin denetiminden alarak yönetimini dışarıdan bir yetkiliye verdi."
+                },
+                {
+                  "text": "Mamdani, 2027 hedefinin kaçırılmasından önceki yönetimi ve Covid salgınını sorumlu tuttu. Hapishane kapandıktan sonra adanın yenilenebilir enerji ve şehri iklim değişikliğine karşı dayanıklı kılacak projeler için kullanılmasını istiyor. Al Jazeera’ye göre “Umudumuz, yeni Rikers Island’ın tanınmaz hale gelmesi” dedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yeni kapanış tarihi",
+              "value": "2032 sonu",
+              "source": "New York Belediyesi"
+            },
+            {
+              "label": "2019 yasasındaki tarih",
+              "value": "Ağustos 2027",
+              "source": "Euronews"
+            },
+            {
+              "label": "Tutuklu sayısı hedefi",
+              "value": "4.100",
+              "source": "New York Belediyesi"
+            },
+            {
+              "label": "Destek programları",
+              "value": "146 milyon $",
+              "source": "New York Belediyesi"
+            }
+          ],
+          "place": {
+            "name": "Rikers Island",
+            "lat": 40.79,
+            "lon": -73.88,
+            "region": "New York, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T15:03:20.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T17:00:43.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T17:00:43.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T17:54:55.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T00:01:39.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4622/live/d8e189d0-e52b-11f1-964d-a1d5fe40573e.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/mamdani-unveils-plan-to-close-new-yorks-rikers-island-by-2032?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T07:30:00+03:00",
+      "updatedAt": "2026-11-21T07:30:00+03:00"
+    },
+    {
+      "id": "8b20e21a6d79aa31",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "COP31 talks run into overtime",
+          "title": "COP31 in Antalya runs into overtime over a draft without fossil fuels",
+          "summary": {
+            "what": "The UN climate talks in Antalya missed their Friday deadline as nearly 200 countries stayed deadlocked over a draft deal that no longer mentions fossil fuels.",
+            "why": "Türkiye is the host; the EU says the text risks making COP31 a “fossil summit”, and campaigners call it the “worst COP ever”.",
+            "next": "A third draft is expected on Saturday, Al Jazeera reports, citing AFP."
+          },
+          "body": [
+            {
+              "subhead": "Past the deadline",
+              "blocks": [
+                {
+                  "text": "The COP31 climate summit in Antalya went into overtime on Friday, as nearly 200 countries remained deadlocked over a draft deal that no longer mentions fossil fuels, Al Jazeera, France 24, Euronews and the South China Morning Post report. A late closing session approved some technical matters, but not the wider political deal."
+                },
+                {
+                  "quote": "We are close to the finish line, but we are not there yet.",
+                  "speaker": "Murat Kurum, COP31 President and Türkiye’s environment minister",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "A first draft from co-host and lead negotiator Australia on Monday called for a faster phase-out of fossil fuels. A slimmer version on Thursday removed every mention of them after Saudi Arabia and other big oil and gas producers objected, Al Jazeera says. The revised text also dropped a $120bn target for money to help poorer countries adapt to climate change."
+                }
+              ]
+            },
+            {
+              "subhead": "Anger in the hall",
+              "blocks": [
+                {
+                  "text": "The European Union said the draft “risks turning this climate COP into a fossil summit”. Panama, which signed a letter with a dozen other countries demanding “a clear transition away from fossil fuels”, threatened to walk away. “It is not acceptable to have a COP or a cover document that does not even mention fossil fuels, and we simply will not put up with it,” said Panama’s environment minister, Juan Carlos Navarro."
+                },
+                {
+                  "text": "At a packed press conference organised by Climate Action Network, campaigners chanted “shame, shame, shame” and rejected the draft text, Euronews reports. The network’s executive director, Tasneem Essop, urged countries, especially in the Global South, to walk away from it. “This has been the worst COP ever,” said Mohamed Adow, director of the think tank Power Shift Africa."
+                }
+              ]
+            },
+            {
+              "subhead": "What is still on the table",
+              "blocks": [
+                {
+                  "text": "The draft proposes raising electricity’s share of the world’s final energy consumption to 35% by 2035, without saying the power must come from renewables; some countries want the target to say “clean”. Others reject a push to expand carbon capture as costly and unproven, and developing countries are angry that rich nations are falling short on climate finance. “We didn’t come here to beg,” said Ghana’s environment minister, Zanetor Agyeman-Rawlings."
+                },
+                {
+                  "text": "The United States, the largest historical emitter, is absent for a second year after President Donald Trump ended climate cooperation. A UN report last month found the world is set to pass the 1.5C warming limit set under the 2015 Paris Agreement."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Countries at the talks",
+              "value": "≈200",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Adaptation finance target dropped",
+              "value": "$120bn",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Electricity share of energy by 2035",
+              "value": "35%",
+              "source": "Draft text, via Al Jazeera"
+            },
+            {
+              "label": "Paris warming limit set to be passed",
+              "value": "1.5C",
+              "source": "UN report, via Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Antalya",
+            "lat": 36.9,
+            "lon": 30.71,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "COP31 müzakereleri uzatmaya kaldı",
+          "title": "Antalya’daki COP31, fosil yakıtları anmayan taslak yüzünden uzatmaya kaldı",
+          "summary": {
+            "what": "Antalya’daki BM iklim müzakereleri cuma günkü kapanışa yetişmedi; 200’e yakın ülke fosil yakıtların artık geçmediği taslak anlaşmada uzlaşamadı.",
+            "why": "Ev sahibi Türkiye; AB metnin COP31’i bir “fosil zirvesine” çevirme riski taşıdığını söylüyor, aktivistler “tarihin en kötü COP’u” diyor.",
+            "next": "Al Jazeera’nin AFP’ye dayandırdığı habere göre üçüncü taslak cumartesi bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Süre doldu",
+              "blocks": [
+                {
+                  "text": "Al Jazeera, France 24, Euronews ve South China Morning Post’un haberine göre Antalya’daki COP31 iklim zirvesi cuma günü uzatmaya girdi; 200’e yakın ülke, fosil yakıtlardan artık hiç söz etmeyen taslak anlaşma üzerinde uzlaşamadı. Gece yapılan kapanış oturumunda bazı teknik konular kabul edildi, ancak kapsamlı siyasi anlaşma çıkmadı."
+                },
+                {
+                  "quote": "Bitiş çizgisine yakınız ama henüz varmadık.",
+                  "speaker": "Murat Kurum, COP31 Başkanı ve Çevre, Şehircilik ve İklim Değişikliği Bakanı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Eş ev sahibi ve baş müzakereci Avustralya’nın pazartesi sunduğu ilk taslak, fosil yakıtlardan daha hızlı çıkış çağrısı yapıyordu. Al Jazeera’ye göre perşembe günkü daha kısa versiyonda, Suudi Arabistan ve diğer büyük petrol ve gaz üreticilerinin itirazı üzerine fosil yakıtlara dair her ifade çıkarıldı. Yeni metinden, yoksul ülkelerin iklim değişikliğine uyumu için öngörülen 120 milyar dolarlık hedef de düşürüldü."
+                }
+              ]
+            },
+            {
+              "subhead": "Salonda öfke",
+              "blocks": [
+                {
+                  "text": "Avrupa Birliği, taslağın “bu iklim COP’unu bir fosil zirvesine çevirme riski taşıdığını” söyledi. “Fosil yakıtlardan net bir geçiş” talep eden mektubu bir düzine ülkeyle birlikte imzalayan Panama, müzakerelerden çekilmekle tehdit etti. Panama Çevre Bakanı Juan Carlos Navarro, “Fosil yakıtlardan söz bile etmeyen bir COP ya da sonuç belgesi kabul edilemez, buna kesinlikle katlanmayacağız” dedi."
+                },
+                {
+                  "text": "Euronews’e göre İklim Eylem Ağı’nın (Climate Action Network) düzenlediği kalabalık basın toplantısında aktivistler “Yazıklar olsun” diye slogan atarak taslağı reddetti. Ağın icra direktörü Tasneem Essop, başta Küresel Güney olmak üzere ülkeleri metni reddetmeye çağırdı. Düşünce kuruluşu Power Shift Africa’nın direktörü Mohamed Adow, “Bu, tarihin en kötü COP’u oldu” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Masada kalanlar",
+              "blocks": [
+                {
+                  "text": "Taslak, elektriğin dünyadaki nihai enerji tüketimindeki payının 2035’e kadar %35’e çıkarılmasını öneriyor ama bu elektriğin yenilenebilir kaynaklardan gelmesi gerektiğini söylemiyor; bazı ülkeler hedefte “temiz” ifadesini istiyor. Bazıları ise karbon yakalama teknolojisinin yaygınlaştırılmasına pahalı ve kanıtlanmamış olduğu gerekçesiyle karşı çıkıyor. Gelişmekte olan ülkeler, zengin ülkelerin iklim finansmanında geride kalmasına tepkili. Gana Çevre Bakanı Zanetor Agyeman-Rawlings, “Buraya dilenmeye gelmedik” dedi."
+                },
+                {
+                  "text": "Tarihsel olarak en çok emisyon salan ülke olan ABD, Başkan Donald Trump’ın iklim işbirliğini sonlandırmasının ardından ikinci yıl üst üste müzakerelere katılmıyor. Geçen ay yayımlanan bir BM raporu, dünyanın 2015 Paris Anlaşması’ndaki 1,5 derecelik ısınma sınırını aşma yolunda olduğunu ortaya koydu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Müzakeredeki ülke",
+              "value": "≈200",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Düşürülen uyum finansmanı hedefi",
+              "value": "120 milyar $",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "2035’te elektriğin enerjideki payı",
+              "value": "%35",
+              "source": "Taslak metin, Al Jazeera’ye göre"
+            },
+            {
+              "label": "Aşılması beklenen Paris sınırı",
+              "value": "1,5°C",
+              "source": "BM raporu, Al Jazeera’ye göre"
+            }
+          ],
+          "place": {
+            "name": "Antalya",
+            "lat": 36.9,
+            "lon": 30.71,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-20T14:38:56.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T15:34:06.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-20T15:34:06.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T16:13:13.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-20T23:06:41.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/846de880-e4ef-11f1-8515-1bac47ab2f5d/w:1024/p:16x9/EN-20261120-151225-151557-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/video/20261120-cop31-wrapping-up-in-turkey-climate-deal-elusive-as-fossil-fuels-go-unmentioned"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261120-cop31-wrapping-up-in-turkey-climate-deal-elusive-as-fossil-fuels-go-unmentioned",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/article/3375291/cop31-climate-talks-go-overtime-nations-quarrel-over-fossil-fuels",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/20/turkey-activists-chant-shame-as-cop31-negotiations-falter",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T07:30:00+03:00",
+      "updatedAt": "2026-11-21T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "74e33acd2ab8feb9",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "By when does Mamdani’s plan close the Rikers Island jail?",
+          "options": ["August 2027", "The end of 2029", "The end of 2032"]
+        },
+        "tr": {
+          "question": "Mamdani’nin planına göre Rikers Island hapishanesi ne zamana kadar kapanacak?",
+          "options": ["Ağustos 2027", "2029 sonu", "2032 sonu"]
+        }
+      }
+    },
+    {
+      "storyId": "73864f2ff42e92ff",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many investment funds did Türkiye have when the fund probe began, according to Bolat?",
+          "options": ["2,886", "1,250", "5,900"]
+        },
+        "tr": {
+          "question": "Bolat’a göre fon soruşturması başladığında Türkiye’de kaç yatırım fonu vardı?",
+          "options": ["2.886", "1.250", "5.900"]
+        }
+      }
+    },
+    {
+      "storyId": "3afdf5a7b1a6fd8a",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Which country’s Google data-centre project did Trump single out?",
+          "options": ["Canada", "Finland", "Ireland"]
+        },
+        "tr": {
+          "question": "Trump, Google’ın hangi ülkedeki veri merkezi projesini adıyla andı?",
+          "options": ["Kanada", "Finlandiya", "İrlanda"]
+        }
+      }
+    }
+  ]
+}
