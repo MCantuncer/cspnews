@@ -62,7 +62,15 @@ export interface LiveRef {
   readonly url: string;
   /** A second page with who scored: the league's scoreboard (football) or the box score. */
   readonly scorersUrl?: string;
+  /**
+   * The Euroleague's live game header, asked first: the season's game page keeps 0–0 and
+   * `played: false` until a game is over, so it never shows a game being played.
+   */
+  readonly headerUrl?: string;
 }
+
+/** The Euroleague's live game centre, which updates while a game is played. */
+export const EUROLEAGUE_LIVE = 'https://live.euroleague.net/api';
 
 const ESPN_REF = /^(basketball|soccer)\/[a-z0-9.]{2,30}\/\d{1,12}$/;
 const EUROLEAGUE_REF = /^E\d{4}\/\d{1,4}$/;
@@ -97,6 +105,7 @@ export function parseRefs(query: string | null): LiveRef[] {
           ref,
           url: `${EUROLEAGUE_BASE}/${season ?? ''}/games/${game ?? ''}?format=json`,
           scorersUrl: euroleagueStatsUrl(ref),
+          headerUrl: `${EUROLEAGUE_LIVE}/Header?gamecode=${game ?? ''}&seasoncode=${season ?? ''}`,
         },
       ];
     }
@@ -165,9 +174,52 @@ const EuroleagueGameSchema = z.looseObject({
   road: z.looseObject({ score: z.unknown().optional() }),
 });
 
+const EuroleagueHeaderSchema = z.looseObject({
+  Live: z.boolean(),
+  ScoreA: z.unknown().optional(),
+  ScoreB: z.unknown().optional(),
+  Quarter: z.unknown().optional(),
+  RemainingPartialTime: z.unknown().optional(),
+});
+
+/** "03:35" → "3:35"; anything else is left out. */
+const remaining = (value: unknown) =>
+  typeof value === 'string' && /^\d{1,2}:\d{2}$/.test(value.trim())
+    ? value.trim().replace(/^0(\d)/, '$1')
+    : undefined;
+
 /**
- * A score from the Euroleague's game page. It says whether a game is over but not which quarter
- * it is in, so a game being played shows its score with no clock.
+ * A score from the Euroleague's live game header: `Live` while a game is played, with the
+ * quarter and the time left in it ("Q3 3:35", "OT 1:12"). A game that is not live but has points
+ * and no quarter is over; one with no points has yet to start. Between quarters the header can
+ * drop `Live` while it still names the quarter, so that reads as being played.
+ */
+export function readEuroleagueHeader(key: string, json: unknown): LiveScore | undefined {
+  const page = EuroleagueHeaderSchema.safeParse(json);
+  if (!page.success) return undefined;
+  const { Live, ScoreA, ScoreB, Quarter, RemainingPartialTime } = page.data;
+  const home = scoreOf(ScoreA);
+  const away = scoreOf(ScoreB);
+  const quarter = Number(typeof Quarter === 'string' ? Quarter.trim() : Quarter);
+  const inQuarter = Number.isInteger(quarter) && quarter > 0;
+  const points = (home ?? 0) + (away ?? 0) > 0;
+  const state = Live || (points && inQuarter) ? 'in' : points ? 'post' : 'pre';
+  const left = remaining(RemainingPartialTime);
+  const period = inQuarter ? (quarter > 4 ? 'OT' : `Q${String(quarter)}`) : undefined;
+  const clock = state === 'in' && period ? [period, left].filter(Boolean).join(' ') : undefined;
+  return {
+    ref: key,
+    state,
+    ...(state !== 'pre' && home !== undefined && { home }),
+    ...(state !== 'pre' && away !== undefined && { away }),
+    ...(clock && { clock }),
+  };
+}
+
+/**
+ * A score from the Euroleague's season game page, used when the live header can't be read. It
+ * says whether a game is over but not which quarter it is in, and it keeps 0–0 while a game is
+ * played, so on its own a game being played reads as not started.
  */
 export function readEuroleague(key: string, json: unknown): LiveScore | undefined {
   const page = EuroleagueGameSchema.safeParse(json);

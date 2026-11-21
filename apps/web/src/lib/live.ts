@@ -220,8 +220,25 @@ function drawScorers(
   list.replaceChildren(...items);
 }
 
+/** How long after its start time a match may still read "Starting soon". */
+export const SOON_MINUTES = 15;
+
+/** Whether a row's start time (in its `data-tonight-row` JSON) passed only moments ago. */
+export function justStarted(row: string | undefined, now: Date): boolean {
+  let startsAt: unknown;
+  try {
+    startsAt = (JSON.parse(row ?? '') as { startsAt?: unknown }).startsAt;
+  } catch {
+    return false;
+  }
+  const start = typeof startsAt === 'string' ? Date.parse(startsAt) : Number.NaN;
+  if (Number.isNaN(start)) return false;
+  const since = now.getTime() - start;
+  return since >= 0 && since < SOON_MINUTES * 60_000;
+}
+
 /** Puts one score on every element that shows that match. */
-export function applyScore(root: ParentNode, score: LiveScore) {
+export function applyScore(root: ParentNode, score: LiveScore, now = new Date()) {
   const line = scoreLine(score);
   for (const element of root.querySelectorAll<HTMLElement>('[data-live-ref]')) {
     const key = element.dataset.liveSource
@@ -229,9 +246,11 @@ export function applyScore(root: ParentNode, score: LiveScore) {
       : element.dataset.liveRef;
     if (key !== score.ref) continue;
     if (score.state === 'pre') {
-      // Past its start time by the clock, but the source has not started it yet.
+      // Past its start time by the clock, but the source has not started it yet: "Starting
+      // soon" only just after the start time. Later than that a source still saying "not
+      // started" is behind, so the row keeps the clock's "Live" rather than a wrong word.
       const word = element.querySelector('[data-word]');
-      if (element.dataset.state === 'on' && word)
+      if (element.dataset.state === 'on' && word && justStarted(element.dataset.tonightRow, now))
         word.textContent = tonightWords(element.dataset.lang === 'tr' ? 'tr' : 'en').soon;
       continue;
     }

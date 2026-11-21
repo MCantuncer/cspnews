@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { nextAskIn, readScores } from './live';
+import { justStarted, nextAskIn, readScores } from './live';
 
 describe('live scores', () => {
   it('keeps only scores that read cleanly', () => {
@@ -24,5 +24,13 @@ describe('live scores', () => {
     expect(nextAskIn([{ state: 'pre' }, { state: 'in' }])).toBe(60_000);
     expect(nextAskIn([{ state: 'pre' }, { state: 'post' }])).toBe(120_000);
     expect(nextAskIn([{ state: 'post' }])).toBeUndefined();
+  });
+
+  it('says "starting soon" only just after the start time, never well into a game', () => {
+    const row = JSON.stringify({ kind: 'match', startsAt: '2026-11-19T18:00:00.000Z' });
+    expect(justStarted(row, new Date('2026-11-19T18:05:00Z'))).toBe(true);
+    expect(justStarted(row, new Date('2026-11-19T18:20:00Z'))).toBe(false);
+    expect(justStarted(row, new Date('2026-11-19T17:59:00Z'))).toBe(false);
+    expect(justStarted('not json', new Date('2026-11-19T18:05:00Z'))).toBe(false);
   });
 });

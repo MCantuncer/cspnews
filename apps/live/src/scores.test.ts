@@ -2,7 +2,13 @@ import { describe, expect, it } from 'vitest';
 
 import { definePeople } from '@cspnews/core';
 
-import { espnScorers, parseRefs, readEspn, readEuroleague } from './scores.js';
+import {
+  espnScorers,
+  parseRefs,
+  readEspn,
+  readEuroleague,
+  readEuroleagueHeader,
+} from './scores.js';
 
 const people = definePeople([
   { id: 'alperen-sengun', name: 'Alperen Şengün', aliases: ['Alperen Sengun'], kind: 'basketball' },
@@ -23,6 +29,9 @@ describe('live refs', () => {
     );
     expect(refs[1]?.url).toBe(
       'https://api-live.euroleague.net/v2/competitions/E/seasons/E2026/games/98?format=json',
+    );
+    expect(refs[1]?.headerUrl).toBe(
+      'https://live.euroleague.net/api/Header?gamecode=98&seasoncode=E2026',
     );
     expect(parseRefs(null)).toEqual([]);
   });
@@ -87,6 +96,48 @@ describe('reading a live score', () => {
       away: 61,
     });
     expect(readEuroleague('k', page(true, 88, 80))).toMatchObject({ state: 'post', home: 88 });
+  });
+});
+
+describe('the Euroleague live header', () => {
+  const header = (live: boolean, a: string, b: string, quarter: string, left: string) => ({
+    Live: live,
+    ScoreA: a,
+    ScoreB: b,
+    Quarter: quarter,
+    RemainingPartialTime: left,
+  });
+
+  it('reads a game being played, with its quarter and time left', () => {
+    // Zalgiris v Panathinaikos, 2026-11-19, while the season game page still read 0–0.
+    expect(readEuroleagueHeader('k', header(true, '52', '52', '3', '03:35'))).toEqual({
+      ref: 'k',
+      state: 'in',
+      home: 52,
+      away: 52,
+      clock: 'Q3 3:35',
+    });
+    expect(readEuroleagueHeader('k', header(true, '80', '80', '5', '01:12'))).toMatchObject({
+      clock: 'OT 1:12',
+    });
+    // Between quarters the header may drop Live while it still names the quarter.
+    expect(readEuroleagueHeader('k', header(false, '39', '47', '2', '00:00'))).toMatchObject({
+      state: 'in',
+    });
+  });
+
+  it('reads a game not started, and one that is over', () => {
+    expect(readEuroleagueHeader('k', header(false, '0', '0', '', '10:00'))).toEqual({
+      ref: 'k',
+      state: 'pre',
+    });
+    expect(readEuroleagueHeader('k', header(false, '85', '78', '', '00:00'))).toEqual({
+      ref: 'k',
+      state: 'post',
+      home: 85,
+      away: 78,
+    });
+    expect(readEuroleagueHeader('k', { error: 'nope' })).toBeUndefined();
   });
 });
 

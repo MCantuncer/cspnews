@@ -26,7 +26,8 @@ Logos and player photos come from the leagues' own data and are saved next to th
 - **Every match row is a scoreline**, a person's too: home team, score, away team. A person's row puts their name on top and their own numbers on a line of their own, each number over its word, like a small box score.
 - **Closed by default.** The scoreline shows only the score and its clock. A tap opens it to show who scored, and closes it again. Nothing to open before the first goal or basket.
 - **Room.** Rows have generous padding and space between their lines; nothing sits squeezed beside a name.
-- **Before the source starts a game** that is past its start time, the row says "Starting soon" rather than "Live".
+- **Before the source starts a game** that is past its start time, the row says "Starting soon" rather than "Live", but only for the first 15 minutes. After that a source still saying "not started" is behind, so the row keeps the clock's "Live" (a game well past tip-off never reads "Starting soon").
+- **Euroleague scores come from its live game centre** (`live.euroleague.net/api/Header`), which gives the score, quarter and time left ("Q3 3:35"). The season's game page reads 0–0 and not played until a game is over, so it is only the fallback.
 
 ## Wide screens (Can, 2026-11-16)
 
