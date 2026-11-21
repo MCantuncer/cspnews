@@ -274,7 +274,6 @@
       "continues": "30645ee56553e8d3",
       "versions": {
         "en": {
-          "news": "Türkiye’s Centre for Combating Disinformation called the claim that 10,000 Rohingya would be resettled in Türkiye “baseless”.",
           "shortTitle": "Türkiye denies Rohingya resettlement claim",
           "title": "Türkiye calls the 10,000 Rohingya resettlement claim baseless",
           "summary": {
@@ -344,10 +343,10 @@
               "value": "19 Nov",
               "source": "Diken"
             }
-          ]
+          ],
+          "news": "Türkiye’s Centre for Combating Disinformation called the claim that 10,000 Rohingya would be resettled in Türkiye “baseless”."
         },
         "tr": {
-          "news": "Dezenformasyonla Mücadele Merkezi, 10 bin Arakanlının Türkiye’ye yerleştirileceği iddiasının “asılsız” olduğunu açıkladı.",
           "shortTitle": "DMM: Arakanlı iddiası asılsız",
           "title": "DMM, 10 bin Arakanlının Türkiye’ye yerleştirileceği iddiasını yalanladı",
           "summary": {
@@ -416,7 +415,8 @@
               "value": "19 Kasım",
               "source": "Diken"
             }
-          ]
+          ],
+          "news": "Dezenformasyonla Mücadele Merkezi, 10 bin Arakanlının Türkiye’ye yerleştirileceği iddiasının “asılsız” olduğunu açıkladı."
         }
       },
       "timeline": [
@@ -453,7 +453,7 @@
         }
       ],
       "image": {
-        "url": "https://images.ntv.com.tr/images/images-326499.jpg",
+        "url": "https://images.ntv.com.tr/images/images-326499.jpg?format=webp&width=1200&height=630",
         "sourceId": "ntv",
         "sourceName": "NTV",
         "articleUrl": "https://www.ntv.com.tr/turkiye/malezyadan-10-bin-rohingyalinin-turkiyeye-yerlestirilecegi-iddiasina-yalanlama-1751931"
@@ -1537,7 +1537,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b018f66c757abf656938c4d.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b018f66c757abf656938c4d.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/dunya/meksikada-kartel-operasyonu-kontrolden-cikti-bir-sehir-savas-alanina-dondu-43386221"
@@ -1619,6 +1619,109 @@
           "question": "Danimarka suikast planı nedeniyle hangi Rus yetkiliyi sınır dışı ediyor?",
           "options": ["Askeri ateşeyi", "Büyükelçiyi", "Başkonsolosu"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401884734",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["can-uzun", "ozan-kabak"],
+      "name": {
+        "en": "Can Uzun, Ozan Kabak",
+        "tr": "Can Uzun, Ozan Kabak"
+      },
+      "competition": {
+        "en": "Bundesliga",
+        "tr": "Bundesliga"
+      },
+      "home": {
+        "name": "Eintracht Frankfurt",
+        "short": "Frankfurt",
+        "ours": true,
+        "team": "eintracht-frankfurt"
+      },
+      "away": {
+        "name": "TSG Hoffenheim",
+        "short": "Hoffenheim",
+        "ours": true,
+        "team": "tsg-hoffenheim"
+      },
+      "startsAt": "2026-11-21T14:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ger.1/401884734"
+      },
+      "lines": [
+        {
+          "person": "ozan-kabak",
+          "goals": 0,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401910023",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "short": "Bucks",
+        "ours": false,
+        "team": "milwaukee-bucks"
+      },
+      "startsAt": "2026-11-21T18:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910023"
+      }
+    },
+    {
+      "id": "espn-401882798",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "LaLiga",
+        "tr": "LaLiga"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "Celta Vigo",
+        "ours": false,
+        "team": "celta-vigo"
+      },
+      "startsAt": "2026-11-21T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/esp.1/401882798"
       }
     }
   ]
