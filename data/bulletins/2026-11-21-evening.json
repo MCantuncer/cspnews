@@ -1,0 +1,1625 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-21T18:30:00+03:00",
+  "writtenAt": "2026-11-21T17:56:55+03:00",
+  "stories": [
+    {
+      "id": "30991e9f3f021fb6",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "₺1.95bn share transfer stopped",
+          "title": "MASAK stopped a ₺1.95bn share transfer to the Bahamas, prosecutors say",
+          "summary": {
+            "what": "A MASAK report on the broker Gildencrest Capital says ₺21bn passed through its Turkish accounts in nine years and ₺4.1bn stayed abroad.",
+            "why": "It is the most detailed account yet of how money in the investment-fund probe moved through London and Switzerland.",
+            "next": "Prosecutors want the blocked shares paid into a TMSF return account and have asked other countries to send assets back."
+          },
+          "body": [
+            {
+              "subhead": "A last-minute stop",
+              "blocks": [
+                {
+                  "text": "Turkey’s financial crimes unit MASAK stopped a transfer of shares worth ₺1.95 billion to a bank account in the Bahamas at the last moment, the Istanbul Chief Public Prosecutor’s Office said on Saturday. The statement summarised a MASAK report on Gildencrest Capital, a London-registered broker drawn into the investment-fund investigation. Cumhuriyet, Hürriyet, NTV, Habertürk, Sözcü and Diken carried it."
+                },
+                {
+                  "text": "According to the prosecutors, Gildencrest opened a new custody account and in November moved shares worth ₺504 million to the Bahamas account. The larger transfer was halted. Prosecutors have ordered that the blocked amount be paid into a voluntary return account run by the Savings Deposit Insurance Fund (TMSF), and they have sent requests for legal assistance to bring assets held abroad back to Türkiye."
+                }
+              ]
+            },
+            {
+              "subhead": "London on paper, Istanbul in practice",
+              "blocks": [
+                {
+                  "text": "The report says the firm was set up in London in 2011 as Tera Europe and renamed Gildencrest Capital in 2024. Emre Tezmen owns 49% of it and Oğuz Tezmen 40%. NTV describes Emre Tezmen as the arrested chairman of Tera Yatırım Holding."
+                },
+                {
+                  "quote": "Although Gildencrest Capital was based in London, its business was in fact run from Istanbul by Tera’s own staff, and Tera’s former chauffeur and an office clerk were put in charge of linked companies on paper.",
+                  "speaker": "Istanbul Chief Public Prosecutor’s Office",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "MASAK found that ₺21 billion passed through the firm’s Turkish bank accounts over nine years. Of that, ₺11.9 billion came from Tera Yatırım and ₺6.3 billion was deposited by 19 people led by Mehmed Nureddin Çevik, whom NTV names as chairman of Ruzy Madencilik."
+                }
+              ]
+            },
+            {
+              "subhead": "Orders routed through Switzerland",
+              "blocks": [
+                {
+                  "text": "Trading orders went from London to Century City in Switzerland and from there to Borsa İstanbul, the report says. On the exchange the trades appeared to come from a “foreign investor”, while the people behind them did not show up in the records. Because the shares were bought and sold in a foreign account, the gains, about ₺7.8 billion, also piled up abroad."
+                },
+                {
+                  "text": "Some money went abroad directly: ₺6.3 billion was sent to accounts in Czechia and London, and only ₺2.2 billion came back. Of the ₺4.1 billion that stayed out, ₺3.4 billion belonged to Tera Yatırım, the report says."
+                }
+              ]
+            },
+            {
+              "subhead": "Payments in early 2026",
+              "blocks": [
+                {
+                  "text": "In the first months of 2026, two large payments left the foreign account, according to the prosecutors: ₺4.5 billion to the Swiss account of Enver Çevik and ₺500 million to the Swiss account of Muhammed Yarız. At around the same time ₺1 billion was paid to Burhan Tunç Özkan. NTV identifies Enver Çevik as chairman of Lydia Holding and Muhammed Yarız as chairman of Pusula Portföy, one of the fund firms at the centre of the probe."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Transfer stopped by MASAK",
+              "value": "₺1.95bn",
+              "source": "Istanbul prosecutors"
+            },
+            {
+              "label": "Moved to the Bahamas in November",
+              "value": "₺504m",
+              "source": "Istanbul prosecutors"
+            },
+            {
+              "label": "Through Turkish accounts in 9 years",
+              "value": "₺21bn",
+              "source": "MASAK report"
+            },
+            {
+              "label": "Gains from share trades",
+              "value": "₺7.8bn",
+              "source": "MASAK report"
+            },
+            {
+              "label": "Still held abroad",
+              "value": "₺4.1bn",
+              "source": "MASAK report"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "1,95 milyarlık hisse aktarımı durduruldu",
+          "title": "MASAK, Bahamalar’a 1,95 milyar liralık hisse aktarımını son anda durdurdu",
+          "summary": {
+            "what": "MASAK’ın Gildencrest Capital raporuna göre aracı kurumun Türkiye’deki hesaplarından dokuz yılda 21 milyar lira geçti, 4,1 milyar lira yurt dışında kaldı.",
+            "why": "Rapor, fon soruşturmasındaki paranın Londra ve İsviçre üzerinden nasıl dolaştırıldığını şimdiye kadarki en ayrıntılı biçimde ortaya koyuyor.",
+            "next": "Başsavcılık durdurulan tutarın TMSF’deki gönüllü iade hesabına yatırılmasına karar verdi ve adli istinabe yoluna başvurdu."
+          },
+          "body": [
+            {
+              "subhead": "Son anda durdurulan aktarım",
+              "blocks": [
+                {
+                  "text": "İstanbul Cumhuriyet Başsavcılığı, fon soruşturmasında adı geçen Gildencrest Capital adlı aracı kurumla ilgili MASAK raporunu cumartesi günü kamuoyuyla paylaştı. Açıklamaya göre 1,95 milyar lira değerindeki hissenin Bahamalar’daki bir banka hesabına aktarılması MASAK tarafından son anda durduruldu. Açıklamayı Cumhuriyet, Hürriyet, NTV, Habertürk, Sözcü ve Diken aktardı."
+                },
+                {
+                  "text": "Başsavcılığa göre şirket yeni bir saklama hesabı açtı ve kasımda 504 milyon lira değerinde hisseyi Bahamalar’daki hesaba aktardı. Durdurulan tutarın Tasarruf Mevduatı Sigorta Fonu (TMSF) bünyesindeki gönüllü iade hesabına yatırılmasına karar verildi; yurt dışına çıkarılan malvarlıklarının geri getirilmesi için de adli istinabe yoluna başvuruldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Kâğıtta Londra, gerçekte İstanbul",
+              "blocks": [
+                {
+                  "text": "Rapora göre şirket 2011’de Londra’da “Tera Europe” adıyla kuruldu, adı 2024’te Gildencrest Capital olarak değiştirildi. Şirketin yüzde 49’u Emre Tezmen’e, yüzde 40’ı Oğuz Tezmen’e ait. NTV, Emre Tezmen’i Tera Yatırım Holding’in tutuklu Yönetim Kurulu Başkanı olarak tanıtıyor."
+                },
+                {
+                  "quote": "Gildencrest Capital’in Londra’da mukim olmasına karşın fiilen işlerin İstanbul’dan ve Tera’nın kendi çalışanlarıyla yönetildiği, bağlantılı şirketlerin başına kağıt üzerinde Tera’nın eski makam şoförü ve büro memurunun konulduğu tespit edilmiştir.",
+                  "speaker": "İstanbul Cumhuriyet Başsavcılığı",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "MASAK, şirketin Türkiye’deki banka hesaplarından dokuz yılda 21 milyar lira geçtiğini belirledi. Bunun 11,9 milyar lirası Tera Yatırım’dan geldi; 6,3 milyar lirasını ise başta NTV’nin Ruzy Madencilik Yönetim Kurulu Başkanı olarak tanıttığı Mehmed Nureddin Çevik olmak üzere 19 kişi yatırdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Emirler İsviçre üzerinden",
+              "blocks": [
+                {
+                  "text": "Rapora göre işlem emirleri Londra’dan İsviçre’deki Century City’ye, oradan da Borsa İstanbul’a gönderildi. Borsada işlemi yapan “yabancı yatırımcı” olarak görünürken arkasındaki isimler kayıtlara yansımadı. Hisseler yabancı hesap adına alınıp satıldığı için yaklaşık 7,8 milyar liralık kazanç da yurt dışındaki hesapta birikti."
+                },
+                {
+                  "text": "Paranın bir bölümü doğrudan yurt dışına çıkarıldı: Çekya ve Londra’daki hesaplara 6,3 milyar lira gönderildi, bunun yalnızca 2,2 milyar lirası geri döndü. Dışarıda kalan 4,1 milyar liranın 3,4 milyar lirası Tera Yatırım’a ait."
+                }
+              ]
+            },
+            {
+              "subhead": "2026’nın ilk aylarındaki ödemeler",
+              "blocks": [
+                {
+                  "text": "Başsavcılığa göre 2026’nın ilk aylarında yurt dışındaki hesaptan iki büyük ödeme yapıldı: Enver Çevik’in İsviçre’deki hesabına 4,5 milyar lira, Muhammed Yarız’ın İsviçre’deki hesabına 500 milyon lira gönderildi. Benzer tarihte Burhan Tunç Özkan’a da 1 milyar lira ödendi. NTV, Enver Çevik’i Lydia Holding’in, Muhammed Yarız’ı ise soruşturmanın merkezindeki fon şirketlerinden Pusula Portföy’ün Yönetim Kurulu Başkanı olarak aktarıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "MASAK’ın durdurduğu aktarım",
+              "value": "1,95 milyar ₺",
+              "source": "İstanbul Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "Kasımda Bahamalar’a aktarılan",
+              "value": "504 milyon ₺",
+              "source": "İstanbul Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "9 yılda hesaplardan geçen",
+              "value": "21 milyar ₺",
+              "source": "MASAK raporu"
+            },
+            {
+              "label": "Hisse işlemlerinden kazanç",
+              "value": "7,8 milyar ₺",
+              "source": "MASAK raporu"
+            },
+            {
+              "label": "Yurt dışında kalan",
+              "value": "4,1 milyar ₺",
+              "source": "MASAK raporu"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T09:17:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T09:48:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T09:48:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T10:03:08.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T10:08:17.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T10:24:40.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T11:29:16.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/5651de05-541b-43de-bcc6-2e319bd56c38.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/fon-sorusturmasinda-isvicre-ye-milyarlik-transferler-masak-raporunun-ayrintilari-aciklandi-2558050"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/fon-sorusturmasinda-isvicre-ye-milyarlik-transferler-masak-raporunun-ayrintilari-aciklandi-2558050",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/fon-sorusturmasina-yeni-gelisme-gildencrest-capital-icin-masak-raporu-hazirlandi-43386023",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/masaktan-gildencrest-capital-raporu-bahamalara-195-milyarlik-transfer-son-anda-engellendi-1751887",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/fon-sorusturmasindaki-gildencrest-capital-icin-masak-raporu-hazirlandi-3795370",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/masak-tan-gildencrest-capital-hakkinda-rapor-3929000",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/fon-sorusturmasinda-yeni-gelisme-gildencrest-capital-icin-masak-raporu-hazirlandi-p383232",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/masak-gildencrest-capitalin-kazancinin-41-milyar-lirasi-yurt-disinda/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    },
+    {
+      "id": "814b1b7dcca6730b",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "30645ee56553e8d3",
+      "versions": {
+        "en": {
+          "news": "Türkiye’s Centre for Combating Disinformation called the claim that 10,000 Rohingya would be resettled in Türkiye “baseless”.",
+          "shortTitle": "Türkiye denies Rohingya resettlement claim",
+          "title": "Türkiye calls the 10,000 Rohingya resettlement claim baseless",
+          "summary": {
+            "what": "Türkiye’s Centre for Combating Disinformation said reports that 10,000 Rohingya refugees from Malaysia would be resettled in Türkiye are untrue.",
+            "why": "Malaysia’s deputy prime minister had announced the plan as agreed with Ankara on Friday, then deleted his post hours later.",
+            "next": "Neither side has said what, if anything, was discussed during his visit to Türkiye earlier this month."
+          },
+          "body": [
+            {
+              "subhead": "A one-line denial",
+              "blocks": [
+                {
+                  "text": "Türkiye’s Centre for Combating Disinformation (DMM), which works under the Presidency’s Communications Directorate, said on Saturday that claims that 10,000 Rohingya refugees would be resettled in Türkiye are baseless. The short statement on X was carried by Anadolu Ajansı, NTV, A Haber, Diken and Euronews Türkçe."
+                },
+                {
+                  "quote": "Claims in some international media outlets and social media accounts that 10,000 Rohingya will be resettled in Türkiye are baseless. The public is kindly asked not to give credit to untrue content.",
+                  "speaker": "Centre for Combating Disinformation",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "Diken notes that the claim had also been reported by Reuters."
+                }
+              ]
+            },
+            {
+              "subhead": "The deleted post",
+              "blocks": [
+                {
+                  "text": "The claim came from Malaysia’s Deputy Prime Minister Ahmad Zahid Hamidi. On 20 November he wrote on social media that his government had accepted a proposal to resettle 10,000 Rohingya refugees in Türkiye through a skills programme, and that the issue had come up during his visit to Türkiye in early November, Euronews Türkçe reports. Diken says he met President Recep Tayyip Erdoğan in Istanbul two weeks ago."
+                },
+                {
+                  "text": "According to Euronews Türkçe, Hamidi welcomed what he called the Turkish government’s agreement to take the refugees, describing it as a long-term answer to a problem that had strained Malaysia’s migration management and national security. Under the plan he described, the refugees would spend three to six months on a technical and vocational training programme in Türkiye, learning skills employers need. He removed the post later the same day. Malaysian media had said the UN refugee agency UNHCR would play a role, Diken writes."
+                }
+              ]
+            },
+            {
+              "subhead": "Who the Rohingya are",
+              "blocks": [
+                {
+                  "text": "More than 125,000 of the 190,000 refugees and asylum seekers in Malaysia are Rohingya who fled Myanmar, according to UN figures cited by Diken. Malaysia sent about 1,500 Myanmar citizens home at the end of September under what officials called a voluntary programme; human rights groups say returning people to Myanmar, where internal fighting continues, puts them in danger."
+                },
+                {
+                  "text": "In 2017 thousands of Rohingya were killed in operations by Myanmar’s army and more than 700,000 fled to neighbouring Bangladesh. On 19 November the International Court of Justice ruled that Myanmar had committed genocide against the Rohingya, the court’s first genocide ruling against a state since it was set up in 1945, Diken reports. Türkiye welcomed the ruling."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Refugees named in the claim",
+              "value": "10,000",
+              "source": "Ahmad Zahid Hamidi"
+            },
+            {
+              "label": "Training programme in the plan",
+              "value": "3–6 months",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Rohingya refugees in Malaysia",
+              "value": "125,000+",
+              "source": "UN, via Diken"
+            },
+            {
+              "label": "ICJ genocide ruling",
+              "value": "19 Nov",
+              "source": "Diken"
+            }
+          ]
+        },
+        "tr": {
+          "news": "Dezenformasyonla Mücadele Merkezi, 10 bin Arakanlının Türkiye’ye yerleştirileceği iddiasının “asılsız” olduğunu açıkladı.",
+          "shortTitle": "DMM: Arakanlı iddiası asılsız",
+          "title": "DMM, 10 bin Arakanlının Türkiye’ye yerleştirileceği iddiasını yalanladı",
+          "summary": {
+            "what": "Dezenformasyonla Mücadele Merkezi, Malezya’daki 10 bin Arakanlı mültecinin Türkiye’ye yerleştirileceği iddialarının gerçeği yansıtmadığını açıkladı.",
+            "why": "Malezya Başbakan Yardımcısı, Ankara’yla anlaşıldığını cuma günü duyurmuş, birkaç saat sonra paylaşımını silmişti.",
+            "next": "İki taraf da Hamidi’nin bu ayki Türkiye ziyaretinde konunun konuşulup konuşulmadığını açıklamadı."
+          },
+          "body": [
+            {
+              "subhead": "Tek cümlelik yalanlama",
+              "blocks": [
+                {
+                  "text": "İletişim Başkanlığına bağlı Dezenformasyonla Mücadele Merkezi (DMM), 10 bin Arakanlı (Rohingyalı) mültecinin Türkiye’ye yerleştirileceği iddiasının asılsız olduğunu cumartesi günü duyurdu. X’teki kısa açıklamayı Anadolu Ajansı, NTV, A Haber, Diken ve Euronews Türkçe aktardı."
+                },
+                {
+                  "quote": "Bazı uluslararası basın yayın organları ve sosyal medya hesaplarında yer alan, ‘10 bin Rohingyalının Türkiye’ye yerleştirileceğine’ yönelik iddialar asılsızdır. Kamuoyunun, gerçek dışı içeriklere itibar etmemesi önemle rica olunur.",
+                  "speaker": "Dezenformasyonla Mücadele Merkezi",
+                  "sourceId": "aa-tr"
+                },
+                {
+                  "text": "Diken, iddianın Reuters’a da haber olduğunu hatırlatıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Silinen paylaşım",
+              "blocks": [
+                {
+                  "text": "İddia, Malezya Başbakan Yardımcısı Ahmad Zahid Hamidi’den gelmişti. Euronews Türkçe’nin aktardığına göre Hamidi 20 Kasım’da sosyal medyada, hükümetinin 10 bin Arakanlı mültecinin bir “yetenek geliştirme programı” kapsamında Türkiye’ye yerleştirilmesi önerisini kabul ettiğini ve konunun kasım başındaki Türkiye ziyaretinde gündeme geldiğini yazmıştı. Diken’e göre Hamidi iki hafta önce İstanbul’da Cumhurbaşkanı Recep Tayyip Erdoğan’la görüşmüştü."
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre Hamidi, Türk hükümetinin mültecileri kabul etmesini memnuniyetle karşıladığını, bunun Malezya’nın göç yönetimi ve ulusal güvenlik açısından uzun süredir yaşadığı soruna kalıcı bir çözüm olduğunu söylemişti. Anlattığı plana göre mülteciler Türkiye’de üç ila altı ay sürecek bir teknik ve mesleki eğitim programına alınacak, işverenlerin ihtiyaç duyduğu becerileri öğrenecekti. Hamidi paylaşımı aynı gün kaldırdı. Diken’e göre Malezya basını sürece BM Mülteciler Yüksek Komiserliğinin (UNHCR) dahil olacağını yazmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Arakanlılar kim",
+              "blocks": [
+                {
+                  "text": "Diken’in aktardığı BM verilerine göre Malezya’daki 190 bin mülteci ve sığınmacının 125 binden fazlası Myanmar’dan kaçan Arakanlı Müslümanlar. Malezya eylül sonunda yaklaşık 1500 Myanmar vatandaşını “gönüllü program” dediği bir süreçle ülkesine gönderdi; insan hakları örgütleri, iç çatışmaların sürdüğü Myanmar’a geri göndermenin bu insanları tehlikeye attığını savunuyor."
+                },
+                {
+                  "text": "2017’de Myanmar ordusunun operasyonlarında binlerce Arakanlı öldürülmüş, 700 binden fazlası komşu Bangladeş’e kaçmıştı. Uluslararası Adalet Divanı 19 Kasım’da Myanmar’ın Arakanlılara soykırım yaptığına hükmetti; Diken’e göre bu, 1945’te kurulan divanın bir devlet hakkında verdiği ilk soykırım kararı. Türkiye de kararı memnuniyetle karşıladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İddiadaki mülteci sayısı",
+              "value": "10 bin",
+              "source": "Ahmad Zahid Hamidi"
+            },
+            {
+              "label": "Plandaki eğitim süresi",
+              "value": "3–6 ay",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Malezya’daki Arakanlı mülteci",
+              "value": "125 bin+",
+              "source": "BM, Diken aracılığıyla"
+            },
+            {
+              "label": "UAD soykırım kararı",
+              "value": "19 Kasım",
+              "source": "Diken"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T11:50:17.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T12:08:38.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T12:08:38.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T12:41:15.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T12:43:50.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:17:39.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/images-326499.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/malezyadan-10-bin-rohingyalinin-turkiyeye-yerlestirilecegi-iddiasina-yalanlama-1751931"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/21/10-bin-rohingyali-turkiyeye-yerlestirilecek-iddiasina-yalanlama",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/malezyadan-10-bin-rohingyalinin-turkiyeye-yerlestirilecegi-iddiasina-yalanlama-1751931",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/dmm-10-bin-rohingyalinin-turkiyeye-yerlestirilecegi-iddiasini-yalanladi/4132954",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/10-bin-arakanli-multeci-turkiyeye-yerlestirilecek-iddiasi-yalanlandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/21/turkiye-malezyadan-10-bin-arakanli-multeci-gelecek-iddiasini-yalanladi",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    },
+    {
+      "id": "3126887bc4176e45",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Bursa high-speed line enters testing",
+          "title": "Bursa’s high-speed rail link starts tests; Istanbul trip to take 2h15",
+          "summary": {
+            "what": "Work on the Osmaneli–Bursa section of the Bandırma–Bursa–Yenişehir–Osmaneli line is finished and testing has begun, Transport Minister Abdulkadir Uraloğlu said.",
+            "why": "The section connects Bursa to the Ankara–Istanbul high-speed line, cutting travel to both cities to 2 hours 15 minutes.",
+            "next": "Dynamic tests run this month, followed by signalling, ETCS and GSM-R tests, integration with the main line and certification."
+          },
+          "body": [
+            {
+              "subhead": "Tests under way",
+              "blocks": [
+                {
+                  "text": "Bursa is a step closer to Türkiye’s high-speed rail network. Transport and Infrastructure Minister Abdulkadir Uraloğlu said in a written statement on Saturday that infrastructure and track work on the Osmaneli–Bursa section of the Bandırma–Bursa–Yenişehir–Osmaneli high-speed line had been completed and that testing had started. Anadolu Ajansı, A Haber, Habertürk and Sözcü reported the statement. In Sözcü’s words, a new line is being added to Türkiye’s high-speed network, and the work now turns to making it ready for service."
+                },
+                {
+                  "quote": "Once the tests and the certification process are complete, we will bring Bursa together with the high-speed rail network.",
+                  "speaker": "Abdulkadir Uraloğlu, transport minister",
+                  "sourceId": "aa-ekonomi",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "What is being checked",
+              "blocks": [
+                {
+                  "text": "According to the minister, track geometry and static overhead-line measurements were completed in September and October, and tests of the signalling power system began in October. This month engineers are carrying out hot-rodding tests on the overhead line, and dynamic acceleration tests and dynamic overhead-line measurements are also due before the month ends."
+                },
+                {
+                  "text": "Later stages include signalling concordance tests and tests of the European Train Control System (ETCS) and the GSM-R railway radio system, Uraloğlu said. Integration tests between the Osmaneli–Bursa line and the Ankara–Istanbul high-speed line will follow. He said the tests would check every system on the line so that it can be operated safely. No opening date was given."
+                }
+              ]
+            },
+            {
+              "subhead": "Two hours fifteen minutes",
+              "blocks": [
+                {
+                  "text": "When the section opens, a train leaving Bursa will run via Gürsu and Yenişehir to Osmaneli and join the Ankara–Istanbul high-speed line there. The journey from Bursa to Ankara and from Bursa to Istanbul will both take 2 hours 15 minutes, the minister said. Sözcü, summing up the plan, wrote that travel time between the two big cities is expected to fall to about two hours."
+                }
+              ]
+            },
+            {
+              "subhead": "Freight as well as passengers",
+              "blocks": [
+                {
+                  "text": "The project as a whole is 83.08% complete, and construction continues on the Bursa–Bandırma section, Uraloğlu said. The line is designed to carry both passengers and freight. Once the whole project is finished, it will have capacity for about 30 million passengers and more than 59 million tonnes of freight a year, according to the ministry."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bursa–Istanbul and Bursa–Ankara",
+              "value": "2h 15m",
+              "source": "Transport Ministry"
+            },
+            {
+              "label": "Whole project complete",
+              "value": "83.08%",
+              "source": "Transport Ministry"
+            },
+            {
+              "label": "Passengers a year at full capacity",
+              "value": "30m",
+              "source": "Transport Ministry"
+            },
+            {
+              "label": "Freight a year at full capacity",
+              "value": "59m+ t",
+              "source": "Transport Ministry"
+            }
+          ],
+          "place": {
+            "name": "Bursa",
+            "lat": 40.19,
+            "lon": 29.06,
+            "region": "Bursa, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Bursa hızlı tren hattında testler başladı",
+          "title": "Bursa hızlı tren hattında test süreci başladı: İstanbul’a 2 saat 15 dakika",
+          "summary": {
+            "what": "Bandırma–Bursa–Yenişehir–Osmaneli hattının Osmaneli–Bursa kesiminde çalışmalar tamamlandı ve testler başladı, Bakan Abdulkadir Uraloğlu duyurdu.",
+            "why": "Kesim Bursa’yı Ankara–İstanbul hızlı tren hattına bağlayacak; iki kente seyahat 2 saat 15 dakikaya inecek.",
+            "next": "Bu ay dinamik testler, ardından sinyalizasyon, ETCS ve GSM-R testleri, ana hatla entegrasyon ve sertifikasyon yapılacak."
+          },
+          "body": [
+            {
+              "subhead": "Testler başladı",
+              "blocks": [
+                {
+                  "text": "Bursa, hızlı tren ağına bir adım daha yaklaştı. Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, cumartesi günü yaptığı yazılı açıklamada Bandırma–Bursa–Yenişehir–Osmaneli Hızlı Tren Projesi’nin Osmaneli–Bursa kesiminde altyapı ve üstyapı çalışmalarının tamamlandığını ve test sürecinin başladığını bildirdi. Açıklamayı Anadolu Ajansı, A Haber, Habertürk ve Sözcü aktardı. Sözcü’nün ifadesiyle Türkiye’nin hızlı tren ağına yeni bir hat ekleniyor; projede önemli bir aşama geride kaldı ve sıra hattın işletmeye hazır hale getirilmesine geldi."
+                },
+                {
+                  "quote": "Testlerin ve sertifikasyon sürecinin tamamlanmasının ardından Bursa’yı yüksek hızlı tren ağıyla buluşturacağız.",
+                  "speaker": "Abdulkadir Uraloğlu, Ulaştırma ve Altyapı Bakanı",
+                  "sourceId": "aa-ekonomi"
+                }
+              ]
+            },
+            {
+              "subhead": "Neler test ediliyor",
+              "blocks": [
+                {
+                  "text": "Bakanın verdiği bilgiye göre eylül ve ekimde yol geometrisi ölçümleri ile statik katener ölçümleri tamamlandı, ekimde sinyalizasyon güç sistemi testlerine başlandı. Bu ay katener sıcak rodaj testleri yapılıyor; ay bitmeden dinamik ivmelenme testleri ve dinamik katener ölçümleri de gerçekleştirilecek."
+                },
+                {
+                  "text": "Uraloğlu’na göre sonraki aşamalarda sinyalizasyon konkordans testleri ile Avrupa Tren Kontrol Sistemi (ETCS) ve demir yolu mobil haberleşme sistemi (GSM-R) testleri yapılacak. Ardından Osmaneli–Bursa hattı ile Ankara–İstanbul Hızlı Tren hattı arasındaki entegrasyon testleri gelecek. Bakan, testlerle hattın tüm sistemlerinin güvenli işletme için kontrol edileceğini söyledi; açılış için bir tarih vermedi."
+                }
+              ]
+            },
+            {
+              "subhead": "İki saat on beş dakika",
+              "blocks": [
+                {
+                  "text": "Kesim açıldığında Bursa’dan kalkan tren Gürsu ve Yenişehir üzerinden Osmaneli’ye gidecek ve orada Ankara–İstanbul hızlı tren hattına bağlanacak. Bakana göre Bursa–Ankara ve Bursa–İstanbul arası seyahat süresi 2 saat 15 dakikaya düşecek. Sözcü ise planı özetlerken iki büyükşehir arasındaki sürenin yaklaşık 2 saate ineceğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yolcu da yük de taşınacak",
+              "blocks": [
+                {
+                  "text": "Uraloğlu’na göre projenin genelinde yüzde 83,08 fiziki ilerleme sağlandı; Bursa–Bandırma kesiminde yapım çalışmaları sürüyor. Hat hem yolcu hem yük taşımacılığı için planlandı. Bakanlığa göre proje tamamlandığında yılda yaklaşık 30 milyon yolcu ve 59 milyon tondan fazla yük taşıma kapasitesine sahip olacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bursa–İstanbul ve Bursa–Ankara",
+              "value": "2 sa 15 dk",
+              "source": "Ulaştırma Bakanlığı"
+            },
+            {
+              "label": "Projedeki fiziki ilerleme",
+              "value": "%83,08",
+              "source": "Ulaştırma Bakanlığı"
+            },
+            {
+              "label": "Yıllık yolcu kapasitesi",
+              "value": "30 milyon",
+              "source": "Ulaştırma Bakanlığı"
+            },
+            {
+              "label": "Yıllık yük kapasitesi",
+              "value": "59 milyon ton+",
+              "source": "Ulaştırma Bakanlığı"
+            }
+          ],
+          "place": {
+            "name": "Bursa",
+            "lat": 40.19,
+            "lon": 29.06,
+            "region": "Bursa, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T08:15:24.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T08:31:31.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T08:31:31.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T08:38:09.000Z",
+          "sourceId": "aa-ekonomi"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T08:38:09.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T08:50:32.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/21/ver1795250987/3928978/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/ekonomi/osmanelibursa-hizli-tren-hattinda-test-sureci-basladi-3928978"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/21/osmaneli-bursa-hizli-tren-hattinda-teknik-test-sureci-basladi",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/ekonomi/bakan-uraloglu-duyurdu-bir-il-daha-yhtye-kavusuyor-ankara-ve-istanbula-ulasim-2-saat-15-dakikaya-dusecek-7706301",
+          "confirms": false
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bir-sehre-daha-hizli-tren-geliyor-2-buyuksehir-arasi-2-saate-dusecek-p383201",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-ekonomi",
+          "url": "https://www.aa.com.tr/tr/ekonomi/bursayi-yuksek-hizli-tren-agina-baglayacak-projede-test-calismalari-basladi/4132773",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/osmanelibursa-hizli-tren-hattinda-test-sureci-basladi-3928978",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    },
+    {
+      "id": "6c9fb47a70c2ba1c",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "No binding rules on killer robots",
+          "title": "UN talks give themselves until 2028 on AI ‘killer robot’ rules",
+          "summary": {
+            "what": "Countries at a UN weapons conference in Geneva agreed to “elaborate” a possible accord on lethal autonomous weapons by 2028, without committing to binding rules.",
+            "why": "Nearly 100 nations wanted swift, legally binding limits on weapons that can kill without a human decision; the US, Russia and Israel opposed them.",
+            "next": "Talks continue for two more years; the rules that come out of them could be binding or optional."
+          },
+          "body": [
+            {
+              "subhead": "A compromise at 4:30am",
+              "blocks": [
+                {
+                  "text": "Efforts to set firm rules on AI-powered “killer robots” and drones ran aground on Saturday in Geneva. After a week of talks under the Convention on Certain Conventional Weapons (CCW), the 128 member countries agreed to “elaborate” a possible accord on lethal autonomous weapons systems by 2028, NPR and Al Jazeera report. They did not commit to the legally binding rules sought by UN Secretary-General António Guterres, many countries and activists. The South China Morning Post also reported the outcome."
+                },
+                {
+                  "text": "Negotiators emerged with the compromise at 4:30am on Saturday, NPR reports: no deal within a year, and rules that may be legally binding or may be optional. Julien Thoeni, the Swiss diplomat who chaired the conference, told reporters some countries had rejected the word “negotiate”, so the text speaks of “elaboration” instead, according to Al Jazeera."
+                },
+                {
+                  "quote": "It shows that even in today’s deeply divided world, multilateral diplomacy can still deliver concrete results.",
+                  "speaker": "Julien Thoeni, conference chair",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Who blocked what",
+              "blocks": [
+                {
+                  "text": "Nearly 100 nations had pushed for swift adoption of binding rules, Al Jazeera writes, but key arms producers including the United States, Russia and Israel opposed the push. Decisions under the convention need every member’s agreement. On the first day Russia delayed proceedings by objecting to the agenda, and the United States then proposed a five-year window to discuss non-binding, optional guidelines, NPR reports."
+                },
+                {
+                  "text": "Before the meeting, Brazil, Austria, Belgium, Ireland, Mexico, New Zealand and Panama had proposed launching negotiations on a rulebook. “Technology is moving faster than diplomacy,” said Brazil’s ambassador Frederico Meyer, quoted by NPR. Guterres, who leaves office at the end of the year, had set a 2026 deadline for starting such negotiations."
+                }
+              ]
+            },
+            {
+              "subhead": "“Watered down”",
+              "blocks": [
+                {
+                  "text": "The coalition Stop Killer Robots called the mandate “watered down”. Its executive director, Nicole van Rooijen, told AFP that autonomous weapons, including systems that use AI to choose targets, are already being used in combat, Al Jazeera reports. Max Tegmark of MIT and the Future of Life Institute said states had agreed it was enough “to just talk about the issue, for the 14th year”."
+                },
+                {
+                  "quote": "There is a fundamental ethical concern with having what are essentially these life-and-death decisions determined by programming, determined by an algorithm.",
+                  "speaker": "Georgia Hinds, ICRC legal adviser",
+                  "sourceId": "npr-world"
+                },
+                {
+                  "text": "The International Committee of the Red Cross had called for binding rules within a year. NPR notes that drones caused 80% of civilian deaths in Sudan this year, according to the UN."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Deadline for a possible accord",
+              "value": "2028",
+              "source": "NPR"
+            },
+            {
+              "label": "Countries in the convention",
+              "value": "128",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Nations that wanted binding rules",
+              "value": "~100",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Sudan civilian deaths caused by drones",
+              "value": "80%",
+              "source": "UN, via NPR"
+            }
+          ],
+          "place": {
+            "name": "Geneva",
+            "lat": 46.2,
+            "lon": 6.14,
+            "region": "Switzerland"
+          }
+        },
+        "tr": {
+          "shortTitle": "Katil robotlara bağlayıcı kural çıkmadı",
+          "title": "BM görüşmelerinde ‘katil robot’ kuralları için 2028’e kadar süre",
+          "summary": {
+            "what": "Cenevre’deki BM silah konferansında ülkeler, ölümcül otonom silahlara ilişkin olası bir anlaşmayı 2028’e kadar “ayrıntılandırmayı” kabul etti; bağlayıcı kural sözü verilmedi.",
+            "why": "Yaklaşık 100 ülke, insan kararı olmadan öldürebilen silahlara hızla bağlayıcı sınır istiyordu; ABD, Rusya ve İsrail karşı çıktı.",
+            "next": "Görüşmeler iki yıl daha sürecek; çıkacak kurallar bağlayıcı da olabilir, isteğe bağlı da."
+          },
+          "body": [
+            {
+              "subhead": "Sabah 04.30’da uzlaşma",
+              "blocks": [
+                {
+                  "text": "Yapay zekâyla çalışan “katil robotlar” ve insansız hava araçları için sıkı kurallar koyma çabası cumartesi günü Cenevre’de tıkandı. NPR ve Al Jazeera’ya göre Belirli Konvansiyonel Silahlar Sözleşmesi (CCW) kapsamında bir hafta süren görüşmelerin sonunda 128 üye ülke, ölümcül otonom silah sistemlerine ilişkin olası bir anlaşmayı 2028’e kadar “ayrıntılandırmayı” kabul etti. BM Genel Sekreteri António Guterres’in, pek çok ülkenin ve aktivistlerin istediği yasal bağlayıcılığı olan kurallara ise söz verilmedi. Sonucu South China Morning Post da duyurdu."
+                },
+                {
+                  "text": "NPR’a göre müzakereciler uzlaşmayı cumartesi sabahı saat 04.30’da açıkladı: bir yıl içinde anlaşma yok, kurallar bağlayıcı da olabilir isteğe bağlı da. Al Jazeera’nın aktardığına göre konferansa başkanlık eden İsviçreli diplomat Julien Thoeni, bazı ülkelerin “müzakere” sözcüğünü reddettiğini, bu yüzden metinde “ayrıntılandırma” ifadesinin kullanıldığını söyledi."
+                },
+                {
+                  "quote": "Bu, bugünün derin biçimde bölünmüş dünyasında bile çok taraflı diplomasinin hâlâ somut sonuç üretebildiğini gösteriyor.",
+                  "speaker": "Julien Thoeni, konferans başkanı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Kim neyi engelledi",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre yaklaşık 100 ülke bağlayıcı kuralların hızla kabul edilmesini istedi, ancak ABD, Rusya ve İsrail gibi büyük silah üreticileri buna karşı çıktı. Sözleşmede kararlar tüm üyelerin onayıyla alınıyor. NPR’ın aktardığına göre Rusya ilk gün gündeme itiraz ederek süreci geciktirdi, ABD ise bağlayıcı olmayan, isteğe bağlı yönergelerin beş yıl boyunca tartışılmasını önerdi."
+                },
+                {
+                  "text": "Toplantıdan önce Brezilya, Avusturya, Belçika, İrlanda, Meksika, Yeni Zelanda ve Panama bir kural kitabı için müzakere başlatılmasını önermişti. Brezilya Büyükelçisi Frederico Meyer, NPR’a “Teknoloji diplomasiden hızlı ilerliyor” dedi. Yıl sonunda görevi bırakacak Guterres, müzakerelerin başlaması için 2026’yı son tarih olarak belirlemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "“Sulandırılmış” bir yetki",
+              "blocks": [
+                {
+                  "text": "Stop Killer Robots koalisyonu çıkan yetkiyi “sulandırılmış” diye niteledi. Al Jazeera’ya göre koalisyonun icra direktörü Nicole van Rooijen, AFP’ye hedefini yapay zekâyla seçen sistemler dahil otonom silahların savaşta zaten kullanıldığını söyledi. MIT’den ve Future of Life Institute’tan Max Tegmark ise devletlerin “14. yılında da yalnızca konuyu konuşmayı” yeterli bulduğunu belirtti."
+                },
+                {
+                  "quote": "Esasen ölüm kalım kararlarının bir programla, bir algoritmayla belirlenmesinde temel bir etik sorun var.",
+                  "speaker": "Georgia Hinds, ICRC hukuk danışmanı",
+                  "sourceId": "npr-world",
+                  "translated": true
+                },
+                {
+                  "text": "Uluslararası Kızılhaç Komitesi (ICRC) bir yıl içinde bağlayıcı kurallar çağrısı yapmıştı. NPR, BM verilerine göre bu yıl Sudan’da sivil ölümlerin yüzde 80’ine insansız hava araçlarının yol açtığını hatırlatıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Olası anlaşma için süre",
+              "value": "2028",
+              "source": "NPR"
+            },
+            {
+              "label": "Sözleşmedeki ülke sayısı",
+              "value": "128",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Bağlayıcı kural isteyen ülke",
+              "value": "~100",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Sudan’da İHA kaynaklı sivil ölüm",
+              "value": "%80",
+              "source": "BM, NPR aracılığıyla"
+            }
+          ],
+          "place": {
+            "name": "Cenevre",
+            "lat": 46.2,
+            "lon": 6.14,
+            "region": "İsviçre"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T06:32:12.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T08:08:01.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T08:08:01.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T10:25:29.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375318/un-talks-pledge-draft-killer-robot-rules-2028-after-russian-pushback",
+          "confirms": true
+        },
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    },
+    {
+      "id": "56cdf33f7140cfb1",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Hackers breach USDA and FBI systems",
+          "title": "Hackers breach the USDA’s farm-payment system and the FBI’s crime database",
+          "summary": {
+            "what": "Hackers broke into a USDA system that pays farmers and into the FBI’s National Crime Information Center, NBC News and CNN reported.",
+            "why": "They are hacks, not outages, and come after weeks of breakdowns that cost the White House’s cyber director his job.",
+            "next": "It is unclear whether the two intrusions are linked or who is behind them; the FBI is investigating the NCIC breach."
+          },
+          "body": [
+            {
+              "subhead": "Two separate breaches",
+              "blocks": [
+                {
+                  "text": "Hackers have breached systems at the US Department of Agriculture (USDA) and the FBI, US media reported on Friday, as concern deepened over a run of technology failures at key American institutions. The breaches were first reported by NBC News and CNN respectively, France 24 and The Guardian write. It remained unclear whether they were related and who was responsible."
+                },
+                {
+                  "text": "The USDA told employees that a system used to make payments to farmers had been targeted in a cyber-attack, NBC reported, citing two former department officials. They warned that the hackers could use the payments system as a back door to reach more sensitive material."
+                },
+                {
+                  "quote": "If an adversary or a competitor were to have access to that same information … they could use our own research against us.",
+                  "speaker": "Former USDA official, to NBC News",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "The FBI, for the second time",
+              "blocks": [
+                {
+                  "text": "CNN reported separately that the FBI had been hacked for the second time since September. The bureau is investigating an intrusion into the National Crime Information Center (NCIC) by apparent hackers, CNN said, citing two people briefed on the inquiry. The NCIC is a nationwide criminal database that links federal, state and local police and is used to share information on warrants and background checks."
+                },
+                {
+                  "text": "A former FBI official told CNN that officers across the country rely on the NCIC every day to identify wanted fugitives and check for outstanding warrants, and that hackers “could compromise the accuracy of the information that officers rely on”. In September a hacking group known as ShinyHunters went after sensitive personal data of employees from an FBI jobs website."
+                },
+                {
+                  "text": "The Guardian notes that the FBI director, Kash Patel, had appeared on Fox News on Thursday to promote the bureau’s anti-cyber-attack initiative, Operation Winter Shield, promising that the FBI would “hunt them down”."
+                }
+              ]
+            },
+            {
+              "subhead": "After a month of outages",
+              "blocks": [
+                {
+                  "text": "Both outlets stress that these were hacks, which differ from the outages that hit Microsoft Outlook and the Federal Aviation Administration earlier in November. Those breakdowns disrupted travel, communications and online shopping across the US and even affected a top-secret network at the National Security Agency."
+                },
+                {
+                  "text": "President Donald Trump has urged people to “relax”, and officials have said the outages were not linked to criminal activity. The administration fired its national cyber director, Sean Cairncross, on Thursday as criticism of the outages mounted."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "FBI hacks since September",
+              "value": "2",
+              "source": "CNN"
+            },
+            {
+              "label": "Cyber director fired",
+              "value": "Thursday",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Earlier FBI breach, by ShinyHunters",
+              "value": "September",
+              "source": "France 24"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Tarım Bakanlığı ve FBI’a siber saldırı",
+          "title": "Hackerlar ABD Tarım Bakanlığının ödeme sistemine ve FBI veri tabanına sızdı",
+          "summary": {
+            "what": "NBC News ve CNN’e göre hackerlar, çiftçilere ödeme yapan bir Tarım Bakanlığı sistemine ve FBI’ın Ulusal Suç Bilgi Merkezine sızdı.",
+            "why": "Bunlar kesinti değil siber saldırı; haftalardır süren arızalar Beyaz Saray’ın siber güvenlik direktörünü görevinden etmişti.",
+            "next": "İki saldırının bağlantılı olup olmadığı ve kimin yaptığı belli değil; FBI kendi veri tabanına yapılan sızmayı soruşturuyor."
+          },
+          "body": [
+            {
+              "subhead": "İki ayrı sızma",
+              "blocks": [
+                {
+                  "text": "ABD medyası cuma günü hackerların ABD Tarım Bakanlığı (USDA) ve FBI sistemlerine sızdığını bildirdi. France 24 ve The Guardian’ın aktardığına göre haberleri ilk olarak sırasıyla NBC News ve CNN verdi. Ülkenin kilit kurumlarında art arda yaşanan teknoloji arızaları zaten endişe yaratıyordu; iki sızmanın bağlantılı olup olmadığı ve arkasında kimin olduğu bilinmiyor."
+                },
+                {
+                  "text": "NBC’nin iki eski bakanlık yetkilisine dayandırdığı habere göre USDA, çalışanlarına çiftçilere ödeme yapılmasında kullanılan bir sistemin siber saldırıya uğradığını bildirdi. Eski yetkililer, hackerların ödeme sistemini daha hassas bilgilere ulaşmak için arka kapı olarak kullanabileceği uyarısında bulundu."
+                },
+                {
+                  "quote": "Bir düşman ya da rakip aynı bilgilere erişebilirse… kendi araştırmalarımızı bize karşı kullanabilir.",
+                  "speaker": "Eski USDA yetkilisi, NBC News’e",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "FBI ikinci kez",
+              "blocks": [
+                {
+                  "text": "CNN ise FBI’ın eylülden bu yana ikinci kez hacklendiğini yazdı. Soruşturma hakkında bilgi alan iki kişiye dayanan habere göre FBI, Ulusal Suç Bilgi Merkezine (NCIC) yapılan bir sızmayı inceliyor. NCIC; federal, eyalet ve yerel kolluğu birbirine bağlayan, arama kararları ve geçmiş taramalarına ilişkin bilgilerin paylaşıldığı ülke çapında bir suç veri tabanı."
+                },
+                {
+                  "text": "Eski bir FBI yetkilisi CNN’e, polislerin aranan kişileri tespit etmek ve bekleyen arama kararlarını kontrol etmek için her gün NCIC’ye başvurduğunu, hackerların polislerin dayandığı bilgilerin doğruluğunu bozabileceğini söyledi. Eylülde ShinyHunters adlı bir hacker grubu, FBI’ın iş başvuru sitesinden çalışanların hassas kişisel verilerini hedef almıştı."
+                },
+                {
+                  "text": "The Guardian, FBI Direktörü Kash Patel’in perşembe günü Fox News’e çıkıp kurumun Operation Winter Shield adlı siber saldırı önleme girişimini anlattığını ve saldırganların “peşine düşüleceğini” söylediğini hatırlatıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Bir aylık kesintilerin ardından",
+              "blocks": [
+                {
+                  "text": "İki yayın organı da bunların siber saldırı olduğunu, kasım başında Microsoft Outlook’u ve Federal Havacılık İdaresini (FAA) etkileyen kesintilerden farklı olduğunu vurguluyor. O arızalar ABD genelinde seyahati, iletişimi ve internet alışverişini aksatmış, Ulusal Güvenlik Ajansının (NSA) çok gizli bir ağını bile etkilemişti."
+                },
+                {
+                  "text": "Başkan Donald Trump halka “rahat olun” çağrısı yaptı; yetkililer kesintilerin suç faaliyetiyle bağlantılı olmadığını söyledi. Yönetim, kesintilere yönelik eleştiriler artınca ulusal siber güvenlik direktörü Sean Cairncross’u perşembe günü görevden almıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Eylülden bu yana FBI’a sızma",
+              "value": "2",
+              "source": "CNN"
+            },
+            {
+              "label": "Siber direktör görevden alındı",
+              "value": "Perşembe",
+              "source": "The Guardian"
+            },
+            {
+              "label": "ShinyHunters’ın FBI saldırısı",
+              "value": "Eylül",
+              "source": "France 24"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T07:01:04.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:09:02.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T14:09:02.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/c8b6415c-e578-11f1-81f3-6b451f569414/w:1024/p:16x9/AP24318480363864.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    },
+    {
+      "id": "a5fea2e1ca7ca1b0",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Denmark expels Russian attaché over plot",
+          "title": "Denmark blames Russian intelligence for a plot to kill a US-Ukrainian rapper",
+          "summary": {
+            "what": "Denmark says Russian intelligence planned the foiled killing of rapper Kyivstoner near Copenhagen in September and is expelling Russia’s defence attaché.",
+            "why": "Danish intelligence says it has never seen a Russian assassination attempt in Denmark before; the EU called it an attack on EU soil.",
+            "next": "Denmark will ask EU ambassadors on Monday to halt tourist visas for Russians across the Schengen zone."
+          },
+          "body": [
+            {
+              "subhead": "Stopped five minutes before the show",
+              "blocks": [
+                {
+                  "text": "Denmark has accused Russian intelligence services of planning an attempt to kill a US-Ukrainian rapper near Copenhagen, and has ordered Russia’s defence attaché to leave the country within seven days, the BBC, The Guardian and France 24 report. Danish media named the target as Kyivstoner, whose real name is Albert Viktorovich Vasiliev."
+                },
+                {
+                  "text": "According to prosecutors cited by The Guardian, police stopped three men with links to the Danish criminal underworld at about 9.55pm on 25 September, as they drove towards the concert venue north of Copenhagen with two loaded pistols and two knives, five minutes before the show was due to begin. A fourth suspect was arrested later that evening, and one of the men had bought a ticket. The concert was cancelled."
+                },
+                {
+                  "text": "The security service PET said the suspects were associated with Loyal to Familia, a banned gang “known for extensive, serious and violent criminal activity”, the BBC reports. Two people have been charged with attempted murder and with assisting a foreign intelligence service; they pleaded not guilty."
+                }
+              ]
+            },
+            {
+              "subhead": "“We have exposed you”",
+              "blocks": [
+                {
+                  "quote": "It is our clear assessment that the assassination attempt was planned by the Russian intelligence services.",
+                  "speaker": "Rasmus Kieffer-Kristensen, head of PET",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Kieffer-Kristensen said a Russian assassination attempt was something Denmark had not seen before and pointed to “an increasingly aggressive and risk-taking Russia”. Foreign Minister Lars Løkke Rasmussen called the plot intimidation meant to make Denmark waver in its support for Ukraine. “We are saying this very clearly: we have exposed you,” he said, according to The Guardian."
+                },
+                {
+                  "text": "Russia’s embassy called the accusations unsubstantiated and accused Copenhagen of staging “a propaganda spectacle”, the BBC reports. Russian state media quoted the foreign ministry as saying Moscow would respond to the expulsion “accordingly”. In July, Russia’s FSB had accused Vasiliev of organising a “terrorist attack” on military targets in Russia, which he denied."
+                }
+              ]
+            },
+            {
+              "subhead": "Visas next",
+              "blocks": [
+                {
+                  "text": "European Commission President Ursula von der Leyen said on Saturday the EU stood in full solidarity with Denmark. “This was an attack on EU soil. And it is unacceptable,” she wrote, adding that Russia’s hybrid threats were becoming “more and more real”, France 24 and the BBC report. She said the EU would soon propose a new European security strategy."
+                },
+                {
+                  "text": "In a message to EU governments seen by Reuters, Denmark proposed halting tourist visas for Russians across the Schengen zone, refusing to recognise Russian non-biometric passports and setting tougher entry rules for serving and former Russian soldiers, France 24 reports. Denmark will present the proposals to EU ambassadors in Brussels on Monday."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Attaché must leave within",
+              "value": "7 days",
+              "source": "Danish Foreign Ministry"
+            },
+            {
+              "label": "Arrests near the venue",
+              "value": "21:55",
+              "source": "Prosecutors, via The Guardian"
+            },
+            {
+              "label": "Date of the foiled attack",
+              "value": "25 Sep",
+              "source": "PET"
+            },
+            {
+              "label": "Weapons found in the car",
+              "value": "2 pistols, 2 knives",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Copenhagen",
+            "lat": 55.68,
+            "lon": 12.57,
+            "region": "Denmark"
+          }
+        },
+        "tr": {
+          "shortTitle": "Danimarka Rus ateşesini sınır dışı ediyor",
+          "title": "Danimarka, ABD-Ukraynalı rapçiye suikast planından Rus istihbaratını sorumlu tuttu",
+          "summary": {
+            "what": "Danimarka, rapçi Kyivstoner’a eylülde Kopenhag yakınında yönelik engellenen suikast girişimini Rus istihbaratının planladığını açıkladı ve Rus askeri ateşeyi sınır dışı ediyor.",
+            "why": "Danimarka istihbaratı ülkede daha önce bir Rus suikast girişimi görmediğini söylüyor; AB bunu AB topraklarına saldırı olarak niteledi.",
+            "next": "Danimarka pazartesi AB büyükelçilerinden Schengen genelinde Ruslara turist vizesinin durdurulmasını isteyecek."
+          },
+          "body": [
+            {
+              "subhead": "Konsere beş dakika kala",
+              "blocks": [
+                {
+                  "text": "BBC, The Guardian ve France 24’ün aktardığına göre Danimarka, Rus istihbarat servislerini Kopenhag yakınında ABD ve Ukrayna vatandaşı bir rapçiyi öldürme girişimini planlamakla suçladı ve Rusya’nın askeri ateşesinin yedi gün içinde ülkeyi terk etmesini istedi. Danimarka basını hedefin, gerçek adı Albert Viktorovich Vasiliev olan Kyivstoner olduğunu yazdı."
+                },
+                {
+                  "text": "The Guardian’ın aktardığı savcılık bilgilerine göre polis, 25 Eylül’de saat 21.55 sularında Danimarka yeraltı dünyasıyla bağlantılı üç kişiyi, Kopenhag’ın kuzeyindeki konser mekânına iki dolu tabanca ve iki bıçakla giderken, konserin başlamasına beş dakika kala durdurdu. Aynı akşam dördüncü bir şüpheli de yakalandı; şüphelilerden biri konser bileti almıştı. Konser iptal edildi."
+                },
+                {
+                  "text": "BBC’ye göre güvenlik servisi PET, şüphelilerin “kapsamlı, ağır ve şiddet içeren suç faaliyetleriyle bilinen” yasaklı Loyal to Familia çetesiyle bağlantılı olduğunu söyledi. İki kişi adam öldürmeye teşebbüs ve yabancı istihbarat servisine yardım suçlamalarıyla yargılanıyor; ikisi de suçlamaları reddetti."
+                }
+              ]
+            },
+            {
+              "subhead": "“Sizi ifşa ettik”",
+              "blocks": [
+                {
+                  "quote": "Suikast girişiminin Rus istihbarat servislerince planlandığı yönünde açık bir değerlendirmemiz var.",
+                  "speaker": "Rasmus Kieffer-Kristensen, PET Başkanı",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Kieffer-Kristensen, Danimarka’da daha önce bir Rus suikast girişimi görülmediğini belirterek “giderek saldırganlaşan ve risk alan bir Rusya” izlenimi edindiğini söyledi. Dışişleri Bakanı Lars Løkke Rasmussen ise planı, Danimarka’nın Ukrayna’ya desteğini sarsmaya yönelik bir yıldırma girişimi olarak niteledi. The Guardian’a göre Rasmussen, “Bunu çok açık söylüyoruz: Sizi ifşa ettik” dedi."
+                },
+                {
+                  "text": "BBC’ye göre Rusya’nın Kopenhag Büyükelçiliği suçlamaları “dayanaksız” bularak Danimarka’yı “propaganda gösterisi” düzenlemekle suçladı. Rus devlet medyası, Dışişleri Bakanlığının sınır dışı etmeye “gereken şekilde” karşılık verileceğini söylediğini aktardı. Rusya’nın FSB’si temmuzda Vasiliev’i Rusya’daki askeri hedeflere “terör saldırısı” düzenlemekle suçlamış, rapçi bunu reddetmişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada vizeler var",
+              "blocks": [
+                {
+                  "text": "France 24 ve BBC’nin aktardığına göre Avrupa Komisyonu Başkanı Ursula von der Leyen cumartesi günü AB’nin Danimarka’yla tam dayanışma içinde olduğunu söyledi. “Bu, AB topraklarına yapılmış bir saldırıydı ve kabul edilemez” diyen von der Leyen, Rusya’nın hibrit tehditlerinin “giderek daha gerçek” hale geldiğini ekledi ve AB’nin yakında yeni bir Avrupa güvenlik stratejisi önereceğini bildirdi."
+                },
+                {
+                  "text": "France 24’e göre Danimarka, Reuters’ın gördüğü ve AB hükümetlerine gönderilen bir mesajda Schengen bölgesinde Ruslara turist vizesinin durdurulmasını, biyometrik olmayan Rus pasaportlarının tanınmamasını ve görevdeki ya da eski Rus askerlerine daha sıkı giriş kuralları getirilmesini önerdi. Danimarka önerilerini pazartesi Brüksel’de AB büyükelçilerine sunacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ateşenin ülkeyi terk süresi",
+              "value": "7 gün",
+              "source": "Danimarka Dışişleri Bakanlığı"
+            },
+            {
+              "label": "Mekân yakınında gözaltı",
+              "value": "21:55",
+              "source": "Savcılık, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Engellenen saldırının tarihi",
+              "value": "25 Eylül",
+              "source": "PET"
+            },
+            {
+              "label": "Araçta bulunan silahlar",
+              "value": "2 tabanca, 2 bıçak",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Kopenhag",
+            "lat": 55.68,
+            "lon": 12.57,
+            "region": "Danimarka"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T09:51:01.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T10:26:36.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T10:26:36.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:03:50.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/1f0ff8e8-e58f-11f1-b96d-1bac47ab2f5d/w:1024/p:16x9/EN-20261121-100430-100556-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/denmark-accuses-russia-of-assassination-plot-expels-diplomat"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    },
+    {
+      "id": "28cbbdf232f7d3f2",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Mexico captures ‘El Chapo Isidro’",
+          "title": "Mexico captures FBI-wanted cartel boss ‘El Chapo Isidro’, setting off clashes",
+          "summary": {
+            "what": "Mexican troops captured Fausto Isidro Meza Flores, known as ‘El Chapo Isidro’, in Guasave, Sinaloa, on Friday night, with help from US intelligence.",
+            "why": "He was on the FBI’s Ten Most Wanted list with a $5m reward; the arrest set off gunfights, burning vehicles and roadblocks.",
+            "next": "He has been flown to Mexico City; officials have not said how far the US was involved or what happens to his network."
+          },
+          "body": [
+            {
+              "subhead": "Captured in Guasave",
+              "blocks": [
+                {
+                  "text": "Mexican security forces have captured Fausto Isidro Meza Flores, the cartel leader known as ‘El Chapo Isidro’, in the north-western state of Sinaloa, Euronews, Al Jazeera and the South China Morning Post report. The arrest took place in the town of Guasave on Friday night, 20 November, in an operation by specialist units of the army and the National Guard."
+                },
+                {
+                  "text": "According to the Defence Ministry, elite forces used “stealth and surprise”. They came under attack from gunmen using firearms and explosives, believed to be cartel members, before entering a property and arresting Meza Flores and others, Euronews writes. The detainees were flown to Mexico City on an air force plane. The government said intelligence from the administration of US President Donald Trump helped, without saying how; Mexican outlet N+ reported that intelligence agencies of both countries worked together."
+                }
+              ]
+            },
+            {
+              "subhead": "A town under fire",
+              "blocks": [
+                {
+                  "text": "The arrest set off a night of violence. Footage showed helicopters opening fire, vehicles burning and roads blocked, and gunfire halted a baseball game, sending players and fans scrambling for cover, Al Jazeera reports. Hürriyet writes that the Mexican League game between Venados de Mazatlán and Algodoneros de Guasave had started at 9.30pm at Kuroda Park."
+                },
+                {
+                  "text": "A resident told CNN International, quoted by Hürriyet, that gunmen had taken over private hospitals and set fire to shops and petrol stations, and that people were still trapped inside businesses. Sinaloa’s government told residents to stay at home and keep off the roads. No reliable casualty figure was available in the first reports, Euronews says."
+                }
+              ]
+            },
+            {
+              "subhead": "Who he is",
+              "blocks": [
+                {
+                  "text": "Meza Flores is linked to the Beltrán Leyva organisation and leads a network known as the Meza-Flores organisation or Guasave Cartel, which US authorities connect to trafficking cocaine, methamphetamine, heroin and marijuana, Euronews reports. Diken, citing CNN, writes that he is also accused of smuggling fentanyl into the US."
+                },
+                {
+                  "text": "The FBI put him on its Ten Most Wanted Fugitives list in February 2025 and offered up to $5 million for information leading to his arrest. US charges were filed against him in 2012 and 2019. In 2013 the US Treasury said his group was in a violent turf war with the Sinaloa cartel then led by Joaquín ‘El Chapo’ Guzmán, Diken and Hürriyet report. Euronews notes that arresting a leader does not necessarily dismantle his organisation, and rivals may try to exploit the gap."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "US reward for his capture",
+              "value": "$5m",
+              "source": "Euronews"
+            },
+            {
+              "label": "Added to FBI’s Ten Most Wanted",
+              "value": "Feb 2025",
+              "source": "Euronews"
+            },
+            {
+              "label": "Arrested in Guasave",
+              "value": "20 Nov",
+              "source": "Euronews"
+            },
+            {
+              "label": "US indictments",
+              "value": "2012, 2019",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Guasave",
+            "lat": 25.57,
+            "lon": -108.47,
+            "region": "Sinaloa, Mexico"
+          }
+        },
+        "tr": {
+          "shortTitle": "Meksika ‘El Chapo Isidro’yu yakaladı",
+          "title": "Meksika, FBI’ın aradığı kartel lideri ‘El Chapo Isidro’yu yakaladı; çatışma çıktı",
+          "summary": {
+            "what": "Meksika ordusu, ‘El Chapo Isidro’ diye bilinen Fausto Isidro Meza Flores’i cuma gecesi Sinaloa’nın Guasave kentinde ABD istihbaratının yardımıyla yakaladı.",
+            "why": "FBI’ın en çok arananlar listesindeydi ve başına 5 milyon dolar ödül konmuştu; yakalanması çatışmalara, araç yangınlarına ve barikatlara yol açtı.",
+            "next": "Başkent Meksiko’ya götürüldü; yetkililer ABD’nin rolünü ve örgütünün ne olacağını açıklamadı."
+          },
+          "body": [
+            {
+              "subhead": "Guasave’de yakalandı",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe, Diken ve Hürriyet’in aktardığına göre Meksika güvenlik güçleri, “El Chapo Isidro” lakabıyla bilinen kartel lideri Fausto Isidro Meza Flores’i ülkenin kuzeybatısındaki Sinaloa eyaletinde yakaladı. Operasyon 20 Kasım cuma gecesi Guasave kentinde, ordu ve Ulusal Muhafızların uzman birlikleriyle yapıldı."
+                },
+                {
+                  "text": "Savunma Bakanlığına göre seçkin birlikler “gizlilik ve sürpriz” taktiği kullandı. Euronews’e göre güvenlik güçleri, kartel üyesi oldukları düşünülen kişilerin ateşli silah ve patlayıcılarla saldırısına uğradı, ardından bir binaya girerek Meza Flores’i ve yanındakileri gözaltına aldı. Gözaltındakiler Hava Kuvvetlerine ait bir uçakla Meksiko’ya götürüldü. Hükümet, Trump yönetiminin sağladığı istihbaratın katkısı olduğunu açıkladı ama ayrıntı vermedi; Meksika merkezli N+ iki ülkenin istihbarat birimlerinin iş birliği yaptığını bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Ateş altındaki kent",
+              "blocks": [
+                {
+                  "text": "Yakalamanın ardından kentte şiddet patlak verdi. Al Jazeera’nın yayımladığı görüntülerde helikopterlerden ateş açıldığı, araçların yandığı ve yolların kapatıldığı görülüyor; silah sesleri bir beyzbol maçını yarıda kesti, oyuncular ve seyirciler siper aradı. Hürriyet’e göre Kuroda Park’ta Venados de Mazatlán ile Algodoneros de Guasave arasındaki Meksika Ligi maçı saat 21.30’da başlamıştı."
+                },
+                {
+                  "text": "Hürriyet’in aktardığına göre CNN International’a konuşan bir bölge sakini, silahlı kişilerin özel hastaneleri ele geçirdiğini, market ve benzin istasyonlarını ateşe verdiğini, insanların hâlâ dükkânlarda mahsur olduğunu anlattı. Sinaloa hükümeti halka evde kalma ve yollardan uzak durma çağrısı yaptı. Euronews’e göre ilk haberlerde güvenilir bir kayıp sayısı yoktu."
+                }
+              ]
+            },
+            {
+              "subhead": "Kim bu isim",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre Meza Flores, Beltrán Leyva örgütüyle bağlantılı ve Meza-Flores örgütü ya da Guasave Karteli diye bilinen yapının lideri; ABD makamları bu yapıyı kokain, metamfetamin, eroin ve esrar kaçakçılığıyla ilişkilendiriyor. CNN’e dayanan Diken, ABD’ye fentanil sokmakla da suçlandığını yazıyor."
+                },
+                {
+                  "text": "FBI onu Şubat 2025’te en çok aranan 10 kaçak listesine aldı ve yakalanmasını sağlayacak bilgiye 5 milyon dolara kadar ödül koydu. ABD’de hakkında 2012’de ve 2019’da suçlama yapılmıştı. Diken ve Hürriyet’e göre ABD Hazine Bakanlığı 2013’te, örgütünün o dönem Joaquín “El Chapo” Guzmán’ın yönettiği Sinaloa Karteli ile şiddetli bir bölge savaşında olduğunu açıklamıştı. Euronews, bir liderin yakalanmasının örgütün dağılması anlamına gelmediğini, rakiplerin oluşan boşluğu kullanmaya çalışabileceğini hatırlatıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "ABD’nin koyduğu ödül",
+              "value": "5 milyon $",
+              "source": "Euronews"
+            },
+            {
+              "label": "FBI listesine girişi",
+              "value": "Şubat 2025",
+              "source": "Euronews"
+            },
+            {
+              "label": "Guasave’de yakalandı",
+              "value": "20 Kasım",
+              "source": "Euronews"
+            },
+            {
+              "label": "ABD’deki suçlamalar",
+              "value": "2012, 2019",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Guasave",
+            "lat": 25.57,
+            "lon": -108.47,
+            "region": "Sinaloa, Meksika"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T11:53:56.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T12:05:49.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T12:34:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:00:45.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T14:00:45.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:20:35.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:47:12.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b018f66c757abf656938c4d.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/dunya/meksikada-kartel-operasyonu-kontrolden-cikti-bir-sehir-savas-alanina-dondu-43386221"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/fbiin-en-cok-aradigi-10-kisiden-biriydi-el-chapo-isidro-yakalandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/dunya/meksikada-kartel-operasyonu-kontrolden-cikti-bir-sehir-savas-alanina-dondu-43386221",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/21/meksikada-operasyon-fbiin-en-cok-arananlar-listesindeki-kartel-lideri-yakalandi",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-21T18:30:00+03:00",
+      "updatedAt": "2026-11-21T18:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "3126887bc4176e45",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How long will the trip from Bursa to Istanbul take once the new line opens?",
+          "options": ["1 hour 45 minutes", "2 hours 15 minutes", "3 hours"]
+        },
+        "tr": {
+          "question": "Yeni hat açıldığında Bursa–İstanbul yolculuğu ne kadar sürecek?",
+          "options": ["1 saat 45 dakika", "2 saat 15 dakika", "3 saat"]
+        }
+      }
+    },
+    {
+      "storyId": "6c9fb47a70c2ba1c",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "By when did countries at the Geneva talks agree to elaborate a possible accord on killer robots?",
+          "options": ["2026", "2027", "2028"]
+        },
+        "tr": {
+          "question": "Cenevre görüşmelerinde ülkeler katil robotlar için olası bir anlaşmayı ne zamana kadar ayrıntılandıracak?",
+          "options": ["2026", "2027", "2028"]
+        }
+      }
+    },
+    {
+      "storyId": "a5fea2e1ca7ca1b0",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Which Russian official is Denmark expelling over the plot?",
+          "options": ["The defence attaché", "The ambassador", "The consul general"]
+        },
+        "tr": {
+          "question": "Danimarka suikast planı nedeniyle hangi Rus yetkiliyi sınır dışı ediyor?",
+          "options": ["Askeri ateşeyi", "Büyükelçiyi", "Başkonsolosu"]
+        }
+      }
+    }
+  ]
+}
