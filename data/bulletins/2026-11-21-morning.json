@@ -478,7 +478,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0071173516f14679ccabd5.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0071173516f14679ccabd5.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/bakan-bolattan-umit-ozlale-hakkinda-suc-duyurusu-belgelerle-curuttuk-carpitmaya-devam-ediyorsunuz-43385477"
@@ -1398,6 +1398,142 @@
           "question": "Trump, Google’ın hangi ülkedeki veri merkezi projesini adıyla andı?",
           "options": ["Kanada", "Finlandiya", "İrlanda"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909312",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "short": "Nuggets",
+        "ours": false,
+        "team": "denver-nuggets"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "startsAt": "2026-11-21T03:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909312"
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 12,
+          "rebounds": 5,
+          "assists": 5
+        }
+      ]
+    },
+    {
+      "id": "espn-401884734",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["can-uzun", "ozan-kabak"],
+      "name": {
+        "en": "Can Uzun, Ozan Kabak",
+        "tr": "Can Uzun, Ozan Kabak"
+      },
+      "competition": {
+        "en": "Bundesliga",
+        "tr": "Bundesliga"
+      },
+      "home": {
+        "name": "Eintracht Frankfurt",
+        "short": "Frankfurt",
+        "ours": true,
+        "team": "eintracht-frankfurt"
+      },
+      "away": {
+        "name": "TSG Hoffenheim",
+        "short": "Hoffenheim",
+        "ours": true,
+        "team": "tsg-hoffenheim"
+      },
+      "startsAt": "2026-11-21T14:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ger.1/401884734"
+      }
+    },
+    {
+      "id": "espn-401910023",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "short": "Bucks",
+        "ours": false,
+        "team": "milwaukee-bucks"
+      },
+      "startsAt": "2026-11-21T18:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910023"
+      }
+    },
+    {
+      "id": "espn-401882798",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "LaLiga",
+        "tr": "LaLiga"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "Celta Vigo",
+        "ours": false,
+        "team": "celta-vigo"
+      },
+      "startsAt": "2026-11-21T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/esp.1/401882798"
       }
     }
   ]
