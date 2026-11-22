@@ -8,7 +8,7 @@
 import type { PersonLine } from '@cspnews/core';
 
 import type { InterfaceLanguage } from './evidence.js';
-import { orderScorers, personMarks, tonightWords } from './tonight.js';
+import { orderScorers, personAbsence, personMarks, tonightWords } from './tonight.js';
 
 export interface LiveScore {
   readonly ref: string;
@@ -131,6 +131,11 @@ function drawMarks(
   };
   for (const old of name.querySelectorAll('.marks')) old.remove();
   for (const line of lines) {
+    const absence = personAbsence(line, lang, sport);
+    if (absence) {
+      name.append(make('marks absent', absence));
+      continue;
+    }
     const marks = personMarks(line);
     if (marks.length === 0) continue;
     const group = make('marks');

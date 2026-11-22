@@ -133,6 +133,22 @@ const EspnHeaderSchema = z.looseObject({
   }),
 });
 
+const EspnDateSchema = z.looseObject({
+  header: z.looseObject({
+    competitions: z.array(z.looseObject({ date: z.string() })).min(1),
+  }),
+});
+
+/**
+ * The match's day as ESPN's scoreboards file it (yyyymmdd, UTC), from its game summary, or
+ * nothing when the summary does not say.
+ */
+export function espnMatchDay(json: unknown): string | undefined {
+  const page = EspnDateSchema.safeParse(json);
+  const at = page.success ? Date.parse(page.data.header.competitions[0]?.date ?? '') : Number.NaN;
+  return Number.isNaN(at) ? undefined : new Date(at).toISOString().slice(0, 10).replaceAll('-', '');
+}
+
 /** A score from ESPN's game summary, with the followed people's own numbers. */
 export function readEspn(
   key: string,

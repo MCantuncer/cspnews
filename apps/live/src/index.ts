@@ -10,6 +10,7 @@
 import { ABROAD_PEOPLE } from '@cspnews/config';
 
 import {
+  espnMatchDay,
   espnScorers,
   euroleagueScorers,
   parseRefs,
@@ -67,17 +68,25 @@ async function euroleagueHeader(ref: LiveRef, context: WaitUntil) {
 
 async function scoreOf(ref: LiveRef, context: WaitUntil): Promise<LiveScore | undefined> {
   try {
+    const summary = ref.source === 'espn' ? await sourceJson(ref.url, context) : undefined;
     const score =
       ref.source === 'espn'
-        ? readEspn(ref.key, ref.ref, await sourceJson(ref.url, context), ABROAD_PEOPLE)
+        ? readEspn(ref.key, ref.ref, summary, ABROAD_PEOPLE)
         : ((await euroleagueHeader(ref, context)) ??
           readEuroleague(ref.key, await sourceJson(ref.url, context)));
     if (!score || score.state === 'pre' || !ref.scorersUrl) return score;
-    const scorers = await scorersOf(ref, ref.scorersUrl, context);
+    // The scoreboard of the match's own day: without a date ESPN answers with its current
+    // matchday, which can leave out a match that ended earlier.
+    const scorers = await scorersOf(ref, onDayOf(ref.scorersUrl, summary), context);
     return scorers.length > 0 ? { ...score, scorers } : score;
   } catch {
     return undefined;
   }
+}
+
+function onDayOf(url: string, summary: unknown): string {
+  const day = summary === undefined ? undefined : espnMatchDay(summary);
+  return day ? `${url}?dates=${day}` : url;
 }
 
 /** Who scored, from the second page; a page that fails only leaves the scorers out. */

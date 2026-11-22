@@ -178,8 +178,8 @@ export function rowFor(fixture: Fixture, watch: TonightWatch): TonightItem | und
     away: sideOf(away, ours.has('away'), fixture.league),
     startsAt: fixture.startsAt,
     live: { source: fixture.source, ref: fixture.ref },
-    ...(top.focus !== 'person' &&
-      fixture.scorers &&
+    // Every scoreboard opens to who scored, a person's match as much as a club's.
+    ...(fixture.scorers &&
       fixture.scorers.length > 0 && { scorers: fixture.scorers.slice(0, 16).map(scorerOf) }),
     ...(fixture.completed &&
       home.score !== undefined &&

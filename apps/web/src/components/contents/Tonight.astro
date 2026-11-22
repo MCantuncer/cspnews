@@ -12,7 +12,9 @@ import { playerPhotoUrl, teamLogoUrl } from '../../lib/media';
 import Icon from '../ui/Icon.astro';
 import {
   isBoard,
+  isSettled,
   orderScorers,
+  personAbsence,
   personMarks,
   tonightOutcome,
   tonightStatus,
@@ -40,8 +42,10 @@ const rows = sortTonight(published.bulletin.tonight ?? []).map((item) => {
     })),
     status: tonightStatus(item, lang, builtAt, board),
     outcome: tonightOutcome(item),
+    settled: isSettled(item),
     marks: (item.lines ?? []).map((line) => ({
       line,
+      absence: personAbsence(line, lang, item.sport),
       marks: personMarks(line),
       label: personMarks(line)
         .map((mark) => words[mark.kind](mark.count))
@@ -62,7 +66,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 {
   rows.length > 0 && (
     <ul class="cards">
-      {rows.map(({ local, board, scorers, status, data, outcome, marks }) => (
+      {rows.map(({ local, board, scorers, status, data, outcome, marks, settled }) => (
         <li
           class:list={['card', { board }]}
           data-tonight-row={data}
@@ -79,7 +83,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                 ? 'away'
                 : undefined
           }
-          data-final={local.result ? 'true' : undefined}
+          data-final={settled ? 'true' : undefined}
         >
           {board && local.home && local.away ? (
             <>
@@ -95,8 +99,10 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
               )}
               {local.focus === 'person' && (
                 <span class="marks-line" data-marks>
-                  {marks.map(
-                    (person) =>
+                  {marks.map((person) =>
+                    person.absence ? (
+                      <span class="marks absent">{person.absence}</span>
+                    ) : (
                       person.marks.length > 0 && (
                         <span class="marks" role="img" aria-label={person.label}>
                           {person.marks.map((mark) => (
@@ -106,7 +112,8 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
                             </span>
                           ))}
                         </span>
-                      ),
+                      )
+                    ),
                   )}
                 </span>
               )}
@@ -249,17 +256,18 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
-    gap: 14px;
+    gap: 16px;
     margin: 0;
-    padding: 12px 0 0;
+    padding: 16px 0 0;
     list-style: none;
   }
 
+  /* One even inset on every side, and one step between the head, the match and its scorers. */
   .card {
     display: grid;
     align-content: start;
-    gap: 14px;
-    padding: 18px 18px 16px;
+    gap: 16px;
+    padding: 20px;
     border: 1px solid var(--line);
     border-radius: 16px;
     background: var(--surf);
@@ -270,7 +278,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
-    gap: 2px 16px;
+    gap: 4px 16px;
   }
 
   .name {
@@ -324,6 +332,12 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     font: 400 14px / 1.3 var(--f-body);
   }
 
+  /* Did not play: said in a quiet word where the numbers would be. */
+  .absent {
+    color: var(--ink2);
+    font: 500 14px / 1.3 var(--f-body);
+  }
+
   .unit {
     color: var(--meta);
     font: 600 11px / 1 var(--f-body);
@@ -334,15 +348,18 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
    * The match under a hairline, as the scoreboard sports apps use: one line a team, crest and
    * name on the left, its score on the right, and the clock or the end beside both. Home first,
    * away second. It is a button: closed it is the score alone, open it adds who scored.
+   *
+   * The score and the status keep the same columns on every card, whether or not the card has
+   * scorers to open, so the scores and the words line up from card to card down the list.
    */
   button.match {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto auto;
-    gap: 10px 16px;
+    grid-template-columns: minmax(0, 1fr) minmax(1.5em, auto) 78px;
+    gap: 12px 16px;
     align-items: center;
     width: 100%;
     margin: 0;
-    padding: 14px 0 0;
+    padding: 16px 0 0;
     border: 0;
     border-top: 1px solid var(--line);
     background: none;
@@ -350,6 +367,21 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     font: inherit;
     text-align: inherit;
     cursor: pointer;
+  }
+
+  /* Wide enough for the longest usual word with its chevron: "Full time", "Final", "Canlı". */
+  .card {
+    --status-width: 78px;
+  }
+
+  .card[data-lang='tr'] {
+    --status-width: 62px;
+  }
+
+  @media (width < 400px) {
+    button.match {
+      column-gap: 12px;
+    }
   }
 
   button.match:focus-visible {
@@ -509,22 +541,35 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     grid-column: 2;
     grid-row: 2;
     align-self: start;
+    justify-self: end;
   }
 
+  /* The word ends against the chevron at the card's right edge; the chevron's place is held
+     even when there is nothing to open, so every card's word ends at the same line. */
   .status {
-    display: inline-flex;
+    display: flex;
     grid-column: 3;
     grid-row: 1 / span 2;
     align-items: center;
     align-self: center;
-    justify-self: end;
-    gap: 2px;
+    justify-content: flex-end;
+    gap: 4px;
+    min-width: 0;
+    text-align: right;
+  }
+
+  /* A long word ("Starting soon") wraps inside the column rather than pushing the score. */
+  .status small {
+    min-width: 0;
+  }
+
+  .board[data-state='upcoming'] .status small {
+    white-space: nowrap;
   }
 
   .middle small {
     color: var(--meta);
     font: 500 13px / 1.3 var(--f-body);
-    white-space: nowrap;
   }
 
   .board[data-state='on'] .middle small {
@@ -534,6 +579,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
 
   .chevron {
     display: inline-flex;
+    flex: none;
     color: var(--meta);
     transform: rotate(90deg);
     transition: transform var(--dur-base) var(--ease-out);
@@ -543,8 +589,16 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     transform: rotate(-90deg);
   }
 
-  /* Nothing to open before a goal or a basket. */
+  /* Nothing to open before a goal or a basket: the chevron's place stays, empty. */
   .board:has(.scorers:empty) .chevron {
+    visibility: hidden;
+  }
+
+  .board:has(.scorers:empty) button.match {
+    cursor: default;
+  }
+
+  .board[data-state='upcoming'] .chevron {
     display: none;
   }
 
@@ -558,17 +612,19 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
     display: grid;
     grid-auto-flow: row dense;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 8px 12px;
+    gap: 10px 16px;
     margin: 0;
-    padding: 12px 0 0;
+    padding: 16px 0 0;
     border-top: 1px solid var(--line);
     list-style: none;
   }
 
+  /* The name first, its minutes after it in the quiet colour; a long run of minutes moves to
+     the next line rather than squeezing the name. */
   .scorers li {
-    display: grid;
-    grid-template-columns: minmax(1.9em, max-content) minmax(0, 1fr);
-    column-gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 8px;
     align-items: baseline;
     color: var(--ink2);
     font: 500 13px / 1.35 var(--f-body);
@@ -611,6 +667,7 @@ const logo = (side: TonightSide | undefined) => (side?.team ? teamLogoUrl(side.t
   }
 
   .minutes {
+    order: 2;
     color: var(--meta);
     font: 500 13px / 1.35 var(--f-body);
     font-variant-numeric: tabular-nums;
