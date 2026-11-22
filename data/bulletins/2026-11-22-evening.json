@@ -1,0 +1,1410 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-22T18:30:00+03:00",
+  "writtenAt": "2026-11-22T17:58:32+03:00",
+  "stories": [
+    {
+      "id": "ac913bcb80d88375",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Pension top-up tops cabinet agenda",
+          "title": "Cabinet meets Monday with a pension top-up leading the agenda",
+          "summary": {
+            "what": "President Erdoğan’s cabinet meets in Ankara on Monday, with a pay rise for about 17 million pensioners expected to lead the agenda.",
+            "why": "Habertürk reports a ‘welfare share’ of 10% to 15% on top of the inflation adjustment is under discussion, with more for older pensioners.",
+            "next": "The bill is expected to go to parliament after the budget debates; Erdoğan has promised it before the new year."
+          },
+          "body": [
+            {
+              "subhead": "Pensions first",
+              "blocks": [
+                {
+                  "text": "The presidential cabinet will meet on Monday at the Beştepe presidential complex in Ankara, chaired by President Recep Tayyip Erdoğan, after a two-week break, NTV and A Haber report. All four outlets that previewed the meeting, NTV, Habertürk, Sözcü and A Haber, expect the economy, and in particular an improvement for pensioners, to dominate it."
+                },
+                {
+                  "text": "The planned ‘welfare share’ (refah payı), a rise on top of the automatic inflation adjustment, would cover about 17 million pensioners, NTV and Sözcü write. Habertürk reports that a welfare share of between 10% and 15% on top of the inflation difference is under discussion, and that pensioners who are older or have paid more days of premiums would get a larger share or a flat-rate rise. Raising the lowest pension is also among the expectations, according to NTV."
+                },
+                {
+                  "text": "Economy officials worked on the technical details over the summer, Habertürk says. Sözcü stresses that nothing is settled: there has been no official statement on the size of the welfare share, who would get it or how much the lowest pension might rise."
+                }
+              ]
+            },
+            {
+              "subhead": "A promise before the new year",
+              "blocks": [
+                {
+                  "quote": "We will put into effect an improvement covering all of our more than 17 million pensioners before the start of the year, with the support of our parliament.",
+                  "speaker": "Recep Tayyip Erdoğan, President",
+                  "sourceId": "a-haber",
+                  "translated": true
+                },
+                {
+                  "text": "The proposal is expected to be submitted to parliament as a bill once the budget marathon is over, NTV and Sözcü report. A Haber adds that the cabinet will also discuss work on the minimum wage rise; asked earlier whether there was a timetable for the minimum wage as well, Erdoğan replied “İnşallah” (God willing)."
+                }
+              ]
+            },
+            {
+              "subhead": "The fund probe and the region",
+              "blocks": [
+                {
+                  "text": "The investment-fund investigation will also be on the table, in both its judicial and administrative aspects. Habertürk says the cabinet will look at details of interim payments to investors in the funds that have been ordered to be wound up."
+                },
+                {
+                  "text": "The ministers will also review the ‘Terror-free Türkiye’ process, including security services’ reports on the outlawed group’s disarmament timetable, and the tension between the United States and Iran. Ankara wants the dispute settled through diplomacy and safe navigation kept in the Strait of Hormuz, NTV and Sözcü report. Israel’s strikes on Gaza and Syria, the war between Russia and Ukraine and the outcome of the COP31 climate summit in Antalya are also on the agenda. Attention after the meeting will turn to Erdoğan’s statement, A Haber notes, and whether the size of the pension rise becomes clear."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Pensioners covered",
+              "value": "≈17 million",
+              "source": "NTV, Sözcü"
+            },
+            {
+              "label": "Welfare share under discussion",
+              "value": "10–15%",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Cabinet meeting",
+              "value": "23 Nov",
+              "source": "NTV, Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Beştepe, Ankara",
+            "lat": 39.93,
+            "lon": 32.8,
+            "region": "Ankara, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Kabinede ilk gündem emekli refah payı",
+          "title": "Kabine yarın toplanıyor: gündemin başında emekliye refah payı var",
+          "summary": {
+            "what": "Cumhurbaşkanı Erdoğan başkanlığındaki Kabine pazartesi Beştepe’de toplanıyor; yaklaşık 17 milyon emekliyi ilgilendiren düzenleme ana gündem.",
+            "why": "Habertürk’e göre enflasyon farkına ek olarak yüzde 10 ila 15 arası refah payı konuşuluyor; yaşı ve prim günü yüksek olanlara daha fazlası verilecek.",
+            "next": "Kanun teklifinin bütçe görüşmelerinden sonra Meclis’e gelmesi bekleniyor; Erdoğan düzenlemeyi yeni yıldan önce sözü vermişti."
+          },
+          "body": [
+            {
+              "subhead": "Önce emekliler",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanlığı Kabinesi, iki haftalık aranın ardından pazartesi günü Cumhurbaşkanı Recep Tayyip Erdoğan başkanlığında Beştepe’de toplanacak, NTV ve A Haber’in haberine göre. Toplantıyı önceden yazan NTV, Habertürk, Sözcü ve A Haber, ağırlıklı gündemin ekonomi ve özellikle emeklilere yönelik iyileştirme olacağını aktarıyor."
+                },
+                {
+                  "text": "NTV ve Sözcü’ye göre refah payı düzenlemesi yaklaşık 17 milyon emekliyi kapsayacak. Habertürk, emeklilere enflasyon farkına ilave olarak yüzde 10 ila 15 arasında refah payı verilmesinin gündemde olduğunu, yaşı ve prim gün sayısı yüksek emeklilere daha yüksek refah payı ya da seyyanen zam yapılacağını yazıyor. En düşük emekli aylığının artırılması da NTV’ye göre beklentiler arasında."
+                },
+                {
+                  "text": "Habertürk’e göre ekonomi kurmayları yaz boyunca teknik bir çalışma yürüttü. Sözcü ise henüz hiçbir şeyin kesinleşmediğini hatırlatıyor: refah payının oranı, kimlerin yararlanacağı ve en düşük aylıktaki artışın miktarı konusunda resmi bir açıklama yok."
+                }
+              ]
+            },
+            {
+              "subhead": "Yeni yıldan önce söz",
+              "blocks": [
+                {
+                  "quote": "17 milyonu aşkın emeklimizin tamamını kapsayan bir iyileştirmeyi yüce meclisimizin de desteğiyle sene başından önce hayata geçireceğiz.",
+                  "speaker": "Recep Tayyip Erdoğan, Cumhurbaşkanı",
+                  "sourceId": "a-haber"
+                },
+                {
+                  "text": "NTV ve Sözcü’ye göre düzenlemenin bütçe maratonunun ardından kanun teklifi olarak Meclis’e sunulması bekleniyor. A Haber, Kabine’de asgari ücret zammına ilişkin çalışmaların da ele alınacağını yazıyor; Erdoğan, asgari ücret için de bir takvim olup olmadığı sorusuna “İnşallah” yanıtını vermişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Fon soruşturması ve bölge",
+              "blocks": [
+                {
+                  "text": "Toplantıda fon soruşturması da adli ve idari boyutlarıyla masaya gelecek. Habertürk’e göre tasfiyesine karar verilen yatırım fonlarında yatırımcılara yapılacak ara ödemelerin ayrıntıları da konuşulacak."
+                },
+                {
+                  "text": "Kabine ayrıca Terörsüz Türkiye sürecini, örgütün silah bırakma takvimine ilişkin güvenlik birimlerinin raporlarını ve ABD ile İran arasındaki gerilimi değerlendirecek. NTV ve Sözcü’ye göre Ankara, gerilimin diplomasiyle çözülmesini ve Hürmüz Boğazı’nda seyrüsefer güvenliğinin korunmasını istiyor. İsrail’in Gazze ve Suriye’ye saldırıları, Rusya-Ukrayna savaşı ve Antalya’daki COP31 zirvesinin sonuçları da gündemde. A Haber’e göre toplantının ardından gözler, emekli zammının netleşip netleşmeyeceği için Erdoğan’ın açıklamasına çevrilecek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kapsanacak emekli",
+              "value": "≈17 milyon",
+              "source": "NTV, Sözcü"
+            },
+            {
+              "label": "Konuşulan refah payı",
+              "value": "%10–15",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Kabine toplantısı",
+              "value": "23 Kasım",
+              "source": "NTV, Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Beştepe, Ankara",
+            "lat": 39.93,
+            "lon": 32.8,
+            "region": "Ankara, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T10:03:41.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T10:49:45.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T10:49:45.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T11:29:35.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T11:48:16.000Z",
+          "sourceId": "a-haber"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/kabine-925856.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/kabine-yarin-toplaniyor-emekliye-refah-payi-duzenlemesi-ve-fon-sorusturmasi-ele-alinacak-1752049"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/kabine-yarin-toplaniyor-emekliye-refah-payi-duzenlemesi-ve-fon-sorusturmasi-ele-alinacak-1752049",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/kabine-toplaniyor-emeklilere-yonelik-maas-duzenlemesi-fon-sorusturmasi-masada-3929196",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/17-milyon-emekliyi-ilgilendiriyor-gozler-yarinki-kabine-toplantisinda-p383445",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/22/emekli-zammi-ve-asgari-ucret-masada-baskan-erdogan-kabineyi-topluyor",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T18:30:00+03:00",
+      "updatedAt": "2026-11-22T18:30:00+03:00"
+    },
+    {
+      "id": "57debf08717e47e6",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "929a53dc95d437b8",
+      "versions": {
+        "en": {
+          "news": "The file says a €100m transfer to his son’s account, sent for a seaside mansion, was blocked by a foreign bank.",
+          "shortTitle": "Sarıgül file details €100m transfer",
+          "title": "Sarıgül immunity file cites a blocked €100m transfer and four alleged victims",
+          "summary": {
+            "what": "Details of the prosecutors’ file seeking to lift MP Mustafa Sarıgül’s immunity were published, including financial claims running to hundreds of millions of euros.",
+            "why": "The file alleges assets were hidden through relatives and the Altınbaş family’s factoring firms, and sets out statements from four alleged victims of sexual offences.",
+            "next": "The file has gone to the Justice Ministry to be passed to parliament, which decides on lifting his immunity."
+          },
+          "body": [
+            {
+              "subhead": "The money trail",
+              "blocks": [
+                {
+                  "text": "The Ankara chief prosecutor’s office drew up the file, known in Türkiye as a fezleke, asking for the parliamentary immunity of Mustafa Sarıgül, an independent MP for Erzincan, to be lifted. Its details were reported on Sunday by Hürriyet, Habertürk, NTV and Diken, citing Anadolu Agency. The file names five charges: laundering the proceeds of crime, forming a criminal organisation, child sexual abuse by molestation, aggravated sexual assault and unlawful acquisition of property."
+                },
+                {
+                  "text": "According to the file, Sarıgül, mayor of Istanbul’s Şişli district from 1999 to 2004, acquired assets irregularly and registered them in the names of relatives and colleagues; they were later transferred, through family and marriage ties, to members of the Altınbaş family and to companies. Prosecutors say money was moved by hand at home and abroad through factoring firms belonging to the Altınbaş family, safe-deposit boxes were rented, assets were taken to European countries and cash was held at two banks in Switzerland."
+                },
+                {
+                  "text": "The file says a €100 million transfer sent from abroad to the account of his son Abdurrahman Emir Sarıgül, as payment for the sale of a seaside mansion with an appraised value of €32 million, was blocked by the foreign bank. To have the block lifted, a British-registered boat was handed over for €1.5 million, but the money was never paid and the block stayed, prosecutors allege. They also cite an online meeting with a bank branch manager at which, they say, it was said that a €1 billion fund would be brought from abroad as a loan using public power, and an €80 million investment contract with North Gayrimenkul."
+                }
+              ]
+            },
+            {
+              "subhead": "Four alleged victims",
+              "blocks": [
+                {
+                  "text": "The file also sets out statements from four people, identified only by initials. Prosecutors classify alleged acts against one of them between 2021 and 2024 as aggravated sexual assault by abuse of influence, and alleged acts against the other three, in 2005–2006, in 2011 and earlier, and in 2014 and earlier, as child sexual abuse committed while he was mayor. One complainant told prosecutors they signed a document drawn up by lawyers in 2024 under which she would pay a €100,000 penalty if she spoke, and that $150,000 was paid for their child’s future, Hürriyet and Diken report."
+                }
+              ]
+            },
+            {
+              "subhead": "Denial and next steps",
+              "blocks": [
+                {
+                  "text": "Sarıgül has denied the allegations. On 28 October he called them “information pollution and a perception operation”, Diken recalls, and he later resigned from the YENİ Parti. His sons Emir and Ömer Sarıgül and his former wife Aylin Kotil were arrested in the money-laundering investigation; Emir Sarıgül was released under house arrest on 4 November."
+                },
+                {
+                  "text": "The file concludes that his immunity must be lifted under Article 83 of the constitution so that he can be prosecuted, and it has been sent to the Justice Ministry to be passed on to parliament."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Transfer blocked by a foreign bank",
+              "value": "€100m",
+              "source": "Prosecutors’ file, via Hürriyet"
+            },
+            {
+              "label": "Appraised value of the mansion",
+              "value": "€32m",
+              "source": "Prosecutors’ file, via Hürriyet"
+            },
+            {
+              "label": "Investment contract cited",
+              "value": "€80m",
+              "source": "Prosecutors’ file, via Habertürk"
+            },
+            {
+              "label": "Charges in the file",
+              "value": "5",
+              "source": "Ankara prosecutors, via AA"
+            }
+          ]
+        },
+        "tr": {
+          "news": "Fezlekeye göre oğlunun hesabına yalı satışı için yurt dışından gönderilen 100 milyon avroluk havale yabancı bankaca bloke edildi.",
+          "shortTitle": "Sarıgül fezlekesinde 100 milyon avro",
+          "title": "Sarıgül fezlekesinde bloke edilen 100 milyon avro ve dört mağdurun beyanı",
+          "summary": {
+            "what": "Milletvekili Mustafa Sarıgül’ün dokunulmazlığının kaldırılması için hazırlanan fezlekenin ayrıntıları ortaya çıktı; yüz milyonlarca avroluk mali iddialar var.",
+            "why": "Fezlekeye göre mal varlığı yakınlar ve Altınbaş ailesinin faktoring şirketleri üzerinden gizlendi; dört mağdurun cinsel suç iddialarına ilişkin beyanı da yer alıyor.",
+            "next": "Fezleke, TBMM’ye iletilmek üzere Adalet Bakanlığı’na gönderildi; dokunulmazlık kararını Meclis verecek."
+          },
+          "body": [
+            {
+              "subhead": "Paranın izi",
+              "blocks": [
+                {
+                  "text": "Ankara Cumhuriyet Başsavcılığının bağımsız Erzincan Milletvekili Mustafa Sarıgül hakkında yasama dokunulmazlığının kaldırılması talebiyle hazırladığı fezlekenin ayrıntıları pazar günü Hürriyet, Habertürk, NTV ve Diken’de, Anadolu Ajansı’na dayanarak yayımlandı. Fezlekede beş suçlama var: suçtan kaynaklanan mal varlığı değerlerini aklama, suç işlemek amacıyla örgüt kurma, sarkıntılık yapmak suretiyle çocuğun cinsel istismarı, nitelikli cinsel saldırı ve haksız mal edinme."
+                },
+                {
+                  "text": "Fezlekeye göre 1999-2004 arasında Şişli Belediye Başkanı olan Sarıgül, mal varlığı edinirken usulsüzlük yaptı; taşınır ve taşınmazlar yakınları ve çalışma arkadaşları adına kaydedildi, ardından yakınlık ve evlilik ilişkisiyle Altınbaş ailesi fertlerine ve şirketlere devredildi. Savcılık, Altınbaş ailesine ait faktoring şirketleri üzerinden yurt içi ve yurt dışına elden transferler yapıldığını, kasa kiralandığını, Avrupa ülkelerine mal varlığı çıkarıldığını ve İsviçre’deki iki bankada nakit tutulduğunu ileri sürüyor."
+                },
+                {
+                  "text": "Fezlekede, oğlu Abdurrahman Emir Sarıgül’ün hesabına 32 milyon avro ekspertiz değerli bir yalının satışı karşılığı yurt dışından gönderilen 100 milyon avroluk havalenin yabancı banka tarafından bloke edildiği yazıyor. Savcılığa göre blokenin çözülmesi için İngiliz siciline kayıtlı bir tekne 1,5 milyon avro karşılığında devredildi, ancak bedel ödenmedi ve bloke kalkmadı. Fezlekede ayrıca bir banka şube müdürünün katıldığı online toplantıda kamu gücü kullanılarak 1 milyar avroluk fonun kredi yöntemiyle yurt dışından getirileceğinin konuşulduğu ve North Gayrimenkul ile 80 milyon avroluk yatırım sözleşmesi yapıldığı iddia ediliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Dört mağdur",
+              "blocks": [
+                {
+                  "text": "Fezlekede adları baş harfleriyle geçen dört kişinin beyanları da var. Savcılık, bunlardan birine 2021-2024 arasındaki eylemleri nüfuzu kötüye kullanarak nitelikli cinsel saldırı, diğer üçüne 2005-2006’da, 2011 ve öncesinde ve 2014 ve öncesindeki eylemleri ise belediye başkanlığı döneminde çocuğun cinsel istismarı olarak nitelendiriyor. Hürriyet ve Diken’e göre müştekilerden biri, 2024’te avukatlarca hazırlanan ve konuşursa 100 bin avro cezai şart ödeyeceğini içeren bir belgeyi imzaladığını ve çocuğunun geleceği için 150 bin dolar ödendiğini anlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ret ve sonraki adım",
+              "blocks": [
+                {
+                  "text": "Sarıgül iddiaları reddediyor. Diken’in hatırlattığına göre 28 Ekim’de iddialar için “bilgi kirliliği ve algı operasyonu” demiş, ardından YENİ Parti üyeliğinden istifa etmişti. Kara para soruşturmasında oğulları Emir ve Ömer Sarıgül ile eski eşi Aylin Kotil tutuklanmış, Emir Sarıgül 4 Kasım’da ev hapsiyle tahliye edilmişti."
+                },
+                {
+                  "text": "Fezlekenin sonuç kısmında, Sarıgül hakkında kovuşturma yapılabilmesi için Anayasa’nın 83. maddesi uyarınca dokunulmazlığının kaldırılması gerektiği belirtiliyor. Fezleke TBMM’ye iletilmek üzere Adalet Bakanlığı’na gönderildi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yabancı bankanın bloke ettiği havale",
+              "value": "100 milyon €",
+              "source": "Fezleke, Hürriyet aracılığıyla"
+            },
+            {
+              "label": "Yalının ekspertiz değeri",
+              "value": "32 milyon €",
+              "source": "Fezleke, Hürriyet aracılığıyla"
+            },
+            {
+              "label": "Fezlekedeki yatırım sözleşmesi",
+              "value": "80 milyon €",
+              "source": "Fezleke, Habertürk aracılığıyla"
+            },
+            {
+              "label": "Fezlekedeki suçlama",
+              "value": "5",
+              "source": "Ankara Başsavcılığı, AA aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T12:31:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:31:19.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T12:31:19.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:32:41.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:35:07.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:46:17.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:56:04.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b02e03e9a30875a04578dc3.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/mustafa-sarigul-fezlekesinden-4-magdurun-beyanlari-ve-milyon-avroluk-mali-iddialar-cikti-43387082"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/mustafa-sarigul-fezlekesinden-4-magdurun-beyanlari-ve-milyon-avroluk-mali-iddialar-cikti-43387082",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/dokunulmazliginin-kaldirilmasi-talep-edildi-sarigul-fezlekesindeki-detaylar-ortaya-cikti-son-dakika-haberleri-3929208",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/mustafa-sarigul-hakkindaki-dokunulmazlik-fezlekesinin-detaylari-ortaya-cikti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/22/mustafa-sarigul-hakkinda-fezleke-hazirlandi-5-ayri-suclama",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/mustafa-sarigulun-fezlekesinden-ayrintilar-4-magdurun-beyanlari-ve-milyon-euroluk-kayitlar-1752067",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/22/son-dakika-mustafa-sarigul-hakkinda-hazirlanan-fezlekenin-detaylari-ortaya-cikti",
+          "confirms": false
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/dokunulmazliginin-kaldirilmasi-talep-edildi-sarigul-fezlekesindeki-detaylar-ortaya-cikti-p383457",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T18:30:00+03:00",
+      "updatedAt": "2026-11-22T18:30:00+03:00"
+    },
+    {
+      "id": "39b79d447c53f1d6",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "20 detained in Kepez bribery probe",
+          "title": "Twenty detained in bribery raids on Antalya’s Kepez municipality",
+          "summary": {
+            "what": "Police detained 20 people, most of them department heads at Antalya’s Kepez municipality, in a bribery and tender-rigging investigation.",
+            "why": "A former Kepez mayor is among those held, and Sözcü says one suspect is alleged to have taken bribes on the current mayor’s behalf.",
+            "next": "The suspects are still being questioned by police, and seized digital material will be examined, Sabah reports."
+          },
+          "body": [
+            {
+              "subhead": "Dawn raids in two cities",
+              "blocks": [
+                {
+                  "text": "Police detained 20 people on Sunday in an investigation into the Kepez municipality in Antalya on suspicion of bribery, rigging public tenders and rigging the performance of contracts, Sabah, Habertürk, Diken, Sözcü, NTV and BBC Türkçe report. The investigation is run by the Antalya chief prosecutor’s office."
+                },
+                {
+                  "text": "Officers from the Antalya police’s anti-smuggling and organised crime (KOM) and intelligence branches carried out simultaneous raids at addresses in Antalya and Konya on 22 November, Sabah writes. According to Sabah, the investigation is based on expert reports and on statements from suspects and complainants. Digital devices used by the suspects were seized in searches of their addresses."
+                }
+              ]
+            },
+            {
+              "subhead": "Who was detained",
+              "blocks": [
+                {
+                  "text": "Most of those held are department heads at the municipality, Sözcü notes. The outlets list them by initials: the heads of zoning, support services, purchasing, press and public relations, financial services, the tenders office and social services, as well as a member of the mayor’s private office, a market-price researcher, a purchasing officer and an architect."
+                },
+                {
+                  "text": "Also detained were a former mayor of Kepez, identified as E.Ö., the director of the Kepez Development and Solidarity Foundation, who Habertürk says is also a municipal councillor for the YENİ Parti, the general manager of Antalya Pamuklu Dokuma, the owner of a logistics company that Sözcü says won a municipal tender, two retired police officers, a lawyer and an estate agent. Sözcü reports that one detainee, Y.N., is alleged to have taken bribes on behalf of the mayor."
+                }
+              ]
+            },
+            {
+              "subhead": "Background",
+              "blocks": [
+                {
+                  "text": "Kepez was won by Mesut Kocagöz of the CHP with 44.1% of the vote in the 31 March local elections, Diken recalls. None of the outlets reported a statement from the municipality or the mayor by Sunday afternoon."
+                },
+                {
+                  "text": "The suspects’ processing at police headquarters is continuing, and the seized digital material will be examined as part of the investigation, Sabah reports. Prosecutors have not said how much money is involved or which tenders are under scrutiny."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "People detained",
+              "value": "20",
+              "source": "Antalya prosecutors, via Sabah, Habertürk"
+            },
+            {
+              "label": "Cities raided",
+              "value": "2",
+              "source": "Sabah, Habertürk"
+            },
+            {
+              "label": "Mayor’s share of the vote in March",
+              "value": "44.1%",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Kepez",
+            "lat": 36.94,
+            "lon": 30.72,
+            "region": "Antalya, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Kepez Belediyesi’ne operasyon: 20 gözaltı",
+          "title": "Antalya’da Kepez Belediyesi’ne rüşvet operasyonu: 20 gözaltı",
+          "summary": {
+            "what": "Antalya’da Kepez Belediyesi’ne yönelik rüşvet ve ihaleye fesat karıştırma soruşturmasında çoğu müdür düzeyinde 20 kişi gözaltına alındı.",
+            "why": "Gözaltındakiler arasında eski Kepez Belediye Başkanı da var; Sözcü’ye göre şüphelilerden biri belediye başkanı adına rüşvet aldığı iddia edilen bir isim.",
+            "next": "Sabah’a göre şüphelilerin emniyetteki işlemleri sürüyor; el konulan dijital materyaller incelenecek."
+          },
+          "body": [
+            {
+              "subhead": "İki ilde eş zamanlı operasyon",
+              "blocks": [
+                {
+                  "text": "Antalya Cumhuriyet Başsavcılığının Kepez Belediyesi’ne yönelik yürüttüğü soruşturmada “rüşvet”, “kamu kurum ve kuruluşlarının ihalesine fesat karıştırma” ve “edimin ifasına fesat karıştırma” suçlamalarıyla pazar günü 20 kişi gözaltına alındı. Haberi Sabah, Habertürk, Diken, Sözcü, NTV ve BBC Türkçe verdi."
+                },
+                {
+                  "text": "Sabah’a göre Antalya Emniyet Müdürlüğü Kaçakçılık ve Organize Suçlarla Mücadele (KOM) ile İstihbarat şube ekipleri 22 Kasım’da Antalya ve Konya’da önceden belirlenen adreslere eş zamanlı operasyon düzenledi. Soruşturma bilirkişi raporları ile şüpheli ve müşteki ifadelerine dayanıyor. Aramalarda şüphelilerin kullandığı dijital materyallere el konuldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Gözaltındakiler",
+              "blocks": [
+                {
+                  "text": "Sözcü’nün aktardığına göre gözaltına alınanların çoğu belediyede müdür düzeyinde. Listede baş harfleriyle İmar Müdürü, Destek Hizmetleri Müdürü, Satın Alma Müdürü, Basın Yayın ve Halkla İlişkiler Müdürü, Mali Hizmetler Müdürü, İhale Servis Müdürü ve Sosyal Hizmetler Müdürü ile Özel Kalem görevlisi, piyasa fiyat araştırma görevlisi, satın alma görevlisi ve bir mimar yer alıyor."
+                },
+                {
+                  "text": "Eski Kepez Belediye Başkanı E.Ö., Habertürk’e göre aynı zamanda YENİ Parti belediye meclis üyesi olan Kepez Kalkınma ve Dayanışma Vakfı Müdürü, Antalya Pamuklu Dokuma Genel Müdürü, Sözcü’ye göre ihale alan lojistik şirketinin sahibi, iki emekli emniyet mensubu, bir avukat ve emlakçılar da gözaltına alındı. Sözcü, Y.N.’nin belediye başkanı adına rüşvet aldığının öne sürüldüğünü yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Arka plan",
+              "blocks": [
+                {
+                  "text": "Diken’in hatırlattığına göre 31 Mart yerel seçimlerinde Kepez Belediyesi’ni CHP’den Mesut Kocagöz yüzde 44,1 oyla kazanmıştı. Pazar öğleden sonrasına kadar haberlerde belediyeden ya da başkandan bir açıklama yer almadı."
+                },
+                {
+                  "text": "Sabah’a göre şüphelilerin emniyetteki işlemleri sürüyor ve el konulan dijital materyaller incelenecek. Savcılık, soruşturmanın hangi ihaleleri kapsadığını ya da söz konusu tutarı henüz açıklamadı. Gözaltılar Antalya’nın yanı sıra Konya’da da yapıldı; aramalarda el konulan dijital materyaller soruşturma dosyasına girecek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltı",
+              "value": "20",
+              "source": "Antalya Başsavcılığı, Sabah ve Habertürk aracılığıyla"
+            },
+            {
+              "label": "Operasyon yapılan il",
+              "value": "2",
+              "source": "Sabah, Habertürk"
+            },
+            {
+              "label": "Başkanın martta aldığı oy",
+              "value": "%44,1",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Kepez",
+            "lat": 36.94,
+            "lon": 30.72,
+            "region": "Antalya, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T08:01:06.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T09:19:48.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T09:19:48.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T09:32:44.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T10:36:36.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T11:22:53.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:14:28.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/22/ver1795335860/3929164/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-kepez-belediyesine-rusvet-sorusturmasi-3929164"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/22/antalya-kepez-belediyesine-operasyon-10-gozalti",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/22/kepez-belediyesine-rusvet-ve-irtikap-operasyonu-20-gozalti",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-kepez-belediyesine-rusvet-sorusturmasi-3929164",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/kepez-belediyesi-odakli-rusvet-operasyonu-20-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/kepez-belediyesi-ne-operasyon-gozaltilar-var-p383403",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/kepez-belediyesine-rusvet-operasyonu-20-kisi-gozaltina-alindi-1752023",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c6y0xy47q4wpo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T18:30:00+03:00",
+      "updatedAt": "2026-11-22T18:30:00+03:00"
+    },
+    {
+      "id": "4ce985e4a870f196",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "AI cheating scandal topples Korean minister",
+          "title": "South Korea’s education minister quits over AI exam-cheating scramble",
+          "summary": {
+            "what": "Education Minister Choi Kyo-jin resigned after last-minute measures against AI-assisted cheating disrupted the Suneung university entrance exam.",
+            "why": "A tax-exam top scorer admitted feeding questions to an AI through a hidden camera, and 111 Suneung candidates were then caught with devices.",
+            "next": "President Lee Jae Myung, who wants the exam system overhauled, accepted the resignation; caught cheats face a ten-year ban and prosecution."
+          },
+          "body": [
+            {
+              "subhead": "A resignation after the exam",
+              "blocks": [
+                {
+                  "text": "South Korea’s education minister, Choi Kyo-jin, resigned on Sunday, taking responsibility for the confusion caused by emergency measures against AI-assisted cheating during Thursday’s Suneung, the national university entrance exam, the BBC, the Guardian, France 24 and the South China Morning Post report. President Lee Jae Myung accepted the resignation, the presidential office said."
+                },
+                {
+                  "quote": "Now that the exam is over, I take full responsibility and hereby offer my resignation.",
+                  "speaker": "Choi Kyo-jin, education minister",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Choi, 72, had struggled to reassure the public, the Guardian writes. Asked at a parliamentary hearing on Monday whether he was confident the authorities could catch cheats on exam day, he replied: “Due to my age, I am not confident I could.” The answer drew a quick backlash, and a vice-minister rather than Choi announced the new measures."
+                }
+              ]
+            },
+            {
+              "subhead": "The confession that started it",
+              "blocks": [
+                {
+                  "text": "The scare began a week ago, when Han Won-seok, 34, the top scorer in April’s national tax accountancy exam, admitted cheating. He had got just one of 160 questions wrong. In a video he said he photographed the questions with a microcamera, sent them to an AI and read the answers on his smartphone, the BBC reports. “My top placing is not the result of legitimate effort,” he said, according to the Guardian."
+                }
+              ]
+            },
+            {
+              "subhead": "Phones that blared in unison",
+              "blocks": [
+                {
+                  "text": "With four days to go before the Suneung, officials doubled the number of supervisors, blocked public wifi near test sites, made students hand in switched-off devices and told them to bring only pencils, the Guardian reports. Glasses and watches were inspected, and buttons on shirts and jackets had to be covered to stop hidden cameras. The government offered a reward of at least $75,000 for reports of cheating."
+                },
+                {
+                  "text": "For the first time, the national disaster alert system was used against cheats: three alerts went out between 08:00 and 15:00 on Thursday, making phones across the country sound at once, even on silent and even those of roaming tourists, the BBC says. Officials found 111 cases of misconduct involving devices among the roughly 500,000 candidates, nearly half of them through the alerts, according to the Guardian."
+                },
+                {
+                  "text": "Students caught cheating can be barred from the exam for ten years and face criminal prosecution. A court rejected a student’s constitutional petition to halt the exam, citing insufficient evidence of irreparable harm. Teachers’ unions called the government’s response belated."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Candidates caught with devices",
+              "value": "111",
+              "source": "Education ministry, via BBC"
+            },
+            {
+              "label": "Students who sat the Suneung",
+              "value": "≈500,000",
+              "source": "BBC"
+            },
+            {
+              "label": "Reward offered for reporting cheats",
+              "value": "$75,000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Ban for candidates caught cheating",
+              "value": "10 years",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Yapay zekâ kopyası bakanı istifa ettirdi",
+          "title": "Güney Kore’de Eğitim Bakanı, yapay zekâ destekli kopya krizi nedeniyle istifa etti",
+          "summary": {
+            "what": "Eğitim Bakanı Choi Kyo-jin, yapay zekâ destekli kopyaya karşı son anda alınan önlemlerin üniversite sınavı Suneung’u karıştırmasının ardından istifa etti.",
+            "why": "Bir sınav birincisi, gizli kamerayla soruları yapay zekâya gönderdiğini itiraf etmişti; Suneung’da 111 aday cihazla yakalandı.",
+            "next": "Sınav sistemini değiştirmek isteyen Cumhurbaşkanı Lee Jae Myung istifayı kabul etti; kopya çekenlere 10 yıl yasak ve dava yolu açık."
+          },
+          "body": [
+            {
+              "subhead": "Sınavdan sonra gelen istifa",
+              "blocks": [
+                {
+                  "text": "Güney Kore Eğitim Bakanı Choi Kyo-jin, perşembe günü yapılan ulusal üniversite giriş sınavı Suneung’da yapay zekâ destekli kopyaya karşı alınan acil önlemlerin yarattığı karmaşanın sorumluluğunu üstlenerek pazar günü istifa etti. Haberi BBC, The Guardian, France 24 ve South China Morning Post verdi. Cumhurbaşkanlığı ofisi, Cumhurbaşkanı Lee Jae Myung’un istifayı kabul ettiğini açıkladı."
+                },
+                {
+                  "quote": "Sınav sona erdiğine göre tüm sorumluluğu üstleniyor ve istifamı sunuyorum.",
+                  "speaker": "Choi Kyo-jin, Eğitim Bakanı",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre 72 yaşındaki Choi, kamuoyunu ikna etmekte zorlandı. Pazartesi günkü meclis oturumunda yetkililerin sınav günü kopyacıları yakalayabileceğinden emin olup olmadığı sorulunca “Yaşım nedeniyle yakalayabileceğimden emin değilim” yanıtını verdi. Sözleri hızla tepki çekti; yeni önlemleri Choi yerine bir bakan yardımcısı duyurdu."
+                }
+              ]
+            },
+            {
+              "subhead": "Krizi başlatan itiraf",
+              "blocks": [
+                {
+                  "text": "Kriz bir hafta önce, nisandaki ulusal mali müşavirlik sınavının birincisi 34 yaşındaki Han Won-seok’un kopya çektiğini itiraf etmesiyle başladı. Han, 160 sorudan yalnızca birini yanlış yapmıştı. BBC’ye göre bir videoda soruları mikro kamerayla fotoğraflayıp bir yapay zekâya gönderdiğini, cevapları akıllı telefonundan okuduğunu anlattı. The Guardian’a göre “Birinciliğim meşru bir çabanın sonucu değil” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Aynı anda çalan telefonlar",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın aktardığına göre Suneung’a dört gün kala yetkililer gözetmen sayısını ikiye katladı, sınav bölgelerinde halka açık wifi’yi kapattı, öğrencilerden cihazlarını kapalı olarak teslim etmelerini ve yalnızca kurşun kalemle gelmelerini istedi. Gözlükler ve saatler kontrol edildi, gizli kameraya karşı gömlek ve ceket düğmelerinin kapatılması istendi. Hükümet, kopya ihbarı için en az 75 bin dolar ödül vaat etti."
+                },
+                {
+                  "text": "BBC’ye göre ulusal afet uyarı sistemi ilk kez kopyacılara karşı kullanıldı: perşembe günü 08.00 ile 15.00 arasında gönderilen üç uyarı, sessizdeki telefonlar ve dolaşımdaki turistlerin telefonları dahil ülkedeki tüm telefonları aynı anda çaldırdı. The Guardian’a göre yaklaşık 500 bin adaydan 111’inde cihazla ilgili ihlal tespit edildi; bunların neredeyse yarısı uyarılar sayesinde yakalandı."
+                },
+                {
+                  "text": "Kopya çekerken yakalanan öğrenciler 10 yıl sınava girmekten men edilebilir ve hakkında cezai kovuşturma açılabilir. Bir öğrencinin sınavın durdurulması için yaptığı anayasa başvurusunu mahkeme, telafisi imkânsız zarar kanıtı yetersiz diyerek reddetti. Öğretmen sendikaları hükümetin tepkisini geç kalmış buldu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Cihazla yakalanan aday",
+              "value": "111",
+              "source": "Eğitim Bakanlığı, BBC aracılığıyla"
+            },
+            {
+              "label": "Suneung’a giren öğrenci",
+              "value": "≈500 bin",
+              "source": "BBC"
+            },
+            {
+              "label": "Kopya ihbarı ödülü",
+              "value": "75 bin $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Kopya çekene sınav yasağı",
+              "value": "10 yıl",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T06:36:57.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T09:20:45.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T09:20:45.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T10:05:28.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:12:08.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3375362/south-koreas-education-minister-quits-amid-backlash-over-anti-cheating-exam-checks",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T18:30:00+03:00",
+      "updatedAt": "2026-11-22T18:30:00+03:00"
+    },
+    {
+      "id": "42c8e477bbcfc00a",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "8b20e21a6d79aa31",
+      "versions": {
+        "en": {
+          "news": "COP31 ended without its main deal after the EU and others rejected the ‘Antalya pact’ for not mentioning fossil fuels.",
+          "shortTitle": "COP31 ends without a deal",
+          "title": "COP31 in Antalya ends without a deal over fossil fuels",
+          "summary": {
+            "what": "The UN climate talks in Antalya ended on Sunday without their main decision after the EU, the UK and others rejected the ‘Antalya pact’ draft.",
+            "why": "It is the first COP since Copenhagen in 2009 to fail to adopt a deal, and Türkiye co-led it; the draft did not mention fossil fuels.",
+            "next": "COP president Murat Kurum said there would be no new text; decisions already taken, such as on a just transition, stand."
+          },
+          "body": [
+            {
+              "subhead": "No consensus, no new text",
+              "blocks": [
+                {
+                  "text": "The COP31 climate conference in Antalya ended on Sunday without adopting its main ‘cover decision’, after the European Union, the UK, Panama, the Marshall Islands, Norway and others refused to back a final draft that did not mention fossil fuels, France 24, the Guardian, Euronews, DW Türkçe and BBC Türkçe report. The last time UN climate talks failed to get a deal adopted by all was in Copenhagen in 2009, France 24 notes."
+                },
+                {
+                  "text": "Murat Kurum, Türkiye’s environment minister and the conference president, told the closing plenary that there was no consensus and that the decisions had not been adopted. The talks, due to end on Friday, ran 44 hours over, making COP31 the longest UN climate conference on record, Euronews Türkçe reports, citing Earth Negotiations Bulletin."
+                },
+                {
+                  "quote": "From now on there will be no new text. In an environment where there is no consensus, we will not be working on a new text.",
+                  "speaker": "Murat Kurum, COP31 president",
+                  "sourceId": "diken",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Why the EU said no",
+              "blocks": [
+                {
+                  "text": "Speaking for the EU, Ireland’s climate minister Darragh O’Brien said the bloc would not endorse a cover decision or an Antalya pact “that does not even mention fossil fuels, which is the key driver of climate change”. His intervention drew applause in the hall, the Guardian reports. More than 130 countries had demanded a commitment to “transition away from fossil fuels”."
+                },
+                {
+                  "text": "The draft invited countries to electrify their economies, raising electricity’s share of final energy use from about 21% to 35% by 2035, according to Euronews Türkçe, and called for finance for poorer countries and for keeping the overshoot of the 1.5C limit small. But it kept a contested push for carbon capture and storage, which critics say prolongs fossil fuel use. Saudi Arabia and other oil producers had lobbied to keep fossil fuels out, observers told France 24, and Russia backed the omission."
+                }
+              ]
+            },
+            {
+              "subhead": "Reactions",
+              "blocks": [
+                {
+                  "text": "UN Secretary-General António Guterres said he was “deeply disappointed”. “Those who profit from the destruction of our planet must never dictate the terms of the fight to save it,” he said. Australia’s Chris Bowen, who led the negotiations, called the result “very disappointing” and named fuels and climate finance as the dealbreakers."
+                },
+                {
+                  "text": "Mohamed Adow of Power Shift Africa called it the worst COP ever and said the EU could not wash its hands of the outcome, the Guardian reports. The presidencies did pass decisions on related matters, including the “just transition” for workers in high-carbon industries, and the failure does not erase obligations agreed at earlier conferences, France 24 notes."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Hours past the scheduled close",
+              "value": "44",
+              "source": "Earth Negotiations Bulletin, via Euronews"
+            },
+            {
+              "label": "Countries demanding a fossil fuel exit",
+              "value": "130+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Electricity share goal for 2035",
+              "value": "35%",
+              "source": "Draft text, via Euronews"
+            },
+            {
+              "label": "Last COP to end without a deal",
+              "value": "2009",
+              "source": "France 24"
+            }
+          ],
+          "keyNumber": {
+            "label": "Electricity’s share of final energy",
+            "unit": "%",
+            "before": 21,
+            "after": 35,
+            "source": "Draft text, via Euronews"
+          }
+        },
+        "tr": {
+          "news": "COP31, AB ve diğer ülkelerin fosil yakıtları anmayan ‘Antalya Paktı’nı reddetmesiyle ana karar alınamadan sona erdi.",
+          "shortTitle": "COP31 anlaşmasız sona erdi",
+          "title": "Antalya’daki COP31, AB’nin fosil yakıtları anmayan metni reddetmesiyle anlaşmasız bitti",
+          "summary": {
+            "what": "Antalya’daki BM iklim zirvesi pazar günü, AB, İngiltere ve başka ülkelerin ‘Antalya Paktı’ taslağını reddetmesiyle ana karar alınamadan sona erdi.",
+            "why": "2009 Kopenhag’dan bu yana anlaşmasız biten ilk COP bu oldu ve başkanlığını Türkiye yürütüyordu; taslak fosil yakıtlardan söz etmiyordu.",
+            "next": "COP Başkanı Murat Kurum yeni metin olmayacağını söyledi; adil geçiş gibi daha önce alınan kararlar geçerli."
+          },
+          "body": [
+            {
+              "subhead": "Uzlaşı yok, yeni metin yok",
+              "blocks": [
+                {
+                  "text": "Antalya’daki COP31 iklim konferansı, Avrupa Birliği, İngiltere, Panama, Marshall Adaları, Norveç ve başka ülkelerin fosil yakıtlardan söz etmeyen son taslağı desteklememesi üzerine ana sonuç metni olan ‘örtü kararı’ kabul edilmeden pazar günü sona erdi. Haberi France 24, The Guardian, Euronews, DW Türkçe ve BBC Türkçe verdi. France 24’e göre BM iklim müzakerelerinde herkesçe kabul edilen bir anlaşma en son 2009’da Kopenhag’da çıkmamıştı."
+                },
+                {
+                  "text": "Çevre, Şehircilik ve İklim Değişikliği Bakanı ve COP31 Başkanı Murat Kurum, kapanış oturumunda uzlaşı olmadığını ve kararların kabul edilmediğini söyledi. Euronews Türkçe’nin Earth Negotiations Bulletin’e dayanarak aktardığına göre cuma bitmesi gereken zirve planlanan kapanışı 44 saat aşarak BM tarihinin en uzun iklim konferansı oldu."
+                },
+                {
+                  "quote": "Bundan sonra yeni bir metin olmayacak. Yani zaten hani uzlaşının sağlanmadığı bir ortamda biz yeni bir metin çalışması yapmayacağız.",
+                  "speaker": "Murat Kurum, COP31 Başkanı",
+                  "sourceId": "diken"
+                }
+              ]
+            },
+            {
+              "subhead": "AB neden hayır dedi",
+              "blocks": [
+                {
+                  "text": "AB adına konuşan İrlanda İklim Bakanı Darragh O’Brien, birliğin “iklim değişikliğinin temel itici gücü olan fosil yakıtlardan söz bile etmeyen” bir örtü kararını ya da Antalya Paktı’nı onaylamayacağını söyledi. The Guardian’a göre konuşması salonda alkışlandı. 130’dan fazla ülke “fosil yakıtlardan uzaklaşma” taahhüdü istiyordu."
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre taslak, elektriğin nihai enerji tüketimindeki payının yaklaşık yüzde 21’den 2035’e kadar yüzde 35’e çıkarılmasını öngörüyor, yoksul ülkelere finansman ve 1,5 derece sınırının aşımının en aza indirilmesi çağrısı yapıyordu. Ancak eleştirmenlerin fosil yakıt kullanımını uzattığını söylediği karbon yakalama ve depolama vurgusunu koruyordu. France 24’e göre gözlemciler Suudi Arabistan ve diğer petrol üreticilerinin fosil yakıtların metne girmemesi için yoğun lobi yaptığını söyledi; Rusya da atıf yapılmamasını destekledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Tepkiler",
+              "blocks": [
+                {
+                  "text": "BM Genel Sekreteri António Guterres “derinden hayal kırıklığına uğradığını” söyledi: “Gezegenimizin yok edilmesinden kazanç sağlayanlar, onu kurtarmak için verilen mücadelenin şartlarını asla belirlememelidir.” Müzakerelere başkanlık eden Avustralyalı Chris Bowen sonucu “büyük bir hayal kırıklığı” olarak niteledi; France 24’e göre anlaşmayı bozan konular yakıtlar ve iklim finansmanıydı."
+                },
+                {
+                  "text": "The Guardian’a göre Power Shift Africa’dan Mohamed Adow zirveyi “gelmiş geçmiş en kötü COP” diye niteledi ve AB’nin sonuçtan elini yıkayamayacağını söyledi. Başkanlıklar, yüksek karbonlu sektörlerdeki çalışanlar için “adil geçiş” gibi ilgili konularda karar çıkardı; France 24, başarısızlığın önceki konferanslarda üstlenilen yükümlülükleri ortadan kaldırmadığını hatırlatıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Planlanan kapanıştan sonra geçen süre",
+              "value": "44 saat",
+              "source": "Earth Negotiations Bulletin, Euronews aracılığıyla"
+            },
+            {
+              "label": "Fosil yakıttan çıkış isteyen ülke",
+              "value": "130+",
+              "source": "The Guardian"
+            },
+            {
+              "label": "2035 elektrik payı hedefi",
+              "value": "%35",
+              "source": "Taslak metin, Euronews aracılığıyla"
+            },
+            {
+              "label": "Anlaşmasız biten son COP",
+              "value": "2009",
+              "source": "France 24"
+            }
+          ],
+          "keyNumber": {
+            "label": "Elektriğin nihai enerjideki payı",
+            "unit": "%",
+            "before": 21,
+            "after": 35,
+            "source": "Taslak metin, Euronews aracılığıyla"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T07:50:54.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:22:33.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T12:22:33.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:54:41.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/50f3/live/c6f5b6b0-e675-11f1-a5bc-ddaec99ca2c4.jpg",
+        "sourceId": "bbc-turkce",
+        "sourceName": "BBC Türkçe",
+        "articleUrl": "https://www.bbc.com/turkce/articles/c5rmg31g88glo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/22/cop31-antalya-konferansi-ab-ve-diger-ulkeler-fosil-yakit-yok-diye-iklim-anlasma-taslagini",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/cop31-de-fosil-yak%C4%B1t-anla%C5%9Fmazl%C4%B1%C4%9F%C4%B1-taslak-metinde-uzla%C5%9Fma-sa%C4%9Flanamad%C4%B1/a-80013013?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/cop31de-anlasma-saglanamadi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c5rmg31g88glo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T18:30:00+03:00",
+      "updatedAt": "2026-11-22T18:30:00+03:00"
+    },
+    {
+      "id": "9b22eacc165d4fd4",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Indonesia candy factory fire kills three",
+          "title": "Fire at Indonesian sweet factory kills at least three, dozens missing",
+          "summary": {
+            "what": "A fire tore through the Fonusa Agung Mulia confectionery factory west of Jakarta, killing at least three people and leaving dozens of workers missing.",
+            "why": "It is the latest in a series of deadly industrial fires in Indonesia that have raised questions about workplace safety, DW notes.",
+            "next": "The search inside the building resumes once it has cooled and is declared safe; the cause is under investigation."
+          },
+          "body": [
+            {
+              "subhead": "A blaze on a Saturday afternoon",
+              "blocks": [
+                {
+                  "text": "At least three people were killed and dozens more are missing after a fire at a confectionery factory in Indonesia’s Banten province, about 50km west of the capital Jakarta, DW, the Guardian, France 24, Euronews, the South China Morning Post and the BBC report. The Fonusa Agung Mulia factory in Cikande, in the Serang district, makes Milkita, an Indonesian brand of milk-based sweets, DW writes."
+                },
+                {
+                  "text": "Firefighters were alerted at about 4.30pm on Saturday and found the building already engulfed, fire official Tubagus Machfudz told Kompas TV, according to the Guardian. The fire was put out at around 6.30am on Sunday, police told Euronews. Drone footage showed large parts of the three-storey building destroyed, with the roof collapsed in places. Survivors said the fire started in a cooling unit on the third floor, DW and France 24 report."
+                },
+                {
+                  "quote": "When we arrived … a large area was already on fire. So we could not determine whether the company’s protection system was functioning properly or not.",
+                  "speaker": "Tubagus Machfudz, fire official",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "How many are missing",
+              "blocks": [
+                {
+                  "text": "The figures are still moving. Search official Rizky Dwianto said 36 workers were unaccounted for, four injured people were taken to hospital or a clinic and 11 more were rescued alive. Banten’s governor, Andra Soni, said about 60 people were believed to have been inside. Police later told Euronews that 42 of 54 registered employees were unaccounted for, while 11 had returned home and one was being treated."
+                },
+                {
+                  "text": "Emergency workers had removed at least six body bags from the site, police told Euronews; the South China Morning Post put the number of body bags at 24. Relatives gathered at the factory gate seeking news of the missing, the Guardian reports. The search inside the production and office buildings will continue once the cooling is complete and the site is declared safe, police said."
+                }
+              ]
+            },
+            {
+              "subhead": "A pattern of factory fires",
+              "blocks": [
+                {
+                  "text": "The local disaster agency said the cause was under investigation. The factory belongs to United Family Food (UNIFAM), founded in 1981, according to the SCMP. Indonesia has had a series of deadly industrial fires in recent years: at least 22 people died last December in a fire in a seven-storey Jakarta building, likely caused by a drone battery explosion, and an explosion at a nickel-processing plant in the east killed at least 13 in 2023."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Confirmed dead",
+              "value": "3",
+              "source": "Search and rescue agency, via DW"
+            },
+            {
+              "label": "Employees unaccounted for",
+              "value": "42 of 54",
+              "source": "Indonesian police, via Euronews"
+            },
+            {
+              "label": "Believed inside at the time",
+              "value": "≈60",
+              "source": "Banten governor, via DW"
+            },
+            {
+              "label": "Distance from Jakarta",
+              "value": "≈50 km",
+              "source": "DW, The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Cikande",
+            "lat": -6.18,
+            "lon": 106.35,
+            "region": "Banten, Indonesia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Endonezya’da şekerleme fabrikasında yangın",
+          "title": "Endonezya’da şekerleme fabrikasında yangın: en az 3 ölü, onlarca kayıp",
+          "summary": {
+            "what": "Cakarta’nın batısındaki Fonusa Agung Mulia şekerleme fabrikasında çıkan yangında en az üç kişi öldü, onlarca işçi kayıp.",
+            "why": "DW’ye göre yangın, Endonezya’da iş güvenliğini tartışmaya açan ölümcül sanayi yangınlarının sonuncusu.",
+            "next": "Bina soğuyup güvenli ilan edildiğinde içerideki arama sürecek; yangının nedeni araştırılıyor."
+          },
+          "body": [
+            {
+              "subhead": "Cumartesi öğleden sonra başlayan yangın",
+              "blocks": [
+                {
+                  "text": "Endonezya’nın Banten eyaletinde, başkent Cakarta’nın yaklaşık 50 kilometre batısındaki bir şekerleme fabrikasında çıkan yangında en az üç kişi hayatını kaybetti, onlarca kişi kayıp. Haberi DW, The Guardian, France 24, Euronews, South China Morning Post ve BBC verdi. DW’ye göre Serang bölgesindeki Cikande’de bulunan Fonusa Agung Mulia fabrikası, Endonezya’nın sütlü şekerleme markası Milkita’yı üretiyor."
+                },
+                {
+                  "text": "The Guardian’ın aktardığına göre itfaiye yetkilisi Tubagus Machfudz, Kompas TV’ye ekiplerin cumartesi saat 16.30 civarında haber aldığını ve vardıklarında binayı alevler içinde bulduğunu söyledi. Polisin Euronews’e verdiği bilgiye göre yangın pazar sabahı 06.30 civarında söndürüldü. Dron görüntüleri üç katlı binanın büyük bölümünün yandığını, çatının yer yer çöktüğünü gösterdi. DW ve France 24’e göre hayatta kalanlar yangının üçüncü kattaki bir soğutma ünitesinde başladığını anlattı."
+                },
+                {
+                  "quote": "Vardığımızda geniş bir alan zaten yanıyordu. Bu yüzden şirketin koruma sisteminin düzgün çalışıp çalışmadığını tespit edemedik.",
+                  "speaker": "Tubagus Machfudz, itfaiye yetkilisi",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Kaç kişi kayıp",
+              "blocks": [
+                {
+                  "text": "Rakamlar hâlâ değişiyor. Arama kurtarma yetkilisi Rizky Dwianto 36 işçiden haber alınamadığını, dört yaralının hastane ve sağlık ocağına kaldırıldığını, 11 kişinin de sağ kurtarıldığını söyledi. Banten Valisi Andra Soni, yangın sırasında içeride yaklaşık 60 kişi olduğunun düşünüldüğünü açıkladı. Polis daha sonra Euronews’e kayıtlı 54 çalışandan 42’sine ulaşılamadığını, 11’inin evine döndüğünü, birinin tedavi gördüğünü bildirdi."
+                },
+                {
+                  "text": "Polisin Euronews’e verdiği bilgiye göre ekipler alandan en az altı ceset torbası çıkardı; South China Morning Post bu sayıyı 24 olarak verdi. The Guardian’a göre kayıpların yakınları haber almak için fabrikanın girişinde toplandı. Polis, üretim ve ofis binalarındaki aramanın soğutma tamamlanıp alan güvenli ilan edildiğinde süreceğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Tekrarlayan fabrika yangınları",
+              "blocks": [
+                {
+                  "text": "Yerel afet ajansı yangının nedeninin araştırıldığını açıkladı. SCMP’ye göre fabrika, 1981’de kurulan United Family Food (UNIFAM) şirketine ait. Endonezya son yıllarda bir dizi ölümcül sanayi yangını yaşadı: geçen aralıkta Cakarta’da yedi katlı bir binada muhtemelen dron bataryasının patlamasıyla çıkan yangında en az 22 kişi öldü, 2023’te ülkenin doğusundaki bir nikel işleme tesisinde meydana gelen patlamada en az 13 kişi hayatını kaybetti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Doğrulanan ölü",
+              "value": "3",
+              "source": "Arama kurtarma ajansı, DW aracılığıyla"
+            },
+            {
+              "label": "Ulaşılamayan çalışan",
+              "value": "54’te 42",
+              "source": "Endonezya polisi, Euronews aracılığıyla"
+            },
+            {
+              "label": "Yangın anında içeride",
+              "value": "≈60",
+              "source": "Banten Valisi, DW aracılığıyla"
+            },
+            {
+              "label": "Cakarta’ya uzaklık",
+              "value": "≈50 km",
+              "source": "DW, The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Cikande",
+            "lat": -6.18,
+            "lon": 106.35,
+            "region": "Banten, Endonezya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T06:14:00.000Z",
+          "sourceId": "dw-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T07:11:17.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T07:11:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T09:45:40.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:11:00.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T12:22:47.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T14:05:20.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/f94de65e-e66c-11f1-93f4-1bac47ab2f5d/w:1024/p:16x9/EN-20261122-120836-121007-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing"
+      },
+      "sources": [
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375375/indonesia-searches-50-recovers-7-body-bags-after-factory-fire",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T18:30:00+03:00",
+      "updatedAt": "2026-11-22T18:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "ac913bcb80d88375",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "About how many pensioners would the planned ‘welfare share’ cover?",
+          "options": ["About 9 million", "About 17 million", "About 25 million"]
+        },
+        "tr": {
+          "question": "Planlanan refah payı düzenlemesi yaklaşık kaç emekliyi kapsayacak?",
+          "options": ["Yaklaşık 9 milyon", "Yaklaşık 17 milyon", "Yaklaşık 25 milyon"]
+        }
+      }
+    },
+    {
+      "storyId": "4ce985e4a870f196",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "What did South Korea use for the first time to catch hidden phones during the Suneung exam?",
+          "options": [
+            "Drones over exam halls",
+            "Mobile signal jammers",
+            "The national disaster alert system"
+          ]
+        },
+        "tr": {
+          "question": "Güney Kore, Suneung sınavında gizli telefonları yakalamak için ilk kez neyi kullandı?",
+          "options": [
+            "Sınav salonları üzerinde dron",
+            "Sinyal kesici cihazlar",
+            "Ulusal afet uyarı sistemini"
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "42c8e477bbcfc00a",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "By how many hours did COP31 in Antalya overrun its scheduled close?",
+          "options": ["44 hours", "12 hours", "72 hours"]
+        },
+        "tr": {
+          "question": "Antalya’daki COP31 planlanan kapanışı kaç saat aştı?",
+          "options": ["44 saat", "12 saat", "72 saat"]
+        }
+      }
+    }
+  ]
+}
