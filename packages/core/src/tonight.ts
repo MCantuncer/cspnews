@@ -55,6 +55,13 @@ export const PersonLineSchema = z
     assists: tally.optional(),
     points: tally.optional(),
     rebounds: tally.optional(),
+    /** Minutes on the pitch or court, once the match is over. */
+    minutes: tally.optional(),
+    /**
+     * Why a finished match has no minutes for them: named among the substitutes but never sent
+     * on (`unused`), or not in the matchday squad at all (`notInSquad`).
+     */
+    didNotPlay: z.enum(['unused', 'notInSquad']).optional(),
   })
   .strict();
 
@@ -105,7 +112,7 @@ export const TonightItemSchema = z
     live: LiveSchema.optional(),
     /** The followed people's goals and assists (football) or points, rebounds and assists. */
     lines: z.array(PersonLineSchema).min(1).max(4).optional(),
-    /** Goal scorers (football) or each side's top scorer (basketball), for club and national rows. */
+    /** Goal scorers (football) or each side's top scorer (basketball), for every scoreboard row. */
     scorers: z.array(ScorerSchema).min(1).max(16).optional(),
     /** The final score, once the match has ended. */
     result: z.object({ home: score, away: score }).strict().optional(),

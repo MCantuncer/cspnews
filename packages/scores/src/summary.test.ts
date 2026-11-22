@@ -40,6 +40,30 @@ describe('game summaries', () => {
       points: 27,
       rebounds: 13,
       assists: 8,
+      minutes: 36,
+    });
+  });
+
+  it('says when a basketball player was left out', () => {
+    const page = {
+      boxscore: {
+        players: [
+          {
+            statistics: [
+              {
+                keys: ['minutes', 'points'],
+                athletes: [
+                  { athlete: { displayName: 'Alperen Sengun' }, stats: [], didNotPlay: true },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    };
+    expect(alperen && basketballLine(page, alperen)).toEqual({
+      person: 'alperen-sengun',
+      didNotPlay: 'unused',
     });
   });
 
@@ -83,5 +107,59 @@ describe('game summaries', () => {
       assists: 1,
     });
     expect(arda && footballLine({ rosters: [] }, arda)).toBeUndefined();
+  });
+
+  describe('minutes on the pitch, once the match is over', () => {
+    const over = { header: { competitions: [{ status: { type: { state: 'post' } } }] } };
+    const others = (n: number) =>
+      Array.from({ length: n }, (_, i) => ({ athlete: { displayName: `Player ${String(i)}` } }));
+    const sheet = (entry: Record<string, unknown> | undefined, state = over) => ({
+      ...state,
+      rosters: [
+        {
+          roster: [
+            ...others(13),
+            ...(entry ? [{ athlete: { displayName: 'Arda Guler' }, ...entry }] : []),
+          ],
+        },
+        { roster: others(14) },
+      ],
+    });
+    const sub = (minute: string) => ({ substitution: true, clock: { displayValue: minute } });
+
+    it('gives a starter who stayed on the whole match', () => {
+      expect(arda && footballLine(sheet({ starter: true }), arda)).toEqual({
+        person: 'arda-guler',
+        minutes: 90,
+      });
+    });
+
+    it('counts a starter until they came off, and a substitute from when they came on', () => {
+      const off = sheet({ starter: true, subbedOut: true, plays: [sub("64'")] });
+      expect(arda && footballLine(off, arda)?.minutes).toBe(64);
+      const on = sheet({ starter: false, subbedIn: { didSub: true }, plays: [sub("71'")] });
+      expect(arda && footballLine(on, arda)?.minutes).toBe(19);
+      const both = sheet({ subbedIn: true, subbedOut: true, plays: [sub("46'"), sub("80'")] });
+      expect(arda && footballLine(both, arda)?.minutes).toBe(34);
+    });
+
+    it('says an unused substitute and a player not in the squad apart', () => {
+      expect(arda && footballLine(sheet({ starter: false, subbedIn: false }), arda)).toEqual({
+        person: 'arda-guler',
+        didNotPlay: 'unused',
+      });
+      expect(arda && footballLine(sheet(undefined), arda)).toEqual({
+        person: 'arda-guler',
+        didNotPlay: 'notInSquad',
+      });
+    });
+
+    it('says nothing of minutes or absence while the match is on', () => {
+      const live = { header: { competitions: [{ status: { type: { state: 'in' } } }] } };
+      expect(arda && footballLine(sheet({ starter: true }, live), arda)).toEqual({
+        person: 'arda-guler',
+      });
+      expect(arda && footballLine(sheet(undefined, live), arda)).toBeUndefined();
+    });
   });
 });

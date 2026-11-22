@@ -17,7 +17,7 @@ Logos and player photos come from the leagues' own data and are saved next to th
 ## Scoreboard rows (2026-11-16)
 
 - **A Turkish club or national team match is a scoreline (Can, 2026-11-16).** Home team on the left, away team on the right, each with its crest above its name (national teams: the whole flag as a small rounded rectangle, never cut into a circle), our side in bold. The middle holds the kick-off time, then the score with the minute under it while it is played, then the score with "Full time".
-- **Each goal under the side that scored it, minute first, using the row's whole width.** Own goals in a soft red. Football: "49' Topcu OG", "23' 67' Osimhen", from ESPN's scoreboard; the home side's goals in the left half, the away side's in the right half, small type, a long name wrapping under itself. Euroleague: each side's top scorer with their points ("24 PTS Hayes-Davis"), from the game's box score. Our side's scorers in ink, the other side's quieter.
+- **Each goal under the side that scored it, using the row's whole width.** Own goals in a soft red. Football: "49' Topcu OG", "23' 67' Osimhen", from ESPN's scoreboard; the home side's goals in the left half, the away side's in the right half, small type, a long name wrapping under itself. Euroleague: each side's top scorer with their points ("24 PTS Hayes-Davis"), from the game's box score. Our side's scorers in ink, the other side's quieter.
 - **Official photos only.** A scorer's photo is the league's or the score source's own (ESPN headshot, Euroleague headshot), saved with the bulletin. No photo means no circle at all: never initials or a stand-in.
 - **Live like the rest.** The live Worker adds the scorers (from the league scoreboard or the box score) while a match is played, and the page redraws them.
 
@@ -40,3 +40,10 @@ Logos and player photos come from the leagues' own data and are saved next to th
 - **One quiet card a match**, like the Turks abroad cards: a person's name (or, for a club or national team, the competition) on top, a person's numbers on one quiet line, then the match under a hairline. Cards sit side by side where there is room.
 - **The match is a scoreboard**: one line a team, crest and name on the left, its score on the right, the end or the minute beside both; home first, away second. A long club name gets the whole width instead of being squeezed beside the score. Before the start, the time and its word stand together on the right.
 - **No station dots in the rows.** Our side's score carries the result as a soft green or red tint; the other side's score steps back to the quieter ink.
+
+## Even cards, every detail (Can, 2026-11-22)
+
+- **Fixed columns.** Every card holds the score and the status in the same two columns, and the chevron keeps its place even on a card with nothing to open, so scores and words line up from card to card. One even 20px inset inside each card, 16px between the head, the match and its scorers, 12px between the two team lines.
+- **Scorers read name first,** the minutes after it in the quiet colour ("Pio Esposito 16' 32' 52'"); a long run of minutes moves to the next line instead of squeezing the name.
+- **Every scoreboard opens to who scored,** a person's match as much as a club's. A row built after the final whistle without its scorers or the person's line asks the live scores once for them.
+- **Minutes played, once the match is over:** last on the person's line ("1 goal 1 assist 90 min"), from the source's squad sheet (starters until they came off, substitutes from when they came on, stoppage time left out). A player who did not play is said in words: "Unused substitute" / "Yedek kulübesinde kaldı", or "Not in the squad" / "Kadroda yok"; a basketball player left out "Did not play" / "Oynamadı".

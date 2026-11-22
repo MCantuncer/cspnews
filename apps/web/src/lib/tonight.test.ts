@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest';
 
-import { personMarks, tonightOutcome, tonightState, tonightStatus, tonightWhat } from './tonight';
+import {
+  isSettled,
+  personAbsence,
+  personMarks,
+  tonightOutcome,
+  tonightState,
+  tonightStatus,
+  tonightWhat,
+} from './tonight';
 
 const match = {
   kind: 'match' as const,
@@ -87,5 +95,33 @@ describe('tonight outcome and marks', () => {
       { kind: 'rebounds', count: 13 },
       { kind: 'assists', count: 8 },
     ]);
+  });
+});
+
+describe('finished rows', () => {
+  const result = { home: 4, away: 0 };
+  const scorers = [{ side: 'home' as const, name: 'Kenan Yıldız', minutes: ["34'"] }];
+  const lines = [{ person: 'kenan-yildiz', goals: 1 }];
+
+  it('asks the live scores once when a finished row lacks its scorers or the person’s line', () => {
+    expect(isSettled({ sport: 'football', focus: 'person', result })).toBe(false);
+    expect(isSettled({ sport: 'football', focus: 'person', result, scorers })).toBe(false);
+    expect(isSettled({ sport: 'football', focus: 'person', result, scorers, lines })).toBe(true);
+    expect(isSettled({ sport: 'football', focus: 'club', result, scorers })).toBe(true);
+    expect(isSettled({ sport: 'football', focus: 'club', result: { home: 0, away: 0 } })).toBe(
+      true,
+    );
+    expect(isSettled({ sport: 'football', focus: 'club' })).toBe(false);
+  });
+
+  it('puts the minutes played last and says why a player did not play', () => {
+    expect(personMarks({ goals: 1, minutes: 90 })).toEqual([
+      { kind: 'goals', count: 1 },
+      { kind: 'minutes', count: 90 },
+    ]);
+    expect(personAbsence({ didNotPlay: 'unused' }, 'en', 'football')).toBe('Unused substitute');
+    expect(personAbsence({ didNotPlay: 'notInSquad' }, 'tr', 'football')).toBe('Kadroda yok');
+    expect(personAbsence({ didNotPlay: 'unused' }, 'tr', 'basketball')).toBe('Oynamadı');
+    expect(personAbsence({}, 'en', 'football')).toBeUndefined();
   });
 });

@@ -29,18 +29,23 @@ const WORDS = {
     assists: (n: number) => (n === 1 ? '1 assist' : `${String(n)} assists`),
     points: (n: number) => (n === 1 ? '1 point' : `${String(n)} points`),
     rebounds: (n: number) => (n === 1 ? '1 rebound' : `${String(n)} rebounds`),
+    minutes: (n: number) => (n === 1 ? '1 minute played' : `${String(n)} minutes played`),
+    unused: 'Unused substitute',
+    notInSquad: 'Not in the squad',
+    didNotPlay: 'Did not play',
     ownGoal: 'og',
     penalty: 'pen',
     scored: 'Scorers',
     /** The word after a person's number: whole words for football, short ones for basketball. */
     unit: (kind: MarkKind, n: number, sport: string | undefined) =>
       sport === 'basketball'
-        ? { points: 'pts', rebounds: 'reb', assists: 'ast', goals: 'goals' }[kind]
+        ? { points: 'pts', rebounds: 'reb', assists: 'ast', goals: 'goals', minutes: 'min' }[kind]
         : {
             goals: n === 1 ? 'goal' : 'goals',
             assists: n === 1 ? 'assist' : 'assists',
             points: n === 1 ? 'point' : 'points',
             rebounds: n === 1 ? 'rebound' : 'rebounds',
+            minutes: 'min',
           }[kind],
   },
   tr: {
@@ -63,12 +68,18 @@ const WORDS = {
     assists: (n: number) => `${String(n)} asist`,
     points: (n: number) => `${String(n)} sayı`,
     rebounds: (n: number) => `${String(n)} ribaund`,
+    minutes: (n: number) => `${String(n)} dakika oynadı`,
+    unused: 'Yedek kulübesinde kaldı',
+    notInSquad: 'Kadroda yok',
+    didNotPlay: 'Oynamadı',
     ownGoal: 'kk',
     penalty: 'pen',
     scored: 'Golcüler',
     // Turkish words do not change with the count, and are short enough for both sports.
     unit: (kind: MarkKind) =>
-      ({ points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol' })[kind],
+      ({ points: 'sayı', rebounds: 'ribaund', assists: 'asist', goals: 'gol', minutes: 'dk' })[
+        kind
+      ],
   },
 } as const;
 
@@ -163,16 +174,16 @@ export function tonightOutcome(
   return ours > theirs ? 'win' : ours < theirs ? 'loss' : 'draw';
 }
 
-export type MarkKind = 'goals' | 'assists' | 'points' | 'rebounds';
+export type MarkKind = 'goals' | 'assists' | 'points' | 'rebounds' | 'minutes';
 
 /**
- * A person's numbers in reading order, leaving out zeros except points. Each number is followed
- * by a word: "1 goal 1 assist", "27 pts 13 reb 8 ast".
+ * A person's numbers in reading order, leaving out zeros except points, with the minutes they
+ * played last. Each number is followed by a word: "1 goal 1 assist 90 min", "27 pts 13 reb 8 ast".
  */
 export function personMarks(
   line: Partial<Record<MarkKind, number | undefined>>,
 ): { kind: MarkKind; count: number }[] {
-  const order: MarkKind[] = ['goals', 'points', 'rebounds', 'assists'];
+  const order: MarkKind[] = ['goals', 'points', 'rebounds', 'assists', 'minutes'];
   return order.flatMap((kind) => {
     const count = line[kind];
     if (count === undefined || (count === 0 && kind !== 'points')) return [];
@@ -199,4 +210,34 @@ export function orderScorers<
     return Number(base) + Number(extra) / 100;
   };
   return [...scorers].sort((a, b) => first(a) - first(b));
+}
+
+/**
+ * Why a person's finished match has no numbers, in words: "Unused substitute", "Not in the
+ * squad"; a basketball player left out is simply "Did not play". Nothing when they played.
+ */
+export function personAbsence(
+  line: { didNotPlay?: unknown },
+  lang: InterfaceLanguage,
+  sport: string | undefined,
+): string | undefined {
+  const words = WORDS[lang];
+  if (line.didNotPlay === 'notInSquad') return words.notInSquad;
+  if (line.didNotPlay === 'unused') return sport === 'basketball' ? words.didNotPlay : words.unused;
+  return undefined;
+}
+
+/**
+ * Whether a finished row already holds everything the live scores could add, so the page need
+ * not ask: the result, who scored when anyone did (football), and a followed person's line.
+ * A row built after the final whistle but without them is asked once.
+ */
+export function isSettled(
+  item: Pick<TonightItem, 'result' | 'sport' | 'focus' | 'scorers' | 'lines'>,
+): boolean {
+  const { result } = item;
+  if (!result) return false;
+  const goals = result.home + result.away > 0;
+  if (item.sport !== 'basketball' && goals && !item.scorers?.length) return false;
+  return item.focus !== 'person' || (item.lines?.length ?? 0) > 0;
 }

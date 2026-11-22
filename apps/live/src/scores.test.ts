@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { definePeople } from '@cspnews/core';
 
 import {
+  espnMatchDay,
   espnScorers,
   parseRefs,
   readEspn,
@@ -175,5 +176,13 @@ describe('scorers', () => {
     expect(parseRefs('espn:soccer/uefa.champions/501')[0]?.scorersUrl).toBe(
       'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard',
     );
+  });
+});
+
+describe('the match day', () => {
+  it('reads the day ESPN files a match under from its summary', () => {
+    const summary = { header: { competitions: [{ date: '2026-11-22T14:00Z' }] } };
+    expect(espnMatchDay(summary)).toBe('20261122');
+    expect(espnMatchDay({ header: { competitions: [{}] } })).toBeUndefined();
   });
 });
