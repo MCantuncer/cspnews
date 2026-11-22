@@ -2,6 +2,8 @@
 /** The key numbers, each with where it comes from. Emphasis by weight only. */
 import type { Fact } from '@cspnews/core';
 
+import { bindFactValue } from '../../lib/fact-value.js';
+
 interface Props {
   facts: readonly Fact[];
   heading: string;
@@ -11,17 +13,49 @@ interface Props {
 const { facts, heading, lang } = Astro.props;
 ---
 
-<section class="facts" aria-label={heading} lang={lang}>
+<section class="facts" aria-label={heading} lang={lang} data-facts>
   {
     facts.map((fact) => (
       <div class="fact">
-        <p class="value">{fact.value}</p>
+        <p class="value">{bindFactValue(fact.value)}</p>
         <p class="label">{fact.label}</p>
         <p class="source">{fact.source}</p>
       </div>
     ))
   }
 </section>
+
+<script is:inline>
+  // A number and its unit never break apart (see fact-value.ts). When such a
+  // group is wider than its column, every value in the section shrinks by the
+  // same amount, so the row keeps one size. It never goes below 18px.
+  (() => {
+    const MIN = 18;
+    const fit = (section) => {
+      const values = [...section.querySelectorAll('.value')];
+      section.style.removeProperty('--fact-size');
+      const base = parseFloat(getComputedStyle(values[0]).fontSize);
+      // Measure with the last-resort break turned off, so an overflow shows.
+      for (const v of values) v.style.overflowWrap = 'normal';
+      const scale = Math.min(1, ...values.map((v) => v.clientWidth / v.scrollWidth));
+      for (const v of values) v.style.removeProperty('overflow-wrap');
+      if (scale < 1) {
+        const size = Math.max(MIN, Math.floor(base * scale * 0.98 * 10) / 10);
+        section.style.setProperty('--fact-size', `${size}px`);
+      }
+    };
+    const section = document.currentScript.previousElementSibling;
+    if (!section?.matches('[data-facts]')) return;
+    fit(section);
+    let width = section.clientWidth;
+    new ResizeObserver(() => {
+      if (section.clientWidth === width) return;
+      width = section.clientWidth;
+      fit(section);
+    }).observe(section);
+    document.fonts?.ready.then(() => fit(section));
+  })();
+</script>
 
 <style>
   .facts {
@@ -39,9 +73,11 @@ const { facts, heading, lang } = Astro.props;
 
   .value {
     color: var(--ink);
-    font: 800 30px / 1 var(--f-head);
+    font: 800 var(--fact-size, 30px) / 1 var(--f-head);
     font-variant-numeric: proportional-nums lining-nums;
     letter-spacing: -0.025em;
+    /* Last resort if a group is still too wide at the smallest size. */
+    overflow-wrap: break-word;
   }
 
   .label {
