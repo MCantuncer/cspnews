@@ -122,6 +122,6 @@ describe('finished rows', () => {
     expect(personAbsence({ didNotPlay: 'unused' }, 'en', 'football')).toBe('Unused substitute');
     expect(personAbsence({ didNotPlay: 'notInSquad' }, 'tr', 'football')).toBe('Kadroda yok');
     expect(personAbsence({ didNotPlay: 'unused' }, 'tr', 'basketball')).toBe('Oynamadı');
-    expect(personAbsence({ minutes: 90 }, 'en', 'football')).toBeUndefined();
+    expect(personAbsence({}, 'en', 'football')).toBeUndefined();
   });
 });
