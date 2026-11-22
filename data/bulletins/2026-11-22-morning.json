@@ -1,0 +1,1386 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-22T07:30:00+03:00",
+  "writtenAt": "2026-11-22T06:56:48+03:00",
+  "stories": [
+    {
+      "id": "62c6a25cc988cd46",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Özcan released, stays in prison",
+          "title": "Court frees Tanju Özcan in Bolu vehicle-hire case, but he stays jailed",
+          "summary": {
+            "what": "A Bolu court released suspended mayor Tanju Özcan and three other jailed defendants under judicial control in the trial over the city’s vehicle-hire tenders.",
+            "why": "Özcan will still stay in prison: he was sentenced to 7 years, 3 months and 15 days in October in a separate extortion case.",
+            "next": "The trial of 21 defendants resumes on 22 March 2027, Habertürk and Onedio report."
+          },
+          "body": [
+            {
+              "subhead": "Released, but not freed",
+              "blocks": [
+                {
+                  "text": "The Bolu 3rd High Criminal Court on Saturday released Tanju Özcan, the suspended mayor of Bolu, under judicial control in the case over alleged irregularities in the municipality’s vehicle-hire tenders, Hürriyet, Cumhuriyet, Diken and Sözcü report. Three other defendants who had been in custody were released with him: deputy mayor Gülden Özaydın, acting head of the cleaning department Basri Baytekin, and Faruk Güner, an official of the contractor MCY."
+                },
+                {
+                  "text": "Özcan will not walk out, however. On 20 October 2026 he was sentenced to 7 years, 3 months and 15 days in prison for repeated extortion in a separate case over claims that local supermarkets were pressured into advertising deals with the municipality, and the court kept him in custody in that case, Cumhuriyet and Diken report."
+                }
+              ]
+            },
+            {
+              "subhead": "Inside the courtroom",
+              "blocks": [
+                {
+                  "text": "Özcan joined the second day of the hearing by video link from Sincan prison. He said his request to defend himself in person had been refused, which he argued restricted his right of defence, and that the indictment rested on assumptions rather than concrete evidence, Hürriyet reports. The prosecutor had asked for the jailed defendants to stay in custody and for two company officials, Yılmaz Erdoğan and Fatih Lekesiz, to be arrested, Cumhuriyet writes."
+                },
+                {
+                  "quote": "At no stage of the tender does the mayor bear any responsibility. With law 5018 in place I cannot be punished in this case. This law protects me like armour.",
+                  "speaker": "Tanju Özcan, suspended mayor of Bolu",
+                  "sourceId": "diken",
+                  "translated": true
+                },
+                {
+                  "text": "Özaydın wept as she began her defence, saying she had spent 81 days in prison. She argued that the alleged overpayment came from a misreading of the expert report, since a vehicle cannot work 24 hours a day, seven days a week."
+                }
+              ]
+            },
+            {
+              "subhead": "What the case is about",
+              "blocks": [
+                {
+                  "text": "Twenty-one people are on trial. According to the expert report cited by Diken, some rubbish trucks were recorded as working on days they did not, and the contractor was paid on that basis: across 19 separate progress payments, the MCY–Yeşilçam joint venture received ₺34,288,376.61 more than it should have, including price differences and VAT."
+                },
+                {
+                  "text": "The court also lifted house arrest for the two company officials, replacing it with a duty to report to police and a travel ban, and kept the travel bans on the other defendants. Özcan was detained in a raid on the municipality on 28 February, jailed on 2 March and suspended from office by the Interior Ministry on 3 March, Diken notes. The hearing was adjourned to 22 March 2027."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Defendants on trial",
+              "value": "21",
+              "source": "Bolu 3rd High Criminal Court"
+            },
+            {
+              "label": "Alleged overpayment to the contractor",
+              "value": "₺34.3m",
+              "source": "Expert report, via Diken"
+            },
+            {
+              "label": "Özcan’s sentence in the extortion case",
+              "value": "7y 3m 15d",
+              "source": "Cumhuriyet, Diken"
+            },
+            {
+              "label": "Next hearing",
+              "value": "22 Mar 2027",
+              "source": "Habertürk, Onedio"
+            }
+          ],
+          "place": {
+            "name": "Bolu",
+            "lat": 40.74,
+            "lon": 31.61,
+            "region": "Bolu, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Özcan tahliye edildi, cezaevinde kalacak",
+          "title": "Araç kiralama davasında Tanju Özcan’a tahliye, ama cezaevinde kalacak",
+          "summary": {
+            "what": "Bolu’da araç kiralama ihalelerine ilişkin davada mahkeme, görevden uzaklaştırılan Tanju Özcan ile üç tutuklu sanığı adli kontrolle tahliye etti.",
+            "why": "Özcan cezaevinden çıkmayacak: ekimde ayrı bir davada icbar suretiyle irtikaptan 7 yıl 3 ay 15 gün hapis cezası almıştı.",
+            "next": "21 sanıklı dava 22 Mart 2027’de sürecek, Habertürk ve Onedio’nun aktardığına göre."
+          },
+          "body": [
+            {
+              "subhead": "Tahliye var, özgürlük yok",
+              "blocks": [
+                {
+                  "text": "Bolu 3. Ağır Ceza Mahkemesi cumartesi günü, belediyenin araç kiralama ihalelerinde usulsüzlük iddiasıyla açılan davada görevden uzaklaştırılan Bolu Belediye Başkanı Tanju Özcan’ın adli kontrol şartıyla tahliyesine karar verdi. Hürriyet, Cumhuriyet, Diken ve Sözcü’nün haberine göre Özcan’la birlikte Belediye Başkan Yardımcısı Gülden Özaydın, Temizlik İşleri Müdür Vekili Basri Baytekin ve MCY şirket yetkilisi Faruk Güner de tahliye edildi."
+                },
+                {
+                  "text": "Ancak Özcan cezaevinden çıkmayacak. Belediyedeki marketlere reklam sözleşmesi için baskı yapıldığı iddiasına ilişkin ayrı davada 20 Ekim 2026’da zincirleme şekilde icbar suretiyle irtikap suçundan 7 yıl 3 ay 15 gün hapis cezasına çarptırılmıştı; mahkeme o dosyada tutukluluğunun devamına karar vermişti, Cumhuriyet ve Diken’in aktardığına göre."
+                }
+              ]
+            },
+            {
+              "subhead": "Duruşma salonunda",
+              "blocks": [
+                {
+                  "text": "Özcan duruşmanın ikinci gününe Sincan Cezaevi’nden SEGBİS ile bağlandı. Hürriyet’e göre yüz yüze savunma yapma talebinin karşılanmadığını, bunun savunma hakkını kısıtladığını ve iddianamenin somut deliller yerine varsayımlara dayandığını söyledi. Cumhuriyet’in haberine göre savcı tutukluluğun devamını, şirket yetkilileri Yılmaz Erdoğan ve Fatih Lekesiz’in de tutuklanmasını istemişti."
+                },
+                {
+                  "quote": "İhalenin hiçbir aşamasında belediye başkanının hiçbir sorumluluğu yoktur. 5018 ortadayken bu davadan bana ceza verilemez. Bu yasa beni zırh gibi koruyor.",
+                  "speaker": "Tanju Özcan, görevden uzaklaştırılan Bolu Belediye Başkanı",
+                  "sourceId": "diken"
+                },
+                {
+                  "text": "Savunmasına ağlayarak başlayan Özaydın 81 gündür cezaevinde olduğunu anlattı. Fazla ödeme iddiasının bilirkişi raporunun yanlış yorumlanmasından kaynaklandığını, bir aracın haftanın yedi günü 24 saat kesintisiz çalışmasının mümkün olmadığını savundu."
+                }
+              ]
+            },
+            {
+              "subhead": "Dava neyle ilgili",
+              "blocks": [
+                {
+                  "text": "Davada 21 sanık yargılanıyor. Diken’in aktardığı bilirkişi raporuna göre bazı çöp kamyonları çalışmadığı günlerde çalışmış gibi gösterildi ve yükleniciye bu kayıtlar üzerinden ödeme yapıldı: 19 ayrı hakedişte MCY-Yeşilçam İş Ortaklığı’na fiyat farkı ve KDV dahil 34.288.376,61 lira fazla ve yersiz ödeme yapıldı."
+                },
+                {
+                  "text": "Mahkeme iki şirket yetkilisinin ev hapsini imza yükümlülüğü ve yurt dışı çıkış yasağına çevirdi, diğer sanıkların yurt dışı yasağını sürdürdü. Diken’in hatırlattığına göre Özcan 28 Şubat’taki operasyonda gözaltına alınmış, 2 Mart’ta tutuklanmış, 3 Mart’ta İçişleri Bakanlığı’nca görevden uzaklaştırılmıştı. Duruşma 22 Mart 2027’ye ertelendi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yargılanan sanık",
+              "value": "21",
+              "source": "Bolu 3. Ağır Ceza Mahkemesi"
+            },
+            {
+              "label": "Yükleniciye iddia edilen fazla ödeme",
+              "value": "34,3 milyon ₺",
+              "source": "Bilirkişi raporu, Diken"
+            },
+            {
+              "label": "Özcan’ın irtikap davasındaki cezası",
+              "value": "7 yıl 3 ay 15 gün",
+              "source": "Cumhuriyet, Diken"
+            },
+            {
+              "label": "Sonraki duruşma",
+              "value": "22 Mart 2027",
+              "source": "Habertürk, Onedio"
+            }
+          ],
+          "place": {
+            "name": "Bolu",
+            "lat": 40.74,
+            "lon": 31.61,
+            "region": "Bolu, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T17:54:09.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T17:59:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T17:59:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T18:07:52.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T18:36:08.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T18:38:16.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b01da8a8c01a1364d06af76.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/arac-kiralamada-usulsuzluk-davasinda-tanju-ozcan-ve-3-tutuklu-saniga-adli-kontrolle-tahliye-43386483"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/arac-kiralamada-usulsuzluk-davasinda-tanju-ozcan-ve-3-tutuklu-saniga-adli-kontrolle-tahliye-43386483",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/tanju-ozcan-a-adli-kontrol-sarti-ile-tahliye-2558181",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/bolu-da-arac-kiralama-ihalelerinde-usulsuzluk-iddialartanju-ozcan-dahil-4-saniga-adli-kontrol-3929112",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/bolu-belediyesi-arac-kiralama-davasinin-ikinci-durusmasinda-tanju-ozcan-hakkindaki-karar-aciklandi-1396486",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/arac-kiralama-ihalesi-davasi-tanju-ozcana-tahliye-cezaevinde-kalacak/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/tanju-ozcan-a-adli-kontrol-sarti-ile-tahliye-p383301",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T07:30:00+03:00",
+      "updatedAt": "2026-11-22T07:30:00+03:00"
+    },
+    {
+      "id": "b4ca35ecd4c3bc59",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "0b4ff630c276a514",
+      "versions": {
+        "en": {
+          "news": "Fidan says Erdoğan has ordered the laws still needed for EU visa-free travel through parliament, and the drafts are being discussed with Brussels.",
+          "shortTitle": "Visa-free laws head to parliament",
+          "title": "Parliament must pass laws for EU visa-free travel, Fidan says",
+          "summary": {
+            "what": "Foreign Minister Hakan Fidan said a few issues must still pass parliament before visa-free travel to Europe, and President Erdoğan has ordered it done.",
+            "why": "About 1.2–1.3 million Turks applied for Schengen visas in 2025 and 14–15 in every 100 were refused, Fidan said.",
+            "next": "Drafts prepared over the summer are being discussed with the Europeans; Fidan gave no date for a vote."
+          },
+          "body": [
+            {
+              "subhead": "A step through parliament",
+              "blocks": [
+                {
+                  "text": "Türkiye’s remaining steps towards visa-free travel to the Schengen area now go through parliament, Foreign Minister Hakan Fidan said on Saturday in a live programme on TGRT Haber, NTV, Habertürk and A Haber report. President Recep Tayyip Erdoğan has given the instruction for the necessary legislation, he said, and the work between government institutions, led by Vice-President Cevdet Yılmaz, is finished."
+                },
+                {
+                  "quote": "There are a few issues we need to complete for visa-free travel to happen. We need to pass them through parliament. Our president has given the instruction for this to be done.",
+                  "speaker": "Hakan Fidan, foreign minister",
+                  "sourceId": "ntv",
+                  "translated": true
+                },
+                {
+                  "text": "The drafts prepared in the summer are being discussed with the Europeans, Fidan said. NTV quotes him saying the talks are being held at a technical level by the Directorate for EU Affairs; Habertürk reports his words as talks at a critical level. He said the European Union was aware of the process. He did not say which laws were involved or when parliament would vote."
+                }
+              ]
+            },
+            {
+              "subhead": "Who is affected",
+              "blocks": [
+                {
+                  "text": "Calling the Schengen visa an important issue, Fidan put numbers on the problem. Around 1.2 to 1.3 million Turkish citizens applied for a Schengen visa in 2025, he said, and of every 100 applications 85 or 86 were accepted while 14 or 15 were refused, NTV reports."
+                },
+                {
+                  "text": "He blamed part of the tightening on politics inside Europe. The far right is putting pressure on governments through migration policy, Fidan said, and in many countries this has led to stricter visa rules, hitting young people and students in particular."
+                }
+              ]
+            },
+            {
+              "subhead": "Elsewhere in the interview",
+              "blocks": [
+                {
+                  "text": "Fidan also spoke about the three-way meeting of US President Donald Trump, China’s Xi Jinping and Russia’s Vladimir Putin in China. He said it mattered that the three leaders met and set out language on nuclear weapons, even if the meeting would not solve existing crises. Asked whether the talks resembled the Yalta Conference, he said the comparison was “very exaggerated”, NTV reports."
+                },
+                {
+                  "text": "In his personal view, he added, nothing very far-reaching may come of it, A Haber reports. On Yemen, Fidan said there was no decision to keep Turkish troops there, but that Türkiye supports Saudi Arabia’s defence."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Turks who applied for a Schengen visa in 2025",
+              "value": "1.2–1.3m",
+              "source": "Hakan Fidan, via NTV"
+            },
+            {
+              "label": "Applications accepted",
+              "value": "85–86 in 100",
+              "source": "Hakan Fidan, via NTV"
+            },
+            {
+              "label": "Applications refused",
+              "value": "14–15 in 100",
+              "source": "Hakan Fidan, via NTV"
+            }
+          ]
+        },
+        "tr": {
+          "news": "Fidan: Vize serbestisi için kalan düzenlemelerin Meclis’ten geçmesi gerekiyor, Cumhurbaşkanı talimat verdi; taslaklar AB ile görüşülüyor.",
+          "shortTitle": "Vize serbestisi Meclis’e geliyor",
+          "title": "Fidan: Vize serbestisi için bazı düzenlemeler Meclis’ten geçmeli",
+          "summary": {
+            "what": "Dışişleri Bakanı Hakan Fidan, vize serbestisi için birkaç konunun Meclis’ten geçmesi gerektiğini, Cumhurbaşkanı Erdoğan’ın da talimat verdiğini söyledi.",
+            "why": "Fidan’a göre 2025’te yaklaşık 1,2-1,3 milyon vatandaş Schengen vizesine başvurdu, her 100 başvurudan 14-15’i reddedildi.",
+            "next": "Yazın hazırlanan taslaklar Avrupalılarla görüşülüyor; Fidan oylama için tarih vermedi."
+          },
+          "body": [
+            {
+              "subhead": "Sıra Meclis’te",
+              "blocks": [
+                {
+                  "text": "Dışişleri Bakanı Hakan Fidan cumartesi günü TGRT Haber’deki canlı yayında, Schengen bölgesine vize serbestisi için kalan adımların Meclis’ten geçeceğini söyledi. NTV, Habertürk ve A Haber’in aktardığına göre Cumhurbaşkanı Recep Tayyip Erdoğan gerekli düzenlemeler için talimat verdi, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz başkanlığındaki kurumlar arası çalışmalar da tamamlandı."
+                },
+                {
+                  "quote": "Vize serbestisinin hayata geçmesi için tamamlamamız gereken birkaç tane konu var. Meclis’ten geçirmemiz gerekiyor. Bunun yapılması için Cumhurbaşkanımız da talimat verdi.",
+                  "speaker": "Hakan Fidan, Dışişleri Bakanı",
+                  "sourceId": "ntv"
+                },
+                {
+                  "text": "Fidan, yazın hazırlanan taslakların Avrupalılarla görüşüldüğünü söyledi. NTV’ye göre görüşmeleri AB Başkanlığı teknik düzeyde yürütüyor; Habertürk ise bakanın sözlerini “kritik düzeyde” olarak aktardı. Fidan, Avrupa Birliği’nin süreçten haberdar olduğunu belirtti; hangi yasaların söz konusu olduğunu ve Meclis’in ne zaman oylayacağını söylemedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kimleri etkiliyor",
+              "blocks": [
+                {
+                  "text": "Schengen vizesinin önemli bir konu olduğunu vurgulayan Fidan, sorunun boyutunu rakamlarla anlattı. NTV’nin haberine göre 2025’te yaklaşık 1,2-1,3 milyon vatandaş Schengen vizesine başvurdu; her 100 başvurudan 85-86’sı kabul edildi, 14-15’i reddedildi."
+                },
+                {
+                  "text": "Bakan, sıkılaşmanın bir kısmını Avrupa’daki siyasete bağladı. Aşırı sağın göç politikaları üzerinden hükümetlere baskı kurduğunu, bunun birçok ülkede vize politikalarının sıkılaşmasına yol açtığını ve özellikle gençlerle öğrencileri etkilediğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Programdan diğer başlıklar",
+              "blocks": [
+                {
+                  "text": "Fidan, ABD Başkanı Donald Trump, Çin Devlet Başkanı Şi Cinping ve Rusya Devlet Başkanı Vladimir Putin’in Çin’deki üçlü görüşmesini de değerlendirdi. Üç liderin bir araya gelip nükleer silahlar konusunda bir dil ortaya koymasını, krizleri çözmese de önemli buldu. Görüşmenin Yalta Konferansı’na benzetilmesi için “çok abartılı” dedi, NTV’nin aktardığına göre."
+                },
+                {
+                  "text": "A Haber’e göre Fidan, şahsi analizinde bu görüşmeden çok ileri bir hamle çıkmayabileceğini söyledi. Yemen konusunda ise asker bulundurmaya ilişkin bir karar olmadığını, ancak Suudi Arabistan’ın savunmasına destek verildiğini belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2025’te Schengen vizesine başvuran vatandaş",
+              "value": "1,2-1,3 milyon",
+              "source": "Hakan Fidan, NTV"
+            },
+            {
+              "label": "Kabul edilen başvuru",
+              "value": "100’de 85-86",
+              "source": "Hakan Fidan, NTV"
+            },
+            {
+              "label": "Reddedilen başvuru",
+              "value": "100’de 14-15",
+              "source": "Hakan Fidan, NTV"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T17:43:21.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T20:18:08.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T20:18:08.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T01:53:53.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/21/ver1795292269/3929129/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/bakan-fidan-vize-serbestisi-icin-kalan-adimlari-tek-tek-acikladi-3929129"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/21/bakan-fidandan-liderler-diplomasisi-vurgusu-erdogan-trump-iliskisi-ornek-olabilir",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/bakan-fidan-vize-serbestisi-icin-kalan-adimlari-tek-tek-acikladi-3929129",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bakan-fidandan-vize-aciklamasi-birkac-konu-meclisten-gecmesi-gerekiyor-1751968",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T07:30:00+03:00",
+      "updatedAt": "2026-11-22T07:30:00+03:00"
+    },
+    {
+      "id": "5551def0095f2a9b",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "continues": "675650dffca0c9d4",
+      "versions": {
+        "en": {
+          "news": "Two groups, the Lean FRO and the Mathlib Initiative, say they checked Alpöge’s proof independently and have “full confidence” it is correct.",
+          "shortTitle": "Riemann proof passes independent check",
+          "title": "Two groups say the Claude-assisted Riemann Hypothesis proof checks out",
+          "summary": {
+            "what": "The Lean Focused Research Organization and the Mathlib Initiative say they have verified Levent Alpöge’s proof of the Riemann Hypothesis, made with Anthropic’s Claude.",
+            "why": "The 1859 problem is one of the seven Millennium Prize problems; the check is the first outside confirmation of the claim, The Guardian reports.",
+            "next": "The Clay Mathematics Institute offers $1m per problem; its rules require publication and lasting acceptance among mathematicians before any prize."
+          },
+          "body": [
+            {
+              "subhead": "Checked by two groups",
+              "blocks": [
+                {
+                  "text": "A day after Levent Alpöge, a mathematician at Anthropic, said he had proved the Riemann Hypothesis with the help of the company’s AI model Claude, two organisations say the proof holds, The Guardian reports. On Saturday afternoon the Lean Focused Research Organization, which works to advance the Lean programming language, and the Mathlib Initiative, a programme that uses Lean for mathematics, announced that they had independently verified his solution."
+                },
+                {
+                  "quote": "We have full confidence that Alpöge’s proof of the Riemann hypothesis is correct, and we congratulate him on this achievement.",
+                  "speaker": "Lean FRO and Mathlib Initiative, joint statement",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "Their check rested on the computer code Alpöge had published with his note. It is written in Lean, a language in which each step of a proof can be verified by machine, and he said it could be used to confirm his findings."
+                }
+              ]
+            },
+            {
+              "subhead": "Six weeks with Claude",
+              "blocks": [
+                {
+                  "text": "Alpöge, a Turkish-American mathematician, posted the note on his personal website on Friday. He says Claude helped develop the solution over about six weeks. He wrote that the two had worked well together in recent months, “but this time Claude far outpaced me near the finish line”."
+                },
+                {
+                  "text": "The note came one day after Anthropic listed on the Nasdaq. Alpöge acknowledged the coincidence: “The precise timing is horrible. If I could have, I’d have finished this all much earlier,” he wrote, according to The Guardian."
+                }
+              ]
+            },
+            {
+              "subhead": "The problem and the unease",
+              "blocks": [
+                {
+                  "text": "Bernhard Riemann proposed the hypothesis in 1859. It asks how often prime numbers appear and how they are spread along the number line, and Riemann gave a formula for estimating how many primes lie below a given number. It is one of the seven Millennium Prize problems chosen by the Clay Mathematics Institute, which offers $1m for each one solved."
+                },
+                {
+                  "text": "The Guardian notes that the verification comes amid unease among mathematicians about rich private companies spending heavily to have AI solve famous problems. In September OpenAI said an unreleased version of its tools had helped solve part of another Millennium problem, an effort that reportedly cost $15m and used 10,000 AI systems. Alpöge was working on that same problem for Anthropic when OpenAI made its announcement. On Friday, The New York Times reported, an independent Italian mathematician, Alessandro Masullo, released an incomplete proof of the Riemann Hypothesis that he said he had worked on for almost 12 years without AI."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Year Riemann proposed the hypothesis",
+              "value": "1859",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Time Alpöge worked on it with Claude",
+              "value": "About 6 weeks",
+              "source": "Levent Alpöge, via The Guardian"
+            },
+            {
+              "label": "Groups that verified the proof",
+              "value": "2",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Clay prize per Millennium problem",
+              "value": "$1m",
+              "source": "Clay Mathematics Institute"
+            }
+          ]
+        },
+        "tr": {
+          "news": "Lean FRO ve Mathlib Initiative, Alpöge’nin ispatını bağımsız olarak doğruladıklarını ve doğruluğundan “tam olarak emin” olduklarını açıkladı.",
+          "shortTitle": "Riemann ispatı bağımsız doğrulamadan geçti",
+          "title": "İki kuruluş, Claude destekli Riemann Hipotezi ispatını doğruladı",
+          "summary": {
+            "what": "Lean Focused Research Organization ve Mathlib Initiative, Levent Alpöge’nin Anthropic’in Claude modeliyle hazırladığı Riemann Hipotezi ispatını doğruladıklarını açıkladı.",
+            "why": "1859’dan beri çözülemeyen problem yedi Milenyum Ödülü probleminden biri; The Guardian’a göre bu, iddianın ilk dışarıdan teyidi.",
+            "next": "Clay Matematik Enstitüsü her problem için 1 milyon dolar veriyor; ödül için yayın ve matematikçiler arasında kalıcı kabul şart."
+          },
+          "body": [
+            {
+              "subhead": "İki kuruluştan onay",
+              "blocks": [
+                {
+                  "text": "Anthropic’te çalışan matematikçi Levent Alpöge’nin şirketin yapay zekâ modeli Claude’un yardımıyla Riemann Hipotezi’ni ispatladığını açıklamasından bir gün sonra, iki kuruluş ispatın doğru olduğunu duyurdu. The Guardian’ın haberine göre Lean programlama dilini geliştirmeye çalışan Lean Focused Research Organization ile Lean’i matematikte kullanan Mathlib Initiative, cumartesi öğleden sonra Alpöge’nin çözümünü bağımsız olarak doğruladıklarını açıkladı."
+                },
+                {
+                  "quote": "Alpöge’nin Riemann hipotezi ispatının doğru olduğundan tam olarak eminiz ve kendisini bu başarısından dolayı kutluyoruz.",
+                  "speaker": "Lean FRO ve Mathlib Initiative, ortak açıklama",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Doğrulama, Alpöge’nin notuyla birlikte yayımladığı bilgisayar koduna dayanıyor. Kod, bir ispatın her adımının makine tarafından denetlenebildiği Lean dilinde yazıldı; Alpöge bu kodla bulgularının teyit edilebileceğini söylemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Claude ile altı hafta",
+              "blocks": [
+                {
+                  "text": "Türk-Amerikalı matematikçi Alpöge notu cuma günü kişisel internet sitesinde yayımladı. Claude’un yaklaşık altı haftalık süreçte çözümün geliştirilmesine yardım ettiğini söylüyor. Son aylarda birlikte iyi çalıştıklarını, “ama bu kez Claude bitiş çizgisine yakın beni çok geride bıraktı” diye yazdı."
+                },
+                {
+                  "text": "Not, Anthropic’in Nasdaq’ta işlem görmeye başlamasından bir gün sonra geldi. The Guardian’ın aktardığına göre Alpöge bu denk gelişi kabul etti: “Zamanlama berbat. Elimden gelse bunların hepsini çok daha önce bitirirdim.”"
+                }
+              ]
+            },
+            {
+              "subhead": "Problem ve tedirginlik",
+              "blocks": [
+                {
+                  "text": "Bernhard Riemann hipotezi 1859’da ortaya attı. Hipotez, asal sayıların ne sıklıkla görüldüğünü ve sayı doğrusu boyunca nasıl dağıldığını soruyor; Riemann belli bir sayının altındaki asal sayıların adedini tahmin eden bir formül de geliştirdi. Problem, Clay Matematik Enstitüsü’nün seçtiği ve her biri için 1 milyon dolar ödül koyduğu yedi Milenyum Ödülü probleminden biri."
+                },
+                {
+                  "text": "The Guardian, doğrulamanın matematikçiler arasında, zengin özel şirketlerin ünlü problemleri yapay zekâya çözdürmek için büyük paralar harcamasından duyulan tedirginliğin ortasında geldiğini yazıyor. OpenAI eylülde, yayımlanmamış bir aracının başka bir Milenyum probleminin bir kısmını çözmeye yardım ettiğini açıklamıştı; bu çalışmanın 15 milyon dolara mal olduğu ve 10 bin yapay zekâ sistemi kullandığı bildirildi. Alpöge, OpenAI duyuruyu yaptığında Anthropic için aynı problem üzerinde çalışıyordu. The New York Times’ın haberine göre cuma günü bağımsız İtalyan matematikçi Alessandro Masullo da yapay zekâ kullanmadan yaklaşık 12 yıldır üzerinde çalıştığını söylediği eksik bir ispat yayımladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Riemann’ın hipotezi ortaya attığı yıl",
+              "value": "1859",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Alpöge’nin Claude ile çalıştığı süre",
+              "value": "Yaklaşık 6 hafta",
+              "source": "Levent Alpöge, The Guardian"
+            },
+            {
+              "label": "İspatı doğrulayan kuruluş",
+              "value": "2",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Milenyum problemi başına Clay ödülü",
+              "value": "1 milyon $",
+              "source": "Clay Matematik Enstitüsü"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T20:15:57.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T07:30:00+03:00",
+      "updatedAt": "2026-11-22T07:30:00+03:00"
+    },
+    {
+      "id": "feaf5992b02c7c13",
+      "section": "world",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Iran strikes US bases in Bahrain",
+          "title": "Iran fires drones and missiles at US bases in Bahrain",
+          "summary": {
+            "what": "Iran’s Revolutionary Guards say they hit Patriot air-defence radars at two US bases in Bahrain; Bahrain says a civilian industrial site caught fire.",
+            "why": "Euronews says the US–Iran standoff may be nearing a breaking point, with Iranian tankers preparing to run the US naval blockade.",
+            "next": "More than 14 Iranian tankers are reported ready off Kharg Island; Tehran warns of a “fierce” response if the US stops them."
+          },
+          "body": [
+            {
+              "subhead": "Strikes on Bahrain",
+              "blocks": [
+                {
+                  "text": "Iran launched drones and missiles at US military bases in Bahrain on Saturday night, Iranian media and Bahraini authorities said, Anadolu Agency, Euronews, Hürriyet, Habertürk, Diken and Al Jazeera report. Bahrain is home to the headquarters of the US Fifth Fleet. According to the semi-official Fars news agency, the Revolutionary Guards targeted the Sheikh Isa and Juffair bases; Euronews, citing Iranian media, says four bases were targeted in two waves."
+                },
+                {
+                  "text": "In a statement the Guards said they struck two radars of Patriot air-defence systems at two US bases, in response to two US MQ-1 and MQ-9 drones entering Iranian airspace, Anadolu reports. Neither Bahrain nor the US military confirmed those claims, Euronews writes."
+                }
+              ]
+            },
+            {
+              "subhead": "Fire and shelter warnings",
+              "blocks": [
+                {
+                  "text": "Bahrain’s Interior Ministry said an Iranian attack hit a civilian industrial facility, starting a fire and causing damage, with no injuries according to initial information. It twice told citizens and residents to stay calm and move to the nearest safe place. Bahrain said its air defences intercepted several attacks and called them a “heinous Iranian aggression”, Euronews reports."
+                },
+                {
+                  "text": "Bahrain’s Foreign Ministry said the strikes violated Article 2(4) of the UN Charter and that Bahrain reserves its right to self-defence under Article 51, Anadolu reports. Earlier on Saturday, US Central Command denied an Iranian claim that a missile had damaged a US F-16, Diken writes."
+                }
+              ]
+            },
+            {
+              "subhead": "Tankers and the blockade",
+              "blocks": [
+                {
+                  "text": "At least three oil tankers were attacked in or near the Strait of Hormuz on Saturday, Euronews reports, and Iran’s navy said a tanker hit a naval mine east of the strait and caught fire. More than 14 Iranian tankers are reported to be preparing off Kharg Island to break the US blockade of Iranian ports, which deputy foreign minister Kazem Gharibabadi called “an act of war”."
+                },
+                {
+                  "quote": "Any new aggression will be met with a decisive, immediate and effective response from the armed forces, and the defence of the country will not be limited to a specific geographical area.",
+                  "speaker": "Brig Gen Mohammad Akraminia, Iranian army spokesman",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Talks continue",
+              "blocks": [
+                {
+                  "text": "Talks led by Qatar go on. A Qatari delegation met Iranian officials for about two hours on Friday evening, Gharibabadi said. Foreign Minister Abbas Araghchi said reopening the Strait of Hormuz would be “not difficult” if the US ended the blockade and lifted sanctions. US President Donald Trump told Fox News he wanted a “permanent” deal that stops Iran obtaining nuclear weapons. Diken notes that the US sent the USS Theodore Roosevelt to the region last week, bringing its aircraft carriers there to three."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "US bases Iran says it targeted",
+              "value": "2–4",
+              "source": "Fars, via Anadolu and Euronews"
+            },
+            {
+              "label": "Patriot radars the Guards say they hit",
+              "value": "2",
+              "source": "Revolutionary Guards, via Anadolu"
+            },
+            {
+              "label": "Tankers attacked near Hormuz on Saturday",
+              "value": "3+",
+              "source": "Euronews"
+            },
+            {
+              "label": "Iranian tankers waiting off Kharg Island",
+              "value": "14+",
+              "source": "Euronews"
+            },
+            {
+              "label": "US aircraft carriers in the region",
+              "value": "3",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Juffair, Manama",
+            "lat": 26.21,
+            "lon": 50.6,
+            "region": "Bahrain"
+          }
+        },
+        "tr": {
+          "shortTitle": "İran Bahreyn’deki ABD üslerini vurdu",
+          "title": "İran, Bahreyn’deki ABD üslerine İHA ve füzelerle saldırdı",
+          "summary": {
+            "what": "Devrim Muhafızları, Bahreyn’deki iki ABD üssünde Patriot radarlarını vurduğunu açıkladı; Bahreyn bir sivil sanayi tesisinde yangın çıktığını bildirdi.",
+            "why": "Euronews’e göre ABD-İran gerilimi kırılma noktasına yaklaşıyor; İran tankerleri ABD deniz ablukasını delmeye hazırlanıyor.",
+            "next": "Hark Adası açıklarında 14’ten fazla İran tankerinin hazır beklediği bildiriliyor; Tahran, ABD engellerse “sert” karşılık vereceğini söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Bahreyn’e saldırı",
+              "blocks": [
+                {
+                  "text": "İran cumartesi gecesi Bahreyn’deki ABD askeri üslerine İHA ve füzelerle saldırdı. Anadolu Ajansı, Euronews, Hürriyet, Habertürk, Diken ve Al Jazeera’nın İran basını ile Bahreyn makamlarına dayanan haberlerine göre hedef, ABD Beşinci Filosu’nun karargâhına ev sahipliği yapan ülkeydi. Yarı resmi Fars Haber Ajansı’na göre Devrim Muhafızları Şeyh İsa ve El-Cufeyr üslerini hedef aldı; Euronews ise İran medyasına dayanarak dört üssün iki dalga halinde hedef alındığını yazdı."
+                },
+                {
+                  "text": "Anadolu Ajansı’nın aktardığı bildiride Devrim Muhafızları, ABD’ye ait MQ-1 ve MQ-9 tipi iki İHA’nın İran hava sahasını ihlal etmesine karşılık iki ABD üssündeki Patriot hava savunma sistemlerine ait iki radarı vurduğunu açıkladı. Euronews’e göre ne Bahreyn ne de ABD ordusu bu iddiaları doğruladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yangın ve sığınma uyarısı",
+              "blocks": [
+                {
+                  "text": "Bahreyn İçişleri Bakanlığı, İran saldırısında sivil bir sanayi tesisinin vurulduğunu, yangın çıktığını ve maddi hasar oluştuğunu, ilk bilgilere göre yaralanan olmadığını açıkladı. Bakanlık vatandaşlara iki kez sakin olmaları ve en yakın güvenli yere gitmeleri çağrısı yaptı. Euronews’e göre Bahreyn hava savunmasının birkaç saldırıyı önlediğini söyleyerek saldırıları “alçakça bir İran saldırganlığı” olarak niteledi."
+                },
+                {
+                  "text": "Anadolu Ajansı’na göre Bahreyn Dışişleri Bakanlığı, saldırıların BM Şartı’nın 2/4. maddesini ihlal ettiğini ve ülkenin 51. madde kapsamında meşru müdafaa hakkını saklı tuttuğunu bildirdi. Diken’in haberine göre ABD Merkez Kuvvetler Komutanlığı (CENTCOM) cumartesi günü, bir füzenin ABD’ye ait F-16’ya zarar verdiği yönündeki İran iddiasını yalanlamıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Tankerler ve abluka",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre cumartesi günü Hürmüz Boğazı’nda ya da yakınında en az üç petrol tankeri saldırıya uğradı; İran donanması da boğazın doğusunda bir tankerin deniz mayınına çarparak alev aldığını açıkladı. ABD’nin İran limanlarına uyguladığı ablukayı delmek için Hark Adası açıklarında 14’ten fazla İran tankerinin hazırlandığı bildiriliyor. Dışişleri Bakan Yardımcısı Kazım Garibabadi ablukayı “savaş eylemi” olarak niteledi."
+                },
+                {
+                  "quote": "Her yeni saldırganlık silahlı kuvvetlerden kararlı, anında ve etkili bir karşılık görecek; ülkenin savunması belirli bir coğrafi alanla sınırlı kalmayacak.",
+                  "speaker": "Tuğgeneral Muhammed Akraminia, İran ordusu sözcüsü",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Görüşmeler sürüyor",
+              "blocks": [
+                {
+                  "text": "Katar’ın yürüttüğü görüşmeler de devam ediyor. Garibabadi’ye göre bir Katar heyeti cuma akşamı İranlı yetkililerle yaklaşık iki saat görüştü. Dışişleri Bakanı Abbas Arakçi, ABD ablukayı kaldırır ve yaptırımları sonlandırırsa Hürmüz Boğazı’nı yeniden açmanın “zor olmadığını” söyledi. ABD Başkanı Donald Trump ise Fox News’e İran’ın nükleer silah edinmesini engelleyecek “kalıcı” bir anlaşma istediğini söyledi. Diken, ABD’nin geçen hafta USS Theodore Roosevelt’i bölgeye göndererek buradaki uçak gemisi sayısını üçe çıkardığını hatırlatıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İran’ın hedef aldığını söylediği ABD üssü",
+              "value": "2-4",
+              "source": "Fars, AA ve Euronews"
+            },
+            {
+              "label": "Devrim Muhafızları’nın vurduğunu söylediği radar",
+              "value": "2",
+              "source": "Devrim Muhafızları, AA"
+            },
+            {
+              "label": "Cumartesi Hürmüz’de saldırıya uğrayan tanker",
+              "value": "3+",
+              "source": "Euronews"
+            },
+            {
+              "label": "Hark Adası açıklarında bekleyen İran tankeri",
+              "value": "14+",
+              "source": "Euronews"
+            },
+            {
+              "label": "Bölgedeki ABD uçak gemisi",
+              "value": "3",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "El-Cufeyr, Manama",
+            "lat": 26.21,
+            "lon": 50.6,
+            "region": "Bahreyn"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T19:35:46.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T20:32:34.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T20:32:34.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T21:32:51.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T22:00:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T23:59:03.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T02:30:01.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b02145f8c01a1364d06afd3.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/dunya/irandan-bahreyne-pes-pese-saldiri-iki-abd-ussu-hedef-alindi-bir-tesiste-yangin-cikti-bahreynden-vatandaslarina-kritik-uyari-43386586"
+      },
+      "sources": [
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/dunya/iran-basini-devrim-muhafizlari-ordusu-bahreyndeki-iki-abd-ussunu-hedef-aldi/4133201",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/iran-bahreyndeki-iki-abd-ussunu-vurdu/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/dunya/irandan-bahreyne-pes-pese-saldiri-iki-abd-ussu-hedef-alindi-bir-tesiste-yangin-cikti-bahreynden-vatandaslarina-kritik-uyari-43386586",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/iran-bahreyn-deki-abd-ussunu-hedef-aldi-3929142",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T07:30:00+03:00",
+      "updatedAt": "2026-11-22T07:30:00+03:00"
+    },
+    {
+      "id": "51022172af4e4d19",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Drones hit Russian ship near Finland",
+          "title": "Drones set a Russian cargo ship ablaze in the Gulf of Finland",
+          "summary": {
+            "what": "The Sparta II, a sanctioned Russian cargo ship bound for Kaliningrad, caught fire after a drone strike and drifted into Finnish waters; Finland suspects Ukraine.",
+            "why": "Hours later a Russian helicopter is suspected of entering Finnish airspace, and Finland’s prime minister says the war is spilling over.",
+            "next": "Finland’s Border Guard leads the investigation; temporary air and sea restrictions are in place in the eastern Gulf of Finland."
+          },
+          "body": [
+            {
+              "subhead": "A ship on fire",
+              "blocks": [
+                {
+                  "text": "A Russian cargo ship heading for Russia’s Baltic exclave of Kaliningrad caught fire on Saturday morning after being hit by drones in the eastern Gulf of Finland, Russian and Finnish authorities said, the BBC, DW and France 24 report. The Finnish military said the Sparta II was damaged west of Russia’s Gogland island, about 40km from Finland’s coast, and later drifted into Finnish territorial waters."
+                },
+                {
+                  "text": "Finland’s coast guard was alerted at around 08:50 local time, the BBC reports. Finnish defence forces said Ukraine was probably behind the attack; Kyiv has not commented. Kaliningrad’s governor, Alexei Besprozvannykh, said two drones had been used, according to preliminary information, and that there was “no threat” to the territory’s supplies."
+                }
+              ]
+            },
+            {
+              "subhead": "What the ship carried",
+              "blocks": [
+                {
+                  "text": "The Sparta II was sanctioned by the US in 2022 and by Ukraine this year and is run by a Russian company that says it was set up within the structure of Russia’s defence ministry in 2011, the BBC reports. Finnish Border Guard commander Ilja Iljin told the broadcaster YLE that the vessel had links to the Russian military and was struck by Ukrainian drones while in Russian waters, DW writes."
+                },
+                {
+                  "quote": "At the moment, there is no confirmed information about what cargo is on board, but it cannot be ruled out that there is military materiel on board.",
+                  "speaker": "Ilja Iljin, Finnish Border Guard commander",
+                  "sourceId": "dw-world",
+                  "translated": true
+                },
+                {
+                  "text": "The crew was evacuated to another Russian vessel now heading to Russia, the Border Guard said. It found no environmental damage and no danger to shipping or people."
+                }
+              ]
+            },
+            {
+              "subhead": "A helicopter over Loviisa",
+              "blocks": [
+                {
+                  "text": "A few hours after the attack, Finland’s Defence Ministry said a Russian helicopter was suspected of violating Finnish airspace off the southern coastal town of Loviisa at 12:34 local time, possibly up to 4.1km into Finnish territory. Defence Minister Antti Häkkänen told YLE the incursion might be linked to rescue or tracking operations after the damage to the ship. Finland has informed its allies and put temporary curbs on aviation and maritime traffic in the area."
+                },
+                {
+                  "quote": "War is spilling over into our immediate vicinity. Ukraine has the right to fight back against the aggressor.",
+                  "speaker": "Petteri Orpo, Finnish prime minister",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Baltic Sea has become a flashpoint in the war, the BBC notes; earlier this month a Ukrainian drone strike hit a Russian warship in the Gulf of Finland."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Distance from Finland’s coast when hit",
+              "value": "About 40km",
+              "source": "Finnish military, via DW"
+            },
+            {
+              "label": "Drones used",
+              "value": "2",
+              "source": "Kaliningrad governor, via BBC"
+            },
+            {
+              "label": "Helicopter’s suspected incursion",
+              "value": "Up to 4.1km",
+              "source": "Finnish Defence Ministry, via DW"
+            },
+            {
+              "label": "Time of the suspected incursion",
+              "value": "12:34",
+              "source": "Finnish Defence Ministry, via DW"
+            }
+          ],
+          "place": {
+            "name": "Gogland (Suursaari)",
+            "lat": 60.07,
+            "lon": 26.98,
+            "region": "Gulf of Finland, Russia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Finlandiya açıklarında Rus gemisine İHA saldırısı",
+          "title": "Finlandiya Körfezi’nde İHA saldırısına uğrayan Rus kargo gemisi alev aldı",
+          "summary": {
+            "what": "Kaliningrad’a giden ve yaptırım listesindeki Rus kargo gemisi Sparta II, İHA saldırısıyla alev alıp Finlandiya sularına sürüklendi; Finlandiya Ukrayna’dan şüpheleniyor.",
+            "why": "Saatler sonra bir Rus helikopterinin Finlandiya hava sahasını ihlal ettiğinden şüpheleniliyor; Başbakan Orpo savaşın taştığını söylüyor.",
+            "next": "Soruşturmayı Finlandiya Sınır Muhafızları yürütüyor; doğu Finlandiya Körfezi’nde geçici hava ve deniz kısıtlaması var."
+          },
+          "body": [
+            {
+              "subhead": "Alev alan gemi",
+              "blocks": [
+                {
+                  "text": "Rusya’nın Baltık’taki toprağı Kaliningrad’a giden bir Rus kargo gemisi, cumartesi sabahı doğu Finlandiya Körfezi’nde İHA’ların vurmasıyla alev aldı. BBC, DW ve France 24’ün Rus ve Fin makamlarına dayanan haberlerine göre Finlandiya ordusu, Sparta II’nin Rusya’ya ait Gogland adasının batısında, Finlandiya kıyısından yaklaşık 40 kilometre uzakta hasar gördüğünü, ardından Finlandiya karasularına sürüklendiğini açıkladı."
+                },
+                {
+                  "text": "BBC’ye göre Finlandiya sahil güvenliği yerel saatle 08.50 civarında haberdar edildi. Fin savunma kuvvetleri saldırının arkasında büyük olasılıkla Ukrayna’nın olduğunu söyledi; Kiev yorum yapmadı. Kaliningrad Valisi Aleksey Besprozvannıh, ilk bilgilere göre iki İHA kullanıldığını ve bölgenin ikmali için “tehdit olmadığını” söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Gemide ne vardı",
+              "blocks": [
+                {
+                  "text": "BBC’nin haberine göre Sparta II’ye 2022’de ABD, bu yıl da Ukrayna yaptırım uyguladı; gemiyi işleten Rus şirketi, 2011’de Rusya Savunma Bakanlığı bünyesinde kurulduğunu söylüyor. DW’ye göre Finlandiya Sınır Muhafızları Komutanı Ilja Iljin, yayın kuruluşu YLE’ye geminin Rus ordusuyla bağlantılı olduğunu ve Rus sularındayken Ukrayna İHA’larıyla vurulduğunu söyledi."
+                },
+                {
+                  "quote": "Şu anda gemide hangi yük olduğuna dair doğrulanmış bilgi yok, ancak gemide askeri malzeme bulunma ihtimali göz ardı edilemez.",
+                  "speaker": "Ilja Iljin, Finlandiya Sınır Muhafızları Komutanı",
+                  "sourceId": "dw-world",
+                  "translated": true
+                },
+                {
+                  "text": "Sınır Muhafızları’na göre mürettebat, Rusya’ya doğru yola çıkan başka bir Rus gemisine tahliye edildi. Çevresel bir hasar tespit edilmedi; deniz trafiği ve insanlar için tehlike bulunmuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Loviisa açıklarında helikopter",
+              "blocks": [
+                {
+                  "text": "Saldırıdan birkaç saat sonra Finlandiya Savunma Bakanlığı, bir Rus helikopterinin yerel saatle 12.34’te güney kıyısındaki Loviisa kasabası açıklarında Finlandiya hava sahasını ihlal ettiğinden şüphelenildiğini açıkladı; helikopter 4,1 kilometreye kadar içeri girmiş olabilir. Savunma Bakanı Antti Häkkänen YLE’ye, ihlalin gemideki hasar sonrası yürütülen kurtarma ya da izleme faaliyetleriyle bağlantılı olabileceğini söyledi. Finlandiya müttefiklerini bilgilendirdi ve bölgede hava ve deniz trafiğine geçici kısıtlama getirdi."
+                },
+                {
+                  "quote": "Savaş hemen yakınımıza taşıyor. Ukrayna’nın saldırgana karşı savaşma hakkı var.",
+                  "speaker": "Petteri Orpo, Finlandiya Başbakanı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC, Baltık Denizi’nin savaşta bir gerilim noktasına dönüştüğünü hatırlatıyor; bu ayın başında bir Ukrayna İHA saldırısı Finlandiya Körfezi’nde bir Rus savaş gemisini vurmuştu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Vurulduğunda Finlandiya kıyısına uzaklık",
+              "value": "Yaklaşık 40 km",
+              "source": "Finlandiya ordusu, DW"
+            },
+            {
+              "label": "Kullanılan İHA",
+              "value": "2",
+              "source": "Kaliningrad Valisi, BBC"
+            },
+            {
+              "label": "Helikopterin şüpheli ihlali",
+              "value": "4,1 km’ye kadar",
+              "source": "Finlandiya Savunma Bakanlığı, DW"
+            },
+            {
+              "label": "Şüpheli ihlalin saati",
+              "value": "12.34",
+              "source": "Finlandiya Savunma Bakanlığı, DW"
+            }
+          ],
+          "place": {
+            "name": "Gogland (Suursaari)",
+            "lat": 60.07,
+            "lon": 26.98,
+            "region": "Finlandiya Körfezi, Rusya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T17:08:00.000Z",
+          "sourceId": "dw-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T18:02:23.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T18:02:23.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T19:20:22.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/8752a08e-e5d2-11f1-bad2-e56ab3dc0809/w:1024/p:16x9/EN-20261121-180424-180619-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
+      },
+      "sources": [
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T07:30:00+03:00",
+      "updatedAt": "2026-11-22T07:30:00+03:00"
+    },
+    {
+      "id": "053ed16412918bce",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "28cbbdf232f7d3f2",
+      "versions": {
+        "en": {
+          "news": "Mexico’s Defence Ministry says four soldiers and seven gunmen died in the raid, and his alleged second-in-command was caught with him.",
+          "shortTitle": "Chapo Isidro raid left 11 dead",
+          "title": "Raid that caught ‘El Chapo Isidro’ left 11 dead, Mexico says",
+          "summary": {
+            "what": "Four soldiers and seven suspected cartel gunmen died in the operation that captured Fausto Isidro Meza Flores in Guasave, Sinaloa, Mexico’s Defence Ministry said.",
+            "why": "He was one of the FBI’s 10 most wanted, with a $5m US reward; experts warn his capture could set off a new wave of cartel violence.",
+            "next": "He and two alleged gang leaders were flown to Mexico City to face prosecutors; five others were handed to prosecutors in Culiacán."
+          },
+          "body": [
+            {
+              "subhead": "Eleven dead",
+              "blocks": [
+                {
+                  "text": "The operation in which Mexican forces captured Fausto Isidro Meza Flores, known as ‘El Chapo Isidro’, left at least 11 people dead, Mexico’s Defence Ministry said on Saturday afternoon, NPR, Euronews, France 24 and The Guardian report. Four Mexican soldiers sent to reinforce security in the town of Guasave were killed, and security forces killed seven attackers as gang members fought back against their leader’s arrest. The ministry said there were no reports of civilian casualties."
+                },
+                {
+                  "text": "Eight people were arrested. Three were flown to Mexico City on an air force plane: Meza Flores, his alleged second-in-command Germán N, alias ‘Serafín’, and José N, an alleged financial operator for the Beltrán Leyva group. The other five were handed to the attorney general’s office in Culiacán, The Guardian reports. The military seized a .50-calibre rifle, a grenade launcher, grenades, other firearms, drugs and cash, France 24 writes."
+                }
+              ]
+            },
+            {
+              "subhead": "A night of fighting",
+              "blocks": [
+                {
+                  "text": "The firefight broke out around 7pm on Friday, residents of the 290,000-person municipality told the Associated Press, carried by NPR. Military helicopters and drones flew overhead, and videos show civilians fleeing gunfire at a baseball game, burning cars and businesses."
+                },
+                {
+                  "quote": "The fighting was happening all over Guasave. It spread throughout the city.",
+                  "speaker": "Alma Camacho, Guasave resident and local journalist",
+                  "sourceId": "npr-world"
+                },
+                {
+                  "text": "By Saturday the violence had substantially subsided, and Sinaloa’s authorities said the situation was under control, The Guardian reports. An unverified video circulating overnight appeared to show the detained Meza Flores urging his associates to stand down, France 24 writes."
+                }
+              ]
+            },
+            {
+              "subhead": "Who he is",
+              "blocks": [
+                {
+                  "text": "Meza Flores, 44, had evaded arrest for more than a decade. The defence ministry says he leads the Beltrán Leyva organisation, allied to ‘Los Mayos’, one of two rival factions of the Sinaloa cartel. He was indicted in the US in 2012, sanctioned under the Kingpin Act in 2013, and since 2017 the State Department had offered up to $5m for information leading to his arrest, The Guardian reports."
+                },
+                {
+                  "text": "Mexico’s government said intelligence from the Trump administration helped, without giving details. The capture came days after President Claudia Sheinbaum met Donald Trump at a summit in Asia, France 24 notes. NPR, citing experts, warns that picking off leaders can set off another wave of violence in a region already torn by a war between cartel factions."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Dead: four soldiers and seven gunmen",
+              "value": "11",
+              "source": "Mexico’s Defence Ministry"
+            },
+            {
+              "label": "People arrested in the operation",
+              "value": "8",
+              "source": "Mexico’s Defence Ministry"
+            },
+            {
+              "label": "US reward for his arrest",
+              "value": "$5m",
+              "source": "US State Department"
+            },
+            {
+              "label": "Population of Guasave municipality",
+              "value": "290,000",
+              "source": "AP, via NPR"
+            }
+          ],
+          "place": {
+            "name": "Guasave",
+            "lat": 25.57,
+            "lon": -108.47,
+            "region": "Sinaloa, Mexico"
+          }
+        },
+        "tr": {
+          "news": "Meksika Savunma Bakanlığı’na göre operasyonda dört asker ve yedi silahlı öldü; iddiaya göre örgütün iki numarası da yakalandı.",
+          "shortTitle": "Chapo Isidro operasyonunda 11 ölü",
+          "title": "Meksika: ‘El Chapo Isidro’ operasyonunda 11 kişi öldü",
+          "summary": {
+            "what": "Meksika Savunma Bakanlığı, Fausto Isidro Meza Flores’in Sinaloa’nın Guasave kentinde yakalandığı operasyonda dört asker ile yedi şüpheli silahlının öldüğünü açıkladı.",
+            "why": "FBI’ın en çok arananlar listesindeydi, ABD başına 5 milyon dolar ödül koymuştu; uzmanlar yakalanmasının yeni bir şiddet dalgası başlatabileceği uyarısında.",
+            "next": "Meza Flores ve iki örgüt yöneticisi savcılığa çıkarılmak üzere Mexico City’ye götürüldü; beş kişi Culiacán’da savcılığa teslim edildi."
+          },
+          "body": [
+            {
+              "subhead": "On bir ölü",
+              "blocks": [
+                {
+                  "text": "Meksika güvenlik güçlerinin ‘El Chapo Isidro’ lakaplı Fausto Isidro Meza Flores’i yakaladığı operasyonda en az 11 kişi öldü. NPR, Euronews, France 24 ve The Guardian’ın aktardığına göre Meksika Savunma Bakanlığı cumartesi öğleden sonra, Guasave kentinde güvenliği güçlendirmek için gönderilen dört askerin hayatını kaybettiğini, örgüt üyelerinin liderlerinin yakalanmasına sert direniş göstermesi üzerine güvenlik güçlerinin yedi saldırganı öldürdüğünü açıkladı. Bakanlık sivil kayıp bildirilmediğini söyledi."
+                },
+                {
+                  "text": "Sekiz kişi gözaltına alındı. The Guardian’a göre bunlardan üçü, Meza Flores, örgütün iki numarası olduğu öne sürülen ‘Serafín’ lakaplı Germán N. ve Beltrán Leyva grubunun mali işlerini yürüttüğü iddia edilen José N., hava kuvvetleri uçağıyla Mexico City’ye götürüldü; diğer beşi Culiacán’da başsavcılığa teslim edildi. France 24’e göre ordu 50 kalibre bir tüfek, bir bombaatar, el bombaları, başka silahlar, uyuşturucu ve nakit ele geçirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Çatışmalı bir gece",
+              "blocks": [
+                {
+                  "text": "NPR’ın yayımladığı Associated Press haberine göre 290 bin nüfuslu ilçenin sakinleri, çatışmanın cuma akşamı saat 19.00 sularında başladığını anlattı. Askeri helikopterler ve İHA’lar kentin üzerinde uçtu; görüntülerde bir beyzbol maçında silah seslerinden kaçan seyirciler, yanan araçlar ve iş yerleri görülüyor."
+                },
+                {
+                  "quote": "Çatışma Guasave’nin her yerinde yaşanıyordu. Bütün kente yayıldı.",
+                  "speaker": "Alma Camacho, Guasave sakini ve yerel gazeteci",
+                  "sourceId": "npr-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre cumartesiye gelindiğinde şiddet büyük ölçüde yatıştı ve Sinaloa yetkilileri durumun kontrol altında olduğunu açıkladı. France 24, gece boyunca yayılan ve doğrulanmamış bir videoda gözaltındaki Meza Flores’in adamlarına geri çekilmeleri çağrısı yaptığının görüldüğünü yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kim bu isim",
+              "blocks": [
+                {
+                  "text": "44 yaşındaki Meza Flores on yılı aşkın süredir yakalanmaktan kurtuluyordu. Savunma Bakanlığı’na göre Sinaloa kartelinin iki rakip kanadından ‘Los Mayos’ ile müttefik Beltrán Leyva örgütünün lideri. The Guardian’ın haberine göre ABD’de 2012’de iddianame hazırlandı, 2013’te Kingpin Yasası kapsamında yaptırım listesine alındı; Dışişleri Bakanlığı 2017’den beri yakalanmasını sağlayacak bilgi için 5 milyon dolara kadar ödül veriyordu."
+                },
+                {
+                  "text": "Meksika hükümeti Trump yönetiminden gelen istihbaratın yardımcı olduğunu söyledi ama ayrıntı vermedi. France 24, operasyonun Devlet Başkanı Claudia Sheinbaum’un Asya’daki bir zirvede Donald Trump’la görüşmesinden günler sonra geldiğine dikkat çekiyor. NPR’ın aktardığı uzmanlara göre liderlerin tek tek yakalanması, kartel kanatları arasındaki savaşla zaten sarsılan bölgede yeni bir şiddet dalgasını tetikleyebilir."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ölü: dört asker ve yedi silahlı",
+              "value": "11",
+              "source": "Meksika Savunma Bakanlığı"
+            },
+            {
+              "label": "Operasyonda gözaltına alınan",
+              "value": "8",
+              "source": "Meksika Savunma Bakanlığı"
+            },
+            {
+              "label": "ABD’nin koyduğu ödül",
+              "value": "5 milyon $",
+              "source": "ABD Dışişleri Bakanlığı"
+            },
+            {
+              "label": "Guasave ilçesinin nüfusu",
+              "value": "290 bin",
+              "source": "AP, NPR"
+            }
+          ],
+          "place": {
+            "name": "Guasave",
+            "lat": 25.57,
+            "lon": -108.47,
+            "region": "Sinaloa, Meksika"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-21T14:00:45.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T14:20:35.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-21T14:20:35.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T15:00:15.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T17:46:55.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-21T18:08:55.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T01:25:03.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/7ea4cdf8-e5d8-11f1-9d8c-1bac47ab2f5d/w:1024/p:16x9/5ae7a51b5a446d41d7c0ce84900d19b70a41bb55.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "confirms": true
+        },
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-22T07:30:00+03:00",
+      "updatedAt": "2026-11-22T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "62c6a25cc988cd46",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "When will the Bolu vehicle-hire trial of Tanju Özcan resume?",
+          "options": ["15 January 2027", "1 February 2027", "22 March 2027"]
+        },
+        "tr": {
+          "question": "Tanju Özcan’ın yargılandığı Bolu araç kiralama davası ne zaman devam edecek?",
+          "options": ["15 Ocak 2027", "1 Şubat 2027", "22 Mart 2027"]
+        }
+      }
+    },
+    {
+      "storyId": "5551def0095f2a9b",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "About how long did Levent Alpöge work with Claude on the Riemann Hypothesis proof?",
+          "options": ["About six weeks", "About six months", "About two years"]
+        },
+        "tr": {
+          "question": "Levent Alpöge, Riemann Hipotezi ispatı üzerinde Claude ile yaklaşık ne kadar çalıştı?",
+          "options": ["Yaklaşık altı hafta", "Yaklaşık altı ay", "Yaklaşık iki yıl"]
+        }
+      }
+    },
+    {
+      "storyId": "51022172af4e4d19",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Where was the Russian cargo ship Sparta II heading when drones hit it?",
+          "options": ["St Petersburg", "Kaliningrad", "Murmansk"]
+        },
+        "tr": {
+          "question": "İHA’ların vurduğu Rus kargo gemisi Sparta II nereye gidiyordu?",
+          "options": ["St. Petersburg", "Kaliningrad", "Murmansk"]
+        }
+      }
+    }
+  ]
+}
