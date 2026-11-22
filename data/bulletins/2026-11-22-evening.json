@@ -225,7 +225,6 @@
       "continues": "929a53dc95d437b8",
       "versions": {
         "en": {
-          "news": "The file says a €100m transfer to his son’s account, sent for a seaside mansion, was blocked by a foreign bank.",
           "shortTitle": "Sarıgül file details €100m transfer",
           "title": "Sarıgül immunity file cites a blocked €100m transfer and four alleged victims",
           "summary": {
@@ -289,10 +288,10 @@
               "value": "5",
               "source": "Ankara prosecutors, via AA"
             }
-          ]
+          ],
+          "news": "The file says a €100m transfer to his son’s account, sent for a seaside mansion, was blocked by a foreign bank."
         },
         "tr": {
-          "news": "Fezlekeye göre oğlunun hesabına yalı satışı için yurt dışından gönderilen 100 milyon avroluk havale yabancı bankaca bloke edildi.",
           "shortTitle": "Sarıgül fezlekesinde 100 milyon avro",
           "title": "Sarıgül fezlekesinde bloke edilen 100 milyon avro ve dört mağdurun beyanı",
           "summary": {
@@ -356,7 +355,8 @@
               "value": "5",
               "source": "Ankara Başsavcılığı, AA aracılığıyla"
             }
-          ]
+          ],
+          "news": "Fezlekeye göre oğlunun hesabına yalı satışı için yurt dışından gönderilen 100 milyon avroluk havale yabancı bankaca bloke edildi."
         }
       },
       "timeline": [
@@ -398,7 +398,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b02e03e9a30875a04578dc3.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b02e58cc757abf656939109.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/mustafa-sarigul-fezlekesinden-4-magdurun-beyanlari-ve-milyon-avroluk-mali-iddialar-cikti-43387082"
@@ -889,7 +889,6 @@
       "continues": "8b20e21a6d79aa31",
       "versions": {
         "en": {
-          "news": "COP31 ended without its main deal after the EU and others rejected the ‘Antalya pact’ for not mentioning fossil fuels.",
           "shortTitle": "COP31 ends without a deal",
           "title": "COP31 in Antalya ends without a deal over fossil fuels",
           "summary": {
@@ -966,10 +965,10 @@
             "before": 21,
             "after": 35,
             "source": "Draft text, via Euronews"
-          }
+          },
+          "news": "COP31 ended without its main deal after the EU and others rejected the ‘Antalya pact’ for not mentioning fossil fuels."
         },
         "tr": {
-          "news": "COP31, AB ve diğer ülkelerin fosil yakıtları anmayan ‘Antalya Paktı’nı reddetmesiyle ana karar alınamadan sona erdi.",
           "shortTitle": "COP31 anlaşmasız sona erdi",
           "title": "Antalya’daki COP31, AB’nin fosil yakıtları anmayan metni reddetmesiyle anlaşmasız bitti",
           "summary": {
@@ -1045,7 +1044,8 @@
             "before": 21,
             "after": 35,
             "source": "Taslak metin, Euronews aracılığıyla"
-          }
+          },
+          "news": "COP31, AB ve diğer ülkelerin fosil yakıtları anmayan ‘Antalya Paktı’nı reddetmesiyle ana karar alınamadan sona erdi."
         }
       },
       "timeline": [
@@ -1404,6 +1404,143 @@
           "question": "Antalya’daki COP31 planlanan kapanışı kaç saat aştı?",
           "options": ["44 saat", "12 saat", "72 saat"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401875008",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["kenan-yildiz"],
+      "name": {
+        "en": "Kenan Yıldız",
+        "tr": "Kenan Yıldız"
+      },
+      "competition": {
+        "en": "Serie A",
+        "tr": "Serie A"
+      },
+      "home": {
+        "name": "Juventus",
+        "ours": true,
+        "team": "juventus"
+      },
+      "away": {
+        "name": "Venezia",
+        "ours": false,
+        "team": "venezia"
+      },
+      "startsAt": "2026-11-22T11:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ita.1/401875008"
+      },
+      "result": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "espn-401879234",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["ferdi-kadioglu"],
+      "name": {
+        "en": "Ferdi Kadıoğlu",
+        "tr": "Ferdi Kadıoğlu"
+      },
+      "competition": {
+        "en": "Premier League",
+        "tr": "Premier Lig"
+      },
+      "home": {
+        "name": "Hull City",
+        "short": "Hull",
+        "ours": false,
+        "team": "hull-city"
+      },
+      "away": {
+        "name": "Brighton & Hove Albion",
+        "short": "Brighton",
+        "ours": true,
+        "team": "brighton-hove-albion"
+      },
+      "startsAt": "2026-11-22T14:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/eng.1/401879234"
+      },
+      "lines": [
+        {
+          "person": "ferdi-kadioglu",
+          "goals": 0,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401878755",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["altay-bayindir"],
+      "name": {
+        "en": "Altay Bayındır",
+        "tr": "Altay Bayındır"
+      },
+      "competition": {
+        "en": "Premier League",
+        "tr": "Premier Lig"
+      },
+      "home": {
+        "name": "Liverpool",
+        "ours": false,
+        "team": "liverpool"
+      },
+      "away": {
+        "name": "Manchester United",
+        "short": "Man Utd",
+        "ours": true,
+        "team": "manchester-united"
+      },
+      "startsAt": "2026-11-22T16:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/eng.1/401878755"
+      }
+    },
+    {
+      "id": "espn-401875001",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Serie A",
+        "tr": "Serie A"
+      },
+      "home": {
+        "name": "Atalanta",
+        "ours": false,
+        "team": "atalanta"
+      },
+      "away": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "startsAt": "2026-11-22T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ita.1/401875001"
       }
     }
   ]
