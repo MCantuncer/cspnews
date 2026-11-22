@@ -201,7 +201,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b01da8a8c01a1364d06af76.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b01da8a8c01a1364d06af76.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/arac-kiralamada-usulsuzluk-davasinda-tanju-ozcan-ve-3-tutuklu-saniga-adli-kontrolle-tahliye-43386483"
@@ -250,7 +250,6 @@
       "continues": "0b4ff630c276a514",
       "versions": {
         "en": {
-          "news": "Fidan says Erdoğan has ordered the laws still needed for EU visa-free travel through parliament, and the drafts are being discussed with Brussels.",
           "shortTitle": "Visa-free laws head to parliament",
           "title": "Parliament must pass laws for EU visa-free travel, Fidan says",
           "summary": {
@@ -315,10 +314,10 @@
               "value": "14–15 in 100",
               "source": "Hakan Fidan, via NTV"
             }
-          ]
+          ],
+          "news": "Fidan says Erdoğan has ordered the laws still needed for EU visa-free travel through parliament, and the drafts are being discussed with Brussels."
         },
         "tr": {
-          "news": "Fidan: Vize serbestisi için kalan düzenlemelerin Meclis’ten geçmesi gerekiyor, Cumhurbaşkanı talimat verdi; taslaklar AB ile görüşülüyor.",
           "shortTitle": "Vize serbestisi Meclis’e geliyor",
           "title": "Fidan: Vize serbestisi için bazı düzenlemeler Meclis’ten geçmeli",
           "summary": {
@@ -382,7 +381,8 @@
               "value": "100’de 14-15",
               "source": "Hakan Fidan, NTV"
             }
-          ]
+          ],
+          "news": "Fidan: Vize serbestisi için kalan düzenlemelerin Meclis’ten geçmesi gerekiyor, Cumhurbaşkanı talimat verdi; taslaklar AB ile görüşülüyor."
         }
       },
       "timeline": [
@@ -443,7 +443,6 @@
       "continues": "675650dffca0c9d4",
       "versions": {
         "en": {
-          "news": "Two groups, the Lean FRO and the Mathlib Initiative, say they checked Alpöge’s proof independently and have “full confidence” it is correct.",
           "shortTitle": "Riemann proof passes independent check",
           "title": "Two groups say the Claude-assisted Riemann Hypothesis proof checks out",
           "summary": {
@@ -512,10 +511,10 @@
               "value": "$1m",
               "source": "Clay Mathematics Institute"
             }
-          ]
+          ],
+          "news": "Two groups, the Lean FRO and the Mathlib Initiative, say they checked Alpöge’s proof independently and have “full confidence” it is correct."
         },
         "tr": {
-          "news": "Lean FRO ve Mathlib Initiative, Alpöge’nin ispatını bağımsız olarak doğruladıklarını ve doğruluğundan “tam olarak emin” olduklarını açıkladı.",
           "shortTitle": "Riemann ispatı bağımsız doğrulamadan geçti",
           "title": "İki kuruluş, Claude destekli Riemann Hipotezi ispatını doğruladı",
           "summary": {
@@ -585,7 +584,8 @@
               "value": "1 milyon $",
               "source": "Clay Matematik Enstitüsü"
             }
-          ]
+          ],
+          "news": "Lean FRO ve Mathlib Initiative, Alpöge’nin ispatını bağımsız olarak doğruladıklarını ve doğruluğundan “tam olarak emin” olduklarını açıkladı."
         }
       },
       "timeline": [
@@ -828,7 +828,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b02145f8c01a1364d06afd3.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b02145f8c01a1364d06afd3.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/dunya/irandan-bahreyne-pes-pese-saldiri-iki-abd-ussu-hedef-alindi-bir-tesiste-yangin-cikti-bahreynden-vatandaslarina-kritik-uyari-43386586"
@@ -1102,7 +1102,6 @@
       "continues": "28cbbdf232f7d3f2",
       "versions": {
         "en": {
-          "news": "Mexico’s Defence Ministry says four soldiers and seven gunmen died in the raid, and his alleged second-in-command was caught with him.",
           "shortTitle": "Chapo Isidro raid left 11 dead",
           "title": "Raid that caught ‘El Chapo Isidro’ left 11 dead, Mexico says",
           "summary": {
@@ -1177,10 +1176,10 @@
             "lat": 25.57,
             "lon": -108.47,
             "region": "Sinaloa, Mexico"
-          }
+          },
+          "news": "Mexico’s Defence Ministry says four soldiers and seven gunmen died in the raid, and his alleged second-in-command was caught with him."
         },
         "tr": {
-          "news": "Meksika Savunma Bakanlığı’na göre operasyonda dört asker ve yedi silahlı öldü; iddiaya göre örgütün iki numarası da yakalandı.",
           "shortTitle": "Chapo Isidro operasyonunda 11 ölü",
           "title": "Meksika: ‘El Chapo Isidro’ operasyonunda 11 kişi öldü",
           "summary": {
@@ -1256,7 +1255,8 @@
             "lat": 25.57,
             "lon": -108.47,
             "region": "Sinaloa, Meksika"
-          }
+          },
+          "news": "Meksika Savunma Bakanlığı’na göre operasyonda dört asker ve yedi silahlı öldü; iddiaya göre örgütün iki numarası da yakalandı."
         }
       },
       "timeline": [
@@ -1380,6 +1380,173 @@
           "question": "İHA’ların vurduğu Rus kargo gemisi Sparta II nereye gidiyordu?",
           "options": ["St. Petersburg", "Kaliningrad", "Murmansk"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401882798",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "LaLiga",
+        "tr": "LaLiga"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "Celta Vigo",
+        "ours": false,
+        "team": "celta-vigo"
+      },
+      "startsAt": "2026-11-21T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/esp.1/401882798"
+      },
+      "result": {
+        "home": 2,
+        "away": 1
+      },
+      "lines": [
+        {
+          "person": "arda-guler",
+          "goals": 0,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401875008",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["kenan-yildiz"],
+      "name": {
+        "en": "Kenan Yıldız",
+        "tr": "Kenan Yıldız"
+      },
+      "competition": {
+        "en": "Serie A",
+        "tr": "Serie A"
+      },
+      "home": {
+        "name": "Juventus",
+        "ours": true,
+        "team": "juventus"
+      },
+      "away": {
+        "name": "Venezia",
+        "ours": false,
+        "team": "venezia"
+      },
+      "startsAt": "2026-11-22T11:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ita.1/401875008"
+      }
+    },
+    {
+      "id": "espn-401879234",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["ferdi-kadioglu"],
+      "name": {
+        "en": "Ferdi Kadıoğlu",
+        "tr": "Ferdi Kadıoğlu"
+      },
+      "competition": {
+        "en": "Premier League",
+        "tr": "Premier Lig"
+      },
+      "home": {
+        "name": "Hull City",
+        "short": "Hull",
+        "ours": false,
+        "team": "hull-city"
+      },
+      "away": {
+        "name": "Brighton & Hove Albion",
+        "short": "Brighton",
+        "ours": true,
+        "team": "brighton-hove-albion"
+      },
+      "startsAt": "2026-11-22T14:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/eng.1/401879234"
+      }
+    },
+    {
+      "id": "espn-401878755",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["altay-bayindir"],
+      "name": {
+        "en": "Altay Bayındır",
+        "tr": "Altay Bayındır"
+      },
+      "competition": {
+        "en": "Premier League",
+        "tr": "Premier Lig"
+      },
+      "home": {
+        "name": "Liverpool",
+        "ours": false,
+        "team": "liverpool"
+      },
+      "away": {
+        "name": "Manchester United",
+        "short": "Man Utd",
+        "ours": true,
+        "team": "manchester-united"
+      },
+      "startsAt": "2026-11-22T16:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/eng.1/401878755"
+      }
+    },
+    {
+      "id": "espn-401875001",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Serie A",
+        "tr": "Serie A"
+      },
+      "home": {
+        "name": "Atalanta",
+        "ours": false,
+        "team": "atalanta"
+      },
+      "away": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "startsAt": "2026-11-22T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ita.1/401875001"
       }
     }
   ]
