@@ -15,6 +15,7 @@ import {
   parseRefs,
   readEspn,
   readEuroleague,
+  readEuroleagueHeader,
   type LiveRef,
   type LiveScore,
 } from './scores.js';
@@ -54,13 +55,23 @@ async function sourceJson(url: string, context: WaitUntil): Promise<unknown> {
   return response.json();
 }
 
+/** The Euroleague's live header, or nothing when it can't be read and the game page must do. */
+async function euroleagueHeader(ref: LiveRef, context: WaitUntil) {
+  if (!ref.headerUrl) return undefined;
+  try {
+    return readEuroleagueHeader(ref.key, await sourceJson(ref.headerUrl, context));
+  } catch {
+    return undefined;
+  }
+}
+
 async function scoreOf(ref: LiveRef, context: WaitUntil): Promise<LiveScore | undefined> {
   try {
-    const json = await sourceJson(ref.url, context);
     const score =
       ref.source === 'espn'
-        ? readEspn(ref.key, ref.ref, json, ABROAD_PEOPLE)
-        : readEuroleague(ref.key, json);
+        ? readEspn(ref.key, ref.ref, await sourceJson(ref.url, context), ABROAD_PEOPLE)
+        : ((await euroleagueHeader(ref, context)) ??
+          readEuroleague(ref.key, await sourceJson(ref.url, context)));
     if (!score || score.state === 'pre' || !ref.scorersUrl) return score;
     const scorers = await scorersOf(ref, ref.scorersUrl, context);
     return scorers.length > 0 ? { ...score, scorers } : score;
