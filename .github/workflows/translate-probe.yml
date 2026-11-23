@@ -13,5 +13,4 @@ jobs:
           cache: pip
           cache-dependency-path: packages/hotnews/translate/requirements.txt
       - run: time pip install -r packages/hotnews/translate/requirements.txt
-      - run: time python packages/hotnews/translate/translate.py < probe/probe.json
-      - run: time python packages/hotnews/translate/translate.py < probe/probe.json
+      - run: python probe/variants.py
