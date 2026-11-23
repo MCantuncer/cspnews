@@ -1,0 +1,292 @@
+[
+  {
+    "genre": "global",
+    "title": "Rapper's Delight",
+    "artists": ["The Sugarhill Gang"],
+    "year": 1979,
+    "standing": {
+      "kind": "editor",
+      "note": "The first rap hit."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "The Message",
+    "artists": ["Grandmaster Flash and the Furious Five"],
+    "year": 1982,
+    "standing": {
+      "kind": "editor",
+      "note": "Took rap from the party to the street."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Fight the Power",
+    "artists": ["Public Enemy"],
+    "year": 1989,
+    "standing": {
+      "kind": "editor",
+      "note": "The protest song of rap."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Nuthin' but a \"G\" Thang",
+    "artists": ["Dr. Dre", "Snoop Doggy Dogg"],
+    "year": 1992,
+    "standing": {
+      "kind": "editor",
+      "note": "The sound of West Coast G-funk."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "C.R.E.A.M.",
+    "artists": ["Wu-Tang Clan"],
+    "year": 1993,
+    "standing": {
+      "kind": "editor",
+      "note": "The Wu-Tang line everyone knows."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Electric Relaxation",
+    "artists": ["A Tribe Called Quest"],
+    "year": 1993,
+    "standing": {
+      "kind": "editor",
+      "note": "Jazz rap at its smoothest."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "N.Y. State of Mind",
+    "artists": ["Nas"],
+    "year": 1994,
+    "standing": {
+      "kind": "editor",
+      "note": "Opening track of Illmatic."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Juicy",
+    "artists": ["The Notorious B.I.G."],
+    "year": 1994,
+    "standing": {
+      "kind": "editor",
+      "note": "Biggie's rise story."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Shook Ones, Pt. II",
+    "artists": ["Mobb Deep"],
+    "year": 1995,
+    "standing": {
+      "kind": "editor",
+      "note": "The hardest beat of New York rap."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "California Love",
+    "artists": ["2Pac", "Dr. Dre", "Roger Troutman"],
+    "year": 1995,
+    "standing": {
+      "kind": "editor",
+      "note": "West Coast anthem."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Hypnotize",
+    "artists": ["The Notorious B.I.G."],
+    "year": 1997,
+    "standing": {
+      "kind": "editor",
+      "note": "Flex rap classic."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Still D.R.E.",
+    "artists": ["Dr. Dre", "Snoop Dogg"],
+    "year": 1999,
+    "standing": {
+      "kind": "editor",
+      "note": "The piano riff everyone knows."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Ms. Jackson",
+    "artists": ["OutKast"],
+    "year": 2000,
+    "standing": {
+      "kind": "editor",
+      "note": "OutKast's biggest crossover."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Lose Yourself",
+    "artists": ["Eminem"],
+    "year": 2002,
+    "standing": {
+      "kind": "editor",
+      "note": "The first rap song to win the Oscar for best original song."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Alright",
+    "artists": ["Kendrick Lamar"],
+    "year": 2015,
+    "standing": {
+      "kind": "editor",
+      "note": "From To Pimp a Butterfly."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "HUMBLE.",
+    "artists": ["Kendrick Lamar"],
+    "year": 2017,
+    "standing": {
+      "kind": "editor",
+      "note": "Kendrick's flex single."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "Mask Off",
+    "artists": ["Future"],
+    "year": 2017,
+    "standing": {
+      "kind": "editor",
+      "note": "The flute loop and the flex."
+    }
+  },
+  {
+    "genre": "global",
+    "title": "SICKO MODE",
+    "artists": ["Travis Scott", "Drake"],
+    "year": 2018,
+    "standing": {
+      "kind": "editor",
+      "note": "Three beats in one song."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Holocaust",
+    "artists": ["Ceza"],
+    "year": 2004,
+    "standing": {
+      "kind": "editor",
+      "note": "The speed verse Turkish rap is measured against."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Geceler",
+    "artists": ["Ezhel"],
+    "year": 2017,
+    "standing": {
+      "kind": "editor",
+      "note": "From Müptezhel, the album that changed Turkish rap's sound."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Mekanın Sahibi",
+    "artists": ["Norm Ender"],
+    "year": 2017,
+    "standing": {
+      "kind": "editor",
+      "note": "The diss that went mainstream."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Demet Akalın",
+    "artists": ["Ben Fero"],
+    "year": 2017,
+    "standing": {
+      "kind": "editor",
+      "note": "Flex rap hit."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Susamam",
+    "artists": ["Şanışer"],
+    "year": 2019,
+    "standing": {
+      "kind": "editor",
+      "note": "Fourteen voices on one record."
+    }
+  },
+  {
+    "genre": "techno",
+    "title": "Spastik",
+    "artists": ["Plastikman"],
+    "year": 1993,
+    "standing": {
+      "kind": "editor",
+      "note": "Richie Hawtin's drum workout."
+    }
+  },
+  {
+    "genre": "techno",
+    "title": "Domino",
+    "artists": ["Oxia"],
+    "year": 2005,
+    "standing": {
+      "kind": "editor",
+      "note": "The rolling bass line of mid-2000s techno."
+    }
+  },
+  {
+    "genre": "techno",
+    "title": "Rainbow Delta",
+    "artists": ["Len Faki"],
+    "year": 2008,
+    "standing": {
+      "kind": "editor",
+      "note": "Ostgut Ton era peak-time record."
+    }
+  },
+  {
+    "genre": "techno",
+    "title": "Subzero",
+    "artists": ["Ben Klock"],
+    "year": 2009,
+    "standing": {
+      "kind": "editor",
+      "note": "Berghain record that fills a floor without shouting."
+    }
+  },
+  {
+    "genre": "techno",
+    "title": "The Man with the Red Face",
+    "artists": ["Laurent Garnier"],
+    "year": 2000,
+    "standing": {
+      "kind": "editor",
+      "note": "Techno with a saxophone that still works on a floor."
+    }
+  },
+  {
+    "genre": "techno",
+    "title": "Your Mind",
+    "artists": ["Adam Beyer", "Bart Skils"],
+    "year": 2018,
+    "standing": {
+      "kind": "editor",
+      "note": "Drumcode's big-room peak-time record."
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "@cspnews/music",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "check-music": "node dist/check-music.js"
+  },
+  "dependencies": {
+    "@cspnews/core": "workspace:*",
+    "zod": "4.6.7"
+  }
+}
