@@ -15,7 +15,6 @@
         "en": {
           "shortTitle": "Sarıyer lion slips a dart",
           "title": "Sarıyer lion dodges a tranquilliser dart; prosecutors open an inquiry",
-          "news": "A tranquilliser dart missed the lion, prosecutors opened an inquiry and Belgrad Forest was closed to visitors.",
           "summary": {
             "what": "The lioness loose in Istanbul’s Sarıyer since Sunday evening was still free on Monday afternoon after a tranquilliser dart missed her overnight.",
             "why": "The search has closed a neighbourhood and Belgrad Forest, and nobody yet knows who kept a lion on the city’s edge.",
@@ -98,12 +97,12 @@
             "lat": 41.19,
             "lon": 29.03,
             "region": "Istanbul, Türkiye"
-          }
+          },
+          "news": "A tranquilliser dart missed the lion, prosecutors opened an inquiry and Belgrad Forest was closed to visitors."
         },
         "tr": {
           "shortTitle": "Sarıyer’deki aslan iğneden kurtuldu",
           "title": "Sarıyer’deki aslana uyuşturucu iğne isabet etmedi, savcılık soruşturma başlattı",
-          "news": "Uyuşturucu iğne aslana isabet etmedi, başsavcılık soruşturma başlattı ve Belgrad Ormanı ziyarete kapatıldı.",
           "summary": {
             "what": "Pazar akşamından beri Sarıyer’de aranan dişi aslan, gece atılan uyuşturucu iğne isabet etmeyince pazartesi öğleden sonra hâlâ yakalanamamıştı.",
             "why": "Arama bir mahalleyi ve Belgrad Ormanı’nı kapattı; kentin kıyısında aslanı kimin beslediği ise hâlâ bilinmiyor.",
@@ -184,7 +183,8 @@
             "lat": 41.19,
             "lon": 29.03,
             "region": "İstanbul, Türkiye"
-          }
+          },
+          "news": "Uyuşturucu iğne aslana isabet etmedi, başsavcılık soruşturma başlattı ve Belgrad Ormanı ziyarete kapatıldı."
         }
       },
       "timeline": [
@@ -718,7 +718,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0411029a30875a04579153.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0411029a30875a04579153.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/pkk-irakta-14-barinma-alanini-bosaltti-43387951"
@@ -1111,7 +1111,6 @@
         "en": {
           "shortTitle": "Zelensky: Ukraine sank the Merkury",
           "title": "Zelensky says Ukraine sank Russia’s Merkury; Libyan official calls it war",
-          "news": "Zelensky said Ukraine’s drones sank the Merkury and hit a second ship, the Angara; a Libyan leader called it a declaration of war.",
           "summary": {
             "what": "President Zelensky said seven Ukrainian-made sea drones sank the Russian corvette Merkury in Benghazi on Sunday and hit a cargo ship carrying weapons.",
             "why": "It is Ukraine’s claim of a strike more than 1,000 miles from its front, and it has drawn Libya into the war’s fallout.",
@@ -1191,12 +1190,12 @@
             "lat": 32.12,
             "lon": 20.07,
             "region": "Libya"
-          }
+          },
+          "news": "Zelensky said Ukraine’s drones sank the Merkury and hit a second ship, the Angara; a Libyan leader called it a declaration of war."
         },
         "tr": {
           "shortTitle": "Zelenskiy: Merkury’yi Ukrayna batırdı",
           "title": "Zelenskiy, Rus korveti Merkury’yi Libya’da Ukrayna’nın batırdığını söyledi; Libya “savaş ilanı” dedi",
-          "news": "Zelenskiy, Merkury’yi Ukrayna dronlarının batırdığını ve Angara gemisini vurduğunu söyledi; Libyalı bir yetkili bunu savaş ilanı saydı.",
           "summary": {
             "what": "Zelenskiy, Ukrayna yapımı yedi deniz dronunun pazar günü Bingazi’de Rus korveti Merkury’yi batırdığını ve silah taşıyan bir yük gemisini vurduğunu açıkladı.",
             "why": "Ukrayna cepheden 1.000 milden fazla uzakta bir saldırıyı üstlenmiş oluyor; savaşın etkisi Libya’ya da sıçradı.",
@@ -1276,7 +1275,8 @@
             "lat": 32.12,
             "lon": 20.07,
             "region": "Libya"
-          }
+          },
+          "news": "Zelenskiy, Merkury’yi Ukrayna dronlarının batırdığını ve Angara gemisini vurduğunu söyledi; Libyalı bir yetkili bunu savaş ilanı saydı."
         }
       },
       "timeline": [
@@ -1610,6 +1610,72 @@
           "question": "Zelenskiy’e göre Bingazi saldırısında Ukrayna yapımı kaç deniz dronu kullanıldı?",
           "options": ["7", "12", "4"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910037",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "ours": false,
+        "team": "portland-trail-blazers"
+      },
+      "startsAt": "2026-11-24T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910037"
+      }
+    },
+    {
+      "id": "espn-401910043",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "ours": false,
+        "team": "la-clippers"
+      },
+      "startsAt": "2026-11-24T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910043"
       }
     }
   ]
