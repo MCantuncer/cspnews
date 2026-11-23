@@ -1,0 +1,1616 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-23T18:30:00+03:00",
+  "writtenAt": "2026-11-23T17:57:30+03:00",
+  "stories": [
+    {
+      "id": "aca3641904eea637",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "0048cf48c38dc3a5",
+      "versions": {
+        "en": {
+          "shortTitle": "Sarıyer lion slips a dart",
+          "title": "Sarıyer lion dodges a tranquilliser dart; prosecutors open an inquiry",
+          "news": "A tranquilliser dart missed the lion, prosecutors opened an inquiry and Belgrad Forest was closed to visitors.",
+          "summary": {
+            "what": "The lioness loose in Istanbul’s Sarıyer since Sunday evening was still free on Monday afternoon after a tranquilliser dart missed her overnight.",
+            "why": "The search has closed a neighbourhood and Belgrad Forest, and nobody yet knows who kept a lion on the city’s edge.",
+            "next": "Teams with thermal cameras and drones keep searching; Istanbul’s chief prosecutor is investigating where the animal came from."
+          },
+          "body": [
+            {
+              "subhead": "A missed dart",
+              "blocks": [
+                {
+                  "text": "The lioness that appeared on security cameras in Uskumruköy, in Istanbul’s northern Sarıyer district, on Sunday evening was still at large on Monday afternoon. Teams had found her in woodland overnight with thermal cameras and tried to put her to sleep with a tranquilliser dart, journalist Emrullah Erdinç reported, as cited by Onedio. The dart missed, and the animal disappeared into the forest during the night."
+                },
+                {
+                  "text": "The search started again at first light. By Monday midday it had been going on for about 18 hours, Onedio reports. Teams from the National Parks directorate, the gendarmerie, the police and Sarıyer municipality are tracking the animal with thermal drones, and vets are on hand to treat her once she is caught."
+                }
+              ]
+            },
+            {
+              "subhead": "A district closed off",
+              "blocks": [
+                {
+                  "text": "Gendarmes closed Uskumruköy and the area where the lion was last seen to pedestrians and vehicles, Habertürk reports, and NTV says entries to Belgrad Forest were shut as a precaution. Residents were told to stay indoors and to call the 112 emergency line rather than approach the animal if they see her."
+                },
+                {
+                  "text": "A witness, Arda Koç, told Habertürk he had gone out by car at night to look for the lion and saw it run into the trees."
+                },
+                {
+                  "quote": "A big dark shape ran towards the forest. At first I thought it was a dog. I got suspicious when all the animals started howling.",
+                  "speaker": "Arda Koç, witness",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Not everyone took it so seriously. Sözcü and Cumhuriyet report that a content creator, Yusuf Yalçın, turned up at the search area in a lion costume."
+                }
+              ]
+            },
+            {
+              "subhead": "Whose lion?",
+              "blocks": [
+                {
+                  "text": "The Istanbul chief prosecutor’s office has opened an investigation of its own accord, Habertürk reports, and the owner has not been identified. Sarıyer’s mayor, Oktay Aksu, said the animal looked as if it had been raised by someone. Cumhuriyet notes that keeping, catching or trading wild animals in Türkiye requires a permit and is subject to inspection."
+                },
+                {
+                  "text": "Social media pointed at the Galatasaray defender Abdülkerim Bardakcı after he posted a video of himself stroking a lion on Instagram on Sunday night. According to TRT Spor, as cited by NTV, he joined the search because it was close to the housing complex where he lives, and the claims that he kept a lion were untrue. The neighbourhood’s headman, Şeyda Üst, told CNN Türk, as reported by Cumhuriyet, that the man named online was not the owner. Bardakcı answered before training, Habertürk reports:"
+                },
+                {
+                  "quote": "I want to say something, because the country is in an uproar right now. I do have one lion I look after at home, and that is my son.",
+                  "speaker": "Abdülkerim Bardakcı, Galatasaray defender",
+                  "sourceId": "haberturk",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Search time by Monday midday",
+              "value": "About 18 hours",
+              "source": "Onedio"
+            },
+            {
+              "label": "First seen on camera",
+              "value": "18:00 Sunday",
+              "source": "Istanbul governor’s office"
+            },
+            {
+              "label": "Tranquilliser darts that hit",
+              "value": "0",
+              "source": "Emrullah Erdinç, via Onedio"
+            },
+            {
+              "label": "Belgrad Forest",
+              "value": "Closed",
+              "source": "NTV"
+            }
+          ],
+          "place": {
+            "name": "Uskumruköy, Sarıyer",
+            "lat": 41.19,
+            "lon": 29.03,
+            "region": "Istanbul, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Sarıyer’deki aslan iğneden kurtuldu",
+          "title": "Sarıyer’deki aslana uyuşturucu iğne isabet etmedi, savcılık soruşturma başlattı",
+          "news": "Uyuşturucu iğne aslana isabet etmedi, başsavcılık soruşturma başlattı ve Belgrad Ormanı ziyarete kapatıldı.",
+          "summary": {
+            "what": "Pazar akşamından beri Sarıyer’de aranan dişi aslan, gece atılan uyuşturucu iğne isabet etmeyince pazartesi öğleden sonra hâlâ yakalanamamıştı.",
+            "why": "Arama bir mahalleyi ve Belgrad Ormanı’nı kapattı; kentin kıyısında aslanı kimin beslediği ise hâlâ bilinmiyor.",
+            "next": "Termal kameralı ve dronlu ekipler aramayı sürdürüyor; İstanbul Cumhuriyet Başsavcılığı hayvanın nereden geldiğini araştırıyor."
+          },
+          "body": [
+            {
+              "subhead": "İsabet etmeyen iğne",
+              "blocks": [
+                {
+                  "text": "Pazar akşamı Sarıyer’in Uskumruköy Mahallesi’nde güvenlik kameralarına yansıyan dişi aslan, pazartesi öğleden sonra hâlâ yakalanamamıştı. Onedio’nun aktardığına göre gazeteci Emrullah Erdinç, ekiplerin gece termal kameralarla ormanlık alanda yerini tespit ettiği aslanı uyuşturucu iğneyle uyutmaya çalıştığını, ancak iğnenin isabet etmediğini ve hayvanın gece ormanda gözden kaybolduğunu bildirdi."
+                },
+                {
+                  "text": "Arama çalışmaları hava aydınlanınca yeniden başladı. Onedio’ya göre pazartesi öğlen itibarıyla arama yaklaşık 18 saattir sürüyordu. Milli Parklar, jandarma, emniyet ve Sarıyer Belediyesi ekipleri hayvanı termal dronlarla takip ediyor; yakalandığında müdahale için uzman veterinerler de bölgede bekliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Kapatılan mahalle",
+              "blocks": [
+                {
+                  "text": "Habertürk’ün haberine göre jandarma, Uskumruköy’ü ve aslanın en son görüldüğü bölgeyi yaya ve araç girişine kapattı; NTV de Belgrad Ormanı’na girişlerin tedbir amacıyla kapatıldığını bildirdi. Bölge sakinlerinden evlerinden çıkmamaları, aslanı görürlerse yaklaşmadan 112’yi aramaları istendi."
+                },
+                {
+                  "text": "Gece otomobiliyle aslan aramaya çıktığını anlatan görgü tanığı Arda Koç, Habertürk’e hayvanı ağaçların arasına kaçarken gördüğünü söyledi."
+                },
+                {
+                  "quote": "Büyük bir karaltı ormana doğru kaçtı. Başta köpek sandım. Tüm hayvanlar bağırmaya başlayınca şüphelendim.",
+                  "speaker": "Arda Koç, görgü tanığı",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "Olayı herkes aynı ciddiyetle karşılamadı: Sözcü ve Cumhuriyet’in haberine göre içerik üreticisi Yusuf Yalçın, arama bölgesine aslan kostümüyle geldi."
+                }
+              ]
+            },
+            {
+              "subhead": "Aslan kimin?",
+              "blocks": [
+                {
+                  "text": "Habertürk’e göre İstanbul Cumhuriyet Başsavcılığı re’sen soruşturma başlattı; aslanın sahibi henüz tespit edilemedi. Sarıyer Belediye Başkanı Oktay Aksu, hayvanın daha önce biri tarafından yetiştirilmiş gibi göründüğünü söyledi. Cumhuriyet, Türkiye’de yabani hayvanların yakalanması, bulundurulması ve ticaretinin izne ve denetime tabi olduğunu hatırlatıyor."
+                },
+                {
+                  "text": "Sosyal medyada parmaklar, pazar gecesi Instagram’da bir aslanı sevdiği görüntüleri paylaşan Galatasaraylı Abdülkerim Bardakcı’yı gösterdi. NTV’nin aktardığı TRT Spor haberine göre Bardakcı, arama oturduğu sitenin yakınında yapıldığı için çalışmalara katıldı; aslan beslediği iddiaları da gerçeği yansıtmıyor. Mahalle muhtarı Şeyda Üst de Cumhuriyet’in aktardığına göre CNN Türk’te, sosyal medyada adı geçen kişinin aslanın sahibi olmadığını söyledi. Habertürk’e göre Bardakcı antrenman öncesi şöyle konuştu:"
+                },
+                {
+                  "quote": "Bir şey söylemek istiyorum çünkü ülke çalkalanıyor şu anda. Benim evde beslediğim bir tane aslan var, o da oğlum.",
+                  "speaker": "Abdülkerim Bardakcı, Galatasaraylı stoper",
+                  "sourceId": "haberturk"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Pazartesi öğlene kadar arama süresi",
+              "value": "Yaklaşık 18 saat",
+              "source": "Onedio"
+            },
+            {
+              "label": "Kameraya ilk yansıma",
+              "value": "Pazar 18.00",
+              "source": "İstanbul Valiliği"
+            },
+            {
+              "label": "İsabet eden uyuşturucu iğne",
+              "value": "0",
+              "source": "Emrullah Erdinç, Onedio aracılığıyla"
+            },
+            {
+              "label": "Belgrad Ormanı",
+              "value": "Kapalı",
+              "source": "NTV"
+            }
+          ],
+          "place": {
+            "name": "Uskumruköy, Sarıyer",
+            "lat": 41.19,
+            "lon": 29.03,
+            "region": "İstanbul, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T04:06:37.000Z",
+          "sourceId": "onedio"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T09:27:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T09:36:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T09:36:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T10:29:00.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:35:38.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:47:43.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T12:48:00.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T12:54:07.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T13:17:59.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/79585252-109d-4cf5-9f07-8fff3639da4e.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/yasam/sariyer-deki-aslan-kimin-sariyer-deki-aslanin-sahibi-kim-2558585"
+      },
+      "sources": [
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/sariyer-de-aslanin-yeri-termal-kameralarla-tespit-edildi-ekipler-sag-yakalamak-icin-uyutma-plani-yapiyor-1396642",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/yasam/sariyer-deki-aslan-kimin-sariyer-deki-aslanin-sahibi-kim-2558585",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/i%CC%87stanbul-sar%C4%B1yer-de-ka%C3%A7ak-aslan%C4%B1-arama-%C3%A7al%C4%B1%C5%9Fmalar%C4%B1-s%C3%BCr%C3%BCyor/a-80016071?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/23/aslanla-karsilasan-vatandaslar-ne-yapmali",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cj1dverkqw7zo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/kesfet/sariyer-aslani-anadolu-nun-aslan-tarihini-hatirlatti-3929382",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/23/sariyer-aslan-alarmi-yakalama-calismalari-suruyor/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/sariyerde-aslan-aranan-bolgeye-aslan-kostumuyle-geldi-p383760",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-sariyerde-aslan-alarmi-uskumrukoy-yaya-ve-arac-girisine-kapatildi-aslan-her-yerde-araniyor-1752168",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv-yasam",
+          "url": "https://www.ntv.com.tr/sporskor/aslan-aramaya-futbolcu-abdulkerim-bardakci-da-katildi-gece-yarisi-aslan-paylasti-1752130",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/abdulkerim-bardakcidan-aslan-aciklamasi-43388035",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    },
+    {
+      "id": "124c4acc27e94cdb",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Armenia drops Karabakh, Ararat clauses",
+          "title": "Armenia’s draft constitution drops claims Türkiye and Azerbaijan objected to",
+          "summary": {
+            "what": "Armenia published a draft constitution on Monday that no longer refers to the 1990 declaration of independence, which lays claim to Karabakh and parts of Türkiye.",
+            "why": "Azerbaijan has said it will not sign a peace treaty until that reference goes; Baku called the draft positive.",
+            "next": "A referendum needs a two-thirds vote in parliament, so Pashinyan’s party must win over at least six opposition MPs."
+          },
+          "body": [
+            {
+              "subhead": "What the draft removes",
+              "blocks": [
+                {
+                  "text": "Armenia’s government published the draft of a new constitution on its website on Monday, 23 November. Unlike the current one, its preamble makes no reference to the declaration of independence of 23 August 1990, BBC Türkçe and Sabah report. That declaration provides for Armenia’s unification with Karabakh and, Diken notes, treats Türkiye’s south-east as Armenian as well."
+                },
+                {
+                  "text": "DW Türkçe reports that the draft also drops Mount Ararat, known in Türkiye as Ağrı Dağı, from the state symbols, a point that has long caused friction with Ankara, as well as a sentence calling for international recognition of the genocide. The current article 21 describes a coat of arms with Noah’s Ark and Ararat; the draft says only that the arms, flag and anthem will be set by a law passed by referendum, according to Diken. The first article now also calls Armenia a secular state."
+                },
+                {
+                  "text": "The new preamble speaks of building an independent, peaceful and prosperous state “on our internationally recognised territory”, Sabah reports."
+                }
+              ]
+            },
+            {
+              "subhead": "The road to a peace treaty",
+              "blocks": [
+                {
+                  "text": "Removing the reference was one of Azerbaijan’s main conditions for a peace deal. Azerbaijan’s president, İlham Aliyev, has said the two sides are 80% agreed on ending the state of war, Diken reports, adding that the Armenian constitution is the biggest obstacle to a signature. Azerbaijan’s foreign minister, Ceyhun Bayramov, called the draft positive. The two leaders signed a joint peace declaration at the White House in August 2025."
+                },
+                {
+                  "text": "In an address to the nation, Prime Minister Nikol Pashinyan said the reform would bring “institutional, lasting and irreversible peace” with Azerbaijan, BBC Türkçe reports. He called the new model the “Fourth Republic” and said the draft was not written “for someone else or under outside pressure”, according to Sabah and DW Türkçe."
+                }
+              ]
+            },
+            {
+              "subhead": "A hard vote ahead",
+              "blocks": [
+                {
+                  "text": "A new constitution needs a referendum, and calling one needs a two-thirds majority in parliament. Pashinyan’s Civil Contract party holds 64 of the 107 seats, BBC Türkçe reports, so it needs the votes of at least six more MPs. Pashinyan has promised to resign if voters reject the text and not to stand again if they approve it, DW Türkçe says."
+                },
+                {
+                  "text": "The main opposition parties, mostly pro-Russian, oppose the draft. Diken reports they call it a one-sided concession dictated by Baku that erases the country’s historical identity. Anna Grigoryan of the Armenia alliance said she did not believe Pashinyan’s promise to resign, and Narek Karapetyan of Strong Armenia said the constitution could not be changed at “Aliyev’s command”, BBC Türkçe reports."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Civil Contract seats",
+              "value": "64 of 107",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Extra MPs needed for a referendum",
+              "value": "6",
+              "source": "BBC Türkçe, DW Türkçe"
+            },
+            {
+              "label": "Declaration no longer cited",
+              "value": "23 Aug 1990",
+              "source": "Sabah"
+            },
+            {
+              "label": "Peace terms agreed, says Aliyev",
+              "value": "80%",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Yerevan",
+            "lat": 40.18,
+            "lon": 44.51,
+            "region": "Armenia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Ermenistan anayasasından Karabağ ve Ağrı çıkıyor",
+          "title": "Ermenistan’ın anayasa taslağı Türkiye ve Azerbaycan’ın itiraz ettiği atıfları çıkardı",
+          "summary": {
+            "what": "Ermenistan pazartesi günü, Karabağ’a ve Türkiye’nin bazı topraklarına hak iddia eden 1990 Bağımsızlık Bildirgesi’ne atıf içermeyen yeni anayasa taslağını yayımladı.",
+            "why": "Azerbaycan bu atıf kalkmadan barış anlaşması imzalamayacağını söylüyor; Bakü taslağı olumlu buldu.",
+            "next": "Referandum için mecliste üçte iki çoğunluk gerekiyor; Paşinyan’ın partisinin en az altı muhalefet vekilini ikna etmesi lazım."
+          },
+          "body": [
+            {
+              "subhead": "Taslaktan neler çıktı",
+              "blocks": [
+                {
+                  "text": "Ermenistan hükümeti, yeni anayasa taslağını 23 Kasım Pazartesi günü resmi internet sitesinde yayımladı. BBC Türkçe ve Sabah’ın haberine göre taslağın giriş bölümünde, mevcut anayasanın aksine 23 Ağustos 1990 tarihli Bağımsızlık Bildirgesi’ne atıf yer almıyor. Bildirge, Ermenistan ile Karabağ’ın birleşmesini öngörüyor; Diken’in belirttiğine göre Türkiye’nin güneydoğusunu da Ermenistan’ın sayıyor."
+                },
+                {
+                  "text": "DW Türkçe’ye göre Ankara ile uzun süredir sorun yaratan Ağrı Dağı (Ararat) da devlet sembolleri arasından çıkarıldı; soykırımın uluslararası alanda tanınması çağrısı içeren cümleye de yer verilmedi. Diken’in aktardığına göre mevcut anayasanın 21. maddesi Nuh’un Gemisi ve Ağrı Dağı tasvirli armayı tarif ederken, taslak yalnızca arma, bayrak ve marşın referandumla kabul edilecek bir kanunla belirleneceğini söylüyor. Birinci maddeye ise laiklik ilkesi eklendi."
+                },
+                {
+                  "text": "Sabah’a göre yeni giriş bölümü, “uluslararası alanda tanınan topraklarımız üzerinde” bağımsız, barışçıl ve müreffeh bir devlet kurulmasından söz ediyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Barış anlaşmasına giden yol",
+              "blocks": [
+                {
+                  "text": "Bu atfın kaldırılması, Azerbaycan’ın barış anlaşması için öne sürdüğü temel koşullardan biriydi. Diken’e göre Azerbaycan Cumhurbaşkanı İlham Aliyev, savaş halini bitirmede yüzde 80 anlaşıldığını, imzanın önündeki en büyük engelin Ermenistan anayasası olduğunu söylemişti. Azerbaycan Dışişleri Bakanı Ceyhun Bayramov taslağı olumlu bulduklarını bildirdi. İki ülkenin liderleri Ağustos 2025’te Beyaz Saray’da ortak barış deklarasyonu imzalamıştı."
+                },
+                {
+                  "text": "BBC Türkçe’ye göre Başbakan Nikol Paşinyan ulusa sesleniş konuşmasında reformun Azerbaycan ile “kurumsal, kalıcı ve geri döndürülemez” barış getireceğini söyledi. Sabah ve DW Türkçe’nin aktardığına göre Paşinyan yeni modeli “Dördüncü Cumhuriyet” diye adlandırdı ve metnin “başka biri için veya dış baskıyla” hazırlanmadığını vurguladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Zorlu bir oylama",
+              "blocks": [
+                {
+                  "text": "Yeni anayasa için referandum gerekiyor; referanduma gidebilmek için de mecliste üçte iki çoğunluk şart. BBC Türkçe’ye göre Paşinyan’ın Sivil Sözleşme Partisi 107 sandalyenin 64’üne sahip ve en az altı milletvekilinin daha desteğine ihtiyaç duyuyor. DW Türkçe’ye göre Paşinyan, halk anayasayı reddederse istifa edeceğini, kabul ederse bir sonraki seçimde aday olmayacağını söyledi."
+                },
+                {
+                  "text": "Çoğu Rusya yanlısı olan başlıca muhalefet partileri taslağa karşı. Diken’e göre muhalefet metni “Bakü’nün diktesiyle hazırlanan tek taraflı taviz” olarak görüyor ve ülkenin tarihsel kimliğini sildiğini savunuyor. BBC Türkçe’nin aktardığına göre Ermenistan ittifakının lideri Anna Grigoryan, Paşinyan’ın istifa sözüne inanmadığını söyledi; Güçlü Ermenistan’ın lideri Narek Karapetyan da anayasanın “Aliyev’in buyruğuyla” değiştirilemeyeceğini belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sivil Sözleşme’nin sandalyesi",
+              "value": "107’de 64",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Referandum için gereken ek vekil",
+              "value": "6",
+              "source": "BBC Türkçe, DW Türkçe"
+            },
+            {
+              "label": "Atıf yapılmayan bildirge",
+              "value": "23 Ağustos 1990",
+              "source": "Sabah"
+            },
+            {
+              "label": "Aliyev’e göre anlaşılan kısım",
+              "value": "%80",
+              "source": "Diken"
+            }
+          ],
+          "place": {
+            "name": "Erivan",
+            "lat": 40.18,
+            "lon": 44.51,
+            "region": "Ermenistan"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T09:37:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T09:56:26.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T09:56:26.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:44:26.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T12:06:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T13:14:15.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/cd9effc7-9a85-440a-86f0-456f646222b7.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/dunya/ermenistan-in-yeni-anayasa-taslaginda-karabag-degisikligi-azerbaycan-in-itiraz-ettigi-ifade-cikarildi-2558590"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/dunya/ermenistan-in-yeni-anayasa-taslaginda-karabag-degisikligi-azerbaycan-in-itiraz-ettigi-ifade-cikarildi-2558590",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/dunya/ermenistan-anayasasinda-tarihi-degisiklik-turkiye-ile-ihtilafa-neden-olan-ifade-cikarildi-7707624",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/ermenistanin-yeni-anayasa-taslagi-turkiyeden-toprak-talebi-cikarildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/ermenistan-anayasas%C4%B1-ndan-a%C4%9Fr%C4%B1-da%C4%9F%C4%B1-soyk%C4%B1r%C4%B1m-ve-karaba%C4%9F-%C3%A7%C4%B1k%C4%B1yor/a-80019560?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c3rrg7qd9898o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    },
+    {
+      "id": "4f7e67f153ef8f3d",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "PKK leaves 14 Hakurk shelters",
+          "title": "PKK vacates 14 more shelters in northern Iraq’s Hakurk, security sources say",
+          "summary": {
+            "what": "The PKK has vacated 14 shelters in the Hakurk area of northern Iraq as of 18 November, Turkish security sources said on Monday.",
+            "why": "Security sources present it as visible progress in the disarmament phase of the process the government calls “Terror-free Türkiye”.",
+            "next": "The defence ministry is making the caves and bunkers unusable; the law-based commission follows each step towards members’ return."
+          },
+          "body": [
+            {
+              "subhead": "Fourteen sites in Hakurk",
+              "blocks": [
+                {
+                  "text": "The PKK has vacated 14 shelters in the Hakurk area of northern Iraq, security sources said on Monday, in information first carried by TRT and reported by Hürriyet, Cumhuriyet, Sabah and Sözcü. The sites were emptied as of 18 November 2026. Hürriyet calls the process “Terror-free Türkiye”, the name the government uses for it."
+                },
+                {
+                  "text": "The sources listed them by name: Ciğer Tepe, Şerif, Alişer, Kendekola, PAJK, Baran Cephanelik, Hınere/Hastane, Terzihane, Mazlum Doğan, Pratik Yönetim, Cephanelik, Yusuf-Asayiş, Hemin and Cesur. Several names point to what the sites were used for, such as an armoury, a hospital and a tailor’s workshop. Sabah and Cumhuriyet report that the defence ministry has made the caves and bunkers unusable; Hürriyet and A Haber say it will do so."
+                }
+              ]
+            },
+            {
+              "subhead": "After Metina",
+              "blocks": [
+                {
+                  "text": "It is the second such step announced this autumn. On 8 October the PKK vacated four shelters, Hebat, Yajk, Sabri and Sason, in the Baze area of the Metina region, also in northern Iraq. With Hakurk, the number of sites vacated rises to 18."
+                },
+                {
+                  "text": "The security sources described the shelters as places carrying a risk of clashes, and said the work to empty them was being carried out “with great sacrifice, determination and resolve”, Sabah reports."
+                }
+              ]
+            },
+            {
+              "subhead": "What the sources say it shows",
+              "blocks": [
+                {
+                  "text": "In a statement quoted in full by several outlets, the security sources said the developments showed progress in completing disarmament, which they called the first and most important phase of the process, and helped the national security and political stability of countries in the region."
+                },
+                {
+                  "quote": "The well-being of the process, in which many critical thresholds have been passed so far, rests on concrete and verifiable developments from the field like these.",
+                  "speaker": "Turkish security sources, statement",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "The statement said the Coordination Board for National Solidarity and Social Integration, set up under the law of the same name, and its sub-commissions follow every step, and that each one brings closer the integration of people who return to the country under the conditions set by the law. It added that money spent in the past on other areas could be put towards the country’s prosperity."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Shelters vacated in Hakurk",
+              "value": "14",
+              "source": "Security sources"
+            },
+            {
+              "label": "Vacated as of",
+              "value": "18 Nov",
+              "source": "Security sources"
+            },
+            {
+              "label": "Earlier in Metina’s Baze area",
+              "value": "4, on 8 Oct",
+              "source": "Security sources"
+            },
+            {
+              "label": "Total sites vacated so far",
+              "value": "18",
+              "source": "Security sources"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "PKK Hakurk’ta 14 alanı boşalttı",
+          "title": "Güvenlik kaynakları: PKK, Irak’ın kuzeyindeki Hakurk’ta 14 barınma alanını daha boşalttı",
+          "summary": {
+            "what": "Güvenlik kaynaklarına göre terör örgütü PKK/KCK, Irak’ın kuzeyindeki Hakurk bölgesinde 14 barınma alanını 18 Kasım itibarıyla boşalttı.",
+            "why": "Güvenlik kaynakları bunu “Terörsüz Türkiye” sürecinin silahsızlanma aşamasında somut ilerleme olarak sunuyor.",
+            "next": "Milli Savunma Bakanlığı mağara ve sığınakları kullanılamaz hale getiriyor; kanunla kurulan kurul her adımı takip ediyor."
+          },
+          "body": [
+            {
+              "subhead": "Hakurk’ta 14 alan",
+              "blocks": [
+                {
+                  "text": "Terör örgütü PKK/KCK’nın Irak’ın kuzeyindeki Hakurk bölgesinde bulunan 14 barınma alanını boşalttığı açıklandı. Güvenlik kaynaklarından gelen ve TRT’nin aktardığı bilgi Hürriyet, Cumhuriyet, Sabah ve Sözcü’de yer aldı. Alanlar 18 Kasım 2026 itibarıyla boşaltıldı. Hürriyet, sürecin “Terörsüz Türkiye” adıyla yürütüldüğünü hatırlatıyor."
+                },
+                {
+                  "text": "Boşaltılan alanlar şöyle sıralandı: Ciğer Tepe, Şerif, Alişer, Kendekola, PAJK, Baran Cephanelik, Hınere/Hastane, Terzihane, Mazlum Doğan, Pratik Yönetim, Cephanelik, Yusuf-Asayiş, Hemin ve Cesur. İsimlerin bir kısmı, alanların cephanelik, hastane ya da terzihane olarak kullanıldığına işaret ediyor. Sabah ve Cumhuriyet, mağara ve sığınakların Milli Savunma Bakanlığı tarafından kullanılamaz hale getirildiğini; Hürriyet ve A Haber ise getirileceğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Metina’dan sonra",
+              "blocks": [
+                {
+                  "text": "Bu, sonbaharda duyurulan ikinci adım. PKK/KCK, 8 Ekim’de yine Irak’ın kuzeyinde, Metina bölgesinin Baze kesimindeki Hebat, Yajk, Sabri ve Sason adlı dört barınma alanını boşaltmıştı. Hakurk ile birlikte boşaltılan alan sayısı 18’e çıktı."
+                },
+                {
+                  "text": "Sabah’ın aktardığına göre güvenlik kaynakları bu alanları çatışma riski bulunan yerler olarak tanımladı ve boşaltma çalışmalarının “büyük bir özveri, kararlılık ve azimle” sürdürüldüğünü belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "Kaynaklara göre ne anlama geliyor",
+              "blocks": [
+                {
+                  "text": "Birçok yayın organının tam metnini verdiği açıklamada güvenlik kaynakları, sahadaki gelişmelerin sürecin ilk ve en önemli safhası olan silahsızlanmanın tamamlanmasında kaydedilen ilerlemeyi gösterdiğini ve bölge ülkelerinin ulusal güvenliği ile siyasi istikrarına katkı sağladığını söyledi."
+                },
+                {
+                  "quote": "Bugüne kadar birçok kritik eşiğin aşıldığı, gerçekçi ve hassas bir anlayışla yürütülen sürecin selameti, sahadaki çalışmalardan gelen somut, doğrulanabilir bu tür gelişmelere dayanmaktadır.",
+                  "speaker": "Güvenlik kaynakları, açıklama",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Açıklamaya göre aynı adı taşıyan kanunla kurulan Milli Dayanışma ve Toplumsal Bütünleşme Koordinasyon Kurulu ve alt komisyonları her gelişmeyi takip ediyor; her adım, kanunun belirlediği şartlarda ülkeye dönecek kişilerin toplumla bütünleşmesini yaklaştırıyor. Açıklamada geçmişte başka alanlarda harcanan büyük kaynağın ülkenin refahına yönlendirilebileceği de vurgulandı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Hakurk’ta boşaltılan alan",
+              "value": "14",
+              "source": "Güvenlik kaynakları"
+            },
+            {
+              "label": "Boşaltma tarihi",
+              "value": "18 Kasım",
+              "source": "Güvenlik kaynakları"
+            },
+            {
+              "label": "Daha önce Metina-Baze’de",
+              "value": "4, 8 Ekim’de",
+              "source": "Güvenlik kaynakları"
+            },
+            {
+              "label": "Şimdiye kadar boşaltılan alan",
+              "value": "18",
+              "source": "Güvenlik kaynakları"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T09:55:53.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T09:58:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T09:58:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T10:13:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:52:55.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T12:53:12.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0411029a30875a04579153.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/pkk-irakta-14-barinma-alanini-bosaltti-43387951"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/23/hakurkta-14-barinma-alani-bosaltildi",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/23/teror-orgutu-pkkkck-irakin-kuzeyindeki-14-barinma-alanini-daha-bosaltti",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/pkk-irakta-14-barinma-alanini-bosaltti-43387951",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/teror-orgutu-pkk-irak-in-kuzeyindeki-14-barinma-alanini-daha-bosaltti-2558607",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/teror-orgutu-pkk-irak-in-kuzeyindeki-14-barinma-alanini-daha-bosaltti-p383717",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-pkk-irak-ta-14-barinma-alanini-bosaltti-3929414",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/pkk-hakurkta-14-kampi-bosaltti-1752203",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    },
+    {
+      "id": "8725c3e1b3ce64b8",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "SoftBank weighed $1tn SK Hynix bid",
+          "title": "SoftBank weighed buying memory-chip maker SK Hynix for about $1 trillion",
+          "summary": {
+            "what": "SoftBank’s Masayoshi Son looked at buying South Korea’s SK Hynix for about $1 trillion and sounded out Wall Street banks, The Information reports.",
+            "why": "SK Hynix is one of three big makers of the high-bandwidth memory that AI chips depend on.",
+            "next": "SoftBank told Reuters the option is no longer under active consideration; any foreign takeover would need Seoul’s approval."
+          },
+          "body": [
+            {
+              "subhead": "A trillion-dollar idea",
+              "blocks": [
+                {
+                  "text": "Masayoshi Son, the founder and chief executive of Japan’s SoftBank, considered buying the South Korean memory-chip maker SK Hynix for about $1 trillion, The Information reported, citing people familiar with the matter, as summarised by Webrazzi. Son held talks with Wall Street financial institutions about whether the money for a deal of that size could be raised."
+                },
+                {
+                  "text": "There is no sign that the banks agreed to lend, or that SK Group, which owns SK Hynix, wanted to sell, Webrazzi notes. A SoftBank spokesperson told Reuters that the company looks at a range of investment opportunities, but that buying SK Hynix is no longer being actively considered."
+                }
+              ]
+            },
+            {
+              "subhead": "The price",
+              "blocks": [
+                {
+                  "text": "SK Hynix is worth about $578 billion on the stock market. Dealroom puts its value on 20 November at about 777 trillion won. A $1 trillion price would therefore be about 73% above its value on that date, by Webrazzi’s calculation."
+                },
+                {
+                  "text": "According to South Korean press reports cited by Webrazzi, the figure was reached by adding a takeover premium of about 40% to the record market value the company reached around a month ago. SK Hynix said it was not aware of the talks described in the report, and pointed out that under South Korean law a takeover by a foreign company needs prior government approval."
+                }
+              ]
+            },
+            {
+              "subhead": "Why memory matters for AI",
+              "blocks": [
+                {
+                  "text": "SK Hynix is one of the leading makers of high-bandwidth memory, or HBM, the stacked memory chips that let AI processors move large amounts of data at high speed. With Samsung Electronics and Micron it is one of the three big suppliers in that market."
+                },
+                {
+                  "text": "SoftBank is already the largest shareholder in the chip designer Arm, owns the server-processor maker Ampere Computing and holds large stakes in OpenAI and Intel. Owning SK Hynix would have given it a strong position in the memory side of AI infrastructure too, Webrazzi writes. But the size of the financing, South Korea’s rules on strategic technology companies and the lack of any sign that SK Group wants to sell were all serious obstacles. Even shelved, the idea shows how strategic memory chips have become in the AI build-out."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Price Son considered",
+              "value": "About $1tn",
+              "source": "The Information, via Webrazzi"
+            },
+            {
+              "label": "SK Hynix market value",
+              "value": "About $578bn",
+              "source": "Webrazzi"
+            },
+            {
+              "label": "Premium over 20 Nov value",
+              "value": "About 73%",
+              "source": "Webrazzi"
+            },
+            {
+              "label": "Big HBM suppliers",
+              "value": "3",
+              "source": "Webrazzi"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "SoftBank SK Hynix’e 1 trilyon düşündü",
+          "title": "SoftBank, bellek çipi üreticisi SK Hynix’i yaklaşık 1 trilyon dolara almayı düşündü",
+          "summary": {
+            "what": "The Information’a göre SoftBank’ın patronu Masayoshi Son, Güney Koreli SK Hynix’i yaklaşık 1 trilyon dolara satın almayı değerlendirdi ve Wall Street bankalarının nabzını yokladı.",
+            "why": "SK Hynix, yapay zekâ çiplerinin dayandığı yüksek bant genişlikli belleğin üç büyük üreticisinden biri.",
+            "next": "SoftBank, Reuters’a bu seçeneğin artık aktif olarak ele alınmadığını söyledi; yabancı bir alım için Seul’ün onayı gerekiyor."
+          },
+          "body": [
+            {
+              "subhead": "Bir trilyon dolarlık fikir",
+              "blocks": [
+                {
+                  "text": "Webrazzi’nin aktardığına göre The Information, konuya yakın kaynaklara dayanarak Japonya merkezli SoftBank’ın kurucusu ve CEO’su Masayoshi Son’un, Güney Koreli bellek çipi üreticisi SK Hynix’i yaklaşık 1 trilyon dolara satın alma ihtimalini değerlendirdiğini yazdı. Son, bu büyüklükte bir alım için gereken finansmanın sağlanıp sağlanamayacağını Wall Street’teki finans kuruluşlarıyla görüştü."
+                },
+                {
+                  "text": "Webrazzi’ye göre bankaların finansmanı kabul ettiğine ya da SK Hynix’in sahibi SK Group’un şirketi satmak istediğine dair bir bilgi yok. SoftBank sözcüsü Reuters’a şirketin farklı yatırım fırsatlarını değerlendirdiğini, ancak SK Hynix’i satın alma seçeneğinin artık aktif olarak ele alınmadığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Fiyat",
+              "blocks": [
+                {
+                  "text": "SK Hynix’in piyasa değeri yaklaşık 578 milyar dolar. Dealroom’a göre şirketin 20 Kasım itibarıyla değeri yaklaşık 777 trilyon won. Webrazzi’nin hesabına göre 1 trilyon dolarlık bedel, şirketin o tarihteki değerinin yaklaşık yüzde 73 üzerinde."
+                },
+                {
+                  "text": "Webrazzi’nin aktardığı Güney Kore basınına göre tutar, şirketin yaklaşık bir ay önce ulaştığı rekor piyasa değerine yüzde 40 civarında satın alma primi eklenerek hesaplandı. SK Hynix ise haberde sözü edilen görüşmelerden haberdar olmadığını açıkladı ve Güney Kore yasalarına göre yabancı bir şirketin kendisini satın almasının önceden hükümet onayı gerektirdiğini hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Bellek yapay zekâ için neden önemli",
+              "blocks": [
+                {
+                  "text": "SK Hynix, yapay zekâ işlemcilerinin büyük miktarda veriyi yüksek hızda işlemesini sağlayan yüksek bant genişlikli bellek (HBM) çiplerinin önde gelen üreticilerinden. Samsung Electronics ve Micron ile birlikte bu pazardaki üç büyük tedarikçiden biri."
+                },
+                {
+                  "text": "SoftBank zaten çip tasarımcısı Arm’ın en büyük hissedarı; sunucu işlemcisi üreticisi Ampere Computing’in sahibi ve OpenAI ile Intel’de büyük paylara sahip. Webrazzi’ye göre SK Hynix, şirkete yapay zekâ altyapısının bellek tarafında da güçlü bir konum kazandırabilirdi. Ancak finansmanın büyüklüğü, Güney Kore’nin stratejik teknoloji şirketlerine ilişkin kuralları ve SK Group’un satışa sıcak baktığına dair bir işaret olmaması ciddi engellerdi. Rafa kalksa da fikir, bellek çiplerinin yapay zekâ yatırımlarında ne kadar stratejik hale geldiğini gösteriyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Son’un düşündüğü bedel",
+              "value": "Yaklaşık 1 trilyon $",
+              "source": "The Information, Webrazzi aracılığıyla"
+            },
+            {
+              "label": "SK Hynix piyasa değeri",
+              "value": "Yaklaşık 578 milyar $",
+              "source": "Webrazzi"
+            },
+            {
+              "label": "20 Kasım değerine göre prim",
+              "value": "Yaklaşık %73",
+              "source": "Webrazzi"
+            },
+            {
+              "label": "Büyük HBM tedarikçisi",
+              "value": "3",
+              "source": "Webrazzi"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T13:15:00.000Z",
+          "sourceId": "webrazzi"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.webrazzi.com/uploads/2026/11/masayoshi-son-sk-349.png",
+        "sourceId": "webrazzi",
+        "sourceName": "Webrazzi",
+        "articleUrl": "https://webrazzi.com/2026/11/23/softbank-sk-hynixi-1-trilyon-dolara-satin-almayi-degerlendirdi/"
+      },
+      "sources": [
+        {
+          "sourceId": "webrazzi",
+          "url": "https://webrazzi.com/2026/11/23/softbank-sk-hynixi-1-trilyon-dolara-satin-almayi-degerlendirdi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    },
+    {
+      "id": "14cb35135650d5cf",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Nvidia chips to shrink brain implants",
+          "title": "Paradromics turns to Nvidia to shrink its speech brain implant’s computer",
+          "summary": {
+            "what": "Brain-computer interface maker Paradromics will use Nvidia hardware and software to decode its implant’s signals, Wired reports.",
+            "why": "Today a patient using it to speak must stay near a cart of electronics; the deal aims to fit it on a wheelchair within a year.",
+            "next": "Paradromics plans to run speech decoding on Nvidia’s Jetson module and later on something as small as a phone."
+          },
+          "body": [
+            {
+              "subhead": "A cart that should become a box",
+              "blocks": [
+                {
+                  "text": "A Michigan woman named Mary has a chip about the size of a dime in her brain, Wired reports. She struggles to speak because of motor neurone disease, but the implant, made by the Austin-based company Paradromics, lets her express her thoughts through a synthesised voice on a computer."
+                },
+                {
+                  "text": "The implant is invisible from outside, but decoding her speech takes a cart full of electronics that must be plugged into the wall, and Mary has to stay within range of it. Paradromics announced on Monday a partnership with Nvidia to process its brain data with the chipmaker’s hardware and software. A year from now, the company says, the cart will be a small box that sits on her wheelchair; eventually the electronics will fit in a phone, its founder and chief executive, Matt Angle, told Wired."
+                }
+              ]
+            },
+            {
+              "subhead": "How it works",
+              "blocks": [
+                {
+                  "text": "Neurons in Mary’s brain still fire when she tries to speak. The implant’s more than 400 electrodes pick up those signals, and AI running on a computer infers what she is trying to say; the words appear on a screen and the computer speaks them. That takes a great deal of computing power. Angle calls brain-computer interfaces the ultimate case for edge computing, where data is processed in devices close to where it is produced rather than in a distant data centre."
+                },
+                {
+                  "quote": "We want to be able to do it through increasingly smaller and lower-power devices, and the people leading in that area are Nvidia.",
+                  "speaker": "Matt Angle, Paradromics chief executive",
+                  "sourceId": "wired"
+                },
+                {
+                  "text": "Paradromics will use Jetson, Nvidia’s low-power computing module, to decode speech in a small device near the user, and Holoscan, its AI sensor-processing software, to combine brain signals with cameras and microphones with little lag. It can also build in Nvidia’s foundation models, which its chief scientific officer, Vikash Gilja, says could make synthesised voices more expressive. Running them locally means users would not need an internet connection."
+                }
+              ]
+            },
+            {
+              "subhead": "Nvidia’s bet",
+              "blocks": [
+                {
+                  "text": "David Niewolny, Nvidia’s director of business development for health care, told Wired that even small delays make communication feel unnatural, and that neural signals change over time, so the AI has to keep adapting to each person. Nvidia also works with Synchron, another company in the field, and will not have access to brain data through these partnerships, he said."
+                },
+                {
+                  "text": "The deal comes at a difficult moment for Nvidia, which Wired notes faces a leadership shake-up and federal scrutiny after its long-time chief executive, Jensen Huang, resigned over an affair with an alleged Chinese spy."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Electrodes in the implant",
+              "value": "400+",
+              "source": "Wired"
+            },
+            {
+              "label": "Implant size",
+              "value": "About a dime",
+              "source": "Wired"
+            },
+            {
+              "label": "Portable box expected",
+              "value": "In about a year",
+              "source": "Paradromics, via Wired"
+            },
+            {
+              "label": "Nvidia module to be used",
+              "value": "Jetson",
+              "source": "Wired"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Nvidia beyin implantını küçültecek",
+          "title": "Paradromics, konuşma implantının bilgisayarını küçültmek için Nvidia ile anlaştı",
+          "summary": {
+            "what": "Wired’a göre beyin-bilgisayar arayüzü şirketi Paradromics, implantının sinyallerini çözmek için Nvidia’nın donanım ve yazılımını kullanacak.",
+            "why": "Bugün implantla konuşan hasta bir elektronik arabasının yanından ayrılamıyor; anlaşma bunu bir yıl içinde tekerlekli sandalyeye sığdırmayı hedefliyor.",
+            "next": "Paradromics konuşma çözümlemesini önce Nvidia’nın Jetson modülünde, sonra telefon büyüklüğünde bir cihazda yapmayı planlıyor."
+          },
+          "body": [
+            {
+              "subhead": "Kutuya dönüşecek araba",
+              "blocks": [
+                {
+                  "text": "Wired’ın haberine göre Michiganlı Mary’nin beyninde bozuk para büyüklüğünde bir çip var. Motor nöron hastalığı nedeniyle konuşmakta zorlanan Mary, Austin merkezli Paradromics’in ürettiği implant sayesinde düşüncelerini bilgisayardaki sentetik bir sesle aktarabiliyor."
+                },
+                {
+                  "text": "İmplant dışarıdan görünmüyor, ancak konuşmasını çözmek için prize takılı, elektronik dolu bir araba gerekiyor ve Mary bu arabanın menzilinden çıkamıyor. Paradromics pazartesi günü, beyin verilerini işlemek için Nvidia’nın donanım ve yazılımını kullanacağı bir ortaklık duyurdu. Şirketin kurucusu ve CEO’su Matt Angle, Wired’a bir yıl sonra bu arabanın tekerlekli sandalyeye sığan küçük bir kutuya dönüşeceğini, sonunda da elektroniklerin bir telefona sığacağını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Nasıl çalışıyor",
+              "blocks": [
+                {
+                  "text": "Mary konuşmaya çalıştığında beynindeki nöronlar hâlâ ateşleniyor. İmplantın 400’den fazla elektrotu bu sinyalleri yakalıyor, bilgisayarda çalışan yapay zekâ ne söylemeye çalıştığını çıkarıyor; kelimeler ekranda beliriyor ve bilgisayar onları seslendiriyor. Bu iş büyük bir işlem gücü istiyor. Angle, beyin-bilgisayar arayüzlerini “edge computing”in, yani verinin uzak bir veri merkezi yerine üretildiği yere yakın cihazlarda işlenmesinin en uç örneği olarak görüyor."
+                },
+                {
+                  "quote": "Bunu giderek daha küçük ve daha az güç tüketen cihazlarla yapabilmek istiyoruz; bu alanda öncü olanlar da Nvidia.",
+                  "speaker": "Matt Angle, Paradromics CEO’su",
+                  "sourceId": "wired",
+                  "translated": true
+                },
+                {
+                  "text": "Paradromics, konuşmayı kullanıcının yanındaki küçük bir cihazda çözmek için Nvidia’nın düşük güçlü işlem modülü Jetson’ı, beyin sinyallerini kamera ve mikrofon verileriyle gecikmesiz birleştirmek için de yapay zekâ sensör yazılımı Holoscan’ı kullanacak. Nvidia’nın temel modellerini de sisteme ekleyebilecek; şirketin bilim direktörü Vikash Gilja bunun sentetik sesleri daha ifadeli yapabileceğini söylüyor. Modellerin cihazda çalışması, internet bağlantısına gerek kalmaması demek."
+                }
+              ]
+            },
+            {
+              "subhead": "Nvidia’nın hesabı",
+              "blocks": [
+                {
+                  "text": "Nvidia’nın sağlık alanında iş geliştirme direktörü David Niewolny, Wired’a küçük gecikmelerin bile iletişimi doğallıktan uzaklaştırdığını, sinyallerin zamanla değiştiğini ve yapay zekânın her kişiye sürekli uyum sağlaması gerektiğini söyledi. Nvidia alandaki bir başka şirket olan Synchron ile de çalışıyor; Niewolny’ye göre bu ortaklıklarda beyin verilerine erişimi olmayacak."
+                },
+                {
+                  "text": "Anlaşma Nvidia için zor bir döneme denk geliyor. Wired, uzun süreli CEO Jensen Huang’ın Çin casusu olduğu iddia edilen biriyle yaşadığı ilişki nedeniyle istifa etmesinin ardından şirketin yönetim değişikliği ve federal incelemeyle karşı karşıya olduğunu hatırlatıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İmplanttaki elektrot",
+              "value": "400+",
+              "source": "Wired"
+            },
+            {
+              "label": "İmplant boyutu",
+              "value": "Bozuk para kadar",
+              "source": "Wired"
+            },
+            {
+              "label": "Taşınabilir kutu",
+              "value": "Yaklaşık bir yıl içinde",
+              "source": "Paradromics, Wired aracılığıyla"
+            },
+            {
+              "label": "Kullanılacak Nvidia modülü",
+              "value": "Jetson",
+              "source": "Wired"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T13:11:48.000Z",
+          "sourceId": "wired"
+        }
+      ],
+      "image": {
+        "url": "https://media.wired.com/photos/6b00bf3096143f394c42fff6/master/pass/Nvidia-Powering%20Brain-Computer-Interfaces-mary-connexus-control-unit-Science.jpg",
+        "sourceId": "wired",
+        "sourceName": "Wired",
+        "articleUrl": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/"
+      },
+      "sources": [
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    },
+    {
+      "id": "c77fbd2e9ae6cff1",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "a7edb752b04510e0",
+      "versions": {
+        "en": {
+          "shortTitle": "Zelensky: Ukraine sank the Merkury",
+          "title": "Zelensky says Ukraine sank Russia’s Merkury; Libyan official calls it war",
+          "news": "Zelensky said Ukraine’s drones sank the Merkury and hit a second ship, the Angara; a Libyan leader called it a declaration of war.",
+          "summary": {
+            "what": "President Zelensky said seven Ukrainian-made sea drones sank the Russian corvette Merkury in Benghazi on Sunday and hit a cargo ship carrying weapons.",
+            "why": "It is Ukraine’s claim of a strike more than 1,000 miles from its front, and it has drawn Libya into the war’s fallout.",
+            "next": "A Libyan Presidential Council deputy says Libya will take the matter to the International Court of Justice and the UN Security Council."
+          },
+          "body": [
+            {
+              "subhead": "Ukraine claims the attack",
+              "blocks": [
+                {
+                  "text": "Ukraine was behind Sunday’s drone attacks on two Russian ships at Benghazi, in eastern Libya, President Volodymyr Zelensky said on Monday, ending a day in which nobody had claimed them. In a post on X, quoted by Euronews, he said Ukrainian forces had used seven Ukrainian-made sea drones and sunk the corvette Merkury."
+                },
+                {
+                  "quote": "Our second target was the Russian dry cargo vessel MV ANGARA, which the enemy used to transport weapons. Result: target hit.",
+                  "speaker": "Volodymyr Zelensky, Ukrainian president, on X",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                },
+                {
+                  "text": "He called it an “exemplary Ukrainian operation in response to Russia’s war”, and said a Ka-27 combat helicopter had also been destroyed, Al Jazeera reports. Ukraine’s security service, the SBU, said the drones were launched from a “mother ship” in the region, according to France 24 and the Guardian. The Guardian reports that Albania denied that they were launched from its territory."
+                }
+              ]
+            },
+            {
+              "subhead": "What the pictures show",
+              "blocks": [
+                {
+                  "text": "Satellite images released by the US intelligence company Vantor show the ship docked at the port before the explosion and largely submerged afterwards, Euronews reports; Vantor’s analysis identifies it as the Merkury, one of Russia’s newest warships. France 24 notes it was commissioned a year after the 2022 invasion. The eastern Libyan government says the ship was refuelling and taking on supplies on its way back to Russia."
+                },
+                {
+                  "text": "Reports on casualties differ. Health sources said 10 people were injured in the port attack, Habertürk reports, and Libya’s eastern health ministry said all the cargo ship’s crew had been rescued. Al Jazeera’s Moscow correspondent said it was not clear whether anyone had been killed."
+                }
+              ]
+            },
+            {
+              "subhead": "“A declaration of war”",
+              "blocks": [
+                {
+                  "text": "Musa al-Koni, deputy head of Libya’s Presidential Council, called the strikes acts of terrorism and said Libya would take the matter to the International Court of Justice and the UN Security Council, Habertürk reports."
+                },
+                {
+                  "quote": "We hold the Ukrainian side fully responsible for these terrorist acts, approved, announced and praised by Ukrainian President Volodymyr Zelensky. These acts constitute a declaration of war against the Libyan state.",
+                  "speaker": "Musa al-Koni, deputy head of Libya’s Presidential Council",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Saddam Haftar, deputy commander of the eastern administration’s forces, said Libya “firmly rejects” the use of its waters as an arena for settling scores, Al Jazeera reports. The Kremlin warned of an “escalation of tensions” but declined to comment directly on the attacks in Libya, the BBC reports; its spokesman, Dmitry Peskov, called the spread of attacks in the Baltic “a very dangerous trend”, according to France 24. The UN mission, UNSMIL, repeated its call for an independent investigation."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sea drones launched",
+              "value": "7",
+              "source": "Volodymyr Zelensky"
+            },
+            {
+              "label": "Second ship hit",
+              "value": "MV Angara",
+              "source": "Volodymyr Zelensky"
+            },
+            {
+              "label": "Helicopter destroyed",
+              "value": "One Ka-27",
+              "source": "Zelensky, via Al Jazeera"
+            },
+            {
+              "label": "Injured in the port attack",
+              "value": "10",
+              "source": "Health sources, via Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Benghazi",
+            "lat": 32.12,
+            "lon": 20.07,
+            "region": "Libya"
+          }
+        },
+        "tr": {
+          "shortTitle": "Zelenskiy: Merkury’yi Ukrayna batırdı",
+          "title": "Zelenskiy, Rus korveti Merkury’yi Libya’da Ukrayna’nın batırdığını söyledi; Libya “savaş ilanı” dedi",
+          "news": "Zelenskiy, Merkury’yi Ukrayna dronlarının batırdığını ve Angara gemisini vurduğunu söyledi; Libyalı bir yetkili bunu savaş ilanı saydı.",
+          "summary": {
+            "what": "Zelenskiy, Ukrayna yapımı yedi deniz dronunun pazar günü Bingazi’de Rus korveti Merkury’yi batırdığını ve silah taşıyan bir yük gemisini vurduğunu açıkladı.",
+            "why": "Ukrayna cepheden 1.000 milden fazla uzakta bir saldırıyı üstlenmiş oluyor; savaşın etkisi Libya’ya da sıçradı.",
+            "next": "Libya Başkanlık Konseyi Başkan Yardımcısı, Libya’nın konuyu Uluslararası Adalet Divanı’na ve BM Güvenlik Konseyi’ne taşıyacağını söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Ukrayna saldırıyı üstlendi",
+              "blocks": [
+                {
+                  "text": "Ukrayna Devlet Başkanı Volodimir Zelenskiy, pazar günü Libya’nın doğusundaki Bingazi’de iki Rus gemisine düzenlenen dron saldırılarının arkasında Ukrayna’nın olduğunu pazartesi günü açıkladı; bir gün boyunca saldırıyı üstlenen olmamıştı. Euronews’in aktardığı X paylaşımında Zelenskiy, Ukraynalı askerlerin Ukrayna yapımı yedi deniz dronu kullandığını ve Merkury korvetinin batırıldığını söyledi."
+                },
+                {
+                  "quote": "İkinci hedefimiz, düşmanın silah taşımak için kullandığı Rus kuru yük gemisi MV ANGARA’ydı. Sonuç: hedef vuruldu.",
+                  "speaker": "Volodimir Zelenskiy, Ukrayna Devlet Başkanı, X’te",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                },
+                {
+                  "text": "Al Jazeera’ya göre Zelenskiy operasyonu “Rusya’nın savaşına verilen örnek bir Ukrayna yanıtı” olarak niteledi ve bir Ka-27 savaş helikopterinin de imha edildiğini söyledi. France 24 ve Guardian’ın haberine göre Ukrayna Güvenlik Servisi SBU, dronların bölgedeki bir “ana gemiden” fırlatıldığını açıkladı. Guardian’a göre Arnavutluk, dronların kendi topraklarından fırlatıldığı iddiasını yalanladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Görüntüler ne gösteriyor",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre ABD merkezli istihbarat şirketi Vantor’un yayımladığı uydu görüntüleri, geminin patlamadan önce limanda demirli olduğunu, sonrasında ise büyük ölçüde suya gömüldüğünü gösteriyor; Vantor’un analizi gemiyi Rusya’nın en yeni savaş gemilerinden Merkury olarak tanımlıyor. France 24, geminin 2022’deki işgalden bir yıl sonra hizmete girdiğini hatırlatıyor. Doğu Libya hükümetine göre gemi Rusya’ya dönerken yakıt ve erzak almak için limana uğramıştı."
+                },
+                {
+                  "text": "Kayıplara ilişkin bilgiler farklı. Habertürk’e göre sağlık kaynakları limandaki saldırıda 10 kişinin yaralandığını bildirdi; Bingazi’deki doğu Libya sağlık bakanlığı ise yük gemisinin tüm mürettebatının kurtarıldığını açıkladı. Al Jazeera’nın Moskova muhabiri, can kaybı olup olmadığının belli olmadığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "“Savaş ilanı”",
+              "blocks": [
+                {
+                  "text": "Habertürk’ün haberine göre Libya Başkanlık Konseyi Başkan Yardımcısı Musa el-Koni, saldırıları “terör eylemi” olarak niteledi ve Libya’nın konuyu Uluslararası Adalet Divanı’na ve BM Güvenlik Konseyi’ne taşıyacağını söyledi."
+                },
+                {
+                  "quote": "Ukrayna Devlet Başkanı Volodimir Zelenskiy tarafından onaylanan, ilan edilen ve övülen bu terörist eylemlerden tamamen Ukrayna tarafını sorumlu tutuyoruz. Bu eylemler, Libya devletine karşı bir savaş ilanı teşkil etmektedir.",
+                  "speaker": "Musa el-Koni, Libya Başkanlık Konseyi Başkan Yardımcısı",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Al Jazeera’ya göre doğu yönetiminin güçlerinin komutan yardımcısı Saddam Hafter, Libya sularının bir hesaplaşma alanı olarak kullanılmasını “kesinlikle reddettiklerini” söyledi. BBC’ye göre Kremlin “gerilimin tırmanması” konusunda uyardı, ancak Libya’daki saldırılar hakkında doğrudan yorum yapmadı; France 24’e göre Kremlin Sözcüsü Dmitriy Peskov, Baltık’ta yayılan saldırıları “çok tehlikeli bir eğilim” olarak niteledi. BM Libya Destek Misyonu (UNSMIL) bağımsız soruşturma çağrısını yineledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Fırlatılan deniz dronu",
+              "value": "7",
+              "source": "Volodimir Zelenskiy"
+            },
+            {
+              "label": "Vurulan ikinci gemi",
+              "value": "MV Angara",
+              "source": "Volodimir Zelenskiy"
+            },
+            {
+              "label": "İmha edilen helikopter",
+              "value": "Bir Ka-27",
+              "source": "Zelenskiy, Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "Limandaki saldırıda yaralı",
+              "value": "10",
+              "source": "Sağlık kaynakları, Habertürk aracılığıyla"
+            }
+          ],
+          "place": {
+            "name": "Bingazi",
+            "lat": 32.12,
+            "lon": 20.07,
+            "region": "Libya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T05:58:22.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T06:10:26.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T06:10:26.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T07:37:09.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T10:16:33.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:34:10.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:42:51.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/659e3cc8-e6a9-11f1-ae55-1bac47ab2f5d/w:1024/p:16x9/AP26326649718247.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261123-live-russian-strikes-kill-at-least-15-people-in-kyiv-region-ukraine-says",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cwn70zz4zg0lo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/libya-baskanlik-konseyi-baskan-yardimcisi-ukrayna-nin-eylemleri-libya-ya-karsi-savas-ilanidir-3929469",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    },
+    {
+      "id": "99440db22079593e",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Oxfam: 99% of Gaza contaminated",
+          "title": "Oxfam finds signs of contamination across 99% of Gaza after the war",
+          "summary": {
+            "what": "A report by Oxfam and the Conflict and Environment Observatory says more than 99% of Gaza shows signs of environmental contamination from Israel’s attacks.",
+            "why": "Heavy metals, explosive residues, asbestos and sewage in the air, soil and water threaten health for decades, the authors say.",
+            "next": "Oxfam wants Israel to allow a full, independent assessment on the ground before reconstruction begins; Israel was asked to respond."
+          },
+          "body": [
+            {
+              "subhead": "A “toxic wasteland”",
+              "blocks": [
+                {
+                  "text": "Israel’s destruction of Gaza has left poisoned water, contaminated soil and toxic air across the strip, according to a report by Oxfam and the UK-based Conflict and Environment Observatory (CEOBS), reported by the Guardian, the BBC and Al Jazeera. More than 99% of the territory shows indicators of potential contamination, the report says."
+                },
+                {
+                  "text": "Using satellite imagery, remote sensing and other open-source data, the authors found heavy metals, explosive residues, asbestos from destroyed buildings, dioxins and sewage in the air, soil and water. In February a UN special rapporteur said more than 200,000 tonnes of explosives had been dropped on Gaza in almost two years, the BBC notes, and the UN Environment Programme estimates that the war has left more than 61 million tonnes of debris."
+                },
+                {
+                  "quote": "Palestinians living in Gaza are being exposed to toxins in multiple ways through air, food, water and via direct contact with contaminated soils and debris.",
+                  "speaker": "Amitabh Behar, Oxfam International executive director",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Health now and later",
+              "blocks": [
+                {
+                  "text": "All six of Gaza’s wastewater treatment plants are out of operation, so untreated sewage reaches groundwater and the Mediterranean, the BBC reports; winter storms have recently mixed rainwater with wastewater in streets and tent camps. The report’s author, Lama Abdul Samad, told the BBC that Gazans are likely to face more respiratory disease, cancers, organ damage, birth defects and stillbirths."
+                },
+                {
+                  "text": "A Palestinian dermatologist, Dr Alaa Abu Hajar, told the BBC he had seen a five-fold rise in chronic skin disease since the war began, and that children were the most affected. A fisherman, Abu al-Abed Sultan, said nets now bring up rubble and rubbish dumped into the sea."
+                }
+              ]
+            },
+            {
+              "subhead": "Who is to blame, and what next",
+              "blocks": [
+                {
+                  "text": "Behar accused Israel of “environmental war crimes” as part of what he called an “ongoing genocide”, and said the damage would breach Israel’s obligations under international law. Israel’s government was asked to respond to the report, the BBC says. Israel rejects genocide accusations in the case at the International Court of Justice as baseless and says its campaign is self-defence against Hamas after the 7 October 2023 attack."
+                },
+                {
+                  "text": "Testing is often impossible because laboratories were destroyed and Israel restricts the entry of equipment and specialists, the BBC reports. Abdul Samad said a clean-up would be “highly challenging” because contamination is spread across rubble, farmland and water systems while unexploded ordnance blocks access, the Guardian reports. The report calls for a full independent assessment on the ground, and Behar said rebuilding Gaza without dealing with contamination risked harm “for generations to come”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Area with contamination signs",
+              "value": "99%+",
+              "source": "Oxfam and CEOBS"
+            },
+            {
+              "label": "Debris across Gaza",
+              "value": "61m+ tonnes",
+              "source": "UN Environment Programme"
+            },
+            {
+              "label": "Explosives dropped in about two years",
+              "value": "200,000+ tonnes",
+              "source": "UN special rapporteur, via BBC"
+            },
+            {
+              "label": "Wastewater plants working",
+              "value": "0 of 6",
+              "source": "BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Oxfam: Gazze’nin %99’u kirlendi",
+          "title": "Oxfam: Savaştan sonra Gazze’nin yüzde 99’unda kirlilik belirtisi var",
+          "summary": {
+            "what": "Oxfam ve Çatışma ve Çevre Gözlemevi’nin raporuna göre Gazze’nin yüzde 99’undan fazlasında İsrail saldırılarından kaynaklanan çevre kirliliği belirtileri görülüyor.",
+            "why": "Yazarlara göre havadaki, topraktaki ve sudaki ağır metaller, patlayıcı kalıntıları, asbest ve kanalizasyon onlarca yıl sağlığı tehdit ediyor.",
+            "next": "Oxfam, yeniden yapılanma başlamadan İsrail’in sahada kapsamlı ve bağımsız bir incelemeye izin vermesini istiyor; İsrail’den yanıt istendi."
+          },
+          "body": [
+            {
+              "subhead": "“Zehirli bir çorak alan”",
+              "blocks": [
+                {
+                  "text": "Guardian, BBC ve Al Jazeera’nın aktardığı Oxfam ile İngiltere merkezli Çatışma ve Çevre Gözlemevi (CEOBS) raporuna göre İsrail’in Gazze’yi yıkması, şeritte zehirlenmiş su, kirlenmiş toprak ve zehirli hava bıraktı. Rapora göre bölgenin yüzde 99’undan fazlasında olası kirlilik belirtileri var."
+                },
+                {
+                  "text": "Uydu görüntüleri, uzaktan algılama ve diğer açık kaynak verileri kullanan yazarlar havada, toprakta ve suda ağır metaller, patlayıcı kalıntıları, yıkılan binalardan çıkan asbest, dioksinler ve kanalizasyon buldu. BBC’nin hatırlattığına göre bir BM özel raportörü şubatta Gazze’ye yaklaşık iki yılda 200 bin tondan fazla patlayıcı atıldığını söylemişti; BM Çevre Programı da savaşın 61 milyon tondan fazla moloz bıraktığını tahmin ediyor."
+                },
+                {
+                  "quote": "Gazze’de yaşayan Filistinliler havadan, yiyecekten, sudan ve kirlenmiş toprak ve molozla doğrudan temastan birçok yolla toksinlere maruz kalıyor.",
+                  "speaker": "Amitabh Behar, Oxfam International İcra Direktörü",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Bugünkü ve yarınki sağlık",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Gazze’deki altı atık su arıtma tesisinin tamamı devre dışı; arıtılmamış kanalizasyon yeraltı suyuna ve Akdeniz’e karışıyor. Son kış fırtınaları da yağmur suyunu atık suyla karıştırıp sokaklara ve çadır kamplarına taşıdı. Raporun yazarı Lama Abdul Samad, BBC’ye Gazzelilerin solunum yolu hastalıkları, kanser, organ hasarı, doğum kusurları ve ölü doğumlarda artışla karşı karşıya kalacağını söyledi."
+                },
+                {
+                  "text": "Filistinli dermatolog Dr. Alaa Abu Hajar, BBC’ye savaş başladığından beri kronik deri hastalıklarında beş kat artış gördüğünü ve en çok çocukların etkilendiğini anlattı. Balıkçı Ebu el-Abed Sultan ise ağlarına artık denize dökülen moloz ve çöp takıldığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Sorumlu kim, sırada ne var",
+              "blocks": [
+                {
+                  "text": "Behar, İsrail’i “süregiden soykırımın” parçası olarak nitelediği “çevresel savaş suçları” işlemekle suçladı ve zararın İsrail’in uluslararası hukuktan doğan yükümlülüklerini ihlal edeceğini söyledi. BBC’ye göre İsrail hükümetinden rapora yanıt istendi. İsrail, Uluslararası Adalet Divanı’ndaki davada soykırım suçlamalarını asılsız bularak reddediyor ve harekâtının 7 Ekim 2023 saldırısından sonra Hamas’a karşı meşru müdafaa olduğunu savunuyor."
+                },
+                {
+                  "text": "BBC’ye göre laboratuvarlar yıkıldığı ve İsrail ekipman ile uzmanların girişini kısıtladığı için ölçüm yapmak çoğu zaman mümkün değil. Guardian’a göre Abdul Samad, kirlilik moloza, tarım arazilerine ve su sistemlerine yayıldığı, patlamamış mühimmat da erişimi engellediği için temizliğin “son derece zor” olacağını söyledi. Rapor sahada kapsamlı ve bağımsız bir inceleme yapılmasını istiyor; Behar da kirlilik ele alınmadan Gazze’nin yeniden inşa edilmesinin “gelecek nesiller boyunca” zarar doğurabileceğini söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kirlilik belirtisi görülen alan",
+              "value": "%99+",
+              "source": "Oxfam ve CEOBS"
+            },
+            {
+              "label": "Gazze’deki moloz",
+              "value": "61 milyon ton+",
+              "source": "BM Çevre Programı"
+            },
+            {
+              "label": "Yaklaşık iki yılda atılan patlayıcı",
+              "value": "200 bin ton+",
+              "source": "BM özel raportörü, BBC aracılığıyla"
+            },
+            {
+              "label": "Çalışan atık su tesisi",
+              "value": "6’da 0",
+              "source": "BBC"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T04:00:45.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T09:30:16.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T09:30:16.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T11:57:33.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/810a/live/c0542f80-e73d-11f1-99a1-253766e7ad8b.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/environmental-crimes-israel-blamed-for-toxic-pollution-in-99-of-gaza?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T18:30:00+03:00",
+      "updatedAt": "2026-11-23T18:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "124c4acc27e94cdb",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many of the 107 seats in Armenia’s parliament does Pashinyan’s Civil Contract party hold?",
+          "options": ["54", "64", "72"]
+        },
+        "tr": {
+          "question": "Paşinyan’ın Sivil Sözleşme Partisi, Ermenistan meclisindeki 107 sandalyenin kaçına sahip?",
+          "options": ["54", "64", "72"]
+        }
+      }
+    },
+    {
+      "storyId": "14cb35135650d5cf",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Which Nvidia computing module will Paradromics use to decode speech near the user?",
+          "options": ["Blackwell", "DGX Spark", "Jetson"]
+        },
+        "tr": {
+          "question": "Paradromics, konuşmayı kullanıcının yanında çözmek için Nvidia’nın hangi modülünü kullanacak?",
+          "options": ["Blackwell", "DGX Spark", "Jetson"]
+        }
+      }
+    },
+    {
+      "storyId": "c77fbd2e9ae6cff1",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many Ukrainian-made sea drones did Zelensky say were used in the Benghazi attack?",
+          "options": ["7", "12", "4"]
+        },
+        "tr": {
+          "question": "Zelenskiy’e göre Bingazi saldırısında Ukrayna yapımı kaç deniz dronu kullanıldı?",
+          "options": ["7", "12", "4"]
+        }
+      }
+    }
+  ]
+}
