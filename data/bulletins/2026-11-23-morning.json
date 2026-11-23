@@ -1,0 +1,1751 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-23T07:30:00+03:00",
+  "writtenAt": "2026-11-23T06:58:40+03:00",
+  "stories": [
+    {
+      "id": "db0f85d37bb19659",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Fund probe recovers ₺44.58bn",
+          "title": "Fund probe: 632 suspects and ₺44.58bn returned, Gürlek says",
+          "summary": {
+            "what": "Justice Minister Akın Gürlek says the investment-fund investigation now has 632 suspects, and 91 companies have been handed to the state fund TMSF.",
+            "why": "Some ₺44.58bn has been paid back by 85 people, and about ₺13bn that suspects moved to nine countries has been frozen.",
+            "next": "Prosecutors have asked the nine countries to transfer the frozen money to a fund account held by the TMSF."
+          },
+          "body": [
+            {
+              "subhead": "The latest count",
+              "blocks": [
+                {
+                  "text": "Justice Minister Akın Gürlek set out the latest figures in the investment-fund investigation on Sunday, in a post on his social media account that Hürriyet, Cumhuriyet, Sözcü, Bloomberg HT and A Haber published in full. The Istanbul Chief Public Prosecutor’s Office is investigating 632 suspects on allegations of organised aggravated fraud, breaches of the Capital Markets Law and laundering the proceeds of crime, he wrote."
+                },
+                {
+                  "text": "Trustees have been appointed to 91 companies, which have been handed over to the Savings Deposit Insurance Fund (TMSF), the state body that runs seized firms. The assets of 181 companies and 551 individuals have been seized and their bank accounts frozen."
+                }
+              ]
+            },
+            {
+              "subhead": "Cars, aircraft and property",
+              "blocks": [
+                {
+                  "text": "Leaving aside what the 91 companies own themselves, seizure orders now cover 1,867 road vehicles, four aircraft, three boats and 378 properties belonging to suspects and their firms, the minister said. Shares in 307 other companies have also been seized."
+                }
+              ]
+            },
+            {
+              "subhead": "Money sent abroad",
+              "blocks": [
+                {
+                  "text": "Foreign-currency assets worth about ₺13 billion, which investigators found suspects had moved to nine countries, have been frozen: the United Kingdom, Switzerland, Luxembourg, Bahrain, Greece, Germany, the Czech Republic, Italy and the United Arab Emirates. Prosecutors have sent formal requests for legal assistance so that the money can be transferred to a fund account held by the TMSF."
+                },
+                {
+                  "text": "Under a voluntary return and recovery scheme, ₺44.58 billion has been collected from 85 people, according to the statement. NTV, Habertürk and Medyascope led their reports with that figure, while Bloomberg HT led with the frozen assets abroad. Diken summed up the update under the headline “632 suspects, 91 companies under trustees”."
+                },
+                {
+                  "quote": "No one should think they can escape justice by moving assets found to come from crime into different accounts, companies or abroad.",
+                  "speaker": "Akın Gürlek, Justice Minister",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Gürlek said the authorities would keep up the fight to protect citizens’ hard-earned money and to make sure the rightful owners get what they are owed. His statement did not say when or how investors will be paid from the money recovered."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Suspects",
+              "value": "632",
+              "source": "Justice Minister Gürlek"
+            },
+            {
+              "label": "Companies under trustees",
+              "value": "91",
+              "source": "Justice Minister Gürlek"
+            },
+            {
+              "label": "Returned voluntarily",
+              "value": "₺44.58bn",
+              "source": "Justice Minister Gürlek"
+            },
+            {
+              "label": "Frozen in nine countries",
+              "value": "≈₺13bn",
+              "source": "Justice Minister Gürlek"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Fon soruşturmasında 44,58 milyar iade",
+          "title": "Fon soruşturmasında 632 şüpheli, 44,58 milyar lira iade",
+          "summary": {
+            "what": "Adalet Bakanı Akın Gürlek, fon soruşturmasında 632 şüpheli bulunduğunu, 91 şirkete kayyım atanarak TMSF’ye devredildiğini açıkladı.",
+            "why": "85 kişiden gönüllü iade yoluyla 44,58 milyar lira tahsil edildi; dokuz ülkeye kaçırılan yaklaşık 13 milyar liralık varlık donduruldu.",
+            "next": "Dondurulan paranın TMSF’deki fon hesabına aktarılması için adli istinabe işlemleri başlatıldı."
+          },
+          "body": [
+            {
+              "subhead": "Son tablo",
+              "blocks": [
+                {
+                  "text": "Adalet Bakanı Akın Gürlek, pazar günü sosyal medya hesabından fon soruşturmasına ilişkin son verileri paylaştı; açıklamayı Hürriyet, Cumhuriyet, Sözcü, Bloomberg HT ve A Haber tam metin olarak yayımladı. Gürlek’e göre İstanbul Cumhuriyet Başsavcılığı’nın örgütlü nitelikli dolandırıcılık, Sermaye Piyasası Kanunu’na muhalefet ve suçtan kaynaklanan mal varlığı değerlerini aklama iddialarıyla yürüttüğü soruşturmalarda 632 şüpheli bulunuyor."
+                },
+                {
+                  "text": "Soruşturmalar kapsamında 91 şirkete kayyım atandı ve bu şirketler Tasarruf Mevduatı Sigorta Fonu’na (TMSF) devredildi. 181 tüzel kişi ile 551 gerçek kişinin mal varlıklarına el konuldu, banka hesapları donduruldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Araçlar, uçaklar, taşınmazlar",
+              "blocks": [
+                {
+                  "text": "Kayyım atanan şirketlerin kendi varlıkları hariç tutulduğunda, şüphelilere ve şirketlerine ait 1.867 kara aracı, 4 hava aracı, 3 deniz aracı ve 378 taşınmaz hakkında el koyma kararı verildi. Bakan’ın açıklamasına göre 307 şirketin ortaklık payına da el konuldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Yurt dışına kaçırılan para",
+              "blocks": [
+                {
+                  "text": "Şüphelilerin Birleşik Krallık, İsviçre, Lüksemburg, Bahreyn, Yunanistan, Almanya, Çek Cumhuriyeti, İtalya ve Birleşik Arap Emirlikleri’ne kaçırdığı belirlenen, yaklaşık 13 milyar liraya karşılık gelen yabancı para cinsinden varlık donduruldu. Bu paranın TMSF bünyesindeki fon hesabına aktarılması için adli istinabe işlemleri başlatıldı."
+                },
+                {
+                  "text": "Gönüllü iade ve geri kazanım kapsamında ise 85 kişiden toplam 44,58 milyar lira tahsil edildi. NTV, Habertürk ve Medyascope haberlerini bu rakamla verirken Bloomberg HT yurt dışında dondurulan varlıkları öne çıkardı. Diken ise güncellemeyi “632 şüpheli, 91 şirkete kayyım” başlığıyla duyurdu."
+                },
+                {
+                  "quote": "Hiç kimse, suçtan kaynaklandığı tespit edilen mal varlıklarını farklı hesaplara, şirketlere veya yurt dışına aktararak adaletten kaçırabileceğini düşünmesin.",
+                  "speaker": "Akın Gürlek, Adalet Bakanı",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Gürlek, vatandaşların alın terini korumak ve gerçek hak sahiplerinin haklarına kavuşmasını sağlamak için mücadelenin kararlılıkla süreceğini söyledi. Açıklamada, tahsil edilen paranın yatırımcılara ne zaman ve nasıl ödeneceğine dair bilgi yer almadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Şüpheli",
+              "value": "632",
+              "source": "Adalet Bakanı Gürlek"
+            },
+            {
+              "label": "Kayyım atanan şirket",
+              "value": "91",
+              "source": "Adalet Bakanı Gürlek"
+            },
+            {
+              "label": "Gönüllü iade",
+              "value": "44,58 milyar ₺",
+              "source": "Adalet Bakanı Gürlek"
+            },
+            {
+              "label": "Dokuz ülkede dondurulan",
+              "value": "≈13 milyar ₺",
+              "source": "Adalet Bakanı Gürlek"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T15:07:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:13:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T15:13:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:15:14.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:16:09.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:19:54.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:43:00.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:45:57.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:48:11.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:57:52.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0305b68c01a1364d06b1c3.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-fon-sorusturmasi-ile-ilgili-merak-edilen-her-detayi-acikladi-43387219"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-fon-sorusturmasi-ile-ilgili-merak-edilen-her-detayi-acikladi-43387219",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/bakan-gurlek-ten-fon-sorusturmasi-aciklamasi-son-verileri-acikladi-kac-kisinin-mal-varliklarina-el-konuldu-ne-kadar-gonullu-iade-yapildi-2558386",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/22/bakan-gurlek-duyurdu-fon-sorusturmasinda-91-sirkete-kayyum-atandi",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/akin-gurlek-fon-sorusturmasi-aciklamasi-p383495",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/bakan-gurlek-ten-fon-sorusturmasi-aciklamasi-3795379",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/fon-vurgununda-son-durum-632-supheli-91-sirkete-kayyim/",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bakan-gurlekten-fon-sorusturmasi-aciklamasi-9-ulkeye-kacirilan-13-milyar-tl-donduruldu-1752084",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-bakan-gurlek-ten-fon-sorusturmasi-aciklamasi-3929226",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/22/akin-gurlek-fon-sorusturmasinda-85-kisiden-4458-milyar-tl-tahsil-edildi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "e43d5b219be7e291",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "04ab9db2004127f2",
+      "versions": {
+        "en": {
+          "shortTitle": "HGS debt cases under investigation",
+          "title": "Prosecutors investigate claims HGS toll debts were used for unjust gain",
+          "news": "Istanbul prosecutors have opened a criminal investigation into claims that HGS toll-debt enforcement was used for unjust gain.",
+          "summary": {
+            "what": "Istanbul prosecutors have opened an investigation into claims that enforcement cases over unpaid HGS tolls were turned into a source of unjust profit.",
+            "why": "Drivers say small toll debts they were never told about grew into large ones; a late payer can owe the toll plus four times its amount.",
+            "next": "Prosecutors will examine whether the enforcement cases were lawful; the fourfold penalty is also under review, the transport minister has said."
+          },
+          "body": [
+            {
+              "subhead": "A criminal investigation",
+              "blocks": [
+                {
+                  "text": "The Istanbul Chief Public Prosecutor’s Office has opened an investigation into claims that debt-enforcement cases over unpaid HGS tolls were turned into a tool for unjust profit through fraudulent or unlawful methods, Justice Minister Akın Gürlek announced on Sunday. HGS, the Fast Pass System, is the prepaid tag drivers use on Türkiye’s toll motorways and bridges."
+                },
+                {
+                  "text": "The investigation will look into claims that drivers were put into debt unfairly, whether the enforcement cases opened against them were lawful, and any acts that could amount to a crime, Sözcü and BBC Türkçe report. Gürlek said it would be pursued meticulously so that those responsible answer before the courts."
+                },
+                {
+                  "quote": "No one can leave our citizens under an unjust debt burden by abusing legal processes and enforcement mechanisms.",
+                  "speaker": "Akın Gürlek, Justice Minister",
+                  "sourceId": "bbc-turkce",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "How small tolls became large debts",
+              "blocks": [
+                {
+                  "text": "The row began in recent days, BBC Türkçe writes. Some drivers said they were never notified of passes made without enough balance on their account, and that payments not collected on time grew into large debts. Under the current rules, a driver who has not paid for a pass within 45 days can end up paying the toll plus four times its amount."
+                },
+                {
+                  "text": "Transport Minister Abdulkadir Uraloğlu said on 17 November that his ministry and the Highways Directorate were following the process. Drivers are sent a text message within 15 days of a pass with insufficient balance, he said; no penalty applies if the debt is paid in those first 15 days, and a single penalty applies until day 45. He added that the fourfold penalty is being reconsidered."
+                }
+              ]
+            },
+            {
+              "subhead": "The opposition asks who profited",
+              "blocks": [
+                {
+                  "text": "Ulaş Karasu, a Sivas MP for the YENİ Parti, said the government bore the political responsibility, Cumhuriyet reports. He accused it of letting a system turn drivers’ tiny HGS debts into “a transfer of wealth” through enforcement files, and asked who had profited “in a network of relationships in which the names of former ministers, AKP MPs and their relatives come up”."
+                },
+                {
+                  "quote": "You cannot get out of answering for this system of robbery by pinning it on a few people!",
+                  "speaker": "Ulaş Karasu, YENİ Parti MP for Sivas",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Karasu called for every kuruş collected unjustly to be returned to drivers, and for the scheme’s political links and protectors to be exposed. The justice minister’s statement did not name any suspect or company."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Penalty after 45 days",
+              "value": "Toll + 4×",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Penalty-free window",
+              "value": "15 days",
+              "source": "Transport Minister Uraloğlu"
+            },
+            {
+              "label": "Investigation announced",
+              "value": "22 Nov",
+              "source": "Justice Minister Gürlek"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "HGS icralarına soruşturma açıldı",
+          "title": "HGS icra takipleriyle haksız kazanç iddiasına soruşturma",
+          "news": "İstanbul Cumhuriyet Başsavcılığı, HGS icra takipleriyle haksız kazanç sağlandığı iddialarına soruşturma başlattı.",
+          "summary": {
+            "what": "İstanbul Cumhuriyet Başsavcılığı, HGS borçları üzerinden başlatılan icra takipleriyle haksız kazanç sağlandığı iddialarına soruşturma açtı.",
+            "why": "Sürücüler, bildirim almadıkları küçük geçiş borçlarının büyüdüğünü söylüyor; 45 gün ödenmeyen geçişte ücretin dört katı ceza ekleniyor.",
+            "next": "Soruşturmada icra takiplerinin hukuka uygunluğu incelenecek; Ulaştırma Bakanı dört kat cezanın da yeniden değerlendirildiğini söylemişti."
+          },
+          "body": [
+            {
+              "subhead": "Başsavcılık devrede",
+              "blocks": [
+                {
+                  "text": "Adalet Bakanı Akın Gürlek, Hızlı Geçiş Sistemi (HGS) kapsamında sürücüler hakkında başlatılan icra takiplerinde, icra mekanizmalarının hileli ya da hukuka aykırı yöntemlerle haksız kazanç aracına dönüştürüldüğü iddiaları üzerine İstanbul Cumhuriyet Başsavcılığı’nın soruşturma başlattığını pazar günü duyurdu."
+                },
+                {
+                  "text": "Sözcü ve BBC Türkçe’nin aktardığına göre soruşturmada vatandaşların haksız yere borçlandırıldığı iddiaları, başlatılan icra takiplerinin hukuka uygunluğu ve suç oluşturabilecek eylemler bütün yönleriyle incelenecek. Gürlek, sorumluların adalet önünde hesap vermesi için soruşturmanın titizlikle sürdürüleceğini söyledi."
+                },
+                {
+                  "quote": "Hiç kimse, hukuki süreçleri ve icra mekanizmalarını kötüye kullanarak vatandaşlarımızı haksız borç yükü altında bırakamaz.",
+                  "speaker": "Akın Gürlek, Adalet Bakanı",
+                  "sourceId": "bbc-turkce"
+                }
+              ]
+            },
+            {
+              "subhead": "Küçük borç nasıl büyüdü",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’ye göre tartışma geçtiğimiz günlerde başladı. Bazı sürücüler ihlalli geçişlerde kendilerine bildirim yapılmadığını, bakiye yetersizliğinde zamanında tahsil edilmeyen ödemelerin büyük borçlara dönüştüğünü söylüyor. Mevcut uygulamada geçiş ücretini 45 gün boyunca ödemeyen sürücü, ücretin yanı sıra dört katı ceza ödemek zorunda kalabiliyor."
+                },
+                {
+                  "text": "Ulaştırma ve Altyapı Bakanı Abdülkadir Uraloğlu, 17 Kasım’da sürecin bakanlık ve Karayolları Genel Müdürlüğü tarafından takip edildiğini açıklamıştı. Uraloğlu’na göre ihlalli geçişte 15 gün içinde kayıtlı telefona SMS gönderiliyor; ilk 15 günde ödeme yapılırsa ceza uygulanmıyor, 45. güne kadar bir kat cezayla ödenebiliyor. Bakan, dört kat cezanın yeniden değerlendirildiğini de söylemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Muhalefet: kim kazandı?",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’in haberine göre YENİ Parti Sivas Milletvekili Ulaş Karasu, bu düzenin siyasi sorumluluğunun iktidarda olduğunu söyledi. Karasu, vatandaşın “üç kuruşluk” HGS borcunun icra dosyaları üzerinden servet transferine dönüştürüldüğünü öne sürdü ve “Eski bakanların, AKP milletvekillerinin ve yakınlarının adının geçtiği ilişkiler ağında kimler kazandı?” diye sordu."
+                },
+                {
+                  "quote": "Bu soygun düzeninin hesabını; birkaç kişiye keserek işin içinden çıkılamaz!",
+                  "speaker": "Ulaş Karasu, YENİ Parti Sivas Milletvekili",
+                  "sourceId": "cumhuriyet"
+                },
+                {
+                  "text": "Karasu, haksız tahsil edilen her kuruşun yurttaşa iade edilmesini ve düzenin siyasi bağlantılarının açığa çıkarılmasını istedi. Bakan Gürlek’in açıklamasında herhangi bir şüpheli ya da şirket adı yer almadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "45 günden sonra ceza",
+              "value": "Ücret + 4 kat",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Cezasız ödeme süresi",
+              "value": "15 gün",
+              "source": "Ulaştırma Bakanı Uraloğlu"
+            },
+            {
+              "label": "Soruşturma duyurusu",
+              "value": "22 Kasım",
+              "source": "Adalet Bakanı Gürlek"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T14:57:20.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T18:13:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T18:13:00.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T18:39:43.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T18:39:43.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/2f5aa569-ab03-4f17-b0d3-7947aca8717c.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/yeni-partili-karasu-dan-hgs-tepkisi-eski-bakanlarin-akp-milletvekillerinin-ve-yakinlarinin-adinin-gectigi-iliskiler-aginda-2558413"
+      },
+      "sources": [
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-hgs-icra-takiplerine-sorusturma-baslatildi-p383463",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/yeni-partili-karasu-dan-hgs-tepkisi-eski-bakanlarin-akp-milletvekillerinin-ve-yakinlarinin-adinin-gectigi-iliskiler-aginda-2558413",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/ck62pgp2vm1qo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "0048cf48c38dc3a5",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Lion loose in Istanbul’s Sarıyer",
+          "title": "Lion loose in Istanbul’s Sarıyer as teams try to catch it alive",
+          "summary": {
+            "what": "An animal the authorities believe is a lioness was caught on security cameras in Uskumruköy, in Istanbul’s Sarıyer district, on Sunday evening.",
+            "why": "Residents were told to take precautions; rangers with thermal cameras located the animal in woodland overnight.",
+            "next": "A team with specialist vets is trying to capture it alive; officials have not said where the lion came from."
+          },
+          "body": [
+            {
+              "subhead": "A lion on camera",
+              "blocks": [
+                {
+                  "text": "Teams in Istanbul were still trying to catch a lion early on Monday after an animal believed to be a lioness was filmed by security cameras in Uskumruköy, a neighbourhood in the northern district of Sarıyer, NTV reports. The authorities say they know where the animal is and want to take it alive."
+                },
+                {
+                  "text": "The Istanbul governor’s office said images of a lion were recorded by cameras in the area at about 18:00 on Sunday. According to Cumhuriyet and Sabah, a resident called the 112 emergency line to say they had seen a lion, and teams who checked the camera footage found an animal they assessed to be a female lion."
+                }
+              ]
+            },
+            {
+              "subhead": "Thermal cameras in the woods",
+              "blocks": [
+                {
+                  "text": "The General Directorate of Nature Conservation and National Parks gave a slightly different timeline. In a written statement, it said gendarmes at the Zekeriyaköy station told its teams at about 21:00 that an animal resembling a lion had appeared on the area’s MOBESE surveillance cameras. Rangers from its Sarıyer office went to the spot and checked the footage, but found no animal where it had been recorded."
+                },
+                {
+                  "text": "Teams with thermal cameras were then sent in, and the animal was located in a wooded area, the directorate said. A team that includes specialist vets is working to catch it."
+                },
+                {
+                  "quote": "The area where the lion is has been identified, and the necessary care is being taken to capture it alive.",
+                  "speaker": "Istanbul Governor’s Office",
+                  "sourceId": "diken",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Residents told to be careful",
+              "blocks": [
+                {
+                  "text": "The operation is led by the National Parks directorate together with the gendarmerie, the police and Sarıyer municipality’s municipal police, the governor’s office said. Gendarmes warned people living nearby to be careful and take precautions, and a gendarmerie public-order team put security measures in place, Diken reports."
+                },
+                {
+                  "text": "The authorities have not said where the lion came from, Diken notes. Eight outlets, from Hürriyet and Sözcü to Habertürk and NTV, followed the search through the night, and NTV reported shortly after 06:00 that the capture effort was still going on."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Footage recorded",
+              "value": "≈18:00, 22 Nov",
+              "source": "Istanbul Governor’s Office"
+            },
+            {
+              "label": "Rangers alerted",
+              "value": "≈21:00",
+              "source": "National Parks directorate"
+            }
+          ],
+          "place": {
+            "name": "Uskumruköy, Sarıyer",
+            "lat": 41.19,
+            "lon": 29.03,
+            "region": "Istanbul, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Sarıyer’de aslan alarmı",
+          "title": "Sarıyer’de aslan alarmı: ekipler hayvanı sağ yakalamaya çalışıyor",
+          "summary": {
+            "what": "İstanbul Sarıyer’in Uskumruköy Mahallesi’nde pazar akşamı güvenlik kameralarına dişi aslan olduğu değerlendirilen bir hayvan yansıdı.",
+            "why": "Bölge halkı tedbirli olması için uyarıldı; termal kameralı ekipler gece hayvanın ormanlık alandaki yerini tespit etti.",
+            "next": "Uzman veterinerlerin de bulunduğu ekip aslanı sağ yakalamaya çalışıyor; aslanın nereden geldiği açıklanmadı."
+          },
+          "body": [
+            {
+              "subhead": "Kameraya yansıdı",
+              "blocks": [
+                {
+                  "text": "NTV’nin sabah saatlerindeki haberine göre Sarıyer’in Uskumruköy Mahallesi’nde güvenlik kameralarına yansıyan ve dişi aslan olduğu değerlendirilen hayvanı yakalama çalışmaları sürüyor. Yetkililer aslanın bulunduğu bölgenin belirlendiğini, hayvanın sağ yakalanması için çalışıldığını söylüyor."
+                },
+                {
+                  "text": "İstanbul Valiliği’ne göre aslanın görüntüleri 22 Kasım Pazar günü saat 18.00 sıralarında çevredeki güvenlik kameralarına yansıdı. Cumhuriyet ve Sabah’ın aktardığına göre bir kişi 112 Acil Çağrı Merkezi’ni arayarak aslan gördüğünü bildirdi; kamera kayıtlarını inceleyen ekipler dişi aslan olduğu değerlendirilen bir hayvan tespit etti."
+                },
+                {
+                  "text": "Onedio’ya göre görüntülerin ardından birden fazla kurum yakalama çalışmasına katıldı. Sabah ise olayı “akılalmaz” diye nitelendirdi ve bölgede yaşayanların jandarma tarafından dikkatli olmaları, gerekli tedbirleri almaları konusunda uyarıldığını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ormanda termal kamerayla arama",
+              "blocks": [
+                {
+                  "text": "Doğa Koruma ve Milli Parklar Genel Müdürlüğü ise biraz farklı bir saat verdi. Yazılı açıklamaya göre saat 21.00 sıralarında Zekeriyaköy Jandarma Karakolu’ndaki personel, bölgedeki MOBESE kameralarına aslana benzeyen bir hayvanın yansıdığını bildirdi. Sarıyer Doğa Koruma ve Milli Parklar Şefliği ekipleri olay yerine giderek görüntüleri inceledi, ancak kayıtların alındığı noktada hayvana rastlamadı."
+                },
+                {
+                  "text": "Bunun üzerine bölgeye termal kameralı ekipler gönderildi ve ormanlık alanda hayvanın yeri tespit edildi. Genel müdürlüğe göre uzman veterinerlerin de bulunduğu ekip aslanı yakalamaya çalışıyor."
+                },
+                {
+                  "quote": "Aslanın bulunduğu bölge tespit edilmiş olup, sağ olarak yakalanması için gerekli hassasiyet gösterilmektedir.",
+                  "speaker": "İstanbul Valiliği",
+                  "sourceId": "diken"
+                }
+              ]
+            },
+            {
+              "subhead": "Bölge halkı uyarıldı",
+              "blocks": [
+                {
+                  "text": "Valiliğe göre çalışmalar Milli Parklar Müdürlüğü koordinasyonunda jandarma, emniyet ve Sarıyer Belediyesi Zabıta Müdürlüğü ekiplerince yürütülüyor. Diken’in haberine göre jandarma asayiş timi bölgede güvenlik önlemi aldı, çevrede yaşayanlar dikkatli olmaları için uyarıldı."
+                },
+                {
+                  "text": "Yetkililer aslanın nereden geldiğine dair bir açıklama yapmadı. Hürriyet ve Sözcü’den Habertürk ve NTV’ye sekiz yayın organı arama çalışmasını gece boyunca izledi; NTV saat 06.00’yı biraz geçe çalışmaların sürdüğünü bildirdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Görüntü saati",
+              "value": "≈18.00, 22 Kasım",
+              "source": "İstanbul Valiliği"
+            },
+            {
+              "label": "Ekiplere ihbar",
+              "value": "≈21.00",
+              "source": "Milli Parklar Genel Müdürlüğü"
+            }
+          ],
+          "place": {
+            "name": "Uskumruköy, Sarıyer",
+            "lat": 41.19,
+            "lon": 29.03,
+            "region": "İstanbul, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T19:38:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T19:57:30.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T19:57:30.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T20:05:22.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T20:46:09.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T21:36:33.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T22:14:55.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/e57c851e-a66f-4292-87b7-af0b383e0283.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/istanbul-da-aslan-alarmi-ihbar-yapildi-jandarmadan-uyari-geldi-2558427"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-da-aslan-alarmi-ihbar-yapildi-jandarmadan-uyari-geldi-2558427",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/video-sariyerde-aslan-gordum-ihbari-1752110",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/sariyerde-aslan-gordum-ihbari-yapildi-ekipler-calisma-baslatti-43387403",
+          "confirms": false
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/sariyerde-aslan-gordum-panigi-ekipler-harekete-gecti-7707305",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/sariyer-de-guvenlik-kamerasina-yansiyan-hayvanin-aslan-oldugu-degerlendirildi-1396635",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/istanbulda-aslan-ihbari-yeri-tespit-edildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/sariyer-de-aslan-ihbari-p383538",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/sariyerde-disi-aslan-goruldu-3929274",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "0162d4886027e702",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Datacentre bosses’ 119 ministerial meetings",
+          "title": "Datacentre firms met Australian premiers and ministers 119 times in three years",
+          "summary": {
+            "what": "Executives from 10 datacentre companies had 119 meetings with premiers and ministers in five Australian states and territories over three years.",
+            "why": "Transparency International Australia says the access, with donations that nearly tripled to A$1.8m, creates an uneven playing field.",
+            "next": "The group says federal meetings are unknown and lobbying laws miss in-house lobbyists; Queensland’s premier’s office was asked to comment."
+          },
+          "body": [
+            {
+              "subhead": "119 meetings",
+              "blocks": [
+                {
+                  "text": "Executives from 10 datacentre companies secured 119 meetings with premiers and ministers in five Australian states and territories over three years, according to an analysis by Transparency International Australia reported by Guardian Australia. Most of the meetings took place in 2026. The figures cover New South Wales, Victoria, Tasmania, Queensland and the ACT, the only jurisdictions that publish ministerial diaries."
+                },
+                {
+                  "text": "Political donations from major datacentre companies and the lobbying firms they hire nearly tripled over the same period, from A$685,000 to A$1.8m, as investment in Australian datacentres grew. The report argues that meetings and donations together give the industry “unfettered access” to decision-makers and create an “uneven playing field”."
+                }
+              ]
+            },
+            {
+              "subhead": "Queensland’s premier tops the list",
+              "blocks": [
+                {
+                  "text": "Queensland’s premier, David Crisafulli, was “by far the most frequently accessed state premier”, with 13 meetings with datacentre executives in three years. They included three meetings in as many weeks in August and September with NextDC, Australia’s largest datacentre operator. The meetings “took place shortly before the Queensland premier announced a dedicated framework to fast-track datacentre approvals by taking them out of the hands of local councils”, the report says."
+                },
+                {
+                  "text": "Crisafulli flew to the United States in September to secure a A$31.9bn deal with Anthropic for what could become Australia’s largest datacentre. His office was contacted for comment, the Guardian says. Amazon Web Services, Macquarie Technology Group and NextDC secured the most meetings overall, and Firmus Technologies had 10 meetings with Tasmanian ministers and the premier this year alone while its expansion there faced backlash from local communities."
+                }
+              ]
+            },
+            {
+              "subhead": "“The tip of the iceberg”",
+              "blocks": [
+                {
+                  "quote": "These numbers are just the tip of the iceberg.",
+                  "speaker": "Clancy Moore, chief executive, Transparency International Australia",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "Moore said nobody knows how many meetings companies such as NextDC, OpenAI and Anthropic and their lobbyists have with the prime minister and federal ministers, and that the lobbying laws do not cover in-house lobbyists. The report also lists four senior federal public servants who left to lead teams at OpenAI, AirTrunk and CDC, three of them this year."
+                },
+                {
+                  "text": "Sally Mackenzie, president of the Australian Professional Government Relations Association, said in September that the level of contact showed the system working as intended. NextDC’s chair, Stephen Flynn, told shareholders on Friday he was “not sure we are great at lobbying as an industry or as a company”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Meetings with premiers and ministers",
+              "value": "119",
+              "source": "Transparency International Australia"
+            },
+            {
+              "label": "Companies tracked",
+              "value": "10",
+              "source": "Transparency International Australia"
+            },
+            {
+              "label": "Crisafulli’s meetings",
+              "value": "13",
+              "source": "Transparency International Australia"
+            },
+            {
+              "label": "Anthropic datacentre deal",
+              "value": "A$31.9bn",
+              "source": "Guardian Australia"
+            }
+          ],
+          "keyNumber": {
+            "label": "Industry political donations",
+            "unit": "A$",
+            "before": 685000,
+            "after": 1800000,
+            "source": "Transparency International Australia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Veri merkezlerine 119 bakan görüşmesi",
+          "title": "Veri merkezi şirketleri Avustralya’da üç yılda 119 kez bakanlarla görüştü",
+          "summary": {
+            "what": "10 veri merkezi şirketinin yöneticileri, Avustralya’nın beş eyalet ve bölgesinde üç yılda başbakan ve bakanlarla 119 görüşme yaptı.",
+            "why": "Transparency International Australia’ya göre bu erişim, üç katına yaklaşarak 1,8 milyon dolara çıkan bağışlarla birlikte eşitsiz bir zemin yaratıyor.",
+            "next": "Kuruluşa göre federal düzeydeki görüşmeler bilinmiyor; Queensland başbakanının ofisinden yorum istendi."
+          },
+          "body": [
+            {
+              "subhead": "119 görüşme",
+              "blocks": [
+                {
+                  "text": "Guardian Australia’nın aktardığı Transparency International Australia analizine göre 10 veri merkezi şirketinin yöneticileri, üç yıl içinde beş eyalet ve bölgede eyalet başbakanları ve bakanlarla 119 kez görüştü. Görüşmelerin çoğu 2026’da yapıldı. Rakamlar, bakan ajandalarını kamuya açıklayan tek yönetimler olan Yeni Güney Galler, Victoria, Tazmanya, Queensland ve Başkent Bölgesi’ni (ACT) kapsıyor."
+                },
+                {
+                  "text": "Aynı dönemde büyük veri merkezi şirketlerinin ve tuttukları lobi firmalarının siyasi bağışları, Avustralya’daki yatırımlar artarken neredeyse üç katına çıkarak 685 bin Avustralya dolarından 1,8 milyon dolara yükseldi. Rapor, görüşmeler ve bağışların birlikte karar vericilere “sınırsız erişim” sağladığını ve “eşitsiz bir oyun alanı” yarattığını savunuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Listenin başında Queensland",
+              "blocks": [
+                {
+                  "text": "Rapora göre Queensland Başbakanı David Crisafulli, üç yılda veri merkezi yöneticileriyle 13 kez görüşerek “açık ara en çok erişilen eyalet başbakanı” oldu. Bunların üçü, ağustos ve eylül aylarında art arda üç hafta içinde Avustralya’nın en büyük veri merkezi işletmecisi NextDC ile yapıldı. Rapor, görüşmelerin Crisafulli’nin veri merkezi onaylarını yerel yönetimlerin elinden alarak hızlandıracak özel bir çerçeveyi açıklamasından kısa süre önce gerçekleştiğine dikkat çekiyor."
+                },
+                {
+                  "text": "Crisafulli, eylülde Avustralya’nın en büyük veri merkezi olabilecek tesis için Anthropic ile 31,9 milyar Avustralya dolarlık anlaşma yapmak üzere ABD’ye gitmişti. Guardian, ofisinden yorum istendiğini yazıyor. En çok görüşme yapan şirketler Amazon Web Services, Macquarie Technology Group ve NextDC oldu. Firmus Technologies ise yerel halkın tepkisiyle karşılaşan genişleme planları sürerken yalnızca bu yıl Tazmanya’nın bakanları ve başbakanıyla 10 kez görüştü."
+                }
+              ]
+            },
+            {
+              "subhead": "“Buzdağının görünen kısmı”",
+              "blocks": [
+                {
+                  "quote": "Bu rakamlar buzdağının yalnızca görünen kısmı.",
+                  "speaker": "Clancy Moore, Transparency International Australia genel müdürü",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Moore, NextDC, OpenAI ve Anthropic gibi şirketlerin ve lobicilerinin başbakan ve federal bakanlarla kaç kez görüştüğünün bilinmediğini, lobi yasalarının şirket içi lobicileri kapsamadığını söyledi. Rapor ayrıca federal bakanlıklardan dört üst düzey bürokratın OpenAI, AirTrunk ve CDC’de yönetici olmak için görevden ayrıldığını, bunların üçünün bu yıl olduğunu belirtiyor."
+                },
+                {
+                  "text": "Avustralya Profesyonel Hükümet İlişkileri Derneği Başkanı Sally Mackenzie ise eylülde, sektörle bakanlar arasındaki yoğun temasın sistemin tasarlandığı gibi işlediğini gösterdiğini söylemişti. NextDC Yönetim Kurulu Başkanı Stephen Flynn de cuma günü hissedarlara “sektör olarak da şirket olarak da lobicilikte iyi olduğumuzdan emin değilim” dedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Başbakan ve bakanlarla görüşme",
+              "value": "119",
+              "source": "Transparency International Australia"
+            },
+            {
+              "label": "İzlenen şirket",
+              "value": "10",
+              "source": "Transparency International Australia"
+            },
+            {
+              "label": "Crisafulli’nin görüşmeleri",
+              "value": "13",
+              "source": "Transparency International Australia"
+            },
+            {
+              "label": "Anthropic veri merkezi anlaşması",
+              "value": "31,9 milyar A$",
+              "source": "Guardian Australia"
+            }
+          ],
+          "keyNumber": {
+            "label": "Sektörün siyasi bağışları",
+            "unit": "A$",
+            "before": 685000,
+            "after": 1800000,
+            "source": "Transparency International Australia"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T19:00:34.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "90468db0d5a9c8d3",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "OpenAI proposes an AI speed gauge",
+          "title": "OpenAI’s chief scientist proposes perplexity as a shared limit on AI progress",
+          "summary": {
+            "what": "OpenAI’s chief scientist Jakub Pachocki says perplexity, a measure of how well a model predicts text, could track AI progress across companies.",
+            "why": "He proposes labs agree not to pass a set level until they can better understand and monitor AI behaviour; Sam Altman praised the post.",
+            "next": "The idea joins a debate on slowing AI after Anthropic’s Dario Amodei called for limits on “the rate of unchecked AI progress”."
+          },
+          "body": [
+            {
+              "subhead": "A gauge for AI’s speed",
+              "blocks": [
+                {
+                  "text": "OpenAI’s chief scientist, Jakub Pachocki, has suggested in a new blog post that AI companies could measure their progress, and agree where to stop, using a single number called perplexity, TechCrunch reports. OpenAI’s chief executive, Sam Altman, described the post as “the most important thing OpenAI has published in a while”."
+                },
+                {
+                  "text": "Perplexity, not to be confused with the company of the same name, “measures how well a model predicts the next token on average; lower perplexity means better predictions”, Pachocki writes. To set a speed limit on AI development, TechCrunch notes, companies first have to agree on how speed is measured, and this is his answer."
+                }
+              ]
+            },
+            {
+              "subhead": "Why benchmarks fall short",
+              "blocks": [
+                {
+                  "text": "Benchmarks that test what models can do on particular tasks, which he calls “downstream capabilities”, quickly go out of date as the technology improves, Pachocki argues, whereas perplexity has stayed “informative”. His post includes a chart of how the perplexity of OpenAI’s models has fallen since GPT‑3.5."
+                },
+                {
+                  "text": "GPT‑4, at about 0.91, was good at using chain-of-thought reasoning productively, he writes, which led OpenAI to draw out that ability deliberately and build today’s reasoning models."
+                },
+                {
+                  "quote": "Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics.",
+                  "speaker": "Jakub Pachocki, chief scientist, OpenAI",
+                  "sourceId": "techcrunch"
+                }
+              ]
+            },
+            {
+              "subhead": "From a measure to a limit",
+              "blocks": [
+                {
+                  "text": "In his view, perplexity could become “a shared benchmark for general intelligence” that AI companies use to set “common limits”. They would commit not to go past a certain threshold “until our ability to understand and monitor AI behavior achieves a certain concrete milestone”."
+                },
+                {
+                  "text": "The proposal lands in a growing debate about slowing down. A former OpenAI and Anthropic researcher said the companies were “gambling with our lives”, and Anthropic’s own IPO filing said the technology could pose “catastrophic or existential risks to society”, TechCrunch notes. Anthropic’s chief executive, Dario Amodei, then published a plan to “pace the frontier”, which Altman and Elon Musk appeared to endorse. It called for “common safety standards as well as limits on the rate of unchecked AI progress”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "GPT‑4’s loss",
+              "value": "≈0.91",
+              "source": "Jakub Pachocki, via TechCrunch"
+            },
+            {
+              "label": "Today’s models",
+              "value": "Below 0.8",
+              "source": "Jakub Pachocki, via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Yapay zekâya ortak hız ölçütü",
+          "title": "OpenAI’ın baş bilimcisi yapay zekâya ortak sınır için “perplexity” ölçütünü önerdi",
+          "summary": {
+            "what": "OpenAI’ın baş bilimcisi Jakub Pachocki, modelin metni ne kadar iyi tahmin ettiğini ölçen perplexity’nin şirketler arası ortak ölçüt olabileceğini yazdı.",
+            "why": "Şirketlerin, yapay zekâ davranışını anlama ve izleme becerisi belli bir aşamaya gelene kadar belirli bir eşiği aşmamayı taahhüt etmesini öneriyor.",
+            "next": "Öneri, Anthropic CEO’su Dario Amodei’nin yapay zekâdaki ilerleme hızına sınır çağrısının ardından yavaşlama tartışmasına eklendi."
+          },
+          "body": [
+            {
+              "subhead": "Yapay zekânın hız göstergesi",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın haberine göre OpenAI’ın baş bilimcisi Jakub Pachocki, yeni bir blog yazısında yapay zekâ şirketlerinin ilerlemelerini tek bir sayıyla ölçebileceğini ve nerede duracaklarında bu sayı üzerinden anlaşabileceğini öne sürdü: perplexity. OpenAI CEO’su Sam Altman yazıyı “OpenAI’ın uzun zamandır yayımladığı en önemli şey” diye nitelendirdi."
+                },
+                {
+                  "text": "Aynı adlı şirketle karıştırılmaması gereken perplexity (kabaca “şaşkınlık” ölçüsü), Pachocki’nin tanımıyla bir modelin bir sonraki token’ı ortalamada ne kadar iyi tahmin ettiğini ölçüyor; değer düştükçe tahminler iyileşiyor. TechCrunch’ın yorumuyla, yapay zekâ gelişimine hız sınırı koymak için önce hızın nasıl ölçüleceğinde anlaşmak gerekiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Kıyaslama testleri neden yetmiyor",
+              "blocks": [
+                {
+                  "text": "Pachocki’ye göre modellerin belirli görevlerdeki becerilerini, yani “downstream” yeteneklerini ölçen kıyaslama testleri teknoloji ilerledikçe hızla eskiyor; perplexity ise “bilgilendirici” olmayı sürdürüyor. Yazıda OpenAI modellerinin perplexity değerinin GPT‑3.5’ten bu yana nasıl düştüğünü gösteren bir grafik de yer alıyor."
+                },
+                {
+                  "text": "Pachocki, yaklaşık 0,91 değerindeki GPT‑4’ün düşünce zinciri (chain-of-thought) akıl yürütmesini verimli kullanabildiğini, bunun da OpenAI’ı bu yeteneği bilinçli olarak geliştirmeye ve bugünkü akıl yürüten modelleri kurmaya yönelttiğini yazıyor."
+                },
+                {
+                  "quote": "Şimdi, kayıp değerinin 0,8’in altına indiği noktada, siber güvenlik ve matematik gibi alanlarda dönüştürücü yeteneklerin ortaya çıktığını gördük.",
+                  "speaker": "Jakub Pachocki, OpenAI baş bilimcisi",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Ölçüden sınıra",
+              "blocks": [
+                {
+                  "text": "Pachocki’ye göre perplexity, şirketlerin “ortak sınırlar” koymak için kullanacağı “genel zekâ için ortak bir ölçüt” olabilir. Şirketler, yapay zekâ davranışını anlama ve izleme yetenekleri somut bir aşamaya ulaşana kadar belirli bir eşiği aşmamayı taahhüt edecek."
+                },
+                {
+                  "text": "Öneri, büyüyen bir yavaşlama tartışmasının ortasına düştü. TechCrunch’ın hatırlattığına göre OpenAI ve Anthropic’te çalışmış bir araştırmacı şirketlerin “hayatlarımızla kumar oynadığını” söylemiş, Anthropic’in halka arz belgesinde de teknolojinin “topluma felaket ya da varoluşsal riskler” doğurabileceği yazılmıştı. Ardından Anthropic CEO’su Dario Amodei, Altman ve Elon Musk’ın da desteklediği görülen “pace the frontier” (öncü modellerin hızını ayarlama) planını yayımladı; plan, “ortak güvenlik standartları ve denetimsiz yapay zekâ ilerlemesinin hızına sınırlar” çağrısı yapıyordu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "GPT‑4’ün kayıp değeri",
+              "value": "≈0,91",
+              "source": "Jakub Pachocki, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Bugünkü modeller",
+              "value": "0,8’in altı",
+              "source": "Jakub Pachocki, TechCrunch aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T21:14:07.000Z",
+          "sourceId": "techcrunch"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "a7edb752b04510e0",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Russian warship hit in Benghazi",
+          "title": "Russian warship hit by suspected Ukrainian sea drones in Libya",
+          "summary": {
+            "what": "A Russian navy corvette, the Merkury, was hit at Benghazi’s naval base on Sunday in a suspected Ukrainian sea-drone attack, Libyan officials say.",
+            "why": "It stretches the war in Ukraine more than 1,000 miles from its front, into a port Russia uses to supply its forces in Africa.",
+            "next": "Libya’s eastern government and Russia are investigating jointly; the UN mission has called for an independent investigation."
+          },
+          "body": [
+            {
+              "subhead": "A corvette hit in port",
+              "blocks": [
+                {
+                  "text": "A Russian navy corvette docked at the naval base in Benghazi, in eastern Libya, was hit on Sunday in a suspected Ukrainian sea-drone attack, Libyan officials say. Two military officials from the self-styled Libyan National Army told the Associated Press, as reported by France 24, that the strike severely damaged the Merkury and set fire to the base. Their initial investigation found that several Ukrainian sea drones were launched from a base run by Ukrainian forces in western Libya; at least four were intercepted and two hit the ship."
+                },
+                {
+                  "text": "Satellite imagery showed that the Merkury had sunk, the Guardian reports, and the specialist site Naval News said it had almost certainly been destroyed. The attack happened more than 1,000 miles from southern Ukraine. Euronews reports no casualties in the port."
+                }
+              ]
+            },
+            {
+              "subhead": "A second ship",
+              "blocks": [
+                {
+                  "text": "Hours later a cargo ship was hit by a sea drone off Benghazi. The Guardian names it as the Ascalon, a Russia-linked vessel said to be carrying military supplies; France 24 cites reports that it sailed under a Maltese flag. Its crew were rescued, some with minor injuries. Libya Alhadath television said naval and air units intercepted more than 12 explosive-laden sea drones off the city."
+                },
+                {
+                  "text": "No one has claimed either attack, and there was no immediate comment from Russia or Ukraine. The day before, a Russian cargo ship, the Sparta II, was struck by drones in the Baltic; Finland’s military said Ukraine was probably responsible."
+                }
+              ]
+            },
+            {
+              "subhead": "“Not an arena”",
+              "blocks": [
+                {
+                  "text": "The eastern government said the corvette had stopped to refuel and take on supplies under a cooperation agreement with Russia, and announced a joint investigation with Moscow. It called the attack a violation of Libya’s sovereignty."
+                },
+                {
+                  "quote": "The Libyan government will not allow Libyan ports, territory or territorial waters to be turned into an arena for settling scores or exporting international conflicts.",
+                  "speaker": "Eastern Libyan government, statement",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "The UN-backed government in Tripoli warned against “dragging Libyan ports and civilian facilities into external conflicts”, and the UN mission, UNSMIL, called for “an immediate, independent and transparent investigation”. Russia has used the port to supply its mercenary forces in Africa since it lost its bases in Syria, the Guardian notes."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Drones that hit the corvette",
+              "value": "2",
+              "source": "Libyan officials, via AP"
+            },
+            {
+              "label": "Drones intercepted at first",
+              "value": "At least 4",
+              "source": "Libyan officials, via AP"
+            },
+            {
+              "label": "Sea drones downed later",
+              "value": "More than 12",
+              "source": "Libya Alhadath TV"
+            },
+            {
+              "label": "Distance from southern Ukraine",
+              "value": "1,000+ miles",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Benghazi",
+            "lat": 32.12,
+            "lon": 20.07,
+            "region": "Libya"
+          }
+        },
+        "tr": {
+          "shortTitle": "Bingazi’de Rus savaş gemisi vuruldu",
+          "title": "Libya’da Rus savaş gemisi Ukrayna’ya ait olduğu düşünülen deniz dronlarıyla vuruldu",
+          "summary": {
+            "what": "Libyalı yetkililere göre Bingazi deniz üssünde demirli Rus korveti Merkury, pazar günü Ukrayna’ya ait olduğu düşünülen deniz dronlarıyla vuruldu.",
+            "why": "Saldırı, Ukrayna’daki savaşı cepheden 1.000 milden fazla uzağa, Rusya’nın Afrika’daki güçlerini beslediği bir limana taşıyor.",
+            "next": "Doğu Libya hükümeti ve Rusya ortak soruşturma başlattı; BM misyonu bağımsız soruşturma çağrısı yaptı."
+          },
+          "body": [
+            {
+              "subhead": "Limanda vurulan korvet",
+              "blocks": [
+                {
+                  "text": "Libya’nın doğusundaki Bingazi deniz üssünde demirli bir Rus donanması korveti, pazar günü Ukrayna’ya ait olduğu düşünülen deniz dronlarıyla vuruldu. France 24’ün aktardığına göre kendini Libya Ulusal Ordusu olarak tanımlayan yapıya bağlı iki askeri yetkili, Associated Press’e saldırının Merkury adlı korvete ağır hasar verdiğini ve üste yangın çıkardığını söyledi. İlk incelemeye göre deniz dronları batı Libya’da Ukraynalı güçlerin kullandığı bir üsten fırlatıldı; en az dördü imha edildi, ikisi gemiyi vurdu."
+                },
+                {
+                  "text": "Guardian’ın haberine göre uydu görüntüleri Merkury’nin battığını gösterdi; uzman site Naval News de geminin neredeyse kesin olarak yok edildiğini yazdı. Saldırı güney Ukrayna’dan 1.000 milden fazla uzakta gerçekleşti. Euronews’e göre limanda can kaybı ya da yaralanma bildirilmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "İkinci gemi",
+              "blocks": [
+                {
+                  "text": "Saatler sonra Bingazi açıklarında bir yük gemisi de deniz dronuyla vuruldu. Guardian geminin, askeri malzeme taşıdığı söylenen ve Rusya bağlantılı Ascalon olduğunu yazıyor; France 24 ise geminin Malta bayrağı taşıdığına dair haberlere yer veriyor. Mürettebat kurtarıldı, bazıları hafif yaralandı. Libya Alhadath televizyonu, deniz ve hava birliklerinin kent açıklarında patlayıcı yüklü 12’den fazla deniz dronunu düşürdüğünü bildirdi."
+                },
+                {
+                  "text": "İki saldırıyı da üstlenen olmadı; Rusya ve Ukrayna’dan da ilk etapta açıklama gelmedi. Bir gün önce Baltık Denizi’nde Sparta II adlı Rus yük gemisi dronlarla vurulmuş, Finlandiya ordusu saldırının muhtemelen Ukrayna tarafından yapıldığını söylemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "“Hesaplaşma alanı değil”",
+              "blocks": [
+                {
+                  "text": "Doğu Libya hükümeti, korvetin Rusya ile yapılan iş birliği anlaşması kapsamında yakıt ve erzak almak için limana uğradığını açıkladı ve Moskova ile ortak soruşturma başlatıldığını duyurdu. Hükümet saldırıyı Libya’nın egemenliğinin ihlali olarak nitelendirdi."
+                },
+                {
+                  "quote": "Libya hükümeti, Libya limanlarının, topraklarının ya da karasularının hesaplaşma veya uluslararası çatışmaları ihraç etme alanına dönüştürülmesine izin vermeyecek.",
+                  "speaker": "Doğu Libya hükümeti, açıklama",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Trablus’taki BM destekli hükümet “Libya limanlarının ve sivil tesislerinin dış çatışmalara çekilmesine” karşı uyardı; BM Libya Destek Misyonu (UNSMIL) da “derhal, bağımsız ve şeffaf bir soruşturma” istedi. Guardian’a göre Rusya, Suriye’deki üslerini kaybettiğinden beri bu limanı Afrika’daki paralı askerlerine ikmal için kullanıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Korveti vuran dron",
+              "value": "2",
+              "source": "Libyalı yetkililer, AP aracılığıyla"
+            },
+            {
+              "label": "İlk aşamada düşürülen dron",
+              "value": "En az 4",
+              "source": "Libyalı yetkililer, AP aracılığıyla"
+            },
+            {
+              "label": "Sonra düşürülen deniz dronu",
+              "value": "12’den fazla",
+              "source": "Libya Alhadath TV"
+            },
+            {
+              "label": "Güney Ukrayna’ya uzaklık",
+              "value": "1.000+ mil",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Benghazi",
+            "lat": 32.12,
+            "lon": 20.07,
+            "region": "Libya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T17:11:34.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T19:41:23.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T19:41:23.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T21:33:44.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T22:46:18.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T02:59:35.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/659e3cc8-e6a9-11f1-ae55-1bac47ab2f5d/w:1024/p:16x9/AP26326649718247.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "58e941bd0d61f9c3",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Democrats reach 258 House seats",
+          "title": "Democrats reach 258 House seats, their biggest majority since 1992",
+          "summary": {
+            "what": "Democrats have won at least 258 of the 435 House seats after Chuck Hubbard unseated Republican Virginia Foxx in a North Carolina recount.",
+            "why": "With 56 Senate seats as well, they will control both chambers of Congress from January, two years before the end of Trump’s term.",
+            "next": "Four races are still open; Democrats plan a 100-day agenda on living costs and health care, and investigations of the administration."
+          },
+          "body": [
+            {
+              "subhead": "The 258th seat",
+              "blocks": [
+                {
+                  "text": "Democrats have won at least 258 seats in the US House of Representatives, their best result since 1992, after Chuck Hubbard unseated the Republican Virginia Foxx in North Carolina’s 5th district on Sunday. The race was called after a recount that Foxx requested, which state law allows when the margin is under 1%, the BBC reports. Hubbard won by 330 votes with 99% counted."
+                },
+                {
+                  "text": "Foxx was first elected in 2004 and in recent years chaired the powerful House Rules Committee, Al Jazeera notes. Hubbard had lost to her in 2024 by nine percentage points. She said she was grateful to voters “even if we came up just a few votes short”, and Hubbard said she had graciously conceded."
+                },
+                {
+                  "quote": "I think the American people are just sick of what’s going on and they wanted a change. They voted for change.",
+                  "speaker": "Chuck Hubbard, Democratic congressman-elect",
+                  "sourceId": "bbc-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Bigger than 2018",
+              "blocks": [
+                {
+                  "text": "Democrats have gained 44 seats so far, four more than the 40 they won in Donald Trump’s first midterm in 2018, France 24 reports, citing the Associated Press. Republicans hold at least 173 seats, according to the BBC. Four races are still open: one each in Tennessee and Minnesota, where Democrats lead narrowly, and two in Louisiana that go to a runoff in December. The 258 seats equal the party’s 1992 total and top the 257 of 2008."
+                },
+                {
+                  "text": "Democrats will also hold 56 of the Senate’s 100 seats, their largest majority in more than a decade. Voters were angry about high prices, the Iran war and corruption, the outlets report, and a Reuters/Ipsos poll put Trump’s approval at 32% in November, Al Jazeera notes."
+                }
+              ]
+            },
+            {
+              "subhead": "What comes next",
+              "blocks": [
+                {
+                  "text": "With both chambers from January, Democrats are preparing a 100-day agenda that would reverse Republican cuts to Medicaid and restore Affordable Care Act tax credits. They also plan investigations into the administration, including how Trump and his family have grown richer since he returned to office. Hakeem Jeffries, in line to become the first Black speaker on 3 January 2027, has not ruled out a third impeachment."
+                },
+                {
+                  "text": "The White House has warned that some of the planned investigations may amount to “blatant criminality”, and Trump can still veto any bill Congress passes."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "House seats won",
+              "value": "258",
+              "source": "AP, via France 24"
+            },
+            {
+              "label": "Seats gained",
+              "value": "44",
+              "source": "AP, via France 24"
+            },
+            {
+              "label": "Hubbard’s margin",
+              "value": "330 votes",
+              "source": "BBC"
+            },
+            {
+              "label": "Democratic Senate seats",
+              "value": "56",
+              "source": "Euronews, Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Demokratlara 258 sandalye",
+          "title": "Demokratlar Temsilciler Meclisi’nde 258 sandalyeyle 1992’den beri en büyük çoğunluğa ulaştı",
+          "summary": {
+            "what": "Demokrat Chuck Hubbard’ın Kuzey Carolina’da yeniden sayımla Cumhuriyetçi Virginia Foxx’u yenmesiyle Demokratlar 435 sandalyeden en az 258’ini aldı.",
+            "why": "Senato’da da 56 sandalyesi olan parti, Trump’ın görev süresinin son iki yılında ocaktan itibaren Kongre’nin iki kanadını da kontrol edecek.",
+            "next": "Dört yarış hâlâ sonuçlanmadı; Demokratlar hayat pahalılığı ve sağlık odaklı 100 günlük bir program ile yönetime yönelik soruşturmalar hazırlıyor."
+          },
+          "body": [
+            {
+              "subhead": "258. sandalye",
+              "blocks": [
+                {
+                  "text": "ABD Temsilciler Meclisi’nde Demokratlar en az 258 sandalye kazanarak 1992’den bu yana en iyi sonuçlarını elde etti. Son sandalye pazar günü, Chuck Hubbard’ın Kuzey Carolina’nın 5. seçim bölgesinde Cumhuriyetçi Virginia Foxx’u koltuğundan etmesiyle geldi. BBC’ye göre yarış, eyalet yasasının fark yüzde 1’in altındayken izin verdiği ve Foxx’un talep ettiği yeniden sayımın ardından sonuçlandı. Oyların yüzde 99’u sayıldığında Hubbard 330 oy öndeydi."
+                },
+                {
+                  "text": "Al Jazeera’nin hatırlattığına göre Foxx ilk kez 2004’te seçilmişti ve son yıllarda güçlü Kurallar Komitesi’ne başkanlık ediyordu. Hubbard, 2024’te Foxx’a dokuz puan farkla kaybetmişti. Foxx, “birkaç oy eksik kalmış olsak da” kendisini destekleyen seçmenlere minnettar olduğunu söyledi; Hubbard da Foxx’un yenilgiyi nezaketle kabul ettiğini belirtti."
+                },
+                {
+                  "quote": "Bence Amerikan halkı olup bitenlerden bıktı ve bir değişim istedi. Değişime oy verdiler.",
+                  "speaker": "Chuck Hubbard, Demokrat Partili seçilmiş temsilci",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "2018’i geride bıraktılar",
+              "blocks": [
+                {
+                  "text": "France 24’ün Associated Press’e dayandırdığı habere göre Demokratlar şimdiye kadar 44 sandalye kazandı; bu, Donald Trump’ın ilk dönemindeki 2018 ara seçiminde elde ettikleri 40 sandalyeden dört fazla. BBC’ye göre Cumhuriyetçilerin en az 173 sandalyesi var. Dört yarış hâlâ açık: Demokratların az farkla önde olduğu Tennessee ve Minnesota’da birer yarış ile aralıkta ikinci tura kalan Louisiana’daki iki yarış. 258 sandalye, partinin 1992’deki sayısına eşit ve 2008’deki 257’nin üzerinde."
+                },
+                {
+                  "text": "Demokratlar Senato’nun 100 sandalyesinden 56’sını da elinde tutacak; bu, on yılı aşkın sürenin en büyük çoğunluğu. Haberlere göre seçmenler yüksek fiyatlar, İran savaşı ve yolsuzluk nedeniyle öfkeliydi; Al Jazeera, Reuters/Ipsos anketinde Trump’ın görev onayının kasımda yüzde 32 olduğunu hatırlatıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var",
+              "blocks": [
+                {
+                  "text": "Ocaktan itibaren iki kanadı da kontrol edecek Demokratlar, Cumhuriyetçilerin Medicaid kesintilerini geri alacak ve Uygun Fiyatlı Bakım Yasası (Obamacare) vergi kredilerini yeniden getirecek 100 günlük bir program hazırlıyor. Trump ve ailesinin göreve dönüşünden bu yana nasıl zenginleştiği dahil yönetime yönelik soruşturmalar da planlanıyor. 3 Ocak 2027’de ilk siyah Meclis Başkanı olması beklenen Hakeem Jeffries, üçüncü bir azil girişimini dışlamadı."
+                },
+                {
+                  "text": "Beyaz Saray, planlanan bazı soruşturmaların “açık bir suç” sayılabileceği uyarısında bulundu; Trump, Kongre’den geçen yasaları hâlâ veto edebiliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kazanılan sandalye",
+              "value": "258",
+              "source": "AP, France 24 aracılığıyla"
+            },
+            {
+              "label": "Kazanılan ek sandalye",
+              "value": "44",
+              "source": "AP, France 24 aracılığıyla"
+            },
+            {
+              "label": "Hubbard’ın farkı",
+              "value": "330 oy",
+              "source": "BBC"
+            },
+            {
+              "label": "Demokratların Senato sandalyesi",
+              "value": "56",
+              "source": "Euronews, Al Jazeera"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T20:16:42.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T20:31:01.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T20:31:01.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T21:29:39.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T22:19:47.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T01:23:43.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/e68dbef8-e6ae-11f1-838f-13439ca2fe89/w:1024/p:16x9/AP26312701855096.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261122-democrat-hubbard-wins-north-carolina-recount-clinching-historic-house-majority"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261122-democrat-hubbard-wins-north-carolina-recount-clinching-historic-house-majority",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375405/us-democrats-clinch-historic-house-majority-least-258-seats-largest-1992",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/22/midterms-us-democrats-secure-biggest-house-majority-in-decades",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    },
+    {
+      "id": "043841536d7cb43a",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Settler arson in four villages",
+          "title": "Settlers torch cars in four West Bank villages; Eisenkot calls it terrorism",
+          "summary": {
+            "what": "Israeli settlers set fire to vehicles and homes in four Palestinian villages in the occupied West Bank overnight into Sunday, residents say.",
+            "why": "Gadi Eisenkot, who is trying to form Israel’s next government, called it “Jewish terrorism” and blamed ministers Ben-Gvir and Smotrich.",
+            "next": "Israeli police have opened an investigation; Eisenkot has 28 days, plus a possible 14, to form a government."
+          },
+          "body": [
+            {
+              "subhead": "Four villages",
+              "blocks": [
+                {
+                  "text": "Israeli settlers attacked Palestinian villages in the occupied West Bank overnight into Sunday, setting fire to vehicles and several homes and spraying racist graffiti, residents and activists say. The army said soldiers and police were sent to Deir as-Sudan, Deir Abu Mashaal, Kafr Malik and Al-Tuwani after footage showed vehicles being set alight, and that it “strongly condemns” the acts, SCMP and France 24 report. Israeli police have opened an investigation."
+                },
+                {
+                  "text": "In Kafr Malik, east of Ramallah, settlers reached the outskirts at around 2am, burned about eight vehicles and left racist messages on houses, local activist Jihad al-Qaq told AFP, according to Euronews. The Guardian counts about a dozen vehicles torched in all, and a Hebrew slogan in Kafr Malik that read “This is the first revenge.” No injuries were reported."
+                }
+              ]
+            },
+            {
+              "subhead": "“Jewish terrorism”",
+              "blocks": [
+                {
+                  "quote": "Last night’s arson attacks in Judea and Samaria were acts of Jewish terrorism, in every sense of the term.",
+                  "speaker": "Gadi Eisenkot, Israeli opposition leader",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Eisenkot, asked by President Isaac Herzog to form a government after the inconclusive 27 October election, blamed the far-right ministers Itamar Ben-Gvir and Bezalel Smotrich, saying their actions had brought the area “to the brink of unchecked anarchy”. He urged the use of administrative detention and Shin Bet operations against the rioters. Yair Lapid called the attacks the product of the government’s “criminal negligence”, and Yair Golan warned of a third intifada, the Guardian reports."
+                },
+                {
+                  "text": "Foreign Minister Gideon Saar condemned a “handful of extremists”. Ben-Gvir replied that Eisenkot’s condemnation amounted to selling out to Arab parties, France 24 reports. Netanyahu, now caretaker prime minister, had not commented."
+                }
+              ]
+            },
+            {
+              "subhead": "A government still to be formed",
+              "blocks": [
+                {
+                  "text": "Eisenkot has 28 days to form a government, with a possible 14-day extension. Unless he joins forces with Netanyahu, he is likely to need the support of Arab parties for a majority in the 120-seat parliament; if no one succeeds, Israel holds another election next year."
+                },
+                {
+                  "text": "At least 1,119 Palestinians have been killed by Israeli forces or settlers in the West Bank since 7 October 2023, according to an AFP tally cited by Euronews, and at least 51 Israelis in Palestinian attacks or clashes. Britain and Australia announced sanctions on Israeli companies linked to settlement building last week."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Villages attacked",
+              "value": "4",
+              "source": "Israeli army"
+            },
+            {
+              "label": "Vehicles torched",
+              "value": "≈12",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Days to form a government",
+              "value": "28 (+14)",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Kafr Malik",
+            "lat": 31.99,
+            "lon": 35.3,
+            "region": "West Bank"
+          }
+        },
+        "tr": {
+          "shortTitle": "Dört köyde yerleşimci kundaklaması",
+          "title": "Yerleşimciler dört Batı Şeria köyünde araç yaktı; Eisenkot “Yahudi terörü” dedi",
+          "summary": {
+            "what": "İşgal altındaki Batı Şeria’da İsrailli yerleşimciler pazara bağlanan gece dört Filistin köyünde araçları ve evleri ateşe verdi.",
+            "why": "Yeni hükümeti kurmaya çalışan Gadi Eisenkot saldırıları “Yahudi terörü” olarak nitelendirdi ve Ben-Gvir ile Smotrich’i sorumlu tuttu.",
+            "next": "İsrail polisi soruşturma başlattı; Eisenkot’un hükümeti kurmak için 28 günü, olası 14 günlük uzatmayla birlikte var."
+          },
+          "body": [
+            {
+              "subhead": "Dört köy",
+              "blocks": [
+                {
+                  "text": "Köy sakinleri ve aktivistlere göre İsrailli yerleşimciler, işgal altındaki Batı Şeria’da pazara bağlanan gece Filistin köylerine saldırarak araçları ve bazı evleri ateşe verdi, duvarlara ırkçı yazılar yazdı. SCMP ve France 24’ün aktardığına göre İsrail ordusu, araçların ateşe verildiğini gösteren görüntülerin ardından Deir es-Sudan, Deir Ebu Meşal, Kafr Malik ve Tuvani’ye asker ve polis gönderdiğini açıkladı ve eylemleri “şiddetle kınadı”. İsrail polisi soruşturma başlattı."
+                },
+                {
+                  "text": "Euronews’e göre yerel aktivist Cihad el-Kak, AFP’ye yerleşimcilerin saat 02.00 sıralarında Ramallah’ın doğusundaki Kafr Malik’in girişine geldiğini, yaklaşık sekiz aracı yaktığını ve evlere ırkçı mesajlar bıraktığını söyledi. Guardian toplamda yaklaşık bir düzine aracın yakıldığını, Kafr Malik’te İbranice “Bu ilk intikam” yazısı bulunduğunu yazıyor. Yaralanma bildirilmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "“Yahudi terörü”",
+              "blocks": [
+                {
+                  "quote": "Dün geceki Yahudiye ve Samiriye’deki kundaklama saldırıları, kelimenin tam anlamıyla Yahudi terörü eylemleriydi.",
+                  "speaker": "Gadi Eisenkot, İsrail muhalefet lideri",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "27 Ekim’deki sonuçsuz seçimin ardından Cumhurbaşkanı Isaac Herzog’un hükümeti kurmakla görevlendirdiği Eisenkot, aşırı sağcı bakanlar Itamar Ben-Gvir ve Bezalel Smotrich’i suçlayarak onların eylemlerinin bölgeyi “kontrolsüz bir anarşinin eşiğine” getirdiğini söyledi. Saldırganlara karşı idari gözaltı ve Şin Bet operasyonları kullanılmasını istedi. Guardian’a göre Yair Lapid saldırıları hükümetin “suç teşkil eden ihmalinin” ürünü olarak nitelendirdi, Yair Golan ise üçüncü bir intifada uyarısı yaptı."
+                },
+                {
+                  "text": "Dışişleri Bakanı Gideon Saar “bir avuç aşırıcıyı” kınadı. France 24’e göre Ben-Gvir ise Eisenkot’un kınamasının Arap partilere teslimiyet anlamına geldiğini söyledi. Geçici başbakan olarak görev yapan Netanyahu yorum yapmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Hükümet hâlâ kurulamadı",
+              "blocks": [
+                {
+                  "text": "Eisenkot’un hükümeti kurmak için 28 günü var; bu süre 14 gün uzatılabiliyor. Netanyahu ile güç birliği yapmazsa 120 sandalyeli mecliste çoğunluk için muhtemelen Arap partilerin desteğine ihtiyaç duyacak; kimse başaramazsa İsrail gelecek yıl yeniden sandığa gidecek."
+                },
+                {
+                  "text": "Euronews’in aktardığı AFP derlemesine göre 7 Ekim 2023’ten bu yana Batı Şeria’da İsrail güçleri ya da yerleşimciler tarafından en az 1.119 Filistinli öldürüldü; aynı dönemde Filistinlilerin saldırılarında ya da çatışmalarda en az 51 İsrailli hayatını kaybetti. İngiltere ve Avustralya geçen hafta yerleşim inşaatıyla bağlantılı İsrail şirketlerine yaptırım açıkladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Saldırıya uğrayan köy",
+              "value": "4",
+              "source": "İsrail ordusu"
+            },
+            {
+              "label": "Yakılan araç",
+              "value": "≈12",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Hükümeti kurma süresi",
+              "value": "28 gün (+14)",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Kafr Malik",
+            "lat": 31.99,
+            "lon": 35.3,
+            "region": "Batı Şeria"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T15:22:38.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T15:52:31.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T15:52:31.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T16:25:09.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T16:25:23.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/800f91a6-e690-11f1-94e1-e56ab3dc0809/w:1024/p:16x9/EN-20261122-160919-161053-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375395/israel-investigates-west-bank-fires-blamed-israeli-settlers",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T07:30:00+03:00",
+      "updatedAt": "2026-11-23T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "db0f85d37bb19659",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How much has been paid back under the fund probe’s voluntary return scheme, according to Gürlek?",
+          "options": ["₺13 billion", "₺4.5 billion", "₺44.58 billion"]
+        },
+        "tr": {
+          "question": "Gürlek’e göre fon soruşturmasında gönüllü iade yoluyla ne kadar tahsil edildi?",
+          "options": ["13 milyar lira", "4,5 milyar lira", "44,58 milyar lira"]
+        }
+      }
+    },
+    {
+      "storyId": "0162d4886027e702",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many times did Queensland’s premier meet datacentre executives in three years?",
+          "options": ["13", "3", "119"]
+        },
+        "tr": {
+          "question": "Queensland Başbakanı üç yılda veri merkezi yöneticileriyle kaç kez görüştü?",
+          "options": ["13", "3", "119"]
+        }
+      }
+    },
+    {
+      "storyId": "58e941bd0d61f9c3",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many House seats have Democrats won so far in the US midterms?",
+          "options": ["218", "At least 258", "173"]
+        },
+        "tr": {
+          "question": "Demokratlar ABD ara seçimlerinde Temsilciler Meclisi’nde şimdiye kadar kaç sandalye kazandı?",
+          "options": ["218", "En az 258", "173"]
+        }
+      }
+    }
+  ]
+}
