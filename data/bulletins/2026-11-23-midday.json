@@ -1,0 +1,1391 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-23T12:30:00+03:00",
+  "writtenAt": "2026-11-23T11:57:19+03:00",
+  "stories": [
+    {
+      "id": "4424eaa0e33d14eb",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Istanbul: storm today, 8°C tomorrow",
+          "title": "Istanbul braces for a storm today and a 12-degree drop tomorrow",
+          "summary": {
+            "what": "A southerly lodos storm with gusts of up to 85 km/h hits Istanbul today, followed by heavy, thundery showers from the afternoon.",
+            "why": "Cold air from the Balkans then drops the high from about 20°C on Monday to 8 or 9°C on Tuesday, with sleet possible on high ground.",
+            "next": "The cold lasts about two days in the west; temperatures start to climb again from Thursday, and AKOM expects another storm on Sunday."
+          },
+          "body": [
+            {
+              "subhead": "Wind first",
+              "blocks": [
+                {
+                  "text": "Istanbul faces a day of fast-changing weather on Monday. The governor’s office, citing the Turkish State Meteorological Service (MGM), said a south and south-westerly wind would blow at 50 to 75 km/h across the Marmara region from the morning, easing only during the night. The city’s disaster coordination centre AKOM, part of the metropolitan municipality, put the strength of the lodos at 50 to 85 km/h, with short spells of strong storm, according to Cumhuriyet and Habertürk."
+                },
+                {
+                  "text": "NTV’s weather correspondent Dilek Çalışkan said the wind would be strongest between 11:00 and 16:00, at up to 75 km/h, and harder on the Asian side, in Tuzla, Maltepe and the districts around them. She warned of roofs torn off, trees brought down and signs blown away."
+                }
+              ]
+            },
+            {
+              "subhead": "Then heavy showers",
+              "blocks": [
+                {
+                  "text": "The governor’s office said heavy local showers were expected in the east of the city after midday, with 21 to 50 kilograms of rain per square metre. Habertürk, citing AKOM, said showers would start around 15:00, mostly on the European side, while AKOM’s report quoted by Cumhuriyet said thundery downpours after 18:00 could be short but intense, lasting 30 to 60 minutes."
+                },
+                {
+                  "text": "The MGM issued a yellow warning for storms and heavy rain in 22 provinces, including Istanbul, Bursa, İzmir, Edirne, Kocaeli and Van, and asked people to watch for flash floods, lightning, hail and disruption to transport. NTV reported that some sea-bus and ferry services run by BUDO and İDO, and ferries to Gökçeada and Bozcaada, had been cancelled."
+                },
+                {
+                  "quote": "When the lodos blows this hard, roofs being torn off, trees falling and signs flying are very likely. So people need to be very careful walking in the streets.",
+                  "speaker": "Dilek Çalışkan, NTV weather correspondent",
+                  "sourceId": "ntv",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Winter on Tuesday",
+              "blocks": [
+                {
+                  "text": "From Tuesday a cold front from the Balkans moves in. Çalışkan told NTV that the high would fall from 20°C on Monday to 8°C on Tuesday, a drop of 12 degrees in a single day, and that rain lasting until Tuesday noon could fall as sleet on high ground around Istanbul, Sakarya and Kocaeli. AKOM’s weekly report, cited by NTV, puts Tuesday’s high at 9°C and the low at 6°C."
+                },
+                {
+                  "text": "The MGM’s forecast for 23 to 29 November, reported by NTV and Diken, says temperatures that have been above the seasonal norm will fall noticeably, by 6 to 10 degrees, starting in the north-west. Heavy snow is expected in the east of the country."
+                }
+              ]
+            },
+            {
+              "subhead": "Short-lived",
+              "blocks": [
+                {
+                  "text": "The cold will not stay long in the west. Çalışkan expects 12°C on Wednesday and rising temperatures from Thursday. Diken, citing the MGM’s weekly outlook, says Istanbul could see 17°C during the day by Friday. AKOM expects mostly partly cloudy skies from Wednesday to Saturday, then a fresh storm and showers on Sunday, 29 November."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Wind speed, Monday",
+              "value": "50–85 km/h",
+              "source": "AKOM, via Cumhuriyet"
+            },
+            {
+              "label": "Rain, east of the city",
+              "value": "21–50 kg/m²",
+              "source": "Istanbul governor’s office"
+            },
+            {
+              "label": "Provinces on yellow warning",
+              "value": "22",
+              "source": "MGM"
+            },
+            {
+              "label": "Tuesday high",
+              "value": "8°C",
+              "source": "NTV"
+            }
+          ],
+          "keyNumber": {
+            "label": "Istanbul daytime high, Monday to Tuesday",
+            "unit": "°C",
+            "before": 20,
+            "after": 8,
+            "source": "NTV"
+          }
+        },
+        "tr": {
+          "shortTitle": "İstanbul’da bugün fırtına, yarın 8 derece",
+          "title": "İstanbul’da bugün lodos fırtınası, yarın 12 derecelik düşüş",
+          "summary": {
+            "what": "İstanbul’da bugün lodos saatte 85 kilometreye varan hızla fırtına şeklinde esecek, öğleden sonra kuvvetli ve gök gürültülü sağanak bekleniyor.",
+            "why": "Ardından Balkanlar’dan gelen soğuk hava, sıcaklığı pazartesi 20 dereceden salı 8-9 dereceye indirecek; yüksek kesimlerde sulu kar görülebilir.",
+            "next": "Soğuk hava batıda iki gün kalacak, perşembeden itibaren sıcaklık yeniden yükselecek. AKOM pazar günü yeni bir fırtına bekliyor."
+          },
+          "body": [
+            {
+              "subhead": "Önce rüzgâr",
+              "blocks": [
+                {
+                  "text": "İstanbul’da pazartesi günü hava hızla değişecek. İstanbul Valiliği, Meteoroloji Genel Müdürlüğü’nün (MGM) değerlendirmesine dayanarak Marmara’da rüzgârın sabahtan itibaren güney ve güneybatı yönlerden saatte 50 ila 75 kilometre hızla fırtına şeklinde eseceğini, gece saatlerinde etkisini kaybedeceğini duyurdu. İBB Afet Koordinasyon Merkezi (AKOM) ise Cumhuriyet ve Habertürk’ün aktardığına göre lodosun saatte 50 ila 85 kilometre hızla, kısa süreli kuvvetli fırtına şeklinde eseceğini bildirdi."
+                },
+                {
+                  "text": "NTV Meteoroloji Muhabiri Dilek Çalışkan, rüzgârın en sert saatlerinin 11.00 ile 16.00 arası olacağını, hızın 75 kilometreye çıkacağını ve Tuzla, Maltepe başta olmak üzere Anadolu Yakası’nda daha etkili olacağını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Ardından sağanak",
+              "blocks": [
+                {
+                  "text": "Valilik açıklamasına göre öğleden sonra kentin doğusunda yerel olarak kuvvetli sağanak bekleniyor; yağış miktarının metrekareye 21 ila 50 kilogram olacağı tahmin ediliyor. Habertürk’ün aktardığı AKOM tahminine göre sağanak saat 15.00 civarında Avrupa Yakası ağırlıklı olarak başlayacak. Cumhuriyet’in aktardığı AKOM raporu ise saat 18.00’den sonraki gök gürültülü sağanağın 30 ila 60 dakika sürecek, kısa ama şiddetli geçişler halinde olabileceğini belirtiyor."
+                },
+                {
+                  "text": "MGM, aralarında İstanbul, Bursa, İzmir, Edirne, Kocaeli ve Van’ın bulunduğu 22 il için fırtına ve sağanak nedeniyle sarı kodlu uyarı yaptı; ani sel, yıldırım, dolu ve ulaşımda aksamalara karşı dikkatli olunmasını istedi. NTV’nin haberine göre BUDO ve İDO’nun bazı seferleri ile Gökçeada ve Bozcaada feribot seferleri iptal edildi."
+                },
+                {
+                  "quote": "Lodos bu kadar hızlı estiği zaman çatı uçması, ağaç devrilmesi, tabela uçması gibi olasılıklar çok yüksek. O yüzden yollarda çok dikkatli yürümek gerekiyor.",
+                  "speaker": "Dilek Çalışkan, NTV Meteoroloji Muhabiri",
+                  "sourceId": "ntv"
+                }
+              ]
+            },
+            {
+              "subhead": "Salı günü kış",
+              "blocks": [
+                {
+                  "text": "Salı günü Balkanlar’dan gelen soğuk hava dalgası etkili olacak. Çalışkan’a göre sıcaklık pazartesi 20, salı 8 derece olacak; yani 12 derecelik düşüş tek günde yaşanacak. Salı öğleye kadar süren yağışlar İstanbul, Sakarya ve Kocaeli çevresinde yüksek yerlerde sulu kar şeklinde görülebilecek. NTV’nin aktardığı AKOM haftalık raporu salı için en yüksek 9, en düşük 6 derece öngörüyor."
+                },
+                {
+                  "text": "NTV ve Diken’in aktardığı MGM’nin 23-29 Kasım tahminine göre mevsim normallerinin üzerinde seyreden sıcaklıklar kuzeybatıdan başlayarak 6 ila 10 derece azalacak. Doğu bölgelerinde yoğun kar yağışı bekleniyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Kısa sürecek",
+              "blocks": [
+                {
+                  "text": "Soğuk hava batıda uzun kalmayacak. Çalışkan çarşamba 12 derece, perşembeden itibaren yükselen sıcaklıklar bekliyor. Diken’in aktardığı MGM tahminine göre İstanbul’da cuma günü gündüz sıcaklığı 17 dereceye çıkabilir. AKOM çarşambadan cumartesiye parçalı ve az bulutlu hava, 29 Kasım Pazar günü ise yeniden fırtına ve sağanak bekliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Rüzgâr hızı, pazartesi",
+              "value": "50–85 km/sa",
+              "source": "AKOM, Cumhuriyet’in aktardığı"
+            },
+            {
+              "label": "Yağış, kentin doğusu",
+              "value": "21–50 kg/m²",
+              "source": "İstanbul Valiliği"
+            },
+            {
+              "label": "Sarı kodlu uyarı verilen il",
+              "value": "22",
+              "source": "MGM"
+            },
+            {
+              "label": "Salı en yüksek sıcaklık",
+              "value": "8°C",
+              "source": "NTV"
+            }
+          ],
+          "keyNumber": {
+            "label": "İstanbul gündüz sıcaklığı, pazartesi-salı",
+            "unit": "°C",
+            "before": 20,
+            "after": 8,
+            "source": "NTV"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T00:01:27.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T00:44:15.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T00:44:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T04:33:42.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T06:39:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T08:19:20.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T08:23:59.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AA-20261014-42753864-42753861-ISTANBULDA_SAGANAK_ETKILI_OLDU-526063.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-istanbulda-bugun-firtina-yarin-kis-sicaklik-12-derece-birden-dusecek-1752117"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-istanbulda-bugun-firtina-yarin-kis-sicaklik-12-derece-birden-dusecek-1752117",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/istanbula-firtina-ve-saganak-geliyor-sicaklik-12-derece-dusecek-p383554",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/istanbul-da-bugun-firtina-yarin-kis-sicaklik-20-den-8-dereceye-dusecek-sulu-kar-bekleniyor-1396641",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/haftalik-hava-durumu-tahmini-sicaklik-6-10-derece-azalacak/",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/akom-dan-istanbul-a-kritik-uyari-sicakliklar-10-derece-birden-dusecek-2558502",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/son-dakika-akom-ogleden-sonra-saganak-bekleniyor-3929375",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/istanbul-icin-firtina-ve-yagis-uyarisi/4134129",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00+03:00",
+      "updatedAt": "2026-11-23T12:30:00+03:00"
+    },
+    {
+      "id": "0ebb2caee2d23d8d",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "1a18aa78f9462f26",
+      "versions": {
+        "en": {
+          "shortTitle": "Gram gold rebounds to ₺5,897",
+          "title": "Gold ends a nine-day slide; gram gold back near ₺5,900",
+          "news": "Gold rose for the first time in ten sessions: the ounce gained about 2.4% and gram gold about 2.9%, to around ₺5,897.",
+          "summary": {
+            "what": "An ounce of gold rose about 2.4% to around $3,620 on Monday morning, ending a nine-day losing run; gram gold climbed to about ₺5,897.",
+            "why": "Markets now see fewer US rate rises ahead, and bargain hunters stepped in after the ounce’s 9% fall last week, its worst in eight months.",
+            "next": "Investors are waiting for US PCE inflation data; the Fed’s next rate decision is due on 9 December."
+          },
+          "body": [
+            {
+              "subhead": "A first rise in ten days",
+              "blocks": [
+                {
+                  "text": "Gold started the week higher after nine straight days of losses. Cumhuriyet reported that an ounce rose 2.4% to $3,609.20 by 07:21 Istanbul time, and Bloomberg HT put it at $3,624 at 10:00. Diken said the ounce, which closed last week at $3,538.49, touched $3,630.56 in early trading. Last week’s fall of about 9% was the biggest weekly drop in eight months, Diken noted."
+                },
+                {
+                  "text": "In lira, gram gold followed. Habertürk said it ended Friday 3.66% lower at ₺5,720 and was trading 2.5% higher at ₺5,881 by 09:30. Bloomberg HT’s 10:00 prices showed gram gold selling at ₺5,897.49, up 2.89% on the day, with a quarter coin at ₺9,642.39. Diken said gram gold reached ₺5,906.69 at one point, with the dollar at ₺50.60."
+                }
+              ]
+            },
+            {
+              "subhead": "Why it turned",
+              "blocks": [
+                {
+                  "text": "Diken, citing Bloomberg HT, said gold recovered as markets scaled back bets that the US Federal Reserve would raise rates in December and as buyers bought the dip. Habertürk said the number of Fed rate rises priced in for the next four meetings had fallen to two after a University of Michigan survey showed lower inflation expectations."
+                },
+                {
+                  "text": "Cumhuriyet pointed to the sell-off in global stocks driven by worries over AI investment, and to US Treasury Secretary Scott Bessent’s warning that over-tightening by the Fed could put the US economy at risk. It said markets still priced the chance of a 25-basis-point rise in December at about 93%. Diken noted that the Fed raised rates in September 2026 for the first time in three years and that the policy rate stands at 3.75–4.00%."
+                },
+                {
+                  "text": "Adrian Ash, head of research at BullionVault, said, according to Cumhuriyet, that if past price moves are any guide, gold could start to recover after 13 weeks of sharp falls, and that more investors were treating dips as a chance to buy."
+                }
+              ]
+            },
+            {
+              "subhead": "Still down on the year",
+              "blocks": [
+                {
+                  "text": "The bounce has not undone the losses. By Bloomberg HT’s figures gram gold is 5.19% lower than on 1 November and 1.48% below its value at the start of the year, ₺5,985.85, though it is still 6.47% higher than a year ago. The ounce is down 16.36% since the start of 2026, when it stood at $4,332.29. Habertürk said the ounce had fallen from around $5,400 to about $3,500, and described $3,500 as a key support level: a fall below it could deepen the slide."
+                }
+              ]
+            },
+            {
+              "subhead": "What to watch",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet said investors were waiting for the US personal consumption expenditures (PCE) price index, an inflation gauge the Fed follows closely. Technical analysts it cited saw a possible temporary floor at $3,503 and a target zone of $3,663 to $3,712 if the recovery holds. Habertürk said traders would also watch Turkish household inflation expectations and US and European purchasing managers’ surveys due today."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gram gold at 10:00",
+              "value": "₺5,897.49",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Ounce, rise on the day",
+              "value": "2.4%",
+              "source": "Cumhuriyet, Bloomberg HT"
+            },
+            {
+              "label": "Ounce, fall last week",
+              "value": "≈9%",
+              "source": "Diken"
+            },
+            {
+              "label": "Gram gold since 1 January",
+              "value": "−1.48%",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Quarter coin, selling",
+              "value": "₺9,642.39",
+              "source": "Bloomberg HT"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gram gold, Friday close vs Monday 10:00",
+            "unit": "₺",
+            "before": 5720,
+            "after": 5897.49,
+            "source": "Habertürk, Bloomberg HT"
+          }
+        },
+        "tr": {
+          "shortTitle": "Gram altın 5.897 liraya toparlandı",
+          "title": "Altında dokuz günlük düşüş bitti, gram 5.900 liraya yaklaştı",
+          "news": "Altın on işlem günü sonra ilk kez yükseldi: ons yaklaşık %2,4, gram altın %2,9 artışla 5.897 lira civarına çıktı.",
+          "summary": {
+            "what": "Ons altın pazartesi sabahı yaklaşık %2,4 yükselerek 3.620 dolar civarına çıktı ve dokuz günlük düşüş serisini bitirdi; gram altın 5.897 lirayı gördü.",
+            "why": "Piyasalar Fed’den daha az faiz artırımı bekliyor; onsun geçen hafta sekiz ayın en sert haftalık düşüşü olan %9’luk kaybının ardından dipten alımlar geldi.",
+            "next": "Yatırımcılar ABD’nin PCE enflasyon verisini bekliyor; Fed’in bir sonraki faiz kararı 9 Aralık’ta açıklanacak."
+          },
+          "body": [
+            {
+              "subhead": "On gün sonra ilk yükseliş",
+              "blocks": [
+                {
+                  "text": "Altın, dokuz işlem günü süren düşüşün ardından haftaya yükselişle başladı. Cumhuriyet’in haberine göre ons, Türkiye saatiyle 07.21’de önceki kapanışa göre %2,4 artışla 3.609,20 dolara çıktı; Bloomberg HT saat 10.00 itibarıyla 3.624 dolar fiyatını verdi. Diken’e göre geçen haftayı 3.538,49 dolardan kapatan ons, yeni haftada 3.630,56 doları gördü. Diken, geçen haftaki yaklaşık %9’luk düşüşün sekiz ayın en büyük haftalık kaybı olduğunu hatırlattı."
+                },
+                {
+                  "text": "Gram altın da onsu izledi. Habertürk’e göre cuma gününü %3,66 düşüşle 5.720 liradan kapatan gram altın, saat 09.30’da %2,5 artışla 5.881 liradan işlem görüyordu. Bloomberg HT’nin 10.00 verilerine göre gram altın 5.897,49 liradan satılıyor, günlük artış %2,89; çeyrek altının satışı 9.642,39 lira. Diken, gram altının 5.906,69 liraya kadar çıktığını, dolar kurunun 50,60 lira olduğunu yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden döndü?",
+              "blocks": [
+                {
+                  "text": "Diken’in Bloomberg HT’ye dayandırdığı habere göre toparlanmada, piyasanın Fed’in aralıkta faiz artıracağına dair beklentileri azaltması ve dipten alımlar etkili oldu. Habertürk, Michigan Üniversitesi’nin enflasyon beklentilerinin gerilemesinin ardından Fed’in gelecek dört toplantısı için fiyatlanan faiz artırımı sayısının ikiye düştüğünü yazdı."
+                },
+                {
+                  "text": "Cumhuriyet ise yapay zekâ yatırımlarına dair endişelerle gelen küresel hisse satışlarına ve ABD Hazine Bakanı Scott Bessent’in, Fed’in aşırı sıkılaştırmasının ABD ekonomisi için risk oluşturabileceği uyarısına dikkat çekti. Gazeteye göre piyasada aralıkta 25 baz puanlık artış ihtimali hâlâ %93 civarında fiyatlanıyor. Diken, Fed’in Eylül 2026’da üç yıl sonra ilk kez faiz artırdığını, politika faizinin %3,75-4,00 aralığında olduğunu hatırlattı."
+                },
+                {
+                  "text": "Cumhuriyet’in aktardığına göre BullionVault Araştırma Başkanı Adrian Ash, geçmiş fiyat hareketleri yol gösterici olursa altının 13 haftalık sert düşüşün ardından toparlanma sürecine girebileceğini, yatırımcıların düşüşleri alım fırsatı olarak görme eğiliminin güçlendiğini değerlendirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yıllık kayıp sürüyor",
+              "blocks": [
+                {
+                  "text": "Yükseliş kayıpları silmedi. Bloomberg HT’nin verilerine göre gram altın 1 Kasım’a göre %5,19, yılbaşındaki 5.985,85 liraya göre %1,48 değer kaybetmiş durumda; bir yıl öncesine göre ise hâlâ %6,47 yukarıda. Ons, yılbaşında 4.332,29 dolardı; o günden bu yana kaybı %16,36. Habertürk, onsun 5.400 dolar seviyelerinden 3.500 dolar civarına gerilediğini, 3.500 doların kritik destek olduğunu ve bu seviyenin altına inilirse düşüşün derinleşebileceğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Gözler verilerde",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre yatırımcılar, Fed’in yakından izlediği kişisel tüketim harcamaları fiyat endeksi (PCE) verisini bekliyor. Gazetenin aktardığı teknik analizlerde 3.503 dolarda geçici bir dip oluşmuş olabileceği, toparlanma sürerse 3.663-3.712 dolar aralığının hedef bölge olduğu belirtiliyor. Habertürk’e göre bugün yurt içinde hanehalkı beklenti anketi, yurt dışında ise ABD ve Avrupa’nın PMI verileri izlenecek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gram altın, saat 10.00",
+              "value": "5.897,49 ₺",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Onsun günlük artışı",
+              "value": "%2,4",
+              "source": "Cumhuriyet, Bloomberg HT"
+            },
+            {
+              "label": "Onsun geçen haftaki düşüşü",
+              "value": "≈%9",
+              "source": "Diken"
+            },
+            {
+              "label": "Gram altın, yılbaşından beri",
+              "value": "−%1,48",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "Çeyrek altın, satış",
+              "value": "9.642,39 ₺",
+              "source": "Bloomberg HT"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gram altın, cuma kapanışı ve pazartesi 10.00",
+            "unit": "₺",
+            "before": 5720,
+            "after": 5897.49,
+            "source": "Habertürk, Bloomberg HT"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T04:24:59.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T06:35:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T06:35:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T07:00:02.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T07:06:40.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/23/ver1795407675/3929297/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/bilgi/foto/canli-altin-fiyatlari-23-kasim-2026-altin-fiyati-neden-dusuyor-tekrar-yukselecek-mi-bugun-gram-ceyrek-yarim-ve-tam-altin-fiyatlari-ne-kadar-3929297"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/bilgi/foto/canli-altin-fiyatlari-23-kasim-2026-altin-fiyati-neden-dusuyor-tekrar-yukselecek-mi-bugun-gram-ceyrek-yarim-ve-tam-altin-fiyatlari-ne-kadar-3929297",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlari-haftaya-yukselisle-basladi-gram-ceyrek-ve-cumhuriyet-altini-bugun-ne-kadar-oldu-guncel-altin-fiyatlari-23-kasim-2026-pazartesi-2558500",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/altin-fiyatlari-23-kasim-2026-pazartesi-gram-altin-ne-kadar-oldu-ceyrek-altin-kac-tlden-satiliyor-pkh1-3795396",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/altin-dokuz-gunluk-dususten-sonra-yukseliste/",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/23-kasim-pazartesi-altin-fiyatlari-gram-altin-yukseldi-mi-ceyrek-ne-kadar-1396673",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00+03:00",
+      "updatedAt": "2026-11-23T12:30:00+03:00"
+    },
+    {
+      "id": "bdaf95ac5da73ee9",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "US presses Nvidia on China sales",
+          "title": "Bessent says the US wants answers from Nvidia on chips reaching China",
+          "summary": {
+            "what": "Treasury Secretary Scott Bessent said Washington is pressing Nvidia’s interim leaders to explain how its chips were sold to China and who ran compliance.",
+            "why": "Jensen Huang quit as chief executive on 12 November after reports of an affair with a suspected Chinese spy linked to about $12bn in banned chip sales.",
+            "next": "Senator John Kennedy wants Bessent and Commerce Secretary Howard Lutnick to answer questions under oath before a Senate committee."
+          },
+          "body": [
+            {
+              "subhead": "“We do need answers”",
+              "blocks": [
+                {
+                  "text": "The US Treasury Secretary, Scott Bessent, said on Sunday that the administration had been in touch with Nvidia’s temporary management, its lead directors and its lawyers as it tries to find out who was in charge of compliance at the chipmaker, the South China Morning Post and The Guardian reported. He spoke on CBS News’s Face the Nation."
+                },
+                {
+                  "quote": "We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was.",
+                  "speaker": "Scott Bessent, US Treasury Secretary",
+                  "sourceId": "scmp-world"
+                },
+                {
+                  "text": "The SCMP said Bessent also softened his earlier call for Nvidia’s board to recruit an outside leader, leaving the door open to Jensen Huang’s return after President Donald Trump publicly backed him. “I said they should go to the outside, but he’s on the outside now,” Bessent told CBS, according to the SCMP."
+                }
+              ]
+            },
+            {
+              "subhead": "How Huang left",
+              "blocks": [
+                {
+                  "text": "Huang stepped down as Nvidia’s chief executive on 12 November after allegations of extramarital relationships with two Nvidia employees and with Alice Huang, also known as Huang Le, a suspected Chinese spy, The Guardian reported. Alice Huang had been executive director of Megaspeed International, which facilitated about $12bn in chip sales in breach of US export controls; the Trump administration has banned the sale of the most advanced AI chips to China."
+                },
+                {
+                  "text": "Jay Clayton, the director of national intelligence, said on CNN’s State of the Union that he suspected China had been able to obtain Nvidia’s most advanced AI chips. “There are chips that have ended up in places that they should not,” he told Fox News Sunday, according to The Guardian."
+                }
+              ]
+            },
+            {
+              "subhead": "A senator turns to Lutnick",
+              "blocks": [
+                {
+                  "text": "Republican senator John Kennedy of Louisiana told NBC’s Meet the Press that he was less interested in what Huang did than in how China had got around US export controls. He called the affair “the most expensive sex since Helen of Troy” and said he wanted Bessent and Commerce Secretary Howard Lutnick to testify under oath before a Senate committee."
+                },
+                {
+                  "text": "The Guardian said Lutnick has faced scrutiny over allegedly ignoring warnings that Megaspeed was smuggling chips to China. Other officials, including Bessent, wanted Megaspeed put on a trade blacklist, but the commerce department stalled enforcement, the paper reported."
+                },
+                {
+                  "quote": "If secretary Lutnick is giving our chips away, he needs to stop it, in my opinion.",
+                  "speaker": "John Kennedy, US senator",
+                  "sourceId": "guardian-ai"
+                }
+              ]
+            },
+            {
+              "subhead": "What comes next",
+              "blocks": [
+                {
+                  "text": "Kennedy said he could only conclude that commerce department leaders were either too incompetent to run a food truck or had knowingly allowed the sales to happen. The reports carried no comment from Nvidia’s interim management or the commerce department, and no date has been set for the hearing Kennedy is seeking."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Chip sales via Megaspeed",
+              "value": "≈$12bn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Huang stepped down",
+              "value": "12 Nov",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "ABD Nvidia’dan Çin hesabı soruyor",
+          "title": "Bessent: ABD, Çin’e giden çipler için Nvidia’dan yanıt istiyor",
+          "summary": {
+            "what": "ABD Hazine Bakanı Scott Bessent, Nvidia’nın geçici yönetiminden çiplerin Çin’e nasıl satıldığını ve uyumdan kimin sorumlu olduğunu açıklamasını istediklerini söyledi.",
+            "why": "Jensen Huang, yaklaşık 12 milyar dolarlık yasak çip satışıyla bağlantılı Çinli casus şüphelisiyle ilişkisi ortaya çıkınca 12 Kasım’da CEO’luktan ayrıldı.",
+            "next": "Senatör John Kennedy, Bessent ile Ticaret Bakanı Howard Lutnick’in Senato komitesinde yemin ederek soruları yanıtlamasını istiyor."
+          },
+          "body": [
+            {
+              "subhead": "“Yanıtlara ihtiyacımız var”",
+              "blocks": [
+                {
+                  "text": "South China Morning Post ve The Guardian’ın haberine göre ABD Hazine Bakanı Scott Bessent pazar günü, yönetimin şirkette uyumdan kimin sorumlu olduğunu bulmaya çalışırken Nvidia’nın geçici yönetimi, bağımsız yönetim kurulu üyeleri ve avukatlarıyla temas kurduğunu söyledi. Bessent, CBS News’ün Face the Nation programında konuştu."
+                },
+                {
+                  "quote": "Geçici yönetimle, bağımsız yöneticilerle, avukatlarıyla temas halindeyiz ve yanıtlara gerçekten ihtiyacımız var… Bu konuda hızlı davranmak Nvidia’nın yararına, çünkü kültürün nasıl olduğunu bilmek istiyoruz.",
+                  "speaker": "Scott Bessent, ABD Hazine Bakanı",
+                  "sourceId": "scmp-world",
+                  "translated": true
+                },
+                {
+                  "text": "SCMP’ye göre Bessent, yönetim kurulunun dışarıdan bir lider bulması gerektiği yönündeki önceki çağrısını da yumuşattı ve Başkan Donald Trump’ın Jensen Huang’a açıkça sahip çıkmasının ardından Huang’ın geri dönüşüne kapı araladı. SCMP’nin aktardığına göre Bessent, “Dışarıdan birini bulsunlar demiştim, o da artık dışarıda” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Huang nasıl ayrıldı?",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Huang, iki Nvidia çalışanıyla ve Çinli casus olduğundan şüphelenilen Alice Huang (Huang Le) ile evlilik dışı ilişkiler yaşadığı iddiaları üzerine 12 Kasım’da CEO’luktan ayrıldı. Alice Huang, ABD’nin ihracat denetimlerini ihlal eden yaklaşık 12 milyar dolarlık çip satışına aracılık eden Megaspeed International’ın icra direktörüydü. Trump yönetimi en gelişmiş yapay zekâ çiplerinin Çin’e satışını yasaklamıştı."
+                },
+                {
+                  "text": "Ulusal İstihbarat Direktörü Jay Clayton, CNN’in State of the Union programında Çin’in Nvidia’nın en gelişmiş yapay zekâ çiplerini elde edebildiğinden şüphelendiğini söyledi. The Guardian’ın aktardığına göre Fox News Sunday’de de “Olmamaları gereken yerlere giden çipler var” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Senatör Lutnick’i hedef aldı",
+              "blocks": [
+                {
+                  "text": "Louisiana’nın Cumhuriyetçi senatörü John Kennedy, NBC’nin Meet the Press programında Huang’ın yaptıklarından çok Çin’in ABD ihracat denetimlerini nasıl aştığıyla ilgilendiğini söyledi. İlişkiyi “Truvalı Helen’den bu yana en pahalı seks” diye nitelendiren Kennedy, Bessent ve Ticaret Bakanı Howard Lutnick’in Senato komitesinde yemin ederek ifade vermesini istedi."
+                },
+                {
+                  "text": "The Guardian’a göre Lutnick, Megaspeed’in Çin’e çip kaçırdığı yönündeki uyarıları görmezden geldiği iddiasıyla eleştiriliyor. Bessent’in de aralarında bulunduğu bazı yetkililer Megaspeed’in ticari kara listeye alınmasını istedi, ancak Ticaret Bakanlığı uygulamayı ağırdan aldı."
+                },
+                {
+                  "quote": "Bakan Lutnick çiplerimizi dağıtıyorsa, bence buna son vermeli.",
+                  "speaker": "John Kennedy, ABD senatörü",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada ne var?",
+              "blocks": [
+                {
+                  "text": "Kennedy, Ticaret Bakanlığı yöneticilerinin ya bir seyyar yemek arabasını bile yönetemeyecek kadar beceriksiz olduğu ya da satışlara bile bile göz yumduğu sonucuna varabildiğini söyledi. Haberlerde Nvidia’nın geçici yönetiminden ya da Ticaret Bakanlığı’ndan bir açıklamaya yer verilmedi; Kennedy’nin istediği oturum için de henüz bir tarih belirlenmedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Megaspeed üzerinden çip satışı",
+              "value": "≈12 milyar $",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Huang’ın ayrıldığı gün",
+              "value": "12 Kasım",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T20:03:17.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T20:23:36.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T20:23:36.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00+03:00",
+      "updatedAt": "2026-11-23T12:30:00+03:00"
+    },
+    {
+      "id": "df13f0ed80d7ba7e",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "GÖKDENİZ downs drones in autonomous test",
+          "title": "ASELSAN’s GÖKDENİZ air-defence gun hits targets in a live Black Sea test",
+          "summary": {
+            "what": "ASELSAN’s GÖKDENİZ close-in air-defence system detected, tracked and destroyed fast aerial targets in a live-fire test off the Black Sea coast, Anadolu Agency reported.",
+            "why": "It ran in autonomous mode, with the operator only pressing one button to approve firing, against targets mimicking jet-powered drones and anti-ship missiles.",
+            "next": "ASELSAN is developing other versions, including a containerised one for merchant ships shown at the EURONAVAL fair."
+          },
+          "body": [
+            {
+              "subhead": "The test",
+              "blocks": [
+                {
+                  "text": "GÖKDENİZ, a close-in air-defence system made by the Turkish defence company ASELSAN, destroyed aerial targets coming from different directions and altitudes in a live-fire test off the Black Sea coast, Anadolu Agency (AA) reported on Monday. The test was part of an international demonstration; AA did not say when it took place or which countries watched it. The tech site ShiftDelete.Net carried the same account."
+                },
+                {
+                  "text": "The targets were moving aerial targets meant to represent the threat of high-speed, jet-powered drones. They flew low and manoeuvred, AA said, to mimic the hardest features of modern threats such as drones and cruise missiles. To recreate real operating conditions, the ship carrying the system sailed at 5 to 10 knots throughout."
+                }
+              ]
+            },
+            {
+              "subhead": "One button",
+              "blocks": [
+                {
+                  "text": "According to AA, the test was run in autonomous mode: GÖKDENİZ detected, tracked and began engaging the targets by itself, and the operator’s only role was to approve firing by pressing a single button. The system also has a fully autonomous mode in which it can carry out the whole engagement, including firing, without any operator input, the agency said."
+                },
+                {
+                  "text": "By automating detection, tracking and engagement, the system cuts reaction time sharply, AA said, which matters in naval defence where seconds count. It combines advanced sensors with a fast-reacting gun to form the last layer of air defence around a ship, against small, fast and agile aerial targets and anti-ship missiles."
+                }
+              ]
+            },
+            {
+              "subhead": "Beyond warships",
+              "blocks": [
+                {
+                  "text": "ASELSAN is developing other configurations to take the protection beyond warships, AA reported. The company recently presented a deployable, containerised version of GÖKDENİZ at the EURONAVAL naval fair, designed to give merchant ships close-in air defence as well."
+                },
+                {
+                  "text": "Besides the Turkish Naval Forces, the navies of six other countries have chosen GÖKDENİZ, according to AA, which said its exports were strengthening ASELSAN’s position in the international market. AA did not name the six countries or give the value of the contracts."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ship’s speed during the test",
+              "value": "5–10 knots",
+              "source": "Anadolu Agency"
+            },
+            {
+              "label": "Foreign navies using it",
+              "value": "6",
+              "source": "Anadolu Agency"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "GÖKDENİZ otonom testte hedefleri vurdu",
+          "title": "ASELSAN’ın GÖKDENİZ’i Karadeniz’deki gerçek atışlı testte hedefleri imha etti",
+          "summary": {
+            "what": "Anadolu Ajansı’na göre ASELSAN’ın GÖKDENİZ yakın hava savunma sistemi, Karadeniz açıklarındaki gerçek atışlı testte hızlı hava hedeflerini tespit edip imha etti.",
+            "why": "Test otonom modda yapıldı; jet motorlu İHA ve gemisavar füzeleri temsil eden hedeflere karşı operatör yalnızca tek düğmeyle atışa onay verdi.",
+            "next": "ASELSAN, EURONAVAL fuarında tanıttığı ticari gemiler için konteynerize sürüm dahil sistemin farklı konfigürasyonlarını geliştiriyor."
+          },
+          "body": [
+            {
+              "subhead": "Test",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı’nın (AA) pazartesi günkü haberine göre ASELSAN’ın geliştirdiği GÖKDENİZ Yakın Hava Savunma Sistemi, Karadeniz açıklarında düzenlenen uluslararası demo faaliyetindeki gerçek atışlı testte farklı yön ve irtifalardan gelen hava hedeflerini başarıyla tespit, takip ve imha etti. AA, testin tarihini ve izleyen ülkeleri belirtmedi. Teknoloji sitesi ShiftDelete.Net de aynı bilgileri aktardı."
+                },
+                {
+                  "text": "Testte, yüksek hızlı jet motorlu İHA tehdidini temsil eden hareketli hava hedefleri kullanıldı. AA’ya göre hedeflerin alçak irtifada manevralar içeren uçuş profili, İHA’lar ve seyir füzeleri gibi modern tehditlerin zorlu özelliklerini canlandırdı. Gerçekçi koşullar için gemi test boyunca 5-10 knot hızla seyretti."
+                }
+              ]
+            },
+            {
+              "subhead": "Tek düğme",
+              "blocks": [
+                {
+                  "text": "AA’ya göre test otonom modda yapıldı: GÖKDENİZ hedef tespiti, takibi ve angajman başlatma süreçlerini kendisi yürüttü; operatörün müdahalesi yalnızca tek bir düğmeye basarak atışa onay vermekle sınırlı kaldı. Sistemin, atış dahil tüm angajman sürecini operatör müdahalesi olmadan yürütebildiği tam otonom bir modu da bulunuyor."
+                },
+                {
+                  "text": "Ajansa göre bu süreçleri otomatikleştirmesi, sistemin reaksiyon süresini önemli ölçüde kısaltıyor; bu da saniyelerin önemli olduğu deniz savunmasında tehditlere hızla karşılık verilmesini sağlıyor. GÖKDENİZ, gelişmiş sensörleri hızlı tepki veren bir silah sistemiyle birleştirerek gemilere küçük, hızlı ve manevra kabiliyeti yüksek hedeflere ve gemisavar füzelere karşı son savunma katmanı sunuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Savaş gemilerinin ötesi",
+              "blocks": [
+                {
+                  "text": "AA’ya göre ASELSAN, korumayı savaş gemilerinin ötesine taşımak için sistemin farklı konfigürasyonlarını geliştiriyor. Şirket kısa süre önce EURONAVAL fuarında, ticari gemilere de yakın hava savunma kabiliyeti kazandırmayı amaçlayan konuşlandırılabilir, konteynerize GÖKDENİZ çözümünü tanıttı."
+                },
+                {
+                  "text": "Ajansa göre GÖKDENİZ, Türk Deniz Kuvvetleri’nin yanı sıra 6 farklı ülkenin donanması tarafından tercih ediliyor ve ihracat başarıları ASELSAN’ın uluslararası pazardaki konumunu güçlendiriyor. AA, bu ülkelerin adlarını ve sözleşmelerin tutarını vermedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Test sırasında gemi hızı",
+              "value": "5–10 knot",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Sistemi kullanan yabancı donanma",
+              "value": "6",
+              "source": "Anadolu Ajansı"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T08:22:08.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/aselsan-gokdeniz-gercek-atisli-test-kapak-2311.webp",
+        "sourceId": "shiftdelete",
+        "sourceName": "ShiftDelete.Net",
+        "articleUrl": "https://shiftdelete.net/aselsan-gokdeniz-gercek-atisli-test"
+      },
+      "sources": [
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/bilim-teknoloji/aselsanin-gokdenizi-karadenizdeki-gercek-atisli-testte-hedefleri-imha-etti/4134124",
+          "confirms": true
+        },
+        {
+          "sourceId": "shiftdelete",
+          "url": "https://shiftdelete.net/aselsan-gokdeniz-gercek-atisli-test",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00+03:00",
+      "updatedAt": "2026-11-23T12:30:00+03:00"
+    },
+    {
+      "id": "2dced9a8b0d3a12c",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "9b22eacc165d4fd4",
+      "versions": {
+        "en": {
+          "shortTitle": "Indonesia factory fire kills 24",
+          "title": "Indonesia factory fire death toll rises to 24, with about 30 missing",
+          "news": "The confirmed death toll rose from three to 24, and an air-conditioner short circuit is the preliminary suspected cause.",
+          "summary": {
+            "what": "Indonesia has confirmed 24 deaths in Saturday’s fire at the PT Fonusa Agung Mulia confectionery factory in Cikande, west of Jakarta; about 30 people are still missing.",
+            "why": "A presidential adviser says an air-conditioner short circuit may have started the blaze and he will summon the company’s chief executive over safety.",
+            "next": "Identifying the victims needs DNA from relatives and could take two to three weeks, police say; rescuers are still cooling the unstable building."
+          },
+          "body": [
+            {
+              "subhead": "Toll rises to 24",
+              "blocks": [
+                {
+                  "text": "Indonesian authorities have confirmed that 24 people died in the fire that gutted the PT Fonusa Agung Mulia confectionery factory in Cikande, in Serang regency, Banten province, about 50km west of Jakarta, Al Jazeera and The Guardian reported on Monday. About 30 people are still missing. The fire broke out on Saturday evening."
+                },
+                {
+                  "text": "Said Iqbal, a presidential adviser on labour issues, gave the toll to reporters. He said preliminary reports indicated the fire might have been caused by a short circuit in an air-conditioner, that the implementation of safety protocols was being assessed, and that he would summon the factory’s chief executive."
+                }
+              ]
+            },
+            {
+              "subhead": "A dangerous search",
+              "blocks": [
+                {
+                  "text": "Al Amrad, head of the Banten search and rescue agency, said hotspots and the building’s increasingly unstable structure were putting rescuers at risk, according to Al Jazeera. He said 29 people had been confirmed safe, five of them treated in hospital, and that rescuers had so far taken away 24 body bags."
+                },
+                {
+                  "text": "The blaze was largely contained on Sunday, but firefighters were still cooling the site on Monday before they could reach every part of the factory, said Tubagus Mahfud, operations chief of the Serang fire department, The Guardian reported. He warned that production materials inside could make the fire flare up again."
+                },
+                {
+                  "quote": "We are conducting sweeps in the areas that have already been brought under control. Parts of the structure had collapsed, while poor lighting conditions required firefighters to proceed cautiously.",
+                  "speaker": "Tubagus Mahfud, Serang fire department",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Identifying the dead",
+              "blocks": [
+                {
+                  "text": "Wahyu Hidayati Dwi Palupi, who heads the national police’s victim identification unit, said the fire had been so intense that the victims could not be identified by sight. Police are collecting DNA samples from relatives and the missing workers’ belongings, a process that could take two to three weeks, she said, according to Al Jazeera."
+                }
+              ]
+            },
+            {
+              "subhead": "The company",
+              "blocks": [
+                {
+                  "text": "Steven Erwin Wijaya, chief executive of the parent company PT United Family Food, said about 300 people were at the complex for Saturday’s shift, Al Jazeera reported; Banten’s governor, Andra Soni, estimated that about 60 were inside the factory itself, according to The Guardian. Wijaya said the factory held regular evacuation drills with local firefighters and that its fire protection met the applicable standards and was working at the time."
+                },
+                {
+                  "text": "The company employs about 5,000 people and makes Milkita sweets and Lemonilo instant noodles, The Guardian said. Indonesia has had several deadly industrial fires in recent years: a blaze in a Jakarta office building killed at least 22 people last December, and an explosion at a nickel-processing plant on Sulawesi killed at least 13 in 2023."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Confirmed dead",
+              "value": "24",
+              "source": "Presidential adviser Said Iqbal"
+            },
+            {
+              "label": "Still missing",
+              "value": "≈30",
+              "source": "Al Jazeera, The Guardian"
+            },
+            {
+              "label": "Confirmed safe",
+              "value": "29",
+              "source": "Banten search and rescue agency"
+            },
+            {
+              "label": "Time to identify victims",
+              "value": "2–3 weeks",
+              "source": "Indonesian police"
+            }
+          ],
+          "place": {
+            "name": "Cikande",
+            "lat": -6.18,
+            "lon": 106.35,
+            "region": "Banten, Indonesia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Endonezya’da fabrika yangını: 24 ölü",
+          "title": "Endonezya’daki fabrika yangınında ölü sayısı 24’e çıktı, 30 kişi kayıp",
+          "news": "Doğrulanan ölü sayısı üçten 24’e yükseldi; ilk bulgulara göre yangın bir klimadaki kısa devreden çıkmış olabilir.",
+          "summary": {
+            "what": "Endonezya, Cakarta’nın batısındaki Cikande’de PT Fonusa Agung Mulia şekerleme fabrikasında cumartesi çıkan yangında 24 kişinin öldüğünü doğruladı; yaklaşık 30 kişi kayıp.",
+            "why": "Bir cumhurbaşkanı danışmanı, yangının klimadaki kısa devreden çıkmış olabileceğini söyledi ve güvenlik için şirketin CEO’sunu çağıracağını açıkladı.",
+            "next": "Polise göre kurbanların kimliğinin DNA ile belirlenmesi iki-üç hafta sürebilir; ekipler dengesiz binada soğutma çalışmasını sürdürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Ölü sayısı 24’e çıktı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve The Guardian’ın pazartesi günkü haberine göre Endonezya makamları, Banten eyaletinin Serang bölgesine bağlı Cikande’deki PT Fonusa Agung Mulia şekerleme fabrikasını küle çeviren yangında 24 kişinin öldüğünü doğruladı. Cakarta’nın yaklaşık 50 kilometre batısındaki fabrikada cumartesi akşamı çıkan yangının ardından yaklaşık 30 kişiden hâlâ haber alınamıyor."
+                },
+                {
+                  "text": "Ölü sayısını gazetecilere cumhurbaşkanının çalışma işlerinden sorumlu danışmanı Said Iqbal açıkladı. Iqbal, ilk raporlara göre yangının bir klimadaki kısa devreden çıkmış olabileceğini, güvenlik protokollerinin uygulanıp uygulanmadığının incelendiğini ve fabrikanın CEO’sunu çağıracağını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Tehlikeli arama",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Banten arama kurtarma kurumunun başkanı Al Amrad, söndürülemeyen noktaların ve giderek dengesini yitiren binanın kurtarma ekipleri için risk oluşturduğunu söyledi. Amrad, 29 kişinin güvende olduğunun doğrulandığını, bunlardan beşinin hastanede tedavi gördüğünü ve ekiplerin şimdiye kadar 24 ceset torbası çıkardığını belirtti."
+                },
+                {
+                  "text": "The Guardian’a göre Serang itfaiyesinin operasyon şefi Tubagus Mahfud, yangının pazar günü büyük ölçüde kontrol altına alındığını, ancak fabrikanın her bölümüne girilebilmesi için pazartesi de yoğun soğutma çalışması yapıldığını söyledi. Mahfud, içerideki üretim malzemelerinin yangının yeniden alevlenmesine yol açabileceği uyarısında bulundu."
+                },
+                {
+                  "quote": "Kontrol altına alınan alanlarda tarama yapıyoruz. Yapının bazı bölümleri çökmüştü, ışığın yetersiz olması da itfaiyecilerin dikkatli ilerlemesini gerektirdi.",
+                  "speaker": "Tubagus Mahfud, Serang itfaiyesi",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Kimlik tespiti",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Ulusal Polis’in kurban kimlik tespit biriminin başındaki Wahyu Hidayati Dwi Palupi, yangının şiddeti nedeniyle kurbanların gözle tanınamadığını söyledi. Polis, yakınlarından DNA örnekleri ve kayıp işçilerin kişisel eşyalarını topluyor; Palupi’ye göre bu süreç iki-üç hafta sürebilir."
+                }
+              ]
+            },
+            {
+              "subhead": "Şirket",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre ana şirket PT United Family Food’un CEO’su Steven Erwin Wijaya, cumartesi vardiyasında yerleşkede yaklaşık 300 kişi bulunduğunu söyledi; The Guardian’a göre Banten Valisi Andra Soni ise yangın sırasında fabrika binasında yaklaşık 60 kişi olduğunu tahmin etti. Wijaya, fabrikada yerel itfaiyeyle düzenli tahliye tatbikatları yapıldığını, yangın korunma sistemlerinin standartlara uygun olduğunu ve yangın sırasında çalıştığını savundu."
+                },
+                {
+                  "text": "The Guardian’a göre yaklaşık 5.000 kişiyi istihdam eden şirket, Milkita şekerlemeleri ve Lemonilo hazır eriştesini üretiyor. Endonezya son yıllarda birkaç ölümcül endüstriyel yangın yaşadı: geçen aralıkta Cakarta’da bir ofis binasındaki yangında en az 22 kişi, 2023’te Sulawesi adasındaki bir nikel işleme tesisindeki patlamada en az 13 kişi öldü."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Doğrulanan ölü",
+              "value": "24",
+              "source": "Cumhurbaşkanı danışmanı Said Iqbal"
+            },
+            {
+              "label": "Kayıp",
+              "value": "≈30",
+              "source": "Al Jazeera, The Guardian"
+            },
+            {
+              "label": "Güvende olduğu doğrulanan",
+              "value": "29",
+              "source": "Banten arama kurtarma kurumu"
+            },
+            {
+              "label": "Kimlik tespiti süresi",
+              "value": "2–3 hafta",
+              "source": "Endonezya polisi"
+            }
+          ],
+          "place": {
+            "name": "Cikande",
+            "lat": -6.18,
+            "lon": 106.35,
+            "region": "Banten, Endonezya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T02:35:42.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T05:45:12.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T05:45:12.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00+03:00",
+      "updatedAt": "2026-11-23T12:30:00+03:00"
+    },
+    {
+      "id": "57c864c5f5c79bf1",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Spy chief backs Trump’s Putin ‘friend’",
+          "title": "US intelligence chief calls Trump’s ‘friend’ label for Putin entirely appropriate",
+          "summary": {
+            "what": "Director of National Intelligence Jay Clayton defended Donald Trump calling Vladimir Putin “my friend” after their three-way summit with Xi Jinping in Shenzhen.",
+            "why": "Democrats called the remark a betrayal of American values, and allies including Poland’s Donald Tusk said Putin is no friend.",
+            "next": "Clayton also warned Americans to expect more technology outages as companies and agencies replace ageing systems."
+          },
+          "body": [
+            {
+              "subhead": "“I trust him completely”",
+              "blocks": [
+                {
+                  "text": "Jay Clayton, the US director of national intelligence, said on Sunday that it was “entirely appropriate” for President Donald Trump to call Russia’s Vladimir Putin his friend, the South China Morning Post, The Guardian and Al Jazeera reported. Clayton was pressed on the remark in interviews on CNN’s State of the Union and ABC’s This Week."
+                },
+                {
+                  "text": "Trump greeted Putin as “my friend” at the first confirmed meeting between him, Putin and China’s Xi Jinping, held on 19 November on the sidelines of the Asia-Pacific Economic Cooperation (APEC) meeting in Shenzhen, Al Jazeera said. After a backlash at home and abroad, Trump doubled down on Saturday by posting a photo of the two shaking hands with the caption “My Friend”, according to The Guardian."
+                },
+                {
+                  "quote": "The president is the greatest conductor of foreign policy in a very challenging time that we have seen. Getting the three nuclear powers together and getting them to agree that they are not going to escalate, that they are going to communicate, that is historic.",
+                  "speaker": "Jay Clayton, US director of national intelligence",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "“Not America’s friend in Ukraine”",
+              "blocks": [
+                {
+                  "text": "Asked by ABC’s Jonathan Karl whether Putin was America’s friend, Clayton drew a line. “He is not America’s friend in Ukraine. Not at all. Not at all,” he said, according to Al Jazeera and The Guardian. He said the word fitted the context of three nuclear powers agreeing that they could not have a nuclear incident. Al Jazeera noted that the summit’s statement on reducing nuclear risks contained no firm commitments."
+                },
+                {
+                  "text": "Trump himself sidestepped the question in a briefing on Friday. “I can’t speak to America,” he said, adding that he had “fantastic relationships” with Putin, The Guardian reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Backlash at home and abroad",
+              "blocks": [
+                {
+                  "text": "Senate minority leader Chuck Schumer called Trump’s words “embarrassing, despicable, and quite frankly pathetic”, while Senator Jeanne Shaheen called Putin a war criminal, The Guardian reported. The outgoing Republican congressman Don Bacon accused Trump of “playing footsie” with Putin, according to Al Jazeera."
+                },
+                {
+                  "text": "In Europe, Poland’s prime minister, Donald Tusk, said Putin “is not our friend and will never be”, and Richard Tice, deputy leader of Reform UK, told Sky News it was “a grave mistake”, The Guardian said."
+                }
+              ]
+            },
+            {
+              "subhead": "More outages ahead",
+              "blocks": [
+                {
+                  "text": "Clayton was also asked about the recent run of technology outages across the United States. He said Americans should expect more disruption as companies and government agencies replace ageing systems. “As part of that ongoing upgrade, we are going to have glitches, gaps, interruptions in service. That is going to happen,” he told CNN, according to The Guardian."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Trump–Putin–Xi meeting",
+              "value": "19 Nov",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Nuclear powers at the meeting",
+              "value": "3",
+              "source": "Jay Clayton, via The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Shenzhen",
+            "lat": 22.54,
+            "lon": 114.06,
+            "region": "Guangdong, China"
+          }
+        },
+        "tr": {
+          "shortTitle": "İstihbarat şefi Trump’ın “dost” sözünü savundu",
+          "title": "ABD istihbarat şefi: Trump’ın Putin’e “dost” demesi tamamen yerinde",
+          "summary": {
+            "what": "ABD Ulusal İstihbarat Direktörü Jay Clayton, Donald Trump’ın Şi Cinping’le Şenzen’deki üçlü zirvenin ardından Vladimir Putin’e “dostum” demesini savundu.",
+            "why": "Demokratlar sözleri Amerikan değerlerine ihanet olarak nitelendirdi; Polonya Başbakanı Donald Tusk gibi müttefikler de Putin’in dost olmadığını söyledi.",
+            "next": "Clayton ayrıca şirketler ve kurumlar eskiyen sistemlerini yeniledikçe Amerikalıların daha fazla teknoloji kesintisi beklemesi gerektiğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "“Ona tamamen güveniyorum”",
+              "blocks": [
+                {
+                  "text": "South China Morning Post, The Guardian ve Al Jazeera’nın haberine göre ABD Ulusal İstihbarat Direktörü Jay Clayton pazar günü, Başkan Donald Trump’ın Rusya Devlet Başkanı Vladimir Putin’e dost demesinin “tamamen yerinde” olduğunu söyledi. Clayton, CNN’in State of the Union ve ABC’nin This Week programlarında bu sözler hakkında sıkıştırıldı."
+                },
+                {
+                  "text": "Al Jazeera’ya göre Trump, Putin’i 19 Kasım’da Şenzen’de Asya-Pasifik Ekonomik İşbirliği (APEC) toplantısı marjında Çin Devlet Başkanı Şi Cinping ile yaptıkları, doğrulanmış ilk üçlü görüşmede “dostum” diyerek karşıladı. The Guardian’a göre içeride ve dışarıda tepki çeken Trump, cumartesi günü Putin’le tokalaştığı bir fotoğrafı “Dostum” notuyla paylaşarak geri adım atmadı."
+                },
+                {
+                  "quote": "Başkan, çok zorlu bir dönemde gördüğümüz en büyük dış politika ustası. Üç nükleer gücü bir araya getirip tırmandırmayacakları, iletişim kuracakları konusunda anlaştırmak tarihi bir şey.",
+                  "speaker": "Jay Clayton, ABD Ulusal İstihbarat Direktörü",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "“Ukrayna’da Amerika’nın dostu değil”",
+              "blocks": [
+                {
+                  "text": "ABC’den Jonathan Karl’ın Putin’in Amerika’nın dostu olup olmadığı sorusuna Clayton bir sınır çizdi. Al Jazeera ve The Guardian’ın aktardığına göre “Ukrayna’da Amerika’nın dostu değil. Hiç değil. Hiç değil” dedi. Clayton, kelimenin üç nükleer gücün nükleer bir olaya izin veremeyecekleri konusunda uzlaştığı bağlamda yerinde olduğunu söyledi. Al Jazeera, zirvenin nükleer riskleri azaltmaya ilişkin bildirisinde somut bir taahhüt bulunmadığını hatırlattı."
+                },
+                {
+                  "text": "The Guardian’a göre Trump da cuma günkü bir brifingde soruyu geçiştirmiş, “Amerika adına konuşamam” diyerek Putin’le “harika ilişkileri” olduğunu söylemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "İçeride ve dışarıda tepki",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Senato’daki azınlık lideri Chuck Schumer, Trump’ın sözlerini “utanç verici, aşağılık ve açıkçası zavallıca” diye nitelendirdi; Senatör Jeanne Shaheen de Putin’in bir savaş suçlusu olduğunu söyledi. Al Jazeera’ya göre görevi bırakacak Cumhuriyetçi temsilci Don Bacon da Trump’ı Putin’le “cilveleşmekle” suçladı."
+                },
+                {
+                  "text": "Avrupa’da Polonya Başbakanı Donald Tusk, Putin’in “dostumuz değil, hiçbir zaman da olmayacak” dedi; The Guardian’a göre Reform UK’nin başkan yardımcısı Richard Tice da Sky News’e bunun “ciddi bir hata” olduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Daha çok kesinti kapıda",
+              "blocks": [
+                {
+                  "text": "Clayton’a ABD’de son dönemde art arda yaşanan teknoloji kesintileri de soruldu. Clayton, şirketler ve devlet kurumları eskiyen sistemlerini yeniledikçe Amerikalıların daha fazla aksaklık beklemesi gerektiğini söyledi. The Guardian’ın aktardığına göre CNN’e “Süren bu yenilemenin parçası olarak arızalar, boşluklar, hizmet kesintileri yaşayacağız. Bu olacak” dedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Trump-Putin-Şi görüşmesi",
+              "value": "19 Kasım",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Görüşmedeki nükleer güç",
+              "value": "3",
+              "source": "Jay Clayton, The Guardian’ın aktardığı"
+            }
+          ],
+          "place": {
+            "name": "Şenzen",
+            "lat": 22.54,
+            "lon": 114.06,
+            "region": "Guangdong, Çin"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-22T19:42:04.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-22T20:55:33.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-22T20:55:33.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T02:23:13.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375403/us-intelligence-chief-says-trumps-friend-label-putin-entirely-appropriate",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/us-intelligence-chief-defends-trumps-comments-calling-putin-his?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00+03:00",
+      "updatedAt": "2026-11-23T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "4424eaa0e33d14eb",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How far is Istanbul’s daytime high expected to fall from Monday to Tuesday?",
+          "options": ["From 20°C to 15°C", "From 20°C to 8°C", "From 15°C to 3°C"]
+        },
+        "tr": {
+          "question": "İstanbul’da gündüz sıcaklığının pazartesiden salıya ne kadar düşmesi bekleniyor?",
+          "options": [
+            "20 dereceden 15 dereceye",
+            "20 dereceden 8 dereceye",
+            "15 dereceden 3 dereceye"
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "bdaf95ac5da73ee9",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Which senator wants Bessent and Lutnick to testify under oath about Nvidia chips reaching China?",
+          "options": ["Chuck Schumer", "Jeanne Shaheen", "John Kennedy"]
+        },
+        "tr": {
+          "question": "Hangi senatör, Nvidia çiplerinin Çin’e ulaşması konusunda Bessent ve Lutnick’in yeminli ifade vermesini istiyor?",
+          "options": ["Chuck Schumer", "Jeanne Shaheen", "John Kennedy"]
+        }
+      }
+    },
+    {
+      "storyId": "df13f0ed80d7ba7e",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Apart from Türkiye, how many countries’ navies have chosen ASELSAN’s GÖKDENİZ?",
+          "options": ["Six", "Two", "Eleven"]
+        },
+        "tr": {
+          "question": "Türkiye dışında kaç ülkenin donanması ASELSAN’ın GÖKDENİZ sistemini tercih etti?",
+          "options": ["Altı", "İki", "On bir"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910037",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "ours": false,
+        "team": "portland-trail-blazers"
+      },
+      "startsAt": "2026-11-24T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910037"
+      }
+    },
+    {
+      "id": "espn-401910043",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "ours": false,
+        "team": "la-clippers"
+      },
+      "startsAt": "2026-11-24T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910043"
+      }
+    }
+  ]
+}
