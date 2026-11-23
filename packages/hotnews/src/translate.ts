@@ -153,7 +153,7 @@ function requestsFor(story: HotStory): TranslationRequest[] {
 export interface TranslateFeedOptions {
   readonly translate: Translate;
   /** The last published feed, whose translations are reused. */
-  readonly previous?: HotFeed;
+  readonly previous?: HotFeed | undefined;
   readonly keepTerms?: readonly string[];
 }
 
