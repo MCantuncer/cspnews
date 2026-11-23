@@ -1321,5 +1321,71 @@
         }
       }
     }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910037",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "ours": false,
+        "team": "portland-trail-blazers"
+      },
+      "startsAt": "2026-11-24T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910037"
+      }
+    },
+    {
+      "id": "espn-401910043",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "ours": false,
+        "team": "la-clippers"
+      },
+      "startsAt": "2026-11-24T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910043"
+      }
+    }
   ]
 }
