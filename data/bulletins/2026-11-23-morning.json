@@ -209,7 +209,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0305b68c01a1364d06b1c3.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0305b68c01a1364d06b1c3.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-fon-sorusturmasi-ile-ilgili-merak-edilen-her-detayi-acikladi-43387219"
@@ -275,7 +275,6 @@
         "en": {
           "shortTitle": "HGS debt cases under investigation",
           "title": "Prosecutors investigate claims HGS toll debts were used for unjust gain",
-          "news": "Istanbul prosecutors have opened a criminal investigation into claims that HGS toll-debt enforcement was used for unjust gain.",
           "summary": {
             "what": "Istanbul prosecutors have opened an investigation into claims that enforcement cases over unpaid HGS tolls were turned into a source of unjust profit.",
             "why": "Drivers say small toll debts they were never told about grew into large ones; a late payer can owe the toll plus four times its amount.",
@@ -344,12 +343,12 @@
               "value": "22 Nov",
               "source": "Justice Minister Gürlek"
             }
-          ]
+          ],
+          "news": "Istanbul prosecutors have opened a criminal investigation into claims that HGS toll-debt enforcement was used for unjust gain."
         },
         "tr": {
           "shortTitle": "HGS icralarına soruşturma açıldı",
           "title": "HGS icra takipleriyle haksız kazanç iddiasına soruşturma",
-          "news": "İstanbul Cumhuriyet Başsavcılığı, HGS icra takipleriyle haksız kazanç sağlandığı iddialarına soruşturma başlattı.",
           "summary": {
             "what": "İstanbul Cumhuriyet Başsavcılığı, HGS borçları üzerinden başlatılan icra takipleriyle haksız kazanç sağlandığı iddialarına soruşturma açtı.",
             "why": "Sürücüler, bildirim almadıkları küçük geçiş borçlarının büyüdüğünü söylüyor; 45 gün ödenmeyen geçişte ücretin dört katı ceza ekleniyor.",
@@ -416,7 +415,8 @@
               "value": "22 Kasım",
               "source": "Adalet Bakanı Gürlek"
             }
-          ]
+          ],
+          "news": "İstanbul Cumhuriyet Başsavcılığı, HGS icra takipleriyle haksız kazanç sağlandığı iddialarına soruşturma başlattı."
         }
       },
       "timeline": [
@@ -1745,6 +1745,138 @@
           "question": "Demokratlar ABD ara seçimlerinde Temsilciler Meclisi’nde şimdiye kadar kaç sandalye kazandı?",
           "options": ["218", "En az 258", "173"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401875001",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Serie A",
+        "tr": "Serie A"
+      },
+      "home": {
+        "name": "Atalanta",
+        "ours": false,
+        "team": "atalanta"
+      },
+      "away": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "startsAt": "2026-11-22T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ita.1/401875001"
+      },
+      "scorers": [
+        {
+          "side": "away",
+          "name": "Pio Esposito",
+          "minutes": ["16'", "32'", "52'"]
+        },
+        {
+          "side": "home",
+          "name": "Eljif Elmas",
+          "minutes": ["35'"]
+        },
+        {
+          "side": "home",
+          "name": "Charles De Ketelaere",
+          "minutes": ["72'", "80'"]
+        },
+        {
+          "side": "away",
+          "name": "Petar Sucic",
+          "minutes": ["76'"],
+          "penalty": true
+        }
+      ],
+      "result": {
+        "home": 4,
+        "away": 4
+      },
+      "lines": [
+        {
+          "person": "hakan-calhanoglu",
+          "goals": 0,
+          "assists": 0,
+          "minutes": 33
+        }
+      ]
+    },
+    {
+      "id": "espn-401910037",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "ours": false,
+        "team": "portland-trail-blazers"
+      },
+      "startsAt": "2026-11-24T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910037"
+      }
+    },
+    {
+      "id": "espn-401910043",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "ours": false,
+        "team": "la-clippers"
+      },
+      "startsAt": "2026-11-24T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910043"
       }
     }
   ]
