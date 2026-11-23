@@ -2,6 +2,7 @@
 import type { InterfaceLanguage } from '../lib/evidence';
 import { wordsFor } from '../lib/i18n';
 import { localePath } from '../lib/locale';
+import { currentPlace, placeLinks } from '../lib/places';
 import ReaderCorner from './ReaderCorner.astro';
 import Icon from './ui/Icon.astro';
 
@@ -39,6 +40,10 @@ const {
   inSettings = false,
 } = Astro.props;
 const words = wordsFor(lang);
+const here = currentPlace(Astro.url.pathname);
+const places = placeLinks(lang);
+// While a reader is inside a bulletin or story, the day line shows their progress instead.
+const showPlaces = progress === undefined;
 const position = progress === undefined ? undefined : Math.min(1, Math.max(0, progress));
 ---
 
@@ -68,8 +73,30 @@ const position = progress === undefined ? undefined : Math.min(1, Math.max(0, pr
           </p>
         ))
     }
+    {
+      showPlaces && (
+        <nav class="places wide" aria-label={words.places}>
+          {places.map((place) => (
+            <a href={place.href} aria-current={place.key === here ? 'page' : undefined}>
+              {place.label}
+            </a>
+          ))}
+        </nav>
+      )
+    }
     <ReaderCorner lang={lang} inSettings={inSettings} />
   </div>
+  {
+    showPlaces && (
+      <nav class="places narrow" aria-label={words.places}>
+        {places.map((place) => (
+          <a href={place.href} aria-current={place.key === here ? 'page' : undefined}>
+            {place.label}
+          </a>
+        ))}
+      </nav>
+    )
+  }
   <div
     class="dayline"
     aria-hidden="true"
@@ -203,5 +230,69 @@ const position = progress === undefined ? undefined : Math.min(1, Math.max(0, pr
     height: 6px;
     border-radius: 1px;
     background: var(--hour);
+  }
+  /* Where to go: News, Music, Word. Beside the bar on wide screens; on phones its own row, the
+     current place underlined on the day line. */
+  .places {
+    display: flex;
+    gap: 24px;
+  }
+
+  .places a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--meta);
+    font: 500 15px / 1 var(--f-body);
+    text-decoration: none;
+  }
+
+  .places a:hover {
+    color: var(--ink);
+  }
+
+  .places a[aria-current='page'] {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .narrow {
+    position: relative;
+    z-index: 1;
+    margin: -6px 0 -1px;
+  }
+
+  .narrow a {
+    min-height: 40px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .narrow a[aria-current='page'] {
+    border-color: var(--ink);
+  }
+
+  .wide {
+    display: none;
+  }
+
+  @media (width >= 900px) {
+    .narrow {
+      display: none;
+    }
+
+    .wide {
+      display: flex;
+      margin-left: auto;
+    }
+
+    .wide a[aria-current='page'] {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 8px;
+    }
+
+    .bar:has(.wide) :global(.rc-button) {
+      margin-left: 12px;
+    }
   }
 </style>
