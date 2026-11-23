@@ -4,7 +4,7 @@ A daily music edition beside the news bulletin, asked for by Can on 2026-11-23: 
 
 ## The page
 
-`/music` (Turkish `/tr/music`) shows the latest edition; `/music/<date>` keeps each day. It is the Contents screen again: the title in the headline face, one meta line with the date, the song count and the length ("Monday 23 November, 18:30. 15 songs in three genres, about 55 minutes."), a **Play all 15** line in the place of "In one minute", then the three genres as stations on the day line. The page ends with "End of today's music. Next at 18:30 tomorrow."
+`/music` (Turkish `/tr/music`) shows the latest edition; `/music/<date>` keeps each day. It is the Contents screen again: the title in the headline face, one meta line with the date, the song count and the length ("Monday 23 November, 22:45. 15 songs in three genres, about 70 minutes."), a **Play all 15** line in the place of "In one minute", then the three genres as stations on the day line. The page ends with "End of today's music. A new five in each genre every evening."
 
 Genre colours, each a section hue in both themes: Hip-hop, global in gold (`--gen-global`, #e3b45c dark, #7a5600 light), Türkçe rap in coral (`--gen-turkey`, the Türkiye hue), Techno in steel blue (`--gen-techno`, #7fbccb dark, #1d5f71 light). Genre marks are Stations-style line icons: a globe, a microphone, a waveform. The techno station reads "up to 134 BPM" where the others read "5 songs".
 
@@ -12,7 +12,7 @@ From 1100px the three genres stand as three columns under one hairline, each hea
 
 ## A song row
 
-Cover art (56px on phones, 64px from 1100px, 10px corners, no shadow), the title in the headline face, the artists in the meta colour, and a 44px round play button in the genre colour. Under it, the reason: its mark and kind in the genre colour ("Out today.", "Climbing.", "Old song, big again.", "All-time favourite.") followed by the one line with the numbers. Last, a small meta line: the tempo for techno ("**130** BPM"), then "Full song on SoundCloud, 3:12", or "30-second preview" with links to Spotify and YouTube; and a keep button (a bookmark outline, filled once kept).
+Cover art (56px on phones, 64px from 1100px, 10px corners, no shadow), the title in the headline face, the artists in the meta colour, and a 44px round play button in the genre colour. Under it, the reason: its mark and kind in the genre colour ("New.", "Climbing.", "Old song, big again.", "All-time favourite.") followed by the one line with the numbers. Last, a small meta line: the tempo for techno ("**130** BPM"), then "Full song on SoundCloud, 3:12", or "30-second preview" with "Full song:" links to Spotify, Apple Music and Beatport (where the edition has them); and a keep button (a bookmark outline, filled once kept).
 
 Reason marks: a plus in a ring for new, a climbing line for climbing, a turning arrow for back, a ring with a dot (a record) for all-time.
 
@@ -32,7 +32,7 @@ Every pick is kept: `/music/crate` lists them all, newest day first, filterable 
 | Hip-hop, global       | Hip-hop, dünya               |
 | Türkçe rap            | Türkçe rap                   |
 | Techno, up to 134 BPM | Techno, en fazla 134 BPM     |
-| Out today             | Bugün çıktı                  |
+| New                   | Yeni                         |
 | Climbing              | Yükselişte                   |
 | Old song, big again   | Eski şarkı, yeniden gündemde |
 | All-time favourite    | Tüm zamanların favorisi      |

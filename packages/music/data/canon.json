@@ -237,7 +237,8 @@
     "standing": {
       "kind": "editor",
       "note": "Richie Hawtin's drum workout."
-    }
+    },
+    "bpm": 126
   },
   {
     "genre": "techno",
@@ -247,17 +248,19 @@
     "standing": {
       "kind": "editor",
       "note": "The rolling bass line of mid-2000s techno."
-    }
+    },
+    "bpm": 129
   },
   {
     "genre": "techno",
     "title": "Rainbow Delta",
     "artists": ["Len Faki"],
-    "year": 2008,
+    "year": 2007,
     "standing": {
       "kind": "editor",
       "note": "Ostgut Ton era peak-time record."
-    }
+    },
+    "bpm": 129
   },
   {
     "genre": "techno",
@@ -267,7 +270,8 @@
     "standing": {
       "kind": "editor",
       "note": "Berghain record that fills a floor without shouting."
-    }
+    },
+    "bpm": 125
   },
   {
     "genre": "techno",
@@ -277,7 +281,8 @@
     "standing": {
       "kind": "editor",
       "note": "Techno with a saxophone that still works on a floor."
-    }
+    },
+    "bpm": 132
   },
   {
     "genre": "techno",
@@ -287,6 +292,7 @@
     "standing": {
       "kind": "editor",
       "note": "Drumcode's big-room peak-time record."
-    }
+    },
+    "bpm": 126
   }
 ]

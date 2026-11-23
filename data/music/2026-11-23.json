@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-23",
+  "publishAt": "2026-11-23T22:45:00+03:00",
+  "genres": {
+    "global": [
+      {
+        "id": "yfn-lucci-i-just-realized",
+        "title": "I just realized.",
+        "artists": ["YFN Lucci", "Rod Wave", "Future"],
+        "released": "2026-11-19",
+        "kind": "new",
+        "reason": {
+          "en": "Out 4 days ago, with Future as a guest, and already number 68 on Apple Music US.",
+          "tr": "4 gün önce çıktı, konuğu Future; Apple Music ABD'de şimdiden 68. sırada."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 68,
+            "chart": "Apple Music US most played",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
+          }
+        ],
+        "duration": 326,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/79/03/037903d0-d385-3dfb-e867-e10abf280f78/075679546210.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/93/61/66936177-715e-462a-71d9-54237faa1f68/mzaf_11380581869422889088.plus.aac.p.m4a",
+          "appleMusic": "https://music.apple.com/us/album/i-just-realized-feat-future/6834596383?i=6834596541",
+          "spotify": "https://open.spotify.com/search/YFN%20Lucci%20Rod%20Wave%20I%20just%20realized"
+        }
+      },
+      {
+        "id": "don-toliver-party-with-the-boys",
+        "title": "Party With The Boys",
+        "artists": ["Don Toliver"],
+        "released": "2026-10-29",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 13 places to number 152 on Spotify US, 10 days into its chart run.",
+          "tr": "Spotify ABD'de 13 basamak çıkıp 152. sıraya yükseldi; listedeki 10. gününde."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 152,
+            "chart": "Spotify US daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 165,
+            "chart": "Spotify US daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html",
+            "before": "2026-11-21"
+          },
+          {
+            "source": "spotify",
+            "metric": "daysOnChart",
+            "value": 10,
+            "chart": "Spotify US daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          }
+        ],
+        "duration": 155,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/64/bd/8564bd8e-91f4-e197-ea6b-277d3e942215/075679549990.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/28/d7/e328d703-036e-fccc-3abc-9f764891d712/mzaf_15152304615599710094.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/5d2Sj3lMKJFefwU26GInQu",
+          "appleMusic": "https://music.apple.com/us/album/party-with-the-boys/6834171321?i=6834171328"
+        }
+      },
+      {
+        "id": "mac-miller-cinderella",
+        "title": "Cinderella",
+        "artists": ["Mac Miller", "Ty Dolla $ign"],
+        "released": "2016-09-16",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2016 and climbing again: number 42 on Spotify US with 416,172 plays in a day, and 53 worldwide.",
+          "tr": "2016'da çıktı ve yeniden yükseliyor: Spotify ABD'de 42. sırada, bir günde 416.172 dinlenme; dünyada 53."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 42,
+            "chart": "Spotify US daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 48,
+            "chart": "Spotify US daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html",
+            "before": "2026-11-21"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 416172,
+            "chart": "Spotify US daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 53,
+            "chart": "Spotify Global daily, 22 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/global_daily.html"
+          }
+        ],
+        "duration": 480,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/22/09/66220922-80bd-7758-f9ab-601dcfae9077/mzaf_17552938916380030049.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/2lpygKqzPFtItQ4ss3cgfb",
+          "appleMusic": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332"
+        }
+      },
+      {
+        "id": "lil-baby-freestyle",
+        "title": "Freestyle",
+        "artists": ["Lil Baby"],
+        "released": "2017-12-01",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2017, and still number 9 on Apple Music US today.",
+          "tr": "2017'de çıktı; bugün Apple Music ABD'de hâlâ 9. sırada."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 9,
+            "chart": "Apple Music US most played",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
+          }
+        ],
+        "duration": 162,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/e7/aa/93e7aa59-da8b-15bc-2992-5803f70fe8fa/17UM1IM55478.rgb.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/2e/9b/e52e9bd5-761a-8665-542b-c7391e5c0f6c/mzaf_17420079795001025422.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Lil%20Baby%20Freestyle",
+          "appleMusic": "https://music.apple.com/us/album/freestyle/1440928174?i=1440929293"
+        }
+      },
+      {
+        "id": "nas-n-y-state-of-mind",
+        "title": "N.Y. State of Mind",
+        "artists": ["Nas"],
+        "released": "1994-04-19",
+        "kind": "alltime",
+        "reason": {
+          "en": "From Illmatic, 1994: the opening track, and still a lesson in rhyming.",
+          "tr": "Illmatic, 1994: albümün açılışı, hâlâ bir kafiye dersi."
+        },
+        "evidence": [],
+        "duration": 294,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b9/eb/cc/b9ebccbc-5ba4-2cdb-5332-b065739abd9a/886444567619.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/74/b2/5974b206-28f9-0444-76f1-833bc416d4fb/mzaf_869709703522937445.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Nas%20N.Y.%20State%20of%20Mind",
+          "appleMusic": "https://music.apple.com/us/album/n-y-state-of-mind/856131729?i=856131732"
+        }
+      }
+    ],
+    "turkey": [
+      {
+        "id": "uzi-hirsiz",
+        "title": "Hırsız",
+        "artists": ["UZI"],
+        "released": "2026-11-20",
+        "kind": "new",
+        "reason": {
+          "en": "Out 3 days ago: number 24 on Spotify Türkiye with 212,626 plays in a day, and 26 on Apple Music.",
+          "tr": "3 gün önce çıktı: Spotify Türkiye'de 24. sırada, bir günde 212.626 dinlenme; Apple Music'te 26."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 24,
+            "chart": "Spotify Türkiye daily, 21 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 212626,
+            "chart": "Spotify Türkiye daily, 21 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 26,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          }
+        ],
+        "duration": 159,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/79/7f/7f797f3a-4936-8994-116f-fc076184c54d/26UM1IM42566.rgb.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/9e/61/379e6143-2e96-a566-1f88-46654eb61a04/mzaf_17324993946329251888.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/0ad9Ly0vVZlxMDFWdNYKAg",
+          "appleMusic": "https://music.apple.com/tr/album/h%C4%B1rs%C4%B1z/6830265968?i=6830265971"
+        }
+      },
+      {
+        "id": "wegh-omerhayyam",
+        "title": "ÖMERHAYYAM",
+        "artists": ["Wegh"],
+        "released": "2026-11-13",
+        "kind": "new",
+        "reason": {
+          "en": "Out 10 days ago: number 21 on Spotify Türkiye with 229,521 plays in a day, and 39 on Apple Music.",
+          "tr": "10 gün önce çıktı: Spotify Türkiye'de 21. sırada, bir günde 229.521 dinlenme; Apple Music'te 39."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 21,
+            "chart": "Spotify Türkiye daily, 21 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 229521,
+            "chart": "Spotify Türkiye daily, 21 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 39,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          }
+        ],
+        "duration": 139,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/7c/ea/b17cea89-2aaf-6a08-ec67-9ce283437c81/cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/02/0e/0c020e35-4db3-dbf5-71bd-60d2837cbf5c/mzaf_2129284977356041206.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/0MCEEI8LCEUJKi4apujvff",
+          "appleMusic": "https://music.apple.com/tr/album/%C3%B6merhayyam/6833086836?i=6833086837"
+        }
+      },
+      {
+        "id": "poizi-basimda-belalar",
+        "title": "Başımda Belalar",
+        "artists": ["Poizi"],
+        "released": "2026-07-10",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 8 places in a day to number 28 on Spotify Türkiye.",
+          "tr": "Spotify Türkiye'de bir günde 8 basamak çıkıp 28. sıraya yükseldi."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 28,
+            "chart": "Spotify Türkiye daily, 21 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 36,
+            "chart": "Spotify Türkiye daily, 21 November",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html",
+            "before": "2026-11-20"
+          }
+        ],
+        "duration": 171,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/b0/f6/69b0f6d3-162d-739f-2d62-d768aeaa24b3/cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/3f/7a/af3f7ab2-0a15-bc8a-7bc2-244508ce011b/mzaf_9748389089380110953.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/78wzqnO4Ixrb4o1CAd4YZN",
+          "appleMusic": "https://music.apple.com/tr/album/ba%C5%9F%C4%B1mda-belalar/6788430262?i=6788430267"
+        }
+      },
+      {
+        "id": "blok3-sevmeyi-denemedin",
+        "title": "SEVMEYİ DENEMEDİN",
+        "artists": ["BLOK3"],
+        "released": "2024-09-13",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2024, and still number 28 on Apple Music Türkiye.",
+          "tr": "2024'te çıktı; Apple Music Türkiye'de hâlâ 28. sırada."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 28,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          }
+        ],
+        "duration": 173,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/16/59/c91659c0-c1c1-9bd3-a6ee-a935ef58b5f7/cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/ae/1e/d5ae1e41-d64f-1b4e-6932-472f04550a18/mzaf_12301833886926500501.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/BLOK3%20SEVMEYİ%20DENEMEDİN",
+          "appleMusic": "https://music.apple.com/tr/album/sevmeyi-denemedi-n/1767436720?i=1767437103"
+        }
+      },
+      {
+        "id": "ceza-holocaust",
+        "title": "Holocaust",
+        "artists": ["Ceza"],
+        "released": "2004-01-15",
+        "kind": "alltime",
+        "reason": {
+          "en": "From Rapstar, 2004: the speed verse every Turkish rapper is still measured against.",
+          "tr": "Rapstar, 2004: Türkçe rapte hız denince hâlâ ilk akla gelen kıta."
+        },
+        "evidence": [],
+        "duration": 208,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f3/af/e2/f3afe2f1-c179-a0ce-347e-5431d7400305/cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/c1/12/4ac11238-0d49-eb20-1e49-d417f6b6fcc7/mzaf_10529254164077789077.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Ceza%20Holocaust",
+          "appleMusic": "https://music.apple.com/tr/album/holocaust/1189656814?i=1189656832"
+        }
+      }
+    ],
+    "techno": [
+      {
+        "id": "drunken-kong-dark-days",
+        "title": "Dark Days",
+        "artists": ["Drunken Kong"],
+        "isrc": "FRX872685909",
+        "released": "2026-11-13",
+        "kind": "new",
+        "reason": {
+          "en": "Out 10 days ago and already number 11 on Beatport's Peak Time / Driving chart.",
+          "tr": "10 gün önce çıktı; Beatport Peak Time / Driving listesinde şimdiden 11. sırada."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 11,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          }
+        ],
+        "bpm": {
+          "value": 134,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/dark-days/31063997"
+        },
+        "duration": 330,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/e8/e6/79e8e627-136c-ea3c-c79a-a239862abe6f/cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/58/f6/1158f685-009b-afad-81a1-ef1047e6cece/mzaf_8255569410163060198.plus.aac.p.m4a",
+          "beatport": "https://www.beatport.com/track/dark-days/31063997",
+          "spotify": "https://open.spotify.com/search/Drunken%20Kong%20Dark%20Days",
+          "appleMusic": "https://music.apple.com/us/album/dark-days/6824473632?i=6824473639"
+        }
+      },
+      {
+        "id": "yellowheads-cosmic-grid-peak-mode-mix",
+        "title": "Cosmic Grid (Peak Mode Mix)",
+        "artists": ["YellowHeads"],
+        "isrc": "GBLV62615802",
+        "released": "2026-11-20",
+        "kind": "new",
+        "reason": {
+          "en": "Out 3 days ago and already number 37 on Beatport's Peak Time / Driving chart.",
+          "tr": "3 gün önce çıktı; Beatport Peak Time / Driving listesinde şimdiden 37. sırada."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 37,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          }
+        ],
+        "bpm": {
+          "value": 134,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/cosmic-grid/31102954"
+        },
+        "duration": 259,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/40/b7/e640b77d-32d3-2e07-45d9-b0fe6d7528fe/cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/e2/4e/e8e24e40-e09c-0ead-9179-6c80ff1a0402/mzaf_13683671554142756001.plus.aac.p.m4a",
+          "beatport": "https://www.beatport.com/track/cosmic-grid/31102954",
+          "spotify": "https://open.spotify.com/search/YellowHeads%20Cosmic%20Grid",
+          "appleMusic": "https://music.apple.com/us/album/cosmic-grid-peak-mode-mix/6825842145?i=6825842146"
+        }
+      },
+      {
+        "id": "mella-dee-techno-disco-tool",
+        "title": "Techno Disco Tool",
+        "artists": ["Mella Dee"],
+        "isrc": "UK6821735118",
+        "released": "2017-11-17",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2017, and still number 47 on Beatport's Peak Time / Driving chart.",
+          "tr": "2017'de çıktı; Beatport Peak Time / Driving listesinde hâlâ 47. sırada."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 47,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          }
+        ],
+        "bpm": {
+          "value": 130,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/techno-disco-tool/9952073"
+        },
+        "duration": 402,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/24/ec/1524ec91-2fad-5ed9-76a7-4a4460d7508b/190295704919.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/fe/8d/b8fe8db7-d0b0-09dc-9148-f84e14037af2/mzaf_7643004215572194837.plus.aac.p.m4a",
+          "beatport": "https://www.beatport.com/track/techno-disco-tool/9952073",
+          "spotify": "https://open.spotify.com/search/Mella%20Dee%20Techno%20Disco%20Tool",
+          "appleMusic": "https://music.apple.com/us/album/techno-disco-tool/1313393506?i=1313393780"
+        }
+      },
+      {
+        "id": "julian-jeweil-zoulou",
+        "title": "Zoulou",
+        "artists": ["Julian Jeweil"],
+        "isrc": "CAM261280071",
+        "released": "2012-08-29",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2012, and still number 45 on Beatport's Peak Time / Driving chart, 14 years on.",
+          "tr": "2012'de çıktı; 14 yıl sonra Beatport Peak Time / Driving listesinde hâlâ 45. sırada."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 45,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T19:20:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          }
+        ],
+        "bpm": {
+          "value": 125,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/zoulou/3678468"
+        },
+        "duration": 374,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cb/32/a5/cb32a501-2695-ec59-e3cb-94688ebf5121/00815349011798_Cover.jpg/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/04/ac/ae/04acaefb-e8d2-ef41-9cef-315c92c98d30/mzaf_15244047307133387401.plus.aac.p.m4a",
+          "beatport": "https://www.beatport.com/track/zoulou/3678468",
+          "spotify": "https://open.spotify.com/search/Julian%20Jeweil%20Zoulou",
+          "appleMusic": "https://music.apple.com/us/album/zoulou/1486703393?i=1486703404"
+        }
+      },
+      {
+        "id": "adam-beyer-your-mind",
+        "title": "Your Mind",
+        "artists": ["Adam Beyer", "Bart Skils"],
+        "isrc": "GBUR61700227",
+        "released": "2018-06-18",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 2018: a peak-time record big enough that two new remixes of it are in today's Top 100.",
+          "tr": "2018: o kadar büyük bir peak-time kaydı ki iki yeni remiksi bugünkü ilk 100'de."
+        },
+        "evidence": [],
+        "bpm": {
+          "value": 126,
+          "source": "beatport",
+          "url": "https://www.beatport.com/search/tracks?q=Adam%20Beyer%20Bart%20Skils%20Your%20Mind"
+        },
+        "duration": 502,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/0a/4f/f80a4f45-b9a7-6f74-473c-26dde76174fb/5414166696543.png/300x300bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/87/4c/eb874cb1-711c-d17c-2be9-61a3664e6f8c/mzaf_15437467627188504609.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Adam%20Beyer%20Bart%20Skils%20Your%20Mind",
+          "appleMusic": "https://music.apple.com/us/album/your-mind/6803428446?i=6803428606"
+        }
+      }
+    ]
+  }
+}

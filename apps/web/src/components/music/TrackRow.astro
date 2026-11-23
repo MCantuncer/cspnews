@@ -1,0 +1,259 @@
+---
+/**
+ * One song on the day's page (docs/design/decisions/music.md, "A song row"): cover, title,
+ * artists and a play button; the reason with its kind; the tempo for techno, what plays here and
+ * where the full song is; and the keep button. The player reads `data-track`.
+ */
+import MusicIcon from './MusicIcon.astro';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatLength, musicWords, playerTrack } from '../../lib/music';
+import type { Genre, Pick } from '@cspnews/music';
+
+interface Props {
+  lang: InterfaceLanguage;
+  genre: Genre;
+  pick: Pick;
+}
+
+const { lang, genre, pick } = Astro.props;
+const words = musicWords(lang);
+const links = [
+  pick.play.spotify && { name: 'Spotify', href: pick.play.spotify },
+  pick.play.appleMusic && { name: 'Apple Music', href: pick.play.appleMusic },
+  pick.play.beatport && { name: 'Beatport', href: pick.play.beatport },
+].filter((link): link is { name: string; href: string } => Boolean(link));
+---
+
+<article class={`track g-${genre}`} data-track={JSON.stringify(playerTrack(genre, pick))}>
+  <span class="cover">
+    {pick.artwork && <img src={pick.artwork} alt="" width="64" height="64" loading="lazy" decoding="async" onerror="this.remove()" />}
+  </span>
+  <div class="hd">
+    <h3 class="t">{pick.title}</h3>
+    <p class="a">{pick.artists.join(', ')}</p>
+  </div>
+  <button class="play" type="button" data-play aria-label={words.play(pick.title)} aria-pressed="false">
+    <MusicIcon name="play" size={20} />
+  </button>
+  <p class="why">
+    <span class="kind"><MusicIcon name={pick.kind} size={16} />{words.kind[pick.kind]}.</span>
+    {pick.reason[lang]}
+  </p>
+  <p class="src">
+    {
+      pick.bpm && (
+        <span>
+          <b>{String(pick.bpm.value)}</b> BPM
+        </span>
+      )
+    }
+    {
+      pick.play.soundcloud ? (
+        <span>{words.soundcloud(formatLength(pick.duration ?? 0))}</span>
+      ) : (
+        <span>{words.preview}</span>
+      )
+    }
+    {
+      links.length > 0 && (
+        <span class="out">
+          {words.fullSong}:{' '}
+          {links.map((link, index) => (
+            <>
+              {index > 0 && ', '}
+              <a href={link.href} target="_blank" rel="noopener noreferrer">
+                {link.name}
+              </a>
+            </>
+          ))}
+        </span>
+      )
+    }
+  </p>
+  <button class="keep" type="button" data-keep={pick.id} aria-label={words.keep(pick.title)} aria-pressed="false">
+    <MusicIcon name="keep" size={20} />
+  </button>
+</article>
+
+<style>
+  .track {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+      'cover hd play'
+      'why why why'
+      'src src keep';
+    grid-template-columns: 56px minmax(0, 1fr) 44px;
+    column-gap: 14px;
+    align-items: start;
+    padding: 14px 0 20px;
+  }
+
+  /* The branch from the genre's line to the song. */
+  .track::before {
+    position: absolute;
+    top: 42px;
+    left: -35px;
+    width: 16px;
+    height: 2px;
+    background: var(--g);
+    content: '';
+  }
+
+  .cover {
+    grid-area: cover;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--g) 18%, var(--surf));
+  }
+
+  .cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hd {
+    grid-area: hd;
+    align-self: center;
+    min-width: 0;
+  }
+
+  .t {
+    color: var(--ink);
+    font: 700 19px / 1.2 var(--f-head);
+    letter-spacing: -0.01em;
+    overflow-wrap: anywhere;
+  }
+
+  .a {
+    margin-top: 3px;
+    color: var(--meta);
+    font: 400 15px / 1.35 var(--f-body);
+  }
+
+  .play,
+  .keep {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .play {
+    grid-area: play;
+    margin-top: 6px;
+    border: 1.5px solid var(--g);
+    background: none;
+    color: var(--g);
+  }
+
+  .play:hover,
+  .track[data-now] .play {
+    background: var(--g);
+    color: var(--bg);
+  }
+
+  .why {
+    grid-area: why;
+    margin-top: 10px;
+    color: var(--ink2);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+
+  .kind {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 6px;
+    color: var(--g);
+    font-weight: 700;
+  }
+
+  .kind :global(svg) {
+    flex: none;
+  }
+
+  .src {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: src;
+    align-self: center;
+    gap: 4px 16px;
+    margin-top: 8px;
+    color: var(--meta);
+    font: 400 14px / 1.45 var(--f-body);
+  }
+
+  .src b {
+    color: var(--ink);
+    font: 700 15px / 1 var(--f-head);
+  }
+
+  .src a {
+    color: var(--meta);
+    text-decoration: underline;
+    text-decoration-color: var(--line2);
+    text-underline-offset: 3px;
+  }
+
+  .src a:hover {
+    color: var(--ink);
+  }
+
+  .keep {
+    grid-area: keep;
+    margin-top: 2px;
+    border: 0;
+    background: none;
+    color: var(--meta);
+  }
+
+  .keep[aria-pressed='true'] {
+    color: var(--g);
+  }
+
+  .keep[aria-pressed='true'] :global(path) {
+    fill: currentColor;
+  }
+
+  @media (width <= 420px) {
+    .track::before {
+      left: -27px;
+      width: 12px;
+    }
+  }
+
+  @media (width >= 1100px) {
+    .track {
+      grid-template-areas:
+        'cover hd play'
+        'cover why keep'
+        'cover src src';
+      grid-template-columns: 64px minmax(0, 1fr) 44px;
+    }
+
+    .track::before {
+      display: none;
+    }
+
+    .cover {
+      width: 64px;
+      height: 64px;
+    }
+
+    .hd {
+      align-self: start;
+    }
+
+    .keep {
+      margin-top: 8px;
+    }
+  }
+</style>

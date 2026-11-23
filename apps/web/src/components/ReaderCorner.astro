@@ -14,6 +14,7 @@ import type { InterfaceLanguage } from '../lib/evidence';
 import { extrasWords } from '../lib/extras';
 import { wordsFor } from '../lib/i18n';
 import { INTERFACE_LANGUAGES, languagePath, localePath } from '../lib/locale';
+import { musicPath, musicWords } from '../lib/music';
 import { savedWords } from '../lib/saved-words';
 import { DEFAULT_THEME, TEXT_SIZES, THEMES } from '../lib/settings';
 
@@ -131,6 +132,10 @@ const sizeLabels = Object.fromEntries(
 
     <a class="rc-more" href={localePath('/saved', lang)}>
       <span>{saved.savedLink}</span>
+      <Icon name="more" size={20} />
+    </a>
+    <a class="rc-more" href={musicPath(lang)}>
+      <span>{musicWords(lang).menu}</span>
       <Icon name="more" size={20} />
     </a>
     <a class="rc-more" href={localePath('/archive', lang)}>

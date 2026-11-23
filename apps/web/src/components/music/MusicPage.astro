@@ -1,0 +1,363 @@
+---
+/**
+ * One day's music (docs/design/decisions/music.md): the Contents screen again, with three genres
+ * as stations on the day line, five songs each, every one with the reason it is here. From
+ * 1100px the genres stand as three columns. One player is docked at the bottom.
+ */
+import Header from '../Header.astro';
+import MusicIcon from './MusicIcon.astro';
+import Player from './Player.astro';
+import TrackRow from './TrackRow.astro';
+import Base from '../../layouts/Base.astro';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatLongDate, formatTime } from '../../lib/format';
+import {
+  GENRES,
+  cratePath,
+  editionMinutes,
+  loadMusic,
+  musicPath,
+  musicWords,
+} from '../../lib/music';
+import type { MusicEdition } from '@cspnews/music';
+
+interface Props {
+  lang: InterfaceLanguage;
+  /** The day to show; the latest edition when left out. */
+  edition?: MusicEdition;
+}
+
+const { lang } = Astro.props;
+const words = musicWords(lang);
+const editions = loadMusic();
+const edition = Astro.props.edition ?? editions[0];
+const count = edition ? GENRES.reduce((sum, genre) => sum + edition.genres[genre].length, 0) : 0;
+const earlier = editions.filter((other) => edition && other.date < edition.date).slice(0, 7);
+const description = edition
+  ? `${formatLongDate(edition.publishAt, lang)}. ${words.meta(count, editionMinutes(edition))}`
+  : words.intro;
+---
+
+<Base title={`${words.title} | CSPNews`} lang={lang} description={description} hour="dusk">
+  <Header lang={lang} bulletinName={words.short} contentsHref={musicPath(lang)} />
+  <main class="music">
+    <h1>{words.title}</h1>
+    {
+      edition ? (
+        <>
+          <p class="meta">
+            {`${formatLongDate(edition.publishAt, lang)}, ${formatTime(edition.publishAt, lang)}. ${words.meta(count, editionMinutes(edition))}`}
+          </p>
+          <button class="play-all" type="button" data-play-all>
+            <span class="ring">
+              <MusicIcon name="play" size={18} />
+            </span>
+            <span>
+              <b>{words.playAll(count)}</b> {words.playAllHint}
+            </span>
+          </button>
+          <p class="note">{words.previews}</p>
+          <a class="crate-link" href={cratePath(lang)}>
+            <MusicIcon name="record" size={18} />
+            <span>{words.crateLink}</span>
+          </a>
+
+          <div class="genres">
+            {GENRES.map((genre) => (
+              <section class={`genre g-${genre}`} aria-labelledby={`genre-${genre}`}>
+                <span class="dot" aria-hidden="true" />
+                <div class="ghead">
+                  <MusicIcon name={genre} size={26} />
+                  <h2 id={`genre-${genre}`}>{words.genre[genre]}</h2>
+                  <span class="n">{genre === 'techno' ? words.bpmRule : words.fiveSongs}</span>
+                </div>
+                {edition.genres[genre].map((pick) => (
+                  <TrackRow lang={lang} genre={genre} pick={pick} />
+                ))}
+              </section>
+            ))}
+            <p class="end">
+              <i aria-hidden="true" />
+              <span>
+                <b>{words.end}</b> {words.endNext}
+              </span>
+            </p>
+          </div>
+
+          {earlier.length > 0 && (
+            <nav class="earlier" aria-label={words.earlier}>
+              <h2>{words.earlier}</h2>
+              <ul>
+                {earlier.map((other) => (
+                  <li>
+                    <a href={musicPath(lang, other.date)}>{formatLongDate(other.publishAt, lang)}</a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+        </>
+      ) : (
+        <p class="meta">{words.noMusic}</p>
+      )
+    }
+  </main>
+  <Player lang={lang} />
+</Base>
+
+<style>
+  .music {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 36px var(--gutter) 140px;
+  }
+
+  h1 {
+    font: 800 34px / 1.1 var(--f-head);
+    letter-spacing: -0.03em;
+  }
+
+  .meta {
+    max-width: 44ch;
+    margin-top: 10px;
+    color: var(--meta);
+    font: 400 17px / 1.5 var(--f-body);
+  }
+
+  .play-all {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 24px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--ink2);
+    font: 400 17px / 1.4 var(--f-body);
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .play-all b {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .ring {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1.5px solid var(--ink);
+    border-radius: 50%;
+    color: var(--ink);
+  }
+
+  .play-all:hover .ring {
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  .note {
+    max-width: 60ch;
+    margin-top: 10px;
+    color: var(--meta2);
+    font: 400 14px / 1.5 var(--f-body);
+  }
+
+  .crate-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    margin-top: 4px;
+    color: var(--meta);
+    font: 500 15px / 1.3 var(--f-body);
+    text-decoration: underline;
+    text-decoration-color: var(--line2);
+    text-underline-offset: 3px;
+  }
+
+  .crate-link:hover {
+    color: var(--ink);
+  }
+
+  .genres {
+    position: relative;
+    margin-top: 36px;
+  }
+
+  .genre {
+    position: relative;
+    padding: 0 0 28px 44px;
+  }
+
+  .g-global {
+    --g: var(--gen-global);
+  }
+
+  .g-turkey {
+    --g: var(--gen-turkey);
+  }
+
+  .g-techno {
+    --g: var(--gen-techno);
+  }
+
+  /* The genres sit on the day line like stations; each track hangs off it. */
+  .genre::before {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 9px;
+    width: 2px;
+    background: var(--g);
+    content: '';
+  }
+
+  .dot {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--g);
+  }
+
+  .ghead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 12px;
+    margin-bottom: 14px;
+    color: var(--g);
+  }
+
+  .ghead :global(svg) {
+    flex: none;
+  }
+
+  .ghead h2 {
+    color: var(--g);
+    font: 800 26px / 1.15 var(--f-head);
+    letter-spacing: -0.02em;
+  }
+
+  .ghead .n {
+    color: var(--meta);
+    font: 400 15px / 1.3 var(--f-body);
+    white-space: nowrap;
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: var(--meta);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+
+  .end i {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--line2);
+    border-radius: 50%;
+  }
+
+  .end b {
+    color: var(--ink);
+    font: 700 16px / 1.4 var(--f-head);
+  }
+
+  .earlier {
+    max-width: var(--measure);
+    margin-top: 48px;
+  }
+
+  .earlier h2 {
+    color: var(--meta);
+    font: 700 14px / 1.3 var(--f-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .earlier ul {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .earlier a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    font: 500 16px / 1.3 var(--f-body);
+    text-decoration: none;
+  }
+
+  @media (width <= 420px) {
+    .genre {
+      padding-left: 34px;
+    }
+
+    .genre::before {
+      left: 7px;
+    }
+
+    .dot {
+      top: 10px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .ghead h2 {
+      font-size: 24px;
+    }
+
+    .ghead .n {
+      flex-basis: 100%;
+      margin-left: 38px;
+    }
+  }
+
+  @media (width >= 1100px) {
+    h1 {
+      font-size: 48px;
+    }
+
+    .genres {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 48px;
+      margin-top: 44px;
+      padding-top: 32px;
+      border-top: 1px solid var(--line);
+    }
+
+    .genre {
+      padding-left: 0;
+    }
+
+    .genre::before,
+    .dot {
+      display: none;
+    }
+
+    .ghead {
+      margin-bottom: 6px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--g);
+    }
+
+    .end {
+      grid-column: 1 / -1;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+  }
+</style>

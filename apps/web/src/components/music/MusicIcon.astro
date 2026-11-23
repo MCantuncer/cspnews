@@ -1,0 +1,27 @@
+---
+/**
+ * Music marks, drawn like the Stations icons (24 grid, 1.75 line): the three genres, the four
+ * reason kinds, and the player's controls (docs/design/decisions/music.md).
+ */
+import { MUSIC_ICONS, type MusicIconName } from '../../lib/music-icons';
+
+interface Props {
+  name: MusicIconName;
+  size?: number;
+}
+
+const { name, size = 24 } = Astro.props;
+---
+
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  set:html={MUSIC_ICONS[name]}
+/>

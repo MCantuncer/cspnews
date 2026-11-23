@@ -88,6 +88,9 @@ importers:
       '@cspnews/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@cspnews/music':
+        specifier: workspace:*
+        version: link:../../packages/music
       '@cspnews/wordgame':
         specifier: workspace:*
         version: link:../../packages/wordgame

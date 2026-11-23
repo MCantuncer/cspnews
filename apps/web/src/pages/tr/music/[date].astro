@@ -1,0 +1,14 @@
+---
+/** One day's music, Türkçe, kept at /tr/music/<date>. */
+import MusicPage from '../../../components/music/MusicPage.astro';
+import { loadMusic } from '../../../lib/music';
+import type { MusicEdition } from '@cspnews/music';
+
+export function getStaticPaths() {
+  return loadMusic().map((edition) => ({ params: { date: edition.date }, props: { edition } }));
+}
+
+const { edition } = Astro.props as { edition: MusicEdition };
+---
+
+<MusicPage lang="tr" edition={edition} />

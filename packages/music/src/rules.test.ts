@@ -74,9 +74,9 @@ describe('music edition check', () => {
     ]);
   });
 
-  it('only calls a song new in its first week', () => {
+  it('only calls a song new in its first two weeks', () => {
     const problems = check(edit((e) => (first(e.genres.global).released = '2026-11-01')));
-    expect(problems.join('\n')).toMatch(/"new" needs a release in the last 7 days/);
+    expect(problems.join('\n')).toMatch(/"new" needs a release in the last 14 days/);
   });
 
   it('needs a climb on the same chart for climbing', () => {
@@ -91,17 +91,19 @@ describe('music edition check', () => {
     expect(problems.join('\n')).toMatch(/needs a better rank than before/);
   });
 
-  it('needs a surge or a chart return for an old song', () => {
+  it('needs a top 50 place, a surge or a chart return for an old song', () => {
     const problems = check(
       edit((e) => {
         const pick = e.genres.global[3];
         if (pick) {
           pick.evidence = pick.evidence.filter((item) => item.metric !== 'surge');
-          pick.reason = { en: 'Out in 2017, at number 18 on Spotify US.', tr: '2017, 18. sıra.' };
+          const rank = pick.evidence.find((item) => item.metric === 'rank');
+          if (rank) rank.value = 64;
+          pick.reason = { en: 'Out in 2017, at number 64 on Spotify US.', tr: '2017, 64. sıra.' };
         }
       }),
     );
-    expect(problems.join('\n')).toMatch(/needs plays at 2x its usual/);
+    expect(problems.join('\n')).toMatch(/needs a top 50 place today/);
   });
 
   it('only takes all-time picks from the list', () => {

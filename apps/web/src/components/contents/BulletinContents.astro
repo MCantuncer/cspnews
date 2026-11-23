@@ -17,6 +17,8 @@ import { formatLongDate, formatTime } from '../../lib/format';
 import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import { GAME_PATHS, todayLine } from '../../lib/word';
 import Icon from '../ui/Icon.astro';
+import MusicIcon from '../music/MusicIcon.astro';
+import { GENRES, loadMusic, musicPath, musicWords } from '../../lib/music';
 import Contents from './Contents.astro';
 import DayLanes from './DayLanes.astro';
 import TodayLine from './TodayLine.astro';
@@ -29,6 +31,11 @@ interface Props {
 const { published, lang } = Astro.props;
 const { publishAt, stories } = published.bulletin;
 const words = wordsFor(lang);
+const music = musicWords(lang);
+const latestMusic = loadMusic()[0];
+const musicCount = latestMusic
+  ? GENRES.reduce((sum, genre) => sum + latestMusic.genres[genre].length, 0)
+  : 0;
 // Followed stories are compared in the browser; the page carries what each story is now.
 const bulletins = allBulletins();
 const now: StoryNow[] = storiesIn(published, lang).map((story) => {
@@ -64,6 +71,16 @@ const now: StoryNow[] = storiesIn(published, lang).map((story) => {
     <span><b>{words.wordToday}.</b> <span data-word-line>{todayLine({ kind: 'new' }, lang)}</span></span>
     <span class="word-marks" data-word-marks aria-hidden="true" hidden></span>
   </a>
+  {
+    latestMusic && (
+      <a class="brief word" href={musicPath(lang)}>
+        <MusicIcon name="record" size={18} />
+        <span>
+          <b>{music.today}.</b> {music.todayHint(musicCount)}
+        </span>
+      </a>
+    )
+  }
   <section class="since" data-since={JSON.stringify(now)} data-lang={lang} hidden>
     <h2>{followWords(lang).since}</h2>
     <ul data-since-list></ul>

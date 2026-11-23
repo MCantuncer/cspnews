@@ -17,11 +17,13 @@ import { leadArtist, songKey } from './song.js';
  * problem is one plain sentence naming the pick, so the writer can fix it and run the check again.
  */
 
-export const NEW_MAX_DAYS = 7;
+export const NEW_MAX_DAYS = 14;
 export const CLIMBING_MAX_DAYS = 365;
 export const BACK_MIN_DAYS = 730;
 export const BACK_MIN_SURGE = 2;
 export const BACK_MIN_DAYS_OFF_CHART = 90;
+/** An old song in a chart's top 50 today is being played a lot right now (Can: "listening too much right now"). */
+export const BACK_MAX_RANK = 50;
 export const REPEAT_DAYS = 30;
 export const ALLTIME_REPEAT_DAYS = 180;
 /** Two tempo readings further apart than this mean one of them is wrong, so the pick is dropped. */
@@ -160,9 +162,10 @@ function kindProblems(
       const returned =
         has(pick, 'daysOffChart').some((item) => item.value >= BACK_MIN_DAYS_OFF_CHART) &&
         has(pick, 'rank').length > 0;
-      if (!surged && !returned) {
+      const high = has(pick, 'rank').some((item) => item.value <= BACK_MAX_RANK);
+      if (!surged && !returned && !high) {
         problems.push(
-          `${name}: "old song, big again" needs plays at ${String(BACK_MIN_SURGE)}x its usual, or a chart return after ${String(BACK_MIN_DAYS_OFF_CHART)}+ days.`,
+          `${name}: "old song, big again" needs a top ${String(BACK_MAX_RANK)} place today, plays at ${String(BACK_MIN_SURGE)}x its usual, or a chart return after ${String(BACK_MIN_DAYS_OFF_CHART)}+ days.`,
         );
       }
       return problems;
