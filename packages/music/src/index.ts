@@ -37,6 +37,7 @@ export type { Taste } from './taste.js';
 export {
   ALLTIME_REPEAT_DAYS,
   BACK_MIN_DAYS,
+  BACK_MAX_RANK,
   BACK_MIN_DAYS_OFF_CHART,
   BACK_MIN_SURGE,
   BPM_TOLERANCE,

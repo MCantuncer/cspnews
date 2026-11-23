@@ -1,0 +1,320 @@
+---
+/**
+ * The Crate (docs/design/decisions/music.md, "Crate"): every song ever picked, newest day first,
+ * filterable by genre and by the songs this reader kept. Rows play in the same docked player.
+ */
+import Header from '../Header.astro';
+import MusicIcon from './MusicIcon.astro';
+import Player from './Player.astro';
+import Base from '../../layouts/Base.astro';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { formatLongDate } from '../../lib/format';
+import { GENRES, crateDays, loadMusic, musicPath, musicWords, playerTrack } from '../../lib/music';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const words = musicWords(lang);
+const days = crateDays(loadMusic());
+const total = days.reduce((sum, day) => sum + day.entries.length, 0);
+const filters = [
+  { key: 'all', label: words.all },
+  ...GENRES.map((genre) => ({ key: genre, label: words.genre[genre] })),
+  { key: 'kept', label: words.kept },
+];
+---
+
+<Base title={`${words.crate} | CSPNews`} lang={lang} description={words.crateIntro} hour="dusk">
+  <Header lang={lang} bulletinName={words.short} contentsHref={musicPath(lang)} />
+  <main class="crate">
+    <h1>{words.crate}</h1>
+    <p class="meta">{words.crateIntro}</p>
+    <p class="count">{words.crateCount(total)}</p>
+    <div class="filters" role="group" aria-label={words.crate}>
+      {
+        filters.map((filter, index) => (
+          <button type="button" data-filter={filter.key} aria-pressed={index === 0 ? 'true' : 'false'}>
+            {filter.label}
+          </button>
+        ))
+      }
+    </div>
+    <p class="empty" data-kept-empty hidden>{words.keptEmpty}</p>
+    {
+      days.map((day) => (
+        <section class="day" data-day>
+          <h2>
+            <a href={musicPath(lang, day.date)}>{formatLongDate(`${day.date}T12:00:00+03:00`, lang)}</a>
+          </h2>
+          <ul>
+            {day.entries.map(({ genre, pick }) => (
+              <li
+                class={`row g-${genre}`}
+                data-genre={genre}
+                data-id={pick.id}
+                data-track={JSON.stringify(playerTrack(genre, pick))}
+              >
+                <span class="cover">
+                  {pick.artwork && (
+                    <img src={pick.artwork} alt="" width="44" height="44" loading="lazy" decoding="async" onerror="this.remove()" />
+                  )}
+                </span>
+                <span class="hd">
+                  <span class="t">{pick.title}</span>
+                  <span class="a">
+                    {[pick.artists.join(', '), words.genre[genre], pick.bpm && `${String(pick.bpm.value)} BPM`]
+                      .filter(Boolean)
+                      .join(' · ')}
+                  </span>
+                </span>
+                <span class="kind">
+                  <MusicIcon name={pick.kind} size={16} />
+                  {words.kind[pick.kind]}
+                </span>
+                <button class="keep" type="button" data-keep={pick.id} aria-label={words.keep(pick.title)} aria-pressed="false">
+                  <MusicIcon name="keep" size={20} />
+                </button>
+                <button class="play" type="button" data-play aria-label={words.play(pick.title)} aria-pressed="false">
+                  <MusicIcon name="play" size={18} />
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </main>
+  <Player lang={lang} />
+</Base>
+
+<script>
+  import { bindMusicPlayer, readKept } from '../../lib/music-player';
+
+  let filter = 'all';
+  const apply = (kept: Set<string>) => {
+    let shown = 0;
+    for (const day of document.querySelectorAll<HTMLElement>('[data-day]')) {
+      let inDay = 0;
+      for (const row of day.querySelectorAll<HTMLElement>('[data-genre]')) {
+        const show =
+          filter === 'all' ||
+          (filter === 'kept' ? kept.has(row.dataset.id ?? '') : row.dataset.genre === filter);
+        row.hidden = !show;
+        if (show) inDay += 1;
+      }
+      day.hidden = inDay === 0;
+      shown += inDay;
+    }
+    const empty = document.querySelector<HTMLElement>('[data-kept-empty]');
+    if (empty) empty.hidden = !(filter === 'kept' && shown === 0);
+  };
+
+  bindMusicPlayer((kept) => {
+    if (filter === 'kept') apply(kept);
+  });
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-filter]')) {
+    button.addEventListener('click', () => {
+      filter = button.dataset.filter ?? 'all';
+      for (const other of document.querySelectorAll('[data-filter]')) {
+        other.setAttribute('aria-pressed', String(other === button));
+      }
+      apply(readKept());
+    });
+  }
+</script>
+
+<style>
+  .crate {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 36px var(--gutter) 140px;
+  }
+
+  h1 {
+    font: 800 34px / 1.1 var(--f-head);
+    letter-spacing: -0.03em;
+  }
+
+  .meta {
+    max-width: 52ch;
+    margin-top: 10px;
+    color: var(--meta);
+    font: 400 17px / 1.5 var(--f-body);
+  }
+
+  .count {
+    margin-top: 6px;
+    color: var(--meta2);
+    font: 400 14px / 1.4 var(--f-body);
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 22px;
+    margin-top: 22px;
+  }
+
+  .filters button {
+    min-height: 44px;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: none;
+    color: var(--meta);
+    font: 500 16px / 1.2 var(--f-body);
+    cursor: pointer;
+  }
+
+  .filters button[aria-pressed='true'] {
+    border-color: var(--ink);
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .empty {
+    margin-top: 24px;
+    color: var(--meta);
+    font: 400 16px / 1.5 var(--f-body);
+  }
+
+  .day {
+    margin-top: 32px;
+  }
+
+  .day[hidden],
+  .row[hidden] {
+    display: none;
+  }
+
+  .day h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+    font: 700 18px / 1.3 var(--f-head);
+  }
+
+  .day h2 a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) auto 44px 44px;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .g-global {
+    --g: var(--gen-global);
+  }
+
+  .g-turkey {
+    --g: var(--gen-turkey);
+  }
+
+  .g-techno {
+    --g: var(--gen-techno);
+  }
+
+  .cover {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--g) 18%, var(--surf));
+  }
+
+  .cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hd {
+    display: grid;
+    min-width: 0;
+  }
+
+  .t {
+    overflow: hidden;
+    color: var(--ink);
+    font: 700 17px / 1.25 var(--f-head);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .a {
+    overflow: hidden;
+    color: var(--meta);
+    font: 400 14px / 1.35 var(--f-body);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .kind {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--g);
+    font: 600 14px / 1.2 var(--f-body);
+  }
+
+  .play,
+  .keep {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .play {
+    border: 1.5px solid var(--g);
+    background: none;
+    color: var(--g);
+  }
+
+  .play:hover,
+  .row[data-now] .play {
+    background: var(--g);
+    color: var(--bg);
+  }
+
+  .keep {
+    border: 0;
+    background: none;
+    color: var(--meta);
+  }
+
+  .keep[aria-pressed='true'] {
+    color: var(--g);
+  }
+
+  .keep[aria-pressed='true'] :global(path) {
+    fill: currentColor;
+  }
+
+  @media (width < 600px) {
+    .row {
+      grid-template-columns: 44px minmax(0, 1fr) 44px 44px;
+      gap: 10px;
+    }
+
+    .kind {
+      display: none;
+    }
+  }
+</style>

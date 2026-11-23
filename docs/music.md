@@ -38,12 +38,12 @@ Hard Techno is not read: most of it is above 134 BPM. Every chart reading is sav
 
 ## Reason kinds and the five slots
 
-| Kind       | English / Türkçe                                   | It must have                                                                                        |
-| ---------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `new`      | Out today, Out yesterday / Bugün çıktı, Dün çıktı  | A first release in the last 7 days and a measured reaction: a chart place, plays, or several charts |
-| `climbing` | Climbing / Yükselişte                              | A first release in the last year and a better place than before on the same chart                   |
-| `back`     | Old song, big again / Eski şarkı, yeniden gündemde | A first release 2+ years ago, and plays at 2x its usual or a chart return after 90+ days off        |
-| `alltime`  | All-time favourite / Tüm zamanların favorisi       | A place on the all-time list, `packages/music/data/canon.json`                                      |
+| Kind       | English / Türkçe                                   | It must have                                                                                                                   |
+| ---------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `new`      | New / Yeni                                         | A first release in the last 14 days and a measured reaction: a chart place, plays, or several charts                           |
+| `climbing` | Climbing / Yükselişte                              | A first release in the last year and a better place than before on the same chart                                              |
+| `back`     | Old song, big again / Eski şarkı, yeniden gündemde | A first release 2+ years ago, and a top 50 place on a chart today, plays at 2x its usual, or a chart return after 90+ days off |
+| `alltime`  | All-time favourite / Tüm zamanların favorisi       | A place on the all-time list, `packages/music/data/canon.json`                                                                 |
 
 Each genre's five are **2 `new`, 1 `climbing`, 1 `back` and 1 `alltime`**. When no candidate passes a slot's rule, the slot goes to the best candidate that passes another rule; the bar is never lowered to fill a slot.
 
@@ -71,7 +71,7 @@ Within a kind, candidates rank by the strength of their numbers (chart place, pl
 
 - every genre has exactly 5 songs, no song is on the page twice (by id, folded name or ISRC), and no lead artist has two songs in one genre;
 - every kind matches the dates and the numbers above;
-- every number in either reason line is in the evidence;
+- every number in either reason line is in the evidence (days since release and years are counted from the dates);
 - techno has a sourced tempo of 134 or less, two sources agree, and a half-time reading is confirmed;
 - the numbers were read at most 36 hours before publishing;
 - no song was picked in the last 30 days, and no all-time pick in the last 180;

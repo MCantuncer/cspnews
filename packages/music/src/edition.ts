@@ -17,9 +17,9 @@ export const TECHNO_MAX_BPM = 134;
 
 /**
  * Why a song is in today's five.
- * - `new`: out in the last 7 days, with a measured reaction (a chart entry, first-day plays).
+ * - `new`: out in the last 14 days, with a measured reaction (a chart place, plays).
  * - `climbing`: out in the last year, and moving up a chart.
- * - `back`: first released 2+ years ago, and played far above its own usual level again.
+ * - `back`: first released 2+ years ago, and in a chart's top 50 today, or far above its usual plays.
  * - `alltime`: on the all-time list (data/canon.json).
  */
 export const REASON_KINDS = ['new', 'climbing', 'back', 'alltime'] as const;
@@ -153,6 +153,8 @@ export const PickSchema = z
       .string()
       .regex(/^[a-z0-9-]+\.(jpg|png|webp)$/)
       .optional(),
+    /** The store's cover art (Apple's image server), shown small beside the song. */
+    artwork: z.url({ protocol: /^https$/, hostname: /\.mzstatic\.com$/ }).optional(),
     play: PlaySchema,
   })
   .strict();

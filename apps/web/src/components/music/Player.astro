@@ -1,0 +1,179 @@
+---
+/**
+ * The one player, docked at the bottom (docs/design/decisions/music.md, "The player"). Hidden
+ * until a song is played. It plays Apple's 30-second preview in a plain audio element; the queue
+ * is every song row on the page that is not filtered out, in page order.
+ */
+import MusicIcon from './MusicIcon.astro';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { musicWords } from '../../lib/music';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const words = musicWords(lang);
+---
+
+<div class="player" data-player hidden>
+  <div class="prog" aria-hidden="true"><i data-progress></i></div>
+  <div class="in">
+    <span class="pcover"><img data-cover alt="" width="44" height="44" hidden /></span>
+    <div class="pinfo">
+      <p class="pt" data-title></p>
+      <p class="pa"><span data-artists></span> <span class="from">{words.preview}</span></p>
+    </div>
+    <div class="ctl">
+      <button type="button" data-prev aria-label={words.previous}>
+        <MusicIcon name="previous" size={20} />
+      </button>
+      <button type="button" class="main" data-toggle aria-label={words.pause}>
+        <span data-icon-pause><MusicIcon name="pause" size={20} /></span>
+        <span data-icon-play hidden><MusicIcon name="play" size={20} /></span>
+      </button>
+      <button type="button" data-next aria-label={words.next}>
+        <MusicIcon name="next" size={20} />
+      </button>
+    </div>
+  </div>
+  <p class="sr" aria-live="polite" data-live></p>
+</div>
+
+<script>
+  import { bindMusicPlayer } from '../../lib/music-player';
+
+  bindMusicPlayer();
+</script>
+
+<style>
+  .player {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+    border-top: 1px solid var(--line);
+    background: var(--surf);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .player[hidden] {
+    display: none;
+  }
+
+  .prog {
+    height: 2px;
+    background: var(--line);
+  }
+
+  .prog i {
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--g, var(--ink));
+    transition: width 250ms linear;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .prog i {
+      transition: none;
+    }
+  }
+
+  .in {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: 14px;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px var(--gutter) 12px;
+  }
+
+  .pcover {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--g, var(--ink)) 18%, var(--surf));
+  }
+
+  .pcover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pinfo {
+    min-width: 0;
+  }
+
+  .pt,
+  .pa {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .pt {
+    color: var(--ink);
+    font: 700 16px / 1.25 var(--f-head);
+  }
+
+  .pa {
+    color: var(--meta);
+    font: 400 14px / 1.35 var(--f-body);
+  }
+
+  .from {
+    color: var(--meta2);
+    font-size: 13px;
+  }
+
+  .ctl {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .ctl button {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: none;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .ctl .main {
+    border: 1.5px solid var(--ink);
+  }
+
+  .ctl span {
+    display: grid;
+  }
+
+  .ctl span[hidden] {
+    display: none;
+  }
+
+  .sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  @media (width <= 380px) {
+    .ctl [data-prev] {
+      display: none;
+    }
+  }
+</style>

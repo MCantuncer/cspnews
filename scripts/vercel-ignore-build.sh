@@ -11,7 +11,7 @@ fi
 
 # Any error (for example no parent commit in the clone) falls through to a build.
 if git diff --quiet HEAD^ HEAD -- \
-  apps/web packages data/bulletins \
+  apps/web packages data/bulletins data/music \
   package.json pnpm-lock.yaml pnpm-workspace.yaml .nvmrc \
   vercel.json scripts/vercel-ignore-build.sh; then
   echo "Skipping: nothing the website is built from changed."
