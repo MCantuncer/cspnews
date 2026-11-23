@@ -4,7 +4,9 @@
  * outlet's headline, the evidence, the lead outlet's photo and its own short description, the
  * story so far, what each outlet reports, and the other stories breaking now. The feed changes
  * every few minutes, so this page reads it in the browser; `?id=` names the story. The rules
- * write no text: every sentence on the page is an outlet's, under its name.
+ * write no text: every sentence on the page is an outlet's, under its name. In the other
+ * language it is the monitor's machine translation, said so beside it, with the outlets' own
+ * words a tap away.
  */
 import { SOURCES } from '@cspnews/config';
 import Header from '../Header.astro';
@@ -81,6 +83,16 @@ const hotPath = localePath('/hot', lang);
         <p class="said-text" data-field="said-text"></p>
       </section>
       <p class="untranslated" data-field="untranslated" hidden>{words.hotUntranslated}</p>
+      <p class="translated" data-field="translated" hidden>
+        <span data-field="translated-note">{words.hotMachineTranslated}</span>
+        <button
+          type="button"
+          class="switch"
+          data-field="switch"
+          data-original={words.hotShowOriginal}
+          data-translation={words.hotShowTranslation}>{words.hotShowOriginal}</button
+        >
+      </p>
 
       <div class="so-far" data-field="timeline"></div>
 
@@ -100,10 +112,19 @@ const hotPath = localePath('/hot', lang);
 </Base>
 
 <script>
-  import type { HotStory } from '@cspnews/core';
+  import type { HotFeed, HotStory } from '@cspnews/core';
 
   import { formatTime } from '../../lib/format';
-  import { hotPageStory, hotPhotoUrl, loadHotFeed, otherHotStories, safeUrl } from '../../lib/hot';
+  import {
+    hotPageStory,
+    hotPhotoUrl,
+    hotStoryIn,
+    loadHotFeed,
+    otherHotStories,
+    safeUrl,
+    type LocalHotSource,
+    type LocalHotStory,
+  } from '../../lib/hot';
   import { outletReports, updatedAt, wordsFor } from '../../lib/i18n';
   import { ICONS } from '../../lib/icons';
   import { outletNames, sourceName } from '../../lib/sources';
@@ -157,7 +178,7 @@ const hotPath = localePath('/hot', lang);
     }
   }
 
-  function renderPhoto(story: HotStory) {
+  function renderPhoto(story: Pick<HotStory, 'image'>) {
     const figure = field('photo');
     const img = figure?.querySelector('img');
     const credit = figure?.querySelector('figcaption a');
@@ -176,7 +197,7 @@ const hotPath = localePath('/hot', lang);
     figure.hidden = false;
   }
 
-  function renderSummary(story: HotStory, lang: Lang) {
+  function renderSummary(story: LocalHotStory, lang: Lang) {
     const box = field('said');
     const who = field('said-who');
     const text = field('said-text');
@@ -185,10 +206,10 @@ const hotPath = localePath('/hot', lang);
     if (!story.summary) return;
     who.textContent = outletReports(sourceName(story.summary.sourceId), lang);
     text.textContent = story.summary.text;
-    text.lang = story.language;
+    text.lang = story.summaryLanguage;
   }
 
-  function sourceCard(source: HotStory['sources'][number], story: HotStory, lang: Lang) {
+  function sourceCard(source: LocalHotSource, lang: Lang) {
     const li = el('li', source.confirms ? 'report' : 'report copy');
     const href = safeUrl(source.url);
     const card = href ? el('a', 'card') : el('div', 'card');
@@ -217,7 +238,7 @@ const hotPath = localePath('/hot', lang);
     card.append(head);
     if (source.title) {
       const title = el('span', 'card-title', source.title);
-      title.lang = story.language;
+      title.lang = source.titleLanguage ?? lang;
       card.append(title);
     }
     li.append(card);
@@ -237,8 +258,9 @@ const hotPath = localePath('/hot', lang);
         const a = el('a', 'also-link');
         a.href = `${path}?id=${encodeURIComponent(other.id)}`;
         a.append(el('span', 'also-time', formatTime(other.updatedAt, lang)));
-        const title = el('span', 'also-title', other.title);
-        title.lang = other.language;
+        const local = hotStoryIn(other, lang, { original });
+        const title = el('span', 'also-title', local.title);
+        title.lang = local.textLanguage;
         a.append(title);
         li.append(a);
         return li;
@@ -246,26 +268,37 @@ const hotPath = localePath('/hot', lang);
     );
   }
 
-  async function render() {
+  /** True while the reader asked for the outlets' own words instead of the translation. */
+  let original = false;
+  let current: { feed: HotFeed; found: HotStory } | undefined;
+
+  function renderTranslation(raw: HotStory, story: LocalHotStory, lang: Lang) {
+    const untranslated = field('untranslated');
+    const translated = field('translated');
+    const button = field('switch');
+    const offered = raw.language !== lang && raw.translation?.language === lang;
+    if (untranslated) untranslated.hidden = raw.language === lang || offered;
+    if (!translated || !button) return;
+    translated.hidden = !offered;
+    const note = field('translated-note');
+    if (note) note.hidden = !story.machineTranslated;
+    button.textContent = button.getAttribute(original ? 'data-translation' : 'data-original');
+    button.setAttribute('aria-pressed', String(original));
+    button.onclick = () => {
+      original = !original;
+      if (current) paint(current.feed, current.found, lang);
+    };
+  }
+
+  function paint(feed: HotFeed, found: HotStory, lang: Lang) {
     if (!page) return;
-    const lang: Lang = page.getAttribute('data-lang') === 'tr' ? 'tr' : 'en';
-    show('loading');
-    const feed = await loadHotFeed();
-    if (!feed) {
-      show('error');
-      return;
-    }
-    const { state, story } = hotPageStory(feed, new URLSearchParams(location.search).get('id'));
-    if (!story) {
-      show(state === 'quiet' ? 'quiet' : 'gone');
-      return;
-    }
+    const story = hotStoryIn(found, lang, { original });
 
     page.setAttribute('data-section', story.section);
     const title = field('title');
     if (title) {
       title.textContent = story.title;
-      title.lang = story.language;
+      title.lang = story.textLanguage;
     }
     document.title = `${story.shortTitle} | CSPNews`;
     const updated = field('updated');
@@ -278,8 +311,7 @@ const hotPath = localePath('/hot', lang);
 
     renderPhoto(story);
     renderSummary(story, lang);
-    const untranslated = field('untranslated');
-    if (untranslated) untranslated.hidden = story.language === lang;
+    renderTranslation(found, story, lang);
 
     const slot = field('timeline');
     const timeline = timelineFor(story, lang, sourceName);
@@ -296,11 +328,29 @@ const hotPath = localePath('/hot', lang);
           Number(b.confirms) - Number(a.confirms) ||
           (a.publishedAt ?? '').localeCompare(b.publishedAt ?? ''),
       );
-      sources.replaceChildren(...ordered.map((source) => sourceCard(source, story, lang)));
+      sources.replaceChildren(...ordered.map((source) => sourceCard(source, lang)));
     }
 
     renderAlso(otherHotStories(feed, story.id), lang);
     show('story');
+  }
+
+  async function render() {
+    if (!page) return;
+    const lang: Lang = page.getAttribute('data-lang') === 'tr' ? 'tr' : 'en';
+    show('loading');
+    const feed = await loadHotFeed();
+    if (!feed) {
+      show('error');
+      return;
+    }
+    const { state, story } = hotPageStory(feed, new URLSearchParams(location.search).get('id'));
+    if (!story) {
+      show(state === 'quiet' ? 'quiet' : 'gone');
+      return;
+    }
+    current = { feed, found: story };
+    paint(feed, story, lang);
   }
 
   page?.querySelector('[data-retry]')?.addEventListener('click', () => void render());
@@ -397,7 +447,9 @@ const hotPath = localePath('/hot', lang);
   .photo[hidden],
   .said[hidden],
   .also[hidden],
-  .untranslated[hidden] {
+  .untranslated[hidden],
+  .translated[hidden],
+  .translated [hidden] {
     display: none;
   }
 
@@ -442,10 +494,31 @@ const hotPath = localePath('/hot', lang);
     font: 400 18px / 1.55 var(--f-body);
   }
 
-  .untranslated {
+  .untranslated,
+  .translated {
     margin-top: 12px;
     color: var(--meta);
     font: 400 14px / 1.45 var(--f-body);
+  }
+
+  .translated {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 12px;
+  }
+
+  /* A quiet text button: the translation is the default, the outlets' words one tap away. */
+  .switch {
+    min-height: 44px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: 600 14px / 1.45 var(--f-body);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
   }
 
   .so-far {

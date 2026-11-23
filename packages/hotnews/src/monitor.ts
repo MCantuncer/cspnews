@@ -4,6 +4,7 @@ import {
   type HotFeed,
   type HotStory,
   type HotSummary,
+  type Language,
   type Source,
   type StoryImage,
 } from '@cspnews/core';
@@ -23,6 +24,8 @@ import { assessHotNews, type HeatAssessment, type HeatOptions } from './heat.js'
 export const MONITOR_WINDOW_HOURS = 8;
 /** The feed shows at most this many stories (the feed schema allows ten). */
 export const MONITOR_MAX_STORIES = 8;
+
+const isLanguage = (value: string): value is Language => value === 'tr' || value === 'en';
 
 const BREAKING_PREFIX = /^\s*(?:son\s+dak[iİıI]ka|breaking(?:\s+news)?)\s*[:|!\-–—]*\s*/i;
 
@@ -120,6 +123,7 @@ function toHotStory(
         url: article.url,
         confirms: confirming.has(article.sourceId),
         title: clip(article.title.replace(BREAKING_PREFIX, '').trim(), 200),
+        ...(isLanguage(article.language) ? { language: article.language } : {}),
         publishedAt: article.publishedAt.toISOString(),
       },
     ];

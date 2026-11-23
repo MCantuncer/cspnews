@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+import { LANGUAGES } from './language.js';
 import { SECTIONS } from './sections.js';
 import { PlaceSchema, StorySourceSchema, TimelineEventSchema } from './story.js';
 
@@ -11,6 +12,11 @@ import { PlaceSchema, StorySourceSchema, TimelineEventSchema } from './story.js'
  * the lead outlet's photo and, when known, the place.
  * Only Confirmed and Reported stories are published: single-source and disputed stories are
  * held back. The site reads the feed from `/hot.json` and shows the newest story as one line.
+ *
+ * Every story is also given in the other language, machine-translated by an open model on the
+ * monitor's runner (packages/hotnews/translate): `translation` for the headline and summary,
+ * `translatedTitle` for each outlet's headline. A reader always sees which text is a
+ * machine translation and can switch to the outlet's own words (apps/web/src/lib/hot.ts).
  */
 export const HOT_LABEL_VALUES = ['confirmed', 'reported'] as const;
 
@@ -23,6 +29,10 @@ const isoDateTime = z.iso.datetime({ offset: true });
  */
 export const HotSourceSchema = StorySourceSchema.extend({
   title: text(200).optional(),
+  /** The language of `title`, which can differ from the story's. */
+  language: z.enum(LANGUAGES).optional(),
+  /** `title` machine-translated into the other language. */
+  translatedTitle: text(200).optional(),
   publishedAt: isoDateTime.optional(),
 }).strict();
 
@@ -50,6 +60,19 @@ export const HotImageSchema = z
   })
   .strict();
 
+/**
+ * The story's headline and summary machine-translated into `language`, the language the lead
+ * outlet did not write in. Not checked by anyone: the page says so next to it.
+ */
+export const HotTranslationSchema = z
+  .object({
+    language: z.enum(LANGUAGES),
+    shortTitle: text(60),
+    title: text(160),
+    summary: text(420).optional(),
+  })
+  .strict();
+
 export const HotStorySchema = z
   .object({
     id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
@@ -67,8 +90,13 @@ export const HotStorySchema = z
     place: PlaceSchema.optional(),
     summary: HotSummarySchema.optional(),
     image: HotImageSchema.optional(),
+    translation: HotTranslationSchema.optional(),
   })
-  .strict();
+  .strict()
+  .refine((story) => story.translation?.language !== story.language, {
+    message: 'A translation is into the other language',
+    path: ['translation', 'language'],
+  });
 
 export const HotFeedSchema = z
   .object({
@@ -83,6 +111,7 @@ export type HotStory = z.infer<typeof HotStorySchema>;
 export type HotSource = z.infer<typeof HotSourceSchema>;
 export type HotSummary = z.infer<typeof HotSummarySchema>;
 export type HotImage = z.infer<typeof HotImageSchema>;
+export type HotTranslation = z.infer<typeof HotTranslationSchema>;
 export type HotFeed = z.infer<typeof HotFeedSchema>;
 
 /** Validates the Hot News feed; throws with every problem listed. */
