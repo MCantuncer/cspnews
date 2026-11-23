@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-23",
+  "publishAt": "2026-11-23T18:30:00+03:00",
+  "genres": {
+    "global": [
+      {
+        "id": "kemi-vance-glass-ceiling",
+        "title": "Glass Ceiling",
+        "artists": ["Kemi Vance"],
+        "released": "2026-11-23",
+        "kind": "new",
+        "reason": {
+          "en": "2.1 million plays in its first 18 hours, and number 3 on Apple Music US.",
+          "tr": "İlk 18 saatte 2,1 milyon dinlenme; Apple Music ABD'de 3. sırada."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 2134567,
+            "chart": "Spotify US, first 18 hours",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 3,
+            "chart": "Apple Music US most played",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://music.apple.com/us/new"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/kemivance/glass-ceiling",
+            "uploader": "Kemi Vance"
+          }
+        }
+      },
+      {
+        "id": "tobi-ade-paper-planes-over-lagos",
+        "title": "Paper Planes Over Lagos",
+        "artists": ["Tobi Ade"],
+        "released": "2026-11-22",
+        "kind": "new",
+        "reason": {
+          "en": "Out yesterday at number 41 on Spotify US, with 812,000 plays.",
+          "tr": "Dün çıktı; Spotify ABD'de 41. sırada, 812.000 dinlenme."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 41,
+            "chart": "Spotify US daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 812000,
+            "chart": "Spotify US daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/sample/1.m4a",
+          "spotify": "https://open.spotify.com/track/sample1"
+        }
+      },
+      {
+        "id": "dax-orion-north-of-tuesday",
+        "title": "North of Tuesday",
+        "artists": ["Dax Orion", "Lil Mera"],
+        "released": "2026-10-02",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 31 places to number 6 on Spotify's global chart in two days.",
+          "tr": "İki günde 31 basamak çıkıp Spotify dünya listesinde 6. sıraya yerleşti."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 6,
+            "chart": "Spotify Global daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/global_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 37,
+            "chart": "Spotify Global daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/global_daily.html",
+            "before": "2026-11-21"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/sample/2.m4a",
+          "spotify": "https://open.spotify.com/track/sample2"
+        }
+      },
+      {
+        "id": "marcus-hale-low-tide",
+        "title": "Low Tide",
+        "artists": ["Marcus Hale"],
+        "released": "2017-03-10",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2017. Plays are 4x its usual, and it is back at number 18 on Spotify US.",
+          "tr": "2017'de çıktı. Dinlenmesi her zamankinin 4 katı; Spotify ABD'de yeniden 18. sırada."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "surge",
+            "value": 4.27,
+            "chart": "Spotify US daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 18,
+            "chart": "Spotify US daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/marcushale/low-tide",
+            "uploader": "Marcus Hale"
+          }
+        }
+      },
+      {
+        "id": "nas-n-y-state-of-mind",
+        "title": "N.Y. State of Mind",
+        "artists": ["Nas"],
+        "released": "1994-04-19",
+        "kind": "alltime",
+        "reason": {
+          "en": "From Illmatic, 1994: the opening track.",
+          "tr": "Illmatic, 1994: albümün açılış şarkısı."
+        },
+        "evidence": [],
+        "duration": 294,
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/sample/3.m4a",
+          "spotify": "https://open.spotify.com/track/sample3"
+        }
+      }
+    ],
+    "turkey": [
+      {
+        "id": "kuzey-ates-gece-vardiyasi",
+        "title": "Gece Vardiyası",
+        "artists": ["Kuzey Ateş"],
+        "released": "2026-11-23",
+        "kind": "new",
+        "reason": {
+          "en": "Number 1 on Spotify Türkiye on its first day.",
+          "tr": "Spotify Türkiye'de ilk gününde 1 numara."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 1,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/kuzeyates/gece-vardiyasi",
+            "uploader": "Kuzey Ateş"
+          }
+        }
+      },
+      {
+        "id": "baran-k-flex-durumu",
+        "title": "Flex Durumu",
+        "artists": ["Baran K."],
+        "released": "2026-11-22",
+        "kind": "new",
+        "reason": {
+          "en": "Out yesterday: 1.4 million plays and number 4 on Spotify Türkiye.",
+          "tr": "Dün çıktı: 1,4 milyon dinlenme, Spotify Türkiye'de 4. sıra."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 1412000,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 4,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/sample/4.m4a",
+          "spotify": "https://open.spotify.com/track/sample4"
+        }
+      },
+      {
+        "id": "mira-kaan-beton",
+        "title": "Beton",
+        "artists": ["Mira Kaan"],
+        "released": "2026-09-12",
+        "kind": "climbing",
+        "reason": {
+          "en": "From 48 to 9 on Spotify Türkiye in a week.",
+          "tr": "Bir haftada Spotify Türkiye'de 48'den 9'a çıktı."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 9,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 48,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html",
+            "before": "2026-11-16"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/mirakaan/beton",
+            "uploader": "Mira Kaan"
+          }
+        }
+      },
+      {
+        "id": "tuna-sert-eski-defter",
+        "title": "Eski Defter",
+        "artists": ["Tuna Sert"],
+        "released": "2016-05-20",
+        "kind": "back",
+        "reason": {
+          "en": "Out in 2016, back at number 17 on Spotify Türkiye after 412 days off the chart.",
+          "tr": "2016'da çıktı; 412 gün sonra Spotify Türkiye'ye 17. sıradan döndü."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 17,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "daysOffChart",
+            "value": 412,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          }
+        ],
+        "duration": 200,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/tunasert/eski-defter",
+            "uploader": "Tuna Sert"
+          }
+        }
+      },
+      {
+        "id": "ceza-holocaust",
+        "title": "Holocaust",
+        "artists": ["Ceza"],
+        "released": "2004-01-01",
+        "kind": "alltime",
+        "reason": {
+          "en": "From Rapstar, 2004: the speed verse every Turkish rapper is measured against.",
+          "tr": "Rapstar, 2004: Türkçe rapte hız denince ilk akla gelen kıta."
+        },
+        "evidence": [],
+        "duration": 200,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/ceza/holocaust",
+            "uploader": "Ceza"
+          }
+        }
+      }
+    ],
+    "techno": [
+      {
+        "id": "varga-halcyon-drift",
+        "title": "Halcyon Drift",
+        "artists": ["Varga"],
+        "released": "2026-11-23",
+        "kind": "new",
+        "reason": {
+          "en": "Number 4 on Beatport's Raw / Deep / Hypnotic chart on day one.",
+          "tr": "Beatport Raw / Deep / Hypnotic listesinde ilk gününde 4. sırada."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 4,
+            "chart": "Beatport Raw / Deep / Hypnotic Top 100",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://www.beatport.com/genre/techno-raw-deep-hypnotic/92/top-100"
+          }
+        ],
+        "duration": 402,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/varga/halcyon-drift",
+            "uploader": "Varga"
+          }
+        },
+        "bpm": {
+          "value": 130,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/sample/1"
+        }
+      },
+      {
+        "id": "selma-ruiz-undertow",
+        "title": "Undertow",
+        "artists": ["Selma Ruiz"],
+        "released": "2026-11-20",
+        "kind": "new",
+        "reason": {
+          "en": "Out Friday, at number 22 on Beatport's Peak Time Hype chart.",
+          "tr": "Cuma çıktı; Beatport Peak Time Hype listesinde 22. sırada."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 22,
+            "chart": "Beatport Peak Time / Driving Hype Top 100",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          }
+        ],
+        "duration": 365,
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview/sample/5.m4a",
+          "spotify": "https://open.spotify.com/track/sample5"
+        },
+        "bpm": {
+          "value": 128,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/sample/1",
+          "confirmedBy": {
+            "source": "deezer",
+            "value": 128
+          }
+        }
+      },
+      {
+        "id": "eko-lind-cold-signal",
+        "title": "Cold Signal",
+        "artists": ["Eko Lind"],
+        "released": "2026-08-14",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up from 61 to 12 on Beatport's Peak Time chart.",
+          "tr": "Beatport Peak Time listesinde 61'den 12'ye çıktı."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 12,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          },
+          {
+            "source": "beatport",
+            "metric": "rankBefore",
+            "value": 61,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100",
+            "before": "2026-11-20"
+          }
+        ],
+        "duration": 430,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/ekolind/cold-signal",
+            "uploader": "Eko Lind"
+          }
+        },
+        "bpm": {
+          "value": 132,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/sample/1"
+        }
+      },
+      {
+        "id": "okan-demir-tunnel-vision",
+        "title": "Tunnel Vision",
+        "artists": ["Okan Demir"],
+        "released": "2009-06-01",
+        "kind": "back",
+        "reason": {
+          "en": "Back at number 88 on Beatport's Peak Time chart, 17 years after its release.",
+          "tr": "Çıkışından 17 yıl sonra Beatport Peak Time listesine 88. sıradan döndü."
+        },
+        "evidence": [
+          {
+            "source": "beatport",
+            "metric": "rank",
+            "value": 88,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          },
+          {
+            "source": "beatport",
+            "metric": "daysOffChart",
+            "value": 400,
+            "chart": "Beatport Peak Time / Driving Top 100",
+            "at": "2026-11-23T14:00:00Z",
+            "url": "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100"
+          }
+        ],
+        "duration": 452,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/okandemir/tunnel-vision",
+            "uploader": "Okan Demir"
+          }
+        },
+        "bpm": {
+          "value": 125,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/sample/1"
+        }
+      },
+      {
+        "id": "ben-klock-subzero",
+        "title": "Subzero",
+        "artists": ["Ben Klock"],
+        "released": "2009-01-01",
+        "kind": "alltime",
+        "reason": {
+          "en": "2009: the Berghain record that fills a floor without shouting.",
+          "tr": "2009: Bağırmadan pist dolduran Berghain klasiği."
+        },
+        "evidence": [],
+        "duration": 496,
+        "play": {
+          "soundcloud": {
+            "url": "https://soundcloud.com/benklock/subzero",
+            "uploader": "Ben Klock"
+          }
+        },
+        "bpm": {
+          "value": 130,
+          "source": "beatport",
+          "url": "https://www.beatport.com/track/sample/1"
+        }
+      }
+    ]
+  }
+}

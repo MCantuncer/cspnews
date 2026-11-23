@@ -1,0 +1,33 @@
+{
+  "weight": 0.15,
+  "genres": {
+    "global": {
+      "favouriteArtists": [],
+      "likes": [
+        "Vibing, rhyming and flexing rap of every kind (Can, 2026-11-23)",
+        "Strong verses and flow over hooks alone"
+      ],
+      "avoid": ["Skits, intros and interludes", "Pop songs with a rapper only as a feature"]
+    },
+    "turkey": {
+      "favouriteArtists": ["Wegh"],
+      "likes": [
+        "Vibing, rhyming and flexing rap of every kind (Can, 2026-11-23)",
+        "Wegh is Can's favourite rapper right now"
+      ],
+      "avoid": ["Skits, intros and interludes", "Arabesk or pop songs with a short rap part"]
+    },
+    "techno": {
+      "favouriteArtists": [],
+      "likes": [
+        "Heavy kick and heavy bass (Can, 2026-11-23)",
+        "A screaming, driving feel that stays clean"
+      ],
+      "avoid": [
+        "Trashy or noisy tracks (Can, 2026-11-23)",
+        "Bootleg remixes of pop songs",
+        "Anything over 134 BPM, so most hard techno and schranz"
+      ]
+    }
+  }
+}
