@@ -164,9 +164,10 @@ export {
   HotSourceSchema,
   HotStorySchema,
   HotSummarySchema,
+  HotTranslationSchema,
   parseHotFeed,
 } from './hot.js';
-export type { HotFeed, HotImage, HotSource, HotStory, HotSummary } from './hot.js';
+export type { HotFeed, HotImage, HotSource, HotStory, HotSummary, HotTranslation } from './hot.js';
 export {
   QUIZ_LENGTH,
   QUIZ_OPTIONS,

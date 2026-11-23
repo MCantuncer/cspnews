@@ -1,4 +1,4 @@
-import type { HotFeed, HotStory } from '@cspnews/core';
+import type { HotFeed, HotSource, HotStory, Language } from '@cspnews/core';
 
 /**
  * Hot News on the client: the static pages read the Hot News feed and show the newest story as
@@ -59,6 +59,75 @@ export function dismiss(
   } catch {
     // Without storage the line simply comes back on the next page.
   }
+}
+
+/** An outlet's headline as a reader of one language sees it. */
+export interface LocalHotSource extends HotSource {
+  /** The language `title` is in, when known. */
+  readonly titleLanguage?: Language;
+  /** True when `title` is a machine translation of the outlet's headline. */
+  readonly machineTranslated: boolean;
+}
+
+/** A hot story as a reader of one language sees it. */
+export interface LocalHotStory extends Omit<HotStory, 'sources'> {
+  /** The language of `title`, `shortTitle` and `summary`. */
+  readonly textLanguage: Language;
+  /** True when the headline is a machine translation. */
+  readonly machineTranslated: boolean;
+  /** The language of `summary`: it stays in the outlet's words when it has no translation. */
+  readonly summaryLanguage: Language;
+  readonly sources: readonly LocalHotSource[];
+}
+
+/**
+ * A hot story in the reader's language: the outlet's own words when it wrote in that language,
+ * otherwise the machine translation, and the original when there is none. With `original` the
+ * outlets' own words are always given, for a reader who asked to see them.
+ */
+export function hotStoryIn(
+  story: HotStory,
+  language: Language,
+  { original = false }: { original?: boolean } = {},
+): LocalHotStory {
+  const translation =
+    !original && story.language !== language && story.translation?.language === language
+      ? story.translation
+      : undefined;
+  const sources = story.sources.map((source): LocalHotSource => {
+    const titleLanguage = source.language ?? story.language;
+    const translate = !original && titleLanguage !== language && source.translatedTitle;
+    return translate
+      ? {
+          ...source,
+          title: source.translatedTitle,
+          titleLanguage: language,
+          machineTranslated: true,
+        }
+      : { ...source, titleLanguage, machineTranslated: false };
+  });
+  if (!translation) {
+    return {
+      ...story,
+      textLanguage: story.language,
+      machineTranslated: false,
+      summaryLanguage: story.language,
+      sources,
+    };
+  }
+  const { summary, ...rest } = story;
+  return {
+    ...rest,
+    title: translation.title,
+    shortTitle: translation.shortTitle,
+    ...(summary
+      ? { summary: translation.summary ? { ...summary, text: translation.summary } : summary }
+      : {}),
+    textLanguage: language,
+    machineTranslated: true,
+    summaryLanguage: translation.summary ? language : story.language,
+    sources,
+  };
 }
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;

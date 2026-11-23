@@ -47,6 +47,7 @@ const hotPath = localePath('/hot', lang);
 <script>
   import { formatTime } from '../../lib/format';
   import {
+    hotStoryIn,
     POLL_MINUTES,
     dismiss,
     loadHotFeed,
@@ -74,8 +75,9 @@ const hotPath = localePath('/hot', lang);
       }
       const key = `${story.id}@${story.updatedAt}`;
       if (key === shownKey) return;
-      title.textContent = story.shortTitle;
-      title.lang = story.language;
+      const local = hotStoryIn(story, lang);
+      title.textContent = local.shortTitle;
+      title.lang = local.textLanguage;
       time.textContent = formatTime(story.firstSeenAt, lang);
       link.href = `${line.getAttribute('data-href') ?? '/hot'}?id=${encodeURIComponent(story.id)}`;
       for (const mark of line.querySelectorAll<HTMLElement>('[data-mark]')) {

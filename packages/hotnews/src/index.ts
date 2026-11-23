@@ -18,3 +18,17 @@ export {
   shortHeadline,
 } from './monitor.js';
 export type { HotFeedWithPhotos, MonitorOptions } from './monitor.js';
+export {
+  KEEP_TERMS,
+  prepareForModel,
+  protectTerms,
+  restoreTerms,
+  translateHotFeed,
+  translationMemory,
+} from './translate.js';
+export type {
+  Translate,
+  TranslateFeedOptions,
+  TranslatedFeed,
+  TranslationRequest,
+} from './translate.js';

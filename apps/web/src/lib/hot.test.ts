@@ -7,6 +7,7 @@ import {
   dismiss,
   hotPageStory,
   hotPhotoUrl,
+  hotStoryIn,
   isHotFeed,
   otherHotStories,
   pickHotStory,
@@ -114,5 +115,81 @@ describe('Hot News page extras', () => {
     );
     expect(hotPhotoUrl('../evil.jpg', url)).toBeUndefined();
     expect(hotPhotoUrl('x.svg', url)).toBeUndefined();
+  });
+});
+
+describe('hotStoryIn', () => {
+  const english = {
+    id: 'libya-ships',
+    section: 'world',
+    language: 'en',
+    shortTitle: 'Ukraine behind ship strikes',
+    title: 'Ukraine behind ship strikes, Zelenskyy says',
+    label: 'confirmed',
+    firstSeenAt: '2026-11-23T10:00:00Z',
+    updatedAt: '2026-11-23T10:30:00Z',
+    sources: [
+      {
+        sourceId: 'bbc',
+        url: 'https://example.com/a',
+        confirms: true,
+        title: 'Ships hit',
+        language: 'en',
+        translatedTitle: 'Gemiler vuruldu',
+      },
+      {
+        sourceId: 'aa',
+        url: 'https://example.com/b',
+        confirms: true,
+        title: 'Gemiler vuruldu',
+        language: 'tr',
+        translatedTitle: 'Ships were hit',
+      },
+    ],
+    timeline: [],
+    summary: { text: 'The attacks came after a drone hit.', sourceId: 'bbc' },
+    translation: {
+      language: 'tr',
+      shortTitle: 'Zelenskiy: Saldırıları Ukrayna yaptı',
+      title: 'Zelenskiy: Gemi saldırılarını Ukrayna yaptı',
+      summary: 'Saldırılar bir İHA saldırısının ardından geldi.',
+    },
+  } as HotStory;
+
+  it('gives a Turkish reader the translation, marked as one', () => {
+    const local = hotStoryIn(english, 'tr');
+    expect(local.title).toBe('Zelenskiy: Gemi saldırılarını Ukrayna yaptı');
+    expect(local.summary?.text).toBe('Saldırılar bir İHA saldırısının ardından geldi.');
+    expect(local).toMatchObject({
+      textLanguage: 'tr',
+      summaryLanguage: 'tr',
+      machineTranslated: true,
+    });
+    expect(local.sources.map((s) => [s.title, s.machineTranslated])).toEqual([
+      ['Gemiler vuruldu', true],
+      ['Gemiler vuruldu', false],
+    ]);
+  });
+
+  it('keeps the outlets’ own words for their language, or when asked', () => {
+    expect(hotStoryIn(english, 'en')).toMatchObject({
+      title: english.title,
+      machineTranslated: false,
+    });
+    const original = hotStoryIn(english, 'tr', { original: true });
+    expect(original).toMatchObject({
+      title: english.title,
+      textLanguage: 'en',
+      machineTranslated: false,
+    });
+    expect(original.sources[0]?.title).toBe('Ships hit');
+  });
+
+  it('falls back to the original without a translation', () => {
+    const untranslated = { ...english, translation: undefined };
+    expect(hotStoryIn(untranslated, 'tr')).toMatchObject({
+      title: english.title,
+      textLanguage: 'en',
+    });
   });
 });
