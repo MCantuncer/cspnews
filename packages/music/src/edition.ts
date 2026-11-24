@@ -19,7 +19,7 @@ export const TECHNO_MAX_BPM = 134;
  * Why a song is in today's five.
  * - `new`: out in the last 14 days, with a measured reaction (a chart place, plays).
  * - `climbing`: out in the last year, and moving up a chart.
- * - `back`: first released 2+ years ago, and in a chart's top 50 today, or far above its usual plays.
+ * - `back`: first released 2+ years ago, and far above its usual plays or back on a chart after 90+ days.
  * - `alltime`: on the all-time list (data/canon.json).
  */
 export const REASON_KINDS = ['new', 'climbing', 'back', 'alltime'] as const;

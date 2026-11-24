@@ -7,7 +7,12 @@
         "Vibing, rhyming and flexing rap of every kind (Can, 2026-11-23)",
         "Strong verses and flow over hooks alone"
       ],
-      "avoid": ["Skits, intros and interludes", "Pop songs with a rapper only as a feature"]
+      "avoid": [
+        "Skits, intros and interludes",
+        "Pop songs with a rapper only as a feature",
+        "Melodic R&B and sung tracks with little rapping (from Can's 'selections were bad', 2026-11-25)",
+        "Long-running catalog hits that are only high on a chart, with no comeback"
+      ]
     },
     "turkey": {
       "favouriteArtists": ["Wegh"],
@@ -15,18 +20,24 @@
         "Vibing, rhyming and flexing rap of every kind (Can, 2026-11-23)",
         "Wegh is Can's favourite rapper right now"
       ],
-      "avoid": ["Skits, intros and interludes", "Arabesk or pop songs with a short rap part"]
+      "avoid": [
+        "Skits, intros and interludes",
+        "Arabesk or pop songs with a short rap part",
+        "Pop-leaning, sung love songs with a rap label (from Can's 'selections were bad', 2026-11-25)"
+      ]
     },
     "techno": {
       "favouriteArtists": [],
       "likes": [
         "Heavy kick and heavy bass (Can, 2026-11-23)",
-        "A screaming, driving feel that stays clean"
+        "A screaming, driving feel that stays clean",
+        "Raw, hypnotic warehouse techno at 128 to 134 BPM with a pounding kick"
       ],
       "avoid": [
         "Trashy or noisy tracks (Can, 2026-11-23)",
         "Bootleg remixes of pop songs",
-        "Anything over 134 BPM, so most hard techno and schranz"
+        "Anything over 134 BPM, so most hard techno and schranz",
+        "Big-room festival peak-time and groovy tech-house-leaning tools (from Can's 'selections were bad', 2026-11-25)"
       ]
     }
   }

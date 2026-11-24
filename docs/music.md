@@ -21,11 +21,13 @@ Steps 1, 2 and 4 are rules, with no model. Step 3 is a scheduled Claude Code tas
 
 ## Sources
 
-| Genre  | Charts                                                                                                                | Release watch                                        |
-| ------ | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| global | Spotify daily Global and US (read through kworb), Apple Music US most played, Deezer rap chart                        | New releases of followed artists (Deezer)            |
-| turkey | Spotify daily Türkiye (read through kworb), Apple Music Türkiye most played, Deezer; YouTube trending with a free key | New releases of followed Turkish rappers (Deezer)    |
-| techno | Beatport Top 100 and Hype for Peak Time / Driving and Raw / Deep / Hypnotic                                           | Beatport new releases of followed labels and artists |
+| Genre  | Where candidates come from                                                                                                   | Evidence only (never a reason on its own)                                    |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| global | Apple Music US Hip-Hop/Rap top songs, Deezer rap chart, new releases of followed artists                                     | Spotify daily Global and US (read through kworb), Apple Music US most played |
+| turkey | Apple Music Türkiye Hip-Hop/Rap top songs, Deezer Türkçe rap playlists, new releases of followed Turkish rappers             | Spotify daily Türkiye (read through kworb), Apple Music Türkiye most played  |
+| techno | Beatport Raw / Deep / Hypnotic Top 100 and Hype first, then Peak Time / Driving; new releases of followed labels and artists | Deezer tempo, as a second reading                                            |
+
+Since 25 November (Can: "Music selections were bad"), a song is a candidate only when it shows up on a rap chart or a techno chart; a chart of every genre can add numbers but never brings a song in. That keeps out pop and R&B songs with a rap feature and long-running hits. For techno, Raw / Deep / Hypnotic comes first because Peak Time / Driving leans to big-room festival tracks; a Peak Time song needs a followed label or artist, or a heavy, driving sound by the writer's ear.
 
 Hard Techno is not read: most of it is above 134 BPM. Every chart reading is saved each day, so the edition can compare a song with its own past: "plays at 4x its usual" and "back after 412 days" are measured from that history. In the first two to four weeks the history is short, so an old song qualifies mostly by coming back to a chart.
 
@@ -38,12 +40,14 @@ Hard Techno is not read: most of it is above 134 BPM. Every chart reading is sav
 
 ## Reason kinds and the five slots
 
-| Kind       | English / Türkçe                                   | It must have                                                                                                                   |
-| ---------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `new`      | New / Yeni                                         | A first release in the last 14 days and a measured reaction: a chart place, plays, or several charts                           |
-| `climbing` | Climbing / Yükselişte                              | A first release in the last year and a better place than before on the same chart                                              |
-| `back`     | Old song, big again / Eski şarkı, yeniden gündemde | A first release 2+ years ago, and a top 50 place on a chart today, plays at 2x its usual, or a chart return after 90+ days off |
-| `alltime`  | All-time favourite / Tüm zamanların favorisi       | A place on the all-time list, `packages/music/data/canon.json`                                                                 |
+| Kind       | English / Türkçe                                   | It must have                                                                                                                                 |
+| ---------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `new`      | New / Yeni                                         | A first release in the last 14 days and a measured reaction: a chart place, plays, or several charts                                         |
+| `climbing` | Climbing / Yükselişte                              | A first release in the last year and a better place than before on the same chart                                                            |
+| `back`     | Old song, big again / Eski şarkı, yeniden gündemde | A first release 2+ years ago, and plays at 2x its usual or a chart return after 90+ days off (until 24 November a top 50 place also counted) |
+| `alltime`  | All-time favourite / Tüm zamanların favorisi       | A place on the all-time list, `packages/music/data/canon.json`                                                                               |
+
+A rap pick (other than all-time) must have at least one number from a rap chart, one whose name says hip-hop or rap; the check refuses it otherwise.
 
 Each genre's five are **2 `new`, 1 `climbing`, 1 `back` and 1 `alltime`**. When no candidate passes a slot's rule, the slot goes to the best candidate that passes another rule; the bar is never lowered to fill a slot.
 
