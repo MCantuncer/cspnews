@@ -27,12 +27,16 @@ const SOURCES = new Map(
 );
 
 const NOW = new Date('2026-11-11T12:00:00Z');
-const article = (sourceId: string, minutesAgo: number, title: string): Article => ({
+/** A description with real news in it, as an outlet's feed gives it. */
+const NEWS =
+  'Malatya’nın Pütürge ilçesinde öğle saatlerinde meydana gelen deprem çevre illerden de hissedildi; ekipler bölgede inceleme yapıyor.';
+
+const article = (sourceId: string, minutesAgo: number, title: string, summary = ''): Article => ({
   id: `${sourceId}${String(minutesAgo)}`,
   sourceId,
   url: `https://${sourceId}.example/${String(minutesAgo)}`,
   title,
-  summary: '',
+  summary,
   publishedAt: new Date(NOW.getTime() - minutesAgo * 60_000),
   language: 'tr',
   sections: ['turkey'],
@@ -44,7 +48,7 @@ describe('buildHotFeed', () => {
       now: NOW,
       sources: SOURCES,
       articles: [
-        article('aa-tr', 20, 'Son dakika: Malatya’da 5,8 büyüklüğünde deprem'),
+        article('aa-tr', 20, 'Son dakika: Malatya’da 5,8 büyüklüğünde deprem', NEWS),
         article('ntv', 15, 'Malatya’da 5,8 büyüklüğünde deprem'),
         article('sozcu', 10, 'Malatya 5,8 büyüklüğünde depremle sarsıldı'),
       ],
@@ -74,6 +78,42 @@ describe('buildHotFeed', () => {
     });
     expect(calm.stories).toEqual([]);
   });
+
+  it('never publishes a story without a few lines of real news', () => {
+    const headlinesOnly = buildHotFeed({
+      now: NOW,
+      sources: SOURCES,
+      articles: [
+        article('aa-tr', 20, 'Son dakika: Malatya’da 5,8 büyüklüğünde deprem'),
+        article('ntv', 15, 'Malatya’da 5,8 büyüklüğünde deprem'),
+        article('sozcu', 10, 'Malatya 5,8 büyüklüğünde depremle sarsıldı'),
+      ],
+    });
+    expect(headlinesOnly.stories).toEqual([]);
+  });
+
+  it('never publishes the daily "deprem mi oldu?" pages (2026-11-24)', () => {
+    const teaser =
+      'Son depremler 24 Kasım 2026 Salı günü vatandaşlar tarafından yakından takip ediliyor. AFAD ve Kandilli Rasathanesi’nin deprem listelerinde Konya, Kütahya ve Manisa başta olmak üzere farklı bölgelerde meydana gelen sarsıntılar yer aldı. Peki, az önce deprem mi oldu?';
+    const feed = buildHotFeed({
+      now: NOW,
+      sources: SOURCES,
+      articles: [
+        article('aa-tr', 50, 'Az önce deprem nerede oldu?', teaser),
+        article(
+          'ntv',
+          30,
+          'depremler! Deprem mi oldu? 24 Kasım 2026 nerede, ne zaman deprem oldu?',
+        ),
+        article(
+          'sozcu',
+          10,
+          'Son dakika deprem: İstanbul, Ankara, İzmir ve il il AFAD son depremler 24 Kasım 2026',
+        ),
+      ],
+    });
+    expect(feed.stories).toEqual([]);
+  });
 });
 
 describe('shortHeadline', () => {
@@ -94,7 +134,7 @@ describe('richer hot stories', () => {
   const quake = (summary: string): Article[] => [
     { ...article('aa-tr', 20, 'Son dakika: Malatya’da 5,8 büyüklüğünde deprem'), summary },
     {
-      ...article('ntv', 15, 'Malatya’da 5,8 büyüklüğünde deprem'),
+      ...article('ntv', 15, 'Malatya’da 5,8 büyüklüğünde deprem', NEWS),
       imageUrl: 'https://ntv.example/photo.jpg',
     },
     article('sozcu', 10, 'Malatya 5,8 büyüklüğünde depremle sarsıldı'),
@@ -107,9 +147,19 @@ describe('richer hot stories', () => {
     expect(story?.summary).toEqual({ text, sourceId: 'aa-tr' });
   });
 
+  it('skips a teaser and quotes the next outlet with real news', () => {
+    const [story] = buildHotFeed({
+      now: NOW,
+      sources: SOURCES,
+      articles: quake(
+        'Malatya’da korkutan deprem! Deprem nerede oldu, kaç büyüklüğünde? İşte detaylar.',
+      ),
+    }).stories;
+    expect(story?.summary).toEqual({ text: NEWS, sourceId: 'ntv' });
+  });
+
   it('gives each outlet its own headline and time', () => {
     const [story] = buildHotFeed({ now: NOW, sources: SOURCES, articles: quake('') }).stories;
-    expect(story?.summary).toBeUndefined();
     expect(story?.sources[1]).toMatchObject({
       sourceId: 'ntv',
       title: 'Malatya’da 5,8 büyüklüğünde deprem',
@@ -160,5 +210,15 @@ describe('cleanSummary', () => {
 
   it('gives nothing for a description that is too short', () => {
     expect(cleanSummary('Detaylar geliyor.', 'Başlık', 'NTV')).toBeUndefined();
+  });
+
+  it('gives nothing for a teaser', () => {
+    expect(
+      cleanSummary(
+        'Son depremler 24 Kasım 2026 Salı günü vatandaşlar tarafından yakından takip ediliyor. AFAD ve Kandilli listelerinde farklı bölgelerde sarsıntılar yer aldı.',
+        'Az önce deprem nerede oldu?',
+        'NTV',
+      ),
+    ).toBeUndefined();
   });
 });
