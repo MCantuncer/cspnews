@@ -51,9 +51,18 @@ const SUMMARY_MIN = 60;
 const escape = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 /**
+ * What a teaser says instead of news: a question to the reader ("Peki, az önce deprem mi
+ * oldu?"), a pointer to the article ("İşte detaylar", "Here's what we know"), or a topic
+ * "being followed closely". A description like that tells the reader nothing.
+ */
+const TEASER =
+  /\?|\bpeki\b|merak ed|işte (?:detaylar|ayrıntılar|liste|tüm)|detaylar(?:ı)? haber|takip ediliyor|here'?s what|find out|read on|click here/iu;
+
+/**
  * An outlet's feed description, cleaned of what feeds add around the text: a repeated
  * headline, a date stamp, the outlet's own name, WordPress's "The post … appeared first on"
- * line. Cut after whole sentences within SUMMARY_MAX. Undefined when too little is left.
+ * line. Cut after whole sentences within SUMMARY_MAX. Undefined when too little is left, or
+ * when it is a teaser rather than news.
  */
 export function cleanSummary(
   summary: string,
@@ -72,7 +81,7 @@ export function cleanSummary(
     .replace(new RegExp(`\\s+${escape(outletName)}\\s*$`), '')
     .replace(/\s+/g, ' ')
     .trim();
-  if (text.length < SUMMARY_MIN) return undefined;
+  if (text.length < SUMMARY_MIN || TEASER.test(text)) return undefined;
   if (text.length <= SUMMARY_MAX) return text;
   const sentences = text.match(/[^.!?…]+[.!?…]+["'”’)]*\s*/gu) ?? [];
   let cut = '';
@@ -130,8 +139,11 @@ function toHotStory(
   });
   if (outlets.length < 2) return undefined;
 
-  const title = clip(lead.article.title.replace(BREAKING_PREFIX, '').trim(), 160);
+  // A story is only Hot News with at least a few lines of real news from an outlet: a
+  // headline alone, or a teaser, leaves the reader with nothing.
   const summary = summaryOf(story, sources);
+  if (!summary) return undefined;
+  const title = clip(lead.article.title.replace(BREAKING_PREFIX, '').trim(), 160);
   return {
     id: story.id,
     section,
@@ -145,7 +157,7 @@ function toHotStory(
     timeline: storyLifecycle(story, sources)
       .slice(-40)
       .map((event) => ({ ...event, at: event.at.toISOString() })),
-    ...(summary ? { summary } : {}),
+    summary,
   };
 }
 

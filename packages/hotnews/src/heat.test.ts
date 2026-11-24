@@ -2,7 +2,7 @@ import { defineSources, type Article } from '@cspnews/core';
 import { groupStories } from '@cspnews/grouping';
 import { describe, expect, it } from 'vitest';
 
-import { assessHotNews, isUrgentTitle } from './heat.js';
+import { assessHotNews, isSearchPageTitle, isUrgentTitle, magnitudeIn } from './heat.js';
 
 const SOURCES = new Map(
   defineSources(
@@ -32,14 +32,14 @@ const SOURCES = new Map(
 
 const NOW = new Date('2026-11-11T12:00:00Z');
 let counter = 0;
-function article(sourceId: string, minutesAgo: number, title: string): Article {
+function article(sourceId: string, minutesAgo: number, title: string, summary = ''): Article {
   counter += 1;
   return {
     id: `h${String(counter)}`,
     sourceId,
     url: `https://${sourceId}.example/${String(counter)}`,
     title,
-    summary: '',
+    summary,
     publishedAt: new Date(NOW.getTime() - minutesAgo * 60_000),
     language: 'tr',
     sections: ['turkey'],
@@ -137,11 +137,56 @@ describe('assessHotNews', () => {
     ]);
     expect(meeting).toMatchObject({ heat: 10, promoted: false, reason: 'below-threshold' });
   });
+
+  it('never promotes the daily "deprem mi oldu?" pages, however many outlets have them', () => {
+    const [pages] = assess([
+      article('aa-tr', 50, 'Az önce deprem nerede oldu?'),
+      article('ntv', 30, 'depremler! Deprem mi oldu? 24 Kasım 2026 nerede, ne zaman deprem oldu?'),
+      article('sozcu', 20, 'Son dakika deprem: il il AFAD son depremler 24 Kasım 2026'),
+      article('sabah', 10, 'Deprem mi oldu? AFAD ve Kandilli son depremler listesi'),
+    ]);
+    expect(pages).toMatchObject({ promoted: false, reason: 'search-page' });
+  });
+
+  it('leaves a quake below magnitude 4.5 that did no harm to the bulletins', () => {
+    const [small] = assess([
+      article('aa-tr', 20, 'Son dakika: Van Gölü’nde 4,3 büyüklüğünde deprem'),
+      article(
+        'ntv',
+        15,
+        'AFAD duyurdu: Van’da korkutan deprem',
+        'Van Gevaş’ta 4.3 büyüklüğünde deprem.',
+      ),
+      article('sozcu', 10, 'Van 4,3 büyüklüğünde depremle sarsıldı'),
+      article('sabah', 5, 'Van’da deprem paniği'),
+    ]);
+    expect(small).toMatchObject({ promoted: false, reason: 'minor-quake' });
+  });
+
+  it('promotes a small quake that did harm', () => {
+    const [harm] = assess([
+      article('aa-tr', 20, 'Son dakika: Malatya’da 4,2 büyüklüğünde deprem'),
+      article('ntv', 15, 'Malatya’da 4,2 büyüklüğündeki depremde 3 kişi yaralandı'),
+      article('sozcu', 10, 'Malatya depremi: 3 yaralı'),
+    ]);
+    expect(harm).toMatchObject({ promoted: true, reason: 'promoted' });
+  });
+
+  it('does not take a figure of speech for an urgent word', () => {
+    // "Fırtına gibi esiyor": storms through the league.
+    const [football] = assess([
+      article('aa-tr', 30, 'Trabzonspor, Thomas Reis ile durdurulamıyor'),
+      article('ntv', 20, 'Trabzonspor, Thomas Reis ile fırtına gibi esiyor!'),
+      article('sozcu', 10, 'Trabzonspor, Thomas Reis ile son 5 sezonun en iyisi'),
+    ]);
+    expect(football).toMatchObject({ promoted: false, reason: 'below-threshold' });
+    expect(football?.components.urgent).toBe(false);
+  });
 });
 
 describe('isUrgentTitle', () => {
   it('matches word starts and whole words as listed', () => {
-    expect(isUrgentTitle('Erzurum’da 3,6 büyüklüğünde deprem', 'tr')).toBe(true);
+    expect(isUrgentTitle('Erzurum’da 5,6 büyüklüğünde deprem', 'tr')).toBe(true);
     expect(isUrgentTitle('Depremde 3 kişi yaralandı', 'tr')).toBe(true);
     expect(isUrgentTitle('Sel felaketi: köprü yıkıldı', 'tr')).toBe(true);
     expect(isUrgentTitle('Selahattin Demirtaş açıklama yaptı', 'tr')).toBe(false);
@@ -151,5 +196,40 @@ describe('isUrgentTitle', () => {
 
   it('ignores search pages that ask a question', () => {
     expect(isUrgentTitle('Erzurum’da deprem mi oldu?', 'tr')).toBe(false);
+    expect(isUrgentTitle('Deprem mi oldu? 24 Kasım 2026 nerede deprem oldu', 'tr')).toBe(false);
+    expect(isUrgentTitle('Son dakika deprem: il il AFAD son depremler 24 Kasım 2026', 'tr')).toBe(
+      false,
+    );
+  });
+
+  it('takes an earthquake headline as urgent only from magnitude 4.5, or with another word', () => {
+    expect(isUrgentTitle('Erzurum’da 3,6 büyüklüğünde deprem', 'tr')).toBe(false);
+    expect(isUrgentTitle('Malatya’da 5,8 büyüklüğünde deprem', 'tr')).toBe(true);
+    expect(isUrgentTitle('Depremde 3 kişi yaralandı', 'tr')).toBe(true);
+    expect(isUrgentTitle('Magnitude 6.1 earthquake strikes off Japan', 'en')).toBe(true);
+    expect(isUrgentTitle('Small earthquake felt in Athens', 'en')).toBe(false);
+  });
+});
+
+describe('isSearchPageTitle', () => {
+  it('knows the pages outlets publish every day to answer searches', () => {
+    expect(isSearchPageTitle('Az önce deprem nerede oldu?', 'tr')).toBe(true);
+    expect(isSearchPageTitle('İzmir deprem Kandilli ve AFAD son depremler listesi', 'tr')).toBe(
+      true,
+    );
+    expect(isSearchPageTitle('Galatasaray maçı hangi kanalda', 'tr')).toBe(true);
+    expect(isSearchPageTitle('Malatya’da 5,8 büyüklüğünde deprem', 'tr')).toBe(false);
+    expect(isSearchPageTitle('Kartal Belediyesi’ne operasyon: 10 gözaltı', 'tr')).toBe(false);
+  });
+});
+
+describe('magnitudeIn', () => {
+  it('reads a magnitude however outlets write it', () => {
+    expect(magnitudeIn('Malatya’da 5,8 büyüklüğünde deprem')).toBe(5.8);
+    expect(magnitudeIn('Van Gevaş’ta 4.3 büyüklüğünde bir deprem')).toBe(4.3);
+    expect(magnitudeIn('M4.6 earthquake off Crete')).toBe(4.6);
+    expect(magnitudeIn('A 6.2-magnitude quake hit the coast')).toBe(6.2);
+    expect(magnitudeIn('Magnitude 7.1 earthquake strikes Japan')).toBe(7.1);
+    expect(magnitudeIn('Deprem mi oldu? Son depremler listesi')).toBeUndefined();
   });
 });
