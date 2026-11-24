@@ -1,0 +1,1970 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-24T07:30:00+03:00",
+  "writtenAt": "2026-11-24T06:59:46+03:00",
+  "stories": [
+    {
+      "id": "044392d102cb7e85",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Revaluation rate set at 27.83%",
+          "title": "Taxes, fees and fines set to rise 27.83% from January",
+          "summary": {
+            "what": "The Finance Ministry set this year’s revaluation rate at 27.83%, the figure many taxes, fees and fines rise by from 1 January 2027.",
+            "why": "The rate sets next year’s increase in property and vehicle taxes, passport and driving-licence fees, traffic fines and the exit fee for travel abroad.",
+            "next": "The new amounts take effect on 1 January 2027; the rate also applies to companies’ final provisional tax period of 2026."
+          },
+          "body": [
+            {
+              "subhead": "The rate",
+              "blocks": [
+                {
+                  "text": "Türkiye’s revaluation rate for 2026 has been set at 27.83%, according to a general communiqué on the Tax Procedure Law prepared by the Revenue Administration (GİB) and published in the Official Gazette, Anadolu Agency and Bloomberg HT reported late on Monday."
+                },
+                {
+                  "text": "The communiqué says the same rate will also be used for the last provisional tax period of 2026, and that earlier communiqués on the subject remain in force. Cumhuriyet described the rate as the basic yardstick for the increases that will apply to taxes, fees and fines from 1 January 2027."
+                }
+              ]
+            },
+            {
+              "subhead": "How it is calculated",
+              "blocks": [
+                {
+                  "text": "Under the Tax Procedure Law, the revaluation rate is the average rise in the domestic producer price index of the Turkish Statistical Institute (TÜİK) over the twelve months to the end of October, compared with the same period a year earlier, AA explained. The Treasury and Finance Ministry is required by law to announce the figure in the Official Gazette."
+                },
+                {
+                  "text": "Because it follows producer prices rather than consumer prices, the rate does not match the headline inflation figure that most households watch, and it is set once a year for the year ahead."
+                }
+              ]
+            },
+            {
+              "subhead": "What goes up",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe listed what the rate is used for. It sets next year’s increases in property tax, the environmental cleaning tax, motor vehicle tax, stamp duty, the special communication tax and inheritance and gift tax. It also lifts traffic fines, driving-licence and passport fees, vehicle inspection charges, administrative fines under the misdemeanours law and the fee Turkish residents pay to travel abroad."
+                },
+                {
+                  "text": "Last year the revaluation rate was set at 18.95%, BBC Türkçe reported, so this year’s figure means a markedly larger rise in these charges than the one that took effect at the start of 2026. Cumhuriyet headlined its report with the question many readers will ask: how much more will taxes, fees and fines cost?"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Revaluation rate for 2026",
+              "value": "27.83%",
+              "source": "Official Gazette, via AA"
+            },
+            {
+              "label": "Last year’s rate",
+              "value": "18.95%",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "New amounts take effect",
+              "value": "1 Jan 2027",
+              "source": "Cumhuriyet"
+            }
+          ],
+          "keyNumber": {
+            "label": "Revaluation rate, last year and this year",
+            "unit": "%",
+            "before": 18.95,
+            "after": 27.83,
+            "source": "BBC Türkçe, Official Gazette"
+          }
+        },
+        "tr": {
+          "shortTitle": "Yeniden değerleme oranı %27,83",
+          "title": "Vergi, harç ve cezalar ocakta %27,83 artacak",
+          "summary": {
+            "what": "Hazine ve Maliye Bakanlığı, 2026 yılı yeniden değerleme oranını %27,83 olarak belirledi; birçok vergi, harç ve ceza 1 Ocak 2027’den itibaren bu oranda artacak.",
+            "why": "Oran; emlak ve motorlu taşıtlar vergisi, pasaport ve ehliyet harçları, trafik cezaları ve yurt dışı çıkış harcındaki yeni yıl zammını belirliyor.",
+            "next": "Yeni tutarlar 1 Ocak 2027’de yürürlüğe girecek; oran şirketlerin 2026’ya ait son geçici vergi döneminde de uygulanacak."
+          },
+          "body": [
+            {
+              "subhead": "Oran belli oldu",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı ve Bloomberg HT’nin pazartesi gece aktardığına göre, Gelir İdaresi Başkanlığı (GİB) tarafından hazırlanan Vergi Usul Kanunu Genel Tebliği Resmi Gazete’de yayımlandı ve 2026 yılı için yeniden değerleme oranı %27,83 olarak tespit edildi."
+                },
+                {
+                  "text": "Tebliğe göre bu oran 2026 yılına ait son geçici vergi dönemi için de uygulanacak; konuyla ilgili daha önce yayımlanan tebliğler de yürürlükte kalıyor. Cumhuriyet, oranı 1 Ocak 2027’den itibaren vergi, harç ve cezalara yapılacak zamların temel ölçütü olarak tanımladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Nasıl hesaplanıyor?",
+              "blocks": [
+                {
+                  "text": "AA’nın aktardığına göre Vergi Usul Kanunu uyarınca yeniden değerleme oranı, ekim ayı dahil son on iki ayda Türkiye İstatistik Kurumu’nun (TÜİK) yurt içi üretici fiyat endeksinde bir önceki yılın aynı dönemine göre meydana gelen ortalama artışa eşit. Kanun, oranın Hazine ve Maliye Bakanlığınca Resmi Gazete ile ilan edilmesini şart koşuyor."
+                },
+                {
+                  "text": "Oran tüketici fiyatlarını değil üretici fiyatlarını izlediği için hanelerin takip ettiği manşet enflasyonla örtüşmüyor ve her yıl bir sonraki yıl için bir kez belirleniyor. BBC Türkçe’ye göre bu yılki oran, 24 Kasım tarihli Resmi Gazete’de yayımlanan tebliğle duyuruldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Neler zamlanacak?",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe, oranın nerelerde kullanıldığını sıraladı: emlak vergisi, çevre temizlik vergisi, motorlu taşıtlar vergisi, damga vergisi, özel iletişim vergisi ile veraset ve intikal vergisi. Trafik cezaları, ehliyet ve pasaport harçları, araç muayene ücretleri, Kabahatler Kanunu’na tabi idari para cezaları ve yurt dışı çıkış harcı da bu oranla artıyor."
+                },
+                {
+                  "text": "BBC Türkçe’ye göre geçen yıl yeniden değerleme oranı %18,95 olarak belirlenmişti; yani bu yılki oran, 2026 başında yürürlüğe giren artıştan belirgin biçimde daha yüksek bir zam anlamına geliyor. Cumhuriyet haberini okurların aklındaki soruyla duyurdu: Vergi, harç ve cezalara ne kadar zam gelecek?"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2026 yeniden değerleme oranı",
+              "value": "%27,83",
+              "source": "Resmi Gazete, AA’nın aktarımıyla"
+            },
+            {
+              "label": "Geçen yılki oran",
+              "value": "%18,95",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Yeni tutarların başlangıcı",
+              "value": "1 Ocak 2027",
+              "source": "Cumhuriyet"
+            }
+          ],
+          "keyNumber": {
+            "label": "Yeniden değerleme oranı: geçen yıl ve bu yıl",
+            "unit": "%",
+            "before": 18.95,
+            "after": 27.83,
+            "source": "BBC Türkçe, Resmi Gazete"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T21:11:02.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T21:13:35.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T21:13:35.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T21:26:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T22:33:42.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T22:40:31.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/24/ver1795468423/3795497/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/yeniden-degerleme-orani-yuzde-27-83-olarak-belirlendi-3795497"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/yeniden-degerleme-orani-yuzde-27-83-olarak-belirlendi-3795497",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/ekonomi/yeniden-degerleme-orani-bu-yil-icin-yuzde-27-83-olarak-belirlendi/4135168",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/ekonomi/yeniden-degerleme-orani-yuzde-2783-olarak-belirlendi-7708001",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/resmi-gazetede-yayimlandi-yeniden-degerleme-orani-belirlendi-43388614",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/vergi-harc-ve-cezalara-ne-kadar-zam-gelecek-resmi-gazete-de-yayimlandi-yeniden-degerleme-orani-belli-oldu-2558797",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-yeniden-degerleme-orani-belirlendi-3929578",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/resmi-gazete-de-yayimlanan-tebligle-2026-yili-yeniden-degerleme-orani-belli-oldu-1396864",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/2026-yili-yeniden-degerleme-orani-belli-oldu-1752267",
+          "confirms": false
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cvglre569j3po?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "526287e4052d1b9f",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "90 jailed in Bayğaralar inquiry",
+          "title": "Court jails 90 suspects in the Adana “Bayğaralar” gang inquiry",
+          "summary": {
+            "what": "A court in Adana ordered 90 suspects held in custody in the inquiry into the armed gang known as the “Bayğaralar”, and placed 15 under judicial control.",
+            "why": "Prosecutors say the group, whose leader is abroad, ran armed robberies, threats and killings across several provinces through members inside Türkiye.",
+            "next": "Police are still looking for 37 more suspects, 23 of them abroad; a separate inquiry is tracing the gang’s assets."
+          },
+          "body": [
+            {
+              "subhead": "The ruling",
+              "blocks": [
+                {
+                  "text": "A criminal judgeship in Adana ordered 90 suspects, 12 of them children, to be held in custody in the investigation into the armed gang known as the “Bayğaralar”, Cumhuriyet and Habertürk reported on Monday. Fifteen other suspects were released under judicial control."
+                },
+                {
+                  "text": "Habertürk, citing Anadolu Agency, said 101 people were detained in simultaneous raids on 20 November and four more fugitives were caught afterwards. Of the 105 brought to court, prosecutors asked for 93 to be jailed and 12 to be placed under judicial control."
+                }
+              ]
+            },
+            {
+              "subhead": "What prosecutors allege",
+              "blocks": [
+                {
+                  "text": "The inquiry is run by the organised crime bureau of the Adana Chief Public Prosecutor’s Office. Cumhuriyet reported that prosecutors believe the gang, led by Ramazan Bayğara, committed aggravated robbery in the form of armed attacks, threats, unlawful detention, and murder and wounding aimed at rival groups, mainly in Adana but also in other provinces."
+                },
+                {
+                  "text": "According to the prosecutors, members acted within a hierarchy on the orders of the gang’s leaders. Bayğara and other leaders are abroad and ran the group through members inside Türkiye, Cumhuriyet said. In all, 138 suspects have been identified, 12 of them children and 23 of them abroad. Justice Minister Akın Gürlek had earlier described the operation as Adana-based, with raids on 135 addresses in 13 provinces, Habertürk reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Weapons and assets",
+              "blocks": [
+                {
+                  "text": "The raids on 20 November covered 135 addresses in 13 provinces. Cumhuriyet said police seized two AK-47 rifles, an MP5, another automatic weapon, eight unlicensed pistols, 17 magazines and 421 rounds of ammunition, along with a large amount of digital material."
+                },
+                {
+                  "text": "A separate investigation was opened to find assets believed to have been gained from the gang’s crimes, Habertürk reported, and a court ordered six properties and 24 vehicles to be seized. Justice Minister Akın Gürlek had said earlier that work to catch the remaining 37 suspects, 23 of whom are abroad, was continuing."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Suspects jailed",
+              "value": "90",
+              "source": "Cumhuriyet, Habertürk"
+            },
+            {
+              "label": "Released under judicial control",
+              "value": "15",
+              "source": "Cumhuriyet, Habertürk"
+            },
+            {
+              "label": "Suspects identified",
+              "value": "138",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Properties and vehicles seized",
+              "value": "6 and 24",
+              "source": "Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Adana",
+            "lat": 37.0,
+            "lon": 35.32,
+            "region": "Adana, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Bayğaralar soruşturmasında 90 tutuklama",
+          "title": "Adana’daki “Bayğaralar” soruşturmasında 90 şüpheli tutuklandı",
+          "summary": {
+            "what": "Kamuoyunda “Bayğaralar” olarak bilinen silahlı suç örgütüne yönelik soruşturmada 90 şüpheli tutuklandı, 15 kişiye adli kontrol uygulandı.",
+            "why": "Savcılığa göre lideri yurt dışında olan örgüt, Türkiye’deki üyeleri aracılığıyla birçok ilde silahlı yağma, tehdit ve kasten öldürme suçları işledi.",
+            "next": "23’ü yurt dışında olmak üzere 37 şüpheliyi yakalama çalışmaları sürüyor; örgütün mal varlığı için ayrı soruşturma yürütülüyor."
+          },
+          "body": [
+            {
+              "subhead": "Hakimlik kararı",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet ve Habertürk’ün pazartesi aktardığına göre, kamuoyunda “Bayğaralar” olarak bilinen silahlı suç örgütüne yönelik soruşturmada 12’si suça sürüklenen çocuk olmak üzere 90 şüpheli tutuklandı. 15 şüpheli hakkında ise adli kontrol kararı verildi."
+                },
+                {
+                  "text": "Habertürk’ün AA’ya dayandırdığı habere göre 20 Kasım’daki eş zamanlı operasyonda 101 kişi gözaltına alındı, ardından firari 4 zanlı daha yakalandı. Adliyeye sevk edilen 105 şüpheliden 93’ü tutuklama, 12’si adli kontrol talebiyle hakimliğe çıkarıldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Savcılığın iddiaları",
+              "blocks": [
+                {
+                  "text": "Soruşturmayı Adana Cumhuriyet Başsavcılığı Örgütlü Suçlar Soruşturma Bürosu yürütüyor. Cumhuriyet’e göre savcılık, liderliğini Ramazan Bayğara’nın yaptığı örgütün başta Adana olmak üzere farklı illerde silahlı saldırı niteliğinde nitelikli yağma, tehdit, kişiyi hürriyetinden yoksun bırakma ve husumetli gruplara yönelik kasten öldürme ve yaralama suçları işlediğini değerlendiriyor."
+                },
+                {
+                  "text": "Savcılığa göre üyeler, örgüt yöneticilerinin talimatıyla hiyerarşik bir yapı içinde hareket etti. Cumhuriyet’in aktardığına göre Bayğara ve diğer yöneticiler yurt dışında bulunuyor ve örgütü yurt içindeki mensupları aracılığıyla yönetiyor. Soruşturmada toplam 138 şüpheli tespit edildi; bunlardan 12’si çocuk, 23’ü yurt dışında."
+                }
+              ]
+            },
+            {
+              "subhead": "Silahlar ve mal varlığı",
+              "blocks": [
+                {
+                  "text": "20 Kasım’daki operasyon 13 ilde 135 adresi kapsadı. Cumhuriyet’e göre aramalarda 2 AK-47 uzun namlulu silah, 1 MP5, 1 otomatik silah, 8 ruhsatsız tabanca, 17 şarjör, 421 fişek ve çok sayıda dijital materyal ele geçirildi."
+                },
+                {
+                  "text": "Habertürk’ün haberine göre örgüt mensuplarının suçtan elde ettiği değerlendirilen mal varlığını tespit etmek için ayrı bir soruşturma başlatıldı ve sulh ceza hakimliği kararıyla 6 gayrimenkul ile 24 araca el konuldu. Adalet Bakanı Akın Gürlek daha önce, Adana merkezli operasyonun 13 ilde 135 adrese düzenlendiğini ve 23’ü yurt dışında olan 37 kişiyi yakalama çalışmalarının sürdüğünü açıklamıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Tutuklanan şüpheli",
+              "value": "90",
+              "source": "Cumhuriyet, Habertürk"
+            },
+            {
+              "label": "Adli kontrol",
+              "value": "15",
+              "source": "Cumhuriyet, Habertürk"
+            },
+            {
+              "label": "Tespit edilen şüpheli",
+              "value": "138",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "El konulan gayrimenkul ve araç",
+              "value": "6 ve 24",
+              "source": "Habertürk"
+            }
+          ],
+          "place": {
+            "name": "Adana",
+            "lat": 37.0,
+            "lon": 35.32,
+            "region": "Adana, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T18:03:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T18:05:42.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T18:05:42.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/c458b250-7828-4883-ad53-cabe30d9a28a.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/baygaralar-sorusturmasinda-90-supheli-tutuklandi-2558744"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/baygaralar-sorusturmasinda-90-supheli-tutuklandi-2558744",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/adana-merkezli-baygaralar-operasyonunda-90-tutuklama-3929544",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "143ac64a1f46b6ae",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Yüceer explains AK Party move",
+          "title": "Tekirdağ mayor Yüceer denies threats lay behind his switch to AK Party",
+          "summary": {
+            "what": "Tekirdağ’s metropolitan mayor Candan Yüceer, who left the CHP for the YENİ Party and then joined the AK Party, said no threat or fear drove his decision.",
+            "why": "His move hands the governing party one more big-city mayor from the opposition and has drawn claims about what lay behind it.",
+            "next": "Yüceer said he wants closer work with the central government on Tekirdağ’s water, transport and infrastructure problems."
+          },
+          "body": [
+            {
+              "subhead": "What he said",
+              "blocks": [
+                {
+                  "text": "Candan Yüceer, the metropolitan mayor of Tekirdağ, explained on Monday why he joined the governing AK Party, speaking after a weekly meeting of the party’s Tekirdağ provincial board, Sözcü and Habertürk reported. Cumhuriyet noted that Yüceer had earlier resigned from the main opposition CHP to join the YENİ Party, and then left that party too."
+                },
+                {
+                  "text": "Yüceer said many claims and “secret scenarios” had circulated about his decision, Cumhuriyet reported, and rejected them."
+                },
+                {
+                  "quote": "In the end, we did not take this decision because of a threat, out of fear or steered by personal ambition.",
+                  "speaker": "Candan Yüceer, Tekirdağ metropolitan mayor",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                },
+                {
+                  "text": "He said political decisions could be debated and criticised, but that he did not think it right for anyone to read his intentions or interpret his will in their own way. The decision was not the result of a personal score, resentment or a quarrel, Habertürk reported him as saying."
+                }
+              ]
+            },
+            {
+              "subhead": "“More services for Tekirdağ”",
+              "blocks": [
+                {
+                  "text": "Yüceer said his main motive was to bring more services to Tekirdağ as a metropolitan mayor, meet residents’ demands faster and open the way for the city, according to Habertürk and Sözcü. He said the city had problems waiting for solutions in infrastructure, drinking water, transport, agriculture, industry and the environment, and that he aimed to overcome them in stronger cooperation with the central government."
+                }
+              ]
+            },
+            {
+              "subhead": "Tenders and probes",
+              "blocks": [
+                {
+                  "text": "Asked about claims concerning the municipality, Yüceer said there was no investigation into him. He said 99% of the municipality’s contracts went through open tenders, against a national average of 70%, and that the share of direct procurement had fallen to 2.5% from about 6% when he took office two and a half years ago, Cumhuriyet and Sözcü reported. He said the municipality went straight to inspectors or prosecutors whenever it found a fault."
+                },
+                {
+                  "text": "Ali Gümüş, the AK Party’s Tekirdağ provincial chair, said the party had 141,000 members in the province and was happy to welcome Yüceer, Habertürk reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Contracts through open tender",
+              "value": "99%",
+              "source": "Candan Yüceer"
+            },
+            {
+              "label": "National average, he says",
+              "value": "70%",
+              "source": "Candan Yüceer"
+            },
+            {
+              "label": "AK Party members in Tekirdağ",
+              "value": "141,000",
+              "source": "Ali Gümüş, via Habertürk"
+            }
+          ],
+          "keyNumber": {
+            "label": "Direct procurement share, on arrival and now",
+            "unit": "%",
+            "before": 6,
+            "after": 2.5,
+            "source": "Candan Yüceer, via Cumhuriyet"
+          }
+        },
+        "tr": {
+          "shortTitle": "Yüceer AK Parti kararını anlattı",
+          "title": "Tekirdağ Büyükşehir Belediye Başkanı Yüceer, AK Parti kararında tehdit olmadığını söyledi",
+          "summary": {
+            "what": "CHP’den YENİ Parti’ye, oradan da AK Parti’ye geçen Tekirdağ Büyükşehir Belediye Başkanı Candan Yüceer, kararının arkasında tehdit ya da korku olmadığını söyledi.",
+            "why": "Yüceer’in geçişi iktidar partisine muhalefetten bir büyükşehir belediye başkanı daha kazandırdı ve kararın perde arkasına dair iddiaları gündeme getirdi.",
+            "next": "Yüceer, Tekirdağ’ın su, ulaşım ve altyapı sorunlarını merkezi yönetimle daha güçlü iş birliği içinde çözmek istediğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Ne dedi?",
+              "blocks": [
+                {
+                  "text": "Sözcü ve Habertürk’ün aktardığına göre Tekirdağ Büyükşehir Belediye Başkanı Candan Yüceer, pazartesi günü AK Parti Tekirdağ İl Başkanlığının haftalık olağan il yürütme ve il yönetim kurulu toplantısının ardından AK Parti’ye katılma kararının gerekçelerini anlattı. Cumhuriyet, Yüceer’in daha önce CHP’den istifa ederek YENİ Parti’ye geçtiğini, ardından bu partiden de ayrıldığını hatırlattı."
+                },
+                {
+                  "text": "Cumhuriyet’e göre Yüceer, kararıyla ilgili pek çok iddia ve “gizli senaryo” ortaya atıldığını söyleyerek bunları reddetti."
+                },
+                {
+                  "quote": "Nihai olarak bu kararın alınmasında ne bir tehdit, ne bir korku ne de kişisel bir ikbal yönlendirmesiyle bu kararı almış değiliz.",
+                  "speaker": "Candan Yüceer, Tekirdağ Büyükşehir Belediye Başkanı",
+                  "sourceId": "cumhuriyet"
+                },
+                {
+                  "text": "Yüceer, siyasi kararların tartışılabileceğini ve eleştirilebileceğini ancak kimsenin niyet okuyarak iradesini kendine göre yorumlamasını doğru bulmadığını söyledi. Habertürk’e göre kararın kişisel bir hesaplaşma, kırgınlık ya da kavganın sonucu olmadığını da vurguladı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Tekirdağ’a daha fazla hizmet”",
+              "blocks": [
+                {
+                  "text": "Habertürk ve Sözcü’nün aktardığına göre Yüceer, en büyük motivasyonunun büyükşehir belediye başkanı olarak Tekirdağ’a daha fazla hizmet getirmek, vatandaşların taleplerini daha hızlı karşılamak ve şehrin önünü açmak olduğunu söyledi. Kentte altyapı, içme suyu, ulaşım, tarım, sanayi ve çevre alanlarında çözüm bekleyen sorunlar bulunduğunu belirten Yüceer, bunları merkezi yönetimle daha güçlü iş birliği içinde aşmayı hedeflediklerini kaydetti."
+                }
+              ]
+            },
+            {
+              "subhead": "İhaleler ve soruşturma iddiası",
+              "blocks": [
+                {
+                  "text": "Belediyeye yönelik iddialara da değinen Yüceer, hakkında yürütülen bir soruşturma bulunmadığını söyledi. Cumhuriyet ve Sözcü’ye göre Yüceer, belediyede açık ihale oranının Türkiye ortalaması %70 iken %99 olduğunu, iki buçuk yıl önce göreve geldiklerinde %6 civarında olan doğrudan temin oranının ise %2,5’e düştüğünü anlattı. Bir eksiklik görüldüğünde hemen teftişe ya da savcılığa başvurduklarını ekledi."
+                },
+                {
+                  "text": "Habertürk’e göre AK Parti Tekirdağ İl Başkanı Ali Gümüş de partinin kentte 141 bin üyesi olduğunu belirterek Yüceer’in katılımından mutluluk duyduklarını söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Açık ihale oranı",
+              "value": "%99",
+              "source": "Candan Yüceer"
+            },
+            {
+              "label": "Türkiye ortalaması (Yüceer’e göre)",
+              "value": "%70",
+              "source": "Candan Yüceer"
+            },
+            {
+              "label": "AK Parti’nin Tekirdağ’daki üyesi",
+              "value": "141 bin",
+              "source": "Ali Gümüş, Habertürk’ün aktarımıyla"
+            }
+          ],
+          "keyNumber": {
+            "label": "Doğrudan temin oranı: göreve gelişte ve bugün",
+            "unit": "%",
+            "before": 6,
+            "after": 2.5,
+            "source": "Candan Yüceer, Cumhuriyet’in aktarımıyla"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T17:22:34.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T17:55:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T17:55:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T19:38:27.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/23/ver1795454514/3929534/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/tekirdag-buyuksehir-belediye-baskani-candan-yuceer-ak-partiye-katilma-kararinin-gerekcesini-acikladi-3929534"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/tekirdag-buyuksehir-belediye-baskani-candan-yuceer-ak-partiye-katilma-kararinin-gerekcesini-acikladi-3929534",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/akp-ye-gecen-tekirdag-buyuksehir-belediye-baskani-candan-yuceer-transferin-nedenini-acikladi-ne-bir-tehdit-ne-bir-korku-ne-de-kisisel-bir-ikbal-2558742",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/candan-yuceer-neden-ak-parti-ye-katildi-p383837",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "bcef4e5640ff9cf5",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "cf5164636ad3b77e",
+      "versions": {
+        "en": {
+          "news": "The US added Megaspeed and its units in Thailand and Malaysia to its trade blacklist, hours after Huang returned to Nvidia.",
+          "shortTitle": "US blacklists Megaspeed",
+          "title": "US blacklists Megaspeed, chip buyer at the heart of the Nvidia scandal",
+          "summary": {
+            "what": "The US Commerce Department added Singapore’s Megaspeed, a big buyer of Nvidia chips, and six other firms to its Entity List of export blacklisted companies.",
+            "why": "Megaspeed is suspected of moving Nvidia’s AI chips to China, and its former executive Alice Huang is accused of spying while in a relationship with Nvidia’s Jensen Huang.",
+            "next": "US and Singapore investigations into Megaspeed continue; the Commerce Department did not say when the listing takes effect."
+          },
+          "body": [
+            {
+              "subhead": "The listing",
+              "blocks": [
+                {
+                  "text": "The US Commerce Department’s Bureau of Industry and Security placed Megaspeed International and six other firms in Southeast Asia on its Entity List on Monday, hours after Jensen Huang returned as Nvidia’s chief executive, Al Jazeera reported. The Guardian said the notice also covers Megaspeed’s subsidiaries in Thailand and Malaysia; the BBC said its subsidiary Speedmatrix was listed too."
+                },
+                {
+                  "text": "Anyone shipping advanced US technology to listed companies, including Nvidia’s top-end AI chips, now needs an export licence, which the Guardian said is likely to be denied. The BIS filing said the firms were acting “contrary to the national security or foreign policy interests of the United States”, according to Al Jazeera. The BBC said the department did not say when the ban would take effect."
+                }
+              ]
+            },
+            {
+              "subhead": "Why Megaspeed",
+              "blocks": [
+                {
+                  "text": "Megaspeed is a Singapore-based developer of data centres and was one of Nvidia’s biggest chip customers, buying billions of dollars’ worth, the BBC and TechCrunch reported. US authorities have examined since 2024 whether it diverted AI chips to China, which has been barred from buying them since 2022. The BBC said the Chinese retailer Alibaba was reported to be among its largest customers. Megaspeed has said it complies with US export controls."
+                },
+                {
+                  "text": "The company drew wider attention after reports that Alice Huang, its former executive and controlling shareholder, had a relationship with Jensen Huang. US officials accuse her of working with China’s Ministry of State Security; Beijing calls the claims groundless. The New York Times reported on Monday that she kept in contact with a Chinese intelligence official during the affair, the Guardian said."
+                }
+              ]
+            },
+            {
+              "subhead": "Questions in Washington",
+              "blocks": [
+                {
+                  "text": "Commerce had long declined to list the company, drawing criticism from Treasury Secretary Scott Bessent, who said other agencies had wanted it blacklisted for months, Al Jazeera and the Guardian reported."
+                },
+                {
+                  "quote": "The Department of Commerce still needs to explain to Congress why this took so long.",
+                  "speaker": "Pete Ricketts, US senator",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Singapore’s prime minister Lawrence Wong said his country was running its own investigation into Megaspeed but was not involved in the US inquiry, the Guardian reported. Nvidia’s shares rose 31.5% after Huang’s return, Al Jazeera said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Other firms added with Megaspeed",
+              "value": "6",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "US scrutiny of Megaspeed since",
+              "value": "2024",
+              "source": "The Guardian"
+            },
+            {
+              "label": "China barred from these chips since",
+              "value": "2022",
+              "source": "BBC"
+            },
+            {
+              "label": "Nvidia shares after Huang’s return",
+              "value": "+31.5%",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Singapore",
+            "lat": 1.29,
+            "lon": 103.85,
+            "region": "Singapore"
+          }
+        },
+        "tr": {
+          "news": "ABD, Huang’ın Nvidia’ya dönüşünden saatler sonra Megaspeed’i ve Tayland ile Malezya’daki şirketlerini ticari kara listeye aldı.",
+          "shortTitle": "ABD Megaspeed’i kara listeye aldı",
+          "title": "ABD, Nvidia skandalının merkezindeki Megaspeed’i kara listeye aldı",
+          "summary": {
+            "what": "ABD Ticaret Bakanlığı, Nvidia çiplerinin büyük alıcılarından Singapur merkezli Megaspeed’i ve altı şirketi daha ihracat kara listesi Entity List’e ekledi.",
+            "why": "Megaspeed’in Nvidia’nın yapay zekâ çiplerini Çin’e aktardığından şüpheleniliyor; eski yöneticisi Alice Huang ise Jensen Huang’la ilişkisi sürerken casusluk yapmakla suçlanıyor.",
+            "next": "ABD ve Singapur’daki soruşturmalar sürüyor; Ticaret Bakanlığı yasağın ne zaman yürürlüğe gireceğini açıklamadı."
+          },
+          "body": [
+            {
+              "subhead": "Kara liste kararı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ye göre ABD Ticaret Bakanlığına bağlı Sanayi ve Güvenlik Bürosu (BIS), pazartesi günü Megaspeed International’ı ve Güneydoğu Asya’daki altı şirketi daha, Jensen Huang’ın Nvidia CEO’luğuna dönmesinden saatler sonra Entity List’e ekledi. The Guardian’a göre karar Megaspeed’in Tayland ve Malezya’daki şirketlerini de kapsıyor; BBC, Speedmatrix adlı yan kuruluşun da listeye alındığını yazdı."
+                },
+                {
+                  "text": "Bu şirketlere Nvidia’nın en gelişmiş yapay zekâ çipleri dahil ileri ABD teknolojisi göndermek isteyenler artık ihracat lisansı almak zorunda; The Guardian’a göre bu lisansın reddedilmesi bekleniyor. Al Jazeera’nin aktardığına göre BIS, şirketlerin “ABD’nin ulusal güvenlik veya dış politika çıkarlarına aykırı” hareket ettiğini belirtti. BBC, bakanlığın yasağın ne zaman başlayacağını açıklamadığını kaydetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden Megaspeed?",
+              "blocks": [
+                {
+                  "text": "BBC ve TechCrunch’a göre Singapur merkezli Megaspeed veri merkezleri kuruyor ve milyarlarca dolarlık alımla Nvidia’nın en büyük çip müşterilerinden biriydi. ABD makamları 2024’ten bu yana şirketin yapay zekâ çiplerini 2022’den beri bu çipleri alması yasak olan Çin’e aktarıp aktarmadığını inceliyor. BBC’ye göre Çinli Alibaba’nın şirketin en büyük müşterileri arasında olduğu bildiriliyor. Megaspeed ise ABD ihracat kurallarına uyduğunu söylüyor."
+                },
+                {
+                  "text": "Şirket, eski yöneticisi ve kontrol hissedarı Alice Huang’ın Jensen Huang’la ilişkisi olduğu haberleriyle gündeme geldi. ABD’li yetkililer Alice Huang’ı Çin Devlet Güvenlik Bakanlığıyla çalışmakla suçluyor; Pekin iddiaları asılsız buluyor. The Guardian’a göre New York Times pazartesi günü, Huang’ın ilişki sürerken bir Çinli istihbarat yetkilisiyle temas halinde kaldığını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Washington’da sorular",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve The Guardian’a göre Ticaret Bakanlığı uzun süre şirketi listeye almadı; Hazine Bakanı Scott Bessent de diğer kurumların bunu aylardır istediğini söyleyerek bakanlığı eleştirmişti."
+                },
+                {
+                  "quote": "Ticaret Bakanlığı bunun neden bu kadar uzun sürdüğünü hâlâ Kongre’ye açıklamak zorunda.",
+                  "speaker": "Pete Ricketts, ABD senatörü",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre Singapur Başbakanı Lawrence Wong, ülkesinin Megaspeed hakkında kendi soruşturmasını yürüttüğünü ancak ABD’deki soruşturmada yer almadığını söyledi. Al Jazeera’ye göre Nvidia hisseleri Huang’ın dönüşünün ardından %31,5 yükseldi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Megaspeed’le birlikte listelenen şirket",
+              "value": "6",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "ABD incelemesinin başlangıcı",
+              "value": "2024",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Çin’e çip yasağının başlangıcı",
+              "value": "2022",
+              "source": "BBC"
+            },
+            {
+              "label": "Huang’ın dönüşünden sonra Nvidia hissesi",
+              "value": "+%31,5",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Singapur",
+            "lat": 1.29,
+            "lon": 103.85,
+            "region": "Singapur"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T21:25:42.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T23:16:08.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T23:16:08.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T00:52:47.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T01:47:15.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4a66/live/7c413f70-e78a-11f1-a5c2-c57ab9df3111.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "609c363594e66867",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Two states sue over Grok",
+          "title": "Oregon and Virginia are first states to sue SpaceX over Grok deepfakes",
+          "summary": {
+            "what": "Oregon and Virginia filed separate lawsuits accusing SpaceX of misleading consumers about the safety of Grok, whose image tool made sexualised deepfakes.",
+            "why": "They are the first US states to sue, after millions of sexualised images, including of children, were generated with Grok on X, according to a cited study.",
+            "next": "Both states seek damages, penalties and court orders; X says it has tightened Grok’s protections and screens every prompt."
+          },
+          "body": [
+            {
+              "subhead": "The lawsuits",
+              "blocks": [
+                {
+                  "text": "Oregon’s attorney general Dan Rayfield and Virginia’s attorney general Jay Jones filed separate lawsuits against SpaceX on Monday, accusing it of breaking state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of X and its Grok AI, The Verge reported. Several states had opened investigations, but these are the first to sue, Al Jazeera said."
+                },
+                {
+                  "text": "SpaceX acquired Grok’s maker xAI in February, Ars Technica noted. The complaints centre on Grok Imagine and its “spicy mode”, which Al Jazeera said lets users turn an existing photo of a person into a sexual or nude image or video."
+                },
+                {
+                  "quote": "For these Defendants, weak safeguards were not a failure but a feature.",
+                  "speaker": "Jay Jones, Virginia attorney general",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "What the states allege",
+              "blocks": [
+                {
+                  "text": "Virginia’s suit cites a Center for Countering Digital Hate study that estimated Grok generated and posted millions of sexualised images on X between December 2025 and January 2026, more than 20,000 of them depicting children, Al Jazeera reported. Virginia’s investigators found that Grok would advise users how to get around its own moderation, and that putting image tools behind a subscription did not stop the images but let the company profit from them, the suit says."
+                },
+                {
+                  "text": "The states also say the X Safety team responsible for testing Grok had been cut to two or three people, Ars Technica reported."
+                },
+                {
+                  "quote": "xAI not only knowingly endangered kids and our communities, but they also lied to our faces about non-existent safety measures.",
+                  "speaker": "Dan Rayfield, Oregon attorney general",
+                  "sourceId": "ars-technica"
+                }
+              ]
+            },
+            {
+              "subhead": "The company’s answer",
+              "blocks": [
+                {
+                  "text": "X Safety said in a statement that people who used Grok Imagine to make such material had deliberately broken its terms and worked to get around its safeguards, that it acted promptly to tighten protections, and that classifiers screen every prompt and check every output, The Verge reported. The Verge said its own tests after earlier restrictions found they did little to stop sexualised deepfakes."
+                },
+                {
+                  "text": "SpaceX also faces more than a dozen lawsuits from individuals who say Grok made non-consensual sexual images of them, Al Jazeera said. Both states are seeking damages, penalties and orders to stop the conduct."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Images of children, Dec 2025–Jan 2026",
+              "value": "20,000+",
+              "source": "CCDH study, cited in Virginia’s suit"
+            },
+            {
+              "label": "Grok safety testers, states say",
+              "value": "2–3",
+              "source": "Oregon and Virginia, via Ars Technica"
+            },
+            {
+              "label": "Lawsuits from individuals",
+              "value": "12+",
+              "source": "Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İki eyalet Grok’a dava açtı",
+          "title": "Oregon ve Virginia, Grok deepfake’leri nedeniyle SpaceX’e dava açan ilk eyaletler oldu",
+          "summary": {
+            "what": "Oregon ve Virginia, görsel aracı cinsel içerikli deepfake’ler üreten Grok’un güvenliği konusunda tüketicileri yanılttığı gerekçesiyle SpaceX’e ayrı ayrı dava açtı.",
+            "why": "Davaya giden ilk ABD eyaletleri bunlar; atıf yapılan bir araştırmaya göre X’te Grok ile çocukları da gösteren milyonlarca cinsel içerikli görsel üretildi.",
+            "next": "İki eyalet de tazminat, para cezası ve mahkeme kararı istiyor; X ise korumaları sıkılaştırdığını ve her komutu taradığını söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Davalar",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre Oregon Başsavcısı Dan Rayfield ve Virginia Başsavcısı Jay Jones pazartesi günü SpaceX’e ayrı davalar açarak şirketi sektör standardı güvenlik önlemlerini göz ardı etmek ve X ile Grok’un güvenliğini yanıltıcı biçimde tanıtmakla, yani eyalet tüketiciyi koruma yasalarını çiğnemekle suçladı. Al Jazeera’ye göre birçok eyalet soruşturma başlatmıştı ama dava açan ilk eyaletler bu ikisi."
+                },
+                {
+                  "text": "Ars Technica, SpaceX’in Grok’u geliştiren xAI’yi şubatta satın aldığını hatırlattı. Davaların odağında Grok Imagine ve onun “spicy mode” adlı modu var; Al Jazeera’ye göre bu mod, kullanıcıların bir kişinin mevcut fotoğrafından cinsel ya da çıplak görsel veya video üretmesine imkân veriyor."
+                },
+                {
+                  "quote": "Bu davalılar için zayıf güvenlik önlemleri bir kusur değil, bir özellikti.",
+                  "speaker": "Jay Jones, Virginia Başsavcısı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Eyaletlerin iddiaları",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nin aktardığına göre Virginia’nın davası, Center for Countering Digital Hate’in Grok’un Aralık 2025 ile Ocak 2026 arasında X’te milyonlarca cinsel içerikli görsel ürettiğini, bunların 20 binden fazlasının çocukları gösterdiğini tahmin eden araştırmasına dayanıyor. Davaya göre Virginia’nın müfettişleri, Grok’un kullanıcılara kendi denetiminin nasıl aşılacağını anlattığını ve görsel araçlarının ücretli aboneliğe taşınmasının görselleri durdurmadığını, aksine şirkete gelir getirdiğini tespit etti."
+                },
+                {
+                  "text": "Ars Technica’ya göre eyaletler, Grok’u test etmekten sorumlu X Safety ekibinin iki üç kişiye indirildiğini de öne sürüyor."
+                },
+                {
+                  "quote": "xAI çocuklarımızı ve toplumumuzu bile bile tehlikeye atmakla kalmadı, var olmayan güvenlik önlemleri hakkında yüzümüze yalan söyledi.",
+                  "speaker": "Dan Rayfield, Oregon Başsavcısı",
+                  "sourceId": "ars-technica",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Şirketin yanıtı",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre X Safety yaptığı açıklamada, Grok Imagine’i bu tür içerik üretmek için kullananların kullanım koşullarını bilerek çiğnediğini ve korumaları aşmaya çalıştığını, şirketin korumaları hızla sıkılaştırdığını ve sınıflandırıcıların her komutu ve her çıktıyı kontrol ettiğini söyledi. The Verge ise önceki kısıtlamaların ardından yaptığı testlerde bunların cinsel içerikli deepfake’leri durdurmakta pek işe yaramadığını yazdı."
+                },
+                {
+                  "text": "Al Jazeera’ye göre SpaceX, Grok’un kendilerinin rızası olmadan cinsel görsellerini ürettiğini söyleyen kişilerin açtığı bir düzineden fazla davayla da karşı karşıya. İki eyalet de tazminat, para cezası ve bu uygulamaların durdurulmasını istiyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Çocukları gösteren görsel (Ara 2025–Oca 2026)",
+              "value": "20 binden fazla",
+              "source": "CCDH araştırması, Virginia davasında"
+            },
+            {
+              "label": "Grok güvenlik test ekibi (eyaletlere göre)",
+              "value": "2–3 kişi",
+              "source": "Oregon ve Virginia, Ars Technica’nın aktarımıyla"
+            },
+            {
+              "label": "Bireylerin açtığı dava",
+              "value": "12’den fazla",
+              "source": "Al Jazeera"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T18:26:47.000Z",
+          "sourceId": "the-verge-ai"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T21:15:33.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T21:15:33.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T21:30:44.000Z",
+          "sourceId": "ars-technica"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T22:26:15.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
+        "sourceId": "ars-technica",
+        "sourceName": "Ars Technica",
+        "articleUrl": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+      },
+      "sources": [
+        {
+          "sourceId": "the-verge-ai",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "ars-technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375532/us-states-sue-musk-companies-over-flood-sexualised-images-made-ai-chatbot-grok",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "b8cbcdfbe9c249dd",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "UN chief seeks AI safety framework",
+          "title": "UN chief wants a global AI safety framework agreed within a year",
+          "summary": {
+            "what": "UN Secretary-General António Guterres asked member states to build, within a year, a global framework for managing AI risks with independent oversight.",
+            "why": "He says humanity must keep control of AI, but the US and China are racing for the lead and US regulators look unlikely to step in.",
+            "next": "Guterres leaves office in December and says he will tell his successor that controlling AI is essential."
+          },
+          "body": [
+            {
+              "subhead": "The call",
+              "blocks": [
+                {
+                  "text": "UN Secretary-General António Guterres on Monday urged the world’s nations to agree within a year on a mechanism to curb the risks of artificial intelligence, speaking at the Bridgetown Special Summit on AI Safety in Barbados, France 24 and Al Jazeera reported."
+                },
+                {
+                  "quote": "Today I call for member states to coordinate efforts and to develop within the next year a globally inclusive and principles-based multilateral framework for AI risk management, backed by independent and credible oversight.",
+                  "speaker": "António Guterres, UN Secretary-General",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "He said a starting point could be agreement on shared safety measures, a testing regime and basic requirements for independent oversight. The framework, he said, should be globally inclusive and principles-based, and countries should coordinate their efforts to build it."
+                }
+              ]
+            },
+            {
+              "subhead": "A divided field",
+              "blocks": [
+                {
+                  "text": "As his term nears its end in December, Guterres has spoken more and more about AI safety and about avoiding a future of “killer robots”, Al Jazeera said. France 24 noted that nations recently agreed to hold talks on regulating such weapons by 2028."
+                },
+                {
+                  "text": "International rules look distant while the US and China, the technology’s superpowers, compete for breakthroughs, both outlets reported. In September, Anthropic’s Dario Amodei, OpenAI’s Sam Altman and SpaceX’s Elon Musk called for a slowdown in AI development, while Nvidia’s Jensen Huang and Meta’s Mark Zuckerberg want to go full speed ahead. US regulators appear unlikely to intervene; in September President Donald Trump hosted tech executives who agreed to a voluntary code of conduct on AI safety."
+                }
+              ]
+            },
+            {
+              "subhead": "Institutions of 1945",
+              "blocks": [
+                {
+                  "text": "Asked by AFP about reform, Guterres said institutions of global governance “correspond to the reality of the world in 1945” and need to change, France 24 reported. He said this applied to the UN, the international financial architecture and the world trade system."
+                },
+                {
+                  "text": "He said he would advise his successor, who takes office in the new year but has not yet been chosen, that properly controlling AI is necessary for “humanity to maintain control of our world”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Deadline he set",
+              "value": "1 year",
+              "source": "France 24, Al Jazeera"
+            },
+            {
+              "label": "Guterres’ term ends",
+              "value": "December",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Talks on “killer robots” rules until",
+              "value": "2028",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Bridgetown",
+            "lat": 13.1,
+            "lon": -59.62,
+            "region": "Barbados"
+          }
+        },
+        "tr": {
+          "shortTitle": "Guterres yapay zekâ çerçevesi istiyor",
+          "title": "BM Genel Sekreteri, bir yıl içinde küresel yapay zekâ güvenlik çerçevesi istedi",
+          "summary": {
+            "what": "BM Genel Sekreteri António Guterres, üye ülkelerden bir yıl içinde bağımsız denetime dayanan küresel bir yapay zekâ risk yönetimi çerçevesi oluşturmalarını istedi.",
+            "why": "Guterres insanlığın yapay zekânın kontrolünü elinde tutması gerektiğini söylüyor; ancak ABD ve Çin liderlik yarışında, ABD’li düzenleyicilerin de müdahale etmesi beklenmiyor.",
+            "next": "Aralıkta görevden ayrılacak olan Guterres, halefine yapay zekânın kontrolünün şart olduğunu söyleyeceğini belirtti."
+          },
+          "body": [
+            {
+              "subhead": "Çağrı",
+              "blocks": [
+                {
+                  "text": "France 24 ve Al Jazeera’nin aktardığına göre BM Genel Sekreteri António Guterres pazartesi günü Barbados’taki Bridgetown Yapay Zekâ Güvenliği Özel Zirvesi’nde konuşarak dünya ülkelerini yapay zekânın risklerini sınırlayacak bir mekanizma üzerinde bir yıl içinde anlaşmaya çağırdı."
+                },
+                {
+                  "quote": "Bugün üye devletleri çabalarını koordine etmeye ve önümüzdeki bir yıl içinde, bağımsız ve güvenilir bir denetimle desteklenen, küresel ölçekte kapsayıcı ve ilkelere dayalı çok taraflı bir yapay zekâ risk yönetimi çerçevesi geliştirmeye çağırıyorum.",
+                  "speaker": "António Guterres, BM Genel Sekreteri",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "Guterres, başlangıç noktasının ortak güvenlik önlemleri, bir test rejimi ve bağımsız denetime ilişkin temel şartlar üzerinde uzlaşmak olabileceğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Bölünmüş bir alan",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ye göre görev süresi aralıkta dolacak olan Guterres, son dönemde yapay zekâ güvenliği ve “katil robotların” gerçeğe dönüştüğü bir gelecekten kaçınma konusunda giderek daha sık konuşuyor. France 24, ülkelerin bu tür silahların düzenlenmesi için 2028’e kadar sürecek görüşmeler yapma konusunda yakın zamanda anlaştığını hatırlattı."
+                },
+                {
+                  "text": "İki kuruluşa göre teknolojinin süper güçleri ABD ve Çin atılım yarışındayken uluslararası kurallar uzak görünüyor. Eylülde Anthropic’ten Dario Amodei, OpenAI’dan Sam Altman ve SpaceX’ten Elon Musk yapay zekâ geliştirmenin yavaşlatılması çağrısı yaparken Nvidia’dan Jensen Huang ve Meta’dan Mark Zuckerberg tam gaz ilerlemekten yana. ABD’li düzenleyicilerin müdahale etmesi beklenmiyor; Başkan Donald Trump eylülde yapay zekâ güvenliği konusunda gönüllü bir davranış kuralına uymayı kabul eden teknoloji yöneticilerini ağırlamıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "1945’in kurumları",
+              "blocks": [
+                {
+                  "text": "France 24’e göre AFP’nin reformla ilgili sorusunu yanıtlayan Guterres, küresel yönetişim kurumlarının “1945 dünyasının gerçekliğine karşılık geldiğini” ve değişmeleri gerektiğini söyledi. Bunun BM, uluslararası finans mimarisi ve dünya ticaret sistemi için de geçerli olduğunu ekledi."
+                },
+                {
+                  "text": "Guterres, yeni yılda göreve başlayacak ama henüz seçilmemiş olan halefine, yapay zekânın gereği gibi kontrol edilmesinin “insanlığın dünyamızın kontrolünü elinde tutması” için şart olduğunu söyleyeceğini belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Önerdiği süre",
+              "value": "1 yıl",
+              "source": "France 24, Al Jazeera"
+            },
+            {
+              "label": "Guterres’in görev süresinin sonu",
+              "value": "Aralık",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "“Katil robot” görüşmelerinin süresi",
+              "value": "2028’e kadar",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Bridgetown",
+            "lat": 13.1,
+            "lon": -59.62,
+            "region": "Barbados"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T19:06:15.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T02:27:19.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T02:27:19.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/f4a8030a-e770-11f1-af10-1bac47ab2f5d/w:1024/p:16x9/5895753bc31b1812a003e5c2e753f80a2e178777.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "7be608759ec9ac3c",
+      "section": "world",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Tankers hit mines in Hormuz",
+          "title": "Iran says three tankers hit mines in Hormuz despite US escort",
+          "summary": {
+            "what": "Iran’s Revolutionary Guards said three oil tankers using routes Tehran had not allowed hit sea mines in the Strait of Hormuz, causing explosions and a fierce fire.",
+            "why": "The claim comes as Iran vows to break the US naval blockade by force and Donald Trump threatens to sink Iranian tankers that try to run it.",
+            "next": "Iran’s parliament speaker says steps to break the blockade militarily will come soon; Qatar is mediating between Tehran and Washington."
+          },
+          "body": [
+            {
+              "subhead": "The explosions",
+              "blocks": [
+                {
+                  "text": "Iran’s Revolutionary Guards (IRGC) said in a written statement on Monday that three oil tankers using routes it had not permitted struck sea mines in the Strait of Hormuz, causing explosions and a severe fire, Anadolu Agency reported. One ship was near the southern shore of the strait and the other two east of it, the statement said."
+                },
+                {
+                  "text": "The IRGC claimed the ships were under broad US air cover and escort, and said that escort “could not prevent these incidents”, according to AA. Iran’s army separately said its air defences shot down a US “LUCAS” drone over the Gulf, east of the strait, Hürriyet and Cumhuriyet reported. Iran said it closed the strait again on 12 July after the US resumed attacks on 8 July, AA noted."
+                }
+              ]
+            },
+            {
+              "subhead": "“Every means” against the blockade",
+              "blocks": [
+                {
+                  "text": "Earlier on Monday, foreign ministry spokesman Esmaeil Baghaei condemned the US naval blockade as “military aggression” and a breach of the UN Charter, Euronews reported. The day before, Donald Trump had told Fox News that Iranian ships trying to run the blockade would go to the bottom of the sea."
+                },
+                {
+                  "quote": "We will absolutely not tolerate this and will use every means to counter US aggression.",
+                  "speaker": "Esmaeil Baghaei, Iranian foreign ministry spokesman",
+                  "sourceId": "euronews-tr",
+                  "translated": true
+                },
+                {
+                  "text": "Parliament speaker Mohammad Bagher Ghalibaf went further in the evening, AA and Bloomberg HT reported, citing the Fars news agency."
+                },
+                {
+                  "quote": "There are ways to break the blockade by military means. We will take steps in this direction soon.",
+                  "speaker": "Mohammad Bagher Ghalibaf, Iranian parliament speaker",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Talks and terms",
+              "blocks": [
+                {
+                  "text": "Euronews said media close to the IRGC had called for a convoy of tankers to break the blockade, but officials said no such plan had been decided. Britain’s UKMTO confirmed at least one incident involving a tanker in the Gulf of Oman on Sunday, with military forces present, without saying who was involved."
+                },
+                {
+                  "text": "Baghaei said the strait could reopen within two hours, as foreign minister Abbas Araghchi had said, if the US lifted sanctions, ended the blockade and honoured its commitments under the Islamabad understanding, Euronews reported. Trump has called the understanding void. Qatar’s prime minister was expected to meet Secretary of State Marco Rubio on Monday, as Doha mediates."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Tankers hit by mines",
+              "value": "3",
+              "source": "IRGC, via AA"
+            },
+            {
+              "label": "Strait closed again on",
+              "value": "12 July",
+              "source": "AA"
+            },
+            {
+              "label": "Time to reopen, Iran says",
+              "value": "2 hours",
+              "source": "Iranian foreign ministry, via Euronews"
+            }
+          ],
+          "place": {
+            "name": "Strait of Hormuz",
+            "lat": 26.57,
+            "lon": 56.25,
+            "region": "Iran and Oman"
+          }
+        },
+        "tr": {
+          "shortTitle": "Hürmüz’de tankerler mayına çarptı",
+          "title": "İran: Hürmüz’de ABD refakatine rağmen üç tanker mayına çarptı",
+          "summary": {
+            "what": "İran Devrim Muhafızları, Hürmüz Boğazı’nda izin verilmeyen güzergâhları kullanan üç petrol tankerinin deniz mayınlarına çarptığını, patlama ve yangın çıktığını açıkladı.",
+            "why": "Açıklama, İran’ın ABD’nin deniz ablukasını zorla kırma sözü verdiği ve Trump’ın ablukayı aşmaya çalışan İran tankerlerini batırmakla tehdit ettiği bir sırada geldi.",
+            "next": "İran Meclis Başkanı ablukayı askeri yöntemlerle kırma adımlarının yakında atılacağını söylüyor; Katar Tahran ile Washington arasında arabuluculuk yapıyor."
+          },
+          "body": [
+            {
+              "subhead": "Patlamalar",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı’nın aktardığına göre İran Devrim Muhafızları Ordusu (DMO) pazartesi günü yaptığı yazılı açıklamada, Hürmüz Boğazı’nda izin verilmeyen güzergâhları kullanan üç petrol tankerinin deniz mayınlarına çarpması sonucu patlamalar ve şiddetli yangın meydana geldiğini bildirdi. Açıklamaya göre gemilerden biri boğazın güney kıyılarında, diğer ikisi ise boğazın doğusundaydı."
+                },
+                {
+                  "text": "AA’ya göre DMO, gemilerin ABD ordusunun geniş kapsamlı hava koruması ve refakati altında olduğunu öne sürdü ve “ABD ordusunun hava refakati bu olayların yaşanmasını engelleyemedi” dedi. Hürriyet ve Cumhuriyet’e göre İran ordusu da ABD’ye ait “LUCAS” tipi bir İHA’nın Basra Körfezi üzerinde, boğazın doğusunda düşürüldüğünü açıkladı. AA, İran’ın ABD’nin 8 Temmuz’da saldırılarına yeniden başlaması üzerine boğazı 12 Temmuz’da tekrar kapattığını hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ablukaya karşı “her yol”",
+              "blocks": [
+                {
+                  "text": "Euronews’in aktardığına göre Dışişleri Bakanlığı Sözcüsü İsmail Bekayi pazartesi günü ABD’nin deniz ablukasını “askeri saldırganlık” ve BM Şartı’nın ihlali olarak kınadı. Bir gün önce Donald Trump, Fox News’e ablukayı aşmaya çalışan İran gemilerinin denizin dibini boylayacağını söylemişti."
+                },
+                {
+                  "quote": "Bu duruma kesinlikle tahammül etmeyeceğiz ve ABD’nin saldırganlığına karşı koymak için her yolu kullanacağız.",
+                  "speaker": "İsmail Bekayi, İran Dışişleri Bakanlığı Sözcüsü",
+                  "sourceId": "euronews-tr",
+                  "translated": true
+                },
+                {
+                  "text": "AA ve Bloomberg HT’nin Fars Haber Ajansı’na dayandırdığı habere göre Meclis Başkanı Muhammed Bakır Kalibaf akşam saatlerinde daha da ileri gitti."
+                },
+                {
+                  "quote": "Ablukayı askeri yöntemlerle kırmanın yolları var. Yakın zamanda bu yönde adımlar atacağız.",
+                  "speaker": "Muhammed Bakır Kalibaf, İran Meclis Başkanı",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Müzakereler ve şartlar",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre DMO’ya yakın medya ablukayı kırmak için bir tanker konvoyu gönderilmesini istedi, ancak yetkililer böyle bir planın kararlaştırılmadığını söyledi. İngiltere’nin UKMTO’su, pazar günü Umman Körfezi’nde askeri güçlerin de bulunduğu ve bir tankerin karıştığı en az bir olayı doğruladı ama tarafları açıklamadı."
+                },
+                {
+                  "text": "Euronews’e göre Bekayi, ABD yaptırımları kaldırır, ablukayı sonlandırır ve İslamabad mutabakatındaki taahhütlerini yerine getirirse Dışişleri Bakanı Abbas Arakçi’nin dediği gibi boğazın iki saat içinde açılabileceğini söyledi. Trump mutabakatı geçersiz ilan etmişti. Arabulucu Katar’ın Başbakanı’nın pazartesi günü ABD Dışişleri Bakanı Marco Rubio ile görüşmesi bekleniyordu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Mayına çarpan tanker",
+              "value": "3",
+              "source": "DMO, AA’nın aktarımıyla"
+            },
+            {
+              "label": "Boğazın yeniden kapatıldığı tarih",
+              "value": "12 Temmuz",
+              "source": "AA"
+            },
+            {
+              "label": "İran’a göre açılma süresi",
+              "value": "2 saat",
+              "source": "İran Dışişleri, Euronews’in aktarımıyla"
+            }
+          ],
+          "place": {
+            "name": "Hürmüz Boğazı",
+            "lat": 26.57,
+            "lon": 56.25,
+            "region": "İran ve Umman"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T14:00:39.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T16:46:11.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T16:46:11.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T17:10:39.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T18:14:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T18:18:52.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T20:45:54.000Z",
+          "sourceId": "bloomberg-ht"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0473683516f14679ccc260.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-iha-gerilimi-iran-ordusu-acikladi-dusurduk-43388479"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/23/irandan-abdnin-hurmuz-ablukasina-tepki-her-yolu-kullanacagiz",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-3-petrol-tankerinde-patlama-meydana-geldi/4134992",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-iha-gerilimi-iran-ordusu-acikladi-dusurduk-43388479",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/dunya/iran-hurmuz-bogazi-nda-abd-ye-ait-lucas-tipi-iha-dusuruldu-2558748",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/iran-ordusu-hurmuz-bogazinin-dogusunda-abd-ye-ait-lucas-tipi-iha-dusuruldu-3929547",
+          "confirms": false
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/iran-abd-ablukasini-kirmak-icin-adim-atacagiz-3795495",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "97e5a541e8ca5f64",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "EU’s 22nd Russia sanctions package",
+          "title": "EU proposes 22nd Russia sanctions package, cutting 60 banks from Swift",
+          "summary": {
+            "what": "The European Commission proposed its 22nd package of sanctions on Russia, targeting banks, crypto platforms, energy services, shadow-fleet tankers and Russian sport.",
+            "why": "Brussels wants to cut Russia’s ways of paying for the war in Ukraine after months of doubt that any new package would have substance.",
+            "next": "All 27 member states must agree before the package takes effect."
+          },
+          "body": [
+            {
+              "subhead": "What is in it",
+              "blocks": [
+                {
+                  "text": "European Commission president Ursula von der Leyen presented the EU’s 22nd package of sanctions against Russia on Monday, Al Jazeera and The Guardian reported. It would extend the transaction ban to about 60 Russian banks, which would be cut off from the Swift payments system, and crack down on crypto and payment networks, including in third countries that help Russia evade sanctions. A crypto sanctions taskforce has been set up."
+                },
+                {
+                  "quote": "We are striking harder at Russia’s ways to finance its war, by targeting its banks and crypto platforms.",
+                  "speaker": "Ursula von der Leyen, European Commission president",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "On energy, the ban on services would be widened so no European company can help Russia build, operate or repair its energy infrastructure, notably its refineries. More than 70 further ships would be listed, and the Commission proposes banning all tankers linked to Russia’s shadow fleet, The Guardian reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Sport, visas and boardrooms",
+              "blocks": [
+                {
+                  "text": "Russian teams and athletes would be banned from competing under the Russian flag at events in the EU, and member states should consider refusing Schengen visas to Russian athletes at events where national symbols are used, the Commission said. Financial flows from Russian sponsors to European sports and cultural bodies would be restricted, and Russians could no longer sit on the boards of European-based sports federations."
+                },
+                {
+                  "text": "The package also revives a visa ban for Russians who fought in Ukraine, and would bar Europeans from holding posts on the boards of companies in Russia."
+                },
+                {
+                  "quote": "Russian ex-combatants pose a security risk to Europe. They cannot be allowed to wander freely across our countries.",
+                  "speaker": "Ursula von der Leyen, European Commission president",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "A harder line",
+              "blocks": [
+                {
+                  "text": "A few months ago it was not certain there would be a 22nd package at all, The Guardian’s Jakub Krupa wrote: during talks on the 21st package in July one measure was diluted and a ban on ex-combatants was delayed amid opposition from France and Italy. Since then, Russia has intensified its strikes on Ukraine, and hostile acts in the EU blamed on Russia have multiplied, strengthening the hand of hawks such as Estonia."
+                },
+                {
+                  "text": "The EU has already sanctioned more than 4,200 people and entities, including President Vladimir Putin, Al Jazeera reported. The new package still needs the unanimous approval of all 27 member states."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Package number",
+              "value": "22nd",
+              "source": "European Commission"
+            },
+            {
+              "label": "Banks to be cut from Swift",
+              "value": "About 60",
+              "source": "European Commission, via The Guardian"
+            },
+            {
+              "label": "More ships to be listed",
+              "value": "70+",
+              "source": "European Commission, via The Guardian"
+            },
+            {
+              "label": "Already sanctioned by the EU",
+              "value": "4,200+",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Brussels",
+            "lat": 50.85,
+            "lon": 4.35,
+            "region": "Belgium"
+          }
+        },
+        "tr": {
+          "shortTitle": "AB’den 22. Rusya yaptırım paketi",
+          "title": "AB, 60 bankayı SWIFT’ten çıkaran 22. Rusya yaptırım paketini önerdi",
+          "summary": {
+            "what": "Avrupa Komisyonu, Rusya’ya yönelik bankaları, kripto platformlarını, enerji hizmetlerini, gölge filo tankerlerini ve Rus sporunu hedef alan 22. yaptırım paketini önerdi.",
+            "why": "Brüksel, yeni bir paketin içinin doldurulup doldurulamayacağına dair aylarca süren şüphelerin ardından Rusya’nın savaşı finanse etme yollarını kesmek istiyor.",
+            "next": "Paketin yürürlüğe girmesi için 27 üye ülkenin tamamının onayı gerekiyor."
+          },
+          "body": [
+            {
+              "subhead": "Pakette neler var?",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve The Guardian’ın aktardığına göre Avrupa Komisyonu Başkanı Ursula von der Leyen, AB’nin Rusya’ya yönelik 22. yaptırım paketini pazartesi günü tanıttı. Paket, işlem yasağını yaklaşık 60 Rus bankasına genişletiyor ve bu bankaları uluslararası ödeme sistemi SWIFT’ten çıkarıyor; Rusya’nın yaptırımları delmesine yardım eden üçüncü ülkeler dahil kripto ve ödeme ağlarını da hedef alıyor. Bir kripto yaptırımları görev gücü de kuruldu."
+                },
+                {
+                  "quote": "Bankalarını ve kripto platformlarını hedef alarak Rusya’nın savaşını finanse etme yollarına daha sert vuruyoruz.",
+                  "speaker": "Ursula von der Leyen, Avrupa Komisyonu Başkanı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre enerji alanında hizmet yasağı genişletilerek hiçbir Avrupa şirketinin Rusya’nın başta rafineriler olmak üzere enerji altyapısını kurmasına, işletmesine ya da onarmasına yardım edememesi sağlanacak. 70’ten fazla gemi listeye eklenecek ve Komisyon, Rusya’nın gölge filosuna bağlı tüm tankerlerin yasaklanmasını öneriyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Spor, vize ve yönetim kurulları",
+              "blocks": [
+                {
+                  "text": "Komisyona göre Rus takımları ve sporcuları AB’deki etkinliklerde Rus bayrağı altında yarışamayacak; üye ülkeler, Rus ulusal sembollerinin kullanıldığı etkinliklere katılan Rus sporculara Schengen vizesi vermemeyi değerlendirmeli. Rus sponsorlardan Avrupa’daki spor ve kültür kuruluşlarına giden para akışı kısıtlanacak, Ruslar Avrupa merkezli spor federasyonlarının yönetim organlarında görev alamayacak."
+                },
+                {
+                  "text": "Paket, Ukrayna’da savaşmış Ruslara vize yasağını yeniden gündeme getiriyor ve Avrupalıların Rusya’daki şirketlerin yönetim kurullarında görev almasını da yasaklıyor."
+                },
+                {
+                  "quote": "Eski Rus savaşçılar Avrupa için bir güvenlik riski oluşturuyor. Ülkelerimizde serbestçe dolaşmalarına izin verilemez.",
+                  "speaker": "Ursula von der Leyen, Avrupa Komisyonu Başkanı",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Daha sert bir çizgi",
+              "blocks": [
+                {
+                  "text": "The Guardian’dan Jakub Krupa’ya göre birkaç ay önce 22. bir paketin çıkıp çıkmayacağı bile belirsizdi: temmuzdaki 21. paket görüşmelerinde bir önlem yumuşatılmış, eski savaşçılara yönelik yasak ise Fransa ve İtalya’nın itirazıyla ertelenmişti. O günden bu yana Rusya Ukrayna’ya saldırılarını yoğunlaştırdı, AB’de Rusya’ya atfedilen düşmanca eylemler arttı ve Estonya gibi sert çizgiyi savunanların eli güçlendi."
+                },
+                {
+                  "text": "Al Jazeera’ye göre AB, aralarında Devlet Başkanı Vladimir Putin’in de bulunduğu 4 bin 200’den fazla kişi ve kuruluşa yaptırım uyguluyor. Yeni paketin yürürlüğe girmesi için 27 üye ülkenin oy birliği gerekiyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Paket numarası",
+              "value": "22.",
+              "source": "Avrupa Komisyonu"
+            },
+            {
+              "label": "SWIFT’ten çıkarılacak banka",
+              "value": "Yaklaşık 60",
+              "source": "Avrupa Komisyonu, The Guardian’ın aktarımıyla"
+            },
+            {
+              "label": "Listeye eklenecek gemi",
+              "value": "70’ten fazla",
+              "source": "Avrupa Komisyonu, The Guardian’ın aktarımıyla"
+            },
+            {
+              "label": "AB yaptırımı altındakiler",
+              "value": "4 bin 200’den fazla",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Brüksel",
+            "lat": 50.85,
+            "lon": 4.35,
+            "region": "Belçika"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T16:42:56.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T21:15:30.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T21:15:30.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T23:26:16.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375530/eu-moves-ban-russian-flags-sports-events-under-new-sanctions",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    },
+    {
+      "id": "8d65f15b7b21ac05",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "UK sanctions Myanmar generals",
+          "title": "UK sanctions five Myanmar generals after the ICJ genocide ruling",
+          "summary": {
+            "what": "Britain sanctioned five senior Myanmar military figures and formally recognised the genocide against the Rohingya, as 14 countries acknowledged the ICJ’s ruling.",
+            "why": "Last week the International Court of Justice found for the first time in its 80-year history that a state had committed genocide.",
+            "next": "The UK will raise the ruling at the UN Security Council this week and plans a law to stop aviation fuel reaching Myanmar."
+          },
+          "body": [
+            {
+              "subhead": "The sanctions",
+              "blocks": [
+                {
+                  "text": "The UK has sanctioned five senior Myanmar military leaders, Myo Htut Hlaing, Myo Min Tun, Myat Thet Oo, Kyaw Soe and Kyaw Swar Oo, after the International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority, the BBC reported on Monday. France 24 said the measures include asset freezes and travel bans, and that London now formally recognises the genocide."
+                },
+                {
+                  "quote": "The horrific violence and persecution inflicted on the Rohingya cannot go unanswered.",
+                  "speaker": "Ed Miliband, UK foreign secretary",
+                  "sourceId": "france-24"
+                },
+                {
+                  "text": "Miliband said Myanmar’s president Min Aung Hlaing, sanctioned by the UK in 2021, was “directly responsible for many of the atrocities” as head of the military in 2017, the BBC reported. Britain will also legislate to stop aviation fuel being supplied to the country."
+                }
+              ]
+            },
+            {
+              "subhead": "Fourteen countries",
+              "blocks": [
+                {
+                  "text": "The foreign ministers of Australia, Belgium, Canada, Cyprus, the Czech Republic, Estonia, Iceland, Latvia, Luxembourg, New Zealand, Portugal, Spain, The Gambia and the UK said in a joint statement that Myanmar had violated its obligations under the Genocide Convention, France 24 reported. They called the judgment binding and urged Myanmar to comply with it."
+                },
+                {
+                  "text": "The UK is giving £5m in new funding for services for about 350,000 people in Rakhine state and £3m to strengthen accountability and justice for survivors of abuses across Myanmar, the Foreign Office said, according to France 24. Last week Miliband expelled Myanmar’s defence attaché, and he told MPs the UK would raise the ruling at the UN Security Council this week, with a dedicated meeting in two weeks, the BBC said."
+                }
+              ]
+            },
+            {
+              "subhead": "The ruling",
+              "blocks": [
+                {
+                  "text": "On 19 November the ICJ found by nine votes to six that “genocidal intent is the only reasonable inference” from the evidence about the 2017 military crackdown in Rakhine state, the BBC reported. The court found that about 10,000 Rohingya were killed; more than 700,000 fled to Bangladesh, which Miliband said now supports more than 1.2 million refugees."
+                },
+                {
+                  "text": "Myanmar’s government called the ruling unfair and a “great disappointment”, France 24 reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Military figures sanctioned",
+              "value": "5",
+              "source": "UK Foreign Office, via BBC"
+            },
+            {
+              "label": "Countries acknowledging the ruling",
+              "value": "14",
+              "source": "France 24"
+            },
+            {
+              "label": "New UK aid for Rakhine",
+              "value": "£5m",
+              "source": "UK Foreign Office, via France 24"
+            },
+            {
+              "label": "ICJ vote",
+              "value": "9–6",
+              "source": "BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İngiltere’den Myanmarlı generallere yaptırım",
+          "title": "İngiltere, UAD’nin soykırım kararının ardından beş Myanmarlı generale yaptırım uyguladı",
+          "summary": {
+            "what": "İngiltere beş üst düzey Myanmarlı askere yaptırım uyguladı ve Arakanlılara yönelik soykırımı resmen tanıdı; 14 ülke de UAD kararını kabul etti.",
+            "why": "Uluslararası Adalet Divanı geçen hafta 80 yıllık tarihinde ilk kez bir devletin soykırım işlediğine hükmetti.",
+            "next": "İngiltere kararı bu hafta BM Güvenlik Konseyi’ne taşıyacak ve Myanmar’a uçak yakıtı gitmesini engelleyecek bir yasa hazırlıyor."
+          },
+          "body": [
+            {
+              "subhead": "Yaptırımlar",
+              "blocks": [
+                {
+                  "text": "BBC’nin pazartesi aktardığına göre İngiltere, Uluslararası Adalet Divanı’nın (UAD) Myanmar’ın Arakanlı (Rohingya) Müslümanlara soykırım uyguladığına hükmetmesinin ardından beş üst düzey Myanmarlı komutana yaptırım uyguladı: Myo Htut Hlaing, Myo Min Tun, Myat Thet Oo, Kyaw Soe ve Kyaw Swar Oo. France 24’e göre yaptırımlar mal varlığı dondurma ve seyahat yasağını kapsıyor; Londra soykırımı da resmen tanıdı."
+                },
+                {
+                  "quote": "Arakanlılara reva görülen korkunç şiddet ve zulüm karşılıksız kalamaz.",
+                  "speaker": "Ed Miliband, İngiltere Dışişleri Bakanı",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre Miliband, İngiltere’nin 2021’de yaptırım uyguladığı Myanmar Devlet Başkanı Min Aung Hlaing’in 2017’de ordunun başında olduğu için “vahşetin birçoğundan doğrudan sorumlu” olduğunu söyledi. İngiltere, ülkeye uçak yakıtı sağlanmasını durduracak bir yasa da çıkaracak."
+                }
+              ]
+            },
+            {
+              "subhead": "On dört ülke",
+              "blocks": [
+                {
+                  "text": "France 24’e göre Avustralya, Belçika, Kanada, Kıbrıs Rum Yönetimi, Çekya, Estonya, İzlanda, Letonya, Lüksemburg, Yeni Zelanda, Portekiz, İspanya, Gambiya ve İngiltere dışişleri bakanları ortak açıklamada Myanmar’ın Soykırım Sözleşmesi’nden doğan yükümlülüklerini ihlal ettiğini belirtti. Bakanlar kararın Myanmar için bağlayıcı olduğunu vurgulayarak ülkeyi karara uymaya çağırdı."
+                },
+                {
+                  "text": "France 24’ün aktardığına göre İngiltere Dışişleri Bakanlığı, Arakan eyaletinde yaklaşık 350 bin kişiye hizmet için 5 milyon sterlin, Myanmar genelinde insan hakları ihlallerinden kurtulanlar için hesap sorulabilirlik ve adaleti güçlendirmeye 3 milyon sterlin ek kaynak ayırdığını açıkladı. BBC’ye göre Miliband geçen hafta Myanmar’ın savunma ataşesini sınır dışı etmişti; milletvekillerine de kararı bu hafta BM Güvenlik Konseyi’ne taşıyacaklarını, iki hafta sonra da özel bir toplantı yapılacağını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Karar",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre UAD 19 Kasım’da, 2017’de Arakan eyaletindeki askeri baskıyla ilgili delillerden “çıkarılabilecek tek makul sonucun soykırım kastı olduğuna” dokuza karşı altı oyla hükmetti. Mahkeme yaklaşık 10 bin Arakanlının öldürüldüğünü tespit etti; 700 binden fazla kişi Bangladeş’e kaçtı. Miliband’a göre Bangladeş bugün 1,2 milyondan fazla mülteciye destek veriyor."
+                },
+                {
+                  "text": "France 24’e göre Myanmar hükümeti kararı haksız ve “büyük bir hayal kırıklığı” olarak nitelendirdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yaptırım uygulanan asker",
+              "value": "5",
+              "source": "İngiltere Dışişleri, BBC’nin aktarımıyla"
+            },
+            {
+              "label": "Kararı kabul eden ülke",
+              "value": "14",
+              "source": "France 24"
+            },
+            {
+              "label": "Arakan için yeni İngiliz yardımı",
+              "value": "5 milyon £",
+              "source": "İngiltere Dışişleri, France 24’ün aktarımıyla"
+            },
+            {
+              "label": "UAD’deki oylama",
+              "value": "9–6",
+              "source": "BBC"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T20:29:04.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T21:03:34.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T21:03:34.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T23:10:22.000Z",
+          "sourceId": "france-24"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/46f8/live/11f74480-e77a-11f1-978f-df545a5c5c20.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375529/uk-sanctions-myanmar-president-military-figures-after-genocide-ruling",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T07:30:00+03:00",
+      "updatedAt": "2026-11-24T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "044392d102cb7e85",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "By how much will many taxes, fees and fines rise from 1 January 2027?",
+          "options": ["18.95%", "22.5%", "27.83%"]
+        },
+        "tr": {
+          "question": "Birçok vergi, harç ve ceza 1 Ocak 2027’den itibaren yüzde kaç artacak?",
+          "options": ["%18,95", "%22,5", "%27,83"]
+        }
+      }
+    },
+    {
+      "storyId": "bcef4e5640ff9cf5",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Where is Megaspeed, the company the US just added to its trade blacklist, based?",
+          "options": ["Singapore", "Hong Kong", "Taiwan"]
+        },
+        "tr": {
+          "question": "ABD’nin ticari kara listeye aldığı Megaspeed hangi ülke merkezli?",
+          "options": ["Singapur", "Hong Kong", "Tayvan"]
+        }
+      }
+    },
+    {
+      "storyId": "97e5a541e8ca5f64",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "About how many Russian banks would the EU’s 22nd sanctions package cut off from Swift?",
+          "options": ["20", "60", "150"]
+        },
+        "tr": {
+          "question": "AB’nin 22. yaptırım paketi yaklaşık kaç Rus bankasını SWIFT’ten çıkaracak?",
+          "options": ["20", "60", "150"]
+        }
+      }
+    }
+  ]
+}
