@@ -1,0 +1,1540 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-24T12:30:00+03:00",
+  "writtenAt": "2026-11-24T11:57:01+03:00",
+  "stories": [
+    {
+      "id": "b9c3cff8ad817dd3",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "10 held over Kartal building surveys",
+          "title": "Ten detained over inflated building surveys at Istanbul’s Kartal council",
+          "summary": {
+            "what": "Police detained 10 people, including Kartal council’s urban renewal director, in an inquiry into overstated floor areas in risky-building reports.",
+            "why": "Prosecutors say council staff approved inflated measurements without visiting the buildings, so that more and larger flats could be claimed in redevelopment.",
+            "next": "The inquiry covers forgery, forming a criminal organisation and bribery; the council says it has handed over the documents prosecutors asked for."
+          },
+          "body": [
+            {
+              "subhead": "The morning raids",
+              "blocks": [
+                {
+                  "text": "Police detained 10 people on Tuesday morning in an investigation into Kartal’s urban renewal programme, run by the Anatolian Chief Public Prosecutor’s Office in Istanbul. Diken, Cumhuriyet and NTV reported that the suspects were held in simultaneous raids in which a large amount of digital material was seized. Kartal is an Istanbul district on the Asian side, and Diken noted that its council is run by the main opposition CHP."
+                },
+                {
+                  "text": "According to the prosecutor’s statement published by Cumhuriyet, the inquiry is being pursued for “forgery of official documents, forming and belonging to an organisation to commit crimes, and bribery”. Among those detained were the council’s urban renewal director, İlkin Güneş Eraslan Baybora, and a council engineer, Ayşe Göksu, as well as people from the surveying firms, A Haber and Sabah reported."
+                }
+              ]
+            },
+            {
+              "subhead": "How the scheme allegedly worked",
+              "blocks": [
+                {
+                  "text": "Under Law 6306, which governs the rebuilding of buildings at risk in a disaster, firms measure old buildings before they are demolished and replaced. Prosecutors allege that the surveying firms reported larger floor areas and more independent units than the buildings really had, and passed the figures to the council. Council officials, they say, signed off the reports without going to the buildings to measure them, and the inflated figures brought financial gain."
+                },
+                {
+                  "text": "The provincial directorate of the Environment and Urbanisation Ministry found that in the eight buildings checked so far, the total floor area had been overstated by between 400 and 1,000 square metres, the prosecutor’s office said."
+                }
+              ]
+            },
+            {
+              "subhead": "Phone and bank records",
+              "blocks": [
+                {
+                  "text": "Investigators examined the suspects’ bank movements through MASAK, Türkiye’s financial crimes board, and their mobile phone location records. Cumhuriyet, quoting the prosecutor, said these showed that council officials were not at the addresses on the dates the inspection forms gave. NTV and A Haber reported that the suspects’ accounts showed a high volume of transactions."
+                }
+              ]
+            },
+            {
+              "subhead": "The council’s answer",
+              "blocks": [
+                {
+                  "text": "Kartal council said in a statement carried by Cumhuriyet that it was following the inquiry closely, had shared the information and documents requested with the authorities, and would carry out its own review of the allegations."
+                },
+                {
+                  "quote": "As a pioneering municipality in urban renewal, we see it as our priority that our neighbours live in safe buildings. In our work in this area we put the public interest and transparency first.",
+                  "speaker": "Kartal council statement",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "People detained",
+              "value": "10",
+              "source": "Anatolian Chief Prosecutor’s Office"
+            },
+            {
+              "label": "Buildings checked so far",
+              "value": "8",
+              "source": "Anatolian Chief Prosecutor’s Office"
+            },
+            {
+              "label": "Floor area overstated",
+              "value": "400–1,000 m²",
+              "source": "Environment ministry provincial directorate"
+            }
+          ],
+          "place": {
+            "name": "Kartal",
+            "region": "Istanbul, Türkiye",
+            "lat": 40.89,
+            "lon": 29.19
+          }
+        },
+        "tr": {
+          "shortTitle": "Kartal’da ölçüm operasyonu: 10 gözaltı",
+          "title": "Kartal Belediyesi’ne kentsel dönüşüm operasyonu: 10 gözaltı",
+          "summary": {
+            "what": "Kartal’da riskli binaların alanlarının fazla gösterildiği iddiasıyla aralarında Kentsel Dönüşüm Müdürü’nün de bulunduğu 10 kişi gözaltına alındı.",
+            "why": "Başsavcılığa göre belediye yetkilileri binalara gitmeden ölçüm firmalarının şişirilmiş raporlarını onayladı ve bu yolla maddi menfaat sağlandı.",
+            "next": "Soruşturma sahtecilik, örgüt ve rüşvet suçlarından sürüyor. Belediye, istenen bilgi ve belgeleri paylaştığını ve kendisinin de inceleme yapacağını açıkladı."
+          },
+          "body": [
+            {
+              "subhead": "Sabah saatlerinde operasyon",
+              "blocks": [
+                {
+                  "text": "İstanbul Anadolu Cumhuriyet Başsavcılığı’nın Kartal’daki kentsel dönüşüm işlemlerine ilişkin yürüttüğü soruşturmada salı sabahı eş zamanlı operasyon düzenlendi. Diken, Cumhuriyet ve NTV’nin aktardığına göre 10 şüpheli gözaltına alındı, çok sayıda dijital materyale el konuldu. Diken, belediyenin CHP’li olduğunu hatırlattı."
+                },
+                {
+                  "text": "Cumhuriyet’in yayımladığı başsavcılık açıklamasına göre soruşturma “resmi belgede sahtecilik, suç işlemek amacıyla örgüt kurma ve üye olma ve rüşvet” suçlarından yürütülüyor. A Haber ve Sabah, gözaltına alınanlar arasında Kentsel Dönüşüm Müdürü İlkin Güneş Eraslan Baybora ile belediye mühendisi Ayşe Göksu’nun yanı sıra ölçüm firmalarının yetkilileri de bulunduğunu yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "İddia edilen yöntem",
+              "blocks": [
+                {
+                  "text": "Afet riski altındaki alanların dönüştürülmesine ilişkin 6306 sayılı kanuna göre riskli binalar yıkılmadan önce firmalar tarafından ölçülüyor. Başsavcılığa göre ölçüm firmaları, bağımsız bölüm sayısını ve metrekareyi artırmak için binaların alanlarını olduğundan yüksek gösterip belediyeye iletti. Belediye yetkililerinin de binalara gidip ölçüm yapmadan bu raporları onayladığı, böylece maddi menfaat sağlandığı iddia ediliyor."
+                },
+                {
+                  "text": "Çevre, Şehircilik ve İklim Değişikliği İl Müdürlüğü’nün incelemesinde, bu aşamada tespit edilen sekiz riskli binanın toplam inşaat alanının 400 ile 1.000 metrekare arasında fazla gösterildiği belirlendi."
+                }
+              ]
+            },
+            {
+              "subhead": "Hesap ve baz kayıtları",
+              "blocks": [
+                {
+                  "text": "Şüphelilerin MASAK hesap hareketleri ve HTS baz kayıtları da incelendi. Cumhuriyet’in aktardığı açıklamaya göre formlardaki kontrol tarihlerinde belediye yetkililerinin ilgili adreslerde bulunmadığı tespit edildi. NTV ve A Haber, şüphelilerin hesaplarında yüksek miktarda işlem hacmi bulunduğunu bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Belediyenin yanıtı",
+              "blocks": [
+                {
+                  "text": "Kartal Belediyesi, Cumhuriyet’in yer verdiği açıklamasında soruşturmayı yakından takip ettiğini, istenen bilgi ve belgeleri yetkili mercilerle paylaştığını ve iddiaları kendisinin de inceleyeceğini duyurdu."
+                },
+                {
+                  "quote": "Kentsel dönüşümde öncü bir belediye olarak komşularımızın güvenli yapılarda yaşamasını önceliğimiz olarak görüyoruz. Bu alandaki çalışmalarımızda kamu yararını ve şeffaflığı esas alıyoruz.",
+                  "speaker": "Kartal Belediyesi açıklaması",
+                  "sourceId": "cumhuriyet"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltı sayısı",
+              "value": "10",
+              "source": "İstanbul Anadolu Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "Şimdiye kadar incelenen bina",
+              "value": "8",
+              "source": "İstanbul Anadolu Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "Fazla gösterilen alan",
+              "value": "400–1.000 m²",
+              "source": "Çevre, Şehircilik ve İklim Değişikliği İl Müdürlüğü"
+            }
+          ],
+          "place": {
+            "name": "Kartal",
+            "region": "İstanbul, Türkiye",
+            "lat": 40.89,
+            "lon": 29.19
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T05:33:28.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T05:35:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T05:35:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T05:40:47.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T05:45:56.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T06:07:11.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T06:42:43.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T07:24:24.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T07:32:02.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/64e0344a-959a-4943-bd34-a57054f0a454.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-kartal-belediyesi-ne-operasyon-10-kisi-gozaltina-alindi-2558802"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/24/kartal-belediyesine-operasyon-10-gozalti",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/24/son-dakika-kartal-belediyesinde-kentsel-donusum-usulsuzlugu-operasyonu-10-supheli-gozaltina-alindi",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-kartal-belediyesi-ne-operasyon-10-kisi-gozaltina-alindi-2558802",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/kartal-belediyesine-operasyon-10-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/kartal-belediyesine-kentsel-donusum-operasyonu-10-supheli-gozaltinda-1752285",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/24/kartal-belediyesine-kentsel-donusum-operasyonu-10-supheli-gozaltinda",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-kartal-belediyesine-operasyon-3929611",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/24/kartal-belediyesine-kentsel-donusum-operasyonunda-10-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-kartal-belediyesi-ne-rusvet-operasyonu-10-kisi-gozaltina-alindi-p383893",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T12:30:00+03:00",
+      "updatedAt": "2026-11-24T12:30:00+03:00"
+    },
+    {
+      "id": "fd932fd086ba614e",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Leyla wins International Emmy",
+          "title": "Turkish series Leyla wins the International Emmy for best telenovela",
+          "summary": {
+            "what": "Ay Yapım’s Leyla: Hayat… Aşk… Adalet… won best telenovela at the 54th International Emmy Awards in New York on Monday night.",
+            "why": "It is the fourth Turkish series to win the category, after Kara Sevda in 2017, Yargı in 2023 and Deha in 2025, all made by Ay Yapım.",
+            "next": "Producer Kerem Çatay and director Hilal Saral collected the award; the other Turkish nominee, Uzak Şehir, went home empty-handed."
+          },
+          "body": [
+            {
+              "subhead": "A win in New York",
+              "blocks": [
+                {
+                  "text": "The Turkish drama Leyla: Hayat… Aşk… Adalet… (Leyla: Life… Love… Justice…) won best telenovela at the 54th International Emmy Awards, held in New York on Monday night, Diken, NTV and Anadolu Agency reported. Producer Kerem Çatay and director Hilal Saral accepted the award. The International Emmys are given by the International Academy of Television Arts & Sciences to programmes made and first shown outside the United States."
+                },
+                {
+                  "text": "According to Diken and NTV, 64 nominees from 22 countries competed in 16 categories. Leyla beat Brazil’s Garota do Momento and the second season of Spain’s Valle Salvaje, Onedio reported. Türkiye had a second nominee in the category, Uzak Şehir, a Kanal D series adapted from the Lebanese drama Al Hayba and also made by Ay Yapım."
+                }
+              ]
+            },
+            {
+              "subhead": "A fourth Turkish telenovela win",
+              "blocks": [
+                {
+                  "text": "Turkish series have won the telenovela category before: Kara Sevda in 2017, Yargı in 2023 and Deha in 2025. NTV and Diken said Leyla is the fourth, and Onedio noted that all four were produced by Ay Yapım. Haberler.com reported that Saral said she felt the same joy for the second time, after winning with Kara Sevda in 2017. Onedio described the moment the winner was read out: the Leyla team rose from their table and embraced."
+                }
+              ]
+            },
+            {
+              "subhead": "The show",
+              "blocks": [
+                {
+                  "text": "Leyla began airing on the channel NOW on 11 September 2024. It is adapted from Avenida Brasil, a series that broke viewing records in Brazil. It follows Leyla, who lost her mother as a child and was abandoned by her stepmother Nur, as she returns years later seeking revenge and justice. Cemre Baysel and Alperen Duymaz play the leads, with Gonca Vuslateri as Nur. Onedio said a dinner-table outburst by Vuslateri’s character became widely shared on social media, and that the actress has said most of that scene was improvised."
+                }
+              ]
+            },
+            {
+              "subhead": "The rest of the night",
+              "blocks": [
+                {
+                  "text": "NTV reported that the United Kingdom won the most awards, nine. Best drama went to Carême, the Apple TV series about the Napoleonic-era chef Antonin Carême, and best comedy to Argentina’s División Palermo. Belgian actress Mona Mina Leon won best actress for Holy Sh!t and British actor Bobby Schofield best actor for Unforgivable. Michael Urie hosted the ceremony, NTV said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Turkish winners of the category",
+              "value": "4",
+              "source": "NTV, Diken"
+            },
+            {
+              "label": "Nominees",
+              "value": "64",
+              "source": "Diken, NTV"
+            },
+            {
+              "label": "Countries competing",
+              "value": "22",
+              "source": "Diken, NTV"
+            },
+            {
+              "label": "Awards won by the UK",
+              "value": "9",
+              "source": "NTV"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Leyla’ya Uluslararası Emmy",
+          "title": "Leyla dizisi Uluslararası Emmy’de en iyi telenovela seçildi",
+          "summary": {
+            "what": "Ay Yapım imzalı Leyla: Hayat… Aşk… Adalet…, pazartesi gecesi New York’taki 54. Uluslararası Emmy Ödülleri’nde en iyi telenovela ödülünü aldı.",
+            "why": "Leyla, Kara Sevda (2017), Yargı (2023) ve Deha’nın (2025) ardından bu dalda ödül kazanan dördüncü Türk dizisi oldu; dördü de Ay Yapım imzalı.",
+            "next": "Ödülü yapımcı Kerem Çatay ile yönetmen Hilal Saral aldı. Aynı dalda aday olan Uzak Şehir ise ödül alamadı."
+          },
+          "body": [
+            {
+              "subhead": "New York’ta ödül gecesi",
+              "blocks": [
+                {
+                  "text": "Diken, NTV ve Anadolu Ajansı’nın aktardığına göre Leyla: Hayat… Aşk… Adalet… dizisi, pazartesi gecesi New York’ta düzenlenen 54. Uluslararası Emmy Ödülleri’nde en iyi telenovela ödülünü kazandı. Ödülü yapımcı Kerem Çatay ile yönetmen Hilal Saral aldı. Uluslararası Emmy’ler, ABD dışında üretilip yayımlanan yapımlara Uluslararası Televizyon Sanatları ve Bilimleri Akademisi (IATAS) tarafından veriliyor."
+                },
+                {
+                  "text": "Diken ve NTV’ye göre 22 ülkeden 64 aday 16 kategoride yarıştı. Onedio’nun haberine göre Leyla, Brezilya’dan Garota do Momento’yu ve İspanya’dan Valle Salvaje’nin ikinci sezonunu geride bıraktı. Kategoride Türkiye’nin ikinci adayı, Lübnan yapımı Al Hayba’dan uyarlanan ve yine Ay Yapım imzası taşıyan Kanal D dizisi Uzak Şehir’di."
+                }
+              ]
+            },
+            {
+              "subhead": "Dördüncü Türk telenovelası",
+              "blocks": [
+                {
+                  "text": "Türk dizileri bu dalda daha önce 2017’de Kara Sevda, 2023’te Yargı ve 2025’te Deha ile ödül almıştı. NTV ve Diken, Leyla’nın bu listeye dördüncü dizi olarak girdiğini yazdı; Onedio ise dört dizinin de Ay Yapım imzalı olduğuna dikkat çekti. Haberler.com’un aktardığına göre Hilal Saral, 2017’de Kara Sevda ile kazandığı Emmy’nin ardından aynı mutluluğu ikinci kez yaşadığını söyledi. Onedio, kazananın açıklandığı anda Leyla ekibinin ayağa kalkıp birbirine sarıldığını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Dizi ne anlatıyor?",
+              "blocks": [
+                {
+                  "text": "Brezilya’da izlenme rekorları kıran Avenida Brasil’den uyarlanan Leyla, 11 Eylül 2024’te NOW’da yayına başladı. Dizi, küçük yaşta annesini kaybeden ve üvey annesi Nur tarafından terk edilen Leyla’nın yıllar sonra intikam ve adalet peşinde geri dönüşünü anlatıyor. Başrollerde Cemre Baysel ile Alperen Duymaz var; Nur’u Gonca Vuslateri canlandırıyor. Onedio, Vuslateri’nin sofra başındaki çıkışının sosyal medyada çok paylaşıldığını, oyuncunun bu sahnenin büyük bölümünün doğaçlama olduğunu anlattığını hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Gecenin diğer kazananları",
+              "blocks": [
+                {
+                  "text": "NTV’ye göre en çok ödülü dokuz ödülle Birleşik Krallık kazandı. En iyi drama ödülü, Napolyon döneminin ünlü şefi Antonin Carême’i anlatan Apple TV dizisi Carême’in, en iyi komedi ödülü ise Arjantin yapımı División Palermo’nun oldu. En iyi kadın oyuncu Holy Sh!t’teki rolüyle Belçikalı Mona Mina Leon, en iyi erkek oyuncu Unforgivable ile İngiliz Bobby Schofield seçildi. Töreni Michael Urie sundu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Bu dalda ödül alan Türk dizisi",
+              "value": "4",
+              "source": "NTV, Diken"
+            },
+            {
+              "label": "Aday sayısı",
+              "value": "64",
+              "source": "Diken, NTV"
+            },
+            {
+              "label": "Yarışan ülke",
+              "value": "22",
+              "source": "Diken, NTV"
+            },
+            {
+              "label": "Birleşik Krallık’ın ödülü",
+              "value": "9",
+              "source": "NTV"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T04:35:03.000Z",
+          "sourceId": "onedio"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T06:44:04.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T07:07:59.000Z",
+          "sourceId": "ntv-yasam"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T07:07:59.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T07:40:15.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T07:51:55.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/uluslararas%C4%B1emmy-187999.jpg",
+        "sourceId": "ntv-yasam",
+        "sourceName": "NTV Yaşam",
+        "articleUrl": "https://www.ntv.com.tr/yasam/galeri-uluslararasi-emmy-odullerinde-kazananlar-belli-oldu-turkiyeden-leyla-dizisi-de-odul-aldi-1752300"
+      },
+      "sources": [
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/uluslararasi-emmy-odulleri-2026-kazananlari-belli-oldu-leyla-en-iyi-telenovela-secildi-1396872",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberler-magazin",
+          "url": "https://www.haberler.com/magazin/turk-dizisinden-uluslararasi-basari-emmy-odulunu-20455825-haberi/",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/leyla-uluslararasi-emmy-odulu-kazandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv-yasam",
+          "url": "https://www.ntv.com.tr/yasam/galeri-uluslararasi-emmy-odullerinde-kazananlar-belli-oldu-turkiyeden-leyla-dizisi-de-odul-aldi-1752300",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/magazin/turk-dizisi-leyla-uluslararasi-emmy-odulu-nu-kazandi-3929653",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/kultur/leyla-dizisi-54-uluslararasi-emmy-odullerinde-en-iyi-telenovela-secildi/4135363",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T12:30:00+03:00",
+      "updatedAt": "2026-11-24T12:30:00+03:00"
+    },
+    {
+      "id": "4efb0bcac54b804e",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Russian nuclear satellite launch feared",
+          "title": "Russia could orbit a nuclear-armed satellite by December, German media say",
+          "summary": {
+            "what": "Western intelligence believes Russia is preparing to launch a nuclear-armed satellite, possibly as early as December, German broadcasters and Süddeutsche Zeitung reported.",
+            "why": "A nuclear blast in orbit could knock out thousands of satellites used for communications, navigation and surveillance, and leave radiation belts for years.",
+            "next": "Nato chief Mark Rutte said the alliance would defend itself in space; the Kremlin dismissed the reports as not worth taking seriously."
+          },
+          "body": [
+            {
+              "subhead": "The reports",
+              "blocks": [
+                {
+                  "text": "Western intelligence agencies believe Russia is preparing to place a nuclear-armed satellite in orbit, possibly within weeks, according to reports on Monday by the German public broadcasters NDR and WDR and the newspaper Süddeutsche Zeitung, cited by Ars Technica, the BBC and France 24. The BBC said intelligence pointing to a launch within the next 60 days had been shared among Nato countries this month."
+                },
+                {
+                  "text": "Ars Technica, citing the German reports, said the satellite is called Sputnik-S and has been stored near Moscow for years, and that German Space Command believes it could go up as early as December. Once in orbit, it could stay there for months or years before being detonated on command."
+                }
+              ]
+            },
+            {
+              "subhead": "Why satellites are at risk",
+              "blocks": [
+                {
+                  "text": "A nuclear explosion in space would cause little direct harm on the ground, DW explained, but satellites sit above most of the atmosphere that shields people from radiation. The first burst could damage spacecraft at once, and electrons trapped by Earth’s magnetic field could form radiation belts that wear down electronics and solar panels with every pass. When the United States detonated a weapon about 400 km above the Pacific in the 1962 Starfish Prime test, some satellites failed months later."
+                },
+                {
+                  "text": "The US Defense Intelligence Agency warned last month that such a weapon could cause “rapid and sudden loss or degradation of thousands of satellites”, Ars Technica reported. Networks such as Starlink and Starshield, Western spy satellites and the International Space Station would be exposed, and so would Russia’s and China’s own spacecraft."
+                }
+              ]
+            },
+            {
+              "subhead": "Reactions",
+              "blocks": [
+                {
+                  "text": "Nato secretary general Mark Rutte, speaking in Berlin, said the alliance had a range of response options, the BBC reported."
+                },
+                {
+                  "quote": "We will always make sure we defend every inch of Nato territory, and that includes making sure we are safe when it comes to the space element.",
+                  "speaker": "Mark Rutte, Nato secretary general",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "German Chancellor Friedrich Merz neither confirmed nor denied the reports but said they showed “the level of escalation Russia is evidently prepared to pursue”, according to the BBC. Kremlin spokesman Dmitry Peskov said reports citing unnamed sources were “hardly worth taking seriously”, and the Russian embassy in Berlin called them a “propaganda campaign”."
+                }
+              ]
+            },
+            {
+              "subhead": "The treaty",
+              "blocks": [
+                {
+                  "text": "Russia is a party to the 1967 Outer Space Treaty, which bans weapons of mass destruction in orbit, but vetoed a 2024 UN Security Council resolution reaffirming that ban, Ars Technica noted. The treaty has no system for checking what spacecraft carry, DW said. The US first said in 2024 that Russia was developing such a weapon; Russia denied it. In September the US said it had “on-orbit, space-control weapons”, without giving details, according to the BBC."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Earliest possible launch",
+              "value": "December",
+              "source": "German Space Command, via Ars Technica"
+            },
+            {
+              "label": "Window in intelligence shared with Nato",
+              "value": "60 days",
+              "source": "NDR, WDR, Süddeutsche Zeitung, via BBC"
+            },
+            {
+              "label": "Treaty banning WMD in orbit",
+              "value": "1967",
+              "source": "BBC, DW"
+            },
+            {
+              "label": "Height of 1962 Starfish Prime blast",
+              "value": "about 400 km",
+              "source": "DW"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Rusya’nın nükleer uydusu endişesi",
+          "title": "Alman basını: Rusya aralıkta yörüngeye nükleer silahlı uydu yerleştirebilir",
+          "summary": {
+            "what": "Alman yayıncılar NDR, WDR ve Süddeutsche Zeitung’a göre Batılı istihbarat, Rusya’nın en erken aralıkta nükleer silahlı bir uydu fırlatmaya hazırlandığını düşünüyor.",
+            "why": "Yörüngede bir nükleer patlama iletişim, navigasyon ve gözetleme için kullanılan binlerce uyduyu devre dışı bırakabilir, yıllarca süren radyasyon kuşakları bırakabilir.",
+            "next": "NATO Genel Sekreteri Mark Rutte ittifakın uzayda da kendini savunacağını söyledi; Kremlin ise haberleri ciddiye alınmaya değmez buldu."
+          },
+          "body": [
+            {
+              "subhead": "Haberler ne diyor?",
+              "blocks": [
+                {
+                  "text": "Ars Technica, BBC ve France 24’ün aktardığına göre Alman kamu yayıncıları NDR ve WDR ile Süddeutsche Zeitung pazartesi günü, Batılı istihbarat servislerinin Rusya’nın yörüngeye nükleer silahlı bir uydu yerleştirmeye hazırlandığını değerlendirdiğini yazdı. BBC’ye göre önümüzdeki 60 gün içinde fırlatma yapılabileceğine işaret eden istihbarat raporları bu ay NATO ülkeleri arasında paylaşıldı."
+                },
+                {
+                  "text": "Ars Technica, Alman haberlerine dayanarak “Sputnik-S” adlı uydunun yıllardır Moskova civarında depoda tutulduğunu, Alman Uzay Komutanlığı’nın fırlatmanın en erken aralıkta olabileceğini düşündüğünü yazdı. Yörüngeye çıktıktan sonra aylarca, hatta yıllarca bekleyip komutla patlatılabilir."
+                }
+              ]
+            },
+            {
+              "subhead": "Uydular neden tehlikede?",
+              "blocks": [
+                {
+                  "text": "DW’nin açıklamasına göre uzaydaki bir nükleer patlama yeryüzünde doğrudan pek zarar vermez, ancak uydular insanları radyasyondan koruyan atmosferin büyük kısmının üzerinde bulunuyor. İlk radyasyon dalgası uzay araçlarına anında zarar verebilir; Dünya’nın manyetik alanında hapsolan elektronlar ise her geçişte elektroniği ve güneş panellerini yıpratan radyasyon kuşakları oluşturabilir. ABD’nin 1962’de Pasifik’in yaklaşık 400 kilometre üzerinde yaptığı Starfish Prime denemesinden aylar sonra bazı uydular arızalanmıştı."
+                },
+                {
+                  "text": "Ars Technica’ya göre ABD Savunma İstihbarat Ajansı (DIA) geçen ay böyle bir silahın “binlerce uydunun hızla ve aniden kaybına ya da bozulmasına” yol açabileceği uyarısında bulundu. Starlink ve Starshield gibi ağlar, Batı’nın casus uyduları ve Uluslararası Uzay İstasyonu da risk altında; Rusya’nın ve Çin’in kendi uyduları da."
+                }
+              ]
+            },
+            {
+              "subhead": "Tepkiler",
+              "blocks": [
+                {
+                  "text": "BBC’nin aktardığına göre NATO Genel Sekreteri Mark Rutte, Berlin’deki basın toplantısında ittifakın farklı karşılık seçenekleri olduğunu söyledi."
+                },
+                {
+                  "quote": "NATO topraklarının her karışını savunacağımızdan her zaman emin oluruz; buna uzay boyutunda da güvende olmak dahil.",
+                  "speaker": "Mark Rutte, NATO Genel Sekreteri",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre Almanya Başbakanı Friedrich Merz haberleri ne doğruladı ne yalanladı, ancak bunların “Rusya’nın ne düzeyde bir tırmanmayı göze aldığını” gösterdiğini söyledi. Kremlin Sözcüsü Dmitriy Peskov ise kaynağı belirsiz haberlerin “ciddiye alınmaya pek değmeyeceğini” belirtti; Rusya’nın Berlin Büyükelçiliği de haberleri bir “propaganda kampanyası” olarak niteledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Antlaşma ne diyor?",
+              "blocks": [
+                {
+                  "text": "Ars Technica, Rusya’nın yörüngede kitle imha silahlarını yasaklayan 1967 Dış Uzay Antlaşması’na taraf olduğunu, ancak 2024’te bu yasağı yeniden teyit eden BM Güvenlik Konseyi karar tasarısını veto ettiğini hatırlattı. DW’ye göre antlaşmanın uzay araçlarının ne taşıdığını denetleyen bir mekanizması yok. ABD, Rusya’nın böyle bir silah geliştirdiğini ilk kez 2024’te açıklamış, Rusya bunu reddetmişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "En erken fırlatma",
+              "value": "Aralık",
+              "source": "Alman Uzay Komutanlığı, Ars Technica aracılığıyla"
+            },
+            {
+              "label": "NATO’ya iletilen raporlardaki süre",
+              "value": "60 gün",
+              "source": "NDR, WDR, Süddeutsche Zeitung, BBC aracılığıyla"
+            },
+            {
+              "label": "Yörüngede KİS yasağı getiren antlaşma",
+              "value": "1967",
+              "source": "BBC, DW"
+            },
+            {
+              "label": "1962 Starfish Prime patlamasının yüksekliği",
+              "value": "yaklaşık 400 km",
+              "source": "DW"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T19:28:30.000Z",
+          "sourceId": "ars-technica"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T22:33:03.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T22:33:03.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T02:15:59.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T08:34:00.000Z",
+          "sourceId": "dw-world"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-525166886-1152x648.jpg",
+        "sourceId": "ars-technica",
+        "sourceName": "Ars Technica",
+        "articleUrl": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/"
+      },
+      "sources": [
+        {
+          "sourceId": "ars-technica",
+          "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/what-happens-if-a-nuclear-weapon-explodes-in-space/a-80025827?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T12:30:00+03:00",
+      "updatedAt": "2026-11-24T12:30:00+03:00"
+    },
+    {
+      "id": "6545db87281ad58e",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Anthropic’s agents can now approve code",
+          "title": "Anthropic’s Claude Ship lets AI agents fix and approve code changes",
+          "summary": {
+            "what": "Anthropic launched Claude Ship, a set of AI agents that review pull requests, fix failing checks and can approve routine code changes on GitHub.",
+            "why": "AI now writes so much code that reviewing and approving it has become the bottleneck; Claude Ship hands part of that approval to an AI agent.",
+            "next": "Two of its agents are in beta for Claude Team and Enterprise customers; Anthropic suggests running approvals in observe-only mode first."
+          },
+          "body": [
+            {
+              "subhead": "What launched",
+              "blocks": [
+                {
+                  "text": "Anthropic on Monday announced Claude Ship, a suite of AI agents for the part of software work that comes after code is written: reviewing proposed changes, fixing problems and deciding what is ready to merge, The Verge and TechCrunch reported. It is available to Claude Team and Enterprise customers for repositories hosted on GitHub."
+                },
+                {
+                  "text": "The suite has three parts. Code Review, announced in March and generally available since October, was already on sale, according to The Verge. The two new agents, PR Steward and Claude Approvals, launched in beta."
+                }
+              ]
+            },
+            {
+              "subhead": "Two new agents",
+              "blocks": [
+                {
+                  "text": "PR Steward steps in when a pull request has failing continuous-integration checks, merge conflicts or review feedback, whether from Code Review, other tools or colleagues, The Verge said. TechCrunch reported that after every push it comments on what it changed and how to roll the change back."
+                },
+                {
+                  "text": "Claude Approvals goes further: it can approve routine changes when an organisation’s policy allows it. TechCrunch said teams write that policy in natural language as a file in the repository, and the agent can weigh signals such as Code Review findings or a company’s own classifiers."
+                }
+              ]
+            },
+            {
+              "subhead": "Why Anthropic built it",
+              "blocks": [
+                {
+                  "text": "TechCrunch argued that the approval agent is the more notable part, since AI tools already offered code review. AI coding agents now generate so much code that reviewing and approving it before it goes live has become a bottleneck, it said, and Claude Ship delegates part of that approval authority to an AI agent. TechCrunch quoted a company blog post:"
+                },
+                {
+                  "quote": "Most teams want a person to approve every change, and that’s easy to keep up with when people write every line. But a lot of developers build with agents now. On the Claude Code team, Claude writes most of our code, and we wanted everything after the PR to move that fast too.",
+                  "speaker": "Anthropic blog post",
+                  "sourceId": "techcrunch"
+                }
+              ]
+            },
+            {
+              "subhead": "Keeping control",
+              "blocks": [
+                {
+                  "text": "Because the agents are still in beta, Anthropic suggests running Claude Approvals in observe-only mode at first, TechCrunch reported. Teams can start with a single repository, set monthly spending limits, choose a review depth of Quick, Standard or Deep, and decide which changes must be escalated to a person."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "New agents in beta",
+              "value": "2",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "Review depth settings",
+              "value": "3",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Code Review generally available since",
+              "value": "October",
+              "source": "The Verge"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Anthropic ajanları artık kod onaylıyor",
+          "title": "Anthropic’in Claude Ship’i kod değişikliklerini düzeltip onaylıyor",
+          "summary": {
+            "what": "Anthropic, GitHub’da pull request’leri inceleyen, başarısız kontrolleri düzelten ve rutin kod değişikliklerini onaylayabilen yapay zekâ ajanları paketi Claude Ship’i duyurdu.",
+            "why": "Yapay zekâ o kadar çok kod yazıyor ki asıl darboğaz artık incelemek ve onaylamak; Claude Ship bu onayın bir kısmını bir yapay zekâ ajanına devrediyor.",
+            "next": "İki yeni ajan Claude Team ve Enterprise müşterileri için beta aşamasında; Anthropic onayları önce yalnızca izleme modunda çalıştırmayı öneriyor."
+          },
+          "body": [
+            {
+              "subhead": "Ne duyuruldu?",
+              "blocks": [
+                {
+                  "text": "The Verge ve TechCrunch’ın haberine göre Anthropic pazartesi günü, yazılım işinin kod yazıldıktan sonraki kısmı için bir yapay zekâ ajanları paketi olan Claude Ship’i tanıttı: önerilen değişiklikleri incelemek, sorunları düzeltmek ve neyin birleştirilmeye (merge) hazır olduğuna karar vermek. Paket, GitHub’daki depolar için Claude Team ve Enterprise müşterilerine sunuluyor."
+                },
+                {
+                  "text": "The Verge’e göre paketin üç parçası var. Mart’ta duyurulan ve ekimden beri herkese açık olan Code Review zaten satıştaydı. İki yeni ajan, PR Steward ve Claude Approvals ise beta olarak kullanıma açıldı."
+                }
+              ]
+            },
+            {
+              "subhead": "İki yeni ajan",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre PR Steward, bir pull request’te başarısız CI kontrolleri, merge çakışmaları ya da Code Review’dan, başka araçlardan veya ekip arkadaşlarından gelen geri bildirimler olduğunda devreye giriyor. TechCrunch, ajanın her push’tan sonra neyi değiştirdiğini ve değişikliğin nasıl geri alınacağını yorum olarak yazdığını aktardı."
+                },
+                {
+                  "text": "Claude Approvals ise bir adım öteye gidiyor: kurumun politikası izin veriyorsa rutin değişiklikleri onaylayabiliyor. TechCrunch’a göre ekipler bu politikayı doğal dille, depoda bir dosya olarak yazıyor; ajan da Code Review bulguları ya da şirketin kendi sınıflandırıcıları gibi sinyalleri hesaba katabiliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Neden şimdi?",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre asıl dikkat çeken kısım onay ajanı, çünkü kod inceleme özelliği başka araçlarda da vardı. Yapay zekâ kodlama ajanları o kadar çok kod üretiyor ki, kod yayına girmeden önce incelenip onaylanması darboğaza dönüştü; Claude Ship bu onay yetkisinin bir kısmını bir yapay zekâ ajanına bırakıyor. TechCrunch, şirketin blog yazısından şu bölümü aktardı:"
+                },
+                {
+                  "quote": "Çoğu ekip her değişikliği bir insanın onaylamasını istiyor; her satırı insanlar yazdığında buna yetişmek kolay. Ama artık pek çok geliştirici ajanlarla çalışıyor. Claude Code ekibinde kodumuzun çoğunu Claude yazıyor ve PR’dan sonraki her şeyin de o hızda ilerlemesini istedik.",
+                  "speaker": "Anthropic blog yazısı",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Kontrol ekipte",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre ajanlar henüz beta aşamasında olduğu için Anthropic, Claude Approvals’ı önce yalnızca izleme modunda çalıştırmayı öneriyor. Ekipler tek bir depoyla başlayabiliyor, aylık harcama sınırı koyabiliyor, Quick, Standard ya da Deep inceleme seviyelerinden birini seçebiliyor ve hangi değişikliklerin bir insana yönlendirileceğine kendileri karar veriyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Betadaki yeni ajan",
+              "value": "2",
+              "source": "The Verge, TechCrunch"
+            },
+            {
+              "label": "İnceleme seviyesi",
+              "value": "3",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Code Review’ın herkese açıldığı ay",
+              "value": "Ekim",
+              "source": "The Verge"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-23T20:00:00.000Z",
+          "sourceId": "the-verge-ai"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-23T22:05:50.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-23T22:05:50.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge-ai",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T12:30:00+03:00",
+      "updatedAt": "2026-11-24T12:30:00+03:00"
+    },
+    {
+      "id": "b1d82f5106d46801",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Hasina plans 16 December return",
+          "title": "Sheikh Hasina says she will return to Bangladesh on 16 December",
+          "summary": {
+            "what": "Bangladesh’s ousted prime minister Sheikh Hasina, in exile in Delhi since August 2024, says she plans to fly home on 16 December, Victory Day.",
+            "why": "A Bangladeshi tribunal sentenced her to death in absentia over the 2024 crackdown; the government says she will come back only through extradition.",
+            "next": "A minister said she would be “brought back in handcuffs”; she is expected to be arrested on arrival and sent to jail, Al Jazeera reported."
+          },
+          "body": [
+            {
+              "subhead": "The announcement",
+              "blocks": [
+                {
+                  "text": "Sheikh Hasina, who was forced out as Bangladesh’s prime minister by a popular uprising more than two years ago, plans to return home from exile in India on 16 December, her spokesperson said on Tuesday, the BBC and Al Jazeera reported. Hasina has lived in Delhi since she fled on 5 August 2024, and has asked the government to fly her back to Dhaka on the national airline."
+                },
+                {
+                  "quote": "Since Sheikh Hasina was flown to India on a Bangladesh aircraft on 5 August 2024, she now calls upon the government to arrange for her air transport from Delhi back to Dhaka.",
+                  "speaker": "Syed Mozammel Ali, Hasina’s spokesperson",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "The date is symbolic. Bangladesh celebrates Victory Day on 16 December, marking the end of the 1971 war of independence from Pakistan, which Hasina’s father, Sheikh Mujibur Rahman, led. Her aide Abu Obaidha Arin called the decision “deeply symbolic”, the BBC said."
+                }
+              ]
+            },
+            {
+              "subhead": "Dhaka’s answer",
+              "blocks": [
+                {
+                  "text": "A Bangladeshi tribunal sentenced Hasina to death in absentia last year over the deadly crackdown on the student-led protests that ended her 15-year rule; she rejects the verdict. The UN says up to 1,400 people were killed in the unrest."
+                },
+                {
+                  "text": "State minister for foreign affairs Humayun Kabir told reporters that Hasina would not return “as an ordinary commercial passenger; she will be brought back in handcuffs”, the BBC reported. Abu Abdullah M Saleh, press secretary to Prime Minister Tarique Rahman, told the Associated Press that the government had sought her extradition as a convict, according to Al Jazeera. The chief prosecutor of the International Crimes Tribunal, Aminul Islam, said it was unreasonable for a convicted fugitive to expect the state to arrange her return."
+                }
+              ]
+            },
+            {
+              "subhead": "No appeal left",
+              "blocks": [
+                {
+                  "text": "Al Jazeera said the judiciary has ruled that Hasina can no longer appeal her death sentence because she missed the deadline. Presidential clemency is possible, but she has never asked for it. She is expected to be arrested on arrival and sent to jail."
+                }
+              ]
+            },
+            {
+              "subhead": "Unrest and Delhi",
+              "blocks": [
+                {
+                  "text": "The announcement comes amid renewed unrest. Her Awami League was banned from political activity in May last year and barred from February’s election, which brought the Bangladesh Nationalist Party to power, but its supporters keep staging protests and calling for shutdowns, the BBC said. Kabir accused Hasina and Delhi of backing “terrorist activities” in Bangladesh. India’s foreign ministry did not immediately comment; in April it said it was examining Dhaka’s extradition request. Nine months into office, Rahman has yet to visit India, the BBC noted."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Planned return date",
+              "value": "16 Dec",
+              "source": "Hasina’s spokesperson, via BBC"
+            },
+            {
+              "label": "In exile since",
+              "value": "5 Aug 2024",
+              "source": "BBC"
+            },
+            {
+              "label": "Killed in the 2024 unrest",
+              "value": "up to 1,400",
+              "source": "UN, via BBC and Al Jazeera"
+            },
+            {
+              "label": "Length of her rule",
+              "value": "15 years",
+              "source": "BBC, Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Hasina 16 Aralık’ta dönmek istiyor",
+          "title": "Şeyh Hasina 16 Aralık’ta Bangladeş’e döneceğini açıkladı",
+          "summary": {
+            "what": "Ağustos 2024’ten beri Delhi’de sürgünde yaşayan devrik Bangladeş Başbakanı Şeyh Hasina, Zafer Günü olan 16 Aralık’ta ülkesine dönmeyi planladığını açıkladı.",
+            "why": "Hasina, 2024’teki kanlı bastırma nedeniyle gıyabında idama mahkûm edildi; hükümet ancak iade yoluyla döneceğini söylüyor.",
+            "next": "Bir bakan Hasina’nın “kelepçeyle getirileceğini” söyledi. Al Jazeera’ya göre Hasina’nın döner dönmez tutuklanıp cezaevine gönderilmesi bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Dönüş açıklaması",
+              "blocks": [
+                {
+                  "text": "BBC ve Al Jazeera’nın haberine göre iki yılı aşkın süre önce bir halk ayaklanmasıyla iktidardan düşen Bangladeş’in eski başbakanı Şeyh Hasina, 16 Aralık’ta Hindistan’daki sürgünden ülkesine dönmeyi planlıyor. Sözcüsü salı günü yaptığı açıklamada, 5 Ağustos 2024’te ülkeden kaçtığından beri Delhi’de yaşayan Hasina’nın hükümetten kendisini milli havayoluyla Dakka’ya getirmesini istediğini söyledi."
+                },
+                {
+                  "quote": "Şeyh Hasina 5 Ağustos 2024’te bir Bangladeş uçağıyla Hindistan’a götürüldüğüne göre, şimdi hükümetten Delhi’den Dakka’ya dönüşü için uçak ayarlamasını istiyor.",
+                  "speaker": "Seyid Mozammel Ali, Hasina’nın sözcüsü",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "Tarihin anlamı büyük. Bangladeş, Pakistan’a karşı 1971 bağımsızlık savaşının sona erişini 16 Aralık’ta Zafer Günü olarak kutluyor; bağımsızlık hareketine Hasina’nın babası Şeyh Mucibur Rahman önderlik etmişti. BBC’ye göre Hasina’nın yardımcısı Ebu Ubeyde Arin kararı “son derece sembolik” diye niteledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Dakka’nın yanıtı",
+              "blocks": [
+                {
+                  "text": "Bangladeş’te bir mahkeme geçen yıl, Hasina’nın 15 yıllık iktidarını bitiren öğrenci protestolarının kanlı biçimde bastırılması nedeniyle onu gıyabında idama mahkûm etti; Hasina kararı reddediyor. BM’ye göre olaylarda 1.400’e kadar kişi öldü."
+                },
+                {
+                  "text": "BBC’nin aktardığına göre Dışişlerinden Sorumlu Devlet Bakanı Humayun Kabir, Hasina’nın “sıradan bir yolcu gibi dönemeyeceğini, kelepçeyle getirileceğini” söyledi. Al Jazeera’ya göre Başbakan Tarık Rahman’ın basın sekreteri Ebu Abdullah M. Salih de Associated Press’e hükümetin hükümlü olarak Hasina’nın iadesini istediğini belirtti. Uluslararası Suçlar Mahkemesi Başsavcısı Aminul İslam ise hükümlü bir kaçağın dönüşünün devlet tarafından ayarlanmasını beklemesinin makul olmadığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "İtiraz yolu kapalı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre yargı, süreyi kaçırdığı için Hasina’nın idam cezasına artık itiraz edemeyeceğine hükmetti. Cumhurbaşkanlığı affı mümkün, ancak Hasina bunu hiç talep etmedi. Döner dönmez tutuklanıp cezaevine gönderilmesi bekleniyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Sokaklar ve Delhi",
+              "blocks": [
+                {
+                  "text": "Açıklama, ülkede yeniden tırmanan huzursuzluğun ortasında geldi. BBC’ye göre Hasina’nın partisi Avami Birliği geçen mayısta siyasi faaliyetten men edildi ve Bangladeş Milliyetçi Partisi’ni iktidara getiren şubat seçimine giremedi; ancak destekçileri protestolara ve genel kepenk kapatma çağrılarına devam ediyor. Kabir, Hasina’yı ve Delhi’yi Bangladeş’te “terör faaliyetlerini” desteklemekle suçladı. Hindistan Dışişleri Bakanlığı hemen yorum yapmadı; nisanda Dakka’nın iade talebini incelediğini açıklamıştı. BBC, göreve gelişinin dokuzuncu ayında Rahman’ın hâlâ Hindistan’ı ziyaret etmediğini hatırlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Planlanan dönüş tarihi",
+              "value": "16 Aralık",
+              "source": "Hasina’nın sözcüsü, BBC aracılığıyla"
+            },
+            {
+              "label": "Sürgünün başladığı gün",
+              "value": "5 Ağustos 2024",
+              "source": "BBC"
+            },
+            {
+              "label": "2024 olaylarında ölen",
+              "value": "1.400’e kadar",
+              "source": "BM, BBC ve Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "İktidar süresi",
+              "value": "15 yıl",
+              "source": "BBC, Al Jazeera"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T06:23:01.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T07:35:02.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T07:35:02.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5191/live/b1f565b0-e7c1-11f1-b55c-09f84acff1b4.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/sheikh-hasina-plans-to-return-to-bangladesh-from-exile-on-december-16?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T12:30:00+03:00",
+      "updatedAt": "2026-11-24T12:30:00+03:00"
+    },
+    {
+      "id": "342d551a758caf2a",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "053ed16412918bce",
+      "versions": {
+        "en": {
+          "shortTitle": "Mexico to try ‘El Chapo Isidro’",
+          "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
+          "news": "Mexico says it will try Meza Flores itself despite a US extradition request, and confirms US drones helped find him; the raid’s toll is now 20.",
+          "summary": {
+            "what": "Mexico’s attorney general says cartel boss Fausto Isidro Meza Flores will be tried in Mexico, even though Washington has asked for his extradition.",
+            "why": "Officials also confirmed US surveillance drones flew over Mexico to track him, a sensitive step; the raid and its aftermath left 20 dead in Guasave.",
+            "next": "He faces Mexican weapons and methamphetamine charges; in the US he faces six counts, including narcoterrorism and running a criminal enterprise."
+          },
+          "body": [
+            {
+              "subhead": "Trial in Mexico",
+              "blocks": [
+                {
+                  "text": "Fausto Isidro Meza Flores, the alleged cartel leader known as “El Chapo Isidro”, will stand trial in Mexico despite a US request to extradite him, Attorney General Ernestina Godoy told reporters on Monday, Al Jazeera reported. Mexican authorities “are going to put him on trial in this country”, she said. Security Minister Omar García Harfuch said earlier that day that Washington had asked for his extradition after his capture."
+                },
+                {
+                  "text": "In Mexico he faces local charges of weapons offences and possessing methamphetamine with intent to sell, Al Jazeera said. The US Justice Department accuses him of leading a network that moved heroin, cocaine, methamphetamine, marijuana and fentanyl across the border, and has charged him on six counts, including running a continuing criminal enterprise, narcoterrorism and money laundering conspiracy. Al Jazeera said the decision could strain relations further."
+                }
+              ]
+            },
+            {
+              "subhead": "US drones over Sinaloa",
+              "blocks": [
+                {
+                  "text": "Mexican officials also confirmed that the United States flew surveillance drones over Mexican territory to help find him, France 24 reported. Defence Secretary Gen. Ricardo Trevilla Trejo said the capture of Meza Flores and 16 members of his group came after three months of “very important intelligence sharing” with US authorities to pinpoint his location in Guasave, Sinaloa. In the week before the raid, that included allowing US intelligence drones to fly over Mexico; officials stressed it complied with Mexican law."
+                },
+                {
+                  "text": "President Claudia Sheinbaum said US forces were not allowed to operate on the ground and that the two governments were only sharing intelligence. “This case in particular demonstrates the capacity of the armed forces” of Mexico, she said, according to France 24. US involvement in Mexican security has long been a touchy subject, as President Donald Trump presses Mexico to crack down on cartels."
+                }
+              ]
+            },
+            {
+              "subhead": "A higher toll",
+              "blocks": [
+                {
+                  "text": "Meza Flores, one of the FBI’s 10 most wanted fugitives, was captured on Friday after an hours-long firefight at a compound in Guasave and flown to Mexico City the next day. Officials said on Monday that the capture and the violence it set off left 20 people dead in the city: four soldiers and 16 suspected criminals, France 24 and Al Jazeera reported."
+                },
+                {
+                  "text": "He led the Beltrán Leyva organisation before forming his own group and was a key ally of “Los Mayos”, a Sinaloa Cartel faction at war with a rival faction, France 24 said. It noted experts’ warnings that removing cartel leaders without dismantling their networks has often fuelled bloody power struggles in Sinaloa."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Dead in Guasave",
+              "value": "20",
+              "source": "Mexican officials, via France 24"
+            },
+            {
+              "label": "Group members captured with him",
+              "value": "16",
+              "source": "Mexican Defence Secretary, via France 24"
+            },
+            {
+              "label": "Intelligence sharing with the US",
+              "value": "3 months",
+              "source": "Mexican Defence Secretary, via France 24"
+            },
+            {
+              "label": "US charges",
+              "value": "6",
+              "source": "US Justice Department, via Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Meksika “El Chapo Isidro”yu kendisi yargılayacak",
+          "title": "Meksika, ABD’nin iade talebine rağmen “El Chapo Isidro”yu kendisi yargılayacak",
+          "news": "Meksika, ABD’nin iade talebine rağmen Meza Flores’i kendisi yargılayacak; yakalanmasında ABD dronlarının kullanıldığı doğrulandı, ölü sayısı 20’ye çıktı.",
+          "summary": {
+            "what": "Meksika Başsavcısı, kartel lideri Fausto Isidro Meza Flores’in ABD’nin iade talebine rağmen Meksika’da yargılanacağını açıkladı.",
+            "why": "Yetkililer onu bulmak için ABD gözetleme dronlarının Meksika üzerinde uçtuğunu da doğruladı; baskın ve ardından yaşanan çatışmalarda Guasave’de 20 kişi öldü.",
+            "next": "Meksika’da silah ve metamfetamin suçlamalarıyla yargılanacak; ABD’de ise narkoterörizm dahil altı ayrı suçlamayla aranıyor."
+          },
+          "body": [
+            {
+              "subhead": "Meksika’da yargılanacak",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın haberine göre Meksika Başsavcısı Ernestina Godoy pazartesi günü gazetecilere, “El Chapo Isidro” lakaplı kartel lideri olduğu öne sürülen Fausto Isidro Meza Flores’in ABD’nin iade talebine rağmen Meksika’da yargılanacağını söyledi. Godoy, Meksikalı yetkililerin “onu bu ülkede yargılayacağını” belirtti. Güvenlik Bakanı Omar García Harfuch da aynı gün, Washington’ın yakalanmasının ardından iadesini talep ettiğini açıklamıştı."
+                },
+                {
+                  "text": "Al Jazeera’ya göre Meza Flores Meksika’da silah suçları ve satış amacıyla metamfetamin bulundurmakla yargılanacak. ABD Adalet Bakanlığı ise onu sınırdan eroin, kokain, metamfetamin, esrar ve fentanil geçiren bir ağı yönetmekle suçluyor; hakkında süregelen suç örgütü yönetmek, narkoterörizm ve kara para aklamaya teşebbüs dahil altı suçlama var. Al Jazeera, kararın iki ülke arasındaki gergin ilişkileri daha da zorlayabileceğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Sinaloa üzerinde ABD dronları",
+              "blocks": [
+                {
+                  "text": "France 24’ün aktardığına göre Meksikalı yetkililer, onu bulmak için ABD’nin Meksika toprakları üzerinde gözetleme dronları uçurduğunu da doğruladı. Savunma Bakanı General Ricardo Trevilla Trejo, Meza Flores ile grubunun 16 üyesinin yakalanmasının, Sinaloa eyaletinin Guasave kentindeki yerini belirlemek için ABD makamlarıyla üç ay boyunca yürütülen “çok önemli istihbarat paylaşımının” sonucu olduğunu söyledi. Baskından önceki hafta ABD istihbarat dronlarının uçuşuna izin verildi; yetkililer bunun Meksika yasalarına uygun yapıldığını vurguladı."
+                },
+                {
+                  "text": "Devlet Başkanı Claudia Sheinbaum, ABD güçlerinin sahada operasyon yapmasına izin verilmediğini, iki hükümetin yalnızca istihbarat paylaştığını söyledi. France 24’e göre Sheinbaum, “Bu dava özellikle silahlı kuvvetlerin kapasitesini gösteriyor” dedi. ABD Başkanı Donald Trump’ın kartellerle mücadele için baskı yaptığı Meksika’da, ABD’nin güvenlik operasyonlarına katılımı uzun süredir hassas bir konu."
+                }
+              ]
+            },
+            {
+              "subhead": "Bilanço ağırlaştı",
+              "blocks": [
+                {
+                  "text": "FBI’ın en çok aranan 10 kişisinden biri olan Meza Flores, cuma günü Guasave’deki bir yerleşkede saatler süren çatışmanın ardından yakalanmış, ertesi gün Mexico City’ye götürülmüştü. France 24 ve Al Jazeera’ya göre yetkililer pazartesi günü, yakalama operasyonu ve ardından patlak veren şiddette kentte dördü asker, 16’sı şüpheli suçlu olmak üzere 20 kişinin öldüğünü açıkladı."
+                },
+                {
+                  "text": "France 24’e göre Meza Flores önce Beltrán Leyva örgütünü yönetti, sonra kendi grubunu kurdu ve Sinaloa Karteli’nin rakip kanatla savaşan “Los Mayos” kanadının önemli bir müttefikiydi. Kanal, kartel liderlerini ağlarını çökertmeden etkisiz hale getirmenin Sinaloa’da çoğu kez kanlı güç mücadelelerini körüklediği uyarısını yapan uzmanlara da yer verdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Guasave’de ölen",
+              "value": "20",
+              "source": "Meksikalı yetkililer, France 24 aracılığıyla"
+            },
+            {
+              "label": "Onunla yakalanan grup üyesi",
+              "value": "16",
+              "source": "Meksika Savunma Bakanı, France 24 aracılığıyla"
+            },
+            {
+              "label": "ABD ile istihbarat paylaşımı",
+              "value": "3 ay",
+              "source": "Meksika Savunma Bakanı, France 24 aracılığıyla"
+            },
+            {
+              "label": "ABD’deki suçlama",
+              "value": "6",
+              "source": "ABD Adalet Bakanlığı, Al Jazeera aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T02:09:11.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T03:20:55.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T03:20:55.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/98daf830-e7ab-11f1-b377-ebb478925cf0/w:1024/p:16x9/000-D8EP9T6.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T12:30:00+03:00",
+      "updatedAt": "2026-11-24T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "fd932fd086ba614e",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Leyla is which Turkish series to win the International Emmy for best telenovela?",
+          "options": ["The second", "The fourth", "The sixth"]
+        },
+        "tr": {
+          "question": "Leyla, Uluslararası Emmy’de en iyi telenovela ödülünü kazanan kaçıncı Türk dizisi oldu?",
+          "options": ["İkinci", "Dördüncü", "Altıncı"]
+        }
+      }
+    },
+    {
+      "storyId": "6545db87281ad58e",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Which Claude Ship agent steps in on failing CI checks and merge conflicts?",
+          "options": ["Claude Approvals", "Code Review", "PR Steward"]
+        },
+        "tr": {
+          "question": "Claude Ship’te başarısız CI kontrollerine ve merge çakışmalarına hangi ajan müdahale ediyor?",
+          "options": ["Claude Approvals", "Code Review", "PR Steward"]
+        }
+      }
+    },
+    {
+      "storyId": "b1d82f5106d46801",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "On which date does Sheikh Hasina say she will return to Bangladesh?",
+          "options": ["16 December", "5 August", "1 January"]
+        },
+        "tr": {
+          "question": "Şeyh Hasina Bangladeş’e hangi tarihte döneceğini söyledi?",
+          "options": ["16 Aralık", "5 Ağustos", "1 Ocak"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910037",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "ours": false,
+        "team": "portland-trail-blazers"
+      },
+      "startsAt": "2026-11-24T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910037"
+      },
+      "result": {
+        "home": 111,
+        "away": 128
+      },
+      "lines": [
+        {
+          "person": "adem-bona",
+          "points": 4,
+          "minutes": 5,
+          "rebounds": 2,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401910043",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "ours": false,
+        "team": "la-clippers"
+      },
+      "startsAt": "2026-11-24T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910043"
+      },
+      "result": {
+        "home": 116,
+        "away": 104
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 20,
+          "minutes": 31,
+          "rebounds": 8,
+          "assists": 7
+        }
+      ]
+    },
+    {
+      "id": "espn-401915300",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Galatasaray",
+        "tr": "Galatasaray"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Galatasaray",
+        "ours": true,
+        "team": "galatasaray"
+      },
+      "away": {
+        "name": "Aston Villa",
+        "ours": false,
+        "team": "aston-villa"
+      },
+      "startsAt": "2026-11-24T17:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915300"
+      }
+    },
+    {
+      "id": "euroleague-e2026-135",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Valencia Basket",
+        "ours": false,
+        "team": "valencia-basket"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-24T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/135"
+      }
+    },
+    {
+      "id": "euroleague-e2026-133",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "FC Barcelona",
+        "ours": false,
+        "team": "fc-barcelona"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/133"
+      }
+    },
+    {
+      "id": "espn-401915298",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "PSV Eindhoven",
+        "short": "PSV",
+        "ours": false,
+        "team": "psv-eindhoven"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915298"
+      }
+    }
+  ]
+}
