@@ -1616,5 +1616,126 @@
         }
       }
     }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401915300",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Galatasaray",
+        "tr": "Galatasaray"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Galatasaray",
+        "ours": true,
+        "team": "galatasaray"
+      },
+      "away": {
+        "name": "Aston Villa",
+        "ours": false,
+        "team": "aston-villa"
+      },
+      "startsAt": "2026-11-24T17:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915300"
+      }
+    },
+    {
+      "id": "euroleague-e2026-135",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Valencia Basket",
+        "ours": false,
+        "team": "valencia-basket"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-24T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/135"
+      }
+    },
+    {
+      "id": "euroleague-e2026-133",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "FC Barcelona",
+        "ours": false,
+        "team": "fc-barcelona"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/133"
+      }
+    },
+    {
+      "id": "espn-401915298",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "PSV Eindhoven",
+        "short": "PSV",
+        "ours": false,
+        "team": "psv-eindhoven"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915298"
+      }
+    }
   ]
 }
