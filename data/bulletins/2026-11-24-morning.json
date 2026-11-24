@@ -311,7 +311,7 @@
           ],
           "place": {
             "name": "Adana",
-            "lat": 37.0,
+            "lat": 37,
             "lon": 35.32,
             "region": "Adana, Türkiye"
           }
@@ -383,7 +383,7 @@
           ],
           "place": {
             "name": "Adana",
-            "lat": 37.0,
+            "lat": 37,
             "lon": 35.32,
             "region": "Adana, Türkiye"
           }
@@ -641,7 +641,6 @@
       "continues": "cf5164636ad3b77e",
       "versions": {
         "en": {
-          "news": "The US added Megaspeed and its units in Thailand and Malaysia to its trade blacklist, hours after Huang returned to Nvidia.",
           "shortTitle": "US blacklists Megaspeed",
           "title": "US blacklists Megaspeed, chip buyer at the heart of the Nvidia scandal",
           "summary": {
@@ -716,10 +715,10 @@
             "lat": 1.29,
             "lon": 103.85,
             "region": "Singapore"
-          }
+          },
+          "news": "The US added Megaspeed and its units in Thailand and Malaysia to its trade blacklist, hours after Huang returned to Nvidia."
         },
         "tr": {
-          "news": "ABD, Huang’ın Nvidia’ya dönüşünden saatler sonra Megaspeed’i ve Tayland ile Malezya’daki şirketlerini ticari kara listeye aldı.",
           "shortTitle": "ABD Megaspeed’i kara listeye aldı",
           "title": "ABD, Nvidia skandalının merkezindeki Megaspeed’i kara listeye aldı",
           "summary": {
@@ -795,7 +794,8 @@
             "lat": 1.29,
             "lon": 103.85,
             "region": "Singapur"
-          }
+          },
+          "news": "ABD, Huang’ın Nvidia’ya dönüşünden saatler sonra Megaspeed’i ve Tayland ile Malezya’daki şirketlerini ticari kara listeye aldı."
         }
       },
       "timeline": [
@@ -1465,7 +1465,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0473683516f14679ccc260.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0473683516f14679ccc260.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-iha-gerilimi-iran-ordusu-acikladi-dusurduk-43388479"
@@ -1964,6 +1964,217 @@
           "question": "AB’nin 22. yaptırım paketi yaklaşık kaç Rus bankasını SWIFT’ten çıkaracak?",
           "options": ["20", "60", "150"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401910037",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "ours": false,
+        "team": "portland-trail-blazers"
+      },
+      "startsAt": "2026-11-24T00:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910037"
+      },
+      "result": {
+        "home": 111,
+        "away": 128
+      },
+      "lines": [
+        {
+          "person": "adem-bona",
+          "points": 4,
+          "minutes": 5,
+          "rebounds": 2,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401910043",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "ours": false,
+        "team": "la-clippers"
+      },
+      "startsAt": "2026-11-24T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910043"
+      },
+      "result": {
+        "home": 116,
+        "away": 104
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 20,
+          "minutes": 31,
+          "rebounds": 8,
+          "assists": 7
+        }
+      ]
+    },
+    {
+      "id": "espn-401915300",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Galatasaray",
+        "tr": "Galatasaray"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Galatasaray",
+        "ours": true,
+        "team": "galatasaray"
+      },
+      "away": {
+        "name": "Aston Villa",
+        "ours": false,
+        "team": "aston-villa"
+      },
+      "startsAt": "2026-11-24T17:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915300"
+      }
+    },
+    {
+      "id": "euroleague-e2026-135",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Valencia Basket",
+        "ours": false,
+        "team": "valencia-basket"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-24T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/135"
+      }
+    },
+    {
+      "id": "euroleague-e2026-133",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "FC Barcelona",
+        "ours": false,
+        "team": "fc-barcelona"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/133"
+      }
+    },
+    {
+      "id": "espn-401915298",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "PSV Eindhoven",
+        "short": "PSV",
+        "ours": false,
+        "team": "psv-eindhoven"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915298"
       }
     }
   ]
