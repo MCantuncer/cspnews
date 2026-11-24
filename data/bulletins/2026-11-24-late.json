@@ -1,0 +1,1620 @@
+{
+  "version": 2,
+  "slot": "late",
+  "publishAt": "2026-11-24T22:30:00+03:00",
+  "writtenAt": "2026-11-24T21:56:29+03:00",
+  "stories": [
+    {
+      "id": "0ba55d0ea4506d0e",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Five soldiers die in helicopter crash",
+          "title": "Five soldiers killed as military helicopter crashes near Eskişehir",
+          "summary": {
+            "what": "An Air Force AS-532 helicopter crashed during a training flight in Eskişehir’s Tepebaşı district on Tuesday evening, killing the five soldiers on board.",
+            "why": "It is a deadly peacetime accident for the armed forces, on a routine training flight from one of the country’s main air bases.",
+            "next": "The Defence Ministry has not said what caused the crash or named the soldiers; work at the site is continuing."
+          },
+          "body": [
+            {
+              "subhead": "Down on a training flight",
+              "blocks": [
+                {
+                  "text": "A military helicopter belonging to the Turkish Air Force crashed on Tuesday evening during a training flight from Eskişehir, killing all five soldiers on board, the Defence Ministry said. The aircraft was an AS-532, a twin-engine transport helicopter, the ministry said in a first statement reported by Anadolu Agency, Hürriyet and Cumhuriyet."
+                },
+                {
+                  "text": "According to Sabah, the helicopter came down at around 19:30 near the Yörükakçayır neighbourhood of Tepebaşı, one of the city’s two central districts. Residents who saw it fall called the emergency services."
+                },
+                {
+                  "quote": "An AS-532 helicopter belonging to our Air Force, which took off from Eskişehir for training purposes, has crashed. The wreckage has been reached and search and rescue work is continuing.",
+                  "speaker": "Ministry of National Defence",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Five soldiers on board",
+              "blocks": [
+                {
+                  "text": "Less than an hour later the ministry announced that the five soldiers serving on the helicopter had died. It sent condolences to their families, the armed forces and the nation, NTV and Anadolu reported. The ministry has not given their names or ranks, and has not said what caused the crash."
+                },
+                {
+                  "quote": "Five heroic comrades in arms serving on the Air Force helicopter that crashed during a training flight in Eskişehir have been martyred.",
+                  "speaker": "Ministry of National Defence",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "At the site",
+              "blocks": [
+                {
+                  "text": "Fire crews from the Eskişehir Metropolitan Municipality and teams from the disaster agency AFAD were sent to the area, Cumhuriyet reported. A fire broke out after the crash and was put out by firefighters, according to Sabah, who then began cooling the wreckage. Cumhuriyet said another helicopter was seen patrolling above the crash site while security and inspection work went on."
+                },
+                {
+                  "text": "Euronews Türkçe, BBC Türkçe, DW Türkçe and Medyascope also reported the crash, all citing the ministry’s statements."
+                }
+              ]
+            },
+            {
+              "subhead": "Condolences across parties",
+              "blocks": [
+                {
+                  "text": "Vice President Cevdet Yılmaz offered his condolences on social media, Anadolu reported. CHP leader Kemal Kılıçdaroğlu said the country would always remember with gratitude those who lost their lives on duty, and AK Party spokesman Ömer Çelik wrote: “Our grief is great.”"
+                },
+                {
+                  "text": "Eskişehir is home to a major Air Force base. Training flights from the city are routine, which is why the loss of a full crew on one has drawn condolences from across the political spectrum."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Soldiers killed",
+              "value": "5",
+              "source": "Ministry of National Defence"
+            },
+            {
+              "label": "Helicopter type",
+              "value": "AS-532",
+              "source": "Ministry of National Defence"
+            },
+            {
+              "label": "Time of the crash",
+              "value": "about 19:30",
+              "source": "Sabah"
+            },
+            {
+              "label": "District",
+              "value": "Tepebaşı",
+              "source": "Sabah"
+            }
+          ],
+          "place": {
+            "name": "Tepebaşı",
+            "lat": 39.79,
+            "lon": 30.5,
+            "region": "Eskişehir, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Eskişehir’de askeri helikopter düştü",
+          "title": "Eskişehir’de askeri helikopter düştü, beş asker hayatını kaybetti",
+          "summary": {
+            "what": "Hava Kuvvetlerine ait AS-532 tipi helikopter salı akşamı Eskişehir Tepebaşı’nda eğitim uçuşu sırasında düştü, içindeki beş asker hayatını kaybetti.",
+            "why": "Rutin bir eğitim uçuşunda tüm mürettebatın kaybedildiği kaza, Türk Silahlı Kuvvetleri için barış döneminin ağır kayıplarından biri.",
+            "next": "MSB kazanın nedenini ve askerlerin isimlerini henüz açıklamadı; bölgedeki çalışmalar sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Eğitim uçuşunda kaza",
+              "blocks": [
+                {
+                  "text": "Eskişehir’den eğitim amacıyla havalanan Hava Kuvvetlerine ait bir helikopter salı akşamı kaza kırıma uğradı ve içindeki beş asker hayatını kaybetti. Milli Savunma Bakanlığı’nın (MSB) Anadolu Ajansı, Hürriyet ve Cumhuriyet’in aktardığı ilk açıklamasına göre helikopter AS-532 tipiydi."
+                },
+                {
+                  "text": "Sabah’ın haberine göre helikopter saat 19.30 sıralarında Tepebaşı ilçesine bağlı Yörükakçayır Mahallesi mevkisinde düştü. Kazayı gören vatandaşlar ihbarda bulundu."
+                },
+                {
+                  "quote": "Eğitim maksadıyla Eskişehir’den havalanan Hava Kuvvetlerimize ait bir adet AS-532 tipi helikopter kaza kırıma uğramıştır. Helikopterimizin enkazına ulaşılmış, arama kurtarma çalışmaları devam etmektedir.",
+                  "speaker": "Milli Savunma Bakanlığı",
+                  "sourceId": "cumhuriyet"
+                }
+              ]
+            },
+            {
+              "subhead": "Beş asker şehit oldu",
+              "blocks": [
+                {
+                  "text": "Bakanlık bir saat dolmadan helikopterdeki beş askerin şehit olduğunu duyurdu, ailelerine, Türk Silahlı Kuvvetlerine ve millete başsağlığı diledi. NTV ve AA bu açıklamayı aktardı. MSB askerlerin isim ve rütbelerini, kazanın nedenini henüz açıklamadı."
+                },
+                {
+                  "quote": "Eskişehir’de eğitim uçuşu sırasında kaza kırıma uğrayan Hava Kuvvetlerimize ait helikopterde görevli 5 kahraman silah arkadaşımız şehit olmuştur.",
+                  "speaker": "Milli Savunma Bakanlığı",
+                  "sourceId": "aa-tr"
+                }
+              ]
+            },
+            {
+              "subhead": "Bölgedeki çalışmalar",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre olay yerine Eskişehir Büyükşehir Belediyesi itfaiyesi ve AFAD ekipleri sevk edildi. Sabah, kaza sonrası çıkan yangının itfaiye tarafından söndürüldüğünü yazdı; ekipler ardından enkazda soğutma çalışması başlattı. Cumhuriyet, kaza yerinin üzerinde bir helikopterin devriye uçuşu yaptığını, güvenlik ve inceleme çalışmalarının sürdüğünü aktardı."
+                },
+                {
+                  "text": "Euronews Türkçe, BBC Türkçe, DW Türkçe ve Medyascope da MSB açıklamalarına dayanarak kazayı duyurdu."
+                }
+              ]
+            },
+            {
+              "subhead": "Siyasetten başsağlığı",
+              "blocks": [
+                {
+                  "text": "AA’ya göre Cumhurbaşkanı Yardımcısı Cevdet Yılmaz sosyal medyadan başsağlığı diledi. CHP Genel Başkanı Kemal Kılıçdaroğlu görev başında hayatını kaybedenlerin daima minnetle anılacağını söyledi, AK Parti Sözcüsü Ömer Çelik ise “Acımız büyük” diye yazdı."
+                },
+                {
+                  "text": "Eskişehir, Hava Kuvvetlerinin önemli üslerinden birine ev sahipliği yapıyor. Kentten eğitim uçuşları olağan; bu yüzden bütün mürettebatın kaybedildiği kaza, siyasetin her kesiminden taziye mesajlarına yol açtı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Hayatını kaybeden asker",
+              "value": "5",
+              "source": "Milli Savunma Bakanlığı"
+            },
+            {
+              "label": "Helikopter tipi",
+              "value": "AS-532",
+              "source": "Milli Savunma Bakanlığı"
+            },
+            {
+              "label": "Kaza saati",
+              "value": "19.30 sıraları",
+              "source": "Sabah"
+            },
+            {
+              "label": "İlçe",
+              "value": "Tepebaşı",
+              "source": "Sabah"
+            }
+          ],
+          "place": {
+            "name": "Tepebaşı",
+            "lat": 39.79,
+            "lon": 30.5,
+            "region": "Eskişehir, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T17:20:40.000Z",
+          "sourceId": "onedio"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:22:37.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:23:19.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T17:23:19.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:24:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:25:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:47:33.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:21:34.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:27:57.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:29:07.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:34:21.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:37:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:39:18.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:51:04.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/44791557-339b-4bc9-a361-e96fdf2c3d33.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/eskisehir-de-askeri-helikopter-dustu-arama-kurtarma-calismalari-basladi-2559072"
+      },
+      "sources": [
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/eskisehir-de-hava-araci-dustu-tepebasi-nda-olay-yerine-cok-sayida-ekip-sevk-edildi-1397095",
+          "confirms": false
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/eskisehirde-kaza-kirima-ugrayan-helikopterde-5-asker-sehit-oldu/4136211",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/son-dakika-eskisehirde-askeri-helikopter-kaza-kirima-ugradi-7708561",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/eskisehir-de-askeri-helikopter-dustu-arama-kurtarma-calismalari-basladi-2559072",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/msb-eskisehirdeki-helikopter-kazasinda-5-asker-sehit-oldu-43389840",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/24/eskisehirde-askeri-helikopter-dustu-enkaza-ulasildi-arama-calismalari-suruyor",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/msb-eskisehirden-havalanan-askeri-helikopter-kaza-kirima-ugradi-1752423",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/eskisehir-de-helikopter-dustu-p384104",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cm792qzv12wjo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/24/eskisehirde-askeri-helikopter-dustu-5-asker-sehit-oldu/",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/eski%C5%9Fehir-de-e%C4%9Fitim-u%C3%A7u%C5%9Fundaki-hava-kuvvetleri-helikopteri-d%C3%BC%C5%9Ft%C3%BC-5-asker-ya%C5%9Fam%C4%B1n%C4%B1-yitirdi/a-80041666?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-eskisehir-de-askeri-helikopter-dustu-3929841",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/msb-eskisehirdeki-helikopter-kazasinda-bes-asker-sehit-oldu/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T22:30:00+03:00",
+      "updatedAt": "2026-11-24T22:30:00+03:00"
+    },
+    {
+      "id": "7ad83b520a971e3c",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Hayati Yazıcı quits AK Party posts",
+          "title": "AK Party deputy chair Hayati Yazıcı resigns over the fund probe",
+          "summary": {
+            "what": "Hayati Yazıcı, an AK Party founder and deputy chair, quit the party’s top boards after his son was drawn into the investigation known as the fund probe.",
+            "why": "He is the second senior AK Party figure to step down over the affair, after former minister Fatma Betül Sayan Kaya in September.",
+            "next": "Yazıcı says he did nothing wrong and will keep serving; his son Mustafa remains under a travel ban as the investigation goes on."
+          },
+          "body": [
+            {
+              "subhead": "The second resignation",
+              "blocks": [
+                {
+                  "text": "Hayati Yazıcı, the AK Party’s deputy chairman for political and legal affairs, resigned from the party’s Central Executive Board (MYK) and its Central Decision and Administration Board (MKYK) on Tuesday, Hürriyet and Habertürk reported. He announced the decision in a written statement on social media."
+                },
+                {
+                  "text": "Earlier in the evening Cumhuriyet, citing the news sites Notbir and Odatv, reported that Yazıcı had cleared his office at party headquarters. Asked by Odatv whether he had resigned, he replied: “We’ll talk, we’ll talk, good evening.” Cumhuriyet called it the second high-level resignation in the party over the fund affair."
+                }
+              ]
+            },
+            {
+              "subhead": "His son and the fund probe",
+              "blocks": [
+                {
+                  "text": "Yazıcı came under scrutiny over decisions taken against his son, Mustafa Yazıcı, in the investigation run by the Istanbul Chief Public Prosecutor’s Office, NTV reported. The deposit insurance fund TMSF was appointed trustee of four companies, including Mustafa Yazıcı’s Adil Varlık Yönetim, and the banking regulator BDDK later ordered the transfer of Adil Katılım Bank, according to Cumhuriyet."
+                },
+                {
+                  "text": "Mustafa Yazıcı has been questioned twice and is under judicial control, with a travel ban and a duty to report to the authorities regularly, both outlets said. In October Hayati Yazıcı said he had no doubt that his son’s business was lawful and ethical."
+                }
+              ]
+            },
+            {
+              "subhead": "“My forehead is clean”",
+              "blocks": [
+                {
+                  "text": "In the statement, which A Haber said ran to three pages, Yazıcı denied any wrongdoing and said he was leaving to protect the party from a planned social media campaign."
+                },
+                {
+                  "quote": "My son has not gained a single lira, not even a kuruş, from any of the funds under investigation, either through the companies he owns or personally. My son Mustafa Yazıcı is not a partner, founder or manager of Adil Katılım Bank, as has been claimed.",
+                  "speaker": "Hayati Yazıcı",
+                  "sourceId": "a-haber",
+                  "translated": true
+                },
+                {
+                  "quote": "Today I am leaving a post. But I am not leaving my responsibility to serve my country, my nation, democracy, justice and the values I believe in.",
+                  "speaker": "Hayati Yazıcı",
+                  "sourceId": "haberturk",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "A founder of the party",
+              "blocks": [
+                {
+                  "text": "Born in Rize’s Çayeli in 1952, Yazıcı worked as a judge and then as a lawyer, including as President Recep Tayyip Erdoğan’s lawyer and legal adviser, NTV reported. He was among the AK Party’s founders in 2001, became deputy prime minister in 2007 and customs and trade minister in 2011."
+                },
+                {
+                  "text": "The first resignation over the affair came in September, when Fatma Betül Sayan Kaya stepped down as deputy chair. She was arrested on 5 November and released to house arrest on Tuesday, Cumhuriyet reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Boards he left",
+              "value": "MYK and MKYK",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Companies under TMSF trustee",
+              "value": "4",
+              "source": "NTV"
+            },
+            {
+              "label": "Times his son was questioned",
+              "value": "2",
+              "source": "NTV"
+            },
+            {
+              "label": "Became a minister",
+              "value": "2011",
+              "source": "NTV"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Hayati Yazıcı görevlerinden istifa etti",
+          "title": "Fon soruşturması gölgesinde Hayati Yazıcı AK Parti’deki görevlerini bıraktı",
+          "summary": {
+            "what": "AK Parti’nin kurucularından Genel Başkan Yardımcısı Hayati Yazıcı, oğlunun adının fon soruşturmasına karışmasının ardından MYK ve MKYK üyeliğinden istifa etti.",
+            "why": "Yazıcı, eylülde istifa eden eski Bakan Fatma Betül Sayan Kaya’dan sonra fon soruşturması nedeniyle görev bırakan ikinci üst düzey AK Partili.",
+            "next": "Yazıcı suçlamaları reddediyor. Oğlu Mustafa Yazıcı hakkındaki yurt dışı yasağı soruşturma sürerken devam ediyor."
+          },
+          "body": [
+            {
+              "subhead": "İkinci istifa",
+              "blocks": [
+                {
+                  "text": "AK Parti’nin Siyasi ve Hukuki İşlerden Sorumlu Genel Başkan Yardımcısı Hayati Yazıcı, salı günü Merkez Yürütme Kurulu (MYK) ve Merkez Karar ve Yönetim Kurulu (MKYK) üyeliğinden istifa etti. Hürriyet ve Habertürk’ün aktardığına göre Yazıcı kararını sosyal medyadan paylaştığı yazılı açıklamayla duyurdu."
+                },
+                {
+                  "text": "Cumhuriyet, akşam saatlerinde Notbir ve Odatv’ye dayanarak Yazıcı’nın genel merkezdeki odasını boşalttığını yazmıştı. Odatv’nin “İstifa mı ettiniz?” sorusuna Yazıcı, “Konuşuruz, konuşuruz, iyi akşamlar” yanıtını verdi. Cumhuriyet bu gelişmeyi AK Parti’de fon skandalı kaynaklı ikinci üst düzey istifa olarak niteledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Oğlu ve fon soruşturması",
+              "blocks": [
+                {
+                  "text": "NTV’ye göre Yazıcı, İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturmasında oğlu Mustafa Yazıcı hakkında alınan kararlarla gündeme gelmişti. Cumhuriyet’e göre Mustafa Yazıcı’nın Adil Varlık Yönetim AŞ’si dahil dört şirkete Tasarruf Mevduatı Sigorta Fonu (TMSF) kayyum olarak atandı, ardından BDDK’nın Adil Katılım Bankası’na ilişkin devir kararı Resmi Gazete’de yayımlandı."
+                },
+                {
+                  "text": "İki kez ifadesi alınan Mustafa Yazıcı hakkında yurt dışına çıkış yasağı ve imza yükümlülüğü içeren adli kontrol kararı verildi. Hayati Yazıcı ekim ayında oğlunun ticari faaliyetlerinin hukuka ve ahlaka uygunluğundan kuşkusu olmadığını söylemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "“Alnım ak, başım dik”",
+              "blocks": [
+                {
+                  "text": "A Haber’in üç sayfa olduğunu belirttiği açıklamada Yazıcı, hiçbir şaibeli işin içinde bulunmadığını, sosyal medyada partiye zarar vermeye yönelik planlı bir kampanya yürütüldüğünü ve buna fırsat vermemek için görevden ayrıldığını söyledi."
+                },
+                {
+                  "quote": "Oğlumun soruşturmaya konu fonların hiçbirinden gerek sahibi olduğu şirketler gerekse şahsen değil bir lira, bir kuruş dahi kazanımı olmamıştır. Oğlum Mustafa Yazıcı iddia edildiği gibi Adil Katılım Bankası’nın ortağı, kurucusu ve yöneticisi değildir.",
+                  "speaker": "Hayati Yazıcı",
+                  "sourceId": "a-haber"
+                },
+                {
+                  "quote": "Bugün bir görevden ayrılıyorum. Fakat ülkeme, milletime, demokrasiye, adalete ve inandığım değerlere hizmet etme sorumluluğumdan ayrılmıyorum.",
+                  "speaker": "Hayati Yazıcı",
+                  "sourceId": "haberturk"
+                }
+              ]
+            },
+            {
+              "subhead": "Partinin kurucularından",
+              "blocks": [
+                {
+                  "text": "NTV’ye göre 1952’de Rize’nin Çayeli ilçesinde doğan Yazıcı, hakimlik ve serbest avukatlık yaptı, Cumhurbaşkanı Recep Tayyip Erdoğan’ın avukatlığını ve hukuk müşavirliğini üstlendi. 2001’de AK Parti’nin kurucuları arasında yer aldı, 2007’de başbakan yardımcısı, 2011’de Gümrük ve Ticaret Bakanı oldu."
+                },
+                {
+                  "text": "Fon soruşturmasındaki ilk istifa eylülde gelmişti: Fatma Betül Sayan Kaya genel başkan yardımcılığını bırakmış, 5 Kasım’da tutuklanmıştı. Cumhuriyet’e göre Kaya bugün ev hapsi şartıyla tahliye edildi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ayrıldığı kurullar",
+              "value": "MYK ve MKYK",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "TMSF kayyumu atanan şirket",
+              "value": "4",
+              "source": "NTV"
+            },
+            {
+              "label": "Oğlunun ifade sayısı",
+              "value": "2",
+              "source": "NTV"
+            },
+            {
+              "label": "Bakan olduğu yıl",
+              "value": "2011",
+              "source": "NTV"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T16:22:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:06:17.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T17:06:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:12:57.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:13:53.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:18:43.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:20:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:30:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:42:21.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:11:09.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:32:28.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/0d9ae33b-0669-427c-8a2c-5c9c72591bae.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/akp-de-ikinci-ust-duzey-fon-depremi-hayati-yazici-istifa-sorusuna-ne-yanit-verdi-2559065"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/akp-de-ikinci-ust-duzey-fon-depremi-hayati-yazici-istifa-sorusuna-ne-yanit-verdi-2559065",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/hayati-yazici-istifa-mi-etti-aciklama-yapildi-1752422",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/ak-parti-genel-baskan-yardimcisi-hayati-yazici-istifa-etti-1397094",
+          "confirms": false
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/24/ak-parti-genel-baskan-yardimcisi-hayati-yazici-gorevinden-istifa-etti",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/24/akp-genel-baskan-yardimcisi-hayati-yazici-gorevinden-istifa-etti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/akp-genel-baskan-yardimcisi-hayati-yazici-istifa-etti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/son-dakika-ak-parti-genel-baskan-yardimcisi-yazici-gorevinden-istifa-etti-43389838",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/akp-de-hayati-yaz%C4%B1c%C4%B1-istifas%C4%B1-myk-ve-mkyk-%C3%BCyeli%C4%9Fi-sona-erdi/a-80041162?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/24/ak-parti-genel-baskan-yardimcisi-hayati-yazici-gorevinden-istifa-etti",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/hayati-yazici-istifa-etti-p384100",
+          "confirms": false
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c5vg2nxdkmdro?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-ak-parti-genel-baskan-yardimcisi-hayati-yazici-istifa-etti-3929839",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T22:30:00+03:00",
+      "updatedAt": "2026-11-24T22:30:00+03:00"
+    },
+    {
+      "id": "022f717aafc7a3a3",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Tidal bans fully AI-made music",
+          "title": "Tidal to delete about 29 million fully AI-made songs from 9 December",
+          "summary": {
+            "what": "The streaming service Tidal will ban music made entirely by AI from 9 December, deleting tens of millions of tracks and rejecting new AI uploads.",
+            "why": "AI songs made up 43% of uploads in the last 90 days; Tidal says they bury real artists and divert royalties, while 96% of them get no plays.",
+            "next": "Songs made with AI help stay allowed. Spotify, YouTube Music, Deezer and Apple Music still accept AI music with labels."
+          },
+          "body": [
+            {
+              "subhead": "A ban from 9 December",
+              "blocks": [
+                {
+                  "text": "Tidal said on Tuesday it will stop accepting music generated entirely by AI and remove what is already on its service from 9 December, TechCrunch, The Verge and Ars Technica reported. The company expects to delete around 29 million songs by the end of the year, according to TechCrunch and The Verge, and to reject an estimated 80,000 to 85,000 tracks a day."
+                },
+                {
+                  "text": "Ars Technica, citing Tidal, put the number of tracks labelled as AI at 27 million, or 6.3% of the catalogue. Distributors will also be barred from delivering wholly AI-made tracks, and Tidal will reject submissions whose metadata says they were made entirely with AI, TechCrunch said. The Verge reported that the company will use the AI detection tool Ircam Amplify alongside metadata checks."
+                }
+              ]
+            },
+            {
+              "subhead": "Why labels were not enough",
+              "blocks": [
+                {
+                  "text": "Tidal began labelling and demonetising fully AI-generated songs earlier this year. But over the past 90 days, 43% of the tracks distributed to the platform were AI-generated, and on 6 November the share of new uploads hit 60%, Ars Technica reported. Tidal’s music lead, Robert Andersen, said on X that something more drastic was needed."
+                },
+                {
+                  "quote": "We believe this will resonate with both artists and listeners alike, as 96% of all AI-generated songs receive zero plays at all.",
+                  "speaker": "Robert Andersen, Tidal",
+                  "sourceId": "the-verge"
+                },
+                {
+                  "text": "Tidal has also removed about 66,000 tracks for impersonating artists, Ars Technica said."
+                }
+              ]
+            },
+            {
+              "subhead": "What is still allowed",
+              "blocks": [
+                {
+                  "text": "Songs made with the help of AI tools are not affected, as long as AI is not the “sole output”, The Verge reported. Ars Technica noted that 94% of the AI songs on Tidal come from Suno, which added watermarking this year, but that open models run locally may escape detection, calling it a cat-and-mouse game."
+                },
+                {
+                  "quote": "At this scale, the authentic music and artists that Tidal subscribers are looking to listen to and discover get buried.",
+                  "speaker": "Tidal",
+                  "sourceId": "techcrunch"
+                }
+              ]
+            },
+            {
+              "subhead": "How rivals handle it",
+              "blocks": [
+                {
+                  "text": "TechCrunch said Tidal is one of the first major platforms after Bandcamp to ban AI music outright. Spotify and YouTube Music label AI tracks instead, and Deezer lets users filter them out. The Verge reported that Spotify removed 50 million AI slop and spam tracks from recommendations over the past year, and that Apple Music plans AI labels."
+                },
+                {
+                  "text": "Record labels, meanwhile, are licensing catalogues to AI companies. Goldman Sachs estimates that AI licensing and new ways of making money could lift labels’ revenue by 10% by 2035, TechCrunch reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "AI share of uploads, last 90 days",
+              "value": "43%",
+              "source": "Tidal"
+            },
+            {
+              "label": "Songs to be deleted",
+              "value": "29 million",
+              "source": "Tidal, via TechCrunch"
+            },
+            {
+              "label": "AI tracks with no plays",
+              "value": "96%",
+              "source": "Tidal"
+            },
+            {
+              "label": "Tracks rejected per day",
+              "value": "80,000–85,000",
+              "source": "Tidal"
+            },
+            {
+              "label": "Ban starts",
+              "value": "9 Dec",
+              "source": "Tidal"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Tidal yapay zekâ müziğini yasaklıyor",
+          "title": "Tidal, 9 Aralık’tan itibaren yaklaşık 29 milyon yapay zekâ şarkısını silecek",
+          "summary": {
+            "what": "Müzik platformu Tidal, tamamen yapay zekâyla üretilen şarkıları 9 Aralık’tan itibaren yasaklıyor; milyonlarca parça silinecek, yeni yüklemeler reddedilecek.",
+            "why": "Son 90 günde yüklenen parçaların %43’ü yapay zekâ üretimiydi. Tidal bunların gerçek sanatçıları gölgede bıraktığını söylüyor; %96’sı hiç dinlenmiyor.",
+            "next": "Yapay zekâ desteğiyle yapılan şarkılara izin verilecek. Spotify, YouTube Music, Deezer ve Apple Music etiketle yayına devam ediyor."
+          },
+          "body": [
+            {
+              "subhead": "9 Aralık’ta yasak başlıyor",
+              "blocks": [
+                {
+                  "text": "TechCrunch, The Verge ve Ars Technica’nın haberine göre Tidal salı günü yaptığı açıklamada, tamamen yapay zekâyla üretilmiş müziği artık kabul etmeyeceğini ve platformdakileri 9 Aralık’tan itibaren kaldıracağını duyurdu. TechCrunch ve The Verge’e göre şirket yıl sonuna kadar yaklaşık 29 milyon şarkıyı silmeyi ve günde tahminen 80-85 bin parçayı reddetmeyi bekliyor."
+                },
+                {
+                  "text": "Ars Technica ise Tidal’a dayanarak yapay zekâ etiketli parça sayısını 27 milyon, kataloğun yüzde 6,3’ü olarak verdi. TechCrunch’a göre dağıtım şirketlerinin de bu tür parçaları göndermesi yasaklanacak, meta verisinde tamamen yapay zekâyla üretildiği yazan şarkılar reddedilecek. The Verge, Tidal’ın meta veri kontrollerinin yanında Ircam Amplify adlı tespit aracını kullanacağını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Etiket yetmedi",
+              "blocks": [
+                {
+                  "text": "Tidal bu yıl tamamen yapay zekâ üretimi şarkıları etiketleyip gelirden çıkarmaya başlamıştı. Ancak Ars Technica’ya göre son 90 günde platforma gelen parçaların yüzde 43’ü yapay zekâ üretimiydi, 6 Kasım’da yeni yüklemelerdeki pay yüzde 60’a ulaştı. Tidal’ın müzik sorumlusu Robert Andersen, X’te daha sert bir adım gerektiğini söyledi."
+                },
+                {
+                  "quote": "Bunun hem sanatçılarda hem dinleyicilerde karşılık bulacağına inanıyoruz, çünkü yapay zekâyla üretilen şarkıların %96’sı hiç dinlenmiyor.",
+                  "speaker": "Robert Andersen, Tidal",
+                  "sourceId": "the-verge",
+                  "translated": true
+                },
+                {
+                  "text": "Ars Technica’ya göre Tidal, sanatçıları taklit ettiği için yaklaşık 66 bin parçayı da kaldırdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Neye izin var?",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre yapay zekâ araçlarının yardımıyla yapılan şarkılar, yapay zekâ “tek çıktı” olmadığı sürece yasaktan etkilenmeyecek. Ars Technica, Tidal’daki yapay zekâ şarkılarının yüzde 94’ünün bu yıl filigran eklemeye başlayan Suno’dan geldiğini, ancak bilgisayarda yerel çalışan açık modellerin tespitten kaçabileceğini hatırlattı ve durumu kedi-fare oyununa benzetti."
+                },
+                {
+                  "quote": "Bu ölçekte, Tidal abonelerinin dinlemek ve keşfetmek istediği gerçek müzik ve sanatçılar gömülüp kayboluyor.",
+                  "speaker": "Tidal",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Rakipler ne yapıyor?",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre Tidal, Bandcamp’ten sonra yapay zekâ müziğini tamamen yasaklayan ilk büyük platformlardan biri. Spotify ve YouTube Music bu parçaları etiketlemekle yetiniyor, Deezer kullanıcılara filtreleme imkânı sunuyor. The Verge, Spotify’ın son bir yılda 50 milyon düşük kaliteli ve spam parçayı önerilerden çıkardığını, Apple Music’in de etiket hazırlığında olduğunu yazdı."
+                },
+                {
+                  "text": "Plak şirketleri ise kataloglarını yapay zekâ şirketlerine lisanslıyor. TechCrunch’ın aktardığına göre Goldman Sachs, yapay zekâ lisanslarının ve yeni gelir yollarının 2035’e kadar plak şirketlerinin gelirini yüzde 10 artırabileceğini tahmin ediyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Son 90 günde yapay zekâ payı",
+              "value": "%43",
+              "source": "Tidal"
+            },
+            {
+              "label": "Silinecek şarkı",
+              "value": "29 milyon",
+              "source": "Tidal, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Hiç dinlenmeyen YZ parçası",
+              "value": "%96",
+              "source": "Tidal"
+            },
+            {
+              "label": "Günde reddedilecek parça",
+              "value": "80-85 bin",
+              "source": "Tidal"
+            },
+            {
+              "label": "Yasağın başlangıcı",
+              "value": "9 Ara",
+              "source": "Tidal"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T16:46:00.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:17:09.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T17:17:09.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:34:34.000Z",
+          "sourceId": "ars-technica"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg",
+        "sourceId": "ars-technica",
+        "sourceName": "Ars Technica",
+        "articleUrl": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+      },
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+          "confirms": true
+        },
+        {
+          "sourceId": "ars-technica",
+          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T22:30:00+03:00",
+      "updatedAt": "2026-11-24T22:30:00+03:00"
+    },
+    {
+      "id": "1951575562004096",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Meta’s Muse agent reaches Britain",
+          "title": "Meta launches its Muse shopping agent in the UK, watched by regulators",
+          "summary": {
+            "what": "Meta launched Muse, its AI agent that shops, books travel and sends emails for users, in the UK, and put it inside Instagram messages in five countries.",
+            "why": "It is one of the first mass-market AI agents to act on people’s accounts, and UK privacy and competition regulators extracted changes before launch.",
+            "next": "The ICO will monitor Muse under a voluntary scheme, and the CMA says it will not hesitate to act if it has concerns."
+          },
+          "body": [
+            {
+              "subhead": "A shopping agent for Christmas",
+              "blocks": [
+                {
+                  "text": "Meta has launched Muse, its AI assistant that can carry out tasks on a user’s behalf, in the UK, The Guardian reported on Tuesday. Users can give it a name, a look and a personality and ask it to send an email, book travel or buy presents. It works as an app or inside WhatsApp."
+                },
+                {
+                  "text": "Muse has been a hit in the US, where it ranks first and second on Google’s and Apple’s free app charts and has been downloaded millions of times, and it is also available in Canada, the paper said. In Britain, Meta has signed deals with 14 businesses, including Marks & Spencer, Sainsbury’s, easyJet and Trainline, so that the agent can find its way around their websites more easily."
+                },
+                {
+                  "quote": "From doing the Christmas shopping and searching for a cheaper energy deal, to sorting the school calendar … Muse can get it done for you.",
+                  "speaker": "Meta",
+                  "sourceId": "guardian-ai"
+                }
+              ]
+            },
+            {
+              "subhead": "Permission and regulators",
+              "blocks": [
+                {
+                  "text": "Meta says Muse cannot make a purchase or send an email without the user’s approval, cannot see passwords or payment methods, and does not share conversations with advertisers. A separate “security agent” checks its actions against the permissions granted, according to The Guardian."
+                },
+                {
+                  "text": "The data watchdog ICO said Meta had committed to a voluntary monitoring and reporting scheme, and the Competition and Markets Authority said talks had made the app’s terms fairer."
+                },
+                {
+                  "quote": "We will be closely monitoring this and if we have concerns we will not hesitate to act to protect UK consumers.",
+                  "speaker": "Sarah Cardell, CMA chief executive",
+                  "sourceId": "guardian-ai"
+                }
+              ]
+            },
+            {
+              "subhead": "Reported glitches",
+              "blocks": [
+                {
+                  "text": "Reuters reported last week that Meta staff had raised concerns about the app, The Guardian said: in one case Muse delivered a message containing random bank balances. Meta said internal testing was vital and the paper understood that most of the problems came from a bug that has been fixed."
+                },
+                {
+                  "text": "Muse runs on Muse Spark, the first model from Meta’s superintelligence lab. Its chief AI officer, Alexandr Wang, wrote on Sunday that it was hard to imagine humanity keeping control of a superintelligence far smarter than people, and called AI safety work extremely urgent."
+                }
+              ]
+            },
+            {
+              "subhead": "Now inside Instagram",
+              "blocks": [
+                {
+                  "text": "Separately, Instagram users can now chat with Muse in their direct messages, TechCrunch reported. They can share a post and ask it to act, such as adding a café to a trip itinerary or finding a Black Friday deal, and can ask it to sort saved posts or turn a recipe video into a shopping list. The DM feature is rolling out in the US, Canada, Mexico, Japan and Singapore; nothing is sent or published without the user’s approval, Meta said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "UK partner businesses",
+              "value": "14",
+              "source": "The Guardian"
+            },
+            {
+              "label": "US app store rank",
+              "value": "1st and 2nd",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Countries with Muse in Instagram DMs",
+              "value": "5",
+              "source": "TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Meta’nın Muse asistanı İngiltere’de",
+          "title": "Meta, alışveriş yapan yapay zekâ asistanı Muse’u İngiltere’ye getirdi",
+          "summary": {
+            "what": "Meta, kullanıcı adına alışveriş yapan, seyahat ayarlayan ve e-posta gönderen yapay zekâ asistanı Muse’u İngiltere’de kullanıma açtı, beş ülkede Instagram mesajlarına ekledi.",
+            "why": "Muse, insanların hesapları üzerinde işlem yapan ilk yaygın yapay zekâ ajanlarından biri; İngiliz düzenleyiciler lansmandan önce değişiklik yaptırdı.",
+            "next": "ICO, Muse’u gönüllü bir izleme programıyla takip edecek. CMA, endişe duyarsa harekete geçmekten çekinmeyeceğini söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Yılbaşı alışverişine yapay zekâ",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın salı günkü haberine göre Meta, kullanıcı adına işler yapabilen yapay zekâ asistanı Muse’u İngiltere’de kullanıma sundu. Kullanıcılar asistana bir isim, görünüm ve kişilik verebiliyor, ondan e-posta göndermesini, seyahat ayarlamasını ya da hediye almasını isteyebiliyor. Muse ayrı bir uygulama olarak ya da WhatsApp içinden kullanılıyor."
+                },
+                {
+                  "text": "Gazeteye göre Muse, milyonlarca kez indirildiği ABD’de Google ve Apple’ın ücretsiz uygulama listelerinde birinci ve ikinci sırada, Kanada’da da kullanılabiliyor. Meta, İngiltere’de Marks & Spencer, Sainsbury’s, easyJet ve Trainline dahil 14 şirketle anlaşma yaptı; böylece asistan bu şirketlerin sitelerinde daha kolay gezinebilecek."
+                },
+                {
+                  "quote": "Yılbaşı alışverişinden daha ucuz bir enerji tarifesi aramaya, okul takvimini düzenlemeye kadar… Muse bunları sizin için halledebilir.",
+                  "speaker": "Meta",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "İzin ve denetim",
+              "blocks": [
+                {
+                  "text": "Meta’ya göre Muse kullanıcının onayı olmadan alışveriş yapamıyor ya da e-posta gönderemiyor, şifreleri ve ödeme yöntemlerini göremiyor, konuşmaları reklamcılarla paylaşmıyor. The Guardian’a göre ayrı bir “güvenlik ajanı” da Muse’un işlemlerini verilen izinlerle karşılaştırıyor."
+                },
+                {
+                  "text": "Veri koruma kurumu ICO, Meta’nın gönüllü bir izleme ve raporlama programına katılmayı kabul ettiğini açıkladı. Rekabet ve Piyasalar Kurumu (CMA) ise görüşmelerin uygulamanın kullanım koşullarını daha adil hale getirdiğini söyledi."
+                },
+                {
+                  "quote": "Bunu yakından izleyeceğiz; endişe duyarsak İngiliz tüketicileri korumak için harekete geçmekten çekinmeyeceğiz.",
+                  "speaker": "Sarah Cardell, CMA İcra Kurulu Başkanı",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Bildirilen aksaklıklar",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın aktardığına göre Reuters geçen hafta Meta çalışanlarının uygulamayla ilgili endişelerini duyurmuştu: Bir örnekte Muse, içinde rastgele banka bakiyeleri bulunan bir mesaj iletti. Meta iç testlerin ürün geliştirmede hayati olduğunu söyledi; gazeteye göre sorunların çoğu giderilmiş bir hatadan kaynaklanıyordu."
+                },
+                {
+                  "text": "Muse, Meta’nın süper zekâ laboratuvarının ilk modeli Muse Spark ile çalışıyor. Şirketin yapay zekâ direktörü Alexandr Wang pazar günü, insanlardan çok daha zeki bir süper zekâ karşısında insanlığın kontrolü elinde tutmasının zor olduğunu yazdı ve yapay zekâ güvenliği çalışmalarını son derece acil olarak nitelendirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Artık Instagram’da",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre Instagram kullanıcıları da artık Muse ile doğrudan mesajlarda yazışabiliyor. Bir gönderiyi paylaşıp örneğin bir kafeyi gezi planına eklemesini ya da Black Friday indirimi bulmasını isteyebiliyor, kaydedilen gönderileri düzenletip bir tarif videosunu alışveriş listesine çevirtebiliyorlar. Özellik ABD, Kanada, Meksika, Japonya ve Singapur’da kullanıma açılıyor. Meta, kullanıcı onayı olmadan hiçbir şeyin gönderilmediğini belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İngiltere’de ortak şirket",
+              "value": "14",
+              "source": "The Guardian"
+            },
+            {
+              "label": "ABD uygulama mağazası sırası",
+              "value": "1. ve 2.",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Instagram DM’de Muse olan ülke",
+              "value": "5",
+              "source": "TechCrunch"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T12:44:40.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:00:00.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T17:00:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/24/have-you-downloaded-metas-ai-assistant-muse-or-do-you-plan-to",
+          "confirms": true
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T22:30:00+03:00",
+      "updatedAt": "2026-11-24T22:30:00+03:00"
+    },
+    {
+      "id": "ecb5877c43ed1447",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Senegal get their AFCON title back",
+          "title": "Sports court restores Senegal as 2025 Africa Cup of Nations champions",
+          "summary": {
+            "what": "The Court of Arbitration for Sport unanimously reinstated Senegal’s 1-0 win over Morocco in January’s final, overturning a CAF ruling that had handed Morocco the title.",
+            "why": "It is the first time CAS has ruled on the result of a continental final, and it upholds the principle that a referee’s decisions on the pitch stand.",
+            "next": "Morocco says it will pursue all legal avenues; a CAS award can be challenged at Switzerland’s supreme court only on procedural grounds."
+          },
+          "body": [
+            {
+              "subhead": "Champions again",
+              "blocks": [
+                {
+                  "text": "Senegal were reinstated as winners of the 2025 Africa Cup of Nations on Tuesday after the Court of Arbitration for Sport (CAS) upheld their appeal, Sky Sports, The Guardian, France 24, Al Jazeera and Euronews reported. The court set aside a decision by the Confederation of African Football’s (CAF) appeal board, which in March had declared that Senegal forfeited the final and recorded Morocco as 3-0 winners."
+                },
+                {
+                  "text": "The original 1-0 result after extra time now stands, making Senegal African champions for the second time after 2022, France 24 said. The three-member panel ruled unanimously."
+                },
+                {
+                  "quote": "This is a huge decision because it is the first time that we have had to rule on the fate of a continental final.",
+                  "speaker": "Matthieu Reeb, CAS director general",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "The walk-off in Rabat",
+              "blocks": [
+                {
+                  "text": "The final was played on 18 January in Rabat. With the score 0-0 deep in stoppage time, the Congolese referee Jean-Jacques Ndala awarded Morocco a penalty after a VAR review, shortly after Senegal had a goal ruled out, Al Jazeera reported. Senegal’s players, led by coach Pape Thiaw, walked off in protest for about 15 minutes. When play resumed Brahim Díaz failed to score from the spot, and Pape Gueye won it in extra time."
+                },
+                {
+                  "text": "CAF’s appeal board relied on Articles 82 and 84 of the tournament rules, under which a team that leaves the pitch without the referee’s permission loses the match 3-0, France 24 said."
+                }
+              ]
+            },
+            {
+              "subhead": "The ‘field of play’ doctrine",
+              "blocks": [
+                {
+                  "text": "CAS found that the referee’s decision to restart the match showed the conditions for resuming play had been met, so the two articles did not apply, according to France 24 and Euronews. Under the field-of-play doctrine the court does not review referees’ decisions unless rules were applied arbitrarily or in bad faith."
+                },
+                {
+                  "quote": "The Panel acknowledged that the Referee had to make a decision in an atmosphere of extreme tension. However, these circumstances do not justify describing the decision as ‘arbitrary’.",
+                  "speaker": "Court of Arbitration for Sport",
+                  "sourceId": "euronews-en"
+                }
+              ]
+            },
+            {
+              "subhead": "Morocco vows to fight on",
+              "blocks": [
+                {
+                  "text": "The Royal Moroccan Football Federation said it was “astonished” and would pursue all available legal procedures, Sky Sports reported. Euronews said the federation pointed to what it called contact between one of the arbitrators, Ulrich Haas, and the president of Senegal’s federation 48 hours before the decision, and that it could go to Switzerland’s Federal Supreme Court, which rules on procedure rather than merits."
+                },
+                {
+                  "text": "Senegal star Sadio Mané said the decision “fills us with joy”, France 24 reported. Senegal’s federation celebrated on social media, saying the team had now won the title twice, on the pitch and at CAS, The Guardian said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Final result restored",
+              "value": "1-0",
+              "source": "CAS"
+            },
+            {
+              "label": "CAF’s overturned ruling",
+              "value": "3-0 to Morocco",
+              "source": "CAF appeal board"
+            },
+            {
+              "label": "Length of the walk-off",
+              "value": "about 15 min",
+              "source": "Euronews"
+            },
+            {
+              "label": "Date of the final",
+              "value": "18 Jan",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Senegal’s Afcon titles",
+              "value": "2",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Lausanne",
+            "lat": 46.52,
+            "lon": 6.63,
+            "region": "Switzerland"
+          }
+        },
+        "tr": {
+          "shortTitle": "Senegal Afrika şampiyonluğunu geri aldı",
+          "title": "Spor Tahkim Mahkemesi, 2025 Afrika Kupası’nı yeniden Senegal’e verdi",
+          "summary": {
+            "what": "Spor Tahkim Mahkemesi, ocaktaki finalde Senegal’in Fas’ı 1-0 yendiği sonucu oy birliğiyle geri getirdi ve kupayı Fas’a veren CAF kararını bozdu.",
+            "why": "CAS ilk kez bir kıta finalinin sonucu hakkında karar verdi. Karar, hakemin sahadaki kararlarının geçerli olduğu ilkesini de güçlendiriyor.",
+            "next": "Fas tüm hukuki yollara başvuracağını söylüyor. CAS kararlarına İsviçre Federal Mahkemesi’nde yalnızca usul yönünden itiraz edilebiliyor."
+          },
+          "body": [
+            {
+              "subhead": "Yeniden şampiyon",
+              "blocks": [
+                {
+                  "text": "Sky Sports, The Guardian, France 24, Al Jazeera ve Euronews’in haberine göre Spor Tahkim Mahkemesi (CAS) salı günü Senegal’in itirazını kabul etti ve ülkeyi 2025 Afrika Uluslar Kupası şampiyonu olarak yeniden tescil etti. Mahkeme, Afrika Futbol Konfederasyonu (CAF) itiraz kurulunun mart ayında Senegal’i hükmen mağlup sayıp maçı Fas lehine 3-0 tescil eden kararını bozdu."
+                },
+                {
+                  "text": "France 24’e göre uzatmalarda alınan 1-0’lık galibiyet geçerli sayıldı ve Senegal, 2022’den sonra ikinci kez Afrika şampiyonu oldu. Üç kişilik heyet kararı oy birliğiyle verdi."
+                },
+                {
+                  "quote": "Bu çok büyük bir karar, çünkü ilk kez bir kıta finalinin akıbeti hakkında karar vermek zorunda kaldık.",
+                  "speaker": "Matthieu Reeb, CAS Genel Direktörü",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Rabat’ta sahadan çekilme",
+              "blocks": [
+                {
+                  "text": "Final 18 Ocak’ta Rabat’ta oynandı. Al Jazeera’ya göre uzatma dakikalarında skor 0-0’ken Senegal’in bir golü iptal edildi, kısa süre sonra Kongolu hakem Jean-Jacques Ndala VAR incelemesinin ardından Fas lehine penaltı verdi. Teknik direktör Pape Thiaw’ın önderliğindeki Senegalli futbolcular protesto için yaklaşık 15 dakika sahadan çekildi. Oyun yeniden başlayınca Brahim Díaz penaltıdan gol atamadı, uzatmada Pape Gueye maçı kazandıran golü attı."
+                },
+                {
+                  "text": "France 24’e göre CAF itiraz kurulu, hakemin izni olmadan sahayı terk eden takımın maçı 3-0 kaybetmiş sayılmasını öngören turnuva yönetmeliğinin 82 ve 84. maddelerine dayanmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Oyun alanı” ilkesi",
+              "blocks": [
+                {
+                  "text": "France 24 ve Euronews’e göre CAS, hakemin maçı yeniden başlatmasının oyuna devam koşullarının oluştuğunu gösterdiğine, bu yüzden iki maddenin uygulanamayacağına hükmetti. “Oyun alanı” ilkesine göre mahkeme, kurallar keyfi ya da kötü niyetle uygulanmadıkça hakemlerin sahadaki kararlarını incelemiyor."
+                },
+                {
+                  "quote": "Heyet, hakemin son derece gergin bir ortamda karar vermek zorunda kaldığını kabul etti. Ancak bu koşullar, kararı ‘keyfi’ olarak nitelendirmeyi haklı kılmaz.",
+                  "speaker": "Spor Tahkim Mahkemesi",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Fas pes etmiyor",
+              "blocks": [
+                {
+                  "text": "Sky Sports’a göre Fas Kraliyet Futbol Federasyonu karar karşısında “hayrete düştüğünü” ve tüm hukuki yollara başvuracağını açıkladı. Euronews’e göre federasyon, hakemlerden Ulrich Haas ile Senegal federasyonu başkanı arasında karardan 48 saat önce “temas” olduğunu öne sürdü ve esasa değil usule bakan İsviçre Federal Yüksek Mahkemesi’ne gidebileceğini belirtti."
+                },
+                {
+                  "text": "France 24’e göre Senegal’in yıldızı Sadio Mané kararın “bizi sevince boğduğunu” söyledi. The Guardian, Senegal federasyonunun sosyal medyada takımın kupayı iki kez, önce sahada sonra CAS’ta kazandığını ilan ettiğini yazdı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Geri gelen final skoru",
+              "value": "1-0",
+              "source": "CAS"
+            },
+            {
+              "label": "Bozulan CAF kararı",
+              "value": "Fas lehine 3-0",
+              "source": "CAF itiraz kurulu"
+            },
+            {
+              "label": "Sahadan çekilme süresi",
+              "value": "yaklaşık 15 dk",
+              "source": "Euronews"
+            },
+            {
+              "label": "Final tarihi",
+              "value": "18 Oca",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Senegal’in Afrika Kupası",
+              "value": "2",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Lausanne",
+            "lat": 46.52,
+            "lon": 6.63,
+            "region": "İsviçre"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T14:20:00.000Z",
+          "sourceId": "sky-sports-transfers"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T14:22:36.000Z",
+          "sourceId": "guardian-football"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T14:22:36.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T14:25:06.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T14:35:56.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T14:51:39.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:16:09.000Z",
+          "sourceId": "bbc-sport-football"
+        }
+      ],
+      "image": {
+        "url": "https://e1.365dm.com/26/11/1920x1080/skysports-sadio-mane_7415365.jpg?20261124145012",
+        "sourceId": "sky-sports-transfers",
+        "sourceName": "Sky Sports",
+        "articleUrl": "https://www.skysports.com/football/news/11095/13615545/senegal-crowned-afcon-2025-champions-by-court-of-arbitration-for-sport-following-appeal"
+      },
+      "sources": [
+        {
+          "sourceId": "sky-sports-transfers",
+          "url": "https://www.skysports.com/football/news/11095/13615545/senegal-crowned-afcon-2025-champions-by-court-of-arbitration-for-sport-following-appeal",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-football",
+          "url": "https://www.theguardian.com/football/2026/nov/24/afcon-verdict-senegal-morocco-africa-cup-of-nations-champions-court-ruling-cas",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/sport/20261124-sports-court-verdict-senegal-appeal-africa-cup-of-nations-title-tuesday",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/24/cas-awards-senegal-afcon-title-after-successful-appeal",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-sport-football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T22:30:00+03:00",
+      "updatedAt": "2026-11-24T22:30:00+03:00"
+    },
+    {
+      "id": "e5c9cd77d9d960c4",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Leak: 490,000 Russian soldiers dead",
+          "title": "Hacked Rosstat data show at least 490,000 Russian soldiers killed",
+          "summary": {
+            "what": "Death certificates in data hacked from Russia’s statistics agency show at least 490,000 Russian military deaths in Ukraine from February 2022 to August 2026.",
+            "why": "The Kremlin publishes no figures for its losses; the leak, analysed by over a dozen independent outlets, is the most detailed count yet.",
+            "next": "Outlets expect the toll to rise: deaths are registered months late, and estimates including the missing reach 720,000."
+          },
+          "body": [
+            {
+              "subhead": "What the leak shows",
+              "blocks": [
+                {
+                  "text": "A hack of Rosstat, Russia’s federal statistics agency, has revealed that at least 490,000 Russian military personnel have been killed in Ukraine since the full-scale invasion began in February 2022, Euronews reported. The figure comes from official death certificates registered up to the end of August 2026, and was analysed by more than a dozen independent news outlets."
+                },
+                {
+                  "text": "The data were taken on the night of 1 November by two hacking groups, Belarus’s Cyber Partisans and Silent Crow, which also attacked Aeroflot’s servers in 2025, Euronews said. France 24 described Silent Crow as a Ukrainian group. They reached Rosstat’s document system and a database holding about 23 terabytes of statistical, economic and personal data, including census material."
+                }
+              ]
+            },
+            {
+              "subhead": "Higher estimates",
+              "blocks": [
+                {
+                  "text": "The independent Russian outlet Meduza, applying actuarial modelling, estimated at least 720,000 irrecoverable losses once the missing are included, according to Euronews. Mediazona said confirmed survival is recorded in fewer than 10% of cases of missing servicemen. Deaths are registered on average 3.5 months late, and those of missing soldiers about a year late, Novaya Evropa reported."
+                },
+                {
+                  "text": "Using the conservative estimate, Russia lost 280 to 300 soldiers a day, about one every five minutes, according to Important Stories. It found that 92% died from explosions and shrapnel and 1.3% from firearms. The Insider identified more than 370,000 of the dead by name, and the BBC Russian Service and Mediazona counted at least 7,421 foreigners killed fighting for Russia."
+                }
+              ]
+            },
+            {
+              "subhead": "Deaths away from the front",
+              "blocks": [
+                {
+                  "text": "About 2,500 servicemen died from alcohol or drug use or suicide, Euronews reported, and more than 1,000 took their own lives. Another 885 deaths were registered as firearm injuries “with undetermined intent”, a category experts believe is sometimes used to hide suicides."
+                },
+                {
+                  "text": "The toll falls hardest on the Far East and Siberia. The Jewish Autonomous Region recorded nearly 1,000 deaths per 100,000 people, against 63 in Moscow, according to Important Stories."
+                }
+              ]
+            },
+            {
+              "subhead": "Other counts",
+              "blocks": [
+                {
+                  "text": "The Kremlin does not publish or recognise figures for its losses, and has restricted access to official databases and prosecuted people who keep independent counts, Euronews said. Ukraine’s General Staff puts Russia’s killed and wounded at 1,639,641, a figure not independently verified. The Economist, in a study published at the end of October, estimated between 374,000 and 770,000 Russian servicemen killed."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Deaths on certificates, Feb 2022–Aug 2026",
+              "value": "490,000+",
+              "source": "Rosstat data, via Euronews"
+            },
+            {
+              "label": "Estimate including the missing",
+              "value": "720,000+",
+              "source": "Meduza"
+            },
+            {
+              "label": "Average deaths per day",
+              "value": "280–300",
+              "source": "Important Stories"
+            },
+            {
+              "label": "Size of the hacked database",
+              "value": "23 TB",
+              "source": "Euronews"
+            },
+            {
+              "label": "Foreigners killed fighting for Russia",
+              "value": "7,421+",
+              "source": "BBC Russian, Mediazona"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Sızıntı: 490 bin Rus asker öldü",
+          "title": "Rosstat’tan sızan verilere göre en az 490 bin Rus asker öldü",
+          "summary": {
+            "what": "Rusya’nın istatistik kurumundan çalınan verilerdeki ölüm belgeleri, Şubat 2022-Ağustos 2026 arasında Ukrayna’da en az 490 bin Rus askerin öldüğünü gösteriyor.",
+            "why": "Kremlin kayıplarına dair rakam yayımlamıyor. Bir düzineden fazla bağımsız yayın organının incelediği sızıntı, bugüne kadarki en ayrıntılı sayım.",
+            "next": "Ölümler aylar sonra kayda geçtiği için sayının artması bekleniyor; kayıplar da eklenince tahminler 720 bine çıkıyor."
+          },
+          "body": [
+            {
+              "subhead": "Sızıntı ne gösteriyor?",
+              "blocks": [
+                {
+                  "text": "Euronews’in haberine göre Rusya Federal İstatistik Servisi Rosstat’a yönelik bir siber saldırı, Şubat 2022’de başlayan topyekûn işgalden bu yana Ukrayna’da en az 490 bin Rus askerin öldüğünü ortaya koydu. Rakam, Ağustos 2026 sonuna kadar kaydedilen resmi ölüm belgelerinden çıkarıldı ve bir düzineden fazla bağımsız yayın organı tarafından incelendi."
+                },
+                {
+                  "text": "Euronews’e göre veriler 1 Kasım gecesi Belaruslu Siber Partizanlar ile 2025’te Aeroflot’un sunucularına da saldıran Silent Crow adlı iki grup tarafından ele geçirildi. France 24, Silent Crow’u Ukraynalı bir grup olarak tanımladı. Hackerlar Rosstat’ın belge yönetim sistemine ve nüfus sayımı dahil istatistiki, ekonomik ve kişisel bilgiler içeren yaklaşık 23 terabaytlık veri tabanına eriştiler."
+                }
+              ]
+            },
+            {
+              "subhead": "Daha yüksek tahminler",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre bağımsız Rus yayın organı Meduza, aktüeryal modellemeyle kayıplar da dahil edildiğinde telafisi mümkün olmayan kaybın en az 720 bin olduğunu hesapladı. Mediazona, kayıp askerlerin hayatta olduğunun ancak yüzde 10’dan azında doğrulandığını belirtti. Novaya Evropa’ya göre ölümler ortalama 3,5 ay, kayıp askerlerin ölümleri ise yaklaşık bir yıl gecikmeyle kayda geçiyor."
+                },
+                {
+                  "text": "Important Stories’e göre temkinli tahminle Rusya günde 280-300, yani yaklaşık beş dakikada bir asker kaybetti. Ölümlerin yüzde 92’si patlama ve şarapnel, yüzde 1,3’ü ateşli silahlar nedeniyle. The Insider ölenlerin 370 binden fazlasını isim isim tespit etti; BBC Rusça ve Mediazona da Rusya saflarında savaşırken ölen en az 7.421 yabancı saydı."
+                }
+              ]
+            },
+            {
+              "subhead": "Cephe dışı ölümler",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre yaklaşık 2.500 asker alkol, uyuşturucu ya da intihar nedeniyle öldü; 1.000’den fazlası kendi canına kıydı. 885 ölüm daha “niyeti belirsiz” ateşli silah yaralanması olarak kaydedildi; uzmanlar bu kategorinin bazen intiharları gizlemek için kullanıldığını düşünüyor."
+                },
+                {
+                  "text": "Important Stories’e göre kayıplar en çok Uzak Doğu ve Sibirya’yı vuruyor: Yahudi Özerk Bölgesi’nde 100 bin kişi başına yaklaşık 1.000 ölüm kaydedilirken bu oran Moskova’da 63."
+                }
+              ]
+            },
+            {
+              "subhead": "Diğer sayımlar",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre Kremlin kayıp rakamlarını yayımlamıyor ve tanımıyor, resmi veri tabanlarına erişimi kısıtlıyor, bağımsız sayım yapanları yargılıyor. Ukrayna Genelkurmayı Rusya’nın ölü ve yaralı kaybını 1.639.641 olarak veriyor; bu rakam bağımsız olarak doğrulanmadı. The Economist ise ekim sonunda yayımladığı çalışmada ölen Rus asker sayısını 374 bin ile 770 bin arasında tahmin etti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ölüm belgeleri, Şub 2022–Ağu 2026",
+              "value": "490.000+",
+              "source": "Rosstat verileri, Euronews aracılığıyla"
+            },
+            {
+              "label": "Kayıplar dahil tahmin",
+              "value": "720.000+",
+              "source": "Meduza"
+            },
+            {
+              "label": "Günlük ortalama ölüm",
+              "value": "280-300",
+              "source": "Important Stories"
+            },
+            {
+              "label": "Çalınan veri tabanı",
+              "value": "23 TB",
+              "source": "Euronews"
+            },
+            {
+              "label": "Rusya için savaşırken ölen yabancı",
+              "value": "7.421+",
+              "source": "BBC Rusça, Mediazona"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T14:25:03.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T15:53:03.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T15:53:03.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/c10d4f8e-e81d-11f1-82e4-81da3ab2acbb/w:1024/p:16x9/EN-20261124-160120-160737-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-24T22:30:00+03:00",
+      "updatedAt": "2026-11-24T22:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "7ad83b520a971e3c",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Which company of Mustafa Yazıcı was among the four put under a TMSF trustee?",
+          "options": ["Adil Katılım Bank", "Adil Yatırım Holding", "Adil Varlık Yönetim"]
+        },
+        "tr": {
+          "question": "TMSF’nin kayyum atadığı dört şirketten hangisi Mustafa Yazıcı’ya ait?",
+          "options": ["Adil Katılım Bankası", "Adil Yatırım Holding", "Adil Varlık Yönetim AŞ"]
+        }
+      }
+    },
+    {
+      "storyId": "022f717aafc7a3a3",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "What share of tracks sent to Tidal in the last 90 days were AI-generated?",
+          "options": ["6.3%", "43%", "96%"]
+        },
+        "tr": {
+          "question": "Son 90 günde Tidal’a gönderilen parçaların yüzde kaçı yapay zekâ üretimiydi?",
+          "options": ["%6,3", "%43", "%96"]
+        }
+      }
+    },
+    {
+      "storyId": "ecb5877c43ed1447",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Which result in the 2025 Africa Cup of Nations final does the sports court’s ruling restore?",
+          "options": ["1-0 to Senegal", "3-0 to Morocco", "A replay of the final"]
+        },
+        "tr": {
+          "question": "Spor Tahkim Mahkemesi’nin kararıyla 2025 Afrika Kupası finali hangi sonuçla tescil edildi?",
+          "options": ["Senegal 1-0 kazandı", "Fas 3-0 kazandı", "Final tekrar oynanacak"]
+        }
+      }
+    }
+  ]
+}
