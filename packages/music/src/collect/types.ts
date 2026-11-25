@@ -26,6 +26,8 @@ export interface Chart {
 export interface ChartEntry {
   chart: Chart;
   rank: number;
+  /** Yesterday's place, when the chart itself prints the change (kworb's "P+"). */
+  rankBefore?: number | undefined;
   /** Plays, streams or views the chart counts for the day. */
   plays?: number | undefined;
   title: string;

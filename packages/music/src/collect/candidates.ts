@@ -81,6 +81,9 @@ function genreOf(entries: readonly ChartEntry[]): Genre | undefined {
 const daysBetween = (from: string, to: string) =>
   Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / 86_400_000);
 
+const dayBefore = (day: string) =>
+  new Date(Date.parse(`${day}T00:00:00Z`) - 86_400_000).toISOString().slice(0, 10);
+
 const fold = (name: string) => name.toLocaleLowerCase('tr').replace(/\s+/g, ' ').trim();
 
 export function buildCandidates(
@@ -169,6 +172,10 @@ function toCandidate(
       });
     }
     const signals = history.signals(date, chart.id, key, entry.plays);
+    // Our own history wins; until it has yesterday, a chart that prints the change gives it.
+    if (!signals.rankBefore && entry.rankBefore !== undefined) {
+      signals.rankBefore = { rank: entry.rankBefore, date: dayBefore(date) };
+    }
     if (signals.rankBefore) {
       evidence.push({
         source: chart.source,

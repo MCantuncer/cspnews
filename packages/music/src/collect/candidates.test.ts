@@ -5,6 +5,7 @@ import { buildCandidates } from './candidates.js';
 import { CHARTS } from './charts.js';
 import { History } from './history.js';
 import { parseITunesGenreChart } from './itunes.js';
+import { parseKworbChart } from './kworb.js';
 import type { Chart, ChartEntry } from './types.js';
 
 const chart = (id: string): Chart => {
@@ -116,5 +117,24 @@ describe('iTunes genre chart', () => {
       cover: 'https://is1-ssl.mzstatic.com/image/thumb/a/600x600bb.png',
       genreTags: ['Hip-Hop/Rap'],
     });
+  });
+
+  it("reads yesterday's place from kworb's change column", () => {
+    const html = `<table><tr><th>Pos</th><th>P+</th><th>Artist and Title</th><th>Days</th><th>Streams</th></tr>
+<tr><td>4</td><td>+7</td><td><a href="../artist/a.html">Rapper</a> - <a href="../track/0ad9Ly0vVZlxMDFWdNYKAg.html">Bars</a></td><td>12</td><td>210,000</td></tr>
+<tr><td>5</td><td>-1</td><td><a href="../artist/b.html">Other</a> - <a href="../track/1ad9Ly0vVZlxMDFWdNYKAg.html">Down</a></td><td>30</td><td>200,000</td></tr>
+<tr><td>6</td><td>NEW</td><td><a href="../artist/c.html">Fresh</a> - <a href="../track/2ad9Ly0vVZlxMDFWdNYKAg.html">First</a></td><td>1</td><td>190,000</td></tr></table>`;
+    const rows = parseKworbChart(html, chart('spotify-tr-daily'));
+    expect(rows.map((row) => row.rankBefore)).toEqual([11, 4, undefined]);
+    expect(rows[0]?.plays).toBe(210000);
+
+    const [first] = rows;
+    if (!first) throw new Error('no row');
+    const day = build([first, entry('itunes-tr-rap', 9, 'Rapper', 'Bars')]);
+    const bars = day.genres.turkey[0];
+    expect(bars?.evidence).toContainEqual(
+      expect.objectContaining({ metric: 'rankBefore', value: 11, before: '2026-11-25' }),
+    );
+    expect(bars?.notes).toContain('up 7 on Spotify Türkiye daily');
   });
 });

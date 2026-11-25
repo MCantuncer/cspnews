@@ -2,7 +2,8 @@ import type { Chart, ChartEntry } from './types.js';
 
 /**
  * Spotify's daily charts, read through kworb.net, which republishes them as plain tables:
- * position, artist and title (linked to the Spotify track), days on the chart, streams.
+ * position, its change since yesterday ("P+": "+3", "-2", "=", "NEW", "RE"), artist and title
+ * (linked to the Spotify track), days on the chart, streams.
  * The columns are found by their header names, so a new column does not break the reader.
  */
 
@@ -34,6 +35,7 @@ export function parseKworbChart(html: string, chart: Chart): ChartEntry[] {
   const pos = column('pos', '#');
   const title = column('artist and title', 'artist - title', 'track');
   const streams = column('streams');
+  const change = column('p+');
   if (pos < 0 || title < 0)
     throw new Error(`Unexpected columns on ${chart.url}: ${names.join(', ')}`);
 
@@ -55,9 +57,13 @@ export function parseKworbChart(html: string, chart: Chart): ChartEntry[] {
       .filter((link) => (link[1] ?? '').includes('artist/'))
       .map((link) => plain(link[2] ?? ''))
       .filter(Boolean);
+    const moved = /^([+-]\d+|=)$/.exec(plain(values[change] ?? ''))?.[1];
+    const rankBefore =
+      moved === undefined ? undefined : moved === '=' ? rank : rank + Number(moved);
     entries.push({
       chart,
       rank,
+      ...(change >= 0 && rankBefore ? { rankBefore } : {}),
       ...(streams >= 0 && number(plain(values[streams] ?? ''))
         ? { plays: number(plain(values[streams] ?? '')) }
         : {}),
