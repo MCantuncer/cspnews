@@ -62,7 +62,10 @@ export function parseArtistCountry(json: string): string | undefined {
   const artist = z
     .looseObject({
       country: z.string().nullable().optional(),
-      area: z.looseObject({ 'iso-3166-1-codes': z.array(z.string()).optional() }).nullable().optional(),
+      area: z
+        .looseObject({ 'iso-3166-1-codes': z.array(z.string()).optional() })
+        .nullable()
+        .optional(),
     })
     .parse(JSON.parse(json));
   return artist.country ?? artist.area?.['iso-3166-1-codes']?.[0] ?? undefined;

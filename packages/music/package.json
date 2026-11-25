@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "check-music": "node dist/check-music.js"
+    "check-music": "node dist/check-music.js",
+    "collect-music": "node dist/collect/cli.js"
   },
   "dependencies": {
     "@cspnews/core": "workspace:*",

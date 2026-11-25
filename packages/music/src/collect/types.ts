@@ -27,22 +27,24 @@ export interface ChartEntry {
   chart: Chart;
   rank: number;
   /** Plays, streams or views the chart counts for the day. */
-  plays?: number;
+  plays?: number | undefined;
   title: string;
   /** Lead artist first. */
   artists: string[];
   ids: { spotify?: string; apple?: string; deezer?: string; beatport?: string };
-  isrc?: string;
+  isrc?: string | undefined;
   /** Release date the source gives (not necessarily the first release). */
-  released?: string;
-  bpm?: number;
+  released?: string | undefined;
+  bpm?: number | undefined;
   /** Genre names the source gives: "Hip-Hop/Rap", "Peak Time / Driving". */
   genreTags: string[];
-  link?: string;
-  cover?: string;
-  durationMs?: number;
+  link?: string | undefined;
+  cover?: string | undefined;
+  durationMs?: number | undefined;
+  /** A 30-second preview, when the source gives one (Apple). */
+  preview?: string | undefined;
   /** Beatport's label name, for techno. */
-  label?: string;
+  label?: string | undefined;
 }
 
 export interface Failure {

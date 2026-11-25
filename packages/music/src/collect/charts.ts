@@ -1,4 +1,5 @@
 import { DEEZER, DEEZER_RAP } from './deezer.js';
+import { itunesGenreChartUrl } from './itunes.js';
 import type { Chart } from './types.js';
 
 /**
@@ -39,6 +40,22 @@ export const CHARTS: readonly Chart[] = [
   apple('us', 'Apple Music US most played'),
   apple('tr', 'Apple Music Türkiye most played'),
   {
+    id: 'itunes-us-rap',
+    source: 'apple',
+    name: 'Apple Music US Hip-Hop/Rap',
+    url: itunesGenreChartUrl('us'),
+    genre: 'rap',
+    country: 'us',
+  },
+  {
+    id: 'itunes-tr-rap',
+    source: 'apple',
+    name: 'Apple Music Türkiye Hip-Hop/Rap',
+    url: itunesGenreChartUrl('tr'),
+    genre: 'rap',
+    country: 'tr',
+  },
+  {
     id: 'deezer-rap',
     source: 'deezer',
     name: 'Deezer Rap/Hip Hop chart',
@@ -48,5 +65,10 @@ export const CHARTS: readonly Chart[] = [
   beatport('techno-peak-time-driving', 6, 'top-100', 'Beatport Peak Time / Driving Top 100'),
   beatport('techno-peak-time-driving', 6, 'hype-100', 'Beatport Peak Time / Driving Hype Top 100'),
   beatport('techno-raw-deep-hypnotic', 92, 'top-100', 'Beatport Raw / Deep / Hypnotic Top 100'),
-  beatport('techno-raw-deep-hypnotic', 92, 'hype-100', 'Beatport Raw / Deep / Hypnotic Hype Top 100'),
+  beatport(
+    'techno-raw-deep-hypnotic',
+    92,
+    'hype-100',
+    'Beatport Raw / Deep / Hypnotic Hype Top 100',
+  ),
 ];

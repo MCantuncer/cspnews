@@ -1,0 +1,123 @@
+/**
+ * The music Collect (docs/music.md): reads every chart, saves the day's snapshot to the history,
+ * and writes the ranked candidates the evening writer picks from.
+ *
+ *   node dist/collect/cli.js <history dir> <out file> [date]
+ *
+ * `history dir` holds `<date>.json` snapshots (the `music/history` folder of the candidates
+ * branch); today's is added to it. A chart that cannot be read is listed under `failures` and
+ * the rest still run.
+ */
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+
+import { readTaste } from '../files.js';
+import { songKey } from '../song.js';
+import { parseAppleChart, itunesSearchUrl, parseITunesSearch } from './apple.js';
+import { parseBeatportChart } from './beatport.js';
+import { buildCandidates, snapshotOf, type Candidate } from './candidates.js';
+import { CHARTS } from './charts.js';
+import { parseDeezerChart } from './deezer.js';
+import { History, SnapshotSchema, type Snapshot } from './history.js';
+import { httpFetchText } from './http.js';
+import { parseITunesGenreChart } from './itunes.js';
+import { parseKworbChart } from './kworb.js';
+import type { Chart, ChartEntry, FetchText, Failure } from './types.js';
+
+function parserFor(chart: Chart): (body: string, chart: Chart) => ChartEntry[] {
+  if (chart.id.startsWith('itunes-')) return parseITunesGenreChart;
+  switch (chart.source) {
+    case 'spotify':
+      return parseKworbChart;
+    case 'apple':
+      return parseAppleChart;
+    case 'deezer':
+      return parseDeezerChart;
+    case 'beatport':
+      return parseBeatportChart;
+    default:
+      throw new Error(`No reader for ${chart.id}`);
+  }
+}
+
+/** Adds Apple's preview, cover, length and store link to a candidate that has none. */
+async function enrich(candidate: Candidate, fetchText: FetchText): Promise<void> {
+  if (candidate.preview && candidate.artwork) return;
+  const country = candidate.genre === 'turkey' ? 'tr' : 'us';
+  const songs = parseITunesSearch(
+    await fetchText(itunesSearchUrl(candidate.artists[0] ?? '', candidate.title, country)),
+  );
+  const wanted = songKey(candidate.artists[0] ?? '', candidate.title);
+  const match = songs.find((song) => songKey(song.artistName, song.trackName) === wanted);
+  if (!match) return;
+  if (match.previewUrl) candidate.preview ??= match.previewUrl;
+  if (match.artworkUrl100) candidate.artwork ??= match.artworkUrl100.replace('100x100', '600x600');
+  if (match.trackTimeMillis) candidate.durationSec ??= Math.round(match.trackTimeMillis / 1000);
+  if (match.trackViewUrl)
+    candidate.links.appleMusic ??= match.trackViewUrl.split('&uo=')[0] ?? match.trackViewUrl;
+  if (match.primaryGenreName) {
+    candidate.genreTags = [...new Set([...candidate.genreTags, match.primaryGenreName])];
+  }
+  const released = match.releaseDate?.slice(0, 10);
+  if (released && (!candidate.released || released < candidate.released))
+    candidate.released = released;
+}
+
+function readHistory(directory: string): Snapshot[] {
+  if (!existsSync(directory)) return [];
+  return readdirSync(directory)
+    .filter((file) => /^\d{4}-\d{2}-\d{2}\.json$/.test(file))
+    .map((file) => SnapshotSchema.parse(JSON.parse(readFileSync(join(directory, file), 'utf8'))));
+}
+
+const istanbulDate = (now: Date) =>
+  new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Istanbul' }).format(now);
+
+async function main(): Promise<void> {
+  const [historyDir, outFile, dateArg] = process.argv.slice(2);
+  if (!historyDir || !outFile) {
+    throw new Error('Usage: collect-music <history dir> <out file> [date]');
+  }
+  const now = new Date();
+  const date = dateArg ?? istanbulDate(now);
+  const readAt = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const fetchText = httpFetchText();
+
+  const entries: ChartEntry[] = [];
+  const failures: Failure[] = [];
+  for (const chart of CHARTS) {
+    try {
+      const read = parserFor(chart)(await fetchText(chart.url), chart);
+      entries.push(...read);
+      console.log(`${chart.name}: ${String(read.length)} songs`);
+    } catch (error) {
+      failures.push({ source: chart.id, reason: String(error) });
+      console.error(`${chart.name}: ${String(error)}`);
+    }
+  }
+  if (entries.length === 0) throw new Error('No chart could be read.');
+
+  const snapshots = readHistory(historyDir).filter((snapshot) => snapshot.date !== date);
+  const day = buildCandidates(date, readAt, entries, new History(snapshots), readTaste());
+
+  for (const candidates of Object.values(day.genres)) {
+    for (const candidate of candidates) {
+      try {
+        await enrich(candidate, fetchText);
+      } catch (error) {
+        failures.push({ source: `itunes ${candidate.key}`, reason: String(error) });
+      }
+    }
+  }
+
+  mkdirSync(historyDir, { recursive: true });
+  writeFileSync(join(historyDir, `${date}.json`), `${JSON.stringify(snapshotOf(date, entries))}\n`);
+  mkdirSync(dirname(outFile), { recursive: true });
+  writeFileSync(outFile, `${JSON.stringify({ ...day, failures }, null, 2)}\n`);
+  const counts = Object.entries(day.genres).map(
+    ([genre, list]) => `${genre} ${String(list.length)}`,
+  );
+  console.log(`Candidates for ${date}: ${counts.join(', ')}; ${String(failures.length)} failures.`);
+}
+
+await main();

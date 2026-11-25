@@ -34,7 +34,8 @@ export function parseKworbChart(html: string, chart: Chart): ChartEntry[] {
   const pos = column('pos', '#');
   const title = column('artist and title', 'artist - title', 'track');
   const streams = column('streams');
-  if (pos < 0 || title < 0) throw new Error(`Unexpected columns on ${chart.url}: ${names.join(', ')}`);
+  if (pos < 0 || title < 0)
+    throw new Error(`Unexpected columns on ${chart.url}: ${names.join(', ')}`);
 
   const entries: ChartEntry[] = [];
   for (const row of rows) {
@@ -51,7 +52,7 @@ export function parseKworbChart(html: string, chart: Chart): ChartEntry[] {
     const artistText = split >= 0 ? text.slice(0, split) : '';
     const songTitle = track ? plain(track[2] ?? '') : split >= 0 ? text.slice(split + 3) : text;
     const artists = links
-      .filter((link) => /artist\//.test(link[1] ?? ''))
+      .filter((link) => (link[1] ?? '').includes('artist/'))
       .map((link) => plain(link[2] ?? ''))
       .filter(Boolean);
     entries.push({

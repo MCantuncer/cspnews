@@ -82,3 +82,10 @@ Within a kind, candidates rank by the strength of their numbers (chart place, pl
 - every song can play.
 
 The tests in `packages/music` run the same check on every file in `data/music`, so a bad edition fails CI.
+
+## The daily run
+
+1. **Music Collect** (`.github/workflows/music-collect.yml`, 16:30 Istanbul) reads every chart in `packages/music/src/collect/charts.ts`, adds the day to `music/history/` and writes `music/candidates/<date>.json` on the `candidates` branch: for each genre, up to 30 songs that are on a genre chart, ranked, each with its preview, cover, links, tempo, release date, short notes ("out 3 days ago", "up 12 on Apple Music Türkiye Hip-Hop/Rap", "old and only still charting: not a comeback") and the numbers a reason may quote.
+2. **The writer** (a scheduled task, 17:30 Istanbul) reads that file and `packages/music/data/taste.json`, picks five per genre (two new, one climbing, one back, one all-time when the candidates allow; otherwise the best that pass), listens with the taste in mind rather than the score alone, writes `data/music/<date>.json` with a reason in both languages, runs `check-music`, and publishes it.
+
+A song picked in the last 30 days is not picked again (all-time: 180 days), so the page changes every day.

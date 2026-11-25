@@ -43,7 +43,9 @@ function median(values: number[]): number | undefined {
   if (values.length === 0) return undefined;
   const sorted = [...values].sort((a, b) => a - b);
   const middle = Math.floor(sorted.length / 2);
-  return sorted.length % 2 ? sorted[middle] : ((sorted[middle - 1] ?? 0) + (sorted[middle] ?? 0)) / 2;
+  return sorted.length % 2
+    ? sorted[middle]
+    : ((sorted[middle - 1] ?? 0) + (sorted[middle] ?? 0)) / 2;
 }
 
 export class History {
@@ -60,6 +62,14 @@ export class History {
       }
       this.byDate.set(snapshot.date, rows);
     }
+  }
+
+  /** Whether any saved day has this chart, so "new on the chart today" means something. */
+  has(chart: string): boolean {
+    for (const rows of this.byDate.values()) {
+      for (const id of rows.keys()) if (id.startsWith(`${chart}|`)) return true;
+    }
+    return false;
   }
 
   private on(date: string, chart: string, key: string) {
@@ -100,7 +110,9 @@ export class History {
     return {
       ...(rankBefore ? { rankBefore } : {}),
       ...(usualPlays ? { usualPlays } : {}),
-      ...(usualPlays && plays !== undefined ? { surge: Math.round((plays / usualPlays) * 100) / 100 } : {}),
+      ...(usualPlays && plays !== undefined
+        ? { surge: Math.round((plays / usualPlays) * 100) / 100 }
+        : {}),
       daysOnChart,
       ...(daysOffChart === undefined ? {} : { daysOffChart }),
     };

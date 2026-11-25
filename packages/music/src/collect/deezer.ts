@@ -24,7 +24,9 @@ const ChartSchema = z.object({
       duration: z.number().optional(),
       artist: Artist,
       contributors: z.array(Artist).optional(),
-      album: z.looseObject({ cover_xl: z.string().optional(), cover_big: z.string().optional() }).optional(),
+      album: z
+        .looseObject({ cover_xl: z.string().optional(), cover_big: z.string().optional() })
+        .optional(),
     }),
   ),
 });
@@ -61,7 +63,7 @@ export type DeezerTrack = z.infer<typeof TrackSchema>;
 function ok(json: string): unknown {
   const value: unknown = JSON.parse(json);
   if (value && typeof value === 'object' && 'error' in value) {
-    throw new Error(`Deezer: ${JSON.stringify((value as { error: unknown }).error)}`);
+    throw new Error(`Deezer: ${JSON.stringify(value.error)}`);
   }
   return value;
 }
@@ -84,16 +86,21 @@ export function parseDeezerSearch(json: string): { id: number; title: string; ar
 
 /** The album's genre names: "Rap/Hip Hop", "Dance", "Electro". */
 export function parseDeezerAlbumGenres(json: string): string[] {
-  return z
-    .object({ genres: z.object({ data: z.array(z.looseObject({ name: z.string() })) }).optional() })
-    .parse(ok(json))
-    .genres?.data.map((genre) => genre.name) ?? [];
+  return (
+    z
+      .object({
+        genres: z.object({ data: z.array(z.looseObject({ name: z.string() })) }).optional(),
+      })
+      .parse(ok(json))
+      .genres?.data.map((genre) => genre.name) ?? []
+  );
 }
 
 export const deezerAlbumUrl = (id: number) => `${DEEZER}/album/${String(id)}`;
 export const deezerArtistSearchUrl = (name: string) =>
   `${DEEZER}/search/artist?${new URLSearchParams({ q: name, limit: '1' }).toString()}`;
-export const deezerArtistAlbumsUrl = (id: number) => `${DEEZER}/artist/${String(id)}/albums?limit=8`;
+export const deezerArtistAlbumsUrl = (id: number) =>
+  `${DEEZER}/artist/${String(id)}/albums?limit=8`;
 export const deezerAlbumTracksUrl = (id: number) => `${DEEZER}/album/${String(id)}/tracks?limit=30`;
 
 export function parseDeezerArtistSearch(json: string): { id: number; name: string } | undefined {

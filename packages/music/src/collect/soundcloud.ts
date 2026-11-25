@@ -22,7 +22,9 @@ export async function checkSoundCloud(
 ): Promise<Embeddable | undefined> {
   try {
     const oembed = OembedSchema.parse(JSON.parse(await fetchText(oembedUrl(page))));
-    return /w\.soundcloud\.com\/player/.test(oembed.html) ? { uploader: oembed.author_name } : undefined;
+    return oembed.html.includes('w.soundcloud.com/player')
+      ? { uploader: oembed.author_name }
+      : undefined;
   } catch {
     return undefined;
   }
@@ -35,6 +37,9 @@ export function isOfficialUploader(uploader: string, names: readonly string[]): 
   const account = fold(uploader).replace(/official|music|records|recordings|offical/g, '');
   return names.some((name) => {
     const wanted = fold(name);
-    return wanted.length > 0 && (account === wanted || account.includes(wanted) || wanted.includes(account));
+    return (
+      wanted.length > 0 &&
+      (account === wanted || account.includes(wanted) || wanted.includes(account))
+    );
   });
 }
