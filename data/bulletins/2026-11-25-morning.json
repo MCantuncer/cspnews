@@ -1,0 +1,2493 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-25T07:30:00+03:00",
+  "writtenAt": "2026-11-25T06:59:15+03:00",
+  "stories": [
+    {
+      "id": "f885fdba5fde77b3",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "41 provinces get new governors",
+          "title": "Governors of 41 provinces replaced in an overnight decree",
+          "summary": {
+            "what": "A presidential decree in the Official Gazette named governors for 41 provinces and recalled 14 sitting governors to the Interior Ministry.",
+            "why": "Governors are the central government’s chief officials in each province, and the decree also gives the disaster agency AFAD and the Police Academy new heads.",
+            "next": "The 14 recalled governors are left without a province and placed at the Interior Ministry’s disposal, while the new governors move to their posts."
+          },
+          "body": [
+            {
+              "subhead": "Fourteen recalled",
+              "blocks": [
+                {
+                  "text": "The governors’ decree, signed by President Recep Tayyip Erdoğan, was published in the Official Gazette overnight, Anadolu Ajansı reported. It changes the governor in 41 provinces and recalls 14 governors to the Interior Ministry. Sabah put the count at 27 governors moved to another province and 15 newly appointed."
+                },
+                {
+                  "text": "Those recalled include Kars governor Ziya Polat, Sakarya’s Rahmi Doğan, Sivas’s Yılmaz Şimşek, Bolu’s Abdulaziz Aydın, Kahramanmaraş’s Mükerrem Ünlüer, Çanakkale’s Ömer Toraman, Burdur’s Tülay Baydar Bilgihan and Muğla’s İdris Akbıyık, according to AA and Cumhuriyet."
+                }
+              ]
+            },
+            {
+              "subhead": "Big provinces swap governors",
+              "blocks": [
+                {
+                  "text": "Several large provinces swapped governors, Cumhuriyet reported. İzmir governor Süleyman Elban goes to Mardin, and Balıkesir’s İsmail Ustaoğlu takes over İzmir. Gaziantep’s Kemal Çeber moves to Balıkesir and Mardin’s Tuncay Akkoyun to Gaziantep."
+                },
+                {
+                  "text": "Kayseri governor Gökmen Çiçek was sent to Şanlıurfa, Tekirdağ’s Recep Soytürk to Kayseri and Hatay’s Mustafa Masatlı to Tekirdağ. Batman’s Ekrem Canalp takes Sakarya, and Malatya’s Seddar Yavuz becomes governor of Muğla."
+                },
+                {
+                  "text": "Some new governors come from outside the governors’ ranks: Istanbul deputy governor Ahmet Süheyl Üçer goes to Tokat, Pendik district governor Mehmet Yıldız to Burdur, and Ramazan Bal, head of the presidency’s protection services, to Karabük, Cumhuriyet wrote."
+                }
+              ]
+            },
+            {
+              "subhead": "New heads for AFAD and the Police Academy",
+              "blocks": [
+                {
+                  "text": "AFAD president Ali Hamza Pehlivan becomes governor of Hatay, and Ağrı governor Önder Bozkurt takes over the disaster and emergency agency, AA reported. Kilis governor Ömer Kalaylı moves to Ağrı."
+                },
+                {
+                  "text": "The decree also removed Police Academy president Prof. Murat Balcı and named Assoc. Prof. Mehmet İlker Haktankaçmaz in his place, according to AA. Tarık Bahadır becomes director-general of the 112 emergency call service, Ali Baştürk heads the Interior Ministry’s inspection board, and Bülent Ay its EU and foreign relations department."
+                }
+              ]
+            },
+            {
+              "subhead": "Congratulations from Ankara",
+              "blocks": [
+                {
+                  "text": "Vice President Cevdet Yılmaz congratulated the new governors on the social media platform NSosyal and thanked those handing over their posts, AA reported."
+                },
+                {
+                  "quote": "May God grant each of our provincial administrators the chance to serve our nation as it deserves and to represent our state in the best way.",
+                  "speaker": "Cevdet Yılmaz",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "Interior Minister Mustafa Çiftçi also congratulated the appointees and thanked the outgoing governors, A Haber reported, saying the ministry would keep working “day and night” for the nation’s peace, security and prosperity."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Provinces with a new governor",
+              "value": "41",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Governors recalled to the ministry",
+              "value": "14",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Governors moved to another province",
+              "value": "27",
+              "source": "Sabah"
+            },
+            {
+              "label": "Newly appointed governors",
+              "value": "15",
+              "source": "Sabah"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "41 ilin valisi değişti",
+          "title": "Valiler kararnamesi yayımlandı: 41 ile yeni vali, 14 vali merkezde",
+          "summary": {
+            "what": "Resmi Gazete’de gece yayımlanan valiler kararnamesiyle 41 ilin valisi değişti, 14 vali İçişleri Bakanlığı emrine alındı.",
+            "why": "Kararname illerin en üst yöneticilerini değiştirmenin yanı sıra AFAD’a ve Polis Akademisi’ne de yeni başkan getirdi.",
+            "next": "Merkeze çekilen 14 vali İçişleri Bakanlığı emrinde bekleyecek; yeni valiler görev yerlerine geçecek."
+          },
+          "body": [
+            {
+              "subhead": "14 vali merkeze çekildi",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanı Recep Tayyip Erdoğan’ın imzasını taşıyan valiler kararnamesi gece Resmi Gazete’de yayımlandı. Anadolu Ajansı’na göre kararnameyle 41 ilin valisi değişti, 14 ilin valisi merkeze çekildi. Sabah ise 27 valinin görev yerinin değiştiğini, 15 yeni vali atandığını yazdı."
+                },
+                {
+                  "text": "AA ve Cumhuriyet’in aktardığına göre İçişleri Bakanlığı emrine alınanlar arasında Kars Valisi Ziya Polat, Sakarya Valisi Rahmi Doğan, Sivas Valisi Yılmaz Şimşek, Bolu Valisi Abdulaziz Aydın, Kahramanmaraş Valisi Mükerrem Ünlüer, Çanakkale Valisi Ömer Toraman, Burdur Valisi Tülay Baydar Bilgihan ve Muğla Valisi İdris Akbıyık var."
+                }
+              ]
+            },
+            {
+              "subhead": "Büyük illerde yer değişikliği",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre bazı büyük illerin valileri yer değiştirdi. İzmir Valisi Süleyman Elban Mardin’e, Balıkesir Valisi İsmail Ustaoğlu İzmir’e atandı. Gaziantep Valisi Kemal Çeber Balıkesir’e, Mardin Valisi Tuncay Akkoyun Gaziantep’e gitti."
+                },
+                {
+                  "text": "Kayseri Valisi Gökmen Çiçek Şanlıurfa’ya, Tekirdağ Valisi Recep Soytürk Kayseri’ye, Hatay Valisi Mustafa Masatlı Tekirdağ’a atandı. Batman Valisi Ekrem Canalp Sakarya’ya, Malatya Valisi Seddar Yavuz Muğla’ya getirildi."
+                },
+                {
+                  "text": "Yeni valilerin bir kısmı vali kadrosunun dışından geldi: İstanbul Vali Yardımcısı Ahmet Süheyl Üçer Tokat’a, Pendik Kaymakamı Mehmet Yıldız Burdur’a, Cumhurbaşkanlığı Koruma Hizmetleri Genel Müdürü Ramazan Bal Karabük’e vali oldu."
+                }
+              ]
+            },
+            {
+              "subhead": "AFAD’a ve Polis Akademisi’ne yeni başkan",
+              "blocks": [
+                {
+                  "text": "AA’nın haberine göre AFAD Başkanı Ali Hamza Pehlivan Hatay Valiliğine, Ağrı Valisi Önder Bozkurt AFAD Başkanlığına getirildi. Kilis Valisi Ömer Kalaylı Ağrı’ya atandı."
+                },
+                {
+                  "text": "Kararnameyle Polis Akademisi Başkanı Prof. Dr. Murat Balcı görevden alındı, yerine Doç. Dr. Mehmet İlker Haktankaçmaz getirildi. Tarık Bahadır 112 Acil Çağrı ve Koordinasyon Genel Müdürlüğüne, Ali Baştürk İçişleri Bakanlığı Teftiş Kurulu Başkanlığına, Bülent Ay da bakanlığın Avrupa Birliği ve Dış İlişkiler Dairesi Başkanlığına atandı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ankara’dan tebrik",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz NSosyal hesabından yeni valileri tebrik etti, görevi devredenlere teşekkür etti."
+                },
+                {
+                  "quote": "Rabbim, her bir mülki idare amirimize milletimize layıkıyla hizmet etmeyi ve devletimizi en güzel şekilde temsil etmeyi nasip etsin.",
+                  "speaker": "Cevdet Yılmaz",
+                  "sourceId": "aa-tr"
+                },
+                {
+                  "text": "A Haber’in aktardığına göre İçişleri Bakanı Mustafa Çiftçi de atanan valileri kutladı, görevini tamamlayanlara teşekkür etti ve milletin huzuru, güvenliği ve refahı için “gece gündüz demeden” çalışmayı sürdüreceklerini söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Valisi değişen il",
+              "value": "41",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Merkeze çekilen vali",
+              "value": "14",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Yeri değişen vali",
+              "value": "27",
+              "source": "Sabah"
+            },
+            {
+              "label": "Yeni atanan vali",
+              "value": "15",
+              "source": "Sabah"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T21:03:55.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:11:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T21:11:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:12:37.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:13:52.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:50:55.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:56:25.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T22:32:18.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T23:09:00.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/24805510-db6e-4359-b391-66a03d2fe526.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/son-dakika-resmi-gazete-de-yayimlandi-14-ilin-valisi-merkeze-cekildi-41-ile-vali-atandi-2559127"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/25/valiler-kararnamesi-resmi-gazetede-41-ilin-valisi-degisti",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/24/son-dakika-valiler-kararnamesi-resmi-gazetede-yayimlandi",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/son-dakika-resmi-gazete-de-yayimlandi-14-ilin-valisi-merkeze-cekildi-41-ile-vali-atandi-2559127",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/valiler-kararnamesi-resmi-gazetede/4136485",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/valiler-kararnamesi-resmi-gazetede-yayimlandi-19-ilin-valisi-degisti-43390018",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/cok-sayida-valinin-gorev-yeri-degisti-1752438",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/yeni-afad-baskani-onder-bozkurt-p384133",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/14-vali-merkeze-cekildi-41-ilin-valisi-degisti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-resmi-gazete-de-yayimlandi-15-yeni-vali-atandi-3929881",
+          "confirms": false
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cmge3q17n44xo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "d062265b137b13ea",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Galatasaray beat Aston Villa 1-0",
+          "title": "Deniz Gül header gives Galatasaray a 1-0 win over Aston Villa",
+          "summary": {
+            "what": "Galatasaray beat Aston Villa 1-0 at RAMS Park in the Champions League, with substitute Deniz Gül heading in the winner in the 77th minute.",
+            "why": "It is the club’s third straight win in the league phase, equalling its longest Champions League winning run and lifting it level with Villa on 9 points.",
+            "next": "Galatasaray travel to AEK on 8 December; Deniz Gül, who hurt his nose scoring, needs surgery, Habertürk reports."
+          },
+          "body": [
+            {
+              "subhead": "A goal from a corner",
+              "blocks": [
+                {
+                  "text": "Galatasaray beat Aston Villa 1-0 on Tuesday evening in the fifth round of the Champions League league phase. The first half was a midfield contest with no clear chances, Anadolu Ajansı reported, and the visitors had slightly more of the ball."
+                },
+                {
+                  "text": "The goal came in the 77th minute. From Gabriel Sara’s corner on the right, Wilfried Singo’s header was blocked; the ball bounced off Nicolas Jackson’s chest inside the six-yard box and Deniz Gül headed it in, AA wrote. Gül had come on in the 62nd minute for Eren Elmalı."
+                },
+                {
+                  "text": "Gül, scoring his first goal in the competition, was kicked in the face by Jackson as he scored. He was treated on the sideline for about five minutes and returned with a bandage on his nose, according to AA. Habertürk reported that he will need an operation."
+                }
+              ]
+            },
+            {
+              "subhead": "Buruk’s changed line-up",
+              "blocks": [
+                {
+                  "text": "Coach Okan Buruk made three changes from the side that beat Samsunspor, Sabah reported. With Victor Osimhen injured and Gül on the bench, he played Barış Alper Yılmaz as centre forward and used Eren Elmalı, a left back by trade, on the left wing. Singo started a Champions League match for the first time this season."
+                },
+                {
+                  "quote": "We played one of our best matches tactically. Maybe we did not create many chances, but we did not give our opponent many shots. Especially in the second half we had a very big advantage, both tactically and physically. It was an important night for Turkish football.",
+                  "speaker": "Okan Buruk",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "A run of results",
+              "blocks": [
+                {
+                  "text": "Galatasaray have now beaten Lille 4-2, Stuttgart 2-0 and Aston Villa 1-0, equalling the club’s longest winning run in the Champions League, AA noted. They have not conceded in their last two matches in the competition and have not lost in any competition since a home defeat to Barcelona in the second round."
+                },
+                {
+                  "text": "The win took Galatasaray to 9 points, level with Aston Villa, Cumhuriyet reported. The match was refereed by Germany’s Daniel Siebert. It was also the team’s first game at RAMS Park for 17 days, after pitch maintenance moved a league match elsewhere, Sabah wrote."
+                }
+              ]
+            },
+            {
+              "subhead": "What comes next",
+              "blocks": [
+                {
+                  "text": "Galatasaray play AEK away on 8 December in the sixth round, while Aston Villa host PSG, according to Cumhuriyet."
+                },
+                {
+                  "quote": "After the Lille game we have had a very good Galatasaray. We showed it in every match. We have very high goals in the Champions League.",
+                  "speaker": "Yunus Akgün",
+                  "sourceId": "haberturk",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Final score",
+              "value": "1-0",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Winning goal",
+              "value": "77'",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Galatasaray’s points",
+              "value": "9",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Straight Champions League wins",
+              "value": "3",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Next match, at AEK",
+              "value": "8 Dec",
+              "source": "Cumhuriyet"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Galatasaray Aston Villa’yı 1-0 yendi",
+          "title": "Galatasaray, Deniz Gül’ün golüyle Aston Villa’yı 1-0 yendi",
+          "summary": {
+            "what": "Galatasaray, Şampiyonlar Ligi’nde RAMS Park’ta Aston Villa’yı oyuna sonradan giren Deniz Gül’ün 77. dakikadaki golüyle 1-0 yendi.",
+            "why": "Sarı-kırmızılılar üst üste üçüncü galibiyetle Şampiyonlar Ligi’ndeki en uzun galibiyet serisini egale etti ve puanını 9’a çıkararak Villa’yı yakaladı.",
+            "next": "Galatasaray 8 Aralık’ta AEK deplasmanına gidecek. Habertürk’e göre golü atarken burnundan yaralanan Deniz Gül ameliyat edilecek."
+          },
+          "body": [
+            {
+              "subhead": "Kornerden gelen gol",
+              "blocks": [
+                {
+                  "text": "Galatasaray, UEFA Şampiyonlar Ligi lig aşamasının beşinci haftasında konuk ettiği Aston Villa’yı 1-0 yendi. Anadolu Ajansı’na göre ilk yarı orta saha mücadelesiyle geçti, topa biraz daha fazla sahip olan konuk ekip de net pozisyon bulamadı."
+                },
+                {
+                  "text": "Gol 77. dakikada geldi. Sara’nın sağdan kullandığı kornerde Singo’nun kafa vuruşunu savunma önledi; altıpasta Jackson’ın göğsünden seken topu Deniz Gül kafayla ağlara gönderdi. Gül, 62. dakikada Eren Elmalı’nın yerine oyuna girmişti."
+                },
+                {
+                  "text": "AA’ya göre bu organizasyondaki ilk golünü atan Deniz Gül, gol anında Nicolas Jackson’ın tekmesiyle burnundan yaralandı, yaklaşık beş dakika tedavi gördükten sonra bandajla oyuna döndü. Habertürk, genç forvetin ameliyat edileceğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Buruk’un değişen kadrosu",
+              "blocks": [
+                {
+                  "text": "Sabah’a göre Okan Buruk, Samsunspor maçının ilk 11’inde üç değişiklik yaptı. Sakat Victor Osimhen’den yararlanamayan ve Deniz Gül’ü yedek bırakan Buruk, Barış Alper Yılmaz’ı santrforda, asıl mevkisi sol bek olan Eren Elmalı’yı sol kanatta oynattı. Singo bu sezon ilk kez bir Şampiyonlar Ligi maçına ilk 11’de başladı."
+                },
+                {
+                  "quote": "Taktiksel anlamda en iyi maçlarımızdan birini oynadık. Belki çok fazla pozisyon üretmedik ama rakibimize fazla şut şansı tanımadık. Özellikle ikinci yarı hem taktiksel olarak hem fiziksel olarak rakibe çok büyük bir üstünlük kurduk. Türk futbolu için önemli bir gece oldu.",
+                  "speaker": "Okan Buruk",
+                  "sourceId": "aa-tr"
+                }
+              ]
+            },
+            {
+              "subhead": "Seri sürüyor",
+              "blocks": [
+                {
+                  "text": "AA’ya göre Lille’i 4-2, Stuttgart’ı 2-0 ve Aston Villa’yı 1-0 yenen Galatasaray, Şampiyonlar Ligi’ndeki en uzun galibiyet serisini egale etti. Son iki maçında gol yemeyen ekip, ikinci haftada sahasında Barcelona’ya yenildiğinden bu yana resmi maçlarda kaybetmedi."
+                },
+                {
+                  "text": "Cumhuriyet’e göre Galatasaray bu sonuçla puanını 9’a çıkararak Aston Villa’yı yakaladı. Maçı Alman hakem Daniel Siebert yönetti. Sabah’ın aktardığına göre takım, zemin bakımı nedeniyle 17 gün sonra RAMS Park’ta sahaya çıktı."
+                }
+              ]
+            },
+            {
+              "subhead": "Sırada AEK var",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre Galatasaray altıncı haftada 8 Aralık’ta AEK deplasmanına gidecek, Aston Villa ise PSG’yi konuk edecek."
+                },
+                {
+                  "quote": "Lille maçından sonra çok iyi bir Galatasaray var. Bunu her maçta gösterdik. Şampiyonlar Ligi’nde çok yüksek hedeflerimiz var.",
+                  "speaker": "Yunus Akgün",
+                  "sourceId": "haberturk"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Skor",
+              "value": "1-0",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Galibiyet golü",
+              "value": "77'",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Galatasaray’ın puanı",
+              "value": "9",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Üst üste Şampiyonlar Ligi galibiyeti",
+              "value": "3",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Sıradaki maç, AEK deplasmanı",
+              "value": "8 Ara",
+              "source": "Cumhuriyet"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T16:37:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:37:00.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T17:37:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:35:35.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:39:36.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:59:42.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T20:08:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T20:15:47.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:05:38.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/318af611-f8cb-4524-a758-0357a708fb1e.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/spor/sampiyonlar-ligi-nde-yoluna-dolu-dizgin-devam-ediyor-galatasaray-sahasinda-aston-villa-yi-tek-golle-devirdi-2559064"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/sampiyonlar-ligi-nde-yoluna-dolu-dizgin-devam-ediyor-galatasaray-sahasinda-aston-villa-yi-tek-golle-devirdi-2559064",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/spor/futbol/2026/11/24/son-dakika-galatasaray-sampiyonlar-liginde-seriye-bagladi-aston-villayi-istanbulda-devirdi",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/spor/galatasaray-sampiyonlar-liginde-aston-villayi-tek-golle-devirdi/4136323",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/galatasaray-dan-sampiyonlar-ligi-nde-3-galibiyet-aslan-deniz-gul-ile-kazandi-1397122",
+          "confirms": false
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/galatasaray-aston-villayi-tek-golle-gecti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cr62yxwp5jdyo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/galatasaray-aston-villa-macinda-deniz-gul-ve-bulent-korkmaz-benzetmesi-tarihin-sasirtan-cilvesi-yasandi-43389965",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/galatasaray-aston-villa-mac-sonucu-iste-gs-aston-villa-maci-ozeti-ve-golleri-sampiyonlar-ligi-3929634",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/25/galatasaray-sampiyonlar-liginde-aston-villayi-1-0-yendi/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "ebbaa21c4efc5002",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "e43d5b219be7e291",
+      "versions": {
+        "en": {
+          "news": "Uraloğlu says enforcement over HGS toll debts is halted and every improperly collected payment will be refunded",
+          "shortTitle": "Minister promises HGS toll refunds",
+          "title": "Improperly collected HGS toll debts will be refunded, Uraloğlu says",
+          "summary": {
+            "what": "Transport Minister Abdulkadir Uraloğlu said legal action over unpaid HGS tolls has been halted and payments collected through improper enforcement cases will be returned.",
+            "why": "Drivers say small toll debts they were never told about grew into large ones; prosecutors are investigating whether the enforcement cases were used for unjust gain.",
+            "next": "The ministry will take a draft to parliament, with options such as lifting enforcement, cutting penalties and giving drivers more days to pay."
+          },
+          "body": [
+            {
+              "subhead": "“We will have them refunded”",
+              "blocks": [
+                {
+                  "text": "Uraloğlu answered MPs’ questions about the Fast Pass System (HGS) on Tuesday during the Plan and Budget Committee’s debate on his ministry’s 2027 budget, Hürriyet and Sabah reported. HGS is the prepaid tag drivers use on Türkiye’s toll motorways and bridges."
+                },
+                {
+                  "quote": "We have stopped the legal proceedings. In your questions you asked: you stopped the proceedings, but what about those who already paid? We will have every payment that was not made properly refunded. I am talking about enforcement cases that were not carried out properly.",
+                  "speaker": "Abdulkadir Uraloğlu",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "He said the ministry had gone through 25,000 enforcement files from 2025 one by one, Cumhuriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "How a toll becomes a debt",
+              "blocks": [
+                {
+                  "text": "When a car enters a motorway, its HGS tag is read; if the tag is not read, the plate is matched to it, the minister said. If there is not enough money on the account, the pass can be paid without a penalty for 15 days, with a single penalty until day 45, and after 45 days legal proceedings begin."
+                },
+                {
+                  "text": "Tolls on roads run by the Highways Directorate are public receivables collected at the vehicle inspection or a sale at the notary, so no enforcement is started there, he said. On private motorways, which are not public receivables, enforcement follows the law. About 2.2 million passes on private motorways had been put into proceedings, according to Sabah."
+                },
+                {
+                  "text": "In 2025 there were 584 million passes on Highways Directorate roads and 516 million on private motorways. Drivers paid without a penalty 88% of the time on state roads and 97% on private motorways, where penalties are heavier, the minister said."
+                }
+              ]
+            },
+            {
+              "subhead": "Where it goes wrong",
+              "blocks": [
+                {
+                  "text": "Uraloğlu said no pass linked to a credit card had caused trouble. The problems came from PTT HGS accounts with too little balance, e-Devlet notices that drivers do not follow, unused tags and cars driven by someone other than the owner, he said. A decision by the data protection authority KVKK about a month and a half ago, that no one can look up another person’s plate, had also disrupted the ministry’s checks, he added."
+                },
+                {
+                  "text": "The ministry will now decide itself when and how drivers are warned, with notices sent through e-Devlet by Türksat rather than left to the companies, he said."
+                }
+              ]
+            },
+            {
+              "subhead": "Options for a new law",
+              "blocks": [
+                {
+                  "text": "Uraloğlu listed the options the ministry will put to parliament: treating the tolls as public receivables, which needs a change in the law, and lifting enforcement; lowering the penalty rates; giving drivers more days to pay; warning drivers on electronic signs through plate recognition; encouraging credit-card subscriptions; and regular text and email notices, Cumhuriyet reported."
+                },
+                {
+                  "text": "HGS started in 2010, he recalled. The penalty was cut from ten times the toll to four times in 2018, and the payment window was extended from 15 to 45 days in 2022."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Enforcement files reviewed, 2025",
+              "value": "25,000",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Private-motorway passes in proceedings",
+              "value": "2.2 million",
+              "source": "Sabah"
+            },
+            {
+              "label": "Penalty-free payment window",
+              "value": "15 days",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Passes on state roads, 2025",
+              "value": "584 million",
+              "source": "Sabah"
+            },
+            {
+              "label": "Passes on private motorways, 2025",
+              "value": "516 million",
+              "source": "Sabah"
+            }
+          ]
+        },
+        "tr": {
+          "news": "Uraloğlu: HGS borçları için yasal takip durduruldu, usulsüz yapılan bütün ödemeler iade edilecek",
+          "shortTitle": "HGS’de usulsüz tahsilat iade edilecek",
+          "title": "Uraloğlu: Usulüne uygun yapılmamış HGS ödemeleri iade edilecek",
+          "summary": {
+            "what": "Ulaştırma Bakanı Abdulkadir Uraloğlu, HGS borçları için yasal takibin durdurulduğunu ve usulsüz icra takipleriyle tahsil edilen ödemelerin geri verileceğini açıkladı.",
+            "why": "Sürücüler haberdar olmadıkları küçük geçiş borçlarının büyüdüğünü söylüyor; savcılık da icra takiplerinin haksız kazanç aracına dönüşüp dönüşmediğini soruşturuyor.",
+            "next": "Bakanlık; icra takibinin kaldırılması, cezaların düşürülmesi ve ödeme süresinin uzatılması gibi seçenekleri içeren bir çalışmayı Meclis’e sunacak."
+          },
+          "body": [
+            {
+              "subhead": "“Geri iade ettireceğiz”",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Sabah’ın aktardığına göre Uraloğlu, salı günü TBMM Plan ve Bütçe Komisyonu’nda bakanlığının 2027 bütçesi görüşülürken milletvekillerinin Hızlı Geçiş Sistemi (HGS) sorularını yanıtladı."
+                },
+                {
+                  "quote": "Yasal takibi durdurduk. Sorularınızda, ‘yasal takibi durdurdunuz ancak ödenmişler ne olacak?’ dediniz. Usulüne uygun yapılmamış olan bütün ödemeleri biz geri iade ettireceğiz. Usulüne uygun yapılmamış olan icra takiplerinden bahsediyorum.",
+                  "speaker": "Abdulkadir Uraloğlu",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Cumhuriyet’e göre bakan, 2025 yılına ait 25 bin dosyayı tek tek incelediklerini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Geçiş borcu nasıl büyüyor",
+              "blocks": [
+                {
+                  "text": "Uraloğlu’nun anlattığına göre otoyola giren aracın HGS etiketi okunuyor, okunmazsa plaka etiketle eşleştiriliyor. Bakiye yetersizse geçiş 15 gün cezasız ödenebiliyor, 45 güne kadar bir kat cezayla ödeniyor, 45 günden sonra yasal takip başlıyor."
+                },
+                {
+                  "text": "Karayolları Genel Müdürlüğü yollarındaki ücretler kamu alacağı olduğu için araç muayenesinde ya da noter satışında tahsil ediliyor ve icra takibi yapılmıyor. Kamu alacağı olmayan özel otoyollarda ise takip kanuna göre yürüyor. Sabah’a göre özel otoyollarda yaklaşık 2,2 milyon geçiş takibe alınmış durumda."
+                },
+                {
+                  "text": "Bakan, 2025’te Karayolları yollarında 584 milyon, özel otoyollarda 516 milyon geçiş yapıldığını, cezasız ödeme oranının Karayolları’nda yüzde 88, cezaların daha ağır olduğu özel otoyollarda yüzde 97 olduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Sorun nerede çıkıyor",
+              "blocks": [
+                {
+                  "text": "Uraloğlu, kredi kartına bağlı hiçbir HGS geçişinde sorun olmadığını belirtti. Sorunun PTT’nin HGS hesaplarındaki yetersiz bakiyelerden, takip edilmeyen e-Devlet bildirimlerinden, kullanılmayan etiketlerden ve araç sahibiyle kullanıcının farklı olmasından kaynaklandığını söyledi. KVKK’nın yaklaşık bir buçuk ay önce aldığı “hiç kimse hiç kimsenin plakasını sorgulayamaz” kararının da sorgulamalarda aksamaya yol açtığını ekledi."
+                },
+                {
+                  "text": "Bakanlık artık uyarıların hangi gün ve hangi yöntemle yapılacağına firmalara bırakmadan kendisi karar verecek; bildirimleri e-Devlet üzerinden TÜRKSAT gönderecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Yasal düzenleme seçenekleri",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre Uraloğlu, Meclis’e sunulacak seçenekleri şöyle sıraladı: geçiş ücretlerini yasal düzenlemeyle kamu alacağı sayıp icra takiplerini kaldırmak, ceza oranlarını düşürmek, ödeme gününü artırmak, otoyollardaki elektronik levhalarla plaka tanıma üzerinden sürücüyü anında uyarmak, kredi kartı aboneliğini teşvik etmek ve SMS ile e-posta bildirimlerini düzenli yapmak."
+                },
+                {
+                  "text": "Bakan, HGS’nin 2010’da başladığını, 2018’de 10 kat olan cezanın 4 kata indirildiğini, 2022’de de ödeme süresinin 15 günden 45 güne uzatıldığını hatırlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İncelenen icra dosyası (2025)",
+              "value": "25 bin",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Özel otoyolda takibe alınan geçiş",
+              "value": "2,2 milyon",
+              "source": "Sabah"
+            },
+            {
+              "label": "Cezasız ödeme süresi",
+              "value": "15 gün",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Karayolları geçişi (2025)",
+              "value": "584 milyon",
+              "source": "Sabah"
+            },
+            {
+              "label": "Özel otoyol geçişi (2025)",
+              "value": "516 milyon",
+              "source": "Sabah"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T18:57:20.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T18:59:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T18:59:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:03:05.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:03:13.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:27:52.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:45:46.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T19:59:46.000Z",
+          "sourceId": "bloomberg-ht"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/24/bakan-uraloglundan-hgs-aciklamasi-uygun-yapilmamis-butun-odemeleri-geri-iade-ettirecegiz",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/bakan-uraloglu-ndan-hgs-iddialarina-yanit-usulune-uygun-yapilmamis-2559084",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/bakan-uraloglundan-hgs-aciklamasi-usulune-uygun-yapilmamis-tum-odemeleri-iade-ettirecegiz-43389920",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bakan-uraloglu-duyurdu-hgsde-usulsuz-tahsilatlar-iade-edilecek-1752428",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/24/bakan-uraloglu-duyurdu-hgsde-usulsuz-odemeler-iade-edilecek",
+          "confirms": false
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bakan-uraloglundan-hgs-aciklamasi-p384115",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/ck62pgp2vm1qo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/bakan-uraloglu-acikladi-hgs-de-usulsuz-tahsilatlar-iade-edilecek-3929863",
+          "confirms": false
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/bakan-uraloglu-hgs-de-usulsuz-tahsilatlar-iade-edilecek-3795590",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/bakan-uraloglu-hgs-icra-takiplerinde-vatandastan-tahsil-edilen-odemelerin-akibetini-acikladi-1397128",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "4b36266ac0ac743e",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Huawei convicted of stealing secrets",
+          "title": "Huawei convicted on 10 of 12 counts, cleared of racketeering",
+          "summary": {
+            "what": "A Brooklyn jury found Huawei guilty of conspiring to steal trade secrets, bank fraud and sanctions violations, but acquitted it of racketeering and obstruction.",
+            "why": "It ends a criminal case that began with the 2018 arrest of Meng Wanzhou and sits at the centre of years of US efforts to curb the Chinese company.",
+            "next": "Sentencing is set for 14 September 2027 and Huawei says it will appeal; it may face fines, forfeiture and restitution, the Justice Department says."
+          },
+          "body": [
+            {
+              "subhead": "Ten of twelve counts",
+              "blocks": [
+                {
+                  "text": "A federal jury in Brooklyn on Tuesday found Huawei Technologies and three subsidiaries guilty on 10 of the 12 counts they faced, including bank fraud, wire fraud, conspiracy to steal trade secrets and evading US sanctions, the South China Morning Post and France 24 reported. The jury acquitted the company of racketeering conspiracy and of conspiracy to obstruct justice."
+                },
+                {
+                  "text": "The racketeering charge, usually used against organised crime, was the most serious, Al Jazeera noted. The trial lasted more than two months; prosecutors called more than 60 witnesses and the defence 15."
+                },
+                {
+                  "quote": "No person or company is above the law. For decades, Huawei and three of its subsidiaries conducted their business in the United States on the basis of lies and theft.",
+                  "speaker": "Todd Blanche, US attorney general",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "Routers, antennas and a robot arm",
+              "blocks": [
+                {
+                  "text": "Prosecutors said Huawei stole source code for routers from Cisco, antenna technology from Quintel and a piece of a T-Mobile testing robot, which jurors saw an employee slip into a backpack on video, Al Jazeera reported. The Justice Department also said Huawei lied to banks about its business in Iran to obtain billions of US dollars and access to dollar clearing, France 24 wrote."
+                },
+                {
+                  "text": "Defence lawyer Brian Heberlig argued that prosecutors had “cherry-picked” isolated incidents among Huawei’s more than 200,000 employees to build a story of a 20-year conspiracy."
+                }
+              ]
+            },
+            {
+              "subhead": "Huawei claims partial vindication",
+              "blocks": [
+                {
+                  "text": "Huawei said it welcomed the racketeering acquittal, which it said “confirms that these allegations lack factual basis”, and called the remaining charges “equally without legal or factual merit”, according to France 24."
+                },
+                {
+                  "quote": "That was, in our view, a significant overreach, and the jury soundly rejected it. Of course, we have mixed emotions about the rest of the verdict.",
+                  "speaker": "Brian Heberlig, Huawei’s lawyer",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "Heberlig told the BBC there would be “significant advocacy” for the lowest possible sentence, and that he fully expects Huawei to appeal."
+                }
+              ]
+            },
+            {
+              "subhead": "A case that began with Meng Wanzhou",
+              "blocks": [
+                {
+                  "text": "The case came to light in December 2018 when Meng Wanzhou, Huawei’s chief financial officer and the founder’s daughter, was detained in Canada on a US warrant. She returned to China under a deferred prosecution agreement in which she acknowledged misleading banks, and the charges against her were dropped. The US blacklisted Huawei in 2019, The Verge noted."
+                },
+                {
+                  "text": "Experts say the case has not undermined Huawei’s business, which has become a key player in China’s push into artificial intelligence, Al Jazeera reported. The company operates in about 170 countries."
+                },
+                {
+                  "quote": "For over two decades, Huawei built its global empire on a foundation of fraud, theft, and deception.",
+                  "speaker": "Tysen A. Duva, assistant attorney general",
+                  "sourceId": "the-verge"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Counts Huawei was convicted on",
+              "value": "10 of 12",
+              "source": "SCMP"
+            },
+            {
+              "label": "Prosecution witnesses",
+              "value": "60+",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Sentencing date",
+              "value": "14 Sep 2027",
+              "source": "The Verge"
+            },
+            {
+              "label": "Huawei employees",
+              "value": "200,000+",
+              "source": "Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Huawei ticari sır hırsızlığından suçlu",
+          "title": "ABD’de jüri Huawei’yi 12 suçlamanın 10’undan suçlu buldu",
+          "summary": {
+            "what": "Brooklyn’deki jüri Huawei’yi ticari sır çalmaya teşebbüs, banka dolandırıcılığı ve yaptırım ihlalinden suçlu buldu; organize suç örgütü (RICO) ve adaleti engelleme suçlamalarından beraat ettirdi.",
+            "why": "Karar, 2018’de Meng Wanzhou’nun tutuklanmasıyla başlayan ve ABD’nin Çinli şirketi yıllardır sınırlama çabasının merkezindeki davayı sonuçlandırıyor.",
+            "next": "Ceza 14 Eylül 2027’de belirlenecek. Adalet Bakanlığı’na göre para cezası, müsadere ve tazminat söz konusu; Huawei itiraz edeceğini açıkladı."
+          },
+          "body": [
+            {
+              "subhead": "12 suçlamanın 10’u",
+              "blocks": [
+                {
+                  "text": "South China Morning Post ve France 24’ün haberine göre New York’un Brooklyn bölgesindeki federal mahkemede jüri, salı günü Huawei Technologies ile üç yan kuruluşunu 12 suçlamanın 10’undan suçlu buldu. Bunlar arasında banka dolandırıcılığı, elektronik dolandırıcılık, ticari sır çalmak için anlaşma ve ABD yaptırımlarını delmek var. Jüri, şirketi organize suç örgütü anlaşması (RICO) ve adaleti engellemeye teşebbüs suçlamalarından beraat ettirdi."
+                },
+                {
+                  "text": "Al Jazeera’ya göre normalde organize suç davalarında kullanılan RICO suçlaması en ağırıydı. İki aydan uzun süren davada savcılar 60’tan fazla, savunma ise 15 tanık dinletti."
+                },
+                {
+                  "quote": "Hiçbir kişi ya da şirket yasaların üstünde değildir. Huawei ve üç yan kuruluşu on yıllardır Amerika’daki işlerini yalan ve hırsızlık üzerine kurdu.",
+                  "speaker": "Todd Blanche, ABD Başsavcısı",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Router, anten ve test robotu",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın aktardığına göre savcılar Huawei’nin Cisco’dan router kaynak kodu, Quintel’den anten teknolojisi çaldığını ve bir çalışanın T-Mobile’ın test robotundan bir parçayı sırt çantasına koyduğu videoyu jüriye izlettiğini anlattı. France 24’e göre Adalet Bakanlığı, Huawei’nin İran’daki işleri hakkında bankalara yalan söyleyerek milyarlarca dolara ve dolar takas hizmetine eriştiğini de belirtti."
+                },
+                {
+                  "text": "Savunma avukatı Brian Heberlig ise savcıların, Huawei’nin 200 binden fazla çalışanı içinden birkaç münferit olayı “seçip” 20 yıllık bir komplo hikâyesi kurduğunu savundu."
+                }
+              ]
+            },
+            {
+              "subhead": "Huawei: Kısmen haklı çıktık",
+              "blocks": [
+                {
+                  "text": "France 24’e göre Huawei, RICO suçlamasından beraati memnuniyetle karşıladığını, bunun “iddiaların gerçek dayanağı olmadığını teyit ettiğini” açıkladı ve kalan suçlamaların da “hukuki ve olgusal dayanaktan yoksun” olduğunu savundu."
+                },
+                {
+                  "quote": "Bize göre bu ciddi bir aşırılıktı ve jüri bunu açıkça reddetti. Elbette kararın geri kalanı konusunda karışık duygular içindeyiz.",
+                  "speaker": "Brian Heberlig, Huawei avukatı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "Heberlig BBC’ye en düşük ceza için “yoğun bir savunma” yapacaklarını ve Huawei’nin karara itiraz etmesini beklediğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Meng Wanzhou ile başlayan dava",
+              "blocks": [
+                {
+                  "text": "Dava, Aralık 2018’de Huawei’nin finans direktörü ve kurucunun kızı Meng Wanzhou’nun ABD’nin talebiyle Kanada’da gözaltına alınmasıyla gün yüzüne çıktı. Meng, bankaları yanılttığını kabul ettiği ertelenmiş kovuşturma anlaşmasıyla Çin’e döndü, hakkındaki suçlamalar düşürüldü. The Verge’e göre ABD, Huawei’yi 2019’da kara listeye aldı."
+                },
+                {
+                  "text": "Al Jazeera’ya göre uzmanlar davanın Huawei’nin işlerini sarsmadığını, şirketin Çin’in yapay zekâ atağında kilit oyunculardan biri hâline geldiğini söylüyor. Şirket yaklaşık 170 ülkede faaliyet gösteriyor."
+                },
+                {
+                  "quote": "Huawei yirmi yılı aşkın süre küresel imparatorluğunu dolandırıcılık, hırsızlık ve aldatma üzerine kurdu.",
+                  "speaker": "Tysen A. Duva, ABD Başsavcı Yardımcısı",
+                  "sourceId": "the-verge",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Suçlu bulunduğu suçlama",
+              "value": "12’de 10",
+              "source": "SCMP"
+            },
+            {
+              "label": "Savcılık tanığı",
+              "value": "60+",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Ceza duruşması",
+              "value": "14 Eyl 2027",
+              "source": "The Verge"
+            },
+            {
+              "label": "Huawei çalışanı",
+              "value": "200 bin+",
+              "source": "Al Jazeera"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T20:36:38.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:43:34.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T21:43:34.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T22:23:27.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T23:31:22.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T02:59:27.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/ec3bf444-583a-11f1-acaa-005056bfb2b6/w:1024/p:16x9/AP21362025298799.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261124-new-york-jury-convicts-huawei-of-stealing-trade-secrets"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261124-new-york-jury-convicts-huawei-of-stealing-trade-secrets",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "f90bcc75b4d5108f",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "e0495d6a5040b0f6",
+      "versions": {
+        "en": {
+          "news": "Huang apologised to staff, said he goes to therapy daily and called claims that Trump got him rehired untrue",
+          "shortTitle": "Huang apologises to Nvidia staff",
+          "title": "Huang tells Nvidia staff he made ‘terrible mistakes’ and is in therapy",
+          "summary": {
+            "what": "In his first all-hands since returning as chief executive, Jensen Huang apologised for his affairs, said he is in therapy and denied that Trump got him reinstated.",
+            "why": "Nvidia’s board took him back 11 days after he quit, with input from the White House, and the stock gave up almost 6% on Tuesday as the rally faded.",
+            "next": "Huang is due to testify before Congress on 1 December, and the board’s inquiry into whether he was targeted by foreign intelligence continues."
+          },
+          "body": [
+            {
+              "subhead": "“The hardest company meeting”",
+              "blocks": [
+                {
+                  "text": "Huang spoke for about an hour at Nvidia’s Silicon Valley headquarters on Tuesday and took no questions, Wired reported after reviewing his remarks. He said he had violated the company’s policies and made “very serious personal mistakes” that hurt his wife and two children, and that he has been going to therapy “every day for an hour and a half”."
+                },
+                {
+                  "quote": "I made some terrible mistakes. I was unfaithful to Lori, and I hurt my kids and, of course, I hurt all of you.",
+                  "speaker": "Jensen Huang",
+                  "sourceId": "guardian-business"
+                },
+                {
+                  "text": "He told staff that Nvidia’s code of conduct leaves room for a “second chance”, but rejected the idea that he was back because he was a “tech bro” above the law, according to Wired and The Verge."
+                }
+              ]
+            },
+            {
+              "subhead": "Distancing himself from Trump",
+              "blocks": [
+                {
+                  "text": "Huang called claims that President Donald Trump was directly involved in his reinstatement “completely untrue”, The Verge reported, citing the New York Times and the journalist Marisa Kabas. The board had “evaluated the entire situation” and received government assurances that he posed no national security threat, he said. The White House had said Trump was “totally involved” in the decision."
+                },
+                {
+                  "quote": "It is absolutely true that President Trump really, really loves our company. He is my president. And I’ll do everything I can to help this president.",
+                  "speaker": "Jensen Huang",
+                  "sourceId": "wired"
+                },
+                {
+                  "text": "Late on Tuesday TechCrunch reported that Trump said a pardon for Huang was “an option”, though he did not think it would be necessary."
+                }
+              ]
+            },
+            {
+              "subhead": "No successor, and a review",
+              "blocks": [
+                {
+                  "text": "Huang said he would rein in his “insanely intense” management style and undergo a 360-degree review, with feedback as often as monthly from those who work with him, Wired reported. He said he would be the only person at Nvidia to have one."
+                },
+                {
+                  "quote": "I don’t believe in succession planning; I think it’s flawed.",
+                  "speaker": "Jensen Huang",
+                  "sourceId": "wired"
+                },
+                {
+                  "text": "Instead he described each of his 60 direct reports as the chief executive of their own unit who could step up when he leaves."
+                }
+              ]
+            },
+            {
+              "subhead": "Questions still open",
+              "blocks": [
+                {
+                  "text": "The euphoria in the markets faded: a day after the reinstatement lifted Nvidia’s shares more than 30%, the stock lost almost 6% by Tuesday’s close as technology shares led a retreat, the Guardian reported."
+                },
+                {
+                  "text": "Washington is investigating whether Megaspeed, a Singapore company formerly run by Huang’s alleged ex-lover Alice Huang, diverted Nvidia chips to China. Huang may face hearings before the House Foreign Affairs Committee and the Senate Banking Committee next week, according to the Guardian."
+                },
+                {
+                  "quote": "The American people deserve to hear publicly from Mr Huang about how potentially billions of dollars’ worth of our most advanced technology wound up in the hands of our greatest competitor, and what role this administration played.",
+                  "speaker": "Gregory Meeks, US congressman",
+                  "sourceId": "guardian-business"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Length of the all-hands",
+              "value": "About 1 hour",
+              "source": "Wired"
+            },
+            {
+              "label": "Daily therapy",
+              "value": "1.5 hours",
+              "source": "Wired"
+            },
+            {
+              "label": "Nvidia shares on Tuesday",
+              "value": "−6%",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Huang’s direct reports",
+              "value": "60",
+              "source": "Wired"
+            },
+            {
+              "label": "Testimony before Congress",
+              "value": "1 Dec",
+              "source": "The Verge"
+            }
+          ]
+        },
+        "tr": {
+          "news": "Huang çalışanlardan özür diledi, her gün terapiye gittiğini söyledi ve Trump’ın onu göreve döndürdüğü iddiasını reddetti",
+          "shortTitle": "Huang Nvidia çalışanlarından özür diledi",
+          "title": "Huang Nvidia çalışanlarına ‘korkunç hatalar yaptım’ dedi, terapi gördüğünü açıkladı",
+          "summary": {
+            "what": "Jensen Huang CEO olarak döndükten sonraki ilk genel toplantıda ilişkileri için özür diledi, terapiye gittiğini söyledi ve göreve Trump sayesinde döndüğü iddiasını reddetti.",
+            "why": "Nvidia yönetim kurulu Huang’ı istifasından 11 gün sonra Beyaz Saray’ın görüşünü de alarak geri çağırdı; yükseliş sönerken hisse salı günü yaklaşık %6 düştü.",
+            "next": "Huang’ın 1 Aralık’ta Kongre’de ifade vermesi bekleniyor; yönetim kurulunun, yabancı istihbaratın hedefi olup olmadığına dair incelemesi sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "“Yaptığım en zor şirket toplantısı”",
+              "blocks": [
+                {
+                  "text": "Wired’ın incelediği konuşmaya göre Huang, salı günü Nvidia’nın Silikon Vadisi’ndeki merkezinde yaklaşık bir saat konuştu ve soru almadı. Şirket kurallarını çiğnediğini, eşini ve iki çocuğunu incittiği “çok ciddi kişisel hatalar” yaptığını ve “her gün bir buçuk saat” terapiye gittiğini söyledi."
+                },
+                {
+                  "quote": "Korkunç hatalar yaptım. Lori’yi aldattım, çocuklarımı ve elbette hepinizi incittim.",
+                  "speaker": "Jensen Huang",
+                  "sourceId": "guardian-business",
+                  "translated": true
+                },
+                {
+                  "text": "Wired ve The Verge’e göre Huang, Nvidia’nın davranış kurallarının “ikinci bir şansa” yer bıraktığını söyledi; ancak yasaların üstünde bir “tech bro” (teknoloji dünyasının ayrıcalıklı erkeği) olduğu için geri döndüğü yorumlarını reddetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Trump’la arasına mesafe",
+              "blocks": [
+                {
+                  "text": "The Verge’ün New York Times’a ve gazeteci Marisa Kabas’a dayandırdığı habere göre Huang, Başkan Donald Trump’ın göreve dönüşünde doğrudan rol oynadığı iddialarını “tamamen asılsız” diye niteledi. Yönetim kurulunun “tüm durumu değerlendirdiğini” ve hükümetten ulusal güvenlik açısından risk oluşturmadığına dair güvence aldığını söyledi. Beyaz Saray ise Trump’ın karara “tamamen dahil” olduğunu açıklamıştı."
+                },
+                {
+                  "quote": "Başkan Trump’ın şirketimizi gerçekten çok sevdiği kesinlikle doğru. O benim başkanım. Bu başkana yardım etmek için elimden gelen her şeyi yapacağım.",
+                  "speaker": "Jensen Huang",
+                  "sourceId": "wired",
+                  "translated": true
+                },
+                {
+                  "text": "TechCrunch salı gecesi Trump’ın Huang’ı affetmenin “bir seçenek” olduğunu, ancak buna gerek kalacağını düşünmediğini söylediğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Halef yok, değerlendirme var",
+              "blocks": [
+                {
+                  "text": "Wired’a göre Huang, kendi deyimiyle “aşırı yoğun” yönetim tarzını yumuşatacağını ve birlikte çalıştığı kişilerden ayda bir görüş alınacak 360 derece bir performans değerlendirmesinden geçeceğini söyledi. Bu değerlendirmeye Nvidia’da yalnızca kendisinin tabi olacağını belirtti."
+                },
+                {
+                  "quote": "Halef planlamasına inanmıyorum, bence kusurlu bir yöntem.",
+                  "speaker": "Jensen Huang",
+                  "sourceId": "wired",
+                  "translated": true
+                },
+                {
+                  "text": "Bunun yerine kendisine bağlı 60 yöneticiyi, ayrıldığında yerine geçebilecek, kendi birimlerinin CEO’ları olarak tarif etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Açık sorular",
+              "blocks": [
+                {
+                  "text": "Guardian’ın haberine göre piyasadaki coşku çabuk söndü: Huang’ın dönüşüyle bir gün önce %30’dan fazla yükselen Nvidia hissesi, teknoloji hisselerinin öncülük ettiği geri çekilmede salı kapanışında yaklaşık %6 değer kaybetti."
+                },
+                {
+                  "text": "ABD makamları, Huang’ın eski sevgilisi olduğu öne sürülen Alice Huang’ın daha önce yönettiği Singapurlu Megaspeed şirketinin Nvidia çiplerini Çin’e aktarıp aktarmadığını soruşturuyor. Guardian’a göre Huang gelecek hafta Temsilciler Meclisi Dış İlişkiler Komitesi ve Senato Bankacılık Komitesi önüne çıkabilir."
+                },
+                {
+                  "quote": "Amerikan halkı, en gelişmiş teknolojimizin milyarlarca dolarlık kısmının nasıl en büyük rakibimizin eline geçtiğini ve bu yönetimin bunda nasıl bir rol oynadığını Bay Huang’dan açıkça duymayı hak ediyor.",
+                  "speaker": "Gregory Meeks, ABD Kongre üyesi",
+                  "sourceId": "guardian-business",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Genel toplantının süresi",
+              "value": "Yaklaşık 1 saat",
+              "source": "Wired"
+            },
+            {
+              "label": "Günlük terapi",
+              "value": "1,5 saat",
+              "source": "Wired"
+            },
+            {
+              "label": "Nvidia hissesi (salı)",
+              "value": "−%6",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Huang’a bağlı yönetici",
+              "value": "60",
+              "source": "Wired"
+            },
+            {
+              "label": "Kongre’deki ifade",
+              "value": "1 Ara",
+              "source": "The Verge"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T14:00:06.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T16:25:57.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T16:25:57.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T17:44:53.000Z",
+          "sourceId": "wired"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T20:02:03.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:48:27.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T01:03:05.000Z",
+          "sourceId": "bbc-business"
+        }
+      ],
+      "image": {
+        "url": "https://media.wired.com/photos/6b05ac8615bd092ec9b638cd/master/pass/GettyImages-2279157190.jpg",
+        "sourceId": "wired",
+        "sourceName": "Wired",
+        "articleUrl": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375631/how-jensen-huangs-nvidia-return-could-deepen-us-rift-over-china-chip-curbs",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-staff-what-do-you-think-jensen-huang-return-chief-executive",
+          "confirms": true
+        },
+        {
+          "sourceId": "wired",
+          "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-business",
+          "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
+          "confirms": false
+        },
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-business",
+          "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "23f2386752162891",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Hostages held in Cartagena supermarket",
+          "title": "Gunmen hold about 20 hostages in Cartagena supermarket after failed robbery",
+          "summary": {
+            "what": "Armed men who failed to rob a cash van took about 30 people hostage in a supermarket in Cartagena, Colombia; by nightfall 10 had been freed.",
+            "why": "Cartagena is one of Colombia’s top tourist cities, and the standoff came a day after a deadly car bomb, piling pressure on President Abelardo de la Espriella.",
+            "next": "Police, troops and special forces surround the store; Al Jazeera reports the gunmen are demanding nearly $2 million to free the rest."
+          },
+          "body": [
+            {
+              "subhead": "A robbery gone wrong",
+              "blocks": [
+                {
+                  "text": "The gunmen arrived at about 8.30am local time on Tuesday at an Éxito supermarket in the La Castellana neighbourhood, the Guardian reported. According to President Abelardo de la Espriella, they planned to rob an armoured cash-in-transit vehicle due to collect the previous day’s takings, but security camera operators spotted them and alerted police."
+                },
+                {
+                  "text": "As police closed in, the men fled into the store and took about 30 people hostage, France 24 reported. By nightfall 10 had been released, five of them elderly women, police said. Police say at least 20 people are still being held; Al Jazeera put the number initially held at about 25."
+                },
+                {
+                  "quote": "Thirty people were kidnapped, five of whom have already been released. They are older women. All the capabilities of our various security forces have now been deployed, including special units.",
+                  "speaker": "Abelardo de la Espriella, president of Colombia",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "Snipers and a closed runway",
+              "blocks": [
+                {
+                  "text": "Police, troops and special forces surrounded the building and cut power to the area, France 24 reported, and local media showed snipers on nearby buildings. Images on social media appeared to show people kneeling against the windows with their hands bound; Reuters could not verify them."
+                },
+                {
+                  "text": "Landings at Cartagena’s Rafael Núñez International Airport were suspended for about 45 minutes while the armed forces used one of the runways for the operation. The president’s motorcade later arrived at the scene, France 24 wrote."
+                },
+                {
+                  "quote": "My son is there. He didn’t leave work and he’s not answering his phone. I think they took it from him.",
+                  "speaker": "Jacob Perez, father of a worker held inside",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "“Common criminals”",
+              "blocks": [
+                {
+                  "text": "De la Espriella said the hostage-taking appeared to be a botched robbery by “common criminals”, not the work of the armed groups behind the country’s long conflict, the Guardian reported. He added that the standoff would turn out well for the hostages, but he was “not so sure” it would for the hostage-takers."
+                },
+                {
+                  "text": "He spoke from Villavicencio, where a car bomb outside the Meta departmental government’s headquarters on Monday night killed a security guard and injured more than 20 people. He blamed a dissident faction of the former Farc guerrillas."
+                }
+              ]
+            },
+            {
+              "subhead": "Pressure on the president",
+              "blocks": [
+                {
+                  "text": "De la Espriella, who has been in office for just over three months and campaigned on an “iron fist” approach to crime, faces a run of high-profile attacks, Al Jazeera noted. His predecessor Gustavo Petro blamed the violence on poverty caused by a collapse in tourism."
+                },
+                {
+                  "quote": "The root cause of this violence is the impoverishment of the population, brought about by the collapse of the tourism sector.",
+                  "speaker": "Gustavo Petro, former president",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "People taken hostage",
+              "value": "About 30",
+              "source": "France 24"
+            },
+            {
+              "label": "Hostages released by nightfall",
+              "value": "10",
+              "source": "France 24"
+            },
+            {
+              "label": "Airport landings suspended",
+              "value": "45 min",
+              "source": "France 24"
+            },
+            {
+              "label": "Ransom reportedly demanded",
+              "value": "Nearly $2m",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Cartagena",
+            "region": "Bolívar, Colombia",
+            "lat": 10.39,
+            "lon": -75.51
+          }
+        },
+        "tr": {
+          "shortTitle": "Cartagena’da markette rehine krizi",
+          "title": "Kolombiya’nın Cartagena kentinde silahlı soyguncular markette 20 kişiyi rehin tutuyor",
+          "summary": {
+            "what": "Kolombiya’nın Cartagena kentinde para nakil aracını soyamayan silahlı kişiler bir markette yaklaşık 30 kişiyi rehin aldı; akşama kadar 10 kişi serbest bırakıldı.",
+            "why": "Cartagena ülkenin en çok turist çeken kentlerinden biri; kriz, ölümcül bir bombalı araç saldırısının ertesi gününe denk gelerek Devlet Başkanı Abelardo de la Espriella’yı zora soktu.",
+            "next": "Polis, asker ve özel kuvvetler marketi kuşatmış durumda. Al Jazeera’ya göre saldırganlar kalan rehineler için yaklaşık 2 milyon dolar istiyor."
+          },
+          "body": [
+            {
+              "subhead": "Ters giden soygun",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre silahlı kişiler salı sabahı yerel saatle 08.30 civarında La Castellana mahallesindeki bir Éxito marketine geldi. Devlet Başkanı Abelardo de la Espriella’nın anlattığına göre grup, önceki günün hasılatını almaya gelecek zırhlı para nakil aracını soymayı planlıyordu; ancak güvenlik kamerası operatörleri durumu fark edip polise haber verdi."
+                },
+                {
+                  "text": "France 24’e göre polis yaklaşınca saldırganlar markete kaçtı ve yaklaşık 30 kişiyi rehin aldı. Polisin açıklamasına göre akşama kadar beşi yaşlı kadın olmak üzere 10 kişi bırakıldı. Polis en az 20 kişinin hâlâ içeride tutulduğunu söylüyor; Al Jazeera ilk etapta rehin alınanların sayısını yaklaşık 25 olarak verdi."
+                },
+                {
+                  "quote": "Otuz kişi kaçırıldı, beşi serbest bırakıldı. Bunlar yaşlı kadınlar. Özel birlikler de dahil olmak üzere güvenlik güçlerimizin tüm imkânları devreye sokuldu.",
+                  "speaker": "Abelardo de la Espriella, Kolombiya Devlet Başkanı",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Keskin nişancılar ve kapanan pist",
+              "blocks": [
+                {
+                  "text": "France 24’e göre polis, asker ve özel kuvvetler binayı kuşattı ve bölgenin elektriğini kesti; yerel medya yakındaki binalara yerleştirilen keskin nişancıları gösterdi. Sosyal medyadaki görüntülerde bazı kişilerin elleri bağlı hâlde camlara dönük diz çöktüğü görülüyordu; Reuters görüntüleri doğrulayamadı."
+                },
+                {
+                  "text": "Silahlı kuvvetlerin pistlerden birini operasyon için kullanması nedeniyle Cartagena’daki Rafael Núñez Uluslararası Havalimanı’na inişler yaklaşık 45 dakika durduruldu. France 24’e göre devlet başkanının konvoyu daha sonra olay yerine ulaştı."
+                },
+                {
+                  "quote": "Oğlum içeride. İşten çıkmadı, telefonunu açmıyor. Sanırım telefonunu aldılar.",
+                  "speaker": "Jacob Perez, rehin tutulan bir çalışanın babası",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "“Sıradan suçlular”",
+              "blocks": [
+                {
+                  "text": "Guardian’ın aktardığına göre De la Espriella, rehine olayının ülkedeki uzun çatışmanın silahlı gruplarıyla değil, “sıradan suçluların” başarısız soygun girişimiyle ilgili göründüğünü söyledi. Krizin rehineler için iyi biteceğini, ama rehin alanlar için aynı şeyden “pek emin olmadığını” ekledi."
+                },
+                {
+                  "text": "De la Espriella açıklamayı, pazartesi gecesi Meta eyalet yönetimi binasının önünde patlayan bombalı aracın bir güvenlik görevlisini öldürdüğü, 20’den fazla kişiyi yaraladığı Villavicencio’dan yaptı. Saldırıyı eski FARC gerillalarından ayrılan bir gruba bağladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Devlet başkanına baskı",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre suça karşı “demir yumruk” vaadiyle seçilen ve üç ayı biraz aşkın süredir görevde olan De la Espriella, art arda gelen büyük olaylarla sınanıyor. Selefi Gustavo Petro şiddeti turizmin çöküşünün yol açtığı yoksullaşmaya bağladı."
+                },
+                {
+                  "quote": "Bu şiddetin kök nedeni, turizm sektörünün çöküşünün yol açtığı halkın yoksullaşmasıdır.",
+                  "speaker": "Gustavo Petro, eski devlet başkanı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Rehin alınan kişi",
+              "value": "Yaklaşık 30",
+              "source": "France 24"
+            },
+            {
+              "label": "Akşama kadar bırakılan",
+              "value": "10",
+              "source": "France 24"
+            },
+            {
+              "label": "Havalimanında iniş arası",
+              "value": "45 dk",
+              "source": "France 24"
+            },
+            {
+              "label": "İstendiği bildirilen fidye",
+              "value": "~2 milyon $",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Cartagena",
+            "region": "Bolívar, Kolombiya",
+            "lat": 10.39,
+            "lon": -75.51
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T17:35:48.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:04:46.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T21:04:46.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T21:06:37.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T01:56:28.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/0002202a-e841-11f1-b0e2-29d00e23de9a/w:1024/p:16x9/000-D8HP763.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "4f80118e1b6b7553",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Sarkozy and Bruni face trial",
+          "title": "Sarkozy and Carla Bruni to stand trial over witness tampering",
+          "summary": {
+            "what": "Former French president Nicolas Sarkozy and his wife, singer Carla Bruni-Sarkozy, will be tried next year over the alleged tampering of a key witness in the Libya funding case.",
+            "why": "It adds another trial for the first former president of modern France to go to jail, days before an appeal ruling on his Libyan campaign-funding conviction.",
+            "next": "The appeal court rules on the Libya case on Monday; the witness-tampering trial is due in November 2027, a source told AFP."
+          },
+          "body": [
+            {
+              "subhead": "The “Save Sarko” file",
+              "blocks": [
+                {
+                  "text": "Sarkozy, Bruni-Sarkozy and the paparazzi boss Mimi Marchand will stand trial next year over the alleged tampering of a witness in the case over funding for Sarkozy’s 2007 election campaign, a source close to the case told AFP, France 24 reported. A court will try them in November 2027."
+                },
+                {
+                  "text": "The couple face charges of “criminal conspiracy with intent to commit fraud” and of benefiting from witness tampering. Marchand is accused of criminal conspiracy and witness tampering. The defendants face up to 10 years in prison and a fine of €150,000, according to France 24. They deny any wrongdoing, the BBC reported."
+                },
+                {
+                  "text": "The alleged perpetrators called the operation “Save Sarko”, according to French media cited by the BBC."
+                }
+              ]
+            },
+            {
+              "subhead": "A witness who changed his story",
+              "blocks": [
+                {
+                  "text": "The case centres on Ziad Takieddine, a French-Lebanese businessman who said in 2016 that he had helped deliver up to €5 million in cash from Muammar Gaddafi to Sarkozy and his chief of staff in 2006 and 2007, France 24 wrote. He had claimed written proof that the 2007 campaign was “abundantly” financed by Tripoli, the BBC reported."
+                },
+                {
+                  "text": "In November 2020 Takieddine suddenly retracted his statement in an interview. Sarkozy was said at the time to have declared that “the truth is finally coming out”, but investigators found the retraction “insincere” and opened a new inquiry, the BBC wrote. Takieddine died in Lebanon last year."
+                },
+                {
+                  "text": "Investigators suspect the couple enlisted Marchand to pay the witness to change his story, which they have always denied, France 24 reported. Bruni is suspected of requesting a clandestine phone line in late 2019 to talk to Marchand about the operation."
+                }
+              ]
+            },
+            {
+              "subhead": "Twenty days in jail",
+              "blocks": [
+                {
+                  "text": "Sarkozy, president from 2007 to 2012, was sentenced to five years in prison last September for conspiring to fund his campaign with money from Gaddafi, and became the first former French president to go to jail. He was freed after 20 days pending his appeal, and the appeal court is due to rule on Monday, the BBC and France 24 reported."
+                },
+                {
+                  "text": "He already has two definitive convictions: one over overspending in his failed 2012 re-election bid, and one for trying to extract favours from a judge, for which he wore an electronic tag at home."
+                }
+              ]
+            },
+            {
+              "subhead": "The paparazzi queen",
+              "blocks": [
+                {
+                  "text": "Marchand, known in France as the queen of the paparazzi, was given an 18-month suspended sentence last year for blackmailing a television host who feared she would publish pictures of the host’s daughter leaving police custody, France 24 reported."
+                },
+                {
+                  "text": "Lawyers for the defendants did not immediately respond to AFP’s request for comment."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Trial due",
+              "value": "Nov 2027",
+              "source": "France 24 (AFP)"
+            },
+            {
+              "label": "Maximum prison sentence",
+              "value": "10 years",
+              "source": "France 24"
+            },
+            {
+              "label": "Maximum fine",
+              "value": "€150,000",
+              "source": "France 24"
+            },
+            {
+              "label": "Days Sarkozy spent in jail",
+              "value": "20",
+              "source": "BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Sarkozy ve Bruni yargılanacak",
+          "title": "Sarkozy ve Carla Bruni tanığı etkilemekten yargılanacak",
+          "summary": {
+            "what": "Eski Fransa Cumhurbaşkanı Nicolas Sarkozy ve şarkıcı eşi Carla Bruni-Sarkozy, Libya finansmanı davasındaki kilit tanığı etkilemekle suçlandıkları davada gelecek yıl yargılanacak.",
+            "why": "Modern Fransa’da cezaevine giren ilk eski cumhurbaşkanı olan Sarkozy’nin Libya davasındaki istinaf kararından günler önce yeni bir dava açılmış oldu.",
+            "next": "İstinaf mahkemesi Libya davasındaki kararını pazartesi açıklayacak; AFP’ye konuşan kaynağa göre tanık davası Kasım 2027’de görülecek."
+          },
+          "body": [
+            {
+              "subhead": "“Save Sarko” dosyası",
+              "blocks": [
+                {
+                  "text": "France 24’ün aktardığına göre davaya yakın bir kaynak AFP’ye, Sarkozy, Bruni-Sarkozy ve paparazzi ajansı patronu Mimi Marchand’ın, Sarkozy’nin 2007 seçim kampanyasının finansmanıyla ilgili davada bir tanığı etkilemekten gelecek yıl yargılanacağını söyledi. Duruşma Kasım 2027’de yapılacak."
+                },
+                {
+                  "text": "Çift, “dolandırıcılık amacıyla suç örgütü kurma” ve tanığın etkilenmesinden yararlanmakla suçlanıyor. Marchand ise suç örgütü kurmak ve tanığı etkilemekle itham ediliyor. France 24’e göre sanıkları 10 yıla kadar hapis ve 150 bin avro para cezası bekliyor. BBC’ye göre sanıklar suçlamaları reddediyor."
+                },
+                {
+                  "text": "BBC’nin aktardığı Fransız basınına göre şüpheliler operasyona “Save Sarko” (Sarko’yu kurtar) adını vermişti."
+                }
+              ]
+            },
+            {
+              "subhead": "İfadesini değiştiren tanık",
+              "blocks": [
+                {
+                  "text": "Dava, Fransız-Lübnanlı iş insanı Ziad Takieddine’in etrafında dönüyor. France 24’e göre Takieddine 2016’da, 2006 ve 2007’de Muammer Kaddafi’den Sarkozy’ye ve kabine şefine 5 milyon avroya kadar nakit taşımaya yardım ettiğini söylemişti. BBC’ye göre 2007 kampanyasının Trablus tarafından “bolca” finanse edildiğine dair yazılı kanıtı olduğunu iddia etmişti."
+                },
+                {
+                  "text": "Takieddine Kasım 2020’de verdiği bir röportajda ifadesini aniden geri aldı. Sarkozy’nin o dönem “gerçek nihayet ortaya çıkıyor” dediği aktarıldı; ancak soruşturmacılar geri adımı “samimiyetsiz” buldu ve yeni bir soruşturma açtı. Takieddine geçen yıl Lübnan’da öldü."
+                },
+                {
+                  "text": "France 24’e göre soruşturmacılar, çiftin tanığa ifadesini değiştirmesi için para ödenmesinde Marchand’dan yardım aldığından şüpheleniyor; çift bunu her zaman reddetti. Bruni’nin 2019 sonunda Marchand’la operasyon hakkında konuşmak için gizli bir telefon hattı istediğinden şüpheleniliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Cezaevinde 20 gün",
+              "blocks": [
+                {
+                  "text": "2007-2012 arasında cumhurbaşkanlığı yapan Sarkozy, geçen eylül kampanyasını Kaddafi’nin parasıyla finanse etmek için suç örgütü kurmaktan beş yıl hapse çarptırılmış ve cezaevine giren ilk eski Fransa cumhurbaşkanı olmuştu. BBC ve France 24’e göre istinaf süreci beklenirken 20 gün sonra serbest bırakıldı; istinaf mahkemesi kararını pazartesi açıklayacak."
+                },
+                {
+                  "text": "Sarkozy’nin iki kesinleşmiş mahkûmiyeti daha var: 2012’deki başarısız yeniden seçilme kampanyasında harcama sınırını aşmak ve bir yargıçtan çıkar sağlamaya çalışmak. İkincisinin cezasını evde elektronik kelepçeyle çekti."
+                }
+              ]
+            },
+            {
+              "subhead": "Paparazzilerin kraliçesi",
+              "blocks": [
+                {
+                  "text": "France 24’e göre Fransa’da “paparazzilerin kraliçesi” diye anılan Marchand, geçen yıl kızının gözaltından çıkışını gösteren fotoğrafları yayımlamakla tehdit ettiği bir televizyon sunucusuna şantaj yapmaktan 18 ay ertelenmiş hapis cezası almıştı."
+                },
+                {
+                  "text": "Sanıkların avukatları AFP’nin yorum talebine hemen yanıt vermedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Duruşma tarihi",
+              "value": "Kasım 2027",
+              "source": "France 24 (AFP)"
+            },
+            {
+              "label": "Azami hapis cezası",
+              "value": "10 yıl",
+              "source": "France 24"
+            },
+            {
+              "label": "Azami para cezası",
+              "value": "150 bin €",
+              "source": "France 24"
+            },
+            {
+              "label": "Sarkozy’nin cezaevinde kaldığı gün",
+              "value": "20",
+              "source": "BBC"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T16:33:12.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T16:49:07.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T16:49:07.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/abed1f82-ae51-11f0-9cc4-005056a97e36/w:1024/p:16x9/AP25294269505797.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    },
+    {
+      "id": "e0ee458ad4118b14",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Ábrego García leaves US for Spain",
+          "title": "Kilmar Ábrego García leaves the US for Spain under a deal",
+          "summary": {
+            "what": "Kilmar Ábrego García, the Salvadoran wrongly deported to El Salvador in 2025, left the United States for Spain of his own volition, his lawyers and DHS confirmed.",
+            "why": "His case became a symbol of Trump’s immigration crackdown, after a supreme court ruling brought him back and the government tried to send him to African countries.",
+            "next": "He travels as “a free man”, Senator Chris Van Hollen said; the government is still appealing the dismissal of a smuggling case against him."
+          },
+          "body": [
+            {
+              "subhead": "A deal to leave",
+              "blocks": [
+                {
+                  "text": "Ábrego García left the United States on Tuesday, his lawyers confirmed, and the Department of Homeland Security said he was travelling to Spain, the Guardian reported. The Washington Post reported that he had negotiated a deal with federal authorities to leave voluntarily rather than be forcibly removed."
+                },
+                {
+                  "text": "A judge told Ábrego García to self-deport on Tuesday, according to the Associated Press, cited by Al Jazeera."
+                },
+                {
+                  "quote": "I am relieved that he will be safe, in a country of his choosing, and free – including from this Administration’s constant persecution.",
+                  "speaker": "Chris Van Hollen, US senator",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Deported by “administrative error”",
+              "blocks": [
+                {
+                  "text": "The 31-year-old came to the US illegally as a teenager and lived in Maryland for years with his American wife and child. In 2019 an immigration judge ruled that he could not be deported to El Salvador because he faced danger there from a gang that had threatened his family, the Guardian wrote."
+                },
+                {
+                  "text": "He was arrested in Baltimore in March 2025 and deported to El Salvador’s Cecot mega-prison in what an official later called an “administrative error”. The administration initially refused to seek his return, arguing that he was a member of MS-13 although he had no criminal record, Al Jazeera reported."
+                },
+                {
+                  "text": "After a supreme court decision and public pressure, he was brought back in June 2025, but only after the government secured an indictment charging him with human smuggling in Tennessee. A federal judge dismissed that case in May, finding it was designed to punish him for challenging his deportation; the government is appealing."
+                }
+              ]
+            },
+            {
+              "subhead": "Four African countries",
+              "blocks": [
+                {
+                  "text": "Since his return the administration had tried to deport him to a third country, threatening to send him to Uganda, Eswatini, Ghana and, most recently, Liberia, the Guardian reported. Ábrego García had said he would prefer Costa Rica."
+                },
+                {
+                  "text": "In a March 2026 memo, Todd Lyons, then the acting director of ICE, wrote that sending him to Costa Rica would be “prejudicial to the United States” and that he should go to Liberia, Al Jazeera reported, even though the US has an agreement with Costa Rica to accept such deportees."
+                }
+              ]
+            },
+            {
+              "subhead": "“Remarkable courage”",
+              "blocks": [
+                {
+                  "text": "Van Hollen, who met Ábrego García in El Salvador while pressing for his release, said the administration had been “forced” into an agreement that respects his will and due process rights."
+                },
+                {
+                  "quote": "We will always admire his remarkable courage in staring down and defeating a vindictive prosecution instigated by the highest reaches of the Justice Department.",
+                  "speaker": "Sean Hecker, Ábrego García’s lawyer",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Age",
+              "value": "31",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Deported to El Salvador",
+              "value": "Mar 2025",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Brought back to the US",
+              "value": "Jun 2025",
+              "source": "The Guardian"
+            },
+            {
+              "label": "African countries proposed",
+              "value": "4",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Ábrego García ABD’den İspanya’ya gitti",
+          "title": "Kilmar Ábrego García anlaşmayla ABD’den ayrılıp İspanya’ya gitti",
+          "summary": {
+            "what": "2025’te yanlışlıkla El Salvador’a sınır dışı edilen Salvadorlu Kilmar Ábrego García kendi isteğiyle ABD’den ayrıldı; avukatları ve İç Güvenlik Bakanlığı İspanya’ya gittiğini doğruladı.",
+            "why": "Yüksek Mahkeme kararıyla geri getirilen ve ardından Afrika ülkelerine gönderilmek istenen Ábrego García, Trump’ın göç politikasının simgesi olmuştu.",
+            "next": "Senatör Chris Van Hollen onun “özgür bir insan” olarak yola çıktığını söyledi; hükümet aleyhindeki insan kaçakçılığı davasının düşürülmesine itiraz ediyor."
+          },
+          "body": [
+            {
+              "subhead": "Ayrılık anlaşması",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre Ábrego García salı günü ABD’den ayrıldı; avukatları bunu doğruladı, İç Güvenlik Bakanlığı (DHS) da İspanya’ya gittiğini açıkladı. Washington Post, zorla sınır dışı edilmemek için federal makamlarla gönüllü ayrılık anlaşması yaptığını yazdı."
+                },
+                {
+                  "text": "Al Jazeera’nın Associated Press’e dayandırdığı habere göre bir yargıç salı günü Ábrego García’ya ülkeyi kendi isteğiyle terk etmesini söyledi."
+                },
+                {
+                  "quote": "Güvende, kendi seçtiği bir ülkede ve özgür olacağı için, bu yönetimin sürekli zulmünden de kurtulacağı için rahatladım.",
+                  "speaker": "Chris Van Hollen, ABD senatörü",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "“İdari hata” ile sınır dışı",
+              "blocks": [
+                {
+                  "text": "31 yaşındaki Ábrego García ABD’ye gençken yasa dışı yollarla gelmiş, Amerikalı eşi ve çocuğuyla yıllarca Maryland’de yaşamıştı. Guardian’a göre bir göçmenlik yargıcı 2019’da, ailesini tehdit eden bir çete nedeniyle El Salvador’da tehlikede olduğu için oraya gönderilemeyeceğine hükmetmişti."
+                },
+                {
+                  "text": "Mart 2025’te Baltimore’da gözaltına alındı ve bir yetkilinin sonradan “idari hata” dediği işlemle El Salvador’daki CECOT mega cezaevine gönderildi. Al Jazeera’ya göre yönetim, sabıkası olmamasına rağmen MS-13 çetesi üyesi olduğunu savunarak başta geri getirilmesine yanaşmadı."
+                },
+                {
+                  "text": "Yüksek Mahkeme kararı ve kamuoyu baskısıyla Haziran 2025’te geri getirildi, ancak öncesinde Tennessee’de insan kaçakçılığı suçlamasıyla iddianame hazırlandı. Bir federal yargıç mayısta, davanın sınır dışı işlemine itiraz ettiği için onu cezalandırmaya yönelik olduğuna hükmederek davayı düşürdü; hükümet karara itiraz etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Dört Afrika ülkesi",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre yönetim, geri dönüşünden bu yana onu üçüncü bir ülkeye göndermeye çalıştı; Uganda, Esvatini, Gana ve son olarak Liberya gündeme geldi. Ábrego García ise sınır dışı edilecekse Kosta Rika’yı tercih ettiğini söylemişti."
+                },
+                {
+                  "text": "Al Jazeera’ya göre ICE’in o dönemki vekil direktörü Todd Lyons, Mart 2026 tarihli bir notta onu Kosta Rika’ya göndermenin “ABD’nin aleyhine” olacağını ve Liberya’ya gönderilmesi gerektiğini yazdı. Oysa ABD’nin bu tür kişileri kabul etmesi için Kosta Rika ile bir anlaşması bulunuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "“Olağanüstü cesaret”",
+              "blocks": [
+                {
+                  "text": "Ábrego García’nın serbest bırakılması için El Salvador’da onunla görüşen Van Hollen, yönetimin onun iradesine ve hukuki güvencelerine saygı gösteren bir anlaşmaya “mecbur kaldığını” söyledi."
+                },
+                {
+                  "quote": "Adalet Bakanlığı’nın en üst kademelerinin başlattığı kinci bir kovuşturmaya kafa tutup onu yenmekteki olağanüstü cesaretine her zaman hayran kalacağız.",
+                  "speaker": "Sean Hecker, Ábrego García’nın avukatı",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yaş",
+              "value": "31",
+              "source": "The Guardian"
+            },
+            {
+              "label": "El Salvador’a gönderildiği tarih",
+              "value": "Mart 2025",
+              "source": "The Guardian"
+            },
+            {
+              "label": "ABD’ye geri getirildiği tarih",
+              "value": "Haziran 2025",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Önerilen Afrika ülkesi",
+              "value": "4",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T23:50:31.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T02:40:59.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T02:40:59.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T07:30:00+03:00",
+      "updatedAt": "2026-11-25T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "d062265b137b13ea",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Who scored Galatasaray’s winner against Aston Villa?",
+          "options": ["Barış Alper Yılmaz", "Deniz Gül", "Yunus Akgün"]
+        },
+        "tr": {
+          "question": "Galatasaray’ın Aston Villa karşısındaki galibiyet golünü kim attı?",
+          "options": ["Barış Alper Yılmaz", "Deniz Gül", "Yunus Akgün"]
+        }
+      }
+    },
+    {
+      "storyId": "4b36266ac0ac743e",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Which charge did the jury clear Huawei of?",
+          "options": ["Racketeering conspiracy", "Bank fraud", "Conspiracy to steal trade secrets"]
+        },
+        "tr": {
+          "question": "Jüri Huawei’yi hangi suçlamadan beraat ettirdi?",
+          "options": [
+            "Organize suç örgütü (RICO)",
+            "Banka dolandırıcılığı",
+            "Ticari sır çalmak için anlaşma"
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "e0ee458ad4118b14",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "Which country did Kilmar Ábrego García leave the US for?",
+          "options": ["Costa Rica", "Liberia", "Spain"]
+        },
+        "tr": {
+          "question": "Kilmar Ábrego García ABD’den hangi ülkeye gitti?",
+          "options": ["Kosta Rika", "Liberya", "İspanya"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-135",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["cedi-osman"],
+      "name": {
+        "en": "Cedi Osman",
+        "tr": "Cedi Osman"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Valencia Basket",
+        "ours": false,
+        "team": "valencia-basket"
+      },
+      "away": {
+        "name": "Panathinaikos AKTOR Athens",
+        "ours": true,
+        "team": "panathinaikos-aktor-athens"
+      },
+      "startsAt": "2026-11-24T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/135"
+      },
+      "result": {
+        "home": 83,
+        "away": 86
+      }
+    },
+    {
+      "id": "euroleague-e2026-133",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce Tarfin Istanbul",
+        "tr": "Fenerbahce Tarfin Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "FC Barcelona",
+        "ours": false,
+        "team": "fc-barcelona"
+      },
+      "away": {
+        "name": "Fenerbahce Tarfin Istanbul",
+        "ours": true,
+        "team": "fenerbahce-tarfin-istanbul"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/133"
+      },
+      "result": {
+        "home": 77,
+        "away": 83
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Stanley Umude",
+          "points": 18,
+          "photo": "euroleague-015139"
+        },
+        {
+          "side": "away",
+          "name": "Shavon Shields",
+          "points": 26,
+          "photo": "euroleague-007831"
+        }
+      ]
+    },
+    {
+      "id": "espn-401915298",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "PSV Eindhoven",
+        "short": "PSV",
+        "ours": false,
+        "team": "psv-eindhoven"
+      },
+      "startsAt": "2026-11-24T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915298"
+      },
+      "scorers": [
+        {
+          "side": "away",
+          "name": "Ivan Perisic",
+          "minutes": ["32'"],
+          "penalty": true,
+          "photo": "espn-103485"
+        },
+        {
+          "side": "home",
+          "name": "Federico Valverde",
+          "minutes": ["50'"]
+        },
+        {
+          "side": "home",
+          "name": "Jude Bellingham",
+          "minutes": ["60'"]
+        },
+        {
+          "side": "home",
+          "name": "Kylian Mbappé",
+          "minutes": ["64'", "84'"]
+        },
+        {
+          "side": "home",
+          "name": "Vinícius Júnior",
+          "minutes": ["87'"]
+        }
+      ],
+      "result": {
+        "home": 5,
+        "away": 1
+      },
+      "lines": [
+        {
+          "person": "arda-guler",
+          "goals": 0,
+          "assists": 2,
+          "minutes": 70
+        }
+      ]
+    },
+    {
+      "id": "euroleague-e2026-138",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Kosner Baskonia Vitoria-Gasteiz",
+        "ours": false,
+        "team": "kosner-baskonia-vitoria-gasteiz"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-25T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/138"
+      }
+    },
+    {
+      "id": "espn-401915375",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce",
+        "tr": "Fenerbahce"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Shakhtar Donetsk",
+        "short": "Shakhtar",
+        "ours": false,
+        "team": "shakhtar-donetsk"
+      },
+      "away": {
+        "name": "Fenerbahce",
+        "ours": true,
+        "team": "fenerbahce"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915375"
+      }
+    },
+    {
+      "id": "espn-401915376",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915376"
+      }
+    },
+    {
+      "id": "espn-401909317",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "startsAt": "2026-11-25T22:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909317"
+      }
+    },
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
+      }
+    }
+  ]
+}
