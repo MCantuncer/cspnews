@@ -1,10 +1,14 @@
-import { DEEZER, DEEZER_RAP } from './deezer.js';
-import { itunesGenreChartUrl } from './itunes.js';
+import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL } from './deezer.js';
+import { ITUNES_TECHNO_GENRE, itunesGenreChartUrl } from './itunes.js';
 import type { Chart } from './types.js';
 
 /**
  * The charts the music Collect reads every day (docs/music.md, "Sources"). Hard Techno is left
  * out on purpose: most of it is above the 134 BPM cap.
+ *
+ * Beatport answers GitHub's runners with a Cloudflare challenge (403), so on the daily run the
+ * techno songs come from Apple's Techno chart and Deezer's editors' Techno Tunnel playlist, with
+ * the tempo from Deezer; the Beatport charts stay listed and count whenever they can be read.
  */
 
 const kworb = (country: 'global' | 'us' | 'tr', name: string): Chart => ({
@@ -61,6 +65,21 @@ export const CHARTS: readonly Chart[] = [
     name: 'Deezer Rap/Hip Hop chart',
     url: `${DEEZER}/chart/${String(DEEZER_RAP)}/tracks?limit=100`,
     genre: 'rap',
+  },
+  {
+    id: 'itunes-us-techno',
+    source: 'apple',
+    name: 'Apple Music US Techno',
+    url: itunesGenreChartUrl('us', ITUNES_TECHNO_GENRE),
+    genre: 'techno',
+    country: 'us',
+  },
+  {
+    id: 'deezer-techno-tunnel',
+    source: 'deezer',
+    name: "Deezer Techno Tunnel (editors' playlist)",
+    url: `${DEEZER}/playlist/${String(DEEZER_TECHNO_TUNNEL)}/tracks?limit=100`,
+    genre: 'techno',
   },
   beatport('techno-peak-time-driving', 6, 'top-100', 'Beatport Peak Time / Driving Top 100'),
   beatport('techno-peak-time-driving', 6, 'hype-100', 'Beatport Peak Time / Driving Hype Top 100'),

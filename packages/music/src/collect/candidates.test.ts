@@ -62,6 +62,21 @@ describe('music candidates', () => {
     expect(day.genres.techno.map((c) => c.title)).toEqual(['Pound', 'Festival']);
   });
 
+  it('keeps a techno song of unknown tempo for the Deezer lookup', () => {
+    const day = build([
+      entry('itunes-us-techno', 3, 'Warehouse', 'Unknown Tempo'),
+      entry('deezer-techno-tunnel', 5, 'Tunnel', 'Dark Room', {
+        bpm: 131,
+        link: 'https://www.deezer.com/track/1',
+      }),
+    ]);
+    const titles = day.genres.techno.map((c) => c.title);
+    expect(titles).toContain('Unknown Tempo');
+    const dark = day.genres.techno.find((c) => c.title === 'Dark Room');
+    expect(dark?.bpm).toBe(131);
+    expect(dark?.bpmFrom).toBe('https://www.deezer.com/track/1');
+  });
+
   it('marks an old song that is only still charting', () => {
     const day = build([
       entry('itunes-us-rap', 5, 'Old Head', 'Classic', { released: '2017-12-01' }),

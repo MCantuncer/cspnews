@@ -10,6 +10,8 @@ import type { Chart, ChartEntry } from './types.js';
 export const DEEZER = 'https://api.deezer.com';
 /** Deezer's genre id for Rap/Hip Hop. */
 export const DEEZER_RAP = 116;
+/** "Techno Tunnel", the warehouse techno playlist of Deezer's Dance & EDM editor. */
+export const DEEZER_TECHNO_TUNNEL = 1275756721;
 
 const Artist = z.looseObject({ id: z.number(), name: z.string() });
 

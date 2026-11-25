@@ -4,11 +4,13 @@ import type { Chart, ChartEntry } from './types.js';
 
 /**
  * Apple's per-genre top songs, from the iTunes RSS feed (`/rss/topsongs/genre=18` is
- * Hip-Hop/Rap). It is the one public rap chart for Türkiye, and each entry carries the song's
+ * Hip-Hop/Rap, `genre=1050` Techno). It is the one public rap chart for Türkiye, and each entry carries the song's
  * 30-second preview, cover, release date and store link.
  */
 
 export const ITUNES_RAP_GENRE = 18;
+/** Apple's Techno genre (under Dance); its chart is the techno chart GitHub's runners can read. */
+export const ITUNES_TECHNO_GENRE = 1050;
 
 export const itunesGenreChartUrl = (country: 'us' | 'tr', genre = ITUNES_RAP_GENRE) =>
   `https://itunes.apple.com/${country}/rss/topsongs/limit=100/genre=${String(genre)}/json`;

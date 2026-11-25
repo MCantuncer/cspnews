@@ -22,6 +22,8 @@ export interface Candidate {
   /** The earliest release date any source gives. */
   released?: string;
   bpm?: number;
+  /** Where the tempo was read: a Beatport or Deezer track page. */
+  bpmFrom?: string;
   label?: string;
   genreTags: string[];
   links: { spotify?: string; appleMusic?: string; beatport?: string; deezer?: string };
@@ -81,6 +83,9 @@ function genreOf(entries: readonly ChartEntry[]): Genre | undefined {
 const daysBetween = (from: string, to: string) =>
   Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / 86_400_000);
 
+/** A techno tempo this page takes: 120 to 134 BPM. */
+export const technoTempo = (bpm: number) => bpm >= TECHNO_MIN_BPM && bpm <= TECHNO_MAX_BPM;
+
 const dayBefore = (day: string) =>
   new Date(Date.parse(`${day}T00:00:00Z`) - 86_400_000).toISOString().slice(0, 10);
 
@@ -134,10 +139,10 @@ function toCandidate(
     entries[0];
   if (!lead) return undefined;
 
-  const bpm = entries.find((entry) => entry.bpm !== undefined)?.bpm;
-  if (genre === 'techno' && (bpm === undefined || bpm > TECHNO_MAX_BPM || bpm < TECHNO_MIN_BPM)) {
-    return undefined;
-  }
+  const tempo = entries.find((entry) => entry.bpm !== undefined);
+  const bpm = tempo?.bpm;
+  // Unknown tempo stays in for now: the Collect asks Deezer and drops what is still unknown.
+  if (genre === 'techno' && bpm !== undefined && !technoTempo(bpm)) return undefined;
 
   const released = entries
     .map((entry) => entry.released)
@@ -257,12 +262,12 @@ function toCandidate(
     notes.push('a favourite artist');
   }
   if (genre === 'techno') {
-    const raw = entries.some((entry) => /raw|hypnotic/i.test(entry.chart.name));
+    const raw = entries.some((entry) => /raw|hypnotic|tunnel/i.test(entry.chart.name));
     if (raw) {
       score += 0.3;
-      notes.push('Raw / Deep / Hypnotic');
+      notes.push('Raw / Deep / Hypnotic or Techno Tunnel');
     } else {
-      notes.push('Peak Time only: check it is heavy and driving, not big-room');
+      notes.push('only on a general techno chart: check it is heavy and driving, not big-room');
     }
   }
 
@@ -288,6 +293,7 @@ function toCandidate(
     ...(isrc ? { isrc } : {}),
     ...(released ? { released } : {}),
     ...(bpm === undefined ? {} : { bpm }),
+    ...(bpm !== undefined && tempo?.link ? { bpmFrom: tempo.link } : {}),
     ...(label ? { label } : {}),
     genreTags: [...new Set(entries.flatMap((entry) => entry.genreTags))],
     links,

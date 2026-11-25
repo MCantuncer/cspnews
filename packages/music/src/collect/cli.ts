@@ -20,9 +20,15 @@ import { readCanon, readTaste } from '../files.js';
 import { songKey } from '../song.js';
 import { parseAppleChart, itunesSearchUrl, parseITunesSearch } from './apple.js';
 import { parseBeatportChart } from './beatport.js';
-import { buildCandidates, snapshotOf, type Candidate } from './candidates.js';
+import { buildCandidates, snapshotOf, technoTempo, type Candidate } from './candidates.js';
 import { CHARTS } from './charts.js';
-import { parseDeezerChart } from './deezer.js';
+import {
+  deezerSearchUrl,
+  deezerTrackUrl,
+  parseDeezerChart,
+  parseDeezerSearch,
+  parseDeezerTrack,
+} from './deezer.js';
 import { History, SnapshotSchema, type Snapshot } from './history.js';
 import { httpFetchText } from './http.js';
 import { parseITunesGenreChart } from './itunes.js';
@@ -66,6 +72,27 @@ async function enrich(candidate: Candidate, fetchText: FetchText): Promise<void>
   const released = match.releaseDate?.slice(0, 10);
   if (released && (!candidate.released || released < candidate.released))
     candidate.released = released;
+}
+
+/** Reads a techno song's tempo from Deezer when no chart gave one; 0 there means unknown. */
+async function addTempo(candidate: Candidate, fetchText: FetchText): Promise<void> {
+  if (candidate.bpm !== undefined) return;
+  let id = /deezer\.com\/(?:\w+\/)?track\/(\d+)/.exec(candidate.links.deezer ?? '')?.[1];
+  if (!id) {
+    const wanted = songKey(candidate.artists[0] ?? '', candidate.title);
+    const found = parseDeezerSearch(
+      await fetchText(deezerSearchUrl(candidate.artists[0] ?? '', candidate.title)),
+    ).find((song) => songKey(song.artist, song.title) === wanted);
+    if (!found) return;
+    id = String(found.id);
+  }
+  const track = parseDeezerTrack(await fetchText(deezerTrackUrl(id)));
+  candidate.links.deezer ??= track.link ?? `https://www.deezer.com/track/${id}`;
+  if (track.isrc) candidate.isrc ??= track.isrc;
+  if (track.bpm) {
+    candidate.bpm = Math.round(track.bpm * 10) / 10;
+    candidate.bpmFrom = track.link ?? `https://www.deezer.com/track/${id}`;
+  }
 }
 
 function readHistory(directory: string): Snapshot[] {
@@ -114,6 +141,17 @@ async function main(): Promise<void> {
       }
     }
   }
+  for (const candidate of day.genres.techno) {
+    try {
+      await addTempo(candidate, fetchText);
+    } catch (error) {
+      failures.push({ source: `deezer ${candidate.key}`, reason: String(error) });
+    }
+  }
+  // Techno is only for 120 to 134 BPM, so a song whose tempo is still unknown is left out.
+  day.genres.techno = day.genres.techno.filter(
+    (candidate) => candidate.bpm !== undefined && technoTempo(candidate.bpm),
+  );
 
   const alltime = Object.fromEntries(GENRES.map((genre) => [genre, [] as Candidate[]])) as Record<
     Genre,
