@@ -48,6 +48,23 @@ jobs:
           fi
           ls "$RUNNER_TEMP/history" | tail -3
 
+      - name: Probe techno sources (temporary)
+        if: github.event_name == 'pull_request'
+        run: |
+          for u in \
+            "https://www.beatport.com/genre/techno-peak-time-driving/6/top-100" \
+            "https://www.junodownload.com/techno/charts/bestsellers/this-week/" \
+            "https://www.junodownload.com/techno/" \
+            "https://www.traxsource.com/genre/18/techno/top" \
+            "https://www.traxsource.com/genre/18/techno" \
+            "https://www.1001tracklists.com/charts/weekly/techno/index.html" \
+            "https://api.deezer.com/search/playlist?q=techno%20top" ; do
+            code=$(curl -sL -o /tmp/p.html -w '%{http_code}' -A 'cspnews-music-collect/1.0 (+https://www.cspnews.app)' "$u")
+            echo "=== $code $u $(wc -c < /tmp/p.html) bytes"
+            grep -oiE '(bpm[^<]{0,40}|<title>[^<]*|class="[^"]*(track|title|artist)[^"]*"[^>]*>[^<]{0,60})' /tmp/p.html | head -25
+            head -c 600 /tmp/p.html | tr '\n' ' '; echo
+          done
+
       - name: Read the charts
         run: |
           DATE=$(TZ=Europe/Istanbul date +%F)
