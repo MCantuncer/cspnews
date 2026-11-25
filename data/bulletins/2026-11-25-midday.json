@@ -275,6 +275,12 @@
           "sourceId": "sozcu"
         }
       ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0697b09a30875a04579fd4.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/danistay-ekrem-imamoglunun-diplomasinin-iptalini-onadi-43390351"
+      },
       "sources": [
         {
           "sourceId": "diken",
@@ -322,12 +328,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0694f39a30875a04579fc3.jpg",
-        "sourceId": "hurriyet",
-        "sourceName": "Hürriyet",
-        "articleUrl": "https://www.hurriyet.com.tr/gundem/danistay-ekrem-imamoglunun-diplomasinin-iptalini-onadi-43390351"
-      },
       "publishedAt": "2026-11-25T12:30:00+03:00",
       "updatedAt": "2026-11-25T12:30:00+03:00"
     },
@@ -575,6 +575,12 @@
           "sourceId": "medyascope"
         }
       ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/24/ver1795553199/3929876/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-unlulere-uyusturucu-operasyonu-35-gozalti-3929876"
+      },
       "sources": [
         {
           "sourceId": "onedio",
@@ -627,12 +633,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://im.haberturk.com/l/2026/11/24/ver1795553199/3929876/jpg/1920x1080",
-        "sourceId": "haberturk",
-        "sourceName": "Habertürk",
-        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-unlulere-uyusturucu-operasyonu-35-gozalti-3929876"
-      },
       "publishedAt": "2026-11-25T12:30:00+03:00",
       "updatedAt": "2026-11-25T12:30:00+03:00"
     },
@@ -1281,6 +1281,12 @@
           "sourceId": "euronews-en"
         }
       ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
+      },
       "sources": [
         {
           "sourceId": "scmp-world",
@@ -1303,12 +1309,6 @@
           "confirms": true
         }
       ],
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
-        "sourceId": "bbc-world",
-        "sourceName": "BBC News World",
-        "articleUrl": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
-      },
       "publishedAt": "2026-11-25T12:30:00+03:00",
       "updatedAt": "2026-11-25T12:30:00+03:00"
     },
@@ -1571,6 +1571,163 @@
           "question": "Meta’ya göre yeni yapay zekâ denetçileri insanlardan yüzde kaç daha az hata yapıyor?",
           "options": ["%5", "%13", "%30"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-138",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Kosner Baskonia Vitoria-Gasteiz",
+        "ours": false,
+        "team": "kosner-baskonia-vitoria-gasteiz"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-25T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/138"
+      }
+    },
+    {
+      "id": "espn-401915375",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce",
+        "tr": "Fenerbahce"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Shakhtar Donetsk",
+        "short": "Shakhtar",
+        "ours": false,
+        "team": "shakhtar-donetsk"
+      },
+      "away": {
+        "name": "Fenerbahce",
+        "ours": true,
+        "team": "fenerbahce"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915375"
+      }
+    },
+    {
+      "id": "espn-401915376",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915376"
+      }
+    },
+    {
+      "id": "espn-401909317",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "startsAt": "2026-11-25T22:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909317"
+      }
+    },
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
       }
     }
   ]
