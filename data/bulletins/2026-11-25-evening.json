@@ -1,0 +1,1970 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-25T18:30:00+03:00",
+  "writtenAt": "2026-11-25T17:58:35+03:00",
+  "stories": [
+    {
+      "id": "acc15c003b405f01",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Gold under $3,500 an ounce",
+          "title": "Gold drops below $3,500 an ounce, a 15-month low",
+          "summary": {
+            "what": "The ounce price of gold fell to $3,489.82 on Wednesday, its first dip below $3,500 since 2 September 2025, Cumhuriyet reported.",
+            "why": "Gram gold, the price Turkish savers watch, fell to 5,742.58 lira as bets on a US rate rise and a sell-off in tech shares weighed on the metal.",
+            "next": "The US Federal Reserve decides on rates on 9 December; markets price a 96.4% chance of a rise, Habertürk reported."
+          },
+          "body": [
+            {
+              "subhead": "First time below $3,500 since 2025",
+              "blocks": [
+                {
+                  "text": "Gold fell below $3,500 an ounce on Wednesday for the first time since 2 September 2025, its lowest level in about 15 months. After closing Tuesday at $3,556.13, the ounce rose as high as $3,570 in the morning, then turned lower as selling picked up in the afternoon, Cumhuriyet reported. Around 15:00 Istanbul time it was down about 1.86% at $3,489.82."
+                },
+                {
+                  "text": "Habertürk put the day’s low at $3,499.02, down 1.63%. Diken noted that the ounce had already dropped to $3,502.9 on Friday 20 November, a 14-month low, before rising on 23 November after a nine-day losing streak. Bloomberg HT said the metal lost about 9% last week and is heading for a third month in a row with a fall of more than 6%."
+                }
+              ]
+            },
+            {
+              "subhead": "What it means for gram gold",
+              "blocks": [
+                {
+                  "text": "In Türkiye, savers follow gram gold, which is worked out by dividing the ounce price by 31.10 and multiplying it by the dollar–lira rate, as Diken explained. At 15:43 gram gold was 5,742.58 lira, down 0.70% from Tuesday’s close of 5,783.08 lira, Diken reported. Onedio had put it at about 5,776 lira in the morning."
+                },
+                {
+                  "text": "Other precious metals fell too. Silver dropped below $40 an ounce for the first time since 1 September 2025, Bloomberg HT reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Three pressures on the price",
+              "blocks": [
+                {
+                  "text": "The main one is the US Federal Reserve. After hawkish comments from Fed officials, CME FedWatch data show a 96.4% chance of a 25-basis-point rate rise at the December meeting, Habertürk reported. Gold pays no interest, so it becomes less attractive when rates go up. The Fed’s rate is now 3.75–4.00%, and its next decision is due on 9 December at 22:00 Turkish time, Diken wrote."
+                },
+                {
+                  "text": "The second is the stock market. A sell-off in AI and technology shares has drained cash from markets, and some investors sold gold and silver to cover losses and margin calls, Habertürk reported, citing Reuters. The third is trade: investors are watching new US tariffs on China, the European Union and others, which Diken said raised worries about inflation."
+                }
+              ]
+            },
+            {
+              "subhead": "Funds are pulling back",
+              "blocks": [
+                {
+                  "text": "Demand from funds is also cooling. World Gold Council data show that gold-backed ETF holdings fell to 4,247 tonnes in the week of 20 November, below the record of 4,275 tonnes set at the end of October, Habertürk reported. A stronger dollar adds to the pressure, because it makes gold, priced in dollars, more expensive for buyers using other currencies."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ounce low on Wednesday",
+              "value": "$3,489.82",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Gram gold at 15:43",
+              "value": "5,742.58 lira",
+              "source": "Diken"
+            },
+            {
+              "label": "Odds of a Fed rate rise in December",
+              "value": "96.4%",
+              "source": "Habertürk, citing CME FedWatch"
+            },
+            {
+              "label": "Gold ETF holdings, week of 20 Nov",
+              "value": "4,247 tonnes",
+              "source": "Habertürk, citing the World Gold Council"
+            }
+          ],
+          "series": [
+            {
+              "date": "2026-11-20",
+              "value": "$3,502.9",
+              "label": "14-month low on Friday"
+            },
+            {
+              "date": "2026-11-24",
+              "value": "$3,556.85",
+              "label": "Tuesday close"
+            },
+            {
+              "date": "2026-11-25",
+              "value": "$3,489.82",
+              "label": "Below $3,500 for the first time since 2025"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gold, ounce price",
+            "unit": "$",
+            "before": 3556.13,
+            "after": 3489.82,
+            "source": "Cumhuriyet"
+          }
+        },
+        "tr": {
+          "shortTitle": "Ons altın 3.500 doların altında",
+          "title": "Ons altın 15 ay sonra 3.500 doların altına indi",
+          "summary": {
+            "what": "Ons altın çarşamba günü 3.489,82 dolara geriledi; Cumhuriyet’e göre fiyat 2 Eylül 2025’ten bu yana ilk kez 3.500 doların altını gördü.",
+            "why": "Fed’in faiz artıracağı beklentisi ve teknoloji hisselerindeki satış dalgası altını baskıladı; gram altın 5.742,58 liraya indi.",
+            "next": "Fed faiz kararını 9 Aralık’ta açıklayacak; Habertürk’e göre piyasalar artış ihtimalini %96,4 olarak fiyatlıyor."
+          },
+          "body": [
+            {
+              "subhead": "2025’ten bu yana ilk kez",
+              "blocks": [
+                {
+                  "text": "Ons altın çarşamba günü 2 Eylül 2025’ten bu yana ilk kez 3.500 doların altına inerek yaklaşık 15 ayın en düşük seviyesini gördü. Cumhuriyet’e göre önceki işlem gününü 3.556,13 dolardan kapatan ons, sabah 3.570 dolara kadar çıktı, öğleden sonra hızlanan satışlarla yön değiştirdi. Saat 15.00 sıralarında yaklaşık %1,86 kayıpla 3.489,82 dolara geriledi."
+                },
+                {
+                  "text": "Habertürk günün dibini %1,63 düşüşle 3.499,02 dolar olarak verdi. Diken, onsun geçen cuma (20 Kasım) 3.502,9 dolarla 14 ayın en düşük seviyesini gördüğünü, dokuz günlük düşüş serisinin ardından 23 Kasım’da yükselişe geçtiğini hatırlattı. Bloomberg HT’ye göre değerli metal geçen hafta yaklaşık %9 değer kaybetti ve üst üste üçüncü ayını %6’yı aşan düşüşle kapatmaya hazırlanıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Gram altında son durum",
+              "blocks": [
+                {
+                  "text": "Türkiye’de takip edilen gram altın, Diken’in anlattığı gibi ons fiyatının 31,10’a bölünüp dolar/lira kuruyla çarpılmasıyla hesaplanıyor. Diken’e göre gram altın 15.43’te, dünkü 5.783,08 liralık kapanışın %0,70 altında, 5.742,58 liradan işlem gördü. Onedio sabah saatlerinde gram altını 5.776 lira civarında vermişti."
+                },
+                {
+                  "text": "Diğer değerli metaller de geriledi. Bloomberg HT’ye göre gümüşün onsu 1 Eylül 2025’ten bu yana ilk kez 40 doların altına indi."
+                }
+              ]
+            },
+            {
+              "subhead": "Altını aşağı çeken üç neden",
+              "blocks": [
+                {
+                  "text": "Başta Fed geliyor. Fed yetkililerinin şahin mesajlarının ardından CME FedWatch verileri, aralık toplantısında 25 baz puanlık faiz artırımı ihtimalini %96,4 gösteriyor, Habertürk’ün aktardığına göre. Faiz getirisi olmayan altın, faizler yükseldikçe cazibesini yitiriyor. Diken’e göre ABD’de politika faizi %3,75-4,00 aralığında ve bir sonraki karar 9 Aralık’ta Türkiye saatiyle 22.00’de açıklanacak."
+                },
+                {
+                  "text": "İkinci neden borsalar. Yapay zekâ ve teknoloji hisselerindeki satış dalgası piyasalarda nakit ihtiyacını artırdı; Habertürk’ün Reuters’a dayandırdığı habere göre bazı yatırımcılar zararlarını ve teminat açıklarını kapatmak için altın ve gümüş pozisyonlarını bozdu. Üçüncüsü ticaret: Diken’e göre ABD’nin Çin, AB ve başka ülkelere yönelik yeni gümrük vergisi planları enflasyon kaygılarını artırdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Fonlar da çekiliyor",
+              "blocks": [
+                {
+                  "text": "Fon talebi de zayıflıyor. Habertürk’ün aktardığı Dünya Altın Konseyi verilerine göre altın destekli ETF’lerin varlıkları 20 Kasım haftasında 4.247 tona geriledi ve ekim sonundaki 4.275 tonluk rekorun altına indi. Güçlenen dolar da baskıyı artırıyor: dolar üzerinden fiyatlanan altın, başka para birimi kullanan alıcılar için pahalanıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Çarşamba günü ons dibi",
+              "value": "3.489,82 $",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "15.43’te gram altın",
+              "value": "5.742,58 lira",
+              "source": "Diken"
+            },
+            {
+              "label": "Fed’in aralıkta faiz artırma ihtimali",
+              "value": "%96,4",
+              "source": "Habertürk, CME FedWatch"
+            },
+            {
+              "label": "Altın ETF varlıkları, 20 Kasım haftası",
+              "value": "4.247 ton",
+              "source": "Habertürk, Dünya Altın Konseyi"
+            }
+          ],
+          "series": [
+            {
+              "date": "2026-11-20",
+              "value": "3.502,9 $",
+              "label": "Cuma günü 14 ayın dibi"
+            },
+            {
+              "date": "2026-11-24",
+              "value": "3.556,85 $",
+              "label": "Salı kapanışı"
+            },
+            {
+              "date": "2026-11-25",
+              "value": "3.489,82 $",
+              "label": "2025’ten bu yana ilk kez 3.500 doların altında"
+            }
+          ],
+          "keyNumber": {
+            "label": "Ons altın fiyatı",
+            "unit": "$",
+            "before": 3556.13,
+            "after": 3489.82,
+            "source": "Cumhuriyet"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T05:53:12.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T12:45:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T12:45:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T13:00:02.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:27:56.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/25/ver1795586019/3795599/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/altin-bir-yildan-uzun-surenin-en-dusuk-seviyesinde-3795599"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/altin-bir-yildan-uzun-surenin-en-dusuk-seviyesinde-3795599",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/altin-fiyatlarini-asagi-ceken-3-neden-1397257",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/ekonomi/altin-fiyatlarinda-sert-dusus-15-ayin-en-dusuk-seviyesine-geriledi-2559351",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/15-ay-sonra-ilk-ons-altin-3-bin-500-dolarin-altini-gordu/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/14-ay-sonra-bir-ilk-kritik-seviyenin-altina-indi-3930063",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "09f18e00a6944ad7",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Monitoring commission gets 19 members",
+          "title": "19-member commission to monitor the ‘Terror-free Türkiye’ process takes shape",
+          "summary": {
+            "what": "Speaker Numan Kurtulmuş asked the seven parties in parliament to name members of a 19-seat Monitoring Commission by 17:00 on 30 November.",
+            "why": "The commission is parliament’s oversight body for the process to end the PKK’s armed campaign, but YENİ Parti and İYİ Party say they will stay out.",
+            "next": "Kurtulmuş hopes to hold the first meeting before the budget debate reaches the full assembly, BBC Türkçe reported."
+          },
+          "body": [
+            {
+              "subhead": "Seven parties asked for names",
+              "blocks": [
+                {
+                  "text": "Parliament Speaker Numan Kurtulmuş has written to the seven parties with a group in parliament, asking them to name members for a new Monitoring Commission for the “Terror-free Türkiye” process, the effort to end the PKK’s armed campaign. The names must reach the Speaker’s office by 17:00 on Monday 30 November, A Haber reported, citing the office."
+                },
+                {
+                  "text": "The commission will have 19 members, not counting Kurtulmuş: nine from the AK Party, three from YENİ Parti, two each from the DEM Party and the MHP, and one each from the CHP, the İYİ Party and the Yeni Yol Party. It is set up under the law on national solidarity and social integration that parliament passed with 467 votes on 10 August, Habertürk reported."
+                },
+                {
+                  "text": "The MHP was the first to name its members: deputy chairman Feti Yıldız and Muhammed Levent Bülbül, Cumhuriyet and Sabah reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Two parties say no",
+              "blocks": [
+                {
+                  "text": "YENİ Parti and the İYİ Party have both said they will not join, BBC Türkçe reported. Murat Emir, YENİ Parti’s deputy group chair, answered the Speaker’s call directly, according to Habertürk."
+                },
+                {
+                  "quote": "Our view on the Monitoring Commission is clear. The answer to the Speaker’s letter will not change. We will not name members, we will not take part.",
+                  "speaker": "Murat Emir",
+                  "sourceId": "haberturk",
+                  "translated": true
+                },
+                {
+                  "text": "Kurtulmuş, speaking to reporters on his way to a MIKTA meeting of parliament speakers in Australia, said he would keep inviting both parties until they reply formally. He said it was a better path “for the good of democracy”, Sözcü reported."
+                }
+              ]
+            },
+            {
+              "subhead": "What the commission will do",
+              "blocks": [
+                {
+                  "text": "Kurtulmuş said the commission’s job is not to count weapons in the field. Confirming that the organisation has dissolved itself and laid down its arms is a task for the security and intelligence services, he said, Habertürk reported. Once the National Security Council (MGK) finds that every part of the group has disarmed, it will publish a decision, and the process will enter a new stage."
+                },
+                {
+                  "text": "The commission will follow the process on the nation’s behalf, report on what happens on the ground and recommend legal changes where needed, and it may set up sub-commissions, Habertürk wrote. Most parties have suggested that Kurtulmuş chair it, though BBC Türkçe quoted him as saying he did not know who would lead it. He said he hoped to hold the first meeting before the budget debate reaches the full assembly."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Commission members",
+              "value": "19",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "AK Party seats on the commission",
+              "value": "9",
+              "source": "A Haber"
+            },
+            {
+              "label": "Deadline for parties’ names",
+              "value": "30 Nov, 17:00",
+              "source": "A Haber"
+            },
+            {
+              "label": "Votes for the underlying law",
+              "value": "467",
+              "source": "Habertürk"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İzleme Komisyonu 19 üyeli olacak",
+          "title": "Terörsüz Türkiye için 19 üyeli İzleme Komisyonu kuruluyor",
+          "summary": {
+            "what": "TBMM Başkanı Numan Kurtulmuş, Meclis’te grubu bulunan yedi partiden İzleme Komisyonu üyelerini 30 Kasım saat 17.00’ye kadar bildirmesini istedi.",
+            "why": "Komisyon, PKK’nın silah bırakma sürecinde Meclis’in denetim ayağı olacak; ancak Yeni Parti ve İYİ Parti katılmayacaklarını açıkladı.",
+            "next": "BBC Türkçe’ye göre Kurtulmuş, ilk toplantıyı bütçenin Genel Kurul aşaması başlamadan yapmayı umuyor."
+          },
+          "body": [
+            {
+              "subhead": "Yedi partiye yazı gitti",
+              "blocks": [
+                {
+                  "text": "TBMM Başkanı Numan Kurtulmuş, “Terörsüz Türkiye” süreci için kurulacak İzleme Komisyonu’nda görev alacak milletvekillerinin bildirilmesi için Meclis’te grubu bulunan yedi partiye yazı gönderdi. A Haber’in TBMM Başkanlığının bilgi notuna dayandırdığı habere göre isimlerin 30 Kasım Pazartesi saat 17.00’ye kadar Başkanlığa iletilmesi istendi."
+                },
+                {
+                  "text": "Kurtulmuş hariç 19 üyeden oluşacak komisyonda AK Parti 9, Yeni Parti 3, DEM Parti ve MHP ikişer, CHP, İYİ Parti ve Yeni Yol Partisi birer üyeyle temsil edilecek. Habertürk’e göre komisyon, 10 Ağustos’ta 467 milletvekilinin oyuyla kabul edilen Milli Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun uyarınca kuruluyor."
+                },
+                {
+                  "text": "Üyelerini ilk açıklayan parti MHP oldu: Cumhuriyet ve Sabah’a göre partiden Genel Başkan Yardımcısı Feti Yıldız ile Muhammed Levent Bülbül görevlendirildi."
+                }
+              ]
+            },
+            {
+              "subhead": "İki parti katılmıyor",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’ye göre Yeni Parti ve İYİ Parti komisyona katılmayacaklarını açıkladı. Yeni Parti Grup Başkanvekili Murat Emir, Habertürk’ün aktardığına göre Kurtulmuş’un çağrısına net bir yanıt verdi."
+                },
+                {
+                  "quote": "Bizim İzleme Komisyonu görüşümüz açık, net. Meclis Başkanı’nın yazdığı yazıya cevap değişmeyecektir. Üye vermeyeceğiz, katılmayacağız.",
+                  "speaker": "Murat Emir",
+                  "sourceId": "haberturk"
+                },
+                {
+                  "text": "MIKTA Parlamento Başkanları Toplantısı için Avustralya’ya giderken gazetecilerle konuşan Kurtulmuş ise iki partiyi resmi yanıtlarını gönderene kadar komisyona davet etmeyi sürdüreceğini söyledi. Sözcü’ye göre bunun “demokrasinin selameti bakımından daha doğru bir yol” olduğunu vurguladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Komisyon ne yapacak?",
+              "blocks": [
+                {
+                  "text": "Kurtulmuş, komisyonun görevinin sahada silah saymak olmadığını söyledi. Habertürk’e göre örgütün kendini feshettiğinin ve silah bıraktığının tespiti güvenlik ve istihbarat birimlerinin işi. Milli Güvenlik Kurulu, örgütün bütün unsurlarıyla silah bıraktığını tespit ederse bir karar yayımlayacak ve süreç yeni bir aşamaya geçecek."
+                },
+                {
+                  "text": "Habertürk’ün aktardığına göre komisyon süreci millet adına izleyecek, sahadaki gelişmeleri raporlayacak, gerektiğinde yasal düzenleme önerecek ve alt komisyonlar kurabilecek. Partilerin çoğu başkanlığı Kurtulmuş’un üstlenmesini önerdi; ancak BBC Türkçe’ye göre Kurtulmuş komisyona kimin başkanlık edeceğini bilmediğini söyledi. İlk toplantının bütçenin Genel Kurul aşaması başlamadan yapılmasını umduğunu belirtti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Komisyon üye sayısı",
+              "value": "19",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "AK Parti’nin üye sayısı",
+              "value": "9",
+              "source": "A Haber"
+            },
+            {
+              "label": "İsimler için son tarih",
+              "value": "30 Kasım, 17.00",
+              "source": "A Haber"
+            },
+            {
+              "label": "Yasaya verilen oy",
+              "value": "467",
+              "source": "Habertürk"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T04:53:00.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:39:28.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T07:39:28.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T09:57:57.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T09:57:57.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T10:57:52.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T13:09:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:21:50.000Z",
+          "sourceId": "aa-tr"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/ws/976/cpsprodpb/8a4a/live/45240ca0-e8ae-11f1-869a-f96fd5660210.jpg",
+        "sourceId": "bbc-turkce",
+        "sourceName": "BBC Türkçe",
+        "articleUrl": "https://www.bbc.com/turkce/articles/cqlymzd4l1r5o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/25/terorsuz-turkiyede-yeni-asama-19-uyeli-komisyonun-detaylari-paylasildi",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/kurtulmus-izleme-komisyonu-icin-7-partiye-yazi-gonderdi-p384244",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cqlymzd4l1r5o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-kurtulmus-komisyon-19-uyeden-olusacak-3929903",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/25/mhpnin-izleme-komisyonu-uyeleri-belli-oldu",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/erdogan-dan-ozgur-ozel-e-izleme-komisyonu-tepkisi-nasil-mizikcilik-yaptiklarini-goruyorsunuz-2559362",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/mhpde-izleme-komisyonu-uyeleri-belli-oldu/4137653",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "5fef179900077320",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Nine held over ZDF gang interview",
+          "title": "Nine Daltonlar gang suspects held after armed interview with Germany’s ZDF",
+          "summary": {
+            "what": "Istanbul police detained nine suspected members of the Daltonlar gang who appeared with guns in a documentary by German public broadcaster ZDF.",
+            "why": "The raids came as the Interior Ministry said 280 suspects were caught in 60 provinces in a crackdown on “new-generation” crime gangs.",
+            "next": "The nine were taken to Istanbul police headquarters for questioning, and the investigation continues, Sabah and A Haber reported."
+          },
+          "body": [
+            {
+              "subhead": "Raids after the documentary",
+              "blocks": [
+                {
+                  "text": "Istanbul police detained nine people on Wednesday morning who are believed to belong to the Daltonlar, one of the groups Turkish authorities call “new-generation crime organisations”, after some of them gave an interview to Germany’s public broadcaster ZDF while holding guns. Police studied footage shared on social media on 23 November that showed the men speaking to foreign journalists inside a car, Hürriyet reported."
+                },
+                {
+                  "text": "Searches of their homes turned up one unlicensed pistol, 28 rounds of 9mm ammunition and three laptops, which police believe were used for illegal betting, Hürriyet and Sabah reported. Sabah said the nine were caught at a gang “cell house” in Istanbul’s Bahçelievler district, and that two of the men in the car had been processed by the city’s organised crime police before."
+                }
+              ]
+            },
+            {
+              "subhead": "‘More guns than we can count’",
+              "blocks": [
+                {
+                  "text": "ZDF made a 65-minute documentary on the gang for its digital platform and posted it on YouTube on 23 November, Sözcü reported. In footage shared by ZDF reporter Thomas Heise, masked gang members boast about their arsenal."
+                },
+                {
+                  "quote": "We have more guns than we can count.",
+                  "speaker": "Daltonlar gang members",
+                  "sourceId": "sozcu",
+                  "translated": true
+                },
+                {
+                  "text": "According to Sözcü, the Daltonlar operate in Türkiye and in European countries and have become known for attacks from motorcycles and for assassinations. A Haber said the film is part of a three-part series titled “Murder without borders”. Sabah said police concluded that the 21-minute first part aired by the channel amounted to propaganda for the gang."
+                }
+              ]
+            },
+            {
+              "subhead": "280 held in 60 provinces",
+              "blocks": [
+                {
+                  "text": "The raids came on the same day the Interior Ministry announced that 280 suspects had been caught in operations against new-generation crime organisations in 60 provinces, A Haber reported; Sözcü put the number of provinces at 61. The operations were ordered by Interior Minister Mustafa Çiftçi and run by the police organised crime department with prosecutors, the intelligence agency MİT and the police cyber crime unit."
+                },
+                {
+                  "text": "The suspects are accused of armed attacks, shooting at and setting fire to property, illegal arms trading and spreading gang propaganda on social media. The ministry said it would keep up the fight against people who encourage crime online and against gangs that target young people. Istanbul police struck the same note."
+                },
+                {
+                  "quote": "Our fight will continue with determination so that no crime and no criminal goes unpunished.",
+                  "speaker": "Istanbul Police Department",
+                  "sourceId": "sozcu",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Detained over the ZDF interview",
+              "value": "9",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Held in the nationwide crackdown",
+              "value": "280",
+              "source": "Interior Ministry, via A Haber"
+            },
+            {
+              "label": "Provinces in the crackdown",
+              "value": "60",
+              "source": "A Haber"
+            },
+            {
+              "label": "Length of the ZDF documentary",
+              "value": "65 min",
+              "source": "Sözcü"
+            }
+          ],
+          "place": {
+            "name": "Bahçelievler",
+            "lat": 41,
+            "lon": 28.86,
+            "region": "Istanbul, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "ZDF röportajı sonrası 9 gözaltı",
+          "title": "ZDF’ye silahlı röportaj veren Daltonlar üyelerinden 9 kişi gözaltında",
+          "summary": {
+            "what": "İstanbul polisi, Alman kamu yayıncısı ZDF’nin belgeselinde silahlarıyla görünen Daltonlar suç örgütü üyesi olduğu değerlendirilen 9 kişiyi gözaltına aldı.",
+            "why": "Operasyon, İçişleri Bakanlığının yeni nesil suç örgütlerine yönelik 60 ilde 280 şüphelinin yakalandığını açıkladığı gün geldi.",
+            "next": "Sabah ve A Haber’e göre şüpheliler sorgulanmak üzere İstanbul Emniyet Müdürlüğüne götürüldü; soruşturma sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Belgeselin ardından baskın",
+              "blocks": [
+                {
+                  "text": "İstanbul polisi çarşamba sabahı, “yeni nesil suç örgütleri” arasında sayılan Daltonlar’ın üyesi olduğu değerlendirilen 9 kişiyi gözaltına aldı. Şüphelilerin bir kısmı, Almanya’nın kamu yayıncısı ZDF’ye ellerinde silahlarla röportaj vermişti. Hürriyet’e göre ekipler, 23 Kasım’da sosyal medyada paylaşılan ve bu kişilerin bir araç içinde yabancı gazetecilerle konuştuğu görüntüleri inceledi."
+                },
+                {
+                  "text": "Hürriyet ve Sabah’a göre adreslerde yapılan aramalarda 1 ruhsatsız tabanca, 28 adet 9 milimetre fişek ve yasa dışı bahiste kullanıldığı değerlendirilen 3 dizüstü bilgisayar ele geçirildi. Sabah, dokuz kişinin Bahçelievler’deki bir örgüt “hücre evinde” yakalandığını, araçta röportaj verenlerden ikisinin daha önce de Organize Suçlarla Mücadele Şubesinde işlem gördüğünü yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Sayamayacağımız kadar silahımız var”",
+              "blocks": [
+                {
+                  "text": "Sözcü’ye göre ZDF, dijital platformu için hazırladığı 65 dakikalık belgeseli 23 Kasım’da YouTube’da yayımladı. ZDF muhabiri Thomas Heise’nin paylaştığı görüntülerde maskeli örgüt üyeleri silahlarıyla övünüyor."
+                },
+                {
+                  "quote": "Sayamayacağımız kadar silahımız var.",
+                  "speaker": "Daltonlar örgütü üyeleri",
+                  "sourceId": "sozcu"
+                },
+                {
+                  "text": "Sözcü’ye göre Türkiye’nin yanı sıra Avrupa ülkelerinde de faaliyet gösteren Daltonlar, özellikle motosikletli saldırılar ve suikastlarla gündeme geldi. A Haber, belgeselin “Sınır tanımayan cinayet” adlı üç bölümlük bir serinin parçası olduğunu yazdı. Sabah’a göre emniyet, kanalın yayımladığı 21 dakikalık ilk bölümde örgüt propagandası yapıldığını tespit etti."
+                }
+              ]
+            },
+            {
+              "subhead": "60 ilde 280 gözaltı",
+              "blocks": [
+                {
+                  "text": "Operasyon, İçişleri Bakanlığının 60 ilde yeni nesil suç örgütlerine yönelik operasyonlarda 280 şüphelinin yakalandığını duyurduğu gün yapıldı; Sözcü il sayısını 61 olarak verdi. A Haber’e göre İçişleri Bakanı Mustafa Çiftçi’nin talimatıyla yürütülen operasyonlar KOM Başkanlığı ile Cumhuriyet başsavcılıklarının koordinasyonunda yapıldı; MİT ile emniyetin istihbarat ve siber birimleri de katıldı."
+                },
+                {
+                  "text": "Şüpheliler silahlı eylemler, kurşunlama ve kundaklama, yasa dışı silah ticareti ve sosyal medyada örgüt propagandasıyla suçlanıyor. Bakanlık, sosyal medyada suça özendirenlere ve gençleri hedef alan yapılanmalara karşı mücadelenin süreceğini açıkladı. İstanbul Emniyet Müdürlüğü de benzer bir mesaj verdi."
+                },
+                {
+                  "quote": "Hiçbir suç ve suçlunun cezasız kalmaması için mücadelemiz kararlılıkla devam edecek.",
+                  "speaker": "İstanbul Emniyet Müdürlüğü",
+                  "sourceId": "sozcu"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "ZDF röportajı nedeniyle gözaltı",
+              "value": "9",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Ülke genelinde yakalanan",
+              "value": "280",
+              "source": "İçişleri Bakanlığı, A Haber"
+            },
+            {
+              "label": "Operasyon yapılan il",
+              "value": "60",
+              "source": "A Haber"
+            },
+            {
+              "label": "ZDF belgeselinin süresi",
+              "value": "65 dk",
+              "source": "Sözcü"
+            }
+          ],
+          "place": {
+            "name": "Bahçelievler",
+            "lat": 41,
+            "lon": 28.86,
+            "region": "İstanbul, Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T08:47:47.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T09:10:02.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T09:10:02.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T09:23:37.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T10:22:55.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T11:50:13.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T12:44:16.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b06a5ad9a30875a0457a0d5.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/istanbulda-yabanci-basina-silahla-roportaj-veren-suc-orgutune-operasyon-9-gozalti-43390492"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/25/60-ilde-yeni-nesil-suc-orgutlerine-operasyon-280-supheli-yakalandi",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/sozde-belgeselde-silahli-poz-veren-daltonlara-operasyon-9-orgut-uyesi-yakalandi-7709054",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/istanbulda-yabanci-basina-silahla-roportaj-veren-suc-orgutune-operasyon-9-gozalti-43390492",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/daltonlar-in-belgesel-sovu-48-saat-surdu-sayamayacagimiz-kadar-silahimiz-var-demislerdi-p384285",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-zdfye-silahli-roportaj-veren-daltonlar-uyelerine-istanbulda-baskin-1752551",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-60-ilde-280-kisi-yakalandi-yeni-nesil-suc-orgutlerine-darbe-3929975",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/25/istanbulda-daltonlar-operasyonu-alman-kanali-zdfnin-belgeselinde-yer-alan-9-kisi-gozaltind",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "9d204a99ce77317c",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Amazon may unblock Meta’s Muse",
+          "title": "Amazon in talks to let Meta’s Muse agent shop on its store",
+          "summary": {
+            "what": "Amazon and Meta have held several rounds of talks about letting Meta’s Muse AI agent buy directly from Amazon’s store, Fortune reported.",
+            "why": "It would reverse Amazon’s block on the agent, and test how the biggest online shop deals with AI agents that shop for people.",
+            "next": "Search results and advertising are still being negotiated, and any deal would need both CEOs’ approval, according to Fortune."
+          },
+          "body": [
+            {
+              "subhead": "A possible reversal",
+              "blocks": [
+                {
+                  "text": "Amazon and Meta have held several rounds of talks about letting Muse, Meta’s AI agent, connect directly to Amazon’s store, TechCrunch reported on Wednesday, citing Fortune, which spoke to people familiar with the discussions. A deal would end the block Amazon put on the agent."
+                },
+                {
+                  "text": "That would be a significant reversal from two months ago, when Muse users found they could not buy products on Amazon and got an error message when they tried to check out, TechCrunch wrote. Any agreement would need the approval of both companies’ chief executives, Fortune reported. Neither Amazon nor Meta responded to requests for comment from TechCrunch and The Verge."
+                }
+              ]
+            },
+            {
+              "subhead": "Ads and search results",
+              "blocks": [
+                {
+                  "text": "Two issues are still on the table: how search results would be presented, and how advertising would be handled. Amazon’s ad business depends on real people seeing ads across its marketplace, so it is concerned it could lose revenue if an agent does the browsing instead, The Verge reported, citing Fortune. Amazon is also worried about the quality of the product results Muse would show its users, and about what the agent would do to its relationship with customers."
+                },
+                {
+                  "text": "Executives fear that outside shopping agents could weaken Amazon’s direct link with consumers, according to Fortune. In October, Amazon chief executive Andy Jassy argued that few customers were buying through such agents, TechCrunch noted. TechCrunch added that Amazon may also have been waiting for Muse to mature: if the agent placed a wrong order or a purchase went wrong, Amazon could be left with frustrated customers and unhappy sellers."
+                }
+              ]
+            },
+            {
+              "subhead": "Other shops already let agents in",
+              "blocks": [
+                {
+                  "text": "Some retailers, among them Walmart, Best Buy, Gap and Sephora, already let AI agents like Muse shop on their sites, The Verge noted. Amazon has been more hesitant. It has also blocked Perplexity’s AI agent from shopping on its site, and has put its weight behind its own assistant, Alexa for Shopping, which customers can now text to shop on their behalf."
+                },
+                {
+                  "text": "For Meta, access to Amazon would open the largest online store to an agent that TechCrunch describes as popular. For Amazon, the talks are a test of how far it is willing to let other companies’ AI stand between it and its shoppers."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "When Amazon blocked Muse checkouts",
+              "value": "2 months ago",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Issues still being negotiated",
+              "value": "2",
+              "source": "Fortune, via TechCrunch"
+            },
+            {
+              "label": "Sign-off a deal would need",
+              "value": "Both CEOs",
+              "source": "Fortune, via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Amazon, Muse engelini kaldırabilir",
+          "title": "Amazon, Meta’nın yapay zekâ ajanı Muse için mağaza kapısını açmayı görüşüyor",
+          "summary": {
+            "what": "Fortune’a göre Amazon ve Meta, Meta’nın yapay zekâ ajanı Muse’un Amazon’dan doğrudan alışveriş yapabilmesi için birkaç tur görüştü.",
+            "why": "Anlaşma Amazon’un Muse’a koyduğu engeli kaldıracak ve en büyük çevrim içi mağazanın insanlar adına alışveriş yapan ajanlara bakışını sınayacak.",
+            "next": "Fortune’a göre arama sonuçları ve reklam konuları hâlâ masada; olası bir anlaşma için iki şirketin CEO’sunun onayı gerekiyor."
+          },
+          "body": [
+            {
+              "subhead": "Geri adım ihtimali",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın Fortune’a dayandırdığı habere göre Amazon ve Meta, Meta’nın yapay zekâ ajanı Muse’un doğrudan Amazon mağazasına bağlanabilmesi için birkaç tur görüşme yaptı. Fortune, bilgiyi görüşmelere yakın kişilerden aldı. Bir anlaşma, Amazon’un ajana koyduğu engeli kaldıracak."
+                },
+                {
+                  "text": "TechCrunch’a göre bu, iki ay önceki tablodan büyük bir dönüş olur: O dönemde Muse kullanıcıları Amazon’da ürün alamadıklarını, ödeme adımında hata mesajıyla karşılaştıklarını fark etmişti. Fortune’a göre olası bir anlaşmanın iki şirketin de CEO’su tarafından onaylanması gerekiyor. Amazon ve Meta, TechCrunch ile The Verge’ün yorum taleplerine yanıt vermedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Reklam ve arama sonuçları",
+              "blocks": [
+                {
+                  "text": "Masada iki konu var: arama sonuçlarının nasıl gösterileceği ve reklamların nasıl ele alınacağı. The Verge’ün Fortune’a dayandırdığı habere göre Amazon’un reklam işi, pazar yerindeki reklamları gerçek insanların görmesine dayanıyor; şirket, gezinmeyi bir ajan yaptığında gelir kaybetmekten endişe ediyor. Amazon ayrıca Muse’un kullanıcılara sunacağı ürün sonuçlarının kalitesinden ve ajanın müşteri ilişkisine etkisinden kaygılı."
+                },
+                {
+                  "text": "Fortune’a göre yöneticiler, dış alışveriş ajanlarının Amazon’un tüketiciyle doğrudan bağını zayıflatmasından korkuyor. TechCrunch, Amazon CEO’su Andy Jassy’nin ekim ayında bu tür ajanlar üzerinden alışveriş yapan müşterilerin az olduğunu savunduğunu hatırlattı. TechCrunch’a göre Amazon, Muse’un olgunlaşmasını da beklemiş olabilir: Ajan yanlış sipariş verirse ya da bir alışveriş sorunlu biterse, öfkeli müşterilerle ve memnuniyetsiz satıcılarla uğraşmak Amazon’a kalabilir."
+                }
+              ]
+            },
+            {
+              "subhead": "Başka mağazalar kapıyı açtı",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre Walmart, Best Buy, Gap ve Sephora gibi bazı perakendeciler Muse gibi yapay zekâ ajanlarının sitelerinde alışveriş yapmasına zaten izin veriyor. Amazon ise daha temkinli. Şirket Perplexity’nin yapay zekâ ajanını da engelledi ve ağırlığını, müşterilerin artık mesaj atarak kendi adlarına alışveriş yaptırabildiği kendi asistanı Alexa for Shopping’e verdi."
+                },
+                {
+                  "text": "Meta için Amazon’a erişim, TechCrunch’ın popüler diye tanımladığı ajanına en büyük çevrim içi mağazayı açmak demek. Amazon için ise görüşmeler, başka şirketlerin yapay zekâsının kendisiyle müşterisi arasına ne kadar girmesine izin vereceğinin sınavı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Amazon’un Muse’u engellemesi",
+              "value": "2 ay önce",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Hâlâ pazarlığı süren konu",
+              "value": "2",
+              "source": "Fortune, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Anlaşma için gereken onay",
+              "value": "İki CEO",
+              "source": "Fortune, TechCrunch aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T14:10:18.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:12:33.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T14:12:33.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "65e4432b20796ce6",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Todoist breach hits 6% of users",
+          "title": "Hacker stole data of about 6% of Todoist users",
+          "summary": {
+            "what": "Task app Todoist said a hacker used stolen credentials to get into its systems on 22–23 November and took data on about 6% of its customers.",
+            "why": "Email addresses, password hashes and integration tokens were taken, and for a few users the hacker searched tasks for passwords to other services.",
+            "next": "Todoist has reset passwords and is asking affected users to change reused passwords, renew API tokens and reconnect integrations."
+          },
+          "body": [
+            {
+              "subhead": "What was taken",
+              "blocks": [
+                {
+                  "text": "The task management app Todoist said on Tuesday that a hacker got into its production systems and stole customer data, including email addresses, password hashes and the dates accounts were created, TechCrunch reported. About 6% of its customers were affected, the company said."
+                },
+                {
+                  "text": "The hacker downloaded the credentials of early Todoist users whose passwords were stored with an older hashing method. The attacker also took Todoist API tokens and Slack integration tokens. For accounts connected to the Todoist for Outlook extension with permission to read email, the hacker looked for email addresses, postal addresses and the names of attached files."
+                },
+                {
+                  "text": "For a very small group, about 0.001% of users, the hacker went further and searched through tasks, comments and attachment names for credentials to other services, such as API keys and access tokens, according to the company."
+                }
+              ]
+            },
+            {
+              "subhead": "How the hacker got in",
+              "blocks": [
+                {
+                  "text": "Todoist blamed stolen credentials. It said the attacker used them to reach the company’s version control system and source code between 22 and 23 November, then changed employees’ access controls and got into the app’s cloud infrastructure through an employee’s work account. The hacker did not change any source code, the company said."
+                },
+                {
+                  "text": "Todoist said it has blocked the route the attacker used, reset passwords and switched off the Todoist for Outlook add-on. It has also rebuilt its internal access structure and changed how remote commands are run in its cloud environment. The company’s founder and chief executive, Amir Salihefendić, apologised to users on X and said Todoist would look closely at why it happened."
+                }
+              ]
+            },
+            {
+              "subhead": "What users should do",
+              "blocks": [
+                {
+                  "text": "The company has written to affected users and asked them to reset their credentials, and to change their login details anywhere else they used the same password. It also asks them to renew API tokens, reconnect integrations, and revoke or replace any access keys, recovery phrases or credentials they had stored in Todoist comments."
+                },
+                {
+                  "text": "TechCrunch said the breach is the latest in a growing list of attacks this year in which hackers used stolen credentials to get into company systems, including at Uber and Klue."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Customers affected",
+              "value": "About 6%",
+              "source": "Todoist, via TechCrunch"
+            },
+            {
+              "label": "Dates of the intrusion",
+              "value": "22–23 Nov",
+              "source": "Todoist, via TechCrunch"
+            },
+            {
+              "label": "Users whose tasks were searched",
+              "value": "About 0.001%",
+              "source": "Todoist, via TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Todoist’te veri sızıntısı",
+          "title": "Todoist’e saldırı: kullanıcıların yaklaşık yüzde 6’sının verileri çalındı",
+          "summary": {
+            "what": "Görev uygulaması Todoist, bir hacker’ın 22-23 Kasım’da çalıntı kimlik bilgileriyle sistemlerine girip müşterilerinin yaklaşık %6’sının verilerini aldığını açıkladı.",
+            "why": "E-posta adresleri, parola özetleri ve entegrasyon token’ları çalındı; birkaç kullanıcının görevlerinde başka servislerin parolaları arandı.",
+            "next": "Todoist parolaları sıfırladı; etkilenenlerden aynı parolayı kullandıkları yerleri değiştirmelerini, API token’larını yenilemelerini istiyor."
+          },
+          "body": [
+            {
+              "subhead": "Neler çalındı?",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın haberine göre görev yönetimi uygulaması Todoist salı günü, bir hacker’ın üretim sistemlerine sızarak e-posta adresleri, parola özetleri (hash) ve hesap açılış tarihleri dahil müşteri verilerini çaldığını açıkladı. Şirkete göre müşterilerin yaklaşık %6’sı etkilendi."
+                },
+                {
+                  "text": "Saldırgan, parolaları eski bir yöntemle saklanan ilk dönem kullanıcılarının kimlik bilgilerini indirdi. Todoist API token’larını ve Slack entegrasyon token’larını da aldı. Todoist for Outlook eklentisi bağlı ve e-posta okuma izni olan hesaplarda ise e-posta adreslerini, adresleri ve ek dosya adlarını taradı."
+                },
+                {
+                  "text": "Şirkete göre kullanıcıların yaklaşık %0,001’ini oluşturan çok küçük bir grupta hacker daha da ileri giderek görevlerde, yorumlarda ve ek adlarında API anahtarı, erişim token’ı gibi başka servislere ait kimlik bilgilerini aradı."
+                }
+              ]
+            },
+            {
+              "subhead": "Saldırgan nasıl girdi?",
+              "blocks": [
+                {
+                  "text": "Todoist, saldırıyı çalıntı kimlik bilgilerine bağladı. Şirkete göre saldırgan bu bilgilerle 22-23 Kasım’da sürüm kontrol sistemine ve kaynak koda erişti, ardından çalışan erişim yetkilerini değiştirdi ve bir çalışanın iş hesabı üzerinden uygulamanın bulut altyapısına ulaştı. Şirket, kaynak kodda herhangi bir değişiklik yapılmadığını söyledi."
+                },
+                {
+                  "text": "Todoist saldırı yolunu kapattığını, parolaları sıfırladığını ve Todoist for Outlook eklentisini devre dışı bıraktığını açıkladı. İç erişim yapısını ve bulut ortamında uzaktan komut çalıştırma yöntemini de yeniledi. Kurucu ve CEO Amir Salihefendić, X’te kullanıcılardan özür diledi ve olayın neden yaşandığını yakından inceleyeceklerini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kullanıcılar ne yapmalı?",
+              "blocks": [
+                {
+                  "text": "Şirket etkilenen kullanıcılara bildirim gönderdi; kimlik bilgilerini sıfırlamalarını ve aynı parolayı kullandıkları başka yerlerde de giriş bilgilerini değiştirmelerini istedi. Kullanıcılardan ayrıca API token’larını yenilemeleri, entegrasyonları yeniden bağlamaları ve Todoist yorumlarında sakladıkları erişim anahtarlarını, kurtarma ifadelerini ve parolaları iptal edip değiştirmeleri isteniyor."
+                },
+                {
+                  "text": "TechCrunch’a göre bu sızıntı, bu yıl Uber ve Klue gibi şirketlerin de hedef olduğu, çalıntı kimlik bilgileriyle yapılan saldırılar listesine eklenen son örnek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Etkilenen müşteri",
+              "value": "Yaklaşık %6",
+              "source": "Todoist, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Sızma tarihleri",
+              "value": "22-23 Kasım",
+              "source": "Todoist, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Görevleri taranan kullanıcı",
+              "value": "Yaklaşık %0,001",
+              "source": "Todoist, TechCrunch aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T14:20:28.000Z",
+          "sourceId": "techcrunch"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "7b92222b7a2895e5",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "US proposes tariffs on 14 economies",
+          "title": "US proposes new tariffs on 14 economies, including 20% on China",
+          "summary": {
+            "what": "The US Trade Representative proposed new tariffs on 14 economies, including China, the EU and Japan, after an eight-month probe into excess industrial capacity.",
+            "why": "The duties would rebuild part of Trump’s tariff wall after the Supreme Court struck it down in February, and could raise prices further.",
+            "next": "After public comments and a hearing, the tariffs are unlikely to take effect before January, a senior US official said."
+          },
+          "body": [
+            {
+              "subhead": "Fourteen economies on the list",
+              "blocks": [
+                {
+                  "text": "The Trump administration on Wednesday proposed new tariffs on 14 economies, among them China, the European Union, Japan and South Korea, after the US Trade Representative’s office finished an eight-month investigation into “structural excess industrial capacity” in 16 trading partners, the Guardian reported, citing Reuters. The list is China, Bangladesh, Cambodia, the EU, India, Indonesia, Japan, South Korea, Malaysia, Singapore, Switzerland, Taiwan, Thailand and Vietnam. Mexico and Norway were investigated but left out for now, Euronews reported."
+                },
+                {
+                  "text": "China faces a proposed 20% tariff, the joint-highest for any economy, France 24 reported. For some Chinese goods it would come on top of existing duties, for a total of about 45%, according to the Guardian and Euronews. Bloomberg HT listed 15% for the EU, Japan, South Korea and Switzerland, 18% for Thailand and 10% for Singapore, while 20% for Vietnam and 17% for India depend on reaching a deal. Brazil was singled out separately, with a proposed 10% tariff on aircraft that would hit the planemaker Embraer, the Guardian reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Rebuilding the tariff wall",
+              "blocks": [
+                {
+                  "text": "The duties rest on Section 301 of the Trade Act of 1974, which lets Washington retaliate against trade practices it considers unfair. They are also meant to replace some of the revenue lost after the Supreme Court ruled in February that Trump could not declare an economic emergency to impose across-the-board tariffs, France 24 reported. The administration says cheap imports from these partners helped push the US goods trade deficit to $1.24 trillion in 2025, Euronews reported."
+                },
+                {
+                  "text": "The rates are still proposals. A public comment period and a hearing mean they are unlikely to take effect before January, a senior official said. US Trade Representative Jamieson Greer played down the risk to the world economy, the Guardian reported."
+                },
+                {
+                  "quote": "We’ve talked to our trading partners about this — they know what we’re proposing. I think a lot of this is baked in.",
+                  "speaker": "Jamieson Greer",
+                  "sourceId": "guardian-business"
+                }
+              ]
+            },
+            {
+              "subhead": "Beijing pushes back",
+              "blocks": [
+                {
+                  "text": "Before the announcement, China’s foreign ministry spokesman Guo Jiakun said the “so-called excess capacity” claim did not reflect reality and urged both sides to carry out the understanding their leaders reached, Bloomberg HT reported. The US official said the tariffs were not expected to undermine the US–China trade truce, which ends on 10 January, Euronews reported."
+                },
+                {
+                  "quote": "Tariff wars and trade wars are in no one’s interest.",
+                  "speaker": "Guo Jiakun",
+                  "sourceId": "euronews-tr",
+                  "translated": true
+                },
+                {
+                  "text": "The move comes weeks after Trump’s Republicans lost both houses of Congress in midterm elections dominated by the cost of living, France 24 noted. US consumer inflation was 3.7% in September, and France 24 said firms are now more likely to pass the extra costs on to shoppers."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Economies facing new tariffs",
+              "value": "14",
+              "source": "USTR, via the Guardian"
+            },
+            {
+              "label": "Proposed tariff on China",
+              "value": "20%",
+              "source": "France 24"
+            },
+            {
+              "label": "Rate for the EU, Japan, South Korea",
+              "value": "15%",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "US goods trade deficit, 2025",
+              "value": "$1.24tn",
+              "source": "Euronews"
+            },
+            {
+              "label": "Earliest start",
+              "value": "January",
+              "source": "Senior US official, via France 24"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "ABD’den 14 ekonomiye yeni tarife",
+          "title": "ABD, Çin ve AB dahil 14 ekonomiye yeni gümrük vergisi önerdi",
+          "summary": {
+            "what": "ABD Ticaret Temsilciliği, aşırı üretim kapasitesine dair sekiz aylık soruşturmanın ardından Çin, AB ve Japonya dahil 14 ekonomiye yeni gümrük vergisi önerdi.",
+            "why": "Vergiler, Yüksek Mahkeme’nin şubatta iptal ettiği tarife duvarının bir kısmını yeniden kuracak ve fiyatları artırabilir.",
+            "next": "Üst düzey bir ABD’li yetkiliye göre kamuoyu görüşü ve duruşma süreci nedeniyle vergiler ocaktan önce yürürlüğe girmeyecek."
+          },
+          "body": [
+            {
+              "subhead": "Listede 14 ekonomi var",
+              "blocks": [
+                {
+                  "text": "Trump yönetimi çarşamba günü, aralarında Çin, Avrupa Birliği, Japonya ve Güney Kore’nin de bulunduğu 14 ekonomiye yeni gümrük vergileri önerdi. Guardian’ın Reuters’a dayandırdığı habere göre öneri, ABD Ticaret Temsilciliği’nin (USTR) 16 ticaret ortağındaki “yapısal aşırı sanayi kapasitesine” ilişkin sekiz aylık soruşturmasının ardından geldi. Listede Çin, Bangladeş, Kamboçya, AB, Hindistan, Endonezya, Japonya, Güney Kore, Malezya, Singapur, İsviçre, Tayvan, Tayland ve Vietnam var. Euronews’e göre Meksika ve Norveç de incelendi, ancak şimdilik listenin dışında tutuldu."
+                },
+                {
+                  "text": "France 24’e göre Çin için önerilen %20’lik oran, tüm ekonomiler arasında en yüksek oranla eşit. Guardian ve Euronews’e göre bazı Çin malları için bu vergi mevcut vergilerin üzerine eklenecek ve toplam oran yaklaşık %45’e çıkacak. Bloomberg HT’ye göre AB, Japonya, Güney Kore ve İsviçre için %15, Tayland için %18, Singapur için %10 öneriliyor; Vietnam için %20 ve Hindistan için %17’lik oranlar ise anlaşma sağlanmasına bağlı. Guardian’a göre Brezilya ayrıca hedef alındı: Ülkenin en büyük uçak üreticisi Embraer’i vuracak %10’luk bir uçak vergisi önerildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Tarife duvarı yeniden örülüyor",
+              "blocks": [
+                {
+                  "text": "Vergilerin dayanağı, ABD’ye haksız gördüğü ticari uygulamalara karşılık verme yetkisi tanıyan 1974 Ticaret Yasası’nın 301. maddesi. France 24’e göre yeni vergiler, Yüksek Mahkeme’nin şubatta Trump’ın ekonomik olağanüstü hal ilan ederek genel gümrük vergisi koyamayacağına hükmetmesinin ardından kaybedilen gelirin bir kısmını da telafi edecek. Euronews’e göre yönetim, bu ortaklardan gelen ucuz ithalatın ABD’nin mal ticareti açığını 2025’te 1,24 trilyon dolara çıkardığını savunuyor."
+                },
+                {
+                  "text": "Oranlar henüz öneri aşamasında. Üst düzey bir yetkiliye göre kamuoyu görüşü ve duruşma süreci, uygulamanın ocak ayından önce başlamasını zorlaştırıyor. Guardian’a göre ABD Ticaret Temsilcisi Jamieson Greer, dünya ekonomisi için riskin abartılmaması gerektiğini söyledi."
+                },
+                {
+                  "quote": "Bunu ticaret ortaklarımızla konuştuk, ne önerdiğimizi biliyorlar. Bence bunun büyük kısmı zaten fiyatlandı.",
+                  "speaker": "Jamieson Greer",
+                  "sourceId": "guardian-business",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Pekin’den tepki",
+              "blocks": [
+                {
+                  "text": "Bloomberg HT’ye göre Çin Dışişleri Bakanlığı Sözcüsü Guo Jiakun, açıklamadan önce “sözde aşırı kapasite” iddiasının gerçeği yansıtmadığını söyledi ve iki tarafı liderlerin vardığı mutabakatı uygulamaya çağırdı. Euronews’e göre ABD’li yetkili, vergilerin 10 Ocak’ta sona erecek ABD-Çin ticaret ateşkesini zayıflatmasını beklemediklerini söyledi."
+                },
+                {
+                  "quote": "Gümrük vergisi savaşları ve ticaret savaşları kimsenin çıkarına değildir.",
+                  "speaker": "Guo Jiakun",
+                  "sourceId": "euronews-tr",
+                  "translated": true
+                },
+                {
+                  "text": "France 24, adımın Trump’ın Cumhuriyetçilerinin hayat pahalılığının belirlediği ara seçimlerde Kongre’nin iki kanadını da kaybetmesinden haftalar sonra geldiğine dikkat çekti. ABD’de tüketici enflasyonu eylülde %3,7 oldu; France 24’e göre şirketlerin ek maliyeti tüketiciye yansıtma ihtimali artıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yeni vergi önerilen ekonomi",
+              "value": "14",
+              "source": "USTR, Guardian aracılığıyla"
+            },
+            {
+              "label": "Çin için önerilen oran",
+              "value": "%20",
+              "source": "France 24"
+            },
+            {
+              "label": "AB, Japonya, Güney Kore için oran",
+              "value": "%15",
+              "source": "Bloomberg HT"
+            },
+            {
+              "label": "ABD mal ticareti açığı, 2025",
+              "value": "1,24 trilyon $",
+              "source": "Euronews"
+            },
+            {
+              "label": "En erken başlangıç",
+              "value": "Ocak",
+              "source": "Üst düzey ABD’li yetkili, France 24"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T09:33:59.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:16:54.000Z",
+          "sourceId": "guardian-business"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T14:16:54.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:38:47.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:49:57.000Z",
+          "sourceId": "bbc-business"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/799ca916-e47f-11f1-a351-1bac47ab2f5d/w:1024/p:16x9/2026-11-19T200647Z-677358732-RC2LKOAOVK5M-RTRMADP-3-USA-TRUMP-NEW-YORK-TIMES.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat"
+      },
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-business",
+          "url": "https://www.theguardian.com/business/live/2026/nov/25/rise-energy-bills-britain-2166-impossible-high-millions-households-stocks-tumble-as-ai-rally-fizzles-live-updates",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-business",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/cin-abd-nin-gumruk-vergisi-hazirligi-siyasi-manevra-3795624",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/25/abdnin-14-ticaret-ortagina-onerdigi-yeni-tarifeler-ab-de-listede",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "8baf0c8a65bad741",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Shanghai party chief under investigation",
+          "title": "China investigates Shanghai party chief Chen Jining, fourth Politburo member probed",
+          "summary": {
+            "what": "China’s anti-graft watchdog is investigating Chen Jining, Shanghai’s Communist Party chief and a Politburo member, for “serious violations of discipline and law”.",
+            "why": "Chen was seen as a rising star and a contender for the top leadership; he is the fourth Politburo member probed since 2025.",
+            "next": "A public probe of an official of his rank usually signals his downfall, the Guardian wrote, ahead of the party congress in late 2027."
+          },
+          "body": [
+            {
+              "subhead": "A surprise announcement",
+              "blocks": [
+                {
+                  "text": "China has opened an investigation into Chen Jining, the Communist Party secretary of Shanghai and a member of the party’s elite Politburo, the state news agency Xinhua announced on Tuesday. The Central Commission for Discipline Inspection is investigating him for “suspected severe violations of discipline and laws”, a common euphemism for corruption, the Guardian reported. The brief statement gave no further details, NPR said."
+                },
+                {
+                  "text": "He is the fourth member of the Politburo formed in 2022 to be investigated since 2025, after Gen. Zhang Youxia and He Weidong of the Central Military Commission and Ma Xingrui, a provincial party secretary, according to the Guardian and NPR. For an official of Chen’s rank, a public announcement of a probe generally signals political downfall, the Guardian wrote. Shanghai’s party leadership “expressed firm support” for the decision, NPR reported."
+                }
+              ]
+            },
+            {
+              "subhead": "A scientist who rose to the top",
+              "blocks": [
+                {
+                  "text": "Chen, 62, is an environmental scientist by training. He joined the party at 20 while studying at Tsinghua University, spent a decade doing research in the United Kingdom, earned a doctorate from Imperial College London and became one of Tsinghua’s youngest presidents in 2012, the Guardian and Al Jazeera reported. He was environment minister from 2015 to 2017, mayor of Beijing from 2018, and Shanghai party chief from 2022."
+                },
+                {
+                  "text": "The Shanghai post is often a springboard to the top: Xi Jinping held it in 2007, as did former president Jiang Zemin and current premier Li Qiang, NPR noted. Chen hosted visitors including Antony Blinken and Giorgia Meloni, and opened this year’s World AI Conference, Al Jazeera reported. The hashtag about his investigation had about 240 million views on Weibo by Wednesday morning, the Guardian said."
+                },
+                {
+                  "quote": "This is arguably the biggest political news to come out of China in a few years.",
+                  "speaker": "Taisu Zhang, Yale Law School",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "No letting up",
+              "blocks": [
+                {
+                  "text": "The probe is the latest step in Xi’s anti-corruption campaign, which has thinned the party’s senior ranks and the military’s top command ahead of the party congress in the second half of 2027, where Xi is expected to secure a fourth term, Al Jazeera reported."
+                },
+                {
+                  "quote": "The takedown again shows that Xi Jinping’s anti-corruption campaign has no limits.",
+                  "speaker": "Mingda Qiu, Eurasia Group",
+                  "sourceId": "npr-world"
+                },
+                {
+                  "text": "Joseph Torigian of American University told NPR that the purged officials looked on paper like “individuals Xi would appreciate”, yet were still removed."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Politburo members probed since 2025",
+              "value": "4",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Chen’s age",
+              "value": "62",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Shanghai party chief since",
+              "value": "2022",
+              "source": "NPR"
+            },
+            {
+              "label": "Weibo views of the hashtag",
+              "value": "240m",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "Shanghai",
+            "lat": 31.23,
+            "lon": 121.47,
+            "region": "China"
+          }
+        },
+        "tr": {
+          "shortTitle": "Şanghay’ın parti şefine soruşturma",
+          "title": "Çin, Şanghay parti sekreteri Chen Jining hakkında soruşturma başlattı",
+          "summary": {
+            "what": "Çin’in yolsuzlukla mücadele kurulu, Politbüro üyesi ve Şanghay Komünist Parti sekreteri Chen Jining’i “ciddi disiplin ve yasa ihlalleri” şüphesiyle soruşturuyor.",
+            "why": "Yükselen yıldız ve üst yönetim adayı olarak görülen Chen, 2025’ten bu yana soruşturulan dördüncü Politbüro üyesi oldu.",
+            "next": "Guardian’a göre bu düzeyde bir yetkili hakkında soruşturmanın açıklanması genellikle siyasi sonu anlamına geliyor."
+          },
+          "body": [
+            {
+              "subhead": "Sürpriz açıklama",
+              "blocks": [
+                {
+                  "text": "Devlet haber ajansı Xinhua salı günü, Şanghay Komünist Parti sekreteri ve partinin seçkin organı Politbüro’nun üyesi Chen Jining hakkında soruşturma başlatıldığını duyurdu. Guardian’a göre Merkezi Disiplin Denetleme Komisyonu, Chen’i yolsuzluk için sık kullanılan bir ifadeyle “ciddi disiplin ve yasa ihlalleri” şüphesiyle soruşturuyor. NPR’a göre kısa açıklamada başka ayrıntı verilmedi."
+                },
+                {
+                  "text": "Guardian ve NPR’a göre Chen, 2022’de oluşturulan Politbüro’dan 2025’ten bu yana soruşturulan dördüncü üye. Daha önce Merkezi Askeri Komisyon’dan General Zhang Youxia ile He Weidong ve eyalet parti sekreteri Ma Xingrui tasfiye edilmişti. Guardian, bu rütbedeki bir yetkili hakkında soruşturmanın açıklanmasının genellikle siyasi sonu işaret ettiğini yazdı. Şanghay parti yönetimi karara “kararlı destek” verdiğini açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Bilim insanından parti zirvesine",
+              "blocks": [
+                {
+                  "text": "Guardian ve Al Jazeera’ya göre 62 yaşındaki Chen, çevre bilimci. Tsinghua Üniversitesi’nde öğrenciyken 20 yaşında partiye katıldı, Birleşik Krallık’ta on yıl araştırma yaptı, Imperial College London’da doktorasını tamamladı ve 2012’de Tsinghua’nın en genç rektörlerinden biri oldu. 2015-2017 arasında çevre bakanlığı, 2018’den itibaren Pekin belediye başkanlığı yaptı, 2022’de Şanghay parti sekreteri oldu."
+                },
+                {
+                  "text": "NPR’a göre Şanghay görevi zirveye giden bir basamak olarak görülüyor: Şi Cinping 2007’de, eski devlet başkanı Jiang Zemin ve bugünkü başbakan Li Qiang da bu görevde bulundu. Al Jazeera’ya göre Chen, Antony Blinken ve Giorgia Meloni gibi konukları ağırladı, bu yılki Dünya Yapay Zekâ Konferansı’nı açtı. Guardian’a göre soruşturmayla ilgili etiket çarşamba sabahına kadar Weibo’da yaklaşık 240 milyon kez görüntülendi."
+                },
+                {
+                  "quote": "Bu, muhtemelen son birkaç yılda Çin’den çıkan en büyük siyasi haber.",
+                  "speaker": "Taisu Zhang, Yale Hukuk Fakültesi",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Yavaşlama yok",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre soruşturma, Şi’nin dördüncü dönemini garantilemesi beklenen 2027’nin ikinci yarısındaki parti kongresi öncesinde partinin üst kademelerini ve ordunun komuta kademesini incelten yolsuzlukla mücadele kampanyasının son adımı."
+                },
+                {
+                  "quote": "Bu tasfiye, Şi Cinping’in yolsuzlukla mücadele kampanyasının sınır tanımadığını bir kez daha gösteriyor.",
+                  "speaker": "Mingda Qiu, Eurasia Group",
+                  "sourceId": "npr-world",
+                  "translated": true
+                },
+                {
+                  "text": "American University’den Joseph Torigian, NPR’a tasfiye edilen yetkililerin kâğıt üzerinde “Şi’nin takdir edeceği kişiler” gibi göründüğünü, buna rağmen görevden alındıklarını söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2025’ten bu yana soruşturulan Politbüro üyesi",
+              "value": "4",
+              "source": "Guardian"
+            },
+            {
+              "label": "Chen’in yaşı",
+              "value": "62",
+              "source": "Guardian"
+            },
+            {
+              "label": "Şanghay parti sekreterliği",
+              "value": "2022’den beri",
+              "source": "NPR"
+            },
+            {
+              "label": "Etiketin Weibo’daki görüntülenmesi",
+              "value": "240 milyon",
+              "source": "Guardian"
+            }
+          ],
+          "place": {
+            "name": "Şanghay",
+            "lat": 31.23,
+            "lon": 121.47,
+            "region": "Çin"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T01:31:46.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T09:44:13.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T09:44:13.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T10:50:26.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge",
+          "confirms": true
+        },
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/who-is-chen-jining-chinas-latest-politburo-member-under-investigation?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    },
+    {
+      "id": "8f4161a071dc6248",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Solomons pick Australia over China",
+          "title": "Solomon Islands signs security treaty with Australia after ending China pact",
+          "summary": {
+            "what": "The Solomon Islands signed a treaty making Australia its main security partner, after reportedly telling China it would not renew their 2022 pact.",
+            "why": "The China pact had raised fears of a Chinese military foothold in the Pacific; the new treaty bars foreign bases on the islands.",
+            "next": "Australia will provide A$740m over 10 years for education and other programmes, Al Jazeera reported; talks with China are “ongoing”."
+          },
+          "body": [
+            {
+              "subhead": "A ‘historic’ treaty",
+              "blocks": [
+                {
+                  "text": "The Solomon Islands has signed a “historic” treaty with Australia, after reportedly telling China it was ending a controversial security pact signed in 2022, the BBC reported. At a press conference in Canberra on Wednesday, Australian Prime Minister Anthony Albanese and his Solomon Islands counterpart Matthew Wale said the treaty makes Australia the Pacific nation’s “security partner of choice”."
+                },
+                {
+                  "text": "Australian media reported on Tuesday that Honiara had told Beijing it would not renew the pact, which is understood to expire in April 2027. Wale said discussions with China were “ongoing” but that he could not talk about the pact because of a non-disclosure agreement, the BBC reported."
+                },
+                {
+                  "quote": "Solomon Islands has been for a number of years a source of uncertainty and doubt in the region. Those days are gone.",
+                  "speaker": "Matthew Wale",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "No foreign bases",
+              "blocks": [
+                {
+                  "text": "Under the treaty, the Solomon Islands will allow no foreign military or security bases, and its sensitive infrastructure will stay “free from militarisation, foreign interference and unauthorised access”, Al Jazeera reported. That covers ports, airports, energy, telecommunications and road and bridge building, areas China has dominated there through its Belt and Road Initiative. Honiara must also consult Australia before deals on critical infrastructure or security, unless they are with members of the Pacific Islands Forum, which China is not part of."
+                },
+                {
+                  "text": "In return, Australia will provide A$740m ($490m) over the next 10 years for free education and other programmes, Al Jazeera reported; the country’s GDP is $1.75bn, according to the World Bank. The BBC said Australia’s ABC had reported a package of more than A$980m, citing leaked text messages the BBC could not verify."
+                },
+                {
+                  "quote": "Backing our Pacific neighbours is an investment in Australia’s own security and our own prosperity.",
+                  "speaker": "Anthony Albanese",
+                  "sourceId": "bbc-world"
+                }
+              ]
+            },
+            {
+              "subhead": "A blow to Beijing",
+              "blocks": [
+                {
+                  "text": "The 2022 pact, signed under then prime minister Manasseh Sogavare, was never published, but leaked excerpts showed it gave China a wide role in security and policing and allowed a quasi-military base, the BBC reported. Connor Graham of the Lowy Institute called it a “massive coup” for Beijing at the time, and said the new treaty was “an enormous win for Canberra”."
+                },
+                {
+                  "text": "China’s foreign ministry did not confirm whether the pact had ended. Its spokesman, Guo Jiakun, said cooperation with Pacific island countries had “no element of geopolitical rivalry”, and the ministry warned that the Australian deal “should not target any third party”, the BBC and Al Jazeera reported. Australia has signed similar deals with Papua New Guinea, Vanuatu and Fiji."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Australian funding over 10 years",
+              "value": "A$740m",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Solomon Islands GDP",
+              "value": "$1.75bn",
+              "source": "World Bank, via Al Jazeera"
+            },
+            {
+              "label": "China pact signed",
+              "value": "2022",
+              "source": "BBC"
+            },
+            {
+              "label": "China pact was due to expire",
+              "value": "Apr 2027",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Honiara",
+            "lat": -9.43,
+            "lon": 159.95,
+            "region": "Solomon Islands"
+          }
+        },
+        "tr": {
+          "shortTitle": "Solomon Adaları Avustralya’yı seçti",
+          "title": "Solomon Adaları, Çin paktının ardından Avustralya ile güvenlik anlaşması imzaladı",
+          "summary": {
+            "what": "Solomon Adaları, Çin’e 2022 tarihli paktı yenilemeyeceğini bildirdiği belirtilirken Avustralya’yı ana güvenlik ortağı yapan bir anlaşma imzaladı.",
+            "why": "Çin paktı, Pasifik’te bir Çin askeri üssü kaygısı doğurmuştu; yeni anlaşma adalarda yabancı üsse izin vermiyor.",
+            "next": "Al Jazeera’ya göre Avustralya 10 yılda eğitim ve başka programlar için 740 milyon Avustralya doları verecek; Çin’le görüşmeler “sürüyor”."
+          },
+          "body": [
+            {
+              "subhead": "“Tarihi” anlaşma",
+              "blocks": [
+                {
+                  "text": "BBC’nin haberine göre Solomon Adaları, Çin’e 2022’de imzalanan tartışmalı güvenlik paktını sona erdirdiğini bildirdiği belirtilirken Avustralya ile “tarihi” bir anlaşma imzaladı. Avustralya Başbakanı Anthony Albanese ve Solomon Adaları Başbakanı Matthew Wale, çarşamba günü Kanberra’daki basın toplantısında anlaşmanın Avustralya’yı ülkenin “tercih edilen güvenlik ortağı” yaptığını söyledi."
+                },
+                {
+                  "text": "Avustralya basını salı günü, Honiara’nın Pekin’e Nisan 2027’de sona ermesi beklenen paktı yenilemeyeceğini bildirdiğini yazmıştı. BBC’ye göre Wale, Çin’le görüşmelerin “sürdüğünü”, ancak gizlilik anlaşması nedeniyle pakt hakkında konuşamayacağını söyledi."
+                },
+                {
+                  "quote": "Solomon Adaları yıllardır bölgede bir belirsizlik ve şüphe kaynağıydı. O günler geride kaldı.",
+                  "speaker": "Matthew Wale",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Yabancı üs yok",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre anlaşmayla Solomon Adaları topraklarında yabancı askeri ya da güvenlik üssüne izin vermeyecek, hassas altyapısı “militarizasyondan, yabancı müdahaleden ve yetkisiz erişimden uzak” tutulacak. Bu, Çin’in Kuşak ve Yol Girişimi ile hâkim olduğu limanları, havalimanlarını, enerji ve telekomünikasyonu, yol ve köprü yapımını kapsıyor. Honiara, Çin’in üyesi olmadığı Pasifik Adaları Forumu üyeleri dışındaki ülkelerle kritik altyapı ya da güvenlik anlaşması yapmadan önce Avustralya’ya danışacak."
+                },
+                {
+                  "text": "Al Jazeera’ya göre karşılığında Avustralya, önümüzdeki 10 yılda ücretsiz eğitim ve başka programlar için 740 milyon Avustralya doları (490 milyon dolar) sağlayacak; Dünya Bankası verilerine göre ülkenin GSYH’si 1,75 milyar dolar. BBC, Avustralya yayın kuruluşu ABC’nin sızdırılan mesajlara dayanarak paketin 980 milyon Avustralya dolarını aştığını yazdığını, ancak bunu doğrulayamadığını belirtti."
+                },
+                {
+                  "quote": "Pasifik’teki komşularımıza destek olmak, Avustralya’nın kendi güvenliğine ve refahına yapılmış bir yatırımdır.",
+                  "speaker": "Anthony Albanese",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Pekin için bir darbe",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre dönemin başbakanı Manasseh Sogavare döneminde imzalanan 2022 paktı hiç yayımlanmadı; ancak sızan bölümler Çin’e güvenlik ve polislikte geniş bir rol ve yarı askeri bir üs kurma imkânı tanıdığını gösteriyordu. Lowy Enstitüsü’nden Connor Graham, paktı o dönem Pekin için “büyük bir zafer” olarak nitelendirdi, yeni anlaşmayı ise “Kanberra için muazzam bir kazanım” olarak gördü."
+                },
+                {
+                  "text": "Çin Dışişleri Bakanlığı paktın sona erip ermediğini doğrulamadı. BBC ve Al Jazeera’ya göre Sözcü Guo Jiakun, Pasifik ada ülkeleriyle iş birliğinde “jeopolitik rekabet unsuru olmadığını” söyledi; bakanlık Avustralya ile yapılan anlaşmanın “üçüncü bir tarafı hedef almaması gerektiği” uyarısında bulundu. Avustralya daha önce Papua Yeni Gine, Vanuatu ve Fiji ile de benzer anlaşmalar yapmıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Avustralya’nın 10 yıllık desteği",
+              "value": "740 milyon A$",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Solomon Adaları GSYH’si",
+              "value": "1,75 milyar $",
+              "source": "Dünya Bankası, Al Jazeera"
+            },
+            {
+              "label": "Çin paktının imzası",
+              "value": "2022",
+              "source": "BBC"
+            },
+            {
+              "label": "Çin paktının bitiş tarihi",
+              "value": "Nisan 2027",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Honiara",
+            "lat": -9.43,
+            "lon": 159.95,
+            "region": "Solomon Adaları"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T03:15:12.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T13:02:45.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T13:02:45.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/33d1/live/b36a7310-e87d-11f1-98e2-c97dce6bef0d.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/solomon-islands-signs-security-deal-with-australia?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T18:30:00+03:00",
+      "updatedAt": "2026-11-25T18:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "acc15c003b405f01",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Below which ounce price did gold fall on Wednesday for the first time since September 2025?",
+          "options": ["$3,000", "$3,500", "$4,000"]
+        },
+        "tr": {
+          "question": "Ons altın çarşamba günü Eylül 2025’ten bu yana ilk kez hangi seviyenin altına indi?",
+          "options": ["3.000 dolar", "3.500 dolar", "4.000 dolar"]
+        }
+      }
+    },
+    {
+      "storyId": "7b92222b7a2895e5",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "What tariff rate has the US proposed for China?",
+          "options": ["10%", "15%", "20%"]
+        },
+        "tr": {
+          "question": "ABD, Çin için hangi gümrük vergisi oranını önerdi?",
+          "options": ["%10", "%15", "%20"]
+        }
+      }
+    },
+    {
+      "storyId": "8f4161a071dc6248",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How much will Australia give the Solomon Islands over 10 years, per Al Jazeera?",
+          "options": ["A$740m", "A$74m", "A$7.4bn"]
+        },
+        "tr": {
+          "question": "Al Jazeera’ya göre Avustralya, Solomon Adaları’na 10 yılda ne kadar verecek?",
+          "options": ["740 milyon A$", "74 milyon A$", "7,4 milyar A$"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-138",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Kosner Baskonia Vitoria-Gasteiz",
+        "ours": false,
+        "team": "kosner-baskonia-vitoria-gasteiz"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-25T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/138"
+      }
+    },
+    {
+      "id": "espn-401915375",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce",
+        "tr": "Fenerbahce"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Shakhtar Donetsk",
+        "short": "Shakhtar",
+        "ours": false,
+        "team": "shakhtar-donetsk"
+      },
+      "away": {
+        "name": "Fenerbahce",
+        "ours": true,
+        "team": "fenerbahce"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915375"
+      }
+    },
+    {
+      "id": "espn-401915376",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915376"
+      }
+    },
+    {
+      "id": "espn-401909317",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "startsAt": "2026-11-25T22:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909317"
+      }
+    },
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
+      }
+    }
+  ]
+}
