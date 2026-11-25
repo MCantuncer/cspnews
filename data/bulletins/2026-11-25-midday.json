@@ -1,0 +1,1577 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-25T12:30:00+03:00",
+  "writtenAt": "2026-11-25T11:59:05+03:00",
+  "stories": [
+    {
+      "id": "ac88460309ecb004",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "İmamoğlu’s diploma cancellation is final",
+          "title": "Top court makes İmamoğlu’s diploma cancellation final, threatening his candidacy",
+          "summary": {
+            "what": "The Council of State’s 8th Chamber unanimously rejected Ekrem İmamoğlu’s appeal, so Istanbul University’s cancellation of his 1994 degree is now final.",
+            "why": "A university degree is required to run for president, so the ruling puts the jailed mayor’s candidacy in doubt, DW Türkçe and Diken reported.",
+            "next": "İmamoğlu is also on trial for forgery over the diploma; the next hearing is on 25 December 2026, Diken reported."
+          },
+          "body": [
+            {
+              "subhead": "The last appeal rejected",
+              "blocks": [
+                {
+                  "text": "Türkiye’s Council of State, the top administrative court, has upheld the cancellation of the university diploma of Ekrem İmamoğlu, the jailed mayor of Istanbul. Its 8th Chamber ruled that the grounds of appeal did not justify overturning the lower court and confirmed that court’s decision unanimously, Hürriyet reported, citing Anadolu Agency. With that, the cancellation of his bachelor’s degree is final."
+                },
+                {
+                  "text": "According to DW Türkçe, the ruling was uploaded to UYAP, the judiciary’s online case system. DW noted that the pro-government daily Sabah had reported on 19 November that the court had decided this way. Cumhuriyet said the ruling appeared in Sabah days before İmamoğlu’s lawyers had seen it."
+                }
+              ]
+            },
+            {
+              "subhead": "Twenty months in court",
+              "blocks": [
+                {
+                  "text": "Istanbul University’s board cancelled the degree on 18 March 2025, one day before İmamoğlu was detained in the investigation into the Istanbul municipality. It cited “nullity” and “manifest error”, and the same decision cancelled the transfers and diplomas of 28 people in all, A Haber reported. İmamoğlu had graduated from the university’s business faculty in 1994."
+                },
+                {
+                  "text": "His lawyers sued on 6 May 2025. The Istanbul 5th Administrative Court rejected the case unanimously on 23 January 2026, and the regional administrative court turned down the appeal on 13 May 2026, Hürriyet reported. Diken said the file reached the Council of State on 17 June."
+                },
+                {
+                  "text": "The reasoned ruling says the university he transferred from in Northern Cyprus was not recognised by the higher education board YÖK at the time, that transfer quotas were raised improperly and that no ranking of applicants was made, Onedio reported."
+                }
+              ]
+            },
+            {
+              "subhead": "What it means for 2028",
+              "blocks": [
+                {
+                  "text": "A four-year university degree is one of the conditions for standing for president in Türkiye. For İmamoğlu, the ruling “means the road to candidacy is closed”, DW Türkçe wrote. Diken said the candidacy was now “in danger”."
+                },
+                {
+                  "text": "His wife, Dilek İmamoğlu, criticised the case at a meeting on 20 November, Diken reported."
+                },
+                {
+                  "quote": "Cancelling a diploma that a person earned rightfully, with their own effort, is a heavy blow to legal certainty and acquired rights.",
+                  "speaker": "Dilek İmamoğlu",
+                  "sourceId": "diken",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "The forgery trial goes on",
+              "blocks": [
+                {
+                  "text": "Separately, İmamoğlu is on trial on a charge of serial forgery of official documents over the diploma. Prosecutors are seeking a prison sentence of two years and six months to eight years and nine months, and a ban from politics, Diken reported. The next hearing is on 25 December 2026."
+                },
+                {
+                  "text": "The indictment says he used the document to apply for a master’s degree, for military service and with the Supreme Election Council, Hürriyet reported. It also says he was recorded on transfer as a student of Eastern Mediterranean University, the only school in Northern Cyprus that YÖK recognised then, although he was enrolled at University College of Northern Cyprus."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Degree cancelled by the university",
+              "value": "18 Mar 2025",
+              "source": "A Haber"
+            },
+            {
+              "label": "Year of graduation",
+              "value": "1994",
+              "source": "A Haber"
+            },
+            {
+              "label": "Sentence sought in the forgery case",
+              "value": "2y 6m – 8y 9m",
+              "source": "Diken"
+            },
+            {
+              "label": "Next forgery hearing",
+              "value": "25 Dec 2026",
+              "source": "Diken"
+            }
+          ],
+          "series": [
+            {
+              "date": "2025-03-18",
+              "value": "Cancelled",
+              "label": "Istanbul University board cancels the degree"
+            },
+            {
+              "date": "2026-01-23",
+              "value": "Case rejected",
+              "label": "Istanbul 5th Administrative Court rejects the suit"
+            },
+            {
+              "date": "2026-05-13",
+              "value": "Appeal rejected",
+              "label": "Regional administrative court rejects the appeal"
+            },
+            {
+              "date": "2026-11-25",
+              "value": "Upheld",
+              "label": "Council of State ruling made public"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "İmamoğlu’nun diploma iptali kesinleşti",
+          "title": "Danıştay onadı: İmamoğlu’nun diploma iptali kesinleşti",
+          "summary": {
+            "what": "Danıştay 8. Dairesi temyiz başvurusunu oy birliğiyle reddetti; İstanbul Üniversitesinin Ekrem İmamoğlu’nun 1994 tarihli diplomasını iptal kararı kesinleşti.",
+            "why": "Cumhurbaşkanı adaylığı için lisans diploması şart; DW Türkçe ve Diken’e göre karar tutuklu başkanın adaylığını tehlikeye sokuyor.",
+            "next": "İmamoğlu’nun diploma nedeniyle sahtecilikten yargılandığı davanın bir sonraki duruşması 25 Aralık 2026’da, Diken’e göre."
+          },
+          "body": [
+            {
+              "subhead": "Son itiraz da reddedildi",
+              "blocks": [
+                {
+                  "text": "Danıştay, tutuklu İstanbul Büyükşehir Belediye Başkanı Ekrem İmamoğlu’nun üniversite diplomasının iptalini onadı. Hürriyet’in Anadolu Ajansı’na dayandırdığı habere göre Danıştay 8. Dairesi, temyiz nedenlerinin kararın bozulmasını gerektirecek nitelikte olmadığına hükmetti ve bölge idare mahkemesinin kararını oy birliğiyle onadı. Böylece lisans diplomasının iptali kesinleşti."
+                },
+                {
+                  "text": "DW Türkçe, kararın UYAP’a yüklendiğini yazdı ve iktidara yakın Sabah gazetesinin 19 Kasım’da Danıştay’ın bu yönde karar verdiğini iddia ettiğini hatırlattı. Cumhuriyet de kararın, İmamoğlu’nun avukatları henüz ulaşamadan Sabah’ta günler önce duyurulduğunu aktardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yirmi aylık hukuk mücadelesi",
+              "blocks": [
+                {
+                  "text": "İstanbul Üniversitesi Yönetim Kurulu diplomayı, İmamoğlu’nun İBB soruşturmasında gözaltına alınmasından bir gün önce, 18 Mart 2025’te “yokluk” ve “açık hata” gerekçeleriyle iptal etmişti. A Haber’e göre aynı kararla toplam 28 kişinin yatay geçişi ve diploması iptal edildi. İmamoğlu, İşletme Fakültesinden 1994’te mezun olmuştu."
+                },
+                {
+                  "text": "Avukatlar 6 Mayıs 2025’te dava açtı. Hürriyet’e göre İstanbul 5. İdare Mahkemesi davayı 23 Ocak 2026’da oy birliğiyle reddetti, istinaf başvurusu da 13 Mayıs 2026’da reddedildi. Diken, dosyanın 17 Haziran’da Danıştay’a taşındığını yazdı."
+                },
+                {
+                  "text": "Onedio’nun aktardığı gerekçeli kararda, yatay geçişin yapıldığı dönemde KKTC’deki okulun YÖK tarafından tanınmadığı, kontenjanların usulsüz artırıldığı ve başarı sıralaması yapılmadığı tespitlerine yer verildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Adaylık tehlikede",
+              "blocks": [
+                {
+                  "text": "Türkiye’de cumhurbaşkanı adaylığı için dört yıllık lisans diploması şartı aranıyor. DW Türkçe, İmamoğlu için kararın “adaylık yolunun kapanması anlamına geldiğini” yazdı. Diken’e göre adaylık artık “tehlikede”."
+                },
+                {
+                  "text": "Eşi Dilek İmamoğlu, 20 Kasım’daki bir buluşmada kararı eleştirmişti, Diken’in aktardığına göre:"
+                },
+                {
+                  "quote": "Bir insanın hakkıyla, emeğiyle aldığı diplomasının iptal edilmesi hukuk güvenliği ve kazanılmış haklara indirilmiş ağır bir darbedir.",
+                  "speaker": "Dilek İmamoğlu",
+                  "sourceId": "diken"
+                }
+              ]
+            },
+            {
+              "subhead": "Sahtecilik davası sürüyor",
+              "blocks": [
+                {
+                  "text": "İmamoğlu ayrıca diploma nedeniyle “zincirleme şekilde resmi belgede sahtecilik” suçlamasıyla yargılanıyor. Diken’e göre davada 2 yıl 6 aydan 8 yıl 9 aya kadar hapis ve siyasi yasak isteniyor; bir sonraki duruşma 25 Aralık 2026’da."
+                },
+                {
+                  "text": "Hürriyet’in aktardığı iddianameye göre belge yüksek lisans başvurusunda, askerlik işlemlerinde ve Yüksek Seçim Kurulunda kullanıldı. İddianamede ayrıca İmamoğlu’nun yatay geçişte, o dönem KKTC’de YÖK’ün tanıdığı tek okul olan Doğu Akdeniz Üniversitesinin öğrencisi gibi kaydedildiği, oysa University College of Northern Cyprus’a kayıtlı olduğu belirtiliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Üniversitenin iptal kararı",
+              "value": "18 Mart 2025",
+              "source": "A Haber"
+            },
+            {
+              "label": "Mezuniyet yılı",
+              "value": "1994",
+              "source": "A Haber"
+            },
+            {
+              "label": "Sahtecilik davasında istenen ceza",
+              "value": "2 yıl 6 ay – 8 yıl 9 ay",
+              "source": "Diken"
+            },
+            {
+              "label": "Sahtecilik davasında sıradaki duruşma",
+              "value": "25 Aralık 2026",
+              "source": "Diken"
+            }
+          ],
+          "series": [
+            {
+              "date": "2025-03-18",
+              "value": "İptal",
+              "label": "İstanbul Üniversitesi Yönetim Kurulu diplomayı iptal etti"
+            },
+            {
+              "date": "2026-01-23",
+              "value": "Dava reddedildi",
+              "label": "İstanbul 5. İdare Mahkemesi davayı reddetti"
+            },
+            {
+              "date": "2026-05-13",
+              "value": "İstinaf reddedildi",
+              "label": "Bölge idare mahkemesi istinafı reddetti"
+            },
+            {
+              "date": "2026-11-25",
+              "value": "Onandı",
+              "label": "Danıştay kararı duyuldu"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T07:38:42.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:58:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T07:58:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:58:06.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T08:03:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T08:15:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T08:38:24.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T08:38:50.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T08:46:52.000Z",
+          "sourceId": "sozcu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/imamoglunun-cumhurbaskanligi-yoluna-danistay-engeli/",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/danistay-ekrem-imamoglunun-diplomasinin-iptalini-onadi-43390351",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/25/ekrem-imamoglunun-diplomasinin-iptali-davasinda-karar-kesinlesti",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/danistay-ekrem-imamoglu-nun-diplomasinin-iptali-kararini-resmen-onayladi-1397220",
+          "confirms": false
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/ekrem-i%CC%87mamo%C4%9Flu-nun-diploma-iptali-kesinle%C5%9Fti/a-80043434?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/imamoglu-nun-diploma-davasi-nda-danistay-in-onama-gerekcesi-ortaya-cikti-2559248",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-imamoglunun-diploma-iptaline-onama-3929957",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/danistay-8-idari-dairesi-imamoglunun-diplomasinin-iptali-kararini-onadi-1751606",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/danistay-dan-imamoglu-nun-diploma-iptaline-onama-p384261",
+          "confirms": true
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0694f39a30875a04579fc3.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/danistay-ekrem-imamoglunun-diplomasinin-iptalini-onadi-43390351"
+      },
+      "publishedAt": "2026-11-25T12:30:00+03:00",
+      "updatedAt": "2026-11-25T12:30:00+03:00"
+    },
+    {
+      "id": "9b599f2a9cac60d7",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Özcan Deniz held in drug probe",
+          "title": "Özcan Deniz, Deniz Çakır and Burcu Özberk detained in celebrity drug probe",
+          "summary": {
+            "what": "Istanbul prosecutors ordered 35 people detained in a drugs and prostitution inquiry; 24 were in custody by Wednesday morning, among them several well-known actors and singers.",
+            "why": "It is a new wave of the investigation into celebrities and drugs, now reaching some of the best-known names on Turkish television.",
+            "next": "Suspects are giving statements at the Istanbul courthouse, and police are still looking for the remaining 11, Haberler.com reported."
+          },
+          "body": [
+            {
+              "subhead": "Thirty-five detention orders",
+              "blocks": [
+                {
+                  "text": "The Istanbul Chief Public Prosecutor’s Office has ordered the detention of 35 people in a new operation in its investigation into drug use among celebrities, A Haber and Habertürk reported. The inquiry is run by the office’s bureau for smuggling, narcotics and economic crimes and covers prostitution, trading in drugs, supplying drugs, and using or possessing them."
+                },
+                {
+                  "text": "The first detentions came late on Tuesday evening. Habertürk reported 19 people held overnight and Hürriyet and Euronews Türkçe 23 by early Wednesday. By the morning Cumhuriyet, NTV and Medyascope put the number at 24, and the search for the others was continuing."
+                },
+                {
+                  "text": "The office said the orders rested on suspects’ statements, witness testimony, expert reports on seized phones and digital material, and the accounts of secret witnesses."
+                },
+                {
+                  "quote": "Detention orders have been issued for 35 suspects in the investigation opened on suspicion that drugs were used or possessed, and the public is informed that the investigation is continuing in all its aspects.",
+                  "speaker": "Istanbul Chief Public Prosecutor’s Office",
+                  "sourceId": "a-haber",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Familiar names",
+              "blocks": [
+                {
+                  "text": "The singer and actor Özcan Deniz and the actress Deniz Çakır were the first names to become public, Onedio reported. They were followed by Burcu Özberk, the lead of the series Anne Yarısı, which aired its ninth episode on Tuesday evening, and the singer and Survivor presenter Murat Ceylan."
+                },
+                {
+                  "text": "A list published by Haberler.com also includes Murat Başoğlu, the director Mehmet Can Karcı, the organiser Erdal Bozkuş, Cansu Taşkın and İbrahim İzzet Özilhan. A Haber reported the same names among the 24 people detained."
+                },
+                {
+                  "text": "Onedio noted that it had not been made public which of the charges Özcan Deniz faces. A detention order is not a finding of guilt."
+                }
+              ]
+            },
+            {
+              "subhead": "At the courthouse",
+              "blocks": [
+                {
+                  "text": "Özcan Deniz was brought to Istanbul’s Çağlayan courthouse on Wednesday morning, Onedio reported. Asked about the investigation by reporters, he said he would talk once he had given his statement, according to Haberler.com."
+                },
+                {
+                  "quote": "If you like, let’s finish one thing first, let’s finish the statement, and then we can talk, all right?",
+                  "speaker": "Özcan Deniz",
+                  "sourceId": "haberler-magazin",
+                  "translated": true
+                },
+                {
+                  "text": "Deniz is known for the albums Yine Ağlattın Beni and Meleğim from the early 1990s and for TV series such as Asmalı Konak, İstanbullu Gelin and Kızıl Goncalar, Onedio wrote. Deniz Çakır is known for the series Yaprak Dökümü."
+                }
+              ]
+            },
+            {
+              "subhead": "Still under way",
+              "blocks": [
+                {
+                  "text": "The prosecutor’s office said the investigation was continuing “in all its aspects”. Onedio also reported that Meltem Keklik, known from the contest show Bu Tarz Benim, was among those held."
+                },
+                {
+                  "text": "Burcu Özberk’s detention came in the middle of filming: Anne Yarısı is being shot in Nevşehir, Haberler.com reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Detention orders",
+              "value": "35",
+              "source": "Istanbul Chief Public Prosecutor’s Office"
+            },
+            {
+              "label": "Detained by Wednesday morning",
+              "value": "24",
+              "source": "Cumhuriyet, NTV"
+            },
+            {
+              "label": "Detained overnight",
+              "value": "19",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Offences investigated",
+              "value": "4",
+              "source": "Istanbul Chief Public Prosecutor’s Office"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Özcan Deniz uyuşturucu soruşturmasında gözaltında",
+          "title": "Ünlülere uyuşturucu operasyonu: Özcan Deniz, Deniz Çakır ve Burcu Özberk gözaltında",
+          "summary": {
+            "what": "İstanbul Başsavcılığı uyuşturucu ve fuhuş soruşturmasında 35 kişi hakkında gözaltı kararı verdi; çarşamba sabahı gözaltı sayısı 24’e ulaştı.",
+            "why": "Ünlülere yönelik uyuşturucu soruşturmasının yeni dalgası, televizyonun en tanınan isimlerine kadar uzandı.",
+            "next": "Şüpheliler İstanbul Adliyesinde ifade veriyor; Haberler.com’a göre kalan 11 kişinin yakalanması için çalışma sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "35 kişiye gözaltı kararı",
+              "blocks": [
+                {
+                  "text": "İstanbul Cumhuriyet Başsavcılığı, ünlülere yönelik uyuşturucu soruşturmasında yeni bir operasyon başlattı ve 35 kişi hakkında gözaltı kararı verdi, A Haber ve Habertürk’ün aktardığına göre. Soruşturmayı Kaçakçılık, Narkotik ve Ekonomik Suçlar Soruşturma Bürosu yürütüyor; dosya “fuhuş”, “uyuşturucu ticareti”, “uyuşturucu temin etme” ile “uyuşturucu kullanma veya bulundurma” suçlarını kapsıyor."
+                },
+                {
+                  "text": "İlk gözaltılar salı akşamı geldi. Habertürk gece 19 kişinin gözaltına alındığını, Hürriyet ve Euronews Türkçe sabaha karşı bu sayının 23 olduğunu yazdı. Cumhuriyet, NTV ve Medyascope’a göre sabah itibarıyla gözaltı sayısı 24’e yükseldi, diğer şüpheliler aranıyor."
+                },
+                {
+                  "text": "Başsavcılık, kararların şüpheli savunmalarına, tanık beyanlarına, ele geçirilen telefon ve dijital materyallerdeki bilirkişi raporlarına ve gizli tanık anlatımlarına dayandığını açıkladı."
+                },
+                {
+                  "quote": "Uyuşturucu madde kullanıldığı ya da bulundurulduğu yönünde edinilen şüphe üzerine başlatılan soruşturma kapsamında 35 şüpheli hakkında gözaltı kararı verilmiş olup, soruşturmanın tüm yönleriyle devam ettiği kamuoyuna duyurulur.",
+                  "speaker": "İstanbul Cumhuriyet Başsavcılığı",
+                  "sourceId": "a-haber"
+                }
+              ]
+            },
+            {
+              "subhead": "Tanıdık isimler",
+              "blocks": [
+                {
+                  "text": "Onedio’ya göre kamuoyuna ilk düşen isimler şarkıcı ve oyuncu Özcan Deniz ile oyuncu Deniz Çakır oldu. Onları, salı akşamı dokuzuncu bölümü yayımlanan Anne Yarısı dizisinin başrol oyuncusu Burcu Özberk ile şarkıcı ve Survivor sunucusu Murat Ceylan izledi."
+                },
+                {
+                  "text": "Haberler.com’un yayımladığı listede Murat Başoğlu, yönetmen Mehmet Can Karcı, organizatör Erdal Bozkuş, Cansu Taşkın ve İbrahim İzzet Özilhan da var. A Haber de aynı isimleri gözaltındaki 24 kişi arasında saydı."
+                },
+                {
+                  "text": "Onedio, Özcan Deniz’in hangi suçlama kapsamında soruşturmaya dahil edildiğinin açıklanmadığını belirtti. Gözaltı kararı, suçluluk anlamına gelmiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Adliye kapısında",
+              "blocks": [
+                {
+                  "text": "Onedio’ya göre Özcan Deniz çarşamba sabahı Çağlayan’daki İstanbul Adliyesine getirildi. Haberler.com’un aktardığına göre soruları soran gazetecilere ifadesinin ardından konuşacağını söyledi:"
+                },
+                {
+                  "quote": "İsterseniz bir şeyi bitirelim, ifadeyi bitirelim ondan sonra konuşalım olur mu?",
+                  "speaker": "Özcan Deniz",
+                  "sourceId": "haberler-magazin"
+                },
+                {
+                  "text": "Onedio, Deniz’in 1990’ların başındaki Yine Ağlattın Beni ve Meleğim albümleri ile Asmalı Konak, İstanbullu Gelin ve Kızıl Goncalar dizileriyle tanındığını hatırlattı. Deniz Çakır ise Yaprak Dökümü dizisiyle biliniyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Soruşturma sürüyor",
+              "blocks": [
+                {
+                  "text": "Başsavcılık soruşturmanın “tüm yönleriyle” sürdüğünü açıkladı. Onedio, Bu Tarz Benim yarışmasıyla tanınan Meltem Keklik’in de gözaltına alınanlar arasında olduğunu yazdı."
+                },
+                {
+                  "text": "Haberler.com’a göre Burcu Özberk’in gözaltısı çekimlerin ortasına denk geldi: Anne Yarısı Nevşehir’de çekiliyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltı kararı",
+              "value": "35",
+              "source": "İstanbul Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "Çarşamba sabahı gözaltındaki kişi",
+              "value": "24",
+              "source": "Cumhuriyet, NTV"
+            },
+            {
+              "label": "Gece gözaltına alınan",
+              "value": "19",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Soruşturulan suç sayısı",
+              "value": "4",
+              "source": "İstanbul Cumhuriyet Başsavcılığı"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T20:17:58.000Z",
+          "sourceId": "onedio"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T20:18:38.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-24T23:54:05.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-24T23:54:05.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T05:14:08.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:07:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:21:58.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:34:00.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T07:37:00.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/ozcan-deniz-yasakli-madde-operasyonunda-gozaltina-alindi-1397141",
+          "confirms": false
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/24/unlulere-yonelik-uyusturucu-sorusturmasinda-yeni-operasyon-35-gozalti-karari",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberler-magazin",
+          "url": "https://www.haberler.com/guncel/unlulere-yeni-operasyon-dalgasi-gozaltina-20459443-haberi/",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-unlulere-uyusturucu-operasyonu-35-gozalti-3929876",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/unlulere-uyusturucu-operasyonunda-yeni-dalga-cok-sayida-isme-gozalti-karari-listede-ozcan-deniz-burcu-ozberk-murat-ceylan-ve-deniz-43390110",
+          "confirms": false
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/25/unlulere-uyusturucu-operasyonu-ozcan-deniz-ve-burcu-ozberk-dahil-23-kisi-gozaltinda",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-da-unlulere-yonelik-uyusturucu-sorusturmasinda-gozalti-sayisi-24-e-yukseldi-ozcan-deniz-ve-deniz-cakir-da-listede-2559198",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/deniz-cakir-ozcan-deniz-gozaltina-mi-alindi-p384124",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-unlulere-uyusturucu-sorusturmasinda-yeni-dalga-ozcan-deniz-deniz-cakir-burcu-ozberk-de-gozaltinda-1752499",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/25/ozcan-deniz-deniz-cakir-burcu-ozberk-dahil-24-kisi-gozaltina-alindi/",
+          "confirms": true
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/24/ver1795553199/3929876/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/son-dakika-unlulere-uyusturucu-operasyonu-35-gozalti-3929876"
+      },
+      "publishedAt": "2026-11-25T12:30:00+03:00",
+      "updatedAt": "2026-11-25T12:30:00+03:00"
+    },
+    {
+      "id": "7266bc0301368ec6",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Meta staff worry about AI moderators",
+          "title": "Meta staff call the shift to AI content moderation ‘a mess’",
+          "summary": {
+            "what": "Meta employees told the Guardian that replacing human moderators with AI has gutted review teams and leads to mistakes at greater scale.",
+            "why": "Researchers have tracked a sharp rise in mass account takedowns on Facebook and Instagram, including in Türkiye, often at politically sensitive moments.",
+            "next": "Meta says its new systems make 13% fewer mistakes than humans and that users can appeal; the employees say appeals are now much harder."
+          },
+          "body": [
+            {
+              "subhead": "‘Skeleton teams’",
+              "blocks": [
+                {
+                  "text": "Several Meta employees have told the Guardian that the company’s push to replace human content moderators with artificial intelligence is leading to mistakes with potentially sweeping political consequences. Meta, which owns Facebook and Instagram, said in March that it was “transforming our approach” by rolling out “more advanced AI systems” to moderate content across its apps."
+                },
+                {
+                  "text": "Behind the scenes, the employees said, the change came with mass layoffs that hit the staff who review content. One described moderation as now run by “skeleton teams”, some cut by half or two-thirds. On several recent occasions, they said, they had gone to discuss an issue with a moderation team only to find that the whole team was gone."
+                },
+                {
+                  "quote": "It’s been really a mess.",
+                  "speaker": "A Meta employee",
+                  "sourceId": "guardian-ai"
+                }
+              ]
+            },
+            {
+              "subhead": "Mistakes at scale",
+              "blocks": [
+                {
+                  "text": "The AI systems struggle with nuance, especially in languages other than English, and often remove content that should stay up, the employees said. Because the algorithms work faster than people, one said, their mistakes happen at greater scale. Meta is removing both lower-paid contractors, such as those in Kenya, and the full-time staff who handled complex cases."
+                },
+                {
+                  "quote": "You are trying to gut all human reviewers, which are kind of essential for making these nuanced decisions and policy decisions.",
+                  "speaker": "A Meta employee",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "Once a post is taken down, there is far less recourse than before, the employee added: even people who know someone at Meta struggle to reach anyone who can help."
+                }
+              ]
+            },
+            {
+              "subhead": "A rise in mass takedowns",
+              "blocks": [
+                {
+                  "text": "Repro Uncensored, a group that monitors digital censorship, has tracked sudden waves of account restrictions in Brazil, the EU, Turkey and the US. It documented 210 takedown incidents on Meta in 2025 and 657 in the first six months of 2026, the Guardian reported. Its founder, Martha Dimitratou, said the trend could “shape the political future of entire nations”."
+                },
+                {
+                  "text": "The employees said AI played a part because it works faster and with less nuance than human reviewers, but that they could not rule out political choices in how the systems were designed. Meta’s systems combine large language models with older filtering algorithms and are opaque even to staff. One said AI offered the company “plausible deniability”."
+                }
+              ]
+            },
+            {
+              "subhead": "Meta’s answer",
+              "blocks": [
+                {
+                  "text": "Meta rejected the claims. A spokesperson told the Guardian that everyone on its platforms is subject to the same rules and that claims of enforcement based on political affiliation are “baseless”."
+                },
+                {
+                  "quote": "The latest tests show that on average these systems make 13% fewer mistakes than humans when enforcing against violating content, while finding 10% more actual violations.",
+                  "speaker": "Meta spokesperson",
+                  "sourceId": "guardian-ai"
+                },
+                {
+                  "text": "The company said people can appeal decisions they think are wrong. It has used AI to filter violent extremist content since 2017."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Takedown incidents tracked in 2025",
+              "value": "210",
+              "source": "Repro Uncensored"
+            },
+            {
+              "label": "Incidents in the first half of 2026",
+              "value": "657",
+              "source": "Repro Uncensored"
+            },
+            {
+              "label": "Fewer mistakes than humans, Meta says",
+              "value": "13%",
+              "source": "Meta"
+            },
+            {
+              "label": "More violations found, Meta says",
+              "value": "10%",
+              "source": "Meta"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Meta çalışanları yapay zekâ denetiminden endişeli",
+          "title": "Meta çalışanları: Yapay zekâya geçilen içerik denetimi ‘tam bir karmaşa’",
+          "summary": {
+            "what": "Meta çalışanları Guardian’a, insan moderatörlerin yerine yapay zekânın konmasıyla ekiplerin boşaldığını ve hataların büyük ölçekte yaşandığını anlattı.",
+            "why": "Araştırmacılar Facebook ve Instagram’da, Türkiye dahil, çoğu zaman siyasi açıdan hassas anlarda toplu hesap kapatmaların hızla arttığını tespit etti.",
+            "next": "Meta yeni sistemlerin insanlardan %13 daha az hata yaptığını, itiraz hakkı olduğunu söylüyor; çalışanlara göre itiraz artık çok daha zor."
+          },
+          "body": [
+            {
+              "subhead": "‘İskelet kadrolar’",
+              "blocks": [
+                {
+                  "text": "Birçok Meta çalışanı Guardian’a, şirketin içerik moderatörlerini yapay zekâyla değiştirme hamlesinin siyasi sonuçları geniş olabilecek hatalara yol açtığını söyledi. Facebook ve Instagram’ın sahibi Meta, mart ayında uygulamalarında “daha gelişmiş yapay zekâ sistemleri” kullanarak “yaklaşımını dönüştürdüğünü” açıklamıştı."
+                },
+                {
+                  "text": "Çalışanlara göre bu geçiş, içerik inceleyen personeli ağır biçimde etkileyen toplu işten çıkarmalarla birlikte geldi. Bir çalışan, moderasyonun artık bazıları yarı yarıya, hatta üçte iki oranında küçülmüş “iskelet kadrolarla” yürüdüğünü anlattı. Son dönemde birkaç kez bir sorunu konuşmak için bir ekibe gittiğinde ekibin tamamen kaldırılmış olduğunu gördüğünü söyledi."
+                },
+                {
+                  "quote": "Tam bir karmaşa oldu.",
+                  "speaker": "Bir Meta çalışanı",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Büyük ölçekte hata",
+              "blocks": [
+                {
+                  "text": "Çalışanlara göre yapay zekâ sistemleri özellikle İngilizce dışındaki dillerde nüansı kaçırıyor ve kalması gereken içerikleri sık sık kaldırıyor. Bir çalışan, algoritmalar insanlardan hızlı çalıştığı için hataların da çok daha büyük ölçekte yaşandığını söyledi. Meta, Kenya’dakiler gibi düşük ücretli taşeron çalışanların yanı sıra karmaşık vakalara bakan kadrolu personeli de çıkarıyor."
+                },
+                {
+                  "quote": "Bütün insan denetçileri ortadan kaldırmaya çalışıyorsunuz; oysa bu ince ayar gerektiren kararlar ve politika kararları için onlar neredeyse vazgeçilmez.",
+                  "speaker": "Bir Meta çalışanı",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Aynı çalışana göre bir paylaşım kaldırıldığında itiraz yolları eskisinden çok daha dar: Meta’da tanıdığı olan biri bile yardım edebilecek birine ulaşmakta zorlanıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Toplu kapatmalar artıyor",
+              "blocks": [
+                {
+                  "text": "Dijital sansürü izleyen Repro Uncensored grubu, Brezilya, AB, Türkiye ve ABD’de ani hesap kısıtlama dalgaları kaydetti. Guardian’a göre grup, Meta’da 2025’te 210, 2026’nın ilk altı ayında ise 657 hesap kapatma vakası belgeledi. Kurucusu Martha Dimitratou, bu eğilimin “bütün ulusların siyasi geleceğini şekillendirebileceğini” söyledi."
+                },
+                {
+                  "text": "Çalışanlar, yapay zekânın insanlardan daha hızlı ve daha az incelikle çalıştığı için bu vakalarda payı olduğunu, ancak sistemlerin tasarımında siyasi tercihlerin rol oynadığı ihtimalini de dışlayamadıklarını söyledi. Meta’nın sistemleri büyük dil modellerini (LLM) eski filtreleme algoritmalarıyla birleştiriyor ve çalışanlar için bile şeffaf değil. Bir çalışan, yapay zekânın şirkete “makul bir inkâr imkânı” sağladığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Meta’nın yanıtı",
+              "blocks": [
+                {
+                  "text": "Meta iddiaları reddetti. Bir sözcü Guardian’a, platformlardaki herkesin aynı kurallara tabi olduğunu ve siyasi eğilime göre işlem yapıldığı iddialarının “asılsız” olduğunu söyledi."
+                },
+                {
+                  "quote": "Son testler, bu sistemlerin ihlal içeren içeriklere karşı uygulamada insanlardan ortalama %13 daha az hata yaptığını ve %10 daha fazla gerçek ihlal bulduğunu gösteriyor.",
+                  "speaker": "Meta sözcüsü",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                },
+                {
+                  "text": "Şirket, kullanıcıların hatalı bulduğu kararlara itiraz edebildiğini belirtti. Meta, şiddet içerikli aşırılıkçı paylaşımları ayıklamak için 2017’den beri yapay zekâ kullanıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2025’te kaydedilen kapatma vakası",
+              "value": "210",
+              "source": "Repro Uncensored"
+            },
+            {
+              "label": "2026’nın ilk yarısındaki vaka",
+              "value": "657",
+              "source": "Repro Uncensored"
+            },
+            {
+              "label": "Meta’ya göre insandan az hata",
+              "value": "%13",
+              "source": "Meta"
+            },
+            {
+              "label": "Meta’ya göre fazladan bulunan ihlal",
+              "value": "%10",
+              "source": "Meta"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T07:00:08.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T12:30:00+03:00",
+      "updatedAt": "2026-11-25T12:30:00+03:00"
+    },
+    {
+      "id": "710a9b72c7454d32",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Army to detonate lead azide",
+          "title": "US Army to blow up 68 drums of unstable explosive in Iowa",
+          "summary": {
+            "what": "The Army plans a controlled blast of about 9,700 pounds of crystallised lead azide at the Iowa Army Ammunition Plant in Middletown at 18:00 Istanbul time.",
+            "why": "The decades-old explosive has become too unstable to open or move; officials say leaving it risks an uncontrolled blast, but the lead dust could travel far.",
+            "next": "People up to 20 miles away are told to stay indoors, and a voluntary evacuation covers 5 miles around the plant."
+          },
+          "body": [
+            {
+              "subhead": "Too unstable to open",
+              "blocks": [
+                {
+                  "text": "The US Army is set to detonate the country’s stockpile of lead azide at the Iowa Army Ammunition Plant in Middletown on Wednesday at about 9:00 local time, 18:00 in Istanbul, The Verge and the Guardian reported. There are 68 drums holding about 9,700 pounds of the chemical, a primary explosive used to set off munitions such as grenades."
+                },
+                {
+                  "text": "The US stopped using lead azide about 15 years ago because it is so hard to store and transport, Robert Cekada, director of the ATF, the federal explosives agency, told a briefing on Tuesday. Some of the material is more than 60 years old. During an inspection in March, the ATF found “significant crystallization” on the outside of the barrels, which made it too dangerous to open them and add water and ethanol. A plan to dissolve the chemical was dropped as unsafe."
+                },
+                {
+                  "quote": "It’s not a matter of if, it’s a matter of when.",
+                  "speaker": "Robert Cekada, ATF director",
+                  "sourceId": "the-verge"
+                }
+              ]
+            },
+            {
+              "subhead": "Walls of water and foam",
+              "blocks": [
+                {
+                  "text": "The last comparable disposal was in Colorado in 1977, when 7,000 pounds were blown up in the open “with zero mitigation”, said Army Col. Aaron Teller. Even then, 75% of the lead stayed on site. This time the Army has built walls of 16,000-gallon water tanks, laid gel blocks and plans to cover the bunkers with two feet of foam, The Verge reported."
+                },
+                {
+                  "quote": "Inaction is no longer an option.",
+                  "speaker": "Maj Gen Eric Shirley, operation commander",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Advice for residents",
+              "blocks": [
+                {
+                  "text": "The dust plume could reach as far as 100 miles from the site, according to The Verge. The Army’s maps show it heading south-west through south-eastern Iowa into northern Missouri, the Guardian reported. An emergency alert told people up to 20 miles away to stay indoors with windows shut, and FEMA is helping people leave a voluntary 5-mile evacuation zone."
+                },
+                {
+                  "text": "Governor Kim Reynolds declared a disaster emergency in three counties and sent up to 100 National Guard soldiers. Pregnant people, children and those with chronic illness are advised to leave the area. A public health expert told The Verge the risk from a one-off exposure was “minimal”; another said spreading lead was “not a desirable outcome”."
+                }
+              ]
+            },
+            {
+              "subhead": "After a court fight",
+              "blocks": [
+                {
+                  "text": "The Iowa Environmental Council and the Sierra Club had asked a court to stop the blast pending an environmental review. A federal appeals court denied the emergency motion on Monday. President Donald Trump had earlier called for a pause and said he also wanted Iowa’s governor-elect, Rob Sand, to approve it. Senator-elect Josh Turek called the handling a “failure of transparency”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Drums of lead azide",
+              "value": "68",
+              "source": "ATF"
+            },
+            {
+              "label": "Amount",
+              "value": "≈9,700 lb",
+              "source": "ATF"
+            },
+            {
+              "label": "Planned blast, Istanbul time",
+              "value": "18:00",
+              "source": "US Army"
+            },
+            {
+              "label": "Stay-indoors radius",
+              "value": "20 miles",
+              "source": "US Army alert"
+            },
+            {
+              "label": "Last comparable blast",
+              "value": "1977",
+              "source": "US Army"
+            }
+          ],
+          "place": {
+            "name": "Middletown",
+            "lat": 40.83,
+            "lon": -91.26,
+            "region": "Iowa, US"
+          }
+        },
+        "tr": {
+          "shortTitle": "ABD Ordusu kurşun azidi patlatacak",
+          "title": "ABD Ordusu, Iowa’daki 68 varil kararsız kurşun azidi bugün patlatıyor",
+          "summary": {
+            "what": "Ordu, Middletown’daki Iowa Ordu Mühimmat Fabrikasında yaklaşık 9.700 libre kristalleşmiş kurşun azidi Türkiye saatiyle 18.00’de kontrollü olarak patlatacak.",
+            "why": "Onlarca yıllık patlayıcı açılamayacak ve taşınamayacak kadar kararsız hale geldi; yetkililere göre beklemek kontrolsüz patlama riski taşıyor, ama kurşun tozu uzağa gidebilir.",
+            "next": "20 mil çapındakilerin evde kalması isteniyor; fabrikanın 5 mil çevresinde gönüllü tahliye yapılıyor."
+          },
+          "body": [
+            {
+              "subhead": "Açılamayacak kadar tehlikeli",
+              "blocks": [
+                {
+                  "text": "The Verge ve Guardian’ın haberine göre ABD Ordusu, ülkenin kurşun azit stokunu çarşamba günü yerel saatle 9.00 civarında, Türkiye saatiyle 18.00’de, Middletown’daki Iowa Ordu Mühimmat Fabrikasında patlatacak. 68 varilde yaklaşık 9.700 libre kurşun azit bulunuyor; bu madde el bombası gibi mühimmatı ateşlemekte kullanılan bir ilk patlayıcı."
+                },
+                {
+                  "text": "Federal patlayıcılar kurumu ATF’nin direktörü Robert Cekada salı günkü brifingde, ABD’nin saklaması ve taşıması çok zor olduğu için kurşun azidi yaklaşık 15 yıl önce bıraktığını söyledi. Malzemenin bir kısmı 60 yaşından büyük. Mart ayındaki denetimde varillerin dış yüzeyinde “ciddi kristalleşme” görüldü; bu yüzden variller açılıp içine su ve etanol eklenemedi. Maddeyi kimyasal yolla çözme planı da güvensiz bulunarak bırakıldı."
+                },
+                {
+                  "quote": "Mesele olup olmayacağı değil, ne zaman olacağı.",
+                  "speaker": "Robert Cekada, ATF direktörü",
+                  "sourceId": "the-verge",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Su ve köpükten duvarlar",
+              "blocks": [
+                {
+                  "text": "Albay Aaron Teller’e göre benzer ölçekteki son imha 1977’de Colorado’da yapıldı; 7.000 libre madde açık havada “hiçbir önlem alınmadan” patlatıldı ve kurşunun yine de %75’i alanda kaldı. The Verge’ün aktardığına göre ordu bu kez 16.000 galonluk su tanklarından duvarlar kurdu, jel bloklar yerleştirdi ve sığınakları iki fit köpükle kaplamayı planlıyor."
+                },
+                {
+                  "quote": "Hiçbir şey yapmamak artık bir seçenek değil.",
+                  "speaker": "Tümgeneral Eric Shirley, operasyon komutanı",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Bölge halkına uyarı",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre toz bulutu alandan 100 mile kadar uzaklaşabilir. Guardian, ordunun haritalarında bulutun güneybatıya, Iowa’nın güneydoğusundan Missouri’nin kuzeyine doğru ilerlediğini yazdı. Acil durum uyarısıyla 20 mil çapındakilerin pencereleri kapalı tutup evde kalması istendi; FEMA, 5 millik gönüllü tahliye bölgesinden ayrılanlara yardım ediyor."
+                },
+                {
+                  "text": "Vali Kim Reynolds üç ilçede afet hali ilan etti ve 100’e kadar Ulusal Muhafız askeri görevlendirdi. Hamilelerin, çocukların ve kronik hastaların bölgeden uzaklaşması öneriliyor. Bir halk sağlığı uzmanı The Verge’e tek seferlik maruziyetin riskini “asgari” bulduğunu söylerken, bir başkası kurşunun yayılmasının “istenen bir sonuç olmadığını” belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "Mahkeme süreci",
+              "blocks": [
+                {
+                  "text": "Iowa Çevre Konseyi ve Sierra Club, çevresel inceleme yapılana kadar patlamanın durdurulması için mahkemeye başvurmuştu. Federal temyiz mahkemesi acil talebi pazartesi reddetti. Başkan Donald Trump daha önce işlemin durdurulmasını istemiş, Iowa’nın seçilmiş valisi Rob Sand’in de onay vermesini istediğini söylemişti. Seçilmiş senatör Josh Turek süreci “şeffaflık başarısızlığı” olarak nitelendirdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kurşun azit varili",
+              "value": "68",
+              "source": "ATF"
+            },
+            {
+              "label": "Miktar",
+              "value": "≈9.700 libre",
+              "source": "ATF"
+            },
+            {
+              "label": "Planlanan patlama, TSİ",
+              "value": "18.00",
+              "source": "ABD Ordusu"
+            },
+            {
+              "label": "Evde kalma yarıçapı",
+              "value": "20 mil",
+              "source": "ABD Ordusu uyarısı"
+            },
+            {
+              "label": "Benzer son patlama",
+              "value": "1977",
+              "source": "ABD Ordusu"
+            }
+          ],
+          "place": {
+            "name": "Middletown",
+            "lat": 40.83,
+            "lon": -91.26,
+            "region": "Iowa, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-24T23:25:46.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T00:33:16.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T00:33:16.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T12:30:00+03:00",
+      "updatedAt": "2026-11-25T12:30:00+03:00"
+    },
+    {
+      "id": "1bbf7571156ea7eb",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "First foreign astronaut reaches Tiangong",
+          "title": "Pakistan’s Zeeshan Ali becomes the first foreigner aboard China’s space station",
+          "summary": {
+            "what": "Shenzhou-24 carried Pakistani pilot Muhammad Zeeshan Ali and two Chinese crewmates to the Tiangong station on Wednesday, the first joint flight with a foreign astronaut.",
+            "why": "Beijing wants to show Tiangong can be an international research platform, as it races the US to land astronauts on the Moon.",
+            "next": "Ali will stay five to 10 days and run an experiment on cyanobacteria before returning on Shenzhou-23."
+          },
+          "body": [
+            {
+              "subhead": "Launch before dawn",
+              "blocks": [
+                {
+                  "text": "A Long March-2F rocket lifted off from the Jiuquan Satellite Launch Centre in north-west China at 00:18 GMT on Wednesday, carrying Muhammad Zeeshan Ali, Pakistan’s first astronaut, with Chinese crewmates Tang Hongbo and Wu Yi, Al Jazeera reported. The Shenzhou-24 capsule docked with the Tiangong space station at 03:56 GMT, according to China’s and Pakistan’s space agencies."
+                },
+                {
+                  "text": "Ali, 40, a Pakistan Air Force pilot, is the first foreign national to fly to Tiangong, Euronews and the BBC reported. For about a week the station will be home to six astronauts: four from mainland China, one from Hong Kong and one from Pakistan, the South China Morning Post said."
+                }
+              ]
+            },
+            {
+              "subhead": "A short stay",
+              "blocks": [
+                {
+                  "text": "Ali will spend five to 10 days in orbit, far shorter than the usual six-month stints of Chinese crews, Al Jazeera reported. He will run an experiment on photosynthetic cyanobacteria and return on Shenzhou-23. Chinese state media said the crew would carry out more than 90 experiments and technology tests, Euronews reported. Tang, on his third flight, is set to become the first astronaut to board Tiangong three times."
+                },
+                {
+                  "text": "Ali trained in China for months and learned Chinese. At a press conference on Tuesday he quoted a line of Chinese poetry about climbing higher to see farther."
+                },
+                {
+                  "quote": "I’m not flying for myself. I carry the name of Pakistan on my shoulder.",
+                  "speaker": "Muhammad Zeeshan Ali",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Celebrations in Pakistan",
+              "blocks": [
+                {
+                  "text": "In Islamabad, students and amateur astronomers packed the auditorium of the space agency SUPARCO before dawn and sang the national anthem as the rocket rose, Al Jazeera reported. Prime Minister Shehbaz Sharif thanked China on X."
+                },
+                {
+                  "quote": "This is not just one astronaut’s journey, but the journey of 240 million Pakistanis.",
+                  "speaker": "Shehbaz Sharif, prime minister of Pakistan",
+                  "sourceId": "euronews-en"
+                },
+                {
+                  "text": "Chinese President Xi Jinping called the joint mission “a vivid embodiment of the deep-rooted friendship between the two countries”, according to Al Jazeera. The flight stems from an agreement signed in February 2025."
+                }
+              ]
+            },
+            {
+              "subhead": "Next stop, the Moon",
+              "blocks": [
+                {
+                  "text": "SUPARCO chairman Muhammad Yousaf Khan said Pakistan aims to reach the Moon by 2035, starting with a lunar rover due to fly in 2028. China plans to land astronauts on the Moon by 2030; NASA aims to do so in 2028, Euronews reported. China also plans a lunar research base with Russia by 2035, according to Al Jazeera."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ali’s age",
+              "value": "40",
+              "source": "Euronews"
+            },
+            {
+              "label": "Planned stay",
+              "value": "5–10 days",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Experiments planned for the crew",
+              "value": "90+",
+              "source": "Chinese state media via Euronews"
+            },
+            {
+              "label": "Pakistan’s Moon target",
+              "value": "2035",
+              "source": "SUPARCO"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Tiangong’a ilk yabancı astronot ulaştı",
+          "title": "Pakistanlı Zeeshan Ali, Çin uzay istasyonuna giden ilk yabancı oldu",
+          "summary": {
+            "what": "Shenzhou-24, Pakistanlı pilot Muhammad Zeeshan Ali ile iki Çinli astronotu çarşamba günü Tiangong istasyonuna taşıdı; Çin’in yabancı astronotla ilk ortak uçuşu.",
+            "why": "Pekin, ABD ile Ay yarışı sürerken Tiangong’un uluslararası bir araştırma platformu olabileceğini göstermek istiyor.",
+            "next": "Ali 5 ila 10 gün kalacak, siyanobakteri deneyi yapacak ve Shenzhou-23 ile dönecek."
+          },
+          "body": [
+            {
+              "subhead": "Şafaktan önce fırlatma",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın haberine göre bir Uzun Yürüyüş-2F (Long March-2F) roketi çarşamba günü TSİ 03.18’de Çin’in kuzeybatısındaki Jiuquan Uydu Fırlatma Merkezi’nden havalandı. Roket, Pakistan’ın ilk astronotu Muhammad Zeeshan Ali ile Çinli astronotlar Tang Hongbo ve Wu Yi’yi taşıyordu. Çin ve Pakistan uzay ajanslarına göre Shenzhou-24 kapsülü TSİ 06.56’da Tiangong uzay istasyonuna kenetlendi."
+                },
+                {
+                  "text": "Euronews ve BBC’ye göre Pakistan Hava Kuvvetleri pilotu 40 yaşındaki Ali, Tiangong’a giden ilk yabancı. South China Morning Post’a göre istasyonda yaklaşık bir hafta boyunca altı astronot kalacak: dördü Çin anakarasından, biri Hong Kong’dan, biri Pakistan’dan."
+                }
+              ]
+            },
+            {
+              "subhead": "Kısa bir görev",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Ali yörüngede 5 ila 10 gün kalacak; Çinli ekiplerin genellikle altı ay süren görevlerine göre çok kısa. Fotosentetik siyanobakterilerle bir deney yapacak ve Shenzhou-23 ile dönecek. Euronews’in aktardığına göre Çin devlet medyası ekibin 90’dan fazla bilimsel deney ve teknoloji testi yapacağını bildirdi. Üçüncü uçuşunu yapan Tang, Tiangong’a üç kez çıkan ilk astronot olacak."
+                },
+                {
+                  "text": "Ali aylardır Çin’de eğitim alıyor ve Çince öğrendi. Salı günkü basın toplantısında, daha uzağı görmek için daha yükseğe tırmanmayı anlatan bir Çin şiirinden alıntı yaptı."
+                },
+                {
+                  "quote": "Kendim için uçmuyorum. Pakistan’ın adını omzumda taşıyorum.",
+                  "speaker": "Muhammad Zeeshan Ali",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Pakistan’da sevinç",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre İslamabad’da öğrenciler ve amatör astronomlar şafaktan önce uzay ajansı SUPARCO’nun salonunu doldurdu ve roket yükselirken milli marşı söyledi. Başbakan Shehbaz Sharif X’te Çin’e teşekkür etti."
+                },
+                {
+                  "quote": "Bu yalnızca bir astronotun yolculuğu değil, 240 milyon Pakistanlının yolculuğu.",
+                  "speaker": "Shehbaz Sharif, Pakistan Başbakanı",
+                  "sourceId": "euronews-en",
+                  "translated": true
+                },
+                {
+                  "text": "Al Jazeera’ya göre Çin Devlet Başkanı Xi Jinping ortak görevi “iki ülke arasındaki köklü dostluğun canlı bir ifadesi” olarak nitelendirdi. Uçuş, iki ülkenin Şubat 2025’te imzaladığı anlaşmaya dayanıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Sıradaki durak Ay",
+              "blocks": [
+                {
+                  "text": "SUPARCO Başkanı Muhammad Yousaf Khan, Pakistan’ın 2035’e kadar Ay’a ulaşmayı hedeflediğini ve ilk adımın 2028’de gönderilecek bir Ay aracı olacağını söyledi. Euronews’e göre Çin 2030’a kadar Ay’a astronot indirmeyi, NASA ise bunu 2028’de yapmayı hedefliyor. Al Jazeera’ya göre Çin, Rusya ile birlikte 2035’e kadar Ay’da bir araştırma üssü kurmayı da planlıyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ali’nin yaşı",
+              "value": "40",
+              "source": "Euronews"
+            },
+            {
+              "label": "Planlanan kalış",
+              "value": "5–10 gün",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Ekibin planlanan deneyi",
+              "value": "90+",
+              "source": "Euronews’e göre Çin devlet medyası"
+            },
+            {
+              "label": "Pakistan’ın Ay hedefi",
+              "value": "2035",
+              "source": "SUPARCO"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T00:26:33.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T02:44:45.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T02:44:45.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T03:28:37.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T05:12:28.000Z",
+          "sourceId": "euronews-en"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/science/article/3375677/chinas-shenzhou-24-spacecraft-lifts-first-foreign-astronaut-board",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
+      },
+      "publishedAt": "2026-11-25T12:30:00+03:00",
+      "updatedAt": "2026-11-25T12:30:00+03:00"
+    },
+    {
+      "id": "27f975b9ce1b43ae",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Met police still institutionally racist",
+          "title": "Three years after Casey, review finds the Met still institutionally racist",
+          "summary": {
+            "what": "The Fairfield review found racism, misogyny and homophobia persist in London’s Metropolitan Police, three years after Louise Casey’s landmark 2023 report.",
+            "why": "It is the latest in a line of reports since 1999 reaching the same verdict on Britain’s largest force, with earlier recommendations left unimplemented.",
+            "next": "Campaigners say the force must admit the problem before it can fix it; the review found staff still fear retaliation for speaking up."
+          },
+          "body": [
+            {
+              "subhead": "The same verdict again",
+              "blocks": [
+                {
+                  "text": "Britain’s largest police force remains institutionally racist, misogynistic and homophobic, an independent review led by Gillian Fairfield has found, the Guardian and the South China Morning Post reported. The review, published on Wednesday, assessed the Metropolitan Police’s progress since Louise Casey’s 2023 review, which followed the murder of Sarah Everard."
+                },
+                {
+                  "text": "From the Stephen Lawrence inquiry in 1999 to Casey, successive reports have come to the same conclusion, the Guardian noted. Fairfield found that, despite improvements in vetting and misconduct procedures, staff still feared retaliation for speaking up, and that the force treated misogyny and homophobia as a “reputational threat” rather than a chance to learn."
+                }
+              ]
+            },
+            {
+              "subhead": "A word nobody used",
+              "blocks": [
+                {
+                  "text": "Among the most striking findings, according to the Guardian, is that senior leaders seem uncomfortable even saying “racism”. In a series of briefings on progress since Casey, not one senior leader had used the word by the end of the third meeting. When pressed, officers spoke of “disproportionality” instead."
+                },
+                {
+                  "quote": "Unless you acknowledge that you’ve got institutional racism, misogyny and homophobia, then your progress is always going to be extremely difficult.",
+                  "speaker": "Dal Babu, former Met chief superintendent",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Babu, who sits on the London Policing Board, said progress on race had been “glacial”. The firearms command began a drive to recruit women in 2007, he said, but a similar scheme for Black officers was only acknowledged when he raised it in 2025."
+                }
+              ]
+            },
+            {
+              "subhead": "Reports without action",
+              "blocks": [
+                {
+                  "text": "A Guardian investigation in May 2025 looked at about 600 recommendations from 12 government-commissioned race reviews since 1981 and found that fewer than a third had been carried out in full. Habib Kadiri of the monitoring group StopWatch said the force had retreated from an explicitly anti-racist stance and still relied on flawed assumptions to justify racial gaps in stop and search."
+                },
+                {
+                  "quote": "We’re frustrated that the good efforts of so many reports are wasted over generations.",
+                  "speaker": "Habib Kadiri, StopWatch",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Some credit for effort",
+              "blocks": [
+                {
+                  "text": "The review did recognise the considerable energy and investment put into reform since 2023, and found that community groups kept working with the force despite strained relations with London’s Black communities. Babu said the answer was to recruit people from those communities and value them once they join."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Years since the Casey review",
+              "value": "3",
+              "source": "Fairfield review"
+            },
+            {
+              "label": "Race-review recommendations studied",
+              "value": "≈600",
+              "source": "Guardian investigation"
+            },
+            {
+              "label": "Share implemented in full",
+              "value": "under a third",
+              "source": "Guardian investigation"
+            },
+            {
+              "label": "First inquiry to find institutional racism",
+              "value": "1999",
+              "source": "The Guardian"
+            }
+          ],
+          "place": {
+            "name": "London",
+            "lat": 51.51,
+            "lon": -0.13,
+            "region": "England, UK"
+          }
+        },
+        "tr": {
+          "shortTitle": "Londra polisi hâlâ kurumsal ırkçı",
+          "title": "Casey raporundan üç yıl sonra: Londra polisi hâlâ kurumsal olarak ırkçı",
+          "summary": {
+            "what": "Fairfield incelemesi, Londra Metropolitan Polisinde ırkçılık, kadın düşmanlığı ve homofobinin, Louise Casey’nin 2023 raporundan üç yıl sonra da sürdüğünü tespit etti.",
+            "why": "1999’dan bu yana İngiltere’nin en büyük polis teşkilatı hakkında aynı sonuca varan raporların sonuncusu; önceki öneriler uygulanmadı.",
+            "next": "Eleştirmenlere göre teşkilat önce sorunu kabul etmeli; inceleme, personelin hâlâ misillemeden korktuğunu ortaya koydu."
+          },
+          "body": [
+            {
+              "subhead": "Yine aynı sonuç",
+              "blocks": [
+                {
+                  "text": "Guardian ve South China Morning Post’un haberine göre Gillian Fairfield başkanlığındaki bağımsız inceleme, İngiltere’nin en büyük polis teşkilatının hâlâ kurumsal olarak ırkçı, kadın düşmanı ve homofobik olduğunu tespit etti. Çarşamba yayımlanan inceleme, Sarah Everard cinayetinin ardından hazırlanan Louise Casey’nin 2023 raporundan bu yana Metropolitan Polisinin (Met) kaydettiği ilerlemeyi değerlendirdi."
+                },
+                {
+                  "text": "Guardian’ın hatırlattığına göre 1999’daki Stephen Lawrence soruşturmasından Casey raporuna kadar art arda gelen raporlar aynı sonuca vardı. Fairfield, güvenlik soruşturması ve disiplin süreçlerindeki iyileşmelere rağmen personelin sesini yükseltirse misillemeden korktuğunu, teşkilatın kadın düşmanlığı ve homofobiyi bir ders fırsatı değil “itibar tehdidi” olarak gördüğünü belirledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kimsenin söylemediği kelime",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre en çarpıcı bulgulardan biri, üst yönetimin “ırkçılık” kelimesini kullanmaktan bile rahatsız görünmesi. Casey sonrası ilerlemenin anlatıldığı brifinglerde üçüncü toplantının sonunda tek bir üst düzey yönetici bu kelimeyi kullanmamıştı. Üstelendiklerinde “orantısızlık” demeyi tercih ettiler."
+                },
+                {
+                  "quote": "Kurumsal ırkçılık, kadın düşmanlığı ve homofobi olduğunu kabul etmedikçe ilerleme kaydetmek her zaman son derece zor olacak.",
+                  "speaker": "Dal Babu, eski Met başkomiseri",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Londra Polislik Kurulu üyesi Babu, ırk konusundaki ilerlemenin “buzul hızında” olduğunu söyledi. Silahlı birim 2007’de kadın alımını artırma girişimi başlattı, ancak siyah polisler için benzer bir programın gerekliliği ancak 2025’te kendisi gündeme getirdiğinde kabul edildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Eylemsiz raporlar",
+              "blocks": [
+                {
+                  "text": "Guardian’ın Mayıs 2025’teki araştırması, 1981’den bu yana hükümetin istediği 12 ırk incelemesindeki yaklaşık 600 öneriyi taradı ve üçte birinden azının tam olarak uygulandığını buldu. Polisi izleyen StopWatch’tan Habib Kadiri, teşkilatın açıkça ırkçılık karşıtı tutumdan geri adım attığını ve durdurup arama uygulamasındaki ırksal farkları hâlâ hatalı varsayımlarla açıkladığını söyledi."
+                },
+                {
+                  "quote": "Bunca raporun iyi niyetli emeğinin kuşaklar boyunca boşa gitmesinden bıktık.",
+                  "speaker": "Habib Kadiri, StopWatch",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Çabaya da kredi",
+              "blocks": [
+                {
+                  "text": "İnceleme, 2023’ten bu yana reform için harcanan ciddi enerjiyi ve yatırımı da kabul etti; Londra’daki siyah topluluklarla gergin ilişkilere rağmen sivil toplum gruplarının teşkilatla çalışmayı sürdürdüğünü belirtti. Babu’ya göre çözüm, bu topluluklardan insanları polise almak ve katıldıklarında onlara değer vermek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Casey raporundan bu yana geçen yıl",
+              "value": "3",
+              "source": "Fairfield incelemesi"
+            },
+            {
+              "label": "İncelenen ırk raporu önerisi",
+              "value": "≈600",
+              "source": "Guardian araştırması"
+            },
+            {
+              "label": "Tam uygulanan öneri",
+              "value": "üçte birden az",
+              "source": "Guardian araştırması"
+            },
+            {
+              "label": "Kurumsal ırkçılığı ilk tespit eden soruşturma",
+              "value": "1999",
+              "source": "Guardian"
+            }
+          ],
+          "place": {
+            "name": "Londra",
+            "lat": 51.51,
+            "lon": -0.13,
+            "region": "İngiltere, Birleşik Krallık"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T00:01:02.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T05:13:17.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T05:13:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/25/latest-review-of-met-police-culture-finds-little-has-changed-since-last-one",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375703/uks-biggest-police-force-still-institutionally-racist-report-finds",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T12:30:00+03:00",
+      "updatedAt": "2026-11-25T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "ac88460309ecb004",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "Which court made the cancellation of İmamoğlu’s diploma final?",
+          "options": ["The Constitutional Court", "The Council of State", "The Court of Cassation"]
+        },
+        "tr": {
+          "question": "İmamoğlu’nun diploma iptalini hangi mahkeme kesinleştirdi?",
+          "options": ["Anayasa Mahkemesi", "Danıştay", "Yargıtay"]
+        }
+      }
+    },
+    {
+      "storyId": "1bbf7571156ea7eb",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How long will Pakistan’s Zeeshan Ali stay aboard the Tiangong station?",
+          "options": ["Six months", "About a month", "Five to 10 days"]
+        },
+        "tr": {
+          "question": "Pakistanlı Zeeshan Ali Tiangong istasyonunda ne kadar kalacak?",
+          "options": ["Altı ay", "Yaklaşık bir ay", "5 ila 10 gün"]
+        }
+      }
+    },
+    {
+      "storyId": "7266bc0301368ec6",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many fewer mistakes than humans does Meta say its new AI moderators make?",
+          "options": ["5%", "13%", "30%"]
+        },
+        "tr": {
+          "question": "Meta’ya göre yeni yapay zekâ denetçileri insanlardan yüzde kaç daha az hata yapıyor?",
+          "options": ["%5", "%13", "%30"]
+        }
+      }
+    }
+  ]
+}
