@@ -84,13 +84,6 @@
               "source": "Habertürk, citing the World Gold Council"
             }
           ],
-          "keyNumber": {
-            "label": "Gold, ounce price",
-            "unit": "$",
-            "before": 3556.13,
-            "after": 3489.82,
-            "source": "Cumhuriyet"
-          },
           "series": [
             {
               "date": "2026-11-20",
@@ -107,7 +100,14 @@
               "value": "$3,489.82",
               "label": "Below $3,500 for the first time since 2025"
             }
-          ]
+          ],
+          "keyNumber": {
+            "label": "Gold, ounce price",
+            "unit": "$",
+            "before": 3556.13,
+            "after": 3489.82,
+            "source": "Cumhuriyet"
+          }
         },
         "tr": {
           "shortTitle": "Ons altın 3.500 doların altında",
@@ -182,13 +182,6 @@
               "source": "Habertürk, Dünya Altın Konseyi"
             }
           ],
-          "keyNumber": {
-            "label": "Ons altın fiyatı",
-            "unit": "$",
-            "before": 3556.13,
-            "after": 3489.82,
-            "source": "Cumhuriyet"
-          },
           "series": [
             {
               "date": "2026-11-20",
@@ -205,7 +198,14 @@
               "value": "3.489,82 $",
               "label": "2025’ten bu yana ilk kez 3.500 doların altında"
             }
-          ]
+          ],
+          "keyNumber": {
+            "label": "Ons altın fiyatı",
+            "unit": "$",
+            "before": 3556.13,
+            "after": 3489.82,
+            "source": "Cumhuriyet"
+          }
         }
       },
       "timeline": [
@@ -605,9 +605,9 @@
           ],
           "place": {
             "name": "Bahçelievler",
-            "region": "Istanbul, Türkiye",
-            "lat": 41.0,
-            "lon": 28.86
+            "lat": 41,
+            "lon": 28.86,
+            "region": "Istanbul, Türkiye"
           }
         },
         "tr": {
@@ -687,9 +687,9 @@
           ],
           "place": {
             "name": "Bahçelievler",
-            "region": "İstanbul, Türkiye",
-            "lat": 41.0,
-            "lon": 28.86
+            "lat": 41,
+            "lon": 28.86,
+            "region": "İstanbul, Türkiye"
           }
         }
       },
@@ -732,7 +732,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b06a5ad9a30875a0457a0d5.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b06a5ad9a30875a0457a0d5.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/istanbulda-yabanci-basina-silahla-roportaj-veren-suc-orgutune-operasyon-9-gozalti-43390492"
@@ -1419,9 +1419,9 @@
           ],
           "place": {
             "name": "Shanghai",
-            "region": "China",
             "lat": 31.23,
-            "lon": 121.47
+            "lon": 121.47,
+            "region": "China"
           }
         },
         "tr": {
@@ -1503,9 +1503,9 @@
           ],
           "place": {
             "name": "Şanghay",
-            "region": "Çin",
             "lat": 31.23,
-            "lon": 121.47
+            "lon": 121.47,
+            "region": "Çin"
           }
         }
       },
@@ -1636,9 +1636,9 @@
           ],
           "place": {
             "name": "Honiara",
-            "region": "Solomon Islands",
             "lat": -9.43,
-            "lon": 159.95
+            "lon": 159.95,
+            "region": "Solomon Islands"
           }
         },
         "tr": {
@@ -1720,9 +1720,9 @@
           ],
           "place": {
             "name": "Honiara",
-            "region": "Solomon Adaları",
             "lat": -9.43,
-            "lon": 159.95
+            "lon": 159.95,
+            "region": "Solomon Adaları"
           }
         }
       },
@@ -1807,6 +1807,163 @@
           "question": "Al Jazeera’ya göre Avustralya, Solomon Adaları’na 10 yılda ne kadar verecek?",
           "options": ["740 milyon A$", "74 milyon A$", "7,4 milyar A$"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-138",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Kosner Baskonia Vitoria-Gasteiz",
+        "ours": false,
+        "team": "kosner-baskonia-vitoria-gasteiz"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-25T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/138"
+      }
+    },
+    {
+      "id": "espn-401915375",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce",
+        "tr": "Fenerbahce"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Shakhtar Donetsk",
+        "short": "Shakhtar",
+        "ours": false,
+        "team": "shakhtar-donetsk"
+      },
+      "away": {
+        "name": "Fenerbahce",
+        "ours": true,
+        "team": "fenerbahce"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915375"
+      }
+    },
+    {
+      "id": "espn-401915376",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915376"
+      }
+    },
+    {
+      "id": "espn-401909317",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "startsAt": "2026-11-25T22:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909317"
+      }
+    },
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
       }
     }
   ]
