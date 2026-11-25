@@ -1,0 +1,1584 @@
+{
+  "version": 2,
+  "slot": "late",
+  "publishAt": "2026-11-25T22:30:00+03:00",
+  "writtenAt": "2026-11-25T21:56:58+03:00",
+  "stories": [
+    {
+      "id": "91893157fb1b879a",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "İzmir cuts water price 63%",
+          "title": "İzmir cuts the price of the first 10 cubic metres of water by 63%",
+          "summary": {
+            "what": "İzmir’s water utility İZSU will charge homes 22 lira per cubic metre for the first 10 cubic metres from 1 January, down from 60 lira.",
+            "why": "About 1.26 million households are expected to benefit, and Habertürk says İzmir now has the cheapest water of Türkiye’s 30 metropolitan cities.",
+            "next": "YENİ Parti says it will push again next month for a deeper cut on the 11–20 cubic metre band; the new tariff starts on 1 January 2027."
+          },
+          "body": [
+            {
+              "subhead": "From 60 lira to 22",
+              "blocks": [
+                {
+                  "text": "Households in İzmir will pay far less for the water most of them use. The general assembly of İZSU, the city’s water and sewerage utility, voted unanimously on Wednesday for a 2027 tariff that cuts the price of the first 10 cubic metres a month from 60 lira to 22 lira per cubic metre, a drop of about 63%, Habertürk reported, citing the İHA news agency. The new prices apply from 1 January 2027."
+                },
+                {
+                  "text": "The cheapest band is also getting wider. Since 1 June 2026 the discounted first step covered only the first 6 cubic metres; from January it covers the first 10, Cumhuriyet and Diken reported. Cumhuriyet put the number of household subscribers expected to benefit at 1,264,925."
+                },
+                {
+                  "text": "Higher use gets smaller cuts. For 11 to 20 cubic metres, the price falls from 99.83 lira to 70 lira, about 30% less, and for 21 to 40 cubic metres from 145 lira to 140 lira. Above that, households keep paying 201.90 lira per cubic metre, Euronews Türkçe reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Businesses pay less too",
+              "blocks": [
+                {
+                  "text": "Shops and offices get a similar cut. For business subscribers, the first 10 cubic metres fall from 143.60 lira to 44 lira, the 11–20 band from 199.65 lira to 140 lira, and the 21–40 band from 290 lira to 280 lira, while the top band stays at 403.80 lira, according to Habertürk. With the new tariff, Habertürk wrote, İzmir became the city with the cheapest water among Türkiye’s 30 metropolitan municipalities."
+                },
+                {
+                  "text": "The assembly also approved İZSU’s 2027 budget of 56 billion lira, of which 18.2 billion lira is set aside for investment, Euronews Türkçe reported. The plan includes 355 km of new drinking-water pipes, 171 km of sewage lines and 70 new wells."
+                }
+              ]
+            },
+            {
+              "subhead": "A row over going further",
+              "blocks": [
+                {
+                  "text": "The vote came after an hour of argument. YENİ Parti, the party Özgür Özel founded after leaving the CHP, asked for the 11–20 cubic metre price to be set at 60 lira instead of 70, Cumhuriyet reported. AKP group deputy chair Hakan Yıldız said the proposal should go to the budget committee first. CHP group deputy chair Candaş Yeter called it “reasonable” but warned that water cannot be sold below cost and that a bigger cut could hold back İZSU’s investments."
+                },
+                {
+                  "text": "When the request was not taken up, YENİ Parti’s Yağmur Yurdakul Özkan said her group would bring it back next month, but still voted for the tariff. The session was chaired by MHP councillor Hilal Sadıkoğlu Akar, acting for the mayor."
+                }
+              ]
+            },
+            {
+              "subhead": "Seven weeks after Tugay switched party",
+              "blocks": [
+                {
+                  "text": "The cut comes seven weeks after Mayor Cemil Tugay, elected for the CHP in 2024 with 49.97% of the vote, joined the AKP on 7 October, Diken noted. The move put İzmir, run by left-leaning parties since 1999, under a right-wing party for the first time in 27 years. AKP İzmir chair Bilal Saygılı thanked Tugay and all party groups on X after the vote, Euronews Türkçe reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "First 10 m³, homes, per m³",
+              "value": "60 → 22 lira",
+              "source": "Habertürk, citing İHA"
+            },
+            {
+              "label": "Households expected to benefit",
+              "value": "1,264,925",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "11–20 m³, homes, per m³",
+              "value": "99.83 → 70 lira",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "İZSU budget for 2027",
+              "value": "56 billion lira",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "New tariff starts",
+              "value": "1 Jan 2027",
+              "source": "İZSU general assembly"
+            }
+          ],
+          "keyNumber": {
+            "label": "Water, first 10 m³ for homes",
+            "unit": "lira/m³",
+            "before": 60,
+            "after": 22,
+            "source": "Habertürk, citing İHA"
+          },
+          "place": {
+            "name": "İzmir",
+            "lat": 38.42,
+            "lon": 27.14,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "İzmir’de suya %63 indirim",
+          "title": "İzmir’de ilk 10 metreküp suya yüzde 63 indirim",
+          "summary": {
+            "what": "İZSU, 1 Ocak’tan itibaren konutlarda ilk 10 metreküpün birim fiyatını 60 liradan 22 liraya indiriyor.",
+            "why": "Yaklaşık 1,26 milyon konut abonesinin yararlanması bekleniyor; Habertürk’e göre İzmir 30 büyükşehir arasında en ucuz suyu kullanan şehir oldu.",
+            "next": "YENİ Parti, 11-20 metreküp kademesi için ek indirim talebini gelecek ay yeniden getireceğini söyledi; yeni tarife 1 Ocak 2027’de başlıyor."
+          },
+          "body": [
+            {
+              "subhead": "60 liradan 22 liraya",
+              "blocks": [
+                {
+                  "text": "İzmir’de evlerin en çok kullandığı ilk kademede su belirgin biçimde ucuzluyor. İzmir Su ve Kanalizasyon İdaresi’nin (İZSU) genel kurulu çarşamba günü 2027 tarifesini oy birliğiyle kabul etti. Habertürk’ün İHA’ya dayandırdığı habere göre konut abonelerinde ilk 10 metreküpün birim fiyatı 60 liradan 22 liraya, yani yaklaşık %63 iniyor. Yeni fiyatlar 1 Ocak 2027’den itibaren uygulanacak."
+                },
+                {
+                  "text": "İndirimli kademe de genişliyor. Cumhuriyet ve Diken’e göre 1 Haziran 2026’dan bu yana yalnızca ilk 6 metreküpü kapsayan indirimli kademe, ocaktan itibaren ilk 10 metreküpü kapsayacak. Cumhuriyet, yeni tarifeden yararlanması beklenen konut abonesi sayısını 1 milyon 264 bin 925 olarak verdi."
+                },
+                {
+                  "text": "Tüketim arttıkça indirim küçülüyor. Euronews Türkçe’ye göre 11-20 metreküp arasında birim fiyat 99,83 liradan 70 liraya (yaklaşık %30), 21-40 metreküp arasında 145 liradan 140 liraya iniyor. Daha yüksek tüketimde ise birim fiyat 201,90 lirada kalıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "İş yerlerine de indirim",
+              "blocks": [
+                {
+                  "text": "İş yerleri de benzer bir indirim alıyor. Habertürk’e göre iş yeri abonelerinde ilk 10 metreküp 143,60 liradan 44 liraya, 11-20 metreküp 199,65 liradan 140 liraya, 21-40 metreküp 290 liradan 280 liraya iniyor; en üst kademe 403,80 lirada kalıyor. Habertürk, bu tarifeyle İzmir’in 30 büyükşehir belediyesi arasında en ucuz suyu kullanan şehir olduğunu yazdı."
+                },
+                {
+                  "text": "Genel kurul İZSU’nun 56 milyar liralık 2027 bütçesini de kabul etti; Euronews Türkçe’ye göre bunun 18,2 milyar lirası yatırımlara ayrıldı. Planda 355 kilometre yeni içme suyu hattı, 171 kilometre atık su hattı ve 70 yeni sondaj kuyusu var."
+                }
+              ]
+            },
+            {
+              "subhead": "Ek indirim tartışması",
+              "blocks": [
+                {
+                  "text": "Oylamadan önce yaklaşık bir saat tartışma yaşandı. Cumhuriyet’e göre YENİ Parti, 11-20 metreküp için önerilen 70 liralık bedelin 60 lira olarak oylanmasını istedi. AKP Grup Başkanvekili Hakan Yıldız önerinin önce Plan ve Bütçe Komisyonu’nda görüşülmesi gerektiğini söyledi. CHP Grup Başkanvekili Candaş Yeter öneriyi “makul ve anlaşılır” bulduğunu, ancak suyun maliyetinin altında satılamayacağını ve daha büyük bir indirimin İZSU yatırımlarını aksatabileceğini belirtti."
+                },
+                {
+                  "text": "Talep görüşülmeyince YENİ Parti Grup Başkanvekili Yağmur Yurdakul Özkan önergeyi gelecek ay yeniden getireceklerini söyledi, ama tarifeye “evet” oyu verdi. Oturumu Başkan Cemil Tugay’a vekâleten MHP’li meclis üyesi Hilal Sadıkoğlu Akar yönetti."
+                }
+              ]
+            },
+            {
+              "subhead": "Tugay’ın parti değişiminden sonra",
+              "blocks": [
+                {
+                  "text": "Diken’in hatırlattığına göre 2024’te CHP’den %49,97 oyla seçilen Cemil Tugay, 7 Ekim’de AKP’ye katılmıştı. Bu geçişle 1999’dan bu yana sol eğilimli partilerin yönettiği İzmir, 27 yıl sonra ilk kez bir sağ partiye geçti. Euronews Türkçe’ye göre AKP İzmir İl Başkanı Bilal Saygılı oylamanın ardından X’te Tugay’a ve tüm parti gruplarına teşekkür etti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Konutta ilk 10 m³, birim fiyat",
+              "value": "60 → 22 lira",
+              "source": "Habertürk, İHA"
+            },
+            {
+              "label": "Yararlanacak konut abonesi",
+              "value": "1.264.925",
+              "source": "Cumhuriyet"
+            },
+            {
+              "label": "Konutta 11-20 m³, birim fiyat",
+              "value": "99,83 → 70 lira",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "İZSU’nun 2027 bütçesi",
+              "value": "56 milyar lira",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Yeni tarifenin başlangıcı",
+              "value": "1 Ocak 2027",
+              "source": "İZSU Genel Kurulu"
+            }
+          ],
+          "keyNumber": {
+            "label": "Konutta ilk 10 m³ su",
+            "unit": "lira/m³",
+            "before": 60,
+            "after": 22,
+            "source": "Habertürk, İHA"
+          },
+          "place": {
+            "name": "İzmir",
+            "lat": 38.42,
+            "lon": 27.14,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T15:51:10.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T17:34:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T17:34:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T17:51:52.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T18:45:10.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/25/ver1795621796/3930109/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/izmir-de-suya-yuzde-63-indirim-3930109"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/izmir-de-suya-yuzde-63-indirim-3930109",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/izmir-de-su-tarifesine-indirim-yeni-parti-den-ek-indirim-talebi-2559443",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/tugay-artik-gece-gunduz-calisiyor-izmirde-suya-yuzde-63-indirim/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/25/izmirde-suya-yuzde-63-indirim-yeni-tarife-1-ocakta-basliyor",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T22:30:00+03:00",
+      "updatedAt": "2026-11-25T22:30:00+03:00"
+    },
+    {
+      "id": "e2c5e5342084d665",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Erdoğan hosts Haftar in Ankara",
+          "title": "Erdoğan receives Libya’s Khalifa Haftar on his first official visit",
+          "summary": {
+            "what": "President Erdoğan met eastern Libyan commander Khalifa Haftar and three of his sons in Ankara on Wednesday, behind closed doors.",
+            "why": "Türkiye backed Haftar’s rivals in Tripoli for years; the visit shows Ankara now working with both sides of divided Libya, BBC Türkçe says.",
+            "next": "Erdoğan is due in Libya on 8–9 December for the 4th Türkiye-Africa Partnership Summit, where he is expected to push the unity talks."
+          },
+          "body": [
+            {
+              "subhead": "A closed-door meeting at the palace",
+              "blocks": [
+                {
+                  "text": "President Recep Tayyip Erdoğan received Field Marshal Khalifa Haftar, the commander of the Libyan National Army that controls the east of the country, at the presidential complex in Ankara on Wednesday. The meeting was closed to the press, Hürriyet and NTV reported, and Cumhuriyet said no statement was made about what was discussed."
+                },
+                {
+                  "text": "Haftar came at Erdoğan’s invitation on his first official visit to Türkiye, NTV reported. Three of his sons were with him: Saddam Haftar, his deputy commander; Khalid Haftar, the army’s chief of staff; and Belqasem Haftar, who heads Libya’s Development and Reconstruction Fund. Türkiye’s chief of general staff, General Selçuk Bayraktaroğlu, met the delegation at the airport on Tuesday evening, BBC Türkçe reported."
+                },
+                {
+                  "text": "Foreign Minister Hakan Fidan, Defence Minister Yaşar Güler, intelligence chief İbrahim Kalın and Energy Minister Alparslan Bayraktar took part in the talks, according to Habertürk and BBC Türkçe. Habertürk said bilateral ties and regional issues were discussed."
+                }
+              ]
+            },
+            {
+              "subhead": "From enemies to partners",
+              "blocks": [
+                {
+                  "text": "The visit matters because the two sides spent years on opposite sides of Libya’s war, BBC Türkçe wrote. Since 2014 Türkiye backed the UN-recognised government in Tripoli, and after signing a security and military cooperation deal with it in 2019 helped defend the city against Haftar’s forces, which had support from Egypt and the United Arab Emirates. Erdoğan himself used to call him “putschist Haftar”."
+                },
+                {
+                  "text": "Ankara has since changed course. Under what it calls a “single Libya” policy, it is mediating to bring the Tripoli and Benghazi administrations together under one political, military and economic roof, BBC Türkçe reported. Talks in Ankara in October covered a joint military command in the city of Sirte and a shared general staff. Erdoğan last met Tripoli’s prime minister, Abdulhamid Dbeibah, in Istanbul on 12 November."
+                }
+              ]
+            },
+            {
+              "subhead": "Sea borders and oil",
+              "blocks": [
+                {
+                  "text": "The timing also follows a shift in the east. On 20 October Libya’s eastern-based House of Representatives approved the maritime boundaries deal Türkiye signed with Tripoli in 2019, a deal it had long called unlawful, BBC Türkçe and Habertürk reported. Habertürk, which called the visit the fruit of Erdoğan’s “strategic patience”, said the House voted for it unanimously."
+                },
+                {
+                  "text": "Energy was on the table too, BBC Türkçe said, pointing to Bayraktar’s presence. Türkiye’s state oil company TPAO already holds exploration licences under deals with Tripoli, but most of Libya’s oil reserves lie in the east and south, which Haftar controls."
+                }
+              ]
+            },
+            {
+              "subhead": "Next stop: Libya",
+              "blocks": [
+                {
+                  "text": "Erdoğan is due in Libya on 8 and 9 December, mainly for the 4th Türkiye-Africa Partnership Summit, and is expected to use the trip to push the unity talks further, BBC Türkçe reported. The visit also came days after two Russian warships were hit near Benghazi in an attack attributed to Ukraine, which both Libyan administrations condemned."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Haftar’s sons at the talks",
+              "value": "3",
+              "source": "NTV"
+            },
+            {
+              "label": "Eastern parliament approved the 2019 sea deal",
+              "value": "20 Oct",
+              "source": "BBC Türkçe, Habertürk"
+            },
+            {
+              "label": "Erdoğan’s visit to Libya",
+              "value": "8–9 Dec",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Türkiye backed Tripoli since",
+              "value": "2014",
+              "source": "BBC Türkçe"
+            }
+          ],
+          "place": {
+            "name": "Ankara",
+            "lat": 39.93,
+            "lon": 32.86,
+            "region": "Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Erdoğan, Hafter’i Beştepe’de ağırladı",
+          "title": "Erdoğan, ilk resmi ziyaretinde Halife Hafter’i kabul etti",
+          "summary": {
+            "what": "Cumhurbaşkanı Erdoğan, Libya Ulusal Ordusu Genel Komutanı Halife Hafter’i ve üç oğlunu çarşamba günü Ankara’da basına kapalı kabul etti.",
+            "why": "Türkiye yıllarca Hafter’in rakibi Trablus’u destekledi; BBC Türkçe’ye göre ziyaret, Ankara’nın artık bölünmüş Libya’nın iki tarafıyla da çalıştığını gösteriyor.",
+            "next": "Erdoğan 8-9 Aralık’ta 4. Türkiye-Afrika Ortaklık Zirvesi için Libya’ya gidecek; birleşme sürecini ilerletmesi bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Külliye’de kapalı görüşme",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanı Recep Tayyip Erdoğan, ülkenin doğusunu kontrol eden Libya Ulusal Ordusu’nun Genel Komutanı Mareşal Halife Hafter’i çarşamba günü Cumhurbaşkanlığı Külliyesi’nde kabul etti. Hürriyet ve NTV’ye göre kabul basına kapalı gerçekleşti; Cumhuriyet görüşmenin içeriğine ilişkin açıklama yapılmadığını yazdı."
+                },
+                {
+                  "text": "NTV’ye göre Hafter, Erdoğan’ın daveti üzerine Türkiye’ye ilk resmi ziyaretini yaptı. Yanında üç oğlu vardı: Genel Komutan Yardımcısı Orgeneral Saddam Hafter, Genelkurmay Başkanı Halid Hafter ve Libya Kalkınma ve Yeniden İmar Fonu Başkanı Bilkasım Hafter. BBC Türkçe’ye göre heyeti salı akşamı havalimanında Genelkurmay Başkanı Orgeneral Selçuk Bayraktaroğlu resmi törenle karşıladı."
+                },
+                {
+                  "text": "Habertürk ve BBC Türkçe’ye göre görüşmelerde Dışişleri Bakanı Hakan Fidan, Milli Savunma Bakanı Yaşar Güler, MİT Başkanı İbrahim Kalın ve Enerji Bakanı Alparslan Bayraktar da yer aldı. Habertürk, ikili ilişkilerin ve bölgesel konuların ele alındığını bildirdi."
+                }
+              ]
+            },
+            {
+              "subhead": "Düşmanlıktan ortaklığa",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’ye göre ziyareti önemli kılan, iki tarafın Libya’daki savaşta uzun yıllar karşı saflarda yer alması. Türkiye 2014’ten itibaren BM’nin tanıdığı Trablus hükümetini destekledi, 2019’da onunla güvenlik ve askeri işbirliği mutabakatı imzalayarak Mısır ve BAE’nin desteklediği Hafter güçlerine karşı Trablus’un savunulmasına yardım etti. Erdoğan da Hafter’i “darbeci Hafter” diye anıyordu."
+                },
+                {
+                  "text": "Ankara son dönemde rotasını değiştirdi. BBC Türkçe’nin aktardığına göre “tek Libya” adını verdiği politikayla Trablus ve Bingazi yönetimlerini siyasi, askeri ve ekonomik olarak tek çatıda birleştirmek için arabuluculuk yapıyor. Ekim’de Ankara’daki görüşmelerde Sirte’de ortak askeri komuta merkezi ve genelkurmayın paylaşılması konuşuldu. Erdoğan, Trablus’taki Başbakan Abdulhamid Dibeybe ile en son 12 Kasım’da İstanbul’da görüşmüştü."
+                }
+              ]
+            },
+            {
+              "subhead": "Deniz yetki alanları ve petrol",
+              "blocks": [
+                {
+                  "text": "Zamanlama doğudaki bir değişimin ardından geldi. BBC Türkçe ve Habertürk’e göre Libya’nın doğusundaki Temsilciler Meclisi, Türkiye’nin 2019’da Trablus’la imzaladığı Deniz Yetki Alanları Mutabakatı’nı 20 Ekim’de onayladı; meclis anlaşmayı yıllarca hukuksuz saymıştı. Ziyareti Erdoğan’ın “stratejik sabrının” meyvesi olarak yorumlayan Habertürk, onayın oy birliğiyle verildiğini yazdı."
+                },
+                {
+                  "text": "BBC Türkçe, Bayraktar’ın heyette olmasının enerji işbirliğinin de konuşulduğunu gösterdiğini belirtti. TPAO, Trablus’la yapılan anlaşmalar kapsamında arama lisanslarına sahip; ancak Libya’nın asıl petrol rezervleri Hafter’in kontrolündeki doğu ve güneyde."
+                }
+              ]
+            },
+            {
+              "subhead": "Sıradaki durak Libya",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’ye göre Erdoğan, 8-9 Aralık’ta ağırlıklı olarak 4. Türkiye-Afrika Ortaklık Zirvesi için Libya’ya gidecek ve bu ziyareti birleşme diplomasisini ilerletmek için kullanması bekleniyor. Hafter’in ziyareti, Bingazi yakınlarında iki Rus savaş gemisinin Ukrayna’ya atfedilen bir saldırıda hedef alınmasından günler sonra geldi; iki Libya yönetimi de saldırıyı kınadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Görüşmedeki Hafter oğulları",
+              "value": "3",
+              "source": "NTV"
+            },
+            {
+              "label": "Doğudaki meclisin mutabakatı onayı",
+              "value": "20 Ekim",
+              "source": "BBC Türkçe, Habertürk"
+            },
+            {
+              "label": "Erdoğan’ın Libya ziyareti",
+              "value": "8-9 Aralık",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Türkiye’nin Trablus’a desteği",
+              "value": "2014’ten beri",
+              "source": "BBC Türkçe"
+            }
+          ],
+          "place": {
+            "name": "Ankara",
+            "lat": 39.93,
+            "lon": 32.86,
+            "region": "Türkiye"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T13:50:06.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:15:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T14:15:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:18:35.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T14:31:37.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T15:06:28.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b06e7791b5a00a3c3351b2c.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-halife-hafteri-kabul-etti-43390960"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-halife-hafteri-kabul-etti-43390960",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/erdogan-saray-da-hafter-le-gorustu-2559386",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-libya-ulusal-ordusu-genel-komutani-hafteri-kabul-etti-1752566",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/cumhurbaskani-erdogan-libya-ulusal-ordusu-genel-komutani-hafter-i-kabul-etti-p384370",
+          "confirms": false
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c6dj1xey8e81o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/cumhurbaskani-erdogan-libya-ulusal-ordusu-komutani-hafter-i-bestepe-de-kabul-etti-3930097",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T22:30:00+03:00",
+      "updatedAt": "2026-11-25T22:30:00+03:00"
+    },
+    {
+      "id": "17929128d139e3d0",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "FCC approves SpaceX’s orbital data centres",
+          "title": "FCC lets SpaceX launch up to 1 million AI data-centre satellites",
+          "summary": {
+            "what": "The US Federal Communications Commission authorised SpaceX on Wednesday to deploy up to 1 million “Starmind” satellites carrying AI chips.",
+            "why": "It is the first approval for a full constellation of orbital data centres, and would multiply the number of satellites in orbit about 50-fold, Ars Technica says.",
+            "next": "SpaceX must launch its first satellite by November 2033 and 100,000 by November 2035; it still needs a waiver to retire satellites into other orbits."
+          },
+          "body": [
+            {
+              "subhead": "The first licence of its kind",
+              "blocks": [
+                {
+                  "text": "The US Federal Communications Commission (FCC) on Wednesday authorised SpaceX to deploy up to 1 million satellites fitted with AI chips, part of Elon Musk’s “Starmind” plan to put data centres in orbit, The Verge reported. The Guardian said it is the first such authorisation in US history. Google and Blue Origin are pursuing similar ideas, but this is the first approval for a whole constellation of AI satellites, according to The Verge."
+                },
+                {
+                  "text": "Ars Technica called the decision “extraordinary”: if fully built, the constellation would increase the number of satellites in orbit roughly 50-fold. Only about 17,000 satellites are in space today, the Guardian noted, and SpaceX’s Starlink network accounts for just over 11,000 of them."
+                },
+                {
+                  "quote": "America is leading the world into the era of super intelligence.",
+                  "speaker": "Brendan Carr, FCC chair",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Why put computers in space",
+              "blocks": [
+                {
+                  "text": "SpaceX describes Starmind as a way to “capture solar energy in space to power” AI on Earth, The Verge reported. The satellites would send data down over high-speed lasers linked to Starlink, and SpaceX plans to make their chips at a planned factory it calls Terafab. In its filing to the FCC, SpaceX argued that near-constant sunlight and low running costs would make the satellites far more efficient and cleaner than data centres on the ground, which strain power grids and water supplies, according to the Guardian."
+                },
+                {
+                  "text": "Critics say the technology is still being developed and that deployment is a long way off, the Guardian wrote. Ars Technica stressed that the licence does not show that orbital data centres are technically or economically viable. Amazon’s satellite unit Leo argued SpaceX was unlikely to launch all the satellites, and that it could take centuries."
+                }
+              ]
+            },
+            {
+              "subhead": "Deadlines stretching to 2040",
+              "blocks": [
+                {
+                  "text": "The licence gives SpaceX a long runway. It must launch its first satellite by November 2033, put 100,000 in orbit by November 2035 and reach half the maximum by November 2038, the Guardian reported, citing the FCC. The full constellation is due by 2040, which Ars Technica described as a 14-year regulatory runway for “the most ambitious industrial project ever approved for spaceflight”. The plan relies on Starship, SpaceX’s reusable rocket still in development, cutting launch costs."
+                },
+                {
+                  "text": "The FCC did refuse one request. SpaceX wanted to send retired satellites flying above 600 km into “graveyard” orbits or even orbit around the Sun, instead of burning them up in the atmosphere. The regulator said SpaceX had not provided “sufficient information” about this, so it will need a separate waiver first, Ars Technica and The Verge reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Environmental worries set aside",
+              "blocks": [
+                {
+                  "text": "Ars Technica said the FCC was otherwise lenient. Half a dozen groups, including the American Astronomical Society and the Secure World Foundation, raised risks such as collisions, space debris, pollution from re-entries and harm to astronomy, and about 1,500 public comments were filed. The FCC said rocket-launch emissions were outside its remit and called concerns about re-entry pollution “speculative”. Citing an October policy change, it declined a full environmental review."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Satellites authorised",
+              "value": "1 million",
+              "source": "FCC, via The Verge"
+            },
+            {
+              "label": "Satellites in orbit today",
+              "value": "about 17,000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "First satellite due by",
+              "value": "Nov 2033",
+              "source": "FCC, via the Guardian"
+            },
+            {
+              "label": "100,000 satellites due by",
+              "value": "Nov 2035",
+              "source": "FCC, via the Guardian"
+            },
+            {
+              "label": "Public comments filed",
+              "value": "about 1,500",
+              "source": "Ars Technica"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "SpaceX’in uzay veri merkezlerine onay",
+          "title": "FCC, SpaceX’e 1 milyon yapay zekâ uydusu için izin verdi",
+          "summary": {
+            "what": "ABD Federal İletişim Komisyonu (FCC), SpaceX’in yapay zekâ çipli 1 milyona kadar “Starmind” uydusunu yörüngeye yerleştirmesine çarşamba günü izin verdi.",
+            "why": "Yörüngede veri merkezi takımyıldızına verilen ilk onay bu; Ars Technica’ya göre yörüngedeki uydu sayısı yaklaşık 50 katına çıkabilir.",
+            "next": "SpaceX ilk uyduyu Kasım 2033’e, 100 bininciyi Kasım 2035’e kadar fırlatmalı; uyduları başka yörüngelere göndermek için ayrıca muafiyet alması gerekiyor."
+          },
+          "body": [
+            {
+              "subhead": "Türünün ilk lisansı",
+              "blocks": [
+                {
+                  "text": "The Verge’ün haberine göre ABD Federal İletişim Komisyonu (FCC), çarşamba günü SpaceX’in yapay zekâ çipleriyle donatılmış 1 milyona kadar uyduyu yörüngeye yerleştirmesine izin verdi. Uydular, Elon Musk’ın yörüngede veri merkezi kurma planı “Starmind”ın parçası. The Guardian bunun ABD tarihindeki ilk izin olduğunu yazdı. The Verge’e göre Google ve Blue Origin de benzer projeler üzerinde çalışıyor, ancak bir yapay zekâ uydu takımyıldızının tamamına verilen ilk onay bu."
+                },
+                {
+                  "text": "Ars Technica kararı “olağanüstü” diye niteledi: Takımyıldız tamamlanırsa yörüngedeki uydu sayısı yaklaşık 50 katına çıkacak. Guardian’a göre bugün uzayda yaklaşık 17 bin uydu var ve bunların 11 binden fazlası SpaceX’in Starlink ağına ait."
+                },
+                {
+                  "quote": "Amerika, dünyayı süper zekâ çağına taşıyor.",
+                  "speaker": "FCC Başkanı Brendan Carr",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Bilgisayarlar neden uzayda",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre SpaceX, Starmind’ı yeryüzündeki yapay zekâ kapasitesine güç sağlamak için “uzayda güneş enerjisini yakalamanın” bir yolu olarak tanımlıyor. Uydular verileri Starlink’e bağlanan yüksek hızlı lazerlerle Dünya’ya iletecek; SpaceX çipleri kurmayı planladığı Terafab adlı tesiste üretecek. Guardian’a göre şirket FCC’ye sunduğu başvuruda, neredeyse kesintisiz güneş enerjisi ve düşük işletme maliyeti sayesinde uyduların elektrik şebekesini ve su kaynaklarını zorlayan karasal veri merkezlerinden çok daha verimli ve temiz olacağını savundu."
+                },
+                {
+                  "text": "Guardian’ın aktardığına göre eleştirmenler teknolojinin hâlâ geliştirme aşamasında olduğunu ve kurulumun çok uzakta olduğunu söylüyor. Ars Technica da lisansın yörüngesel veri merkezlerinin teknik ya da ekonomik olarak uygulanabilir olduğunu göstermediğinin altını çizdi. Amazon’un uydu birimi Leo, SpaceX’in tüm uyduları fırlatmasının olası olmadığını ve bunun yüzyıllar sürebileceğini öne sürdü."
+                }
+              ]
+            },
+            {
+              "subhead": "2040’a uzanan takvim",
+              "blocks": [
+                {
+                  "text": "Lisans SpaceX’e uzun bir süre tanıyor. Guardian’ın FCC’ye dayandırdığı habere göre şirket ilk uyduyu Kasım 2033’e kadar fırlatmalı, Kasım 2035’e kadar 100 bin uyduyu, Kasım 2038’e kadar da azami sayının yarısını yörüngeye yerleştirmeli. Takımyıldızın tamamı için son tarih 2040; Ars Technica bunu “uzay uçuşu için onaylanmış en iddialı sanayi projesi” için 14 yıllık bir süre olarak tanımladı. Plan, SpaceX’in hâlâ geliştirilmekte olan yeniden kullanılabilir roketi Starship’in fırlatma maliyetlerini düşürmesine dayanıyor."
+                },
+                {
+                  "text": "FCC bir talebi reddetti. SpaceX, 600 kilometrenin üzerindeki emekli uyduları atmosferde yakmak yerine “mezarlık” yörüngelerine, hatta Güneş çevresindeki yörüngeye göndermek istiyordu. Ars Technica ve The Verge’e göre FCC, şirketin bu konuda “yeterli bilgi” sunmadığını belirtti; SpaceX’in önce ayrı bir muafiyet alması gerekecek."
+                }
+              ]
+            },
+            {
+              "subhead": "Çevre kaygıları kapsam dışı",
+              "blocks": [
+                {
+                  "text": "Ars Technica’ya göre FCC diğer konularda oldukça hoşgörülü davrandı. Amerikan Astronomi Derneği ve Secure World Foundation dahil altı kadar kuruluş çarpışma, uzay çöpü, atmosfere dönüşlerin yol açtığı kirlilik ve astronomiye zarar gibi riskleri dile getirdi; yaklaşık 1.500 kamuoyu yorumu yapıldı. FCC roket fırlatmalarının emisyonlarını yetki alanı dışında saydı, atmosfere dönüş kirliliğine ilişkin kaygıları ise “spekülatif” buldu. Ekim’deki bir politika değişikliğine dayanarak kapsamlı bir çevre değerlendirmesi yapmadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İzin verilen uydu",
+              "value": "1 milyon",
+              "source": "FCC, The Verge"
+            },
+            {
+              "label": "Bugün yörüngedeki uydu",
+              "value": "yaklaşık 17 bin",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İlk uydu için son tarih",
+              "value": "Kasım 2033",
+              "source": "FCC, The Guardian"
+            },
+            {
+              "label": "100 bin uydu için son tarih",
+              "value": "Kasım 2035",
+              "source": "FCC, The Guardian"
+            },
+            {
+              "label": "Yapılan kamuoyu yorumu",
+              "value": "yaklaşık 1.500",
+              "source": "Ars Technica"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T17:44:51.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T18:21:47.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T18:21:47.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T18:22:38.000Z",
+          "sourceId": "ars-technica"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/spacex-datacenter-satellites-approval",
+          "confirms": true
+        },
+        {
+          "sourceId": "ars-technica",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T22:30:00+03:00",
+      "updatedAt": "2026-11-25T22:30:00+03:00"
+    },
+    {
+      "id": "b50e46d04304c434",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "AI brings back John Motson",
+          "title": "EA uses AI to bring John Motson’s voice back to FC 27",
+          "summary": {
+            "what": "Electronic Arts has recreated the voice of the late BBC commentator John Motson with generative AI for its football game EA Sports FC 27.",
+            "why": "It is the first time the series, formerly called Fifa, has used a commentator who has died, and it reopens the debate over cloning voices without consent.",
+            "next": "The Motson commentary arrives in the game on 26 November through a software update."
+          },
+          "body": [
+            {
+              "subhead": "Motty returns to the game",
+              "blocks": [
+                {
+                  "text": "EA Sports FC 27 will feature a digitally recreated voice of John Motson, the BBC’s long-time football commentator who died in February 2023 aged 77, Electronic Arts told BBC News. It is the first time the series, known as Fifa until recently, has used a deceased commentator. The voice becomes available on 26 November."
+                },
+                {
+                  "text": "Motson was the game’s first commentator, from Fifa 96 to Fifa 2005, and made a brief cameo in Fifa 19, the BBC reported. Over his career he covered 10 World Cups, 10 European Championships and 29 FA Cup finals."
+                },
+                {
+                  "text": "EA built the voice from a mix of his old recordings and AI. The Guardian said the company used almost 10 years of recordings he made for the game between 1996 and 2006. Mat Prior, senior game design director at EA Sports FC, told the BBC AI was “the only way” to make it happen, because there are no recordings of Motson talking about modern players such as Bradley Barcola and Chloe Kelly."
+                }
+              ]
+            },
+            {
+              "subhead": "The family said yes",
+              "blocks": [
+                {
+                  "text": "The project went ahead with the permission of Motson’s widow and son, the BBC reported. EA paid the family for the rights to his likeness and voice but would not disclose the terms. Prior said the company would not have moved forward “in any way, shape or form” if the family had not been fully on board."
+                },
+                {
+                  "quote": "My dad was the least technological person in the world. Till his dying day, he had a typewriter on his desk.",
+                  "speaker": "Fred Motson, John Motson’s son",
+                  "sourceId": "bbc-sport-football"
+                },
+                {
+                  "text": "Fred Motson told the BBC that having his father’s voice back in the game “means an awful lot”, and that he believed his dad would “absolutely” have wanted to take part. The BBC’s current lead commentator Guy Mowbray, who has voiced the game since 2023, called it “quite a nice, sort of non-scary use of AI”."
+                }
+              ]
+            },
+            {
+              "subhead": "Not everyone is comfortable",
+              "blocks": [
+                {
+                  "text": "Peter Caulfield, founder of the campaign group Save Our Voices Now, told the BBC he had no problem when someone signs a deal allowing their likeness to be used after death, but that AI cloning should not be allowed without that specific consent, and that being a family member “shouldn’t automatically give you that right”. The Guardian reported that users on a Reddit forum called the move “disrespectful” and “gross”; the practice has been nicknamed “ghostploitation”."
+                },
+                {
+                  "text": "EA insisted the technology is not there to replace people. “There’s certainly no future plans to replace anyone with AI,” Prior told the BBC. Commentator Derek Rae, who records lines for the game two or three times a month in season, said AI could handle routine surnames, but the creative parts still need a human voice."
+                },
+                {
+                  "text": "Motson joins a short list of stars brought back by AI. The Guardian noted that Greta Garbo’s family licensed her image and voice for an advert in September, and that an AI version of Val Kilmer, who died in 2025, was unveiled this year as the star of the film As Deep As the Grave."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Voice arrives in FC 27",
+              "value": "26 Nov",
+              "source": "Electronic Arts, via BBC"
+            },
+            {
+              "label": "Motson’s years on the game",
+              "value": "1996–2006",
+              "source": "The Guardian"
+            },
+            {
+              "label": "World Cups Motson covered",
+              "value": "10",
+              "source": "BBC"
+            },
+            {
+              "label": "FA Cup finals Motson covered",
+              "value": "29",
+              "source": "BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Yapay zekâ John Motson’ı geri getirdi",
+          "title": "EA, John Motson’ın sesini yapay zekâyla FC 27’ye geri getiriyor",
+          "summary": {
+            "what": "Electronic Arts, 2023’te ölen BBC spikeri John Motson’ın sesini üretken yapay zekâyla yeniden oluşturup futbol oyunu EA Sports FC 27’ye ekliyor.",
+            "why": "Eski adı Fifa olan seri ilk kez hayatını kaybetmiş bir spikerin sesini kullanıyor; bu da rıza olmadan ses klonlama tartışmasını yeniden açıyor.",
+            "next": "Motson’lı anlatım, 26 Kasım’da bir yazılım güncellemesiyle oyuna geliyor."
+          },
+          "body": [
+            {
+              "subhead": "Motty oyuna dönüyor",
+              "blocks": [
+                {
+                  "text": "Electronic Arts’ın BBC’ye açıkladığına göre EA Sports FC 27, BBC’nin uzun yıllar baş futbol spikeri olan ve Şubat 2023’te 77 yaşında ölen John Motson’ın dijital olarak yeniden oluşturulmuş sesini kullanacak. Yakın zamana kadar Fifa adıyla bilinen seri ilk kez hayatını kaybetmiş bir spikere yer veriyor. Ses 26 Kasım’da oyuna eklenecek."
+                },
+                {
+                  "text": "BBC’ye göre Motson, Fifa 96’dan Fifa 2005’e kadar serinin ilk spikeriydi; Fifa 19’da da kısa bir konuk görünümü vardı. Kariyeri boyunca 10 Dünya Kupası, 10 Avrupa Şampiyonası ve 29 FA Cup finali anlattı."
+                },
+                {
+                  "text": "EA sesi eski kayıtlarla yapay zekâyı birleştirerek oluşturdu. Guardian’a göre şirket, Motson’ın 1996-2006 arasında oyun için yaptığı yaklaşık 10 yıllık kayıtları kullandı. EA Sports FC kıdemli oyun tasarım direktörü Mat Prior BBC’ye, Bradley Barcola ve Chloe Kelly gibi bugünün oyuncularından söz eden Motson kaydı olmadığı için yapay zekânın “tek yol” olduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Aileden onay",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre proje Motson’ın eşi ve oğlunun izniyle hayata geçti. EA, aileye benzerliğini ve sesini kullanma hakkı için ödeme yaptı ama tutarı açıklamadı. Prior, aile tamamen ikna olmasaydı “hiçbir şekilde” ilerlemeyeceklerini söyledi."
+                },
+                {
+                  "quote": "Babam dünyanın en teknolojiden uzak insanıydı. Öldüğü güne kadar masasında bir daktilo vardı.",
+                  "speaker": "John Motson’ın oğlu Fred Motson",
+                  "sourceId": "bbc-sport-football",
+                  "translated": true
+                },
+                {
+                  "text": "Fred Motson, babasının sesinin oyuna dönmesinin kendisi için “çok şey ifade ettiğini” ve babasının buna “kesinlikle” katılmak isteyeceğine inandığını BBC’ye anlattı. 2023’ten bu yana oyunu seslendiren BBC’nin bugünkü baş spikeri Guy Mowbray ise bunu yapay zekânın “hoş, ürkütücü olmayan bir kullanımı” olarak gördüğünü söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Herkes rahat değil",
+              "blocks": [
+                {
+                  "text": "Yapay zekâ ile ses klonlamaya karşı kampanya yürüten Save Our Voices Now’ın kurucusu Peter Caulfield BBC’ye, ölümünden sonra benzerliğinin kullanılmasına izin veren bir anlaşma imzalayan biri için sorun görmediğini, ama açık rıza olmadan klonlamaya izin verilmemesi gerektiğini söyledi; aile üyesi olmanın da bu hakkı “otomatik olarak vermemesi” gerektiğini ekledi. Guardian’a göre Reddit’teki kullanıcılar adımı “saygısız” ve “iğrenç” buldu; bu uygulamaya “ghostploitation” (ölüleri istismar) adı takılmış durumda."
+                },
+                {
+                  "text": "EA, teknolojinin insanların yerini almak için kullanılmadığında ısrar ediyor. Prior, “Kimsenin yerine yapay zekâ koyma planımız kesinlikle yok” dedi. Sezon boyunca ayda iki üç kez oyun için kayıt yapan spiker Derek Rae ise yapay zekânın sıradan soyadlarını halledebileceğini, ama yaratıcı kısımların hâlâ insan sesi gerektirdiğini söyledi."
+                },
+                {
+                  "text": "Guardian, Greta Garbo’nun ailesinin eylülde onun görüntü ve ses haklarını bir reklam için lisansladığını, 2025’te ölen Val Kilmer’ın yapay zekâ versiyonunun da bu yıl As Deep As the Grave filminin başrolünde tanıtıldığını hatırlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sesin FC 27’ye gelişi",
+              "value": "26 Kasım",
+              "source": "Electronic Arts, BBC"
+            },
+            {
+              "label": "Motson’ın oyundaki yılları",
+              "value": "1996-2006",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Motson’ın anlattığı Dünya Kupası",
+              "value": "10",
+              "source": "BBC"
+            },
+            {
+              "label": "Motson’ın anlattığı FA Cup finali",
+              "value": "29",
+              "source": "BBC"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T10:11:34.000Z",
+          "sourceId": "bbc-sport-football"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T15:13:10.000Z",
+          "sourceId": "guardian-ai"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T15:13:10.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5aca/live/065259e0-e4e5-11f1-b039-c1944465024e.jpg",
+        "sourceId": "bbc-sport-football",
+        "sourceName": "BBC Sport",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-sport-football",
+          "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/media/2026/nov/25/ai-helps-resurrect-voice-john-motson-football-video-game-fc27",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T22:30:00+03:00",
+      "updatedAt": "2026-11-25T22:30:00+03:00"
+    },
+    {
+      "id": "708fd3bc0d4fdd2d",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "23f2386752162891",
+      "versions": {
+        "en": {
+          "shortTitle": "Cartagena hostages all freed",
+          "title": "All hostages freed as Colombian forces storm Cartagena supermarket",
+          "summary": {
+            "what": "Colombian special forces stormed a Cartagena supermarket early on Wednesday, freeing the last 20 hostages after a 17-hour siege; one gunman was killed.",
+            "why": "President Abelardo de la Espriella, three months into a hard line on armed groups, is facing a wave of attacks across the country.",
+            "next": "Four hostage-takers are under arrest; the president says they were common criminals, not one of the armed groups behind recent attacks."
+          },
+          "body": [
+            {
+              "subhead": "Stun grenades at 1.30am",
+              "blocks": [
+                {
+                  "text": "Colombian security forces stormed a supermarket in Cartagena early on Wednesday and freed all the hostages held there, ending a siege of about 17 hours, the Guardian, Euronews and Al Jazeera reported. One hostage-taker was killed and four were arrested. No hostages were hurt, France 24 said."
+                },
+                {
+                  "text": "Special forces broke through blocked entrances and set off stun grenades, the Guardian reported, and the last 20 hostages were freed at about 1.30am. AFP reported several explosions before the raid, with a police helicopter hovering low overhead, Euronews said. Reports differ on the total held: most outlets put it at about 30 people, of whom 10 had been released during the day, while the BBC’s headline spoke of 76."
+                },
+                {
+                  "text": "Cartagena’s mayor, Dumek Turbay, told local media that one gunman resisted and was shot dead. Others tried to blend in with the hostages by taking off their hoods and swapping their black clothes for civilian ones, so police had to screen everyone before identifying the four, the Guardian reported."
+                }
+              ]
+            },
+            {
+              "subhead": "What the hostages went through",
+              "blocks": [
+                {
+                  "text": "The gunmen entered the store at about 8.30am on Tuesday after a failed attempt to rob an armoured cash van, President Abelardo de la Espriella said. Customers and staff could be seen through the windows with their hands and feet tied, the Guardian reported."
+                },
+                {
+                  "text": "Bakery worker Héctor Puello told Caracol Radio he felt he had “come back to life” because the armed men had been mistreating them. Another employee, Dayro Rafael Velázquez Castrillo, said he hid in a cold-storage room with four colleagues, but after four hours they could not bear the cold any longer, came out and were captured."
+                },
+                {
+                  "quote": "They were given the opportunity to surrender and release the hostages; they rejected that opportunity and we acted forcefully.",
+                  "speaker": "Abelardo de la Espriella, president of Colombia",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "A country under pressure",
+              "blocks": [
+                {
+                  "text": "De la Espriella flew in on Tuesday from Villavicencio, where a car bomb outside the Meta regional government’s headquarters on Monday night injured more than 20 people. He blamed that attack on a dissident faction of the former Farc guerrillas, but said the supermarket gunmen were “common criminals”, not a terrorist group, the Guardian reported."
+                },
+                {
+                  "text": "The siege fell on the 10th anniversary of Colombia’s peace deal with the Farc. The far-right president, in office for just over three months, opposes the deal and has dropped his predecessor Gustavo Petro’s “total peace” policy for open confrontation with armed groups. Recent days also brought the first drone attack on a regional capital, and on Tuesday night five departments lost power after, the president said, criminals blew up pylons."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Length of the siege",
+              "value": "17 hours",
+              "source": "The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Hostages freed in the final raid",
+              "value": "20",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Hostage-takers arrested",
+              "value": "4",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Hostage-takers killed",
+              "value": "1",
+              "source": "President De la Espriella"
+            }
+          ],
+          "place": {
+            "name": "Cartagena",
+            "lat": 10.39,
+            "lon": -75.51,
+            "region": "Colombia"
+          },
+          "news": "Special forces stormed the Cartagena supermarket and freed all the hostages after 17 hours; one gunman was killed and four were arrested."
+        },
+        "tr": {
+          "shortTitle": "Cartagena’da tüm rehineler kurtarıldı",
+          "title": "Kolombiya’da güvenlik güçleri süpermarkete girdi, tüm rehineler kurtarıldı",
+          "summary": {
+            "what": "Kolombiya özel kuvvetleri çarşamba sabaha karşı Cartagena’daki süpermarkete girerek 17 saatlik kuşatmanın ardından son 20 rehineyi kurtardı; bir saldırgan öldü.",
+            "why": "Silahlı gruplara karşı sert bir çizgi izleyen ve üç aydır görevde olan Devlet Başkanı Abelardo de la Espriella, ülke genelinde bir saldırı dalgasıyla karşı karşıya.",
+            "next": "Dört rehineci gözaltında; Devlet Başkanı onların son saldırıların arkasındaki silahlı gruplardan değil, adi suçlu olduğunu söylüyor."
+          },
+          "body": [
+            {
+              "subhead": "Gece 01.30’da operasyon",
+              "blocks": [
+                {
+                  "text": "Guardian, Euronews ve Al Jazeera’nın haberine göre Kolombiya güvenlik güçleri çarşamba sabaha karşı Cartagena’daki bir süpermarkete girerek içerideki tüm rehineleri kurtardı ve yaklaşık 17 saat süren kuşatmayı sona erdirdi. Rehinecilerden biri öldürüldü, dördü yakalandı. France 24’e göre hiçbir rehine yaralanmadı."
+                },
+                {
+                  "text": "Guardian’a göre özel kuvvetler kapatılmış girişleri kırıp ses bombaları patlattı; son 20 rehine saat 01.30 sıralarında serbest kaldı. Euronews’in aktardığı AFP haberine göre baskından önce birkaç patlama duyuldu ve bir polis helikopteri alçaktan uçtu. Rehine sayısı konusunda haberler farklı: Çoğu kuruluş yaklaşık 30 kişinin tutulduğunu ve 10’unun gün içinde bırakıldığını yazarken BBC’nin başlığı 76 kişiden söz etti."
+                },
+                {
+                  "text": "Cartagena Belediye Başkanı Dumek Turbay yerel basına, saldırganlardan birinin direndiği için vurularak öldürüldüğünü söyledi. Guardian’a göre diğerleri başlıklarını çıkarıp siyah kıyafetlerini sivil giysilerle değiştirerek rehinelerin arasına karışmaya çalıştı; polis bu yüzden dört kişiyi belirlemeden önce herkesi tek tek kontrol etmek zorunda kaldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Rehineler neler yaşadı",
+              "blocks": [
+                {
+                  "text": "Devlet Başkanı Abelardo de la Espriella’ya göre silahlı kişiler salı sabahı saat 08.30 sıralarında, para taşıyan zırhlı bir aracı soyma girişimi başarısız olunca markete girdi. Guardian’a göre müşteriler ve çalışanlar elleri ve ayakları bağlı halde pencerelerden görülebiliyordu."
+                },
+                {
+                  "text": "Fırın bölümünde çalışan Héctor Puello, Caracol Radio’ya silahlı adamlar kendilerine kötü davrandığı için “yeniden hayata dönmüş gibi” hissettiğini söyledi. Bir başka çalışan Dayro Rafael Velázquez Castrillo ise dört iş arkadaşıyla soğuk hava deposuna saklandığını, dört saat sonra soğuğa dayanamayıp dışarı çıktıklarını ve yakalandıklarını anlattı."
+                },
+                {
+                  "quote": "Teslim olup rehineleri bırakma fırsatı verildi; bu fırsatı reddettiler ve biz de güçlü biçimde müdahale ettik.",
+                  "speaker": "Kolombiya Devlet Başkanı Abelardo de la Espriella",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Baskı altındaki ülke",
+              "blocks": [
+                {
+                  "text": "De la Espriella salı günü Villavicencio’dan geldi. Orada pazartesi gecesi Meta bölge yönetiminin binası önünde patlayan bomba yüklü araç 20’den fazla kişiyi yaralamıştı. Guardian’a göre Devlet Başkanı o saldırıyı eski FARC gerillalarının muhalif bir kanadına bağladı, ancak süpermarketteki saldırganların terör örgütü değil “adi suçlular” olduğunu söyledi."
+                },
+                {
+                  "text": "Kuşatma, Kolombiya’nın FARC ile imzaladığı barış anlaşmasının 10. yıl dönümüne denk geldi. Yaklaşık üç aydır görevde olan aşırı sağcı Devlet Başkanı anlaşmaya karşı çıkıyor ve selefi Gustavo Petro’nun “topyekûn barış” politikasını bırakıp silahlı gruplarla açık çatışmayı seçti. Son günlerde bir bölge başkentine ilk kez insansız hava aracıyla saldırı düzenlendi; salı gecesi de beş eyalet elektriksiz kaldı. Devlet Başkanı, suçluların patlayıcılarla elektrik direklerini devirdiğini söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kuşatmanın süresi",
+              "value": "17 saat",
+              "source": "The Guardian, Al Jazeera"
+            },
+            {
+              "label": "Son operasyonda kurtarılan rehine",
+              "value": "20",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Yakalanan rehineci",
+              "value": "4",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Öldürülen rehineci",
+              "value": "1",
+              "source": "Devlet Başkanı De la Espriella"
+            }
+          ],
+          "place": {
+            "name": "Cartagena",
+            "lat": 10.39,
+            "lon": -75.51,
+            "region": "Kolombiya"
+          },
+          "news": "Özel kuvvetler Cartagena’daki süpermarkete girerek 17 saat sonra tüm rehineleri kurtardı; bir saldırgan öldü, dördü yakalandı."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T07:02:51.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T13:56:39.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T13:56:39.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T16:44:22.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T18:20:20.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T18:41:33.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/62e27074-e8d6-11f1-b5d1-29d00e23de9a/w:1024/p:16x9/EN-20261125-141204-141323-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/video/20261125-colombian-authorities-rescue-all-hostages-held-at-cartagena-supermarket"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/video/20261125-colombian-authorities-rescue-all-hostages-held-at-cartagena-supermarket",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T22:30:00+03:00",
+      "updatedAt": "2026-11-25T22:30:00+03:00"
+    },
+    {
+      "id": "148f5e7ddc6866ed",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Poundland collapses into administration",
+          "title": "Poundland collapses into administration, putting over 10,000 jobs at risk",
+          "summary": {
+            "what": "UK discount chain Poundland, with 600 shops in the UK and Ireland, went into administration on Wednesday after its US owner rejected rescue bids.",
+            "why": "More than 10,000 staff face losing their jobs weeks before Christmas, and about 2,000 suppliers stand to lose millions in unpaid stock.",
+            "next": "Shops stay open for now while administrators AlixPartners seek buyers; the chain is expected to be broken up, and MPs are recalling its owner."
+          },
+          "body": [
+            {
+              "subhead": "Weeks before Christmas",
+              "blocks": [
+                {
+                  "text": "Poundland, the UK’s first and biggest nationwide single-price retailer, collapsed into administration on Wednesday, putting more than 10,000 jobs at risk weeks before Christmas, the Guardian reported. The BBC put the figure at 11,000. AlixPartners has been appointed administrator for the 36-year-old chain, which has 600 stores in the UK and Ireland."
+                },
+                {
+                  "text": "All shops and distribution centres stay open for now while the administrators look at “all options including sales of the business and its assets, either in whole or part”, AlixPartners said. Both outlets reported that the chain is expected to be broken up, with rivals such as B&M, Poundstretcher and The Range taking parcels of stores and potentially hundreds left empty. The Guardian said up to 30,000 jobs could be at risk across stores, the supply chain and other high-street businesses."
+                },
+                {
+                  "quote": "Under these circumstances, it is impossible for the board of directors to see how Poundland can continue to operate as a going concern.",
+                  "speaker": "Barry Williams, Poundland managing director",
+                  "sourceId": "bbc-business"
+                }
+              ]
+            },
+            {
+              "subhead": "Owner turned down the bids",
+              "blocks": [
+                {
+                  "text": "The US finance firm Gordon Brothers bought Poundland for less than £1 from the European retailer Pepco last year. Williams told staff that the owner removed “all borrowing facilities and access to our bank accounts” on 27 October, the BBC reported, and shelves began to empty as the chain ran short of money to restock for its peak Christmas season."
+                },
+                {
+                  "text": "A key sticking point was a £30m shareholder loan: £22.5m owed to Gordon Brothers and £7.5m to Pepco. Gordon Brothers rejected offers that would have paid it back over time, the BBC said. Martin Property Group offered £5m up front with the rest deferred to 2030, and Xyra offered £12.5m up front but ran out of time. The Guardian reported that Gordon Brothers believed it could raise more by selling off stock and stores."
+                },
+                {
+                  "text": "Gordon Brothers said it had “explored every avenue to secure a sale of the whole company”, had lent the chain £85m over a year and stepped in when “no one else was willing to finance the business”."
+                }
+              ]
+            },
+            {
+              "subhead": "Anger from staff and MPs",
+              "blocks": [
+                {
+                  "text": "“There is never a good time for this to happen, but just before Christmas has to be the worst,” said Bally Auluk of the shopworkers’ union Usdaw, quoted by the Guardian. Kelvin Blake, 62, who has worked for Poundland for 25 years, told the BBC: “My income’s gone.” About 2,000 suppliers will lose significant business and millions of pounds for stock already delivered, the Guardian reported."
+                },
+                {
+                  "text": "Documents given to MPs showed the owner had taken close to £20m in interest and fees, the Guardian reported. Liam Byrne, chair of the Commons business committee, said it would recall Gordon Brothers and told the BBC he feared a “greed is good” approach had forced the chain into administration. Prime Minister Andy Burnham said the government would “make every effort to secure a deal that protects jobs”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Jobs at risk",
+              "value": "over 10,000",
+              "source": "AlixPartners, via the Guardian"
+            },
+            {
+              "label": "Stores in the UK and Ireland",
+              "value": "600",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Shareholder loan at the heart of talks",
+              "value": "£30m",
+              "source": "BBC"
+            },
+            {
+              "label": "Owner’s loans to the chain over a year",
+              "value": "£85m",
+              "source": "Gordon Brothers, via BBC"
+            },
+            {
+              "label": "Suppliers affected",
+              "value": "about 2,000",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Poundland iflas koruması altında",
+          "title": "İngiliz zincir Poundland kayyuma devredildi, 10 binden fazla iş tehlikede",
+          "summary": {
+            "what": "İngiltere ve İrlanda’da 600 mağazası olan indirim zinciri Poundland, ABD’li sahibi kurtarma tekliflerini reddedince çarşamba günü kayyuma devredildi.",
+            "why": "Noel’e haftalar kala 10 binden fazla çalışan işini kaybetme riskiyle karşı karşıya; yaklaşık 2 bin tedarikçi de milyonlarca sterlinlik alacağını kaybedebilir.",
+            "next": "Kayyum AlixPartners alıcı ararken mağazalar şimdilik açık; zincirin parçalanması bekleniyor, milletvekilleri de şirket sahibini yeniden ifadeye çağırıyor."
+          },
+          "body": [
+            {
+              "subhead": "Noel’e haftalar kala",
+              "blocks": [
+                {
+                  "text": "Guardian’ın haberine göre İngiltere’nin ilk ve en büyük ülke çapındaki tek fiyatlı perakendecisi Poundland çarşamba günü kayyuma (administration) devredildi ve Noel’e haftalar kala 10 binden fazla kişinin işi tehlikeye girdi. BBC bu sayıyı 11 bin olarak verdi. İngiltere ve İrlanda’da 600 mağazası bulunan 36 yıllık zincire kayyum olarak AlixPartners atandı."
+                },
+                {
+                  "text": "AlixPartners’ın açıklamasına göre kayyum, işletmenin ve varlıklarının “tamamen ya da kısmen satışı dahil tüm seçenekleri” değerlendirirken tüm mağazalar ve dağıtım merkezleri açık kalacak. İki kuruluş da zincirin parçalanmasının beklendiğini, B&M, Poundstretcher ve The Range gibi rakiplerin mağaza paketleri alacağını ve yüzlercesinin boş kalabileceğini yazdı. Guardian’a göre mağazalar, tedarik zinciri ve diğer işletmelerle birlikte 30 bine kadar iş risk altında."
+                },
+                {
+                  "quote": "Bu koşullar altında yönetim kurulunun Poundland’in faaliyetlerini sürdürebileceğini görmesi mümkün değil.",
+                  "speaker": "Poundland Genel Müdürü Barry Williams",
+                  "sourceId": "bbc-business",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Sahibi teklifleri geri çevirdi",
+              "blocks": [
+                {
+                  "text": "ABD’li finans şirketi Gordon Brothers, Poundland’i geçen yıl Avrupalı perakendeci Pepco’dan 1 sterlinden az bir bedelle satın almıştı. BBC’ye göre Williams çalışanlara, şirket sahibinin 27 Ekim’de “tüm kredi imkânlarını ve banka hesaplarına erişimi” kestiğini söyledi; Noel sezonu öncesi stok yenileyecek para kalmayınca raflar boşalmaya başladı."
+                },
+                {
+                  "text": "Müzakerelerin düğüm noktası 30 milyon sterlinlik ortak kredisiydi: Bunun 22,5 milyonu Gordon Brothers’a, 7,5 milyonu Pepco’ya borçluydu. BBC’ye göre Gordon Brothers bu borcu zamana yayarak ödemeyi öneren teklifleri reddetti. Martin Property Group 5 milyon sterlini peşin ödeyip kalanını 2030’a ertelemeyi, Xyra ise 12,5 milyon sterlin peşin ödemeyi önerdi ama süre yetmedi. Guardian, Gordon Brothers’ın stokları ve mağazaları satarak daha fazla para toplayabileceğini düşündüğünü yazdı."
+                },
+                {
+                  "text": "Gordon Brothers, “şirketin tamamının satışı için her yolu denediğini”, bir yıl içinde zincire 85 milyon sterlin borç verdiğini ve “kimsenin finanse etmeye yanaşmadığı” bir dönemde devreye girdiğini açıkladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Çalışanlar ve milletvekilleri öfkeli",
+              "blocks": [
+                {
+                  "text": "Guardian’a konuşan mağaza çalışanları sendikası Usdaw’dan Bally Auluk, “Bunun için hiçbir zaman iyi bir zaman yoktur, ama Noel’in hemen öncesi en kötüsü olmalı” dedi. 25 yıldır Poundland’de çalışan 62 yaşındaki Kelvin Blake BBC’ye “Gelirim gitti” diye konuştu. Guardian’a göre yaklaşık 2 bin tedarikçi önemli bir iş kaybına uğrayacak ve teslim ettikleri mallar için milyonlarca sterlin alamayacak."
+                },
+                {
+                  "text": "Guardian’a göre milletvekillerine sunulan belgeler, şirket sahibinin faiz ve ücretler olarak yaklaşık 20 milyon sterlin çektiğini gösteriyor. Avam Kamarası ticaret komitesi başkanı Liam Byrne, komitenin Gordon Brothers’ı yeniden çağıracağını söyledi ve BBC’ye “açgözlülük iyidir” anlayışının zinciri kayyuma sürüklemesinden endişe ettiğini anlattı. Başbakan Andy Burnham ise hükümetin “işleri koruyan bir anlaşma için her çabayı göstereceğini” söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Tehlikedeki iş",
+              "value": "10 binden fazla",
+              "source": "AlixPartners, The Guardian"
+            },
+            {
+              "label": "İngiltere ve İrlanda’daki mağaza",
+              "value": "600",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Müzakerelerin merkezindeki kredi",
+              "value": "30 milyon £",
+              "source": "BBC"
+            },
+            {
+              "label": "Sahibinin bir yılda verdiği kredi",
+              "value": "85 milyon £",
+              "source": "Gordon Brothers, BBC"
+            },
+            {
+              "label": "Etkilenen tedarikçi",
+              "value": "yaklaşık 2 bin",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T16:41:08.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T18:29:42.000Z",
+          "sourceId": "bbc-business"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T18:29:42.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5177/live/c7a2f690-e8fa-11f1-99a1-253766e7ad8b.jpg",
+        "sourceId": "bbc-business",
+        "sourceName": "BBC News Business",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/business/2026/nov/25/poundland-administration-jobs-at-risk-gordon-brothers",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-business",
+          "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-25T22:30:00+03:00",
+      "updatedAt": "2026-11-25T22:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "91893157fb1b879a",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "From 1 January, what will İzmir homes pay per cubic metre for their first 10 cubic metres of water?",
+          "options": ["45 lira", "60 lira", "22 lira"]
+        },
+        "tr": {
+          "question": "1 Ocak’tan itibaren İzmir’de konutlar ilk 10 metreküp suyun metreküpüne kaç lira ödeyecek?",
+          "options": ["45 lira", "60 lira", "22 lira"]
+        }
+      }
+    },
+    {
+      "storyId": "17929128d139e3d0",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many satellites has the FCC allowed SpaceX to deploy for its Starmind data centres?",
+          "options": ["Up to 1 million", "Up to 42,000", "Up to 100,000"]
+        },
+        "tr": {
+          "question": "FCC, SpaceX’in Starmind veri merkezleri için kaç uydu fırlatmasına izin verdi?",
+          "options": ["1 milyona kadar", "42 bine kadar", "100 bine kadar"]
+        }
+      }
+    },
+    {
+      "storyId": "148f5e7ddc6866ed",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many stores does Poundland have in the UK and Ireland?",
+          "options": ["250", "600", "1,200"]
+        },
+        "tr": {
+          "question": "Poundland’in İngiltere ve İrlanda’da kaç mağazası var?",
+          "options": ["250", "600", "1.200"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-138",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Kosner Baskonia Vitoria-Gasteiz",
+        "ours": false,
+        "team": "kosner-baskonia-vitoria-gasteiz"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-25T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/138"
+      }
+    },
+    {
+      "id": "espn-401915375",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce",
+        "tr": "Fenerbahce"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Shakhtar Donetsk",
+        "short": "Shakhtar",
+        "ours": false,
+        "team": "shakhtar-donetsk"
+      },
+      "away": {
+        "name": "Fenerbahce",
+        "ours": true,
+        "team": "fenerbahce"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915375"
+      }
+    },
+    {
+      "id": "espn-401915376",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915376"
+      }
+    },
+    {
+      "id": "espn-401909317",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "startsAt": "2026-11-25T22:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909317"
+      }
+    },
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
+      }
+    }
+  ]
+}
