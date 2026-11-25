@@ -7,11 +7,16 @@
  * `history dir` holds `<date>.json` snapshots (the `music/history` folder of the candidates
  * branch); today's is added to it. A chart that cannot be read is listed under `failures` and
  * the rest still run.
+ *
+ * The candidates file also lists the all-time songs (`alltime`, per genre) with their preview,
+ * cover and links, so the writer can pick one without a lookup of its own.
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 
-import { readTaste } from '../files.js';
+import { canonKey } from '../canon.js';
+import { GENRES, type Genre } from '../edition.js';
+import { readCanon, readTaste } from '../files.js';
 import { songKey } from '../song.js';
 import { parseAppleChart, itunesSearchUrl, parseITunesSearch } from './apple.js';
 import { parseBeatportChart } from './beatport.js';
@@ -110,10 +115,35 @@ async function main(): Promise<void> {
     }
   }
 
+  const alltime = Object.fromEntries(GENRES.map((genre) => [genre, [] as Candidate[]])) as Record<
+    Genre,
+    Candidate[]
+  >;
+  for (const entry of readCanon()) {
+    const song: Candidate = {
+      key: canonKey(entry),
+      genre: entry.genre,
+      title: entry.title,
+      artists: entry.artists,
+      ...(entry.bpm === undefined ? {} : { bpm: entry.bpm }),
+      genreTags: [],
+      links: {},
+      evidence: [],
+      notes: [`all-time list (${entry.standing.kind}), first out ${String(entry.year)}`],
+      score: 0,
+    };
+    try {
+      await enrich(song, fetchText);
+    } catch (error) {
+      failures.push({ source: `itunes ${song.key}`, reason: String(error) });
+    }
+    alltime[entry.genre].push(song);
+  }
+
   mkdirSync(historyDir, { recursive: true });
   writeFileSync(join(historyDir, `${date}.json`), `${JSON.stringify(snapshotOf(date, entries))}\n`);
   mkdirSync(dirname(outFile), { recursive: true });
-  writeFileSync(outFile, `${JSON.stringify({ ...day, failures }, null, 2)}\n`);
+  writeFileSync(outFile, `${JSON.stringify({ ...day, alltime, failures }, null, 2)}\n`);
   const counts = Object.entries(day.genres).map(
     ([genre, list]) => `${genre} ${String(list.length)}`,
   );
