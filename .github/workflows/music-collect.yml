@@ -48,6 +48,9 @@ jobs:
           fi
           ls "$RUNNER_TEMP/history" | tail -3
 
+      - name: ffmpeg, to measure techno tempo from previews
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends ffmpeg)
+
       - name: Read the charts
         run: |
           DATE=$(TZ=Europe/Istanbul date +%F)

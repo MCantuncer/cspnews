@@ -22,7 +22,9 @@ export interface Candidate {
   /** The earliest release date any source gives. */
   released?: string;
   bpm?: number;
-  /** Where the tempo was read: a Beatport or Deezer track page. */
+  /** Who read the tempo: Beatport, Deezer, or the Collect itself from the preview. */
+  bpmSource?: 'beatport' | 'deezer' | 'preview';
+  /** Where the tempo was read: a Beatport or Deezer track page, or the preview. */
   bpmFrom?: string;
   label?: string;
   genreTags: string[];
@@ -293,7 +295,12 @@ function toCandidate(
     ...(isrc ? { isrc } : {}),
     ...(released ? { released } : {}),
     ...(bpm === undefined ? {} : { bpm }),
-    ...(bpm !== undefined && tempo?.link ? { bpmFrom: tempo.link } : {}),
+    ...(bpm !== undefined && tempo?.link
+      ? {
+          bpmSource: tempo.chart.source === 'beatport' ? 'beatport' : 'deezer',
+          bpmFrom: tempo.link,
+        }
+      : {}),
     ...(label ? { label } : {}),
     genreTags: [...new Set(entries.flatMap((entry) => entry.genreTags))],
     links,

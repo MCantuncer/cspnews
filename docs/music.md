@@ -2,11 +2,11 @@
 
 Music for the curious (Meraklısına müzik) is a daily edition beside the news bulletins: five songs in each of three genres, every one with the reason it is there and the measured numbers behind that reason. Can asked for it on 2026-11-23 and asked for "serious flows" to pick each day's five, not a casual list. The design is in [design/decisions/music.md](design/decisions/music.md); the format and the checks are in `packages/music`.
 
-| Genre                 | Key      | What belongs                                                                            |
-| --------------------- | -------- | --------------------------------------------------------------------------------------- |
-| Hip-hop, global       | `global` | Rap by artists from outside Türkiye, in any language                                    |
-| Türkçe rap            | `turkey` | Rap by Turkish artists, in Turkish or not, wherever the song charts                     |
-| Techno, up to 134 BPM | `techno` | Techno with a tempo of 134 or less, read from Beatport or Deezer; never a guessed tempo |
+| Genre                 | Key      | What belongs                                                                                                         |
+| --------------------- | -------- | -------------------------------------------------------------------------------------------------------------------- |
+| Hip-hop, global       | `global` | Rap by artists from outside Türkiye, in any language                                                                 |
+| Türkçe rap            | `turkey` | Rap by Turkish artists, in Turkish or not, wherever the song charts                                                  |
+| Techno, up to 134 BPM | `techno` | Techno with a tempo of 134 or less, read from Beatport or Deezer or measured from the preview; never a guessed tempo |
 
 One file a day, `data/music/<yyyy-mm-dd>.json`, published at 18:30 Istanbul time with the evening bulletin, every day of the week.
 
@@ -36,7 +36,7 @@ Hard Techno is not read: most of it is above 134 BPM. Every chart reading is sav
 - The key is the ISRC when a source gives one (Deezer, Beatport). Otherwise it is the folded lead artist and title (`songKey` in `packages/music/src/song.ts`): featuring credits, "Original Mix", remaster tags and sped-up or slowed edits are the same song; a remix by another artist is its own song.
 - **First release** is the earliest date that MusicBrainz, Deezer or Apple gives, so a remaster or a deluxe edition does not make an old song new.
 - **Genre**: a store's genre tag must say hip-hop/rap or techno. Global or Türkiye follows the lead artist's country (MusicBrainz) and the language, so a Turkish rapper on the global chart is a Türkçe rap song.
-- **Tempo** (techno): a measured BPM is required, from Beatport or else Deezer; a song whose tempo neither gives is left out. When both give one and the two differ by more than 3, the song is dropped. A reading under 100 is probably half-time and needs a second source. Over 134 is out, with no exceptions.
+- **Tempo** (techno): a measured BPM is required: Beatport's, else Deezer's, else the Collect's own reading of the 30-second preview (the low end's kick period between 110 and 150 BPM, kept only when the beats are clearly alike; `packages/music/src/collect/tempo.ts`). A song with no reading is left out. When both give one and the two differ by more than 3, the song is dropped. A reading under 100 is probably half-time and needs a second source. Over 134 is out, with no exceptions.
 
 ## Reason kinds and the five slots
 

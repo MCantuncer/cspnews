@@ -11,7 +11,9 @@
  * The candidates file also lists the all-time songs (`alltime`, per genre) with their preview,
  * cover and links, so the writer can pick one without a lookup of its own.
  */
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { execFile } from 'node:child_process';
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 
 import { canonKey } from '../canon.js';
@@ -33,6 +35,7 @@ import { History, SnapshotSchema, type Snapshot } from './history.js';
 import { httpFetchText } from './http.js';
 import { parseITunesGenreChart } from './itunes.js';
 import { parseKworbChart } from './kworb.js';
+import { MIN_TEMPO_CONFIDENCE, TEMPO_RATE, estimateTempo } from './tempo.js';
 import type { Chart, ChartEntry, FetchText, Failure } from './types.js';
 
 function parserFor(chart: Chart): (body: string, chart: Chart) => ChartEntry[] {
@@ -91,8 +94,49 @@ async function addTempo(candidate: Candidate, fetchText: FetchText): Promise<voi
   if (track.isrc) candidate.isrc ??= track.isrc;
   if (track.bpm) {
     candidate.bpm = Math.round(track.bpm * 10) / 10;
+    candidate.bpmSource = 'deezer';
     candidate.bpmFrom = track.link ?? `https://www.deezer.com/track/${id}`;
   }
+}
+
+/**
+ * Decodes a preview to mono samples with ffmpeg (installed by the workflow). The audio goes through
+ * a file, not a pipe: an .m4a may keep its index at the end, which a pipe cannot seek to.
+ */
+function decode(audio: Buffer): Promise<Float32Array> {
+  const file = join(tmpdir(), `cspnews-preview-${String(process.pid)}`);
+  writeFileSync(file, audio);
+  return new Promise((done, fail) => {
+    execFile(
+      'ffmpeg',
+      ['-v', 'error', '-i', file, '-ac', '1', '-ar', String(TEMPO_RATE), '-f', 'f32le', 'pipe:1'],
+      { encoding: 'buffer', maxBuffer: 64 * 1024 * 1024 },
+      (error, stdout) => {
+        rmSync(file, { force: true });
+        if (error) {
+          fail(new Error(error.message));
+          return;
+        }
+        const bytes = Uint8Array.from(stdout);
+        done(new Float32Array(bytes.buffer, 0, Math.floor(bytes.byteLength / 4)));
+      },
+    );
+  });
+}
+
+/** Measures the tempo from the 30-second preview when no source gave one. */
+async function measureTempo(candidate: Candidate): Promise<void> {
+  if (candidate.bpm !== undefined || !candidate.preview) return;
+  const response = await fetch(candidate.preview, { signal: AbortSignal.timeout(20_000) });
+  if (!response.ok) throw new Error(`${String(response.status)} from ${candidate.preview}`);
+  const reading = estimateTempo(await decode(Buffer.from(await response.arrayBuffer())));
+  console.log(
+    `Tempo of ${candidate.artists[0] ?? ''} - ${candidate.title}: ${reading ? `${String(reading.bpm)} BPM, sure ${String(reading.confidence)}` : 'too short'}`,
+  );
+  if (!reading || reading.confidence < MIN_TEMPO_CONFIDENCE) return;
+  candidate.bpm = reading.bpm;
+  candidate.bpmSource = 'preview';
+  candidate.bpmFrom = candidate.preview;
 }
 
 function readHistory(directory: string): Snapshot[] {
@@ -146,6 +190,11 @@ async function main(): Promise<void> {
       await addTempo(candidate, fetchText);
     } catch (error) {
       failures.push({ source: `deezer ${candidate.key}`, reason: String(error) });
+    }
+    try {
+      await measureTempo(candidate);
+    } catch (error) {
+      failures.push({ source: `tempo ${candidate.key}`, reason: String(error) });
     }
   }
   // Techno is only for 120 to 134 BPM, so a song whose tempo is still unknown is left out.
