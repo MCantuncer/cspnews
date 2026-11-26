@@ -39,6 +39,11 @@ const RAP_CHART = /hip[- ]?hop|\brap\b/i;
 const INDIE_DANCE_CHART = /indie[- ]?dance/i;
 export const REPEAT_DAYS = 30;
 export const ALLTIME_REPEAT_DAYS = 180;
+/**
+ * Indie Dance takes four all-time favourites a day (Can, 26 November: "1 new/hot and 4 all time
+ * favorite"), so a favourite may come back after a month rather than half a year.
+ */
+export const INDIE_DANCE_ALLTIME_REPEAT_DAYS = 30;
 /** Two tempo readings further apart than this mean one of them is wrong, so the pick is dropped. */
 export const BPM_TOLERANCE = 3;
 /** Below this a techno reading is probably half-time and needs a second source. */
@@ -122,7 +127,12 @@ export function checkMusicEdition(edition: MusicEdition, context: CheckContext):
       problems.push(`${name}: nothing to play; it needs a SoundCloud page or a preview.`);
     }
 
-    const window = pick.kind === 'alltime' ? ALLTIME_REPEAT_DAYS : REPEAT_DAYS;
+    const window =
+      pick.kind !== 'alltime'
+        ? REPEAT_DAYS
+        : genre === 'indiedance'
+          ? INDIE_DANCE_ALLTIME_REPEAT_DAYS
+          : ALLTIME_REPEAT_DAYS;
     for (const other of earlier) {
       const gap = daysBetween(other.date, edition.date);
       if (gap > window) continue;

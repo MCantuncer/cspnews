@@ -39,6 +39,7 @@ export { TASTE_WEIGHT_MAX, TasteSchema, parseTaste } from './taste.js';
 export type { Taste } from './taste.js';
 export {
   ALLTIME_REPEAT_DAYS,
+  INDIE_DANCE_ALLTIME_REPEAT_DAYS,
   BACK_MIN_DAYS,
   BACK_MAX_RANK,
   STRICT_FROM,

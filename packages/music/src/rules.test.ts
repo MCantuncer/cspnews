@@ -212,4 +212,23 @@ describe('music edition check', () => {
       parseMusicEdition({ ...sample(), genres: { ...sample().genres, indiedance: [] } }),
     ).toThrow(/either techno or indiedance/);
   });
+
+  it('lets an Indie Dance favourite come back after 30 days', () => {
+    const toIndie = (e: MusicEdition) => {
+      e.genres.indiedance = e.genres.techno ?? [];
+      for (const pick of e.genres.indiedance) delete pick.bpm;
+      delete e.genres.techno;
+    };
+    const today = edit((e) => {
+      e.date = '2026-12-31';
+      toIndie(e);
+    });
+    const monthAgo = edit((e) => {
+      e.date = '2026-11-29';
+      toIndie(e);
+    });
+    const repeats = check(today, [monthAgo]).filter((p) => p.includes('2026-11-29'));
+    expect(repeats.filter((p) => p.startsWith('indiedance'))).toEqual([]);
+    expect(repeats.filter((p) => p.startsWith('global')).length).toBeGreaterThan(0);
+  });
 });
