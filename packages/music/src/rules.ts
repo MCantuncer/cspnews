@@ -22,8 +22,17 @@ export const CLIMBING_MAX_DAYS = 365;
 export const BACK_MIN_DAYS = 730;
 export const BACK_MIN_SURGE = 2;
 export const BACK_MIN_DAYS_OFF_CHART = 90;
-/** An old song in a chart's top 50 today is being played a lot right now (Can: "listening too much right now"). */
+/**
+ * Editions from this date follow the stricter picking rules Can asked for on 2026-11-25 ("Music
+ * selections were bad"): an old song must truly be coming back, and a rap pick must be measured on
+ * a rap chart, not only on a chart of every genre. Earlier editions keep the rules they were
+ * published under.
+ */
+export const STRICT_FROM = '2026-11-25';
+/** Until STRICT_FROM, an old song in a chart's top 50 today also counted as "big again". */
 export const BACK_MAX_RANK = 50;
+/** A chart counts as a rap chart when its name says so: "Apple Music US Hip-Hop/Rap", "Deezer Türkçe Rap". */
+const RAP_CHART = /hip[- ]?hop|\brap\b/i;
 export const REPEAT_DAYS = 30;
 export const ALLTIME_REPEAT_DAYS = 180;
 /** Two tempo readings further apart than this mean one of them is wrong, so the pick is dropped. */
@@ -91,7 +100,9 @@ export function checkMusicEdition(edition: MusicEdition, context: CheckContext):
     const age = daysBetween(pick.released, edition.date);
     if (age < 0) problems.push(`${name}: released ${pick.released}, after the edition's date.`);
 
-    problems.push(...kindProblems(name, pick, age, canon, genre));
+    const strict = edition.date >= STRICT_FROM;
+    problems.push(...kindProblems(name, pick, age, canon, genre, strict));
+    if (strict) problems.push(...genreProblems(name, pick, genre));
     problems.push(...freshnessProblems(name, pick, edition.publishAt));
     if (genre === 'techno') problems.push(...tempoProblems(name, pick));
     problems.push(...numberProblems(name, pick, age));
@@ -124,6 +135,7 @@ function kindProblems(
   age: number,
   canon: Map<string, CanonEntry>,
   genre: Genre,
+  strict: boolean,
 ): string[] {
   switch (pick.kind) {
     case 'new': {
@@ -162,10 +174,12 @@ function kindProblems(
       const returned =
         has(pick, 'daysOffChart').some((item) => item.value >= BACK_MIN_DAYS_OFF_CHART) &&
         has(pick, 'rank').length > 0;
-      const high = has(pick, 'rank').some((item) => item.value <= BACK_MAX_RANK);
+      const high = !strict && has(pick, 'rank').some((item) => item.value <= BACK_MAX_RANK);
       if (!surged && !returned && !high) {
         problems.push(
-          `${name}: "old song, big again" needs a top ${String(BACK_MAX_RANK)} place today, plays at ${String(BACK_MIN_SURGE)}x its usual, or a chart return after ${String(BACK_MIN_DAYS_OFF_CHART)}+ days.`,
+          strict
+            ? `${name}: "old song, big again" needs plays at ${String(BACK_MIN_SURGE)}x its usual or a chart return after ${String(BACK_MIN_DAYS_OFF_CHART)}+ days; a long-running hit is not a comeback.`
+            : `${name}: "old song, big again" needs a top ${String(BACK_MAX_RANK)} place today, plays at ${String(BACK_MIN_SURGE)}x its usual, or a chart return after ${String(BACK_MIN_DAYS_OFF_CHART)}+ days.`,
         );
       }
       return problems;
@@ -177,6 +191,15 @@ function kindProblems(
       return [];
     }
   }
+}
+
+/** From STRICT_FROM: a rap pick's numbers must include a rap chart, so pop songs with a rap feature stay out. */
+function genreProblems(name: string, pick: Pick, genre: Genre): string[] {
+  if (genre === 'techno' || pick.kind === 'alltime') return [];
+  if (pick.evidence.some((item) => RAP_CHART.test(item.chart))) return [];
+  return [
+    `${name}: a rap pick needs a place on a rap chart (a chart named hip-hop or rap), not only on a chart of every genre.`,
+  ];
 }
 
 function freshnessProblems(name: string, pick: Pick, publishAt: string): string[] {

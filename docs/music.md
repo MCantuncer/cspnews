@@ -2,11 +2,11 @@
 
 Music for the curious (Meraklısına müzik) is a daily edition beside the news bulletins: five songs in each of three genres, every one with the reason it is there and the measured numbers behind that reason. Can asked for it on 2026-11-23 and asked for "serious flows" to pick each day's five, not a casual list. The design is in [design/decisions/music.md](design/decisions/music.md); the format and the checks are in `packages/music`.
 
-| Genre                 | Key      | What belongs                                                                  |
-| --------------------- | -------- | ----------------------------------------------------------------------------- |
-| Hip-hop, global       | `global` | Rap by artists from outside Türkiye, in any language                          |
-| Türkçe rap            | `turkey` | Rap by Turkish artists, in Turkish or not, wherever the song charts           |
-| Techno, up to 134 BPM | `techno` | Techno with a tempo of 134 or less, read from Beatport; never a guessed tempo |
+| Genre                 | Key      | What belongs                                                                                                         |
+| --------------------- | -------- | -------------------------------------------------------------------------------------------------------------------- |
+| Hip-hop, global       | `global` | Rap by artists from outside Türkiye, in any language                                                                 |
+| Türkçe rap            | `turkey` | Rap by Turkish artists, in Turkish or not, wherever the song charts                                                  |
+| Techno, up to 134 BPM | `techno` | Techno with a tempo of 134 or less, read from Beatport or Deezer or measured from the preview; never a guessed tempo |
 
 One file a day, `data/music/<yyyy-mm-dd>.json`, published at 18:30 Istanbul time with the evening bulletin, every day of the week.
 
@@ -21,11 +21,13 @@ Steps 1, 2 and 4 are rules, with no model. Step 3 is a scheduled Claude Code tas
 
 ## Sources
 
-| Genre  | Charts                                                                                                                | Release watch                                        |
-| ------ | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| global | Spotify daily Global and US (read through kworb), Apple Music US most played, Deezer rap chart                        | New releases of followed artists (Deezer)            |
-| turkey | Spotify daily Türkiye (read through kworb), Apple Music Türkiye most played, Deezer; YouTube trending with a free key | New releases of followed Turkish rappers (Deezer)    |
-| techno | Beatport Top 100 and Hype for Peak Time / Driving and Raw / Deep / Hypnotic                                           | Beatport new releases of followed labels and artists |
+| Genre  | Where candidates come from                                                                                                                                                                                                         | Evidence only (never a reason on its own)                                    |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| global | Apple Music US Hip-Hop/Rap top songs, Deezer rap chart, new releases of followed artists                                                                                                                                           | Spotify daily Global and US (read through kworb), Apple Music US most played |
+| turkey | Apple Music Türkiye Hip-Hop/Rap top songs, Deezer Türkçe rap playlists, new releases of followed Turkish rappers                                                                                                                   | Spotify daily Türkiye (read through kworb), Apple Music Türkiye most played  |
+| techno | Apple Music US Techno chart and Deezer's editors' Techno Tunnel playlist every day; Beatport Raw / Deep / Hypnotic and Peak Time / Driving whenever Beatport can be read (it answers GitHub's runners with a Cloudflare challenge) | Deezer tempo                                                                 |
+
+Since 25 November (Can: "Music selections were bad"), a song is a candidate only when it shows up on a rap chart or a techno chart; a chart of every genre can add numbers but never brings a song in. That keeps out pop and R&B songs with a rap feature and long-running hits. For techno, Raw / Deep / Hypnotic comes first because Peak Time / Driving leans to big-room festival tracks; a Peak Time song needs a followed label or artist, or a heavy, driving sound by the writer's ear.
 
 Hard Techno is not read: most of it is above 134 BPM. Every chart reading is saved each day, so the edition can compare a song with its own past: "plays at 4x its usual" and "back after 412 days" are measured from that history. In the first two to four weeks the history is short, so an old song qualifies mostly by coming back to a chart.
 
@@ -34,16 +36,18 @@ Hard Techno is not read: most of it is above 134 BPM. Every chart reading is sav
 - The key is the ISRC when a source gives one (Deezer, Beatport). Otherwise it is the folded lead artist and title (`songKey` in `packages/music/src/song.ts`): featuring credits, "Original Mix", remaster tags and sped-up or slowed edits are the same song; a remix by another artist is its own song.
 - **First release** is the earliest date that MusicBrainz, Deezer or Apple gives, so a remaster or a deluxe edition does not make an old song new.
 - **Genre**: a store's genre tag must say hip-hop/rap or techno. Global or Türkiye follows the lead artist's country (MusicBrainz) and the language, so a Turkish rapper on the global chart is a Türkçe rap song.
-- **Tempo** (techno): Beatport's BPM is required. When Deezer also gives one and the two differ by more than 3, the song is dropped. A reading under 100 is probably half-time and needs a second source. Over 134 is out, with no exceptions.
+- **Tempo** (techno): a measured BPM is required: Beatport's, else Deezer's, else the Collect's own reading of the 30-second preview (the low end's kick period between 110 and 150 BPM, kept only when the beats are clearly alike; `packages/music/src/collect/tempo.ts`). A song with no reading is left out. When both give one and the two differ by more than 3, the song is dropped. A reading under 100 is probably half-time and needs a second source. Over 134 is out, with no exceptions.
 
 ## Reason kinds and the five slots
 
-| Kind       | English / Türkçe                                   | It must have                                                                                                                   |
-| ---------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `new`      | New / Yeni                                         | A first release in the last 14 days and a measured reaction: a chart place, plays, or several charts                           |
-| `climbing` | Climbing / Yükselişte                              | A first release in the last year and a better place than before on the same chart                                              |
-| `back`     | Old song, big again / Eski şarkı, yeniden gündemde | A first release 2+ years ago, and a top 50 place on a chart today, plays at 2x its usual, or a chart return after 90+ days off |
-| `alltime`  | All-time favourite / Tüm zamanların favorisi       | A place on the all-time list, `packages/music/data/canon.json`                                                                 |
+| Kind       | English / Türkçe                                   | It must have                                                                                                                                 |
+| ---------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `new`      | New / Yeni                                         | A first release in the last 14 days and a measured reaction: a chart place, plays, or several charts                                         |
+| `climbing` | Climbing / Yükselişte                              | A first release in the last year and a better place than before on the same chart                                                            |
+| `back`     | Old song, big again / Eski şarkı, yeniden gündemde | A first release 2+ years ago, and plays at 2x its usual or a chart return after 90+ days off (until 24 November a top 50 place also counted) |
+| `alltime`  | All-time favourite / Tüm zamanların favorisi       | A place on the all-time list, `packages/music/data/canon.json`                                                                               |
+
+A rap pick (other than all-time) must have at least one number from a rap chart, one whose name says hip-hop or rap; the check refuses it otherwise.
 
 Each genre's five are **2 `new`, 1 `climbing`, 1 `back` and 1 `alltime`**. When no candidate passes a slot's rule, the slot goes to the best candidate that passes another rule; the bar is never lowered to fill a slot.
 
@@ -78,3 +82,10 @@ Within a kind, candidates rank by the strength of their numbers (chart place, pl
 - every song can play.
 
 The tests in `packages/music` run the same check on every file in `data/music`, so a bad edition fails CI.
+
+## The daily run
+
+1. **Music Collect** (`.github/workflows/music-collect.yml`, 16:30 Istanbul) reads every chart in `packages/music/src/collect/charts.ts`, adds the day to `music/history/` and writes `music/candidates/<date>.json` on the `candidates` branch: for each genre, up to 30 songs that are on a genre chart, ranked, each with its preview, cover, links, tempo, release date, short notes ("out 3 days ago", "up 12 on Apple Music Türkiye Hip-Hop/Rap", "old and only still charting: not a comeback") and the numbers a reason may quote.
+2. **The writer** (a scheduled task, 17:08 Istanbul) reads that file and `packages/music/data/taste.json`, picks five per genre (two new, one climbing, one back, one all-time when the candidates allow; otherwise the best that pass), listens with the taste in mind rather than the score alone, writes `data/music/<date>.json` with a reason in both languages, runs `check-music`, and publishes it.
+
+A song picked in the last 30 days is not picked again (all-time: 180 days), so the page changes every day.

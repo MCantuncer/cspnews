@@ -19,7 +19,7 @@ export const TECHNO_MAX_BPM = 134;
  * Why a song is in today's five.
  * - `new`: out in the last 14 days, with a measured reaction (a chart place, plays).
  * - `climbing`: out in the last year, and moving up a chart.
- * - `back`: first released 2+ years ago, and in a chart's top 50 today, or far above its usual plays.
+ * - `back`: first released 2+ years ago, and far above its usual plays or back on a chart after 90+ days.
  * - `alltime`: on the all-time list (data/canon.json).
  */
 export const REASON_KINDS = ['new', 'climbing', 'back', 'alltime'] as const;
@@ -86,15 +86,21 @@ export const EvidenceSchema = z
   .strict();
 export type Evidence = z.infer<typeof EvidenceSchema>;
 
-/** A tempo with where it was read. Beatport is the source of record; a second source may confirm. */
+/**
+ * A tempo with where it was read. Beatport is the source of record; Deezer, or the Collect's own
+ * measurement of the 30-second preview (`preview`), stand in when Beatport cannot be read. A second
+ * source may confirm.
+ */
+export const BPM_SOURCES = ['beatport', 'deezer', 'preview'] as const;
+
 export const BpmSchema = z
   .object({
     value: z.number().min(40).max(220),
-    source: z.enum(['beatport', 'deezer']),
+    source: z.enum(BPM_SOURCES),
     url: https,
     /** A second source's reading, when there is one. */
     confirmedBy: z
-      .object({ source: z.enum(['beatport', 'deezer']), value: z.number().min(40).max(220) })
+      .object({ source: z.enum(BPM_SOURCES), value: z.number().min(40).max(220) })
       .strict()
       .optional(),
   })
