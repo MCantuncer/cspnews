@@ -53,7 +53,7 @@ Hard Techno is not read: most of it is above 134 BPM. Every chart reading is sav
 
 A rap pick (other than all-time) must have at least one number from a rap chart, one whose name says hip-hop or rap; the check refuses it otherwise.
 
-Each genre's five are **2 `new`, 1 `climbing`, 1 `back` and 1 `alltime`**. When no candidate passes a slot's rule, the slot goes to the best candidate that passes another rule; the bar is never lowered to fill a slot.
+Each rap genre's five are **2 `new`, 1 `climbing`, 1 `back` and 1 `alltime`**. Indie Dance's five are **1 new or hot track and 4 niche all-time favourites** (Can, 26 November); an Indie Dance favourite is never picked twice (Can's choice), so the writer adds new niche records to the Indie Dance all-time list every day: at least four a day, each a real record with a published list behind it where possible, and the list always holds at least 12 not yet picked. The Collect reads new entries the next day and finds their previews. When no candidate passes a slot's rule, the slot goes to the best candidate that passes another rule; the bar is never lowered to fill a slot.
 
 ## Ranking
 
