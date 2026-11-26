@@ -1,4 +1,4 @@
-import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL, deezerPlaylistSearchUrl } from './deezer.js';
+import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL } from './deezer.js';
 import { ITUNES_TECHNO_GENRE, itunesGenreChartUrl } from './itunes.js';
 import type { Chart } from './types.js';
 
@@ -67,15 +67,9 @@ export const CHARTS: readonly Chart[] = [
     url: `${DEEZER}/chart/${String(DEEZER_RAP)}/tracks?limit=100`,
     genre: 'rap',
   },
-  {
-    id: 'deezer-indie-dance',
-    source: 'deezer',
-    name: "Deezer Indie Dance (editors' playlist)",
-    // Found by search each day (Deezer's own "Indie dance", 4681822808 in Nov 2026); a plain
-    // "indie dance" search only returns listeners' playlists, so the query names Deezer.
-    url: deezerPlaylistSearchUrl('indie dance deezer'),
-    genre: 'indiedance',
-  },
+  // No Indie Dance list is read yet. Deezer's own "Indie dance" playlist turned out to be indie
+  // rock (The Neighbourhood, Pixies, Strokes), so it was dropped on 26 November; until a real
+  // Indie Dance list is found, Indie Dance picks come from the all-time list.
 ];
 
 /**

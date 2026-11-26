@@ -9,8 +9,16 @@ import { parseKworbChart } from './kworb.js';
 import { editorsPlaylist } from './deezer.js';
 import type { Chart, ChartEntry } from './types.js';
 
+const INDIE_DANCE_TEST: Chart = {
+  id: 'test-indie-dance',
+  source: 'deezer',
+  name: 'Test Indie Dance list',
+  url: 'https://example.com/indie-dance',
+  genre: 'indiedance',
+};
+
 const chart = (id: string): Chart => {
-  const found = [...CHARTS, ...TECHNO_CHARTS].find((item) => item.id === id);
+  const found = [...CHARTS, ...TECHNO_CHARTS, INDIE_DANCE_TEST].find((item) => item.id === id);
   if (!found) throw new Error(id);
   return found;
 };
@@ -175,7 +183,7 @@ describe('iTunes genre chart', () => {
     expect(editorsPlaylist(search, /indie[- ]?dance/i)).toEqual({ id: 2, title: 'Indie Dance' });
     expect(editorsPlaylist(JSON.stringify({ data: [] }), /indie dance/i)).toBeUndefined();
 
-    const day = build([entry('deezer-indie-dance', 4, 'Band', 'Groove')]);
+    const day = build([entry('test-indie-dance', 4, 'Band', 'Groove')]);
     expect(day.genres.indiedance.map((c) => c.title)).toEqual(['Groove']);
   });
 });
