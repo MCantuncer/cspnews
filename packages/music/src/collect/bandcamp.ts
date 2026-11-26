@@ -61,7 +61,7 @@ export function parseBandcampDiscover(json: string, chart: Chart, today?: string
       rank: entries.length + 1,
       title: trackTitle(track.title, artist),
       artists: artist
-        .split(/,\s*|\s+&\s+/)
+        .split(/,\s*/)
         .map((name) => name.trim())
         .filter(Boolean),
       ids: {},
