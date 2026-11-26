@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 
 import { parseMusicEdition, type MusicEdition, type Pick } from './edition.js';
 import { readCanon } from './files.js';
-import { checkMusicEdition } from './rules.js';
+import { STRICT_FROM, checkMusicEdition } from './rules.js';
 
 const sample = (): MusicEdition =>
   parseMusicEdition(
@@ -104,6 +104,43 @@ describe('music edition check', () => {
       }),
     );
     expect(problems.join('\n')).toMatch(/needs a top 50 place today/);
+  });
+
+  it('from 25 November, does not count a long-running hit as a comeback', () => {
+    const problems = check(
+      edit((e) => {
+        e.date = STRICT_FROM;
+        const pick = e.genres.global[3];
+        if (pick) {
+          pick.evidence = pick.evidence.filter(
+            (item) => item.metric !== 'surge' && item.metric !== 'daysOffChart',
+          );
+          const rank = pick.evidence.find((item) => item.metric === 'rank');
+          if (rank) rank.value = 9;
+        }
+      }),
+    );
+    expect(problems.join('\n')).toMatch(/a long-running hit is not a comeback/);
+  });
+
+  it('from 25 November, needs a rap chart for a rap pick', () => {
+    const strict = check(
+      edit((e) => {
+        e.date = STRICT_FROM;
+        for (const pick of e.genres.turkey) {
+          for (const item of pick.evidence) item.chart = item.chart.replace(/rap|hip-hop/gi, 'all');
+        }
+      }),
+    );
+    expect(strict.join('\n')).toMatch(/needs a place on a rap chart/);
+    const before = check(
+      edit((e) => {
+        for (const pick of e.genres.turkey) {
+          for (const item of pick.evidence) item.chart = item.chart.replace(/rap|hip-hop/gi, 'all');
+        }
+      }),
+    );
+    expect(before.join('\n')).not.toMatch(/needs a place on a rap chart/);
   });
 
   it('only takes all-time picks from the list', () => {
