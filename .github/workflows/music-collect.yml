@@ -1,6 +1,6 @@
 name: Music Collect
 
-# Reads the rap and techno charts for the day's music edition and saves them on the `candidates`
+# Reads the rap and Indie Dance charts for the day's music edition and saves them on the `candidates`
 # branch for the evening writer (docs/music.md):
 #
 #   music/history/<yyyy-mm-dd>.json     every chart's places and plays, the history the
