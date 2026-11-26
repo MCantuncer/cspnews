@@ -45,7 +45,10 @@ describe('music', () => {
     const [edition] = loadMusic(DATA);
     if (!edition) throw new Error('no edition');
     expect(editionMinutes(edition) % 5).toBe(0);
-    const ids = edition.genres.turkey.map(spotifyTrack);
+    // A fixed day, so a new edition does not change what this test reads.
+    const first = loadMusic(DATA).find((day) => day.date === '2026-11-23');
+    if (!first) throw new Error('no 23 November edition');
+    const ids = first.genres.turkey.map(spotifyTrack);
     expect(ids).toContain('0MCEEI8LCEUJKi4apujvff');
   });
 });
