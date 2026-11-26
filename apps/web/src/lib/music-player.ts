@@ -60,7 +60,11 @@ export function bindMusicPlayer(onKeep?: (kept: Set<string>) => void): void {
     for (const { element } of rows()) {
       const now = element === current?.element;
       element.toggleAttribute('data-now', now && playing);
-      element.querySelector('[data-play]')?.setAttribute('aria-pressed', String(now && playing));
+      const button = element.querySelector<HTMLElement>('[data-play]');
+      button?.setAttribute('aria-pressed', String(now && playing));
+      // The row's button reads "Stop" while its song plays, "Play" otherwise.
+      const label = now && playing ? button?.dataset.labelStop : button?.dataset.labelPlay;
+      if (button && label) button.setAttribute('aria-label', label);
     }
     if (pauseIcon) pauseIcon.hidden = !playing;
     if (playIcon) playIcon.hidden = playing;
@@ -111,7 +115,11 @@ export function bindMusicPlayer(onKeep?: (kept: Set<string>) => void): void {
       if (!row) return;
       if (row.element === current?.element) {
         if (audio.paused) void audio.play();
-        else audio.pause();
+        else {
+          // A row's button stops its song: pressed again, it starts from the top.
+          audio.pause();
+          audio.currentTime = 0;
+        }
       } else play(row);
       return;
     }

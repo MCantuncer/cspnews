@@ -32,8 +32,17 @@ const links = [
     <h3 class="t">{pick.title}</h3>
     <p class="a">{pick.artists.join(', ')}</p>
   </div>
-  <button class="play" type="button" data-play aria-label={words.play(pick.title)} aria-pressed="false">
-    <MusicIcon name="play" size={20} />
+  <button
+    class="play"
+    type="button"
+    data-play
+    aria-label={words.play(pick.title)}
+    data-label-play={words.play(pick.title)}
+    data-label-stop={words.stop(pick.title)}
+    aria-pressed="false"
+  >
+    <MusicIcon name="play" size={20} class="i-play" />
+    <MusicIcon name="stop" size={20} class="i-stop" />
   </button>
   <p class="why">
     <span class="kind"><MusicIcon name={pick.kind} size={16} />{words.kind[pick.kind]}.</span>
@@ -152,6 +161,15 @@ const links = [
     border: 1.5px solid var(--g);
     background: none;
     color: var(--g);
+  }
+
+  .play :global(.i-stop),
+  .play[aria-pressed='true'] :global(.i-play) {
+    display: none;
+  }
+
+  .play[aria-pressed='true'] :global(.i-stop) {
+    display: block;
   }
 
   .play:hover,
