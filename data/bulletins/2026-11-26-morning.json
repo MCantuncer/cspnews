@@ -725,7 +725,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b070a009a30875a0457a5fb.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b070a009a30875a0457a5fb.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/957-hakim-ve-savcinin-gorev-yeri-degisti-43391122"
@@ -791,7 +791,6 @@
         "en": {
           "shortTitle": "S&P may cut Nvidia’s rating",
           "title": "S&P may cut Nvidia’s credit rating over ‘key man’ risk after Huang saga",
-          "news": "S&P Global Ratings says it may cut Nvidia from AA to AA- within 90 days, citing weak oversight and reliance on Jensen Huang.",
           "summary": {
             "what": "S&P Global Ratings is reviewing Nvidia for a possible downgrade from AA to AA-, citing “key man risk” and a lack of succession planning.",
             "why": "A lower rating could make borrowing dearer for Nvidia and for the AI infrastructure firms whose debt it guarantees, TechCrunch reports.",
@@ -871,12 +870,12 @@
               "value": "almost −6%",
               "source": "France 24"
             }
-          ]
+          ],
+          "news": "S&P Global Ratings says it may cut Nvidia from AA to AA- within 90 days, citing weak oversight and reliance on Jensen Huang."
         },
         "tr": {
           "shortTitle": "S&P Nvidia’nın notunu düşürebilir",
           "title": "Huang krizinin ardından S&P, Nvidia’nın kredi notunu ‘kilit kişi’ riski nedeniyle düşürebilir",
-          "news": "S&P Global Ratings, zayıf denetim ve Jensen Huang’a bağımlılık gerekçesiyle Nvidia’nın notunu 90 gün içinde AA’dan AA-’ye indirebilir.",
           "summary": {
             "what": "S&P Global Ratings, “kilit kişi riski” ve halef planı eksikliği gerekçesiyle Nvidia’nın AA olan notunu AA-’ye indirmeyi değerlendiriyor.",
             "why": "TechCrunch’a göre not indirimi Nvidia’nın ve borçlarına kefil olduğu yapay zekâ altyapı şirketlerinin borçlanma maliyetini artırabilir.",
@@ -957,7 +956,8 @@
               "value": "yaklaşık −%6",
               "source": "France 24"
             }
-          ]
+          ],
+          "news": "S&P Global Ratings, zayıf denetim ve Jensen Huang’a bağımlılık gerekçesiyle Nvidia’nın notunu 90 gün içinde AA’dan AA-’ye indirebilir."
         }
       },
       "timeline": [
@@ -2012,6 +2012,237 @@
           "options": ["Cumartesi", "Cuma", "Pazar"]
         }
       }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "euroleague-e2026-138",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "club",
+      "name": {
+        "en": "Anadolu Efes Istanbul",
+        "tr": "Anadolu Efes Istanbul"
+      },
+      "competition": {
+        "en": "Euroleague",
+        "tr": "EuroLeague"
+      },
+      "home": {
+        "name": "Kosner Baskonia Vitoria-Gasteiz",
+        "ours": false,
+        "team": "kosner-baskonia-vitoria-gasteiz"
+      },
+      "away": {
+        "name": "Anadolu Efes Istanbul",
+        "ours": true,
+        "team": "anadolu-efes-istanbul"
+      },
+      "startsAt": "2026-11-25T19:30:00.000Z",
+      "live": {
+        "source": "euroleague",
+        "ref": "E2026/138"
+      },
+      "result": {
+        "home": 86,
+        "away": 81
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Chris Duarte",
+          "points": 14,
+          "photo": "euroleague-014735"
+        },
+        {
+          "side": "away",
+          "name": "Jordan Loyd",
+          "points": 16,
+          "photo": "euroleague-009754"
+        }
+      ]
+    },
+    {
+      "id": "espn-401915375",
+      "kind": "match",
+      "sport": "football",
+      "focus": "club",
+      "name": {
+        "en": "Fenerbahce",
+        "tr": "Fenerbahce"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Shakhtar Donetsk",
+        "short": "Shakhtar",
+        "ours": false,
+        "team": "shakhtar-donetsk"
+      },
+      "away": {
+        "name": "Fenerbahce",
+        "ours": true,
+        "team": "fenerbahce"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915375"
+      },
+      "scorers": [
+        {
+          "side": "away",
+          "name": "Vedat Muriqi",
+          "minutes": ["56'"]
+        }
+      ],
+      "result": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "espn-401915376",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Champions League",
+        "tr": "Şampiyonlar Ligi"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "startsAt": "2026-11-25T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/uefa.champions/401915376"
+      },
+      "scorers": [
+        {
+          "side": "home",
+          "name": "Petar Sucic",
+          "minutes": ["57'"],
+          "penalty": true
+        },
+        {
+          "side": "home",
+          "name": "Lautaro Martínez",
+          "minutes": ["74'"]
+        }
+      ],
+      "result": {
+        "home": 2,
+        "away": 0
+      },
+      "lines": [
+        {
+          "person": "hakan-calhanoglu",
+          "didNotPlay": "notInSquad"
+        }
+      ]
+    },
+    {
+      "id": "espn-401909317",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "short": "Heat",
+        "ours": false,
+        "team": "miami-heat"
+      },
+      "startsAt": "2026-11-25T22:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909317"
+      },
+      "result": {
+        "home": 111,
+        "away": 104
+      },
+      "lines": [
+        {
+          "person": "adem-bona",
+          "points": 0,
+          "minutes": 13,
+          "rebounds": 6,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 23,
+          "minutes": 32,
+          "rebounds": 11,
+          "assists": 11
+        }
+      ]
     }
   ]
 }
