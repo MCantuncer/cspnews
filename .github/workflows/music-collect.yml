@@ -8,16 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Probe Indie Dance sources
+      - name: Probe Bandcamp
         run: |
           set +e
-          for q in "indie dance" "indie%20dance" "nu disco indie dance" "indie electronic" "indie dance deezer"; do
-            echo "== deezer playlist search: $q"
-            curl -s "https://api.deezer.com/search/playlist?q=$(echo $q | sed 's/ /+/g')&limit=50" | jq -r '.data[] | "\(.id)\t\(.nb_tracks)\t\(.user.name // "-")\t\(.title)"' | head -40
+          for slice in top new; do
+            echo "== bandcamp $slice indie-dance"
+            curl -s -H 'Content-Type: application/json' -X POST https://bandcamp.com/api/discover/1/discover_web -d "{\"category_id\":0,\"tag_norm_names\":[\"indie-dance\"],\"geoname_id\":0,\"slice\":\"$slice\",\"cursor\":\"*\",\"size\":40,\"include_result_types\":[\"a\",\"s\"]}" > /tmp/$slice.json
+            jq -r '.results[] | "\(.itemType)\t\(.bandName)\t\(.title)\t\(.releaseDate)\t\(.playerData.title // "-")\t\(.playerData.artistName // "-")\t\(.playerData.streamUrl // .playerData.file // "-" | tostring | .[0:80])"' /tmp/$slice.json
           done
-          echo "== deezer editorial genres"; curl -s https://api.deezer.com/genre | jq -c '.data[] | [.id,.name]'
-          echo "== deezer user search editor"; curl -s "https://api.deezer.com/search/user?q=deezer%20editor&limit=50" | jq -r '.data[] | "\(.id)\t\(.name)"'
-          echo "== bandcamp discover indie-dance"; curl -s -o /tmp/bc.json -w "%{http_code}\n" -H 'Content-Type: application/json' -X POST https://bandcamp.com/api/discover/1/discover_web -d '{"category_id":0,"tag_norm_names":["indie-dance"],"geoname_id":0,"slice":"top","cursor":"*","size":30,"include_result_types":["a","s"]}'; head -c 1500 /tmp/bc.json; echo
-          echo "== beatport indie dance"; curl -s -o /dev/null -w "%{http_code}\n" https://www.beatport.com/genre/indie-dance/37/top-100
-          echo "== traxsource"; curl -s -o /dev/null -w "%{http_code}\n" https://www.traxsource.com/genre/23/indie-dance-nu-disco/top
+          echo "== keys"; jq '.results[0] | keys' /tmp/top.json; jq '.results[0].playerData | keys' /tmp/top.json; jq -c '.results[0].playerData' /tmp/top.json | head -c 2500; echo
+          jq 'del(.results)' /tmp/top.json
           true
