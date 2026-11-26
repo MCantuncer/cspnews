@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "readAt": "2026-11-26T02:21:55Z",
+  "readAt": "2026-11-26T02:31:32Z",
   "genres": {
     "global": [
       {
@@ -30,7 +30,7 @@
             "metric": "rank",
             "value": 124,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -38,7 +38,7 @@
             "metric": "plays",
             "value": 320700,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -46,7 +46,7 @@
             "metric": "rankBefore",
             "value": 136,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -55,7 +55,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -63,7 +63,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -96,7 +96,7 @@
             "metric": "rank",
             "value": 73,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -104,7 +104,7 @@
             "metric": "plays",
             "value": 1470977,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -112,7 +112,7 @@
             "metric": "rankBefore",
             "value": 67,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
@@ -121,7 +121,7 @@
             "metric": "rank",
             "value": 21,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -129,7 +129,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -162,7 +162,7 @@
             "metric": "rank",
             "value": 61,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -170,7 +170,7 @@
             "metric": "plays",
             "value": 399092,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -178,16 +178,16 @@
             "metric": "rankBefore",
             "value": 69,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 9,
+            "value": 10,
             "chart": "Apple Music US most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -195,7 +195,7 @@
             "metric": "rank",
             "value": 5,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -227,7 +227,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -235,7 +235,7 @@
             "metric": "rank",
             "value": 58,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -243,6 +243,89 @@
           "out 6 days ago"
         ],
         "score": 1.85
+      },
+      {
+        "key": "mac-miller-cinderella",
+        "genre": "global",
+        "title": "Cinderella (feat. Ty Dolla $ign)",
+        "artists": [
+          "Mac Miller"
+        ],
+        "genreTags": [
+          "Rap/Hip Hop",
+          "Hip-Hop"
+        ],
+        "links": {
+          "spotify": "https://open.spotify.com/track/2lpygKqzPFtItQ4ss3cgfb",
+          "deezer": "https://www.deezer.com/track/131391760",
+          "appleMusic": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1147227630?i=1147227707"
+        },
+        "durationSec": 480,
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 54,
+            "chart": "Spotify Global daily",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://kworb.net/spotify/country/global_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 1635980,
+            "chart": "Spotify Global daily",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://kworb.net/spotify/country/global_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 49,
+            "chart": "Spotify Global daily",
+            "at": "2026-11-26T02:31:32Z",
+            "before": "2026-11-25",
+            "url": "https://kworb.net/spotify/country/global_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 43,
+            "chart": "Spotify US daily",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 453650,
+            "chart": "Spotify US daily",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 40,
+            "chart": "Spotify US daily",
+            "at": "2026-11-26T02:31:32Z",
+            "before": "2026-11-25",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "deezer",
+            "metric": "rank",
+            "value": 4,
+            "chart": "Deezer Rap/Hip Hop chart",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://api.deezer.com/chart/116/tracks?limit=100"
+          }
+        ],
+        "notes": [],
+        "score": 1.6,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/05/52/c3055262-f2a9-0ff4-c048-d0562665b067/mzaf_7033766276749455671.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/5c/ad/1e5cadeb-6f0c-86a0-9e85-6487a848d866/093624917168.jpg/600x600bb.jpg",
+        "released": "2016-09-16"
       },
       {
         "key": "house-of-pain-jump-around",
@@ -269,7 +352,7 @@
             "metric": "rank",
             "value": 12,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -277,7 +360,7 @@
             "metric": "rank",
             "value": 30,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -285,7 +368,7 @@
             "metric": "rank",
             "value": 58,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -319,7 +402,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -327,7 +410,7 @@
             "metric": "rank",
             "value": 7,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -361,7 +444,7 @@
             "metric": "rank",
             "value": 157,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -369,7 +452,7 @@
             "metric": "plays",
             "value": 305390,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -377,16 +460,16 @@
             "metric": "rankBefore",
             "value": 162,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 72,
+            "value": 73,
             "chart": "Apple Music US most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -394,14 +477,14 @@
             "metric": "rank",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
         "notes": [
           "up 5 on Spotify US daily"
         ],
-        "score": 1.28,
+        "score": 1.27,
         "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/68/e1/1768e109-c034-115d-affc-01a97c427142/mzaf_4718121937950048317.plus.aac.p.m4a"
       },
       {
@@ -429,7 +512,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -437,7 +520,7 @@
             "metric": "rank",
             "value": 24,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -472,7 +555,7 @@
             "metric": "rank",
             "value": 198,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -480,7 +563,7 @@
             "metric": "plays",
             "value": 281595,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -488,7 +571,7 @@
             "metric": "rankBefore",
             "value": 197,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -497,7 +580,7 @@
             "metric": "rank",
             "value": 17,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -505,7 +588,7 @@
             "metric": "rank",
             "value": 15,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -539,7 +622,7 @@
             "metric": "rank",
             "value": 16,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -547,7 +630,7 @@
             "metric": "rank",
             "value": 16,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -555,100 +638,6 @@
           "old and only still charting: not a comeback"
         ],
         "score": 1.2
-      },
-      {
-        "key": "mac-miller-cinderella",
-        "genre": "global",
-        "title": "Cinderella (feat. Ty Dolla $ign)",
-        "artists": [
-          "Mac Miller"
-        ],
-        "released": "2016-09-16",
-        "genreTags": [
-          "Hip-Hop/Rap",
-          "Rap/Hip Hop",
-          "Hip-Hop"
-        ],
-        "links": {
-          "spotify": "https://open.spotify.com/track/2lpygKqzPFtItQ4ss3cgfb",
-          "appleMusic": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332",
-          "deezer": "https://www.deezer.com/track/131391760"
-        },
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/600x600bb.jpg",
-        "durationSec": 480,
-        "evidence": [
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 54,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 1635980,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 49,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "before": "2026-11-25",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 43,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 453650,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 40,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "before": "2026-11-25",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "apple",
-            "metric": "rank",
-            "value": 100,
-            "chart": "Apple Music US most played",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
-          },
-          {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 4,
-            "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/chart/116/tracks?limit=100"
-          }
-        ],
-        "notes": [
-          "old and only still charting: not a comeback"
-        ],
-        "score": 1.11,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/05/52/c3055262-f2a9-0ff4-c048-d0562665b067/mzaf_7033766276749455671.plus.aac.p.m4a"
       },
       {
         "key": "kendrick-lamar-luther",
@@ -676,7 +665,7 @@
             "metric": "rank",
             "value": 147,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -684,7 +673,7 @@
             "metric": "plays",
             "value": 309706,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -692,7 +681,7 @@
             "metric": "rankBefore",
             "value": 144,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -701,7 +690,7 @@
             "metric": "rank",
             "value": 37,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -709,7 +698,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -741,7 +730,7 @@
             "metric": "rank",
             "value": 91,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -749,7 +738,7 @@
             "metric": "plays",
             "value": 1393684,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -757,7 +746,7 @@
             "metric": "rankBefore",
             "value": 85,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
@@ -766,7 +755,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -798,7 +787,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -828,7 +817,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -857,7 +846,7 @@
             "metric": "rank",
             "value": 10,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -886,7 +875,7 @@
             "metric": "rank",
             "value": 10,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -918,7 +907,7 @@
             "metric": "rank",
             "value": 11,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -950,7 +939,7 @@
             "metric": "rank",
             "value": 12,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -985,7 +974,7 @@
             "metric": "rank",
             "value": 15,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -993,7 +982,7 @@
             "metric": "rank",
             "value": 49,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1022,7 +1011,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1051,7 +1040,7 @@
             "metric": "rank",
             "value": 14,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1084,7 +1073,7 @@
             "metric": "rank",
             "value": 95,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -1092,7 +1081,7 @@
             "metric": "plays",
             "value": 1378176,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -1100,7 +1089,7 @@
             "metric": "rankBefore",
             "value": 89,
             "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
@@ -1109,7 +1098,7 @@
             "metric": "rank",
             "value": 169,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1117,7 +1106,7 @@
             "metric": "plays",
             "value": 299772,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1125,7 +1114,7 @@
             "metric": "rankBefore",
             "value": 151,
             "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -1134,7 +1123,7 @@
             "metric": "rank",
             "value": 21,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1169,7 +1158,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -1177,7 +1166,7 @@
             "metric": "rank",
             "value": 64,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1208,7 +1197,7 @@
             "metric": "rank",
             "value": 17,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1240,7 +1229,7 @@
             "metric": "rank",
             "value": 18,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1270,7 +1259,7 @@
             "metric": "rank",
             "value": 19,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1299,7 +1288,7 @@
             "metric": "rank",
             "value": 20,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1334,7 +1323,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -1342,7 +1331,7 @@
             "metric": "rank",
             "value": 60,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1373,7 +1362,7 @@
             "metric": "rank",
             "value": 22,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1409,7 +1398,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1417,7 +1406,7 @@
             "metric": "plays",
             "value": 366494,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1425,7 +1414,7 @@
             "metric": "rankBefore",
             "value": 4,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1434,7 +1423,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1442,7 +1431,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1473,7 +1462,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1481,7 +1470,7 @@
             "metric": "plays",
             "value": 316118,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1489,7 +1478,7 @@
             "metric": "rankBefore",
             "value": 6,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1498,7 +1487,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1506,7 +1495,7 @@
             "metric": "rank",
             "value": 7,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1537,7 +1526,7 @@
             "metric": "rank",
             "value": 10,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1545,7 +1534,7 @@
             "metric": "plays",
             "value": 280476,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1553,7 +1542,7 @@
             "metric": "rankBefore",
             "value": 10,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1562,7 +1551,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1570,7 +1559,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1600,7 +1589,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1608,7 +1597,7 @@
             "metric": "plays",
             "value": 432105,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1616,7 +1605,7 @@
             "metric": "rankBefore",
             "value": 2,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1625,7 +1614,7 @@
             "metric": "rank",
             "value": 15,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1633,7 +1622,7 @@
             "metric": "rank",
             "value": 17,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1664,7 +1653,7 @@
             "metric": "rank",
             "value": 33,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1672,7 +1661,7 @@
             "metric": "plays",
             "value": 171125,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1680,7 +1669,7 @@
             "metric": "rankBefore",
             "value": 36,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1689,7 +1678,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1697,7 +1686,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1727,7 +1716,7 @@
             "metric": "rank",
             "value": 14,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1735,7 +1724,7 @@
             "metric": "plays",
             "value": 254487,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1743,16 +1732,16 @@
             "metric": "rankBefore",
             "value": 16,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 35,
+            "value": 33,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1760,12 +1749,12 @@
             "metric": "rank",
             "value": 5,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 1.88
+        "score": 1.89
       },
       {
         "key": "blok3-degistiremezsin-yazilmissa",
@@ -1791,7 +1780,7 @@
             "metric": "rank",
             "value": 22,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1799,7 +1788,7 @@
             "metric": "plays",
             "value": 203087,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1807,7 +1796,7 @@
             "metric": "rankBefore",
             "value": 22,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1816,7 +1805,7 @@
             "metric": "rank",
             "value": 14,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1824,7 +1813,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1856,7 +1845,7 @@
             "metric": "rank",
             "value": 11,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1864,7 +1853,7 @@
             "metric": "plays",
             "value": 269915,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1872,7 +1861,7 @@
             "metric": "rankBefore",
             "value": 11,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1881,7 +1870,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1889,7 +1878,7 @@
             "metric": "rank",
             "value": 25,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1920,7 +1909,7 @@
             "metric": "rank",
             "value": 78,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1928,7 +1917,7 @@
             "metric": "plays",
             "value": 119915,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1936,7 +1925,7 @@
             "metric": "rankBefore",
             "value": 89,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1945,7 +1934,7 @@
             "metric": "rank",
             "value": 24,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1953,7 +1942,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -1985,7 +1974,7 @@
             "metric": "rank",
             "value": 52,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1993,7 +1982,7 @@
             "metric": "plays",
             "value": 147858,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2001,7 +1990,7 @@
             "metric": "rankBefore",
             "value": 58,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2010,7 +1999,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2044,7 +2033,7 @@
             "metric": "rank",
             "value": 16,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2052,7 +2041,7 @@
             "metric": "plays",
             "value": 253844,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2060,7 +2049,7 @@
             "metric": "rankBefore",
             "value": 14,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2069,7 +2058,7 @@
             "metric": "rank",
             "value": 26,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2077,7 +2066,7 @@
             "metric": "rank",
             "value": 22,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2108,7 +2097,7 @@
             "metric": "rank",
             "value": 55,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2116,7 +2105,7 @@
             "metric": "plays",
             "value": 140833,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2124,16 +2113,16 @@
             "metric": "rankBefore",
             "value": 57,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 23,
+            "value": 22,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2141,12 +2130,12 @@
             "metric": "rank",
             "value": 11,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 1.64
+        "score": 1.65
       },
       {
         "key": "wegh-outro",
@@ -2170,7 +2159,7 @@
             "metric": "rank",
             "value": 12,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2202,7 +2191,7 @@
             "metric": "rank",
             "value": 31,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2210,7 +2199,7 @@
             "metric": "plays",
             "value": 178446,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2218,7 +2207,7 @@
             "metric": "rankBefore",
             "value": 30,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2227,7 +2216,7 @@
             "metric": "rank",
             "value": 19,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2259,7 +2248,7 @@
             "metric": "rank",
             "value": 40,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2267,7 +2256,7 @@
             "metric": "plays",
             "value": 159533,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2275,16 +2264,16 @@
             "metric": "rankBefore",
             "value": 39,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 59,
+            "value": 61,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2292,12 +2281,12 @@
             "metric": "rank",
             "value": 45,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 1.18
+        "score": 1.17
       },
       {
         "key": "eypio-omrum",
@@ -2323,7 +2312,7 @@
             "metric": "rank",
             "value": 99,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2331,7 +2320,7 @@
             "metric": "plays",
             "value": 103751,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2339,16 +2328,16 @@
             "metric": "rankBefore",
             "value": 101,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 60,
+            "value": 58,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2356,12 +2345,12 @@
             "metric": "rank",
             "value": 15,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 1.12
+        "score": 1.13
       },
       {
         "key": "blok3-sevmeyi-denemedin",
@@ -2387,7 +2376,7 @@
             "metric": "rank",
             "value": 76,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2395,7 +2384,7 @@
             "metric": "plays",
             "value": 122229,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2403,16 +2392,16 @@
             "metric": "rankBefore",
             "value": 83,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 28,
+            "value": 30,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2420,7 +2409,7 @@
             "metric": "rank",
             "value": 16,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2428,7 +2417,7 @@
           "up 7 on Spotify Türkiye daily",
           "old and only still charting: not a comeback"
         ],
-        "score": 1.11
+        "score": 1.1
       },
       {
         "key": "eypio-sana-ragmen",
@@ -2454,7 +2443,7 @@
             "metric": "rank",
             "value": 46,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2462,7 +2451,7 @@
             "metric": "plays",
             "value": 155365,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2470,16 +2459,16 @@
             "metric": "rankBefore",
             "value": 46,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 79,
+            "value": 77,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2487,12 +2476,12 @@
             "metric": "rank",
             "value": 44,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 1.03
+        "score": 1.04
       },
       {
         "key": "batuflex-burada-sokaklar",
@@ -2518,43 +2507,12 @@
             "metric": "rank",
             "value": 2,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
         "score": 0.99
-      },
-      {
-        "key": "matrang-но-забудь",
-        "genre": "turkey",
-        "title": "Но забудь",
-        "artists": [
-          "MATRANG"
-        ],
-        "released": "2026-11-20",
-        "genreTags": [
-          "Hip-Hop/Rap"
-        ],
-        "links": {
-          "appleMusic": "https://music.apple.com/tr/album/%D0%BD%D0%BE-%D0%B7%D0%B0%D0%B1%D1%83%D0%B4%D1%8C/6836699300"
-        },
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/ff/1f/1bff1fff-0c43-3a64-5c0d-1db47f48c362/mzaf_14803919756102597629.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/68/19/a06819ae-5572-0315-a33d-acd8e7ef8d67/cover.jpg/600x600bb.png",
-        "evidence": [
-          {
-            "source": "apple",
-            "metric": "rank",
-            "value": 56,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          }
-        ],
-        "notes": [
-          "out 6 days ago"
-        ],
-        "score": 0.95
       },
       {
         "key": "mero-olurmusun",
@@ -2581,7 +2539,7 @@
             "metric": "rank",
             "value": 23,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2589,7 +2547,7 @@
             "metric": "plays",
             "value": 202043,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2597,16 +2555,16 @@
             "metric": "rankBefore",
             "value": 20,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 85,
+            "value": 81,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2614,12 +2572,43 @@
             "metric": "rank",
             "value": 65,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 0.92
+        "score": 0.95
+      },
+      {
+        "key": "matrang-но-забудь",
+        "genre": "turkey",
+        "title": "Но забудь",
+        "artists": [
+          "MATRANG"
+        ],
+        "released": "2026-11-20",
+        "genreTags": [
+          "Hip-Hop/Rap"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/tr/album/%D0%BD%D0%BE-%D0%B7%D0%B0%D0%B1%D1%83%D0%B4%D1%8C/6836699300"
+        },
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/ff/1f/1bff1fff-0c43-3a64-5c0d-1db47f48c362/mzaf_14803919756102597629.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/68/19/a06819ae-5572-0315-a33d-acd8e7ef8d67/cover.jpg/600x600bb.png",
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 56,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "notes": [
+          "out 6 days ago"
+        ],
+        "score": 0.95
       },
       {
         "key": "batuflex-hermes-2-0",
@@ -2643,7 +2632,7 @@
             "metric": "rank",
             "value": 10,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2673,7 +2662,7 @@
             "metric": "rank",
             "value": 96,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2681,7 +2670,7 @@
             "metric": "plays",
             "value": 107579,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2689,7 +2678,7 @@
             "metric": "rankBefore",
             "value": 95,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2698,7 +2687,7 @@
             "metric": "rank",
             "value": 21,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2727,7 +2716,7 @@
             "metric": "rank",
             "value": 23,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2756,7 +2745,7 @@
             "metric": "rank",
             "value": 26,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2787,7 +2776,7 @@
             "metric": "rank",
             "value": 128,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2795,7 +2784,7 @@
             "metric": "plays",
             "value": 90579,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2803,7 +2792,7 @@
             "metric": "rankBefore",
             "value": 122,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "before": "2026-11-25",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2812,7 +2801,7 @@
             "metric": "rank",
             "value": 27,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2841,7 +2830,7 @@
             "metric": "rank",
             "value": 28,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2870,7 +2859,7 @@
             "metric": "rank",
             "value": 32,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2899,7 +2888,7 @@
             "metric": "rank",
             "value": 34,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2929,7 +2918,7 @@
             "metric": "rank",
             "value": 151,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2937,7 +2926,7 @@
             "metric": "plays",
             "value": 82402,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2945,7 +2934,7 @@
             "metric": "rank",
             "value": 40,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-26T02:21:55Z",
+            "at": "2026-11-26T02:31:32Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2956,1008 +2945,935 @@
     "techno": [],
     "indiedance": [
       {
-        "key": "the-neighbourhood-sweater-weather",
+        "key": "acid-pauli-mystic-meltdown",
         "genre": "indiedance",
-        "title": "Sweater Weather",
+        "title": "Mystic Meltdown",
         "artists": [
-          "The Neighbourhood"
+          "Acid Pauli",
+          "Kingdom Molongi"
         ],
+        "released": "2026-10-02",
         "genreTags": [
-          "Alternative"
+          "Indie Dance",
+          "Ambient"
         ],
         "links": {
-          "spotify": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6",
-          "deezer": "https://www.deezer.com/track/66506871",
-          "appleMusic": "https://music.apple.com/us/album/sweater-weather/635016635?i=635016640"
+          "bandcamp": "https://acidpauli.bandcamp.com/track/mystic-meltdown-2",
+          "appleMusic": "https://music.apple.com/us/album/mystic-meltdown/6811013458?i=6811013679"
         },
-        "durationSec": 240,
+        "durationSec": 254,
         "evidence": [
           {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 18,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 2207633,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 18,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "before": "2026-11-25",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 32,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 521161,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 29,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "before": "2026-11-25",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 70,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 1.22,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/37/20/8c372047-2727-8054-9411-0e4867643dd8/mzaf_10169659262182214119.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/28/71/00/287100fb-5c31-0195-5343-e6b3625886d0/886443969834.jpg/600x600bb.jpg",
-        "released": "2012-12-03"
-      },
-      {
-        "key": "keith-richards-take-it-so-hard",
-        "genre": "indiedance",
-        "title": "Take It so Hard",
-        "artists": [
-          "Keith Richards"
-        ],
-        "genreTags": [
-          "Rock"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/105656736",
-          "appleMusic": "https://music.apple.com/us/album/take-it-so-hard/1447407210?i=1447407216"
-        },
-        "durationSec": 196,
-        "evidence": [
-          {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 13,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          },
-          {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 76,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 1.13,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/a8/15/85/a81585a6-8c63-fc1c-6b52-5a31380341f3/mzaf_3075333668634130899.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/04/3f/e8043ff6-1540-7a7b-5368-babcca033beb/4050538470703.jpg/600x600bb.jpg",
-        "released": "1988-10-03"
-      },
-      {
-        "key": "tame-impala-the-less-i-know-the-better",
-        "genre": "indiedance",
-        "title": "The Less I Know The Better",
-        "artists": [
-          "Tame Impala"
-        ],
-        "genreTags": [],
-        "links": {
-          "spotify": "https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ",
-          "deezer": "https://www.deezer.com/track/103052662"
-        },
-        "durationSec": 217,
-        "evidence": [
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 163,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 1173083,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 153,
-            "chart": "Spotify Global daily",
-            "at": "2026-11-26T02:21:55Z",
-            "before": "2026-11-25",
-            "url": "https://kworb.net/spotify/country/global_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 123,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 320823,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 119,
-            "chart": "Spotify US daily",
-            "at": "2026-11-26T02:21:55Z",
-            "before": "2026-11-25",
-            "url": "https://kworb.net/spotify/country/us_daily.html"
-          },
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 1,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
-        "notes": [],
-        "score": 1
+        "notes": [
+          "out 6 days ago"
+        ],
+        "score": 1.5,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/ec/9c/1cec9c37-dd3c-da2d-8a5d-808c4adffab8/mzaf_2051735295043435959.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/8d/19/7d8d1954-9396-469e-7551-b17d4cccbacd/cover.jpg/600x600bb.jpg"
       },
       {
-        "key": "depeche-mode-policy-of-truth",
+        "key": "dave-seaman-dave-seaman",
         "genre": "indiedance",
-        "title": "Policy of Truth",
+        "title": "Dave Seaman feat. Hernan Cattaneo, Nunchi Coup & Yulanda - Under The Knowledge (Album Mix) - Selador",
         "artists": [
-          "Depeche Mode"
+          "Dave Seaman"
         ],
+        "released": "2026-11-13",
         "genreTags": [
-          "Pop"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/136331384",
-          "appleMusic": "https://music.apple.com/us/album/policy-of-truth/1174246686?i=1174246890"
+          "bandcamp": "https://djdaveseaman.bandcamp.com/track/dave-seaman-feat-hernan-cattaneo-nunchi-coup-yulanda-under-the-knowledge-album-mix-selador"
         },
-        "durationSec": 295,
+        "durationSec": 324,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 2,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.99,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/4b/7b/f84b7b23-3eb9-8d47-0013-13df6c524d8a/mzaf_9032172341357374796.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/0e/66/5c0e66c0-d383-5641-3ec0-4bdb629c49ad/886445705119.jpg/600x600bb.jpg",
-        "released": "1990-03-19"
-      },
-      {
-        "key": "the-strokes-you-only-live-once",
-        "genre": "indiedance",
-        "title": "You Only Live Once",
-        "artists": [
-          "The Strokes"
-        ],
-        "genreTags": [
-          "Alternative"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/577749",
-          "appleMusic": "https://music.apple.com/us/album/you-only-live-once/299740383?i=299740483"
-        },
-        "durationSec": 186,
-        "evidence": [
-          {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 3,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.98,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/fa/3c/c4fa3cb0-7cb1-ee80-cd4b-ef67bfde1106/mzaf_3370987168328952083.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/c4/25/f4c42532-a348-27f5-1521-4783fdc52a55/888880789709.jpg/600x600bb.jpg",
-        "released": "2006-01-03"
-      },
-      {
-        "key": "go-go-s-head-over-heels",
-        "genre": "indiedance",
-        "title": "Head Over Heels",
-        "artists": [
-          "Go-Go's"
-        ],
-        "genreTags": [],
-        "links": {
-          "deezer": "https://www.deezer.com/track/3361322"
-        },
-        "durationSec": 217,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 4,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
-        "notes": [],
-        "score": 0.97
+        "notes": [
+          "out 13 days ago"
+        ],
+        "score": 1.47
       },
       {
-        "key": "pixies-debaser",
+        "key": "crazy-cupid-previa-arde-bogota-antifiesta-crazy-cupid-remix",
         "genre": "indiedance",
-        "title": "Debaser",
+        "title": "Previa - Arde Bogotá - Antifiesta (Crazy Cupid Remix)",
         "artists": [
-          "Pixies"
+          "Crazy Cupid"
         ],
+        "released": "2026-11-24",
         "genreTags": [
-          "Alternative"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/936881",
-          "appleMusic": "https://music.apple.com/us/album/debaser/7060469?i=7060439"
+          "bandcamp": "https://crazycupid.bandcamp.com/track/previa-arde-bogot-antifiesta-crazy-cupid-remix"
         },
-        "durationSec": 171,
+        "durationSec": 117,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 5,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
-        "notes": [],
-        "score": 0.96,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/c7/03/53c7033d-d0a0-8a41-4c74-7374afb01e1a/mzaf_11657883014035352006.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/07/72/34077276-8f67-c638-8c4f-73dd89d2dfab/5014436905025.png/600x600bb.jpg",
-        "released": "1989-04-17"
+        "notes": [
+          "out 2 days ago"
+        ],
+        "score": 1.46
       },
       {
-        "key": "inxs-what-you-need",
+        "key": "navid-izadi-islands",
         "genre": "indiedance",
-        "title": "What You Need",
+        "title": "Islands",
         "artists": [
-          "INXS"
+          "Navid Izadi"
         ],
+        "released": "2026-11-13",
         "genreTags": [
-          "Rock"
+          "Indie Dance",
+          "Electronic"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/13912789",
-          "appleMusic": "https://music.apple.com/us/album/what-you-need/321029304?i=321029335"
+          "bandcamp": "https://navidizadi.bandcamp.com/track/islands",
+          "appleMusic": "https://music.apple.com/us/album/islands/6829989712?i=6829989722"
         },
-        "durationSec": 213,
+        "durationSec": 247,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 6,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 13 days ago"
+        ],
+        "score": 1.45,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/a3/d3/2aa3d37c-59d4-659b-e65f-26b9bd15e971/mzaf_3993805716724966710.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/4a/95/f14a95d3-6444-24d6-eecc-4ae4e23f9a20/199316847000_cover.jpg/600x600bb.jpg"
+      },
+      {
+        "key": "philipp-kolbe-the-hill",
+        "genre": "indiedance",
+        "title": "The Hill",
+        "artists": [
+          "Philipp Kolbe"
+        ],
+        "released": "2026-11-20",
+        "genreTags": [
+          "Indie Dance",
+          "Electronic"
+        ],
+        "links": {
+          "bandcamp": "https://philipp-kolbe.bandcamp.com/track/the-hill",
+          "appleMusic": "https://music.apple.com/us/album/the-hill/6815290189?i=6815290472"
+        },
+        "durationSec": 219,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 11,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 6 days ago"
+        ],
+        "score": 1.4,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/0d/f4/220df45b-26ff-f2e7-6a58-8c3c08b9a056/mzaf_9601483469183516719.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/bb/09/b5bb09b7-7b7c-9407-88ea-fd1800a9cc51/4255940804157_cover.jpg/600x600bb.jpg"
+      },
+      {
+        "key": "cri-fight-it",
+        "genre": "indiedance",
+        "title": "Fight It",
+        "artists": [
+          "CRi"
+        ],
+        "released": "2026-11-17",
+        "genreTags": [
+          "Indie Dance",
+          "Dance"
+        ],
+        "links": {
+          "bandcamp": "https://crimusic.bandcamp.com/track/fight-it",
+          "appleMusic": "https://music.apple.com/us/album/fight-it/6825149070?i=6825149071"
+        },
+        "durationSec": 298,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 22,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 9 days ago"
+        ],
+        "score": 1.29,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/f5/29/36f5291e-17a9-c9aa-4aa2-03f5a535936b/mzaf_9603367067768436790.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/91/96/5f91965a-45ff-b410-4f71-b5d24ad9bd93/5039061292692.png/600x600bb.jpg"
+      },
+      {
+        "key": "marshall-watson-dance-machine",
+        "genre": "indiedance",
+        "title": "Dance Machine",
+        "artists": [
+          "Marshall Watson"
+        ],
+        "released": "2026-11-13",
+        "genreTags": [
+          "Indie Dance"
+        ],
+        "links": {
+          "bandcamp": "https://paisleydarkrecords.bandcamp.com/track/dance-machine"
+        },
+        "durationSec": 386,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 31,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 13 days ago"
+        ],
+        "score": 1.2
+      },
+      {
+        "key": "sello-lovely-files-sasse-remix",
+        "genre": "indiedance",
+        "title": "Lovely Files (Sasse Remix)",
+        "artists": [
+          "Sello"
+        ],
+        "released": "2012-07-23",
+        "genreTags": [
+          "Indie Dance",
+          "Electronic"
+        ],
+        "links": {
+          "bandcamp": "https://sasse.bandcamp.com/track/lovely-files-sasse-remix",
+          "appleMusic": "https://music.apple.com/us/album/lovely-files-sasse-remix/1882998637?i=1882998639"
+        },
+        "durationSec": 466,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 35,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 7 days ago"
+        ],
+        "score": 1.16,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/76/e9/9776e906-73ac-b103-1d43-34dd247da5f1/mzaf_17901982922571706837.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/24/10/f224103c-4817-bd97-ac36-28ab2a7f9ff9/3610151208841.png/600x600bb.jpg"
+      },
+      {
+        "key": "henotik-don-t-get-me-wrong",
+        "genre": "indiedance",
+        "title": "Don't Get Me Wrong",
+        "artists": [
+          "Henotik"
+        ],
+        "released": "2026-11-20",
+        "genreTags": [
+          "Indie Dance",
+          "Electronic"
+        ],
+        "links": {
+          "bandcamp": "https://henotik.bandcamp.com/track/dont-get-me-wrong",
+          "appleMusic": "https://music.apple.com/us/album/dont-get-me-wrong/6827697441?i=6827697442"
+        },
+        "durationSec": 315,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 44,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 6 days ago"
+        ],
+        "score": 1.07,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/a0/a7/f1a0a774-f797-16c8-9b03-ee86d1f62209/mzaf_10567042730238322921.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/70/48/aa7048ee-9324-c680-5a4d-3587622b2547/708208399925_cover.jpg/600x600bb.jpg"
+      },
+      {
+        "key": "woo-york-warlock",
+        "genre": "indiedance",
+        "title": "Warlock",
+        "artists": [
+          "Woo York"
+        ],
+        "released": "2026-11-13",
+        "genreTags": [
+          "Indie Dance"
+        ],
+        "links": {
+          "bandcamp": "https://shop.water-gate.de/track/warlock"
+        },
+        "durationSec": 307,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 45,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [
+          "out 13 days ago"
+        ],
+        "score": 1.06
+      },
+      {
+        "key": "psychemagik-juicy",
+        "genre": "indiedance",
+        "title": "Juicy",
+        "artists": [
+          "Psychemagik"
+        ],
+        "released": "2026-10-02",
+        "genreTags": [
+          "Indie Dance"
+        ],
+        "links": {
+          "bandcamp": "https://psychemagik.bandcamp.com/track/juicy"
+        },
+        "durationSec": 328,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 2,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.95,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/21/66/ed216699-69cb-ba74-1175-00dbb5a8e242/mzaf_9351989931468351819.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/ad/57/b9/ad57b98e-fe8f-0811-6f0a-dfc8b55d74fe/dj.arwhshii.jpg/600x600bb.jpg",
-        "released": "1985-10-14"
+        "score": 0.99
       },
       {
-        "key": "talking-heads-love-for-sale",
+        "key": "psychemagik-thriller",
         "genre": "indiedance",
-        "title": "Love for Sale",
+        "title": "Thriller",
         "artists": [
-          "Talking Heads"
+          "Psychemagik"
         ],
+        "released": "2026-08-07",
         "genreTags": [
-          "Alternative"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/3257049",
-          "appleMusic": "https://music.apple.com/us/album/love-for-sale/272121498?i=272121605"
+          "bandcamp": "https://psychemagik.bandcamp.com/track/thriller"
         },
-        "durationSec": 271,
+        "durationSec": 414,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 3,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [],
+        "score": 0.98
+      },
+      {
+        "key": "chloe-repeating-the-obvious",
+        "genre": "indiedance",
+        "title": "Repeating The Obvious",
+        "artists": [
+          "CHLOÉ"
+        ],
+        "released": "2026-10-30",
+        "genreTags": [
+          "Indie Dance"
+        ],
+        "links": {
+          "bandcamp": "https://chloethevenin.bandcamp.com/track/repeating-the-obvious"
+        },
+        "durationSec": 309,
+        "evidence": [
+          {
+            "source": "bandcamp",
             "metric": "rank",
             "value": 7,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.94,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/09/e1/2509e173-7de0-4235-3bcb-ec861753fda1/mzaf_7366496298467632678.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/6a/59/626a59ee-fa34-f928-c6e0-689f1aa15541/dj.hjbiyazr.jpg/600x600bb.jpg",
-        "released": "1986-10-07"
+        "score": 0.94
       },
       {
-        "key": "pj-harvey-this-is-love",
+        "key": "dames-brown-take-me-as-i-am-moodymann-extended-remix",
         "genre": "indiedance",
-        "title": "This Is Love",
+        "title": "Take Me As I Am (Moodymann Extended Remix)",
         "artists": [
-          "PJ Harvey"
+          "Dames Brown",
+          "Amp Fiddler",
+          "Moodymann"
         ],
+        "released": "2026-05-15",
         "genreTags": [
-          "Rock"
+          "Indie Dance",
+          "Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/1172886",
-          "appleMusic": "https://music.apple.com/us/album/this-is-love/1440922247?i=1440922914"
+          "bandcamp": "https://dames-brown.bandcamp.com/track/take-me-as-i-am-moodymann-extended-remix",
+          "appleMusic": "https://music.apple.com/us/album/take-me-as-i-am-moodymann-extended-remix/1894990017?i=6762740158"
         },
-        "durationSec": 228,
+        "durationSec": 399,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 8,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.93,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/5f/44/925f44e0-1008-1a36-b6f7-e58e3d12eae4/mzaf_278661457622738263.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4d/70/53/4d70536e-f463-3bfe-45e9-4274ce8bb33a/00731454814423.rgb.jpg/600x600bb.jpg",
-        "released": "2000-10-22"
-      },
-      {
-        "key": "queens-of-the-stone-age-make-it-wit-chu",
-        "genre": "indiedance",
-        "title": "Make It Wit Chu",
-        "artists": [
-          "Queens Of The Stone Age"
-        ],
-        "genreTags": [
-          "Rock"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/7275156",
-          "appleMusic": "https://music.apple.com/us/album/make-it-wit-chu/1440660649?i=1440660659"
-        },
-        "durationSec": 290,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 9,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.92,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/bb/11/b8bb1172-cbd8-3ece-c97d-fd4e14fc8de8/mzaf_9526046464944332215.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ef/d4/60/efd46037-fa6d-7fe3-5ff6-03a48e011744/00602517401488.rgb.jpg/600x600bb.jpg",
-        "released": "2007-01-01"
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/59/94/78599448-8231-7cfb-01c3-e46e65f0ecdb/mzaf_4040686064791433053.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/d4/07/66d4076f-9509-c4ba-3f0c-ab165c9e0d29/826194704087.png/600x600bb.jpg"
       },
       {
-        "key": "the-raconteurs-steady-as-she-goes",
+        "key": "fcukers-lonely",
         "genre": "indiedance",
-        "title": "Steady, As She Goes",
+        "title": "Lonely",
         "artists": [
-          "The Raconteurs"
+          "Fcukers"
         ],
+        "released": "2026-03-27",
         "genreTags": [
-          "Rock"
+          "Indie Dance",
+          "Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/937704",
-          "appleMusic": "https://music.apple.com/us/album/steady-as-she-goes/1552875310?i=1552875311"
+          "bandcamp": "https://fcukers.bandcamp.com/track/lonely",
+          "appleMusic": "https://music.apple.com/us/album/lonely/1861895134?i=1861895300"
         },
-        "durationSec": 217,
+        "durationSec": 178,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 10,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.91,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/a6/da/eca6da77-c9fd-fffe-7302-94f98114f2d6/mzaf_9608591983329445572.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/39/ae/6639aef2-19e6-a870-8097-9822cc23af16/886449077717.jpg/600x600bb.jpg",
-        "released": "2006-04-24"
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/89/dd/b289ddca-6fa0-25bf-05b5-499d916d9353/mzaf_13672507135277016389.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/b3/85/87b38597-7032-1783-bcd6-7e77af31df9a/5054429208382.png/600x600bb.jpg"
       },
       {
-        "key": "wolf-parade-it-s-a-curse",
+        "key": "cobra303-joe-le-taxi-edit-on-edit",
         "genre": "indiedance",
-        "title": "It's a Curse",
+        "title": "Joe Le Taxi (edit on edit)",
         "artists": [
-          "Wolf Parade"
+          "Cobra303"
         ],
+        "released": "2026-08-27",
         "genreTags": [
-          "Alternative"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/85333882",
-          "appleMusic": "https://music.apple.com/us/album/its-a-curse/669683619?i=669683913"
+          "bandcamp": "https://cobra303.bandcamp.com/track/cobra303-joe-le-taxi-edit-on-edit"
         },
-        "durationSec": 192,
+        "durationSec": 343,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 11,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.9,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/8a/2f/6d8a2faf-23f0-e921-307f-d93f7f515576/mzaf_6133577610324014386.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/c6/36/73/c63673cb-f959-0755-727c-df7760baf178/WolfParade_ApologiesToTheQueenMary_1425px.jpg/600x600bb.jpg",
-        "released": "2005-09-27"
-      },
-      {
-        "key": "depeche-mode-behind-the-wheel",
-        "genre": "indiedance",
-        "title": "Behind the Wheel",
-        "artists": [
-          "Depeche Mode"
-        ],
-        "genreTags": [
-          "Alternative"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/136334632",
-          "appleMusic": "https://music.apple.com/us/album/behind-the-wheel/1174246735?i=1174247122"
-        },
-        "durationSec": 318,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 12,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.89,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/ce/4f/02ce4fd0-66cf-b44d-6ed9-f54024051513/mzaf_17569456032778447334.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fb/84/e0/fb84e05f-3b17-11a7-250b-139d403c10bc/886445705096.jpg/600x600bb.jpg",
-        "released": "1987-09-28"
+        "score": 0.89
       },
       {
-        "key": "suede-trash",
+        "key": "acid-pauli-gwar-is-not-the-answer",
         "genre": "indiedance",
-        "title": "Trash",
+        "title": "Gwar Is Not The Answer",
         "artists": [
-          "Suede"
+          "Acid Pauli"
         ],
-        "genreTags": [],
+        "released": "2006-12-11",
+        "genreTags": [
+          "Indie Dance",
+          "Techno"
+        ],
         "links": {
-          "deezer": "https://www.deezer.com/track/119234610"
+          "bandcamp": "https://acidpauli.bandcamp.com/track/gwar-is-not-the-answer",
+          "appleMusic": "https://music.apple.com/us/album/gwar-is-not-the-answer/6785126860?i=6785126861"
         },
-        "durationSec": 249,
+        "durationSec": 379,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 13,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [],
+        "score": 0.88,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/7d/ea/c57deaf4-7346-f583-4e8d-6b98b8c342cf/mzaf_3758989229334869760.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/4c/25/034c2581-334d-ae4a-4e73-387bcf1d8d37/cover.jpg/600x600bb.jpg"
+      },
+      {
+        "key": "crazy-cupid-previa-supersubmarina-de-las-dudas-infinitas-crazy-cupid-remix",
+        "genre": "indiedance",
+        "title": "Previa - Supersubmarina - De Las Dudas Infinitas (Crazy Cupid Remix)",
+        "artists": [
+          "Crazy Cupid"
+        ],
+        "released": "2026-11-09",
+        "genreTags": [
+          "Indie Dance"
+        ],
+        "links": {
+          "bandcamp": "https://crazycupid.bandcamp.com/track/previa-supersubmarina-de-las-dudas-infinitas-crazy-cupid-remix"
+        },
+        "durationSec": 154,
+        "evidence": [
+          {
+            "source": "bandcamp",
             "metric": "rank",
             "value": 14,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.87
       },
       {
-        "key": "the-war-on-drugs-red-eyes",
+        "key": "hydelic-and-takako-ishida-arise",
         "genre": "indiedance",
-        "title": "Red Eyes",
+        "title": "Arise (feat. Krysta Youngs)",
         "artists": [
-          "The War On Drugs"
+          "Hydelic and Takako Ishida"
         ],
+        "released": "2026-02-02",
         "genreTags": [
-          "Alternative"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/75559456",
-          "appleMusic": "https://music.apple.com/us/album/red-eyes/765568650?i=765568670"
+          "bandcamp": "https://hydelic.bandcamp.com/track/arise-feat-krysta-youngs"
         },
-        "durationSec": 299,
+        "durationSec": 164,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 15,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.86,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/2f/6b/342f6ba1-f0ef-304f-5907-f04f9a01305e/mzaf_5280751878099002156.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/e7/98/3be79889-aea5-5139-5330-3cbe1b364ef3/656605031064.jpg/600x600bb.jpg",
-        "released": "2013-12-04"
+        "score": 0.86
       },
       {
-        "key": "the-horrors-machine",
+        "key": "kraak-travel-light",
         "genre": "indiedance",
-        "title": "Machine",
+        "title": "Travel Light (feat. IVAR)",
         "artists": [
-          "The Horrors"
+          "Kraak",
+          "Smaak"
         ],
+        "released": "2025-09-19",
         "genreTags": [
-          "Alternative"
+          "Indie Dance",
+          "Electronic"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/407127682",
-          "appleMusic": "https://music.apple.com/us/album/machine/1440884984?i=1440884990"
+          "bandcamp": "https://kraaksmaak.bandcamp.com/track/travel-light-feat-ivar-3",
+          "appleMusic": "https://music.apple.com/us/album/travel-light-feat-ivar/1858661740?i=1858661914"
         },
-        "durationSec": 316,
+        "durationSec": 234,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 16,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.85,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/e5/b8/76e5b832-0d97-6d8e-44ea-ae4d93530c85/mzaf_12435128574257907265.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1c/68/69/1c686967-5cc3-f7d0-9ce9-1e92d285fc50/00602557719420.rgb.jpg/600x600bb.jpg",
-        "released": "2017-06-13"
-      },
-      {
-        "key": "belle-i-want-the-world-to-stop",
-        "genre": "indiedance",
-        "title": "I Want The World To Stop",
-        "artists": [
-          "Belle & Sebastian"
-        ],
-        "genreTags": [],
-        "links": {
-          "deezer": "https://www.deezer.com/track/7149053"
-        },
-        "durationSec": 273,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 17,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.84
+        "score": 0.84,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/82/00/68820064-9d1e-a203-8015-d6f2245dcb13/mzaf_12702268944021729232.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/93/24/9c93243c-029a-0800-c373-e7e78fc29c8c/3663729418807_cover.jpg/600x600bb.jpg"
       },
       {
-        "key": "belle-another-sunny-day",
+        "key": "demi-riquisimo-demi-riquisimo-and-clint-love-state",
         "genre": "indiedance",
-        "title": "Another Sunny Day",
+        "title": "Demi Riquísimo & Clint - Love State",
         "artists": [
-          "Belle & Sebastian"
+          "Demi Riquísimo",
+          "Clint",
+          "Swoose",
+          "Lulah Francs",
+          "Dukwa",
+          "Anastasia Zems",
+          "Asa Tate"
         ],
-        "genreTags": [],
+        "released": "2025-04-11",
+        "genreTags": [
+          "Indie Dance"
+        ],
         "links": {
-          "deezer": "https://www.deezer.com/track/941558"
+          "bandcamp": "https://semidelicious.bandcamp.com/track/demi-riqu-simo-clint-love-state"
         },
-        "durationSec": 244,
+        "durationSec": 447,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 18,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.83
       },
       {
-        "key": "the-rolling-stones-rocks-off",
+        "key": "sian-the-void-alex-stein-remix",
         "genre": "indiedance",
-        "title": "Rocks Off",
+        "title": "The Void (Alex Stein Remix)",
         "artists": [
-          "The Rolling Stones"
+          "Sian",
+          "Idoru"
         ],
-        "genreTags": [],
+        "released": "2026-10-30",
+        "genreTags": [
+          "Indie Dance",
+          "Techno"
+        ],
         "links": {
-          "deezer": "https://www.deezer.com/track/5968641"
+          "bandcamp": "https://octopusrecordings.bandcamp.com/track/the-void-alex-stein-remix",
+          "appleMusic": "https://music.apple.com/us/album/the-void-feat-idoru-alex-stein-remix/6817794934?i=6817794935"
         },
-        "durationSec": 271,
+        "durationSec": 253,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 19,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.82
+        "score": 0.82,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/86/19/4f8619ed-b0cb-0466-c9cf-1977e3e3016b/mzaf_16666801192140024227.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/72/3f/51723f69-2b08-b673-18de-ad14d0a5bfa1/cover.jpg/600x600bb.jpg"
       },
       {
-        "key": "interpol-obstacle-1",
+        "key": "cioz-amazed",
         "genre": "indiedance",
-        "title": "Obstacle 1",
+        "title": "Amazed",
         "artists": [
-          "Interpol"
+          "Cioz"
         ],
+        "released": "2026-10-16",
         "genreTags": [
-          "Alternative"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/10291277",
-          "appleMusic": "https://music.apple.com/us/album/obstacle-1/1589272584?i=1589272590"
+          "bandcamp": "https://raamo-records.bandcamp.com/track/amazed"
         },
-        "durationSec": 251,
+        "durationSec": 499,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 20,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.81,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/3b/bb/0f3bbb15-2e89-5b9b-42c9-92f6eaee73c9/mzaf_15568534927824705069.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/ef/aa/beefaad1-64ba-1288-d2ce-95a5964a020b/744861054566.png/600x600bb.jpg",
-        "released": "2002-08-19"
+        "score": 0.81
       },
       {
-        "key": "blur-there-s-no-other-way",
+        "key": "mattias-el-mansouri-struktur",
         "genre": "indiedance",
-        "title": "There's No Other Way",
+        "title": "Struktur",
         "artists": [
-          "Blur"
+          "Mattias El Mansouri"
         ],
+        "released": "2026-01-23",
         "genreTags": [
-          "Rock"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/3102131",
-          "appleMusic": "https://music.apple.com/us/album/theres-no-other-way/699605281?i=699605531"
+          "bandcamp": "https://nousklaer.bandcamp.com/track/struktur"
         },
-        "durationSec": 193,
+        "durationSec": 401,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 21,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.8,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/46/05/1a46058c-72b9-a59d-213f-b9516e4c6233/mzaf_17965419765963140407.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features4/v4/48/de/73/48de73da-c614-b5a5-2c3f-1c64cff41ff9/dj.qidmcner.jpg/600x600bb.jpg",
-        "released": "1991-08-26"
+        "score": 0.8
       },
       {
-        "key": "the-kills-last-day-of-magic",
+        "key": "tronik-youth-lot-lot-edit",
         "genre": "indiedance",
-        "title": "Last Day Of Magic",
+        "title": "Lot Lot Edit",
         "artists": [
-          "The Kills"
+          "Tronik Youth"
         ],
+        "released": "2026-11-06",
         "genreTags": [
-          "Alternative"
+          "Indie Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/71990981",
-          "appleMusic": "https://music.apple.com/us/album/last-day-of-magic/274631770?i=274631827"
+          "bandcamp": "https://neinrecords.bandcamp.com/track/tronik-youth-lot-lot-edit"
         },
-        "durationSec": 203,
+        "durationSec": 325,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 22,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.79,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/bd/d0/3fbdd0aa-521a-b57e-1e7d-042211db2004/mzaf_2222217285831990626.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/96/b7/d1/mzi.ipuinxhj.tif/600x600bb.jpg",
-        "released": "2008-03-10"
-      },
-      {
-        "key": "wolf-parade-shine-a-light",
-        "genre": "indiedance",
-        "title": "Shine A Light",
-        "artists": [
-          "Wolf Parade"
-        ],
-        "genreTags": [
-          "Alternative"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/85333876",
-          "appleMusic": "https://music.apple.com/us/album/shine-a-light/73516861?i=73516818"
-        },
-        "durationSec": 227,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 23,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
-        "score": 0.78,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/d7/4c/a1d74cd4-d74b-ae02-8a88-53c899e73058/mzaf_2735276339106402713.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d24/h16/s06.mcbmkzzc.jpg/600x600bb.jpg",
-        "released": "2005-07-12"
+        "score": 0.78
       },
       {
-        "key": "clap-your-hands-say-yeah-in-this-home-on-ice",
+        "key": "father-sheed-boom",
         "genre": "indiedance",
-        "title": "In This Home on Ice",
+        "title": "Boom",
         "artists": [
-          "Clap Your Hands Say Yeah"
+          "Father Sheed"
         ],
+        "released": "2026-03-20",
         "genreTags": [
-          "Indie Rock"
+          "Indie Dance",
+          "House"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/69018053",
-          "appleMusic": "https://music.apple.com/us/album/in-this-home-on-ice/1777893913?i=1777894517"
+          "bandcamp": "https://fathersheed.bandcamp.com/track/boom",
+          "appleMusic": "https://music.apple.com/us/album/boom/1873324669?i=1873324772"
         },
-        "durationSec": 239,
+        "durationSec": 302,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 24,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.77,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/93/62/ab936236-7a44-f798-2f86-9d9907ad0c6e/mzaf_17365810167333044569.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/c2/dd/bac2dd4c-b1e5-9055-ea8e-fa56e0ffc40c/49496.jpg/600x600bb.jpg",
-        "released": "2005-01-01"
-      },
-      {
-        "key": "clap-your-hands-say-yeah-upon-this-tidal-wave-of-young-blood",
-        "genre": "indiedance",
-        "title": "Upon This Tidal Wave of Young Blood",
-        "artists": [
-          "Clap Your Hands Say Yeah"
-        ],
-        "genreTags": [
-          "Indie Rock"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/69018055",
-          "appleMusic": "https://music.apple.com/us/album/upon-this-tidal-wave-of-young-blood/1777893913?i=1777894867"
-        },
-        "durationSec": 274,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 25,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.76,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/ee/81/acee810a-9bb6-ec6b-820c-ab3a38ded734/mzaf_6407954018713412528.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/c2/dd/bac2dd4c-b1e5-9055-ea8e-fa56e0ffc40c/49496.jpg/600x600bb.jpg",
-        "released": "2005-01-01"
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/c5/3a/1ac53af1-07c3-fbce-e6f2-b938ed631885/mzaf_14475006426515450710.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/d5/54/98d554b0-9a6c-1c41-3a7e-fb83558a303c/5053760148029_cover.jpg/600x600bb.jpg"
       },
       {
-        "key": "arcade-fire-ready-to-start",
+        "key": "pye-corner-audio-cycle",
         "genre": "indiedance",
-        "title": "Ready To Start",
+        "title": "Cycle",
         "artists": [
-          "Arcade Fire"
+          "Pye Corner Audio feat. Andy Bell"
         ],
+        "released": "2026-03-26",
         "genreTags": [
-          "Alternative"
+          "Indie Dance",
+          "Electronic"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/6773870",
-          "appleMusic": "https://music.apple.com/us/album/ready-to-start/1252757950?i=1252758312"
+          "bandcamp": "https://pyecorneraudio.bandcamp.com/track/cycle",
+          "appleMusic": "https://music.apple.com/us/album/cycle/1883716314?i=1883716328"
         },
-        "durationSec": 255,
+        "durationSec": 230,
         "evidence": [
           {
-            "source": "deezer",
-            "metric": "rank",
-            "value": 26,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
-          }
-        ],
-        "notes": [],
-        "score": 0.75,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/7b/31/e47b319a-37d6-f8ae-7f0b-b1e3e2bd715d/mzaf_16991883570705497166.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ea/9f/1a/ea9f1ab0-4cac-c925-590d-14461f676912/886446576510.jpg/600x600bb.jpg",
-        "released": "2010-07-30"
-      },
-      {
-        "key": "the-cure-lovesong",
-        "genre": "indiedance",
-        "title": "Lovesong",
-        "artists": [
-          "The Cure"
-        ],
-        "genreTags": [
-          "Alternative"
-        ],
-        "links": {
-          "deezer": "https://www.deezer.com/track/1143638",
-          "appleMusic": "https://music.apple.com/us/album/lovesong/371772227?i=371772239"
-        },
-        "durationSec": 210,
-        "evidence": [
-          {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 27,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.74,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/11/14/191114b2-6e7f-6bf7-8dca-d0e5686dda12/mzaf_3779494718508004494.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/d2/ba/94d2bacf-07d7-df79-24a3-7fbf5207c848/081227981303.jpg/600x600bb.jpg",
-        "released": "1989-05-02"
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/0c/8e/a40c8e23-01c4-1345-0015-3bde80f16002/mzaf_12005056176031291165.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/e6/e4/50e6e44d-0148-ffad-a5e1-0ead7c48b688/16308.jpg/600x600bb.jpg"
       },
       {
-        "key": "gorillaz-dare",
+        "key": "seren-sarac-yekte",
         "genre": "indiedance",
-        "title": "DARE (feat. Shaun Ryder & Roses Gabor)",
+        "title": "YEKTE",
         "artists": [
-          "Gorillaz"
+          "Seren Saraç"
         ],
+        "released": "2026-05-07",
         "genreTags": [
-          "Alternative"
+          "Indie Dance",
+          "Electronica"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/3129413",
-          "appleMusic": "https://music.apple.com/us/album/dare-feat-shaun-ryder-roses-gabor/850571319?i=850571388"
+          "bandcamp": "https://serensarac.bandcamp.com/track/yekte",
+          "appleMusic": "https://music.apple.com/us/album/yekte/6766862408?i=6766862410"
         },
-        "durationSec": 245,
+        "durationSec": 177,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 28,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.73,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/d5/99/e3d599a6-15c9-113d-65a1-f637c22de0e0/mzaf_11995878542823587618.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1c/0f/81/1c0f818a-e458-dd84-6f1b-ccbdf5fe14d6/825646291045.jpg/600x600bb.jpg",
-        "released": "2005-05-11"
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/f7/3a/dcf73a11-f77f-abea-ceb8-d80a1a6e48c0/mzaf_16521242349585439006.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/72/4b/2c724bee-b4e8-5d07-92c8-cbea012af13c/artwork.jpg/600x600bb.jpg"
       },
       {
-        "key": "ramones-i-wanna-be-sedated",
+        "key": "justin-strauss-obsessed",
         "genre": "indiedance",
-        "title": "I Wanna Be Sedated",
+        "title": "Obsessed",
         "artists": [
-          "Ramones"
+          "Justin Strauss"
         ],
+        "released": "2026-10-30",
         "genreTags": [
-          "Punk"
+          "Indie Dance",
+          "Dance"
         ],
         "links": {
-          "deezer": "https://www.deezer.com/track/14618535",
-          "appleMusic": "https://music.apple.com/us/album/i-wanna-be-sedated/77817363?i=77817249"
+          "bandcamp": "https://justinstrauss.bandcamp.com/track/obsessed",
+          "appleMusic": "https://music.apple.com/us/album/obsessed/6815304193?i=6815304194"
         },
-        "durationSec": 149,
+        "durationSec": 357,
         "evidence": [
           {
-            "source": "deezer",
+            "source": "bandcamp",
             "metric": "rank",
             "value": 29,
-            "chart": "Deezer Indie Dance (editors' playlist)",
-            "at": "2026-11-26T02:21:55Z",
-            "url": "https://api.deezer.com/search/playlist?q=indie+dance+deezer&limit=50"
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
         "notes": [],
         "score": 0.72,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/03/6b/14036bf1-f0fd-b193-026b-292487dd5694/mzaf_7444445225701709397.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/5f/f9/cd/5ff9cd4a-e103-62c6-05e4-ca0efb92c4f2/dj.cbmiijra.jpg/600x600bb.jpg",
-        "released": "1978-01-01"
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/15/48/471548e6-b6e1-9fba-e0c9-ab1db7d86441/mzaf_12216318842545605325.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/b6/f7/69b6f7cc-6124-3665-08af-582f6bd09572/cover.jpg/600x600bb.jpg"
+      },
+      {
+        "key": "girls-chat-room-get-back-2-me",
+        "genre": "indiedance",
+        "title": "Get Back 2 Me",
+        "artists": [
+          "Girls Chat Room"
+        ],
+        "released": "2026-11-11",
+        "genreTags": [
+          "Indie Dance"
+        ],
+        "links": {
+          "bandcamp": "https://girlschatroom.bandcamp.com/track/get-back-2-me-3"
+        },
+        "durationSec": 382,
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 30,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T02:31:32Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "notes": [],
+        "score": 0.71
       }
     ]
   },
