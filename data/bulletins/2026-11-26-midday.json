@@ -1,0 +1,1407 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-26T12:30:00+03:00",
+  "writtenAt": "2026-11-26T11:57:37+03:00",
+  "stories": [
+    {
+      "id": "b7381a97377a8806",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "21 jailed in Kepez bribery probe",
+          "title": "Former Kepez mayor among 21 jailed in Antalya bribery probe",
+          "summary": {
+            "what": "A court in Antalya jailed 21 of 24 suspects, among them former Kepez mayor Erdal Ö., in a bribery and bid-rigging investigation into the municipality.",
+            "why": "Prosecutors allege that the former mayor, two retired police officers and a lawyer acted as go-betweens for bribes, Habertürk reported.",
+            "next": "Three suspects were released under judicial control; digital material seized in searches of their addresses is part of the file."
+          },
+          "body": [
+            {
+              "subhead": "21 of 24 suspects jailed",
+              "blocks": [
+                {
+                  "text": "A duty criminal judgeship in Antalya has ordered 21 people jailed pending trial in a bribery investigation into Kepez municipality, among them the district’s former mayor, Erdal Ö. Three other suspects were released under judicial control, BBC Türkçe, Sözcü and Habertürk reported on Thursday."
+                },
+                {
+                  "text": "The investigation, run by the Antalya Chief Public Prosecutor’s Office, covers three charges: bribery, rigging public tenders and rigging the performance of contracts. According to Habertürk, citing the İHA news agency, it was opened against 20 suspects on the basis of expert reports and statements by suspects and complainants."
+                }
+              ]
+            },
+            {
+              "subhead": "Raids in Antalya and Konya",
+              "blocks": [
+                {
+                  "text": "Police from Antalya’s anti-smuggling and organised crime (KOM) and intelligence branches detained the suspects in simultaneous raids in Antalya and Konya on 22 November, Sözcü and A Haber reported. Four more people were added to the file later, bringing the total to 24. Digital material belonging to the suspects was seized in searches of their addresses."
+                },
+                {
+                  "text": "Those detained included the municipality’s heads of zoning, purchasing, finance, support services, social services and press, the director of the Kepez Development and Solidarity Foundation, the general manager of Antalya Pamuklu Dokuma Ticaret A.Ş., the owner of a company that won a tender, an architect, a lawyer, an estate agent and two retired police officers, according to Cumhuriyet and Sözcü. Once their police statements were taken, the 24 were brought to the courthouse on Wednesday evening under heavy security, Sözcü said."
+                }
+              ]
+            },
+            {
+              "subhead": "Who is accused of what",
+              "blocks": [
+                {
+                  "text": "Prosecutors allege that the former mayor, the retired police officers A.Ö. and A.B. and the lawyer S.S. acted as go-betweens for bribes, and that a suspect named as Y.N. collected bribe money on the mayor’s behalf, Habertürk reported. The foundation director İ.Ç., the Pamuklu Dokuma general manager R.C.D. and A.B.S., an employee of the mayor’s private office, are alleged to have taken bribes."
+                },
+                {
+                  "text": "A.B.S., the tender service manager R.E. and a suspect named as Y.Ç. were the three released under judicial control, Sözcü and Cumhuriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Current mayor not detained",
+              "blocks": [
+                {
+                  "text": "Kepez was won in the March 2024 local elections by the CHP candidate, Murat Kocagöz, with 44% of the vote, BBC Türkçe noted. Kocagöz was not detained in the investigation."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Jailed pending trial",
+              "value": "21",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Released under judicial control",
+              "value": "3",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Suspects brought to court",
+              "value": "24",
+              "source": "Sözcü"
+            },
+            {
+              "label": "Day of the raids",
+              "value": "22 Nov",
+              "source": "Sözcü, A Haber"
+            },
+            {
+              "label": "CHP vote in Kepez, March 2024",
+              "value": "44%",
+              "source": "BBC Türkçe"
+            }
+          ],
+          "place": {
+            "name": "Kepez",
+            "lat": 36.93,
+            "lon": 30.71,
+            "region": "Antalya, Türkiye"
+          }
+        },
+        "tr": {
+          "shortTitle": "Kepez soruşturmasında 21 tutuklama",
+          "title": "Kepez Belediyesi soruşturmasında eski başkan dahil 21 kişi tutuklandı",
+          "summary": {
+            "what": "Antalya’da Kepez Belediyesine yönelik rüşvet ve ihaleye fesat soruşturmasında, aralarında eski belediye başkanı Erdal Ö.’nün de olduğu 24 şüpheliden 21’i tutuklandı.",
+            "why": "Habertürk’e göre savcılık, eski başkanın, iki emekli emniyet mensubunun ve bir avukatın rüşvete aracılık ettiğini ileri sürüyor.",
+            "next": "Üç şüpheli adli kontrol şartıyla serbest bırakıldı; adreslerde el konulan dijital materyaller soruşturma dosyasında."
+          },
+          "body": [
+            {
+              "subhead": "24 şüpheliden 21’i tutuklandı",
+              "blocks": [
+                {
+                  "text": "Antalya’da Kepez Belediyesine yönelik soruşturmada nöbetçi sulh ceza hâkimliği, aralarında eski Kepez Belediye Başkanı Erdal Ö.’nün de bulunduğu 21 şüphelinin tutuklanmasına karar verdi. BBC Türkçe, Sözcü ve Habertürk’ün haberlerine göre üç şüpheli adli kontrol şartıyla serbest bırakıldı."
+                },
+                {
+                  "text": "Antalya Cumhuriyet Başsavcılığının yürüttüğü soruşturma “rüşvet”, “kamu kurum ve kuruluşlarının ihalesine fesat karıştırma” ve “edimin ifasına fesat karıştırma” suçlarını kapsıyor. Habertürk’ün İHA’ya dayandırdığı habere göre soruşturma, bilirkişi raporları ile şüpheli ve müşteki ifadeleri doğrultusunda 20 kişi hakkında başlatıldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Antalya ve Konya’da eş zamanlı operasyon",
+              "blocks": [
+                {
+                  "text": "Sözcü ve A Haber’e göre Antalya Emniyet Müdürlüğü Kaçakçılık ve Organize Suçlarla Mücadele (KOM) ile İstihbarat şube müdürlükleri, 22 Kasım’da Antalya ve Konya’da eş zamanlı operasyon düzenledi. Soruşturmaya sonradan dört kişinin daha eklenmesiyle şüpheli sayısı 24’e çıktı. Adreslerde yapılan aramalarda şüphelilere ait dijital materyallere el konuldu."
+                },
+                {
+                  "text": "Cumhuriyet ve Sözcü’nün aktardığına göre gözaltına alınanlar arasında belediyenin imar, satın alma, mali hizmetler, destek hizmetleri, sosyal hizmetler ve basın yayın müdürleri, Kepez Kalkınma ve Dayanışma Vakfı müdürü, Antalya Pamuklu Dokuma Ticaret AŞ genel müdürü, ihale alan şirketin sahibi, bir mimar, bir avukat, bir emlakçı ve iki emekli emniyet mensubu vardı. Sözcü’ye göre emniyetteki işlemleri biten 24 şüpheli çarşamba akşamı sıkı güvenlik önlemleri altında adliyeye sevk edildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kim neyle suçlanıyor",
+              "blocks": [
+                {
+                  "text": "Habertürk’ün haberine göre soruşturmada eski başkan Erdal Ö., emekli emniyet mensupları A.Ö. ve A.B. ile avukat S.S.’nin rüşvete aracılık ettiği, Y.N.’nin ise belediye başkanı adına rüşvet parası aldığı ileri sürülüyor. Vakıf müdürü İ.Ç., Pamuklu Dokuma genel müdürü R.C.D. ve özel kalem çalışanı A.B.S.’nin de rüşvet aldığı iddia ediliyor."
+                },
+                {
+                  "text": "Sözcü ve Cumhuriyet’e göre adli kontrolle serbest kalan üç isim A.B.S., İhale Servis Müdürü R.E. ve Y.Ç. oldu."
+                }
+              ]
+            },
+            {
+              "subhead": "Mevcut başkan gözaltına alınmadı",
+              "blocks": [
+                {
+                  "text": "BBC Türkçe’nin hatırlattığına göre Kepez Belediyesini Mart 2024 yerel seçimlerinde oyların %44’ünü alan CHP adayı Murat Kocagöz kazanmıştı. Kocagöz soruşturma kapsamında gözaltına alınmadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Tutuklanan",
+              "value": "21",
+              "source": "BBC Türkçe"
+            },
+            {
+              "label": "Adli kontrolle serbest",
+              "value": "3",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Adliyeye sevk edilen",
+              "value": "24",
+              "source": "Sözcü"
+            },
+            {
+              "label": "Operasyon günü",
+              "value": "22 Kasım",
+              "source": "Sözcü, A Haber"
+            },
+            {
+              "label": "CHP’nin Kepez’deki oyu, Mart 2024",
+              "value": "%44",
+              "source": "BBC Türkçe"
+            }
+          ],
+          "place": {
+            "name": "Kepez",
+            "lat": 36.93,
+            "lon": 30.71,
+            "region": "Antalya"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T06:22:32.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T06:26:19.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T06:26:19.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T06:37:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T06:50:24.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T06:57:10.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T07:14:13.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T07:16:52.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/26/ver1795674134/3930211/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/gundem/kepez-belediyesine-rusvet-operasyonu-21-kisi-tutuklandi-3930211"
+      },
+      "sources": [
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/kepez-belediyesine-rusvet-operasyonu-21-kisi-tutuklandi-3930211",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/kepez-belediyesi-ne-yonelik-operasyonda-21-tutuklama-p384515",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/kepez-belediyesi-ne-yonelik-operasyonda-yeni-gelisme-21-kisi-tutuklandi-2559533",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/26/kepez-belediyesine-yonelik-rusvet-operasyonunda-21-kisi-tutuklandi",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c6y0xy47q4wpo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/kepez-belediyesi-operasyonu-21-kisi-tutuklandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/kepez-belediyesine-yolsuzluk-operasyonunda-21-tutuklama-1752671",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T12:30:00+03:00",
+      "updatedAt": "2026-11-26T12:30:00+03:00"
+    },
+    {
+      "id": "2aabb1f0902205e1",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Academy to take 15,000 trainee teachers",
+          "title": "Teacher academy to take 15,000 trainees; 2027 entry exam moves to May",
+          "summary": {
+            "what": "Education Minister Yusuf Tekin said the National Education Academy will admit 15,000 trainee teachers from the 2026 entry exam, with places by subject out this weekend.",
+            "why": "New teachers now train at the academy before being appointed; Tekin put the total across its first three intakes at 40,000.",
+            "next": "The 2027 Academy Entry Exam (AGS) moves from July to May so that graduates can start work each September, Tekin said."
+          },
+          "body": [
+            {
+              "subhead": "15,000 places, split by subject this weekend",
+              "blocks": [
+                {
+                  "text": "Türkiye’s Education Minister Yusuf Tekin said on Thursday that 15,000 trainee teachers will be admitted to the National Education Academy on the basis of the 2026 Academy Entry Exam (AGS), held in July. The number had been announced by President Erdoğan, and the ministry will publish how the places are split between subjects this weekend, Tekin said, according to Cumhuriyet, Habertürk and NTV."
+                },
+                {
+                  "quote": "That is the number we are working on now, and we will share its breakdown by subject with the public as of this weekend.",
+                  "speaker": "Yusuf Tekin",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "40,000 over three intakes",
+              "blocks": [
+                {
+                  "text": "The academy is the new route into the profession: candidates who pass the exam train there before they are appointed. Tekin said the 10,000 now at the academy, its first intake, would be appointed as teachers once they finish in the spring. Sözcü reported that the first group completes its training at the end of February and then starts work."
+                },
+                {
+                  "text": "With 15,000 from the 2026 exam and another 15,000 from the 2027 exam, the three intakes add up to 40,000 teachers, Tekin said, A Haber and Sabah reported. According to Sözcü, he said the programme follows international examples, is mostly practical and trains candidates under experienced teachers in every type of school."
+                }
+              ]
+            },
+            {
+              "subhead": "The 2027 exam moves to May",
+              "blocks": [
+                {
+                  "text": "The ministry has also changed the exam calendar together with ÖSYM, the national exam body. In 2027 the entry exam will be held in May instead of July. Those who pass will be chosen in July and August, start training in September and finish the following September, so that they can be appointed in time for the school year, Tekin said."
+                }
+              ]
+            },
+            {
+              "subhead": "Questions on the Kahramanmaraş attack",
+              "blocks": [
+                {
+                  "text": "Asked about the school attack in Kahramanmaraş in April, Tekin said the ministry, which had joined the case, had found contradictions in the attacker’s autopsy and had asked for parts of it to be reviewed. The governor at the time had said the boy was shot dead, but the autopsy report mentions no bullet, he said, A Haber reported. He added that the ministry had started legal proceedings over social media and digital content producers."
+                },
+                {
+                  "quote": "We do not think the autopsy that was carried out was sufficient.",
+                  "speaker": "Yusuf Tekin",
+                  "sourceId": "haberturk",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Places from the 2026 exam",
+              "value": "15,000",
+              "source": "Education Ministry"
+            },
+            {
+              "label": "Trainees now at the academy",
+              "value": "10,000",
+              "source": "Education Ministry"
+            },
+            {
+              "label": "Teachers across three intakes",
+              "value": "40,000",
+              "source": "Education Ministry"
+            },
+            {
+              "label": "Month of the 2027 entry exam",
+              "value": "May",
+              "source": "Education Ministry"
+            },
+            {
+              "label": "Places by subject published",
+              "value": "This weekend",
+              "source": "Education Ministry"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Akademiye 15 bin öğretmen adayı",
+          "title": "Akademiye 15 bin öğretmen adayı alınacak, 2027 AGS mayısta yapılacak",
+          "summary": {
+            "what": "Millî Eğitim Bakanı Yusuf Tekin, 2026 Akademi Giriş Sınavı ile Millî Eğitim Akademisine 15 bin öğretmen adayı alınacağını, alan dağılımının bu hafta sonu açıklanacağını söyledi.",
+            "why": "Öğretmen adayları artık atanmadan önce akademide eğitim görüyor; Tekin ilk üç dönemle toplam 40 bin öğretmen yetişeceğini söyledi.",
+            "next": "Tekin’e göre 2027 Akademi Giriş Sınavı (AGS), mezunlar her eylülde göreve başlayabilsin diye temmuz yerine mayısta yapılacak."
+          },
+          "body": [
+            {
+              "subhead": "15 bin kontenjan, alan dağılımı hafta sonu",
+              "blocks": [
+                {
+                  "text": "Millî Eğitim Bakanı Yusuf Tekin perşembe günü, temmuzda yapılan 2026 Akademi Giriş Sınavı (AGS) ile Millî Eğitim Akademisine 15 bin öğretmen adayı alınacağını açıkladı. Cumhuriyet, Habertürk ve NTV’nin aktardığına göre Tekin, sayının Cumhurbaşkanı Erdoğan tarafından duyurulduğunu, kontenjanların alanlara göre dağılımının ise bu hafta sonu kamuoyuyla paylaşılacağını söyledi."
+                },
+                {
+                  "quote": "Bizim şu anda üzerinde çalıştığımız ve bu hafta sonu itibarıyla alan bazlı dağılımını kamuoyuyla paylaşacağımız sayı bu.",
+                  "speaker": "Yusuf Tekin",
+                  "sourceId": "cumhuriyet"
+                }
+              ]
+            },
+            {
+              "subhead": "Üç dönemde 40 bin öğretmen",
+              "blocks": [
+                {
+                  "text": "Akademi, mesleğe girişin yeni yolu: sınavı geçen adaylar atanmadan önce burada eğitim alıyor. Tekin, akademinin ilk dönemi olan ve şu anda eğitimi süren 10 bin adayın baharda eğitimlerini tamamlayınca öğretmen olarak atanacağını söyledi. Sözcü’ye göre ilk grup eğitimini şubat sonunda bitirip göreve başlayacak."
+                },
+                {
+                  "text": "A Haber ve Sabah’ın aktardığına göre Tekin, 2026 sınavıyla 15 bin, 2027 sınavıyla da 15 bin adayın alınmasıyla toplamın 40 bine ulaşacağını belirtti. Sözcü’ye göre Bakan, programın büyük ölçüde uluslararası örneklerle paralel ve uygulama ağırlıklı ilerlediğini, adayların deneyimli öğretmenlerin rehberliğinde tüm okul türlerini tanıyarak yetiştiğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "2027 sınavı mayısa alındı",
+              "blocks": [
+                {
+                  "text": "Bakanlık, ÖSYM ile birlikte sınav takvimini de değiştirdi. 2027’de Akademi Giriş Sınavı temmuz yerine mayısta yapılacak. Tekin’e göre sınavı geçenler temmuz-ağustosta belirlenecek, eylülde eğitime başlayıp bir sonraki eylülde bitirecek; böylece eğitim öğretim yılının başında atanabilecekler."
+                }
+              ]
+            },
+            {
+              "subhead": "Kahramanmaraş saldırısı soruldu",
+              "blocks": [
+                {
+                  "text": "Nisan ayında Kahramanmaraş’ta yaşanan okul saldırısı sorulan Tekin, davaya müdahil olan bakanlığın saldırganın otopsisinde çelişkiler gördüğünü ve bazı noktaların yeniden değerlendirilmesini istediğini söyledi. A Haber’e göre Tekin, dönemin valisinin çocuğun kurşunlanarak öldürüldüğünü açıkladığını, otopsi raporunda ise kurşun olmadığını belirtti. Bakanlığın sosyal medya ve dijital içerik üreticileri hakkında yargı süreci başlattığını da ekledi."
+                },
+                {
+                  "quote": "Yapılan otopsinin yeterli olmadığını düşünüyoruz.",
+                  "speaker": "Yusuf Tekin",
+                  "sourceId": "haberturk"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2026 sınavıyla alınacak aday",
+              "value": "15 bin",
+              "source": "Millî Eğitim Bakanlığı"
+            },
+            {
+              "label": "Şu an akademideki aday",
+              "value": "10 bin",
+              "source": "Millî Eğitim Bakanlığı"
+            },
+            {
+              "label": "Üç dönemde toplam",
+              "value": "40 bin",
+              "source": "Millî Eğitim Bakanlığı"
+            },
+            {
+              "label": "2027 AGS’nin ayı",
+              "value": "Mayıs",
+              "source": "Millî Eğitim Bakanlığı"
+            },
+            {
+              "label": "Alan dağılımı açıklanıyor",
+              "value": "Bu hafta sonu",
+              "source": "Millî Eğitim Bakanlığı"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T08:14:21.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T08:29:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T08:29:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T08:29:51.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T08:31:00.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T08:39:49.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/d29b991e-0ca6-40bd-8c09-c45bbed7c8f4.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-bakan-tekin-duyurdu-ogretmen-atamalari-ne-zaman-olacak-2559571"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/26/bakan-tekinden-ogretmen-atamalarina-iliskin-aciklama",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/bakan-tekinden-ogretmen-atamalarina-iliskin-onemli-aciklama-40-bin-arkadasimiz-olarak-atanmis-olacak-7709726",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-bakan-tekin-duyurdu-ogretmen-atamalari-ne-zaman-olacak-2559571",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-meb-bakani-tekin-den-ogretmen-atamasi-aciklamasi-3930267",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/milli-egitim-bakani-tekin-den-ogretmen-atamasi-aciklamasi-p384568",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/milli-egitim-bakani-tekin-akademiye-15-bin-ogretmen-adayi-alinacak-1752685",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T12:30:00+03:00",
+      "updatedAt": "2026-11-26T12:30:00+03:00"
+    },
+    {
+      "id": "b4fddd7d3c17c325",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Amodei rejects ‘surrender to AI’ claim",
+          "title": "Amodei calls claims he wants to hand control to AI ‘absurd’",
+          "summary": {
+            "what": "Anthropic chief executive Dario Amodei said in a long post on X that the suggestion he wants humans to ‘surrender’ free will to AI is ‘absurd’.",
+            "why": "He was answering an Axios report of a ‘consensus’ at Anthropic for handing some decisions to AI, as rivals warn about losing human control.",
+            "next": "Amodei said there may need to be limits on recursive self-improvement, AI that improves itself without human help."
+          },
+          "body": [
+            {
+              "subhead": "‘A terrible idea’",
+              "blocks": [
+                {
+                  "text": "Dario Amodei, chief executive of Anthropic, has rejected claims that he believes humanity should ‘surrender human free will’ to artificial intelligence. In a long post on X on Wednesday he called the suggestion ‘absurd’, TechCrunch reported."
+                },
+                {
+                  "text": "He was responding to an Axios report about a purported ‘consensus’ inside the company that some decision-making authority should pass to the technology, Al Jazeera said. Citing unnamed sources, Axios reported that Amodei and other executives think it would be irrational ‘or even unethical’ not to hand AI tasks it does better than humans, such as curing diseases."
+                },
+                {
+                  "quote": "But I am not advocating for it, because I think turning over governance to AI is a terrible idea.",
+                  "speaker": "Dario Amodei",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Tasks, not the world",
+              "blocks": [
+                {
+                  "text": "Amodei separated giving up control in a ‘grand sense of global governance’ from letting AI take over specific jobs, such as driving a car, designing a cancer drug or writing software end to end, Al Jazeera reported. His view of that was ‘mixed’, he wrote: such automation is economically valuable and ‘will save a lot of lives’, but in some areas ‘it may not be worth it’."
+                },
+                {
+                  "text": "He suggested drawing a line at recursive self-improvement, writing that ‘we may want limits on this process’, TechCrunch reported. Many safety experts see AI that improves itself without human help as leading to a loss of human control."
+                }
+              ]
+            },
+            {
+              "subhead": "Rivals, and Anthropic’s own loop",
+              "blocks": [
+                {
+                  "text": "The post follows remarks from rivals about human agency. OpenAI’s Sam Altman said this month he wanted people to keep ‘agency over the future’, and Meta’s chief AI officer, Alexandr Wang, wrote that society should not accept a ‘handover’ to AI, TechCrunch reported. Amodei accused competitors of ‘vibes-based commercial and political positioning’, saying their products do not differ much in how far they automate tasks."
+                },
+                {
+                  "text": "TechCrunch noted that Anthropic itself uses AI for a growing share of its research. The company said in June that Claude wrote more than 80% of the code merged into its codebase, and the nonprofit METR found this month that its models are improving at about twice their historical rate. Amodei wrote that the company does not expect it to be safe for Claude to build new frontier models ‘fully autonomously, without meaningful human supervision or understanding’."
+                }
+              ]
+            },
+            {
+              "subhead": "Critics want a pause",
+              "blocks": [
+                {
+                  "text": "David Krueger, founder of Evitable, a nonprofit that campaigns for a pause on superintelligent AI, told Al Jazeera that Anthropic should pause its work if Amodei is truly worried, and called for an international moratorium on frontier AI development. The debate comes as Google DeepMind’s Shane Legg put the chance of ‘minimal’ AGI before 2028 at more than 50%, Al Jazeera reported."
+                },
+                {
+                  "quote": "We don’t have to consciously surrender control to AI to lose it.",
+                  "speaker": "David Krueger, Evitable",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Anthropic code written by Claude (June)",
+              "value": ">80%",
+              "source": "Anthropic, via TechCrunch"
+            },
+            {
+              "label": "Pace of model improvement",
+              "value": "≈2× historical",
+              "source": "METR, via TechCrunch"
+            },
+            {
+              "label": "Legg’s odds of minimal AGI before 2028",
+              "value": ">50%",
+              "source": "Shane Legg, via Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Amodei: “Kontrolü YZ’ye devretmek saçma”",
+          "title": "Amodei, kontrolü yapay zekâya bırakmak istediği iddialarına “saçma” dedi",
+          "summary": {
+            "what": "Anthropic CEO’su Dario Amodei, X’teki uzun paylaşımında insanların özgür iradesini yapay zekâya “teslim etmesini” istediği iddiasını “saçma” diye niteledi.",
+            "why": "Amodei, şirket içinde bazı kararların yapay zekâya bırakılması yönünde “uzlaşı” olduğunu yazan Axios haberine yanıt verdi; rakipler de insan kontrolü konusunda uyarıyor.",
+            "next": "Amodei, yapay zekânın insan yardımı olmadan kendini geliştirmesine, yani “recursive self-improvement”a sınır gerekebileceğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "“Berbat bir fikir”",
+              "blocks": [
+                {
+                  "text": "Anthropic’in CEO’su Dario Amodei, insanlığın “özgür iradesini” yapay zekâya teslim etmesi gerektiğine inandığı yönündeki iddiaları reddetti. TechCrunch’a göre Amodei çarşamba günü X’te yaptığı uzun paylaşımda bu iddiayı “saçma” olarak nitelendirdi."
+                },
+                {
+                  "text": "Al Jazeera’ya göre Amodei, şirket içinde bazı karar yetkilerinin teknolojiye devredilmesi gerektiği yönünde bir “uzlaşı” olduğunu öne süren Axios haberine yanıt veriyordu. Axios, isim vermediği kaynaklara dayanarak Amodei ve diğer yöneticilerin, hastalıkları tedavi etmek gibi insandan iyi yaptığı işleri yapay zekâya bırakmamanın akıl dışı, “hatta etik dışı” olacağını düşündüğünü yazmıştı."
+                },
+                {
+                  "quote": "Ama bunu savunmuyorum, çünkü yönetimi yapay zekâya devretmenin berbat bir fikir olduğunu düşünüyorum.",
+                  "speaker": "Dario Amodei",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Dünyayı değil, işleri devretmek",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Amodei, kontrolü “küresel yönetim” anlamında bırakmakla araba sürmek, kanser ilacı tasarlamak ya da bir yazılımı baştan sona yazmak gibi belirli işleri yapay zekâya vermeyi birbirinden ayırdı. Bu konuda görüşünün “karışık” olduğunu yazdı: böyle bir otomasyon ekonomik açıdan değerli ve “birçok hayat kurtaracak”, ama bazı alanlarda “buna değmeyebilir”."
+                },
+                {
+                  "text": "TechCrunch’a göre Amodei sınırın, yapay zekânın kendi kendini geliştirdiği “recursive self-improvement” noktasında çizilebileceğini öne sürdü ve “bu sürece sınırlar koymak isteyebiliriz” diye yazdı. Pek çok güvenlik uzmanı, insan yardımı olmadan kendini geliştiren yapay zekânın insan kontrolünün kaybına yol açacağını düşünüyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Rakipler ve Anthropic’in kendi döngüsü",
+              "blocks": [
+                {
+                  "text": "Paylaşım, rakiplerin insan iradesine dair açıklamalarının ardından geldi. TechCrunch’a göre OpenAI CEO’su Sam Altman bu ay insanların “gelecek üzerindeki iradesini” korumak istediğini söyledi; Meta’nın yapay zekâ direktörü Alexandr Wang ise toplumun yapay zekâya bir “devir teslimi” kabul etmemesi gerektiğini yazdı. Amodei rakiplerini “hisse dayalı ticari ve siyasi konumlanma” yapmakla suçladı; ürünlerinin işleri otomatikleştirme açısından pek farklı olmadığını söyledi."
+                },
+                {
+                  "text": "TechCrunch, Anthropic’in araştırmasının giderek büyük bir kısmında yapay zekâ kullandığını hatırlattı. Şirket haziranda, kod tabanına eklenen kodun %80’inden fazlasını Claude’un yazdığını açıklamıştı; kâr amacı gütmeyen METR de bu ay şirketin modellerinin tarihsel hızının yaklaşık iki katıyla geliştiğini tespit etti. Amodei, Claude’un yeni öncü modelleri “anlamlı bir insan denetimi ya da kavrayışı olmadan, tamamen özerk biçimde” geliştirmesinin güvenli olacağını beklemediklerini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Eleştirmenler duraklama istiyor",
+              "blocks": [
+                {
+                  "text": "Süper zekâ geliştirilmesine ara verilmesini savunan kâr amacı gütmeyen Evitable’ın kurucusu David Krueger, Al Jazeera’ya Amodei gerçekten endişeliyse Anthropic’in çalışmalarını durdurması gerektiğini söyledi ve öncü yapay zekâ geliştirmeye uluslararası bir moratoryum çağrısı yaptı. Al Jazeera’ya göre tartışma, Google DeepMind’dan Shane Legg’in “asgari” AGI’nin 2028’den önce gelme olasılığını %50’nin üzerinde gördüğünü söylediği günlerde yaşanıyor."
+                },
+                {
+                  "quote": "Kontrolü kaybetmek için onu bilinçli olarak yapay zekâya teslim etmemiz gerekmiyor.",
+                  "speaker": "David Krueger, Evitable",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Claude’un yazdığı Anthropic kodu (haziran)",
+              "value": "%80’den fazla",
+              "source": "Anthropic, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Modellerin gelişme hızı",
+              "value": "Tarihsel hızın ≈2 katı",
+              "source": "METR, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Legg’e göre 2028’den önce asgari AGI",
+              "value": "%50’den fazla",
+              "source": "Shane Legg, Al Jazeera aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T19:44:24.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T03:20:23.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T03:20:23.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T12:30:00+03:00",
+      "updatedAt": "2026-11-26T12:30:00+03:00"
+    },
+    {
+      "id": "8cc9974ff0c2f15e",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "710a9b72c7454d32",
+      "versions": {
+        "en": {
+          "news": "The Army blew up all 68 drums on Wednesday, and EPA monitors have found zero airborne lead since.",
+          "shortTitle": "No airborne lead after Iowa blast",
+          "title": "Iowa lead azide blast leaves ‘zero’ airborne lead, EPA says",
+          "summary": {
+            "what": "The US Army blew up about 9,700 pounds of lead azide at the Iowa Army Ammunition Plant in Middletown on Wednesday, with no secondary explosions, it said.",
+            "why": "Residents had feared toxic lead dust; EPA chief Lee Zeldin said all air monitors continued to report a ‘zero detect’ of airborne lead.",
+            "next": "Surface sampling is under way and its results will be released, the Army said; FEMA promised more testing in the coming weeks."
+          },
+          "body": [
+            {
+              "subhead": "A ‘huge success’, says the Army",
+              "blocks": [
+                {
+                  "text": "The US Army has destroyed the country’s last stockpile of lead azide in a controlled detonation on Wednesday at the Iowa Army Ammunition Plant in Middletown. The blast destroyed 68 barrels holding about 9,700 pounds (4.4 tons) of the explosive, with no secondary explosions or damage to infrastructure, The Verge reported. Smoke rose shortly after 09:00 local time, 18:00 in Istanbul, the BBC said."
+                },
+                {
+                  "text": "Acting Army Secretary Adam Telle called the operation a ‘HUGE success’ on social media, and President Donald Trump said reports showed mitigation efforts ‘far exceeded expectations’, according to the BBC. Maj. Gen. Eric Shirley said the risk to people in Middletown had been reduced ‘as close to zero as it’s absolutely humanly possible’, The Verge reported, citing the Associated Press."
+                }
+              ]
+            },
+            {
+              "subhead": "No lead in the air so far",
+              "blocks": [
+                {
+                  "text": "The Environmental Protection Agency said its real-time monitors were reporting ‘zero detection of airborne lead throughout the region’ an hour after the blast, The Verge reported. EPA administrator Lee Zeldin later said all monitors continued to show a ‘ZERO DETECT’. On Wednesday evening the Army said FEMA had issued the all-clear around the plant and that post-detonation surface sampling was under way, the BBC reported."
+                },
+                {
+                  "text": "To hold back lead dust, the Army put up walls of four 16,000-gallon water tanks and covered the earth-covered magazines with tarps and containment screens before flooding them with foam, The Verge reported. No level of lead exposure is considered safe, the BBC noted."
+                }
+              ]
+            },
+            {
+              "subhead": "Relief, and calls for answers",
+              "blocks": [
+                {
+                  "text": "Middletown’s mayor, Rodney Johnson, told the BBC he felt ‘relieved’. He watched from his workplace eight miles away while keeping an eye on a camera at his home, a mile from the site."
+                },
+                {
+                  "quote": "We did not feel anything. We did not see anything.",
+                  "speaker": "Rodney Johnson, Middletown mayor",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "Illinois Governor JB Pritzker said his state, whose border is 10 miles from the plant, was seeing ‘little to no impact’. Iowa’s governor-elect, Rob Sand, said there was ‘more testing to do’ and called for ‘immediate transparency’ on why the run-up had been ‘so chaotic and unclear’, the BBC reported."
+                },
+                {
+                  "text": "The Army began moving away from lead azide about 15 years ago because it is hard to store and move; over time it can crystallise and become unstable, The Verge said. An appeals court on Monday overturned a decision halting the blast, ruling that the risk of an unplanned explosion was greater. FEMA administrator Cameron Hamilton said more resources and testing would follow in the coming days and weeks."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Lead azide destroyed",
+              "value": "≈9,700 lb",
+              "source": "US Army, The Verge"
+            },
+            {
+              "label": "Barrels",
+              "value": "68",
+              "source": "The Verge"
+            },
+            {
+              "label": "Airborne lead detected",
+              "value": "Zero",
+              "source": "EPA"
+            },
+            {
+              "label": "Water-tank walls",
+              "value": "4 × 16,000 gal",
+              "source": "The Verge"
+            },
+            {
+              "label": "Plant to Illinois border",
+              "value": "10 miles",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Middletown",
+            "lat": 40.83,
+            "lon": -91.26,
+            "region": "Iowa, US"
+          }
+        },
+        "tr": {
+          "news": "Ordu 68 varilin tamamını çarşamba günü patlattı; EPA ölçüm cihazları o andan beri havada hiç kurşun saptamadı.",
+          "shortTitle": "Iowa patlamasından sonra havada kurşun yok",
+          "title": "EPA: Iowa’daki kurşun azid patlamasından sonra havada kurşun “sıfır”",
+          "summary": {
+            "what": "ABD Ordusu, Middletown’daki Iowa Ordu Mühimmat Fabrikası’nda yaklaşık 4,4 ton kurşun azidi çarşamba günü kontrollü olarak patlattı; ikincil patlama olmadı.",
+            "why": "Bölge halkı zehirli kurşun tozundan korkuyordu; EPA Başkanı Lee Zeldin tüm hava ölçüm cihazlarının havada kurşun saptamadığını, “sıfır” gösterdiğini söyledi.",
+            "next": "Ordu, yüzey örneklemesinin sürdüğünü ve sonuçların açıklanacağını söyledi; FEMA önümüzdeki haftalarda ek testler yapılacağını duyurdu."
+          },
+          "body": [
+            {
+              "subhead": "Ordu: “Büyük başarı”",
+              "blocks": [
+                {
+                  "text": "ABD Ordusu, ülkedeki son kurşun azid stokunu çarşamba günü Middletown’daki Iowa Ordu Mühimmat Fabrikası’nda kontrollü bir patlamayla imha etti. The Verge’e göre patlamada yaklaşık 9.700 libre (4,4 ton) patlayıcı içeren 68 varil yok edildi; ikincil patlama ya da altyapı hasarı olmadı. BBC’ye göre duman yerel saatle 09.00’dan kısa süre sonra, Türkiye saatiyle 18.00’de yükseldi."
+                },
+                {
+                  "text": "BBC’nin aktardığına göre Ordu Bakan Vekili Adam Telle sosyal medyada operasyonu “BÜYÜK bir başarı” diye niteledi; Başkan Donald Trump da raporların önlemlerin “beklentileri çok aştığını” gösterdiğini söyledi. The Verge’in Associated Press’e dayandırdığı habere göre Tümgeneral Eric Shirley, Middletown halkı için riskin “insanın yapabileceği ölçüde sıfıra yakın” düzeye indirildiğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Havada şimdilik kurşun yok",
+              "blocks": [
+                {
+                  "text": "The Verge’e göre Çevre Koruma Ajansı (EPA), patlamadan bir saat sonra anlık ölçüm yapan cihazların “bölgenin tamamında havada sıfır kurşun” gösterdiğini açıkladı. EPA Başkanı Lee Zeldin daha sonra tüm cihazların “SIFIR” göstermeye devam ettiğini söyledi. BBC’ye göre ordu çarşamba akşamı FEMA’nın fabrika çevresinde “tehlike geçti” uyarısı yaptığını ve patlama sonrası yüzey örneklemesinin sürdüğünü duyurdu."
+                },
+                {
+                  "text": "The Verge’e göre ordu, kurşun tozunu tutmak için 16 bin galonluk dört su tankından duvarlar kurdu, toprakla örtülü cephanelikleri branda ve tutucu perdelerle kaplayıp köpükle doldurdu. BBC, hiçbir kurşun maruziyeti düzeyinin güvenli sayılmadığını hatırlattı."
+                }
+              ]
+            },
+            {
+              "subhead": "Rahatlama ve hesap sorma",
+              "blocks": [
+                {
+                  "text": "Middletown Belediye Başkanı Rodney Johnson BBC’ye “rahatladığını” söyledi. Johnson patlamayı 13 kilometre uzaktaki iş yerinden izlerken, alana bir buçuk kilometre uzaklıktaki evindeki kamerayı da takip etti."
+                },
+                {
+                  "quote": "Hiçbir şey hissetmedik. Hiçbir şey görmedik.",
+                  "speaker": "Rodney Johnson, Middletown Belediye Başkanı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre sınırı fabrikaya 16 kilometre uzaklıktaki Illinois’in valisi JB Pritzker, eyalette “etkinin çok az ya da hiç olmadığını” söyledi. Iowa’nın seçilmiş valisi Rob Sand ise “yapılacak daha çok test” olduğunu belirterek sürecin neden “bu kadar karmaşık ve belirsiz” geçtiğinin “hemen şeffaf biçimde” açıklanmasını istedi."
+                },
+                {
+                  "text": "The Verge’e göre ordu, depolaması ve taşınması zor olduğu için yaklaşık 15 yıl önce kurşun azidden vazgeçmeye başladı; madde zamanla kristalleşip kararsız hale gelebiliyor. Bir temyiz mahkemesi pazartesi günü, plansız bir patlamanın riskinin daha büyük olduğuna hükmederek patlamayı durduran kararı bozmuştu. FEMA Başkanı Cameron Hamilton önümüzdeki gün ve haftalarda ek kaynak ve test sağlanacağını söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "İmha edilen kurşun azid",
+              "value": "≈4,4 ton",
+              "source": "ABD Ordusu, The Verge"
+            },
+            {
+              "label": "Varil",
+              "value": "68",
+              "source": "The Verge"
+            },
+            {
+              "label": "Havada saptanan kurşun",
+              "value": "Sıfır",
+              "source": "EPA"
+            },
+            {
+              "label": "Su tankı duvarları",
+              "value": "4 × 16 bin galon",
+              "source": "The Verge"
+            },
+            {
+              "label": "Fabrikanın Illinois sınırına uzaklığı",
+              "value": "16 km",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Middletown",
+            "lat": 40.83,
+            "lon": -91.26,
+            "region": "Iowa, ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T19:45:51.000Z",
+          "sourceId": "the-verge"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T00:23:05.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T00:23:05.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T12:30:00+03:00",
+      "updatedAt": "2026-11-26T12:30:00+03:00"
+    },
+    {
+      "id": "268d27d19b07351f",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Kim calls for more tactical nukes",
+          "title": "Kim orders wider deployment of tactical nuclear weapons after touring plants",
+          "summary": {
+            "what": "North Korea’s Kim Jong Un toured nuclear material plants and called for tactical nuclear weapons to be deployed ‘across multiple domains’, state media KCNA said.",
+            "why": "He said any attempt to deny the North’s nuclear status would be ‘an open declaration of war’, days after Pyongyang ignored Donald Trump’s offer of a meeting.",
+            "next": "South Korea’s Defence Ministry said it takes the remarks seriously and remains militarily ready, backed by its alliance with the US."
+          },
+          "body": [
+            {
+              "subhead": "Plants new and expanding",
+              "blocks": [
+                {
+                  "text": "North Korean leader Kim Jong Un has visited two nuclear material production plants, one newly opened and one being expanded, as well as a nuclear-powered equipment production base and a nuclear research institute, the state news agency KCNA said on Thursday, Euronews reported. Pyongyang did not say where the plants are."
+                },
+                {
+                  "text": "Photos showed Kim and senior officers walking past dense rows of what appear to be centrifuges used to make weapons-grade uranium, and viewing halls with what were believed to be warheads; some images were blurred, Euronews said. Kim said the North’s capacity to produce nuclear material was being systematically expanded, Al Jazeera reported."
+                }
+              ]
+            },
+            {
+              "subhead": "‘An open declaration of war’",
+              "blocks": [
+                {
+                  "text": "Kim said North Korea’s status as a nuclear-weapons state, written into its constitution in 2023, was ‘absolutely inviolable’, and that any attempt to deny it would be treated as ‘an open declaration of war’, Al Jazeera reported. He called the deployment of tactical nuclear weapons ‘across multiple domains for different missions’ an urgent task, citing the border with ‘the most dangerous enemy state’."
+                },
+                {
+                  "quote": "Our nuclear capability is now a reality.",
+                  "speaker": "Kim Jong Un",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "He presented the visit as a response to growing nuclear threats around the peninsula, accusing Washington of encouraging its allies to acquire nuclear-powered submarines and of pledging to share its own nuclear weapons with them, Euronews reported."
+                }
+              ]
+            },
+            {
+              "subhead": "A tense border, and silence to Trump",
+              "blocks": [
+                {
+                  "text": "The remarks come amid a dispute with South Korea over a landmine blast that injured three South Korean soldiers in the Demilitarized Zone on 21 September. A joint South Korean and UN investigation found that the North had planted the mines more than a year earlier. Pyongyang accused Seoul of fabricating the explosion and, less than a week after Seoul demanded an apology in October, fired about 10 short-range ballistic missiles into the Sea of Japan, Al Jazeera reported."
+                },
+                {
+                  "text": "Trump said again that he wanted to resume talks while in China last week for the APEC summit, but no meeting took place and Pyongyang did not respond publicly, Euronews reported. Trump told the New York Post it was ‘not really the right time’. Last week the head of the International Atomic Energy Agency, Rafael Grossi, called the expansion of the Yongbyon enrichment facility ‘a serious concern’. South Korea estimates that the North has between 80 and 120 nuclear warheads."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Nuclear material plants visited",
+              "value": "2",
+              "source": "KCNA, via Euronews"
+            },
+            {
+              "label": "North’s warheads, Seoul’s estimate",
+              "value": "80–120",
+              "source": "South Korea, via Al Jazeera"
+            },
+            {
+              "label": "Missiles fired after apology demand",
+              "value": "≈10",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Nuclear status in constitution",
+              "value": "2023",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Pyongyang",
+            "lat": 39.02,
+            "lon": 125.75,
+            "region": "North Korea"
+          }
+        },
+        "tr": {
+          "shortTitle": "Kim daha çok taktik nükleer istiyor",
+          "title": "Kim, tesisleri gezdikten sonra taktik nükleer silahların yaygınlaştırılmasını istedi",
+          "summary": {
+            "what": "Kuzey Kore lideri Kim Jong Un nükleer madde üretim tesislerini gezdi ve taktik nükleer silahların “birçok alanda” konuşlandırılması çağrısı yaptı, devlet ajansı KCNA bildirdi.",
+            "why": "Kim, ülkenin nükleer statüsünü inkâr girişimlerinin “açık savaş ilanı” sayılacağını söyledi; açıklama, Donald Trump’ın görüşme teklifinin yanıtsız kalmasından günler sonra geldi.",
+            "next": "Güney Kore Savunma Bakanlığı açıklamaları ciddiye aldığını ve ABD ile ittifakı sayesinde askeri olarak hazır olduğunu açıkladı."
+          },
+          "body": [
+            {
+              "subhead": "Yeni ve büyütülen tesisler",
+              "blocks": [
+                {
+                  "text": "Euronews’in aktardığına göre devlet ajansı KCNA, Kuzey Kore lideri Kim Jong Un’un biri yeni açılan, diğeri genişletilen iki nükleer madde üretim tesisini, nükleer enerjili ekipman üreten bir üssü ve bir nükleer araştırma enstitüsünü ziyaret ettiğini perşembe günü duyurdu. Pyongyang tesislerin yerini açıklamadı."
+                },
+                {
+                  "text": "Euronews’e göre fotoğraflarda Kim ve üst düzey subaylar, silah düzeyinde uranyum üretmekte kullanılan santrifüjlere benzeyen sık dizilerin önünden geçiyor ve savaş başlığı olduğu düşünülen nesnelerin bulunduğu salonları geziyordu; bazı görüntüler bulanıklaştırılmıştı. Al Jazeera’ya göre Kim, ülkenin nükleer madde üretim kapasitesinin sistemli biçimde artırıldığını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "“Açık savaş ilanı”",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın aktardığına göre Kim, 2023’te anayasaya yazılan nükleer silah sahibi ülke statüsünün “kesinlikle dokunulmaz” olduğunu, bunu inkâr etmeye yönelik her girişimin “açık savaş ilanı” sayılacağını söyledi. Taktik nükleer silahların “farklı görevler için birçok alanda” konuşlandırılmasını acil bir görev olarak tanımladı ve gerekçe olarak “en tehlikeli düşman devletle” olan sınırı gösterdi."
+                },
+                {
+                  "quote": "Nükleer kapasitemiz artık bir gerçek.",
+                  "speaker": "Kim Jong Un",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Euronews’e göre Kim ziyareti, yarımadadaki artan nükleer tehditlere bir yanıt olarak sundu; Washington’ı müttefiklerini nükleer denizaltı edinmeye teşvik etmekle ve kendi nükleer silahlarını onlarla paylaşma sözü vermekle suçladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Gergin sınır, Trump’a sessizlik",
+              "blocks": [
+                {
+                  "text": "Açıklamalar, 21 Eylül’de Askerden Arındırılmış Bölge’de üç Güney Koreli askerin yaralandığı mayın patlaması yüzünden Güney Kore ile süren anlaşmazlığın ortasında geldi. Güney Kore ile BM’nin ortak soruşturması, mayınları Kuzey Kore’nin bir yıldan uzun süre önce döşediğini ortaya koydu. Al Jazeera’ya göre Pyongyang, Seul’ü patlamayı uydurmakla suçladı ve Seul’ün ekimde özür istemesinden bir hafta geçmeden Japon Denizi’ne yaklaşık 10 kısa menzilli balistik füze fırlattı."
+                },
+                {
+                  "text": "Euronews’e göre Trump geçen hafta APEC zirvesi için Çin’deyken görüşmeleri yeniden başlatma isteğini yineledi, ama görüşme olmadı ve Pyongyang açıkça yanıt vermedi. Trump New York Post’a “pek doğru zaman değildi” dedi. Uluslararası Atom Enerjisi Ajansı Başkanı Rafael Grossi de geçen hafta Yongbyon’daki zenginleştirme tesisinin büyütülmesini “ciddi bir endişe” olarak nitelemişti. Güney Kore, Kuzey Kore’nin 80 ile 120 arasında nükleer savaş başlığı olduğunu tahmin ediyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ziyaret edilen nükleer madde tesisi",
+              "value": "2",
+              "source": "KCNA, Euronews aracılığıyla"
+            },
+            {
+              "label": "Seul’e göre Kuzey’in savaş başlığı",
+              "value": "80–120",
+              "source": "Güney Kore, Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "Özür talebinden sonra atılan füze",
+              "value": "≈10",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Nükleer statünün anayasaya girişi",
+              "value": "2023",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Pyongyang",
+            "lat": 39.02,
+            "lon": 125.75,
+            "region": "Kuzey Kore"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T02:03:03.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T05:55:00.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T05:55:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T12:30:00+03:00",
+      "updatedAt": "2026-11-26T12:30:00+03:00"
+    },
+    {
+      "id": "aeb8bb40768b1b7c",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Andy Taylor of Duran Duran dies",
+          "title": "Duran Duran guitarist Andy Taylor dies at 65",
+          "summary": {
+            "what": "Andy Taylor, whose guitar drove Duran Duran hits such as Girls on Film and Rio, died at home on 23 November after a long battle with prostate cancer.",
+            "why": "His riffs helped the band sell more than 100 million records and define the sound of the 1980s, France 24 reported.",
+            "next": "The band and his family announced his death in a joint statement on Instagram late on Wednesday."
+          },
+          "body": [
+            {
+              "subhead": "‘Fire and swagger’",
+              "blocks": [
+                {
+                  "text": "Andy Taylor, guitarist of the British band Duran Duran, has died aged 65 after ‘a long and courageous battle with prostate cancer’, the band and his family said on Instagram late on Wednesday. He ‘passed away peacefully at home, surrounded by his family, on Monday 23rd November’, they said, France 24 and the BBC reported."
+                },
+                {
+                  "text": "His wife, Tracey, said he was ‘the rock of our family’. The band said Taylor had been there from the very beginning, with ‘an unshakeable belief in what we could become’."
+                },
+                {
+                  "quote": "He brought an indelible fire and swagger to our music. His playing drove the songs that took us around the world.",
+                  "speaker": "Duran Duran",
+                  "sourceId": "france-24"
+                }
+              ]
+            },
+            {
+              "subhead": "From Tyneside to Birmingham",
+              "blocks": [
+                {
+                  "text": "Taylor was born on the coast near Newcastle, in north-east England, on 16 February 1961, the son of a fisherman, the BBC reported. He taught himself guitar, bass and drums and was playing professionally at 13, including in working men’s clubs across the north-east and on a contract entertaining American troops in Germany."
+                },
+                {
+                  "text": "He answered an advertisement for a ‘livewire guitarist’ and auditioned for Duran Duran in Birmingham in April 1980. The band’s debut single, Planet Earth, came out in February 1981, and its third, Girls on Film, made it famous around the world, France 24 said."
+                }
+              ]
+            },
+            {
+              "subhead": "The sound of the 1980s",
+              "blocks": [
+                {
+                  "text": "Taylor’s rock- and funk-inspired riffs drove hits such as Girls on Film, Rio and Save a Prayer, which he co-wrote, and helped make the band a leader of the New Romantic movement. Duran Duran have sold more than 100 million records, with 30 top-40 singles in Britain and 21 in the US, France 24 reported. He also worked with Robert Palmer, with whom he formed The Power Station, as well as Rod Stewart and Belinda Carlisle, the BBC said."
+                },
+                {
+                  "text": "In its obituary, the BBC describes how fame brought heavy drug and alcohol use that left him burnt out and battling clinical depression. He married Tracey Wilson in 1982; they were together for more than 40 years and had four children."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Age",
+              "value": "65",
+              "source": "Duran Duran"
+            },
+            {
+              "label": "Duran Duran records sold",
+              "value": ">100 million",
+              "source": "France 24"
+            },
+            {
+              "label": "UK top-40 singles",
+              "value": "30",
+              "source": "France 24"
+            },
+            {
+              "label": "US top-40 hits",
+              "value": "21",
+              "source": "France 24"
+            },
+            {
+              "label": "Audition for the band",
+              "value": "April 1980",
+              "source": "BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Duran Duran’dan Andy Taylor öldü",
+          "title": "Duran Duran’ın gitaristi Andy Taylor 65 yaşında hayatını kaybetti",
+          "summary": {
+            "what": "Duran Duran’ın Girls on Film ve Rio gibi hitlerine gitarıyla yön veren Andy Taylor, prostat kanseriyle uzun mücadelesinin ardından 23 Kasım’da evinde öldü.",
+            "why": "France 24’e göre Taylor’ın riffleri, 100 milyonun üzerinde plak satan grubun 1980’lerin sesini belirlemesine yardım etti.",
+            "next": "Grup ve ailesi ölüm haberini çarşamba gecesi Instagram’da ortak bir açıklamayla duyurdu."
+          },
+          "body": [
+            {
+              "subhead": "“Ateş ve kendine güven”",
+              "blocks": [
+                {
+                  "text": "İngiliz grup Duran Duran’ın gitaristi Andy Taylor, “prostat kanseriyle uzun ve cesur bir mücadelenin” ardından 65 yaşında hayatını kaybetti. France 24 ve BBC’nin aktardığına göre grup ve ailesi çarşamba gecesi Instagram’daki ortak açıklamada Taylor’ın “23 Kasım pazartesi günü evinde, ailesinin yanında huzur içinde” öldüğünü duyurdu."
+                },
+                {
+                  "text": "Eşi Tracey, Taylor’ın “ailemizin dayanağı” olduğunu söyledi. Grup ise Taylor’ın en baştan beri yanlarında olduğunu ve “neye dönüşebileceğimize sarsılmaz bir inancı” bulunduğunu belirtti."
+                },
+                {
+                  "quote": "Müziğimize silinmez bir ateş ve özgüven kattı. Çalışı, bizi dünyayı dolaştıran şarkıları sürükledi.",
+                  "speaker": "Duran Duran",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Tyneside’dan Birmingham’a",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Taylor, 16 Şubat 1961’de İngiltere’nin kuzeydoğusunda, Newcastle yakınlarındaki kıyıda bir balıkçının oğlu olarak doğdu. Gitar, bas ve davulu kendi kendine öğrendi; 13 yaşında profesyonel olarak çalmaya başladı, kuzeydoğudaki işçi kulüplerinde ve Almanya’daki Amerikan askerlerine yönelik bir sözleşmeyle sahneye çıktı."
+                },
+                {
+                  "text": "“Enerjik bir gitarist” arayan bir ilana başvurdu ve Nisan 1980’de Birmingham’da Duran Duran’ın seçmelerine katıldı. France 24’e göre grubun ilk single’ı Planet Earth Şubat 1981’de çıktı; üçüncü single Girls on Film ise grubu dünya çapında üne kavuşturdu."
+                }
+              ]
+            },
+            {
+              "subhead": "1980’lerin sesi",
+              "blocks": [
+                {
+                  "text": "Taylor’ın rock ve funk etkili riffleri, ortak yazarı olduğu Girls on Film, Rio ve Save a Prayer gibi hitleri sürükledi ve grubun “New Romantic” akımının öncülerinden biri olmasına yardım etti. France 24’e göre Duran Duran 100 milyondan fazla plak sattı; İngiltere’de 30, ABD’de 21 şarkısı listelerde ilk 40’a girdi. BBC’ye göre Taylor, birlikte The Power Station’ı kurduğu Robert Palmer’ın yanı sıra Rod Stewart ve Belinda Carlisle ile de çalıştı."
+                },
+                {
+                  "text": "BBC’nin yazdığı yaşam öyküsüne göre şöhret beraberinde yoğun uyuşturucu ve alkol kullanımı getirdi; Taylor tükendi ve klinik depresyonla mücadele etti. 1982’de Tracey Wilson ile evlendi; 40 yılı aşkın süre birlikte kalan çiftin dört çocuğu oldu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Yaş",
+              "value": "65",
+              "source": "Duran Duran"
+            },
+            {
+              "label": "Duran Duran’ın sattığı plak",
+              "value": "100 milyondan fazla",
+              "source": "France 24"
+            },
+            {
+              "label": "İngiltere’de ilk 40’a giren single",
+              "value": "30",
+              "source": "France 24"
+            },
+            {
+              "label": "ABD’de ilk 40’a giren şarkı",
+              "value": "21",
+              "source": "France 24"
+            },
+            {
+              "label": "Gruba seçme",
+              "value": "Nisan 1980",
+              "source": "BBC"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-25T22:16:14.000Z",
+          "sourceId": "bbc-entertainment"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T23:20:50.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-25T23:20:50.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-25T23:37:18.000Z",
+          "sourceId": "france-24"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/56bd/live/2b3554c0-80eb-11ef-bf00-b142e9860253.jpg",
+        "sourceId": "bbc-entertainment",
+        "sourceName": "BBC Entertainment",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-entertainment",
+          "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375817/duran-duran-guitarist-andy-taylor-sound-1980s-dies-65",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-26T12:30:00+03:00",
+      "updatedAt": "2026-11-26T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "b7381a97377a8806",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How many suspects were jailed in the Kepez municipality investigation?",
+          "options": ["18", "21", "24"]
+        },
+        "tr": {
+          "question": "Kepez Belediyesi soruşturmasında kaç şüpheli tutuklandı?",
+          "options": ["18", "21", "24"]
+        }
+      }
+    },
+    {
+      "storyId": "8cc9974ff0c2f15e",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "What did EPA air monitors find after the Iowa blast?",
+          "options": ["No airborne lead", "Lead below safety limits", "Lead only near the plant"]
+        },
+        "tr": {
+          "question": "Iowa’daki patlamadan sonra EPA’nın hava ölçüm cihazları ne saptadı?",
+          "options": [
+            "Havada hiç kurşun yok",
+            "Güvenlik sınırının altında kurşun",
+            "Yalnızca fabrika yakınında kurşun"
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "268d27d19b07351f",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How many nuclear warheads does South Korea estimate the North has?",
+          "options": ["20 to 40", "50 to 70", "80 to 120"]
+        },
+        "tr": {
+          "question": "Güney Kore, Kuzey Kore’nin kaç nükleer savaş başlığı olduğunu tahmin ediyor?",
+          "options": ["20 ile 40 arası", "50 ile 70 arası", "80 ile 120 arası"]
+        }
+      }
+    }
+  ]
+}
