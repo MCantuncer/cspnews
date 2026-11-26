@@ -18,7 +18,7 @@ import { bulletinName, bulletinSize, wordsFor } from '../../lib/i18n';
 import { GAME_PATHS, todayLine } from '../../lib/word';
 import Icon from '../ui/Icon.astro';
 import MusicIcon from '../music/MusicIcon.astro';
-import { GENRES, loadMusic, musicPath, musicWords } from '../../lib/music';
+import { genresOf, loadMusic, musicPath, musicWords, picksIn } from '../../lib/music';
 import Contents from './Contents.astro';
 import DayLanes from './DayLanes.astro';
 import TodayLine from './TodayLine.astro';
@@ -34,7 +34,7 @@ const words = wordsFor(lang);
 const music = musicWords(lang);
 const latestMusic = loadMusic()[0];
 const musicCount = latestMusic
-  ? GENRES.reduce((sum, genre) => sum + latestMusic.genres[genre].length, 0)
+  ? genresOf(latestMusic).reduce((sum, genre) => sum + picksIn(latestMusic, genre).length, 0)
   : 0;
 // Followed stories are compared in the browser; the page carries what each story is now.
 const bulletins = allBulletins();

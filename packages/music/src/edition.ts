@@ -5,10 +5,17 @@ import { z } from 'zod';
  * A day's music edition: five songs in each of three genres, every one with the reason it is
  * there and the measured numbers behind that reason (docs/music.md). One file per day,
  * `data/music/<date>.json`, published with the evening bulletin.
+ *
+ * The third genre was Techno until 26 November 2026 and is Indie Dance from 27 November (Can,
+ * 2026-11-26: "only Indie Dance, not Techno or house"). An edition has one of the two; earlier
+ * days keep their techno.
  */
 
-export const GENRES = ['global', 'turkey', 'techno'] as const;
+export const GENRES = ['global', 'turkey', 'techno', 'indiedance'] as const;
 export type Genre = (typeof GENRES)[number];
+
+/** The first day whose third genre is Indie Dance. */
+export const INDIE_DANCE_FROM = '2026-11-27';
 
 export const PICKS_PER_GENRE = 5;
 
@@ -174,9 +181,13 @@ export const MusicEditionSchema = z
       .object({
         global: z.array(PickSchema),
         turkey: z.array(PickSchema),
-        techno: z.array(PickSchema),
+        techno: z.array(PickSchema).optional(),
+        indiedance: z.array(PickSchema).optional(),
       })
-      .strict(),
+      .strict()
+      .refine((genres) => (genres.techno === undefined) !== (genres.indiedance === undefined), {
+        message: 'An edition has either techno or indiedance as its third genre.',
+      }),
   })
   .strict();
 export type MusicEdition = z.infer<typeof MusicEditionSchema>;
@@ -192,7 +203,19 @@ export function pickIn(pick: Pick, lang: Language): LocalPick {
   return { ...pick, reason: pick.reason[lang] };
 }
 
+/** The genres an edition has, in page order. */
+export function genresOf(edition: MusicEdition): Genre[] {
+  return GENRES.filter((genre) => edition.genres[genre] !== undefined);
+}
+
+/** One genre's picks; none when the edition does not have that genre. */
+export function picksIn(edition: MusicEdition, genre: Genre): Pick[] {
+  return edition.genres[genre] ?? [];
+}
+
 /** Every pick of an edition with its genre, in page order. */
 export function picksOf(edition: MusicEdition): { genre: Genre; pick: Pick }[] {
-  return GENRES.flatMap((genre) => edition.genres[genre].map((pick) => ({ genre, pick })));
+  return genresOf(edition).flatMap((genre) =>
+    picksIn(edition, genre).map((pick) => ({ genre, pick })),
+  );
 }

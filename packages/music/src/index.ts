@@ -3,6 +3,7 @@ export {
   EVIDENCE_SOURCES,
   EvidenceSchema,
   GENRES,
+  INDIE_DANCE_FROM,
   METRICS,
   MusicEditionSchema,
   PICKS_PER_GENRE,
@@ -11,7 +12,9 @@ export {
   REASON_KINDS,
   TECHNO_MAX_BPM,
   parseMusicEdition,
+  genresOf,
   pickIn,
+  picksIn,
   picksOf,
 } from './edition.js';
 export type {

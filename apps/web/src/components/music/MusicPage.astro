@@ -12,8 +12,9 @@ import Base from '../../layouts/Base.astro';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate, formatTime } from '../../lib/format';
 import {
-  GENRES,
   cratePath,
+  genresOf,
+  picksIn,
   editionMinutes,
   loadMusic,
   musicPath,
@@ -31,7 +32,8 @@ const { lang } = Astro.props;
 const words = musicWords(lang);
 const editions = loadMusic();
 const edition = Astro.props.edition ?? editions[0];
-const count = edition ? GENRES.reduce((sum, genre) => sum + edition.genres[genre].length, 0) : 0;
+const genres = edition ? genresOf(edition) : [];
+const count = edition ? genres.reduce((sum, genre) => sum + picksIn(edition, genre).length, 0) : 0;
 const earlier = editions.filter((other) => edition && other.date < edition.date).slice(0, 7);
 const description = edition
   ? `${formatLongDate(edition.publishAt, lang)}. ${words.meta(count, editionMinutes(edition))}`
@@ -63,7 +65,7 @@ const description = edition
           </a>
 
           <div class="genres">
-            {GENRES.map((genre) => (
+            {genres.map((genre) => (
               <section class={`genre g-${genre}`} aria-labelledby={`genre-${genre}`}>
                 <span class="dot" aria-hidden="true" />
                 <div class="ghead">
@@ -71,7 +73,7 @@ const description = edition
                   <h2 id={`genre-${genre}`}>{words.genre[genre]}</h2>
                   <span class="n">{genre === 'techno' ? words.bpmRule : words.fiveSongs}</span>
                 </div>
-                {edition.genres[genre].map((pick) => (
+                {picksIn(edition, genre).map((pick) => (
                   <TrackRow lang={lang} genre={genre} pick={pick} />
                 ))}
               </section>
@@ -203,6 +205,10 @@ const description = edition
 
   .g-techno {
     --g: var(--gen-techno);
+  }
+
+  .g-indiedance {
+    --g: var(--gen-indiedance);
   }
 
   /* The genres sit on the day line like stations; each track hangs off it. */

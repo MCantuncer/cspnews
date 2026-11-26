@@ -39,7 +39,7 @@ describe('music edition check', () => {
   it('refuses techno over 134 BPM', () => {
     const problems = check(
       edit((e) => {
-        const pick = first(e.genres.techno);
+        const pick = first((e.genres.techno ??= []));
         if (pick.bpm) pick.bpm.value = 140;
       }),
     );
@@ -47,14 +47,14 @@ describe('music edition check', () => {
   });
 
   it('refuses techno without a tempo from a source', () => {
-    const problems = check(edit((e) => delete first(e.genres.techno).bpm));
+    const problems = check(edit((e) => delete first((e.genres.techno ??= [])).bpm));
     expect(problems.join('\n')).toMatch(/techno needs a BPM/);
   });
 
   it('drops a tempo two sources disagree on, and a lone half-time reading', () => {
     const problems = check(
       edit((e) => {
-        const [a, b] = e.genres.techno;
+        const [a, b] = (e.genres.techno ??= []);
         if (a?.bpm) a.bpm.confirmedBy = { source: 'deezer', value: 140 };
         if (b?.bpm) b.bpm = { source: b.bpm.source, url: b.bpm.url, value: 66 };
       }),
@@ -159,8 +159,8 @@ describe('music edition check', () => {
         const [a, b] = e.genres.turkey;
         if (a && b) b.artists = [...a.artists];
         const copy = e.genres.global[0];
-        const tempo = e.genres.techno[0]?.bpm;
-        if (copy && tempo) e.genres.techno[0] = { ...copy, bpm: tempo };
+        const tempo = (e.genres.techno ??= [])[0]?.bpm;
+        if (copy && tempo) (e.genres.techno ??= [])[0] = { ...copy, bpm: tempo };
       }),
     );
     expect(problems.join('\n')).toMatch(/Kuzey Ateş already has "Gece Vardiyası" in turkey/);
@@ -188,5 +188,28 @@ describe('music edition check', () => {
       }),
     );
     expect(problems.join('\n')).toMatch(/more than 36 hours before publishing/);
+  });
+
+  it('takes Indie Dance as the third genre from 27 November, measured on an Indie Dance list', () => {
+    const stillTechno = edit((e) => (e.date = '2026-11-27'));
+    expect(check(stillTechno).join('\n')).toMatch(
+      /third genre is Indie Dance; 2026-11-27 needs indiedance/,
+    );
+
+    const indie = edit((e) => {
+      e.date = '2026-11-27';
+      e.genres.indiedance = e.genres.techno ?? [];
+      for (const pick of e.genres.indiedance) delete pick.bpm;
+      delete e.genres.techno;
+    });
+    const problems = check(indie).join('\n');
+    expect(problems).not.toMatch(/third genre/);
+    expect(problems).toMatch(/an Indie Dance pick needs a place on an Indie Dance chart or list/);
+  });
+
+  it('refuses an edition with both techno and Indie Dance', () => {
+    expect(() =>
+      parseMusicEdition({ ...sample(), genres: { ...sample().genres, indiedance: [] } }),
+    ).toThrow(/either techno or indiedance/);
   });
 });

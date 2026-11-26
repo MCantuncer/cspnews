@@ -13,6 +13,36 @@ export const DEEZER_RAP = 116;
 /** "Techno Tunnel", the warehouse techno playlist of Deezer's Dance & EDM editor. */
 export const DEEZER_TECHNO_TUNNEL = 1275756721;
 
+export const deezerPlaylistSearchUrl = (query: string) =>
+  `${DEEZER}/search/playlist?${new URLSearchParams({ q: query, limit: '50' }).toString()}`;
+export const deezerPlaylistTracksUrl = (id: number) =>
+  `${DEEZER}/playlist/${String(id)}/tracks?limit=100`;
+
+/**
+ * The editors' playlist a search found: made by a Deezer editor account ("… - Deezer Dance & EDM
+ * Editor") and named like the search. Listeners' own playlists are never used.
+ */
+export function editorsPlaylist(
+  json: string,
+  name: RegExp,
+): { id: number; title: string } | undefined {
+  const found = z
+    .object({
+      data: z.array(
+        z.looseObject({
+          id: z.number(),
+          title: z.string(),
+          nb_tracks: z.number().optional(),
+          user: z.looseObject({ name: z.string() }).optional(),
+        }),
+      ),
+    })
+    .parse(ok(json))
+    .data.filter((list) => /deezer/i.test(list.user?.name ?? '') && name.test(list.title))
+    .sort((a, b) => (b.nb_tracks ?? 0) - (a.nb_tracks ?? 0))[0];
+  return found ? { id: found.id, title: found.title } : undefined;
+}
+
 const Artist = z.looseObject({ id: z.number(), name: z.string() });
 
 const ChartSchema = z.object({
