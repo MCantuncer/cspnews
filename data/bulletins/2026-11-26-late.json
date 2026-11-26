@@ -1,0 +1,1408 @@
+{
+  "version": 2,
+  "slot": "late",
+  "publishAt": "2026-11-26T22:30:00+03:00",
+  "writtenAt": "2026-11-26T21:58:00+03:00",
+  "stories": [
+    {
+      "id": "7345927580f92f78",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "caece5bb084fbb33",
+      "versions": {
+        "en": {
+          "shortTitle": "₺199bn paid to fund investors",
+          "title": "Fund investors to have received ₺199.25bn by Friday, Yılmaz says",
+          "summary": {
+            "what": "Vice President Cevdet Yılmaz said payments from the collapsed investment funds will reach ₺199.25bn by Friday, with almost all investors paid something.",
+            "why": "It is the government’s first full account of the fund crisis, which hit 455,758 investors, and says not a lira came from the Treasury.",
+            "next": "Regular liquidation ends on Friday; prosecutors are now writing the indictment, and a bill to tighten capital markets law goes to parliament."
+          },
+          "body": [
+            {
+              "subhead": "Almost all investors paid",
+              "blocks": [
+                {
+                  "text": "Vice President Cevdet Yılmaz, Justice Minister Akın Gürlek and Treasury and Finance Minister Mehmet Şimşek gave a joint press conference on the fund crisis at the presidential complex in Ankara on Thursday evening, Bloomberg HT, Hürriyet and Anadolu Agency reported. Yılmaz said that by Friday ₺199.25bn will have been paid out from 122 of the 131 funds put into liquidation in September."
+                },
+                {
+                  "text": "Of the 455,758 individual investors in those funds, 444,987, about 98%, have received at least one payment, he said, and 401,754 will have been paid their full net investment or portfolio value by Friday. In cash, 21,723 people received the legal maximum interim payment of ₺1m; counting payments made in shares, the figure is above 40,000. Yılmaz rejected claims that nobody had received ₺1m."
+                },
+                {
+                  "quote": "Not a single kuruş of the more than ₺199bn in payments came from our budget or Treasury.",
+                  "speaker": "Cevdet Yılmaz, vice president",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "According to Anadolu Agency, he said all payments came from the funds’ liquid assets, payments in kind and recovery accounts."
+                }
+              ]
+            },
+            {
+              "subhead": "Regular liquidation ends on Friday",
+              "blocks": [
+                {
+                  "text": "The last payments under regular liquidation, for three funds at Hedef Portföy, will be made on Friday once share sales settle, Yılmaz said, which completes that process. The Atlas, Pusula and Tera funds, whose assets could not cover their obligations, went into extraordinary liquidation; there, interim payments are done apart from some exceptions, and what follows is final liquidation. Investors who had already taken out at least as much as they put in, 10,680 people, received nothing, and net investments were not adjusted for inflation, Bloomberg HT reported him saying."
+                }
+              ]
+            },
+            {
+              "subhead": "638 suspects, indictment next",
+              "blocks": [
+                {
+                  "text": "Gürlek said the Istanbul investigations now have 638 suspects, of whom 138 are in detention, 300 are under judicial control and 49 are wanted, Sabah and Anadolu Agency reported. Assets of 550 people and 184 companies have been seized, and about ₺13bn found to have been moved abroad has been frozen. Voluntary returns have brought in ₺45.36bn from 95 people, up from ₺44.58bn from 85 people he gave earlier this week, according to Sözcü."
+                },
+                {
+                  "text": "He said the “main spine” of the investigation was complete and the indictment was being written, though new names from confessions could deepen it. A bill amending the Capital Markets Law is ready, he added."
+                },
+                {
+                  "text": "Şimşek listed new rules: weekly disclosure of hedge-fund portfolios, collateral for all fund lending, a 20% cap on related-party trades and a lower 3% threshold for disclosing stakes. Asked about an early election, Yılmaz said the vote would be in 2028, Sözcü and A Haber reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Paid out by Friday",
+              "value": "₺199.25bn",
+              "source": "Cevdet Yılmaz, via Anadolu Agency"
+            },
+            {
+              "label": "Investors paid at least once",
+              "value": "444,987",
+              "source": "Cevdet Yılmaz, via Bloomberg HT"
+            },
+            {
+              "label": "Got ₺1m in cash",
+              "value": "21,723",
+              "source": "Cevdet Yılmaz, via Anadolu Agency"
+            },
+            {
+              "label": "Suspects in detention",
+              "value": "138",
+              "source": "Akın Gürlek, via Anadolu Agency"
+            },
+            {
+              "label": "Money frozen abroad",
+              "value": "₺13bn",
+              "source": "Akın Gürlek, via Sabah"
+            }
+          ],
+          "keyNumber": {
+            "label": "Recovered through voluntary returns",
+            "unit": "₺bn",
+            "before": 44.58,
+            "after": 45.36,
+            "source": "Akın Gürlek, via Sözcü and Anadolu Agency"
+          },
+          "news": "Ministers say ₺199.25bn will have been paid from 122 of the 131 funds by Friday, and 138 suspects are in detention."
+        },
+        "tr": {
+          "shortTitle": "Fon yatırımcısına 199 milyar ödeme",
+          "title": "Yılmaz: Fon yatırımcılarına cuma itibarıyla 199,25 milyar lira ödenmiş olacak",
+          "summary": {
+            "what": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, tasfiyedeki fonlardan yapılan ödemelerin cuma itibarıyla 199,25 milyar liraya ulaşacağını açıkladı.",
+            "why": "455 bin 758 yatırımcıyı etkileyen fon krizine ilişkin hükümetin ilk kapsamlı dökümü; Hazineden tek kuruş çıkmadığı vurgulandı.",
+            "next": "Olağan tasfiye cuma günü bitiyor; iddianame yazım aşamasında, Sermaye Piyasası Kanunu’nu değiştiren teklif Meclis’e gidiyor."
+          },
+          "body": [
+            {
+              "subhead": "Yatırımcıların neredeyse tamamına ödeme",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, Adalet Bakanı Akın Gürlek ve Hazine ve Maliye Bakanı Mehmet Şimşek perşembe akşamı Cumhurbaşkanlığı Külliyesi’nde fon krizine ilişkin ortak basın toplantısı düzenledi. Bloomberg HT, Hürriyet ve Anadolu Ajansı’nın aktardığına göre Yılmaz, eylülde tasfiyesine karar verilen 131 fondan 122’sinde cuma itibarıyla toplam 199,25 milyar lira ödeme yapılmış olacağını söyledi."
+                },
+                {
+                  "text": "Yılmaz’a göre bu fonlardaki 455 bin 758 tekil yatırımcının 444 bin 987’sine, yani yaklaşık yüzde 98’ine en az bir ödeme yapıldı; 401 bin 754 yatırımcıya cuma itibarıyla net yatırım tutarının ya da portföy değerinin tamamı ödenmiş olacak. Nakdi olarak 21 bin 723 kişi kanuni üst sınır olan 1 milyon liralık ara ödemeyi aldı; ayni ödemelerle bu sayı 40 binin üzerine çıkıyor. Yılmaz, “1 milyon lira alan yok” iddialarının gerçeği yansıtmadığını söyledi."
+                },
+                {
+                  "quote": "Bu 199 milyarı aşkın ödemede tek kuruş bütçemizden, hazinemizden ödeme yapılmamıştır.",
+                  "speaker": "Cevdet Yılmaz, Cumhurbaşkanı Yardımcısı",
+                  "sourceId": "aa-tr"
+                },
+                {
+                  "text": "Anadolu Ajansı’na göre Yılmaz, ödemelerin fonlardaki likit kaynaklar, ayni ödemeler ve geri kazanım hesaplarındaki birikimlerle yapıldığını belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "Olağan tasfiye cuma bitiyor",
+              "blocks": [
+                {
+                  "text": "Yılmaz’ın açıklamasına göre Hedef Portföy’deki üç fonun ödemeleri, hisse satışları hesaba geçeceği için cuma günü yapılacak ve böylece olağan tasfiye süreci tamamlanacak. Varlıkları yükümlülüklerini karşılamayan Atlas, Pusula ve Tera fonları ise olağanüstü tasfiyeye alınmıştı; bunlarda bazı istisnalar dışında ara ödemeler tamamlandı ve süreç nihai tasfiyeyle sürecek. Bloomberg HT’nin aktardığına göre yatırdığından fazlasını daha önce çekmiş 10 bin 680 yatırımcıya ödeme yapılmadı, net yatırım tutarına enflasyon farkı da eklenmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "638 şüpheli, sırada iddianame",
+              "blocks": [
+                {
+                  "text": "Sabah ve Anadolu Ajansı’na göre Gürlek, İstanbul’daki fon soruşturmalarında 638 şüpheli bulunduğunu, bunların 138’inin tutuklu olduğunu, 300’üne adli kontrol uygulandığını ve 49’u hakkında yakalama kararı bulunduğunu açıkladı. 550 gerçek ve 184 tüzel kişinin mal varlığına el konuldu, yurt dışına kaçırılan yaklaşık 13 milyar liralık para donduruldu. Gönüllü iadelerle 95 kişiden 45,36 milyar lira tahsil edildi; Sözcü’ye göre Gürlek bu hafta başında 85 kişiden 44,58 milyar lira rakamını vermişti."
+                },
+                {
+                  "text": "Gürlek, soruşturmanın “ana omurgasının” tamamlandığını ve iddianame yazımına geçildiğini, yeni itirafçı beyanlarıyla soruşturmanın derinleşebileceğini söyledi. Sermaye Piyasası Kanunu’nda değişiklik öngören taslağın da hazır olduğunu belirtti."
+                },
+                {
+                  "text": "Şimşek ise serbest fonların portföylerinin haftalık açıklanması, fonların borç verme işlemlerinin teminata bağlanması, ilişkili taraf işlemlerine yüzde 20 sınır ve pay açıklama eşiğinin yüzde 3’e indirilmesi gibi tedbirleri sıraladı. Sözcü ve A Haber’e göre erken seçim sorusuna Yılmaz, seçimin 2028’de yapılacağı yanıtını verdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Cuma itibarıyla yapılan ödeme",
+              "value": "199,25 milyar ₺",
+              "source": "Cevdet Yılmaz (Anadolu Ajansı)"
+            },
+            {
+              "label": "En az bir ödeme alan yatırımcı",
+              "value": "444.987",
+              "source": "Cevdet Yılmaz (Bloomberg HT)"
+            },
+            {
+              "label": "Nakit 1 milyon ₺ alan",
+              "value": "21.723",
+              "source": "Cevdet Yılmaz (Anadolu Ajansı)"
+            },
+            {
+              "label": "Tutuklu şüpheli",
+              "value": "138",
+              "source": "Akın Gürlek (Anadolu Ajansı)"
+            },
+            {
+              "label": "Yurt dışında dondurulan para",
+              "value": "13 milyar ₺",
+              "source": "Akın Gürlek (Sabah)"
+            }
+          ],
+          "keyNumber": {
+            "label": "Gönüllü iadelerle tahsilat",
+            "unit": "milyar ₺",
+            "before": 44.58,
+            "after": 45.36,
+            "source": "Akın Gürlek (Sözcü, Anadolu Ajansı)"
+          },
+          "news": "Bakanlara göre 131 fondan 122’sinde cuma itibarıyla 199,25 milyar lira ödenmiş olacak; 138 şüpheli tutuklu."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T07:06:32.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T12:12:20.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T12:12:20.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:08:40.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:09:47.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:15:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:50:00.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:41:34.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:49:16.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://geoim.bloomberght.com/l/2026/11/26/ver1795676827/3795725/jpg/1280x720",
+        "sourceId": "bloomberg-ht",
+        "sourceName": "Bloomberg HT",
+        "articleUrl": "https://www.bloomberght.com/yilmaz-gurlek-ve-simsek-ten-fon-krizine-iliskin-toplanti-3795725"
+      },
+      "sources": [
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/yilmaz-gurlek-ve-simsek-ten-fon-krizine-iliskin-toplanti-3795725",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/fon-sorusturmasinda-gozler-saat-19-00-da-yilmaz-simsek-ve-gurlek-aciklama-yapacak-p384637",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/26/fon-meselesine-iliskin-ortak-basin-toplantisi-duzenleniyor",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/son-dakika-fon-sorusturmasina-iliskin-ortak-aciklama-43392349",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/fon-krizinde-kritik-toplanti-yilmaz-gurlek-ve-simsek-ten-ortak-aciklama-hic-kimseyi-tohmet-altinda-birakmadan-2559702",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/kulliyede-fon-toplantisi-sorusturmada-ana-omurga-tamamlandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/adalet-bakani-gurlek-fon-sorusturmalarinda-138-supheli-tutuklu-3930413",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/26/fon-sorusturmasinda-isim-listesi-aciklanacak-mi-cevdet-yilmaz-acikladi",
+          "confirms": false
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/26/cevdet-yilmaz-akin-gurlek-ve-mehmet-simsek-fon-krizine-dair-hangi-onemli-bilgileri-aciklad",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/ckedqgjqw1d4o?at_medium=RSS&at_campaign=rss",
+          "confirms": false
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-yardimcisi-yilmaz-fon-sorusturmasinda-bundan-sonraki-surec-nihai-tasfiyeye-yonelik-bir-donem-olacak/4139361",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T22:30:00+03:00",
+      "updatedAt": "2026-11-26T22:30:00+03:00"
+    },
+    {
+      "id": "404c76ade67303d3",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Ankara rejects EP Libya resolution",
+          "title": "Ankara rejects European Parliament call to act against Türkiye–Libya sea deal",
+          "summary": {
+            "what": "The European Parliament called the 2019 Türkiye–Libya maritime deal “null and void” and urged EU measures; Ankara’s foreign ministry rejected the resolution.",
+            "why": "The resolution asks the EU to review funding for Türkiye and Libya and weigh targeted sanctions, raising the stakes in the Eastern Mediterranean.",
+            "next": "President Erdoğan is expected to visit Libya on 8–9 December, according to Euronews Türkçe."
+          },
+          "body": [
+            {
+              "subhead": "What Parliament voted for",
+              "blocks": [
+                {
+                  "text": "The European Parliament on Thursday adopted a joint resolution saying the 2019 memorandum between Türkiye and Libya on maritime jurisdiction breaks international law, Euronews Türkçe reported. It described the deal as “null and void” and asked the European Union to take measures against it."
+                },
+                {
+                  "text": "According to Euronews Türkçe, the text calls on the European Commission to review financial cooperation with Türkiye and Libya and to suspend or redirect EU funds that support activities carrying out the memorandum, while protecting humanitarian aid. It asks the EU Council to consider targeted restrictive measures against people or entities responsible for such activities, and calls for a stronger European naval security presence in the Eastern Mediterranean, modelled on the Red Sea operation EUNAVFOR ASPIDES. It also seeks protection for the Great Sea Interconnector, a roughly 900-kilometre undersea power cable planned between Greece and the Greek Cypriot administration."
+                }
+              ]
+            },
+            {
+              "subhead": "Ankara: the EU has no say",
+              "blocks": [
+                {
+                  "text": "Türkiye’s foreign ministry rejected the resolution the same day, A Haber, Hürriyet and Anadolu Agency reported, calling it biased and baseless. The ministry said the EU has no competence over maritime boundaries, a point it said the EU Court of Justice itself had made."
+                },
+                {
+                  "quote": "It is a futile effort for the EP to adopt resolutions on the pretext of solidarity between member states, disregarding international law and with political motives.",
+                  "speaker": "Türkiye’s foreign ministry",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                },
+                {
+                  "text": "Peace and stability in the Eastern Mediterranean would come through dialogue, good neighbourliness and cooperation, the ministry added, and it expected EU officials to take that approach."
+                }
+              ]
+            },
+            {
+              "subhead": "A deal with new backing",
+              "blocks": [
+                {
+                  "text": "The memorandum was signed on 27 November 2019 with Libya’s then UN-recognised Government of National Accord and took effect on 8 December 2019. On 20 October this year, the House of Representatives in eastern Libya, controlled by Khalifa Haftar, approved it, Euronews Türkçe noted. EU leaders Ursula von der Leyen and António Costa had already called it “null and void” that same day."
+                },
+                {
+                  "text": "In Tuesday’s debate, the Parliament’s Türkiye rapporteur Nacho Sánchez Amor argued the deal was political rather than legal, since the two countries are not neighbours. The vote came just after Haftar’s talks in Ankara and before Erdoğan’s expected visit to Libya on 8–9 December."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Memorandum signed",
+              "value": "27 Nov 2019",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Approved by eastern Libya’s parliament",
+              "value": "20 Oct",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Planned Greece–Cyprus cable",
+              "value": "≈900 km",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Erdoğan’s expected Libya visit",
+              "value": "8–9 Dec",
+              "source": "Euronews Türkçe"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Ankara AP’nin Libya kararını reddetti",
+          "title": "Ankara, Türkiye–Libya deniz mutabakatına karşı AP kararını reddetti",
+          "summary": {
+            "what": "Avrupa Parlamentosu, 2019 tarihli Türkiye–Libya deniz yetki alanları mutabakatını “geçersiz ve hükümsüz” sayıp AB’den önlem istedi; Dışişleri kararı reddetti.",
+            "why": "Karar, Türkiye ve Libya’ya yönelik AB fonlarının gözden geçirilmesini ve hedefli yaptırımları gündeme getirerek Doğu Akdeniz’deki gerilimi artırıyor.",
+            "next": "Euronews Türkçe’ye göre Cumhurbaşkanı Erdoğan’ın 8-9 Aralık’ta Libya’yı ziyaret etmesi bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "AP ne kabul etti?",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe’nin haberine göre Avrupa Parlamentosu Genel Kurulu, Türkiye ile Libya arasında 2019’da imzalanan deniz yetki alanları mutabakatının uluslararası hukuka aykırı olduğunu savunan ortak karar metnini perşembe günü kabul etti. AP, mutabakatı “geçersiz ve hükümsüz” olarak nitelendirdi ve AB’den önlem almasını istedi."
+                },
+                {
+                  "text": "Kararda Avrupa Komisyonu’na Türkiye ve Libya ile mali iş birliğini gözden geçirme, mutabakatın uygulanmasına katkı veren faaliyetlere giden AB fonlarını askıya alma ya da başka alanlara yönlendirme çağrısı yapıldı; insani yardımların korunması gerektiği vurgulandı. AB Konseyi’nden sorumlu kişi ve kuruluşlara hedefli kısıtlayıcı tedbirleri değerlendirmesi istendi. AP ayrıca Kızıldeniz’deki EUNAVFOR ASPIDES operasyonunu örnek alarak Doğu Akdeniz’de Avrupa’nın deniz güvenliği varlığının güçlendirilmesini ve Yunanistan ile Güney Kıbrıs Rum Yönetimi arasında planlanan yaklaşık 900 kilometrelik Great Sea Interconnector kablosunun korunmasını talep etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Dışişleri: AB’nin yetkisi yok",
+              "blocks": [
+                {
+                  "text": "A Haber, Hürriyet ve Anadolu Ajansı’nın aktardığına göre Dışişleri Bakanlığı aynı gün yaptığı açıklamada, “taraflı ve mesnetsiz iddialar içeren” kararı reddettiklerini bildirdi. Bakanlık, AB’nin deniz yetki alanlarının sınırlandırılması konusunda herhangi bir yetkisi bulunmadığını ve bunun AB Adalet Divanı kararıyla da ortaya konduğunu hatırlattı."
+                },
+                {
+                  "quote": "AP’nin üye ülkeler arası dayanışma gerekçesiyle, uluslararası hukuku hiçe sayarak ve siyasi saiklerle kararlar kabul etmesi beyhude bir çabadır.",
+                  "speaker": "Dışişleri Bakanlığı",
+                  "sourceId": "aa-tr"
+                },
+                {
+                  "text": "Açıklamada Doğu Akdeniz’de barış ve istikrarın diyalog, iyi komşuluk ve iş birliğiyle mümkün olacağı belirtildi, AB yetkililerinden de bu doğrultuda tutum beklendiği kaydedildi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yeni destek bulan bir mutabakat",
+              "blocks": [
+                {
+                  "text": "Mutabakat, 27 Kasım 2019’da o dönem BM tarafından tanınan Libya Ulusal Mutabakat Hükümeti ile imzalanmış, 8 Aralık 2019’da yürürlüğe girmişti. Euronews Türkçe, Halife Hafter kontrolündeki doğu Libya’daki Temsilciler Meclisi’nin 20 Ekim’de anlaşmayı onayladığını, aynı gün AB liderleri Ursula von der Leyen ve António Costa’nın mutabakatı “geçersiz ve hükümsüz” ilan ettiğini hatırlattı."
+                },
+                {
+                  "text": "24 Kasım Salı günkü oturumda AP Türkiye Raportörü Nacho Sánchez Amor, iki ülkenin komşu olmadığını söyleyerek mutabakatın hukuki değil siyasi olduğunu savundu. Karar, Hafter’in Ankara temaslarının hemen ardından ve Erdoğan’ın 8-9 Aralık’ta beklenen Libya ziyaretinden önce geldi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Mutabakatın imzalanması",
+              "value": "27 Kasım 2019",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Doğu Libya meclisinin onayı",
+              "value": "20 Ekim",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Planlanan Yunanistan–Kıbrıs kablosu",
+              "value": "≈900 km",
+              "source": "Euronews Türkçe"
+            },
+            {
+              "label": "Erdoğan’ın beklenen Libya ziyareti",
+              "value": "8-9 Aralık",
+              "source": "Euronews Türkçe"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T15:55:20.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T15:59:55.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T15:59:55.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:03:54.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:09:45.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:22:04.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:30:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:12:59.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:42:21.000Z",
+          "sourceId": "diken"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b08576c08488df3975114e8.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/disislerinden-avrupa-parlamentosuna-libya-tepkisi-43392345"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/26/disisleri-bakanligindan-apnin-dogu-akdeniz-kararina-sert-tepki-reddediyoruz",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/disislerinden-avrupa-parlamentosuna-libya-tepkisi-43392345",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/turkiyeden-ap-genel-kurulunda-turkiye-libya-deniz-yetki-alani-anlasmasina-iliskin-alinan-karara-tepki/4139353",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/26/apden-turkiye-libya-deniz-mutabakatina-karsi-abye-onlem-cagrisi",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/dunya/son-dakika-disisleri-nden-ap-ye-libya-tepkisi-3930410",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/ap-t%C3%BCrkiye-libya-deniz-yetki-mutabakat%C4%B1n%C4%B1-uluslararas%C4%B1-hukuka-ayk%C4%B1r%C4%B1-buldu/a-80066615?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/disislerinden-avrupa-parlamentosunun-libya-kararina-tepki-1752751",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/turkiye-libya-mutabakatina-ap-gecersiz-dedi-ankara-reddetti-peki-konu-ne/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T22:30:00+03:00",
+      "updatedAt": "2026-11-26T22:30:00+03:00"
+    },
+    {
+      "id": "e700f81f3624ed92",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Judge halts FCC review of ABC",
+          "title": "Judge blocks FCC’s early review of eight ABC station licences",
+          "summary": {
+            "what": "A US federal judge barred the FCC from holding an early review of the licences of eight Disney-owned ABC stations and refused to dismiss ABC’s lawsuit.",
+            "why": "The judge found the review was likely retaliation, driven by President Trump, for ABC’s speech, a test of how far the regulator can press broadcasters.",
+            "next": "The FCC called the ruling wrong and says it will keep holding broadcasters to account; ABC’s First Amendment case goes on."
+          },
+          "body": [
+            {
+              "subhead": "An injunction for ABC",
+              "blocks": [
+                {
+                  "text": "US District Judge Loren AliKhan in Washington, DC, granted Disney’s request for a preliminary injunction on Wednesday, barring the Federal Communications Commission from holding a hearing on the licences of eight ABC television stations, Al Jazeera reported. Such a hearing could have led to the licences being revoked and the stations being forced off the air. The Verge reported that the judge also rejected the FCC’s attempt to dismiss ABC’s lawsuit."
+                },
+                {
+                  "quote": "This is not a close case.",
+                  "speaker": "Judge Loren AliKhan",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "AliKhan wrote that ABC was likely to win its claim of retaliation, according to The Verge, and that FCC chair Brendan Carr “has taken President Trump’s rhetoric as his marching orders”, Al Jazeera reported. NPR said her decision drew heavily on Trump’s public statements and social media posts against ABC and Disney."
+                }
+              ]
+            },
+            {
+              "subhead": "How the review began",
+              "blocks": [
+                {
+                  "text": "Carr ordered the early reviews in April, a day after Trump urged ABC to fire late-night host Jimmy Kimmel, Al Jazeera reported, although the renewals were not due before October 2028 at the earliest. The FCC had not ordered an early review in more than 50 years. The Verge said the agency presented it as part of an investigation into Disney’s diversity, equity and inclusion policies."
+                },
+                {
+                  "text": "Disney and ABC sued in August over the stations in Los Angeles, Chicago, New York and other cities, accusing the FCC of “punishing ABC for its speech”. Licences usually last eight years and are rarely revoked, NPR noted."
+                }
+              ]
+            },
+            {
+              "subhead": "The FCC pushes back",
+              "blocks": [
+                {
+                  "text": "An FCC spokesperson said the injunction was “wrong on the facts and wrong on the law”, and that the agency would keep using its lawful authority to hold broadcasters to their public-interest duties, Al Jazeera reported. An ABC News spokesperson called it “an important victory for the First Amendment”, and Democratic FCC commissioner Anna Gomez said it brought “badly needed accountability”."
+                },
+                {
+                  "text": "The FCC is also investigating ABC’s daytime show The View under equal-time rules for political candidates. Disney has said that because of that inquiry the programme invited no candidates before November’s midterm elections."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "ABC stations covered",
+              "value": "8",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Earliest regular renewal",
+              "value": "Oct 2028",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Years since last early review",
+              "value": "50+",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Usual licence term",
+              "value": "8 years",
+              "source": "NPR"
+            }
+          ],
+          "place": {
+            "name": "Washington, DC",
+            "lat": 38.91,
+            "lon": -77.04,
+            "region": "United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Yargıç, FCC’nin ABC incelemesini durdurdu",
+          "title": "ABD’de yargıç, FCC’nin sekiz ABC kanalının lisansını erken incelemesini durdurdu",
+          "summary": {
+            "what": "ABD’de bir federal yargıç, FCC’nin Disney’e ait sekiz ABC kanalının yayın lisanslarını erken incelemesini yasakladı ve ABC’nin davasının düşürülmesi talebini reddetti.",
+            "why": "Yargıç, incelemenin Başkan Trump’ın yönlendirdiği bir misilleme olduğunu düşündü; karar, düzenleyicinin yayıncılar üzerindeki baskısının sınırını sınıyor.",
+            "next": "FCC kararın yanlış olduğunu ve yayıncıları denetlemeyi sürdüreceğini söyledi; ABC’nin ifade özgürlüğü davası devam ediyor."
+          },
+          "body": [
+            {
+              "subhead": "ABC lehine tedbir",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’nın haberine göre Washington’daki ABD Bölge Yargıcı Loren AliKhan, çarşamba günü Disney’in ihtiyati tedbir talebini kabul ederek Federal İletişim Komisyonu’nun (FCC) sekiz ABC televizyon kanalının lisansları için duruşma yapmasını yasakladı. Böyle bir duruşma lisansların iptaline ve kanalların yayından kalkmasına yol açabilirdi. The Verge’e göre yargıç, FCC’nin ABC’nin davasını düşürme talebini de reddetti."
+                },
+                {
+                  "quote": "Bu, sınırda bir dava değil.",
+                  "speaker": "Yargıç Loren AliKhan",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "The Verge’e göre AliKhan, ABC’nin misilleme iddiasında haklı çıkma ihtimalinin yüksek olduğunu yazdı; Al Jazeera’ya göre de FCC Başkanı Brendan Carr’ın “Başkan Trump’ın söylemini talimat olarak benimsediğini” belirtti. NPR, kararın büyük ölçüde Trump’ın ABC ve Disney aleyhindeki açıklamalarına ve sosyal medya paylaşımlarına dayandığını aktardı."
+                }
+              ]
+            },
+            {
+              "subhead": "İnceleme nasıl başladı?",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Carr, erken incelemeleri nisan ayında, Trump’ın ABC’den gece programı sunucusu Jimmy Kimmel’i kovmasını istemesinin ertesi günü başlattı; oysa lisans yenilemeleri en erken Ekim 2028’de gündeme gelecekti. FCC 50 yılı aşkın süredir böyle bir erken inceleme başlatmamıştı. The Verge, kurumun bunu Disney’in çeşitlilik, eşitlik ve kapsayıcılık politikalarına yönelik bir soruşturmanın parçası olarak sunduğunu yazdı."
+                },
+                {
+                  "text": "Disney ve ABC, Los Angeles, Chicago, New York ve diğer şehirlerdeki kanallar için ağustosta dava açarak FCC’yi “ABC’yi yayınları nedeniyle cezalandırmakla” suçlamıştı. NPR’a göre lisanslar genellikle sekiz yıl geçerli ve nadiren iptal ediliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "FCC karara itiraz ediyor",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre bir FCC sözcüsü tedbir kararının “olgular açısından da hukuk açısından da yanlış” olduğunu, kurumun yasal yetkisini kullanarak yayıncıları kamu yararı yükümlülüklerine bağlı tutmayı sürdüreceğini söyledi. ABC News sözcüsü kararı “ifade özgürlüğü için önemli bir zafer” olarak nitelendirirken Demokrat FCC üyesi Anna Gomez kararın “çok ihtiyaç duyulan hesap verebilirliği” getirdiğini söyledi."
+                },
+                {
+                  "text": "FCC ayrıca ABC’nin gündüz kuşağı programı The View’u, siyasi adaylara eşit yayın süresi kuralları kapsamında inceliyor. Disney, bu soruşturma nedeniyle programın kasımdaki ara seçimlerden önce hiçbir adayı konuk etmediğini açıklamıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kapsamdaki ABC kanalı",
+              "value": "8",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Olağan yenilemenin en erken tarihi",
+              "value": "Ekim 2028",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Son erken incelemeden bu yana",
+              "value": "50+ yıl",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Olağan lisans süresi",
+              "value": "8 yıl",
+              "source": "NPR"
+            }
+          ],
+          "place": {
+            "name": "Washington",
+            "lat": 38.91,
+            "lon": -77.04,
+            "region": "ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T12:24:29.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T15:29:03.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T15:29:03.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:38:00.000Z",
+          "sourceId": "the-verge"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/us-judge-blocks-trumps-fcc-attempt-to-target-disneys-abc-stations?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T22:30:00+03:00",
+      "updatedAt": "2026-11-26T22:30:00+03:00"
+    },
+    {
+      "id": "ca0389b4c625fe2b",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "ChatGPT merges Chat and Work limits",
+          "title": "ChatGPT’s heaviest users may hit limits sooner as Chat and Work merge",
+          "summary": {
+            "what": "OpenAI is merging ChatGPT’s Chat and Work into one experience with a single usage limit, counted in tokens, for Plus, Pro and Business subscribers.",
+            "why": "OpenAI says most users will not notice, but admits a small group of the heaviest users may run out sooner, which has upset some subscribers.",
+            "next": "The combined experience is with a small number of Pro users now; OpenAI’s support page says the shared limits widen from December."
+          },
+          "body": [
+            {
+              "subhead": "One allowance for everything",
+              "blocks": [
+                {
+                  "text": "OpenAI has started combining ChatGPT’s conversational Chat with Work, the part used for longer tasks, into a single experience, Webrazzi reported. With the change, the separate usage limits for the two will be merged, so work done with ChatGPT’s advanced models and through Codex will draw on the same allowance."
+                },
+                {
+                  "text": "Thibault Sottiaux, an OpenAI product lead, said in a post on X on 24 November that the combined Chat and Work experience was being rolled out to a limited number of Pro subscribers, and that the company wanted feedback before releasing it more widely, according to Webrazzi. Onedio noted that the most visible gain is that users no longer have to switch tabs to move from chatting to a task."
+                }
+              ]
+            },
+            {
+              "subhead": "Counted in tokens",
+              "blocks": [
+                {
+                  "text": "According to OpenAI’s support page, as cited by Webrazzi, the change covers Plus, Pro and Business subscribers from December. Usage will be measured in tokens, the units used to count the text an AI model reads and writes, so more advanced models and complex tasks will use up more of a subscriber’s allowance."
+                },
+                {
+                  "text": "Chats with the Instant model will not count against the shared limit, and users who reach their limit for advanced models can keep chatting with Instant. Remaining usage and the time it resets will be shown on a Usage screen in Settings. Those who hit the limit can wait, upgrade their plan or buy extra credits."
+                },
+                {
+                  "text": "Onedio wrote that OpenAI has not given an exact date for the wider rollout, nor said how many messages or hours of use the limits will equal."
+                }
+              ]
+            },
+            {
+              "subhead": "Who loses out",
+              "blocks": [
+                {
+                  "text": "An OpenAI spokesperson, speaking to TechCrunch as cited by Onedio, said most users should not have to wait for their limits to reset more often than before, but acknowledged that a small group of the heaviest ChatGPT users may reach their limits sooner."
+                },
+                {
+                  "text": "The decision has caused debate among subscribers who rely heavily on advanced reasoning models and Codex, Webrazzi reported. Some feel that, for the same subscription fee, they will get less access to advanced models now that two separate allowances become one. OpenAI says it will keep improving efficiency so subscribers get more out of their plans."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Plans affected",
+              "value": "Plus, Pro, Business",
+              "source": "OpenAI support page, via Webrazzi"
+            },
+            {
+              "label": "Wider rollout",
+              "value": "December",
+              "source": "OpenAI support page, via Webrazzi"
+            },
+            {
+              "label": "Announced on X",
+              "value": "24 Nov",
+              "source": "Webrazzi"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "ChatGPT’de Chat ve Work tek limitte",
+          "title": "ChatGPT’de Chat ile Work tek limitte birleşiyor, yoğun kullanıcılar sınıra erken ulaşabilir",
+          "summary": {
+            "what": "OpenAI, ChatGPT’nin Chat ve Work bölümlerini tek deneyimde birleştiriyor; Plus, Pro ve Business abonelerinin limitleri token üzerinden ortak hesaplanacak.",
+            "why": "OpenAI çoğu kullanıcının etkilenmeyeceğini söylüyor, ancak en yoğun kullanan küçük bir grubun sınıra daha erken ulaşabileceğini kabul ediyor.",
+            "next": "Yeni deneyim şimdilik az sayıda Pro abonesinde; OpenAI’ın destek sayfasına göre ortak limitler aralıktan itibaren genişleyecek."
+          },
+          "body": [
+            {
+              "subhead": "Her şey için tek hak",
+              "blocks": [
+                {
+                  "text": "Webrazzi’nin haberine göre OpenAI, ChatGPT’nin sohbet bölümü Chat ile daha kapsamlı görevlerin yapıldığı Work’ü tek bir deneyimde birleştirmeye başladı. Değişiklikle iki bölüm için ayrı ayrı uygulanan kullanım limitleri birleşecek; ChatGPT’nin gelişmiş modelleri ve Codex üzerinden yapılan işlemler aynı kullanım hakkından düşülecek."
+                },
+                {
+                  "text": "Webrazzi’ye göre OpenAI ürün yöneticilerinden Thibault Sottiaux, 24 Kasım’da X’te yaptığı paylaşımda birleşik Chat ve Work deneyiminin sınırlı sayıda Pro abonesine sunulmaya başlandığını, daha geniş kullanıma açmadan önce geri bildirim toplamak istediklerini açıkladı. Onedio, sohbetten işe geçerken sekme değiştirme zorunluluğunun kalkmasını güncellemenin en görünür kolaylığı olarak öne çıkardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Hesap token üzerinden",
+              "blocks": [
+                {
+                  "text": "Webrazzi’nin aktardığı OpenAI destek sayfasına göre değişiklik aralık ayından itibaren Plus, Pro ve Business abonelerini kapsayacak. Kullanım, yapay zekâ modellerinin işlediği ve ürettiği metni ölçen token üzerinden hesaplanacak; daha gelişmiş modeller ve karmaşık görevler hakkı daha hızlı tüketecek."
+                },
+                {
+                  "text": "Instant modeliyle yapılan sohbetler ortak limitten düşülmeyecek; gelişmiş modellerdeki limitini dolduran kullanıcılar Instant ile sohbete devam edebilecek. Kalan hak ve yenilenme zamanı Ayarlar’daki Kullanım ekranında görülebilecek. Sınıra ulaşanlar hakkının yenilenmesini bekleyebilecek, aboneliğini yükseltebilecek ya da ek kredi satın alabilecek."
+                },
+                {
+                  "text": "Onedio’ya göre OpenAI geniş kullanıma geçiş için kesin bir tarih vermedi, limitlerin kaç mesaja ya da kaç saatlik kullanıma denk geleceğini de açıklamadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Kim kaybediyor?",
+              "blocks": [
+                {
+                  "text": "Onedio’nun aktardığına göre TechCrunch’a konuşan bir OpenAI sözcüsü, kullanıcıların büyük çoğunluğunun limitlerin sıfırlanmasını eskisinden daha sık beklemek zorunda kalmayacağını söyledi; ancak ChatGPT’yi en yoğun kullanan küçük bir grubun limitine daha erken ulaşabileceğini kabul etti."
+                },
+                {
+                  "text": "Webrazzi’ye göre karar, özellikle gelişmiş akıl yürütme modellerini ve Codex’i yoğun kullanan aboneler arasında tartışma yarattı. Bazı kullanıcılar, ayrı hakların birleşmesiyle aynı ücreti ödeyip gelişmiş modellere daha az erişeceklerini düşünüyor. OpenAI ise aboneler paketlerinden daha fazla yararlansın diye verimlilik çalışmalarını sürdüreceğini belirtiyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kapsanan paketler",
+              "value": "Plus, Pro, Business",
+              "source": "OpenAI destek sayfası (Webrazzi)"
+            },
+            {
+              "label": "Geniş kullanıma geçiş",
+              "value": "Aralık",
+              "source": "OpenAI destek sayfası (Webrazzi)"
+            },
+            {
+              "label": "X’teki duyuru",
+              "value": "24 Kasım",
+              "source": "Webrazzi"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T08:00:00.000Z",
+          "sourceId": "webrazzi"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "webrazzi",
+          "url": "https://webrazzi.com/2026/11/26/openai-chatgpt-nin-kullanim-limitlerini-birlestiriyor-bazi-aboneler-sinirlara-daha-erken-ulasabilir/",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/chatgpt-de-yeni-donem-bazi-abonelerin-limiti-daha-erken-bitebilir-1397667",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-26T22:30:00+03:00",
+      "updatedAt": "2026-11-26T22:30:00+03:00"
+    },
+    {
+      "id": "8f2ca94f4b4afbb0",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "De Cos to lead the ECB",
+          "title": "Spain’s Pablo Hernández de Cos chosen to succeed Lagarde at the ECB",
+          "summary": {
+            "what": "Eurozone leaders picked former Bank of Spain governor Pablo Hernández de Cos to succeed Christine Lagarde as president of the European Central Bank.",
+            "why": "He takes over with eurozone inflation at 4%, twice the target, and markets watching how the ECB would handle stress over French debt.",
+            "next": "EU leaders are expected to appoint him in December; he takes over when Lagarde steps down early on 7 February."
+          },
+          "body": [
+            {
+              "subhead": "A package deal in Brussels",
+              "blocks": [
+                {
+                  "text": "European leaders on Thursday chose Pablo Hernández de Cos, the former governor of the Bank of Spain, to succeed Christine Lagarde as president of the European Central Bank, France 24, Al Jazeera and The Guardian reported. He will be the first Spaniard to lead the bank and its fifth president since it was founded in 1998, The Guardian said."
+                },
+                {
+                  "text": "European Council president António Costa said the eurozone countries had also recommended France’s Laurence Boone and Germany’s Markus Brunnermeier for the ECB’s executive board, Al Jazeera reported. The Guardian described the three appointments as a package deal after France and Germany converged on Hernández de Cos. The way became clear when the Netherlands backed him, effectively standing down its own candidate, Klaas Knot, according to France 24."
+                },
+                {
+                  "text": "The European Council is expected to make the appointments in December. Approval by the European Parliament and the ECB’s governing council is seen as a formality. He takes over when Lagarde steps down early, on 7 February, France 24 reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Who he is",
+              "blocks": [
+                {
+                  "text": "Hernández de Cos, 55, is general manager of the Bank for International Settlements in Basel. As Bank of Spain governor he sat on the ECB’s rate-setting council and steered through Spain’s banking bailout, the pandemic and the 2022 inflation surge; he also chaired the Basel Committee on Banking Supervision, Al Jazeera reported. Diplomats called him a “steady hand”."
+                },
+                {
+                  "text": "France 24 described him as an ally of former ECB president Mario Draghi, strengthening expectations that the bank would use its firepower against any new sovereign debt crisis. Arne Petimezas of AFS Group told The Guardian he “leans dovish” but would not give France “carte blanche”."
+                }
+              ]
+            },
+            {
+              "subhead": "Inflation at twice the target",
+              "blocks": [
+                {
+                  "text": "Eurozone inflation hit 4% last month, up from 2.1% a year earlier, The Guardian reported, driven by energy prices and the war in Iran. France 24 said policymakers appear unanimous that a rate rise in December is inevitable. French debt is forecast to reach 122% of GDP next year."
+                },
+                {
+                  "quote": "We do not expect his appointment to alter the near-term rate path.",
+                  "speaker": "Matthew Ryan, Ebury",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Spain’s prime minister Pedro Sánchez, who faces an election on Sunday, hailed “a Spain that leads in Europe”, Al Jazeera reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Eurozone inflation last month",
+              "value": "4%",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Lagarde steps down",
+              "value": "7 Feb",
+              "source": "France 24"
+            },
+            {
+              "label": "His age",
+              "value": "55",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "People in the eurozone",
+              "value": "359 million",
+              "source": "France 24"
+            },
+            {
+              "label": "Forecast French debt next year",
+              "value": "122% of GDP",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Eurozone inflation",
+            "unit": "%",
+            "before": 2.1,
+            "after": 4,
+            "source": "The Guardian"
+          }
+        },
+        "tr": {
+          "shortTitle": "AMB’nin yeni başkanı de Cos",
+          "title": "Avrupa Merkez Bankası’nda Lagarde’ın yerine İspanyol Pablo Hernández de Cos geçiyor",
+          "summary": {
+            "what": "Euro bölgesi liderleri, İspanya Merkez Bankası eski başkanı Pablo Hernández de Cos’u Avrupa Merkez Bankası (AMB) Başkanı Christine Lagarde’ın halefi olarak seçti.",
+            "why": "De Cos, euro bölgesinde enflasyonun hedefin iki katı olan yüzde 4’te bulunduğu ve Fransa’nın borcunun piyasaları tedirgin ettiği bir dönemde göreve geliyor.",
+            "next": "AB liderlerinin atamayı aralıkta yapması bekleniyor; de Cos, Lagarde’ın 7 Şubat’ta erken ayrılmasıyla göreve başlayacak."
+          },
+          "body": [
+            {
+              "subhead": "Brüksel’de paket anlaşma",
+              "blocks": [
+                {
+                  "text": "France 24, Al Jazeera ve The Guardian’ın haberine göre Avrupa liderleri perşembe günü İspanya Merkez Bankası eski başkanı Pablo Hernández de Cos’u Avrupa Merkez Bankası Başkanı Christine Lagarde’ın yerine seçti. The Guardian’a göre de Cos, bankayı yöneten ilk İspanyol ve 1998’deki kuruluşundan bu yana beşinci başkan olacak."
+                },
+                {
+                  "text": "Al Jazeera’ya göre Avrupa Konseyi Başkanı António Costa, euro bölgesi ülkelerinin AMB yönetim kurulu için Fransa’dan Laurence Boone ve Almanya’dan Markus Brunnermeier’i de önerdiğini duyurdu. The Guardian, Fransa ve Almanya’nın de Cos’ta uzlaşmasının ardından üç atamanın bir paket olarak yapıldığını yazdı. France 24’e göre yol, Hollanda’nın kendi adayı Klaas Knot’u fiilen geri çekip de Cos’u desteklemesiyle açıldı."
+                },
+                {
+                  "text": "Atamaların aralıktaki Avrupa Konseyi zirvesinde yapılması bekleniyor; Avrupa Parlamentosu’nun ve AMB Yönetim Konseyi’nin onayı formalite olarak görülüyor. France 24’e göre de Cos, Lagarde’ın 7 Şubat’ta görevi erken bırakmasıyla başkanlığa geçecek."
+                }
+              ]
+            },
+            {
+              "subhead": "De Cos kimdir?",
+              "blocks": [
+                {
+                  "text": "55 yaşındaki de Cos, halen Basel’deki Uluslararası Ödemeler Bankası’nın genel müdürü. Al Jazeera’ya göre İspanya Merkez Bankası başkanı olarak AMB’nin faiz kararlarını veren konseyde yer aldı; İspanya’nın bankacılık kurtarma sürecini, pandemiyi ve 2022’deki enflasyon dalgasını yönetti, Basel Bankacılık Denetim Komitesi’ne de başkanlık etti. Diplomatlar onu “sağlam bir el” olarak tanımlıyor."
+                },
+                {
+                  "text": "France 24, de Cos’un eski AMB Başkanı Mario Draghi’ye yakın olduğunu ve bunun bankanın yeni bir kamu borcu krizinde elindeki gücü kullanacağı beklentisini güçlendirdiğini yazdı. AFS Group’tan Arne Petimezas, The Guardian’a de Cos’un güvercin eğilimli olduğunu ama Fransa’ya “açık çek” vermeyeceğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Hedefin iki katı enflasyon",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre euro bölgesinde enflasyon geçen ay, bir yıl önceki yüzde 2,1’den yüzde 4’e çıktı; bunda enerji fiyatları ve İran’daki savaş etkili oldu. France 24, para politikacılarının aralıkta faiz artışının kaçınılmaz olduğu konusunda hemfikir göründüğünü yazdı. Fransa’nın borcunun gelecek yıl GSYH’nin yüzde 122’sine ulaşması bekleniyor."
+                },
+                {
+                  "quote": "Atanmasının yakın vadeli faiz patikasını değiştirmesini beklemiyoruz.",
+                  "speaker": "Matthew Ryan, Ebury",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Al Jazeera’ya göre pazar günü seçime giden İspanya Başbakanı Pedro Sánchez, seçimi “Avrupa’ya liderlik eden bir İspanya” sözleriyle karşıladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Euro bölgesinde geçen ayki enflasyon",
+              "value": "%4",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Lagarde’ın ayrılışı",
+              "value": "7 Şubat",
+              "source": "France 24"
+            },
+            {
+              "label": "Yaşı",
+              "value": "55",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Euro bölgesi nüfusu",
+              "value": "359 milyon",
+              "source": "France 24"
+            },
+            {
+              "label": "Fransa’nın gelecek yılki borç tahmini",
+              "value": "GSYH’nin %122’si",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Euro bölgesi enflasyonu",
+            "unit": "%",
+            "before": 2.1,
+            "after": 4,
+            "source": "The Guardian"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T15:55:45.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:20:54.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T16:20:54.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:26:17.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:50:54.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/8782840e-e9a4-11f1-a5e6-f9cf020caef6/w:1024/p:16x9/AP25290616236227.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T22:30:00+03:00",
+      "updatedAt": "2026-11-26T22:30:00+03:00"
+    },
+    {
+      "id": "2b4869dd59433778",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Two Italians killed in Kuwait",
+          "title": "Two Italian technicians killed in Kuwait drone attack blamed on Iran",
+          "summary": {
+            "what": "Two Italians working for Rheinmetall died after drones struck what Kuwait called a vital site; Kuwait and Italy blamed Iran, which denies it.",
+            "why": "Gulf states are caught in the crossfire of the Iran war; the attack also diverted flights on the main air corridor between Europe and the Gulf.",
+            "next": "Gulf states have condemned it; Ursula von der Leyen called for more pressure on Iran to end attacks on its neighbours."
+          },
+          "body": [
+            {
+              "subhead": "Killed at an air-defence station",
+              "blocks": [
+                {
+                  "text": "Two Italian nationals died on Thursday after a strike on a facility in Kuwait that both countries blamed on Iran, BBC News reported. They were technicians working for Rheinmetall Italia, part of the German arms maker, Italy’s foreign ministry said."
+                },
+                {
+                  "text": "Kuwait’s defence ministry said a number of hostile drones from Iran had been detected and intercepted, and that falling shrapnel at a “vital site” injured four people: the two Italians, a Kuwaiti and a Pakistani national, Al Jazeera and BBC News reported. The two Italians later died of their injuries. Foreign Minister Antonio Tajani said they had been working at an air-defence surveillance station, according to Al Jazeera."
+                },
+                {
+                  "text": "Al Jazeera reported that the attack came while Kuwait’s National Guard and military were meeting a visiting Italian delegation, which included the commander general of the Carabinieri and Italy’s ambassador."
+                }
+              ]
+            },
+            {
+              "subhead": "Iran denies it",
+              "blocks": [
+                {
+                  "text": "Iran denied responsibility. Its armed forces spokesperson Abolfazl Shekarchi said “no military or offensive operations have been conducted”, BBC News reported."
+                },
+                {
+                  "quote": "These accusations are considered a cover for continuing evil and an attempt to increase insecurity in the region.",
+                  "speaker": "Abolfazl Shekarchi, Iranian armed forces spokesperson",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "Italian prime minister Giorgia Meloni offered condolences to the victims’ families. Gulf Cooperation Council secretary-general Jasem Albudaiwi called the attack a dangerous escalation, Al Jazeera reported, and European Commission president Ursula von der Leyen said pressure on Iran must be stepped up, according to BBC News."
+                }
+              ]
+            },
+            {
+              "subhead": "Flights turned away",
+              "blocks": [
+                {
+                  "text": "Flights on the corridor between Europe, the Gulf and Asia that crosses Iraq were suddenly sent south on Thursday afternoon amid reports that Kuwait’s airspace was closed, Euronews reported; its reporters were on one of the planes. Since the war in Iran began in late February, most flights from Europe to Doha, Abu Dhabi and Dubai have used a route over Türkiye, Iraq, Kuwait, Bahrain and the UAE."
+                },
+                {
+                  "text": "The attack came just over a week after Kuwait said it had repelled Iranian drones aimed at an airbase hosting US forces, the first strikes on the country in more than two months, BBC News reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Italian technicians killed",
+              "value": "2",
+              "source": "Italian foreign ministry, via BBC News"
+            },
+            {
+              "label": "People hit by shrapnel",
+              "value": "4",
+              "source": "Kuwait defence ministry, via Al Jazeera"
+            },
+            {
+              "label": "Their employer",
+              "value": "Rheinmetall Italia",
+              "source": "Italian foreign ministry, via Al Jazeera"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Kuveyt’te iki İtalyan öldü",
+          "title": "Kuveyt’te İran’a mal edilen insansız hava aracı saldırısında iki İtalyan teknisyen öldü",
+          "summary": {
+            "what": "Kuveyt’in “hayati tesis” dediği bir noktaya düzenlenen saldırıda Rheinmetall için çalışan iki İtalyan hayatını kaybetti; Kuveyt ve İtalya İran’ı sorumlu tuttu, İran reddetti.",
+            "why": "Körfez ülkeleri İran savaşının ateş hattında kalıyor; saldırı Avrupa ile Körfez arasındaki ana hava koridorunda uçuşları da saptırdı.",
+            "next": "Körfez ülkeleri saldırıyı kınadı; Ursula von der Leyen, İran’a komşularına saldırıları durdurması için baskının artırılmasını istedi."
+          },
+          "body": [
+            {
+              "subhead": "Hava savunma istasyonunda can kaybı",
+              "blocks": [
+                {
+                  "text": "BBC News’e göre Kuveyt’te bir tesise perşembe günü düzenlenen ve iki ülkenin de İran’a mal ettiği saldırıda iki İtalyan vatandaşı hayatını kaybetti. İtalya Dışişleri Bakanlığı, ikisinin Alman silah üreticisine bağlı Rheinmetall Italia’da çalışan teknisyenler olduğunu açıkladı."
+                },
+                {
+                  "text": "Al Jazeera ve BBC News’in aktardığına göre Kuveyt Savunma Bakanlığı, İran’dan gelen çok sayıda insansız hava aracının tespit edilip önlendiğini, “hayati bir tesise” düşen parçaların iki İtalyan, bir Kuveytli ve bir Pakistanlı olmak üzere dört kişiyi yaraladığını bildirdi. İki İtalyan daha sonra yaşamını yitirdi. Al Jazeera’ya göre Dışişleri Bakanı Antonio Tajani, teknisyenlerin bir hava savunma gözetleme istasyonunda çalıştığını söyledi."
+                },
+                {
+                  "text": "Al Jazeera, saldırının Kuveyt Ulusal Muhafızları ve ordusunun, Karabinierlerin genel komutanı ile İtalya’nın Kuveyt büyükelçisinin de bulunduğu İtalyan heyetiyle görüştüğü sırada gerçekleştiğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "İran suçlamayı reddediyor",
+              "blocks": [
+                {
+                  "text": "BBC News’e göre İran sorumluluğu reddetti; silahlı kuvvetler sözcüsü Ebulfazl Şekerci, “hiçbir askeri ya da saldırı amaçlı operasyon yapılmadığını” söyledi."
+                },
+                {
+                  "quote": "Bu suçlamalar, kötülüğü sürdürmenin örtüsü ve bölgedeki güvensizliği artırma girişimi olarak görülmektedir.",
+                  "speaker": "Ebulfazl Şekerci, İran silahlı kuvvetler sözcüsü",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "İtalya Başbakanı Giorgia Meloni hayatını kaybedenlerin ailelerine başsağlığı diledi. Al Jazeera’ya göre Körfez İşbirliği Konseyi Genel Sekreteri Casim Albudeyvi saldırıyı tehlikeli bir tırmanma olarak nitelendirdi; BBC News’e göre Avrupa Komisyonu Başkanı Ursula von der Leyen İran üzerindeki baskının artırılması gerektiğini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Uçuşlar rota değiştirdi",
+              "blocks": [
+                {
+                  "text": "Euronews’e göre Irak üzerinden geçen Avrupa-Körfez-Asya koridorundaki uçuşlar, perşembe öğleden sonra Kuveyt hava sahasının kapandığı haberleri üzerine aniden güneye yönlendirildi; Euronews muhabirleri de bu uçaklardan birindeydi. Şubat sonunda İran’da savaş başladığından beri Avrupa’dan Doha, Abu Dabi ve Dubai’ye uçuşların çoğu Türkiye, Irak, Kuveyt, Bahreyn ve BAE üzerinden geçen rotayı kullanıyor."
+                },
+                {
+                  "text": "BBC News’e göre saldırı, Kuveyt’in ABD askerlerinin bulunduğu bir hava üssüne yönelik İran insansız hava araçlarını püskürttüğünü açıklamasından bir haftadan biraz fazla süre sonra geldi; o saldırı, iki aydan uzun süre sonra ülkeye yapılan ilk saldırıydı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Hayatını kaybeden İtalyan teknisyen",
+              "value": "2",
+              "source": "İtalya Dışişleri Bakanlığı (BBC News)"
+            },
+            {
+              "label": "Parçalardan yaralanan",
+              "value": "4",
+              "source": "Kuveyt Savunma Bakanlığı (Al Jazeera)"
+            },
+            {
+              "label": "Çalıştıkları şirket",
+              "value": "Rheinmetall Italia",
+              "source": "İtalya Dışişleri Bakanlığı (Al Jazeera)"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T13:19:28.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T15:55:15.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T15:55:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:54:22.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4cbd/live/babaff60-e9ac-11f1-a094-5fdc692f3e33.png",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-26T22:30:00+03:00",
+      "updatedAt": "2026-11-26T22:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "7345927580f92f78",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How much will have been paid out from the liquidated funds by Friday, according to Cevdet Yılmaz?",
+          "options": ["₺45.36bn", "₺199.25bn", "₺13bn"]
+        },
+        "tr": {
+          "question": "Cevdet Yılmaz’a göre tasfiyedeki fonlardan cuma itibarıyla toplam ne kadar ödeme yapılmış olacak?",
+          "options": ["45,36 milyar ₺", "199,25 milyar ₺", "13 milyar ₺"]
+        }
+      }
+    },
+    {
+      "storyId": "e700f81f3624ed92",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How many ABC stations’ licences did the FCC want to review early?",
+          "options": ["3", "12", "8"]
+        },
+        "tr": {
+          "question": "FCC kaç ABC kanalının lisansını erken incelemek istiyordu?",
+          "options": ["3", "12", "8"]
+        }
+      }
+    },
+    {
+      "storyId": "8f2ca94f4b4afbb0",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "Which institution does Pablo Hernández de Cos run today?",
+          "options": [
+            "Bank for International Settlements",
+            "Bank of Spain",
+            "European Investment Bank"
+          ]
+        },
+        "tr": {
+          "question": "Pablo Hernández de Cos bugün hangi kurumun başında?",
+          "options": [
+            "Uluslararası Ödemeler Bankası",
+            "İspanya Merkez Bankası",
+            "Avrupa Yatırım Bankası"
+          ]
+        }
+      }
+    }
+  ]
+}
