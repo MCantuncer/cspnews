@@ -1,79 +1,23 @@
 name: Music Collect
 
-# Reads the rap and Indie Dance charts for the day's music edition and saves them on the `candidates`
-# branch for the evening writer (docs/music.md):
-#
-#   music/history/<yyyy-mm-dd>.json     every chart's places and plays, the history the
-#                                       "climbing", "plays at 2x" and "back after 90 days" numbers
-#                                       are measured against
-#   music/candidates/<yyyy-mm-dd>.json  the ranked candidates per genre, with previews and
-#                                       the numbers a reason may quote
-#
-# Runs at 16:30 Istanbul time every day, and by hand from the Actions tab.
-
 on:
-  schedule:
-    - cron: '30 13 * * *'
   workflow_dispatch:
-  pull_request:
-    paths:
-      - '.github/workflows/music-collect.yml'
-
-permissions:
-  contents: write
-
-concurrency:
-  group: music-collect
-  cancel-in-progress: false
 
 jobs:
-  collect:
+  probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: .nvmrc
-          cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter @cspnews/music... build
-
-      - name: Earlier history
+      - name: Probe Indie Dance sources
         run: |
-          mkdir -p "$RUNNER_TEMP/history"
-          if git fetch origin candidates 2>/dev/null; then
-            git archive FETCH_HEAD music/history 2>/dev/null | tar -x -C "$RUNNER_TEMP" --strip-components=1 || true
-          fi
-          ls "$RUNNER_TEMP/history" | tail -3
-
-      - name: ffmpeg, to measure techno tempo from previews
-        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends ffmpeg)
-
-      - name: Read the charts
-        run: |
-          DATE=$(TZ=Europe/Istanbul date +%F)
-          echo "DATE=$DATE" >> "$GITHUB_ENV"
-          pnpm --filter @cspnews/music collect-music "$RUNNER_TEMP/history" "$RUNNER_TEMP/candidates/$DATE.json" "$DATE"
-
-      - name: Save on the candidates branch
-        if: github.event_name != 'pull_request'
-        run: |
-          git config user.name "$(git log -1 --format=%an)"
-          git config user.email "$(git log -1 --format=%ae)"
-          git fetch origin candidates:candidates 2>/dev/null && git switch candidates || git switch --orphan candidates
-          mkdir -p music/history music/candidates
-          cp "$RUNNER_TEMP/history/$DATE.json" music/history/
-          cp "$RUNNER_TEMP/candidates/$DATE.json" music/candidates/
-          test -f vercel.json || echo '{ "git": { "deploymentEnabled": false } }' > vercel.json
-          git add music vercel.json
-          git commit -m "Music Collect $DATE"
-          for attempt in 1 2 3; do
-            git push origin candidates && break
-            git pull --rebase origin candidates
+          set +e
+          for q in "indie dance" "indie%20dance" "nu disco indie dance" "indie electronic" "indie dance deezer"; do
+            echo "== deezer playlist search: $q"
+            curl -s "https://api.deezer.com/search/playlist?q=$(echo $q | sed 's/ /+/g')&limit=50" | jq -r '.data[] | "\(.id)\t\(.nb_tracks)\t\(.user.name // "-")\t\(.title)"' | head -40
           done
-
-      - name: Show the candidates (pull requests only)
-        if: github.event_name == 'pull_request'
-        run: cat "$RUNNER_TEMP/candidates/$DATE.json"
+          echo "== deezer editorial genres"; curl -s https://api.deezer.com/genre | jq -c '.data[] | [.id,.name]'
+          echo "== deezer user search editor"; curl -s "https://api.deezer.com/search/user?q=deezer%20editor&limit=50" | jq -r '.data[] | "\(.id)\t\(.name)"'
+          echo "== bandcamp discover indie-dance"; curl -s -o /tmp/bc.json -w "%{http_code}\n" -H 'Content-Type: application/json' -X POST https://bandcamp.com/api/discover/1/discover_web -d '{"category_id":0,"tag_norm_names":["indie-dance"],"geoname_id":0,"slice":"top","cursor":"*","size":30,"include_result_types":["a","s"]}'; head -c 1500 /tmp/bc.json; echo
+          echo "== beatport indie dance"; curl -s -o /dev/null -w "%{http_code}\n" https://www.beatport.com/genre/indie-dance/37/top-100
+          echo "== traxsource"; curl -s -o /dev/null -w "%{http_code}\n" https://www.traxsource.com/genre/23/indie-dance-nu-disco/top
+          true
