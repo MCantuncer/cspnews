@@ -67,9 +67,15 @@ export const CHARTS: readonly Chart[] = [
     url: `${DEEZER}/chart/${String(DEEZER_RAP)}/tracks?limit=100`,
     genre: 'rap',
   },
-  // No Indie Dance list is read yet. Deezer's own "Indie dance" playlist turned out to be indie
-  // rock (The Neighbourhood, Pixies, Strokes), so it was dropped on 26 November; until a real
-  // Indie Dance list is found, Indie Dance picks come from the all-time list.
+  {
+    // Deezer's own "Indie dance" playlist is indie rock, and Beatport and Traxsource refuse GitHub's
+    // runners, so Indie Dance is read from Bandcamp's best-selling list for the tag.
+    id: 'bandcamp-indie-dance',
+    source: 'bandcamp',
+    name: 'Bandcamp Indie Dance, best-selling',
+    url: 'https://bandcamp.com/discover/indie-dance',
+    genre: 'indiedance',
+  },
 ];
 
 /**

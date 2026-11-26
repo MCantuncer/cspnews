@@ -26,6 +26,19 @@ async function waitForHost(host: string): Promise<void> {
   if (wait > 0) await sleep(wait);
 }
 
+/** Posts a JSON body and returns the answer (Bandcamp's discover list is read this way). */
+export async function httpPostJson(url: string, body: string, timeoutMs = 20_000): Promise<string> {
+  await waitForHost(new URL(url).hostname);
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: { 'user-agent': USER_AGENT, 'content-type': 'application/json' },
+    body,
+    signal: AbortSignal.timeout(timeoutMs),
+  });
+  if (!response.ok) throw new Error(`${String(response.status)} from ${url}`);
+  return await response.text();
+}
+
 export function httpFetchText(timeoutMs = 20_000): FetchText {
   return async (url) => {
     const host = new URL(url).hostname;

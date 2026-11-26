@@ -34,7 +34,8 @@ import {
   parseDeezerTrack,
 } from './deezer.js';
 import { History, SnapshotSchema, type Snapshot } from './history.js';
-import { httpFetchText } from './http.js';
+import { BANDCAMP_DISCOVER, bandcampDiscoverBody, parseBandcampDiscover } from './bandcamp.js';
+import { httpFetchText, httpPostJson } from './http.js';
 import { parseITunesGenreChart } from './itunes.js';
 import { parseKworbChart } from './kworb.js';
 import { MIN_TEMPO_CONFIDENCE, TEMPO_RATE, estimateTempo } from './tempo.js';
@@ -165,6 +166,16 @@ async function main(): Promise<void> {
   const failures: Failure[] = [];
   for (const chart of CHARTS) {
     try {
+      if (chart.source === 'bandcamp') {
+        const read = parseBandcampDiscover(
+          await httpPostJson(BANDCAMP_DISCOVER, bandcampDiscoverBody('indie-dance')),
+          chart,
+          date,
+        );
+        entries.push(...read);
+        console.log(`${chart.name}: ${String(read.length)} songs`);
+        continue;
+      }
       let body = await fetchText(chart.url);
       if (chart.url.includes('/search/playlist')) {
         // A search for an editors' playlist: read the playlist it finds.
