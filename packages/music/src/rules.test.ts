@@ -213,22 +213,23 @@ describe('music edition check', () => {
     ).toThrow(/either techno or indiedance/);
   });
 
-  it('lets an Indie Dance favourite come back after 30 days', () => {
+  it('never picks an Indie Dance favourite twice', () => {
     const toIndie = (e: MusicEdition) => {
       e.genres.indiedance = e.genres.techno ?? [];
       for (const pick of e.genres.indiedance) delete pick.bpm;
       delete e.genres.techno;
     };
     const today = edit((e) => {
-      e.date = '2026-12-31';
+      e.date = '2027-12-31';
       toIndie(e);
     });
-    const monthAgo = edit((e) => {
+    const longAgo = edit((e) => {
       e.date = '2026-11-29';
       toIndie(e);
     });
-    const repeats = check(today, [monthAgo]).filter((p) => p.includes('2026-11-29'));
-    expect(repeats.filter((p) => p.startsWith('indiedance'))).toEqual([]);
-    expect(repeats.filter((p) => p.startsWith('global')).length).toBeGreaterThan(0);
+    const alltime = (today.genres.indiedance ?? []).filter((pick) => pick.kind === 'alltime');
+    const repeats = check(today, [longAgo]).filter((p) => p.includes('never picked twice'));
+    expect(repeats).toHaveLength(alltime.length);
+    expect(alltime.length).toBeGreaterThan(0);
   });
 });

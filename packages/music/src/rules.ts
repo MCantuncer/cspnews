@@ -41,9 +41,9 @@ export const REPEAT_DAYS = 30;
 export const ALLTIME_REPEAT_DAYS = 180;
 /**
  * Indie Dance takes four all-time favourites a day (Can, 26 November: "1 new/hot and 4 all time
- * favorite"), so a favourite may come back after a month rather than half a year.
+ * favorite") and never picks one twice (Can's choice the same day), so its list grows every day.
  */
-export const INDIE_DANCE_ALLTIME_REPEAT_DAYS = 30;
+export const INDIE_DANCE_ALLTIME_REPEAT_DAYS = Number.POSITIVE_INFINITY;
 /** Two tempo readings further apart than this mean one of them is wrong, so the pick is dropped. */
 export const BPM_TOLERANCE = 3;
 /** Below this a techno reading is probably half-time and needs a second source. */
@@ -138,7 +138,9 @@ export function checkMusicEdition(edition: MusicEdition, context: CheckContext):
       if (gap > window) continue;
       if (picksOf(other).some(({ pick: old }) => old.id === pick.id)) {
         problems.push(
-          `${name} was picked on ${other.date}; it may come back after ${String(window)} days.`,
+          Number.isFinite(window)
+            ? `${name} was picked on ${other.date}; it may come back after ${String(window)} days.`
+            : `${name} was picked on ${other.date}; an Indie Dance favourite is never picked twice.`,
         );
       }
     }
