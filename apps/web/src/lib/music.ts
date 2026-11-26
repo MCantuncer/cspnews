@@ -3,7 +3,9 @@ import { join, resolve } from 'node:path';
 
 import {
   GENRES,
+  genresOf,
   parseMusicEdition,
+  picksIn,
   picksOf,
   type Genre,
   type MusicEdition,
@@ -128,10 +130,12 @@ const WORDS = {
     playAll: (count: number) => `Play all ${String(count)}.`,
     playAllHint: 'One after another, genre by genre.',
     previews: 'Each song plays a 30-second preview here; the links under it open the full song.',
-    genre: { global: 'Hip-hop, global', turkey: 'Türkçe rap', techno: 'Techno' } as Record<
-      Genre,
-      string
-    >,
+    genre: {
+      global: 'Hip-hop, global',
+      turkey: 'Türkçe rap',
+      techno: 'Techno',
+      indiedance: 'Indie Dance',
+    } as Record<Genre, string>,
     fiveSongs: '5 songs',
     bpmRule: 'up to 134 BPM',
     kind: {
@@ -175,10 +179,12 @@ const WORDS = {
     playAllHint: 'Tür tür, art arda.',
     previews:
       'Her şarkının burada 30 saniyelik ön dinlemesi çalar; altındaki bağlantılar şarkının tamamını açar.',
-    genre: { global: 'Hip-hop, dünya', turkey: 'Türkçe rap', techno: 'Techno' } as Record<
-      Genre,
-      string
-    >,
+    genre: {
+      global: 'Hip-hop, dünya',
+      turkey: 'Türkçe rap',
+      techno: 'Techno',
+      indiedance: 'Indie Dance',
+    } as Record<Genre, string>,
     fiveSongs: '5 şarkı',
     bpmRule: 'en fazla 134 BPM',
     kind: {
@@ -220,4 +226,4 @@ export function musicWords(lang: InterfaceLanguage): MusicWords {
   return WORDS[lang];
 }
 
-export { GENRES };
+export { GENRES, genresOf, picksIn };

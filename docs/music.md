@@ -2,11 +2,12 @@
 
 Music for the curious (Meraklısına müzik) is a daily edition beside the news bulletins: five songs in each of three genres, every one with the reason it is there and the measured numbers behind that reason. Can asked for it on 2026-11-23 and asked for "serious flows" to pick each day's five, not a casual list. The design is in [design/decisions/music.md](design/decisions/music.md); the format and the checks are in `packages/music`.
 
-| Genre                 | Key      | What belongs                                                                                                         |
-| --------------------- | -------- | -------------------------------------------------------------------------------------------------------------------- |
-| Hip-hop, global       | `global` | Rap by artists from outside Türkiye, in any language                                                                 |
-| Türkçe rap            | `turkey` | Rap by Turkish artists, in Turkish or not, wherever the song charts                                                  |
-| Techno, up to 134 BPM | `techno` | Techno with a tempo of 134 or less, read from Beatport or Deezer or measured from the preview; never a guessed tempo |
+| Genre                 | Key          | What belongs                                                                                                         |
+| --------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Hip-hop, global       | `global`     | Rap by artists from outside Türkiye, in any language                                                                 |
+| Türkçe rap            | `turkey`     | Rap by Turkish artists, in Turkish or not, wherever the song charts                                                  |
+| Techno, up to 134 BPM | `techno`     | Techno with a tempo of 134 or less, read from Beatport or Deezer or measured from the preview; never a guessed tempo |
+| Indie Dance           | `indiedance` | Indie Dance only: not techno, house or tech-house. The third genre from 27 November; earlier days keep their techno  |
 
 One file a day, `data/music/<yyyy-mm-dd>.json`, published at 18:30 Istanbul time with the evening bulletin, every day of the week.
 
@@ -21,13 +22,16 @@ Steps 1, 2 and 4 are rules, with no model. Step 3 is a scheduled Claude Code tas
 
 ## Sources
 
-| Genre  | Where candidates come from                                                                                                                                                                                                         | Evidence only (never a reason on its own)                                    |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| global | Apple Music US Hip-Hop/Rap top songs, Deezer rap chart, new releases of followed artists                                                                                                                                           | Spotify daily Global and US (read through kworb), Apple Music US most played |
-| turkey | Apple Music Türkiye Hip-Hop/Rap top songs, Deezer Türkçe rap playlists, new releases of followed Turkish rappers                                                                                                                   | Spotify daily Türkiye (read through kworb), Apple Music Türkiye most played  |
-| techno | Apple Music US Techno chart and Deezer's editors' Techno Tunnel playlist every day; Beatport Raw / Deep / Hypnotic and Peak Time / Driving whenever Beatport can be read (it answers GitHub's runners with a Cloudflare challenge) | Deezer tempo                                                                 |
+| Genre                 | Where candidates come from                                                                                                                                                                                                         | Evidence only (never a reason on its own)                                    |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| global                | Apple Music US Hip-Hop/Rap top songs, Deezer rap chart, new releases of followed artists                                                                                                                                           | Spotify daily Global and US (read through kworb), Apple Music US most played |
+| turkey                | Apple Music Türkiye Hip-Hop/Rap top songs, Deezer Türkçe rap playlists, new releases of followed Turkish rappers                                                                                                                   | Spotify daily Türkiye (read through kworb), Apple Music Türkiye most played  |
+| indiedance            | Deezer's editors' Indie Dance playlist, found each day by a playlist search (Beatport's Indie Dance chart answers GitHub's runners with a Cloudflare challenge)                                                                    |                                                                              |
+| techno (until 26 Nov) | Apple Music US Techno chart and Deezer's editors' Techno Tunnel playlist every day; Beatport Raw / Deep / Hypnotic and Peak Time / Driving whenever Beatport can be read (it answers GitHub's runners with a Cloudflare challenge) | Deezer tempo                                                                 |
 
 Since 25 November (Can: "Music selections were bad"), a song is a candidate only when it shows up on a rap chart or a techno chart; a chart of every genre can add numbers but never brings a song in. That keeps out pop and R&B songs with a rap feature and long-running hits. For techno, Raw / Deep / Hypnotic comes first because Peak Time / Driving leans to big-room festival tracks; a Peak Time song needs a followed label or artist, or a heavy, driving sound by the writer's ear.
+
+**Indie Dance, from 27 November** (Can, 26 November: "only Indie Dance genre, not Techno or house etc., with this same approach", and earlier "niche selections"). An `indiedance` pick that is not all-time needs a place on an Indie Dance list. Picks lean niche: deep cuts and records the scene knows rather than the anthems everyone knows. When nothing current passes, all-time picks from the Indie Dance canon fill the slots, every day if need be. Indie Dance has no tempo rule, so it carries no BPM.
 
 Hard Techno is not read: most of it is above 134 BPM. Every chart reading is saved each day, so the edition can compare a song with its own past: "plays at 4x its usual" and "back after 412 days" are measured from that history. In the first two to four weeks the history is short, so an old song qualifies mostly by coming back to a chart.
 

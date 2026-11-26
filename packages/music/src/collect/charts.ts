@@ -1,4 +1,4 @@
-import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL } from './deezer.js';
+import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL, deezerPlaylistSearchUrl } from './deezer.js';
 import { ITUNES_TECHNO_GENRE, itunesGenreChartUrl } from './itunes.js';
 import type { Chart } from './types.js';
 
@@ -6,9 +6,10 @@ import type { Chart } from './types.js';
  * The charts the music Collect reads every day (docs/music.md, "Sources"). Hard Techno is left
  * out on purpose: most of it is above the 134 BPM cap.
  *
- * Beatport answers GitHub's runners with a Cloudflare challenge (403), so on the daily run the
- * techno songs come from Apple's Techno chart and Deezer's editors' Techno Tunnel playlist, with
- * the tempo from Deezer; the Beatport charts stay listed and count whenever they can be read.
+ * From 27 November 2026 the third genre is Indie Dance, not techno (Can, 2026-11-26), so the techno
+ * charts are no longer read. Beatport's Indie Dance chart would be the best source, but Beatport
+ * answers GitHub's runners with a Cloudflare challenge (403); Deezer's editors' Indie Dance
+ * playlist is read instead.
  */
 
 const kworb = (country: 'global' | 'us' | 'tr', name: string): Chart => ({
@@ -66,6 +67,21 @@ export const CHARTS: readonly Chart[] = [
     url: `${DEEZER}/chart/${String(DEEZER_RAP)}/tracks?limit=100`,
     genre: 'rap',
   },
+  {
+    id: 'deezer-indie-dance',
+    source: 'deezer',
+    name: "Deezer Indie Dance (editors' playlist)",
+    // Found by search each day, so a renamed or replaced editors' playlist is still read.
+    url: deezerPlaylistSearchUrl('indie dance'),
+    genre: 'indiedance',
+  },
+];
+
+/**
+ * The techno charts read until 26 November 2026, when techno was the third genre. Not read any
+ * more; kept so the readers and their tests stay whole if techno comes back.
+ */
+export const TECHNO_CHARTS: readonly Chart[] = [
   {
     id: 'itunes-us-techno',
     source: 'apple',

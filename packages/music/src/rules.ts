@@ -1,8 +1,10 @@
 import { canonKey, type CanonEntry } from './canon.js';
 import {
-  GENRES,
+  INDIE_DANCE_FROM,
   PICKS_PER_GENRE,
   TECHNO_MAX_BPM,
+  genresOf,
+  picksIn,
   picksOf,
   type Evidence,
   type Genre,
@@ -33,6 +35,8 @@ export const STRICT_FROM = '2026-11-25';
 export const BACK_MAX_RANK = 50;
 /** A chart counts as a rap chart when its name says so: "Apple Music US Hip-Hop/Rap", "Deezer Türkçe Rap". */
 const RAP_CHART = /hip[- ]?hop|\brap\b/i;
+/** A chart or list counts for Indie Dance when its name says so: "Deezer Indie Dance". */
+const INDIE_DANCE_CHART = /indie[- ]?dance/i;
 export const REPEAT_DAYS = 30;
 export const ALLTIME_REPEAT_DAYS = 180;
 /** Two tempo readings further apart than this mean one of them is wrong, so the pick is dropped. */
@@ -62,13 +66,20 @@ export function checkMusicEdition(edition: MusicEdition, context: CheckContext):
   const problems: string[] = [];
   const all = picksOf(edition);
 
-  for (const genre of GENRES) {
-    const count = edition.genres[genre].length;
+  const third = edition.date >= INDIE_DANCE_FROM ? 'indiedance' : 'techno';
+  if (edition.genres[third] === undefined) {
+    problems.push(
+      `From ${INDIE_DANCE_FROM} the third genre is Indie Dance; ${edition.date} needs ${third}.`,
+    );
+  }
+
+  for (const genre of genresOf(edition)) {
+    const count = picksIn(edition, genre).length;
     if (count !== PICKS_PER_GENRE) {
       problems.push(`${genre} has ${String(count)} songs; it needs ${String(PICKS_PER_GENRE)}.`);
     }
     const leads = new Map<string, string>();
-    for (const pick of edition.genres[genre]) {
+    for (const pick of picksIn(edition, genre)) {
       const lead = songKey(leadArtist(pick.artists[0] ?? ''), '');
       const other = leads.get(lead);
       if (other) {
@@ -193,9 +204,17 @@ function kindProblems(
   }
 }
 
-/** From STRICT_FROM: a rap pick's numbers must include a rap chart, so pop songs with a rap feature stay out. */
+/**
+ * From STRICT_FROM: a rap pick's numbers must include a rap chart, so pop songs with a rap feature
+ * stay out; an Indie Dance pick's numbers must include an Indie Dance list, so house and techno
+ * stay out.
+ */
 function genreProblems(name: string, pick: Pick, genre: Genre): string[] {
   if (genre === 'techno' || pick.kind === 'alltime') return [];
+  if (genre === 'indiedance') {
+    if (pick.evidence.some((item) => INDIE_DANCE_CHART.test(item.chart))) return [];
+    return [`${name}: an Indie Dance pick needs a place on an Indie Dance chart or list.`];
+  }
   if (pick.evidence.some((item) => RAP_CHART.test(item.chart))) return [];
   return [
     `${name}: a rap pick needs a place on a rap chart (a chart named hip-hop or rap), not only on a chart of every genre.`,

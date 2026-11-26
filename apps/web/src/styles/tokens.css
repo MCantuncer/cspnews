@@ -47,6 +47,7 @@
   /* Music genres (docs/design/decisions/music.md); Türkçe rap uses --sec-turkey. */
   --gen-global: #e3b45c;
   --gen-techno: #7fbccb;
+  --gen-indiedance: #e39ad8;
   --gen-turkey: var(--sec-turkey);
   --sec-transfers: #b4cf6a;
   --sec-abroad: #ec7f9c;
@@ -92,6 +93,7 @@
   /* Music genres (docs/design/decisions/music.md); Türkçe rap uses --sec-turkey. */
   --gen-global: #e3b45c;
   --gen-techno: #7fbccb;
+  --gen-indiedance: #e39ad8;
   --sec-transfers: #adc867;
   --sec-abroad: #e47b97;
 
@@ -127,6 +129,7 @@
   /* Music genres (docs/design/decisions/music.md); Türkçe rap uses --sec-turkey. */
   --gen-global: #7a5600;
   --gen-techno: #1d5f71;
+  --gen-indiedance: #8c2a83;
   --sec-transfers: #4a7319;
   --sec-abroad: #9d2f55;
 
@@ -163,6 +166,7 @@
   /* Music genres (docs/design/decisions/music.md); Türkçe rap uses --sec-turkey. */
   --gen-global: #7a5600;
   --gen-techno: #1d5f71;
+  --gen-indiedance: #8c2a83;
   --sec-transfers: #4a7319;
   --sec-abroad: #9d2f55;
 
@@ -200,6 +204,7 @@
     /* Music genres (docs/design/decisions/music.md); Türkçe rap uses --sec-turkey. */
     --gen-global: #7a5600;
     --gen-techno: #1d5f71;
+    --gen-indiedance: #8c2a83;
     --sec-transfers: #4a7319;
     --sec-abroad: #9d2f55;
 

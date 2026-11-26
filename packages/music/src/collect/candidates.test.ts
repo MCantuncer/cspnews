@@ -2,14 +2,15 @@ import { describe, expect, it } from 'vitest';
 
 import { readTaste } from '../files.js';
 import { buildCandidates } from './candidates.js';
-import { CHARTS } from './charts.js';
+import { CHARTS, TECHNO_CHARTS } from './charts.js';
 import { History } from './history.js';
 import { parseITunesGenreChart } from './itunes.js';
 import { parseKworbChart } from './kworb.js';
+import { editorsPlaylist } from './deezer.js';
 import type { Chart, ChartEntry } from './types.js';
 
 const chart = (id: string): Chart => {
-  const found = CHARTS.find((item) => item.id === id);
+  const found = [...CHARTS, ...TECHNO_CHARTS].find((item) => item.id === id);
   if (!found) throw new Error(id);
   return found;
 };
@@ -151,5 +152,30 @@ describe('iTunes genre chart', () => {
       expect.objectContaining({ metric: 'rankBefore', value: 11, before: '2026-11-25' }),
     );
     expect(bars?.notes).toContain('up 7 on Spotify Türkiye daily');
+  });
+
+  it("reads only an editors' Indie Dance playlist, and files its songs under Indie Dance", () => {
+    const search = JSON.stringify({
+      data: [
+        { id: 1, title: 'indie dance 2026', nb_tracks: 300, user: { name: 'someone' } },
+        {
+          id: 2,
+          title: 'Indie Dance',
+          nb_tracks: 80,
+          user: { name: 'Laeti - Deezer Dance & EDM Editor' },
+        },
+        {
+          id: 3,
+          title: 'Techno Tunnel',
+          nb_tracks: 100,
+          user: { name: 'Laeti - Deezer Dance & EDM Editor' },
+        },
+      ],
+    });
+    expect(editorsPlaylist(search, /indie[- ]?dance/i)).toEqual({ id: 2, title: 'Indie Dance' });
+    expect(editorsPlaylist(JSON.stringify({ data: [] }), /indie dance/i)).toBeUndefined();
+
+    const day = build([entry('deezer-indie-dance', 4, 'Band', 'Groove')]);
+    expect(day.genres.indiedance.map((c) => c.title)).toEqual(['Groove']);
   });
 });

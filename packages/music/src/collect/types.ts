@@ -8,8 +8,8 @@ import type { EvidenceSource, Genre } from '../edition.js';
 /** Fetches a URL and returns its body; throws on failure. Injected so tests need no network. */
 export type FetchText = (url: string) => Promise<string>;
 
-/** The genre a chart speaks for: a techno chart, a rap chart, or a general chart (`undefined`). */
-export type ChartGenre = 'techno' | 'rap' | undefined;
+/** The genre a chart speaks for: a techno, rap or Indie Dance chart, or a general chart (`undefined`). */
+export type ChartGenre = 'techno' | 'rap' | 'indiedance' | undefined;
 
 export interface Chart {
   /** Stable id, used in history snapshots: `spotify-tr-daily`. */

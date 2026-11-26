@@ -8,7 +8,7 @@ import type { ChartEntry } from './types.js';
 /**
  * Turns a day's chart entries into ranked candidates per genre (docs/music.md, "Sources" and
  * "Ranking"). A song is a candidate only when a genre chart has it: a rap chart for the two rap
- * genres, Beatport for techno. Charts of every genre add numbers but never bring a song in.
+ * genres, Beatport for techno, an Indie Dance list for Indie Dance. Charts of every genre add numbers but never bring a song in.
  * The writer picks the day's five from the top of each list; the numbers it may quote are in
  * each candidate's `evidence`, ready to copy into the edition.
  */
@@ -68,6 +68,7 @@ export function snapshotOf(date: string, entries: readonly ChartEntry[]): Snapsh
 }
 
 function genreOf(entries: readonly ChartEntry[]): Genre | undefined {
+  if (entries.some((entry) => entry.chart.genre === 'indiedance')) return 'indiedance';
   if (entries.some((entry) => entry.chart.genre === 'techno')) return 'techno';
   if (!entries.some((entry) => entry.chart.genre === 'rap')) return undefined;
   const turkish = entries.some((entry) => entry.chart.country === 'tr');
@@ -112,7 +113,7 @@ export function buildCandidates(
     bySong.set(key, [...(bySong.get(key) ?? []), entry]);
   }
 
-  const genres: Record<Genre, Candidate[]> = { global: [], turkey: [], techno: [] };
+  const genres: Record<Genre, Candidate[]> = { global: [], turkey: [], techno: [], indiedance: [] };
   for (const [key, songEntries] of bySong) {
     const genre = genreOf(songEntries);
     if (!genre) continue;

@@ -25,7 +25,9 @@ import { parseBeatportChart } from './beatport.js';
 import { buildCandidates, snapshotOf, technoTempo, type Candidate } from './candidates.js';
 import { CHARTS } from './charts.js';
 import {
+  deezerPlaylistTracksUrl,
   deezerSearchUrl,
+  editorsPlaylist,
   deezerTrackUrl,
   parseDeezerChart,
   parseDeezerSearch,
@@ -163,7 +165,15 @@ async function main(): Promise<void> {
   const failures: Failure[] = [];
   for (const chart of CHARTS) {
     try {
-      const read = parserFor(chart)(await fetchText(chart.url), chart);
+      let body = await fetchText(chart.url);
+      if (chart.url.includes('/search/playlist')) {
+        // A search for an editors' playlist: read the playlist it finds.
+        const list = editorsPlaylist(body, /indie[- ]?dance/i);
+        if (!list) throw new Error(`No Deezer editors' playlist found by ${chart.url}`);
+        console.log(`${chart.name}: reading "${list.title}" (${String(list.id)})`);
+        body = await fetchText(deezerPlaylistTracksUrl(list.id));
+      }
+      const read = parserFor(chart)(body, chart);
       entries.push(...read);
       console.log(`${chart.name}: ${String(read.length)} songs`);
     } catch (error) {

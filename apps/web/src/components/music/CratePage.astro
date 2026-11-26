@@ -9,7 +9,7 @@ import Player from './Player.astro';
 import Base from '../../layouts/Base.astro';
 import type { InterfaceLanguage } from '../../lib/evidence';
 import { formatLongDate } from '../../lib/format';
-import { GENRES, crateDays, loadMusic, musicPath, musicWords, playerTrack } from '../../lib/music';
+import { GENRES, crateDays, genresOf, loadMusic, musicPath, musicWords, playerTrack } from '../../lib/music';
 
 interface Props {
   lang: InterfaceLanguage;
@@ -17,11 +17,13 @@ interface Props {
 
 const { lang } = Astro.props;
 const words = musicWords(lang);
-const days = crateDays(loadMusic());
+const editions = loadMusic();
+const days = crateDays(editions);
+const present = GENRES.filter((genre) => editions.some((edition) => genresOf(edition).includes(genre)));
 const total = days.reduce((sum, day) => sum + day.entries.length, 0);
 const filters = [
   { key: 'all', label: words.all },
-  ...GENRES.map((genre) => ({ key: genre, label: words.genre[genre] })),
+  ...present.map((genre) => ({ key: genre, label: words.genre[genre] })),
   { key: 'kept', label: words.kept },
 ];
 ---
@@ -234,6 +236,10 @@ const filters = [
 
   .g-techno {
     --g: var(--gen-techno);
+  }
+
+  .g-indiedance {
+    --g: var(--gen-indiedance);
   }
 
   .cover {
