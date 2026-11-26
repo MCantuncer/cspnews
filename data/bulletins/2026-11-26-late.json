@@ -15,7 +15,6 @@
         "en": {
           "shortTitle": "₺199bn paid to fund investors",
           "title": "Fund investors to have received ₺199.25bn by Friday, Yılmaz says",
-          "news": "Ministers say ₺199.25bn will have been paid from 122 of the 131 funds by Friday, and 138 suspects are in detention.",
           "summary": {
             "what": "Vice President Cevdet Yılmaz said payments from the collapsed investment funds will reach ₺199.25bn by Friday, with almost all investors paid something.",
             "why": "It is the government’s first full account of the fund crisis, which hit 455,758 investors, and says not a lira came from the Treasury.",
@@ -98,12 +97,12 @@
             "before": 44.58,
             "after": 45.36,
             "source": "Akın Gürlek, via Sözcü and Anadolu Agency"
-          }
+          },
+          "news": "Ministers say ₺199.25bn will have been paid from 122 of the 131 funds by Friday, and 138 suspects are in detention."
         },
         "tr": {
           "shortTitle": "Fon yatırımcısına 199 milyar ödeme",
           "title": "Yılmaz: Fon yatırımcılarına cuma itibarıyla 199,25 milyar lira ödenmiş olacak",
-          "news": "Bakanlara göre 131 fondan 122’sinde cuma itibarıyla 199,25 milyar lira ödenmiş olacak; 138 şüpheli tutuklu.",
           "summary": {
             "what": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, tasfiyedeki fonlardan yapılan ödemelerin cuma itibarıyla 199,25 milyar liraya ulaşacağını açıkladı.",
             "why": "455 bin 758 yatırımcıyı etkileyen fon krizine ilişkin hükümetin ilk kapsamlı dökümü; Hazineden tek kuruş çıkmadığı vurgulandı.",
@@ -185,7 +184,8 @@
             "before": 44.58,
             "after": 45.36,
             "source": "Akın Gürlek (Sözcü, Anadolu Ajansı)"
-          }
+          },
+          "news": "Bakanlara göre 131 fondan 122’sinde cuma itibarıyla 199,25 milyar lira ödenmiş olacak; 138 şüpheli tutuklu."
         }
       },
       "timeline": [
@@ -502,7 +502,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b08576c08488df3975114e8.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b08576c08488df3975114e8.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/disislerinden-avrupa-parlamentosuna-libya-tepkisi-43392345"
@@ -631,9 +631,9 @@
           ],
           "place": {
             "name": "Washington, DC",
-            "region": "United States",
             "lat": 38.91,
-            "lon": -77.04
+            "lon": -77.04,
+            "region": "United States"
           }
         },
         "tr": {
@@ -709,9 +709,9 @@
           ],
           "place": {
             "name": "Washington",
-            "region": "ABD",
             "lat": 38.91,
-            "lon": -77.04
+            "lon": -77.04,
+            "region": "ABD"
           }
         }
       },
