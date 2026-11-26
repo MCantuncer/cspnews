@@ -1403,5 +1403,52 @@
         }
       }
     }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909323",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun"],
+      "name": {
+        "en": "Alperen Şengün",
+        "tr": "Alperen Şengün"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "short": "Suns",
+        "ours": false,
+        "team": "phoenix-suns"
+      },
+      "startsAt": "2026-11-26T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909323"
+      },
+      "result": {
+        "home": 116,
+        "away": 104
+      },
+      "lines": [
+        {
+          "person": "alperen-sengun",
+          "points": 23,
+          "minutes": 32,
+          "rebounds": 11,
+          "assists": 11
+        }
+      ]
+    }
   ]
 }
