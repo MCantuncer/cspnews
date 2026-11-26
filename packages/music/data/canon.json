@@ -420,5 +420,85 @@
       "kind": "editor",
       "note": "Nine minutes of punk-funk groove, a dance-punk cult record."
     }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Collarbone",
+    "artists": ["Fujiya & Miyagi"],
+    "year": 2006,
+    "standing": {
+      "kind": "editor",
+      "note": "Krautrock-minded, whispered indie dance from Brighton."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "In the Morning",
+    "artists": ["Junior Boys"],
+    "year": 2006,
+    "standing": {
+      "kind": "editor",
+      "note": "Cool, clipped synth groove from Junior Boys."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Little People (Black City)",
+    "artists": ["Matthew Dear"],
+    "year": 2010,
+    "standing": {
+      "kind": "editor",
+      "note": "Dark, ten-minute indie dance from a techno producer."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Hold On",
+    "artists": ["Holy Ghost!"],
+    "year": 2010,
+    "standing": {
+      "kind": "editor",
+      "note": "DFA's slow-burning indie disco record."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Radio Ladio",
+    "artists": ["Metronomy"],
+    "year": 2008,
+    "standing": {
+      "kind": "editor",
+      "note": "Metronomy's wiry early dance-floor single."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Lights & Music",
+    "artists": ["Cut Copy"],
+    "year": 2008,
+    "standing": {
+      "kind": "editor",
+      "note": "Cut Copy's indie dance peak."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Blind",
+    "artists": ["Hercules & Love Affair"],
+    "year": 2008,
+    "standing": {
+      "kind": "editor",
+      "note": "DFA-era disco with Anohni's voice."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Get Myself Into It",
+    "artists": ["The Rapture"],
+    "year": 2006,
+    "standing": {
+      "kind": "editor",
+      "note": "The Rapture's cowbell-and-sax follow-up."
+    }
   }
 ]

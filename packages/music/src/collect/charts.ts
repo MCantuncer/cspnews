@@ -71,8 +71,9 @@ export const CHARTS: readonly Chart[] = [
     id: 'deezer-indie-dance',
     source: 'deezer',
     name: "Deezer Indie Dance (editors' playlist)",
-    // Found by search each day, so a renamed or replaced editors' playlist is still read.
-    url: deezerPlaylistSearchUrl('indie dance'),
+    // Found by search each day (Deezer's own "Indie dance", 4681822808 in Nov 2026); a plain
+    // "indie dance" search only returns listeners' playlists, so the query names Deezer.
+    url: deezerPlaylistSearchUrl('indie dance deezer'),
     genre: 'indiedance',
   },
 ];
