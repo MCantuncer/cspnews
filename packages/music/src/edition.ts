@@ -40,6 +40,7 @@ export const EVIDENCE_SOURCES = [
   'beatport',
   'youtube',
   'soundcloud',
+  'bandcamp',
   'lastfm',
   'musicbrainz',
 ] as const;

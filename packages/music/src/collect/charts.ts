@@ -1,4 +1,4 @@
-import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL, deezerPlaylistSearchUrl } from './deezer.js';
+import { DEEZER, DEEZER_RAP, DEEZER_TECHNO_TUNNEL } from './deezer.js';
 import { ITUNES_TECHNO_GENRE, itunesGenreChartUrl } from './itunes.js';
 import type { Chart } from './types.js';
 
@@ -68,12 +68,12 @@ export const CHARTS: readonly Chart[] = [
     genre: 'rap',
   },
   {
-    id: 'deezer-indie-dance',
-    source: 'deezer',
-    name: "Deezer Indie Dance (editors' playlist)",
-    // Found by search each day (Deezer's own "Indie dance", 4681822808 in Nov 2026); a plain
-    // "indie dance" search only returns listeners' playlists, so the query names Deezer.
-    url: deezerPlaylistSearchUrl('indie dance deezer'),
+    // Deezer's own "Indie dance" playlist is indie rock, and Beatport and Traxsource refuse GitHub's
+    // runners, so Indie Dance is read from Bandcamp's best-selling list for the tag.
+    id: 'bandcamp-indie-dance',
+    source: 'bandcamp',
+    name: 'Bandcamp Indie Dance, best-selling',
+    url: 'https://bandcamp.com/discover/indie-dance',
     genre: 'indiedance',
   },
 ];

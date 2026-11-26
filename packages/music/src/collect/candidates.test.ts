@@ -6,11 +6,20 @@ import { CHARTS, TECHNO_CHARTS } from './charts.js';
 import { History } from './history.js';
 import { parseITunesGenreChart } from './itunes.js';
 import { parseKworbChart } from './kworb.js';
+import { parseBandcampDiscover } from './bandcamp.js';
 import { editorsPlaylist } from './deezer.js';
 import type { Chart, ChartEntry } from './types.js';
 
+const INDIE_DANCE_TEST: Chart = {
+  id: 'test-indie-dance',
+  source: 'deezer',
+  name: 'Test Indie Dance list',
+  url: 'https://example.com/indie-dance',
+  genre: 'indiedance',
+};
+
 const chart = (id: string): Chart => {
-  const found = [...CHARTS, ...TECHNO_CHARTS].find((item) => item.id === id);
+  const found = [...CHARTS, ...TECHNO_CHARTS, INDIE_DANCE_TEST].find((item) => item.id === id);
   if (!found) throw new Error(id);
   return found;
 };
@@ -175,7 +184,54 @@ describe('iTunes genre chart', () => {
     expect(editorsPlaylist(search, /indie[- ]?dance/i)).toEqual({ id: 2, title: 'Indie Dance' });
     expect(editorsPlaylist(JSON.stringify({ data: [] }), /indie dance/i)).toBeUndefined();
 
-    const day = build([entry('deezer-indie-dance', 4, 'Band', 'Groove')]);
+    const day = build([entry('test-indie-dance', 4, 'Band', 'Groove')]);
     expect(day.genres.indiedance.map((c) => c.title)).toEqual(['Groove']);
+  });
+
+  it("reads Bandcamp's best-selling Indie Dance list, leaving out merch and releases not out yet", () => {
+    const json = JSON.stringify({
+      results: [
+        {
+          itemType: 'a',
+          title: 'Red Box',
+          bandName: '20/20 Vision',
+          releaseDate: '2026-11-20 00:00:00 UTC',
+          playerData: {
+            title: 'Red Box',
+            artistName: 'Red Axes',
+            url: 'https://2020vision.bandcamp.com/track/red-box',
+            duration: 301.5,
+          },
+        },
+        { itemType: 'p', title: 'T-shirt', bandName: 'Xinobi', playerData: null },
+        {
+          itemType: 'a',
+          title: 'Later',
+          bandName: 'Someone',
+          releaseDate: '2026-12-04 00:00:00 UTC',
+          playerData: { title: 'Later', artistName: 'Someone' },
+        },
+        {
+          itemType: 'a',
+          title: '[SPA492] STEFANO TIRELLI, FISSA - When I See Your Smile',
+          bandName: 'Spa In Disco',
+          releaseDate: '2026-11-21 17:07:32 UTC',
+          playerData: {
+            title: '[SPA492] STEFANO TIRELLI, FISSA - When I See Your Smile',
+            artistName: 'STEFANO TIRELLI, FISSA',
+          },
+        },
+      ],
+    });
+    const read = parseBandcampDiscover(json, chart('bandcamp-indie-dance'), '2026-11-26');
+    expect(read.map((e) => [e.rank, e.title, e.artists])).toEqual([
+      [1, 'Red Box', ['Red Axes']],
+      [2, 'When I See Your Smile', ['STEFANO TIRELLI', 'FISSA']],
+    ]);
+    expect(read[0]?.released).toBe('2026-11-20');
+    const day = build(read);
+    expect(day.genres.indiedance[0]?.links.bandcamp).toBe(
+      'https://2020vision.bandcamp.com/track/red-box',
+    );
   });
 });

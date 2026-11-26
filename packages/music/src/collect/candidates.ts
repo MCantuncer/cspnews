@@ -28,7 +28,13 @@ export interface Candidate {
   bpmFrom?: string;
   label?: string;
   genreTags: string[];
-  links: { spotify?: string; appleMusic?: string; beatport?: string; deezer?: string };
+  links: {
+    spotify?: string;
+    appleMusic?: string;
+    beatport?: string;
+    deezer?: string;
+    bandcamp?: string;
+  };
   preview?: string;
   artwork?: string;
   durationSec?: number;
@@ -281,6 +287,7 @@ function toCandidate(
       links.appleMusic ??= entry.link;
     if (entry.chart.source === 'beatport' && entry.link) links.beatport ??= entry.link;
     if (entry.chart.source === 'deezer' && entry.link) links.deezer ??= entry.link;
+    if (entry.chart.source === 'bandcamp' && entry.link) links.bandcamp ??= entry.link;
   }
   const isrc = entries.find((entry) => entry.isrc)?.isrc;
   const preview = entries.find((entry) => entry.preview)?.preview;
