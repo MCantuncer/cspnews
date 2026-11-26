@@ -988,12 +988,6 @@
           "sourceId": "techcrunch"
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/aa6eb26e-e8e4-11f1-913c-c131ae9bfe9c/w:1024/p:16x9/EN-20261125-160748-160913-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/video/20261125-huang-s-return-fails-to-dispel-doubts-as-nvidia-shares-drop"
-      },
       "sources": [
         {
           "sourceId": "techcrunch",
@@ -1287,7 +1281,13 @@
               "value": "4 (first passed)",
               "source": "Al Jazeera"
             }
-          ]
+          ],
+          "place": {
+            "name": "Jerusalem District Court",
+            "lat": 31.78,
+            "lon": 35.22,
+            "region": "Jerusalem"
+          }
         },
         "tr": {
           "shortTitle": "Yargıçlar Netanyahu davasını sorguluyor",
@@ -1376,7 +1376,13 @@
               "value": "4 (ilki geçti)",
               "source": "Al Jazeera"
             }
-          ]
+          ],
+          "place": {
+            "name": "Kudüs Bölge Mahkemesi",
+            "lat": 31.78,
+            "lon": 35.22,
+            "region": "Kudüs"
+          }
         }
       },
       "timeline": [
@@ -1402,12 +1408,6 @@
           "sourceId": "al-jazeera"
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/bc479688-e905-11f1-9b30-29d00e23de9a/w:1024/p:16x9/EN-20261125-201038-201315-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges"
-      },
       "sources": [
         {
           "sourceId": "bbc-world",
