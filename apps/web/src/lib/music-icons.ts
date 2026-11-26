@@ -12,6 +12,7 @@ export const MUSIC_ICONS = {
   play: '<path d="M8 5.5l10 6.5-10 6.5z" fill="currentColor"/>',
   pause:
     '<rect x="7" y="5.5" width="3.2" height="13" rx="1" fill="currentColor"/><rect x="13.8" y="5.5" width="3.2" height="13" rx="1" fill="currentColor"/>',
+  stop: '<rect x="6.5" y="6.5" width="11" height="11" rx="1.5" fill="currentColor"/>',
   previous: '<path d="M18 6l-8.5 6 8.5 6zM6 6v12"/>',
   next: '<path d="M6 6l8.5 6L6 18zM18 6v12"/>',
   keep: '<path d="M6.5 3.5h11v17L12 16.5l-5.5 4z"/>',
