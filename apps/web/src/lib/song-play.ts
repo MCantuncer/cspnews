@@ -793,7 +793,10 @@ export function startSongGame(root: HTMLElement): void {
       if (over) renderReveal();
     }
     if (skipButton) {
-      skipButton.textContent = isOnLastClip(round)
+      const giveUp = isOnLastClip(round);
+      skipButton.classList.toggle('give-up', giveUp);
+      const skipLabel = skipButton.querySelector('[data-skip-label]') ?? skipButton;
+      skipLabel.textContent = giveUp
         ? words.giveUp
         : words.skip(
             seconds(
