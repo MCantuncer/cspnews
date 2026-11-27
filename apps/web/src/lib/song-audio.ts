@@ -13,6 +13,12 @@ export interface Clip {
   play(from: number, seconds: number, onTick: (done: number) => void, onEnd: () => void): void;
   stop(): void;
   readonly ready: Promise<void>;
+  /**
+   * The loudness of the clip window as `bars` values from 0 to 1, bar i covering the time from
+   * `(i / bars)² · seconds` to `((i + 1) / bars)² · seconds` after `from` (the clip bar's
+   * square-root scale). Undefined until decoded, or when the fallback element plays.
+   */
+  levels(from: number, seconds: number, bars: number): number[] | undefined;
 }
 
 const FADE = 0.004;
@@ -181,6 +187,29 @@ export function loadClip(url: string): Clip {
     },
     stop() {
       stopCurrent?.();
+    },
+    levels(from, seconds, bars) {
+      if (!buffer) return undefined;
+      const data = buffer.getChannelData(0);
+      const rate = buffer.sampleRate;
+      const raw = Array.from({ length: bars }, (_, index) => {
+        const begin = Math.floor((from + (index / bars) ** 2 * seconds) * rate);
+        const end = Math.max(
+          begin + 64,
+          Math.floor((from + ((index + 1) / bars) ** 2 * seconds) * rate),
+        );
+        let sum = 0;
+        let count = 0;
+        // Every few samples is plenty for a picture of loudness.
+        for (let at = begin; at < Math.min(end, data.length); at += 8) {
+          const value = data[at] ?? 0;
+          sum += value * value;
+          count += 1;
+        }
+        return count ? Math.sqrt(sum / count) : 0;
+      });
+      const loudest = Math.max(...raw, 1e-6);
+      return raw.map((value) => value / loudest);
     },
   };
 }

@@ -19,6 +19,13 @@ const WORDS = {
       string
     >,
     play: (seconds: string) => `Play ${seconds}`,
+    roundOf: (n: number, total: number) => `${String(n)} of ${String(total)}`,
+    pointsWord: 'points',
+    missedShort: 'missed',
+    streakLine: (n: number, best: number) =>
+      `${String(n)} ${n === 1 ? 'day' : 'days'} in a row. Best run ${String(best)}.`,
+    streakNow: 'Days in a row',
+    dayScore: (n: number) => `Song set ${String(n)}`,
     stop: 'Stop',
     loading: 'Loading the song…',
     placeholder: 'Artist or song',
@@ -88,11 +95,18 @@ const WORDS = {
     games: 'Oyunlar',
     word: 'Kelime',
     song: 'Şarkı',
-    genres: { 'pop-tr': 'Türkçe pop', rap: 'Hip-hop', rock: 'Rock', hits: 'Dünya hiti' } as Record<
+    genres: { 'pop-tr': 'Türkçe pop', rap: 'Hip-hop', rock: 'Rock', hits: 'Global hit' } as Record<
       Genre,
       string
     >,
     play: (seconds: string) => `${seconds} dinle`,
+    roundOf: (n: number, total: number) => `${String(n)} / ${String(total)}`,
+    pointsWord: 'puan',
+    missedShort: 'bilinemedi',
+    streakLine: (n: number, best: number) =>
+      `Üst üste ${String(n)} gün. En uzun seri ${String(best)}.`,
+    streakNow: 'Üst üste gün',
+    dayScore: (n: number) => `${String(n)}. set`,
     stop: 'Durdur',
     loading: 'Şarkı yükleniyor…',
     placeholder: 'Sanatçı ya da şarkı',

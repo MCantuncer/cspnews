@@ -33,18 +33,15 @@ const games = [
 <style>
   .games {
     display: flex;
-    gap: 2px;
-    padding: 3px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    width: max-content;
+    gap: 28px;
   }
 
   a {
-    padding: 6px 14px;
-    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    min-height: 44px;
     color: var(--meta);
-    font: 600 14px/1 var(--f-body);
+    font: 600 17px / 1 var(--f-head);
     text-decoration: none;
   }
 
@@ -53,8 +50,8 @@ const games = [
   }
 
   a[aria-current='page'] {
-    background: var(--ink);
-    color: var(--bg);
+    color: var(--ink);
+    box-shadow: inset 0 -2px 0 var(--ink);
   }
 
   a:focus-visible {
