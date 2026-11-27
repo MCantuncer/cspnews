@@ -12,7 +12,7 @@
 // Needs network access to itunes.apple.com and audio-ssl.itunes.apple.com, and ffmpeg. Runs in
 // the Song Pool workflow (.github/workflows/song-pool.yml).
 import { execFileSync } from 'node:child_process';
-import { existsSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -162,6 +162,7 @@ const readJson = (file, fallback) =>
 
 async function main() {
   const folder = mkdtempSync(join(tmpdir(), 'songs-'));
+  mkdirSync(join(ROOT, 'songs'), { recursive: true });
   const missing = [];
   const catalog = new Map(
     readJson(join(ROOT, 'songs', 'catalog.json'), []).map((song) => [
