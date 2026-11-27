@@ -8,6 +8,7 @@ import {
   hideText,
   isRoundOver,
   isSameSong,
+  matchRanges,
   pointsFor,
   readShareCode,
   revealText,
@@ -81,6 +82,16 @@ describe('names', () => {
     expect(searchSongs(catalog, 'sim').map((song) => song.title)).toEqual(['Şımarık', 'Miş Miş']);
     expect(searchSongs(catalog, 'queen boh')[0]?.title).toBe('Bohemian Rhapsody');
     expect(searchSongs(catalog, '  ')).toEqual([]);
+  });
+
+  it('finds the typed words in the name as written, for bold letters', () => {
+    expect(matchRanges('Şımarık', 'sim')).toEqual([[0, 3]]);
+    expect(matchRanges('Bohemian Rhapsody', 'rhap boh')).toEqual([
+      [0, 3],
+      [9, 13],
+    ]);
+    expect(matchRanges('Miş Miş', 'iş')).toEqual([]);
+    expect(matchRanges('Yankı', '')).toEqual([]);
   });
 });
 

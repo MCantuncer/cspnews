@@ -1,6 +1,6 @@
 /**
  * The daily song game in the browser (components/song/SongGame.astro, docs/song-game.md).
- * Three rounds a day; each starts with 0.1 s of the song and opens a longer clip after every
+ * Four rounds a day; each starts with 0.1 s of the song and opens a longer clip after every
  * miss or skip. The day in progress, the finished days and the streak live in localStorage.
  */
 import {
@@ -12,6 +12,8 @@ import {
   isOnLastClip,
   isRoundOver,
   isSameSong,
+  matchRanges,
+  plain,
   pointsFor,
   readShareCode,
   revealText,
@@ -367,24 +369,60 @@ export function startSongGame(root: HTMLElement): void {
     message.hidden = text === '';
   }
 
+  /** The name with the typed words set in bold. */
+  function marked(text: string, typed: string): (string | HTMLElement)[] {
+    const parts: (string | HTMLElement)[] = [];
+    let at = 0;
+    for (const [start, end] of matchRanges(text, typed)) {
+      if (start > at) parts.push(text.slice(at, start));
+      parts.push(element('b', undefined, text.slice(start, end)));
+      at = end;
+    }
+    if (at < text.length) parts.push(text.slice(at));
+    return parts;
+  }
+
   function renderSuggestions(): void {
     if (!list || !input) return;
-    list.replaceChildren(
-      ...suggestions.map((song, index) => {
-        const option = element('li', 'sg-option');
-        option.id = `sg-option-${String(index)}`;
-        option.setAttribute('role', 'option');
-        option.setAttribute('aria-selected', String(index === active));
-        option.append(element('b', undefined, song.title), element('span', undefined, song.artist));
-        option.addEventListener('pointerdown', (event) => {
-          event.preventDefault();
-          choose(song);
-        });
-        return option;
-      }),
-    );
+    const typed = input.value;
+    // When every suggestion is by the one artist the reader typed, name the artist once on top.
+    const first = suggestions[0];
+    const oneArtist =
+      suggestions.length > 1 &&
+      first !== undefined &&
+      suggestions.every((song) => plain(song.artist) === plain(first.artist)) &&
+      matchRanges(first.artist, typed).length > 0;
+    const rows: HTMLElement[] = [];
+    if (oneArtist) {
+      const head = element('li', 'sg-option-artist');
+      head.setAttribute('role', 'presentation');
+      head.append(...marked(first.artist, typed));
+      rows.push(head);
+    }
+    suggestions.forEach((song, index) => {
+      const option = element('li', 'sg-option');
+      option.id = `sg-option-${String(index)}`;
+      option.setAttribute('role', 'option');
+      option.setAttribute('aria-selected', String(index === active));
+      option.setAttribute('aria-label', songLabel(song));
+      const title = element('span', 'sg-option-title');
+      title.append(...marked(song.title, typed));
+      option.append(title);
+      if (!oneArtist) {
+        const artist = element('span', 'sg-option-by');
+        artist.append(...marked(song.artist, typed));
+        option.append(artist);
+      }
+      option.addEventListener('pointerdown', (event) => {
+        event.preventDefault();
+        choose(song);
+      });
+      rows.push(option);
+    });
+    list.replaceChildren(...rows);
     const open = suggestions.length > 0;
     list.hidden = !open;
+    input.closest('.sg-field')?.classList.toggle('open', open);
     input.setAttribute('aria-expanded', String(open));
     if (active >= 0) input.setAttribute('aria-activedescendant', `sg-option-${String(active)}`);
     else input.removeAttribute('aria-activedescendant');
@@ -402,7 +440,7 @@ export function startSongGame(root: HTMLElement): void {
   input?.addEventListener('input', () => {
     chosen = undefined;
     showMessage('');
-    suggestions = searchSongs(catalog, input.value, 4);
+    suggestions = searchSongs(catalog, input.value, 5);
     active = -1;
     renderSuggestions();
   });
