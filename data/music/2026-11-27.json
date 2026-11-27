@@ -1,0 +1,644 @@
+{
+  "date": "2026-11-27",
+  "publishAt": "2026-11-27T18:00:00+03:00",
+  "genres": {
+    "global": [
+      {
+        "id": "don-toliver-e85",
+        "title": "E85",
+        "artists": ["Don Toliver"],
+        "released": "2026-01-22",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 24 places to number 133 on Spotify US in a day, and number 11 on Deezer's rap chart.",
+          "tr": "Spotify ABD'de bir günde 24 basamak çıkıp 133. sıraya yükseldi; Deezer rap listesinde 11."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 133,
+            "chart": "Spotify US daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 328327,
+            "chart": "Spotify US daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 157,
+            "chart": "Spotify US daily",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://kworb.net/spotify/country/us_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 63,
+            "chart": "Apple Music US most played",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 73,
+            "chart": "Apple Music US most played",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
+          },
+          {
+            "source": "deezer",
+            "metric": "rank",
+            "value": 11,
+            "chart": "Deezer Rap/Hip Hop chart",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://api.deezer.com/chart/116/tracks?limit=100"
+          },
+          {
+            "source": "deezer",
+            "metric": "rankBefore",
+            "value": 3,
+            "chart": "Deezer Rap/Hip Hop chart",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://api.deezer.com/chart/116/tracks?limit=100"
+          }
+        ],
+        "duration": 153,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/e5/c6/e8e5c690-a958-622e-eb62-0dce6059300e/075679599360.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/68/e1/1768e109-c034-115d-affc-01a97c427142/mzaf_4718121937950048317.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/3B4cjvGlPvyBLNG3AzEgkZ",
+          "appleMusic": "https://music.apple.com/us/album/e85/1871258329?i=1871258330"
+        }
+      },
+      {
+        "id": "a-tribe-called-quest-electric-relaxation",
+        "title": "Electric Relaxation",
+        "artists": ["A Tribe Called Quest"],
+        "released": "1993-11-09",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 1993: Q-Tip and Phife Dawg trading easy, playful bars over Ronnie Foster's Mystic Brew loop.",
+          "tr": "1993: Q-Tip ve Phife Dawg, Ronnie Foster'ın Mystic Brew döngüsü üstünde rahat ve oyunbaz dizeleri paylaşıyor."
+        },
+        "evidence": [],
+        "duration": 244,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/1a/f2/1b1af283-3a8d-71ce-79a9-7c6ebdb26ca4/mzaf_8096826353053836454.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/A%20Tribe%20Called%20Quest%20Electric%20Relaxation",
+          "appleMusic": "https://music.apple.com/us/album/electric-relaxation/265670545?i=265670650"
+        }
+      },
+      {
+        "id": "the-notorious-b-i-g-hypnotize",
+        "title": "Hypnotize",
+        "artists": ["The Notorious B.I.G."],
+        "released": "1997-03-01",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 1997: Biggie at his flashiest, gliding over a Herb Alpert loop.",
+          "tr": "1997: Biggie en gösterişli hâlinde, Herb Alpert'ten alınan bir döngünün üstünde süzülüyor."
+        },
+        "evidence": [],
+        "duration": 230,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/08/66/e3/0866e3ef-c111-c0a2-f18e-a10035a5bb07/dj.hpsoegav.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/ee/93/fdee93a2-846d-6231-1d47-619d1718e974/mzaf_13773148999538215038.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/The%20Notorious%20B.I.G.%20Hypnotize",
+          "appleMusic": "https://music.apple.com/us/album/hypnotize/217613303?i=217613319"
+        }
+      },
+      {
+        "id": "future-mask-off",
+        "title": "Mask Off",
+        "artists": ["Future"],
+        "released": "2017-02-17",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 2017: Future's slow flex over the flute from Tommy Butler's Prison Song.",
+          "tr": "2017: Future, Tommy Butler'ın Prison Song'undan alınan flüt üstünde ağır ağır caka satıyor."
+        },
+        "evidence": [],
+        "duration": 204,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/e1/fe/9d/e1fe9d22-2a74-cb1d-03c7-d804f471b160/886446376899.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0f/e7/86/0fe7867f-3aeb-cb58-baa3-1ba2c7cc006e/mzaf_15609872721133116318.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Future%20Mask%20Off",
+          "appleMusic": "https://music.apple.com/us/album/mask-off/1205690332?i=1205690479"
+        }
+      },
+      {
+        "id": "travis-scott-sicko-mode",
+        "title": "SICKO MODE",
+        "artists": ["Travis Scott", "Drake"],
+        "released": "2018-08-03",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 2018: Travis Scott and Drake, beat switch after beat switch in one track, all flex.",
+          "tr": "2018: Travis Scott ve Drake; tek parçada art arda beat switch, baştan sona caka."
+        },
+        "evidence": [],
+        "duration": 313,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/91/a1/d391a141-256f-726f-9da1-8aa4e42b3236/mzaf_17761183103753218003.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Travis%20Scott%20SICKO%20MODE",
+          "appleMusic": "https://music.apple.com/us/album/sicko-mode/1421658111?i=1421658123"
+        }
+      }
+    ],
+    "turkey": [
+      {
+        "id": "blok3-cok-guzel-guluyorsun",
+        "title": "Çok Güzel Gülüyorsun",
+        "artists": ["BLOK3", "Poizi"],
+        "released": "2026-06-04",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 12 places to number 13 on Apple Music's Türkiye Hip-Hop/Rap chart, and number 11 on Spotify Türkiye.",
+          "tr": "Apple Music Türkiye Hip-Hop/Rap listesinde 12 basamak çıkıp 13. sıraya geldi; Spotify Türkiye'de 11."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 11,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 269915,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 11,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 7,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 8,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 13,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 25,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/9b/d0/a69bd0ba-76af-bedd-9857-a6e2cb3087e0/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/65/16/c56516f9-b2e6-7956-684f-157c46104c8d/mzaf_14355362510014935681.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/7rsrUU3OGXQwTHWWMZwlw8",
+          "appleMusic": "https://music.apple.com/tr/album/c-ok-g%C3%BCzel-g%C3%BCl%C3%BCyorsun/6773420726?i=6773421193"
+        }
+      },
+      {
+        "id": "mero-olurmusun",
+        "title": "Olurmusun?",
+        "artists": ["MERO", "Poizi"],
+        "released": "2026-11-05",
+        "kind": "climbing",
+        "reason": {
+          "en": "Out 22 days ago and up 18 places to number 47 on Apple Music's Türkiye Hip-Hop/Rap chart; number 23 on Spotify Türkiye.",
+          "tr": "22 gün önce çıktı; Apple Music Türkiye Hip-Hop/Rap listesinde 18 basamak çıkıp 47. sıraya geldi, Spotify Türkiye'de 23."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 23,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 202043,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 23,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 92,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 81,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 47,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 65,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/72/86/5f728614-527a-74f4-3c75-acd3c5d2c866/26UM1IM43155.rgb.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/1b/c1/d81bc164-fc32-0354-e283-3b098ddf5f8e/mzaf_9945021859428840846.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/3hvvCCnS4JyToL2R8XmMyf",
+          "appleMusic": "https://music.apple.com/tr/album/olurmusun/6830238074?i=6830238077"
+        }
+      },
+      {
+        "id": "eypio-sana-ragmen",
+        "title": "Sana Rağmen",
+        "artists": ["Eypio"],
+        "released": "2026-02-20",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 11 places to number 66 on Apple Music Türkiye's most played, and up 5 to number 39 on its Hip-Hop/Rap chart.",
+          "tr": "Apple Music Türkiye'nin en çok dinlenenlerinde 11 basamak çıkıp 66. sıraya, Hip-Hop/Rap listesinde 5 basamak çıkıp 39. sıraya geldi."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 46,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 155365,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 46,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 66,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 77,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 39,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 44,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/81/c6/9d81c64d-4a78-e4b2-51e1-065dce90ad19/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/93/87/969387e2-bbc4-403a-5a08-a837627701d8/mzaf_11903067879651914097.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/6p17lQApoPFY2vBGccMzFH",
+          "appleMusic": "https://music.apple.com/tr/album/sana-ra%C4%9Fmen/1877889471?i=1877889606"
+        }
+      },
+      {
+        "id": "wegh-outro",
+        "title": "Outro",
+        "artists": ["Wegh"],
+        "released": "2026-02-20",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 2 places to number 10 on Apple Music's Türkiye Hip-Hop/Rap chart.",
+          "tr": "Apple Music Türkiye Hip-Hop/Rap listesinde 2 basamak çıkıp 10. sıraya yükseldi."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 10,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 12,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "daysOnChart",
+            "value": 2,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/5b/07/a75b07a5-12a0-f1a3-749c-67e5b15b6307/cover.jpg/600x600bb.png",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/ea/db/7ceadba9-e420-8980-f29f-5408baad3cd1/mzaf_5015996224550210307.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Wegh%20Outro",
+          "appleMusic": "https://music.apple.com/tr/album/outro/1876194773"
+        }
+      },
+      {
+        "id": "manifest-pvg-manifest-live-remix",
+        "title": "pVg (Manifest Live Remix)",
+        "artists": ["manifest", "Motive", "Pango"],
+        "released": "2026-07-24",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 5 places to number 40 on Apple Music's Türkiye Hip-Hop/Rap chart, with Motive and Pango on it; number 40 on Spotify Türkiye too.",
+          "tr": "Motive ve Pango'nun da yer aldığı remix, Apple Music Türkiye Hip-Hop/Rap listesinde 5 basamak çıkıp 40. sıraya geldi; Spotify Türkiye'de de 40."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 40,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 159533,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 40,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 57,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 61,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 40,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 45,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/29/c1/c929c1a7-2bb4-899a-8163-7282d9d30531/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/4f/89/fe4f89c5-ca5a-a0f2-cbcd-9996879515ca/mzaf_18121695703046580084.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/2cUZpjUvGWtVrMMEUrx1YP",
+          "appleMusic": "https://music.apple.com/tr/album/pvg-manifest-live-remix/6793467822?i=6793467825"
+        }
+      }
+    ],
+    "indiedance": [
+      {
+        "id": "seren-sarac-yekte",
+        "title": "YEKTE",
+        "artists": ["Seren Saraç"],
+        "released": "2026-05-07",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 17 places to number 11 on Bandcamp's best-selling Indie Dance list in a day.",
+          "tr": "Bandcamp'in en çok satan Indie Dance listesinde bir günde 17 basamak çıkıp 11. sıraya yükseldi."
+        },
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 11,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          },
+          {
+            "source": "bandcamp",
+            "metric": "rankBefore",
+            "value": 28,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T22:29:52Z",
+            "before": "2026-11-26",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          },
+          {
+            "source": "bandcamp",
+            "metric": "daysOnChart",
+            "value": 2,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-26T22:29:52Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "duration": 177,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/72/4b/2c724bee-b4e8-5d07-92c8-cbea012af13c/artwork.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/f7/3a/dcf73a11-f77f-abea-ceb8-d80a1a6e48c0/mzaf_16521242349585439006.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Seren%20Sara%C3%A7%20YEKTE",
+          "appleMusic": "https://music.apple.com/us/album/yekte/6766862408?i=6766862410"
+        }
+      },
+      {
+        "id": "the-juan-maclean-by-the-time-i-get-to-venus",
+        "title": "By the Time I Get to Venus",
+        "artists": ["The Juan MacLean"],
+        "released": "2002-03-05",
+        "kind": "alltime",
+        "reason": {
+          "en": "DFA's early days: John MacLean's slow-building machine funk, the label's darker side.",
+          "tr": "DFA'in ilk günleri: John MacLean'in yavaş yavaş açılan makine funk'ı, plak şirketinin karanlık yüzü."
+        },
+        "evidence": [],
+        "duration": 313,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8b/9b/ae/8b9bae53-ac85-98f1-134b-d6b6495c0c15/5694.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/ce/9f/9ece9f87-1b47-5263-3b07-bddf3fa71af1/mzaf_13499791406624855566.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/The%20Juan%20MacLean%20By%20the%20Time%20I%20Get%20to%20Venus",
+          "appleMusic": "https://music.apple.com/us/album/by-the-time-i-get-to-venus/1567567488?i=1567567492"
+        }
+      },
+      {
+        "id": "glass-candy-digital-versicolor",
+        "title": "Digital Versicolor",
+        "artists": ["Glass Candy"],
+        "released": "2007-09-28",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 2007: Ida No and Johnny Jewel on Italians Do It Better, an italo pulse under a cold, faraway voice.",
+          "tr": "2007: Ida No ve Johnny Jewel, Italians Do It Better'dan; soğuk, uzak bir vokalin altında italo nabzı."
+        },
+        "evidence": [],
+        "duration": 358,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/15/5c/6b/155c6be3-21e8-6ec4-89a2-57a8d412cfaf/DIGITAL.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1a/26/80/1a268043-ad05-857b-d59c-ea069472a79b/mzaf_4385849753069512389.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Glass%20Candy%20Digital%20Versicolor",
+          "appleMusic": "https://music.apple.com/us/album/digital-versicolor/990428675?i=990428681"
+        }
+      },
+      {
+        "id": "matthew-dear-little-people-black-city",
+        "title": "Little People (Black City)",
+        "artists": ["Matthew Dear"],
+        "released": "2010-08-17",
+        "kind": "alltime",
+        "reason": {
+          "en": "From 2010: the Ghostly International producer's dark disco deep cut, a low voice over a rubbery, nervous groove.",
+          "tr": "2010: Ghostly International yapımcısının dark disco derin parçası; lastik gibi, gergin bir groove üstünde kalın bir ses."
+        },
+        "evidence": [],
+        "duration": 561,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/37/4a/c1/374ac141-332c-14cd-3737-db8705d332db/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/83/e4/8283e4e6-4853-70a4-500a-e729cb61185e/mzaf_17657885150255522961.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Matthew%20Dear%20Little%20People%20%28Black%20City%29",
+          "appleMusic": "https://music.apple.com/us/album/little-people-black-city/679928980?i=679929096"
+        }
+      },
+      {
+        "id": "los-fugazzi-unpunctual",
+        "title": "Unpunctual",
+        "artists": ["Los Fugazzi"],
+        "released": "2021-05-25",
+        "kind": "alltime",
+        "reason": {
+          "en": "A recent scene record Beatportal listed among the Indie Dance tracks people missed: slow, psychedelic, driving.",
+          "tr": "Beatportal'ın gözden kaçan Indie Dance parçaları arasında saydığı yeni bir sahne kaydı: yavaş, psikedelik ve sürükleyici."
+        },
+        "evidence": [],
+        "duration": 347,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/4a/e2/3f4ae2f5-6187-fefd-ed49-513242171e60/192650625501_cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/ff/9a/df/ff9adf4a-eeb4-7d5d-d070-72b0c1698668/mzaf_7296058411956908223.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Los%20Fugazzi%20Unpunctual",
+          "appleMusic": "https://music.apple.com/us/album/unpunctual/1561672543?i=1561672544"
+        }
+      }
+    ]
+  }
+}

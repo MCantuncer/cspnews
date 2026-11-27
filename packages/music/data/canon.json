@@ -780,5 +780,69 @@
       "kind": "editor",
       "note": "Felix da Housecat's electroclash single with Miss Kittin."
     }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Cavern",
+    "artists": ["Liquid Liquid"],
+    "year": 1983,
+    "standing": {
+      "kind": "list",
+      "name": "Treble, 10 Essential Dancepunk Tracks",
+      "url": "https://treblezine.com/34002-10-best-dancepunk-tracks/"
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Moody",
+    "artists": ["ESG"],
+    "year": 1981,
+    "standing": {
+      "kind": "list",
+      "name": "Mixmag, 10 early-80s post-disco tracks that helped inspire house",
+      "url": "https://mixmag.net/feature/10-best-early-80s-post-disco-tracks"
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Love Tempo",
+    "artists": ["Quando Quango"],
+    "year": 1983,
+    "standing": {
+      "kind": "list",
+      "name": "Mixmag, 10 early-80s post-disco tracks that helped inspire house",
+      "url": "https://mixmag.net/feature/10-best-early-80s-post-disco-tracks"
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Dirty Talk",
+    "artists": ["Klein & MBO"],
+    "year": 1982,
+    "standing": {
+      "kind": "list",
+      "name": "Mixmag, 10 early-80s post-disco tracks that helped inspire house",
+      "url": "https://mixmag.net/feature/10-best-early-80s-post-disco-tracks"
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Relevee",
+    "artists": ["Delia Gonzalez & Gavin Russom"],
+    "year": 2006,
+    "standing": {
+      "kind": "editor",
+      "note": "DFA 12-inch by the Black Leotard Front duo, a slow cosmic disco cut known for its Carl Craig remix."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Synchronize",
+    "artists": ["Discodeine", "Jarvis Cocker"],
+    "year": 2010,
+    "standing": {
+      "kind": "editor",
+      "note": "Pilooski and Pentile's Discodeine with Jarvis Cocker on vocals; a dark disco 12-inch from 2010."
+    }
   }
 ]
