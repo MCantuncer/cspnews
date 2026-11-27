@@ -50,4 +50,7 @@ jobs:
           git add packages/songgame/data/songs
           git diff --cached --quiet && exit 0
           git commit -m "Song game: find previews for the picked songs"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          for attempt in 1 2 3; do
+            git push origin "HEAD:${GITHUB_REF_NAME}" && break
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+          done

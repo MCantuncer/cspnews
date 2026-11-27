@@ -16,7 +16,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
 const ROOT = new URL('../data/', import.meta.url).pathname;
-const GENRES = ['pop-tr', 'rap', 'rock'];
+const GENRES = ['pop-tr', 'rap', 'rock', 'hits'];
 /** The longest clip the game plays, in seconds; the start must leave room for it. */
 const LONGEST_CLIP = 16;
 const PAUSE_MS = 3200; // iTunes allows about 20 calls a minute.
