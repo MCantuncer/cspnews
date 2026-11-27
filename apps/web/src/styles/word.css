@@ -43,10 +43,19 @@
 .wg {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100dvh;
 }
 
-/* The header spans the page like everywhere else; the game keeps to a phone-wide column. */
+/*
+ * The header spans the page like everywhere else; the game keeps to a phone-wide column, centred
+ * by the flex box above. Centring by `margin-inline: auto` alone lost to base.css's `* { margin: 0 }`
+ * whenever the build put that file after this one, and the column slid to the left edge.
+ */
+.wg > header {
+  align-self: stretch;
+}
+
 :where(.wg > :not(header)) {
   width: 100%;
   max-width: 520px;
@@ -816,4 +825,20 @@
 .wg-games {
   display: flex;
   padding: 8px var(--gutter) 0;
+}
+
+/*
+ * With a mouse the keyboard is a click away anywhere, so on a desktop the board and keyboard stay
+ * together as one block under the language links, like the song game, instead of the keyboard
+ * dropping to the bottom of a tall screen. Last in the file so it wins over the rules above.
+ */
+@media (hover: hover) and (pointer: fine) {
+  .wg-stage {
+    flex: 0 0 auto;
+    padding-block: 28px 24px;
+  }
+
+  .wg-kb {
+    padding-block-end: 48px;
+  }
 }
