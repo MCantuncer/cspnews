@@ -5,7 +5,6 @@
  */
 import {
   MAX_TRIES,
-  WORD_LENGTH,
   addDays,
   isPlayableWord,
   type GameDay,
@@ -41,9 +40,7 @@ const WORDS = {
     puzzle: 'No.',
     triesLeft: (n: number) => `${String(n)} ${n === 1 ? 'try' : 'tries'} left`,
     tooShort: 'Not enough letters',
-    tooShortNote: `The word has ${String(WORD_LENGTH)}`,
     notInList: (word: string) => `${word} is not in the list`,
-    noTryUsed: 'No try used',
     praise: [
       'First try.',
       'Two tries. Sharp.',
@@ -106,9 +103,7 @@ const WORDS = {
     puzzle: 'No.',
     triesLeft: (n: number) => `${String(n)} hak kaldı`,
     tooShort: 'Harf eksik',
-    tooShortNote: `Kelime ${String(WORD_LENGTH)} harfli`,
     notInList: (word: string) => `${word} listede yok`,
-    noTryUsed: 'Hakkın gitmedi',
     praise: [
       'İlk denemede.',
       'İki denemede. Keskin.',

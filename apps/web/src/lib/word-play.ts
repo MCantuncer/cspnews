@@ -452,14 +452,14 @@ export function startWordGame(root: HTMLElement): void {
   async function submit(): Promise<void> {
     if (busy || finished()) return;
     if (lettersOf(current).length < WORD_LENGTH) {
-      reject(words.tooShort, words.tooShortNote);
+      reject(words.tooShort, '');
       return;
     }
     busy = true;
     await guessList;
     if (accepted && !accepted.has(current)) {
       busy = false;
-      reject(words.notInList(current), words.noTryUsed);
+      reject(words.notInList(current), '');
       return;
     }
 
