@@ -634,6 +634,12 @@
               "source": "Hürriyet"
             }
           ],
+          "place": {
+            "name": "Çağlayan courthouse, Istanbul",
+            "lat": 41.07,
+            "lon": 28.98,
+            "region": "Türkiye"
+          },
           "news": "Prosecutors asked a court to arrest Muammer Kapucuoğlu, Cansu Taşkın and Saghar Shojaei, and to bar nine others, among them İzzet Özilhan, from travel."
         },
         "tr": {
@@ -706,6 +712,12 @@
               "source": "Hürriyet"
             }
           ],
+          "place": {
+            "name": "Çağlayan Adliyesi, İstanbul",
+            "lat": 41.07,
+            "lon": 28.98,
+            "region": "Türkiye"
+          },
           "news": "Savcılık Muammer Kapucuoğlu, Cansu Taşkın ve Saghar Shojaei’nin tutuklanmasını, İzzet Özilhan’ın da aralarında olduğu 9 kişiye yurt dışı yasağı istedi."
         }
       },
@@ -737,12 +749,6 @@
           "sourceId": "ntv"
         }
       ],
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0866da08488df397511517.jpg",
-        "sourceId": "hurriyet",
-        "sourceName": "Hürriyet",
-        "articleUrl": "https://www.hurriyet.com.tr/gundem/uyusturucu-sorusturmasinda-3-kisiye-tutuklama-talebi-izzet-ozilhan-ve-cem-karciya-adli-kontrol-43392388"
-      },
       "sources": [
         {
           "sourceId": "hurriyet",
@@ -1158,7 +1164,13 @@
               "value": "about 70%",
               "source": "Volodymyr Zelensky, via the BBC"
             }
-          ]
+          ],
+          "place": {
+            "name": "Kyiv",
+            "lat": 50.45,
+            "lon": 30.52,
+            "region": "Ukraine"
+          }
         },
         "tr": {
           "shortTitle": "Trump, Putin’den geri çekilmesini istedi",
@@ -1236,7 +1248,13 @@
               "value": "yaklaşık %70",
               "source": "Volodimir Zelenski, BBC aracılığıyla"
             }
-          ]
+          ],
+          "place": {
+            "name": "Kiev",
+            "lat": 50.45,
+            "lon": 30.52,
+            "region": "Ukrayna"
+          }
         }
       },
       "timeline": [
@@ -1262,12 +1280,6 @@
           "sourceId": "al-jazeera"
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/d6c3707a-e9d4-11f1-8cb6-174dac1c1bf0/w:1024/p:16x9/EN-20261126-200333-200843-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe"
-      },
       "sources": [
         {
           "sourceId": "france-24",
