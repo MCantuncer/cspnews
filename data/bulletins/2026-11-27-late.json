@@ -483,7 +483,7 @@
         }
       ],
       "image": {
-        "url": "https://images.ntv.com.tr/images/sar%C4%B1g%C3%BCl-389991.jpg",
+        "url": "https://images.ntv.com.tr/images/sar%C4%B1g%C3%BCl-389991.jpg?format=webp&width=1200&height=630",
         "sourceId": "ntv",
         "sourceName": "NTV",
         "articleUrl": "https://www.ntv.com.tr/turkiye/son-dakika-mustafa-sarigulun-fezlekesi-meclis-baskanliginda-1752836"
@@ -1221,7 +1221,6 @@
       "continues": "a62f8b21fff0ec24",
       "versions": {
         "en": {
-          "news": "Norse Atlantic’s Norwegian operating company has filed for bankruptcy and cancelled every future flight after lessors took back its 12 planes.",
           "shortTitle": "Norse Atlantic files for bankruptcy",
           "title": "Norse Atlantic files for bankruptcy and cancels all flights",
           "summary": {
@@ -1312,10 +1311,10 @@
             "lat": 58.46,
             "lon": 8.77,
             "region": "Norway"
-          }
+          },
+          "news": "Norse Atlantic’s Norwegian operating company has filed for bankruptcy and cancelled every future flight after lessors took back its 12 planes."
         },
         "tr": {
-          "news": "Norse Atlantic’in Norveç’teki işletme şirketi, kiralayıcılar 12 uçağını geri alınca iflas başvurusu yaptı ve tüm uçuşları iptal etti.",
           "shortTitle": "Norse Atlantic iflas başvurusu yaptı",
           "title": "Norse Atlantic iflas başvurusu yaptı, tüm uçuşlarını iptal etti",
           "summary": {
@@ -1407,7 +1406,8 @@
             "lat": 58.46,
             "lon": 8.77,
             "region": "Norveç"
-          }
+          },
+          "news": "Norse Atlantic’in Norveç’teki işletme şirketi, kiralayıcılar 12 uçağını geri alınca iflas başvurusu yaptı ve tüm uçuşları iptal etti."
         }
       },
       "timeline": [
@@ -1495,6 +1495,40 @@
           "question": "Mekke İttifakı’nın sekretaryası hangi şehirde kurulacak?",
           "options": ["İslamabad", "Riyad", "İstanbul"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909328",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-28T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909328"
       }
     }
   ]
