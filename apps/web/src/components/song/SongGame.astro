@@ -51,7 +51,7 @@ const BARS = 56;
   >
     <Header lang={lang} bulletinName={words.name} />
 
-    <div class="sg-top">
+    <div class="wg-bar">
       <GameSwitch lang={lang} current="song" />
       <div class="wg-tools">
         <button type="button" class="wg-icon" data-open="help" aria-label={words.howToPlay}>
@@ -104,6 +104,22 @@ const BARS = 56;
         <span class="wg-pips sg-pips" data-pips aria-hidden="true">
           {Array.from({ length: MAX_TRIES }, () => <i />)}
         </span>
+        <button
+          type="button"
+          class="sg-skip"
+          data-skip
+          aria-label={words.skip(secondsLabel(0.9, lang))}
+        >
+          <span data-skip-label>+{secondsLabel(0.9, lang)}</span>
+          <span class="sg-skip-ring">
+            <svg class="sg-skip-mark" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 6l8 6-8 6zM18 6v12" />
+            </svg>
+            <svg class="sg-flag" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 21V4M6 4h11l-2.5 4L17 12H6" />
+            </svg>
+          </span>
+        </button>
       </div>
 
       <ol class="sg-tries" data-tries></ol>
@@ -133,12 +149,6 @@ const BARS = 56;
         </div>
         <ul id="sg-suggestions" class="sg-suggestions" role="listbox" data-suggestions hidden></ul>
         <p class="sg-message" data-message role="status" hidden></p>
-        <button type="button" class="sg-skip" data-skip>
-          <svg class="sg-skip-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M5 6l8 6-8 6zM18 6v12" />
-          </svg>
-          <span data-skip-label>{words.skip(secondsLabel(0.9, lang))}</span>
-        </button>
       </form>
 
       <section class="sg-reveal" data-reveal hidden></section>

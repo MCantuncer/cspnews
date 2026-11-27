@@ -62,25 +62,29 @@
   margin-inline: auto;
 }
 
-/* Language links and the two tools. */
-.wg-top {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+/*
+ * The game bar, the same on both game pages: Word and Song on the left, help and stats on the
+ * right, so switching games never moves anything.
+ */
+.wg-bar {
+  display: flex;
   align-items: center;
-  padding: 6px var(--gutter) 0;
+  justify-content: space-between;
+  padding: 8px var(--gutter) 0;
 }
 
+/* Today's language, at the right of the puzzle line. A solved language gets a green dot. */
 .wg-langs {
   display: flex;
-  grid-column: 2;
-  gap: 28px;
+  gap: 18px;
+  margin-left: auto;
 }
 
 .wg-langs a {
   display: flex;
   align-items: center;
-  gap: 8px;
-  min-height: 44px;
+  gap: 6px;
+  min-height: 40px;
   color: var(--meta);
   font: 500 15px / 1 var(--f-body);
   text-decoration: none;
@@ -92,14 +96,14 @@
 }
 
 .wg-dot {
-  width: 8px;
-  height: 8px;
-  border: 1.5px solid var(--line2);
+  display: none;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
 }
 
 .wg-dot.done {
-  border-color: var(--wg-green);
+  display: block;
   background: var(--wg-green);
 }
 
@@ -383,7 +387,7 @@
 }
 
 .wg-key.absent {
-  background: transparent;
+  background: color-mix(in srgb, var(--wg-key) 45%, transparent);
   color: var(--wg-on-grey);
 }
 
@@ -821,12 +825,6 @@
   }
 }
 
-/* The Word and Song switch (components/GameSwitch.astro), above the language links. */
-.wg-games {
-  display: flex;
-  padding: 8px var(--gutter) 0;
-}
-
 /*
  * With a mouse the keyboard is a click away anywhere, so on a desktop the board and keyboard stay
  * together as one block under the language links, like the song game, instead of the keyboard
@@ -840,5 +838,58 @@
 
   .wg-kb {
     padding-block-end: 48px;
+  }
+}
+
+/*
+ * The puzzle line keeps the number and the language; the date is in the finish sheet and the
+ * pips repeat what the empty rows already show.
+ */
+.wg-puzzle .wg-date,
+.wg-puzzle .wg-pips {
+  display: none;
+}
+
+/* A desktop screen with room to spare gets bigger tiles and keys, still one compact block. */
+@media (hover: hover) and (pointer: fine) and (width >= 900px) and (height >= 860px) {
+  .wg-row {
+    grid-template-columns: repeat(5, 60px);
+  }
+
+  .wg-t {
+    height: 60px;
+    font-size: 27px;
+  }
+
+  .wg-line {
+    width: 324px;
+  }
+
+  .wg-kb {
+    max-width: 480px;
+  }
+
+  .wg-key,
+  .wg-kb[data-layout='tr'] .wg-key {
+    max-width: 40px;
+    height: 56px;
+  }
+
+  .wg-key.wg-wide,
+  .wg-kb[data-layout='tr'] .wg-key.wg-wide {
+    flex-basis: 62px;
+    max-width: 62px;
+  }
+}
+
+/* On a desktop the help and stats open in the middle of the screen, not as a phone sheet. */
+@media (width >= 720px) {
+  .wg-dialog {
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .wg-dialog .wg-sheet {
+    border-radius: 24px;
   }
 }

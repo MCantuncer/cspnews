@@ -32,14 +32,6 @@
   --g: var(--sg-hits);
 }
 
-/* Word and Song on the left, the two tools on the right. */
-.sg-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px var(--gutter) 0;
-}
-
 .sg-friend {
   margin-block: 16px 0;
   padding: 0 var(--gutter);
@@ -162,7 +154,7 @@
   position: absolute;
   top: 0;
   left: calc(var(--at) * 100%);
-  color: var(--faint);
+  color: var(--meta2);
   font: 500 12px / 1 var(--f-body);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
@@ -230,11 +222,8 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* The opened clips on the line above already show how many tries are left. */
 .sg-pips {
-  align-self: center;
-}
-
-.sg-stage.over .sg-pips {
   display: none;
 }
 
@@ -463,47 +452,62 @@
   display: none;
 }
 
-/* Skip opens the next clip: a small pill at the field's right edge, under the send arrow. */
+/*
+ * Skip sits in the player row, at the far end from Play: the extra seconds, then a ring with the
+ * skip mark. On the last clip it becomes Give up with a flag.
+ */
 .sg-skip {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-self: end;
-  gap: 8px;
-  min-height: 40px;
-  padding: 0 16px 0 12px;
-  border: 1.5px solid var(--line2);
-  border-radius: 999px;
+  gap: 12px;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
   background: none;
   color: var(--ink);
-  font: 600 15px / 1 var(--f-body);
+  font: 600 16px / 1 var(--f-body);
   font-variant-numeric: tabular-nums;
   cursor: pointer;
+}
+
+.sg-skip-ring {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1.5px solid var(--line2);
+  border-radius: 50%;
   transition:
     border-color var(--dur-fast) var(--ease-out),
     background var(--dur-fast) var(--ease-out);
 }
 
-.sg-skip-icon {
-  flex: none;
-  color: var(--ink2);
-}
-
-.sg-skip.give-up {
-  padding-inline-start: 16px;
-}
-
-.sg-skip.give-up .sg-skip-icon {
-  display: none;
-}
-
-.sg-skip:hover {
+.sg-skip:hover .sg-skip-ring {
   border-color: var(--ink);
   background: var(--surf);
 }
 
 .sg-skip:focus-visible {
+  outline: none;
+}
+
+.sg-skip:focus-visible .sg-skip-ring {
   outline: 2px solid var(--ink);
-  outline-offset: 2px;
+  outline-offset: 3px;
+}
+
+.sg-skip .sg-flag,
+.sg-skip.give-up .sg-skip-mark {
+  display: none;
+}
+
+.sg-skip.give-up .sg-flag {
+  display: block;
+}
+
+.sg-stage.over .sg-skip {
+  display: none;
 }
 
 /* After a round: the cover large, the song, the points, where to hear all of it. */
