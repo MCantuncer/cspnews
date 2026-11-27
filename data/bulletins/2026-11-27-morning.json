@@ -738,7 +738,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0866da08488df397511517.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b0866da08488df397511517.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/uyusturucu-sorusturmasinda-3-kisiye-tutuklama-talebi-izzet-ozilhan-ve-cem-karciya-adli-kontrol-43392388"
@@ -1749,6 +1749,40 @@
           "question": "Kesin sonuçlara göre Yeni Zelanda’da Ulusal Parti liderliğindeki blok kaç sandalyeye sahip?",
           "options": ["65", "66", "70"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909328",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-28T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909328"
       }
     }
   ]
