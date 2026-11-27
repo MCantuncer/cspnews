@@ -32,6 +32,8 @@ const { lang } = Astro.props;
 const words = songWordsFor(lang);
 const sets = songWindow(gameDayAt(new Date()));
 const latest = loadBulletins()[0];
+/** Bars in the waveform; bar i covers the clip from (i / BARS)² to ((i + 1) / BARS)² of 16 s. */
+const BARS = 56;
 ---
 
 <Base
@@ -63,52 +65,54 @@ const latest = loadBulletins()[0];
 
     <p class="sg-friend" data-friend hidden></p>
 
-    <ol class="sg-rounds" data-rounds aria-label={words.name}>
-      {
-        GENRES.map((genre, index) => (
-          <li data-round class={`g-${genre}`}>
-            <span class="sg-dot" aria-hidden="true" />
-            <span class="sg-genre">
-              <small>{String(index + 1)}</small> {words.genres[genre]}
-            </span>
-            <span class="sg-round-points" data-round-points />
-          </li>
-        ))
-      }
-    </ol>
+    <div class="sg-round">
+      <ol class="sg-progress" data-rounds aria-label={words.name}>
+        {GENRES.map((genre) => <li data-round class={`g-${genre}`} />)}
+      </ol>
+      <div class="sg-round-head">
+        <h2 class="sg-genre" data-genre>{words.genres['pop-tr']}</h2>
+        <p class="sg-count" data-count></p>
+      </div>
+    </div>
 
     <main class="sg-stage" data-stage>
-      <p class="wg-puzzle sg-line">
-        <span class="wg-no" data-number></span>
-        <span class="wg-date" data-date></span>
-      </p>
-
-      <div class="sg-player">
-        <button type="button" class="sg-play" data-play aria-label={words.play(secondsLabel(0.1, lang))}>
-          <MusicIcon name="play" size={26} />
-        </button>
-        <p class="sg-play-label" data-play-label aria-hidden="true">{words.play(secondsLabel(0.1, lang))}</p>
-      </div>
-
-      <div class="sg-bar" data-bar aria-hidden="true">
-        <div class="sg-track"><i class="sg-open"></i><i class="sg-played"></i></div>
-        <ol class="sg-steps">
+      <div class="sg-wave" aria-hidden="true">
+        <div class="sg-bars" data-bars>
+          {Array.from({ length: BARS }, () => <i />)}
+        </div>
+        <ol class="sg-ticks">
           {
             CLIP_SECONDS.map((seconds) => (
-              <li data-step style={`--at: ${String(barPosition(seconds))}`}>
-                <span>{secondsLabel(seconds, lang)}</span>
+              <li data-tick style={`--at: ${String(barPosition(seconds))}`}>
+                {secondsLabel(seconds, lang)}
               </li>
             ))
           }
         </ol>
       </div>
 
-      <ol class="sg-tries" data-tries>
-        {Array.from({ length: MAX_TRIES }, () => <li class="sg-try empty" />)}
-      </ol>
+      <div class="sg-controls">
+        <button
+          type="button"
+          class="sg-play"
+          data-play
+          aria-label={words.play(secondsLabel(0.1, lang))}
+        >
+          <MusicIcon name="play" size={24} />
+        </button>
+        <p class="sg-clip" data-play-label aria-hidden="true">{secondsLabel(0.1, lang)}</p>
+        <span class="wg-pips sg-pips" data-pips aria-hidden="true">
+          {Array.from({ length: MAX_TRIES }, () => <i />)}
+        </span>
+      </div>
+
+      <ol class="sg-tries" data-tries></ol>
 
       <form class="sg-guess" data-guess-form autocomplete="off">
         <div class="sg-field">
+          <svg class="sg-search" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5 20 20" />
+          </svg>
           <input
             type="text"
             data-guess
@@ -121,13 +125,15 @@ const latest = loadBulletins()[0];
             enterkeyhint="go"
             spellcheck="false"
           />
+          <button type="submit" class="sg-submit" aria-label={words.submit}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </button>
           <ul id="sg-suggestions" class="sg-suggestions" role="listbox" data-suggestions hidden></ul>
         </div>
         <p class="sg-message" data-message role="status" hidden></p>
-        <div class="sg-actions">
-          <button type="button" class="sg-skip" data-skip>{words.skip(secondsLabel(0.9, lang))}</button>
-          <button type="submit" class="wg-btn sg-submit">{words.submit}</button>
-        </div>
+        <button type="button" class="sg-skip" data-skip>{words.skip(secondsLabel(0.9, lang))}</button>
       </form>
 
       <section class="sg-reveal" data-reveal hidden></section>

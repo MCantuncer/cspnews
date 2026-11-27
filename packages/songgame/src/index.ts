@@ -16,7 +16,7 @@ export {
 } from './rounds.js';
 export type { Genre, Round } from './rounds.js';
 
-export { isSameSong, plain, searchSongs, songLabel } from './names.js';
+export { isSameSong, matchRanges, plain, searchSongs, songLabel } from './names.js';
 export type { SongName } from './names.js';
 
 export { FIRST_DAY, MIN_DAYS_LEFT, setNumber, songDaysLeft, songOn } from './days.js';

@@ -812,9 +812,8 @@
   }
 }
 
-/* The Word · Song switch (components/GameSwitch.astro), above the language links. */
+/* The Word and Song switch (components/GameSwitch.astro), above the language links. */
 .wg-games {
   display: flex;
-  justify-content: center;
-  padding: 18px var(--gutter) 0;
+  padding: 8px var(--gutter) 0;
 }

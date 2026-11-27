@@ -1,6 +1,6 @@
 /**
  * The daily song game in the browser (components/song/SongGame.astro, docs/song-game.md).
- * Three rounds a day; each starts with 0.1 s of the song and opens a longer clip after every
+ * Four rounds a day; each starts with 0.1 s of the song and opens a longer clip after every
  * miss or skip. The day in progress, the finished days and the streak live in localStorage.
  */
 import {
@@ -12,6 +12,8 @@ import {
   isOnLastClip,
   isRoundOver,
   isSameSong,
+  matchRanges,
+  plain,
   pointsFor,
   readShareCode,
   revealText,
@@ -137,7 +139,11 @@ export function startSongGame(root: HTMLElement): void {
   const roundsList = $('[data-rounds]');
   const playButton = root.querySelector<HTMLButtonElement>('[data-play]');
   const playLabel = $('[data-play-label]');
-  const bar = $('[data-bar]');
+  const bars = [...root.querySelectorAll<HTMLElement>('[data-bars] i')];
+  const ticks = [...root.querySelectorAll<HTMLElement>('[data-tick]')];
+  const genreTitle = $('[data-genre]');
+  const count = $('[data-count]');
+  const pips = [...root.querySelectorAll<HTMLElement>('[data-pips] i')];
   const tries = $('[data-tries]');
   const form = root.querySelector<HTMLFormElement>('[data-guess-form]');
   const input = root.querySelector<HTMLInputElement>('[data-guess]');
@@ -210,37 +216,59 @@ export function startSongGame(root: HTMLElement): void {
     }
   }
 
-  // ---- The three rounds along the top ----
+  // ---- The four rounds along the top ----
   function renderRounds(): void {
     if (!roundsList) return;
     roundsList.querySelectorAll<HTMLElement>('[data-round]').forEach((item, index) => {
       const round = rounds[index] ?? { guesses: [] };
-      const over = isRoundOver(round);
       item.classList.toggle('now', index === current && !finished());
-      item.classList.toggle('done', over);
+      item.classList.toggle('done', isRoundOver(round));
       item.classList.toggle('named', round.solvedOn !== undefined);
-      if (index === current) item.setAttribute('aria-current', 'step');
-      else item.removeAttribute('aria-current');
-      const points = item.querySelector('[data-round-points]');
-      if (points) points.textContent = over ? words.points(pointsFor(round)) : '';
     });
+    const genre = GENRES[current] ?? 'pop-tr';
+    root.dataset.genre = genre;
+    if (genreTitle) genreTitle.textContent = words.genres[genre];
+    if (count) count.textContent = words.roundOf(current + 1, GENRES.length);
   }
 
-  // ---- The clip bar ----
-  function renderBar(progress?: number): void {
-    if (!bar) return;
+  // ---- The waveform ----
+  /** Loudness per bar, from the decoded song; a quiet flat line until it is ready. */
+  let levels: number[] = bars.map(() => 0.12);
+
+  function loadLevels(index: number): void {
+    const clip = clipOf(index);
+    const song = daySet.songs[index];
+    if (!clip || !song) return;
+    clip.ready
+      .then(() => {
+        if (index !== current) return;
+        const measured = clip.levels(song.start, LONGEST, bars.length);
+        if (!measured) return;
+        levels = measured;
+        bars.forEach((item, at) => {
+          item.style.setProperty('--h', (levels[at] ?? 0).toFixed(3));
+        });
+      })
+      .catch(() => undefined);
+  }
+
+  /** Paints the bars: open up to the clip the reader may hear, the genre colour up to `heard`. */
+  function renderBar(heard?: number): void {
     const round = rounds[current] ?? { guesses: [] };
     const open = isRoundOver(round) ? LONGEST : clipFor(round);
-    bar.style.setProperty('--open', String(barPosition(open)));
-    bar.style.setProperty('--played', String(progress === undefined ? 0 : barPosition(progress)));
-    bar.querySelectorAll<HTMLElement>('[data-step]').forEach((step, index) => {
-      const length = CLIP_SECONDS[index] ?? 0;
-      step.classList.toggle('open', length <= open);
-      step.classList.toggle(
-        'hit',
-        round.solvedOn !== undefined && stepOf(round.solvedOn) === index,
-      );
+    const openAt = barPosition(open) * bars.length;
+    const playedAt = heard === undefined ? -1 : barPosition(heard) * bars.length;
+    bars.forEach((item, index) => {
+      item.classList.toggle('open', index < openAt - 0.01);
+      item.classList.toggle('played', index < playedAt);
     });
+    ticks.forEach((tick, index) => {
+      const length = CLIP_SECONDS[index] ?? 0;
+      tick.classList.toggle('open', length <= open);
+      tick.classList.toggle('edge', length === open && !isRoundOver(round));
+    });
+    const used = Math.min(round.guesses.length, MAX_TRIES);
+    pips.forEach((pip, index) => pip.classList.toggle('used', index < used));
   }
 
   // ---- Play / stop ----
@@ -248,15 +276,21 @@ export function startSongGame(root: HTMLElement): void {
   function setPlaying(on: boolean): void {
     playing = on;
     if (!playButton) return;
-    playButton.replaceChildren(icon(on ? 'stop' : 'play', 26));
+    playButton.replaceChildren(icon(on ? 'stop' : 'play', 24));
     playButton.setAttribute('aria-label', on ? words.stop : playText());
     playButton.classList.toggle('playing', on);
-    if (playLabel) playLabel.textContent = on ? words.stop : playText();
+    if (playLabel) playLabel.textContent = clipText();
   }
 
   function playText(): string {
     const round = rounds[current] ?? { guesses: [] };
     return isRoundOver(round) ? words.listen : words.play(seconds(clipFor(round)));
+  }
+
+  /** The big number beside the play button: the clip on offer, or the whole preview after. */
+  function clipText(): string {
+    const round = rounds[current] ?? { guesses: [] };
+    return isRoundOver(round) ? seconds(30) : seconds(clipFor(round));
   }
 
   async function togglePlay(): Promise<void> {
@@ -272,11 +306,10 @@ export function startSongGame(root: HTMLElement): void {
     // After the round, the whole preview plays from its own start.
     const from = over ? 0 : song.start;
     const length = over ? 30 : clipFor(round);
-    if (playLabel) playLabel.textContent = words.loading;
     try {
       await clip.ready;
     } catch {
-      if (playLabel) playLabel.textContent = words.loadFailed;
+      showMessage(words.loadFailed);
       return;
     }
     setPlaying(true);
@@ -294,31 +327,34 @@ export function startSongGame(root: HTMLElement): void {
   }
 
   // ---- Tries ----
+  const MARKS = {
+    wrong: '<path d="M6 6l12 12M18 6 6 18"/>',
+    skip: '<path d="M4 12h12M12 7l5 5-5 5M20 6v12"/>',
+    right: '<path d="M4.5 12.5 9.5 17.5 19.5 6.5"/>',
+  } as const;
+
+  function mark(kind: keyof typeof MARKS): HTMLElement {
+    const holder = element('span', 'sg-try-mark');
+    holder.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${MARKS[kind]}</svg>`;
+    return holder;
+  }
+
+  /** Only the tries made so far, newest last; the pips show how many are left. */
   function renderTries(): void {
     if (!tries) return;
     const round = rounds[current] ?? { guesses: [] };
-    // Six lines, and more while the reader keeps guessing on the last clip.
-    const lines = Math.max(MAX_TRIES, round.guesses.length + (isRoundOver(round) ? 0 : 1));
     tries.replaceChildren(
-      ...Array.from({ length: lines }, (_, index): HTMLElement[] | HTMLElement => {
-        const item = element('li', 'sg-try');
-        const entry = round.guesses[index];
-        const at = seconds(CLIP_SECONDS[stepOf(index)] ?? 0);
-        if (index >= round.guesses.length) {
-          // Once the round is over, only the tries actually used stay.
-          if (isRoundOver(round)) return [];
-          item.classList.add('empty');
-          item.append(element('span', 'sg-try-at', at));
-          return item;
-        }
+      ...round.guesses.map((entry, index) => {
         const right = round.solvedOn === index;
-        item.classList.add(entry === null ? 'skip' : right ? 'right' : 'wrong');
+        const kind = entry === null ? 'skip' : right ? 'right' : 'wrong';
+        const item = element('li', `sg-try ${kind}`);
         item.append(
-          element('span', 'sg-try-at', at),
+          mark(kind),
           element('span', 'sg-try-name', entry ?? words.skipped),
+          element('span', 'sg-try-at', seconds(CLIP_SECONDS[stepOf(index)] ?? 0)),
         );
         return item;
-      }).flat(),
+      }),
     );
   }
 
@@ -333,24 +369,60 @@ export function startSongGame(root: HTMLElement): void {
     message.hidden = text === '';
   }
 
+  /** The name with the typed words set in bold. */
+  function marked(text: string, typed: string): (string | HTMLElement)[] {
+    const parts: (string | HTMLElement)[] = [];
+    let at = 0;
+    for (const [start, end] of matchRanges(text, typed)) {
+      if (start > at) parts.push(text.slice(at, start));
+      parts.push(element('b', undefined, text.slice(start, end)));
+      at = end;
+    }
+    if (at < text.length) parts.push(text.slice(at));
+    return parts;
+  }
+
   function renderSuggestions(): void {
     if (!list || !input) return;
-    list.replaceChildren(
-      ...suggestions.map((song, index) => {
-        const option = element('li', 'sg-option');
-        option.id = `sg-option-${String(index)}`;
-        option.setAttribute('role', 'option');
-        option.setAttribute('aria-selected', String(index === active));
-        option.append(element('b', undefined, song.title), element('span', undefined, song.artist));
-        option.addEventListener('pointerdown', (event) => {
-          event.preventDefault();
-          choose(song);
-        });
-        return option;
-      }),
-    );
+    const typed = input.value;
+    // When every suggestion is by the one artist the reader typed, name the artist once on top.
+    const first = suggestions[0];
+    const oneArtist =
+      suggestions.length > 1 &&
+      first !== undefined &&
+      suggestions.every((song) => plain(song.artist) === plain(first.artist)) &&
+      matchRanges(first.artist, typed).length > 0;
+    const rows: HTMLElement[] = [];
+    if (oneArtist) {
+      const head = element('li', 'sg-option-artist');
+      head.setAttribute('role', 'presentation');
+      head.append(...marked(first.artist, typed));
+      rows.push(head);
+    }
+    suggestions.forEach((song, index) => {
+      const option = element('li', 'sg-option');
+      option.id = `sg-option-${String(index)}`;
+      option.setAttribute('role', 'option');
+      option.setAttribute('aria-selected', String(index === active));
+      option.setAttribute('aria-label', songLabel(song));
+      const title = element('span', 'sg-option-title');
+      title.append(...marked(song.title, typed));
+      option.append(title);
+      if (!oneArtist) {
+        const artist = element('span', 'sg-option-by');
+        artist.append(...marked(song.artist, typed));
+        option.append(artist);
+      }
+      option.addEventListener('pointerdown', (event) => {
+        event.preventDefault();
+        choose(song);
+      });
+      rows.push(option);
+    });
+    list.replaceChildren(...rows);
     const open = suggestions.length > 0;
     list.hidden = !open;
+    input.closest('.sg-field')?.classList.toggle('open', open);
     input.setAttribute('aria-expanded', String(open));
     if (active >= 0) input.setAttribute('aria-activedescendant', `sg-option-${String(active)}`);
     else input.removeAttribute('aria-activedescendant');
@@ -368,7 +440,7 @@ export function startSongGame(root: HTMLElement): void {
   input?.addEventListener('input', () => {
     chosen = undefined;
     showMessage('');
-    suggestions = searchSongs(catalog, input.value, 6);
+    suggestions = searchSongs(catalog, input.value, 5);
     active = -1;
     renderSuggestions();
   });
@@ -448,52 +520,62 @@ export function startSongGame(root: HTMLElement): void {
   playButton?.addEventListener('click', () => void togglePlay());
 
   // ---- After a round ----
+  function coverImage(src: string, className: string, size: number): HTMLImageElement {
+    const cover = element('img', className);
+    cover.src = src;
+    cover.alt = '';
+    cover.width = size;
+    cover.height = size;
+    cover.addEventListener('error', () => {
+      cover.removeAttribute('src');
+    });
+    return cover;
+  }
+
   function renderReveal(): void {
     if (!reveal) return;
     const round = rounds[current] ?? { guesses: [] };
     const answer = answers[current];
     if (!answer) return;
     const heard = secondsHeard(round);
-    const card = element('div', 'sg-card');
-    const cover = element('img', 'sg-cover');
-    cover.src = answer.artwork;
-    cover.alt = '';
-    cover.width = 72;
-    cover.height = 72;
-    const text = element('div', 'sg-card-text');
+
+    const song = element('div', 'sg-song');
+    const text = element('div', 'sg-song-text');
     text.append(
       element(
         'p',
-        `sg-verdict ${heard === undefined ? 'missed' : 'named'}`,
+        heard === undefined ? 'sg-verdict missed' : 'sg-verdict',
         heard === undefined ? words.notNamed : words.namedIn(seconds(heard)),
       ),
-      element('h2', 'sg-title', answer.title),
-      element(
-        'p',
-        'sg-artist',
-        [answer.artist, answer.year ? String(answer.year) : ''].filter(Boolean).join(' · '),
-      ),
+      element('h3', 'sg-title', answer.title),
     );
-    const points = element('p', 'sg-card-points', words.points(pointsFor(round)));
-    card.append(cover, text, points);
+    const artist = element('p', 'sg-artist', answer.artist);
+    if (answer.year) artist.append(element('span', 'sg-year', `, ${String(answer.year)}`));
+    text.append(artist);
+    song.append(coverImage(answer.artwork, 'sg-cover', 112), text);
+
+    const points = element('p', 'sg-points');
+    points.append(
+      element('b', undefined, String(pointsFor(round))),
+      element('span', undefined, words.pointsWord),
+    );
 
     // The full song: YouTube first (free, no account), then Spotify and Apple Music.
-    const full = element('div', 'sg-full');
+    const full = element('p', 'sg-full');
+    full.append(element('span', undefined, words.fullSong));
     const query = encodeURIComponent(`${answer.artist} ${answer.title}`);
-    for (const [label, href, main] of [
-      [words.youtube, `https://www.youtube.com/results?search_query=${query}`, true],
-      ['Spotify', `https://open.spotify.com/search/${query}`, false],
-      [words.appleMusic, answer.link, false],
+    for (const [label, href] of [
+      [words.youtube, `https://www.youtube.com/results?search_query=${query}`],
+      ['Spotify', `https://open.spotify.com/search/${query}`],
+      [words.appleMusic, answer.link],
     ] as const) {
-      const link = element('a', main ? 'sg-link main' : 'sg-link', label);
+      const link = element('a', 'sg-link', label);
       link.href = href;
       link.target = '_blank';
       link.rel = 'noopener';
       full.append(link);
     }
-    const fullLabel = element('p', 'sg-full-label', words.fullSong);
 
-    const actions = element('div', 'sg-card-actions');
     const next = element(
       'button',
       'wg-btn sg-next',
@@ -505,14 +587,19 @@ export function startSongGame(root: HTMLElement): void {
       if (current < GENRES.length - 1) {
         current += 1;
         viewingReveal = false;
+        levels = bars.map(() => 0.12);
+        bars.forEach((item) => {
+          item.style.setProperty('--h', '0.12');
+        });
+        loadLevels(current);
         render();
         playButton?.focus();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       } else {
         showResult(true);
       }
     });
-    actions.append(next);
-    reveal.replaceChildren(card, fullLabel, full, actions);
+    reveal.replaceChildren(song, points, full, next);
   }
 
   // ---- The day's score ----
@@ -522,7 +609,7 @@ export function startSongGame(root: HTMLElement): void {
     const points = totalPoints(rounds);
     const body = element('div', 'sg-result-body');
 
-    const head = element('div', 'sg-score');
+    const head = element('p', 'sg-score');
     head.append(element('b', undefined, String(points)), element('span', undefined, words.total));
     body.append(head, element('p', 'sg-score-line', scoreLineFor(points, lang)));
 
@@ -531,15 +618,19 @@ export function startSongGame(root: HTMLElement): void {
       const round = rounds[index] ?? { guesses: [] };
       const answer = answers[index];
       const heard = secondsHeard(round);
-      const row = element('li', heard === undefined ? 'missed' : 'named');
-      const name = element('span', 'sg-r-name');
-      name.append(
-        element('small', undefined, words.genres[genre]),
-        element('b', undefined, answer ? songLabel(answer) : ''),
+      const row = element('li', `g-${genre} ${heard === undefined ? 'missed' : 'named'}`);
+      const text = element('div', 'sg-r-text');
+      const meter = element('span', 'sg-r-heard');
+      const line = element('i');
+      line.style.setProperty('--heard', String(heard === undefined ? 0 : barPosition(heard)));
+      meter.append(
+        line,
+        element('span', undefined, heard === undefined ? words.missedShort : seconds(heard)),
       );
+      text.append(element('b', undefined, answer ? songLabel(answer) : words.genres[genre]), meter);
       row.append(
-        name,
-        element('span', 'sg-r-heard', heard === undefined ? '–' : seconds(heard)),
+        coverImage(answer?.artwork ?? '', 'sg-r-cover', 48),
+        text,
         element('span', 'sg-r-points', String(pointsFor(round))),
       );
       rows.append(row);
@@ -547,32 +638,26 @@ export function startSongGame(root: HTMLElement): void {
     body.append(rows);
 
     if (friend?.day === daySet.day) {
-      const versus = element('div', 'sg-versus');
-      const mine = element('p', points >= friend.points ? 'lead' : '');
-      mine.append(element('small', undefined, words.you), element('b', undefined, String(points)));
-      const theirs = element('p', friend.points >= points ? 'lead' : '');
-      theirs.append(
-        element('small', undefined, words.friend),
-        element('b', undefined, String(friend.points)),
-      );
+      const versus = element('dl', 'sg-versus');
+      for (const [label, value, lead] of [
+        [words.you, points, points >= friend.points],
+        [words.friend, friend.points, friend.points >= points],
+      ] as const) {
+        const cell = element('div', lead ? 'lead' : '');
+        cell.append(element('dt', undefined, label), element('dd', undefined, String(value)));
+        versus.append(cell);
+      }
       const verdict =
         points > friend.points
           ? words.youWin
           : points < friend.points
             ? words.friendWins
             : words.tie;
-      versus.append(mine, theirs, element('p', 'sg-versus-line', verdict));
-      body.append(versus);
+      body.append(versus, element('p', 'sg-versus-line', verdict));
     }
 
     const stats = songStats(results, daySet.day, MAX_TRIES);
-    const streak = element('p', 'sg-streak');
-    streak.append(
-      element('b', undefined, String(stats.streak)),
-      element('span', undefined, ` ${words.streak}`),
-      element('small', undefined, words.best(stats.bestStreak)),
-    );
-    body.append(streak);
+    body.append(element('p', 'sg-streak', words.streakLine(stats.streak, stats.bestStreak)));
 
     const actions = element('div', 'sg-result-actions');
     const share = element('button', 'wg-btn');
@@ -604,8 +689,11 @@ export function startSongGame(root: HTMLElement): void {
     result.replaceChildren(body);
     result.hidden = false;
     stage.hidden = true;
-    if (fresh) result.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    if (fresh) window.scrollTo({ top: 0, behavior: 'smooth' });
     renderRounds();
+    if (genreTitle) genreTitle.textContent = words.dayScore(daySet.number);
+    if (count) count.textContent = puzzleDate(daySet.day, lang);
+    delete root.dataset.genre;
   }
 
   // ---- Stats dialog ----
@@ -622,10 +710,10 @@ export function startSongGame(root: HTMLElement): void {
       [words.played, String(stats.played)],
       [words.average, String(stats.averagePoints)],
       [words.bestScore, String(stats.bestPoints)],
-      [words.streak, String(stats.streak)],
+      [words.streakNow, String(stats.streak)],
     ] as const) {
       const cell = element('div');
-      cell.append(element('dd', undefined, value), element('dt', undefined, label));
+      cell.append(element('dt', undefined, label), element('dd', undefined, value));
       numbers.append(cell);
     }
     const most = Math.max(1, ...stats.namedOn, stats.missed);
@@ -698,12 +786,8 @@ export function startSongGame(root: HTMLElement): void {
     stage?.classList.toggle('over', over);
   }
 
-  const number = $('[data-number]');
-  if (number) number.textContent = `No. ${String(daySet.number)}`;
-  const date = $('[data-date]');
-  if (date) date.textContent = puzzleDate(daySet.day, lang);
-
   clipOf(current);
+  loadLevels(current);
   render();
   if (finished()) showResult(false);
   else if (results.length === 0 && rounds.every((r) => r.guesses.length === 0) && !friend) {

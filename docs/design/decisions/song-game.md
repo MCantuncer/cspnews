@@ -12,17 +12,21 @@ A second daily game beside the word game, asked for by Can on 2026-11-27: hear a
 
 ## The page
 
-`/song` (Turkish `/tr/song`), reached from the header's **Games** place (Oyunlar, formerly Word) and from a **Word · Song** switch at the top of both game pages. Under the switch, the four rounds stand as stations on the day line, each in its genre colour; a filled station is a song named, a hollow one a song missed, and the points sit under it.
+`/song` (Turkish `/tr/song`), reached from the header's **Games** place (Oyunlar, formerly Word) and from a **Word / Song** switch at the top of both game pages, with the help and stats icons on the same row.
 
-The stage, in a phone-wide column: one large round play button (it turns into a stop square while the clip plays, so a clip can always be cut short), then the clip bar. The bar runs from 0 to 16 s on a square-root scale, so 0.1 s is a visible sliver and 16 s is the full width; the part the reader may hear is shaded, and the clip being played fills it in ink. Under it, the tries as slim lines: the clip length at the left, then "Skipped", a struck-through wrong guess, or the right answer on the word game's green. Then the guess box with suggestions opening upward, and two buttons: **Skip, +1 s** (it names how much more you will hear) and **Guess**. On the last clip, Skip becomes **Give up**.
+Redesigned the same day after Can found the first version "amateur", "like a Notepad app from 2010 which also can record audio". The page is now built around the sound itself:
 
-After a round: a card with the cover, the verdict ("Named in 1 s" in the confirmed green, or "Not this time"), the title in the headline face, artist and year, and the round's points. Under it, **The full song** with three pill links: YouTube first (free, no account), then Spotify and Apple Music. YouTube and Spotify open a search for the song, which always finds the official version, without an API key or a list of video ids to keep up to date; Apple Music links the exact track. The play button now plays the whole 30-second preview.
-
-After the fourth round: the score large in the headline face ("280 of 400"), one calm line by score (no exclamation marks, same tone as the word game), the four songs with the clip each was named on and the points, the streak, **Send to a friend**, and the countdown to the next songs.
+- **Progress**: four thin segments in the genre colours fill as the rounds end. Under them, the round's genre as one large title ("Turkish pop", "Global hit") and "1 of 4" at the right. No numbered list of four labels, which wrapped on phones.
+- **Waveform**: 56 bars drawn from the song's real loudness over its first 16 s, on a square-root time scale so 0.1 s is a visible sliver. Bars the reader may hear are in ink, the rest faded; the clip being played lights up as it plays. Clip marks (0.1, 1, 2, 4, 8, 16 s) sit under the bars, the open one in bold.
+- **Controls**: a 64 px round play button (a stop square while playing) beside the clip length in the headline face, and six small marks for the tries left.
+- **Tries**: plain rows with a mark (skip arrow, red cross, green tick), the guess, and the clip length at the right.
+- **Guess box**: one tall field with a search icon and the submit arrow inside it; at most four suggestions open upward so the waveform stays in view. Under it, an underlined **Skip, +0.9 s** that names how much more you will hear; on the last clip it reads **Give up**.
+- **After a round**: a 112 px cover beside the verdict ("Named in 1 s" in green, or "Not this time"), the title, artist and year; the points large; **The full song** with three underlined links (YouTube first, free and no account, then Spotify and Apple Music; YouTube and Spotify open a search, Apple links the exact track); and **Next song**. The play button now plays the whole 30-second preview.
+- **Score**: the day's score very large ("340 of 400"), one calm line by score, then one row per song with its cover, a meter of how much was heard in the genre colour, the clip length and the points; the streak as a sentence; **Send to a friend**; and the countdown to the next songs.
 
 ## Playing against a friend
 
-**Send to a friend** shares a link such as `/song?vs=20261127-13x2`: the day and the try each song was named on (`x` for missed). Nothing else is stored anywhere. A friend who opens it sees "A friend scored 240 on today's songs. Your turn." above the rounds, plays the same four songs, and their score screen shows both scores side by side with the higher one outlined and one line: "You win.", "Your friend wins this one." or "A tie." A link from another day says which day it was for and invites them to play today's.
+**Send to a friend** shares a link such as `/song?vs=20261127-13x2`: the day and the try each song was named on (`x` for missed). Nothing else is stored anywhere. A friend who opens it sees "A friend scored 240 on today's songs. Your turn." above the rounds, plays the same four songs, and their score screen shows both scores side by side, the higher one with an ink bar above it, and one line: "You win.", "Your friend wins this one." or "A tie." A link from another day says which day it was for and invites them to play today's.
 
 ## Clips
 
@@ -39,9 +43,9 @@ Hand-picked songs most listeners know within seconds, one file per genre in `pac
 | English             | Türkçe                   |
 | ------------------- | ------------------------ |
 | Daily Song          | Günün Şarkısı            |
-| Games · Word · Song | Oyunlar · Kelime · Şarkı |
+| Games / Word / Song | Oyunlar / Kelime / Şarkı |
 | Turkish pop         | Türkçe pop               |
-| Global hit          | Dünya hiti               |
+| Global hit          | Global hit               |
 | Play 0.1 s          | 0,1 sn dinle             |
 | Skip, +1 s          | Geç, +1 sn               |
 | Give up             | Pes et                   |

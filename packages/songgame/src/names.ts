@@ -58,3 +58,47 @@ export function searchSongs<T extends SongName>(
     .slice(0, limit)
     .map((entry) => entry.song);
 }
+
+/** One letter folded the way plain() folds it, so a match can be found in the text as written. */
+function foldLetter(letter: string): string {
+  const folded = letter
+    .toLocaleLowerCase('tr')
+    .replace(/ı/g, 'i')
+    .normalize('NFD')
+    .replace(/\p{M}/gu, '');
+  return folded.length === 1 && /[a-z0-9]/.test(folded) ? folded : ' ';
+}
+
+/**
+ * Where the typed words appear in a name, as [start, end) ranges of the text as written, so the
+ * guess box can set them in bold. Only matches at the start of a word count, as in searchSongs.
+ */
+export function matchRanges(text: string, typed: string): [number, number][] {
+  const words = plain(typed).split(' ').filter(Boolean);
+  const letters = Array.from(text);
+  const folded = letters.map(foldLetter).join('');
+  const ranges: [number, number][] = [];
+  for (const word of words) {
+    let from = 0;
+    for (;;) {
+      const at = folded.indexOf(word, from);
+      if (at < 0) break;
+      if (at === 0 || folded[at - 1] === ' ') {
+        ranges.push([at, at + word.length]);
+        break;
+      }
+      from = at + 1;
+    }
+  }
+  ranges.sort((a, b) => a[0] - b[0]);
+  const merged: [number, number][] = [];
+  for (const range of ranges) {
+    const last = merged.at(-1);
+    if (last && range[0] <= last[1]) last[1] = Math.max(last[1], range[1]);
+    else merged.push(range);
+  }
+  // Ranges count letters (code points); turn them into string offsets.
+  const offsets = [0];
+  for (const letter of letters) offsets.push((offsets.at(-1) ?? 0) + letter.length);
+  return merged.map(([start, end]) => [offsets[start] ?? 0, offsets[end] ?? text.length]);
+}

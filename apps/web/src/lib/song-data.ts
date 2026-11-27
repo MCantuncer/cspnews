@@ -61,11 +61,22 @@ export function songWindow(today: GameDay): WindowSet[] {
   });
 }
 
+const ALTERNATE_TAKE =
+  /[([][^)\]]*\b(mix|remix|live|version|edit|acoustic|akustik|demo|remaster(ed)?)\b/i;
+
 /** Every name the guess box offers, as compact [artist, title] pairs. */
 export function songCatalog(): [string, string][] {
   try {
     const catalog = JSON.parse(readFileSync(dataFile('catalog.json'), 'utf8')) as SongName[];
-    return catalog.map((song) => [song.artist, song.title]);
+    // Answers always stay; other names lose mixes, live takes and alternate versions.
+    const answers = new Set(
+      GENRES.flatMap((genre) => readPool(genre).map((song) => `${song.artist}|${song.title}`)),
+    );
+    return catalog
+      .filter(
+        (song) => answers.has(`${song.artist}|${song.title}`) || !ALTERNATE_TAKE.test(song.title),
+      )
+      .map((song) => [song.artist, song.title]);
   } catch {
     return [];
   }

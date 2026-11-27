@@ -3,3 +3,5 @@ dist/
 coverage/
 .astro/
 docs/design/mockups/
+# Written by the Song Pool workflow (packages/songgame/scripts/resolve-songs.js).
+packages/songgame/data/songs/catalog.json
