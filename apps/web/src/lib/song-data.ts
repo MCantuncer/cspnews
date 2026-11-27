@@ -65,9 +65,14 @@ const ALTERNATE_TAKE =
   /[([][^)\]]*\b(mix|remix|live|version|edit|acoustic|akustik|demo|remaster(ed)?)\b/i;
 
 /** Every name the guess box offers, as compact [artist, title] pairs. */
-export function songCatalog(): [string, string][] {
+/** One guess-box name: artist, title and, when known, the cover's path on Apple's image server. */
+export type CatalogEntry = [string, string] | [string, string, string];
+
+export function songCatalog(): CatalogEntry[] {
   try {
-    const catalog = JSON.parse(readFileSync(dataFile('catalog.json'), 'utf8')) as SongName[];
+    const catalog = JSON.parse(readFileSync(dataFile('catalog.json'), 'utf8')) as (SongName & {
+      art?: string;
+    })[];
     // Answers always stay; other names lose mixes, live takes and alternate versions.
     const answers = new Set(
       GENRES.flatMap((genre) => readPool(genre).map((song) => `${song.artist}|${song.title}`)),
@@ -76,7 +81,9 @@ export function songCatalog(): [string, string][] {
       .filter(
         (song) => answers.has(`${song.artist}|${song.title}`) || !ALTERNATE_TAKE.test(song.title),
       )
-      .map((song) => [song.artist, song.title]);
+      .map((song): CatalogEntry =>
+        song.art ? [song.artist, song.title, song.art] : [song.artist, song.title],
+      );
   } catch {
     return [];
   }

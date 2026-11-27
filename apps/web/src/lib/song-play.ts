@@ -13,7 +13,6 @@ import {
   isRoundOver,
   isSameSong,
   matchRanges,
-  plain,
   pointsFor,
   readShareCode,
   revealText,
@@ -46,6 +45,32 @@ import {
 } from './song';
 import { loadClip, type Clip } from './song-audio';
 import { countdown, msUntilNextWord, puzzleDate } from './word';
+
+/** A name the guess box can offer, with its cover's path on Apple's image server when known. */
+interface CatalogSong extends SongName {
+  readonly art?: string | undefined;
+}
+
+const NOTE_ICON =
+  '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>';
+
+/** A small cover for a suggestion row; a plain tile with a note when there is none. */
+function suggestionCover(art: string | undefined): HTMLElement {
+  const tile = element('span', 'sg-option-cover');
+  tile.innerHTML = NOTE_ICON;
+  if (art) {
+    const image = element('img');
+    image.alt = '';
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    image.src = `https://is1-ssl.mzstatic.com/image/thumb/${art}/96x96bb.jpg`;
+    image.addEventListener('error', () => {
+      image.remove();
+    });
+    tile.append(image);
+  }
+  return tile;
+}
 
 interface SavedDay {
   readonly day: GameDay;
@@ -198,11 +223,11 @@ export function startSongGame(root: HTMLElement): void {
     return clip;
   };
 
-  let catalog: SongName[] = [];
+  let catalog: CatalogSong[] = [];
   void fetch(root.dataset.catalog ?? '/song/catalog.json')
-    .then((response) => response.json() as Promise<[string, string][]>)
-    .then((pairs) => {
-      catalog = pairs.map(([artist, title]) => ({ artist, title }));
+    .then((response) => response.json() as Promise<string[][]>)
+    .then((rows) => {
+      catalog = rows.map(([artist = '', title = '', art]) => ({ artist, title, art }));
     })
     .catch(() => undefined);
 
@@ -359,7 +384,7 @@ export function startSongGame(root: HTMLElement): void {
   }
 
   // ---- The guess box ----
-  let suggestions: SongName[] = [];
+  let suggestions: CatalogSong[] = [];
   let active = -1;
   let chosen: SongName | undefined;
 
@@ -385,20 +410,7 @@ export function startSongGame(root: HTMLElement): void {
   function renderSuggestions(): void {
     if (!list || !input) return;
     const typed = input.value;
-    // When every suggestion is by the one artist the reader typed, name the artist once on top.
-    const first = suggestions[0];
-    const oneArtist =
-      suggestions.length > 1 &&
-      first !== undefined &&
-      suggestions.every((song) => plain(song.artist) === plain(first.artist)) &&
-      matchRanges(first.artist, typed).length > 0;
     const rows: HTMLElement[] = [];
-    if (oneArtist) {
-      const head = element('li', 'sg-option-artist');
-      head.setAttribute('role', 'presentation');
-      head.append(...marked(first.artist, typed));
-      rows.push(head);
-    }
     suggestions.forEach((song, index) => {
       const option = element('li', 'sg-option');
       option.id = `sg-option-${String(index)}`;
@@ -407,12 +419,11 @@ export function startSongGame(root: HTMLElement): void {
       option.setAttribute('aria-label', songLabel(song));
       const title = element('span', 'sg-option-title');
       title.append(...marked(song.title, typed));
-      option.append(title);
-      if (!oneArtist) {
-        const artist = element('span', 'sg-option-by');
-        artist.append(...marked(song.artist, typed));
-        option.append(artist);
-      }
+      const artist = element('span', 'sg-option-by');
+      artist.append(...marked(song.artist, typed));
+      const text = element('span', 'sg-option-text');
+      text.append(title, artist);
+      option.append(suggestionCover(song.art), text);
       option.addEventListener('pointerdown', (event) => {
         event.preventDefault();
         choose(song);
@@ -422,7 +433,6 @@ export function startSongGame(root: HTMLElement): void {
     list.replaceChildren(...rows);
     const open = suggestions.length > 0;
     list.hidden = !open;
-    input.closest('.sg-field')?.classList.toggle('open', open);
     input.setAttribute('aria-expanded', String(open));
     if (active >= 0) input.setAttribute('aria-activedescendant', `sg-option-${String(active)}`);
     else input.removeAttribute('aria-activedescendant');
@@ -460,6 +470,15 @@ export function startSongGame(root: HTMLElement): void {
       suggestions = [];
       renderSuggestions();
     }
+  });
+
+  // On a phone the keyboard hides the lower half of the screen, so bring the box up to the top
+  // and let the suggestions open below it.
+  input?.addEventListener('focus', () => {
+    if (!window.matchMedia('(pointer: coarse)').matches) return;
+    window.setTimeout(() => {
+      input.closest('.sg-field')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }, 250);
   });
 
   input?.addEventListener('blur', () => {

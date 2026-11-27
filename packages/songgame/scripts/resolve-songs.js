@@ -24,6 +24,15 @@ const PAUSE_MS = 3200; // iTunes allows about 20 calls a minute.
 const UNWANTED =
   /\b(live|karaoke|instrumental|remix|cover|acoustic|akustik|canlı|tribute|sped up|slowed|re-?recorded|demo|edit\)|mixed)\b/i;
 
+/**
+ * The cover as the guess box stores it: the part of Apple's image address that differs from song
+ * to song. The page puts back "https://is1-ssl.mzstatic.com/image/thumb/" and a size.
+ */
+export function artPath(artworkUrl) {
+  const match = /\/image\/thumb\/(.+)\/\d+x\d+bb\.\w+$/.exec(String(artworkUrl ?? ''));
+  return match ? match[1] : undefined;
+}
+
 const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 let lastCall = 0;
 
@@ -211,8 +220,23 @@ async function main() {
       catalog.set(plain(`${song.artist} ${song.title}`), {
         artist: song.artist,
         title: song.title,
+        art: artPath(song.artwork),
       });
     }
+  }
+
+  // Names saved before covers were kept have none: look up every answer's artist again.
+  if ([...catalog.values()].some((song) => !song.art)) {
+    const pools = GENRES.flatMap((genre) => readJson(join(ROOT, 'songs', `${genre}.json`), []));
+    for (let at = 0; at < pools.length; at += 150) {
+      const batch = pools.slice(at, at + 150);
+      const results = await itunes(`lookup?id=${batch.map((song) => song.apple).join(',')}`);
+      for (const result of results) {
+        const song = batch.find((entry) => entry.apple === String(result.trackId));
+        if (song && result.artistId) artistIds.set(result.artistId, song.artist);
+      }
+    }
+    console.log(`looking up covers for ${String(artistIds.size)} artists`);
   }
 
   // Other well-known songs by the same artists, so the answer is not the only name to pick from.
@@ -225,7 +249,10 @@ async function main() {
         .replace(/\s*\((\d{4}\s+)?remaster.*?\)/i, '')
         .trim();
       const key = plain(`${artist} ${title}`);
-      if (!catalog.has(key)) catalog.set(key, { artist, title });
+      const art = artPath(result.artworkUrl100);
+      const known = catalog.get(key);
+      if (!known) catalog.set(key, { artist, title, art });
+      else if (!known.art && art) known.art = art;
     }
   }
   const sortedCatalog = [...catalog.values()].sort((a, b) =>
