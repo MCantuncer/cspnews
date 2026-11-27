@@ -1,0 +1,53 @@
+name: Song Pool
+
+# Finds the 30-second Apple preview and a clean clip start for every hand-picked song of the daily
+# song game (packages/songgame/data/picks) and commits packages/songgame/data/songs back to the
+# branch. Songs already found are skipped, so a rerun only looks up new picks (docs/song-game.md).
+#
+# Runs when the picks change on a branch other than main, and by hand from the Actions tab.
+
+on:
+  push:
+    branches-ignore: [main, candidates]
+    paths:
+      - 'packages/songgame/data/picks/**'
+      - 'packages/songgame/scripts/resolve-songs.mjs'
+      - '.github/workflows/song-pool.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: song-pool-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: ffmpeg, to find where each preview's music starts
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends ffmpeg)
+
+      - name: Can a web page read Apple's previews? (Web Audio needs CORS)
+        run: |
+          URL=$(curl -s 'https://itunes.apple.com/search?term=queen%20bohemian%20rhapsody&entity=song&limit=1' | grep -o '"previewUrl":"[^"]*' | cut -d'"' -f4)
+          echo "$URL"
+          curl -sI -H 'Origin: https://www.cspnews.app' "$URL" | grep -iE '^(HTTP|access-control|content-type|cache-control|expires)'
+
+      - name: Find the songs
+        run: node packages/songgame/scripts/resolve-songs.mjs
+
+      - name: Commit the songs
+        run: |
+          git config user.name "$(git log -1 --format=%an)"
+          git config user.email "$(git log -1 --format=%ae)"
+          git add packages/songgame/data/songs
+          git diff --cached --quiet && exit 0
+          git commit -m "Song game: find previews for the picked songs"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
