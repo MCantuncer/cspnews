@@ -463,19 +463,37 @@
   display: none;
 }
 
+/* Skip opens the next clip: a small pill at the field's right edge, under the send arrow. */
 .sg-skip {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 52px;
-  padding: 0 20px;
+  justify-self: end;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 16px 0 12px;
   border: 1.5px solid var(--line2);
-  border-radius: 14px;
+  border-radius: 999px;
   background: none;
   color: var(--ink);
-  font: 600 16px / 1 var(--f-body);
+  font: 600 15px / 1 var(--f-body);
+  font-variant-numeric: tabular-nums;
   cursor: pointer;
+  transition:
+    border-color var(--dur-fast) var(--ease-out),
+    background var(--dur-fast) var(--ease-out);
+}
+
+.sg-skip-icon {
+  flex: none;
+  color: var(--ink2);
+}
+
+.sg-skip.give-up {
+  padding-inline-start: 16px;
+}
+
+.sg-skip.give-up .sg-skip-icon {
+  display: none;
 }
 
 .sg-skip:hover {
