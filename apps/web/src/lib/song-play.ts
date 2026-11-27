@@ -460,6 +460,9 @@ export function startSongGame(root: HTMLElement): void {
     cover.alt = '';
     cover.width = 72;
     cover.height = 72;
+    cover.addEventListener('error', () => {
+      cover.style.visibility = 'hidden';
+    });
     const text = element('div', 'sg-card-text');
     text.append(
       element(
