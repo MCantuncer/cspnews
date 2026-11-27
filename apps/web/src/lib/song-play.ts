@@ -13,7 +13,6 @@ import {
   isRoundOver,
   isSameSong,
   matchRanges,
-  plain,
   pointsFor,
   readShareCode,
   revealText,
@@ -385,20 +384,7 @@ export function startSongGame(root: HTMLElement): void {
   function renderSuggestions(): void {
     if (!list || !input) return;
     const typed = input.value;
-    // When every suggestion is by the one artist the reader typed, name the artist once on top.
-    const first = suggestions[0];
-    const oneArtist =
-      suggestions.length > 1 &&
-      first !== undefined &&
-      suggestions.every((song) => plain(song.artist) === plain(first.artist)) &&
-      matchRanges(first.artist, typed).length > 0;
     const rows: HTMLElement[] = [];
-    if (oneArtist) {
-      const head = element('li', 'sg-option-artist');
-      head.setAttribute('role', 'presentation');
-      head.append(...marked(first.artist, typed));
-      rows.push(head);
-    }
     suggestions.forEach((song, index) => {
       const option = element('li', 'sg-option');
       option.id = `sg-option-${String(index)}`;
@@ -407,12 +393,9 @@ export function startSongGame(root: HTMLElement): void {
       option.setAttribute('aria-label', songLabel(song));
       const title = element('span', 'sg-option-title');
       title.append(...marked(song.title, typed));
-      option.append(title);
-      if (!oneArtist) {
-        const artist = element('span', 'sg-option-by');
-        artist.append(...marked(song.artist, typed));
-        option.append(artist);
-      }
+      const artist = element('span', 'sg-option-by');
+      artist.append(...marked(song.artist, typed));
+      option.append(title, artist);
       option.addEventListener('pointerdown', (event) => {
         event.preventDefault();
         choose(song);
@@ -422,7 +405,6 @@ export function startSongGame(root: HTMLElement): void {
     list.replaceChildren(...rows);
     const open = suggestions.length > 0;
     list.hidden = !open;
-    input.closest('.sg-field')?.classList.toggle('open', open);
     input.setAttribute('aria-expanded', String(open));
     if (active >= 0) input.setAttribute('aria-activedescendant', `sg-option-${String(active)}`);
     else input.removeAttribute('aria-activedescendant');
@@ -460,6 +442,15 @@ export function startSongGame(root: HTMLElement): void {
       suggestions = [];
       renderSuggestions();
     }
+  });
+
+  // On a phone the keyboard hides the lower half of the screen, so bring the box up to the top
+  // and let the suggestions open below it.
+  input?.addEventListener('focus', () => {
+    if (!window.matchMedia('(pointer: coarse)').matches) return;
+    window.setTimeout(() => {
+      input.closest('.sg-field')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }, 250);
   });
 
   input?.addEventListener('blur', () => {
