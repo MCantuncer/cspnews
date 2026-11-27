@@ -794,16 +794,15 @@ export function startSongGame(root: HTMLElement): void {
     }
     if (skipButton) {
       const giveUp = isOnLastClip(round);
+      const extra = seconds(
+        (CLIP_SECONDS[round.guesses.length + 1] ?? 0) - (CLIP_SECONDS[round.guesses.length] ?? 0),
+      );
       skipButton.classList.toggle('give-up', giveUp);
-      const skipLabel = skipButton.querySelector('[data-skip-label]') ?? skipButton;
-      skipLabel.textContent = giveUp
-        ? words.giveUp
-        : words.skip(
-            seconds(
-              (CLIP_SECONDS[round.guesses.length + 1] ?? 0) -
-                (CLIP_SECONDS[round.guesses.length] ?? 0),
-            ),
-          );
+      skipButton.setAttribute('aria-label', giveUp ? words.giveUp : words.skip(extra));
+      const skipName = skipButton.querySelector('[data-skip-name]');
+      if (skipName) skipName.textContent = giveUp ? words.giveUp : words.skipName;
+      const skipLabel = skipButton.querySelector('[data-skip-label]');
+      if (skipLabel) skipLabel.textContent = giveUp ? '' : `+${extra}`;
     }
     stage?.classList.toggle('over', over);
   }

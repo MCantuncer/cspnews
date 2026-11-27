@@ -31,6 +31,7 @@ const WORDS = {
     placeholder: 'Artist or song',
     noMatch: 'No song by that name in the list',
     skip: (seconds: string) => `Skip, +${seconds}`,
+    skipName: 'Skip',
     giveUp: 'Give up',
     submit: 'Guess',
     skipped: 'Skipped',
@@ -77,12 +78,13 @@ const WORDS = {
     noStatsYet: 'Your stats start with your first finished day.',
     howToPlay: 'How to play',
     helpTitle: 'Name the song with as little listening as you can',
-    helpSteps: [
-      'Four songs a day: Turkish pop, hip-hop, rock and a global hit.',
-      'Each song starts with 0.1 s. A wrong guess or a skip opens more: 1, 2, 4, 8, then 16 s. On 16 s, keep guessing until you get it or give up.',
-      'Naming it on 0.1 s is 100 points, then 80, 60, 40, 25 and 10. The best day is 400.',
-      'Send your score to a friend: the link opens the same songs for them.',
-    ],
+    helpLede:
+      'Four songs a day: Turkish pop, hip-hop, rock and a global hit. Each starts with a 0.1 second clip.',
+    helpHeard: 'You hear',
+    helpPoints: 'Points',
+    helpLadder:
+      'A wrong guess or a skip opens the next clip. On 16 s, keep guessing until you get it or give up.',
+    helpFriend: 'Send your score to a friend: the link opens the same songs for them.',
     helpNote: 'New songs every day at midnight, Istanbul time. Clips are Apple Music previews.',
     start: 'Play',
     close: 'Close',
@@ -112,6 +114,7 @@ const WORDS = {
     placeholder: 'Sanatçı ya da şarkı',
     noMatch: 'Listede bu adla şarkı yok',
     skip: (seconds: string) => `Geç, +${seconds}`,
+    skipName: 'Geç',
     giveUp: 'Pes et',
     submit: 'Tahmin et',
     skipped: 'Geçildi',
@@ -158,12 +161,13 @@ const WORDS = {
     noStatsYet: 'İstatistiklerin ilk bitirdiğin günle başlar.',
     howToPlay: 'Nasıl oynanır',
     helpTitle: 'Şarkıyı olabildiğince az dinleyerek bil',
-    helpSteps: [
-      'Her gün dört şarkı: Türkçe pop, hip-hop, rock ve bir dünya hiti.',
-      'Her şarkı 0,1 saniyeyle başlar. Yanlış tahmin ya da geçmek daha fazlasını açar: 1, 2, 4, 8, sonra 16 sn. 16 saniyede bilene ya da pes edene kadar tahmin edebilirsin.',
-      '0,1 saniyede bilmek 100 puan; sonra 80, 60, 40, 25 ve 10. En iyi gün 400.',
-      'Puanını arkadaşına gönder: bağlantı ona aynı şarkıları açar.',
-    ],
+    helpLede:
+      'Her gün dört şarkı: Türkçe pop, hip-hop, rock ve bir dünya hiti. Her biri 0,1 saniyelik bir parçayla başlar.',
+    helpHeard: 'Dinlediğin',
+    helpPoints: 'Puan',
+    helpLadder:
+      'Yanlış tahmin ya da geçmek sıradaki parçayı açar. 16 saniyede bilene ya da pes edene kadar tahmin edebilirsin.',
+    helpFriend: 'Puanını arkadaşına gönder: bağlantı ona aynı şarkıları açar.',
     helpNote:
       'Her gün gece yarısı, İstanbul saatiyle yeni şarkılar. Parçalar Apple Music önizlemeleridir.',
     start: 'Oyna',

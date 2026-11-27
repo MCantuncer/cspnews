@@ -45,26 +45,26 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
   lang={lang}
 >
   <div class="wg" data-word-game data-lang={lang} data-window={JSON.stringify(days)}>
-    <Header lang={lang} bulletinName={words.name} />
+    <Header lang={lang} />
 
-    <div class="wg-games"><GameSwitch lang={lang} current="word" /></div>
-
-    <div class="wg-top">
-      <nav class="wg-langs" aria-label={words.languages}>
-        {
-          GAME_LANGUAGES.map((other) => (
-            <a
-              href={GAME_PATHS[other]}
-              lang={other}
-              aria-current={other === lang ? 'page' : undefined}
-            >
-              <span class="wg-dot" data-done-dot={other} />
-              {gameWordsFor(other).language}
-            </a>
-          ))
-        }
-      </nav>
+    <div class="wg-bar">
+      <GameSwitch lang={lang} current="word" />
       <div class="wg-tools">
+        <nav class="wg-langs" aria-label={words.languages}>
+          {
+            GAME_LANGUAGES.map((other) => (
+              <a
+                href={GAME_PATHS[other]}
+                lang={other}
+                aria-label={gameWordsFor(other).language}
+                aria-current={other === lang ? 'page' : undefined}
+              >
+                {other.toUpperCase()}
+                <span class="wg-dot" data-done-dot={other} />
+              </a>
+            ))
+          }
+        </nav>
         <button type="button" class="wg-icon" data-open="help" aria-label={words.howToPlay}>
           <Icon name="help" />
         </button>
@@ -76,13 +76,13 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
 
     <main class="wg-stage" data-stage>
       <div class="wg-line" data-line>
-        <p class="wg-puzzle" data-puzzle>
+        <div class="wg-puzzle" data-puzzle>
           <span class="wg-no" data-number></span>
           <span class="wg-date" data-date></span>
           <span class="wg-pips" data-pips>
             {rows.map(() => <i />)}
           </span>
-        </p>
+        </div>
         <p class="wg-msg" data-msg role="status" hidden>
           <span class="wg-msg-icon"><Icon name="close" size={20} /></span>
           <b data-msg-main></b>
