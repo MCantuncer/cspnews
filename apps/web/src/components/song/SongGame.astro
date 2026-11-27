@@ -8,7 +8,7 @@
  * (lib/song-data.ts); the browser picks today's by the Istanbul date and keeps the day, streak
  * and stats in localStorage. A friend's score arrives in the link (`?vs=`).
  */
-import { CLIP_SECONDS, GENRES, MAX_TRIES } from '@cspnews/songgame';
+import { CLIP_SECONDS, GENRES, MAX_TRIES, POINTS } from '@cspnews/songgame';
 import { gameDayAt } from '@cspnews/wordgame';
 
 import GameSwitch from '../GameSwitch.astro';
@@ -49,7 +49,7 @@ const BARS = 56;
     data-window={JSON.stringify(sets)}
     data-catalog="/song/catalog.json"
   >
-    <Header lang={lang} bulletinName={words.name} />
+    <Header lang={lang} />
 
     <div class="wg-bar">
       <GameSwitch lang={lang} current="song" />
@@ -110,7 +110,10 @@ const BARS = 56;
           data-skip
           aria-label={words.skip(secondsLabel(0.9, lang))}
         >
-          <span data-skip-label>+{secondsLabel(0.9, lang)}</span>
+          <span class="sg-skip-text">
+            <b data-skip-name>{words.skipName}</b>
+            <small data-skip-label>+{secondsLabel(0.9, lang)}</small>
+          </span>
           <span class="sg-skip-ring">
             <svg class="sg-skip-mark" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M5 6l8 6-8 6zM18 6v12" />
@@ -160,9 +163,21 @@ const BARS = 56;
     <dialog class="wg-dialog" data-dialog="help" aria-labelledby="sg-help-title">
       <div class="wg-sheet" tabindex="-1" autofocus>
         <h2 id="sg-help-title">{words.helpTitle}</h2>
-        <ol class="sg-help">
-          {words.helpSteps.map((step) => <li>{step}</li>)}
-        </ol>
+        <p class="sg-help-text">{words.helpLede}</p>
+        <table class="sg-ladder">
+          <tbody>
+            <tr>
+              <th scope="row">{words.helpHeard}</th>
+              {CLIP_SECONDS.map((seconds) => <td>{secondsLabel(seconds, lang)}</td>)}
+            </tr>
+            <tr>
+              <th scope="row">{words.helpPoints}</th>
+              {POINTS.map((points) => <td>{points}</td>)}
+            </tr>
+          </tbody>
+        </table>
+        <p class="sg-help-text">{words.helpLadder}</p>
+        <p class="sg-help-text">{words.helpFriend}</p>
         <p class="wg-note">{words.helpNote}</p>
         <form method="dialog">
           <button class="wg-btn">{words.start}</button>

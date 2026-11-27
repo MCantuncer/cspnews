@@ -98,22 +98,6 @@ function windowFrom(root: HTMLElement): WindowDay[] {
   }
 }
 
-/** A row of small coloured squares for each try: the result without the letters. */
-function miniGrid(rows: readonly (readonly Mark[])[]): HTMLElement {
-  const grid = element('div', 'wg-mini');
-  grid.setAttribute('aria-hidden', 'true');
-  for (let index = 0; index < MAX_TRIES; index += 1) {
-    const row = element('div');
-    const marks = rows[index];
-    for (let letter = 0; letter < WORD_LENGTH; letter += 1) {
-      const mark = marks?.[letter];
-      row.append(element('i', mark ? MARK_CLASS[mark] : undefined));
-    }
-    grid.append(row);
-  }
-  return grid;
-}
-
 /** The streak card: the count and the last seven days, with the rest day dashed. */
 function streakCard(
   results: readonly GameResult[],
@@ -176,7 +160,11 @@ function distribution(byTries: readonly number[], words: GameWords, now?: number
   const max = Math.max(1, ...byTries);
   byTries.forEach((count, index) => {
     const row = element('div');
-    const bar = element('span', index + 1 === now ? 'now' : undefined, String(count));
+    const bar = element(
+      'span',
+      index + 1 === now ? 'now' : count === 0 ? 'zero' : undefined,
+      String(count),
+    );
     bar.style.width = `${String(Math.max(8, (count / max) * 100))}%`;
     row.append(element('b', undefined, String(index + 1)), bar);
     box.append(row);
@@ -325,7 +313,13 @@ export function startWordGame(root: HTMLElement): void {
     if (message) message.hidden = true;
     if (puzzleLine) puzzleLine.hidden = false;
     if (keyboard) keyboard.hidden = true;
-    sheetBody.replaceChildren();
+    sheetBody.replaceChildren(
+      element(
+        'p',
+        'wg-dateline',
+        `${words.puzzle} ${String(puzzleNo)}, ${puzzleDate(today, language)}`,
+      ),
+    );
 
     if (solved) {
       const praise = element('div', 'wg-praise');
@@ -334,7 +328,7 @@ export function startWordGame(root: HTMLElement): void {
         element('h2', undefined, praiseFor(guesses.length, language)),
         element('p', undefined, words.solvedIn(guesses.length)),
       );
-      praise.append(miniGrid(rowsMarks()), text);
+      praise.append(text);
       sheetBody.append(praise);
     } else {
       const reveal = element('div', 'wg-answer');

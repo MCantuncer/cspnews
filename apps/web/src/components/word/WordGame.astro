@@ -45,11 +45,26 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
   lang={lang}
 >
   <div class="wg" data-word-game data-lang={lang} data-window={JSON.stringify(days)}>
-    <Header lang={lang} bulletinName={words.name} />
+    <Header lang={lang} />
 
     <div class="wg-bar">
       <GameSwitch lang={lang} current="word" />
       <div class="wg-tools">
+        <nav class="wg-langs" aria-label={words.languages}>
+          {
+            GAME_LANGUAGES.map((other) => (
+              <a
+                href={GAME_PATHS[other]}
+                lang={other}
+                aria-label={gameWordsFor(other).language}
+                aria-current={other === lang ? 'page' : undefined}
+              >
+                {other.toUpperCase()}
+                <span class="wg-dot" data-done-dot={other} />
+              </a>
+            ))
+          }
+        </nav>
         <button type="button" class="wg-icon" data-open="help" aria-label={words.howToPlay}>
           <Icon name="help" />
         </button>
@@ -67,20 +82,6 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
           <span class="wg-pips" data-pips>
             {rows.map(() => <i />)}
           </span>
-          <nav class="wg-langs" aria-label={words.languages}>
-            {
-              GAME_LANGUAGES.map((other) => (
-                <a
-                  href={GAME_PATHS[other]}
-                  lang={other}
-                  aria-current={other === lang ? 'page' : undefined}
-                >
-                  <span class="wg-dot" data-done-dot={other} />
-                  {gameWordsFor(other).language}
-                </a>
-              ))
-            }
-          </nav>
         </div>
         <p class="wg-msg" data-msg role="status" hidden>
           <span class="wg-msg-icon"><Icon name="close" size={20} /></span>

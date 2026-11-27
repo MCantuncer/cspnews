@@ -162,6 +162,7 @@
 }
 
 .sg-ticks li:first-child {
+  left: 0;
   transform: none;
 }
 
@@ -453,8 +454,9 @@
 }
 
 /*
- * Skip sits in the player row, at the far end from Play: the extra seconds, then a ring with the
- * skip mark. On the last clip it becomes Give up with a flag.
+ * Skip is the player's second control, at the far end of the row from Play so it is never hit
+ * by accident: its name over what it opens, then an outlined ring with the skip mark. Play is
+ * the filled circle, Skip the outlined one. On the last clip it becomes Give up with a flag.
  */
 .sg-skip {
   display: flex;
@@ -465,9 +467,27 @@
   border: 0;
   background: none;
   color: var(--ink);
-  font: 600 16px / 1 var(--f-body);
-  font-variant-numeric: tabular-nums;
   cursor: pointer;
+}
+
+.sg-skip-text {
+  display: grid;
+  gap: 5px;
+  text-align: right;
+}
+
+.sg-skip-text b {
+  font: 600 16px / 1 var(--f-body);
+}
+
+.sg-skip-text small {
+  color: var(--meta);
+  font: 500 14px / 1 var(--f-body);
+  font-variant-numeric: tabular-nums;
+}
+
+.sg-skip-text small:empty {
+  display: none;
 }
 
 .sg-skip-ring {
@@ -806,13 +826,46 @@
 }
 
 /* Help and stats dialogs. */
-.sg-help {
-  display: grid;
-  gap: 10px;
-  margin: 0 0 14px;
-  padding-left: 20px;
+.sg-help-text {
   color: var(--ink2);
   font: 400 16px / 1.45 var(--f-body);
+}
+
+/* How to play as a picture: each clip length over the points for naming the song on it. */
+.sg-ladder {
+  width: 100%;
+  table-layout: fixed;
+  border-block: 1px solid var(--line);
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.sg-ladder th,
+.sg-ladder td {
+  padding: 10px 0;
+  text-align: right;
+}
+
+.sg-ladder th {
+  width: 28%;
+  color: var(--meta);
+  font: 500 14px / 1 var(--f-body);
+  text-align: left;
+}
+
+.sg-ladder tr:first-child td {
+  color: var(--meta);
+  font: 500 14px / 1 var(--f-body);
+}
+
+.sg-ladder tr:last-child th,
+.sg-ladder tr:last-child td {
+  padding-top: 0;
+}
+
+.sg-ladder tr:last-child td {
+  color: var(--ink);
+  font: 700 18px / 1 var(--f-head);
 }
 
 .sg-stats {
@@ -874,4 +927,15 @@
 .sg-dist b {
   text-align: right;
   font-variant-numeric: tabular-nums;
+}
+
+/* A wide screen gives the player more air and a taller waveform. */
+@media (width >= 720px) {
+  .sg-round {
+    padding-top: 40px;
+  }
+
+  .sg-bars {
+    height: 112px;
+  }
 }
