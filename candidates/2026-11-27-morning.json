@@ -4,15 +4,15 @@
     "slot": "morning",
     "publishAt": "2026-11-27T04:30:00.000Z"
   },
-  "generatedAt": "2026-11-27T01:57:49.958Z",
+  "generatedAt": "2026-11-27T03:51:59.220Z",
   "window": {
-    "since": "2026-11-26T11:57:49.958Z",
-    "until": "2026-11-27T01:57:49.958Z"
+    "since": "2026-11-26T13:51:59.220Z",
+    "until": "2026-11-27T03:51:59.220Z"
   },
   "sections": {
     "turkey": [
       {
-        "storyId": "d24ff2d74a737155",
+        "storyId": "4f6ec4a452a57398",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
@@ -21,8 +21,8 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 20.96,
-        "firstSeenAt": "2026-11-26T12:19:42.000Z",
+        "score": 20.8,
+        "firstSeenAt": "2026-11-26T14:30:17.000Z",
         "lastUpdatedAt": "2026-11-27T01:29:04.000Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/668ec0c8-58a6-4975-9f01-0327f371f339.jpg",
@@ -31,13 +31,6 @@
           "articleUrl": "https://www.cumhuriyet.com.tr/spor/kara-kartal-olayli-mactan-galibiyetle-donuyor-besiktas-israil-takimini-iki-golle-devirdi-2559697"
         },
         "sources": [
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
           {
             "id": "sabah",
             "name": "Sabah",
@@ -58,6 +51,13 @@
             "camp": "state-wire",
             "tier": "wire",
             "confirms": true
+          },
+          {
+            "id": "onedio",
+            "name": "Onedio",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
           },
           {
             "id": "haberturk",
@@ -98,11 +98,6 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T12:19:42.000Z",
-            "sourceId": "onedio"
-          },
-          {
-            "kind": "outlet-joined",
             "at": "2026-11-26T14:30:17.000Z",
             "sourceId": "sabah"
           },
@@ -149,14 +144,6 @@
           }
         ],
         "articles": [
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/besiktas-hapoel-beer-sheva-maci-saat-kacta-hangi-kanalda-kartal-batum-da-ilk-8-icin-sahada-1397651",
-            "title": "Beşiktaş-Hapoel Beer Sheva Maçı Saat Kaçta, Hangi Kanalda? Kartal Batum'da İlk 8 İçin Sahada",
-            "summary": "UEFA Avrupa Ligi'nde 5. hafta heyecanı bu akşam yaşanıyor.Lig aşamasında 7 puanla haftaya 8. sırada giren Beşiktaş, puan tablosunun alt sıralarındaki İsrail ekibi Hapoel Beer Sheva'yı ağırlıyor. Siyah-beyazlıların ev sahibi olduğu karşılaşma, güvenlik gerekçesiyle İstanbul yerine Gürcistan'ın Batum kentinde oynanacak. Vincenzo Italiano'nun öğrencileri, doğrudan son 16'ya kalmayı sağlayan ilk 8 hedefi için sahadan 3 puanla ayrılmak istiyor.",
-            "publishedAt": "2026-11-26T12:19:42.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6b0823c68c8794b95ab75eaf/rev-0/w-1200/h-675/f-jpg/s-ac43543d342b1094cb246988e721583d02b0ed10.jpg"
-          },
           {
             "sourceId": "sabah",
             "url": "https://www.sabah.com.tr/spor/futbol/2026/11/26/son-dakika-besiktastan-avrupada-kartal-pencesi-hapoel-beer-shevayi-gurcistanda-devirdik",
@@ -286,7 +273,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 20.7,
+        "score": 20.54,
         "firstSeenAt": "2026-11-26T15:55:20.000Z",
         "lastUpdatedAt": "2026-11-26T22:23:07.000Z",
         "image": {
@@ -481,7 +468,7 @@
         ]
       },
       {
-        "storyId": "b3d639ca085cd5bc",
+        "storyId": "0ce0748adca3e3c0",
         "language": "tr",
         "label": "confirmed",
         "developing": false,
@@ -489,8 +476,8 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 20.61,
-        "firstSeenAt": "2026-11-26T12:12:20.000Z",
+        "score": 20.45,
+        "firstSeenAt": "2026-11-26T15:57:29.000Z",
         "lastUpdatedAt": "2026-11-26T21:17:08.000Z",
         "image": {
           "url": "https://geoim.bloomberght.com/l/2026/11/26/ver1795712024/3795781/jpg/1280x720",
@@ -499,13 +486,6 @@
           "articleUrl": "https://www.bloomberght.com/cevdet-yilmaz-mehmet-simsek-ve-akin-gurlek-fon-gundemine-dair-aciklamalar-3795781"
         },
         "sources": [
-          {
-            "id": "sozcu",
-            "name": "Sözcü",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          },
           {
             "id": "bloomberg-ht",
             "name": "Bloomberg HT",
@@ -542,6 +522,13 @@
             "confirms": true
           },
           {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
             "id": "onedio",
             "name": "Onedio",
             "camp": "specialist",
@@ -573,24 +560,19 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T12:12:20.000Z",
-            "sourceId": "sozcu"
-          },
-          {
-            "kind": "outlet-joined",
             "at": "2026-11-26T15:57:29.000Z",
             "sourceId": "bloomberg-ht"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T15:57:29.000Z",
-            "from": "single-source",
-            "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
             "at": "2026-11-26T16:09:47.000Z",
             "sourceId": "hurriyet"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-26T16:09:47.000Z",
+            "from": "single-source",
+            "to": "confirmed"
           },
           {
             "kind": "outlet-joined",
@@ -609,6 +591,11 @@
           },
           {
             "kind": "outlet-joined",
+            "at": "2026-11-26T17:40:41.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "outlet-joined",
             "at": "2026-11-26T17:49:16.000Z",
             "sourceId": "euronews-tr"
           },
@@ -619,14 +606,6 @@
           }
         ],
         "articles": [
-          {
-            "sourceId": "sozcu",
-            "url": "https://www.sozcu.com.tr/fon-sorusturmasinda-gozler-saat-19-00-da-yilmaz-simsek-ve-gurlek-aciklama-yapacak-p384637",
-            "title": "Fon soruşturmasında gözler saat 19.00'da! Yılmaz, Şimşek ve Gürlek açıklama yapacak",
-            "summary": "Fon soruşturması ve tasfiye sürecinde gelinen son aşama bugün kamuoyuyla paylaşılacak. Cumhurbaşkanı Yardımcısı Cevdet Y...",
-            "publishedAt": "2026-11-26T12:12:20.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/fonjpg-lAN8IhZI2keEyEZaRjyOGw.jpg"
-          },
           {
             "sourceId": "bloomberg-ht",
             "url": "https://www.bloomberght.com/cevdet-yilmaz-mehmet-simsek-ve-akin-gurlek-fon-gundemine-dair-aciklamalar-3795781",
@@ -749,9 +728,9 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 18.93,
+        "score": 18.95,
         "firstSeenAt": "2026-11-26T22:47:17.000Z",
-        "lastUpdatedAt": "2026-11-27T01:09:24.000Z",
+        "lastUpdatedAt": "2026-11-27T03:19:19.000Z",
         "image": {
           "url": "https://media.cumhuriyet.com.tr/Archive/197aec1a-0b7c-4e7b-98ad-d304383a0feb.jpg",
           "sourceId": "cumhuriyet",
@@ -818,6 +797,13 @@
           {
             "id": "ntv",
             "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
+          },
+          {
+            "id": "bloomberg-ht",
+            "name": "Bloomberg HT",
             "camp": "mainstream",
             "tier": "established",
             "confirms": false
@@ -937,6 +923,15 @@
             "publishedAt": "2026-11-27T01:09:24.000Z",
             "copyOf": "1d7f187c96fb91c7",
             "imageUrl": "https://images.ntv.com.tr/images/thumbs_b_c_92e85d5113f00b8c54c916357ac102b8-143044.jpg"
+          },
+          {
+            "sourceId": "bloomberg-ht",
+            "url": "https://www.bloomberght.com/bddk-baskanligina-yusuf-kenan-bagir-atandi-3795861",
+            "title": "BDDK Başkanlığına Yusuf Kenan Bağır atandı",
+            "summary": "Bankacılık Düzenleme ve Denetleme Kurumunun (BDDK) Başkanlığına Yusuf Kenan Bağır getirildi.",
+            "publishedAt": "2026-11-27T03:19:19.000Z",
+            "copyOf": "1d7f187c96fb91c7",
+            "imageUrl": "https://geoim.bloomberght.com/l/2026/11/27/ver1795749592/3795861/jpg/1280x720"
           }
         ]
       },
@@ -950,7 +945,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 16.67,
+        "score": 16.51,
         "firstSeenAt": "2026-11-26T17:26:00.000Z",
         "lastUpdatedAt": "2026-11-26T21:58:00.000Z",
         "image": {
@@ -1008,6 +1003,13 @@
             "camp": "pro-government",
             "tier": "partisan",
             "confirms": true
+          },
+          {
+            "id": "hurriyet-kelebek",
+            "name": "Hürriyet Kelebek",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": false
           }
         ],
         "timeline": [
@@ -1184,14 +1186,6 @@
             "imageUrl": "https://iasbh.tmgrup.com.tr/7a1ef8/1200/675/0/83/800/533?u=https://isbh.tmgrup.com.tr/sbh/2026/11/26/gurcistanda-besiktas-taraftarina-saldiri-turkiye-tek-yurek-besiktasin-yaninda-1795722326459.jpg"
           },
           {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/gundem/bakan-gurlek-gurcistan-da-gozaltina-alinan-besiktas-taraftarlarinin-serbest-birakilmasini-istedi-3930442",
-            "title": "Bakan Gürlek'ten Gürcistan'a tepki",
-            "summary": "Adalet Bakanı Akın Gürlek, Gürcistan'da oynanan UEFA Avrupa Ligi karşılaşmasında Filistin bayrağı açan Beşiktaş taraftarlarına yönelik şiddeti kınadı. Gürcistan Adalet Bakanı Paata Salia ile görüşen Bakan Gürlek, gözaltına alınan Türk taraftarların derhal serbest bırakılmasını ve olaylara karışanlar hakkında adli işlem başlatılmasını istedi",
-            "publishedAt": "2026-11-26T20:11:42.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/26/ver1795723868/3930442/jpg/1920x1080"
-          },
-          {
             "sourceId": "cumhuriyet",
             "url": "https://www.cumhuriyet.com.tr/spor/uefa-duyurmustu-besiktas-in-israil-takimiyla-neden-gurcistan-da-oynadigi-belli-oldu-2559749",
             "title": "UEFA duyurmuştu: Beşiktaş’ın İsrail takımıyla neden Gürcistan’da oynadığı belli oldu",
@@ -1200,7 +1194,7 @@
             "imageUrl": "https://media.cumhuriyet.com.tr/Archive/799c7233-f284-40ec-ae08-e1be6d2464a2.jpg"
           },
           {
-            "sourceId": "hurriyet",
+            "sourceId": "hurriyet-kelebek",
             "url": "https://www.hurriyet.com.tr/kelebek/gurcistanda-polisten-besiktas-taraftarina-saldirdi-unlu-isimlerden-besiktasa-destek-mesajlari-43392519",
             "title": "Gürcistan'da polisten Beşiktaş taraftarına saldırdı! Ünlü isimlerden Beşiktaş'a destek mesajları",
             "summary": "Gürcistan'ın Batum kentinde oynanan Beşiktaş - Hapoel Beer-Sheva karşılaşmasında siyah-beyazlı taraftarların maruz kaldığı polis müdahalesi, sanat dünyasından isimlerin de tepkisini çekti. Ünlü isimler tepkilerini sosyal medya paylaşımlarıyla dile getirdi.",
@@ -1251,7 +1245,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.9,
+        "score": 14.75,
         "firstSeenAt": "2026-11-26T17:05:00.000Z",
         "lastUpdatedAt": "2026-11-27T00:49:08.000Z",
         "image": {
@@ -1414,7 +1408,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 14.63,
+        "score": 14.48,
         "firstSeenAt": "2026-11-26T19:30:03.000Z",
         "lastUpdatedAt": "2026-11-26T21:34:30.000Z",
         "image": {
@@ -1556,6 +1550,259 @@
         ]
       },
       {
+        "storyId": "13c2005cca120072",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.98,
+        "firstSeenAt": "2026-11-27T00:25:58.000Z",
+        "lastUpdatedAt": "2026-11-27T03:36:09.000Z",
+        "image": {
+          "url": "https://geoim.bloomberght.com/l/2026/11/27/ver1795750601/3795863/jpg/1280x720",
+          "sourceId": "bloomberg-ht",
+          "sourceName": "Bloomberg HT",
+          "articleUrl": "https://www.bloomberght.com/resmi-gazete-de-bugun-27112026-3795863"
+        },
+        "sources": [
+          {
+            "id": "aa-tr",
+            "name": "Anadolu Ajansı",
+            "camp": "state-wire",
+            "tier": "wire",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "bloomberg-ht",
+            "name": "Bloomberg HT",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-27T00:25:58.000Z",
+            "sourceId": "aa-tr"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T01:01:50.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-27T01:01:50.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T02:31:59.000Z",
+            "sourceId": "a-haber"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T03:36:09.000Z",
+            "sourceId": "bloomberg-ht"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "aa-tr",
+            "url": "https://www.aa.com.tr/tr/gundem/bakanlik-ve-kamu-kurumlarina-iliskin-atama-ile-yargitay-uyeligi-kararlari-resmi-gazetede/4139867",
+            "title": "Bakanlık ve kamu kurumlarına ilişkin atama ile Yargıtay üyeliği kararları Resmi Gazete'de",
+            "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan'ın imzasıyla bazı bakanlık ve kamu kurumlarına ilişkin atama kararları Resmi Gazete'de yayımlanırken, Hakimler ve Savcılar Kurulu (HSK) Genel Kurulunca yapılan seçim sonucunda 5 isim Yargıtay üyeliğine seçildi.",
+            "publishedAt": "2026-11-27T00:25:58.000Z"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/yargitaya-5-uye-secildi-karar-resmi-gazetede-p384757",
+            "title": "Yargıtay'a 5 üye seçildi: Karar Resmi Gazete'de",
+            "summary": "Hakimler ve Savcılar Kurulu Genel Kurulunun Yargıtay'daki 5 üyelik için yaptığı seçime ilişkin karar Resmi Gazete'de yay...",
+            "publishedAt": "2026-11-27T01:01:50.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/594jpg-mB5oH_nmlkaKKabv1fzhWg.jpg"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/27/yargitayda-5-yeni-uye-karar-resmi-gazetede",
+            "title": "Yargıtay'da 5 yeni üye! Karar Resmi Gazete'de",
+            "summary": "Yargıtay'da boş bulunan 5 üyelik kadrosu için Hâkimler ve Savcılar Kurulu (HSK) Genel Kurulunca 25 Kasım'da gerçekleştirilen seçim sonuçları, 27 Kasım 2026 tarihli Resmi Gazete'de yayımlandı. Devamı için tıklayınız",
+            "publishedAt": "2026-11-27T02:31:59.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/fd28f9/1200/1200/82/0/568/486?u=https://iahbr.tmgrup.com.tr/2026/11/27/yargitayda-5-yeni-uye-karar-resmi-gazetede-1795745579075.jpeg"
+          },
+          {
+            "sourceId": "bloomberg-ht",
+            "url": "https://www.bloomberght.com/resmi-gazete-de-bugun-27112026-3795863",
+            "title": "Resmi Gazete'de bugün (27.11.2026)",
+            "summary": "Resmi Gazete'de yayımlanan yönetmelikler, tebliğler ve kararlar...",
+            "publishedAt": "2026-11-27T03:36:09.000Z",
+            "imageUrl": "https://geoim.bloomberght.com/l/2026/11/27/ver1795750601/3795863/jpg/1280x720"
+          }
+        ]
+      },
+      {
+        "storyId": "e39c1fefa31218a0",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": true,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 12.97,
+        "firstSeenAt": "2026-11-26T23:50:00.000Z",
+        "lastUpdatedAt": "2026-11-27T03:30:00.000Z",
+        "image": {
+          "url": "https://images.ntv.com.tr/images/477a4d82-9d42-44a3-8135-f2a9ec017f8a.jpg",
+          "sourceId": "ntv",
+          "sourceName": "NTV",
+          "articleUrl": "https://www.ntv.com.tr/turkiye/son-dakika-antalyada-deprem-mi-oldu-az-once-deprem-antalyada-nerede-oldu-antalya-deprem-kandilli-ve-afad-son-depremler-listesi-27-kasim-2026-1752773"
+        },
+        "sources": [
+          {
+            "id": "ntv",
+            "name": "NTV",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "sozcu",
+            "name": "Sözcü",
+            "camp": "opposition",
+            "tier": "partisan",
+            "confirms": true
+          },
+          {
+            "id": "haberturk",
+            "name": "Habertürk",
+            "camp": "mainstream",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "a-haber",
+            "name": "A Haber",
+            "camp": "pro-government",
+            "tier": "partisan",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-26T23:50:00.000Z",
+            "sourceId": "ntv"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T00:47:51.000Z",
+            "sourceId": "sozcu"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-27T00:47:51.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T03:19:59.000Z",
+            "sourceId": "haberturk"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T03:29:38.000Z",
+            "sourceId": "a-haber"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/son-dakika-antalyada-deprem-mi-oldu-az-once-deprem-antalyada-nerede-oldu-antalya-deprem-kandilli-ve-afad-son-depremler-listesi-27-kasim-2026-1752773",
+            "title": "Son dakika Antalya'da deprem mi oldu? Az önce deprem Antalya'da nerede oldu? Antalya deprem Kandilli ve AFAD son depremler listesi 27 Kasım 2026",
+            "summary": "Son dakika Antalya deprem haberleri.. Antalya'da deprem mi oldu? Az önce deprem Antalya'da nerede oldu? Antalya Kandilli ve AFAD son depremler.. 27 Kasım 2026 Antalya deprem son dakika haberleri haberin detayında... Artçı deprem mi oldu Antalya'da? Antalya son deprem büyüklüğü ne kadar? Antalya'da ve Antalya yakınındaki depremler nelerdir? Antalya'da anlık deprem mi oldu? Son dakika Antalya canlı deprem haritası.. Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü ve AFAD Antalya deprem haberleri.. Antalya'da hangi ilçelerde deprem oldu ve hangi ilçelerde en çok hissedildi? Bugün Antalya'da deprem mi oldu? Deprem Antalya'da ne zaman ve kaç şiddetinde oldu? En son Antalya'da nerede deprem oldu? Antalya deprem haberleriyle ilgili en çok merak edilenlerin cevabı haberde...",
+            "publishedAt": "2026-11-26T23:50:00.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/477a4d82-9d42-44a3-8135-f2a9ec017f8a.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/kas-aciklarinda-39-buyuklugunde-deprem-p384758",
+            "title": "Kaş açıklarında 3,9 büyüklüğünde deprem",
+            "summary": "Antalya'nın Kaş ilçesi açıklarında saat 02.31'de 3,9 büyüklüğünde deprem meydana geldi. AFAD, sarsıntının 16,93 kilometr...",
+            "publishedAt": "2026-11-27T00:47:51.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/699jpg-6XK7hcTaKEem4liPM7vyBA.jpg"
+          },
+          {
+            "sourceId": "sozcu",
+            "url": "https://www.sozcu.com.tr/izmir-aciklarinda-4-1-buyuklugunde-deprem-p384760",
+            "title": "İzmir açıklarında 4,1 büyüklüğünde deprem",
+            "summary": "Ege Denizi'nde, İzmir'in Seferihisar ilçesi açıklarında 4,1 büyüklüğünde deprem meydana geldi. AFAD, saat 05.44'te kayde...",
+            "publishedAt": "2026-11-27T03:00:58.000Z",
+            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/281jpg--unEW4pLA0eX5qIK4DoMLA.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/son-dakika-izmirde-deprem-mi-oldu-az-once-deprem-izmirde-nerede-oldu-izmir-deprem-kandilli-ve-afad-son-depremler-listesi-27-kasim-2026-1752777",
+            "title": "Son dakika İzmir'de deprem mi oldu? Az önce deprem İzmir'de nerede oldu? İzmir deprem Kandilli ve AFAD son depremler listesi 27 Kasım 2026",
+            "summary": "Son dakika İzmir deprem haberleri.. İzmir'de deprem mi oldu? Az önce deprem İzmir'de nerede oldu? İzmir Kandilli ve AFAD son depremler.. 27 Kasım 2026 İzmir deprem son dakika haberleri haberin detayında... Artçı deprem mi oldu İzmir'de? İzmir son deprem büyüklüğü ne kadar? İzmir'de ve İzmir yakınındaki depremler nelerdir? İzmir'de anlık deprem mi oldu? Son dakika İzmir canlı deprem haritası.. Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü ve AFAD İzmir deprem haberleri.. İzmir'de hangi ilçelerde deprem oldu ve hangi ilçelerde en çok hissedildi? Bugün İzmir'de deprem mi oldu? Deprem İzmir'de ne zaman ve kaç şiddetinde oldu? En son İzmir'de nerede deprem oldu? İzmir deprem haberleriyle ilgili en çok merak edilenlerin cevabı haberde...",
+            "publishedAt": "2026-11-27T03:10:00.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/477a4d82-9d42-44a3-8135-f2a9ec017f8a.jpg"
+          },
+          {
+            "sourceId": "haberturk",
+            "url": "https://www.haberturk.com/bilgi/foto/izmir-deprem-son-dakika-ege-denizi-4-2-ile-sallandi-27-kasim-2026-afad-ve-kandilli-son-depremler-listesi-ile-izmir-de-deprem-mi-oldu-kac-buyuklugunde-3930472",
+            "title": "Ege Denizi 4.2 ile sallandı!",
+            "summary": "İzmir'de deprem olup olmadığı 27 Kasım Cuma sabahı vatandaşların gündemine geldi. Ege Denizi'nde, Seferihisar açıklarında meydana gelen sarsıntının ardından AFAD ve Kandilli Rasathanesi son depremler listesi araştırılmaya başlandı. Peki, İzmir depremi saat kaçta oldu, merkez üssü neresi? İşte, İzmir depremi büyüklüğü ve derinliği hakkında merak edilenler…",
+            "publishedAt": "2026-11-27T03:19:59.000Z",
+            "imageUrl": "https://im.haberturk.com/l/2026/11/27/ver1795749462/3930472/jpg/1920x1080"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/izmir-aciklarinda-41-buyuklugunde-deprem-1752776",
+            "title": "İzmir açıklarında 4,1 büyüklüğünde deprem",
+            "summary": "İzmir açıklarında 4,1 büyüklüğünde deprem meydana geldi.",
+            "publishedAt": "2026-11-27T03:23:38.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/IZMIR-ACIKLARINDA-4.1-BUYUKLUGUNDE-DEPRE_1628650_484326copys-175635.jpg"
+          },
+          {
+            "sourceId": "a-haber",
+            "url": "https://www.ahaber.com.tr/gundem/2026/11/27/izmir-seferihisarda-41-buyuklugunde-deprem",
+            "title": "İzmir Seferihisar'da 4,1 büyüklüğünde deprem",
+            "summary": "İzmir'in Seferihisar ilçesinde sabah saat 05.44'te 4,1 büyüklüğünde deprem meydana geldi. Afet ve Acil Durum Yönetimi Başkanlığı verilerine göre yerin 6,86 kilometre derinliğinde ve Seferihisar'a... Devamı için tıklayınız",
+            "publishedAt": "2026-11-27T03:29:38.000Z",
+            "imageUrl": "https://iaahbr.tmgrup.com.tr/11ceb9/1200/1200/235/0/720/486?u=https://iahbr.tmgrup.com.tr/2026/11/27/1795750059684.jpg"
+          },
+          {
+            "sourceId": "ntv",
+            "url": "https://www.ntv.com.tr/turkiye/son-dakika-deprem-mi-oldu-az-once-deprem-nerede-oldu-istanbul-ankara-izmir-ve-il-il-afad-son-depremler-27-kasim-2026-1752759",
+            "title": "Son dakika deprem mi oldu? Az önce deprem nerede oldu? İstanbul, Ankara, İzmir ve il il AFAD son depremler 27 Kasım 2026",
+            "summary": "Son depremler...Son dakika deprem mi oldu? Az önce deprem nerede oldu? İstanbul, Ankara, İzmir ve il il AFAD son depremler.. 27 Kasım 2026 deprem son dakika haberleri haberin detayında...Artçı deprem mi oldu? Son deprem büyüklüğü ne kadar? Yakınımdaki depremler nelerdir? Anlık deprem mi oldu? Son dakika canlı deprem Türkiye haritası..Kandilli rasathanesi ve deprem araştırma enstitüsü ve AFAD deprem haberleri..İstanbul'da deprem mi oldu? Ankara'da deprem mi oldu? İzmir'de deprem mi oldu? Hangi illerde deprem oldu ve hissedildi? Bugün deprem mi oldu? Deprem ne zaman ve kaç şiddetinde oldu? En son hangi bölgede deprem oldu? Deprem haberleriyle ilgili en çok merak edilenlerin cevabı haberde..",
+            "publishedAt": "2026-11-27T03:30:00.000Z",
+            "imageUrl": "https://images.ntv.com.tr/images/477a4d82-9d42-44a3-8135-f2a9ec017f8a.jpg"
+          }
+        ]
+      },
+      {
         "storyId": "23388496cee17d18",
         "language": "tr",
         "label": "confirmed",
@@ -1564,7 +1811,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.54,
+        "score": 12.38,
         "firstSeenAt": "2026-11-26T18:39:00.000Z",
         "lastUpdatedAt": "2026-11-26T20:26:25.000Z",
         "image": {
@@ -1696,7 +1943,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.49,
+        "score": 12.33,
         "firstSeenAt": "2026-11-26T19:18:49.000Z",
         "lastUpdatedAt": "2026-11-26T19:48:55.000Z",
         "image": {
@@ -1806,7 +2053,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.41,
+        "score": 12.25,
         "firstSeenAt": "2026-11-26T14:20:40.000Z",
         "lastUpdatedAt": "2026-11-26T18:55:28.000Z",
         "image": {
@@ -1914,7 +2161,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 12.1,
+        "score": 11.94,
         "firstSeenAt": "2026-11-26T14:53:33.000Z",
         "lastUpdatedAt": "2026-11-26T15:10:04.000Z",
         "image": {
@@ -2015,96 +2262,6 @@
         ]
       },
       {
-        "storyId": "daeca2f8fbf59838",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.94,
-        "firstSeenAt": "2026-11-26T12:23:00.000Z",
-        "lastUpdatedAt": "2026-11-27T01:18:01.000Z",
-        "image": {
-          "url": "https://im.haberturk.com/l/2026/11/26/ver1795705907/3930399/jpg/1920x1080",
-          "sourceId": "haberturk",
-          "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/ekonomi/ab-liderleri-yeni-butceyi-belirlemek-uzere-bruksel-de-toplandi-3930399"
-        },
-        "sources": [
-          {
-            "id": "dw-turkce",
-            "name": "DW Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:23:00.000Z",
-            "sourceId": "dw-turkce"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T15:12:44.000Z",
-            "sourceId": "haberturk"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T15:12:44.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-27T01:18:01.000Z",
-            "sourceId": "hurriyet"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "dw-turkce",
-            "url": "https://www.dw.com/tr/ab-b%C3%BCt%C3%A7esine-almanya-dan-itiraz-merz-ne-istiyor/a-80060941?maca=tur-rss-tur-all-1495-rdf",
-            "title": "AB bütçesine Almanya'dan itiraz: Merz ne istiyor?",
-            "summary": "Avrupa Birliği'nin 1,78 trilyon euroluk bütçe planı Brüksel'de masaya yatırıldı. Almanya, daha fazla kesinti yapılmasını ve mali yükün üyeler arasında daha adil şekilde paylaşılmasını talep ediyor.",
-            "publishedAt": "2026-11-26T12:23:00.000Z"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/ekonomi/ab-liderleri-yeni-butceyi-belirlemek-uzere-bruksel-de-toplandi-3930399",
-            "title": "AB liderleri yeni bütçeyi belirlemek üzere Brüksel'de toplandı",
-            "summary": "Avrupa Birliği (AB) üyesi 27 ülkenin liderleri, Birliğin 2028-2034 dönemi bütçesinin boyutu, hangi önceliklere ne kadar kaynak ayrılacağı ve üye ülkelerin bütçeye yapacağı katkılar konusunda uzlaşı aramak üzere Brüksel’de bir araya geldi",
-            "publishedAt": "2026-11-26T15:12:44.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/26/ver1795705907/3930399/jpg/1920x1080"
-          },
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/dunya/ab-liderleri-yeni-butcede-anlasma-saglayamadi-43392625",
-            "title": "AB liderleri yeni bütçede anlaşma sağlayamadı",
-            "summary": "Avrupa Birliği (AB) üyesi 27 ülkenin liderleri, Birliğin 2028-2034 dönemine ilişkin uzun vadeli bütçesinin boyutu konusunda anlaşma sağlayamadı.",
-            "publishedAt": "2026-11-27T01:18:01.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6b08da47716333c09cfebd35.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "df85d914e01dc0de",
         "language": "tr",
         "label": "confirmed",
@@ -2113,7 +2270,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.75,
+        "score": 10.59,
         "firstSeenAt": "2026-11-26T22:32:06.000Z",
         "lastUpdatedAt": "2026-11-26T22:56:24.000Z",
         "image": {
@@ -2204,7 +2361,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 10.71,
+        "score": 10.55,
         "firstSeenAt": "2026-11-26T19:20:00.000Z",
         "lastUpdatedAt": "2026-11-26T22:25:36.000Z",
         "image": {
@@ -2307,204 +2464,9 @@
             "imageUrl": "https://im.haberturk.com/l/2026/11/25/ver1795730452/3930141/jpg/1920x1080"
           }
         ]
-      },
-      {
-        "storyId": "4a798c086cc72d83",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.65,
-        "firstSeenAt": "2026-11-26T21:05:00.000Z",
-        "lastUpdatedAt": "2026-11-26T21:43:38.000Z",
-        "image": {
-          "url": "https://media.cumhuriyet.com.tr/Archive/35fb4fca-1a08-4a74-8ba6-9e0aa3401b62.jpg",
-          "sourceId": "cumhuriyet",
-          "sourceName": "Cumhuriyet",
-          "articleUrl": "https://www.cumhuriyet.com.tr/spor/dogan-alemdar-dan-besiktas-taraftarina-destek-yasadiklari-muamele-kabul-edilebilir-degil-2559761"
-        },
-        "sources": [
-          {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet",
-            "camp": "opposition",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "hurriyet",
-            "name": "Hürriyet",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T21:05:00.000Z",
-            "sourceId": "cumhuriyet"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T21:14:17.000Z",
-            "sourceId": "hurriyet"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T21:14:17.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T21:43:38.000Z",
-            "sourceId": "haberturk"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "cumhuriyet",
-            "url": "https://www.cumhuriyet.com.tr/spor/dogan-alemdar-dan-besiktas-taraftarina-destek-yasadiklari-muamele-kabul-edilebilir-degil-2559761",
-            "title": "Doğan Alemdar'dan Beşiktaş taraftarına destek: 'Yaşadıkları muamele kabul edilebilir değil'",
-            "summary": "Beşiktaş'ın kalecisi Doğan Alemdar, 2-1 kazandıkları Hapoel Beer Sheva maçının ardından görüşlerini aktardı.",
-            "publishedAt": "2026-11-26T21:05:00.000Z",
-            "imageUrl": "https://media.cumhuriyet.com.tr/Archive/35fb4fca-1a08-4a74-8ba6-9e0aa3401b62.jpg"
-          },
-          {
-            "sourceId": "hurriyet",
-            "url": "https://www.hurriyet.com.tr/sporarena/orkun-kokcu-yasananlar-kabul-edilebilir-degil-43392539",
-            "title": "Orkun Kökçü: 'Yaşananlar kabul edilebilir değil!'",
-            "summary": "Beşiktaş'ta Doğan Alemdar, Salih Özcan ve Orkun Kökçü, Hapoel Beer-Sheva galibiyetinin ardından açıklamalarda bulundu.",
-            "publishedAt": "2026-11-26T21:14:17.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6b08a12808488df397511688.jpg"
-          },
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/spor/dogan-alemdar-yasadiklari-muamele-kabul-edilemez-3930457",
-            "title": "\"Yaşadıkları muamele kabul edilemez\"",
-            "summary": "Beşiktaş'ın file bekçisi Doğan Alemdar, UEFA Avrupa Ligi'nin 5. haftasındaki 2-1'lik Hapoel Beer Sheva galibiyetinin ardından yaşanan olaylarla ilgili konuştu. Siyah Beyazlı taraftarlara yapılanlar nedeniyle tepki gösteren Alemdar, \"Taraftarımıza değinmek istiyorum. Onların yaşadığı muamele kabul edilebilir değil! Onların yanlarına gittiğimizde yaşadıklarını anlattılar ve bu kabul edilebilir değil bence! Onlara geçmiş olsun dileklerimi iletmek istiyorum.\" dedi.",
-            "publishedAt": "2026-11-26T21:43:38.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/27/ver1795729296/3930457/jpg/1920x1080"
-          }
-        ]
       }
     ],
     "tech": [
-      {
-        "storyId": "7b528bb9dfdf0dee",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 10.53,
-        "firstSeenAt": "2026-11-26T12:00:00.000Z",
-        "lastUpdatedAt": "2026-11-26T20:19:54.000Z",
-        "image": {
-          "url": "https://cdn.webrazzi.com/uploads/2026/07/spacexai-109.png",
-          "sourceId": "webrazzi",
-          "sourceName": "Webrazzi",
-          "articleUrl": "https://webrazzi.com/2026/11/26/fcc-spacex-in-uzayda-yapay-zeka-veri-merkezleri-kurma-planini-onayladi/"
-        },
-        "sources": [
-          {
-            "id": "webrazzi",
-            "name": "Webrazzi",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "dw-turkce",
-            "name": "DW Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "shiftdelete",
-            "name": "ShiftDelete.Net",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "euronews-tr",
-            "name": "Euronews Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:00:00.000Z",
-            "sourceId": "webrazzi"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T14:27:00.000Z",
-            "sourceId": "dw-turkce"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T14:27:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T20:19:54.000Z",
-            "sourceId": "euronews-tr"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "webrazzi",
-            "url": "https://webrazzi.com/2026/11/26/fcc-spacex-in-uzayda-yapay-zeka-veri-merkezleri-kurma-planini-onayladi/",
-            "title": "FCC, SpaceX'in uzayda yapay zeka veri merkezleri kurma planını onayladı",
-            "summary": "Elon Musk'ın uzayda yapay zeka veri merkezleri kurma hedefi doğrultusunda önemli bir gelişme yaşandı. ABD Federal İletişim Komisyonu (FCC), SpaceX'in uzayda veri merkezi altyapısı oluşturmak için 1 mi...",
-            "publishedAt": "2026-11-26T12:00:00.000Z",
-            "imageUrl": "https://cdn.webrazzi.com/uploads/2026/07/spacexai-109.png"
-          },
-          {
-            "sourceId": "dw-turkce",
-            "url": "https://www.dw.com/tr/elon-musk-%C4%B1n-uzayda-veri-merkezi-plan%C4%B1na-fcc-den-onay-spacex-bir-milyon-uydu-f%C4%B1rlatacak/a-80064154?maca=tur-rss-tur-all-1495-rdf",
-            "title": "Elon Musk'ın uzayda veri merkezi planına FCC'den onay: SpaceX bir milyon uydu fırlatacak",
-            "summary": "ABD, Elon Musk'ın şirketi SpaceX'e uzayda veri merkezleri kurmak üzere bir milyona kadar uydu fırlatma izni verdi. Musk, ilk uyduları 2027'nin sonunda uzaya göndermeyi planlıyor.",
-            "publishedAt": "2026-11-26T14:27:00.000Z"
-          },
-          {
-            "sourceId": "shiftdelete",
-            "url": "https://shiftdelete.net/spacex-1-milyon-uydu-veri-merkezi-fcc-izni-starmind",
-            "title": "SpaceX'e 1 milyon uyduluk veri merkezi izni",
-            "summary": "ABD Federal İletişim Komisyonu, SpaceX'in yörüngeye 1 milyona kadar veri merkezi uydusu yerleştirme planını onayladı. Ancak izin kısmi: Yörünge kabuklarının çoğu, enkaz planı tamamlanana kadar bekleyecek.",
-            "publishedAt": "2026-11-26T15:44:46.000Z",
-            "imageUrl": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/starlink-falcon-9-firlatma-starshield-kapak-2211.webp"
-          },
-          {
-            "sourceId": "euronews-tr",
-            "url": "https://tr.euronews.com/2026/11/26/gokbilimcilerden-spacexin-1-milyon-uydu-planina-tepki-riskli-asteroitleri-goremeyebiliriz",
-            "title": "Gökbilimcilerden SpaceX'in 1 milyon uydu planına tepki: 'Riskli asteroitleri göremeyebiliriz'",
-            "summary": "ABD Federal İletişim Komisyonu, SpaceX'in uzayda veri merkezleri kurmak üzere 1 milyon uydu konuşlandırmasına onay vermesi bilim dünyasında endişe yarattı. Gökbilimciler projenin tüm insanlık için gece göğünü kökten değiştireceği uyarısında bulundu.",
-            "publishedAt": "2026-11-26T20:19:54.000Z"
-          }
-        ]
-      },
       {
         "storyId": "41ae633c6584dee9",
         "language": "en",
@@ -2513,7 +2475,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.92,
+        "score": 8.76,
         "firstSeenAt": "2026-11-26T16:55:00.000Z",
         "lastUpdatedAt": "2026-11-27T00:56:52.000Z",
         "image": {
@@ -2575,6 +2537,90 @@
         ]
       },
       {
+        "storyId": "4fd072a807c66242",
+        "language": "tr",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources",
+          "cross-camp"
+        ],
+        "score": 8.37,
+        "firstSeenAt": "2026-11-26T14:27:00.000Z",
+        "lastUpdatedAt": "2026-11-26T20:19:54.000Z",
+        "image": {
+          "url": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/starlink-falcon-9-firlatma-starshield-kapak-2211.webp",
+          "sourceId": "shiftdelete",
+          "sourceName": "ShiftDelete.Net",
+          "articleUrl": "https://shiftdelete.net/spacex-1-milyon-uydu-veri-merkezi-fcc-izni-starmind"
+        },
+        "sources": [
+          {
+            "id": "dw-turkce",
+            "name": "DW Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "shiftdelete",
+            "name": "ShiftDelete.Net",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
+          },
+          {
+            "id": "euronews-tr",
+            "name": "Euronews Türkçe",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-26T14:27:00.000Z",
+            "sourceId": "dw-turkce"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-26T20:19:54.000Z",
+            "sourceId": "euronews-tr"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-26T20:19:54.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "dw-turkce",
+            "url": "https://www.dw.com/tr/elon-musk-%C4%B1n-uzayda-veri-merkezi-plan%C4%B1na-fcc-den-onay-spacex-bir-milyon-uydu-f%C4%B1rlatacak/a-80064154?maca=tur-rss-tur-all-1495-rdf",
+            "title": "Elon Musk'ın uzayda veri merkezi planına FCC'den onay: SpaceX bir milyon uydu fırlatacak",
+            "summary": "ABD, Elon Musk'ın şirketi SpaceX'e uzayda veri merkezleri kurmak üzere bir milyona kadar uydu fırlatma izni verdi. Musk, ilk uyduları 2027'nin sonunda uzaya göndermeyi planlıyor.",
+            "publishedAt": "2026-11-26T14:27:00.000Z"
+          },
+          {
+            "sourceId": "shiftdelete",
+            "url": "https://shiftdelete.net/spacex-1-milyon-uydu-veri-merkezi-fcc-izni-starmind",
+            "title": "SpaceX'e 1 milyon uyduluk veri merkezi izni",
+            "summary": "ABD Federal İletişim Komisyonu, SpaceX'in yörüngeye 1 milyona kadar veri merkezi uydusu yerleştirme planını onayladı. Ancak izin kısmi: Yörünge kabuklarının çoğu, enkaz planı tamamlanana kadar bekleyecek.",
+            "publishedAt": "2026-11-26T15:44:46.000Z",
+            "imageUrl": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/starlink-falcon-9-firlatma-starshield-kapak-2211.webp"
+          },
+          {
+            "sourceId": "euronews-tr",
+            "url": "https://tr.euronews.com/2026/11/26/gokbilimcilerden-spacexin-1-milyon-uydu-planina-tepki-riskli-asteroitleri-goremeyebiliriz",
+            "title": "Gökbilimcilerden SpaceX'in 1 milyon uydu planına tepki: 'Riskli asteroitleri göremeyebiliriz'",
+            "summary": "ABD Federal İletişim Komisyonu, SpaceX'in uzayda veri merkezleri kurmak üzere 1 milyon uydu konuşlandırmasına onay vermesi bilim dünyasında endişe yarattı. Gökbilimciler projenin tüm insanlık için gece göğünü kökten değiştireceği uyarısında bulundu.",
+            "publishedAt": "2026-11-26T20:19:54.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "05dae1fff14a0363",
         "language": "en",
         "label": "confirmed",
@@ -2582,7 +2628,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.53,
+        "score": 8.37,
         "firstSeenAt": "2026-11-26T18:34:17.000Z",
         "lastUpdatedAt": "2026-11-26T20:19:22.000Z",
         "sources": [
@@ -2638,64 +2684,53 @@
         ]
       },
       {
-        "storyId": "e700f81f3624ed92",
+        "storyId": "ad78321ace868025",
         "language": "en",
-        "label": "confirmed",
+        "label": "single-source",
         "developing": false,
         "reasons": [
-          "independent-sources"
+          "single-owner"
         ],
-        "score": 8.22,
-        "firstSeenAt": "2026-11-26T12:24:29.000Z",
-        "lastUpdatedAt": "2026-11-26T16:38:00.000Z",
+        "score": 3.94,
+        "firstSeenAt": "2026-11-26T17:06:24.000Z",
+        "lastUpdatedAt": "2026-11-27T03:11:41.000Z",
         "sources": [
-          {
-            "id": "npr-world",
-            "name": "NPR World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
           {
             "id": "the-verge",
             "name": "The Verge",
             "camp": "specialist",
             "tier": "established",
             "confirms": true
+          },
+          {
+            "id": "hacker-news",
+            "name": "Hacker News (front page)",
+            "camp": "specialist",
+            "tier": "low",
+            "confirms": false
           }
         ],
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T12:24:29.000Z",
-            "sourceId": "npr-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T16:38:00.000Z",
+            "at": "2026-11-26T17:06:24.000Z",
             "sourceId": "the-verge"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T16:38:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "npr-world",
-            "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
-            "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-            "summary": "The East Coast's weather is a major concern this holiday, as it could lead to coastal flooding. And, the judge says the FCC can't punish ABC for satire Trump doesn't like.",
-            "publishedAt": "2026-11-26T12:24:29.000Z"
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+            "title": "Android app developers will soon have to share their address publicly",
+            "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. […]",
+            "publishedAt": "2026-11-26T17:06:24.000Z"
           },
           {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-            "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
-            "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency \"waged a retaliatory campaign\" against the […]",
-            "publishedAt": "2026-11-26T16:38:00.000Z"
+            "sourceId": "hacker-news",
+            "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+            "title": "Google will show solo Android developers' phone numbers and addresses",
+            "summary": "Article URL: https://support.google.com/googleplay/android-developer/answer/17594752?hl=en Comments URL: https://news.ycombinator.com/item?id=50662322 Points: 13 # Comments: 4",
+            "publishedAt": "2026-11-27T03:11:41.000Z"
           }
         ]
       },
@@ -2707,7 +2742,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.59,
+        "score": 3.43,
         "firstSeenAt": "2026-11-26T21:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T21:00:00.000Z",
         "sources": [
@@ -2744,7 +2779,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.51,
+        "score": 3.35,
         "firstSeenAt": "2026-11-26T20:03:54.000Z",
         "lastUpdatedAt": "2026-11-26T20:03:54.000Z",
         "sources": [
@@ -2781,7 +2816,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.5,
+        "score": 3.34,
         "firstSeenAt": "2026-11-26T20:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T20:00:00.000Z",
         "sources": [
@@ -2818,7 +2853,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.46,
+        "score": 3.31,
         "firstSeenAt": "2026-11-26T19:31:50.000Z",
         "lastUpdatedAt": "2026-11-26T19:31:50.000Z",
         "sources": [
@@ -2855,7 +2890,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.42,
+        "score": 3.26,
         "firstSeenAt": "2026-11-26T19:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T19:00:00.000Z",
         "sources": [
@@ -2892,7 +2927,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.34,
+        "score": 3.18,
         "firstSeenAt": "2026-11-26T18:00:29.000Z",
         "lastUpdatedAt": "2026-11-26T18:00:29.000Z",
         "image": {
@@ -2936,7 +2971,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.26,
+        "score": 3.1,
         "firstSeenAt": "2026-11-26T17:07:00.000Z",
         "lastUpdatedAt": "2026-11-26T17:07:00.000Z",
         "sources": [
@@ -2966,43 +3001,6 @@
         ]
       },
       {
-        "storyId": "ad78321ace868025",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.26,
-        "firstSeenAt": "2026-11-26T17:06:24.000Z",
-        "lastUpdatedAt": "2026-11-26T17:06:24.000Z",
-        "sources": [
-          {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T17:06:24.000Z",
-            "sourceId": "the-verge"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-            "title": "Android app developers will soon have to share their address publicly",
-            "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. […]",
-            "publishedAt": "2026-11-26T17:06:24.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "805fcb4a332b0be8",
         "language": "en",
         "label": "single-source",
@@ -3010,7 +3008,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.25,
+        "score": 3.09,
         "firstSeenAt": "2026-11-26T17:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T17:00:00.000Z",
         "sources": [
@@ -3040,6 +3038,43 @@
         ]
       },
       {
+        "storyId": "046ea33a313a0f1b",
+        "language": "en",
+        "label": "single-source",
+        "developing": false,
+        "reasons": [
+          "single-owner"
+        ],
+        "score": 3.06,
+        "firstSeenAt": "2026-11-26T16:38:00.000Z",
+        "lastUpdatedAt": "2026-11-26T16:38:00.000Z",
+        "sources": [
+          {
+            "id": "the-verge",
+            "name": "The Verge",
+            "camp": "specialist",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-26T16:38:00.000Z",
+            "sourceId": "the-verge"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "the-verge",
+            "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+            "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+            "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency \"waged a retaliatory campaign\" against the […]",
+            "publishedAt": "2026-11-26T16:38:00.000Z"
+          }
+        ]
+      },
+      {
         "storyId": "b81da0547893b262",
         "language": "en",
         "label": "single-source",
@@ -3047,7 +3082,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.17,
+        "score": 3.01,
         "firstSeenAt": "2026-11-26T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T16:00:00.000Z",
         "sources": [
@@ -3084,7 +3119,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.17,
+        "score": 3.01,
         "firstSeenAt": "2026-11-26T16:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T16:00:00.000Z",
         "sources": [
@@ -3116,14 +3151,128 @@
     ],
     "world": [
       {
+        "storyId": "83da6f6c9073ae3c",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "copies-not-counted",
+          "independent-sources"
+        ],
+        "score": 10.95,
+        "firstSeenAt": "2026-11-26T20:10:34.000Z",
+        "lastUpdatedAt": "2026-11-27T03:12:46.000Z",
+        "image": {
+          "url": "https://s.france24.com/media/display/d6c3707a-e9d4-11f1-8cb6-174dac1c1bf0/w:1024/p:16x9/EN-20261126-200333-200843-CS.jpg",
+          "sourceId": "france-24",
+          "sourceName": "France 24",
+          "articleUrl": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe"
+        },
+        "sources": [
+          {
+            "id": "france-24",
+            "name": "France 24",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "al-jazeera",
+            "name": "Al Jazeera English",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": false
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-26T20:10:34.000Z",
+            "sourceId": "france-24"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-26T22:06:20.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-26T22:06:20.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T02:14:25.000Z",
+            "sourceId": "al-jazeera"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "france-24",
+            "url": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe",
+            "title": "Trump urges Putin to end 'military aggression' in Europe",
+            "summary": "US President Donald Trump said Thursday he had asked Vladimir Putin to \"pull back all military aggression\" against Europe, in a shift in tone towards the leader Russian he called his friend just a week ago. Trump said he had made the request to Putin when they met in China last week, adding that he thought it would help lead to a deal to end Moscow's grinding war in Ukraine. The US leader's comments come a day after he hosted NATO chief Mark Rutte in Florida, after which they issued a joint statement calling on Russia not to expand the Ukraine war. FRANCE 24's international affairs editor Kethevane Gorjestani explains.",
+            "publishedAt": "2026-11-26T20:10:34.000Z",
+            "imageUrl": "https://s.france24.com/media/display/d6c3707a-e9d4-11f1-8cb6-174dac1c1bf0/w:1024/p:16x9/EN-20261126-200333-200843-CS.jpg"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
+            "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
+            "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
+            "publishedAt": "2026-11-26T22:06:20.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5957/live/94851140-e9e4-11f1-ab41-f1f84c0c758a.jpg"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+            "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+            "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
+            "publishedAt": "2026-11-26T22:49:27.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg"
+          },
+          {
+            "sourceId": "al-jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+            "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+            "summary": "Trump says he urged Putin to 'pull back' military aggression in Europe amid escalating Russian and Ukrainian attacks.",
+            "publishedAt": "2026-11-27T02:14:25.000Z"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
+            "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
+            "summary": "US President Donald Trump said Thursday he had asked Vladimir Putin to “pull back all military aggression” against Europe, in a fresh shift in tone towards the Russian leader he called his friend just last week. Trump said he had made the request to Putin when they met in China last week, adding that he thought it would help lead to a deal to end Moscow’s grinding war in Ukraine. Trump’s comments come a day after he hosted Nato chief Mark Rutte in Florida, after which the two leaders issued a...",
+            "publishedAt": "2026-11-27T03:12:46.000Z",
+            "copyOf": "83da6f6c9073ae3c",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/8c8fb84a-8529-4892-aeaf-2ed9a0d9c868_be7124d2.jpg?itok=h3bxfu_X&v=1795749164"
+          }
+        ]
+      },
+      {
         "storyId": "f70de7be9ac3cba6",
         "language": "en",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.98,
+        "score": 10.82,
         "firstSeenAt": "2026-11-26T21:57:53.000Z",
         "lastUpdatedAt": "2026-11-27T01:44:13.000Z",
         "image": {
@@ -3205,94 +3354,6 @@
         ]
       },
       {
-        "storyId": "c248732cff880a60",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 10.67,
-        "firstSeenAt": "2026-11-26T11:58:00.000Z",
-        "lastUpdatedAt": "2026-11-26T22:01:22.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg",
-          "sourceId": "bbc-world",
-          "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "dw-world",
-            "name": "DW World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "euronews-en",
-            "name": "Euronews",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "bbc-world",
-            "name": "BBC News World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T11:58:00.000Z",
-            "sourceId": "dw-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T14:40:10.000Z",
-            "sourceId": "euronews-en"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T14:40:10.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T22:01:22.000Z",
-            "sourceId": "bbc-world"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "dw-world",
-            "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054?maca=en-rss-en-world-4025-rdf",
-            "title": "Crew member dies after diesel tanker sinks off Ibiza coast",
-            "summary": "Authorities rescued 17 crew members but one later died in hospital after a diesel tanker capsized off the Spanish island of Ibiza. A contingency plan against possible pollution damage is now in place.",
-            "publishedAt": "2026-11-26T11:58:00.000Z"
-          },
-          {
-            "sourceId": "euronews-en",
-            "url": "https://www.euronews.com/2026/11/26/aerial-footage-shows-diesel-tanker-sinking-off-ibiza",
-            "title": "Aerial footage shows diesel tanker sinking off Ibiza",
-            "summary": "A tanker carrying around 7,000 tonnes of diesel has capsized off Ibiza, prompting Spanish authorities to assess the risk of marine pollution. One crew member died after all 17 people on board were rescued.",
-            "publishedAt": "2026-11-26T14:40:10.000Z"
-          },
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-            "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-            "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
-            "publishedAt": "2026-11-26T22:01:22.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "8f2ca94f4b4afbb0",
         "language": "en",
         "label": "confirmed",
@@ -3300,7 +3361,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.64,
+        "score": 10.48,
         "firstSeenAt": "2026-11-26T15:55:45.000Z",
         "lastUpdatedAt": "2026-11-26T21:40:29.000Z",
         "image": {
@@ -3391,34 +3452,33 @@
         ]
       },
       {
-        "storyId": "8e8186fcfbf5bc93",
+        "storyId": "070fa6bfc84f4bc9",
         "language": "en",
         "label": "confirmed",
-        "developing": false,
+        "developing": true,
         "reasons": [
           "independent-sources"
         ],
-        "score": 10.48,
-        "firstSeenAt": "2026-11-26T17:06:51.000Z",
-        "lastUpdatedAt": "2026-11-26T19:41:37.000Z",
+        "score": 8.97,
+        "firstSeenAt": "2026-11-27T02:38:15.000Z",
+        "lastUpdatedAt": "2026-11-27T03:28:15.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss"
+        },
         "sources": [
-          {
-            "id": "scmp-world",
-            "name": "South China Morning Post",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "al-jazeera",
-            "name": "Al Jazeera English",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
           {
             "id": "guardian-world",
             "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3427,49 +3487,107 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T17:06:51.000Z",
-            "sourceId": "scmp-world"
+            "at": "2026-11-27T02:38:15.000Z",
+            "sourceId": "guardian-world"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-26T18:27:27.000Z",
-            "sourceId": "al-jazeera"
+            "at": "2026-11-27T03:28:15.000Z",
+            "sourceId": "bbc-world"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-26T18:27:27.000Z",
+            "at": "2026-11-27T03:28:15.000Z",
             "from": "single-source",
             "to": "confirmed"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T19:41:37.000Z",
-            "sourceId": "guardian-world"
           }
         ],
         "articles": [
           {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department",
-            "title": "Trump calls GDP figures ‘fake’, demands probe of his own Commerce Department",
-            "summary": "US President Donald Trump on Thursday accused his Commerce Department of purposely issuing incorrect economic growth figures before the midterm elections and said he wants to launch an investigation. Trump has repeatedly sought to undermine trust in economic data that fails to match his claims of a historic boom, a pattern that threatens the credibility of figures needed by businesses, financial markets and consumers when making investments. His latest complaint concerns data issued by the...",
-            "publishedAt": "2026-11-26T17:06:51.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/d2adf705-2006-4ac0-a84d-2ced511f82d3_b4cdcf28.jpg?itok=HvWDorUr&v=1795712802"
-          },
-          {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
-            "title": "Trump calls GDP data released before midterms ‘fake’, demands investigation",
-            "summary": "President says it was a deliberate decision to release 'fake' growth numbers before US midterm elections.",
-            "publishedAt": "2026-11-26T18:27:27.000Z"
-          },
-          {
             "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
-            "title": "Trump alleges ‘fake’ economic figures released before US midterms but doesn’t provide evidence",
-            "summary": "In a Thanksgiving post, the US president seeks investigation after blue wave of Democrats unseat Republicans Donald Trump has alleged without evidence that economic figures published by the US federal government before this month’s midterm elections were “fake” and demanded an investigation after voters roundly rejected his Republican party. In a holiday message on social media tinged with bitterness, the US president wished a happy thanksgiving “to even those who issued fake Economic Numbers, just prior to the Election, and corrected them yesterday, three weeks late, showing that the GDP was actually 4.3%, versus 3.4%”. Continue reading...",
-            "publishedAt": "2026-11-26T19:41:37.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/986e893adee7d4a82d2b268d1a05cd0fa6d2fe28/87_218_2920_2337/master/2920.jpg?width=140&quality=85&auto=format&fit=max&s=258e262e8de5f65cfec8ee392a62440a"
+            "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+            "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+            "summary": "Incumbent prime minister Christopher Luxon loses majority and needs support of Opportunity party to remain in power, or country faces another election The final results of New Zealand’s general election show the incumbent rightwing coalition will need the support of a centrist newcomer party to form a government, and to avoid sending the country back to the polls. Preliminary results on 7 November handed the National party and its two coalition partners, the populist New Zealand First and libertarian Act parties, a slim two-seat majority, making the election too close to call until final votes were tallied. Continue reading...",
+            "publishedAt": "2026-11-27T02:38:15.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/15bb64d1f1fa3f1840538248518d963a2c8d39e8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=43d6b064ba99972f2f4003cf962441bc"
+          },
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+            "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+            "summary": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
+            "publishedAt": "2026-11-27T03:28:15.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg"
+          }
+        ]
+      },
+      {
+        "storyId": "0f889ad86b232033",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.88,
+        "firstSeenAt": "2026-11-26T21:17:53.000Z",
+        "lastUpdatedAt": "2026-11-27T02:28:47.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+        },
+        "sources": [
+          {
+            "id": "bbc-world",
+            "name": "BBC News World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-26T21:17:53.000Z",
+            "sourceId": "bbc-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-27T02:28:47.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-27T02:28:47.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+            "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+            "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+            "publishedAt": "2026-11-26T21:17:53.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png"
+          },
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+            "title": "Iran denies role in drone attack that killed Italians in Kuwait",
+            "summary": "A drone attack in Kuwait killed two Italian technicians working on an air defence system on Thursday, marking the first fatal strike in the Gulf state for months. Both Italy and Kuwait confirmed the deaths, blaming the attack on Iran. But Tehran’s foreign minister Abbas Araghchi insisted in calls to his Kuwaiti and Italian counterparts that it was not behind the deadly strike. Iran has in the last week ratcheted up attacks on Kuwait and Gulf neighbour Bahrain while it continues to fight the...",
+            "publishedAt": "2026-11-27T02:28:47.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/08a21b46-4fcf-4df5-b84c-47b46179574b_9a039389.jpg?itok=9uc2FBTY&v=1795746518"
           }
         ]
       },
@@ -3481,7 +3599,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.8,
+        "score": 8.64,
         "firstSeenAt": "2026-11-26T20:02:47.000Z",
         "lastUpdatedAt": "2026-11-26T23:35:18.000Z",
         "image": {
@@ -3544,111 +3662,33 @@
         ]
       },
       {
-        "storyId": "83da6f6c9073ae3c",
+        "storyId": "b4d49791a0aa01c5",
         "language": "en",
         "label": "confirmed",
         "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.74,
-        "firstSeenAt": "2026-11-26T20:10:34.000Z",
-        "lastUpdatedAt": "2026-11-26T22:49:27.000Z",
+        "score": 8.51,
+        "firstSeenAt": "2026-11-26T14:40:10.000Z",
+        "lastUpdatedAt": "2026-11-26T22:01:22.000Z",
         "image": {
-          "url": "https://s.france24.com/media/display/d6c3707a-e9d4-11f1-8cb6-174dac1c1bf0/w:1024/p:16x9/EN-20261126-200333-200843-CS.jpg",
-          "sourceId": "france-24",
-          "sourceName": "France 24",
-          "articleUrl": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe"
-        },
-        "sources": [
-          {
-            "id": "france-24",
-            "name": "France 24",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "bbc-world",
-            "name": "BBC News World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T20:10:34.000Z",
-            "sourceId": "france-24"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T22:06:20.000Z",
-            "sourceId": "bbc-world"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T22:06:20.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "france-24",
-            "url": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe",
-            "title": "Trump urges Putin to end 'military aggression' in Europe",
-            "summary": "US President Donald Trump said Thursday he had asked Vladimir Putin to \"pull back all military aggression\" against Europe, in a shift in tone towards the leader Russian he called his friend just a week ago. Trump said he had made the request to Putin when they met in China last week, adding that he thought it would help lead to a deal to end Moscow's grinding war in Ukraine. The US leader's comments come a day after he hosted NATO chief Mark Rutte in Florida, after which they issued a joint statement calling on Russia not to expand the Ukraine war. FRANCE 24's international affairs editor Kethevane Gorjestani explains.",
-            "publishedAt": "2026-11-26T20:10:34.000Z",
-            "imageUrl": "https://s.france24.com/media/display/d6c3707a-e9d4-11f1-8cb6-174dac1c1bf0/w:1024/p:16x9/EN-20261126-200333-200843-CS.jpg"
-          },
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
-            "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-            "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-            "publishedAt": "2026-11-26T22:06:20.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5957/live/94851140-e9e4-11f1-ab41-f1f84c0c758a.jpg"
-          },
-          {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-            "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-            "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
-            "publishedAt": "2026-11-26T22:49:27.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "5897d0f37fb9f99b",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.6,
-        "firstSeenAt": "2026-11-26T12:16:06.000Z",
-        "lastUpdatedAt": "2026-11-26T21:08:44.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e387/live/8aafd3d0-e98f-11f1-9d1c-4dcc8fcde666.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg",
           "sourceId": "bbc-world",
           "sourceName": "BBC News World",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss"
+          "articleUrl": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
         },
         "sources": [
           {
-            "id": "bbc-world",
-            "name": "BBC News World",
+            "id": "euronews-en",
+            "name": "Euronews",
             "camp": "international",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "al-jazeera",
-            "name": "Al Jazeera English",
+            "id": "bbc-world",
+            "name": "BBC News World",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -3657,36 +3697,36 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T12:16:06.000Z",
-            "sourceId": "bbc-world"
+            "at": "2026-11-26T14:40:10.000Z",
+            "sourceId": "euronews-en"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-26T21:08:44.000Z",
-            "sourceId": "al-jazeera"
+            "at": "2026-11-26T22:01:22.000Z",
+            "sourceId": "bbc-world"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-26T21:08:44.000Z",
+            "at": "2026-11-26T22:01:22.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "bbc-world",
-            "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
-            "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-            "summary": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
-            "publishedAt": "2026-11-26T12:16:06.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e387/live/8aafd3d0-e98f-11f1-9d1c-4dcc8fcde666.jpg"
+            "sourceId": "euronews-en",
+            "url": "https://www.euronews.com/2026/11/26/aerial-footage-shows-diesel-tanker-sinking-off-ibiza",
+            "title": "Aerial footage shows diesel tanker sinking off Ibiza",
+            "summary": "A tanker carrying around 7,000 tonnes of diesel has capsized off Ibiza, prompting Spanish authorities to assess the risk of marine pollution. One crew member died after all 17 people on board were rescued.",
+            "publishedAt": "2026-11-26T14:40:10.000Z"
           },
           {
-            "sourceId": "al-jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
-            "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-            "summary": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened.",
-            "publishedAt": "2026-11-26T21:08:44.000Z"
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+            "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+            "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
+            "publishedAt": "2026-11-26T22:01:22.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg"
           }
         ]
       },
@@ -3698,7 +3738,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.55,
+        "score": 8.39,
         "firstSeenAt": "2026-11-26T20:33:07.000Z",
         "lastUpdatedAt": "2026-11-26T20:35:23.000Z",
         "image": {
@@ -3768,7 +3808,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.55,
+        "score": 8.39,
         "firstSeenAt": "2026-11-26T15:41:42.000Z",
         "lastUpdatedAt": "2026-11-26T20:32:43.000Z",
         "sources": [
@@ -3831,7 +3871,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.53,
+        "score": 8.37,
         "firstSeenAt": "2026-11-26T18:34:17.000Z",
         "lastUpdatedAt": "2026-11-26T20:19:22.000Z",
         "sources": [
@@ -3887,78 +3927,6 @@
         ]
       },
       {
-        "storyId": "27cbc57cef79cb39",
-        "language": "en",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources"
-        ],
-        "score": 8.51,
-        "firstSeenAt": "2026-11-26T13:19:28.000Z",
-        "lastUpdatedAt": "2026-11-26T20:01:47.000Z",
-        "sources": [
-          {
-            "id": "scmp-world",
-            "name": "South China Morning Post",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "guardian-world",
-            "name": "The Guardian World",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:19:28.000Z",
-            "sourceId": "scmp-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T19:38:26.000Z",
-            "sourceId": "guardian-world"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T19:38:26.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "scmp-world",
-            "url": "https://www.scmp.com/news/world/europe/article/3375952/uk-net-migration-falls-77000-lowest-annual-level-nearly-30-years",
-            "title": "UK net migration falls to 77,000, lowest annual level in nearly 30 years",
-            "summary": "Net migration to the UK fell to 77,000 for the year to June, the lowest annual figure since 1997 excluding the Covid years, statistics showed on Thursday. The net migration figures – the difference between the numbers of people arriving in and leaving Britain – are a boost for the UK’s centre-left Labour government, which has been under pressure from the hard right anti-immigration Reform UK party on the issue. However, some economists have questioned whether low net migration is compatible with...",
-            "publishedAt": "2026-11-26T13:19:28.000Z",
-            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/c5f8aa66-1754-4c2b-a2de-cffb2bed2ef8_07b73b9e.jpg?itok=qyGZ0EZi&v=1795699165"
-          },
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/uk-news/2026/nov/26/how-much-sharp-fall-uk-immigration-labour-policies",
-            "title": "How much of the sharp fall in UK immigration is due to Labour’s policies?",
-            "summary": "Labour is jubilant it has got numbers down to levels the Tories could not but it was helped by factors beyond its control Net migration to UK falls to lowest level since 1997 excluding pandemic David Cameron was the leader of the opposition when he made a comment on overall migration that was used to interrogate every Tory leader for the next 14 years. Asked in January 2010 on the BBC by the interviewer Andrew Marr to address comments made by the archbishop of Canterbury calling for the population to remain under 70 million, Cameron said net immigration levels of 200,000 a year were “too much”. Continue reading...",
-            "publishedAt": "2026-11-26T19:38:26.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/ea5e95ac0fd2b916b7acdbd7a3c2351e5463c97a/243_0_1994_1596/master/1994.jpg?width=140&quality=85&auto=format&fit=max&s=6cd239910a6f8be620de7f7732e86bf0"
-          },
-          {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/uk-news/2026/nov/26/net-migration-to-uk-falls-to-lowest-level-since-1997-excluding-pandemic",
-            "title": "Net migration to UK falls to lowest level since 1997 excluding pandemic",
-            "summary": "Latest figures show difference between number of people arriving and leaving UK was ⁠77,000 in ​year ‌to ‌June Analysis: How much of the fall in UK immigration is due to Labour’s policies? Net migration across the UK has fallen to its lowest level since 1997 with the exclusion of the years of the Covid pandemic. Figures released by the Office for National Statistics and the Home Office show that the difference between people arriving and leaving the UK was ⁠77,000 in ⁠the ​year ‌to ‌June ‌2026. Continue reading...",
-            "publishedAt": "2026-11-26T20:01:47.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/2acbd7cd57ac01e54489d7c1bc69d56ed62a57a8/607_609_3999_3201/master/3999.jpg?width=140&quality=85&auto=format&fit=max&s=00fb07bfeee9a001fcfb3a1d8dfbc0a7"
-          }
-        ]
-      },
-      {
         "storyId": "747bd29bc3902685",
         "language": "en",
         "label": "confirmed",
@@ -3966,7 +3934,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.5,
+        "score": 8.34,
         "firstSeenAt": "2026-11-26T18:53:15.000Z",
         "lastUpdatedAt": "2026-11-26T19:55:58.000Z",
         "image": {
@@ -4028,6 +3996,70 @@
         ]
       },
       {
+        "storyId": "8e8186fcfbf5bc93",
+        "language": "en",
+        "label": "confirmed",
+        "developing": false,
+        "reasons": [
+          "independent-sources"
+        ],
+        "score": 8.32,
+        "firstSeenAt": "2026-11-26T17:06:51.000Z",
+        "lastUpdatedAt": "2026-11-26T19:41:37.000Z",
+        "sources": [
+          {
+            "id": "scmp-world",
+            "name": "South China Morning Post",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          },
+          {
+            "id": "guardian-world",
+            "name": "The Guardian World",
+            "camp": "international",
+            "tier": "established",
+            "confirms": true
+          }
+        ],
+        "timeline": [
+          {
+            "kind": "first-reported",
+            "at": "2026-11-26T17:06:51.000Z",
+            "sourceId": "scmp-world"
+          },
+          {
+            "kind": "outlet-joined",
+            "at": "2026-11-26T19:41:37.000Z",
+            "sourceId": "guardian-world"
+          },
+          {
+            "kind": "label-changed",
+            "at": "2026-11-26T19:41:37.000Z",
+            "from": "single-source",
+            "to": "confirmed"
+          }
+        ],
+        "articles": [
+          {
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department",
+            "title": "Trump calls GDP figures ‘fake’, demands probe of his own Commerce Department",
+            "summary": "US President Donald Trump on Thursday accused his Commerce Department of purposely issuing incorrect economic growth figures before the midterm elections and said he wants to launch an investigation. Trump has repeatedly sought to undermine trust in economic data that fails to match his claims of a historic boom, a pattern that threatens the credibility of figures needed by businesses, financial markets and consumers when making investments. His latest complaint concerns data issued by the...",
+            "publishedAt": "2026-11-26T17:06:51.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/d2adf705-2006-4ac0-a84d-2ced511f82d3_b4cdcf28.jpg?itok=HvWDorUr&v=1795712802"
+          },
+          {
+            "sourceId": "guardian-world",
+            "url": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
+            "title": "Trump alleges ‘fake’ economic figures released before US midterms but doesn’t provide evidence",
+            "summary": "In a Thanksgiving post, the US president seeks investigation after blue wave of Democrats unseat Republicans Donald Trump has alleged without evidence that economic figures published by the US federal government before this month’s midterm elections were “fake” and demanded an investigation after voters roundly rejected his Republican party. In a holiday message on social media tinged with bitterness, the US president wished a happy thanksgiving “to even those who issued fake Economic Numbers, just prior to the Election, and corrected them yesterday, three weeks late, showing that the GDP was actually 4.3%, versus 3.4%”. Continue reading...",
+            "publishedAt": "2026-11-26T19:41:37.000Z",
+            "imageUrl": "https://i.guim.co.uk/img/media/986e893adee7d4a82d2b268d1a05cd0fa6d2fe28/87_218_2920_2337/master/2920.jpg?width=140&quality=85&auto=format&fit=max&s=258e262e8de5f65cfec8ee392a62440a"
+          }
+        ]
+      },
+      {
         "storyId": "29506a82dd83511a",
         "language": "en",
         "label": "confirmed",
@@ -4035,7 +4067,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.4,
+        "score": 8.24,
         "firstSeenAt": "2026-11-26T14:45:00.000Z",
         "lastUpdatedAt": "2026-11-26T18:45:44.000Z",
         "sources": [
@@ -4091,27 +4123,33 @@
         ]
       },
       {
-        "storyId": "53235b40ca7b0044",
+        "storyId": "44e71f7f5015b6ee",
         "language": "en",
         "label": "confirmed",
         "developing": false,
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.36,
-        "firstSeenAt": "2026-11-26T13:31:28.000Z",
-        "lastUpdatedAt": "2026-11-26T18:13:33.000Z",
+        "score": 7.91,
+        "firstSeenAt": "2026-11-26T14:44:26.000Z",
+        "lastUpdatedAt": "2026-11-26T14:45:59.000Z",
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c5c6/live/4c0cb100-e97d-11f1-99b6-a35a62fa4264.jpg",
+          "sourceId": "bbc-world",
+          "sourceName": "BBC News World",
+          "articleUrl": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss"
+        },
         "sources": [
           {
-            "id": "npr-world",
-            "name": "NPR World",
+            "id": "bbc-world",
+            "name": "BBC News World",
             "camp": "international",
             "tier": "established",
             "confirms": true
           },
           {
-            "id": "guardian-world",
-            "name": "The Guardian World",
+            "id": "scmp-world",
+            "name": "South China Morning Post",
             "camp": "international",
             "tier": "established",
             "confirms": true
@@ -4120,62 +4158,56 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T13:31:28.000Z",
-            "sourceId": "npr-world"
+            "at": "2026-11-26T14:44:26.000Z",
+            "sourceId": "bbc-world"
           },
           {
             "kind": "outlet-joined",
-            "at": "2026-11-26T18:13:33.000Z",
-            "sourceId": "guardian-world"
+            "at": "2026-11-26T14:45:59.000Z",
+            "sourceId": "scmp-world"
           },
           {
             "kind": "label-changed",
-            "at": "2026-11-26T18:13:33.000Z",
+            "at": "2026-11-26T14:45:59.000Z",
             "from": "single-source",
             "to": "confirmed"
           }
         ],
         "articles": [
           {
-            "sourceId": "npr-world",
-            "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
-            "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-            "summary": "Leader Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons to cope with threats from the U.S. and South Korea.",
-            "publishedAt": "2026-11-26T13:31:28.000Z"
+            "sourceId": "bbc-world",
+            "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+            "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+            "summary": "A Paris appeals court rules Depardieu will go on trial for the alleged rape of Charlotte Arnould.",
+            "publishedAt": "2026-11-26T14:44:26.000Z",
+            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5c6/live/4c0cb100-e97d-11f1-99b6-a35a62fa4264.jpg"
           },
           {
-            "sourceId": "guardian-world",
-            "url": "https://www.theguardian.com/world/2026/nov/26/what-would-be-the-fallout-from-a-nuclear-armed-satellite-detonated-into-space",
-            "title": "What would happen if Russia detonated a nuclear weapon in space?",
-            "summary": "⁠Sputnik-S, a nuclear-enabled satellite, has been assembled by Russia and could be launched in 60 days, reports say Russia is reportedly preparing to launch a nuclear-armed satellite into space later this year, in a scenario that could pose a significant threat to global communications. German media outlets have reported, citing western intelligence agency assessments, that such a satellite could be launched within 60 days and would be operational shortly afterwards. Continue reading...",
-            "publishedAt": "2026-11-26T18:13:33.000Z",
-            "imageUrl": "https://i.guim.co.uk/img/media/8e5f6381b847d901db02b9872e0ff3196ba7e4ae/1_0_1578_1263/master/1578.jpg?width=140&quality=85&auto=format&fit=max&s=181f3dd2004bb4c451367dfac8f610ac"
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/news/world/europe/article/3375961/french-actor-gerard-depardieu-stand-trial-rape-after-paris-court-rejects-appeal",
+            "title": "French actor Gerard Depardieu to stand trial for rape after Paris court rejects appeal",
+            "summary": "Film star ⁠Gerard Depardieu, one of the ⁠leading faces of French cinema, will face trial on charges of raping actress Charlotte Arnould in 2018, after a Paris appeal court on Thursday rejected his bid to avoid having the case tried. Arnould first accused Depardieu of rape in ‌2018, saying the assaults occurred in his Paris home on two separate occasions when she was in her early twenties. Depardieu, 77, has denied wrongdoing in the case, and his legal team last year appealed the investigative...",
+            "publishedAt": "2026-11-26T14:45:59.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/cae33cb8-c748-430b-91ba-e3c676b1dd76_3358b993.jpg?itok=xL8oNS_e&v=1795704354"
           }
         ]
       },
       {
-        "storyId": "e700f81f3624ed92",
+        "storyId": "47b979becaa4411a",
         "language": "en",
-        "label": "confirmed",
-        "developing": false,
+        "label": "single-source",
+        "developing": true,
         "reasons": [
-          "independent-sources"
+          "single-owner"
         ],
-        "score": 8.22,
-        "firstSeenAt": "2026-11-26T12:24:29.000Z",
-        "lastUpdatedAt": "2026-11-26T16:38:00.000Z",
+        "score": 3.96,
+        "firstSeenAt": "2026-11-27T03:19:51.000Z",
+        "lastUpdatedAt": "2026-11-27T03:19:51.000Z",
         "sources": [
           {
-            "id": "npr-world",
-            "name": "NPR World",
+            "id": "scmp-world",
+            "name": "South China Morning Post",
             "camp": "international",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "the-verge",
-            "name": "The Verge",
-            "camp": "specialist",
             "tier": "established",
             "confirms": true
           }
@@ -4183,35 +4215,18 @@
         "timeline": [
           {
             "kind": "first-reported",
-            "at": "2026-11-26T12:24:29.000Z",
-            "sourceId": "npr-world"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T16:38:00.000Z",
-            "sourceId": "the-verge"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T16:38:00.000Z",
-            "from": "single-source",
-            "to": "confirmed"
+            "at": "2026-11-27T03:19:51.000Z",
+            "sourceId": "scmp-world"
           }
         ],
         "articles": [
           {
-            "sourceId": "npr-world",
-            "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
-            "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-            "summary": "The East Coast's weather is a major concern this holiday, as it could lead to coastal flooding. And, the judge says the FCC can't punish ABC for satire Trump doesn't like.",
-            "publishedAt": "2026-11-26T12:24:29.000Z"
-          },
-          {
-            "sourceId": "the-verge",
-            "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-            "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
-            "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency \"waged a retaliatory campaign\" against the […]",
-            "publishedAt": "2026-11-26T16:38:00.000Z"
+            "sourceId": "scmp-world",
+            "url": "https://www.scmp.com/presented/news/hong-kong/topics/ciexpo-showcases-hk-tech-hub/article/3375835/ciexpo-2026-reinforces-hong-kongs-role-global-construction-innovation-hub",
+            "title": "CIExpo 2026 reinforces Hong Kong's role as a global construction innovation hub",
+            "summary": "[The content of this article has been produced by our advertising partner.] With Hong Kong’s construction output projected to reach HK$360 billion by 2030/31 the industry is entering a new phase of expansion and transformation. To accelerate the adoption of game-changing technologies such as artificial intelligence (AI), robotics, Building Information Modelling (BIM) and Modular Integrated Construction (MiC), the Construction Industry Council (CIC) joined forces with the Development Bureau...",
+            "publishedAt": "2026-11-27T03:19:51.000Z",
+            "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/2026/11/26/20261121--0225.jpg?itok=Mst6BIMG"
           }
         ]
       }
@@ -4223,12 +4238,12 @@
         "storyId": "c5c3b071332a19cb",
         "language": "tr",
         "label": "confirmed",
-        "developing": true,
+        "developing": false,
         "reasons": [
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.97,
+        "score": 8.81,
         "firstSeenAt": "2026-11-26T22:25:00.000Z",
         "lastUpdatedAt": "2026-11-27T01:34:20.000Z",
         "image": {
@@ -4290,91 +4305,6 @@
         ]
       },
       {
-        "storyId": "7e50df43c4f7621c",
-        "language": "tr",
-        "label": "confirmed",
-        "developing": false,
-        "reasons": [
-          "independent-sources",
-          "cross-camp"
-        ],
-        "score": 8.38,
-        "firstSeenAt": "2026-11-26T13:30:32.000Z",
-        "lastUpdatedAt": "2026-11-26T18:29:13.000Z",
-        "image": {
-          "url": "https://geoim.bloomberght.com/l/2026/11/26/ver1795699856/3795764/jpg/1280x720",
-          "sourceId": "bloomberg-ht",
-          "sourceName": "Bloomberg HT",
-          "articleUrl": "https://www.bloomberght.com/emlak-konut-tan-istanbul-da-55-bin-tl-den-baslayan-taksitlerle-ev-sahibi-olma-imkani-3795764"
-        },
-        "sources": [
-          {
-            "id": "bloomberg-ht",
-            "name": "Bloomberg HT",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          },
-          {
-            "id": "euronews-tr",
-            "name": "Euronews Türkçe",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:30:32.000Z",
-            "sourceId": "bloomberg-ht"
-          },
-          {
-            "kind": "outlet-joined",
-            "at": "2026-11-26T18:29:13.000Z",
-            "sourceId": "euronews-tr"
-          },
-          {
-            "kind": "label-changed",
-            "at": "2026-11-26T18:29:13.000Z",
-            "from": "single-source",
-            "to": "confirmed"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bloomberg-ht",
-            "url": "https://www.bloomberght.com/emlak-konut-tan-istanbul-da-55-bin-tl-den-baslayan-taksitlerle-ev-sahibi-olma-imkani-3795764",
-            "title": "Emlak Konut'tan İstanbul'da 55 bin TL'den başlayan taksitlerle ev sahibi olma imkanı",
-            "summary": "Emlak Konut GYO, konut sahibi olmak isteyenlere yönelik \"Emlak Konut İlk Adım Ödeme Sistemi\"ni hayata geçirdi. İstanbul'da dört yeni projeyi kapsayan kampanyayla yüzde 5 peşinat, 120 aya kadar vade ve 55 bin TL'den başlayan taksit imkânı sunulurken, ilk taksit ödemeleri 2027 yılı ocak ayı itibarıyla başlayacak. Emlak Konut güvencesiyle başlayan kampanya, 31 Aralık 2026 tarihine kadar devam edecek.",
-            "publishedAt": "2026-11-26T13:30:32.000Z",
-            "imageUrl": "https://geoim.bloomberght.com/l/2026/11/26/ver1795699856/3795764/jpg/1280x720"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/emlak-konut-tan-yuzde-5-pesinatla-ev-firsati-istanbul-da-55-bin-tl-taksit-1397662",
-            "title": "Emlak Konut'tan Yüzde 5 Peşinatla Ev Fırsatı: İstanbul'da 55 Bin TL Taksit",
-            "summary": "Emlak Konut GYO, İstanbul'da ev sahibi olmak isteyenler için yeni bir ödeme modelini devreye aldı. 'İlk Adım Ödeme Sistemi' adı verilen kampanyada konut bedelinin yalnızca yüzde 5'i peşin ödeniyor, kalan tutar 120 aya kadar vadeye yayılıyor. Taksitler 55 bin TL'den başlıyor, ilk ödeme ise 2027'nin ocak ayında yapılacak.",
-            "publishedAt": "2026-11-26T14:16:00.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6b082a8d8c87944045b79646/rev-0/w-1200/h-675/f-jpg/s-eab88689add7203a428a111d5b6008461c8a1ed5.jpg"
-          },
-          {
-            "sourceId": "euronews-tr",
-            "url": "https://tr.euronews.com/2026/11/26/istanbulda-kiralik-sosyal-konutlara-yerlesim-aralik-ayinda-10-bin-tlden-baslayacak",
-            "title": "İstanbul'da kiralık sosyal konutlara yerleşim aralık ayında 10 bin TL'den başlayacak",
-            "summary": "Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum, kiralık sosyal konutların aralık ayında yurttaşların kullanımına sunulacağını açıkladı.",
-            "publishedAt": "2026-11-26T18:29:13.000Z"
-          }
-        ]
-      },
-      {
         "storyId": "e502be3502a43733",
         "language": "tr",
         "label": "confirmed",
@@ -4383,7 +4313,7 @@
           "independent-sources",
           "cross-camp"
         ],
-        "score": 8.37,
+        "score": 8.21,
         "firstSeenAt": "2026-11-26T18:12:20.000Z",
         "lastUpdatedAt": "2026-11-26T18:23:00.000Z",
         "image": {
@@ -4452,7 +4382,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.7,
+        "score": 3.54,
         "firstSeenAt": "2026-11-26T22:19:54.000Z",
         "lastUpdatedAt": "2026-11-26T22:19:54.000Z",
         "sources": [
@@ -4489,7 +4419,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.17,
+        "score": 3.02,
         "firstSeenAt": "2026-11-26T16:03:47.000Z",
         "lastUpdatedAt": "2026-11-26T16:03:47.000Z",
         "sources": [
@@ -4526,7 +4456,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.11,
+        "score": 2.95,
         "firstSeenAt": "2026-11-26T15:14:28.000Z",
         "lastUpdatedAt": "2026-11-26T15:14:28.000Z",
         "image": {
@@ -4563,124 +4493,6 @@
         ]
       },
       {
-        "storyId": "dcd64b72ffc20465",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.1,
-        "firstSeenAt": "2026-11-26T13:07:43.000Z",
-        "lastUpdatedAt": "2026-11-26T15:09:22.000Z",
-        "image": {
-          "url": "https://im.haberturk.com/l/2026/11/26/ver1795698425/3930365/jpg/1920x1080",
-          "sourceId": "haberturk",
-          "sourceName": "Habertürk",
-          "articleUrl": "https://www.haberturk.com/spor/anthony-taylor-tartismali-pozisyonlari-tek-tek-acikladi-besiktas-konyaspor-ve-galatasaray-samsunspor-3930365"
-        },
-        "sources": [
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:07:43.000Z",
-            "sourceId": "haberturk"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "haberturk",
-            "url": "https://www.haberturk.com/spor/anthony-taylor-tartismali-pozisyonlari-tek-tek-acikladi-besiktas-konyaspor-ve-galatasaray-samsunspor-3930365",
-            "title": "Anthony Taylor, tartışmalı pozisyonları tek tek açıkladı!",
-            "summary": "Merkez Hakem Kurulu (MHK) Başkanı Anthony Taylor, Süper Lig'in 12. haftası ve 1. Lig'in 15. haftasında oynanan maçlardan seçilen tartışmalı pozisyonları değerlendirdi.",
-            "publishedAt": "2026-11-26T13:07:43.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/26/ver1795698425/3930365/jpg/1920x1080"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/mhk-baskani-taylor-vlahovic-in-iptal-edilen-golu-ile-galatasaray-in-golunu-yorumladi-1397735",
-            "title": "MHK Başkanı Taylor Vlahovic'in İptal Edilen Golü İle Galatasaray'ın Golünü Yorumladı",
-            "summary": "Merkez Hakem Kurulu Başkanı Anthony Taylor, Süper Lig'de çok konuşulan iki ofsayt pozisyonunu değerlendirdi. Taylor, Beşiktaş'ın Konyaspor karşısında sayılmayan Vlahovic golüne ve Galatasaray'ın Samsunspor'a attığı ilk gole ayrı ayrı yanıt verdi. MHK Başkanı'nın açıklamaları iki pozisyon üzerindeki tartışmaları daha da alevlendirdi.",
-            "publishedAt": "2026-11-26T15:09:22.000Z",
-            "imageUrl": "https://img-s1.onedio.com/id-6b084766bd1a54e0a6532470/rev-0/w-1200/h-675/f-jpg/s-a86f4259a87d330ccd18497004da0be7fa661a9d.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "9255eb6ede9fd125",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 3.04,
-        "firstSeenAt": "2026-11-26T13:41:29.000Z",
-        "lastUpdatedAt": "2026-11-26T14:25:51.000Z",
-        "image": {
-          "url": "https://im.haberturk.com/l/2026/11/26/ver1795698182/3930362/jpg/1920x1080",
-          "sourceId": "haberturk",
-          "sourceName": "Habertürk",
-          "articleUrl": "https://hthayat.haberturk.com/para-harcamadan-alisveris-keyfi-dopamin-siteleri-1088352"
-        },
-        "sources": [
-          {
-            "id": "haberturk",
-            "name": "Habertürk",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          },
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:41:29.000Z",
-            "sourceId": "haberturk"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "haberturk",
-            "url": "https://hthayat.haberturk.com/para-harcamadan-alisveris-keyfi-dopamin-siteleri-1088352",
-            "title": "Para harcamadan alışveriş keyfi: Dopamin siteleri",
-            "summary": "\"Alışveriş yapmak istiyorum ama para harcamak istemiyorum\" diyorsanız, dopamin siteleri tam size göre! Dopamin sitesi nedir? Alışveriş bağımlılığına çare olabilir mi? Kore ve Türkiye'deki dopamin siteleri hangileri? İşte göz atabileceğiniz birkaç dopamin sitesi!",
-            "publishedAt": "2026-11-26T13:41:29.000Z",
-            "imageUrl": "https://im.haberturk.com/l/2026/11/26/ver1795698182/3930362/jpg/1920x1080"
-          },
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/alisveris-bagimliliginin-10-belirtisi-uzmani-siraladi-harcamalari-gizlemek-bile-uyari-isareti-1397715",
-            "title": "Uzmanlara Göre Alışveriş Bağımlılığının 10 Nedeni",
-            "summary": "Alışveriş bağımlılığının yalnızca fazla para harcamakla ilgili olmadığını belirten Atlas Üniversitesi Tıp Fakültesi Psikiyatri Ana Bilim Dalı'ndan Dr. Öğr. Üyesi Zuhal Doğan Bektaş, ihtiyaç dışı alışveriş, satın alma dürtüsünü kontrol edememe, harcamaları gizleme ve alışveriş sonrası suçluluk hissetmenin önemli belirtiler olduğunu söyledi. Bilimsel literatürde kompulsif satın alma-alışveriş bozukluğu olarak geçen sorunun tedavi edilebilir bir ruh sağlığı sorunu olduğunu vurgulayan Doğan Bektaş, davranışın çoğu zaman yavaş ve fark edilmeden geliştiği konusunda uyardı.[Kaynak: İHA]",
-            "publishedAt": "2026-11-26T14:25:51.000Z",
-            "imageUrl": "https://img-s3.onedio.com/id-6b0841688c87942562b856b5/rev-0/w-1200/h-675/f-jpg/s-757e1291ada9827a71963dbdf2f2b8bc8e8dbbda.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "0d48dff99213d4e8",
         "language": "tr",
         "label": "single-source",
@@ -4688,7 +4500,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.02,
+        "score": 2.86,
         "firstSeenAt": "2026-11-26T14:12:59.000Z",
         "lastUpdatedAt": "2026-11-26T14:12:59.000Z",
         "image": {
@@ -4732,7 +4544,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.01,
+        "score": 2.85,
         "firstSeenAt": "2026-11-26T14:05:02.000Z",
         "lastUpdatedAt": "2026-11-26T14:05:02.000Z",
         "image": {
@@ -4776,7 +4588,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.01,
+        "score": 2.85,
         "firstSeenAt": "2026-11-26T14:04:11.000Z",
         "lastUpdatedAt": "2026-11-26T14:04:11.000Z",
         "image": {
@@ -4813,307 +4625,6 @@
         ]
       },
       {
-        "storyId": "544cb85a54375c94",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.97,
-        "firstSeenAt": "2026-11-26T13:39:00.000Z",
-        "lastUpdatedAt": "2026-11-26T13:39:00.000Z",
-        "image": {
-          "url": "https://images.ntv.com.tr/images/istiklaltemizlik%C3%A7i-755887(3).jpg",
-          "sourceId": "ntv-yasam",
-          "sourceName": "NTV Yaşam",
-          "articleUrl": "https://www.ntv.com.tr/yasam/istiklal-caddesi-gulu-kurgu-degilim-gercegim-aciklamasini-yapti-6-yildir-budayim-dedi-1752740"
-        },
-        "sources": [
-          {
-            "id": "ntv-yasam",
-            "name": "NTV Yaşam",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:39:00.000Z",
-            "sourceId": "ntv-yasam"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "ntv-yasam",
-            "url": "https://www.ntv.com.tr/yasam/istiklal-caddesi-gulu-kurgu-degilim-gercegim-aciklamasini-yapti-6-yildir-budayim-dedi-1752740",
-            "title": "İstiklal'in Gülü, \"kurgu değilim gerçeğim\" açıklamasını yaptı, \"6 yıldır burdayım\" dedi",
-            "summary": "Bir sokak fotoğrafçısının İstiklal Caddesi'nde fotoğraflarını çektiği temizlik personeli Gülüm, sosyal medyada gündem oldu. Güzelliğiyle dikkat çeken Gülüm, açıklama da yaptı.",
-            "publishedAt": "2026-11-26T13:39:00.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/istiklaltemizlik%C3%A7i-755887(3).jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "99a844d54424f071",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.95,
-        "firstSeenAt": "2026-11-26T13:23:53.000Z",
-        "lastUpdatedAt": "2026-11-26T13:23:53.000Z",
-        "image": {
-          "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/sevda-bir-ates-huma-konusacak-mi-ozge-ozacardan-merak-uyandiran-yanitpng-X-BI-sjxBkeorhisB-mUaw.png",
-          "sourceId": "sozcu-magazin",
-          "sourceName": "Sözcü Magazin",
-          "articleUrl": "https://www.sozcu.com.tr/sevda-bir-ates-huma-konusacak-mi-ozge-ozacar-dan-merak-uyandiran-yanit-p384662"
-        },
-        "sources": [
-          {
-            "id": "sozcu-magazin",
-            "name": "Sözcü Magazin",
-            "camp": "opposition",
-            "tier": "partisan",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:23:53.000Z",
-            "sourceId": "sozcu-magazin"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "sozcu-magazin",
-            "url": "https://www.sozcu.com.tr/sevda-bir-ates-huma-konusacak-mi-ozge-ozacar-dan-merak-uyandiran-yanit-p384662",
-            "title": "Sevdan Bir Ateş Hüma konuşacak mı? Özge Özacar'dan merak uyandıran yanıt",
-            "summary": "Sevdan Bir Ateş dizisinde Leyla karakterini canlandıran Özge Özacar, partneri Murat Ünalmış ve dizide kızı Hüma'yı oynay...",
-            "publishedAt": "2026-11-26T13:23:53.000Z",
-            "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/11/sevda-bir-ates-huma-konusacak-mi-ozge-ozacardan-merak-uyandiran-yanitpng-X-BI-sjxBkeorhisB-mUaw.png"
-          }
-        ]
-      },
-      {
-        "storyId": "aff7ed1025830eaa",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.93,
-        "firstSeenAt": "2026-11-26T13:06:30.000Z",
-        "lastUpdatedAt": "2026-11-26T13:06:30.000Z",
-        "sources": [
-          {
-            "id": "cnnturk-magazin",
-            "name": "CNN Türk Magazin",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T13:06:30.000Z",
-            "sourceId": "cnnturk-magazin"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "cnnturk-magazin",
-            "url": "https://www.cnnturk.com/magazin/beyaz-perdede-bir-koylu-yonetmen-ahmet-ulucay-3498518",
-            "title": "Beyaz Perdede Bir Köylü Yönetmen: Ahmet Uluçay",
-            "summary": "Uzun paltolu ve fötr şapkalı adam, sınıfa girdiğinde küçük Ahmet’i 25 kuruşluk bir film ile zehirleyeceğini bilemezdi. 1963 yılında 9 yaşında sinema ile tanışan Ahmet, o gün aldığı zehri tüm hayatı boyunca vücudunun her zerresinde taşıdı. 40 yaşında katıldığı ‘Siyaset Meydanı’nda müstehzi bakışlar ve küçümseyen gülümsemelere bir köylü yönetmen olarak cevap verdi: Sinema insanın aklına gelmez ki; sinemayla birlikte doğar insan.",
-            "publishedAt": "2026-11-26T13:06:30.000Z"
-          }
-        ]
-      },
-      {
-        "storyId": "1c8a7dff34a847ca",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.92,
-        "firstSeenAt": "2026-11-26T12:58:34.000Z",
-        "lastUpdatedAt": "2026-11-26T12:58:34.000Z",
-        "image": {
-          "url": "https://images.ntv.com.tr/images/lhw_ac_rome_AIC-436164.jpg",
-          "sourceId": "ntv-yasam",
-          "sourceName": "NTV Yaşam",
-          "articleUrl": "https://www.ntv.com.tr/yasam/argos-in-cappadocia-bir-ilki-basardi-the-leading-hotels-of-the-world-odullendirdi-1752728"
-        },
-        "sources": [
-          {
-            "id": "ntv-yasam",
-            "name": "NTV Yaşam",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:58:34.000Z",
-            "sourceId": "ntv-yasam"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "ntv-yasam",
-            "url": "https://www.ntv.com.tr/yasam/argos-in-cappadocia-bir-ilki-basardi-the-leading-hotels-of-the-world-odullendirdi-1752728",
-            "title": "Argos in Cappadocia bir ilki başardı. The Leading Hotels of the World ödüllendirdi",
-            "summary": "Argos in Cappadocia'nın özgün deneyimleri The Leading Hotels of the World (LWH) tarafından ödüllendirildi.",
-            "publishedAt": "2026-11-26T12:58:34.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/lhw_ac_rome_AIC-436164.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "8909eeb8211d3b72",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.9,
-        "firstSeenAt": "2026-11-26T12:45:00.000Z",
-        "lastUpdatedAt": "2026-11-26T12:45:00.000Z",
-        "image": {
-          "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0829e6e4260a756c077d67.jpg",
-          "sourceId": "hurriyet-kelebek",
-          "sourceName": "Hürriyet Kelebek",
-          "articleUrl": "https://www.hurriyet.com.tr/kelebek/hurriyet-cumartesi/hava-soguk-sahneler-sicak-43392045"
-        },
-        "sources": [
-          {
-            "id": "hurriyet-kelebek",
-            "name": "Hürriyet Kelebek",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:45:00.000Z",
-            "sourceId": "hurriyet-kelebek"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "hurriyet-kelebek",
-            "url": "https://www.hurriyet.com.tr/kelebek/hurriyet-cumartesi/hava-soguk-sahneler-sicak-43392045",
-            "title": "Hava soğuk, sahneler sıcak",
-            "summary": "Bu hafta Şebnem Ferah’ın İstanbul’da, Göksel’in İzmir’de konseri var. Dünyaca ünlü Çinli piyanist Lang Lang ‘İpek Yolu Konseri’nde üç genç müzisyenimizle aynı sahneyi paylaşacak. Nil Yalter’in 60 yıllık sanat yaşamına odaklanan sergi Galerist’te görülebilir.",
-            "publishedAt": "2026-11-26T12:45:00.000Z",
-            "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6b0829e6e4260a756c077d67.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "49735dd4f094a782",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.88,
-        "firstSeenAt": "2026-11-26T12:34:04.000Z",
-        "lastUpdatedAt": "2026-11-26T12:34:04.000Z",
-        "image": {
-          "url": "https://images.ntv.com.tr/images/AW840790_01-121834.jpg",
-          "sourceId": "ntv-yasam",
-          "sourceName": "NTV Yaşam",
-          "articleUrl": "https://www.ntv.com.tr/yasam/galeri-ne-cirak-ne-kalfa-yetisiyor-dese-de-umudunu-kaybetmiyor-bu-meslek-olmez-1752731"
-        },
-        "sources": [
-          {
-            "id": "ntv-yasam",
-            "name": "NTV Yaşam",
-            "camp": "mainstream",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:34:04.000Z",
-            "sourceId": "ntv-yasam"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "ntv-yasam",
-            "url": "https://www.ntv.com.tr/yasam/galeri-ne-cirak-ne-kalfa-yetisiyor-dese-de-umudunu-kaybetmiyor-bu-meslek-olmez-1752731",
-            "title": "\"Ne çırak ne kalfa yetişiyor\" dese de umudunu kaybetmiyor. \"Bu meslek ölmez\"",
-            "summary": "Havaların soğumasıyla birlikte kışlık kıyafetler onarılmaya başlandı. 52 yıllık terzi Seyfettin Konca, \"Ne çırak ne kalfa yetişiyor\" dese de mesleğin geleceğine dair umudunu kaybetmiyor.",
-            "publishedAt": "2026-11-26T12:34:04.000Z",
-            "imageUrl": "https://images.ntv.com.tr/images/AW840790_01-121834.jpg"
-          }
-        ]
-      },
-      {
-        "storyId": "f6d76ba3883e1c37",
-        "language": "en",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 2.84,
-        "firstSeenAt": "2026-11-26T12:02:58.000Z",
-        "lastUpdatedAt": "2026-11-26T12:02:58.000Z",
-        "image": {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c711/live/2c9a1590-e97f-11f1-bb43-d1b6102e3b60.jpg",
-          "sourceId": "bbc-entertainment",
-          "sourceName": "BBC Entertainment",
-          "articleUrl": "https://www.bbc.co.uk/news/articles/cw782ml8ndgyo?at_medium=RSS&at_campaign=rss"
-        },
-        "sources": [
-          {
-            "id": "bbc-entertainment",
-            "name": "BBC Entertainment",
-            "camp": "international",
-            "tier": "established",
-            "confirms": true
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:02:58.000Z",
-            "sourceId": "bbc-entertainment"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "bbc-entertainment",
-            "url": "https://www.bbc.co.uk/news/articles/cw782ml8ndgyo?at_medium=RSS&at_campaign=rss",
-            "title": "Government's antisemitism adviser launches investigation into BBC",
-            "summary": "Lord Mann says he has launched the investigation after \"growing discomfort among Jewish BBC staff\".",
-            "publishedAt": "2026-11-26T12:02:58.000Z",
-            "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c711/live/2c9a1590-e97f-11f1-bb43-d1b6102e3b60.jpg"
-          }
-        ]
-      },
-      {
         "storyId": "65385e93b49dbc3c",
         "language": "tr",
         "label": "single-source",
@@ -5121,7 +4632,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.66,
+        "score": 1.5,
         "firstSeenAt": "2026-11-26T21:53:55.000Z",
         "lastUpdatedAt": "2026-11-26T21:53:55.000Z",
         "image": {
@@ -5165,7 +4676,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.64,
+        "score": 1.48,
         "firstSeenAt": "2026-11-26T21:39:28.000Z",
         "lastUpdatedAt": "2026-11-26T21:39:28.000Z",
         "image": {
@@ -5209,7 +4720,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.59,
+        "score": 1.43,
         "firstSeenAt": "2026-11-26T21:01:34.000Z",
         "lastUpdatedAt": "2026-11-26T21:01:34.000Z",
         "image": {
@@ -5253,7 +4764,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.57,
+        "score": 1.41,
         "firstSeenAt": "2026-11-26T20:49:44.000Z",
         "lastUpdatedAt": "2026-11-26T20:49:44.000Z",
         "image": {
@@ -5297,7 +4808,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.5,
+        "score": 1.35,
         "firstSeenAt": "2026-11-26T20:00:43.000Z",
         "lastUpdatedAt": "2026-11-26T20:00:43.000Z",
         "image": {
@@ -5341,7 +4852,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.49,
+        "score": 1.33,
         "firstSeenAt": "2026-11-26T19:48:00.000Z",
         "lastUpdatedAt": "2026-11-26T19:48:00.000Z",
         "image": {
@@ -5385,7 +4896,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.35,
+        "score": 1.19,
         "firstSeenAt": "2026-11-26T18:11:40.000Z",
         "lastUpdatedAt": "2026-11-26T18:11:40.000Z",
         "image": {
@@ -5429,7 +4940,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 1.09,
+        "score": 0.93,
         "firstSeenAt": "2026-11-26T15:02:01.000Z",
         "lastUpdatedAt": "2026-11-26T15:02:01.000Z",
         "image": {
@@ -5475,7 +4986,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.84,
+        "score": 8.68,
         "firstSeenAt": "2026-11-26T22:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T23:59:43.000Z",
         "image": {
@@ -5545,7 +5056,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.79,
+        "score": 8.63,
         "firstSeenAt": "2026-11-26T20:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T23:24:43.000Z",
         "image": {
@@ -5615,7 +5126,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.73,
+        "score": 8.57,
         "firstSeenAt": "2026-11-26T22:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T22:45:00.000Z",
         "image": {
@@ -5693,7 +5204,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.34,
+        "score": 8.18,
         "firstSeenAt": "2026-11-26T18:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T18:00:31.000Z",
         "image": {
@@ -5763,7 +5274,7 @@
         "reasons": [
           "independent-sources"
         ],
-        "score": 8.24,
+        "score": 8.08,
         "firstSeenAt": "2026-11-26T14:15:00.000Z",
         "lastUpdatedAt": "2026-11-26T16:47:47.000Z",
         "image": {
@@ -5841,7 +5352,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.86,
+        "score": 3.7,
         "firstSeenAt": "2026-11-27T00:18:44.000Z",
         "lastUpdatedAt": "2026-11-27T00:18:44.000Z",
         "image": {
@@ -5885,7 +5396,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.84,
+        "score": 3.68,
         "firstSeenAt": "2026-11-27T00:00:48.000Z",
         "lastUpdatedAt": "2026-11-27T00:00:48.000Z",
         "sources": [
@@ -5923,7 +5434,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.75,
+        "score": 3.59,
         "firstSeenAt": "2026-11-26T23:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T23:00:00.000Z",
         "image": {
@@ -5967,7 +5478,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.71,
+        "score": 3.55,
         "firstSeenAt": "2026-11-26T22:27:52.000Z",
         "lastUpdatedAt": "2026-11-26T22:27:52.000Z",
         "image": {
@@ -6011,7 +5522,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.71,
+        "score": 3.55,
         "firstSeenAt": "2026-11-26T22:27:37.000Z",
         "lastUpdatedAt": "2026-11-26T22:27:37.000Z",
         "sources": [
@@ -6049,7 +5560,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.69,
+        "score": 3.53,
         "firstSeenAt": "2026-11-26T22:13:00.000Z",
         "lastUpdatedAt": "2026-11-26T22:13:00.000Z",
         "image": {
@@ -6093,7 +5604,7 @@
         "reasons": [
           "single-owner"
         ],
-        "score": 3.67,
+        "score": 3.51,
         "firstSeenAt": "2026-11-26T22:00:00.000Z",
         "lastUpdatedAt": "2026-11-26T22:00:00.000Z",
         "image": {
@@ -6130,55 +5641,7 @@
         ]
       }
     ],
-    "abroad": [
-      {
-        "storyId": "c920c9839f994e27",
-        "language": "tr",
-        "label": "single-source",
-        "developing": false,
-        "reasons": [
-          "single-owner"
-        ],
-        "score": 0.87,
-        "firstSeenAt": "2026-11-26T12:25:27.000Z",
-        "lastUpdatedAt": "2026-11-26T12:25:27.000Z",
-        "image": {
-          "url": "https://img-s2.onedio.com/id-6b08250c8c8794d3e4b761d1/rev-0/w-1200/h-675/f-jpg/s-59202d1b55a777f6847d9ef003799a786c1d52f7.jpg",
-          "sourceId": "onedio",
-          "sourceName": "Onedio",
-          "articleUrl": "https://onedio.com/haber/arda-guler-real-madrid-in-bmw-hediyesi-icin-xm-label-i-secti-1397656"
-        },
-        "sources": [
-          {
-            "id": "onedio",
-            "name": "Onedio",
-            "camp": "specialist",
-            "tier": "low",
-            "confirms": false
-          }
-        ],
-        "timeline": [
-          {
-            "kind": "first-reported",
-            "at": "2026-11-26T12:25:27.000Z",
-            "sourceId": "onedio"
-          }
-        ],
-        "articles": [
-          {
-            "sourceId": "onedio",
-            "url": "https://onedio.com/haber/arda-guler-real-madrid-in-bmw-hediyesi-icin-xm-label-i-secti-1397656",
-            "title": "Arda Güler Real Madrid'in BMW Hediyesi İçin XM Label'ı Seçti",
-            "summary": "Real Madrid, sponsoru BMW'nin Santiago Bernabéu'da düzenlediği törenle futbolcularına yeni araçlarını teslim etti. Milli futbolcu Arda Güler, 748 beygir gücündeki plug-in hibrit BMW XM Label'ı seçti. Kadronun en çok tercih ettiği model de yine XM Label oldu.[Real Madrid]",
-            "publishedAt": "2026-11-26T12:25:27.000Z",
-            "imageUrl": "https://img-s2.onedio.com/id-6b08250c8c8794d3e4b761d1/rev-0/w-1200/h-675/f-jpg/s-59202d1b55a777f6847d9ef003799a786c1d52f7.jpg"
-          }
-        ],
-        "people": [
-          "arda-guler"
-        ]
-      }
-    ]
+    "abroad": []
   },
   "failures": []
 }
