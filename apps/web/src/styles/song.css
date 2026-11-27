@@ -356,10 +356,10 @@
   cursor: pointer;
 }
 
-/* Suggestions: a plain list right under the box, in the page, with nothing floating over the stage. */
+/* Suggestions: a music list under the box, cover then title over artist, as in a player's search. */
 .sg-suggestions {
   display: grid;
-  margin: 6px 0 0;
+  margin: 4px 0 0;
   padding: 0;
   list-style: none;
 }
@@ -369,54 +369,88 @@
 }
 
 .sg-option {
-  display: flex;
-  gap: 16px;
-  align-items: baseline;
-  justify-content: space-between;
-  min-height: 54px;
-  padding: 16px 4px 14px;
-  border-bottom: 1px solid var(--line);
-  color: var(--ink2);
-  font: 500 17px / 1.25 var(--f-body);
+  position: relative;
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  margin: 0 -10px;
+  padding: 8px 10px;
+  border-radius: 12px;
   cursor: pointer;
 }
 
-.sg-option b {
-  color: var(--ink);
-  font-weight: 700;
-}
-
-.sg-option-title {
-  min-width: 0;
-  overflow: hidden;
-  color: var(--ink);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.sg-option-by {
-  flex: 0 1 auto;
-  max-width: 45%;
-  overflow: hidden;
-  color: var(--meta);
-  font-size: 15px;
-  text-align: right;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.sg-option-by b {
-  color: var(--ink2);
-  font-weight: 600;
+/* Hairlines start at the text, so each cover reads as the start of its row. */
+.sg-option + .sg-option::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 10px;
+  left: 72px;
+  border-top: 1px solid var(--line);
 }
 
 .sg-option:hover,
 .sg-option[aria-selected='true'] {
-  margin: 0 -12px;
-  padding-inline: 16px;
-  border-bottom-color: transparent;
-  border-radius: 10px;
   background: var(--wg-key);
+}
+
+.sg-option:hover::before,
+.sg-option[aria-selected='true']::before,
+.sg-option:hover + .sg-option::before,
+.sg-option[aria-selected='true'] + .sg-option::before {
+  border-color: transparent;
+}
+
+.sg-option-cover {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--g) 16%, var(--surf));
+  color: color-mix(in srgb, var(--g) 70%, var(--ink));
+}
+
+.sg-option-cover img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sg-option-text {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.sg-option-title,
+.sg-option-by {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sg-option-title {
+  color: var(--ink);
+  font: 500 16px / 1.25 var(--f-body);
+}
+
+.sg-option-by {
+  color: var(--meta);
+  font: 400 14px / 1.25 var(--f-body);
+}
+
+.sg-option b {
+  font-weight: 700;
+}
+
+.sg-option-by b {
+  color: var(--ink2);
 }
 
 .sg-message {

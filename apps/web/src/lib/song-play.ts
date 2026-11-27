@@ -46,6 +46,32 @@ import {
 import { loadClip, type Clip } from './song-audio';
 import { countdown, msUntilNextWord, puzzleDate } from './word';
 
+/** A name the guess box can offer, with its cover's path on Apple's image server when known. */
+interface CatalogSong extends SongName {
+  readonly art?: string | undefined;
+}
+
+const NOTE_ICON =
+  '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>';
+
+/** A small cover for a suggestion row; a plain tile with a note when there is none. */
+function suggestionCover(art: string | undefined): HTMLElement {
+  const tile = element('span', 'sg-option-cover');
+  tile.innerHTML = NOTE_ICON;
+  if (art) {
+    const image = element('img');
+    image.alt = '';
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    image.src = `https://is1-ssl.mzstatic.com/image/thumb/${art}/96x96bb.jpg`;
+    image.addEventListener('error', () => {
+      image.remove();
+    });
+    tile.append(image);
+  }
+  return tile;
+}
+
 interface SavedDay {
   readonly day: GameDay;
   readonly rounds: readonly Round[];
@@ -197,11 +223,11 @@ export function startSongGame(root: HTMLElement): void {
     return clip;
   };
 
-  let catalog: SongName[] = [];
+  let catalog: CatalogSong[] = [];
   void fetch(root.dataset.catalog ?? '/song/catalog.json')
-    .then((response) => response.json() as Promise<[string, string][]>)
-    .then((pairs) => {
-      catalog = pairs.map(([artist, title]) => ({ artist, title }));
+    .then((response) => response.json() as Promise<string[][]>)
+    .then((rows) => {
+      catalog = rows.map(([artist = '', title = '', art]) => ({ artist, title, art }));
     })
     .catch(() => undefined);
 
@@ -358,7 +384,7 @@ export function startSongGame(root: HTMLElement): void {
   }
 
   // ---- The guess box ----
-  let suggestions: SongName[] = [];
+  let suggestions: CatalogSong[] = [];
   let active = -1;
   let chosen: SongName | undefined;
 
@@ -395,7 +421,9 @@ export function startSongGame(root: HTMLElement): void {
       title.append(...marked(song.title, typed));
       const artist = element('span', 'sg-option-by');
       artist.append(...marked(song.artist, typed));
-      option.append(title, artist);
+      const text = element('span', 'sg-option-text');
+      text.append(title, artist);
+      option.append(suggestionCover(song.art), text);
       option.addEventListener('pointerdown', (event) => {
         event.preventDefault();
         choose(song);
