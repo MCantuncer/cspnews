@@ -1413,5 +1413,39 @@
         }
       }
     }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909328",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-28T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909328"
+      }
+    }
   ]
 }
