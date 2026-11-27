@@ -86,7 +86,13 @@
               "value": "8",
               "source": "A Haber"
             }
-          ]
+          ],
+          "place": {
+            "name": "İstanbul",
+            "lat": 41.01,
+            "lon": 28.98,
+            "region": "Türkiye"
+          }
         },
         "tr": {
           "shortTitle": "Ece Üner gözaltına alındı",
@@ -163,7 +169,13 @@
               "value": "8",
               "source": "A Haber"
             }
-          ]
+          ],
+          "place": {
+            "name": "İstanbul",
+            "lat": 41.01,
+            "lon": 28.98,
+            "region": "Türkiye"
+          }
         }
       },
       "timeline": [
@@ -219,12 +231,6 @@
           "sourceId": "euronews-tr"
         }
       ],
-      "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/ae5c690c-1e1a-483f-9beb-33ab228985d5.png",
-        "sourceId": "cumhuriyet",
-        "sourceName": "Cumhuriyet",
-        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/halk-tv-ye-yeni-operasyon-12-kisiye-gozalti-karari-ece-uner-deniz-bayramoglu-ve-kursad-oguz-da-aralarinda-2559836"
-      },
       "sources": [
         {
           "sourceId": "sabah",
@@ -1348,12 +1354,6 @@
           "to": "confirmed"
         }
       ],
-      "image": {
-        "url": "https://s.france24.com/media/display/a2c2241c-e9d2-11f1-a270-77d069279b82/w:1024/p:16x9/EN-20261126-200845-201341-CS.jpg",
-        "sourceId": "france-24",
-        "sourceName": "France 24",
-        "articleUrl": "https://www.france24.com/en/le-pen-slams-push-for-eu-budget-deal-before-french-election"
-      },
       "sources": [
         {
           "sourceId": "france-24",
