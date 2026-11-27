@@ -811,3 +811,10 @@
     font-size: 22px;
   }
 }
+
+/* The Word · Song switch (components/GameSwitch.astro), above the language links. */
+.wg-games {
+  display: flex;
+  justify-content: center;
+  padding: 18px var(--gutter) 0;
+}

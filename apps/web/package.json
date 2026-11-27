@@ -16,6 +16,7 @@
     "@cspnews/config": "workspace:*",
     "@cspnews/core": "workspace:*",
     "@cspnews/music": "workspace:*",
+    "@cspnews/songgame": "workspace:*",
     "@cspnews/wordgame": "workspace:*",
     "@fontsource/funnel-display": "5.3.0",
     "@fontsource/funnel-sans": "5.3.0",

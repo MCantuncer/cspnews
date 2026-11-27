@@ -1,0 +1,171 @@
+---
+/**
+ * The daily song game (docs/song-game.md): four songs a day, Turkish pop, hip-hop, rock and a
+ * global hit.
+ * Each starts with 0.1 s; a miss or skip opens 1, 2, 4, 8, then 16 s. Fewer seconds, more points.
+ *
+ * The page is static. The build ships a short window of sets with scrambled answers
+ * (lib/song-data.ts); the browser picks today's by the Istanbul date and keeps the day, streak
+ * and stats in localStorage. A friend's score arrives in the link (`?vs=`).
+ */
+import { CLIP_SECONDS, GENRES, MAX_TRIES } from '@cspnews/songgame';
+import { gameDayAt } from '@cspnews/wordgame';
+
+import GameSwitch from '../GameSwitch.astro';
+import Header from '../Header.astro';
+import Icon from '../ui/Icon.astro';
+import MusicIcon from '../music/MusicIcon.astro';
+import Base from '../../layouts/Base.astro';
+import type { InterfaceLanguage } from '../../lib/evidence';
+import { loadBulletins } from '../../lib/bulletins';
+import { editionHourFor } from '../../lib/edition';
+import { barPosition, secondsLabel, songWordsFor } from '../../lib/song';
+import { songWindow } from '../../lib/song-data';
+import '../../styles/word.css';
+import '../../styles/song.css';
+
+interface Props {
+  lang: InterfaceLanguage;
+}
+
+const { lang } = Astro.props;
+const words = songWordsFor(lang);
+const sets = songWindow(gameDayAt(new Date()));
+const latest = loadBulletins()[0];
+---
+
+<Base
+  title={`${words.name} | CSPNews`}
+  description={words.helpTitle}
+  hour={latest ? editionHourFor(latest.slot) : 'dawn'}
+  lang={lang}
+>
+  <div
+    class="wg sg"
+    data-song-game
+    data-lang={lang}
+    data-window={JSON.stringify(sets)}
+    data-catalog="/song/catalog.json"
+  >
+    <Header lang={lang} bulletinName={words.name} />
+
+    <div class="sg-top">
+      <GameSwitch lang={lang} current="song" />
+      <div class="wg-tools">
+        <button type="button" class="wg-icon" data-open="help" aria-label={words.howToPlay}>
+          <Icon name="help" />
+        </button>
+        <button type="button" class="wg-icon" data-open="stats" aria-label={words.stats}>
+          <Icon name="stats" />
+        </button>
+      </div>
+    </div>
+
+    <p class="sg-friend" data-friend hidden></p>
+
+    <ol class="sg-rounds" data-rounds aria-label={words.name}>
+      {
+        GENRES.map((genre, index) => (
+          <li data-round class={`g-${genre}`}>
+            <span class="sg-dot" aria-hidden="true" />
+            <span class="sg-genre">
+              <small>{String(index + 1)}</small> {words.genres[genre]}
+            </span>
+            <span class="sg-round-points" data-round-points />
+          </li>
+        ))
+      }
+    </ol>
+
+    <main class="sg-stage" data-stage>
+      <p class="wg-puzzle sg-line">
+        <span class="wg-no" data-number></span>
+        <span class="wg-date" data-date></span>
+      </p>
+
+      <div class="sg-player">
+        <button type="button" class="sg-play" data-play aria-label={words.play(secondsLabel(0.1, lang))}>
+          <MusicIcon name="play" size={26} />
+        </button>
+        <p class="sg-play-label" data-play-label aria-hidden="true">{words.play(secondsLabel(0.1, lang))}</p>
+      </div>
+
+      <div class="sg-bar" data-bar aria-hidden="true">
+        <div class="sg-track"><i class="sg-open"></i><i class="sg-played"></i></div>
+        <ol class="sg-steps">
+          {
+            CLIP_SECONDS.map((seconds) => (
+              <li data-step style={`--at: ${String(barPosition(seconds))}`}>
+                <span>{secondsLabel(seconds, lang)}</span>
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+
+      <ol class="sg-tries" data-tries>
+        {Array.from({ length: MAX_TRIES }, () => <li class="sg-try empty" />)}
+      </ol>
+
+      <form class="sg-guess" data-guess-form autocomplete="off">
+        <div class="sg-field">
+          <input
+            type="text"
+            data-guess
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded="false"
+            aria-controls="sg-suggestions"
+            aria-label={words.placeholder}
+            placeholder={words.placeholder}
+            enterkeyhint="go"
+            spellcheck="false"
+          />
+          <ul id="sg-suggestions" class="sg-suggestions" role="listbox" data-suggestions hidden></ul>
+        </div>
+        <p class="sg-message" data-message role="status" hidden></p>
+        <div class="sg-actions">
+          <button type="button" class="sg-skip" data-skip>{words.skip(secondsLabel(0.9, lang))}</button>
+          <button type="submit" class="wg-btn sg-submit">{words.submit}</button>
+        </div>
+      </form>
+
+      <section class="sg-reveal" data-reveal hidden></section>
+      <p class="wg-sr" aria-live="polite" data-announce></p>
+    </main>
+
+    <section class="sg-result" data-result hidden></section>
+
+    <dialog class="wg-dialog" data-dialog="help" aria-labelledby="sg-help-title">
+      <div class="wg-sheet" tabindex="-1" autofocus>
+        <h2 id="sg-help-title">{words.helpTitle}</h2>
+        <ol class="sg-help">
+          {words.helpSteps.map((step) => <li>{step}</li>)}
+        </ol>
+        <p class="wg-note">{words.helpNote}</p>
+        <form method="dialog">
+          <button class="wg-btn">{words.start}</button>
+        </form>
+      </div>
+    </dialog>
+
+    <dialog class="wg-dialog" data-dialog="stats" aria-labelledby="sg-stats-title">
+      <div class="wg-sheet" tabindex="-1" autofocus>
+        <div class="wg-dialog-head">
+          <h2 id="sg-stats-title">{words.stats}</h2>
+          <form method="dialog">
+            <button class="wg-icon" aria-label={words.close}><Icon name="close" /></button>
+          </form>
+        </div>
+        <div data-stats-body></div>
+      </div>
+    </dialog>
+  </div>
+</Base>
+
+<script>
+  import { startSongGame } from '../../lib/song-play';
+
+  const root = document.querySelector<HTMLElement>('[data-song-game]');
+  if (root) startSongGame(root);
+</script>

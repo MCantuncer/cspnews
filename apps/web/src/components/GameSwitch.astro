@@ -1,0 +1,64 @@
+---
+/**
+ * The two daily games side by side, at the top of each game page: Word · Song.
+ * The header's "Games" place opens the word game; this switch moves between them.
+ */
+import type { InterfaceLanguage } from '../lib/evidence';
+import { songPath, songWordsFor } from '../lib/song';
+import { GAME_PATHS } from '../lib/word';
+
+interface Props {
+  lang: InterfaceLanguage;
+  current: 'word' | 'song';
+}
+
+const { lang, current } = Astro.props;
+const words = songWordsFor(lang);
+const games = [
+  { key: 'word', label: words.word, href: GAME_PATHS[lang] },
+  { key: 'song', label: words.song, href: songPath(lang) },
+] as const;
+---
+
+<nav class="games" aria-label={words.games}>
+  {
+    games.map((game) => (
+      <a href={game.href} aria-current={game.key === current ? 'page' : undefined}>
+        {game.label}
+      </a>
+    ))
+  }
+</nav>
+
+<style>
+  .games {
+    display: flex;
+    gap: 2px;
+    padding: 3px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    width: max-content;
+  }
+
+  a {
+    padding: 6px 14px;
+    border-radius: 999px;
+    color: var(--meta);
+    font: 600 14px/1 var(--f-body);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--ink);
+  }
+
+  a[aria-current='page'] {
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+</style>

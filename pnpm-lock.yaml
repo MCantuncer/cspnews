@@ -91,6 +91,9 @@ importers:
       '@cspnews/music':
         specifier: workspace:*
         version: link:../../packages/music
+      '@cspnews/songgame':
+        specifier: workspace:*
+        version: link:../../packages/songgame
       '@cspnews/wordgame':
         specifier: workspace:*
         version: link:../../packages/wordgame
@@ -227,6 +230,12 @@ importers:
       zod:
         specifier: 4.6.7
         version: 4.6.7
+
+  packages/songgame:
+    dependencies:
+      '@cspnews/wordgame':
+        specifier: workspace:*
+        version: link:../wordgame
 
   packages/verify:
     dependencies:
