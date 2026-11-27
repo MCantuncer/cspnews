@@ -1,0 +1,1417 @@
+{
+  "version": 2,
+  "slot": "midday",
+  "publishAt": "2026-11-27T12:30:00+03:00",
+  "writtenAt": "2026-11-27T11:57:07+03:00",
+  "stories": [
+    {
+      "id": "4c01961c6450acba",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Halk TV’s Ece Üner detained",
+          "title": "Halk TV anchor Ece Üner detained in third wave of funding probe",
+          "summary": {
+            "what": "Police detained Halk TV anchor Ece Üner, her husband Deniz Bayramoğlu and seven others in a third wave of the probe into the channel’s funding.",
+            "why": "Prosecutors allege the couple were paid ₺1.65 million a month off the books to air false reports, money they say came from rigged İzmir tenders.",
+            "next": "Three of the 12 suspects were not caught: the news coordinator is abroad, one is in prison and one is still being sought."
+          },
+          "body": [
+            {
+              "subhead": "Twelve detention orders",
+              "blocks": [
+                {
+                  "text": "The İstanbul Chief Public Prosecutor’s Office ordered the detention of 12 people on Friday morning in a third wave of the investigation known as the “Halk TV funding” probe, Sabah, Cumhuriyet and Hürriyet reported. Nine were taken into custody, among them the channel’s anchor Özge Ece Üner and her husband, fellow anchor Özgürdeniz (Deniz) Bayramoğlu, A Haber reported."
+                },
+                {
+                  "text": "The suspects face accusations of laundering the proceeds of crime, forming and joining a criminal organisation, publicly spreading misleading information, bribery, bid rigging and breaching the tax procedure law, according to the prosecutors’ statement carried by Sabah and Cumhuriyet."
+                },
+                {
+                  "text": "Also detained were Bustech managers Haydar Rüzgar and Ahmet Keçiyokuşu, Bustech purchasing manager Halit Akın, Ulaş Eroğlu, who heads İzmir Metropolitan Municipality’s machinery supply and maintenance department, department employee Aşkın Tahan, and the owners of the Korganlar and HMF companies, Sabah reported."
+                }
+              ]
+            },
+            {
+              "subhead": "What prosecutors allege",
+              "blocks": [
+                {
+                  "text": "Prosecutors say Bustech, a vehicle maintenance company, was set up in İzmir in 2021 as a front for Halk TV’s fugitive owner Cafer Mahiroğlu and won municipal tenders in return for bribes, Hürriyet and Sabah reported. Its revenue, they allege, funded Halk TV, Özdemir Üç Tekstil and Mahiroğlu’s other companies and accounts."
+                },
+                {
+                  "text": "According to the statement, the managers of four spare-parts companies, Esbakım, Korganlar, HMF and Repar, issued Bustech fake invoices for goods and services never supplied, for a commission of 12 to 14 percent. The cheques due to them in return were found in Halk TV’s safe, Hürriyet reported."
+                },
+                {
+                  "text": "As the municipality paid Bustech, the cheques were cashed over the counter and Üner and Bayramoğlu received informal payments of ₺1.65 million a month in return for false reports made on instruction, prosecutors allege, according to Cumhuriyet and Hürriyet. None of the reports we read carried a response from the couple."
+                }
+              ]
+            },
+            {
+              "subhead": "Earlier waves",
+              "blocks": [
+                {
+                  "text": "Halk TV’s news coordinator Hakan Kürşad Oğuz, who is also named in the orders, is abroad, Cumhuriyet reported. Repar’s owner Recep Ersü is already in prison on another charge, and police are still looking for Esbakım’s owner Emre Kaya, Sabah reported."
+                },
+                {
+                  "text": "In earlier operations 19 suspects were detained and eight of them were arrested, A Haber reported. Prosecutors have said MASAK financial-crimes data showed ₺14.46 million in unrecorded bribes linked to the tenders, and a court placed Halk TV and Mahiroğlu’s other companies under the trusteeship of the deposit insurance fund TMSF, Hürriyet reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Detention orders",
+              "value": "12",
+              "source": "İstanbul prosecutors"
+            },
+            {
+              "label": "Detained on Friday",
+              "value": "9",
+              "source": "A Haber"
+            },
+            {
+              "label": "Alleged monthly payment",
+              "value": "₺1.65m",
+              "source": "İstanbul prosecutors"
+            },
+            {
+              "label": "Alleged invoice commission",
+              "value": "12–14%",
+              "source": "Sabah"
+            },
+            {
+              "label": "Arrested in earlier waves",
+              "value": "8",
+              "source": "A Haber"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Ece Üner gözaltına alındı",
+          "title": "Halk TV soruşturmasında üçüncü dalga: Ece Üner ve eşi gözaltında",
+          "summary": {
+            "what": "Halk TV’nin fonlanmasına ilişkin soruşturmanın üçüncü dalgasında spiker Ece Üner, eşi Deniz Bayramoğlu ve yedi kişi gözaltına alındı.",
+            "why": "Savcılık, çifte İzmir’deki usulsüz ihalelerden gelen paradan ayda 1,65 milyon lira kayıt dışı ödeme yapıldığını ve talimatla haber yaptırıldığını iddia ediyor.",
+            "next": "12 şüpheliden üçü yakalanamadı: haber koordinatörü yurt dışında, biri cezaevinde, biri firari."
+          },
+          "body": [
+            {
+              "subhead": "12 kişiye gözaltı kararı",
+              "blocks": [
+                {
+                  "text": "İstanbul Cumhuriyet Başsavcılığı, kamuoyunda “Halk TV’yi fonlama” soruşturması olarak bilinen dosyada cuma sabahı üçüncü dalga operasyon başlattı ve 12 kişi hakkında gözaltı kararı verdi, Sabah, Cumhuriyet ve Hürriyet’in aktardığına göre. A Haber’e göre dokuz kişi gözaltına alındı; aralarında kanalın spikeri Özge Ece Üner ve eşi, spiker Özgürdeniz (Deniz) Bayramoğlu da var."
+                },
+                {
+                  "text": "Şüphelilere suçtan kaynaklanan mal varlığı değerlerini aklama, suç işlemek amacıyla örgüt kurma ve üye olma, halkı yanıltıcı bilgiyi alenen yayma, rüşvet, ihaleye fesat karıştırma ve Vergi Usul Kanunu’na muhalefet suçlamaları yöneltildi."
+                },
+                {
+                  "text": "Sabah’ın haberine göre gözaltına alınanlar arasında Bustech yöneticileri Haydar Rüzgar ve Ahmet Keçiyokuşu, satın alma müdürü Halit Akın, İzmir Büyükşehir Belediyesi Makine İkmal Bakım ve Onarım Daire Başkanı Ulaş Eroğlu, aynı birimden Aşkın Tahan ile Korganlar ve HMF firmalarının sahipleri de bulunuyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Savcılığın iddiaları",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Sabah’ın aktardığına göre savcılık, araç bakım şirketi Bustech’in 2021’de İzmir’de firari patron Cafer Mahiroğlu adına paravan olarak kurdurulduğunu ve rüşvet karşılığında belediye ihaleleri aldığını öne sürüyor. İddiaya göre bu gelirle Halk TV, Özdemir Üç Tekstil ve Mahiroğlu’nun diğer şirketleriyle hesapları fonlandı."
+                },
+                {
+                  "text": "Açıklamaya göre Esbakım, Korganlar, HMF ve Repar adlı yedek parça şirketlerinin yöneticileri, yüzde 12-14 komisyon karşılığında Bustech adına gerçekte olmayan mal ve hizmet alımları için naylon fatura düzenledi. Hürriyet’e göre bu faturalar karşılığında verilmesi gereken çekler Halk TV’nin kasasında ele geçirildi."
+                },
+                {
+                  "text": "Cumhuriyet ve Hürriyet’in aktardığına göre savcılık, belediye Bustech’e hakediş ödedikçe çek bedellerinin bankadan elden çekildiğini, Üner ve Bayramoğlu’na ayda 1 milyon 650 bin lira gayriresmi ödeme karşılığında talimatla gerçeğe aykırı haberler yaptırıldığını iddia ediyor. Okuduğumuz haberlerde çiftin bir yanıtına yer verilmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Önceki dalgalar",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre hakkında gözaltı kararı bulunan Halk TV Haber Koordinatörü Hakan Kürşad Oğuz yurt dışında. Sabah’ın haberine göre Repar’ın sahibi Recep Ersü başka bir suçtan cezaevinde, Esbakım’ın sahibi Emre Kaya ise firari ve aranıyor."
+                },
+                {
+                  "text": "A Haber’e göre önceki operasyonlarda 19 şüpheli gözaltına alınmış, bunlardan sekizi tutuklanmıştı. Hürriyet’in aktardığına göre savcılık daha önce MASAK verilerine dayanarak ihalelerle bağlantılı 14 milyon 464 bin liralık kayıt dışı rüşvet ödemesi tespit edildiğini açıklamış; Halk TV ve Mahiroğlu’nun diğer şirketlerine kayyum olarak TMSF atanmıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gözaltı kararı",
+              "value": "12",
+              "source": "İstanbul Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "Cuma günü gözaltı",
+              "value": "9",
+              "source": "A Haber"
+            },
+            {
+              "label": "İddia edilen aylık ödeme",
+              "value": "1,65 milyon ₺",
+              "source": "İstanbul Cumhuriyet Başsavcılığı"
+            },
+            {
+              "label": "İddia edilen fatura komisyonu",
+              "value": "%12-14",
+              "source": "Sabah"
+            },
+            {
+              "label": "Önceki dalgalarda tutuklama",
+              "value": "8",
+              "source": "A Haber"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T07:02:08.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:04:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T07:04:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:06:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:09:30.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:10:29.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:34:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:49:16.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:55:44.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:34:59.000Z",
+          "sourceId": "euronews-tr"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/ae5c690c-1e1a-483f-9beb-33ab228985d5.png",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/halk-tv-ye-yeni-operasyon-12-kisiye-gozalti-karari-ece-uner-deniz-bayramoglu-ve-kursad-oguz-da-aralarinda-2559836"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/27/halk-tvyi-fonlama-sorusturmasinda-ucuncu-dalga-ece-uner-ve-esi-gozaltinda",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/27/halk-tv-sorusturmasinda-3-dalga-operasyon-ece-uner-ve-esi-hakkinda-gozalti-karari",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/halk-tv-ye-yeni-operasyon-12-kisiye-gozalti-karari-ece-uner-deniz-bayramoglu-ve-kursad-oguz-da-aralarinda-2559836",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/haber-spikeri-ece-uner-gozaltina-alindi-1397887",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/cafer-mahiroglu-sorusturmasinda-12-kisi-hakkinda-gozalti-karari-verildi-43392775",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/cafer-mahiroglu-sorusturmasi-ece-uner-dahil-dokuz-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/deniz-bayramoglu-kimdir-aslen-nereli-ve-kac-yasinda-ece-uner-ve-esi-hakkinda-gozalti-karari-p384825",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/halk-tv-spikeri-ece-%C3%BCner-g%C3%B6zalt%C4%B1na-al%C4%B1nd%C4%B1/a-80070849?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-cafer-mahiroglu-sorusturmasinda-12-gozalti-karari-3930506",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/halk-tv-sorusturmasinda-ucuncu-dalga-operasyon-ekran-yuzleri-gozaltinda-1752818",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/27/halk-tvye-ucuncu-dalga-operasyon-sunucu-ece-uner-ve-esi-deniz-bayramoglu-gozaltinda",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T12:30:00+03:00",
+      "updatedAt": "2026-11-27T12:30:00+03:00"
+    },
+    {
+      "id": "c13ebf3162200157",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Visa now needed for Montenegrins",
+          "title": "Türkiye suspends visa-free entry for Montenegrins in tit-for-tat move",
+          "summary": {
+            "what": "Türkiye suspended its 2008 visa waiver for Montenegrins with ordinary passports, by a presidential decision in Friday’s Official Gazette.",
+            "why": "It answers Montenegro’s decision to require visas from Turkish citizens since 1 November, part of aligning with EU visa policy.",
+            "next": "The decision took effect on publication, so Montenegrins with ordinary passports now need a visa to enter Türkiye."
+          },
+          "body": [
+            {
+              "subhead": "A decision in the Official Gazette",
+              "blocks": [
+                {
+                  "text": "Türkiye has stopped applying its mutual visa exemption agreement with Montenegro to Montenegrin citizens who hold ordinary passports, according to a presidential decision published in the Official Gazette on Friday, Sözcü, NTV and Hürriyet reported."
+                },
+                {
+                  "text": "Decision number 12026, dated 26 November and signed by President Recep Tayyip Erdoğan, was taken under Article 3 of Presidential Decree No. 9, Sözcü reported. It came into force on 27 November, the day it was published, the paper said."
+                },
+                {
+                  "text": "The agreement was signed on 18 January 2008 and approved by a cabinet decision of 3 March 2008, Hürriyet reported. With the suspension, Montenegrin citizens can no longer travel to Türkiye without a visa on an ordinary passport, NTV said. The text in the Gazette refers to the cabinet decision by its number, 2008/13335, Onedio reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Montenegro moved first",
+              "blocks": [
+                {
+                  "text": "The step answers Montenegro’s own decision to require visas from Turkish citizens. Montenegro’s government changed its visa regime with a decision of 23 July 2026, and from 1 November visas became mandatory for citizens of Türkiye, Belarus, China, Russia and Saudi Arabia, Sözcü reported. Montenegro said the move was meant to bring it fully in line with EU visa policy and to meet its obligations as a candidate for membership."
+                },
+                {
+                  "text": "Until then, Turkish citizens with ordinary, burgundy passports could stay in Montenegro for up to 30 days without a visa, NTV and Sözcü reported. Since 1 November, holders of those passports have had to obtain a visa before travelling."
+                }
+              ]
+            },
+            {
+              "subhead": "Holidaymakers affected",
+              "blocks": [
+                {
+                  "text": "NTV described Montenegro as one of the countries Turkish holidaymakers often choose for its nature and affordable prices. Sözcü said the Montenegrin requirement hit those planning tourist trips, holidays and short visits most directly."
+                },
+                {
+                  "text": "Türkiye’s measure is limited to holders of ordinary passports, Sözcü reported, and ends an arrangement between the two countries that had stood for 18 years. Onedio linked Montenegro’s decision to a diplomatic crisis between the two countries last year."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Visa waiver signed",
+              "value": "18 Jan 2008",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Presidential decision no.",
+              "value": "12026",
+              "source": "Official Gazette, via Sözcü"
+            },
+            {
+              "label": "Montenegro’s visa rule since",
+              "value": "1 Nov",
+              "source": "NTV"
+            },
+            {
+              "label": "Former visa-free stay",
+              "value": "30 days",
+              "source": "NTV"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Karadağ’a karşılık vize kararı",
+          "title": "Türkiye, Karadağ vatandaşları için vize muafiyetini durdurdu",
+          "summary": {
+            "what": "Türkiye, 2008 tarihli vize muafiyeti anlaşmasını Karadağ’ın umuma mahsus pasaport sahibi vatandaşları için durdurdu; karar cuma günkü Resmi Gazete’de yayımlandı.",
+            "why": "Karar, Karadağ’ın AB vize politikasına uyum kapsamında 1 Kasım’dan bu yana Türk vatandaşlarından vize istemesine karşılık geliyor.",
+            "next": "Karar yayımlandığı gün yürürlüğe girdi; umuma mahsus pasaportlu Karadağ vatandaşları artık Türkiye’ye vizeyle girebilecek."
+          },
+          "body": [
+            {
+              "subhead": "Resmi Gazete’de yayımlandı",
+              "blocks": [
+                {
+                  "text": "Türkiye ile Karadağ arasındaki karşılıklı vize muafiyeti anlaşmasının, Karadağ’ın umuma mahsus pasaport sahibi vatandaşları bakımından uygulanması durduruldu. Sözcü, NTV ve Hürriyet’in aktardığına göre karar cuma günkü Resmi Gazete’de yayımlandı."
+                },
+                {
+                  "text": "Sözcü’nün haberine göre Cumhurbaşkanı Recep Tayyip Erdoğan imzalı, 26 Kasım tarihli 12026 sayılı karar, 9 sayılı Cumhurbaşkanlığı Kararnamesi’nin 3’üncü maddesi gereğince alındı. Gazeteye göre karar, yayımlandığı 27 Kasım’da yürürlüğe girdi."
+                },
+                {
+                  "text": "Hürriyet’e göre anlaşma 18 Ocak 2008’de imzalanmış, 3 Mart 2008 tarihli Bakanlar Kurulu kararıyla onaylanmıştı. NTV’ye göre bu adımla Karadağ vatandaşlarının umuma mahsus pasaportla Türkiye’ye vizesiz seyahat hakkı sona erdi. Onedio’nun aktardığına göre Resmi Gazete’deki metin, anlaşmayı onaylayan Bakanlar Kurulu kararına 2008/13335 sayısıyla atıf yapıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "İlk adım Karadağ’dan",
+              "blocks": [
+                {
+                  "text": "Karar, Karadağ’ın Türk vatandaşlarına getirdiği vize zorunluluğuna karşılık geliyor. Sözcü’nün aktardığına göre Karadağ hükümeti 23 Temmuz 2026’da aldığı kararla vize rejimini değiştirdi; 1 Kasım’dan itibaren Türkiye, Belarus, Çin, Rusya ve Suudi Arabistan vatandaşlarına vize zorunluluğu getirildi. Karadağ yönetimi bu adımla AB vize politikasına tam uyum sağlamayı ve üyelik sürecindeki yükümlülüklerini yerine getirmeyi hedeflediğini açıkladı."
+                },
+                {
+                  "text": "NTV ve Sözcü’ye göre bu uygulamadan önce Türk vatandaşları bordo pasaportla Karadağ’da 30 güne kadar vizesiz kalabiliyordu. 1 Kasım’dan bu yana bu pasaport sahiplerinin seyahatten önce vize alması gerekiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Tatilciler etkilendi",
+              "blocks": [
+                {
+                  "text": "NTV, Karadağ’ı doğası ve uygun fiyatlarıyla Türk tatilcilerin sıkça tercih ettiği ülkeler arasında gösterdi. Sözcü’ye göre Karadağ’ın kararı özellikle turistik gezi, tatil ve kısa süreli ziyaret planlayanları doğrudan etkiledi."
+                },
+                {
+                  "text": "Sözcü’nün haberine göre Türkiye’nin kararı yalnızca umuma mahsus pasaport sahiplerini kapsıyor ve iki ülke arasında 18 yıldır süren uygulamayı sona erdiriyor. Onedio, Karadağ’ın kararını iki ülke arasında geçen yıl yaşanan diplomatik krizle ilişkilendirdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Vize muafiyeti anlaşması",
+              "value": "18 Ocak 2008",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Cumhurbaşkanı kararı sayısı",
+              "value": "12026",
+              "source": "Resmi Gazete, Sözcü aracılığıyla"
+            },
+            {
+              "label": "Karadağ’ın vize şartı",
+              "value": "1 Kasım",
+              "source": "NTV"
+            },
+            {
+              "label": "Eski vizesiz kalış süresi",
+              "value": "30 gün",
+              "source": "NTV"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T00:59:36.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T05:34:38.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T05:34:38.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:15:15.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:03:02.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:36:41.000Z",
+          "sourceId": "haberturk"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/vize-947877.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/galeri-18-yillik-anlasma-bitti-turklere-vize-sarti-getirdiler-turkiye-de-vize-istemeye-basladi-1752803"
+      },
+      "sources": [
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/turkiye-karadagin-umuma-mahsus-pasaport-sahiplerine-vize-muafiyetini-durdurdu-p384754",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/turkiye-karadag-in-vize-hamlesine-resmi-gazete-den-karsilik-verdi-1397833",
+          "confirms": false
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-18-yillik-anlasma-bitti-turklere-vize-sarti-getirdiler-turkiye-de-vize-istemeye-basladi-1752803",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/turkiyeden-karadag-vatandaslari-icin-vize-karari-resmen-yururlukte-43392788",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/27/turkiye-ile-karadag-arasindaki-vize-muafiyeti-anlasmasi-askiya-alindi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/bilgi/foto/karadag-vize-karari-son-dakika-turkiye-karadag-a-vize-mi-uygulayacak-resmi-gazete-de-yayimlandi-3930533",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T12:30:00+03:00",
+      "updatedAt": "2026-11-27T12:30:00+03:00"
+    },
+    {
+      "id": "979e22972f743c14",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Nvidia halts Southeast Asia shipments",
+          "title": "Nvidia pauses AI server shipments to four Southeast Asian countries",
+          "summary": {
+            "what": "Nvidia told partners such as Dell and Super Micro to pause shipments of servers with its chips to Malaysia, Singapore, Thailand and Indonesia, the Wall Street Journal reported.",
+            "why": "Chinese firms have used data centres there to reach Nvidia chips remotely; such centres supply about 24% of China’s AI computing power, one estimate says.",
+            "next": "The pause has no set end; Nvidia is checking whether its partners in the region meet US export rules."
+          },
+          "body": [
+            {
+              "subhead": "An open-ended pause",
+              "blocks": [
+                {
+                  "text": "Nvidia has told its manufacturing partners, including Dell and Super Micro, to pause shipments of servers to Malaysia, Singapore, Thailand and Indonesia for an unspecified period, TechCrunch reported, citing the Wall Street Journal. The company is assessing whether its regional partners meet US export requirements, according to the report."
+                },
+                {
+                  "text": "Server makers that build Nvidia chips into their machines have told customers in those countries that their orders cannot be shipped, Webrazzi reported, citing the Financial Times. It is not yet clear how long the halt will last, the site said."
+                }
+              ]
+            },
+            {
+              "subhead": "Closing a loophole",
+              "blocks": [
+                {
+                  "text": "The four countries matter because Chinese companies have been tapping Nvidia chips remotely from data centres there, TechCrunch reported. The US Commerce Department closed that loophole earlier this month, reportedly grudgingly, the site said. The think tank Institute for Progress estimates that remote data centres like these supply about 24% of China’s AI computing power, according to the Journal."
+                },
+                {
+                  "text": "The new Commerce Department rule, in force since 19 November, makes shipments of advanced AI chips to certain countries subject to an export licence, Webrazzi reported. Besides the four Southeast Asian countries, Brazil is also covered. The rule also requires a licence for data centres above a certain size to serve China-based companies, the site said."
+                },
+                {
+                  "text": "The United States has restricted exports of Nvidia’s most advanced chips to China since 2022, citing national security, the South China Morning Post reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Singapore reaches out",
+              "blocks": [
+                {
+                  "text": "Singapore said on Friday it was “engaging” with local businesses over the tightened US export controls, the South China Morning Post reported. Deputy Prime Minister Gan Kim Yong said he could not confirm the reports that Nvidia had halted server shipments to the four countries."
+                },
+                {
+                  "text": "Southeast Asia has become a hub for AI infrastructure investment, and Malaysia and Indonesia in particular host data centres that meet Chinese firms’ demand for computing power, Webrazzi noted. The pause could delay new data centre projects and expansion plans in the region, the site said, adding that Fitch Ratings has warned the new US restrictions could slow data centre investment across Asia-Pacific."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Countries affected",
+              "value": "4",
+              "source": "TechCrunch, citing the WSJ"
+            },
+            {
+              "label": "China’s AI compute from remote centres",
+              "value": "~24%",
+              "source": "Institute for Progress, via TechCrunch"
+            },
+            {
+              "label": "New US rule in force",
+              "value": "19 Nov",
+              "source": "Webrazzi"
+            },
+            {
+              "label": "US curbs on chips to China since",
+              "value": "2022",
+              "source": "South China Morning Post"
+            }
+          ],
+          "place": {
+            "name": "Singapore",
+            "lat": 1.35,
+            "lon": 103.82,
+            "region": "Singapore"
+          }
+        },
+        "tr": {
+          "shortTitle": "Nvidia Güneydoğu Asya sevkiyatını durdurdu",
+          "title": "Nvidia, dört Güneydoğu Asya ülkesine yapay zekâ sunucusu sevkiyatını durdurdu",
+          "summary": {
+            "what": "Wall Street Journal’a göre Nvidia, Dell ve Super Micro gibi ortaklarından Malezya, Singapur, Tayland ve Endonezya’ya sunucu sevkiyatını durdurmasını istedi.",
+            "why": "Çinli şirketler bu ülkelerdeki veri merkezleri üzerinden Nvidia çiplerine uzaktan erişiyordu; bir tahmine göre bu merkezler Çin’in yapay zekâ işlem gücünün yaklaşık %24’ünü sağlıyor.",
+            "next": "Duraklamanın ne kadar süreceği belli değil; Nvidia bölgedeki ortaklarının ABD ihracat kurallarına uyup uymadığını inceliyor."
+          },
+          "body": [
+            {
+              "subhead": "Süresi belirsiz bir duraklama",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın Wall Street Journal’a dayandırdığı habere göre Nvidia, Dell ve Super Micro’nun da aralarında bulunduğu üretim ortaklarına Malezya, Singapur, Tayland ve Endonezya’ya sunucu sevkiyatını belirsiz bir süre için durdurmalarını söyledi. Habere göre şirket, bölgedeki ortaklarının ABD’nin ihracat şartlarını karşılayıp karşılamadığını değerlendiriyor."
+                },
+                {
+                  "text": "Webrazzi’nin Financial Times’a dayandırdığı habere göre Nvidia çiplerini sunuculara yerleştirip satan üreticiler, bu ülkelerdeki müşterilerine siparişlerin gönderilemeyeceğini bildirdi. Sevkiyatların ne kadar süre duracağı henüz netleşmedi."
+                }
+              ]
+            },
+            {
+              "subhead": "Kapanan boşluk",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre bu dört ülkenin önemi, Çinli şirketlerin buradaki veri merkezleri üzerinden Nvidia çiplerine uzaktan erişmesinden kaynaklanıyor. ABD Ticaret Bakanlığı bu boşluğu bu ay, söylendiğine göre isteksizce kapattı. Journal’ın aktardığına göre düşünce kuruluşu Institute for Progress, bu tür uzak veri merkezlerinin Çin’in yapay zekâ işlem gücünün yaklaşık %24’ünü sağladığını tahmin ediyor."
+                },
+                {
+                  "text": "Webrazzi’nin haberine göre Ticaret Bakanlığı’nın 19 Kasım’da yürürlüğe giren düzenlemesi, gelişmiş yapay zekâ çiplerinin belirli ülkelere gönderilmesini ihracat iznine bağlıyor. Dört Güneydoğu Asya ülkesinin yanı sıra Brezilya da kapsamda. Kurallar, belirli büyüklükteki veri merkezlerinin Çin merkezli şirketlere hizmet vermesini de izne bağlıyor."
+                },
+                {
+                  "text": "South China Morning Post’a göre ABD, ulusal güvenliği gerekçe göstererek 2022’den bu yana Nvidia’nın en gelişmiş çiplerinin Çin’e ihracatını kısıtlıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Singapur şirketlerle görüşüyor",
+              "blocks": [
+                {
+                  "text": "South China Morning Post’un haberine göre Singapur cuma günü, sıkılaşan ABD ihracat denetimleri konusunda yerel şirketlerle “temas halinde” olduğunu açıkladı. Başbakan Yardımcısı Gan Kim Yong ise Nvidia’nın dört ülkeye sunucu sevkiyatını durdurduğuna ilişkin haberleri doğrulayamadığını söyledi."
+                },
+                {
+                  "text": "Webrazzi, Güneydoğu Asya’nın yapay zekâ altyapı yatırımlarının yoğunlaştığı bölgelerden biri haline geldiğini, özellikle Malezya ve Endonezya’daki veri merkezlerinin Çinli şirketlerin işlem gücü ihtiyacını karşıladığını hatırlattı. Site, duraklamanın bölgedeki yeni veri merkezi projelerini ve kapasite artırma planlarını geciktirebileceğini yazdı; Fitch Ratings de yeni ABD kısıtlamalarının Asya-Pasifik’teki veri merkezi yatırımlarını yavaşlatabileceği uyarısında bulunmuştu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Etkilenen ülke",
+              "value": "4",
+              "source": "TechCrunch, WSJ’ye dayanarak"
+            },
+            {
+              "label": "Çin’in uzak merkezlerden işlem gücü",
+              "value": "~%24",
+              "source": "Institute for Progress, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Yeni ABD kuralı yürürlükte",
+              "value": "19 Kasım",
+              "source": "Webrazzi"
+            },
+            {
+              "label": "ABD’nin Çin’e çip kısıtlaması",
+              "value": "2022",
+              "source": "South China Morning Post"
+            }
+          ],
+          "place": {
+            "name": "Singapur",
+            "lat": 1.35,
+            "lon": 103.82,
+            "region": "Singapur"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T20:03:54.000Z",
+          "sourceId": "techcrunch"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T05:13:01.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T05:13:01.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:00:00.000Z",
+          "sourceId": "webrazzi"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375994/singapore-reaches-out-local-firms-amid-reports-nvidia-chip-shipment-halt",
+          "confirms": true
+        },
+        {
+          "sourceId": "webrazzi",
+          "url": "https://webrazzi.com/2026/11/27/nvidia-guneydogu-asya-daki-dort-ulkeye-yapay-zeka-sunucusu-gondermeyi-durdurdu/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T12:30:00+03:00",
+      "updatedAt": "2026-11-27T12:30:00+03:00"
+    },
+    {
+      "id": "a4a13d0e8da60dd9",
+      "section": "tech",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Xiaomi, Infinix face price probe",
+          "title": "Competition Authority opens probe into Xiaomi and Infinix phone prices",
+          "summary": {
+            "what": "Türkiye’s Competition Board opened an investigation into five companies over the prices of Xiaomi and Infinix phones.",
+            "why": "It will examine whether shops’ selling prices were dictated and whether rivals set prices together or shared sensitive information.",
+            "next": "The authority says the probe could open the way to cheaper prices and discounts; opening it does not mean the firms broke the law."
+          },
+          "body": [
+            {
+              "subhead": "Five companies under investigation",
+              "blocks": [
+                {
+                  "text": "Türkiye’s Competition Authority has opened an investigation into two phone brands and three technology companies over the prices of Xiaomi and Infinix mobile phones, Habertürk and Diken reported. The companies are Xiaomi Turkey, Infinix Mobile, the wholesaler Güncel Dijital, Evofone and Mieko. Their full names in the decision are Xiaomi Turkey Teknoloji Ltd. Şti., Infinix Mobile İletişim Elektronik Pazarlama ve Ticaret AŞ, Güncel Dijital Teknoloji Ürünleri Tekstil Gıda ve Dış Ticaret Ltd. Şti., Evofone Teknoloji AŞ and Mieko Bilgi Teknolojileri AŞ, Diken reported."
+                },
+                {
+                  "text": "The decision followed a preliminary inquiry into Güncel Dijital, a wholesaler of mobile phones, electronics and small home appliances, over alleged breaches of Türkiye’s competition law, Diken reported, citing the authority’s announcement. The Competition Board took the decision under number 26-33/954-M, the announcement said."
+                }
+              ]
+            },
+            {
+              "subhead": "What will be examined",
+              "blocks": [
+                {
+                  "text": "The board will examine whether Güncel Dijital, Infinix and Xiaomi interfered with the prices at which their resellers sell to consumers, according to the announcement quoted by Diken. Habertürk said the shops in question sell Xiaomi, Infinix and Güncel Dijital products."
+                },
+                {
+                  "text": "It will also look at whether Güncel Dijital, Evofone and Mieko, which resell Xiaomi and Infinix products, exchanged information between competitors or fixed prices. Both suspected practices would breach Article 4 of Law No. 4054 on the Protection of Competition, and the investigation was opened under Article 41 of the same law, Diken reported."
+                },
+                {
+                  "text": "In other words, the probe covers two kinds of conduct, Habertürk explained: whether brands interfered with the prices shops charge consumers, and whether competing sellers limited competition by setting prices together or sharing competitively sensitive information."
+                }
+              ]
+            },
+            {
+              "subhead": "Cheaper phones possible",
+              "blocks": [
+                {
+                  "text": "In a post on its social media account, the Competition Authority said the investigation could open the way to more affordable prices and discounts on Xiaomi and Infinix phones, Habertürk reported."
+                },
+                {
+                  "text": "The opening of an investigation does not mean that the companies broke the law or that they have been or will be penalised, Diken noted. ShiftDelete.Net also reported the investigation into the two brands and three technology companies."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Companies under investigation",
+              "value": "5",
+              "source": "Competition Authority, via Diken"
+            },
+            {
+              "label": "Phone brands",
+              "value": "2",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Board decision no.",
+              "value": "26-33/954-M",
+              "source": "Competition Authority, via Diken"
+            },
+            {
+              "label": "Competition law",
+              "value": "No. 4054",
+              "source": "Diken"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Xiaomi ve Infinix’e fiyat soruşturması",
+          "title": "Rekabet Kurumu, Xiaomi ve Infinix telefon fiyatlarına soruşturma açtı",
+          "summary": {
+            "what": "Rekabet Kurulu, Xiaomi ve Infinix marka cep telefonlarının fiyatları nedeniyle beş şirket hakkında soruşturma başlattı.",
+            "why": "Mağazaların satış fiyatlarına müdahale edilip edilmediği ve rakiplerin fiyatları birlikte belirleyip belirlemediği ya da hassas bilgi paylaşıp paylaşmadığı incelenecek.",
+            "next": "Kurum soruşturmanın daha uygun fiyatların ve indirimlerin önünü açabileceğini söylüyor; soruşturma açılması ihlal yapıldığı anlamına gelmiyor."
+          },
+          "body": [
+            {
+              "subhead": "Beş şirket soruşturmada",
+              "blocks": [
+                {
+                  "text": "Habertürk ve Diken’in aktardığına göre Rekabet Kurumu, Xiaomi ve Infinix marka cep telefonlarının fiyatları nedeniyle iki telefon markası ve üç teknoloji şirketi hakkında soruşturma başlattı. Soruşturma Xiaomi Turkey, Infinix Mobile, toptancı Güncel Dijital, Evofone ve Mieko’yu kapsıyor. Diken’e göre kararda şirketlerin tam unvanları Xiaomi Turkey Teknoloji Ltd. Şti., Infinix Mobile İletişim Elektronik Pazarlama ve Ticaret AŞ, Güncel Dijital Teknoloji Ürünleri Tekstil Gıda ve Dış Ticaret Ltd. Şti., Evofone Teknoloji AŞ ve Mieko Bilgi Teknolojileri AŞ olarak geçiyor."
+                },
+                {
+                  "text": "Diken’in kurumun duyurusuna dayandırdığı habere göre karar, cep telefonu, elektronik ürün ve küçük ev aleti toptancısı Güncel Dijital’in rekabet kanununu ihlal ettiği iddiasıyla yürütülen ön araştırmanın ardından geldi. Rekabet Kurulu kararı 26-33/954-M sayıyla aldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Neler incelenecek",
+              "blocks": [
+                {
+                  "text": "Diken’in aktardığı duyuruya göre Kurul, Güncel Dijital, Infinix ve Xiaomi’nin yeniden satıcılarının satış fiyatlarına müdahale edip etmediğini inceleyecek. Habertürk’e göre söz konusu mağazalar Xiaomi, Infinix ve Güncel Dijital ürünlerini satıyor."
+                },
+                {
+                  "text": "Xiaomi ve Infinix ürünlerinin yeniden satışını yapan Güncel Dijital, Evofone ve Mieko’nun rakipler arasında bilgi değişiminde bulunup bulunmadığı ya da fiyat tespit edip etmediği de araştırılacak. Diken’e göre her iki uygulama da 4054 sayılı Rekabetin Korunması Hakkında Kanun’un 4. maddesini ihlal anlamına geliyor; soruşturma aynı kanunun 41. maddesi uyarınca açıldı."
+                },
+                {
+                  "text": "Habertürk soruşturmanın iki tür davranışı kapsadığını aktardı: markaların mağazaların tüketiciye uyguladığı fiyatlara müdahale edip etmediği ve rakip satıcıların fiyatları birlikte belirleyerek ya da rekabete hassas bilgileri paylaşarak rekabeti sınırlayıp sınırlamadığı."
+                }
+              ]
+            },
+            {
+              "subhead": "Telefonlar ucuzlayabilir",
+              "blocks": [
+                {
+                  "text": "Habertürk’ün haberine göre Rekabet Kurumu, sosyal medya hesabından yaptığı açıklamada soruşturmanın Xiaomi ve Infinix marka cep telefonlarında daha uygun fiyatların ve indirimlerin önünü açabileceğini belirtti."
+                },
+                {
+                  "text": "Diken, soruşturma kararının söz konusu şirketlerin kanunu ihlal ettiği ya da yaptırımla karşı karşıya kaldığı veya kalacağı anlamına gelmediğini hatırlattı. ShiftDelete.Net de iki marka ve üç teknoloji şirketi hakkındaki soruşturmayı duyurdu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Soruşturulan şirket",
+              "value": "5",
+              "source": "Rekabet Kurumu, Diken aracılığıyla"
+            },
+            {
+              "label": "Telefon markası",
+              "value": "2",
+              "source": "Habertürk"
+            },
+            {
+              "label": "Kurul karar sayısı",
+              "value": "26-33/954-M",
+              "source": "Rekabet Kurumu, Diken aracılığıyla"
+            },
+            {
+              "label": "Rekabet kanunu",
+              "value": "4054 sayılı",
+              "source": "Diken"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T08:15:47.000Z",
+          "sourceId": "shiftdelete"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:38:14.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:42:22.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T08:42:22.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/11/27/ver1795768624/3930548/jpg/1920x1080",
+        "sourceId": "haberturk",
+        "sourceName": "Habertürk",
+        "articleUrl": "https://www.haberturk.com/ekonomi/rekabet-kurumu-ndan-xiaomi-ve-infinix-telefonlarina-yonelik-fiyat-sorusturmasi-fiyatlar-dusecek-mi-3930548"
+      },
+      "sources": [
+        {
+          "sourceId": "shiftdelete",
+          "url": "https://shiftdelete.net/rekabet-kurumu-xiaomi-infinix-telefon-fiyat-sorusturmasi",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/rekabet-kurumu-ndan-xiaomi-ve-infinix-telefonlarina-yonelik-fiyat-sorusturmasi-fiyatlar-dusecek-mi-3930548",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/xiaomi-ve-infinixe-sorusturma/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T12:30:00+03:00",
+      "updatedAt": "2026-11-27T12:30:00+03:00"
+    },
+    {
+      "id": "f70de7be9ac3cba6",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "56bab09ce1852d87",
+      "versions": {
+        "en": {
+          "shortTitle": "Nearly a million lose power",
+          "title": "Thanksgiving storm leaves nearly a million US homes and businesses without power",
+          "news": "The storm hit the East Coast on Thanksgiving, cutting power to nearly a million homes and businesses and cancelling more than 400 flights.",
+          "summary": {
+            "what": "A powerful storm lashed the US East Coast on Thanksgiving, leaving nearly a million homes and businesses without power and disrupting holiday travel.",
+            "why": "More than 80 million Americans were expected to travel this week; New Jersey and parts of New York declared states of emergency.",
+            "next": "Conditions were to ease on Friday as the storm moved into New England; utilities warned restoring power may take days."
+          },
+          "body": [
+            {
+              "subhead": "Power cut across the East Coast",
+              "blocks": [
+                {
+                  "text": "A storm with gusts of up to 112 km/h tore down trees and power lines along the US East Coast on Thursday, knocking out power to nearly a million customers at its peak, France 24 reported. Outages peaked at 961,000 at 7:30pm Eastern time and stood at 908,000 a few hours later, according to PowerOutage.us, with Pennsylvania, New Jersey, Maryland and Virginia among the worst hit."
+                },
+                {
+                  "text": "The BBC said more than 980,000 households were reporting outages by Thursday evening. Energy companies in Virginia and New Jersey warned it could take some time, even days, to restore power because crews had to wait until damaged areas were safe, the BBC reported. In Maryland, almost two million water customers were asked to use water only for essential needs because of power disruptions, the BBC and Al Jazeera reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Flights, roads and floods",
+              "blocks": [
+                {
+                  "text": "FlightAware counted 454 US-related cancellations and 2,411 delays on Thursday, France 24 reported, with major airports around Washington and New York among the hardest hit. The BBC, also citing FlightAware, put cancellations at 460. The AAA had predicted that 81.5 million Americans would travel at least 80 km from home over the holiday period, the BBC said."
+                },
+                {
+                  "text": "New Jersey governor Mikie Sherrill declared a state of emergency, and New York governor Kathy Hochul declared one for New York City, Long Island and Westchester County. In Avalon, New Jersey, an official said the town was seeing some of the worst flooding in its history, Euronews reported. New York mayor Zohran Mamdani said people were rescued from their cars because of flooding."
+                },
+                {
+                  "quote": "There is no destination worth your safety.",
+                  "speaker": "Zohran Mamdani, mayor of New York",
+                  "sourceId": "al-jazeera"
+                }
+              ]
+            },
+            {
+              "subhead": "Snow, tides and a parade on Saturday",
+              "blocks": [
+                {
+                  "text": "Heavy snow fell in the Midwest, with up to 35 cm recorded in parts of Missouri, Al Jazeera reported. On the West Coast, king tides caused flooding, and record tides forced evacuations in California from Humboldt County to southern Ventura County. Washington DC had its wettest Thanksgiving on record, the BBC said."
+                },
+                {
+                  "text": "The Macy’s Thanksgiving Day Parade, postponed for the first time because of weather, is now set for Saturday. President Donald Trump said he would consider releasing emergency funds for the East Coast, the BBC reported. Conditions were expected to improve gradually as the heaviest rain and wind moved into New England, the National Weather Service said, according to France 24."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Peak outages",
+              "value": "961,000",
+              "source": "PowerOutage.us, via France 24"
+            },
+            {
+              "label": "Flights cancelled Thursday",
+              "value": "454",
+              "source": "FlightAware, via France 24"
+            },
+            {
+              "label": "Flights delayed Thursday",
+              "value": "2,411",
+              "source": "FlightAware, via France 24"
+            },
+            {
+              "label": "Strongest gusts",
+              "value": "112 km/h",
+              "source": "France 24"
+            },
+            {
+              "label": "Expected holiday travellers",
+              "value": "81.5m",
+              "source": "AAA, via BBC"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Yaklaşık 1 milyon abone elektriksiz",
+          "title": "Şükran Günü fırtınası ABD’de yaklaşık 1 milyon aboneyi elektriksiz bıraktı",
+          "news": "Fırtına Şükran Günü’nde ABD’nin doğu kıyısını vurdu; yaklaşık 1 milyon abone elektriksiz kaldı, 400’den fazla uçuş iptal edildi.",
+          "summary": {
+            "what": "Şükran Günü’nde ABD’nin doğu kıyısını vuran şiddetli fırtına yaklaşık 1 milyon ev ve işyerini elektriksiz bıraktı, bayram yolculuklarını aksattı.",
+            "why": "Bu hafta 80 milyondan fazla Amerikalının yola çıkması bekleniyordu; New Jersey ve New York’un bazı bölgelerinde olağanüstü hal ilan edildi.",
+            "next": "Fırtına New England’a ilerlerken cuma günü koşulların düzelmesi bekleniyor; elektrik şirketleri elektriğin gelmesinin günler sürebileceğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Doğu kıyısında elektrik kesintisi",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre rüzgârın saatte 112 kilometreye ulaştığı fırtına perşembe günü ABD’nin doğu kıyısında ağaçları ve elektrik hatlarını devirdi; kesintiler en yüksek noktasında yaklaşık 1 milyon aboneyi etkiledi. PowerOutage.us verilerine göre doğu saatiyle 19.30’da 961 bine ulaşan kesinti birkaç saat sonra 908 bine indi; en çok etkilenen eyaletler arasında Pensilvanya, New Jersey, Maryland ve Virginia vardı."
+                },
+                {
+                  "text": "BBC’ye göre perşembe akşamı 980 binden fazla hane kesinti bildiriyordu. Virginia ve New Jersey’deki enerji şirketleri, ekiplerin hasarlı bölgelere ancak güvenli olduğunda girebileceğini, bu yüzden elektriğin gelmesinin zaman, hatta günler alabileceğini söyledi. BBC ve Al Jazeera’ye göre Maryland’de elektrik kesintileri nedeniyle yaklaşık 2 milyon su abonesinden suyu yalnızca zorunlu ihtiyaçlar için kullanması istendi."
+                }
+              ]
+            },
+            {
+              "subhead": "Uçuşlar, yollar ve sel",
+              "blocks": [
+                {
+                  "text": "France 24’ün aktardığına göre FlightAware perşembe günü ABD bağlantılı 454 iptal ve 2.411 rötar saydı; Washington ve New York çevresindeki büyük havalimanları en çok etkilenenler arasındaydı. Yine FlightAware’e dayanan BBC iptal sayısını 460 olarak verdi. BBC’ye göre Amerikan Otomobil Birliği (AAA), bayram döneminde 81,5 milyon Amerikalının evinden en az 80 kilometre uzağa gitmesini bekliyordu."
+                },
+                {
+                  "text": "New Jersey Valisi Mikie Sherrill olağanüstü hal ilan etti; New York Valisi Kathy Hochul da New York kenti, Long Island ve Westchester County için olağanüstü hal ilan etti. Euronews’e göre New Jersey’deki Avalon’da bir yetkili, kasabanın tarihindeki en kötü sellerden birini yaşadığını söyledi. New York Belediye Başkanı Zohran Mamdani, sel nedeniyle arabalarında mahsur kalan kişilerin kurtarıldığını açıkladı."
+                },
+                {
+                  "quote": "Hiçbir varış noktası güvenliğinize değmez.",
+                  "speaker": "New York Belediye Başkanı Zohran Mamdani",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Kar, gelgit ve cumartesiye kalan geçit töreni",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ye göre Ortabatı’ya yoğun kar yağdı, Missouri’nin bazı bölgelerinde kar kalınlığı 35 santimetreye ulaştı. Batı kıyısında ise “king tide” denen olağanüstü yüksek gelgitler sele yol açtı; Kaliforniya’da kuzeydeki Humboldt County’den güneydeki Ventura County’ye kadar rekor gelgitler tahliyelere neden oldu. BBC’ye göre başkent Washington kayıtlardaki en yağışlı Şükran Günü’nü yaşadı."
+                },
+                {
+                  "text": "Hava koşulları nedeniyle ilk kez ertelenen Macy’s Şükran Günü geçit töreni cumartesi yapılacak. BBC’ye göre Başkan Donald Trump, doğu kıyısı için acil durum fonu ayırmayı değerlendireceğini söyledi. France 24’ün aktardığına göre Ulusal Hava Durumu Servisi, en şiddetli yağmur ve rüzgâr New England’a ilerledikçe koşulların kademeli olarak düzeleceğini bildirdi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "En yüksek kesinti",
+              "value": "961 bin",
+              "source": "PowerOutage.us, France 24 aracılığıyla"
+            },
+            {
+              "label": "Perşembe iptal edilen uçuş",
+              "value": "454",
+              "source": "FlightAware, France 24 aracılığıyla"
+            },
+            {
+              "label": "Perşembe rötar yapan uçuş",
+              "value": "2.411",
+              "source": "FlightAware, France 24 aracılığıyla"
+            },
+            {
+              "label": "En sert rüzgâr",
+              "value": "112 km/sa",
+              "source": "France 24"
+            },
+            {
+              "label": "Beklenen bayram yolcusu",
+              "value": "81,5 milyon",
+              "source": "AAA, BBC aracılığıyla"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T21:57:53.000Z",
+          "sourceId": "euronews-en"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T01:44:13.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T01:44:13.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T04:34:43.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T05:15:26.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T07:14:35.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T08:10:27.000Z",
+          "sourceId": "guardian-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5163/live/6a7c75a0-ea2f-11f1-b33b-b39c81e690e4.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "euronews-en",
+          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375968/major-storm-batters-us-thanksgiving-holiday-disrupting-flights-and-power",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T12:30:00+03:00",
+      "updatedAt": "2026-11-27T12:30:00+03:00"
+    },
+    {
+      "id": "6a2142c22baf493c",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "EU budget talks end without deal",
+          "title": "EU leaders fail to agree €1.6 trillion budget; Macron sets deadline",
+          "summary": {
+            "what": "EU leaders ended more than 12 hours of talks in Brussels without agreeing the bloc’s 2028–2034 budget, worth almost €1.6 trillion in the draft.",
+            "why": "France and Germany want a deal before 2027 elections, including France’s, where Marine Le Pen leads the polls and has vowed to end aid to Ukraine.",
+            "next": "António Costa is to present a proposal in the coming weeks for a summit on 17 and 18 December."
+          },
+          "body": [
+            {
+              "subhead": "No deal after a long night",
+              "blocks": [
+                {
+                  "text": "European Union leaders failed to agree on the bloc’s next seven-year budget at a summit in Brussels on Thursday, after more than 12 hours of talks, the South China Morning Post reported. France and Germany want a deal on the 2028–2034 budget and on financing for Ukraine within the next month, but leaders made little progress as discussions grew heated, France 24 reported."
+                },
+                {
+                  "text": "The budget only starts in 2028, but France, Italy, Poland, Greece, Estonia, Finland and Slovakia all hold elections next year, which could complicate talks on the almost €1.6 trillion draft, France 24 said. The budget requires unanimous approval from all 27 member states."
+                },
+                {
+                  "quote": "After 31 December, I will no longer be in a position, politically or democratically, to reopen discussions on the budget and bring them to a conclusion, as we will be entering a period far too close to the presidential election in France.",
+                  "speaker": "Emmanuel Macron, French president",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Le Pen and Ukraine",
+              "blocks": [
+                {
+                  "text": "The possibility that far-right leader Marine Le Pen, who leads the polls, becomes French president after the elections in April and May has focused minds, France 24 reported. Le Pen has vowed to end financial aid to Ukraine and cut France’s contributions to the EU budget; she called the push to lock in the spending plans before the election “underhanded”."
+                },
+                {
+                  "text": "The draft includes up to €100 billion for Ukraine, which diplomats say falls well short of its needs. The EU also wants to borrow €45 billion and lend it to Kyiv, to be repaid only when Russia pays war reparations. Slovakia, the Czech Republic, Hungary and Bulgaria object to all members contributing to that loan, but Germany and others have made it a condition of a wider deal."
+                },
+                {
+                  "quote": "For me, there is a link between our support for Ukraine and the European budget. The European Union comprises of 27 member states, not 23 or 24.",
+                  "speaker": "Friedrich Merz, German chancellor",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Payers against receivers",
+              "blocks": [
+                {
+                  "text": "Under the current proposal the budget totals €1.582 trillion, including €140 billion to repay pandemic-era borrowing; the biggest item is about €740 billion for farmers and poorer regions, France 24 reported. Net contributors such as Germany, Sweden, the Netherlands and Finland want cuts and more spending on competitiveness, while net beneficiaries say the budget should fund both aims."
+                },
+                {
+                  "text": "The talks are meant to help European Council president António Costa present a proposal in the coming weeks, which governments might agree at a summit on 17 and 18 December, France 24 said. Austrian chancellor Christian Stocker said even inconclusive negotiations were necessary to make progress."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Draft 2028–2034 budget",
+              "value": "€1.582tn",
+              "source": "France 24"
+            },
+            {
+              "label": "Deadline set by Macron",
+              "value": "31 Dec",
+              "source": "France 24"
+            },
+            {
+              "label": "Next budget summit",
+              "value": "17–18 Dec",
+              "source": "France 24"
+            },
+            {
+              "label": "For Ukraine in the draft",
+              "value": "up to €100bn",
+              "source": "France 24"
+            },
+            {
+              "label": "Proposed EU loan to Ukraine",
+              "value": "€45bn",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Brussels",
+            "lat": 50.85,
+            "lon": 4.35,
+            "region": "Belgium"
+          }
+        },
+        "tr": {
+          "shortTitle": "AB bütçe zirvesi sonuçsuz",
+          "title": "AB liderleri 1,6 trilyon avroluk bütçede anlaşamadı, Macron yıl sonunu işaret etti",
+          "summary": {
+            "what": "AB liderleri Brüksel’de 12 saati aşan görüşmelerde, taslağı yaklaşık 1,6 trilyon avro olan 2028-2034 bütçesinde anlaşamadı.",
+            "why": "Fransa ve Almanya, anketlerde önde giden ve Ukrayna’ya yardımı kesmeyi vaat eden Marine Le Pen’in yarışacağı 2027 seçimlerinden önce anlaşma istiyor.",
+            "next": "António Costa önümüzdeki haftalarda 17-18 Aralık zirvesi için bir öneri sunacak."
+          },
+          "body": [
+            {
+              "subhead": "Uzun gecenin ardından anlaşma yok",
+              "blocks": [
+                {
+                  "text": "South China Morning Post’un haberine göre Avrupa Birliği liderleri perşembe günü Brüksel’deki zirvede 12 saati aşan görüşmelere rağmen birliğin gelecek yedi yıllık bütçesinde anlaşamadı. France 24’e göre Fransa ve Almanya, 2028-2034 bütçesi ve Ukrayna’nın finansmanı konusunda bir ay içinde anlaşma istiyor; ancak tartışmalar sertleşirken liderler pek ilerleme kaydedemedi."
+                },
+                {
+                  "text": "France 24’e göre bütçe ancak 2028’de başlıyor; ama Fransa, İtalya, Polonya, Yunanistan, Estonya, Finlandiya ve Slovakya’da gelecek yıl seçim var ve bu, yaklaşık 1,6 trilyon avroluk taslak üzerindeki pazarlıkları zorlaştırabilir. Bütçe 27 üye ülkenin oybirliğiyle onaylanmak zorunda."
+                },
+                {
+                  "quote": "31 Aralık’tan sonra bütçe görüşmelerini yeniden açıp sonuca bağlayacak siyasi ya da demokratik konumda olmayacağım, çünkü Fransa’daki cumhurbaşkanlığı seçimine çok yakın bir döneme gireceğiz.",
+                  "speaker": "Fransa Cumhurbaşkanı Emmanuel Macron",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Le Pen ve Ukrayna",
+              "blocks": [
+                {
+                  "text": "France 24’e göre anketlerde önde giden aşırı sağcı lider Marine Le Pen’in nisan ve mayıstaki seçimlerin ardından cumhurbaşkanı olma ihtimali liderleri harekete geçirdi. Le Pen, Ukrayna’ya mali yardımı sona erdirmeyi ve Fransa’nın AB bütçesine katkısını azaltmayı vaat ediyor; harcama planlarını seçimden önce bağlama girişimini de “sinsice” diye niteledi."
+                },
+                {
+                  "text": "Taslakta Ukrayna için 100 milyar avroya kadar kaynak var; diplomatlar bunun ülkenin ihtiyacının çok altında kaldığını söylüyor. AB ayrıca 45 milyar avro borçlanıp Kiev’e, ancak Rusya savaş tazminatı ödediğinde geri ödenecek bir kredi vermek istiyor. Slovakya, Çekya, Macaristan ve Bulgaristan tüm üyelerin bu krediye katılmasına karşı çıkıyor; Almanya ve bazı ülkeler ise bunu genel anlaşmanın şartı yaptı."
+                },
+                {
+                  "quote": "Benim için Ukrayna’ya desteğimizle Avrupa bütçesi arasında bir bağ var. Avrupa Birliği 23 ya da 24 değil, 27 üye ülkeden oluşuyor.",
+                  "speaker": "Almanya Başbakanı Friedrich Merz",
+                  "sourceId": "france-24",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Ödeyenler ve alanlar",
+              "blocks": [
+                {
+                  "text": "France 24’e göre mevcut öneride bütçe, pandemi döneminde alınan borçların geri ödenmesi için ayrılan 140 milyar avro dahil 1,582 trilyon avro; en büyük kalem çiftçiler ve yoksul bölgeler için yaklaşık 740 milyar avro. Almanya, İsveç, Hollanda ve Finlandiya gibi net katkı sağlayıcılar kesinti ve rekabet gücüne daha fazla harcama isterken, net kazanan ülkeler bütçenin iki amaca da yetmesi gerektiğini savunuyor."
+                },
+                {
+                  "text": "France 24’e göre görüşmeler, Avrupa Konseyi Başkanı António Costa’nın önümüzdeki haftalarda hükümetlerin 17-18 Aralık zirvesinde üzerinde anlaşabileceği bir öneri sunmasına yardımcı olacak. Avusturya Başbakanı Christian Stocker, sonuçsuz kalan müzakerelerin bile ilerleme için gerekli olduğunu söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "2028-2034 bütçe taslağı",
+              "value": "1,582 trilyon €",
+              "source": "France 24"
+            },
+            {
+              "label": "Macron’un son tarihi",
+              "value": "31 Aralık",
+              "source": "France 24"
+            },
+            {
+              "label": "Sonraki bütçe zirvesi",
+              "value": "17-18 Aralık",
+              "source": "France 24"
+            },
+            {
+              "label": "Taslakta Ukrayna’ya",
+              "value": "100 milyar €’ya kadar",
+              "source": "France 24"
+            },
+            {
+              "label": "Ukrayna’ya önerilen AB kredisi",
+              "value": "45 milyar €",
+              "source": "France 24"
+            }
+          ],
+          "place": {
+            "name": "Brüksel",
+            "lat": 50.85,
+            "lon": 4.35,
+            "region": "Belçika"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T20:02:47.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T23:35:18.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T23:35:18.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/a2c2241c-e9d2-11f1-a270-77d069279b82/w:1024/p:16x9/EN-20261126-200845-201341-CS.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/le-pen-slams-push-for-eu-budget-deal-before-french-election"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/le-pen-slams-push-for-eu-budget-deal-before-french-election",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375966/eu-leaders-unable-agree-budget-after-over-12-hours-talks-zero-results",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T12:30:00+03:00",
+      "updatedAt": "2026-11-27T12:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "4c01961c6450acba",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How much a month do prosecutors say Ece Üner and her husband were paid off the books?",
+          "options": ["₺650,000", "₺1.65 million", "₺16.5 million"]
+        },
+        "tr": {
+          "question": "Savcılığa göre Ece Üner ve eşine ayda ne kadar kayıt dışı ödeme yapıldı?",
+          "options": ["650 bin lira", "1,65 milyon lira", "16,5 milyon lira"]
+        }
+      }
+    },
+    {
+      "storyId": "979e22972f743c14",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "To how many Southeast Asian countries did Nvidia pause server shipments?",
+          "options": ["Two", "Six", "Four"]
+        },
+        "tr": {
+          "question": "Nvidia kaç Güneydoğu Asya ülkesine sunucu sevkiyatını durdurdu?",
+          "options": ["İki", "Altı", "Dört"]
+        }
+      }
+    },
+    {
+      "storyId": "6a2142c22baf493c",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "By what date does Macron say the EU budget deal must be struck?",
+          "options": ["31 December", "1 March", "30 June"]
+        },
+        "tr": {
+          "question": "Macron’a göre AB bütçe anlaşması en geç hangi tarihte yapılmalı?",
+          "options": ["31 Aralık", "1 Mart", "30 Haziran"]
+        }
+      }
+    }
+  ]
+}
