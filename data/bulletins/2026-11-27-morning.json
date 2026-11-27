@@ -1,0 +1,1801 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-27T07:30:00+03:00",
+  "writtenAt": "2026-11-27T06:58:37+03:00",
+  "stories": [
+    {
+      "id": "4f6ec4a452a57398",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Beşiktaş win after Batumi clashes",
+          "title": "Beşiktaş beat Hapoel Beer-Sheva 2-1 after police clash with fans in Batumi",
+          "summary": {
+            "what": "Beşiktaş beat Israel’s Hapoel Beer-Sheva 2-1 in the Europa League in Batumi, Georgia, after a stoppage caused by Georgian police clashing with their fans.",
+            "why": "Police moved against fans who unfurled Palestinian flags; Turkish ministers called their Georgian counterparts and rival clubs turned their anger on UEFA.",
+            "next": "The squad flies home on Friday ahead of the Galatasaray derby; club president Serdal Adalı expects detained fans to be freed."
+          },
+          "body": [
+            {
+              "subhead": "A win in a neutral city",
+              "blocks": [
+                {
+                  "text": "Beşiktaş beat Hapoel Beer-Sheva 2-1 on Thursday night in the fifth round of the Europa League, in a match played at Batumi Stadium in Georgia rather than Istanbul. According to Cumhuriyet, UEFA had announced on 30 October that the game would be moved to Batumi for security reasons after a notice from the Turkish authorities."
+                },
+                {
+                  "text": "Junior Olaitan put Beşiktaş ahead in the 76th minute and Orkun Kökçü made it 2-0 in the 90th, Anadolu Agency reported. Javon East pulled one back for the Israeli side in stoppage time. Kökçü had missed a penalty just before half-time, and a Dusan Vlahovic goal was ruled out for offside after a VAR review. The win lifts Beşiktaş to 10 points; Hapoel Beer-Sheva, beaten for the fourth time in a row, stay on one."
+                }
+              ]
+            },
+            {
+              "subhead": "Flags, pepper spray and a stoppage",
+              "blocks": [
+                {
+                  "text": "Trouble began before kick-off, when Georgian police moved against a group of Beşiktaş fans who unfurled a Palestinian flag, Cumhuriyet and Habertürk reported. In the 26th minute police used pepper spray in the visiting stand, and Danish referee Morten Krogh took both teams to the dressing rooms. Hürriyet said one fan was carried out on a stretcher, and Beşiktaş players led by captain Kökçü went to the stand to calm supporters. Anadolu Agency put the delay at about 40 minutes before play resumed."
+                },
+                {
+                  "text": "In a statement the club said it strongly condemned the security forces for using disproportionate force before and during the game, and that it had taken up the matter with the Turkish consulate in Batumi and with UEFA."
+                },
+                {
+                  "quote": "The disproportionate force used by the Georgian police was not nice either. We had two injured fans, and some were detained. I expect we will get them back too.",
+                  "speaker": "Serdal Adalı, Beşiktaş president",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Ankara and rival clubs respond",
+              "blocks": [
+                {
+                  "text": "Foreign Minister Hakan Fidan spoke by phone with his Georgian counterpart Maka Botchorishvili, and Interior Minister Mustafa Çiftçi and Justice Minister Akın Gürlek also called their Georgian counterparts, Sabah and Cumhuriyet reported. Officials from the embassy in Tbilisi and the consulate in Batumi were at the stadium. President Recep Tayyip Erdoğan phoned Adalı, the club said."
+                },
+                {
+                  "quote": "It is unacceptable that our citizens who support the Palestinian people’s just struggle are subjected to violence.",
+                  "speaker": "Akın Gürlek, justice minister",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Fenerbahçe, Galatasaray and Trabzonspor issued statements of support, Anadolu Agency and Hürriyet reported, and also criticised UEFA for making Turkish clubs play their home games against Israeli teams away from their own fans, calling it a double standard. Adalı said the team would stay in Batumi overnight and return on Friday, ahead of the league derby against Galatasaray."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Final score",
+              "value": "2-1",
+              "source": "Anadolu Agency"
+            },
+            {
+              "label": "Minute play stopped",
+              "value": "26'",
+              "source": "Anadolu Agency, Sabah"
+            },
+            {
+              "label": "Fans injured",
+              "value": "2",
+              "source": "Serdal Adalı, via Hürriyet"
+            },
+            {
+              "label": "Beşiktaş points in group",
+              "value": "10",
+              "source": "Anadolu Agency"
+            }
+          ],
+          "place": {
+            "name": "Batumi",
+            "lat": 41.62,
+            "lon": 41.64,
+            "region": "Georgia"
+          }
+        },
+        "tr": {
+          "shortTitle": "Batum’daki olaylı maçı Beşiktaş kazandı",
+          "title": "Gürcü polisinin taraftara müdahalesinin gölgesinde Beşiktaş, Hapoel Beer-Sheva’yı 2-1 yendi",
+          "summary": {
+            "what": "Beşiktaş, Avrupa Ligi’nde İsrail ekibi Hapoel Beer-Sheva’yı Gürcistan’ın Batum kentinde 2-1 yendi; maç, Gürcü polisinin taraftara müdahalesi nedeniyle durdu.",
+            "why": "Polis, Filistin bayrağı açan taraftarlara müdahale etti; bakanlar Gürcü mevkidaşlarını aradı, kulüpler tepkisini UEFA’ya da yöneltti.",
+            "next": "Takım cuma günü Galatasaray derbisi öncesi dönüyor; Başkan Serdal Adalı gözaltındaki taraftarların bırakılmasını bekliyor."
+          },
+          "body": [
+            {
+              "subhead": "Tarafsız sahada galibiyet",
+              "blocks": [
+                {
+                  "text": "Beşiktaş, UEFA Avrupa Ligi’nin beşinci haftasında İsrail ekibi Hapoel Beer-Sheva’yı perşembe akşamı 2-1 yendi. Maç İstanbul yerine Gürcistan’daki Batum Stadı’nda oynandı. Cumhuriyet’e göre UEFA, 30 Ekim’de yaptığı duyuruda Türk makamlarının bildirimi üzerine karşılaşmanın güvenlik gerekçesiyle Batum’a alındığını açıklamıştı."
+                },
+                {
+                  "text": "Anadolu Ajansı’nın aktardığına göre Beşiktaş 76. dakikada Junior Olaitan’ın golüyle öne geçti, 90. dakikada Orkun Kökçü farkı ikiye çıkardı. İsrail ekibinin tek golünü uzatmada Javon East attı. Kökçü ilk yarının sonunda penaltıdan yararlanamadı, Dusan Vlahovic’in golü ise VAR incelemesinin ardından ofsayt gerekçesiyle iptal edildi. Siyah-beyazlılar puanını 10’a çıkardı; üst üste dördüncü kez kaybeden Hapoel Beer-Sheva 1 puanda kaldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Bayrak, biber gazı ve uzun ara",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet ve Habertürk’e göre gerginlik maç başlamadan önce, Gürcü polisinin Filistin bayrağı açan Beşiktaşlı taraftarlara müdahalesiyle başladı. 26. dakikada polis deplasman tribününde biber gazı kullandı, Danimarkalı hakem Morten Krogh iki takımı soyunma odasına gönderdi. Hürriyet’in haberine göre bir taraftar sedyeyle tribünden çıkarıldı, kaptan Kökçü önderliğindeki futbolcular taraftarları sakinleştirmek için tribüne gitti. Anadolu Ajansı, maçın yaklaşık 40 dakika gecikmeyle devam ettiğini yazdı."
+                },
+                {
+                  "text": "Kulüp yaptığı açıklamada maç öncesinde ve sırasında taraftarlara orantısız güç kullanan güvenlik güçlerini şiddetle kınadığını, konuyu Batum Başkonsolosluğu ve UEFA nezdinde girişimlerle takip ettiğini duyurdu."
+                },
+                {
+                  "quote": "Gürcistan polisinin orantısız güç uygulaması da hoş değildi. 2 yaralı taraftarımız vardı, gözaltında olanlar vardı. Tahmin ediyorum onları da alacağız.",
+                  "speaker": "Serdal Adalı, Beşiktaş Başkanı",
+                  "sourceId": "hurriyet"
+                }
+              ]
+            },
+            {
+              "subhead": "Ankara ve kulüplerden tepki",
+              "blocks": [
+                {
+                  "text": "Sabah ve Cumhuriyet’in aktardığına göre Dışişleri Bakanı Hakan Fidan Gürcistan Dışişleri Bakanı Maka Botchorishvili ile telefonda görüştü; İçişleri Bakanı Mustafa Çiftçi ve Adalet Bakanı Akın Gürlek de Gürcü mevkidaşlarıyla konuştu. Tiflis Büyükelçiliği ve Batum Başkonsolosluğu yetkilileri stattaydı. Kulübün açıklamasına göre Cumhurbaşkanı Recep Tayyip Erdoğan da Adalı’yı aradı."
+                },
+                {
+                  "quote": "Filistin halkının haklı mücadelesine destek veren vatandaşlarımızın şiddete uğraması kabul edilemez.",
+                  "speaker": "Akın Gürlek, Adalet Bakanı",
+                  "sourceId": "cumhuriyet"
+                },
+                {
+                  "text": "Anadolu Ajansı ve Hürriyet’e göre Fenerbahçe, Galatasaray ve Trabzonspor Beşiktaş’a destek açıklaması yaptı; kulüpler, Türk takımlarının İsrail ekipleriyle iç saha maçlarını kendi taraftarları önünde oynayamamasını da çifte standart olarak eleştirdi. Adalı, takımın geceyi Batum’da geçirip cuma günü döneceğini, ardından Galatasaray derbisine hazırlanacaklarını söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Maç sonucu",
+              "value": "2-1",
+              "source": "Anadolu Ajansı"
+            },
+            {
+              "label": "Maçın durduğu dakika",
+              "value": "26'",
+              "source": "Anadolu Ajansı, Sabah"
+            },
+            {
+              "label": "Yaralı taraftar",
+              "value": "2",
+              "source": "Serdal Adalı, Hürriyet aracılığıyla"
+            },
+            {
+              "label": "Beşiktaş’ın puanı",
+              "value": "10",
+              "source": "Anadolu Ajansı"
+            }
+          ],
+          "place": {
+            "name": "Batum",
+            "lat": 41.62,
+            "lon": 41.64,
+            "region": "Gürcistan"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T14:30:17.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T16:38:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T16:38:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T19:22:43.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T20:37:58.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T20:40:00.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T20:45:23.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T23:08:12.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T01:29:04.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/668ec0c8-58a6-4975-9f01-0327f371f339.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/spor/kara-kartal-olayli-mactan-galibiyetle-donuyor-besiktas-israil-takimini-iki-golle-devirdi-2559697"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/spor/futbol/2026/11/26/son-dakika-besiktastan-avrupada-kartal-pencesi-hapoel-beer-shevayi-gurcistanda-devirdik",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/spor/kara-kartal-olayli-mactan-galibiyetle-donuyor-besiktas-israil-takimini-iki-golle-devirdi-2559697",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/spor/besiktas-israil-ekibi-hapoel-beer-shevayi-2-golle-gecti/4139614",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/hapoel-beer-sheva-hangi-ulkenin-takimi-besiktas-macinda-ne-oldu-1397782",
+          "confirms": false
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/spor/besiktas-hapoel-beer-sheva-maci-canli-anlatim-bjk-hapoel-beer-sheva-uefa-avrupa-ligi-maci-kac-kac-3930124",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/26/olayli-besiktas-hapoel-beer-sheva-macini-besiktas-2-1-kazandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/besiktas-hapoel-beer-shevayi-2-1-yendi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/besiktas-macinda-yasananlara-siyasilerden-tepki-p384716",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cwdd82qpd89mo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/sporarena/batumda-besiktas-taraftarina-polis-mudahalesi-filistin-bayragi-kriz-cikardi-43392403",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/26/besiktasin-israil-takimi-ile-macinda-saha-karisti-gurcistan-polisinden-filistin-bayragina-",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet-kelebek",
+          "url": "https://www.hurriyet.com.tr/kelebek/gurcistanda-polisten-besiktas-taraftarina-saldirdi-unlu-isimlerden-besiktasa-destek-mesajlari-43392519",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "fc660cb4a5303eb3",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "7345927580f92f78",
+      "versions": {
+        "en": {
+          "shortTitle": "Bağır named new BDDK head",
+          "title": "Central bank’s Yusuf Kenan Bağır named head of banking regulator BDDK",
+          "summary": {
+            "what": "Yusuf Kenan Bağır, a central bank director general, was appointed head of the banking regulator BDDK in Friday’s Official Gazette.",
+            "why": "He replaces Şahap Kavcıoğlu, who quit on 11 November as allegations in the fund probe grew and now faces an investigation.",
+            "next": "Bağır takes over a regulator under scrutiny as prosecutors write the fund indictment and payouts to investors continue."
+          },
+          "body": [
+            {
+              "subhead": "A new head for the regulator",
+              "blocks": [
+                {
+                  "text": "Yusuf Kenan Bağır has been appointed president of the Banking Regulation and Supervision Agency (BDDK), the body that licenses and oversees Turkish banks, by decisions signed by President Recep Tayyip Erdoğan and published in the Official Gazette dated 27 November, Sabah, Hürriyet and Anadolu Agency reported. Mahmut Esfa Emek was named a member of the BDDK board."
+                },
+                {
+                  "text": "Bağır replaces Şahap Kavcıoğlu, who was moved from the central bank governorship to the BDDK in June 2023. Diken reported that Kavcıoğlu asked Erdoğan on 11 November to relieve him of the post while the investment fund investigation was under way, and that permission to investigate him was granted on 26 November. Treasury and Finance Minister Mehmet Şimşek gave that permission after a preliminary report by the ministry’s inspection board, Cumhuriyet wrote."
+                },
+                {
+                  "quote": "Following the allegations of recent days about the Banking Regulation and Supervision Agency and myself, I asked our President Recep Tayyip Erdoğan to relieve me, so that our institution is not worn down any further.",
+                  "speaker": "Şahap Kavcıoğlu, former BDDK president",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Who Bağır is",
+              "blocks": [
+                {
+                  "text": "Bağır, born on 31 August 1980, studied economics at Selçuk University, graduating in 2003, Cumhuriyet reported. He took a master’s degree in public administration in 2012 and a doctorate in economics in 2016 at Syracuse University in the United States, where he also worked as a teaching and research assistant, according to A Haber."
+                },
+                {
+                  "text": "He began his career at the Social Insurance Institution (SSK) in 2001 and later worked at the interior ministry and the prime minister’s office. Since June 2021 he had been director general of data governance and statistics at the central bank, and since March 2024 he had chaired the board of the Interbank Card Centre (BKM), which runs Türkiye’s card payment network, A Haber and Diken reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Other appointments",
+              "blocks": [
+                {
+                  "text": "The same decisions named Orhan Çelik president of the Public Oversight, Accounting and Auditing Standards Authority (KGK), which sets accounting and audit rules. Bekir Keleş, head of legal affairs at the presidency’s general secretariat, Hayrettin Güngör and Devriş Ahmet Akıncı joined its board, Hürriyet reported."
+                },
+                {
+                  "text": "The appointment comes a day after Vice President Cevdet Yılmaz, Justice Minister Akın Gürlek and Şimşek gave a joint account of the fund crisis, in which payouts to investors from the liquidated funds were put at ₺199.25bn by Friday."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gazette decision",
+              "value": "27 Nov",
+              "source": "Official Gazette, via Diken"
+            },
+            {
+              "label": "Kavcıoğlu asked to leave",
+              "value": "11 Nov",
+              "source": "Diken"
+            },
+            {
+              "label": "Bağır at the central bank since",
+              "value": "2021",
+              "source": "Diken, A Haber"
+            },
+            {
+              "label": "Bağır’s birth year",
+              "value": "1980",
+              "source": "Cumhuriyet"
+            }
+          ],
+          "news": "Yusuf Kenan Bağır, a central bank director, was named head of the BDDK in Friday’s Official Gazette, replacing Şahap Kavcıoğlu."
+        },
+        "tr": {
+          "shortTitle": "BDDK’nın yeni başkanı Bağır",
+          "title": "BDDK Başkanlığına Merkez Bankası’ndan Yusuf Kenan Bağır atandı",
+          "summary": {
+            "what": "Merkez Bankası genel müdürlerinden Yusuf Kenan Bağır, cuma günkü Resmi Gazete’de yayımlanan kararla BDDK Başkanlığına atandı.",
+            "why": "Bağır, fon soruşturmasındaki iddialar üzerine 11 Kasım’da görevi bırakan ve hakkında soruşturma izni verilen Şahap Kavcıoğlu’nun yerini alıyor.",
+            "next": "Bağır, savcılık fon iddianamesini hazırlarken ve yatırımcılara ödemeler sürerken mercek altındaki kurumu devralıyor."
+          },
+          "body": [
+            {
+              "subhead": "Kurumun başına yeni isim",
+              "blocks": [
+                {
+                  "text": "Cumhurbaşkanı Recep Tayyip Erdoğan’ın imzasıyla 27 Kasım tarihli Resmi Gazete’de yayımlanan atama kararlarıyla Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) Başkanlığına Yusuf Kenan Bağır getirildi. Sabah, Hürriyet ve Anadolu Ajansı’nın aktardığına göre kurul üyeliğine de Mahmut Esfa Emek atandı."
+                },
+                {
+                  "text": "Bağır, Haziran 2023’te Merkez Bankası başkanlığından alınarak BDDK’nın başına getirilen Şahap Kavcıoğlu’nun yerini alıyor. Diken’e göre Kavcıoğlu, fon soruşturması sürerken 11 Kasım’da Erdoğan’dan affını istemiş, hakkında 26 Kasım’da soruşturma izni verilmişti. Cumhuriyet, izni Hazine ve Maliye Bakanı Mehmet Şimşek’in bakanlık Teftiş Kurulu’nun ön inceleme raporunun ardından verdiğini yazdı."
+                },
+                {
+                  "quote": "Bankacılık Düzenleme ve Denetleme Kurumu ve şahsımla ilgili son günlerdeki iddialar üzerine, Kurumumuzun daha fazla yıpranmaması için Sayın Cumhurbaşkanımız Recep Tayyip Erdoğan’dan affımı istedim.",
+                  "speaker": "Şahap Kavcıoğlu, eski BDDK Başkanı",
+                  "sourceId": "cumhuriyet"
+                }
+              ]
+            },
+            {
+              "subhead": "Bağır kimdir",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’in aktardığına göre 31 Ağustos 1980 doğumlu Bağır, 2003’te Selçuk Üniversitesi İktisat Bölümü’nden mezun oldu. A Haber’e göre ABD’deki Syracuse Üniversitesi’nde 2012’de kamu yönetimi alanında yüksek lisans, 2016’da iktisat alanında doktora derecesi aldı; aynı üniversitede öğretim ve araştırma asistanı olarak çalıştı."
+                },
+                {
+                  "text": "Çalışma hayatına 2001’de Sosyal Sigortalar Kurumu’nda (SSK) başlayan Bağır, ardından İçişleri Bakanlığı ve Başbakanlıkta görev yaptı. A Haber ve Diken’e göre Haziran 2021’den bu yana Merkez Bankası’nda Veri Yönetişimi ve İstatistik Genel Müdürü, Mart 2024’ten bu yana da Bankalararası Kart Merkezi (BKM) Yönetim Kurulu Başkanıydı."
+                }
+              ]
+            },
+            {
+              "subhead": "Diğer atamalar",
+              "blocks": [
+                {
+                  "text": "Aynı kararlarla Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurumu (KGK) Başkanlığına Orhan Çelik getirildi. Hürriyet’e göre kurul üyeliklerine Cumhurbaşkanlığı Genel Sekreterliği Hukuk ve Mevzuat Genel Müdürü Bekir Keleş, Hayrettin Güngör ve Devriş Ahmet Akıncı atandı."
+                },
+                {
+                  "text": "Atama, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, Adalet Bakanı Akın Gürlek ve Şimşek’in fon krizine ilişkin ortak açıklamasının ertesi gününe denk geldi. O açıklamada tasfiyedeki fonlardan yatırımcılara cuma itibarıyla yapılacak ödemelerin 199,25 milyar liraya ulaşacağı bildirilmişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Resmi Gazete kararı",
+              "value": "27 Kasım",
+              "source": "Resmi Gazete, Diken aracılığıyla"
+            },
+            {
+              "label": "Kavcıoğlu’nun affını istediği gün",
+              "value": "11 Kasım",
+              "source": "Diken"
+            },
+            {
+              "label": "Bağır’ın TCMB’deki görevi",
+              "value": "2021’den beri",
+              "source": "Diken, A Haber"
+            },
+            {
+              "label": "Bağır’ın doğum yılı",
+              "value": "1980",
+              "source": "Cumhuriyet"
+            }
+          ],
+          "news": "Merkez Bankası genel müdürü Yusuf Kenan Bağır, cuma günkü Resmi Gazete’yle Şahap Kavcıoğlu’nun yerine BDDK Başkanı oldu."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T22:47:17.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T22:48:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T22:48:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T22:48:12.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T23:04:31.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T23:17:48.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T23:34:47.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T00:29:34.000Z",
+          "sourceId": "bbc-turkce"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/197aec1a-0b7c-4e7b-98ad-d304383a0feb.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/resmi-gazete-de-yayimlandi-sahap-kavcioglu-istifa-etmisti-yerine-gelen-isim-belli-oldu-2559800"
+      },
+      "sources": [
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/ekonomi/son-dakika-i-resmi-gazetede-yayimlandi-bddk-baskanligina-yeni-isim-7710243",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/resmi-gazete-de-yayimlandi-sahap-kavcioglu-istifa-etmisti-yerine-gelen-isim-belli-oldu-2559800",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/bddk-baskanligina-yusuf-kenan-bagir-atandi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/27/bddk-baskanligina-yusuf-kenan-bagir-atandi",
+          "confirms": false
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/bddk-baskanligina-yusuf-kenan-bagir-atandi-43392615",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-bddk-baskanligina-yusuf-kenan-bagir-atandi-3930465",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/bankacilik-duzenleme-ve-denetleme-kurumunun-baskanligina-yusuf-kenan-bagir-atandi/4139858",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/c5742lzd1m20o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/bddk-baskanligina-yusuf-kenan-bagir-atandi-1752770",
+          "confirms": false
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/bddk-baskanligina-yusuf-kenan-bagir-atandi-3795861",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "fa231d592af7c564",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "continues": "9b599f2a9cac60d7",
+      "versions": {
+        "en": {
+          "shortTitle": "Arrest sought for three celebrities",
+          "title": "Arrest sought for three in celebrity drug probe, travel bans for nine",
+          "summary": {
+            "what": "Istanbul prosecutors sent 13 more suspects in the celebrity drug inquiry to court, seeking arrest for three and judicial control for ten.",
+            "why": "The second wave of the inquiry now reaches business people as well as entertainers, among them İzzet Özilhan and director Cem Karcı.",
+            "next": "A criminal judgeship of peace will rule on the requests; İlknur Şahin’s detention was extended."
+          },
+          "body": [
+            {
+              "subhead": "Three facing arrest",
+              "blocks": [
+                {
+                  "text": "Istanbul’s chief public prosecutor’s office sent 13 more suspects in its inquiry into well-known figures and drugs to a criminal judgeship of peace on Thursday, Cumhuriyet, Habertürk and NTV reported. Prosecutors asked for three of them to be arrested: Muammer Kapucuoğlu, chairman of the Klass Media Group, social media influencer Cansu Taşkın and Saghar Shojaei, Hürriyet reported."
+                },
+                {
+                  "text": "For nine others, including director Cem Karcı and businessman İzzet Özilhan, prosecutors asked for judicial control in the form of a ban on leaving the country. The list also includes producer Erdal Bozkuş, designer Özden Cerrahoğlu, Pınar Bent, Işıl Işık Demir, businessmen Burhan Karaca and Cem Güler, and DJ Burak Yeter, according to Hürriyet and Haberler.com. House arrest was requested for Meltem Keklik."
+                }
+              ]
+            },
+            {
+              "subhead": "Released and still held",
+              "blocks": [
+                {
+                  "text": "Businesswoman Seher Grothe Sevdişan was released by the prosecutor, and İlknur Şahin’s detention was extended, Hürriyet and Cumhuriyet reported. Hürriyet said 15 suspects had given drug tests at the Forensic Medicine Institute before being taken to the Çağlayan courthouse."
+                },
+                {
+                  "text": "The inquiry covers prostitution, drug trafficking, supplying drugs and using or possessing drugs. Prosecutors ordered 35 people detained on 24 November, Hürriyet reported. In the first group sent to court, actors Özcan Deniz, Deniz Çakır and Burcu Özberk were released under a travel ban and Ceylan Kaya was arrested, Haberler.com reported."
+                }
+              ]
+            },
+            {
+              "subhead": "What Özcan Deniz told prosecutors",
+              "blocks": [
+                {
+                  "text": "Hürriyet published the statements of the three released actors. Özcan Deniz told prosecutors his monthly income was ₺500,000, that he had no accounts in the stock market or funds, and that he takes prescribed medication for a heart condition he has had for about two years. He denied the accusations and asked for a decision not to prosecute."
+                },
+                {
+                  "quote": "I absolutely do not use drugs, and I have never been in the same place as people who use them.",
+                  "speaker": "Özcan Deniz, actor",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "He said he was sure his blood and hair tests would show this. The court’s decisions on the three arrest requests had not been reported by early Friday."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Sent to court on Thursday",
+              "value": "13",
+              "source": "Cumhuriyet, Haberler.com"
+            },
+            {
+              "label": "Arrest requested",
+              "value": "3",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Travel ban requested",
+              "value": "9",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Detention orders on 24 Nov",
+              "value": "35",
+              "source": "Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Çağlayan courthouse, Istanbul",
+            "lat": 41.07,
+            "lon": 28.98,
+            "region": "Türkiye"
+          },
+          "news": "Prosecutors asked a court to arrest Muammer Kapucuoğlu, Cansu Taşkın and Saghar Shojaei, and to bar nine others, among them İzzet Özilhan, from travel."
+        },
+        "tr": {
+          "shortTitle": "Ünlüler soruşturmasında üç tutuklama talebi",
+          "title": "Ünlülere uyuşturucu soruşturmasında 3 kişiye tutuklama, 9 kişiye yurt dışı yasağı talebi",
+          "summary": {
+            "what": "İstanbul Cumhuriyet Başsavcılığı ünlülere uyuşturucu soruşturmasında 13 şüpheliyi daha hakimliğe sevk etti: 3’ü için tutuklama, 10’u için adli kontrol istendi.",
+            "why": "Soruşturmanın ikinci dalgası sanatçıların yanında iş insanlarına da uzandı; İzzet Özilhan ve yönetmen Cem Karcı da listede.",
+            "next": "Talepler hakkında sulh ceza hakimliği karar verecek; İlknur Şahin’in gözaltı süresi uzatıldı."
+          },
+          "body": [
+            {
+              "subhead": "Üç isim için tutuklama talebi",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet, Habertürk ve NTV’nin aktardığına göre İstanbul Cumhuriyet Başsavcılığının ünlülere yönelik yürüttüğü uyuşturucu soruşturmasında 13 şüpheli perşembe günü sulh ceza hakimliğine sevk edildi. Hürriyet’e göre savcılık Klass Medya Grubu Yönetim Kurulu Başkanı Muammer Kapucuoğlu, sosyal medya fenomeni Cansu Taşkın ve Saghar Shojaei’nin tutuklanmasını istedi."
+                },
+                {
+                  "text": "Aralarında yönetmen Cem Karcı ve iş insanı İzzet Özilhan’ın da bulunduğu 9 şüpheli için yurt dışına çıkış yasağı şeklinde adli kontrol talep edildi. Hürriyet ve Haberler.com’a göre listede yapımcı Erdal Bozkuş, modacı Özden Cerrahoğlu, Pınar Bent, Işıl Işık Demir, iş insanları Burhan Karaca ile Cem Güler ve DJ Burak Yeter de var. Meltem Keklik için ev hapsi istendi."
+                }
+              ]
+            },
+            {
+              "subhead": "Serbest kalan ve gözaltı süren",
+              "blocks": [
+                {
+                  "text": "Hürriyet ve Cumhuriyet’e göre iş insanı Seher Grothe Sevdişan savcılıktan serbest bırakıldı, İlknur Şahin’in gözaltı süresi uzatıldı. Hürriyet, 15 şüphelinin Çağlayan’daki İstanbul Adliyesi’ne götürülmeden önce Adli Tıp Kurumu’nda uyuşturucu testi verdiğini yazdı."
+                },
+                {
+                  "text": "Soruşturma fuhuş, uyuşturucu ticareti, uyuşturucu temin etme ve uyuşturucu kullanma veya bulundurma suçlarını kapsıyor. Hürriyet’e göre savcılık 24 Kasım’da 35 kişi hakkında gözaltı kararı vermişti. Haberler.com’un aktardığına göre ilk grupta oyuncular Özcan Deniz, Deniz Çakır ve Burcu Özberk yurt dışı yasağıyla serbest bırakılmış, Ceylan Kaya tutuklanmıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Özcan Deniz’in ifadesi",
+              "blocks": [
+                {
+                  "text": "Hürriyet, serbest kalan üç oyuncunun savcılık ifadelerini yayımladı. Özcan Deniz aylık gelirinin 500 bin lira olduğunu, borsada ya da fonda adına kayıtlı hesabı bulunmadığını, yaklaşık iki yıldır kalp rahatsızlığı nedeniyle raporlu ilaç kullandığını söyledi. Suçlamaları kabul etmeyen Deniz, hakkında takipsizlik kararı verilmesini istedi."
+                },
+                {
+                  "quote": "Ben kesinlikle uyuşturucu kullanmıyorum, kullanan insanlarla da aynı ortamda bulunmadım.",
+                  "speaker": "Özcan Deniz, oyuncu",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Deniz, verdiği kan ve saç tahlillerinin sonucunda bunun ortaya çıkacağından emin olduğunu da söyledi. Hakimliğin üç tutuklama talebiyle ilgili kararı cuma sabahına kadar duyurulmadı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Perşembe hakimliğe sevk",
+              "value": "13",
+              "source": "Cumhuriyet, Haberler.com"
+            },
+            {
+              "label": "Tutuklama talebi",
+              "value": "3",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "Yurt dışı yasağı talebi",
+              "value": "9",
+              "source": "Hürriyet"
+            },
+            {
+              "label": "24 Kasım’daki gözaltı kararı",
+              "value": "35",
+              "source": "Hürriyet"
+            }
+          ],
+          "place": {
+            "name": "Çağlayan Adliyesi, İstanbul",
+            "lat": 41.07,
+            "lon": 28.98,
+            "region": "Türkiye"
+          },
+          "news": "Savcılık Muammer Kapucuoğlu, Cansu Taşkın ve Saghar Shojaei’nin tutuklanmasını, İzzet Özilhan’ın da aralarında olduğu 9 kişiye yurt dışı yasağı istedi."
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T17:05:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T17:49:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T17:49:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T22:40:42.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T00:49:08.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/uyusturucu-sorusturmasinda-3-kisiye-tutuklama-talebi-izzet-ozilhan-ve-cem-karciya-adli-kontrol-43392388",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberler-magazin",
+          "url": "https://www.haberler.com/guncel/unlulere-yonelik-uyusturucu-sorusturmasinda-13-20466352-haberi/",
+          "confirms": false
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/unlulere-yonelik-uyusturucu-sorusturmasinda-yeni-gelisme-3-kisiye-tutuklama-talebi-2559716",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/unlulere-yonelik-uyusturucu-sorusturmasinda-3-tutuklama-talebi-3930446",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/unlulere-uyusturucu-sorusturmasinda-3-kisi-hakkinda-tutuklama-talebi-1752774",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "ad78321ace868025",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Google to publish developers’ addresses",
+          "title": "Google will publish Android developers’ phone numbers and addresses worldwide",
+          "summary": {
+            "what": "Google says Play Store developers who earn money from their apps must declare as “traders” by 1 February, and their phone and address will be public from 1 March.",
+            "why": "The rule meets EU law, but Google will show the details worldwide and bans PO boxes, so many solo developers would have to publish a home address.",
+            "next": "Developers who miss the deadline risk blocked updates and removal from Google Play globally."
+          },
+          "body": [
+            {
+              "subhead": "A deadline for every account",
+              "blocks": [
+                {
+                  "text": "Google has told Android developers that every active Play Console account must declare whether it is a “trader” or a “non-trader” under European Economic Area and UK law by 1 February 2027, wherever its apps are distributed, according to Google’s own help page. The change is meant to meet the EU’s Digital Services Act, The Verge reported, but Google says the contact details of traders will be shown worldwide."
+                },
+                {
+                  "text": "Broadly, Google says the definition applies to developers who earn revenue from their apps, especially regular or high-volume revenue. Hobby and non-commercial developers are unlikely to count as traders, The Verge said, and developers who do not publish their apps in the UK or Europe are exempt."
+                }
+              ]
+            },
+            {
+              "subhead": "Home addresses in public",
+              "blocks": [
+                {
+                  "text": "Developers who declare as traders will have their contact details, including a phone number and an address, shown publicly from 1 March, The Verge reported. Google does not accept PO boxes for developer payment profile addresses, which means many independent developers without an office will have to put their home address online or pay for a registered agent that provides a business address. One independent developer told The Elec they were considering renting a private office just to comply."
+                },
+                {
+                  "text": "Apple is subject to the same rules but handles them differently, The Verge said. It shows developer addresses only in the relevant European countries rather than worldwide, and it accepts PO boxes as long as developers give Apple a receipt or bill linking the box to their regular address. The Verge said it had asked Google why PO boxes are not allowed and why the details are shared globally."
+                }
+              ]
+            },
+            {
+              "subhead": "What happens to those who don’t declare",
+              "blocks": [
+                {
+                  "text": "Google’s page warns that missing the deadline “may trigger enforcement including app update blocks and removal from the Play Store globally”. Developers are solely responsible for keeping their declaration accurate, it says. Falsely claiming non-trader status is prohibited under the EU’s Unfair Commercial Practices Directive and the UK’s Digital Markets, Competition and Consumers Act, and can lead to account suspension or termination."
+                },
+                {
+                  "text": "If Google detects activity that suggests a non-trader is in fact a trader, it may ask the developer to update their status and remove their apps if they do not respond. For traders, the D-U-N-S company number they already gave Google during identity verification will also be shown on each app’s page."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Trader declaration deadline",
+              "value": "1 Feb 2027",
+              "source": "Google Play Console Help"
+            },
+            {
+              "label": "Contact details shown from",
+              "value": "1 Mar 2027",
+              "source": "The Verge"
+            },
+            {
+              "label": "PO box addresses allowed",
+              "value": "No",
+              "source": "The Verge"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Google geliştirici adreslerini yayımlayacak",
+          "title": "Google, Android geliştiricilerinin telefon ve adreslerini tüm dünyada gösterecek",
+          "summary": {
+            "what": "Google, uygulamasından gelir elde eden Play Store geliştiricilerinin 1 Şubat’a kadar “tacir” beyanı vermesini istiyor; telefon ve adresleri 1 Mart’tan itibaren herkese açık olacak.",
+            "why": "Kural AB mevzuatına uymak için getirildi ama Google bilgileri tüm dünyada gösterecek ve posta kutusu kabul etmiyor; bireysel geliştiriciler ev adresini açmak zorunda kalabilir.",
+            "next": "Süreyi kaçıran geliştiricilerin güncellemeleri engellenebilir, uygulamaları Google Play’den dünya genelinde kaldırılabilir."
+          },
+          "body": [
+            {
+              "subhead": "Her hesaba son tarih",
+              "blocks": [
+                {
+                  "text": "Google’ın yardım sayfasına göre Play Console’daki tüm etkin geliştirici hesapları, uygulamaları nerede dağıtılırsa dağıtılsın, Avrupa Ekonomik Alanı ve Birleşik Krallık mevzuatı kapsamında “tacir” (trader) olup olmadıklarını 1 Şubat 2027’ye kadar beyan etmek zorunda. The Verge’e göre değişiklik AB’nin Dijital Hizmetler Yasası’na uyum için yapılıyor, ancak Google tacirlerin iletişim bilgilerini tüm dünyada gösterecek."
+                },
+                {
+                  "text": "Google’a göre tanım, genel olarak uygulamalarından düzenli ya da yüksek hacimli gelir elde eden geliştiricileri kapsıyor. The Verge, uygulamayı hobi olarak ya da ticari olmayan amaçla yayımlayanların tacir sayılmasının düşük ihtimal olduğunu, uygulamalarını Birleşik Krallık ve Avrupa’da yayımlamayanların ise muaf tutulduğunu yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ev adresleri ortada",
+              "blocks": [
+                {
+                  "text": "The Verge’ün haberine göre tacir beyanı veren geliştiricilerin telefon numarası ve adresi dahil iletişim bilgileri 1 Mart’tan itibaren herkese açık gösterilecek. Google geliştirici ödeme profillerinde posta kutusu adresi kabul etmiyor; bu nedenle ofisi olmayan pek çok bağımsız geliştirici ya ev adresini internette paylaşmak ya da iş adresi sağlayan bir hizmete para ödemek zorunda kalacak. Bağımsız bir geliştirici The Elec’e, yalnızca kurala uymak için özel ofis kiralamayı düşündüğünü söyledi."
+                },
+                {
+                  "text": "The Verge’e göre aynı kurallara tabi olan Apple farklı bir yol izliyor: Geliştirici adreslerini dünya geneline değil, yalnızca ilgili Avrupa ülkelerine gösteriyor. Posta kutusunu, geliştiricinin bunu asıl adresine bağlayan bir fatura ya da makbuz sunması koşuluyla kabul ediyor. The Verge, Google’a posta kutusuna neden izin vermediğini ve bilgileri neden tüm dünyada paylaştığını sorduğunu belirtti."
+                }
+              ]
+            },
+            {
+              "subhead": "Beyan vermeyene ne olacak",
+              "blocks": [
+                {
+                  "text": "Google’ın sayfası, süreyi kaçırmanın “güncelleme engeli ve uygulamanın Play Store’dan dünya genelinde kaldırılması dahil yaptırımlara” yol açabileceği uyarısını yapıyor. Beyanın doğru tutulmasından yalnızca geliştirici sorumlu. Gerçekte tacir olduğu halde aksini beyan etmek AB’nin Haksız Ticari Uygulamalar Direktifi ve Birleşik Krallık’ın ilgili tüketici yasasıyla yasak; bu durum hesabın askıya alınmasına ya da kapatılmasına kadar gidebiliyor."
+                },
+                {
+                  "text": "Google, tacir olmadığını beyan eden bir hesapta aksini gösteren hareketler görürse geliştiriciden durumunu güncellemesini isteyebilecek, yanıt gelmezse uygulamaları kaldırabilecek. Tacirlerin kimlik doğrulamada verdiği D-U-N-S şirket numarası da her uygulamanın sayfasında görünecek."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Tacir beyanı için son gün",
+              "value": "1 Şubat 2027",
+              "source": "Google Play Console Yardım"
+            },
+            {
+              "label": "İletişim bilgilerinin görüneceği tarih",
+              "value": "1 Mart 2027",
+              "source": "The Verge"
+            },
+            {
+              "label": "Posta kutusu adresi",
+              "value": "Kabul edilmiyor",
+              "source": "The Verge"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T17:06:24.000Z",
+          "sourceId": "the-verge"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "the-verge",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+          "confirms": true
+        },
+        {
+          "sourceId": "hacker-news",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "58238582b61f3958",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "X adds parental controls for teens",
+          "title": "X adds parental controls, with teen accounts in ‘protected mode’ by default",
+          "summary": {
+            "what": "X has added parental controls for users aged 13 to 17, whose accounts now start in a “protected mode” with no sensitive content and no targeted ads.",
+            "why": "It is the first such tool in the platform’s 20 years, after criticism over its AI chatbot being used to make sexualised images of children and women.",
+            "next": "Parents can set daily limits and approve followers, but cannot read their teen’s private messages."
+          },
+          "body": [
+            {
+              "subhead": "Protected by default",
+              "blocks": [
+                {
+                  "text": "X, the social network formerly known as Twitter, has added parental controls for teenagers for the first time in its 20 years, TechCrunch reported. Accounts belonging to 13- to 17-year-olds will be set to “protected mode” by default, which means they will not be able to see sensitive content and will not be served targeted ads."
+                },
+                {
+                  "text": "Unlike most platforms, TechCrunch said, X is giving teens a say in the system. Teenagers can see every restriction placed on their account, and parents and guardians will not be able to read their private messages, see their search or viewing history, or post as them."
+                }
+              ]
+            },
+            {
+              "subhead": "What parents can do",
+              "blocks": [
+                {
+                  "text": "The controls let parents see how much time their teen spends on X each week and set daily limits. They can require approval for new followers, limit feed recommendations and videos to accounts the teen already follows, filter specific words, turn off sensitive media, choose who can send their teen direct messages and see who the teen is messaging, according to TechCrunch."
+                },
+                {
+                  "quote": "Parents want practical tools, and teens deserve room to grow. With Parental Controls on X, families can set the guardrails that fit their home, while teens keep ownership of their accounts and can see every change.",
+                  "speaker": "Michael O’Herlihy, head of safety at X",
+                  "sourceId": "techcrunch"
+                }
+              ]
+            },
+            {
+              "subhead": "Why now",
+              "blocks": [
+                {
+                  "text": "The controls arrive months after X came under fire for failing to stop its AI chatbot from being used to generate sexualised images of children and women, TechCrunch wrote. The outlet said the platform has also long been rife with child sexual abuse material, misinformation and AI bots, and openly lets users post pornography."
+                },
+                {
+                  "text": "X has never been aimed at teenagers, but they use it. TechCrunch cited a 2024 study that found nearly a third of Gen Alpha children have an X account. The platform requires users to be at least 13, which TechCrunch called a low bar given the kind of content on it. X announced the controls in a blog post by its head of safety."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ages covered",
+              "value": "13–17",
+              "source": "X, via TechCrunch"
+            },
+            {
+              "label": "Years before parental controls",
+              "value": "20",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "Minimum age on X",
+              "value": "13",
+              "source": "TechCrunch"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "X’e gençler için ebeveyn denetimi",
+          "title": "X ebeveyn denetimi getirdi: Genç hesaplar varsayılan olarak ‘korumalı modda’",
+          "summary": {
+            "what": "X, 13-17 yaş arası kullanıcılar için ebeveyn denetimi ekledi; bu hesaplar artık hassas içerik ve hedefli reklam göstermeyen “korumalı modda” açılıyor.",
+            "why": "Platformun 20 yıllık tarihindeki ilk böyle araç; yapay zekâ sohbet botunun çocukların ve kadınların cinsel içerikli görüntülerini üretmekte kullanılmasına yönelik eleştirilerin ardından geldi.",
+            "next": "Ebeveynler günlük sınır koyup takipçileri onaylayabilecek, ancak gencin özel mesajlarını okuyamayacak."
+          },
+          "body": [
+            {
+              "subhead": "Varsayılan olarak korumalı",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın haberine göre eski adı Twitter olan sosyal ağ X, 20 yıllık tarihinde ilk kez gençler için ebeveyn denetimi getirdi. 13-17 yaş arasındaki kullanıcıların hesapları varsayılan olarak “korumalı moda” alınacak; bu hesaplar hassas içerik göremeyecek ve hedefli reklam almayacak."
+                },
+                {
+                  "text": "TechCrunch’a göre X, çoğu platformdan farklı olarak gençlere de söz hakkı tanıyor. Gençler hesaplarına konan her kısıtlamayı görebilecek; ebeveynler ve vasiler ise özel mesajlarını okuyamayacak, arama ya da izleme geçmişini göremeyecek, onların adına paylaşım yapamayacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Ebeveynler neler yapabilecek",
+              "blocks": [
+                {
+                  "text": "TechCrunch’ın aktardığına göre ebeveynler gencin X’te haftada ne kadar zaman geçirdiğini görüp günlük sınır koyabilecek. Yeni takipçiler için onay şartı getirebilecek, akış önerilerini ve videoları gencin zaten takip ettiği hesaplarla sınırlayabilecek, belirli kelimeleri filtreleyebilecek, hassas medyayı kapatabilecek, gence kimlerin doğrudan mesaj atabileceğini belirleyip kimlerle yazıştığını görebilecek."
+                },
+                {
+                  "quote": "Ebeveynler işe yarar araçlar istiyor, gençler de gelişmek için alanı hak ediyor. X’teki Ebeveyn Denetimi ile aileler kendi evlerine uyan sınırları belirleyebiliyor, gençler de hesaplarının sahibi olmayı sürdürüp her değişikliği görebiliyor.",
+                  "speaker": "Michael O’Herlihy, X güvenlik sorumlusu",
+                  "sourceId": "techcrunch",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Neden şimdi",
+              "blocks": [
+                {
+                  "text": "TechCrunch’a göre denetimler, X’in yapay zekâ sohbet botunun çocukların ve kadınların cinsel içerikli görüntülerini üretmekte kullanılmasını engelleyememesi nedeniyle eleştirilmesinden aylar sonra geldi. Site, platformda uzun süredir çocuk istismarı içeriği, dezenformasyon ve yapay zekâ botlarının yaygın olduğunu, kullanıcıların açıkça pornografi paylaşabildiğini de hatırlattı."
+                },
+                {
+                  "text": "X hiçbir zaman gençlere yönelik bir platform olmadı ama gençler onu kullanıyor. TechCrunch, 2024’te yapılan bir araştırmaya göre Alfa kuşağı çocuklarının yaklaşık üçte birinin X hesabı olduğunu aktardı. Platform en az 13 yaş şartı arıyor; TechCrunch, içeriğin niteliği düşünüldüğünde bunun düşük bir eşik olduğunu yazdı. X, denetimleri güvenlik sorumlusunun blog yazısıyla duyurdu."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kapsanan yaş aralığı",
+              "value": "13–17",
+              "source": "X, TechCrunch aracılığıyla"
+            },
+            {
+              "label": "Ebeveyn denetimine kadar geçen yıl",
+              "value": "20",
+              "source": "TechCrunch"
+            },
+            {
+              "label": "X’te en düşük yaş sınırı",
+              "value": "13",
+              "source": "TechCrunch"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T19:31:50.000Z",
+          "sourceId": "techcrunch"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "83da6f6c9073ae3c",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Trump asks Putin to pull back",
+          "title": "Trump says he urged Putin to pull back; Zelensky finds friendship ‘strange’",
+          "summary": {
+            "what": "Donald Trump said he urged Vladimir Putin to “pull back all military aggression” in Europe, as Volodymyr Zelensky told the BBC the US is not pushing Russia hard enough.",
+            "why": "It is a shift in tone from Trump, who called Putin his friend a week ago, while Russian strikes on Ukraine grow and Ukraine hits Russian ships and refineries.",
+            "next": "Zelensky warned of a new mass Russian strike in the coming days; EU leaders are still arguing over a €45bn loan for Ukraine."
+          },
+          "body": [
+            {
+              "subhead": "Trump’s message to Putin",
+              "blocks": [
+                {
+                  "text": "US President Donald Trump said on Thursday that he had asked Vladimir Putin to “pull back all military aggression” against Europe when the two met in China last week, France 24 reported, a shift in tone towards the Russian leader he called his friend only a week earlier. In a Truth Social post, Trump said he spent “a lot of time” on the issue and believed a peace deal with Ukraine was “a strong possibility”, Al Jazeera reported."
+                },
+                {
+                  "quote": "Thousands of people are being killed each and every month, A COMPLETE BLOODBATH.",
+                  "speaker": "Donald Trump, US president",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "Trump said he had briefed NATO Secretary-General Mark Rutte at his Mar-a-Lago club in Florida on Wednesday night. France 24 said the two issued a joint statement calling on Russia not to expand the war."
+                }
+              ]
+            },
+            {
+              "subhead": "Zelensky: ‘He can’t be a friend’",
+              "blocks": [
+                {
+                  "text": "In an interview with the BBC in Kyiv, Ukrainian President Volodymyr Zelensky said it was “strange” that Trump had posted a picture of himself embracing Putin with the words “my friend”. He said delays in US deliveries of Patriot anti-ballistic missiles were costing Ukrainian lives, and that the US was too focused on the Middle East and not pushing Russia hard enough in peace talks."
+                },
+                {
+                  "quote": "He’s an aggressor, and a killer… He can’t be a friend. Just cannot be.",
+                  "speaker": "Volodymyr Zelensky, Ukrainian president",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "The latest round of talks, in Abu Dhabi this month, made no obvious progress, the BBC reported. Zelensky said Ukraine’s forces now destroy about 70% of Russia’s fastest drones, but that there is a “very, very big” shortage of interceptors for ballistic missiles."
+                }
+              ]
+            },
+            {
+              "subhead": "Strikes on both sides",
+              "blocks": [
+                {
+                  "text": "In his nightly address Zelensky warned that Russia was preparing a new mass strike in the coming days, Al Jazeera reported. Russian ballistic missiles struck Kyiv overnight, wounding seven people and hitting a shopping centre, according to Mayor Vitali Klitschko. Ukraine said its drones hit an oil refinery in Russia’s Krasnodar region and a military airfield in the Volgograd region, and this week it used naval drones against the Russian corvette Merkury off Libya. Zelensky told the BBC the warship was an “absolutely fair goal”."
+                },
+                {
+                  "text": "In Brussels, EU leaders were struggling to agree on a new €45bn loan to help Ukraine through next year. European Council President António Costa said early on Friday that 24 member states supported it, Al Jazeera reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Wounded in overnight Kyiv strike",
+              "value": "7",
+              "source": "Vitali Klitschko, via Al Jazeera"
+            },
+            {
+              "label": "Proposed new EU loan",
+              "value": "€45bn",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "EU states backing the loan",
+              "value": "24",
+              "source": "António Costa, via Al Jazeera"
+            },
+            {
+              "label": "Fast Russian drones downed",
+              "value": "about 70%",
+              "source": "Volodymyr Zelensky, via the BBC"
+            }
+          ],
+          "place": {
+            "name": "Kyiv",
+            "lat": 50.45,
+            "lon": 30.52,
+            "region": "Ukraine"
+          }
+        },
+        "tr": {
+          "shortTitle": "Trump, Putin’den geri çekilmesini istedi",
+          "title": "Trump, Putin’den geri çekilmesini istediğini söyledi; Zelenski dostluklarını ‘tuhaf’ buldu",
+          "summary": {
+            "what": "Donald Trump, Vladimir Putin’den Avrupa’daki “tüm askeri saldırganlığı geri çekmesini” istediğini söyledi; Volodimir Zelenski ise BBC’ye ABD’nin Rusya’ya yeterince baskı yapmadığını anlattı.",
+            "why": "Bir hafta önce Putin’e dostum diyen Trump’ın üslubunda değişim var; bu sırada Rusya’nın Ukrayna’ya saldırıları artıyor, Ukrayna da Rus gemilerini ve rafinerilerini vuruyor.",
+            "next": "Zelenski önümüzdeki günlerde yeni bir büyük Rus saldırısı uyarısı yaptı; AB liderleri Ukrayna için 45 milyar avroluk krediyi hâlâ tartışıyor."
+          },
+          "body": [
+            {
+              "subhead": "Trump’ın Putin’e mesajı",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre ABD Başkanı Donald Trump perşembe günü, geçen hafta Çin’de görüştüğü Vladimir Putin’den Avrupa’ya yönelik “tüm askeri saldırganlığı geri çekmesini” istediğini söyledi. Bu, yalnızca bir hafta önce dostum dediği Rus lidere karşı üslubunda bir değişim anlamına geliyor. Al Jazeera’ye göre Trump, Truth Social’daki paylaşımında konuya “çok zaman” ayırdığını ve Ukrayna ile barış anlaşmasının “güçlü bir olasılık” olduğunu yazdı."
+                },
+                {
+                  "quote": "Her ay binlerce insan öldürülüyor, TAM BİR KAN GÖLÜ.",
+                  "speaker": "Donald Trump, ABD Başkanı",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "Trump, NATO Genel Sekreteri Mark Rutte’yi çarşamba gecesi Florida’daki Mar-a-Lago kulübünde görüşmeler hakkında bilgilendirdiğini söyledi. France 24’e göre ikili, Rusya’yı savaşı genişletmemeye çağıran ortak bir açıklama yaptı."
+                }
+              ]
+            },
+            {
+              "subhead": "Zelenski: ‘Dost olamaz’",
+              "blocks": [
+                {
+                  "text": "Ukrayna Devlet Başkanı Volodimir Zelenski, Kiev’de BBC’ye verdiği röportajda Trump’ın Putin’le sarıldığı bir fotoğrafı “dostum” diyerek paylaşmasını “tuhaf” bulduğunu söyledi. ABD’nin Patriot hava savunma füzelerini geciktirmesinin Ukraynalıların hayatına mal olduğunu, ABD’nin Orta Doğu’ya fazla odaklandığını ve barış görüşmelerinde Rusya’yı yeterince zorlamadığını belirtti."
+                },
+                {
+                  "quote": "O bir saldırgan ve bir katil… Dost olamaz. Asla olamaz.",
+                  "speaker": "Volodimir Zelenski, Ukrayna Devlet Başkanı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre bu ay Abu Dabi’de yapılan son tur görüşmelerden belirgin bir ilerleme çıkmadı. Zelenski, Ukrayna kuvvetlerinin Rusya’nın en hızlı İHA’larının yaklaşık yüzde 70’ini düşürebildiğini, ancak balistik füzelere karşı önleyici füzelerde “çok çok büyük” bir açık olduğunu söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "İki taraftan saldırılar",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ye göre Zelenski her akşamki video mesajında Rusya’nın önümüzdeki günlerde yeni bir büyük saldırı hazırladığı uyarısını yaptı. Belediye Başkanı Vitali Kliçko’ya göre Rus balistik füzeleri gece Kiev’i vurdu, yedi kişi yaralandı ve bir alışveriş merkezi isabet aldı. Ukrayna, İHA’larının Rusya’nın Krasnodar bölgesindeki bir petrol rafinerisini ve Volgograd bölgesindeki bir askeri havalimanını vurduğunu açıkladı; bu hafta Libya açıklarında Rus korveti Merkury’ye deniz İHA’larıyla saldırmıştı. Zelenski BBC’ye savaş gemisinin “tamamen meşru bir hedef” olduğunu söyledi."
+                },
+                {
+                  "text": "Brüksel’de AB liderleri Ukrayna’nın gelecek yılki ihtiyaçları için 45 milyar avroluk yeni bir kredi üzerinde uzlaşmakta zorlanıyor. Al Jazeera’ye göre Avrupa Konseyi Başkanı António Costa cuma sabahı 24 üye ülkenin krediyi desteklediğini söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Kiev saldırısında yaralanan",
+              "value": "7",
+              "source": "Vitali Kliçko, Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "Önerilen yeni AB kredisi",
+              "value": "45 milyar €",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Krediyi destekleyen AB ülkesi",
+              "value": "24",
+              "source": "António Costa, Al Jazeera aracılığıyla"
+            },
+            {
+              "label": "Düşürülen hızlı Rus İHA’ları",
+              "value": "yaklaşık %70",
+              "source": "Volodimir Zelenski, BBC aracılığıyla"
+            }
+          ],
+          "place": {
+            "name": "Kiev",
+            "lat": 50.45,
+            "lon": 30.52,
+            "region": "Ukrayna"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T20:10:34.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T22:06:20.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T22:06:20.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T02:14:25.000Z",
+          "sourceId": "al-jazeera"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "070fa6bfc84f4bc9",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "NZ coalition one seat short",
+          "title": "New Zealand’s ruling coalition falls one seat short after final count",
+          "summary": {
+            "what": "Final results show Christopher Luxon’s National-led coalition has 65 of 130 seats, one short of a majority, after special votes cost National two seats.",
+            "why": "Luxon now needs the centrist Opportunity party, which he had once ruled out working with, or New Zealand may have to vote again.",
+            "next": "National has begun formal talks; recount applications are due by 3 December."
+          },
+          "body": [
+            {
+              "subhead": "Special votes tip the balance",
+              "blocks": [
+                {
+                  "text": "New Zealand’s ruling right-wing coalition has fallen one seat short of a majority, final election results released on Friday show. The Electoral Commission counted nearly 485,000 “special votes”, cast from overseas or outside a voter’s electorate, and National dropped two seats to 40, The Guardian reported. Its partners Act and New Zealand First won 13 and 12, giving the bloc 65 seats in the 130-seat parliament, where 66 are needed to govern."
+                },
+                {
+                  "text": "Labour stayed on 36 seats, the Greens rose to 17, the centrist Opportunity party won seven and Te Pāti Māori five. Preliminary results on 7 November had given the coalition a slim two-seat majority. The BBC said a Labour-led government is not possible, as that bloc would lack the seats even with Opportunity’s support."
+                }
+              ]
+            },
+            {
+              "subhead": "Opportunity as kingmaker",
+              "blocks": [
+                {
+                  "text": "Prime Minister Christopher Luxon, who had once ruled out working with Opportunity, said National would begin formal negotiations with New Zealand First, Act and Opportunity, and cautioned that the talks would be “challenging”."
+                },
+                {
+                  "quote": "Getting it right matters far more than getting it done quickly.",
+                  "speaker": "Christopher Luxon, prime minister",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "Opportunity’s leader, Auckland businesswoman Qiulae Wong, said her party’s bottom lines were non-negotiable, The Guardian reported. They include action on the supermarket duopoly, capping political donations, a 10-year cross-party plan for health, ending bottom trawling and stronger climate commitments. Wong also said she would not strike a deal if New Zealand First leader Winston Peters became foreign minister again."
+                }
+              ]
+            },
+            {
+              "subhead": "A recount could change it",
+              "blocks": [
+                {
+                  "text": "Three electorate seats changed hands on special votes. Labour won Wairarapa from National by 81 votes and Hamilton East by 173, and the Greens took Wellington Bays from Labour, The Guardian reported. If National wins back one seat in a recount, it could govern without Opportunity. Applications must be made by 3 December, and results could take another five days."
+                },
+                {
+                  "text": "Labour leader Chris Hipkins said his party had won the popular vote but lacked negotiating power, the BBC reported. It is his second election defeat, and he said a decision on his leadership would come after a government is formed."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "National-led bloc",
+              "value": "65 seats",
+              "source": "Electoral Commission, via The Guardian"
+            },
+            {
+              "label": "Seats needed for a majority",
+              "value": "66",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Special votes counted",
+              "value": "about 485,000",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Opportunity party seats",
+              "value": "7",
+              "source": "BBC"
+            },
+            {
+              "label": "Recount deadline",
+              "value": "3 Dec",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "National party seats",
+            "unit": "seats",
+            "before": 42,
+            "after": 40,
+            "source": "The Guardian"
+          }
+        },
+        "tr": {
+          "shortTitle": "Yeni Zelanda’da koalisyona bir sandalye eksik",
+          "title": "Yeni Zelanda’da kesin sonuçlar: İktidar koalisyonu çoğunluğa bir sandalye uzak",
+          "summary": {
+            "what": "Kesin sonuçlara göre Christopher Luxon’un Ulusal Parti liderliğindeki koalisyonu 130 sandalyenin 65’ini aldı; özel oylar Ulusal Parti’ye iki sandalye kaybettirdi.",
+            "why": "Luxon artık bir zamanlar birlikte çalışmayı reddettiği merkezci Opportunity partisine muhtaç; anlaşma olmazsa ülke yeniden sandığa gidebilir.",
+            "next": "Ulusal Parti resmi görüşmelere başladı; yeniden sayım başvuruları 3 Aralık’a kadar yapılabilecek."
+          },
+          "body": [
+            {
+              "subhead": "Özel oylar dengeyi değiştirdi",
+              "blocks": [
+                {
+                  "text": "Cuma günü açıklanan kesin seçim sonuçlarına göre Yeni Zelanda’daki sağcı iktidar koalisyonu çoğunluğa bir sandalye uzak kaldı. The Guardian’ın haberine göre Seçim Komisyonu, yurt dışından ya da seçmenin kayıtlı olduğu bölge dışından kullanılan yaklaşık 485 bin “özel oyu” saydı ve Ulusal Parti iki sandalye kaybederek 40’a düştü. Ortakları Act 13, New Zealand First 12 sandalye aldı; böylece blok, hükümet kurmak için 66 sandalyenin gerektiği 130 sandalyeli parlamentoda 65’te kaldı."
+                },
+                {
+                  "text": "İşçi Partisi 36’da kalırken Yeşiller 17’ye yükseldi, merkezci Opportunity yedi, Te Pāti Māori beş sandalye kazandı. 7 Kasım’daki ön sonuçlar koalisyona iki sandalyelik dar bir çoğunluk vermişti. BBC’ye göre İşçi Partisi liderliğinde bir hükümet mümkün değil; bu blok Opportunity’nin desteğini alsa bile yeterli sandalyeye ulaşamıyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Anahtar Opportunity’de",
+              "blocks": [
+                {
+                  "text": "Bir zamanlar Opportunity ile çalışmayı reddeden Başbakan Christopher Luxon, Ulusal Parti’nin New Zealand First, Act ve Opportunity ile resmi görüşmelere başlayacağını söyledi ve müzakerelerin “zorlu” geçeceği uyarısında bulundu."
+                },
+                {
+                  "quote": "Doğru yapmak, hızlı yapmaktan çok daha önemli.",
+                  "speaker": "Christopher Luxon, Başbakan",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "The Guardian’a göre Opportunity’nin lideri, Aucklandlı iş insanı Qiulae Wong, partisinin kırmızı çizgilerinin pazarlığa açık olmadığını söyledi. Bunlar arasında süpermarket duopolüne karşı adım, siyasi bağışlara üst sınır, sağlık için partiler üstü 10 yıllık plan, dip trolünün yasaklanması ve daha güçlü iklim taahhütleri var. Wong, New Zealand First lideri Winston Peters yeniden dışişleri bakanı olursa anlaşma yapmayacağını da söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Yeniden sayım tabloyu değiştirebilir",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre özel oylarla üç seçim bölgesi el değiştirdi: İşçi Partisi Wairarapa’yı Ulusal Parti’den 81, Hamilton East’i 173 oy farkla aldı; Yeşiller de Wellington Bays’i İşçi Partisi’nden kazandı. Ulusal Parti yeniden sayımda bir sandalyeyi geri alırsa Opportunity olmadan da hükümet kurabilir. Başvurular 3 Aralık’a kadar yapılabilecek, sonuçlar beş gün daha sürebilir."
+                },
+                {
+                  "text": "BBC’ye göre İşçi Partisi lideri Chris Hipkins, oyların çoğunu almalarına rağmen pazarlık gücü olmadığını kabul etti. Hipkins için bu ikinci seçim yenilgisi; liderliğine ilişkin kararın hükümet kurulduktan sonra verileceğini söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ulusal Parti liderliğindeki blok",
+              "value": "65 sandalye",
+              "source": "Seçim Komisyonu, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Çoğunluk için gereken",
+              "value": "66",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Sayılan özel oy",
+              "value": "yaklaşık 485 bin",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Opportunity’nin sandalyesi",
+              "value": "7",
+              "source": "BBC"
+            },
+            {
+              "label": "Yeniden sayım için son gün",
+              "value": "3 Aralık",
+              "source": "The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "Ulusal Parti’nin sandalyesi",
+            "unit": "sandalye",
+            "before": 42,
+            "after": 40,
+            "source": "The Guardian"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T02:38:15.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T03:28:15.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T03:28:15.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    },
+    {
+      "id": "8e8186fcfbf5bc93",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Trump calls GDP figures ‘fake’",
+          "title": "Trump calls pre-election GDP figures ‘fake’ and demands an investigation",
+          "summary": {
+            "what": "Donald Trump said, without evidence, that growth figures published before the midterms were “fake” and called for an investigation of his own Commerce Department.",
+            "why": "Revisions to economic data are routine, but Trump has repeatedly tried to undermine figures that do not match his claim of a historic boom.",
+            "next": "The Bureau of Economic Analysis, which compiles GDP, had not responded publicly in the reports."
+          },
+          "body": [
+            {
+              "subhead": "A Thanksgiving accusation",
+              "blocks": [
+                {
+                  "text": "US President Donald Trump has alleged, without providing evidence, that economic figures published by the federal government before this month’s midterm elections were “fake”, and demanded an investigation, The Guardian reported. The South China Morning Post said he accused his own Commerce Department of purposely issuing incorrect growth figures before the vote."
+                },
+                {
+                  "text": "In a Thanksgiving message on Truth Social, Trump wished a happy holiday “to even those who issued fake Economic Numbers, just prior to the Election, and corrected them yesterday, three weeks late, showing that the GDP was actually 4.3%, versus 3.4%”."
+                },
+                {
+                  "quote": "This is not a small error, this is a massive, and purposeful, error.",
+                  "speaker": "Donald Trump, US president",
+                  "sourceId": "guardian-world"
+                }
+              ]
+            },
+            {
+              "subhead": "Who makes the numbers",
+              "blocks": [
+                {
+                  "text": "Gross domestic product is calculated by the Bureau of Economic Analysis (BEA), an agency within the Commerce Department. The Guardian noted that revisions to official economic figures are commonplace, and that Trump has tried time and again to challenge trust in data that does not support his claim that a historic boom is under way."
+                },
+                {
+                  "text": "“Why wasn’t the correct number issued before the Election? I am asking for an immediate investigation of this situation,” Trump wrote. He has claimed since taking office in January 2025 that an economic “golden age” is taking hold. Many Americans, however, have been grappling with a higher cost of living, worsened by the economic fallout of the war on Iran, and backed Democrats in the midterms, The Guardian said."
+                }
+              ]
+            },
+            {
+              "subhead": "After the midterm defeat",
+              "blocks": [
+                {
+                  "text": "The post came after a wave of Democratic wins unseated Republicans. Trump also used it to attack opponents who, he said, want to “redistribute Property”, and to defend his renovations at the White House, listing “17 broken windows” and decaying columns he said he had fixed."
+                },
+                {
+                  "text": "Democratic leaders struck a more conventional tone. Chuck Schumer, who is seeking to become Senate majority leader, wished Americans “a joyous and restful Thanksgiving”, and Hakeem Jeffries, nominated by Democrats to be the first Black speaker of the House, thanked civil servants working through the stormy weather."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Growth figure before the vote",
+              "value": "3.4%",
+              "source": "Donald Trump, via The Guardian"
+            },
+            {
+              "label": "Corrected figure",
+              "value": "4.3%",
+              "source": "Donald Trump, via The Guardian"
+            },
+            {
+              "label": "Delay Trump alleges",
+              "value": "3 weeks",
+              "source": "Donald Trump, via The Guardian"
+            }
+          ],
+          "keyNumber": {
+            "label": "GDP growth, as Trump cites it",
+            "unit": "%",
+            "before": 3.4,
+            "after": 4.3,
+            "source": "Donald Trump on Truth Social, via The Guardian"
+          },
+          "place": {
+            "name": "Washington",
+            "lat": 38.9,
+            "lon": -77.04,
+            "region": "United States"
+          }
+        },
+        "tr": {
+          "shortTitle": "Trump büyüme verilerine ‘sahte’ dedi",
+          "title": "Trump seçim öncesi büyüme verilerine ‘sahte’ dedi, soruşturma istedi",
+          "summary": {
+            "what": "Donald Trump, ara seçimler öncesinde açıklanan büyüme verilerinin “sahte” olduğunu kanıt göstermeden öne sürdü ve kendi Ticaret Bakanlığı hakkında soruşturma istedi.",
+            "why": "Ekonomik verilerin revize edilmesi olağan bir şey, ancak Trump tarihi bir patlama yaşandığı iddiasıyla örtüşmeyen verilere duyulan güveni defalarca sarsmaya çalıştı.",
+            "next": "GSYH’yi hesaplayan Ekonomik Analiz Bürosu’nun haberlerde kamuoyuna yaptığı bir açıklama yer almadı."
+          },
+          "body": [
+            {
+              "subhead": "Şükran Günü’nde suçlama",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın haberine göre ABD Başkanı Donald Trump, bu ayki ara seçimler öncesinde federal hükümetin yayımladığı ekonomik verilerin “sahte” olduğunu kanıt sunmadan öne sürdü ve soruşturma açılmasını istedi. South China Morning Post, Trump’ın kendi Ticaret Bakanlığı’nı seçim öncesinde bilerek yanlış büyüme rakamları yayımlamakla suçladığını yazdı."
+                },
+                {
+                  "text": "Trump, Truth Social’daki Şükran Günü mesajında “Seçimden hemen önce sahte Ekonomik Rakamlar yayımlayan ve bunları dün, üç hafta gecikmeyle düzelterek GSYH’nin aslında %3,4 değil %4,3 olduğunu gösterenlere bile” iyi bayramlar diledi."
+                },
+                {
+                  "quote": "Bu küçük bir hata değil, bu devasa ve kasıtlı bir hata.",
+                  "speaker": "Donald Trump, ABD Başkanı",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Rakamları kim hesaplıyor",
+              "blocks": [
+                {
+                  "text": "Gayri safi yurt içi hasıla (GSYH), Ticaret Bakanlığı’na bağlı Ekonomik Analiz Bürosu (BEA) tarafından hesaplanıyor. The Guardian, resmi ekonomik verilerin revize edilmesinin olağan olduğunu ve Trump’ın tarihi bir ekonomik patlama yaşandığı iddiasını desteklemeyen verilere duyulan güveni defalarca sarsmaya çalıştığını hatırlattı."
+                },
+                {
+                  "text": "Trump, “Doğru rakam neden seçimden önce açıklanmadı? Bu durumla ilgili derhal soruşturma açılmasını istiyorum” diye yazdı. Ocak 2025’te göreve geldiğinden beri ekonomide bir “altın çağ” başladığını savunuyor. The Guardian’a göre ise pek çok Amerikalı, İran savaşının ekonomik etkileriyle ağırlaşan hayat pahalılığıyla boğuşuyor ve ara seçimlerde Demokratları destekledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Ara seçim yenilgisinin ardından",
+              "blocks": [
+                {
+                  "text": "Paylaşım, Demokratların Cumhuriyetçileri koltuklarından eden seçim zaferlerinin ardından geldi. Trump mesajında “Mülkü yeniden dağıtmak” istediğini söylediği rakiplerine de yüklendi ve Beyaz Saray’daki tadilatlarını savundu; onardığını söylediği “17 kırık pencereyi” ve çürümüş sütunları sıraladı."
+                },
+                {
+                  "text": "Demokrat liderler daha alışılmış bir dil kullandı. Senato çoğunluk lideri olmaya aday Chuck Schumer Amerikalılara “neşeli ve dinlendirici bir Şükran Günü” diledi. Demokratların Temsilciler Meclisi’nin ilk siyahi başkanı olarak aday gösterdiği Hakeem Jeffries de fırtınalı havada görev başında olan kamu çalışanlarına teşekkür etti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Seçim öncesi büyüme verisi",
+              "value": "%3,4",
+              "source": "Donald Trump, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Düzeltilmiş veri",
+              "value": "%4,3",
+              "source": "Donald Trump, The Guardian aracılığıyla"
+            },
+            {
+              "label": "Trump’ın iddia ettiği gecikme",
+              "value": "3 hafta",
+              "source": "Donald Trump, The Guardian aracılığıyla"
+            }
+          ],
+          "keyNumber": {
+            "label": "Trump’ın aktardığı GSYH büyümesi",
+            "unit": "%",
+            "before": 3.4,
+            "after": 4.3,
+            "source": "Donald Trump, Truth Social, The Guardian aracılığıyla"
+          },
+          "place": {
+            "name": "Washington",
+            "lat": 38.9,
+            "lon": -77.04,
+            "region": "ABD"
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-26T17:06:51.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-26T19:41:37.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-26T19:41:37.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-27T07:30:00+03:00",
+      "updatedAt": "2026-11-27T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "4f6ec4a452a57398",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "In which Georgian city did Beşiktaş play Hapoel Beer-Sheva?",
+          "options": ["Tbilisi", "Batumi", "Kutaisi"]
+        },
+        "tr": {
+          "question": "Beşiktaş, Hapoel Beer-Sheva ile Gürcistan’ın hangi kentinde oynadı?",
+          "options": ["Tiflis", "Batum", "Kutaisi"]
+        }
+      }
+    },
+    {
+      "storyId": "ad78321ace868025",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "By when must Android developers tell Google whether they are a “trader”?",
+          "options": ["1 March 2027", "1 January 2027", "1 February 2027"]
+        },
+        "tr": {
+          "question": "Android geliştiricileri “tacir” olup olmadıklarını Google’a en geç ne zaman bildirmeli?",
+          "options": ["1 Mart 2027", "1 Ocak 2027", "1 Şubat 2027"]
+        }
+      }
+    },
+    {
+      "storyId": "070fa6bfc84f4bc9",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many seats does New Zealand’s National-led bloc hold after the final count?",
+          "options": ["65", "66", "70"]
+        },
+        "tr": {
+          "question": "Kesin sonuçlara göre Yeni Zelanda’da Ulusal Parti liderliğindeki blok kaç sandalyeye sahip?",
+          "options": ["65", "66", "70"]
+        }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909328",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-28T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909328"
+      }
+    }
+  ]
+}
