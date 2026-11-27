@@ -10,6 +10,7 @@
 import { storyIn } from '@cspnews/core';
 import { GAME_LANGUAGES, MAX_TRIES, WORD_LENGTH, gameDayAt, type GameLanguage } from '@cspnews/wordgame';
 
+import GameSwitch from '../GameSwitch.astro';
 import Header from '../Header.astro';
 import Icon from '../ui/Icon.astro';
 import Base from '../../layouts/Base.astro';
@@ -45,6 +46,8 @@ const tiles = Array.from({ length: WORD_LENGTH }, (_, index) => index);
 >
   <div class="wg" data-word-game data-lang={lang} data-window={JSON.stringify(days)}>
     <Header lang={lang} bulletinName={words.name} />
+
+    <div class="wg-games"><GameSwitch lang={lang} current="word" /></div>
 
     <div class="wg-top">
       <nav class="wg-langs" aria-label={words.languages}>

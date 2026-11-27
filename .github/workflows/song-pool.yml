@@ -11,8 +11,6 @@ on:
     branches-ignore: [main, candidates]
     paths:
       - 'packages/songgame/data/picks/**'
-      - 'packages/songgame/scripts/resolve-songs.mjs'
-      - '.github/workflows/song-pool.yml'
   workflow_dispatch:
 
 permissions:
@@ -41,7 +39,7 @@ jobs:
           curl -sI -H 'Origin: https://www.cspnews.app' "$URL" | grep -iE '^(HTTP|access-control|content-type|cache-control|expires)'
 
       - name: Find the songs
-        run: node packages/songgame/scripts/resolve-songs.mjs
+        run: node packages/songgame/scripts/resolve-songs.js
 
       - name: Commit the songs
         run: |

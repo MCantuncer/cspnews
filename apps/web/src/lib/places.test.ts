@@ -12,11 +12,13 @@ describe('places', () => {
     expect(currentPlace('/tr/music.html')).toBe('music');
     expect(currentPlace('/word')).toBe('word');
     expect(currentPlace('/word/tr')).toBe('word');
+    expect(currentPlace('/song')).toBe('word');
+    expect(currentPlace('/tr/song')).toBe('word');
     expect(currentPlace('/tr/settings')).toBe('news');
   });
 
   it('links each place in the reader language', () => {
     expect(placeLinks('tr').map((place) => place.href)).toEqual(['/tr', '/tr/music', '/word/tr']);
-    expect(placeLinks('en').map((place) => place.label)).toEqual(['News', 'Music', 'Word']);
+    expect(placeLinks('en').map((place) => place.label)).toEqual(['News', 'Music', 'Games']);
   });
 });

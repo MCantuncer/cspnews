@@ -1,6 +1,7 @@
+/* global Buffer, URL, console, fetch, process, setTimeout */
 // Finds each hand-picked song's 30-second Apple preview and a clean starting point for the clips.
 //
-//   node packages/songgame/scripts/resolve-songs.mjs
+//   node packages/songgame/scripts/resolve-songs.js
 //
 // Reads data/picks/<genre>.txt ("Artist | Title" per line) and writes data/songs/<genre>.json in
 // play order: songs already in the file keep their place, so a published day never changes its
@@ -93,9 +94,17 @@ function loudness(file) {
   const output = execFileSync(
     'ffmpeg',
     [
-      '-hide_banner', '-nostats', '-i', file, '-ac', '1', '-af',
+      '-hide_banner',
+      '-nostats',
+      '-i',
+      file,
+      '-ac',
+      '1',
+      '-af',
       'aresample=22050,asetnsamples=n=1102:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level:file=-',
-      '-f', 'null', '-',
+      '-f',
+      'null',
+      '-',
     ],
     { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] },
   );
@@ -198,7 +207,10 @@ async function main() {
     const songs = [...kept, ...shuffled(fresh, `cspnews-song-${genre}-${String(kept.length)}`)];
     writeFileSync(file, `${JSON.stringify(songs, null, 2)}\n`);
     for (const song of songs) {
-      catalog.set(plain(`${song.artist} ${song.title}`), { artist: song.artist, title: song.title });
+      catalog.set(plain(`${song.artist} ${song.title}`), {
+        artist: song.artist,
+        title: song.title,
+      });
     }
   }
 
@@ -219,8 +231,13 @@ async function main() {
     `${a.artist} ${a.title}`.localeCompare(`${b.artist} ${b.title}`, 'tr'),
   );
   writeFileSync(join(ROOT, 'songs', 'catalog.json'), `${JSON.stringify(sortedCatalog)}\n`);
-  writeFileSync(join(ROOT, 'songs', 'missing.txt'), missing.length ? `${missing.join('\n')}\n` : '');
-  console.log(`\n${String(missing.length)} missing, ${String(sortedCatalog.length)} names in the catalog`);
+  writeFileSync(
+    join(ROOT, 'songs', 'missing.txt'),
+    missing.length ? `${missing.join('\n')}\n` : '',
+  );
+  console.log(
+    `\n${String(missing.length)} missing, ${String(sortedCatalog.length)} names in the catalog`,
+  );
 }
 
 if (process.argv[1] === new URL(import.meta.url).pathname) await main();
