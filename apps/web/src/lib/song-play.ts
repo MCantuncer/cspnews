@@ -44,6 +44,7 @@ import {
   type WindowSet,
 } from './song';
 import { loadClip, type Clip } from './song-audio';
+import { mountSongBoard } from './song-board';
 import { countdown, msUntilNextWord, puzzleDate } from './word';
 
 /** A name the guess box can offer, with its cover's path on Apple's image server when known. */
@@ -631,6 +632,9 @@ export function startSongGame(root: HTMLElement): void {
     const head = element('p', 'sg-score');
     head.append(element('b', undefined, String(points)), element('span', undefined, words.total));
     body.append(head, element('p', 'sg-score-line', scoreLineFor(points, lang)));
+    const board = element('section', 'sb');
+    board.hidden = true;
+    body.append(board);
 
     const rows = element('ol', 'sg-result-rounds');
     GENRES.forEach((genre, index) => {
@@ -707,6 +711,12 @@ export function startSongGame(root: HTMLElement): void {
 
     result.replaceChildren(body);
     result.hidden = false;
+    mountSongBoard(board, {
+      lang,
+      day: daySet.day,
+      rounds,
+      answers,
+    });
     stage.hidden = true;
     if (fresh) window.scrollTo({ top: 0, behavior: 'smooth' });
     renderRounds();

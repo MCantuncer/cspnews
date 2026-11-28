@@ -11,8 +11,12 @@
   "workers_dev": false,
   "preview_urls": false,
   "routes": [{ "pattern": "live.cspnews.app", "custom_domain": true }],
+  // The Daily Song board: one SQLite-backed Durable Object per game day (src/board.ts). Deploying
+  // creates it; there is no database to set up.
+  "durable_objects": { "bindings": [{ "name": "SONG_BOARD", "class_name": "SongBoard" }] },
+  "migrations": [{ "tag": "song-board-1", "new_sqlite_classes": ["SongBoard"] }],
   "vars": {
-    // Pages that may read the scores, comma-separated.
+    // Pages that may read the scores and the song board, comma-separated.
     "ALLOWED_ORIGINS": "https://www.cspnews.app,https://cspnews.app,http://localhost:4321",
   },
 }

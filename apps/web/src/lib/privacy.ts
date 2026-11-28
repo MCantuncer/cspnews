@@ -35,7 +35,7 @@ export interface PrivacyText {
 }
 
 /** When the text last changed in substance. Update it with the text. */
-export const PRIVACY_UPDATED = '2026-11-15';
+export const PRIVACY_UPDATED = '2026-11-28';
 
 const TEXT: Record<InterfaceLanguage, PrivacyText> = {
   en: {
@@ -48,6 +48,7 @@ const TEXT: Record<InterfaceLanguage, PrivacyText> = {
       'No analytics, no ad trackers and no third-party scripts. Fonts, photos and logos are served from this site.',
       'While a page is open, your browser asks GitHub for one small file, the Hot News feed. GitHub sees your IP address and the page that asked, nothing else about you.',
       'Your settings, the stories you have read and your word game results are kept in your own browser (local storage). They never leave it unless you sign in.',
+      'If you put a name on the Daily Song board, we keep that name, your score and a scrambled (hashed) copy of your network address mixed with the day, only to stop one network filling the board. Each day has its own board.',
       'The site is hosted by Vercel. Like any web host, it handles your IP address to send you the pages. We do not keep logs of it.',
     ],
     accountHeading: 'If you sign in',
@@ -141,6 +142,7 @@ const TEXT: Record<InterfaceLanguage, PrivacyText> = {
       'Analitik yok, reklam izleyicisi yok, üçüncü taraf betik yok. Yazı tipleri, fotoğraflar ve logolar bu siteden gelir.',
       'Bir sayfa açıkken tarayıcın GitHub’dan tek bir küçük dosya ister: Son dakika akışı. GitHub IP adresini ve isteği yapan sayfayı görür, senin hakkında başka bir şey görmez.',
       'Ayarların, okuduğun haberler ve kelime oyunu sonuçların kendi tarayıcında (yerel depolama) tutulur. Giriş yapmadıkça tarayıcından çıkmaz.',
+      'Günün Şarkısı listesine bir isim eklersen o ismi, puanını ve ağ adresinin günle karıştırılmış (hash) bir kopyasını tutarız; bu yalnızca tek bir ağın listeyi doldurmasını önlemek için. Her günün listesi ayrıdır.',
       'Site Vercel’de barınır. Her web sunucusu gibi Vercel de sayfaları sana gönderebilmek için IP adresini işler. Biz bunun kaydını tutmayız.',
     ],
     accountHeading: 'Giriş yaparsan',

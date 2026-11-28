@@ -8,7 +8,8 @@
       "source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
-    }
+    },
+    "./data/songs/*.json": "./data/songs/*.json"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
