@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "readAt": "2026-11-28T14:12:12Z",
+  "readAt": "2026-11-28T14:21:17Z",
   "genres": {
     "global": [
       {
@@ -23,9 +23,9 @@
           {
             "source": "apple",
             "metric": "rank",
-            "value": 71,
+            "value": 69,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -33,7 +33,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -41,7 +41,7 @@
             "metric": "rank",
             "value": 21,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -51,7 +51,7 @@
           "new on Apple Music Türkiye Hip-Hop/Rap today",
           "out 8 days ago"
         ],
-        "score": 2.48
+        "score": 2.49
       },
       {
         "key": "bigxthaplug-hell-at-night",
@@ -80,7 +80,7 @@
             "metric": "rank",
             "value": 161,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -88,7 +88,7 @@
             "metric": "plays",
             "value": 268648,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -96,7 +96,7 @@
             "metric": "rankBefore",
             "value": 130,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -105,7 +105,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -113,7 +113,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -121,7 +121,7 @@
             "metric": "rankBefore",
             "value": 1,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
@@ -130,7 +130,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -138,7 +138,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -146,7 +146,7 @@
             "metric": "rankBefore",
             "value": 1,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -155,7 +155,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -186,7 +186,7 @@
             "metric": "rank",
             "value": 95,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -194,7 +194,7 @@
             "metric": "plays",
             "value": 1377330,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -202,7 +202,7 @@
             "metric": "rankBefore",
             "value": 91,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
@@ -211,7 +211,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -219,7 +219,7 @@
             "metric": "rank",
             "value": 17,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -227,7 +227,7 @@
             "metric": "rankBefore",
             "value": 17,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
@@ -236,7 +236,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -244,7 +244,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -252,7 +252,7 @@
             "metric": "rankBefore",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -261,7 +261,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -294,7 +294,7 @@
             "metric": "rank",
             "value": 71,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -302,7 +302,7 @@
             "metric": "plays",
             "value": 359012,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -310,7 +310,7 @@
             "metric": "rankBefore",
             "value": 60,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -319,15 +319,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 11,
+            "value": 12,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -335,7 +335,7 @@
             "metric": "rankBefore",
             "value": 9,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
@@ -344,7 +344,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -352,7 +352,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -360,7 +360,7 @@
             "metric": "rankBefore",
             "value": 9,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -369,12 +369,12 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
         "notes": [],
-        "score": 1.67,
+        "score": 1.66,
         "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/d7/d1/c6d7d1ec-84e6-ef8a-e02a-70d0ebb556be/mzaf_12941739828801829931.plus.aac.p.m4a"
       },
       {
@@ -402,7 +402,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -410,7 +410,7 @@
             "metric": "rankBefore",
             "value": 4,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
@@ -419,7 +419,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -427,7 +427,7 @@
             "metric": "rank",
             "value": 49,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -435,7 +435,7 @@
             "metric": "rank",
             "value": 50,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -443,7 +443,7 @@
             "metric": "rankBefore",
             "value": 44,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -452,7 +452,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -485,7 +485,7 @@
             "metric": "rank",
             "value": 55,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -493,7 +493,7 @@
             "metric": "plays",
             "value": 1693089,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -501,7 +501,7 @@
             "metric": "rankBefore",
             "value": 52,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
@@ -510,7 +510,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -518,7 +518,7 @@
             "metric": "rank",
             "value": 55,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -526,7 +526,7 @@
             "metric": "plays",
             "value": 412921,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -534,7 +534,7 @@
             "metric": "rankBefore",
             "value": 45,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -543,7 +543,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -551,7 +551,7 @@
             "metric": "rank",
             "value": 12,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -559,7 +559,7 @@
             "metric": "rankBefore",
             "value": 13,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -568,7 +568,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -600,7 +600,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -632,7 +632,7 @@
             "metric": "rank",
             "value": 15,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -664,7 +664,7 @@
             "metric": "rank",
             "value": 24,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -672,7 +672,7 @@
             "metric": "rankBefore",
             "value": 46,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -681,7 +681,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -715,7 +715,7 @@
             "metric": "rank",
             "value": 19,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -723,7 +723,7 @@
             "metric": "rankBefore",
             "value": 36,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -732,7 +732,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -769,7 +769,7 @@
             "metric": "rank",
             "value": 23,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -777,7 +777,7 @@
             "metric": "rankBefore",
             "value": 6,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
@@ -786,7 +786,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -794,7 +794,7 @@
             "metric": "rank",
             "value": 7,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -802,7 +802,7 @@
             "metric": "rankBefore",
             "value": 10,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -811,7 +811,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -840,7 +840,7 @@
             "metric": "rank",
             "value": 29,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -848,7 +848,7 @@
             "metric": "rankBefore",
             "value": 53,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -857,7 +857,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -886,7 +886,7 @@
             "metric": "rank",
             "value": 30,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -894,7 +894,7 @@
             "metric": "rankBefore",
             "value": 89,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -903,7 +903,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -934,7 +934,7 @@
             "metric": "rank",
             "value": 33,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -942,7 +942,7 @@
             "metric": "rankBefore",
             "value": 57,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -951,7 +951,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -983,7 +983,7 @@
             "metric": "rank",
             "value": 18,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -991,7 +991,7 @@
             "metric": "rankBefore",
             "value": 31,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1000,7 +1000,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1029,7 +1029,7 @@
             "metric": "rank",
             "value": 31,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1037,7 +1037,7 @@
             "metric": "rankBefore",
             "value": 49,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1046,7 +1046,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1078,7 +1078,7 @@
             "metric": "rank",
             "value": 79,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -1086,7 +1086,7 @@
             "metric": "plays",
             "value": 1511935,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -1094,7 +1094,7 @@
             "metric": "rankBefore",
             "value": 79,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
@@ -1103,7 +1103,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Global daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/global_daily.html"
           },
           {
@@ -1111,7 +1111,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1119,7 +1119,7 @@
             "metric": "rankBefore",
             "value": 2,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1128,7 +1128,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1160,7 +1160,7 @@
             "metric": "rank",
             "value": 35,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1168,7 +1168,7 @@
             "metric": "rankBefore",
             "value": 54,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1177,7 +1177,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1209,7 +1209,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1217,7 +1217,7 @@
             "metric": "rankBefore",
             "value": 8,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1226,7 +1226,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1257,7 +1257,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1265,7 +1265,7 @@
             "metric": "rankBefore",
             "value": 14,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1274,7 +1274,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1308,7 +1308,7 @@
             "metric": "rank",
             "value": 46,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1316,7 +1316,7 @@
             "metric": "rankBefore",
             "value": 77,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1325,7 +1325,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1359,7 +1359,7 @@
             "metric": "rank",
             "value": 47,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1367,7 +1367,7 @@
             "metric": "rankBefore",
             "value": 67,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1376,7 +1376,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1413,7 +1413,7 @@
             "metric": "rank",
             "value": 5,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -1421,7 +1421,7 @@
             "metric": "rankBefore",
             "value": 18,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
@@ -1430,7 +1430,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -1438,7 +1438,7 @@
             "metric": "rank",
             "value": 77,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1446,7 +1446,7 @@
             "metric": "rankBefore",
             "value": 43,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1455,7 +1455,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1487,7 +1487,7 @@
             "metric": "rank",
             "value": 49,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1495,7 +1495,7 @@
             "metric": "rankBefore",
             "value": 79,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1504,7 +1504,7 @@
             "metric": "daysOnChart",
             "value": 2,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1538,7 +1538,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1546,7 +1546,7 @@
             "metric": "rankBefore",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1555,7 +1555,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1587,7 +1587,7 @@
             "metric": "rank",
             "value": 44,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1595,7 +1595,7 @@
             "metric": "rankBefore",
             "value": 60,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1604,7 +1604,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1639,7 +1639,7 @@
             "metric": "rank",
             "value": 175,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1647,7 +1647,7 @@
             "metric": "plays",
             "value": 261794,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1655,7 +1655,7 @@
             "metric": "rankBefore",
             "value": 162,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -1664,7 +1664,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1672,7 +1672,7 @@
             "metric": "rank",
             "value": 5,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1680,7 +1680,7 @@
             "metric": "rankBefore",
             "value": 5,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1689,7 +1689,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1724,7 +1724,7 @@
             "metric": "rank",
             "value": 157,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1732,7 +1732,7 @@
             "metric": "plays",
             "value": 269900,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1740,7 +1740,7 @@
             "metric": "rankBefore",
             "value": 133,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
@@ -1749,7 +1749,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify US daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/us_daily.html"
           },
           {
@@ -1757,7 +1757,7 @@
             "metric": "rank",
             "value": 95,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -1765,7 +1765,7 @@
             "metric": "rankBefore",
             "value": 63,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
@@ -1774,7 +1774,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music US most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
           },
           {
@@ -1782,7 +1782,7 @@
             "metric": "rank",
             "value": 10,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1790,7 +1790,7 @@
             "metric": "rankBefore",
             "value": 11,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1799,7 +1799,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1829,7 +1829,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1837,7 +1837,7 @@
             "metric": "rankBefore",
             "value": 7,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1846,7 +1846,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1878,7 +1878,7 @@
             "metric": "rank",
             "value": 38,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
           {
@@ -1886,7 +1886,7 @@
             "metric": "rankBefore",
             "value": 50,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           },
@@ -1895,7 +1895,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Deezer Rap/Hip Hop chart",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://api.deezer.com/chart/116/tracks?limit=100"
           }
         ],
@@ -1933,7 +1933,7 @@
             "metric": "rank",
             "value": 56,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1941,7 +1941,7 @@
             "metric": "plays",
             "value": 136498,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -1949,7 +1949,7 @@
             "metric": "rankBefore",
             "value": 110,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -1958,15 +1958,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 14,
+            "value": 15,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1974,7 +1974,7 @@
             "metric": "rankBefore",
             "value": 15,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -1983,7 +1983,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -1991,7 +1991,7 @@
             "metric": "rank",
             "value": 11,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -1999,7 +1999,7 @@
             "metric": "rankBefore",
             "value": 58,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2008,7 +2008,7 @@
             "metric": "daysOnChart",
             "value": 2,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2042,7 +2042,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2050,7 +2050,7 @@
             "metric": "plays",
             "value": 263027,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2058,7 +2058,7 @@
             "metric": "rankBefore",
             "value": 16,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2067,15 +2067,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 27,
+            "value": 28,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2083,7 +2083,7 @@
             "metric": "rankBefore",
             "value": 28,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2092,7 +2092,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2100,7 +2100,7 @@
             "metric": "rank",
             "value": 17,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2108,7 +2108,7 @@
             "metric": "rankBefore",
             "value": 36,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2117,14 +2117,14 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 19 on Apple Music Türkiye Hip-Hop/Rap"
         ],
-        "score": 2.29
+        "score": 2.28
       },
       {
         "key": "blok3-kusura-bakma",
@@ -2150,7 +2150,7 @@
             "metric": "rank",
             "value": 23,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2158,7 +2158,7 @@
             "metric": "plays",
             "value": 194219,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2166,7 +2166,7 @@
             "metric": "rankBefore",
             "value": 33,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2175,15 +2175,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 9,
+            "value": 10,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2191,7 +2191,7 @@
             "metric": "rankBefore",
             "value": 12,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2200,7 +2200,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2208,7 +2208,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2216,7 +2216,7 @@
             "metric": "rankBefore",
             "value": 1,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2225,14 +2225,14 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 10 on Spotify Türkiye daily"
         ],
-        "score": 2.27
+        "score": 2.26
       },
       {
         "key": "blok3-kirginim",
@@ -2258,7 +2258,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2266,7 +2266,7 @@
             "metric": "plays",
             "value": 301590,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2274,7 +2274,7 @@
             "metric": "rankBefore",
             "value": 10,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2283,15 +2283,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 4,
+            "value": 5,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2299,7 +2299,7 @@
             "metric": "rankBefore",
             "value": 4,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2308,7 +2308,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2316,7 +2316,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2324,7 +2324,7 @@
             "metric": "rankBefore",
             "value": 15,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2333,14 +2333,14 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 6 on Apple Music Türkiye Hip-Hop/Rap"
         ],
-        "score": 2.21
+        "score": 2.2
       },
       {
         "key": "blok3-sebebi-yar",
@@ -2366,7 +2366,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2374,7 +2374,7 @@
             "metric": "plays",
             "value": 414294,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2382,7 +2382,7 @@
             "metric": "rankBefore",
             "value": 4,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2391,15 +2391,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 2,
+            "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2407,7 +2407,7 @@
             "metric": "rankBefore",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2416,7 +2416,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2424,7 +2424,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2432,7 +2432,7 @@
             "metric": "rankBefore",
             "value": 5,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2441,7 +2441,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2472,7 +2472,7 @@
             "metric": "rank",
             "value": 5,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2480,7 +2480,7 @@
             "metric": "plays",
             "value": 361923,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2488,7 +2488,7 @@
             "metric": "rankBefore",
             "value": 6,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2497,15 +2497,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 3,
+            "value": 2,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2513,7 +2513,7 @@
             "metric": "rankBefore",
             "value": 2,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2522,7 +2522,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2530,7 +2530,7 @@
             "metric": "rank",
             "value": 5,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2538,7 +2538,7 @@
             "metric": "rankBefore",
             "value": 7,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2547,12 +2547,12 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 2.12
+        "score": 2.13
       },
       {
         "key": "ati242-maraton",
@@ -2578,7 +2578,7 @@
             "metric": "rank",
             "value": 50,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2586,7 +2586,7 @@
             "metric": "plays",
             "value": 141173,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2594,7 +2594,7 @@
             "metric": "rankBefore",
             "value": 55,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2603,15 +2603,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 22,
+            "value": 23,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2619,7 +2619,7 @@
             "metric": "rankBefore",
             "value": 23,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2628,7 +2628,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2636,7 +2636,7 @@
             "metric": "rank",
             "value": 7,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2644,7 +2644,7 @@
             "metric": "rankBefore",
             "value": 18,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2653,7 +2653,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -2661,7 +2661,7 @@
           "up 5 on Spotify Türkiye daily",
           "up 11 on Apple Music Türkiye Hip-Hop/Rap"
         ],
-        "score": 2.12
+        "score": 2.11
       },
       {
         "key": "ahiyan-kralin-kizi",
@@ -2686,7 +2686,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2694,7 +2694,7 @@
             "metric": "plays",
             "value": 428168,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2702,7 +2702,7 @@
             "metric": "rankBefore",
             "value": 2,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2711,15 +2711,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 15,
+            "value": 16,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2727,7 +2727,7 @@
             "metric": "rankBefore",
             "value": 16,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2736,7 +2736,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2744,7 +2744,7 @@
             "metric": "rank",
             "value": 22,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2752,7 +2752,7 @@
             "metric": "rankBefore",
             "value": 27,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2761,14 +2761,14 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 5 on Apple Music Türkiye Hip-Hop/Rap"
         ],
-        "score": 2.03
+        "score": 2.02
       },
       {
         "key": "blok3-cok-guzel-guluyorsun",
@@ -2795,7 +2795,7 @@
             "metric": "rank",
             "value": 11,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2803,7 +2803,7 @@
             "metric": "plays",
             "value": 282281,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2811,7 +2811,7 @@
             "metric": "rankBefore",
             "value": 11,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -2820,7 +2820,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -2828,7 +2828,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2836,7 +2836,7 @@
             "metric": "rankBefore",
             "value": 7,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -2845,7 +2845,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -2853,7 +2853,7 @@
             "metric": "rank",
             "value": 14,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -2861,7 +2861,7 @@
             "metric": "rankBefore",
             "value": 13,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -2870,120 +2870,12 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
         "score": 1.98
-      },
-      {
-        "key": "blok3-napiyosun-mesela",
-        "genre": "turkey",
-        "title": "napıyosun mesela ?",
-        "artists": [
-          "BLOK3"
-        ],
-        "released": "2025-07-18",
-        "genreTags": [
-          "Hip-Hop/Rap",
-          "Turkish Hip-Hop/Rap"
-        ],
-        "links": {
-          "spotify": "https://open.spotify.com/track/4PA0CfHSeg5yYx7PCyGeMb",
-          "appleMusic": "https://music.apple.com/tr/album/nap%C4%B1yosun-mesela/1826044047?i=1826044051"
-        },
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/1c/ec/1f1cec91-33d5-adb4-4f7d-20d6125b1e7e/mzaf_4474499554308513957.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/fe/34/0dfe340b-1bcc-8b81-2688-9c53ef1774dc/cover.jpg/600x600bb.jpg",
-        "evidence": [
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 64,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 129825,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 78,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "before": "2026-11-27",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "daysOnChart",
-            "value": 3,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "apple",
-            "metric": "rank",
-            "value": 17,
-            "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
-          },
-          {
-            "source": "apple",
-            "metric": "rankBefore",
-            "value": 19,
-            "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
-            "before": "2026-11-27",
-            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
-          },
-          {
-            "source": "apple",
-            "metric": "daysOnChart",
-            "value": 3,
-            "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
-          },
-          {
-            "source": "apple",
-            "metric": "rank",
-            "value": 20,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          },
-          {
-            "source": "apple",
-            "metric": "rankBefore",
-            "value": 8,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
-            "before": "2026-11-27",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          },
-          {
-            "source": "apple",
-            "metric": "daysOnChart",
-            "value": 3,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          }
-        ],
-        "notes": [
-          "up 14 on Spotify Türkiye daily"
-        ],
-        "score": 1.89
       },
       {
         "key": "manifest-pvg-manifest-live-remix",
@@ -3010,7 +2902,7 @@
             "metric": "rank",
             "value": 43,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3018,7 +2910,7 @@
             "metric": "plays",
             "value": 147905,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3026,7 +2918,7 @@
             "metric": "rankBefore",
             "value": 40,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3035,15 +2927,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 66,
+            "value": 57,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3051,7 +2943,7 @@
             "metric": "rankBefore",
             "value": 57,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -3060,7 +2952,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3068,7 +2960,7 @@
             "metric": "rank",
             "value": 19,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3076,7 +2968,7 @@
             "metric": "rankBefore",
             "value": 40,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3085,14 +2977,122 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 21 on Apple Music Türkiye Hip-Hop/Rap"
         ],
-        "score": 1.88
+        "score": 1.93
+      },
+      {
+        "key": "blok3-napiyosun-mesela",
+        "genre": "turkey",
+        "title": "napıyosun mesela ?",
+        "artists": [
+          "BLOK3"
+        ],
+        "released": "2025-07-18",
+        "genreTags": [
+          "Hip-Hop/Rap",
+          "Turkish Hip-Hop/Rap"
+        ],
+        "links": {
+          "spotify": "https://open.spotify.com/track/4PA0CfHSeg5yYx7PCyGeMb",
+          "appleMusic": "https://music.apple.com/tr/album/nap%C4%B1yosun-mesela/1826044047?i=1826044051"
+        },
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/1c/ec/1f1cec91-33d5-adb4-4f7d-20d6125b1e7e/mzaf_4474499554308513957.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/fe/34/0dfe340b-1bcc-8b81-2688-9c53ef1774dc/cover.jpg/600x600bb.jpg",
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 64,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 129825,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 78,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 17,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 19,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 20,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 8,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "notes": [
+          "up 14 on Spotify Türkiye daily"
+        ],
+        "score": 1.89
       },
       {
         "key": "motive-yin-yang",
@@ -3117,7 +3117,7 @@
             "metric": "rank",
             "value": 16,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3125,7 +3125,7 @@
             "metric": "plays",
             "value": 239900,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3133,7 +3133,7 @@
             "metric": "rankBefore",
             "value": 14,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3142,15 +3142,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 32,
+            "value": 39,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3158,7 +3158,7 @@
             "metric": "rankBefore",
             "value": 32,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -3167,7 +3167,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3175,7 +3175,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3183,7 +3183,7 @@
             "metric": "rankBefore",
             "value": 4,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3192,12 +3192,12 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [],
-        "score": 1.87
+        "score": 1.83
       },
       {
         "key": "blok3-allah-allah",
@@ -3223,7 +3223,7 @@
             "metric": "rank",
             "value": 162,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3231,7 +3231,7 @@
             "metric": "plays",
             "value": 79501,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3239,7 +3239,7 @@
             "metric": "rankBefore",
             "value": 186,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3248,15 +3248,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 78,
+            "value": 80,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3264,7 +3264,7 @@
             "metric": "rankBefore",
             "value": 90,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -3273,7 +3273,7 @@
             "metric": "daysOnChart",
             "value": 2,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3281,16 +3281,122 @@
             "metric": "rank",
             "value": 10,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 24 on Spotify Türkiye daily",
-          "up 12 on Apple Music Türkiye most played",
+          "up 10 on Apple Music Türkiye most played",
           "new on Apple Music Türkiye Hip-Hop/Rap today"
         ],
-        "score": 1.85
+        "score": 1.79
+      },
+      {
+        "key": "blok3-degistiremezsin-yazilmissa",
+        "genre": "turkey",
+        "title": "Değiştiremezsin Yazılmışsa",
+        "artists": [
+          "BLOK3"
+        ],
+        "released": "2026-06-04",
+        "genreTags": [
+          "Hip-Hop/Rap",
+          "Turkish Hip-Hop/Rap"
+        ],
+        "links": {
+          "spotify": "https://open.spotify.com/track/49a0nrWtmWU78F0itzjDJh",
+          "appleMusic": "https://music.apple.com/tr/album/de%C4%9Fi%C5%9Ftiremezsin-yaz%C4%B1lm%C4%B1%C5%9Fsa/6773420726?i=6773421062"
+        },
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/ae/33/4bae33d4-d5a7-1919-c431-f38c8200e61d/mzaf_15252887930202589144.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/9b/d0/a69bd0ba-76af-bedd-9857-a6e2cb3087e0/cover.jpg/600x600bb.jpg",
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 20,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 203391,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 22,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 12,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 14,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 33,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 12,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "notes": [],
+        "score": 1.7
       },
       {
         "key": "mero-olurmusun",
@@ -3317,7 +3423,7 @@
             "metric": "rank",
             "value": 28,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3325,7 +3431,7 @@
             "metric": "plays",
             "value": 182201,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3333,7 +3439,7 @@
             "metric": "rankBefore",
             "value": 23,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3342,15 +3448,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 94,
+            "value": 98,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3358,7 +3464,7 @@
             "metric": "rankBefore",
             "value": 92,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -3367,7 +3473,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3375,7 +3481,7 @@
             "metric": "rank",
             "value": 27,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3383,7 +3489,7 @@
             "metric": "rankBefore",
             "value": 47,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3392,120 +3498,14 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
         "notes": [
           "up 20 on Apple Music Türkiye Hip-Hop/Rap"
         ],
-        "score": 1.72
-      },
-      {
-        "key": "blok3-degistiremezsin-yazilmissa",
-        "genre": "turkey",
-        "title": "Değiştiremezsin Yazılmışsa",
-        "artists": [
-          "BLOK3"
-        ],
-        "released": "2026-06-04",
-        "genreTags": [
-          "Hip-Hop/Rap",
-          "Turkish Hip-Hop/Rap"
-        ],
-        "links": {
-          "spotify": "https://open.spotify.com/track/49a0nrWtmWU78F0itzjDJh",
-          "appleMusic": "https://music.apple.com/tr/album/de%C4%9Fi%C5%9Ftiremezsin-yaz%C4%B1lm%C4%B1%C5%9Fsa/6773420726?i=6773421062"
-        },
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/ae/33/4bae33d4-d5a7-1919-c431-f38c8200e61d/mzaf_15252887930202589144.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/9b/d0/a69bd0ba-76af-bedd-9857-a6e2cb3087e0/cover.jpg/600x600bb.jpg",
-        "evidence": [
-          {
-            "source": "spotify",
-            "metric": "rank",
-            "value": 20,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "plays",
-            "value": 203391,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "rankBefore",
-            "value": 22,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "before": "2026-11-27",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "spotify",
-            "metric": "daysOnChart",
-            "value": 3,
-            "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://kworb.net/spotify/country/tr_daily.html"
-          },
-          {
-            "source": "apple",
-            "metric": "rank",
-            "value": 11,
-            "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
-          },
-          {
-            "source": "apple",
-            "metric": "rankBefore",
-            "value": 14,
-            "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
-            "before": "2026-11-27",
-            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
-          },
-          {
-            "source": "apple",
-            "metric": "daysOnChart",
-            "value": 3,
-            "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
-          },
-          {
-            "source": "apple",
-            "metric": "rank",
-            "value": 33,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          },
-          {
-            "source": "apple",
-            "metric": "rankBefore",
-            "value": 12,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
-            "before": "2026-11-27",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          },
-          {
-            "source": "apple",
-            "metric": "daysOnChart",
-            "value": 3,
-            "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
-            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
-          }
-        ],
-        "notes": [],
-        "score": 1.71
+        "score": 1.7
       },
       {
         "key": "wegh-geri-ver",
@@ -3530,7 +3530,7 @@
             "metric": "rank",
             "value": 53,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3538,7 +3538,7 @@
             "metric": "plays",
             "value": 140253,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3546,7 +3546,7 @@
             "metric": "rankBefore",
             "value": 52,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3555,7 +3555,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3563,7 +3563,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3571,7 +3571,7 @@
             "metric": "rankBefore",
             "value": 6,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3580,7 +3580,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3613,7 +3613,7 @@
             "metric": "rank",
             "value": 47,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3621,7 +3621,7 @@
             "metric": "plays",
             "value": 142243,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3629,7 +3629,7 @@
             "metric": "rankBefore",
             "value": 76,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3638,15 +3638,15 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
             "source": "apple",
             "metric": "rank",
-            "value": 21,
+            "value": 22,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3654,7 +3654,7 @@
             "metric": "rankBefore",
             "value": 22,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
@@ -3663,7 +3663,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye most played",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
           },
           {
@@ -3671,7 +3671,7 @@
             "metric": "rank",
             "value": 34,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3679,7 +3679,7 @@
             "metric": "rankBefore",
             "value": 22,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3688,7 +3688,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3722,7 +3722,7 @@
             "metric": "rank",
             "value": 94,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3730,7 +3730,7 @@
             "metric": "plays",
             "value": 109406,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3738,7 +3738,7 @@
             "metric": "rankBefore",
             "value": 116,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3747,7 +3747,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3755,7 +3755,7 @@
             "metric": "rank",
             "value": 24,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3763,7 +3763,7 @@
             "metric": "rankBefore",
             "value": 19,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3772,7 +3772,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3803,7 +3803,7 @@
             "metric": "rank",
             "value": 26,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3811,7 +3811,7 @@
             "metric": "rankBefore",
             "value": 10,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3820,7 +3820,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3851,7 +3851,7 @@
             "metric": "rank",
             "value": 40,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3884,7 +3884,7 @@
             "metric": "rank",
             "value": 37,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3892,7 +3892,7 @@
             "metric": "plays",
             "value": 159416,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3900,7 +3900,7 @@
             "metric": "rankBefore",
             "value": 31,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -3909,7 +3909,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -3917,7 +3917,7 @@
             "metric": "rank",
             "value": 41,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3950,7 +3950,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -3958,7 +3958,7 @@
             "metric": "rankBefore",
             "value": 2,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -3967,7 +3967,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -3997,7 +3997,7 @@
             "metric": "rank",
             "value": 93,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -4005,7 +4005,7 @@
             "metric": "plays",
             "value": 109998,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -4013,7 +4013,7 @@
             "metric": "rankBefore",
             "value": 77,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -4022,7 +4022,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -4030,7 +4030,7 @@
             "metric": "rank",
             "value": 15,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4062,7 +4062,7 @@
             "metric": "rank",
             "value": 38,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -4070,7 +4070,7 @@
             "metric": "rankBefore",
             "value": 44,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -4079,7 +4079,7 @@
             "metric": "daysOnChart",
             "value": 2,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4111,7 +4111,7 @@
             "metric": "rank",
             "value": 31,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4142,7 +4142,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -4150,7 +4150,7 @@
             "metric": "rankBefore",
             "value": 24,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -4159,7 +4159,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4192,7 +4192,7 @@
             "metric": "rank",
             "value": 22,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -4200,7 +4200,7 @@
             "metric": "plays",
             "value": 197362,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -4208,7 +4208,7 @@
             "metric": "rankBefore",
             "value": 19,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
@@ -4217,7 +4217,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Spotify Türkiye daily",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://kworb.net/spotify/country/tr_daily.html"
           },
           {
@@ -4225,7 +4225,7 @@
             "metric": "rank",
             "value": 35,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4257,7 +4257,7 @@
             "metric": "rank",
             "value": 39,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
           {
@@ -4265,7 +4265,7 @@
             "metric": "rankBefore",
             "value": 9,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           },
@@ -4274,7 +4274,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4303,7 +4303,7 @@
             "metric": "rank",
             "value": 57,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4334,7 +4334,7 @@
             "metric": "rank",
             "value": 58,
             "chart": "Apple Music Türkiye Hip-Hop/Rap",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
           }
         ],
@@ -4367,7 +4367,7 @@
             "metric": "rank",
             "value": 2,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4400,7 +4400,7 @@
             "metric": "rank",
             "value": 4,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4408,7 +4408,7 @@
             "metric": "rankBefore",
             "value": 1,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4417,7 +4417,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4449,7 +4449,7 @@
             "metric": "rank",
             "value": 5,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4457,7 +4457,7 @@
             "metric": "rankBefore",
             "value": 6,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4466,7 +4466,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4498,7 +4498,7 @@
             "metric": "rank",
             "value": 8,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4533,7 +4533,7 @@
             "metric": "rank",
             "value": 11,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4566,7 +4566,7 @@
             "metric": "rank",
             "value": 18,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4597,7 +4597,7 @@
             "metric": "rank",
             "value": 22,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4630,7 +4630,7 @@
             "metric": "rank",
             "value": 24,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4638,7 +4638,7 @@
             "metric": "rankBefore",
             "value": 22,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4647,7 +4647,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4681,7 +4681,7 @@
             "metric": "rank",
             "value": 27,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4689,7 +4689,7 @@
             "metric": "rankBefore",
             "value": 47,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4698,7 +4698,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4732,7 +4732,7 @@
             "metric": "rank",
             "value": 6,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4740,7 +4740,7 @@
             "metric": "rankBefore",
             "value": 15,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4749,7 +4749,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4781,7 +4781,7 @@
             "metric": "rank",
             "value": 9,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4789,7 +4789,7 @@
             "metric": "rankBefore",
             "value": 17,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4798,7 +4798,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4834,7 +4834,7 @@
             "metric": "rank",
             "value": 15,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4842,7 +4842,7 @@
             "metric": "rankBefore",
             "value": 24,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4851,7 +4851,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4883,7 +4883,7 @@
             "metric": "rank",
             "value": 43,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4891,7 +4891,7 @@
             "metric": "rankBefore",
             "value": 32,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4900,7 +4900,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4932,7 +4932,7 @@
             "metric": "rank",
             "value": 1,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4940,7 +4940,7 @@
             "metric": "rankBefore",
             "value": 2,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4949,7 +4949,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -4979,7 +4979,7 @@
             "metric": "rank",
             "value": 19,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -4987,7 +4987,7 @@
             "metric": "rankBefore",
             "value": 26,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -4996,7 +4996,7 @@
             "metric": "daysOnChart",
             "value": 2,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5028,7 +5028,7 @@
             "metric": "rank",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5036,7 +5036,7 @@
             "metric": "rankBefore",
             "value": 4,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5045,7 +5045,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5075,7 +5075,7 @@
             "metric": "rank",
             "value": 53,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5108,7 +5108,7 @@
             "metric": "rank",
             "value": 10,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5116,7 +5116,7 @@
             "metric": "rankBefore",
             "value": 13,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5125,7 +5125,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5153,7 +5153,7 @@
             "metric": "rank",
             "value": 12,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5161,7 +5161,7 @@
             "metric": "rankBefore",
             "value": 7,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5170,7 +5170,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5200,7 +5200,7 @@
             "metric": "rank",
             "value": 13,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5208,7 +5208,7 @@
             "metric": "rankBefore",
             "value": 9,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5217,7 +5217,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5247,7 +5247,7 @@
             "metric": "rank",
             "value": 14,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5255,7 +5255,7 @@
             "metric": "rankBefore",
             "value": 18,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5264,7 +5264,7 @@
             "metric": "daysOnChart",
             "value": 2,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5292,7 +5292,7 @@
             "metric": "rank",
             "value": 16,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5300,7 +5300,7 @@
             "metric": "rankBefore",
             "value": 10,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5309,7 +5309,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5337,7 +5337,7 @@
             "metric": "rank",
             "value": 17,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5367,7 +5367,7 @@
             "metric": "rank",
             "value": 20,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5375,7 +5375,7 @@
             "metric": "rankBefore",
             "value": 23,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5384,7 +5384,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5414,7 +5414,7 @@
             "metric": "rank",
             "value": 21,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5447,7 +5447,7 @@
             "metric": "rank",
             "value": 23,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5477,7 +5477,7 @@
             "metric": "rank",
             "value": 25,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5507,7 +5507,7 @@
             "metric": "rank",
             "value": 26,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
           {
@@ -5515,7 +5515,7 @@
             "metric": "rankBefore",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "before": "2026-11-27",
             "url": "https://bandcamp.com/discover/indie-dance"
           },
@@ -5524,7 +5524,7 @@
             "metric": "daysOnChart",
             "value": 3,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5552,7 +5552,7 @@
             "metric": "rank",
             "value": 29,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -5584,7 +5584,7 @@
             "metric": "rank",
             "value": 30,
             "chart": "Bandcamp Indie Dance, best-selling",
-            "at": "2026-11-28T14:12:12Z",
+            "at": "2026-11-28T14:21:17Z",
             "url": "https://bandcamp.com/discover/indie-dance"
           }
         ],
@@ -6086,6 +6086,75 @@
           "all-time list (editor), first out 2019"
         ],
         "score": 0
+      },
+      {
+        "key": "ceza-suspus",
+        "genre": "turkey",
+        "title": "Suspus",
+        "artists": [
+          "Ceza"
+        ],
+        "genreTags": [
+          "Turkish Hip-Hop/Rap"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/tr/album/suspus/1215787273?i=1215788130"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 2004"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/a1/c6/1da1c6d7-9699-7ab3-6b71-cd71f9d796a9/mzaf_13429240603127997449.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/80/99/8e/80998e57-d384-a9ab-2f0c-451c4a49f5f6/cover.jpg/600x600bb.jpg",
+        "durationSec": 249,
+        "released": "2015-05-26"
+      },
+      {
+        "key": "ceza-yerli-plaka",
+        "genre": "turkey",
+        "title": "Yerli Plaka",
+        "artists": [
+          "Ceza"
+        ],
+        "genreTags": [
+          "Turkish Hip-Hop/Rap"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/tr/album/yerli-plaka/1189663828?i=1189663937"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 2006"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/ba/60/abba6013-a530-02c9-5301-e24e545b59fa/mzaf_15890625126684966159.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d8/dc/ac/d8dcaca6-7eed-0878-e895-516d4c4f5396/cover.jpg/600x600bb.jpg",
+        "durationSec": 275,
+        "released": "2006-08-26"
+      },
+      {
+        "key": "gazapizm-heyecani-yok",
+        "genre": "turkey",
+        "title": "Heyecanı Yok",
+        "artists": [
+          "Gazapizm"
+        ],
+        "genreTags": [
+          "Alternative Rap"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/tr/album/heyecan%C4%B1-yok/1501353485?i=1501353971"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 2017"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/7d/a0/db7da09e-6501-43bf-24ae-2390b0654b9e/mzaf_1698199074436078431.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/1a/10/531a1095-1d4f-843d-f581-55eb25a32195/195081104027.jpg/600x600bb.jpg",
+        "durationSec": 249,
+        "released": "2017-08-12"
       }
     ],
     "techno": [
@@ -6310,15 +6379,15 @@
           "Dance"
         ],
         "links": {
-          "appleMusic": "https://music.apple.com/us/album/out-run/1569382021?i=1569382022"
+          "appleMusic": "https://music.apple.com/us/album/out-run/1569381774?i=1569381775"
         },
         "evidence": [],
         "notes": [
           "all-time list (list), first out 2022"
         ],
         "score": 0,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/79/6c/c8/796cc8a4-2973-2683-2ddc-836dc740b4ee/mzaf_3360228649255081039.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/5b/ba/a65bba12-4c49-d94d-9aca-31908af5d69e/5053760077114.png/600x600bb.jpg",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f7/a1/c4/f7a1c46b-f16e-a3eb-fe2a-9d42c7d2decd/mzaf_1609677185301081130.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/13/1e/5f/131e5fe7-285f-8151-661c-984689d7efdd/5053760077121.png/600x600bb.jpg",
         "durationSec": 387,
         "released": "2021-06-04"
       },
@@ -6870,17 +6939,17 @@
           "Electronic"
         ],
         "links": {
-          "appleMusic": "https://music.apple.com/us/album/kill-for-love/1840296378?i=1840296595"
+          "appleMusic": "https://music.apple.com/us/album/kill-for-love/630306478?i=630307119"
         },
         "evidence": [],
         "notes": [
           "all-time list (editor), first out 2012"
         ],
         "score": 0,
-        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/d7/a0/5ad7a090-73d3-0612-1549-caf1d95b8e25/mzaf_5904220209958961008.plus.aac.p.m4a",
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/28/bb/8f28bb39-d03c-1ca5-b999-ebd5be15688c/107.jpg/600x600bb.jpg",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/a7/98/bfa798eb-5b4a-6368-4722-d7d50105941f/mzaf_14949447861318353534.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/e8/1f/83e81f20-a81c-0a43-eb8f-629c32460865/chromatics_KillForLove.jpg/600x600bb.jpg",
         "durationSec": 238,
-        "released": "2012-03-12"
+        "released": "2011-10-24"
       },
       {
         "key": "desire-under-your-spell",
@@ -7449,6 +7518,144 @@
         "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/a4/62/b0a462f6-a28a-e000-54e4-0747d4e32978/3596972376429.png/600x600bb.jpg",
         "durationSec": 387,
         "released": "2011-01-31"
+      },
+      {
+        "key": "was-not-was-wheel-me-out",
+        "genre": "indiedance",
+        "title": "Wheel Me Out",
+        "artists": [
+          "Was (Not Was)"
+        ],
+        "genreTags": [
+          "Pop"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/us/album/wheel-me-out/1698616446?i=1698616449"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 1980"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/5c/f3/be/5cf3be86-a725-3a9f-99ad-05fded05dc1c/mzaf_14744803454537834240.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/99/e5/b999e5be-fe74-d1c9-4f32-ad54574ce0fd/23UMGIM78014.rgb.jpg/600x600bb.jpg",
+        "durationSec": 428,
+        "released": "1981-08-01"
+      },
+      {
+        "key": "a-certain-ratio-shack-up",
+        "genre": "indiedance",
+        "title": "Shack Up",
+        "artists": [
+          "A Certain Ratio"
+        ],
+        "genreTags": [
+          "Dance"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/us/album/shack-up/1739681221?i=1739681226"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 1980"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/e4/b3/85e4b33a-aa21-c1fe-a723-f532d63174f2/mzaf_16394827175831357501.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/0e/27/a30e2703-0d77-33ac-0ae6-f9519968394b/102668.jpg/600x600bb.jpg",
+        "durationSec": 197,
+        "released": "2024-05-10"
+      },
+      {
+        "key": "dinosaur-l-go-bang",
+        "genre": "indiedance",
+        "title": "Go Bang!",
+        "artists": [
+          "Dinosaur L"
+        ],
+        "genreTags": [
+          "Dance"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/us/album/go-bang/250951219?i=250951389"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 1982"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/df/44/03df4453-806c-91ce-def1-2cb07385eb65/mzaf_10268529322355355163.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f3/71/dc/f371dc6f-4d17-bc58-5fdd-f793a6b87f66/mzi.nzqytsgx.jpg/600x600bb.jpg",
+        "durationSec": 453,
+        "released": "2005-07-12"
+      },
+      {
+        "key": "sally-shapiro-i-ll-be-by-your-side",
+        "genre": "indiedance",
+        "title": "I'll Be by Your Side",
+        "artists": [
+          "Sally Shapiro"
+        ],
+        "genreTags": [
+          "Dance"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/us/album/ill-be-by-your-side/1650518992?i=1650518993"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 2006"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/3d/f5/c03df5ac-0ad6-c663-789c-60911ec1e481/mzaf_6709273899663488350.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/60/96/e4/6096e41f-7cb7-7f12-58bc-2fc55b6166f7/artwork.jpg/600x600bb.jpg",
+        "durationSec": 327,
+        "released": "2006-09-01"
+      },
+      {
+        "key": "yello-bostich",
+        "genre": "indiedance",
+        "title": "Bostich",
+        "artists": [
+          "Yello"
+        ],
+        "genreTags": [
+          "Pop"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/us/album/bostich/1443862900?i=1443863777"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 1980"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/bd/95/87bd9529-8978-5033-6288-1fee736c2929/mzaf_10725596883047549053.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/c5/18/00c5185a-c2d9-ea7b-a052-04f9926286a7/16UMGIM62606.rgb.jpg/600x600bb.jpg",
+        "durationSec": 275,
+        "released": "1980-10-15"
+      },
+      {
+        "key": "the-phenomenal-handclap-band-15-to-20",
+        "genre": "indiedance",
+        "title": "15 to 20",
+        "artists": [
+          "The Phenomenal Handclap Band"
+        ],
+        "genreTags": [
+          "Alternative"
+        ],
+        "links": {
+          "appleMusic": "https://music.apple.com/us/album/15-to-20/898001648?i=898001868"
+        },
+        "evidence": [],
+        "notes": [
+          "all-time list (editor), first out 2009"
+        ],
+        "score": 0,
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a3/dd/54/a3dd54e4-7642-4b74-ba76-b89c496b1dcd/mzaf_14158769089838938805.plus.aac.p.m4a",
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ff/d8/0d/ffd80d59-427a-a599-1068-39d338ed084e/cover.jpg/600x600bb.jpg",
+        "durationSec": 289,
+        "released": "2009-01-01"
       }
     ]
   },
