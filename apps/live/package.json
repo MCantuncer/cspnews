@@ -13,6 +13,8 @@
     "@cspnews/config": "workspace:*",
     "@cspnews/core": "workspace:*",
     "@cspnews/scores": "workspace:*",
+    "@cspnews/songgame": "workspace:*",
+    "@cspnews/wordgame": "workspace:*",
     "zod": "4.6.7"
   },
   "devDependencies": {

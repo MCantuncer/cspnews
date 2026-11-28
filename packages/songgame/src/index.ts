@@ -29,3 +29,15 @@ export type { SharedResult } from './share.js';
 
 export { songStats } from './progress.js';
 export type { FinishedDay, SongStats } from './progress.js';
+
+export {
+  NAME_MAX,
+  NAME_MIN,
+  TOP_ROWS,
+  TOP_ROWS_WHEN_BELOW,
+  checkRounds,
+  madeUpName,
+  nameProblem,
+  tidyName,
+} from './board.js';
+export type { BoardEntry, BoardRow, BoardView, CheckedScore } from './board.js';
