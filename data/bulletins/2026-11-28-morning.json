@@ -1,0 +1,1409 @@
+{
+  "version": 2,
+  "slot": "morning",
+  "publishAt": "2026-11-28T07:30:00+03:00",
+  "writtenAt": "2026-11-28T07:01:07+03:00",
+  "stories": [
+    {
+      "id": "dcd91d36ca9a498a",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Ten missing girls found safe",
+          "title": "Ten girls and three staff found safe after van sank in mud",
+          "summary": {
+            "what": "Ten girls aged 14 to 17 from a state children’s home in Kocaeli and three staff were found unharmed after their van got stuck in mud on a forest road.",
+            "why": "Contact with the group was lost on the way back from a day trip to Bolu’s Yedigöller, and a search with drones and 178 personnel ran for hours.",
+            "next": "Family and Social Services Minister Göktaş said all 13 would get full health checks before being taken back to Kocaeli."
+          },
+          "body": [
+            {
+              "subhead": "A day trip that went silent",
+              "blocks": [
+                {
+                  "text": "Ten girls aged between 14 and 17 who live at the Kocaeli Children’s Homes Site, a state care facility, set off with three staff on Friday for a day trip to the Yedigöller and Gölcük nature parks in Bolu, the Family and Social Services Ministry said in a statement carried by Cumhuriyet and Onedio. On the way back, contact with the ministry vehicle was lost."
+                },
+                {
+                  "text": "Cumhuriyet reported that the Kocaeli gendarmerie alerted the disaster agency AFAD in Bolu at about 19:10, saying there had been no word from the vehicle since 15:00, and that its last GPS signal came from the Kapankaya viewing terrace in Yedigöller. Accounts of the timing differ: Family and Social Services Minister Mahinur Özdemir Göktaş told CNN Türk the signal was lost at around 16:30, and Interior Minister Mustafa Çiftçi put it at about 19:00, Hürriyet reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Drones, a mobile mast and 178 people",
+              "blocks": [
+                {
+                  "text": "Göktaş told reporters in Bolu that 178 personnel and 48 vehicles searched the area, with one drone from the Naval Forces Command and two from Baykar, Anadolu Ajansı reported. Çiftçi gave a larger figure of 55 teams and 204 personnel, according to Hürriyet. A thermal-camera drone from the Agriculture and Forestry Ministry joined, and telecoms companies brought a mobile base station into the forest, the ministers said."
+                },
+                {
+                  "text": "Searchers combed a 30-kilometre area around the last GPS point, Göktaş said, and the van turned out to be about two kilometres from where they were focusing. The driver had left the usual route and taken the Yığılca road to get back faster, she said, and the van sank into mud on a forest track softened by rain."
+                },
+                {
+                  "quote": "Our children and the whole team are alive and they are very well. The vehicle got stuck in a bog in Yığılca.",
+                  "speaker": "Mahinur Özdemir Göktaş, family and social services minister",
+                  "sourceId": "aa-tr",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "Plastic bags over their socks",
+              "blocks": [
+                {
+                  "text": "The group had tried to push the van out and then wandered a little on the forest road, but phones had no signal, Çiftçi said, according to Hürriyet. Contact was made only once the mobile base station strengthened the signal."
+                },
+                {
+                  "text": "Göktaş described how the girls had tied plastic bags over their socks to keep them dry and how the staff switched off lights to save the battery, Anadolu Ajansı reported. She said they were frightened once darkness fell but never doubted they would be found. All 13 were given a meal and were to have full health checks before returning to Kocaeli, the ministers said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Girls on the trip",
+              "value": "10",
+              "source": "Family and Social Services Ministry"
+            },
+            {
+              "label": "Search personnel",
+              "value": "178",
+              "source": "Göktaş, via Anadolu Ajansı"
+            },
+            {
+              "label": "Area searched",
+              "value": "30 km",
+              "source": "Göktaş, via Anadolu Ajansı"
+            },
+            {
+              "label": "Distance from search focus",
+              "value": "2 km",
+              "source": "Göktaş, via Anadolu Ajansı"
+            }
+          ],
+          "place": {
+            "name": "Yedigöller",
+            "region": "Bolu, Türkiye",
+            "lat": 40.94,
+            "lon": 31.75
+          }
+        },
+        "tr": {
+          "shortTitle": "Kaybolan 10 kız çocuğu bulundu",
+          "title": "Yedigöller dönüşü kaybolan 10 kız çocuğu ve 3 görevli bataklıkta sağ bulundu",
+          "summary": {
+            "what": "Kocaeli’deki çocuk evlerinde kalan 14-17 yaşındaki 10 kız çocuğu ve 3 görevli, araçları orman yolunda çamura saplandıktan sonra sağ salim bulundu.",
+            "why": "Bolu Yedigöller’e günübirlik gezi dönüşü araçla irtibat kesilmiş, dron ve 178 personelle saatler süren arama başlatılmıştı.",
+            "next": "Bakan Göktaş, 13 kişinin teşekküllü sağlık kontrolünden geçirildikten sonra Kocaeli’ye gönderileceğini söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Gezi dönüşü haber alınamadı",
+              "blocks": [
+                {
+                  "text": "Aile ve Sosyal Hizmetler Bakanlığının Cumhuriyet ve Onedio’nun aktardığı açıklamasına göre Kocaeli Çocuk Evleri Sitesi Müdürlüğünde kalan 14-17 yaş aralığındaki 10 kız çocuğu ve 3 görevli, cuma günü Bolu’daki Yedigöller ve Gölcük tabiat parklarına günübirlik geziye çıktı. Dönüş yolunda araçla irtibat kesildi."
+                },
+                {
+                  "text": "Cumhuriyet’e göre Kocaeli İl Jandarma Komutanlığı saat 19.10 sıralarında Bolu AFAD’a, araçtan 15.00’ten beri haber alınamadığını bildirdi; son GPS sinyali Yedigöller’deki Kapankaya Seyir Terası mevkisinden gelmişti. Saat konusunda farklı açıklamalar var: Bakan Mahinur Özdemir Göktaş CNN Türk’te sinyalin 16.30 gibi kaybolduğunu söyledi, Hürriyet’e göre İçişleri Bakanı Mustafa Çiftçi ise 19.00’u işaret etti."
+                }
+              ]
+            },
+            {
+              "subhead": "Dronlar, mobil baz istasyonu ve 178 personel",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı’na konuşan Göktaş, aramada 178 personel ve 48 aracın görev aldığını, Deniz Kuvvetleri Komutanlığının 1, Baykar’ın 2 İHA’sının kullanıldığını söyledi. Hürriyet’e göre Çiftçi ise 55 ekip ve 204 personelden söz etti. Tarım ve Orman Bakanlığının termal kameralı dronu da çalışmalara katıldı, telekom şirketleri bölgeye mobil baz istasyonu getirdi."
+                },
+                {
+                  "text": "Göktaş’a göre son GPS noktasının çevresindeki 30 kilometrelik alan tarandı; araç, ekiplerin yoğunlaştığı noktaya yalnızca 2 kilometre uzaktaydı. Şoför daha hızlı dönmek için normal güzergâh yerine Yığılca yolunu kullanmış, araç yağmurla çamura dönen orman yolunda bataklığa saplanmıştı."
+                },
+                {
+                  "quote": "Çocuklarımız ve bütün ekip sağ, durumları gayet iyi. Yığılca’da araç bataklığa saplanmış.",
+                  "speaker": "Mahinur Özdemir Göktaş, Aile ve Sosyal Hizmetler Bakanı",
+                  "sourceId": "aa-tr"
+                }
+              ]
+            },
+            {
+              "subhead": "Çoraplarına poşet bağladılar",
+              "blocks": [
+                {
+                  "text": "Hürriyet’e göre Çiftçi, grubun aracı kendi imkânlarıyla çıkarmaya çalıştığını, ardından orman yolunda biraz dolaştığını ama telefonların çekmediğini anlattı. İletişim ancak mobil baz istasyonu sinyali güçlendirince kurulabildi."
+                },
+                {
+                  "text": "Anadolu Ajansı’na göre Göktaş, çocukların çorapları ıslanmasın diye ayaklarına poşet bağladığını, görevlilerin akü bitmesin diye ışıkları kapattığını anlattı. Karanlık çökünce korktuklarını ama bulunacaklarından hiç şüphe etmediklerini söyledi. Bakanlara göre yemek yiyen 13 kişi sağlık kontrolünün ardından Kocaeli’ye uğurlanacak."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Gezideki kız çocuğu",
+              "value": "10",
+              "source": "Aile ve Sosyal Hizmetler Bakanlığı"
+            },
+            {
+              "label": "Aramadaki personel",
+              "value": "178",
+              "source": "Göktaş, Anadolu Ajansı"
+            },
+            {
+              "label": "Taranan alan",
+              "value": "30 km",
+              "source": "Göktaş, Anadolu Ajansı"
+            },
+            {
+              "label": "Arama noktasına uzaklık",
+              "value": "2 km",
+              "source": "Göktaş, Anadolu Ajansı"
+            }
+          ],
+          "place": {
+            "name": "Yedigöller",
+            "region": "Bolu, Türkiye",
+            "lat": 40.94,
+            "lon": 31.75
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T19:54:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:10:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T20:10:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:31:32.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T21:19:56.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T23:16:12.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T23:31:00.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T00:44:28.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T00:54:39.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T03:39:13.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T03:41:45.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/72333adb-b2c5-4055-9ede-96cf43588e0f.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/aile-ve-sosyal-hizmetler-mudurlugu-ne-bagli-aractan-saatlerdir-haber-alinamiyor-7-8-cocuk-ile-gorevli-personelin-oldugu-tahmin-ediliyor-2560049"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/aile-ve-sosyal-hizmetler-mudurlugu-ne-bagli-aractan-saatlerdir-haber-alinamiyor-7-8-cocuk-ile-gorevli-personelin-oldugu-tahmin-ediliyor-2560049",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/live-boludan-sevindiren-haber-bakan-goktas-acikladi-10-kiz-cocugu-ile-3-personele-ulasildi-saglik-durumlari-iyi-43393761",
+          "confirms": true
+        },
+        {
+          "sourceId": "onedio",
+          "url": "https://onedio.com/haber/bolu-yedigoller-gezisine-giden-10-cocuk-ve-3-gorevliden-haber-alinamiyor-1398168",
+          "confirms": false
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/bakan-goktas-yedigollere-gezi-amaciyla-giden-aractaki-cocuklara-ve-personele-ulasildigini-acikladi/4140967",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/28/boluda-gezi-donusu-10-cocuk-ve-3-gorevliyi-tasiyan-aracla-irtibat-kesildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/28/boluda-10-kiz-cocugu-ve-3-personeli-tasiyan-arac-kayboldu-arama-calismalari-devam-ediyor",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/boluda-geziye-giden-cocuklari-tasiyan-arac-bulundu-durumlari-iyi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/bolu-da-10-cocuk-ve-3-personeli-tasiyan-aracla-irtibat-kesildi-3930729",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cmx289847rl5o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/bolu-da-arac-kayboldu-p384993",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/boluda-kaybolan-10-kiz-cocugu-ve-3-personel-bulundu-1752910",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T07:30:00+03:00",
+      "updatedAt": "2026-11-28T07:30:00+03:00"
+    },
+    {
+      "id": "a1c3b419f1e28f8a",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "2027 budget clears parliamentary committee",
+          "title": "2027 budget clears committee with ₺33bn added for small traders",
+          "summary": {
+            "what": "Parliament’s Plan and Budget Committee passed the 14-article 2027 central government budget bill after 38 days of debate.",
+            "why": "Amendments added ₺33bn for cheap Halkbank loans to small traders, and Vice-President Yılmaz said fund payouts passed ₺199bn without public money.",
+            "next": "The final vote comes in the General Assembly, which Yılmaz said would decide on the 9th budget of the presidential system."
+          },
+          "body": [
+            {
+              "subhead": "Thirty-eight days in committee",
+              "blocks": [
+                {
+                  "text": "The Plan and Budget Committee of the Grand National Assembly approved the 14-article 2027 central government budget bill and the 7-article 2025 final accounts bill on Friday evening, Anadolu Ajansı and Bloomberg HT reported. The vote followed a last session on the budgets of the presidency and the bodies attached to it, including the intelligence agency MİT and the Directorate of Religious Affairs, Hürriyet said."
+                },
+                {
+                  "text": "The committee’s chairman, Mehmet Muş, said it had worked for 38 days since 21 October, holding 21 sittings and 66 sessions over about 212 hours, A Haber reported. He said 1,433 requests to speak from 261 lawmakers had been met, meaning that about half of parliament took part directly."
+                }
+              ]
+            },
+            {
+              "subhead": "What the amendments changed",
+              "blocks": [
+                {
+                  "text": "Four amendments signed by AKP lawmakers were adopted, Bloomberg HT reported. Three of them adjusted the bill’s tables to add ₺33bn to the Treasury and Finance Ministry’s budget, to be used through the state lender Halkbank for low-cost loans to small traders and craftsmen. The fourth exempts the grid operator TEİAŞ’s high-voltage direct-current projects of 1,000 megawatts or more, and its undersea tunnel and cable projects, from the public procurement rule that 10% of a project’s cost must be budgeted before it starts."
+                },
+                {
+                  "text": "Cumhuriyet and Medyascope reported that ₺500m was also added for research universities."
+                }
+              ]
+            },
+            {
+              "subhead": "Yılmaz on the fund payouts",
+              "blocks": [
+                {
+                  "text": "Answering lawmakers before the vote, Vice-President Cevdet Yılmaz said interim payouts to investors in the funds at the centre of the fraud investigation had been completed, except for nine problem funds with 313 investors, Hürriyet reported. More than ₺199bn had been paid, he said, with each investor receiving up to ₺1m; more than 40,000 people received at least ₺1m in cash and in kind."
+                },
+                {
+                  "quote": "Not one kuruş of public money was used in this area. Not one lira was used from the budget.",
+                  "speaker": "Cevdet Yılmaz, vice-president",
+                  "sourceId": "hurriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Yılmaz said the money came from the funds’ liquid assets and more than ₺45bn collected in recovery accounts. Asked about a list of names in the investigation, he said it would not be right to expect it before prosecutors write their indictments. On complaints about motorway toll fines, he said the government was weighing a cap on lawyers’ fees."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Added for small traders’ loans",
+              "value": "₺33bn",
+              "source": "Bloomberg HT, Anadolu Ajansı"
+            },
+            {
+              "label": "Added for research universities",
+              "value": "₺500m",
+              "source": "Cumhuriyet, Medyascope"
+            },
+            {
+              "label": "Days in committee",
+              "value": "38",
+              "source": "Mehmet Muş, via A Haber"
+            },
+            {
+              "label": "Fund payouts so far",
+              "value": "₺199bn+",
+              "source": "Cevdet Yılmaz, via Hürriyet"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "2027 bütçesi komisyondan geçti",
+          "title": "2027 bütçesi komisyondan geçti: Esnafa 33 milyar lira ek ödenek",
+          "summary": {
+            "what": "TBMM Plan ve Bütçe Komisyonu, 38 gün süren görüşmelerin ardından 14 maddelik 2027 Yılı Merkezi Yönetim Bütçe Kanunu Teklifi’ni kabul etti.",
+            "why": "Önergelerle Halkbank üzerinden esnaf kredisi için 33 milyar lira eklendi; Yılmaz, fonlarda 199 milyar liranın üzerinde ödeme yapıldığını söyledi.",
+            "next": "Son karar Genel Kurul’da verilecek; Yılmaz bunun Cumhurbaşkanlığı Hükümet Sistemi’nin 9’uncu bütçesi olduğunu hatırlattı."
+          },
+          "body": [
+            {
+              "subhead": "Komisyonda 38 gün",
+              "blocks": [
+                {
+                  "text": "Anadolu Ajansı ve Bloomberg HT’nin haberine göre TBMM Plan ve Bütçe Komisyonu, cuma akşamı 14 maddelik 2027 Yılı Merkezi Yönetim Bütçe Kanunu Teklifi ile 7 maddelik 2025 Yılı Kesin Hesap Kanunu Teklifi’ni kabul etti. Hürriyet’e göre oylama, Cumhurbaşkanlığı ile MİT ve Diyanet İşleri Başkanlığı gibi bağlı kuruluşların bütçelerinin görüşüldüğü son oturumun ardından yapıldı."
+                },
+                {
+                  "text": "A Haber’in aktardığına göre Komisyon Başkanı Mehmet Muş, 21 Ekim’de başlayan çalışmaların 38 gün sürdüğünü, 21 birleşim ve 66 oturumda yaklaşık 212 saat mesai yapıldığını söyledi. Muş’a göre 261 milletvekilinin 1.433 söz talebi karşılandı; yani Meclis’in yaklaşık yarısı görüşmelere doğrudan katıldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Önergelerle neler değişti",
+              "blocks": [
+                {
+                  "text": "Bloomberg HT’ye göre AK Parti milletvekillerinin imzasını taşıyan 4 önerge kabul edildi. Bunlardan üçüyle, Halkbank aracılığıyla esnaf ve sanatkârlara uygun koşullu kredi verilmesi için Hazine ve Maliye Bakanlığı bütçesine eklenen 33 milyar liralık ödenek cetvellere işlendi. Dördüncüsüyle TEİAŞ’ın 1.000 megavat ve üzeri yüksek gerilim doğru akım projeleri ile denizaltı tünel ve kablo projeleri, Kamu İhale Kanunu’ndaki yüzde 10 asgari yatırım ödeneği şartından muaf tutuldu."
+                },
+                {
+                  "text": "Cumhuriyet ve Medyascope, araştırma üniversitelerine de 500 milyon lira ek ödenek ayrıldığını yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "Yılmaz’dan fon ödemeleri açıklaması",
+              "blocks": [
+                {
+                  "text": "Hürriyet’e göre oylamadan önce milletvekillerinin sorularını yanıtlayan Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, 313 kişinin bulunduğu 9 sorunlu fon dışında ara ödemelerin tamamlandığını söyledi. Yılmaz’a göre 199 milyar liranın üzerinde ödeme yapıldı; her yatırımcı alacağına göre en fazla 1 milyon lira aldı, nakdi ve ayni olarak 40 binin üzerinde kişi en az 1 milyon lira aldı."
+                },
+                {
+                  "quote": "Bu alanda 1 kuruş kamu kaynağı da kullanılmadı. Bütçeden 1 lira kullanılmadı.",
+                  "speaker": "Cevdet Yılmaz, Cumhurbaşkanı Yardımcısı",
+                  "sourceId": "hurriyet"
+                },
+                {
+                  "text": "Yılmaz, paranın fonlardaki likit varlıklardan ve geri dönüşüm hesaplarına gelen 45 milyar liranın üzerindeki kaynaktan karşılandığını belirtti. Soruşturmadaki isim listesi sorusuna, savcılar iddianame yazmadan bunun açıklanmasını beklemenin doğru olmayacağını söyledi. HGS cezalarına yönelik eleştirilerde ise vekâlet ücretlerine üst sınır gibi seçeneklerin değerlendirildiğini anlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Esnaf kredisi için ek ödenek",
+              "value": "33 milyar ₺",
+              "source": "Bloomberg HT, Anadolu Ajansı"
+            },
+            {
+              "label": "Araştırma üniversitelerine",
+              "value": "500 milyon ₺",
+              "source": "Cumhuriyet, Medyascope"
+            },
+            {
+              "label": "Komisyon çalışması",
+              "value": "38 gün",
+              "source": "Mehmet Muş, A Haber"
+            },
+            {
+              "label": "Fonlarda yapılan ödeme",
+              "value": "199 milyar ₺+",
+              "source": "Cevdet Yılmaz, Hürriyet"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T18:28:00.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T19:12:50.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T19:12:50.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T19:21:20.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T19:56:01.000Z",
+          "sourceId": "aa-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:08:42.000Z",
+          "sourceId": "bloomberg-ht"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:15:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:35:48.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b09eab308488df397511aa4.jpg",
+        "sourceId": "hurriyet",
+        "sourceName": "Hürriyet",
+        "articleUrl": "https://www.hurriyet.com.tr/gundem/2027-yili-butcesi-tbmm-plan-ve-butce-komisyonunda-kabul-edildi-43393698"
+      },
+      "sources": [
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/2027-yili-butcesi-tbmm-plan-ve-butce-komisyonunda-kabul-edildi-43393698",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/ekonomi/son-dakika-2027-butcesi-komisyondan-gecti-3930707",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/27/2027-butcesi-tbmm-plan-ve-butce-komisyonundan-gecti",
+          "confirms": true
+        },
+        {
+          "sourceId": "aa-tr",
+          "url": "https://www.aa.com.tr/tr/gundem/tbmm-plan-ve-butce-komisyonunda-2027-yili-merkezi-yonetim-butce-kanunu-teklifi-kabul-edildi/4140934",
+          "confirms": true
+        },
+        {
+          "sourceId": "bloomberg-ht",
+          "url": "https://www.bloomberght.com/2027-butcesi-komisyondan-gecti-3795986",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/2027-yili-butcesi-plan-ve-butce-komisyonu-nda-kabul-edildi-arastirma-universitelerine-500-milyon-esnafa-33-milyar-tl-ek-odenek-ilave-edildi-2560057",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/27/2027-yili-butcesi-arastirma-universitelerine-500-milyon-ek-odenek/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T07:30:00+03:00",
+      "updatedAt": "2026-11-28T07:30:00+03:00"
+    },
+    {
+      "id": "9476c9b0ac726d6d",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Özel promises candidacy news 4 December",
+          "title": "Özel to answer presidential candidacy questions on 4 December",
+          "summary": {
+            "what": "YENİ Parti leader Özgür Özel said he would hold a press conference in Ankara next Friday on whether the opposition’s presidential candidate will change.",
+            "why": "The Council of State upheld the cancellation of jailed mayor Ekrem İmamoğlu’s university diploma on 25 November, blocking his path to the ballot.",
+            "next": "Özel said “all of Türkiye will be talking about something else” after the 4 December announcement."
+          },
+          "body": [
+            {
+              "subhead": "A date, but no name",
+              "blocks": [
+                {
+                  "text": "Özgür Özel, leader of YENİ Parti, said on Friday night that he would answer the questions of whether the opposition’s presidential candidate will change and who a new one could be at a press conference in Ankara on 4 December, Diken and BBC Türkçe reported. He was speaking to journalists live on Koza TV."
+                },
+                {
+                  "quote": "I am not going to use up the surprise of the meeting now. Let everyone wait for that meeting. The full answer to the question is there.",
+                  "speaker": "Özgür Özel, YENİ Parti leader",
+                  "sourceId": "sabah",
+                  "translated": true
+                },
+                {
+                  "text": "Özel said the announcement would keep the country’s agenda busy for a long time, Sabah reported, and told Koza TV that “all of Türkiye will be talking about something else” a week from Friday, according to Euronews Türkçe."
+                }
+              ]
+            },
+            {
+              "subhead": "İmamoğlu’s blocked path",
+              "blocks": [
+                {
+                  "text": "Ekrem İmamoğlu, the Istanbul mayor who has been jailed and removed from office since March 2025, was chosen as the presidential candidate in a primary that Özel held as leader of the CHP. Özel told Koza TV that more than 15 million people had voted for him, BBC Türkçe reported, and that “Özgür Özel cannot change the candidate, the party cannot change the candidate, the nation can.”"
+                },
+                {
+                  "text": "The Council of State unanimously rejected İmamoğlu’s appeal against the cancellation of his Istanbul University degree on 25 November, BBC Türkçe said, a ruling Diken described as blocking his presidential candidacy. An Ankara court also sentenced him and eight others on 18 November to two years and one month in prison with a political ban in the case over the CHP’s 38th congress, and a separate 2022 sentence for calling election board members “fools” is pending at the Court of Cassation, Diken reported."
+                }
+              ]
+            },
+            {
+              "subhead": "Early election talk",
+              "blocks": [
+                {
+                  "text": "Özel said YENİ Parti, which held its founding congress on 15 November, cannot run in an election held before 15 May, but that it had a fallback for candidates to run on another party’s list, Euronews Türkçe and Diken reported. He said that if it were up to him the election would be held in 60 days, and that Erdoğan could not win under current economic conditions."
+                },
+                {
+                  "text": "He added that YENİ Parti would not treat any election held in 2028 as an early election. Özel also criticised the detention of journalists and said that, apart from Koza TV, almost no national news channel was left where the opposition could be heard, Cumhuriyet reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Press conference in Ankara",
+              "value": "4 Dec",
+              "source": "Özgür Özel, via BBC Türkçe"
+            },
+            {
+              "label": "Primary voters for İmamoğlu",
+              "value": "15m+",
+              "source": "Özgür Özel, via BBC Türkçe"
+            },
+            {
+              "label": "YENİ Parti can run from",
+              "value": "15 May",
+              "source": "Özgür Özel, via Euronews Türkçe"
+            },
+            {
+              "label": "Diploma appeal rejected",
+              "value": "25 Nov",
+              "source": "BBC Türkçe"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Özel aday açıklaması için tarih verdi",
+          "title": "Özel, cumhurbaşkanı adayıyla ilgili açıklamayı 4 Aralık’ta yapacak",
+          "summary": {
+            "what": "YENİ Parti Genel Başkanı Özgür Özel, adayın değişip değişmeyeceği sorusunu gelecek cuma Ankara’da yapacağı basın toplantısında yanıtlayacağını söyledi.",
+            "why": "Danıştay 25 Kasım’da tutuklu İBB Başkanı Ekrem İmamoğlu’nun diplomasının iptalini onayarak adaylığının önüne engel koydu.",
+            "next": "Özel, 4 Aralık’taki açıklamanın ardından “tüm Türkiye başka bir şey konuşuyor olacak” dedi."
+          },
+          "body": [
+            {
+              "subhead": "Tarih var, isim yok",
+              "blocks": [
+                {
+                  "text": "Diken ve BBC Türkçe’nin haberine göre YENİ Parti Genel Başkanı Özgür Özel, cuma akşamı Koza TV’de gazetecilerin sorularını yanıtlarken “Cumhurbaşkanı adayı değişecek mi, yeni aday kim olabilir” sorularına 4 Aralık’ta Ankara’da yapacağı basın toplantısında yanıt vereceğini açıkladı."
+                },
+                {
+                  "quote": "Toplantının sürpriz etkisini şu an tüketmeyeceğim. O toplantıyı herkes beklesin. Sorunun tam cevabı orada.",
+                  "speaker": "Özgür Özel, YENİ Parti Genel Başkanı",
+                  "sourceId": "sabah"
+                },
+                {
+                  "text": "Sabah’a göre Özel, toplantının ülke gündemini uzun süre meşgul edeceğini söyledi; Euronews Türkçe’nin aktardığına göre de “Tüm Türkiye haftaya bugün başka bir şey konuşuyor olacak” dedi."
+                }
+              ]
+            },
+            {
+              "subhead": "İmamoğlu’nun önündeki engel",
+              "blocks": [
+                {
+                  "text": "Mart 2025’ten bu yana tutuklu olan ve İBB Başkanlığı görevinden uzaklaştırılan Ekrem İmamoğlu, Özel’in CHP genel başkanıyken düzenlediği ön seçimle cumhurbaşkanı adayı belirlenmişti. BBC Türkçe’ye göre Özel, İmamoğlu’nun 15 milyondan fazla kişinin oyuyla aday olduğunu hatırlattı: “Özgür Özel aday değiştiremez. Parti aday değiştiremez. Millet aday değiştirebilir.”"
+                },
+                {
+                  "text": "BBC Türkçe’nin haberine göre Danıştay 8. Dairesi, 25 Kasım’da İmamoğlu’nun İstanbul Üniversitesi diplomasının iptaline karşı temyiz başvurusunu oybirliğiyle reddetti; Diken bu kararın adaylığın önüne engel koyduğunu yazdı. Diken’e göre Ankara’da bir mahkeme 18 Kasım’da CHP 38. Olağan Kurultayı davasında İmamoğlu dahil 9 kişiye 2 yıl 1’er ay hapis ve siyasi yasak verdi; YSK üyelerine “ahmak” dediği gerekçesiyle 2022’de verilen ceza ise Yargıtay’da bekliyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Erken seçim tartışması",
+              "blocks": [
+                {
+                  "text": "Euronews Türkçe ve Diken’e göre Özel, 15 Kasım’da kurultayını yapan YENİ Parti’nin 15 Mayıs’tan önce yapılacak bir seçime giremeyeceğini, ancak adayların başka bir partiden seçime girebileceği bir tedbirleri olduğunu söyledi. Kendisine sorulsa seçimin 60 gün sonra yapılmasını istediğini, bu ekonomik şartlarda Erdoğan’ın kazanma şansı olmadığını savundu."
+                },
+                {
+                  "text": "Özel, 2028’de yapılacak bir seçimi erken seçim saymayacaklarını da ekledi. Cumhuriyet’e göre gazetecilere yönelik gözaltıları da eleştiren Özel, Koza TV dışında muhalefetin sesini duyurabileceği ulusal haber kanalı neredeyse kalmadığını söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ankara’daki basın toplantısı",
+              "value": "4 Aralık",
+              "source": "Özgür Özel, BBC Türkçe"
+            },
+            {
+              "label": "İmamoğlu’na ön seçimde oy",
+              "value": "15 milyon+",
+              "source": "Özgür Özel, BBC Türkçe"
+            },
+            {
+              "label": "YENİ Parti seçime girebilir",
+              "value": "15 Mayıs",
+              "source": "Özgür Özel, Euronews Türkçe"
+            },
+            {
+              "label": "Diploma temyizi reddedildi",
+              "value": "25 Kasım",
+              "source": "BBC Türkçe"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T17:12:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T18:33:51.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T18:33:51.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T18:44:17.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:16:40.000Z",
+          "sourceId": "bbc-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T20:21:38.000Z",
+          "sourceId": "sabah"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T21:47:11.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/a2cf8bb3-c612-4099-9fbd-6c4f61b039c1.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/ozgur-ozel-canli-yayinda-dikkat-ceken-fatma-betul-sayan-kaya-sozleri-2560021"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/ozgur-ozel-canli-yayinda-dikkat-ceken-fatma-betul-sayan-kaya-sozleri-2560021",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/ozel-yeni-partinin-cumhurbaskani-adayini-4-aralikta-aciklayabilir/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/27/ozgur-ozel-turkiye-haftaya-bugun-baska-bir-sey-konusuyor-olacak",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-turkce",
+          "url": "https://www.bbc.com/turkce/articles/cmpqrvg1g0r5o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/gundem/2026/11/27/ozgur-ozelden-cumhurbaskanligi-adayligi-cikisi-cok-onemli-bir-aciklama-yapacagim",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/28/ozgur-ozel-fon-sistemi-ibb-ve-feto-borsasini-aklamak-icin/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T07:30:00+03:00",
+      "updatedAt": "2026-11-28T07:30:00+03:00"
+    },
+    {
+      "id": "eadaf135872f6871",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "OpenAI countersues Apple over secrets",
+          "title": "OpenAI countersues Apple, accusing it of stealing hardware secrets",
+          "summary": {
+            "what": "OpenAI filed counterclaims against Apple in a California federal court, accusing it of stealing trade secrets and pressing suppliers not to work on OpenAI devices.",
+            "why": "The case is a fight over who controls future AI devices, which OpenAI says could “outcompete Apple on what Apple views as its own turf”.",
+            "next": "Apple called the counterclaims a distraction; its own July lawsuit against OpenAI and two former employees continues."
+          },
+          "body": [
+            {
+              "subhead": "A suit answered with a suit",
+              "blocks": [
+                {
+                  "text": "OpenAI sued Apple on Friday, filing counterclaims in federal court in northern California that accuse the iPhone maker of stealing its trade secrets and discouraging hardware suppliers from working on future OpenAI devices, the Guardian reported. The filing answers a lawsuit Apple brought in July against OpenAI and two former Apple employees, Tang Tan and Chang Liu, alleging that they misappropriated Apple’s trade secrets to help the ChatGPT maker build consumer hardware."
+                },
+                {
+                  "text": "Tan, who spent 24 years at Apple and was vice-president of product design for the iPhone and Apple Watch, was part of the group that launched the AI device start-up io Products before OpenAI acquired it in 2025, the Guardian said. OpenAI and the employees have denied Apple’s allegations."
+                }
+              ]
+            },
+            {
+              "subhead": "The rehired engineer",
+              "blocks": [
+                {
+                  "text": "At the heart of OpenAI’s filing is a former employee who worked at OpenAI for six months and was then hired back by Apple, Al Jazeera reported. In that time, OpenAI says, he gained access to specific information on a new device and to its roadmap for future hardware products."
+                },
+                {
+                  "quote": "Given the timing, it now appears that stealing those documents may have been his reason for joining OpenAI in the first place.",
+                  "speaker": "OpenAI court filing",
+                  "sourceId": "al-jazeera"
+                },
+                {
+                  "text": "OpenAI also accuses Apple of encouraging staff to work on their personal Apple devices and accounts and then making it hard to separate the two when they leave. It says Apple keeps accessing former employees’ devices and accounts so that it can “monitor and ensnare departing employees”. According to the filing, 400 employees have left Apple for OpenAI so far, and Apple wants to intimidate others from following."
+                }
+              ]
+            },
+            {
+              "subhead": "Apple: a distraction",
+              "blocks": [
+                {
+                  "text": "Apple denied using the rehired employee to reach OpenAI’s confidential information and denied trying to suppress competition in AI device manufacturing, the Guardian reported."
+                },
+                {
+                  "quote": "OpenAI’s counterclaims are a transparent attempt to distract from the substance of Apple’s lawsuit.",
+                  "speaker": "Apple statement",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "OpenAI and the employees have argued that Apple’s case depended on unauthorised monitoring of Liu’s personal messages after he left the company. The litigation sets up a battle over who will control future AI devices that may not rely on traditional apps or operating systems, and that could draw attention away from the iPhone, Al Jazeera reported. Analysts believe OpenAI is working on a phone or another device of its own."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Staff who left Apple for OpenAI",
+              "value": "400",
+              "source": "OpenAI filing, via Al Jazeera"
+            },
+            {
+              "label": "Rehired engineer’s time at OpenAI",
+              "value": "6 months",
+              "source": "OpenAI filing, via the Guardian"
+            },
+            {
+              "label": "Tan’s years at Apple",
+              "value": "24",
+              "source": "The Guardian"
+            },
+            {
+              "label": "OpenAI bought io Products",
+              "value": "2025",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "OpenAI, Apple’a karşı dava açtı",
+          "title": "OpenAI, donanım sırlarını çaldığı iddiasıyla Apple’a karşı dava açtı",
+          "summary": {
+            "what": "OpenAI, Kaliforniya’daki federal mahkemede Apple’ı ticari sırlarını çalmak ve tedarikçileri OpenAI cihazlarından uzak tutmakla suçlayan karşı dava açtı.",
+            "why": "Dava, geleceğin yapay zekâ cihazlarını kimin kontrol edeceği kavgası; OpenAI cihazlarının Apple’ı “kendi sahasında” geçebileceğini savunuyor.",
+            "next": "Apple karşı davayı dikkat dağıtma girişimi diye niteledi; OpenAI ve iki eski çalışana karşı temmuzda açtığı dava sürüyor."
+          },
+          "body": [
+            {
+              "subhead": "Davaya karşı dava",
+              "blocks": [
+                {
+                  "text": "The Guardian’ın haberine göre OpenAI cuma günü Kuzey Kaliforniya’daki federal mahkemeye karşı dava dilekçesi vererek iPhone üreticisini ticari sırlarını çalmak ve donanım tedarikçilerini gelecekteki OpenAI cihazları üzerinde çalışmaktan caydırmakla suçladı. Dilekçe, Apple’ın temmuzda OpenAI ile iki eski Apple çalışanı Tang Tan ve Chang Liu’ya karşı açtığı davaya yanıt niteliğinde. Apple, ikilinin ChatGPT’nin yapımcısının tüketici donanımı girişimine yardım etmek için şirketin ticari sırlarını kötüye kullandığını iddia ediyor."
+                },
+                {
+                  "text": "The Guardian’a göre Apple’da 24 yıl çalışan ve iPhone ile Apple Watch’un ürün tasarımından sorumlu başkan yardımcısı olan Tan, OpenAI’ın 2025’te satın aldığı yapay zekâ cihazı girişimi io Products’ı kuran ekipteydi. OpenAI ve çalışanlar Apple’ın iddialarını reddediyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Geri dönen mühendis",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ye göre OpenAI’ın dilekçesinin merkezinde, şirkette altı ay çalıştıktan sonra Apple’ın yeniden işe aldığı eski bir çalışan var. OpenAI’a göre bu kişi o sürede yeni bir cihaza ilişkin belirli bilgilere ve şirketin gelecekteki donanım ürünleri yol haritasına erişti."
+                },
+                {
+                  "quote": "Zamanlamaya bakılırsa, o belgeleri çalmak en başta OpenAI’a katılma nedeni olabilir.",
+                  "speaker": "OpenAI’ın mahkeme dilekçesi",
+                  "sourceId": "al-jazeera",
+                  "translated": true
+                },
+                {
+                  "text": "OpenAI ayrıca Apple’ı, çalışanlarını kişisel Apple cihaz ve hesaplarında iş yapmaya teşvik edip ayrılırken bunları birbirinden ayırmalarını zorlaştırmakla suçluyor. Şirkete göre Apple, eski çalışanlarının cihaz ve hesaplarına erişmeye devam ederek rakiplere geçenleri “izleyip tuzağa düşürüyor”. Dilekçeye göre bugüne kadar 400 çalışan Apple’dan OpenAI’a geçti ve Apple diğerlerini yıldırmak istiyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Apple: Dikkat dağıtma girişimi",
+              "blocks": [
+                {
+                  "text": "The Guardian’a göre Apple, yeniden işe aldığı çalışan aracılığıyla OpenAI’ın gizli bilgilerine ulaştığını ve yapay zekâ cihazı üretiminde rekabeti bastırmaya çalıştığını reddetti."
+                },
+                {
+                  "quote": "OpenAI’ın karşı davası, Apple’ın davasının özünden dikkati dağıtmaya yönelik şeffaf bir girişim.",
+                  "speaker": "Apple açıklaması",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "OpenAI ve çalışanlar, Apple’ın davasının Liu şirketten ayrıldıktan sonra kişisel mesajlarının izinsiz izlenmesine dayandığını savunuyor. Al Jazeera’ye göre dava, geleneksel uygulama ya da işletim sistemi kullanmayabilecek ve iPhone’dan ilgiyi çekebilecek yapay zekâ cihazlarını kimin kontrol edeceği üzerine bir savaşın habercisi. Analistler OpenAI’ın kendi telefonu ya da başka bir cihaz üzerinde çalıştığını düşünüyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Apple’dan OpenAI’a geçen çalışan",
+              "value": "400",
+              "source": "OpenAI dilekçesi, Al Jazeera"
+            },
+            {
+              "label": "Mühendisin OpenAI’daki süresi",
+              "value": "6 ay",
+              "source": "OpenAI dilekçesi, The Guardian"
+            },
+            {
+              "label": "Tan’ın Apple’daki yılı",
+              "value": "24",
+              "source": "The Guardian"
+            },
+            {
+              "label": "OpenAI io Products’ı aldı",
+              "value": "2025",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T20:40:51.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T23:28:50.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T23:28:50.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T07:30:00+03:00",
+      "updatedAt": "2026-11-28T07:30:00+03:00"
+    },
+    {
+      "id": "f176d32166e6d2ef",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Ukraine offers a Black Sea ceasefire",
+          "title": "Ukraine offers a Black Sea ceasefire to restart grain exports",
+          "summary": {
+            "what": "Foreign Minister Andrii Sybiha said Kyiv had passed a Black Sea ceasefire offer to allies and was waiting for Moscow’s answer.",
+            "why": "Shipments from the Odesa ports, which handled about 90% of Ukraine’s farm and metal exports, have all but stopped since late July.",
+            "next": "Russia wants oil included in the truce; Kyiv says that belongs in a wider energy ceasefire, and Putin has ruled out a strikes moratorium."
+          },
+          "body": [
+            {
+              "subhead": "The offer",
+              "blocks": [
+                {
+                  "text": "Ukraine has made an offer of a ceasefire in the Black Sea so that food exports can resume, and has passed the details to international allies, Foreign Minister Andrii Sybiha said on Friday at the fifth Food from Ukraine conference, France 24 reported. He said Kyiv was ready to restore freedom of navigation and keep farm exports moving, according to Al Jazeera."
+                },
+                {
+                  "quote": "We are ready for a ceasefire. We are grateful to India, Turkey, and Egypt, which are playing an active and important role in de-escalating tensions in the Black Sea, as well as in mediation efforts. We are now awaiting a response from Russia.",
+                  "speaker": "Andrii Sybiha, Ukrainian foreign minister, cited by Suspilne",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "Sybiha said Russia had asked Ukraine to stop attacking the Russian oil sector as part of the truce, but Kyiv would consider that only within a broader energy ceasefire, France 24 reported. He accused Moscow of repeatedly answering Kyiv’s proposals with “unrealistic demands”, Al Jazeera said, citing Suspilne."
+                }
+              ]
+            },
+            {
+              "subhead": "Ports that have gone quiet",
+              "blocks": [
+                {
+                  "text": "The offer came a day after Russia attacked two foreign cargo ships carrying more than 100,000 tonnes of grain near Odesa, according to Prime Minister Sergiy Koretskyi, France 24 reported. Ukraine says shipments from its main ports around Odesa have all but stopped since late July, when Russia stepped up attacks on grain terminals and merchant ships. Before that, the three ports of the Odesa hub handled about 90% of the country’s agricultural and metallurgical exports."
+                },
+                {
+                  "text": "A UN- and Türkiye-brokered deal let Ukrainian grain sail after the 2022 invasion until Moscow quit it in July 2023, Al Jazeera recalled. In August, Reuters reported that Ukrainian grain exports had fallen 76% year on year. On 31 October, US Secretary of State Marco Rubio said Washington was reviewing proposals from Türkiye and India for uninterrupted grain and energy shipments."
+                }
+              ]
+            },
+            {
+              "subhead": "Moscow’s position",
+              "blocks": [
+                {
+                  "text": "At the APEC summit in Shenzhen last week, Vladimir Putin said Moscow would no longer consider a moratorium on strikes in the Black Sea or on energy infrastructure, after Ukraine hit the Kerch Strait bridge to Crimea three times in a week, France 24 reported."
+                },
+                {
+                  "text": "The offer came as Volodymyr Zelensky told the BBC it was “strange” for Donald Trump to call Putin “my friend”. Kremlin spokesman Dmitry Peskov said Zelensky was “insulting his counterpart”, according to France 24."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Grain on the two ships hit",
+              "value": "100,000+ t",
+              "source": "Sergiy Koretskyi, via France 24"
+            },
+            {
+              "label": "Odesa hub’s share of exports",
+              "value": "90%",
+              "source": "France 24"
+            },
+            {
+              "label": "Fall in grain exports (August)",
+              "value": "76%",
+              "source": "Reuters, via Al Jazeera"
+            },
+            {
+              "label": "Russia quit the grain deal",
+              "value": "Jul 2023",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Odesa",
+            "region": "Ukraine",
+            "lat": 46.48,
+            "lon": 30.72
+          }
+        },
+        "tr": {
+          "shortTitle": "Ukrayna’dan Karadeniz’de ateşkes teklifi",
+          "title": "Ukrayna, tahıl ihracatı için Karadeniz’de ateşkes teklif etti",
+          "summary": {
+            "what": "Dışişleri Bakanı Andriy Sibiga, Kiev’in Karadeniz ateşkes teklifini müttefiklere ilettiğini ve Moskova’nın yanıtını beklediğini söyledi.",
+            "why": "Ukrayna’nın tarım ve metal ihracatının yaklaşık yüzde 90’ını taşıyan Odesa limanlarından sevkiyat temmuz sonundan beri neredeyse durdu.",
+            "next": "Rusya petrolün de ateşkese girmesini istiyor; Kiev bunu daha geniş bir enerji ateşkesine bırakıyor, Putin ise saldırılara moratoryumu reddetti."
+          },
+          "body": [
+            {
+              "subhead": "Teklif",
+              "blocks": [
+                {
+                  "text": "France 24’ün haberine göre Ukrayna Dışişleri Bakanı Andriy Sibiga, cuma günü 5. Uluslararası Food from Ukraine konferansında, gıda ihracatının yeniden başlaması için Karadeniz’de ateşkes teklif ettiklerini ve ayrıntıları uluslararası müttefiklere ilettiklerini söyledi. Al Jazeera’ye göre Sibiga, Kiev’in seyrüsefer serbestisini yeniden sağlamaya ve tarım ihracatını kesintisiz sürdürmeye hazır olduğunu belirtti."
+                },
+                {
+                  "quote": "Ateşkese hazırız. Karadeniz’deki gerilimin azaltılmasında ve arabuluculuk çabalarında etkin ve önemli rol oynayan Hindistan’a, Türkiye’ye ve Mısır’a minnettarız. Şimdi Rusya’dan yanıt bekliyoruz.",
+                  "speaker": "Andriy Sibiga, Ukrayna Dışişleri Bakanı (Suspilne’nin aktardığı)",
+                  "sourceId": "france-24",
+                  "translated": true
+                },
+                {
+                  "text": "France 24’e göre Sibiga, Rusya’nın ateşkes kapsamında Ukrayna’dan Rus petrol sektörüne saldırıları durdurmasını istediğini, Kiev’in bunu ancak daha geniş bir enerji ateşkesi içinde değerlendireceğini söyledi. Al Jazeera’nin Suspilne’ye dayandırdığı habere göre Sibiga, Moskova’yı Kiev’in önerilerine tekrar tekrar “gerçekçi olmayan taleplerle” karşılık vermekle suçladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Sessizleşen limanlar",
+              "blocks": [
+                {
+                  "text": "France 24’e göre teklif, Başbakan Serhiy Koretskiy’nin açıklamasına göre Rusya’nın Odesa yakınlarında 100 bin tondan fazla tahıl taşıyan iki yabancı yük gemisine saldırmasından bir gün sonra geldi. Ukrayna, Rusya’nın tahıl terminallerine ve ticari gemilere saldırılarını artırdığı temmuz sonundan bu yana Odesa çevresindeki ana limanlardan sevkiyatın neredeyse durduğunu söylüyor. Bu tırmanıştan önce Odesa’daki üç liman, ülkenin tarım ve metal ihracatının yaklaşık yüzde 90’ını taşıyordu."
+                },
+                {
+                  "text": "Al Jazeera, BM ve Türkiye’nin arabuluculuğuyla varılan anlaşmanın 2022’deki işgalden sonra Ukrayna tahılının yola çıkmasını sağladığını, Moskova’nın ise Temmuz 2023’te anlaşmadan çekildiğini hatırlattı. Reuters ağustosta Ukrayna’nın tahıl ihracatının yıllık bazda yüzde 76 düştüğünü bildirmişti. ABD Dışişleri Bakanı Marco Rubio da 31 Ekim’de Washington’un Türkiye ve Hindistan’ın kesintisiz tahıl ve enerji sevkiyatı önerilerini incelediğini söylemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Moskova’nın tutumu",
+              "blocks": [
+                {
+                  "text": "France 24’e göre Vladimir Putin, geçen hafta Shenzhen’deki APEC zirvesinde, Ukrayna’nın Kırım’a uzanan Kerç Boğazı köprüsünü bir haftada üç kez vurmasının ardından Moskova’nın artık Karadeniz’de ya da enerji altyapısında saldırılara moratoryumu değerlendirmeyeceğini söyledi."
+                },
+                {
+                  "text": "Teklif, Volodimir Zelenski’nin BBC’ye Donald Trump’ın Putin’e “dostum” demesini “tuhaf” bulduğunu söylediği güne denk geldi. France 24’e göre Kremlin Sözcüsü Dmitriy Peskov, Zelenski’nin “muhatabına hakaret ettiğini” söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Vurulan iki gemideki tahıl",
+              "value": "100 bin ton+",
+              "source": "Serhiy Koretskiy, France 24"
+            },
+            {
+              "label": "Odesa limanlarının ihracat payı",
+              "value": "%90",
+              "source": "France 24"
+            },
+            {
+              "label": "Tahıl ihracatındaki düşüş (ağustos)",
+              "value": "%76",
+              "source": "Reuters, Al Jazeera"
+            },
+            {
+              "label": "Rusya tahıl anlaşmasından çekildi",
+              "value": "Temmuz 2023",
+              "source": "Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Odesa",
+            "region": "Ukrayna",
+            "lat": 46.48,
+            "lon": 30.72
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T17:44:33.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T21:09:12.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T21:09:12.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/62fe879a-ea9e-11f1-912c-174dac1c1bf0/w:1024/p:16x9/AP26200564414743.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T07:30:00+03:00",
+      "updatedAt": "2026-11-28T07:30:00+03:00"
+    },
+    {
+      "id": "60bd6b1a9655a231",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Kenyan cult leader convicted again",
+          "title": "Kenyan cult leader Paul Mackenzie convicted of 123 more deaths",
+          "summary": {
+            "what": "A court in Mombasa found Paul Mackenzie guilty of the manslaughter of 123 adult followers who fasted to death in Shakahola forest.",
+            "why": "Prosecutors called it the final conviction against the self-styled pastor, already jailed for 200 years for murdering 191 people.",
+            "next": "His lawyer said he would appeal after sentencing, and prosecutors plan to appeal the acquittal of 60 co-defendants."
+          },
+          "body": [
+            {
+              "subhead": "The verdict in Mombasa",
+              "blocks": [
+                {
+                  "text": "A court in the Kenyan coastal city of Mombasa on Friday convicted Paul Mackenzie, the leader of a doomsday Christian cult, of the manslaughter of 123 of his followers, the BBC reported. He was found guilty of ordering them, all adults, to fast to death in Shakahola forest near the coast between January 2021 and September 2023."
+                },
+                {
+                  "text": "Twenty-nine others were convicted with him, including his wife, Rhoda Mumbua Maweu, the BBC said, and 60 defendants were acquitted. The Director of Public Prosecutions indicated that it would appeal against those acquittals. Magistrate Alex Ithuku said Mackenzie “gave the directions to fast to death”, Al Jazeera reported, citing Reuters. Mackenzie had pleaded not guilty, and one of his lawyers said he would appeal after sentencing."
+                }
+              ]
+            },
+            {
+              "subhead": "The prosecution’s case",
+              "blocks": [
+                {
+                  "quote": "Children were to go first, then women and then men, with Mackenzie himself meant to die last.",
+                  "speaker": "Kenya’s Office of the Director of Public Prosecutions",
+                  "sourceId": "bbc-world"
+                },
+                {
+                  "text": "The office said the court found that Mackenzie had “systematically persuaded his followers to fast until they died”, and described Friday’s verdict as the final conviction in the cases against him, according to the BBC. The prosecution argued that he and his accomplices acted together in a suicide pact to fast to death in order to “meet Jesus”. The defendants claimed the victims had fasted of their own free will."
+                },
+                {
+                  "text": "On 6 November Mackenzie was sentenced to 200 years in prison for the murder of 191 people, 190 of them children, Al Jazeera reported. This week he was also convicted of child cruelty, assault, radicalisation and terrorism-related offences, and he is due to be sentenced on the cruelty and radicalisation charges in December, according to the Associated Press."
+                }
+              ]
+            },
+            {
+              "subhead": "From a Malindi church to the forest",
+              "blocks": [
+                {
+                  "text": "Mackenzie founded Good News International Ministries in 2003, and its sermons were broadcast from his church in the resort town of Malindi, the BBC reported. He preached that education, medicine and ornaments were sinful. After the main church shut in 2019, he moved to Shakahola forest and encouraged followers to join him."
+                },
+                {
+                  "text": "He was arrested in 2023 after a tip-off, and more than 400 bodies were later found in shallow graves in the forest. He had been arrested twice before over the deaths of children and released, Al Jazeera said. President William Ruto said in 2023 that he took responsibility as head of state for the failure to prevent the deaths."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Manslaughter convictions",
+              "value": "123",
+              "source": "BBC"
+            },
+            {
+              "label": "Co-defendants convicted",
+              "value": "29",
+              "source": "BBC"
+            },
+            {
+              "label": "Co-defendants acquitted",
+              "value": "60",
+              "source": "BBC"
+            },
+            {
+              "label": "Earlier sentence",
+              "value": "200 years",
+              "source": "BBC, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Mombasa",
+            "region": "Kenya",
+            "lat": -4.04,
+            "lon": 39.67
+          }
+        },
+        "tr": {
+          "shortTitle": "Kenyalı tarikat lideri yine mahkûm",
+          "title": "Kenyalı tarikat lideri Paul Mackenzie, 123 ölümden daha suçlu bulundu",
+          "summary": {
+            "what": "Mombasa’daki mahkeme, Paul Mackenzie’yi Shakahola ormanında açlıktan ölen 123 yetişkin müridinin ölümünden taksirle öldürme suçundan mahkûm etti.",
+            "why": "Savcılık bunu, 191 kişiyi öldürmekten 200 yıl hapis cezası alan kendinden menkul papaza karşı son mahkûmiyet olarak niteledi.",
+            "next": "Avukatı karar açıklandıktan sonra itiraz edeceğini söyledi; savcılık da 60 sanığın beraatine itiraz edecek."
+          },
+          "body": [
+            {
+              "subhead": "Mombasa’da karar",
+              "blocks": [
+                {
+                  "text": "BBC’nin haberine göre Kenya’nın kıyı kenti Mombasa’daki bir mahkeme cuma günü kıyamet beklentili bir Hristiyan tarikatının lideri Paul Mackenzie’yi 123 müridinin ölümünden taksirle öldürme suçundan mahkûm etti. Mackenzie, Ocak 2021 ile Eylül 2023 arasında hepsi yetişkin olan müritlerine kıyıya yakın Shakahola ormanında ölene kadar oruç tutmalarını emretmekten suçlu bulundu."
+                },
+                {
+                  "text": "BBC’ye göre eşi Rhoda Mumbua Maweu dahil 29 kişi de mahkûm edildi, 60 sanık beraat etti; Kamu Savcılığı beraat kararlarına itiraz edeceğini bildirdi. Al Jazeera’nin Reuters’a dayandırdığı habere göre Hâkim Alex Ithuku, Mackenzie’nin “ölene kadar oruç tutma talimatını verdiğini” söyledi. Suçlamaları reddeden Mackenzie’nin avukatlarından biri, ceza açıklandıktan sonra itiraz edeceklerini söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Savcılığın anlattığı",
+              "blocks": [
+                {
+                  "quote": "Önce çocuklar, sonra kadınlar, sonra erkekler gidecekti; Mackenzie’nin kendisi en son ölecekti.",
+                  "speaker": "Kenya Kamu Savcılığı",
+                  "sourceId": "bbc-world",
+                  "translated": true
+                },
+                {
+                  "text": "BBC’ye göre savcılık, mahkemenin Mackenzie’nin “müritlerini ölene kadar oruç tutmaya sistematik biçimde ikna ettiğine” hükmettiğini açıkladı ve kararı ona karşı açılan davalardaki son mahkûmiyet olarak niteledi. İddia makamı, Mackenzie ile suç ortaklarının “İsa’ya kavuşmak” için ölene dek oruç tutmaya yönelik bir intihar paktı içinde hareket ettiğini savundu. Sanıklar ise kurbanların kendi iradeleriyle oruç tuttuğunu öne sürdü."
+                },
+                {
+                  "text": "Al Jazeera’ye göre Mackenzie 6 Kasım’da 190’ı çocuk 191 kişiyi öldürmekten 200 yıl hapse çarptırılmıştı. Bu hafta çocuğa eziyet, darp, radikalleştirme ve terörle bağlantılı suçlardan da mahkûm edildi; Associated Press’e göre eziyet ve radikalleştirme suçlamalarındaki cezası aralıkta açıklanacak."
+                }
+              ]
+            },
+            {
+              "subhead": "Malindi’deki kiliseden ormana",
+              "blocks": [
+                {
+                  "text": "BBC’ye göre Mackenzie, Good News International Ministries’i 2003’te kurdu; vaazları tatil kenti Malindi’deki kilisesinden yayınlanıyordu. Eğitimin, ilacın ve süs eşyalarının günah olduğunu vaaz ediyordu. Ana kilise 2019’da kapanınca Shakahola ormanına taşındı ve müritlerini de oraya çağırdı."
+                },
+                {
+                  "text": "Bir ihbar üzerine 2023’te tutuklandı; ardından ormandaki sığ mezarlarda 400’den fazla ceset bulundu. Al Jazeera’ye göre daha önce de iki kez çocuk ölümleri nedeniyle gözaltına alınıp serbest bırakılmıştı. Devlet Başkanı William Ruto 2023’te, ölümlerin önlenememesinin sorumluluğunu devlet başkanı olarak üstlendiğini söylemişti."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Taksirle öldürme mahkûmiyeti",
+              "value": "123",
+              "source": "BBC"
+            },
+            {
+              "label": "Mahkûm edilen diğer sanık",
+              "value": "29",
+              "source": "BBC"
+            },
+            {
+              "label": "Beraat eden sanık",
+              "value": "60",
+              "source": "BBC"
+            },
+            {
+              "label": "Önceki ceza",
+              "value": "200 yıl",
+              "source": "BBC, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Mombasa",
+            "region": "Kenya",
+            "lat": -4.04,
+            "lon": 39.67
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-27T17:19:31.000Z",
+          "sourceId": "bbc-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-27T22:33:17.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-27T22:33:17.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T07:30:00+03:00",
+      "updatedAt": "2026-11-28T07:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "dcd91d36ca9a498a",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "How far was the stuck van from where searchers near Yedigöller were focusing?",
+          "options": ["10 km", "2 km", "30 km"]
+        },
+        "tr": {
+          "question": "Çamura saplanan araç, ekiplerin yoğunlaştığı noktaya ne kadar uzaktaydı?",
+          "options": ["10 km", "2 km", "30 km"]
+        }
+      }
+    },
+    {
+      "storyId": "a1c3b419f1e28f8a",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "How much was added to the 2027 budget for low-cost loans to small traders?",
+          "options": ["₺500m", "₺199bn", "₺33bn"]
+        },
+        "tr": {
+          "question": "2027 bütçesine esnafa uygun koşullu kredi için ne kadar ek ödenek eklendi?",
+          "options": ["500 milyon ₺", "199 milyar ₺", "33 milyar ₺"]
+        }
+      }
+    },
+    {
+      "storyId": "eadaf135872f6871",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many employees have left Apple for OpenAI so far, according to OpenAI’s filing?",
+          "options": ["400", "40", "4,000"]
+        },
+        "tr": {
+          "question": "OpenAI’ın dilekçesine göre bugüne kadar kaç çalışan Apple’dan OpenAI’a geçti?",
+          "options": ["400", "40", "4.000"]
+        }
+      }
+    }
+  ]
+}
