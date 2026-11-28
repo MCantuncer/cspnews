@@ -84,9 +84,9 @@
           ],
           "place": {
             "name": "Yedigöller",
-            "region": "Bolu, Türkiye",
             "lat": 40.94,
-            "lon": 31.75
+            "lon": 31.75,
+            "region": "Bolu, Türkiye"
           }
         },
         "tr": {
@@ -161,9 +161,9 @@
           ],
           "place": {
             "name": "Yedigöller",
-            "region": "Bolu, Türkiye",
             "lat": 40.94,
-            "lon": 31.75
+            "lon": 31.75,
+            "region": "Bolu, Türkiye"
           }
         }
       },
@@ -486,7 +486,7 @@
         }
       ],
       "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6b09eab308488df397511aa4.jpg",
+        "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b09eab308488df397511aa4.jpg",
         "sourceId": "hurriyet",
         "sourceName": "Hürriyet",
         "articleUrl": "https://www.hurriyet.com.tr/gundem/2027-yili-butcesi-tbmm-plan-ve-butce-komisyonunda-kabul-edildi-43393698"
@@ -1036,9 +1036,9 @@
           ],
           "place": {
             "name": "Odesa",
-            "region": "Ukraine",
             "lat": 46.48,
-            "lon": 30.72
+            "lon": 30.72,
+            "region": "Ukraine"
           }
         },
         "tr": {
@@ -1114,9 +1114,9 @@
           ],
           "place": {
             "name": "Odesa",
-            "region": "Ukrayna",
             "lat": 46.48,
-            "lon": 30.72
+            "lon": 30.72,
+            "region": "Ukrayna"
           }
         }
       },
@@ -1238,9 +1238,9 @@
           ],
           "place": {
             "name": "Mombasa",
-            "region": "Kenya",
             "lat": -4.04,
-            "lon": 39.67
+            "lon": 39.67,
+            "region": "Kenya"
           }
         },
         "tr": {
@@ -1316,9 +1316,9 @@
           ],
           "place": {
             "name": "Mombasa",
-            "region": "Kenya",
             "lat": -4.04,
-            "lon": 39.67
+            "lon": 39.67,
+            "region": "Kenya"
           }
         }
       },
@@ -1403,6 +1403,209 @@
           "question": "OpenAI’ın dilekçesine göre bugüne kadar kaç çalışan Apple’dan OpenAI’a geçti?",
           "options": ["400", "40", "4.000"]
         }
+      }
+    }
+  ],
+  "tonight": [
+    {
+      "id": "espn-401909328",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["adem-bona"],
+      "name": {
+        "en": "Adem Bona",
+        "tr": "Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "short": "Pacers",
+        "ours": false,
+        "team": "indiana-pacers"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-28T00:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401909328"
+      },
+      "result": {
+        "home": 87,
+        "away": 111
+      },
+      "lines": [
+        {
+          "person": "adem-bona",
+          "points": 0,
+          "minutes": 14,
+          "rebounds": 3,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "id": "espn-401879226",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["altay-bayindir"],
+      "name": {
+        "en": "Altay Bayındır",
+        "tr": "Altay Bayındır"
+      },
+      "competition": {
+        "en": "Premier League",
+        "tr": "Premier Lig"
+      },
+      "home": {
+        "name": "Manchester United",
+        "short": "Man Utd",
+        "ours": true,
+        "team": "manchester-united"
+      },
+      "away": {
+        "name": "Brentford",
+        "ours": false,
+        "team": "brentford"
+      },
+      "startsAt": "2026-11-28T15:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/eng.1/401879226"
+      }
+    },
+    {
+      "id": "espn-401884726",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["can-uzun"],
+      "name": {
+        "en": "Can Uzun",
+        "tr": "Can Uzun"
+      },
+      "competition": {
+        "en": "Bundesliga",
+        "tr": "Bundesliga"
+      },
+      "home": {
+        "name": "VfB Stuttgart",
+        "short": "Stuttgart",
+        "ours": false,
+        "team": "vfb-stuttgart"
+      },
+      "away": {
+        "name": "Eintracht Frankfurt",
+        "short": "Frankfurt",
+        "ours": true,
+        "team": "eintracht-frankfurt"
+      },
+      "startsAt": "2026-11-28T17:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ger.1/401884726"
+      }
+    },
+    {
+      "id": "espn-401874977",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["hakan-calhanoglu"],
+      "name": {
+        "en": "Hakan Çalhanoğlu",
+        "tr": "Hakan Çalhanoğlu"
+      },
+      "competition": {
+        "en": "Serie A",
+        "tr": "Serie A"
+      },
+      "home": {
+        "name": "Internazionale",
+        "short": "Inter Milan",
+        "ours": true,
+        "team": "internazionale"
+      },
+      "away": {
+        "name": "Genoa",
+        "ours": false,
+        "team": "genoa"
+      },
+      "startsAt": "2026-11-28T19:45:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/ita.1/401874977"
+      }
+    },
+    {
+      "id": "espn-401882789",
+      "kind": "match",
+      "sport": "football",
+      "focus": "person",
+      "people": ["arda-guler"],
+      "name": {
+        "en": "Arda Güler",
+        "tr": "Arda Güler"
+      },
+      "competition": {
+        "en": "LaLiga",
+        "tr": "LaLiga"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "ours": true,
+        "team": "real-madrid"
+      },
+      "away": {
+        "name": "Alavés",
+        "ours": false,
+        "team": "alaves"
+      },
+      "startsAt": "2026-11-28T20:00:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "soccer/esp.1/401882789"
+      }
+    },
+    {
+      "id": "espn-401910050",
+      "kind": "match",
+      "sport": "basketball",
+      "focus": "person",
+      "people": ["alperen-sengun", "adem-bona"],
+      "name": {
+        "en": "Alperen Şengün, Adem Bona",
+        "tr": "Alperen Şengün, Adem Bona"
+      },
+      "competition": {
+        "en": "NBA",
+        "tr": "NBA"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "short": "Rockets",
+        "ours": true,
+        "team": "houston-rockets"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "short": "76ers",
+        "ours": true,
+        "team": "philadelphia-76ers"
+      },
+      "startsAt": "2026-11-29T01:30:00.000Z",
+      "live": {
+        "source": "espn",
+        "ref": "basketball/nba/401910050"
       }
     }
   ]
