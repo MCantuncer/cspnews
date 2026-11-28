@@ -1,0 +1,557 @@
+{
+  "date": "2026-11-28",
+  "publishAt": "2026-11-28T18:00:00+03:00",
+  "genres": {
+    "global": [
+      {
+        "id": "kanye-west-out-of-my-mind",
+        "title": "OUT OF MY MIND",
+        "artists": ["Kanye West"],
+        "released": "2026-11-20",
+        "kind": "new",
+        "reason": {
+          "en": "Out 8 days and number 1 on Apple Music's US Hip-Hop/Rap chart; it also sits at 21 on the Türkiye rap chart.",
+          "tr": "Çıkalı 8 gün oldu, Apple Music ABD Hip-Hop/Rap listesinde 1 numara; Türkiye rap listesinde de 21. sırada."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 69,
+            "chart": "Apple Music US most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 1,
+            "chart": "Apple Music US Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 21,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/54/13/8d5413f8-e1a5-8616-5f3f-89e29f057b7a/712132285483_cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/55/3f/56553f71-eb26-6de0-c54b-897572061130/mzaf_7427406232121307094.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Kanye%20West%20OUT%20OF%20MY%20MIND",
+          "appleMusic": "https://music.apple.com/us/album/out-of-my-mind/6833936896?i=6833936898"
+        }
+      },
+      {
+        "id": "burden-dear-1776",
+        "title": "Dear 1776",
+        "artists": ["Burden"],
+        "released": "2026-11-27",
+        "kind": "new",
+        "reason": {
+          "en": "Out a day ago and already in at number 15 on Apple Music's US Hip-Hop/Rap chart.",
+          "tr": "Daha dün çıktı, Apple Music ABD Hip-Hop/Rap listesine şimdiden 15. sıradan girdi."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 15,
+            "chart": "Apple Music US Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/us/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/3c/85/9d3c85fb-8dbd-73df-af74-811b55236b71/artwork.jpg/600x600bb.png",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/73/08/377308e6-0038-44f6-ddce-3a29074deff4/mzaf_11215158555360737331.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Burden%20Dear%201776",
+          "appleMusic": "https://music.apple.com/us/album/dear-1776/6835761399"
+        }
+      },
+      {
+        "id": "the-notorious-b-i-g-juicy",
+        "title": "Juicy",
+        "artists": ["The Notorious B.I.G."],
+        "released": "1994-08-09",
+        "kind": "alltime",
+        "reason": {
+          "en": "Biggie's 1994 rags-to-riches flex over Mtume's Juicy Fruit, the debut single from Ready to Die.",
+          "tr": "Biggie'nin 1994'teki sıfırdan zirveye hikâyesi, Mtume'nin Juicy Fruit'i üstünde; Ready to Die'ın ilk single'ı."
+        },
+        "evidence": [],
+        "duration": 286,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/08/66/e3/0866e3ef-c111-c0a2-f18e-a10035a5bb07/dj.hpsoegav.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/6d/7f/f56d7f43-da8a-b3c0-4f3f-741fd52e8c5e/mzaf_3169077857080724107.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/The%20Notorious%20B.I.G.%20Juicy",
+          "appleMusic": "https://music.apple.com/us/album/juicy/217613303?i=217613305"
+        }
+      },
+      {
+        "id": "dr-dre-nuthin-but-a-g-thang",
+        "title": "Nuthin' but a \"G\" Thang",
+        "artists": ["Dr. Dre", "Snoop Doggy Dogg"],
+        "released": "2016-01-08",
+        "kind": "alltime",
+        "reason": {
+          "en": "Dre and a young Snoop trading laid-back bars over a Leon Haywood loop: the record that set the G-funk sound.",
+          "tr": "Dre ve genç Snoop, Leon Haywood döngüsü üstünde rahat rahat dize paslaşıyor; G-funk sesini kuran kayıt."
+        },
+        "evidence": [],
+        "duration": 236,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/19/b4a31958-0323-07de-dedc-38d321ee0f88/15UMGIM66228.rgb.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/23/47/da234798-c8dc-a0c6-ae99-cd29c054645e/mzaf_7675979424653060823.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Dr.%20Dre%20Nuthin%27%20but%20a%20%22G%22%20Thang",
+          "appleMusic": "https://music.apple.com/us/album/nuthin-but-a-g-thang-feat-snoop-dogg/1440835794?i=1440836236"
+        }
+      },
+      {
+        "id": "2pac-california-love",
+        "title": "California Love",
+        "artists": ["2Pac"],
+        "released": "1995-12-28",
+        "kind": "alltime",
+        "reason": {
+          "en": "Pac's 1995 comeback single with Dr. Dre and Roger Troutman's talk box, a West Coast party record.",
+          "tr": "Pac'in 1995'teki dönüş single'ı; Dr. Dre ve Roger Troutman'ın talk box'ı ile bir West Coast parti kaydı."
+        },
+        "evidence": [],
+        "duration": 286,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/00/89/720089d8-c063-a323-e0cc-de921e50b968/00602527051789.rgb.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/70/83/62708320-c29a-05c1-444e-f54a4dc11b78/mzaf_180909787822676774.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/2Pac%20California%20Love",
+          "appleMusic": "https://music.apple.com/us/album/california-love-feat-roger-troutman-dr-dre/1440661662?i=1440662041"
+        }
+      }
+    ],
+    "turkey": [
+      {
+        "id": "blok3-sebebi-yar",
+        "title": "Sebebi Yar",
+        "artists": ["BLOK3"],
+        "released": "2026-06-04",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up from 5 to number 2 on Apple Music's Türkiye Hip-Hop/Rap chart, and number 3 on Spotify Türkiye with 414,294 plays.",
+          "tr": "Apple Music Türkiye Hip-Hop/Rap listesinde 5'ten 2'ye çıktı; Spotify Türkiye'de 414.294 dinlenmeyle 3. sırada."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 3,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 414294,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 4,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 3,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 3,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 2,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 5,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/9b/d0/a69bd0ba-76af-bedd-9857-a6e2cb3087e0/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/6f/4e/ea6f4e75-b979-a08b-a397-1bdcf4d0bb81/mzaf_1523361761601390120.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/1gd1TicErR4bwjR3CYxyra",
+          "appleMusic": "https://music.apple.com/tr/album/sebebi-yar/6773420726?i=6773421035"
+        }
+      },
+      {
+        "id": "eypio-sahidim",
+        "title": "Şahidim",
+        "artists": ["Eypio"],
+        "released": "2026-10-02",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 19 places to number 17 on Apple Music's Türkiye Hip-Hop/Rap chart, and up to 13 on Spotify Türkiye.",
+          "tr": "Apple Music Türkiye Hip-Hop/Rap listesinde 19 basamak çıkıp 17. sıraya geldi; Spotify Türkiye'de de 13'e yükseldi."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 13,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 263027,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 16,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 28,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 28,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 17,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 36,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/3f/35/f13f354e-548d-ae23-5ddb-04f01722a547/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/b8/11/7fb81127-2e5a-7105-564f-0481a9bb3128/mzaf_4986620364168220588.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/3xnGK6EsiHUrDdHqjrbDC3",
+          "appleMusic": "https://music.apple.com/tr/album/%C5%9Fahidim/6818543634?i=6818543637"
+        }
+      },
+      {
+        "id": "ahiyan-kralin-kizi",
+        "title": "Kralın Kızı",
+        "artists": ["Ahiyan"],
+        "released": "2026-09-25",
+        "kind": "climbing",
+        "reason": {
+          "en": "Number 2 on Spotify Türkiye with 428,168 plays, and up from 27 to 22 on Apple Music's Türkiye Hip-Hop/Rap chart.",
+          "tr": "Spotify Türkiye'de 428.168 dinlenmeyle 2 numara; Apple Music Türkiye Hip-Hop/Rap listesinde 27'den 22'ye çıktı."
+        },
+        "evidence": [
+          {
+            "source": "spotify",
+            "metric": "rank",
+            "value": 2,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "plays",
+            "value": 428168,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "spotify",
+            "metric": "rankBefore",
+            "value": 2,
+            "chart": "Spotify Türkiye daily",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://kworb.net/spotify/country/tr_daily.html"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 16,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 16,
+            "chart": "Apple Music Türkiye most played",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://rss.marketingtools.apple.com/api/v2/tr/music/most-played/100/songs.json"
+          },
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 22,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 27,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/ea/6d/1cea6d18-15f1-5126-fbf0-64b2451696a3/0.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/67/ae/1167aebb-f3cc-3d1b-e880-9f6b1354163a/mzaf_763634291932033640.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/track/4nCjL15kmLv68gO5Cvvgnz",
+          "appleMusic": "https://music.apple.com/tr/album/kral%C4%B1n-k%C4%B1z%C4%B1/6810128989?i=6810128992"
+        }
+      },
+      {
+        "id": "era7capone-bana-sor",
+        "title": "Bana Sor",
+        "artists": ["Era7capone", "Şam"],
+        "released": "2026-01-08",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 6 places to number 38 on Apple Music's Türkiye Hip-Hop/Rap chart.",
+          "tr": "Apple Music Türkiye Hip-Hop/Rap listesinde 6 basamak çıkıp 38. sıraya yükseldi."
+        },
+        "evidence": [
+          {
+            "source": "apple",
+            "metric": "rank",
+            "value": 38,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "rankBefore",
+            "value": 44,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          },
+          {
+            "source": "apple",
+            "metric": "daysOnChart",
+            "value": 2,
+            "chart": "Apple Music Türkiye Hip-Hop/Rap",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://itunes.apple.com/tr/rss/topsongs/limit=100/genre=18/json"
+          }
+        ],
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/2b/80/e12b80e2-7ae8-4484-f566-d28175691a03/cover.jpg/600x600bb.png",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/50/d1/cf50d163-716c-6c91-09ea-10d27bdbd432/mzaf_14743734492992675223.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Era7capone%20Bana%20Sor",
+          "appleMusic": "https://music.apple.com/tr/album/bana-sor/1866941129"
+        }
+      },
+      {
+        "id": "gazapizm-heyecani-yok",
+        "title": "Heyecanı Yok",
+        "artists": ["Gazapizm"],
+        "released": "2017-08-12",
+        "kind": "alltime",
+        "reason": {
+          "en": "Gazapizm's breakthrough single: a dark, steady flow over a slow beat that crossed far beyond rap.",
+          "tr": "Gazapizm'in çıkış single'ı: ağır bir beat üstünde karanlık, sakin bir flow; rapin çok dışına taştı."
+        },
+        "evidence": [],
+        "duration": 249,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/1a/10/531a1095-1d4f-843d-f581-55eb25a32195/195081104027.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/7d/a0/db7da09e-6501-43bf-24ae-2390b0654b9e/mzaf_1698199074436078431.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Gazapizm%20Heyecan%C4%B1%20Yok",
+          "appleMusic": "https://music.apple.com/tr/album/heyecan%C4%B1-yok/1501353485?i=1501353971"
+        }
+      }
+    ],
+    "indiedance": [
+      {
+        "id": "fcukers-lonely",
+        "title": "Lonely",
+        "artists": ["Fcukers"],
+        "released": "2026-03-27",
+        "kind": "climbing",
+        "reason": {
+          "en": "Up 9 places to number 6 on Bandcamp's best-selling Indie Dance list.",
+          "tr": "Bandcamp'in en çok satan Indie Dance listesinde 9 basamak çıkıp 6. sıraya yükseldi."
+        },
+        "evidence": [
+          {
+            "source": "bandcamp",
+            "metric": "rank",
+            "value": 6,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          },
+          {
+            "source": "bandcamp",
+            "metric": "rankBefore",
+            "value": 15,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-28T14:21:17Z",
+            "before": "2026-11-27",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          },
+          {
+            "source": "bandcamp",
+            "metric": "daysOnChart",
+            "value": 3,
+            "chart": "Bandcamp Indie Dance, best-selling",
+            "at": "2026-11-28T14:21:17Z",
+            "url": "https://bandcamp.com/discover/indie-dance"
+          }
+        ],
+        "duration": 178,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/b3/85/87b38597-7032-1783-bcd6-7e77af31df9a/5054429208382.png/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/89/dd/b289ddca-6fa0-25bf-05b5-499d916d9353/mzaf_13672507135277016389.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Fcukers%20Lonely",
+          "appleMusic": "https://music.apple.com/us/album/lonely/1861895134?i=1861895300"
+        }
+      },
+      {
+        "id": "quando-quango-love-tempo",
+        "title": "Love Tempo",
+        "artists": ["Quando Quango"],
+        "released": "1985-01-01",
+        "kind": "alltime",
+        "reason": {
+          "en": "Factory Records' Quando Quango, Mike Pickering's band before house: post-punk funk made for the Haçienda floor.",
+          "tr": "Factory Records'tan Quando Quango; Mike Pickering'in house öncesi grubu. Haçienda pisti için yapılmış post-punk funk."
+        },
+        "evidence": [],
+        "duration": 475,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/ea/3a/9eea3a1c-368c-75cf-6230-15694ec813e7/190295439071.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2e/11/c6/2e11c63f-6615-d285-436f-f3452411d708/mzaf_12292016046481880868.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Quando%20Quango%20Love%20Tempo",
+          "appleMusic": "https://music.apple.com/us/album/love-tempo/1488637696?i=1488637992"
+        }
+      },
+      {
+        "id": "lindstrom-i-feel-space",
+        "title": "I Feel Space",
+        "artists": ["Lindstrøm"],
+        "released": "2005-04-01",
+        "kind": "alltime",
+        "reason": {
+          "en": "Lindstrøm's slow-burning space-disco single, the record that put the Norwegian cosmic sound on the map.",
+          "tr": "Lindstrøm'ün yavaş yavaş açılan space disco plağı; Norveç'in kozmik sesini haritaya koyan kayıt."
+        },
+        "evidence": [],
+        "duration": 421,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/94/96/a7/9496a7fc-2673-077b-7ff2-87fb58926df7/cover.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c3/78/a7/c378a740-bcfa-e1fd-5265-c18b42b3451b/mzaf_13739203586341263054.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Lindstr%C3%B8m%20I%20Feel%20Space",
+          "appleMusic": "https://music.apple.com/us/album/i-feel-space/1438836410?i=1438836411"
+        }
+      },
+      {
+        "id": "aeroplane-we-can-t-fly",
+        "title": "We Can't Fly",
+        "artists": ["Aeroplane"],
+        "released": "2010-06-27",
+        "kind": "alltime",
+        "reason": {
+          "en": "Belgian Aeroplane's own Balearic nu-disco cut, from the years their remixes ruled indie dancefloors.",
+          "tr": "Belçikalı Aeroplane'in kendi Balearic nu-disco parçası; remikslerinin indie pistlere hükmettiği yıllardan."
+        },
+        "evidence": [],
+        "duration": 174,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/77/5f/f0/775ff0ac-7796-70da-17cd-2b320be1bb96/617465266652.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/73/ca/49/73ca4904-f5c3-1d81-9403-581fec31e9f4/mzaf_5614825215352903793.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Aeroplane%20We%20Can%27t%20Fly",
+          "appleMusic": "https://music.apple.com/us/album/we-cant-fly-radio-edit/1711807477?i=1711807478"
+        }
+      },
+      {
+        "id": "shubostar-spiegel",
+        "title": "Spiegel",
+        "artists": ["Shubostar", "Justine Forever"],
+        "released": "2021-07-09",
+        "kind": "alltime",
+        "reason": {
+          "en": "Shubostar with Justine Forever: cold, Berlin-tinged dark disco with a spoken vocal.",
+          "tr": "Shubostar ve Justine Forever: soğuk, Berlin tınılı, konuşma vokalli bir dark disco parçası."
+        },
+        "evidence": [],
+        "duration": 366,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fa/db/12/fadb1235-6991-5a86-5dfa-470a8bd4d4d3/4251804115629_3000.jpg/600x600bb.jpg",
+        "play": {
+          "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/2e/21/332e213b-f7c6-6e95-c3dc-feb1b4f198e4/mzaf_991543657239068649.plus.aac.p.m4a",
+          "spotify": "https://open.spotify.com/search/Shubostar%20Spiegel",
+          "appleMusic": "https://music.apple.com/us/album/spiegel-feat-justine-forever/1572644688?i=1572644690"
+        }
+      }
+    ]
+  }
+}
