@@ -1,0 +1,1764 @@
+{
+  "version": 2,
+  "slot": "evening",
+  "publishAt": "2026-11-28T18:30:00+03:00",
+  "writtenAt": "2026-11-28T17:57:31+03:00",
+  "stories": [
+    {
+      "id": "b1281e722599eb17",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "cc2a480aabb5163e",
+      "versions": {
+        "en": {
+          "news": "Istanbul prosecutors sent files on YENİ Parti leader Özgür Özel and four of its MPs to Ankara, seeking moves to lift their immunity.",
+          "shortTitle": "Özel’s file sent to Ankara",
+          "title": "Prosecutors seek immunity case against Özel and four YENİ Parti MPs",
+          "summary": {
+            "what": "Istanbul prosecutors in the Sarıgül investigation ruled they lacked jurisdiction over Özgür Özel and four YENİ Parti MPs and sent their file to Ankara.",
+            "why": "Hürriyet said the allegations could require a file to lift their immunity; secret witnesses and Sarıgül’s son allege cash handed to Özel, which A Haber reported.",
+            "next": "Ankara prosecutors decide whether to draft immunity files; Sarıgül’s own file went to a joint parliamentary committee on 27 November."
+          },
+          "body": [
+            {
+              "subhead": "Files on five MPs go to Ankara",
+              "blocks": [
+                {
+                  "text": "The Istanbul Chief Public Prosecutor’s Office has ruled that it lacks jurisdiction over YENİ Parti leader Özgür Özel and four of the party’s MPs, Veli Ağbaba, Umut Akdoğan, Burhanettin Bulut and Gökan Zeybek, and sent their file to the Ankara Chief Public Prosecutor’s Office, Hürriyet, Cumhuriyet and Diken reported on Saturday. Hürriyet said prosecutors had found allegations “of a kind that may require” a file seeking to lift the lawmakers’ parliamentary immunity."
+                },
+                {
+                  "text": "According to A Haber, the decision was signed on 27 November by deputy chief prosecutors Kerem Ali Yakut and Okan Yıldız. It cites the criminal procedure law, under which only Ankara prosecutors may investigate MPs accused of crimes committed before or after their election. The suspected offences are laundering the proceeds of crime and taking bribes, A Haber said."
+                }
+              ]
+            },
+            {
+              "subhead": "What the witnesses allege",
+              "blocks": [
+                {
+                  "text": "A Haber, citing a report by Sabah’s Kerim Cengil, published statements from the file. A secret witness code-named “AW1G48PR” alleged that $250,000 for refurbishing YENİ Parti’s headquarters was placed in Özel’s car outside a fish restaurant in Büyükçekmece, that €250,000 was handed over for fitting out an election bus, and that $100,000 was delivered in a gift box at a house in Ümitköy. Another secret witness made claims about Akdoğan, Bulut and Zeybek, A Haber reported."
+                },
+                {
+                  "text": "Mustafa Sarıgül’s son Emir Sarıgül told prosecutors that his father had told him of the payments to Özel, A Haber and Diken reported. Diken published part of his statement:"
+                },
+                {
+                  "quote": "First, at the founding stage of Yeni Parti, I know that he left $250,000 for the interior fit-out of the party’s headquarters building in a car belonging to Özgür Özel, outside a restaurant in Ümitköy in Ankara.",
+                  "speaker": "Emir Sarıgül, in his statement to prosecutors",
+                  "sourceId": "diken",
+                  "translated": true
+                },
+                {
+                  "text": "A driver, Selim Daşdemir, said expensive whisky brought from London was passed on to Özel at a roadside rest stop in Düzce, according to A Haber. None of the claims has been tested in court."
+                }
+              ]
+            },
+            {
+              "subhead": "The Sarıgül case so far",
+              "blocks": [
+                {
+                  "text": "The investigation began with a complaint by two German citizens about money laundered through companies at home and abroad, Diken said, and 36 people are under arrest, including Sarıgül’s son Ömer and his former wife Aylin Kotil. Emir Sarıgül was released under house arrest on 4 November after giving an additional statement, Cumhuriyet reported."
+                },
+                {
+                  "text": "The file seeking to lift the immunity of Mustafa Sarıgül, the independent MP for Erzincan, on charges including money laundering, forming a criminal organisation and sexual assault, was referred to parliament’s joint committee on 27 November, Diken reported. Sarıgül has rejected all the accusations and said he would use his right to a defence, Cumhuriyet said."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "MPs whose files went to Ankara",
+              "value": "5",
+              "source": "Istanbul prosecutors, via Hürriyet"
+            },
+            {
+              "label": "Alleged cash for party headquarters",
+              "value": "$250,000",
+              "source": "Secret witness, via A Haber"
+            },
+            {
+              "label": "People under arrest in the case",
+              "value": "36",
+              "source": "Diken"
+            },
+            {
+              "label": "Date of the jurisdiction ruling",
+              "value": "27 Nov",
+              "source": "A Haber"
+            }
+          ]
+        },
+        "tr": {
+          "news": "İstanbul Başsavcılığı, YENİ Parti Genel Başkanı Özgür Özel ve 4 milletvekilinin dosyasını fezleke için Ankara’ya gönderdi.",
+          "shortTitle": "Özel’in dosyası Ankara’ya gönderildi",
+          "title": "Sarıgül soruşturması: Özel ve 4 vekil için fezleke yolu açıldı",
+          "summary": {
+            "what": "Sarıgül soruşturmasını yürüten İstanbul Başsavcılığı, Özgür Özel ve 4 YENİ Parti milletvekili hakkında yetkisizlik kararı verip dosyayı Ankara’ya gönderdi.",
+            "why": "Hürriyet’e göre iddialar fezleke gerektirebilecek nitelikte; A Haber’in aktardığı gizli tanık ve Emir Sarıgül ifadeleri Özel’e para verildiğini öne sürüyor.",
+            "next": "Fezleke düzenlenip düzenlenmeyeceğine Ankara Başsavcılığı karar verecek; Sarıgül’ün fezlekesi 27 Kasım’da karma komisyona sevk edildi."
+          },
+          "body": [
+            {
+              "subhead": "Beş vekilin dosyası Ankara’da",
+              "blocks": [
+                {
+                  "text": "Hürriyet, Cumhuriyet ve Diken’in cumartesi günkü haberlerine göre İstanbul Cumhuriyet Başsavcılığı, YENİ Parti Genel Başkanı Özgür Özel ile partinin milletvekilleri Veli Ağbaba, Umut Akdoğan, Burhanettin Bulut ve Gökan Zeybek hakkında yetkisizlik kararı vererek dosyayı Ankara Cumhuriyet Başsavcılığı’na gönderdi. Hürriyet’e göre başsavcılık, iddiaların “fezleke düzenlenmesini gerektirebilecek nitelikte” olduğunu belirledi."
+                },
+                {
+                  "text": "A Haber’in aktardığına göre karar, 27 Kasım’da başsavcı vekilleri Kerem Ali Yakut ve Okan Yıldız’ın imzasıyla alındı. Kararda, seçimden önce ya da sonra suç işlediği ileri sürülen milletvekilleri hakkında soruşturma yetkisinin Ceza Muhakemesi Kanunu uyarınca Ankara’ya ait olduğu hatırlatıldı. Suçlamalar suçtan kaynaklanan mal varlığı değerlerini aklama ve rüşvet alma."
+                }
+              ]
+            },
+            {
+              "subhead": "Tanıklar ne diyor",
+              "blocks": [
+                {
+                  "text": "Sabah’tan Kerim Cengil’in haberine dayanan A Haber, dosyadaki ifadeleri yayımladı. “AW1G48PR” kod adlı gizli tanık, YENİ Parti genel merkezinin tadilatı için 250 bin doların Büyükçekmece’de bir balık restoranının çıkışında Özel’in aracına konulduğunu, seçim otobüsünün tefrişatı için 250 bin avro verildiğini ve Ümitköy’deki bir konutta 100 bin doların hediye kutusu içinde teslim edildiğini öne sürdü. A Haber’e göre bir başka gizli tanık da Akdoğan, Bulut ve Zeybek hakkında iddialarda bulundu."
+                },
+                {
+                  "text": "A Haber ve Diken’e göre Mustafa Sarıgül’ün oğlu Emir Sarıgül, Özel’e yapılan ödemeleri babasından duyduğunu anlattı. Diken ifadeden şu bölümü aktardı:"
+                },
+                {
+                  "quote": "Öncelikle Yeni Parti’nin kuruluş aşamasında, partinin genel merkez binasının iç tefrişatının yapılması için 250 bin dolar parayı Ankara’da Ümitköy’de bulunan bir restoranın çıkışında Özgür Özel’e ait aracın içerisine bıraktığını biliyorum.",
+                  "speaker": "Emir Sarıgül, savcılık ifadesinde",
+                  "sourceId": "diken"
+                },
+                {
+                  "text": "A Haber’e göre şoför Selim Daşdemir de Londra’dan getirilen pahalı viskilerin Düzce’deki bir dinlenme tesisinde Özel’e ulaştırıldığını söyledi. İddiaların hiçbiri henüz mahkemede sınanmadı."
+                }
+              ]
+            },
+            {
+              "subhead": "Sarıgül soruşturmasında son durum",
+              "blocks": [
+                {
+                  "text": "Diken’e göre soruşturma, yurt içi ve yurt dışındaki şirketler üzerinden para aklandığını ileri süren iki Alman vatandaşının şikâyetiyle başladı; aralarında Sarıgül’ün oğlu Ömer Sarıgül ve eski eşi Aylin Kotil’in de bulunduğu 36 kişi tutuklu. Cumhuriyet’e göre Emir Sarıgül, ek ifadesinin ardından 4 Kasım’da ev hapsi şartıyla tahliye edildi."
+                },
+                {
+                  "text": "Diken’in haberine göre bağımsız Erzincan Milletvekili Mustafa Sarıgül hakkında aklama, suç örgütü kurma ve cinsel saldırı gibi suçlamalar içeren fezleke 27 Kasım’da Anayasa ve Adalet Karma Komisyonu’na sevk edildi. Cumhuriyet’e göre Sarıgül tüm suçlamaları reddetti ve savunma hakkını kullanacağını söyledi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Dosyası Ankara’ya giden vekil",
+              "value": "5",
+              "source": "İstanbul Başsavcılığı, Hürriyet"
+            },
+            {
+              "label": "Genel merkez için iddia edilen para",
+              "value": "250 bin $",
+              "source": "Gizli tanık, A Haber"
+            },
+            {
+              "label": "Soruşturmada tutuklu",
+              "value": "36",
+              "source": "Diken"
+            },
+            {
+              "label": "Yetkisizlik kararı tarihi",
+              "value": "27 Kasım",
+              "source": "A Haber"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T09:30:00.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T10:04:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T10:04:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T10:16:43.000Z",
+          "sourceId": "hurriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T10:53:09.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T10:53:30.000Z",
+          "sourceId": "medyascope"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:22:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:30:10.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T13:28:53.000Z",
+          "sourceId": "ntv"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/7d3951fb-3570-4304-b039-a34ad616a3b9.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sarigul-sorusturmasinda-yeni-gelisme-ozgur-ozel-dahil-5-yeni-partili-vekilin-dosyasi-ankara-ya-gonderildi-2560161"
+      },
+      "sources": [
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/28/ozgur-ozel-ve-4-milletvekili-hakkinda-rusvet-ve-aklama-dosyasi",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-sarigul-sorusturmasinda-yeni-gelisme-ozgur-ozel-dahil-5-yeni-partili-vekilin-dosyasi-ankara-ya-gonderildi-2560161",
+          "confirms": true
+        },
+        {
+          "sourceId": "hurriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/mustafa-sarigul-sorusturmasi-ozgur-ozel-veli-agbaba-umut-akdogan-burhanettin-bulut-ve-gokan-zeybek-icin-fezleke-talebi-43394259",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/sarigul-sorusturmasi-ozgur-ozel-ve-dort-vekil-hakkinda-fezleke-talebi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/28/sarigul-sorusturmasi-ozgur-ozelin-de-dahil-oldugu-5-kisinin-dosyalari-ankaraya-gonderildi/",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/son-dakika-sarigul-sorusturmasinda-yeni-gelisme-ozgur-ozel-dahil-5-yeni-partili-vekilin-dosyasi-p385090",
+          "confirms": false
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/%C3%B6zg%C3%BCr-%C3%B6zel-i%C3%A7in-fezleke-haz%C4%B1rl%C4%B1%C4%9F%C4%B1-dosya-ankara-ya-iletildi/a-80084881?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-sarigul-sorusturmasinda-ozgur-ozel-ve-4-isim-icin-fezleke-duzenlemesi-3930818",
+          "confirms": true
+        },
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/sarigul-sorusturmasi-ozgur-ozel-dahil-bes-isim-icin-fezleke-istemi-1752987",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "fbd3de0d361c009f",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "70 detained in ‘Ailem Güvende’ raids",
+          "title": "Police detain 70 in 31 provinces in new ‘Ailem Güvende’ raids",
+          "summary": {
+            "what": "Ankara prosecutors issued detention orders for 77 people over social media posts, and police detained 70 in raids across 31 provinces on Saturday.",
+            "why": "The investigation, launched in September, has targeted LGBTİ+ groups, rights defenders and journalists; prosecutors have not said which posts are under suspicion.",
+            "next": "Prosecutors say work to remove posts and block access is under way; the trial of 17 people in Istanbul opens on 24 December, DW Türkçe reported."
+          },
+          "body": [
+            {
+              "subhead": "A new wave of detentions",
+              "blocks": [
+                {
+                  "text": "Police detained 70 people in simultaneous raids centred on Ankara and spread across 31 provinces on Saturday, in a new wave of the investigation known as “Ailem Güvende” (My Family Is Safe), NTV, Diken and Euronews Türkçe reported. The Ankara Chief Public Prosecutor’s Office had ordered the detention of 77 people; four were already in prison for other crimes and three were still being sought, Diken and Euronews said."
+                },
+                {
+                  "text": "The prosecutor’s statement, quoted by Cumhuriyet, said the inquiry was carried out by the vice squad of Ankara police and concerned offences under articles 226 and 227 of the Turkish Penal Code, which cover obscenity and encouraging or facilitating prostitution."
+                }
+              ]
+            },
+            {
+              "subhead": "What prosecutors say",
+              "blocks": [
+                {
+                  "text": "According to the statement, the suspects shared posts on internet and social media platforms open to people of every age that could amount to those crimes. Cumhuriyet quoted it as saying:"
+                },
+                {
+                  "quote": "These posts were judged to target the family, children and young people, to be capable of harming their development, to violate general morality and to disturb public order.",
+                  "speaker": "Ankara Chief Public Prosecutor’s Office",
+                  "sourceId": "cumhuriyet",
+                  "translated": true
+                },
+                {
+                  "text": "Prosecutors gave no details of which posts were considered criminal, Cumhuriyet, Diken and Euronews Türkçe noted. The statement said steps to remove the content and block access to it under internet law 5651 were also being taken, and NTV reported that work had begun to block the suspects’ social media accounts."
+                }
+              ]
+            },
+            {
+              "subhead": "An investigation that began in September",
+              "blocks": [
+                {
+                  "text": "The investigation, announced by Justice Minister Akın Gürlek on 13 September, has targeted LGBTİ+ associations, rights defenders and journalists, Cumhuriyet reported. In its first wave legal action was opened against 162 people, nine associations and 13 businesses in 15 provinces. Board members of Kaos GL, one of the main LGBTİ+ rights groups in Türkiye, were arrested, as was the freelance journalist Tuğba Tekerek, who also works for DW Türkçe."
+                },
+                {
+                  "text": "At the first hearing in Istanbul on 11 November three Kaos GL auditors were released, while Tekerek and four Kaos GL executives stayed in custody, Euronews Türkçe reported. DW Türkçe said the indictment lists 10 Kaos GL social media posts among the grounds for the obscenity charge. Tekerek told prosecutors she had no link to Kaos GL and did not run its Instagram account. On 30 September access to the news site T24 and its social media accounts was blocked over what was described as “LGBT propaganda” content."
+                },
+                {
+                  "text": "The European Union said in September that it was concerned, and the UN human rights chief Volker Türk called for the release of anyone arbitrarily detained, Euronews Türkçe reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Detained on Saturday",
+              "value": "70",
+              "source": "Ankara prosecutors, via NTV"
+            },
+            {
+              "label": "Detention orders issued",
+              "value": "77",
+              "source": "Ankara prosecutors, via NTV"
+            },
+            {
+              "label": "Provinces raided",
+              "value": "31",
+              "source": "NTV, Diken, Euronews Türkçe"
+            },
+            {
+              "label": "Istanbul trial of 17 opens",
+              "value": "24 Dec",
+              "source": "DW Türkçe"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "“Ailem Güvende”de yeni dalga: 70 gözaltı",
+          "title": "“Ailem Güvende” soruşturmasında yeni dalga: 31 ilde 70 gözaltı",
+          "summary": {
+            "what": "Ankara Cumhuriyet Başsavcılığı sosyal medya paylaşımları gerekçesiyle 77 kişi hakkında gözaltı kararı verdi; 31 ildeki operasyonlarda 70 kişi gözaltına alındı.",
+            "why": "Eylülde başlayan soruşturma LGBTİ+ derneklerini, hak savunucularını ve gazetecileri hedef aldı; hangi paylaşımların suç sayıldığı açıklanmadı.",
+            "next": "İçeriklerin kaldırılması ve erişim engeli işlemleri sürüyor; DW Türkçe’ye göre 17 kişinin yargılanacağı İstanbul davası 24 Aralık’ta başlıyor."
+          },
+          "body": [
+            {
+              "subhead": "Yeni gözaltı dalgası",
+              "blocks": [
+                {
+                  "text": "NTV, Diken ve Euronews Türkçe’nin haberine göre “Ailem Güvende” adıyla yürütülen soruşturmada cumartesi sabahı Ankara merkezli 31 ilde eş zamanlı operasyon düzenlendi ve 70 kişi gözaltına alındı. Ankara Cumhuriyet Başsavcılığı 77 kişi hakkında gözaltı kararı vermişti; Diken ve Euronews’e göre 4 kişinin başka suçlardan cezaevinde olduğu belirlendi, 3 kişi ise aranıyor."
+                },
+                {
+                  "text": "Cumhuriyet’in aktardığı başsavcılık açıklamasına göre soruşturma, Ankara Emniyet Müdürlüğü Ahlak Büro Amirliği ekiplerince Türk Ceza Kanunu’nun “müstehcenlik” ile “fuhşa teşvik, fuhşun yolunu kolaylaştırma veya fuhşa aracılık etme” suçlarını düzenleyen 226 ve 227’nci maddeleri kapsamında yürütülüyor."
+                }
+              ]
+            },
+            {
+              "subhead": "Başsavcılık ne diyor",
+              "blocks": [
+                {
+                  "text": "Açıklamaya göre şüpheliler, her yaştan kişinin erişebildiği internet ve sosyal medya platformlarında bu suçları oluşturabilecek paylaşımlar yaptı. Cumhuriyet’in aktardığı açıklamada şu ifadeler yer aldı:"
+                },
+                {
+                  "quote": "Söz konusu paylaşımların; aileyi, çocukları ve gençleri hedef alan, bunların gelişimini olumsuz yönde etkileyebilecek, genel ahlak anlayışını ihlal edici ve kamu düzenini bozucu nitelikte olduğu değerlendirilmiştir.",
+                  "speaker": "Ankara Cumhuriyet Başsavcılığı",
+                  "sourceId": "cumhuriyet"
+                },
+                {
+                  "text": "Cumhuriyet, Diken ve Euronews Türkçe, hangi paylaşımların suç sayıldığına ilişkin ayrıntı verilmediğine dikkat çekti. Açıklamada 5651 sayılı Kanun kapsamında içeriklerin kaldırılması ve erişimin engellenmesi işlemlerinin de yürütüldüğü belirtildi; NTV’ye göre şüphelilerin sosyal medya hesaplarına erişim engeli için çalışma başlatıldı."
+                }
+              ]
+            },
+            {
+              "subhead": "Eylülde başlayan soruşturma",
+              "blocks": [
+                {
+                  "text": "Cumhuriyet’e göre Adalet Bakanı Akın Gürlek’in 13 Eylül’de duyurduğu soruşturma LGBTİ+ derneklerini, hak savunucularını ve gazetecileri hedef aldı. İlk dalgada 15 ilde 162 kişi, 9 dernek ve 13 işletme hakkında adli işlem başlatıldı. Türkiye’deki başlıca LGBTİ+ hak örgütlerinden Kaos GL’nin yöneticileri ile DW Türkçe için de çalışan serbest gazeteci Tuğba Tekerek tutuklandı."
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre 11 Kasım’da İstanbul’daki ilk duruşmada üç Kaos GL denetim kurulu üyesi tahliye edildi; Tekerek ile dört dernek yöneticisinin tutukluluğu sürdü. DW Türkçe, iddianamede Kaos GL’nin 10 paylaşımının müstehcenlik suçlamasına dayanak gösterildiğini yazdı. Tekerek ifadesinde Kaos GL ile bağı olmadığını ve Instagram hesabını yönetmediğini söyledi. 30 Eylül’de T24’ün internet sitesi ve sosyal medya hesapları da “LGBT propagandası” iddiasıyla erişime engellenmişti."
+                },
+                {
+                  "text": "Euronews Türkçe’ye göre Avrupa Birliği eylülde endişelerini dile getirdi, BM İnsan Hakları Yüksek Komiseri Volker Türk de keyfi biçimde gözaltında tutulanların serbest bırakılmasını istedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Cumartesi gözaltına alınan",
+              "value": "70",
+              "source": "Ankara Başsavcılığı, NTV"
+            },
+            {
+              "label": "Gözaltı kararı",
+              "value": "77",
+              "source": "Ankara Başsavcılığı, NTV"
+            },
+            {
+              "label": "Operasyon yapılan il",
+              "value": "31",
+              "source": "NTV, Diken, Euronews Türkçe"
+            },
+            {
+              "label": "17 kişilik davanın başlangıcı",
+              "value": "24 Aralık",
+              "source": "DW Türkçe"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T09:09:13.000Z",
+          "sourceId": "ntv"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T09:34:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T09:34:00.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T10:10:50.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T10:46:53.000Z",
+          "sourceId": "euronews-tr"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T14:07:00.000Z",
+          "sourceId": "dw-turkce"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T14:31:55.000Z",
+          "sourceId": "sabah"
+        }
+      ],
+      "image": {
+        "url": "https://images.ntv.com.tr/images/g%C3%B6zalt%C4%B1-942182.jpg",
+        "sourceId": "ntv",
+        "sourceName": "NTV",
+        "articleUrl": "https://www.ntv.com.tr/turkiye/ailem-guvende-sorusturmasinda-yeni-dalga-31-sehirde-70-gozalti-1752975"
+      },
+      "sources": [
+        {
+          "sourceId": "ntv",
+          "url": "https://www.ntv.com.tr/turkiye/ailem-guvende-sorusturmasinda-yeni-dalga-31-sehirde-70-gozalti-1752975",
+          "confirms": true
+        },
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/ailem-guvende-adi-altinda-yeni-operasyon-dalgasi-30-ilde-70-gozalti-2560155",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/ailem-guvende-sorusturmasi-31-ilde-70-gozalti/",
+          "confirms": true
+        },
+        {
+          "sourceId": "euronews-tr",
+          "url": "https://tr.euronews.com/2026/11/28/ailem-guvende-sorusturmasi-70-kisi-gozaltina-alindi",
+          "confirms": true
+        },
+        {
+          "sourceId": "dw-turkce",
+          "url": "https://www.dw.com/tr/ailem-g%C3%BCvende-operasyonlar%C4%B1nda-yeni-dalga-70-g%C3%B6zalt%C4%B1/a-80085660?maca=tur-rss-tur-all-1495-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "sabah",
+          "url": "https://www.sabah.com.tr/yasam/ankara-merkezli-31-ilde-dugmeye-basildi-ailem-guvende-operasyonlarinda-cok-sayida-gozalti-7711296",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "ada0980f663bd0b0",
+      "section": "turkey",
+      "sourceLanguage": "tr",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Yavaş rules out presidential bid",
+          "title": "Mansur Yavaş: ‘I am in none of these scenarios’",
+          "summary": {
+            "what": "Ankara mayor Mansur Yavaş said he has no plan to run for president, after a Hürriyet columnist wrote of a new right-wing alliance built around him.",
+            "why": "YENİ Parti leader Özgür Özel has promised “very important” statements on his party’s presidential candidate on 4 December; Yavaş said he has not spoken to Özel for a long time.",
+            "next": "Özel holds a press conference in Ankara on Friday 4 December; Yavaş said he would pay him a courtesy visit."
+          },
+          "body": [
+            {
+              "subhead": "“We have no such agenda”",
+              "blocks": [
+                {
+                  "text": "Ankara’s metropolitan mayor Mansur Yavaş rejected suggestions that he will be the opposition’s presidential candidate, answering reporters in the capital after the groundbreaking of an autism centre in Yenimahalle, Habertürk reported. Diken said the questions followed a column on 27 November by Hürriyet’s Abdulkadir Selvi, who wrote that Özgür Özel would build a new right-leaning alliance including the İYİ Party and the Victory Party, and called it the “Mansur Yavaş alliance”."
+                },
+                {
+                  "quote": "I looked at the same writer’s columns from a week or ten days ago. In many of them he wrote that Mansur Yavaş’s political life was over. I am in none of these scenarios, which are made up without any involvement of mine.",
+                  "speaker": "Mansur Yavaş, mayor of Ankara",
+                  "sourceId": "diken",
+                  "translated": true
+                },
+                {
+                  "text": "Yavaş said that if he joined such a debate, residents who see the city’s shortcomings would rightly ask whether he wanted to run the country before solving Ankara’s problems, Sözcü and Habertürk reported."
+                }
+              ]
+            },
+            {
+              "subhead": "No talks with Özel",
+              "blocks": [
+                {
+                  "text": "Asked whether he had consulted Özel before the YENİ Parti leader’s planned statement on the candidacy, Yavaş said he had not met him for a long time and knew nothing about it, according to Sözcü and A Haber. He said he would make a courtesy visit to congratulate Özel on his election as party leader, which he called the ethical thing to do."
+                },
+                {
+                  "text": "Diken recalled that Özel said on Koza TV on 27 November that he would make “very important statements” about his party’s candidate on 4 December, and that he was elected leader at YENİ Parti’s first congress on 14 and 15 November with 1,157 of 1,202 delegates’ votes. A Haber noted that Özel said in September that Yavaş’s candidacy would be an important option if Ekrem İmamoğlu were blocked from running."
+                }
+              ]
+            },
+            {
+              "subhead": "On İmamoğlu’s case",
+              "blocks": [
+                {
+                  "text": "Yavaş also spoke about the court rulings against the jailed Istanbul mayor Ekrem İmamoğlu, saying the political ban was not yet final, Habertürk reported. He criticised how fast the Council of State ruled on İmamoğlu’s diploma while similar cases had not even reached appeal."
+                },
+                {
+                  "text": "He compared it with President Erdoğan’s conviction in 2002, when, he said, the file was flown in and passed through the Court of Cassation in a week. Such rushed rulings, he said, hurt the public conscience and shake trust in the law, Cumhuriyet reported."
+                },
+                {
+                  "text": "He also explained a widely shared video from a visit to Adıyaman, saying he had stepped away from the crowd with a cold when someone began filming him and asked a question without saying they were a journalist."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Date of Özel’s candidacy statement",
+              "value": "4 Dec",
+              "source": "Diken, A Haber"
+            },
+            {
+              "label": "Delegates who voted for Özel",
+              "value": "1,157 of 1,202",
+              "source": "Diken"
+            },
+            {
+              "label": "Year of Erdoğan’s rushed conviction",
+              "value": "2002",
+              "source": "Mansur Yavaş, via Cumhuriyet"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Yavaş: Adaylık gündemimiz yok",
+          "title": "Mansur Yavaş: “Bu senaryoların hiçbirisinde ben yokum”",
+          "summary": {
+            "what": "Ankara Büyükşehir Belediye Başkanı Mansur Yavaş, Hürriyet yazarının kendi adıyla anılan yeni bir ittifak iddiasına “Böyle bir gündemimiz asla yok” yanıtını verdi.",
+            "why": "YENİ Parti Genel Başkanı Özgür Özel, 4 Aralık’ta adaylık konusunda “çok önemli açıklamalar” yapacağını söyledi; Yavaş, Özel’le uzun süredir görüşmediğini belirtti.",
+            "next": "Özel 4 Aralık Cuma günü Ankara’da basın toplantısı düzenleyecek; Yavaş, Özel’e “hayırlı olsun” ziyaretinde bulunacağını söyledi."
+          },
+          "body": [
+            {
+              "subhead": "“Böyle bir gündemimiz asla yok”",
+              "blocks": [
+                {
+                  "text": "Habertürk’ün haberine göre Ankara Büyükşehir Belediye Başkanı Mansur Yavaş, Yenimahalle Otizm Merkezi’nin temel atma töreninin ardından gazetecilerin sorularını yanıtladı ve cumhurbaşkanı adaylığı iddialarını reddetti. Diken’e göre sorular, Hürriyet yazarı Abdulkadir Selvi’nin 27 Kasım’daki yazısının ardından geldi; Selvi, Özgür Özel’in İYİ Parti ve Zafer Partisi’nin de yer alacağı yeni bir sağ ittifak kuracağını yazmış ve buna “Mansur Yavaş ittifakı” adını vermişti."
+                },
+                {
+                  "quote": "Aynı yazarın bir hafta 10 gün önceki yazılarına da baktım. Onların birçoğunda ‘Artık Mansur Yavaş’ın siyasi hayatı bitti’ vesaire yazılar yazdı ama benim hiç ilgim olmadan yapılan bu senaryoların hiçbirisinde ben yokum.",
+                  "speaker": "Mansur Yavaş, Ankara Büyükşehir Belediye Başkanı",
+                  "sourceId": "diken"
+                },
+                {
+                  "text": "Sözcü ve Habertürk’e göre Yavaş, böyle bir tartışmaya girerse eksiklerini gören vatandaşın haklı olarak “Sen Ankara’nın işini halledemeden ülke yönetmeye mi kalkıyorsun?” diye soracağını söyledi."
+                }
+              ]
+            },
+            {
+              "subhead": "Özel’le görüşme yok",
+              "blocks": [
+                {
+                  "text": "Sözcü ve A Haber’e göre Özel’in adaylık açıklaması öncesinde kendisiyle istişare edip etmediği sorulan Yavaş, Özel’le uzun süredir görüşmediğini ve bilgisi olmadığını söyledi. Yavaş, Özel’e genel başkan seçildiği için “hayırlı olsun” ziyaretinde bulunacağını, bunun etik olarak gerektiğini belirtti."
+                },
+                {
+                  "text": "Diken, Özel’in 27 Kasım’da Koza TV’de partisinin cumhurbaşkanı adayıyla ilgili 4 Aralık’ta “çok önemli açıklamalar” yapacağını söylediğini ve 14-15 Kasım’daki ilk kurultayda 1.202 delegeden 1.157’sinin oyuyla genel başkan seçildiğini hatırlattı. A Haber de Özel’in eylülde, Ekrem İmamoğlu’nun adaylığı engellenirse Yavaş’ın adaylığının önemli bir seçenek olacağını söylediğini yazdı."
+                }
+              ]
+            },
+            {
+              "subhead": "İmamoğlu kararları",
+              "blocks": [
+                {
+                  "text": "Habertürk’e göre Yavaş, tutuklu İBB Başkanı Ekrem İmamoğlu’na yönelik siyasi yasağın henüz kesinleşmediğini söyledi. Benzer durumdaki pek çok davanın istinafa bile gitmediğini, buna karşın Danıştay’ın diploma konusunda hızla karar vermesinin toplum vicdanında olağan karşılanmadığını belirtti."
+                },
+                {
+                  "text": "Cumhuriyet’e göre Yavaş, 2002’de Cumhurbaşkanı Erdoğan hakkında da dosyanın uçakla getirilip Yargıtay’dan bir haftada geçirildiğini hatırlattı; bu tür aceleyle verilen kararların kamu vicdanını yaraladığını ve hukuka güveni sarstığını söyledi."
+                },
+                {
+                  "text": "Yavaş, Adıyaman ziyaretinde çekilen ve çok paylaşılan görüntüye de açıklık getirdi: Nezleyken kalabalıktan uzaklaştığı sırada birinin kendini gazeteci olarak tanıtmadan çekim yapıp soru sorduğunu anlattı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Özel’in adaylık açıklaması",
+              "value": "4 Aralık",
+              "source": "Diken, A Haber"
+            },
+            {
+              "label": "Özel’e oy veren delege",
+              "value": "1.157 / 1.202",
+              "source": "Diken"
+            },
+            {
+              "label": "Erdoğan’ın hızlı mahkûmiyeti",
+              "value": "2002",
+              "source": "Mansur Yavaş, Cumhuriyet"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T12:10:00.000Z",
+          "sourceId": "cumhuriyet"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:26:56.000Z",
+          "sourceId": "sozcu"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T12:26:56.000Z",
+          "from": "single-source",
+          "to": "reported"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:49:42.000Z",
+          "sourceId": "diken"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T12:49:42.000Z",
+          "from": "reported",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:51:23.000Z",
+          "sourceId": "haberturk"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T13:18:18.000Z",
+          "sourceId": "a-haber"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T14:17:04.000Z",
+          "sourceId": "medyascope"
+        }
+      ],
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/b757e052-fbdd-4215-bec2-f72be097551e.jpg",
+        "sourceId": "cumhuriyet",
+        "sourceName": "Cumhuriyet",
+        "articleUrl": "https://www.cumhuriyet.com.tr/siyaset/mansur-yavas-tan-ekrem-imamoglu-ve-adaylik-aciklamasi-senaryolarin-hicbirisinde-yokum-2560187"
+      },
+      "sources": [
+        {
+          "sourceId": "cumhuriyet",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/mansur-yavas-tan-ekrem-imamoglu-ve-adaylik-aciklamasi-senaryolarin-hicbirisinde-yokum-2560187",
+          "confirms": true
+        },
+        {
+          "sourceId": "sozcu",
+          "url": "https://www.sozcu.com.tr/mansur-yavas-tan-cumhurbaskani-adayligi-aciklamasi-p385122",
+          "confirms": true
+        },
+        {
+          "sourceId": "diken",
+          "url": "https://www.diken.com.tr/adaylik-iddiasi-mansur-yavas-ankaraya-odakli/",
+          "confirms": true
+        },
+        {
+          "sourceId": "haberturk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-mansur-yavas-tan-cumhurbaskani-adayligi-aciklamasi-boyle-bir-gundemimiz-yok-3930842",
+          "confirms": true
+        },
+        {
+          "sourceId": "a-haber",
+          "url": "https://www.ahaber.com.tr/gundem/2026/11/28/muhalefette-4-aralik-dugumu-mansur-yavastan-adaylik-sorusuna-dikkat-ceken-cevap",
+          "confirms": true
+        },
+        {
+          "sourceId": "medyascope",
+          "url": "https://medyascope.tv/2026/11/28/mansur-yavastan-cumhurbaskani-adayligi-yaniti-ilgim-olmadan-yapilan-senaryolar/",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "ec90b87d72c7b2a3",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "FCC clears a million SpaceX satellites",
+          "title": "FCC approves SpaceX plan for a million AI data-centre satellites",
+          "summary": {
+            "what": "The US Federal Communications Commission has approved SpaceX’s “Starmind” network of up to 1 million satellites to host AI data centres in orbit, DW reported.",
+            "why": "Scientists quoted by DW warn of ozone damage, space debris and a brighter night sky, and say the FCC set aside environmental concerns as outside its remit.",
+            "next": "SpaceX must have 100,000 satellites in orbit by 2035 and half the network by 2038, with a deadline of 25 November 2040 for the full constellation."
+          },
+          "body": [
+            {
+              "subhead": "A million satellites for AI computing",
+              "blocks": [
+                {
+                  "text": "Elon Musk’s SpaceX has received approval from the US Federal Communications Commission to build a network of 1 million satellites designed to host AI data centres in space, a project called “Starmind”, DW reported. The Washington Post reported that astronomers were dismayed by the decision."
+                },
+                {
+                  "text": "The approval comes with a timeline, according to DW: SpaceX must have 10% of the authorised satellites, or 100,000, in orbit by 2035, and 50% by 2038. SpaceX argues that its satellites would use space’s plentiful solar energy and cooling to take load off the Earth, where the International Energy Agency expects data centres’ electricity use could more than double to 945 terawatt-hours a year by 2030."
+                }
+              ]
+            },
+            {
+              "subhead": "Can it be done?",
+              "blocks": [
+                {
+                  "text": "Ulrich Speidel of the University of Auckland told the Science Media Centre that putting data centres in space is “somewhat attractive” because solar power is more available, but that cooling is hard, DW reported."
+                },
+                {
+                  "quote": "The only way to remove heat from a satellite in a vacuum is to radiate it away, rather than dissipate it as we can do here on Earth using water or air cooling.",
+                  "speaker": "Ulrich Speidel, University of Auckland",
+                  "sourceId": "dw-world"
+                },
+                {
+                  "text": "Richard Easther, a physicist at the same university, said the project is “at the very edge of technical feasibility” and that the FCC timeline looks unrealistic, though he noted that Starlink would have sounded far-fetched 15 years ago. Laura Revell of the University of Canterbury calculated that meeting the deadline of 25 November 2040 would mean launching about eight satellites an hour from now on."
+                }
+              ]
+            },
+            {
+              "subhead": "Ozone, debris and the night sky",
+              "blocks": [
+                {
+                  "text": "Revell told the Science Media Centre she was “extremely concerned” about pollution from so many launches, which can deplete the ozone layer, and said satellites burning up on re-entry after about five years turn the atmosphere into “a crematorium for satellites”, DW reported. The long-term effects of the vaporised metals are unknown, she said."
+                },
+                {
+                  "text": "Michael Brown, an astronomer at Monash University, said Starmind would increase the number of active satellites in orbit more than 50-fold, raising the risk of collisions that could lead to Kessler syndrome, a cascade that would make low Earth orbit unusable. Easther warned that the satellites’ large solar panels could have “devastating effects” on astronomy. Revell said the FCC had made a decision with global consequences on its own, dismissing environmental concerns as “outside its purview”."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Satellites approved",
+              "value": "1 million",
+              "source": "FCC, via DW"
+            },
+            {
+              "label": "Required in orbit by 2035",
+              "value": "100,000",
+              "source": "DW"
+            },
+            {
+              "label": "Launches needed to meet deadline",
+              "value": "~8 an hour",
+              "source": "Laura Revell, via DW"
+            },
+            {
+              "label": "Data-centre power use by 2030",
+              "value": "945 TWh",
+              "source": "IEA, via DW"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "SpaceX’e 1 milyon uydu onayı",
+          "title": "FCC, SpaceX’in 1 milyon uyduluk yapay zekâ veri merkezi planını onayladı",
+          "summary": {
+            "what": "DW’ye göre ABD Federal İletişim Komisyonu (FCC), SpaceX’in yörüngede yapay zekâ veri merkezleri barındıracak 1 milyon uyduluk “Starmind” ağına onay verdi.",
+            "why": "DW’nin aktardığı bilim insanları ozon tabakası, uzay çöpü ve gece gökyüzü için uyarıyor; FCC’nin çevre kaygılarını yetki alanı dışında saydığını söylüyorlar.",
+            "next": "SpaceX’in 2035’e kadar 100 bin, 2038’e kadar ağın yarısı kadar uyduyu yörüngeye koyması gerekiyor; tüm ağ için son tarih 25 Kasım 2040."
+          },
+          "body": [
+            {
+              "subhead": "Yapay zekâ için 1 milyon uydu",
+              "blocks": [
+                {
+                  "text": "DW’nin haberine göre Elon Musk’ın şirketi SpaceX, uzayda yapay zekâ veri merkezleri barındıracak 1 milyon uyduluk bir ağ kurmak için ABD Federal İletişim Komisyonu’ndan (FCC) onay aldı. Projenin adı “Starmind”. The Washington Post, kararın gökbilimcileri hayal kırıklığına uğrattığını yazdı."
+                },
+                {
+                  "text": "DW’ye göre onay bir takvime bağlı: SpaceX, izin verilen uyduların yüzde 10’unu, yani 100 binini 2035’e kadar, yüzde 50’sini de 2038’e kadar yörüngeye yerleştirmek zorunda. SpaceX, uyduların uzaydaki bol güneş enerjisinden ve soğutma olanaklarından yararlanarak Dünya’daki yükü azaltacağını savunuyor. Uluslararası Enerji Ajansı’na göre veri merkezlerinin elektrik tüketimi 2030’a kadar iki katından fazla artarak yılda 945 teravatsaate çıkabilir."
+                }
+              ]
+            },
+            {
+              "subhead": "Gerçekleşebilir mi?",
+              "blocks": [
+                {
+                  "text": "DW’ye göre Auckland Üniversitesi’nden Ulrich Speidel, Science Media Center’a güneş enerjisine daha kolay erişildiği için veri merkezlerini uzaya taşımanın “bir ölçüde cazip” olduğunu, ancak soğutmanın zor olduğunu söyledi."
+                },
+                {
+                  "quote": "Vakumdaki bir uydudan ısıyı atmanın tek yolu onu ışınım yoluyla yaymaktır; burada Dünya’da yaptığımız gibi su ya da hava soğutmasıyla dağıtamazsınız.",
+                  "speaker": "Ulrich Speidel, Auckland Üniversitesi",
+                  "sourceId": "dw-world",
+                  "translated": true
+                },
+                {
+                  "text": "Aynı üniversiteden fizikçi Richard Easther projenin “teknik olarak yapılabilirliğin tam sınırında” olduğunu ve FCC takviminin gerçekçi görünmediğini söyledi; yine de Starlink’in de 15 yıl önce hayal gibi geleceğini hatırlattı. Canterbury Üniversitesi’nden Laura Revell, 25 Kasım 2040 son tarihine yetişmek için bugünden itibaren saatte yaklaşık sekiz uydu fırlatmak gerektiğini hesapladı."
+                }
+              ]
+            },
+            {
+              "subhead": "Ozon, uzay çöpü ve gece gökyüzü",
+              "blocks": [
+                {
+                  "text": "DW’ye göre Revell, ozon tabakasına zarar verebilen bu kadar çok fırlatmanın yol açacağı kirlilikten “son derece endişeli” olduğunu söyledi. Yaklaşık beş yıl sonra atmosfere girip yanan uyduların atmosferi “uydular için bir krematoryuma” çevirdiğini, buharlaşan metallerin uzun vadeli etkisinin bilinmediğini belirtti."
+                },
+                {
+                  "text": "Monash Üniversitesi’nden gökbilimci Michael Brown, Starmind’in yörüngedeki aktif uydu sayısını 50 kattan fazla artıracağını, bunun alçak yörüngeyi kullanılmaz hâle getirebilecek zincirleme çarpışmalar, yani “Kessler sendromu” riskini büyüttüğünü söyledi. Easther, uyduların büyük güneş panellerinin gökbilim için “yıkıcı etkileri” olabileceği uyarısında bulundu. Revell’e göre FCC, küresel sonuçları olan bir kararı tek başına verdi ve çevre kaygılarını “yetki alanı dışında” saydı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Onaylanan uydu sayısı",
+              "value": "1 milyon",
+              "source": "FCC, DW"
+            },
+            {
+              "label": "2035’e kadar yörüngede olmalı",
+              "value": "100 bin",
+              "source": "DW"
+            },
+            {
+              "label": "Son tarih için gereken fırlatma",
+              "value": "Saatte ~8",
+              "source": "Laura Revell, DW"
+            },
+            {
+              "label": "2030’da veri merkezi tüketimi",
+              "value": "945 TWh",
+              "source": "IEA, DW"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T12:09:00.000Z",
+          "sourceId": "dw-world"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "dw-world",
+          "url": "https://www.dw.com/en/ai-data-centers-in-space-millions-of-satellites-and-so-many-unknowns/a-80080166?maca=en-rss-en-world-4025-rdf",
+          "confirms": true
+        },
+        {
+          "sourceId": "hacker-news",
+          "url": "https://www.washingtonpost.com/technology/2026/11/26/fcc-approves-1-million-spacex-data-centers-space-astronomers-are-dismayed/",
+          "confirms": false
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "1238713f440f690e",
+      "section": "tech",
+      "sourceLanguage": "en",
+      "label": "single-source",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "AI booking bots swamp UK restaurants",
+          "title": "Meta’s Muse arrives in the UK as AI bots swamp restaurant bookings",
+          "summary": {
+            "what": "Meta launched its Muse AI assistant in the UK this week, and restaurant owners told the Guardian they are fighting off AI agents that call, email and book tables.",
+            "why": "In the US, the booking platform Resy has banned bots after agents refreshed pages thousands of times and took all the reservations at popular restaurants.",
+            "next": "Meta has deals with Marks & Spencer, Currys, Sainsbury’s and easyJet; UK regulators say Meta has committed to a voluntary monitoring and reporting scheme."
+          },
+          "body": [
+            {
+              "subhead": "A bot on the line",
+              "blocks": [
+                {
+                  "text": "Restaurant owners in the UK are battling AI bots and going back to the telephone instead of online booking, the Guardian reported, as Meta launched its Muse assistant in the country this week. With the user’s permission, Muse gets access to their email and can make restaurant reservations and go shopping on their behalf."
+                },
+                {
+                  "text": "Dave Strauss, co-owner of Bouchon Racine, recently named the UK’s restaurant of the year, answers the phones himself from 11am every day. He told the Guardian that a recent caller sounded human, but something was off, and when he asked, it said: “Yes this is an AI booking process.”"
+                },
+                {
+                  "quote": "I had an argument with the AI bot and told it to never call me again. But that wasn’t very satisfying as it didn’t argue back.",
+                  "speaker": "Dave Strauss, co-owner of Bouchon Racine",
+                  "sourceId": "guardian-ai"
+                }
+              ]
+            },
+            {
+              "subhead": "Lessons from New York",
+              "blocks": [
+                {
+                  "text": "Muse has been downloaded millions of times in the US, where it has caused chaos for restaurants, the Guardian said. Resy banned bots after restaurants on the platform were swarmed by agents that can refresh a page thousands of times and snap up every table. Sources at Resy told the paper they had to ban multiple accounts using bots to book 4 Charles Prime Rib, a New York steakhouse famous for its double wagyu cheeseburger."
+                },
+                {
+                  "text": "Kimberley Coke, a concierge paid by celebrities to secure tables, said the swarm was “terrifying” and could cause “absolute chaos”: with apps, a restaurant has no idea who the guest is and whether they will turn up, and empty tables in December are the worst thing for a restaurant."
+                }
+              ]
+            },
+            {
+              "subhead": "Going analogue",
+              "blocks": [
+                {
+                  "text": "Strauss said his restaurant gets many emails offering to outsource bookings and calls to AI, which only makes it keener to keep its own way. “If I could get rid of online booking, I would,” he said. Jeremy King, who owns Simpson’s in the Strand, Arlington and the Park, said AI’s depersonalisation was making him go “more analogue”, and that diners will find it easier to get a prime table by phone."
+                },
+                {
+                  "text": "Such agents are likely to spread: Meta has deals with Marks & Spencer, Currys, Sainsbury’s and easyJet that let Muse use their websites and apps more easily, the Guardian reported. The Information Commissioner’s Office said Meta had committed to a “voluntary monitoring and reporting scheme”, and the Competition and Markets Authority said talks had led to fairer terms and conditions."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Muse downloads in the US",
+              "value": "Millions",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Bouchon Racine phone line opens",
+              "value": "11am",
+              "source": "Dave Strauss, via the Guardian"
+            },
+            {
+              "label": "UK retail partners named",
+              "value": "4",
+              "source": "The Guardian"
+            }
+          ]
+        },
+        "tr": {
+          "shortTitle": "Rezervasyon botları restoranları bunalttı",
+          "title": "Meta’nın Muse’u İngiltere’de: Yapay zekâ botları restoranları bunalttı",
+          "summary": {
+            "what": "Meta bu hafta Muse yapay zekâ asistanını İngiltere’de kullanıma açtı; restoran sahipleri Guardian’a arayan, e-posta atan ve masa ayırtan botlarla uğraştıklarını anlattı.",
+            "why": "ABD’de rezervasyon platformu Resy, sayfayı binlerce kez yenileyip popüler restoranlardaki tüm masaları kapan botları yasakladı.",
+            "next": "Meta’nın Marks & Spencer, Currys, Sainsbury’s ve easyJet ile anlaşmaları var; İngiliz düzenleyiciler Meta’nın gönüllü izleme ve raporlama programına katıldığını söyledi."
+          },
+          "body": [
+            {
+              "subhead": "Telefondaki bot",
+              "blocks": [
+                {
+                  "text": "Guardian’ın haberine göre Meta’nın Muse asistanını bu hafta İngiltere’de kullanıma açmasıyla restoran sahipleri yapay zekâ botlarına karşı mücadele ediyor ve online rezervasyon yerine telefona dönüyor. Kullanıcı izin verirse Muse e-postasına erişiyor, onun adına restoran rezervasyonu yapıp alışveriş edebiliyor."
+                },
+                {
+                  "text": "Kısa süre önce İngiltere’nin yılın restoranı seçilen Bouchon Racine’in ortağı Dave Strauss, her gün saat 11’den itibaren telefonlara kendisi bakıyor. Guardian’a anlattığına göre son aramalardan birinde karşısındaki ses insan gibiydi ama bir şeyler tuhaftı; sorduğunda “Evet, bu bir yapay zekâ rezervasyon işlemi” yanıtını aldı."
+                },
+                {
+                  "quote": "Yapay zekâ botuyla tartıştım ve beni bir daha asla aramamasını söyledim. Ama pek tatmin edici olmadı, çünkü karşılık vermedi.",
+                  "speaker": "Dave Strauss, Bouchon Racine’in ortağı",
+                  "sourceId": "guardian-ai",
+                  "translated": true
+                }
+              ]
+            },
+            {
+              "subhead": "New York’tan dersler",
+              "blocks": [
+                {
+                  "text": "Guardian’a göre Muse ABD’de milyonlarca kez indirildi ve restoranlar için kaosa yol açtı. Resy, platformdaki restoranlar sayfayı binlerce kez yenileyip tüm masaları kapan botların akınına uğrayınca botları yasakladı. Resy’deki kaynaklar, ünlü çift wagyu burgeriyle bilinen New York’taki 4 Charles Prime Rib’e bot kullanarak rezervasyon yapan çok sayıda hesabı kapatmak zorunda kaldıklarını söyledi."
+                },
+                {
+                  "text": "Ünlüler için iyi masa ayarlayan restoran danışmanı Kimberley Coke, bot akınının “korkutucu” olduğunu ve “tam bir kaos” yaratabileceğini söyledi: Uygulamalarla restoran, gelenin kim olduğunu ve gelip gelmeyeceğini bilemiyor; aralıkta boş masa bir restoranın başına gelebilecek en kötü şey."
+                }
+              ]
+            },
+            {
+              "subhead": "“Daha analog”",
+              "blocks": [
+                {
+                  "text": "Strauss, rezervasyon ve telefonların yapay zekâya devredilmesini öneren çok sayıda e-posta aldıklarını, bunun kendi yöntemlerine daha sıkı sarılmalarına yol açtığını söyledi: “Online rezervasyondan kurtulabilsem kurtulurdum.” Simpson’s in the Strand, Arlington ve the Park’ın sahibi Jeremy King de yapay zekânın ilişkileri kişisizleştirmesinin kendisini “daha analog” olmaya ittiğini, iyi masayı telefonla bulmanın daha kolay olacağını anlattı."
+                },
+                {
+                  "text": "Guardian’a göre bu tür ajanlar yaygınlaşacak: Meta’nın Marks & Spencer, Currys, Sainsbury’s ve easyJet ile Muse’un sitelerini ve uygulamalarını daha kolay kullanmasını sağlayan anlaşmaları var. Veri koruma kurumu ICO, Meta’nın “gönüllü bir izleme ve raporlama programına” katıldığını; rekabet kurumu CMA ise görüşmelerin ardından kullanım koşullarının daha adil hâle getirildiğini açıkladı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Muse’un ABD’deki indirilmesi",
+              "value": "Milyonlarca",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Bouchon Racine telefon saati",
+              "value": "11.00",
+              "source": "Dave Strauss, The Guardian"
+            },
+            {
+              "label": "Adı geçen İngiliz ortak",
+              "value": "4",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T08:00:34.000Z",
+          "sourceId": "guardian-ai"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "guardian-ai",
+          "url": "https://www.theguardian.com/business/2026/nov/28/ai-bots-wreak-havoc-uk-restaurant-bookings-meta-muse",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "1e07d8a54d466de6",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": false,
+      "versions": {
+        "en": {
+          "shortTitle": "Blast beside Afghan school kills students",
+          "title": "Explosion beside a school in Afghanistan’s Kunar kills at least 10 students",
+          "summary": {
+            "what": "At least 10 students were killed and about 110 injured when explosives stored in a house next to a school in Asadabad, eastern Afghanistan, blew up on Saturday.",
+            "why": "Officials blamed negligence at a depot holding dynamite for mining, an industry where safety standards are often poor, Al Jazeera and the BBC reported.",
+            "next": "An investigation is under way; up to 15 of the wounded remain in hospital, a provincial official said."
+          },
+          "body": [
+            {
+              "subhead": "Explosion at 10am",
+              "blocks": [
+                {
+                  "text": "At least 10 students were killed and about 110 injured on Saturday in an explosion next to a school in Asadabad, the capital of Kunar province in eastern Afghanistan, the interior ministry of the Taliban government said, according to Al Jazeera and the BBC. Earlier figures given to NPR and other outlets spoke of seven dead and more than 90 wounded."
+                },
+                {
+                  "text": "The blast happened at about 10am (05:30 GMT) in a house beside a middle school in the Andar Ser area on the outskirts of the city, Kunar’s director of information and culture, Sami ul Haq Bayan, told Al Jazeera. The BBC, citing AFP, said the house was near Shagai Middle School and that explosives were being prepared there for mining and blasting rock."
+                }
+              ]
+            },
+            {
+              "subhead": "Negligence at a mining depot",
+              "blocks": [
+                {
+                  "text": "The house belonged to people involved in mining who had stored dynamite there, Bayan said. The interior ministry spokesman, Abdul Mateen Qani, said on X that initial investigations pointed to “negligence and carelessness” at an explosives depot belonging to nearby mining companies, the BBC reported."
+                },
+                {
+                  "text": "Bayan told the Associated Press, as reported by NPR, that up to 15 of the wounded were still in hospital and the rest had been discharged after treatment. An investigation was under way, he said."
+                },
+                {
+                  "text": "Footage posted on social media showed cars bringing wounded children to a hospital emergency department in Asadabad, and images of the school building, part of which appeared to have collapsed, NPR reported. Pictures from a damaged classroom showed shattered glass and debris around abandoned shoes and school bags, the BBC said."
+                }
+              ]
+            },
+            {
+              "subhead": "A risky industry",
+              "blocks": [
+                {
+                  "text": "Mining is a major industry in Afghanistan, which is rich in iron ore, copper, lead, zinc, gold, coal and precious stones, but safety standards at mining companies are often poor, leading to accidents, Al Jazeera and NPR noted. Gemstone mining is growing in Kunar, where companies extract precious stones that are later sold at auction."
+                },
+                {
+                  "text": "In August, a hand grenade attack at a school complex in Kabul wounded more than 40 children aged between nine and 14, Al Jazeera recalled."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Students killed",
+              "value": "10+",
+              "source": "Interior ministry, via BBC"
+            },
+            {
+              "label": "Injured",
+              "value": "~110",
+              "source": "Interior ministry, via Al Jazeera"
+            },
+            {
+              "label": "Still in hospital",
+              "value": "Up to 15",
+              "source": "Sami ul Haq Bayan, via NPR"
+            },
+            {
+              "label": "Time of the blast",
+              "value": "10am",
+              "source": "Kunar police, via NPR"
+            }
+          ],
+          "place": {
+            "name": "Asadabad",
+            "region": "Kunar, Afghanistan",
+            "lat": 34.87,
+            "lon": 71.15
+          }
+        },
+        "tr": {
+          "shortTitle": "Afgan okulunun yanında patlama",
+          "title": "Afganistan’ın Kunar vilayetinde okulun yanındaki patlamada en az 10 öğrenci öldü",
+          "summary": {
+            "what": "Doğu Afganistan’daki Esadabad’da bir okulun yanındaki evde depolanan patlayıcılar cumartesi günü infilak etti; en az 10 öğrenci öldü, yaklaşık 110 kişi yaralandı.",
+            "why": "Al Jazeera ve BBC’ye göre yetkililer, güvenlik standartlarının çoğu zaman zayıf olduğu madencilikte kullanılan dinamitin tutulduğu depodaki ihmali sorumlu tuttu.",
+            "next": "Soruşturma sürüyor; bir vilayet yetkilisine göre yaralılardan 15 kadarı hâlâ hastanede."
+          },
+          "body": [
+            {
+              "subhead": "Saat 10’da gelen patlama",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve BBC’nin aktardığına göre Taliban hükümetinin İçişleri Bakanlığı, doğu Afganistan’daki Kunar vilayetinin merkezi Esadabad’da cumartesi günü bir okulun yanında meydana gelen patlamada en az 10 öğrencinin öldüğünü, yaklaşık 110 kişinin yaralandığını açıkladı. NPR’ın ve başka kuruluşların aktardığı ilk rakamlar 7 ölü ve 90’dan fazla yaralıydı."
+                },
+                {
+                  "text": "Kunar Bilgi ve Kültür Müdürü Sami ul Haq Bayan, Al Jazeera’ya patlamanın yerel saatle 10.00 sularında (05.30 GMT) kent çeperindeki Andar Ser bölgesinde bir ortaokulun yanındaki evde olduğunu söyledi. AFP’ye dayanan BBC’ye göre ev Shagai Ortaokulu’nun yakınındaydı ve orada madencilik ve kaya patlatma için patlayıcı hazırlanıyordu."
+                }
+              ]
+            },
+            {
+              "subhead": "Maden deposunda ihmal",
+              "blocks": [
+                {
+                  "text": "Bayan’a göre ev, madencilikle uğraşan ve orada dinamit depolayan kişilere aitti. BBC’ye göre İçişleri Bakanlığı Sözcüsü Abdul Mateen Qani, X’te ilk incelemelerin yakındaki maden şirketlerine ait patlayıcı deposundaki “ihmal ve dikkatsizliğe” işaret ettiğini yazdı."
+                },
+                {
+                  "text": "NPR’ın aktardığına göre Bayan, Associated Press’e yaralılardan 15 kadarının hâlâ hastanede olduğunu, diğerlerinin tedavinin ardından taburcu edildiğini söyledi. Olayla ilgili soruşturma başlatıldı."
+                },
+                {
+                  "text": "NPR’a göre sosyal medyada paylaşılan görüntülerde yaralı çocukların araçlarla Esadabad’daki bir hastanenin acil servisine getirildiği ve okul binasının bir bölümünün çöktüğü görülüyordu. BBC’ye göre hasar gören bir sınıftan gelen fotoğraflarda kırık camlar ve molozların arasında kalmış ayakkabılar ve okul çantaları vardı."
+                }
+              ]
+            },
+            {
+              "subhead": "Riskli bir sektör",
+              "blocks": [
+                {
+                  "text": "Al Jazeera ve NPR’ın hatırlattığına göre demir, bakır, kurşun, çinko, altın, kömür ve değerli taşlar bakımından zengin Afganistan’da madencilik önemli bir sektör, ancak şirketlerdeki güvenlik standartları çoğu zaman zayıf ve kazalara yol açıyor. Kunar’da çıkarılıp açık artırmayla satılan değerli taş madenciliği giderek yaygınlaşıyor."
+                },
+                {
+                  "text": "Al Jazeera’ya göre ağustosta Kabil’deki bir okul kompleksine düzenlenen el bombalı saldırıda 9 ile 14 yaş arası 40’tan fazla çocuk yaralanmıştı."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Ölen öğrenci",
+              "value": "10+",
+              "source": "İçişleri Bakanlığı, BBC"
+            },
+            {
+              "label": "Yaralı",
+              "value": "~110",
+              "source": "İçişleri Bakanlığı, Al Jazeera"
+            },
+            {
+              "label": "Hâlâ hastanede",
+              "value": "15’e kadar",
+              "source": "Sami ul Haq Bayan, NPR"
+            },
+            {
+              "label": "Patlama saati",
+              "value": "10.00",
+              "source": "Kunar emniyeti, NPR"
+            }
+          ],
+          "place": {
+            "name": "Esadabad",
+            "region": "Kunar, Afganistan",
+            "lat": 34.87,
+            "lon": 71.15
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T07:42:09.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T11:07:35.000Z",
+          "sourceId": "scmp-world"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T11:07:35.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T11:32:37.000Z",
+          "sourceId": "npr-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T14:10:01.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
+          "confirms": true
+        },
+        {
+          "sourceId": "npr-world",
+          "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "4a5a0790d467e2db",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "versions": {
+        "en": {
+          "shortTitle": "Argentina loses Falklands oil bid",
+          "title": "Sea tribunal rejects Argentina’s bid to stop Falklands oil drilling, 18–3",
+          "summary": {
+            "what": "The International Tribunal for the Law of the Sea rejected Argentina’s request to suspend the Sea Lion oil project off the Falkland Islands, saying it had no jurisdiction over sovereignty.",
+            "why": "Sea Lion could double the islands’ GDP, with an £8bn uplift over its lifetime, the Guardian reported; President Milei calls reclaiming the islands a “national cause”.",
+            "next": "Drilling starts in March with oil from 2028; an arbitration tribunal will hear the substance, and Argentina has opened new sanction proceedings against five entities."
+          },
+          "body": [
+            {
+              "subhead": "Eighteen judges against three",
+              "blocks": [
+                {
+                  "text": "Argentina has failed in its attempt to halt the Sea Lion oil project off the Falkland Islands. The International Tribunal for the Law of the Sea (Itlos) rejected its application on Saturday, the Guardian, the BBC and Al Jazeera reported. Reading the decision, the tribunal’s president, Maurice Kamga, said there appeared to be no basis for jurisdiction because the court could not rule on sovereignty; 18 judges voted to reject Argentina’s claims and three to uphold them, the Guardian said."
+                },
+                {
+                  "text": "Argentina launched arbitration against Britain over the project in September, Al Jazeera reported, and asked the Hamburg-based court for emergency measures to ensure that “no new drilling for exploitation, and no installation of production infrastructure” takes place until the dispute is settled."
+                }
+              ]
+            },
+            {
+              "subhead": "An oilfield that could double the economy",
+              "blocks": [
+                {
+                  "text": "Sea Lion, in the North Falkland basin, is led by Israel’s Navitas Petroleum and Britain’s Rockhopper Exploration. Drilling starts in March and oil will be extracted from 2028 for 35 years, the Guardian reported, with the potential to double the islands’ GDP and a cumulative uplift of £8bn. The BBC said the field, about 130 miles (209km) from the islands, holds an estimated 1.7 billion barrels, potentially generating huge revenues for roughly 3,500 inhabitants."
+                },
+                {
+                  "text": "In a joint statement, the UK foreign secretary Ed Miliband and the attorney general Ellie Reeves said:"
+                },
+                {
+                  "quote": "Argentina sought to stop the Falkland Islanders making their own sovereign decisions and failed in this attempt.",
+                  "speaker": "Ed Miliband and Ellie Reeves",
+                  "sourceId": "guardian-world"
+                },
+                {
+                  "text": "They urged Argentina to end its “wider economic pressure” against the islands, the Guardian reported."
+                }
+              ]
+            },
+            {
+              "subhead": "“Not the final word”",
+              "blocks": [
+                {
+                  "text": "President Javier Milei said the decision “is not the final word” and that Argentina would assert its rights through all diplomatic, legal and administrative channels, Al Jazeera reported. His spokesperson said new sanction proceedings had been opened against five entities over the drilling, the Guardian said. “The message is clear: those who participate in the illegal exploitation of our resources will face the consequences,” the government statement said, according to the BBC."
+                },
+                {
+                  "text": "An arbitration tribunal will now consider the substance of the dispute, but its decision could take years, by which time oil production will have begun, the Guardian noted. The two countries fought a 74-day war over the islands in 1982, and in a 2013 referendum 99.8% of islanders voted to remain a British overseas territory, the BBC reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Tribunal vote",
+              "value": "18–3",
+              "source": "Itlos, via the Guardian and BBC"
+            },
+            {
+              "label": "Estimated oil in the field",
+              "value": "1.7bn barrels",
+              "source": "BBC"
+            },
+            {
+              "label": "Uplift over the project’s life",
+              "value": "£8bn",
+              "source": "The Guardian"
+            },
+            {
+              "label": "First oil",
+              "value": "2028",
+              "source": "The Guardian"
+            },
+            {
+              "label": "Islanders voting to stay British, 2013",
+              "value": "99.8%",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Stanley",
+            "region": "Falkland Islands",
+            "lat": -51.69,
+            "lon": -57.86
+          }
+        },
+        "tr": {
+          "shortTitle": "Arjantin’in Falkland petrolü itirazı reddedildi",
+          "title": "Deniz hukuku mahkemesi Arjantin’in Falkland petrolü talebini 18’e 3 oyla reddetti",
+          "summary": {
+            "what": "Uluslararası Deniz Hukuku Mahkemesi, Arjantin’in Falkland Adaları açığındaki Sea Lion petrol projesinin durdurulması talebini egemenlik konusunda yetkisi olmadığı gerekçesiyle reddetti.",
+            "why": "Guardian’a göre Sea Lion adaların GSYİH’sini ikiye katlayabilir ve proje boyunca 8 milyar sterlinlik katkı sağlayabilir; Milei adaları geri almayı “milli dava” sayıyor.",
+            "next": "Sondaj martta başlayacak, petrol 2028’de çıkacak; esası tahkim mahkemesi görecek, Arjantin de beş kuruluş hakkında yeni yaptırım süreci başlattı."
+          },
+          "body": [
+            {
+              "subhead": "18’e karşı 3 oy",
+              "blocks": [
+                {
+                  "text": "Guardian, BBC ve Al Jazeera’nın haberine göre Arjantin, Falkland Adaları açığındaki Sea Lion petrol projesini durdurma girişiminde başarısız oldu. Uluslararası Deniz Hukuku Mahkemesi (ITLOS) cumartesi günü başvuruyu reddetti. Guardian’a göre kararı okuyan mahkeme başkanı Maurice Kamga, egemenlik meselelerinde karar veremeyeceği için yetkisi olduğuna dair bir dayanak görülmediğini söyledi; 18 yargıç Arjantin’in taleplerinin reddi, 3 yargıç kabulü yönünde oy kullandı."
+                },
+                {
+                  "text": "Al Jazeera’ya göre Arjantin eylülde proje nedeniyle İngiltere’ye karşı tahkim süreci başlatmış, Hamburg’daki mahkemeden anlaşmazlık çözülene kadar “sömürü amaçlı yeni sondaj yapılmaması ve üretim altyapısı kurulmaması” için acil tedbir istemişti."
+                }
+              ]
+            },
+            {
+              "subhead": "Ekonomiyi ikiye katlayabilecek saha",
+              "blocks": [
+                {
+                  "text": "Kuzey Falkland havzasındaki Sea Lion projesini İsrailli Navitas Petroleum ile İngiliz Rockhopper Exploration yürütüyor. Guardian’a göre sondaj martta başlayacak, petrol 2028’den itibaren 35 yıl boyunca çıkarılacak; proje adaların GSYİH’sini ikiye katlayabilir ve toplamda 8 milyar sterlinlik katkı sağlayabilir. BBC’ye göre adalara yaklaşık 209 kilometre uzaklıktaki sahada tahminen 1,7 milyar varil petrol var ve bu, yaklaşık 3.500 kişilik ada nüfusu için büyük gelir anlamına gelebilir."
+                },
+                {
+                  "text": "İngiltere Dışişleri Bakanı Ed Miliband ile Başsavcı Ellie Reeves ortak açıklamalarında şöyle dedi:"
+                },
+                {
+                  "quote": "Arjantin, Falkland halkının kendi egemen kararlarını vermesini engellemeye çalıştı ve bu girişimde başarısız oldu.",
+                  "speaker": "Ed Miliband ve Ellie Reeves",
+                  "sourceId": "guardian-world",
+                  "translated": true
+                },
+                {
+                  "text": "Guardian’a göre ikili, Arjantin’i adalara yönelik “daha geniş ekonomik baskısına” son vermeye çağırdı."
+                }
+              ]
+            },
+            {
+              "subhead": "“Son söz değil”",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre Devlet Başkanı Javier Milei, kararın “son söz olmadığını”, Arjantin’in tüm diplomatik, hukuki ve idari yollarla haklarını savunacağını söyledi. Guardian’a göre Milei’nin sözcüsü, sondaj nedeniyle beş kuruluş hakkında yeni yaptırım süreci başlatıldığını açıkladı. BBC’nin aktardığı hükümet açıklamasında “Mesaj açık: Kaynaklarımızın yasa dışı işletilmesine katılanlar bunun sonuçlarına katlanacak” denildi."
+                },
+                {
+                  "text": "Guardian’a göre esası artık bir tahkim mahkemesi görecek, ancak karar yıllar sürebilir ve o zamana kadar petrol üretimi başlamış olacak. BBC’ye göre iki ülke 1982’de adalar için 74 gün süren bir savaş yaptı; 2013’teki referandumda ada halkının yüzde 99,8’i İngiliz denizaşırı toprağı olarak kalmak istedi."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Mahkemedeki oylama",
+              "value": "18–3",
+              "source": "ITLOS, Guardian ve BBC"
+            },
+            {
+              "label": "Sahadaki tahmini petrol",
+              "value": "1,7 milyar varil",
+              "source": "BBC"
+            },
+            {
+              "label": "Proje boyunca katkı",
+              "value": "8 milyar £",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İlk petrol",
+              "value": "2028",
+              "source": "The Guardian"
+            },
+            {
+              "label": "İngiliz kalmak isteyenler, 2013",
+              "value": "%99,8",
+              "source": "BBC"
+            }
+          ],
+          "place": {
+            "name": "Stanley",
+            "region": "Falkland Adaları",
+            "lat": -51.69,
+            "lon": -57.86
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T13:22:10.000Z",
+          "sourceId": "guardian-world"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T13:24:24.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T13:24:24.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T13:36:36.000Z",
+          "sourceId": "bbc-world"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1615/live/b6e6bd30-eb1d-11f1-8743-3f686b14075c.jpg",
+        "sourceId": "bbc-world",
+        "sourceName": "BBC News World",
+        "articleUrl": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss"
+      },
+      "sources": [
+        {
+          "sourceId": "guardian-world",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/28/argentina-oil-drilling-falkland-islands-international-tribunal",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "bbc-world",
+          "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    },
+    {
+      "id": "41e97f6bfde1ee28",
+      "section": "world",
+      "sourceLanguage": "en",
+      "label": "confirmed",
+      "developing": true,
+      "continues": "34a04aa6806b5c9c",
+      "versions": {
+        "en": {
+          "news": "The KMT’s Chiang Wan-an held Taipei after Puma Shen conceded, while the DPP looked set to take back Taichung.",
+          "shortTitle": "KMT holds Taipei, DPP takes Taichung",
+          "title": "KMT holds Taipei as Puma Shen concedes; DPP retakes Taichung",
+          "summary": {
+            "what": "Taipei’s KMT mayor Chiang Wan-an won re-election after his DPP rival Puma Shen conceded, in local elections for some 11,000 posts across Taiwan.",
+            "why": "The DPP looked set to win three of the six big municipalities, including Taichung, which the KMT had held, Al Jazeera reported; campaigns now turn to 2028.",
+            "next": "Campaigns for the 2028 presidential and parliamentary elections are expected to start after these results, Al Jazeera said."
+          },
+          "body": [
+            {
+              "subhead": "Chiang re-elected in Taipei",
+              "blocks": [
+                {
+                  "text": "Taipei mayor Chiang Wan-an of the opposition Kuomintang (KMT) was re-elected on Saturday after a tight race, France 24 and Al Jazeera reported. His main rival, the academic Puma Shen of the ruling Democratic Progressive Party (DPP), whom France 24 described as a China critic, conceded defeat late on Saturday. Chiang won by a double-digit margin at the previous election and is seen as a possible future presidential candidate, Al Jazeera said."
+                },
+                {
+                  "text": "Voters cast ballots for some 11,000 positions across Taiwan’s 16 counties and six municipalities, its largest cities, in elections closely watched by China, which considers the self-ruling island part of its territory and has pledged to take it by force if necessary."
+                }
+              ]
+            },
+            {
+              "subhead": "The DPP wins back Taichung",
+              "blocks": [
+                {
+                  "text": "The DPP looked set to win half of the six municipalities, taking back Taichung, the island’s second most populous city, along with Tainan and Kaohsiung, Al Jazeera reported. The KMT was likely to hold New Taipei City, the most populous municipality, and Taoyuan as well as the capital."
+                },
+                {
+                  "text": "The South China Morning Post reported that the KMT’s Johnny Chiang lost the Taichung race, calling it a possible blow ahead of 2028. In the last local elections the KMT dominated, winning 14 cities and counties against the DPP’s five, with other parties and independents taking three."
+                }
+              ]
+            },
+            {
+              "subhead": "Looking to 2028",
+              "blocks": [
+                {
+                  "text": "The campaigns focused on domestic issues such as transport, childcare and the environment rather than ties with China, Al Jazeera said. The KMT traditionally favours closer ties with Beijing, and its chairwoman Cheng Li-wun met Chinese President Xi Jinping in April, while the DPP rejects China’s sovereignty claims."
+                },
+                {
+                  "text": "On Friday, Taiwan’s defence ministry said 33 Chinese warplanes, including bombers and fighter jets, and eight warships encircled the island. Preparations for the 2028 presidential and parliamentary elections are expected to begin after Saturday’s results. President William Lai Ching-te of the DPP is likely to run again, while the outgoing Taichung mayor Lu Shiow-yen could be the KMT’s frontrunner, Al Jazeera reported."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Posts up for election",
+              "value": "~11,000",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Municipalities the DPP looked set to win",
+              "value": "3 of 6",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "KMT wins at the last local vote",
+              "value": "14",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Chinese warplanes around Taiwan on Friday",
+              "value": "33",
+              "source": "Taiwan defence ministry, via Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Taipei",
+            "region": "Taiwan",
+            "lat": 25.03,
+            "lon": 121.57
+          }
+        },
+        "tr": {
+          "news": "Taipei’de KMT’li Chiang Wan-an, Puma Shen’in yenilgiyi kabul etmesiyle yeniden seçildi; DPP Taichung’u geri almaya yakın.",
+          "shortTitle": "Taipei KMT’de kaldı, DPP Taichung’u aldı",
+          "title": "Taipei’de KMT’li Chiang kazandı, DPP Taichung’u geri almaya yakın",
+          "summary": {
+            "what": "Taipei’nin KMT’li Belediye Başkanı Chiang Wan-an, DPP’li rakibi Puma Shen’in yenilgiyi kabul etmesiyle yeniden seçildi; seçimde yaklaşık 11 bin görev için oy kullanıldı.",
+            "why": "Al Jazeera’ya göre DPP altı büyük kentten üçünü, KMT’nin 2028 için öne çıkan ismi Lu Shiow-yen’in görevden ayrıldığı Taichung dahil, kazanmaya yakın.",
+            "next": "Al Jazeera’ya göre 2028 cumhurbaşkanlığı ve parlamento seçimleri için kampanyaların bu sonuçların ardından başlaması bekleniyor."
+          },
+          "body": [
+            {
+              "subhead": "Taipei’de Chiang yeniden seçildi",
+              "blocks": [
+                {
+                  "text": "France 24 ve Al Jazeera’nın haberine göre muhalefetteki Kuomintang’ın (KMT) Taipei Belediye Başkanı Chiang Wan-an, cumartesi günü çekişmeli geçen yarışın ardından yeniden seçildi. France 24’ün Çin eleştirmeni olarak tanımladığı, iktidardaki Demokratik İlerici Parti’nin (DPP) adayı akademisyen Puma Shen, cumartesi akşamı yenilgiyi kabul etti. Al Jazeera’ya göre önceki seçimi çift haneli farkla kazanan Chiang, gelecekte cumhurbaşkanı adayı olabilecek isimler arasında görülüyor."
+                },
+                {
+                  "text": "Seçmenler Tayvan’ın 16 ilçesi ve en büyük kentleri olan altı belediyesinde yaklaşık 11 bin görev için sandığa gitti. Seçim, özerk adayı kendi toprağı sayan ve gerekirse zorla birleşme sözü veren Çin tarafından yakından izlendi."
+                }
+              ]
+            },
+            {
+              "subhead": "DPP Taichung’u geri alıyor",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre DPP, adanın en kalabalık ikinci kenti Taichung’u geri alarak Tainan ve Kaohsiung ile birlikte altı büyük belediyenin yarısını kazanmaya yakın görünüyordu. KMT’nin ise başkentin yanı sıra en kalabalık belediye olan Yeni Taipei ile Taoyuan’ı kazanması bekleniyordu."
+                },
+                {
+                  "text": "South China Morning Post, KMT’li Johnny Chiang’ın Taichung yarışını kaybettiğini ve bunun 2028 öncesinde parti için olası bir darbe olduğunu yazdı. Önceki yerel seçimlerde KMT 14 kent ve ilçede kazanmış, DPP 5’te kalmış, diğer partiler ve bağımsızlar 3 yer almıştı."
+                }
+              ]
+            },
+            {
+              "subhead": "Gözler 2028’de",
+              "blocks": [
+                {
+                  "text": "Al Jazeera’ya göre kampanyalarda Çin ile ilişkilerden çok ulaşım, çocuk bakımı ve çevre gibi iç meseleler öne çıktı. KMT geleneksel olarak Pekin’le daha yakın ilişkileri savunuyor; partinin genel başkanı Cheng Li-wun nisanda Çin Devlet Başkanı Şi Cinping ile görüştü. DPP ise Çin’in egemenlik iddialarını reddediyor."
+                },
+                {
+                  "text": "Tayvan Savunma Bakanlığı, cuma günü aralarında bombardıman uçakları ve savaş jetlerinin de bulunduğu 33 Çin savaş uçağı ile 8 savaş gemisinin adayı çevrelediğini açıkladı. Al Jazeera’ya göre 2028 cumhurbaşkanlığı ve parlamento seçimleri için hazırlıkların bu sonuçların ardından başlaması bekleniyor; DPP’li Devlet Başkanı William Lai Ching-te’nin yeniden aday olması, görevden ayrılan Taichung Belediye Başkanı Lu Shiow-yen’in ise KMT’nin favorisi olması bekleniyor."
+                }
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "label": "Seçimdeki görev sayısı",
+              "value": "~11 bin",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "DPP’nin kazanmaya yakın olduğu kent",
+              "value": "6’da 3",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "KMT’nin önceki seçimde kazandığı yer",
+              "value": "14",
+              "source": "Al Jazeera"
+            },
+            {
+              "label": "Cuma günü adayı çevreleyen Çin uçağı",
+              "value": "33",
+              "source": "Tayvan Savunma Bakanlığı, Al Jazeera"
+            }
+          ],
+          "place": {
+            "name": "Taipei",
+            "region": "Tayvan",
+            "lat": 25.03,
+            "lon": 121.57
+          }
+        }
+      },
+      "timeline": [
+        {
+          "kind": "first-reported",
+          "at": "2026-11-28T10:49:21.000Z",
+          "sourceId": "france-24"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:36:19.000Z",
+          "sourceId": "al-jazeera"
+        },
+        {
+          "kind": "label-changed",
+          "at": "2026-11-28T12:36:19.000Z",
+          "from": "single-source",
+          "to": "confirmed"
+        },
+        {
+          "kind": "outlet-joined",
+          "at": "2026-11-28T12:54:12.000Z",
+          "sourceId": "scmp-world"
+        }
+      ],
+      "image": {
+        "url": "https://s.france24.com/media/display/ecc14cb8-eb18-11f1-99a7-f9cf020caef6/w:1024/p:16x9/2026-11-28T051224Z-1681141522-RC2RWOA8RD0E-RTRMADP-3-TAIWAN-ELECTION.jpg",
+        "sourceId": "france-24",
+        "sourceName": "France 24",
+        "articleUrl": "https://www.france24.com/en/taiwan-awaits-local-election-results-as-china-watches"
+      },
+      "sources": [
+        {
+          "sourceId": "france-24",
+          "url": "https://www.france24.com/en/taiwan-awaits-local-election-results-as-china-watches",
+          "confirms": true
+        },
+        {
+          "sourceId": "al-jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-opposition-party-wins-re-election-in-taipei-mayoral-race?traffic_source=rss",
+          "confirms": true
+        },
+        {
+          "sourceId": "scmp-world",
+          "url": "https://www.scmp.com/news/china/politics/article/3376143/taiwan-elections-kmts-johnny-chiang-loses-key-taichung-race-possible-2028-blow",
+          "confirms": true
+        }
+      ],
+      "publishedAt": "2026-11-28T18:30:00+03:00",
+      "updatedAt": "2026-11-28T18:30:00+03:00"
+    }
+  ],
+  "quiz": [
+    {
+      "storyId": "fbd3de0d361c009f",
+      "answer": 2,
+      "versions": {
+        "en": {
+          "question": "In how many provinces did police carry out Saturday’s “Ailem Güvende” raids?",
+          "options": ["15", "81", "31"]
+        },
+        "tr": {
+          "question": "Cumartesi günkü “Ailem Güvende” operasyonu kaç ilde yapıldı?",
+          "options": ["15", "81", "31"]
+        }
+      }
+    },
+    {
+      "storyId": "ec90b87d72c7b2a3",
+      "answer": 0,
+      "versions": {
+        "en": {
+          "question": "How many satellites did the FCC approve for SpaceX’s “Starmind” network?",
+          "options": ["1 million", "100,000", "12,000"]
+        },
+        "tr": {
+          "question": "FCC, SpaceX’in “Starmind” ağı için kaç uyduya onay verdi?",
+          "options": ["1 milyon", "100 bin", "12 bin"]
+        }
+      }
+    },
+    {
+      "storyId": "4a5a0790d467e2db",
+      "answer": 1,
+      "versions": {
+        "en": {
+          "question": "By what vote did the sea tribunal reject Argentina’s bid to stop Falklands drilling?",
+          "options": ["11–10", "18–3", "21–0"]
+        },
+        "tr": {
+          "question": "Deniz hukuku mahkemesi Arjantin’in Falkland talebini kaça kaç oyla reddetti?",
+          "options": ["11’e 10", "18’e 3", "21’e 0"]
+        }
+      }
+    }
+  ]
+}
