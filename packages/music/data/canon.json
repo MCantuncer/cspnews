@@ -230,6 +230,36 @@
     }
   },
   {
+    "genre": "turkey",
+    "title": "Suspus",
+    "artists": ["Ceza"],
+    "year": 2004,
+    "standing": {
+      "kind": "editor",
+      "note": "From Rapstar: Ceza's fast, flexing verses at the height of his run."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Yerli Plaka",
+    "artists": ["Ceza"],
+    "year": 2006,
+    "standing": {
+      "kind": "editor",
+      "note": "Title track of Yerli Plaka, the Ceza record many call Turkish rap's best."
+    }
+  },
+  {
+    "genre": "turkey",
+    "title": "Heyecanı Yok",
+    "artists": ["Gazapizm"],
+    "year": 2017,
+    "standing": {
+      "kind": "editor",
+      "note": "Gazapizm's breakthrough single, a dark, steady flow that crossed over."
+    }
+  },
+  {
     "genre": "techno",
     "title": "Spastik",
     "artists": ["Plastikman"],
@@ -843,6 +873,66 @@
     "standing": {
       "kind": "editor",
       "note": "Pilooski and Pentile's Discodeine with Jarvis Cocker on vocals; a dark disco 12-inch from 2010."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Wheel Me Out",
+    "artists": ["Was (Not Was)"],
+    "year": 1980,
+    "standing": {
+      "kind": "editor",
+      "note": "ZE Records' first Was (Not Was) single: Detroit funk, spoken word and no-wave noise."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Shack Up",
+    "artists": ["A Certain Ratio"],
+    "year": 1980,
+    "standing": {
+      "kind": "editor",
+      "note": "Factory-era dance-punk cover with a tight funk bass; a cornerstone of the post-punk dancefloor."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Go Bang!",
+    "artists": ["Dinosaur L"],
+    "year": 1982,
+    "standing": {
+      "kind": "editor",
+      "note": "Arthur Russell's mutant disco 12-inch on Sleeping Bag, later remixed by François K."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "I'll Be by Your Side",
+    "artists": ["Sally Shapiro"],
+    "year": 2006,
+    "standing": {
+      "kind": "editor",
+      "note": "Swedish italo revival single by Johan Agebjörn and Sally Shapiro, from Disco Romance."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "Bostich",
+    "artists": ["Yello"],
+    "year": 1980,
+    "standing": {
+      "kind": "editor",
+      "note": "Yello's early electro-funk record from Solid Pleasure, a touchstone for electro and new beat."
+    }
+  },
+  {
+    "genre": "indiedance",
+    "title": "15 to 20",
+    "artists": ["The Phenomenal Handclap Band"],
+    "year": 2009,
+    "standing": {
+      "kind": "editor",
+      "note": "Brooklyn band's psych-disco cut from their debut album, a DJ favourite of the nu-disco years."
     }
   }
 ]
